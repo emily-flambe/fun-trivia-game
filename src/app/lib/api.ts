@@ -24,10 +24,11 @@ export interface ExerciseSummary {
 	itemCount?: number;
 }
 
-// Item as returned by GET /api/exercises/:path — answers stripped
+// Item as returned by GET /api/exercises/:path — answers stripped, explanations kept
 export interface PublicItem {
 	id: string;
 	exerciseId: string;
+	explanation: string;
 	data: Record<string, any>;
 	sortOrder: number;
 }

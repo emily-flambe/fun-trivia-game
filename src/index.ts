@@ -115,7 +115,7 @@ async function handleCheckAnswer(exercisePath: string, request: Request, repo: N
 }
 
 function stripItemAnswers(item: any): any {
-	const { answer, alternates, explanation, ...safe } = item;
+	const { answer, alternates, ...safe } = item;
 	return safe;
 }
 

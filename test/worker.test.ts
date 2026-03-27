@@ -178,13 +178,13 @@ describe('Trivia API', () => {
 			expect(data.items).toHaveLength(3);
 		});
 
-		it('strips answer, alternates, and explanation from items', async () => {
+		it('strips answer and alternates but keeps explanation', async () => {
 			const res = await makeRequest('/api/exercises/science/chemistry/element-symbols');
 			const data = await res.json<any>();
 			for (const item of data.items) {
 				expect(item).not.toHaveProperty('answer');
 				expect(item).not.toHaveProperty('alternates');
-				expect(item).not.toHaveProperty('explanation');
+				expect(item).toHaveProperty('explanation');
 			}
 		});
 

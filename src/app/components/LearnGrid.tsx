@@ -8,44 +8,30 @@ interface Props {
 }
 
 export function LearnGrid({ exercise, items, exercisePath }: Props) {
-	const [flippedCards, setFlippedCards] = useState<Set<string>>(new Set());
+	const [selectedId, setSelectedId] = useState<string | null>(null);
 	const [reversed, setReversed] = useState(false);
 
 	const nodeId = exercise.nodeId;
-	const allFlipped = flippedCards.size === items.length;
 
 	// Check if items have cardFront/cardBack in data for reversible mode
 	const hasCardFields = items.some((item) => item.data?.cardFront || item.data?.cardBack);
 
-	function toggleCard(id: string) {
-		setFlippedCards((prev) => {
-			const next = new Set(prev);
-			if (next.has(id)) next.delete(id);
-			else next.add(id);
-			return next;
-		});
-	}
-
-	function flipAll() {
-		if (allFlipped) {
-			setFlippedCards(new Set());
-		} else {
-			setFlippedCards(new Set(items.map((item) => item.id)));
-		}
+	function selectCard(id: string) {
+		setSelectedId((prev) => (prev === id ? null : id));
 	}
 
 	function toggleDirection() {
 		setReversed((r) => !r);
-		setFlippedCards(new Set());
+		setSelectedId(null);
 	}
 
-	function cardSides(item: PublicItem) {
-		// In learn mode, card face shows the answer side (cardBack), tap reveals the prompt side (cardFront)
-		// Answers are stripped from the public API, so we rely on data.cardBack / data.cardFront / data.prompt
+	function cardFace(item: PublicItem) {
 		const front = item.data?.cardBack || item.data?.prompt || item.id;
 		const back = item.data?.cardFront || item.data?.prompt || item.id;
-		return reversed ? { front: back, back: front } : { front, back };
+		return reversed ? back : front;
 	}
+
+	const selectedItem = selectedId ? items.find((i) => i.id === selectedId) : null;
 
 	return (
 		<div className="animate-in">
@@ -61,12 +47,6 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 						&#8644; Flip
 					</button>
 				)}
-				<button
-					onClick={flipAll}
-					className="text-sm text-text-tertiary hover:text-accent transition-colors"
-				>
-					{allFlipped ? 'Hide All' : 'Reveal All'}
-				</button>
 				<a
 					href={`#/exercise/${exercisePath}?mode=quiz`}
 					className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
@@ -77,24 +57,44 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 
 			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
 				{items.map((item) => {
-					const isFlipped = flippedCards.has(item.id);
-					const sides = cardSides(item);
+					const isSelected = item.id === selectedId;
 					return (
 						<button
 							key={item.id}
-							onClick={() => toggleCard(item.id)}
+							onClick={() => selectCard(item.id)}
 							className={`rounded-xl p-3 text-left text-sm min-h-[70px] transition-all duration-200 cursor-pointer ${
-								isFlipped
-									? 'bg-surface-raised'
+								isSelected
+									? 'bg-surface-raised ring-2 ring-accent'
 									: 'bg-surface-bright hover:bg-surface-hover'
 							}`}
 						>
-							<div className={`font-medium ${isFlipped ? 'text-accent' : ''}`}>
-								{isFlipped ? sides.back : sides.front}
+							<div className={`font-medium ${isSelected ? 'text-accent' : ''}`}>
+								{cardFace(item)}
 							</div>
 						</button>
 					);
 				})}
+			</div>
+
+			{/* Detail panel */}
+			<div className={`mt-4 bg-surface-raised rounded-xl p-5 min-h-[80px] transition-all duration-200 ${selectedItem ? '' : 'opacity-50'}`}>
+				{selectedItem ? (
+					<div>
+						<div className="flex items-baseline gap-2 mb-2">
+							<span className="text-xl font-bold text-accent">
+								{selectedItem.data?.cardBack || selectedItem.data?.prompt || selectedItem.id}
+							</span>
+							{selectedItem.data?.cardFront && (
+								<span className="text-text-tertiary text-sm">{selectedItem.data.cardFront}</span>
+							)}
+						</div>
+						{selectedItem.explanation && (
+							<div className="text-sm text-text-secondary leading-relaxed">{selectedItem.explanation}</div>
+						)}
+					</div>
+				) : (
+					<div className="text-text-tertiary text-sm">Click a card to see details</div>
+				)}
 			</div>
 		</div>
 	);
