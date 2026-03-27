@@ -1,0 +1,115 @@
+{
+  "id": "sport-grand-slam-tennis",
+  "category": "sports",
+  "name": "Grand Slam Tennis Tournaments",
+  "tier": "foundation",
+  "description": "The four Grand Slam tennis tournaments -- their surfaces, locations, records, and the legends who dominated them",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "slam-count",
+      "question": "How many Grand Slam tennis tournaments are held each year?",
+      "answer": "4",
+      "alternateAnswers": ["four"],
+      "explanation": "The four Grand Slams are the Australian Open, French Open, Wimbledon, and US Open. Winning all four in a single calendar year is called a 'Calendar Grand Slam' -- a feat so rare it has been achieved only a handful of times in singles."
+    },
+    {
+      "id": "slam-wimbledon-surface",
+      "question": "What surface is Wimbledon played on?",
+      "answer": "Grass",
+      "alternateAnswers": ["grass court"],
+      "explanation": "Wimbledon is the only Grand Slam still played on grass, which was once the standard surface for tennis. The grass produces a fast, low bounce that rewards serve-and-volley play, though modern players have adapted baseline games to it as well."
+    },
+    {
+      "id": "slam-french-surface",
+      "question": "What type of surface is the French Open played on?",
+      "answer": "Clay",
+      "alternateAnswers": ["clay court", "red clay"],
+      "explanation": "Roland Garros uses red clay, which slows the ball and produces a high bounce. This surface heavily favors patient baseliners with heavy topspin, which is why Rafael Nadal -- the king of clay -- won the tournament a record 14 times."
+    },
+    {
+      "id": "slam-french-venue",
+      "question": "What is the name of the venue where the French Open is held?",
+      "answer": "Roland Garros",
+      "alternateAnswers": ["Stade Roland Garros", "Roland-Garros"],
+      "explanation": "The stadium is named after Roland Garros, a pioneering French aviator who was the first person to fly solo across the Mediterranean Sea in 1913. He was not a tennis player -- the naming was a tribute to his national heroism."
+    },
+    {
+      "id": "slam-us-open-surface",
+      "question": "What surface is the US Open played on?",
+      "answer": "Hard court",
+      "alternateAnswers": ["hard", "hardcourt", "DecoTurf"],
+      "explanation": "The US Open uses DecoTurf hard courts, which play medium-fast. The tournament is famous for its raucous New York crowds at the Arthur Ashe Stadium, the largest tennis-specific venue in the world with over 23,000 seats."
+    },
+    {
+      "id": "slam-australian-month",
+      "question": "In what month is the Australian Open typically held?",
+      "answer": "January",
+      "alternateAnswers": [],
+      "explanation": "The Australian Open kicks off the Grand Slam calendar each January, during the Southern Hemisphere's summer. Extreme heat is a regular factor -- matches have been suspended when temperatures exceeded 104 degrees F (40 degrees C) in Melbourne."
+    },
+    {
+      "id": "slam-wimbledon-dress-code",
+      "question": "What color must players predominantly wear at Wimbledon?",
+      "answer": "White",
+      "alternateAnswers": [],
+      "explanation": "Wimbledon's strict all-white dress code dates back to the 1800s, when visible sweat stains were considered improper. The rule extends to shoes, headbands, and even undergarments -- players have been asked to change mid-match for wearing the wrong color bra strap."
+    },
+    {
+      "id": "slam-most-mens-singles",
+      "question": "Who holds the men's record for the most Grand Slam singles titles with 24?",
+      "answer": "Novak Djokovic",
+      "alternateAnswers": ["Djokovic"],
+      "explanation": "Djokovic surpassed Rafael Nadal's 22 titles by winning the 2023 US Open. His dominance has spanned all four surfaces, and he is the only man in the Open Era to have won each Grand Slam at least three times."
+    },
+    {
+      "id": "slam-nadal-french",
+      "question": "How many French Open singles titles did Rafael Nadal win?",
+      "answer": "14",
+      "alternateAnswers": ["fourteen"],
+      "explanation": "Nadal's 14 titles at Roland Garros is the most by any player at a single Grand Slam. His dominance on clay was so complete that he posted a 112-4 record at the tournament -- a win rate of 96.6% over nearly two decades."
+    },
+    {
+      "id": "slam-federer-wimbledon",
+      "question": "How many Wimbledon singles titles did Roger Federer win?",
+      "answer": "8",
+      "alternateAnswers": ["eight"],
+      "explanation": "Federer won 8 Wimbledon titles, including 5 in a row from 2003 to 2007. His elegant grass-court game made him synonymous with the tournament, and many consider his 2008 Wimbledon final loss to Nadal the greatest tennis match ever played."
+    },
+    {
+      "id": "slam-serena-total",
+      "question": "How many Grand Slam singles titles did Serena Williams win?",
+      "answer": "23",
+      "alternateAnswers": ["twenty-three"],
+      "explanation": "Serena won 23 Grand Slam singles titles in the Open Era, one short of Margaret Court's all-time record of 24. She won titles across three decades and held all four Grand Slam trophies simultaneously in 2002-03 -- a feat dubbed the 'Serena Slam.'"
+    },
+    {
+      "id": "slam-calendar-grand-slam-women",
+      "question": "Who was the last woman to win the Calendar Grand Slam (all four majors in one year) in 1988?",
+      "answer": "Steffi Graf",
+      "alternateAnswers": ["Graf"],
+      "explanation": "Graf's 1988 achievement was even more remarkable because she also won the Olympic gold medal that year, completing the 'Golden Slam.' No man or woman has accomplished this feat before or since."
+    },
+    {
+      "id": "slam-wimbledon-month",
+      "question": "In what month is Wimbledon typically held?",
+      "answer": "July",
+      "alternateAnswers": ["June and July", "June-July", "late June"],
+      "explanation": "Wimbledon runs from late June into mid-July and is the third Grand Slam of the calendar year. It traditionally included a rest day on the middle Sunday, though this tradition was dropped in 2022 to schedule play on all 14 days."
+    },
+    {
+      "id": "slam-calendar-year-term",
+      "question": "What is it called when a player wins all four Grand Slam titles in a single calendar year?",
+      "answer": "Calendar Grand Slam",
+      "alternateAnswers": ["Grand Slam", "calendar year Grand Slam"],
+      "explanation": "The Calendar Grand Slam is one of the rarest achievements in tennis. In men's singles, only Don Budge (1938) and Rod Laver (1962, 1969) have done it. The difficulty is not just winning four tournaments but winning them on three different surfaces within one year."
+    },
+    {
+      "id": "slam-oldest-tournament",
+      "question": "Which Grand Slam is the oldest, first held in 1877?",
+      "answer": "Wimbledon",
+      "alternateAnswers": ["The Championships, Wimbledon"],
+      "explanation": "The first Wimbledon Championship in 1877 had just 22 players in a single men's singles event. Women's singles was added in 1884. Today it attracts over 500,000 spectators and is inseparable from British summer traditions like strawberries and cream."
+    }
+  ]
+}

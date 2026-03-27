@@ -1,0 +1,185 @@
+{
+  "id": "sport-rules-terminology",
+  "category": "sports",
+  "name": "Sports Rules and Terminology",
+  "tier": "foundation",
+  "description": "Rules, scoring terms, and jargon from across the world of sports -- from offside to love, birdie to hat trick",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "term-love",
+      "question": "In what sport is 'love' a score of zero?",
+      "answer": "Tennis",
+      "alternateAnswers": [],
+      "explanation": "The most popular theory is that 'love' comes from the French word 'l'oeuf' (egg), because a zero looks like an egg. A game starting at 'love-love' means neither player has scored a point yet."
+    },
+    {
+      "id": "term-birdie",
+      "question": "In golf, what is a 'birdie'?",
+      "answer": "One under par",
+      "alternateAnswers": ["1 under par", "one stroke under par", "1 stroke under par"],
+      "explanation": "The term originated in 1899 at the Atlantic City Country Club when Ab Smith hit a shot he called 'a bird of a shot' and sank the next putt in one under par. His playing partners adopted the term, and it spread from there."
+    },
+    {
+      "id": "term-eagle",
+      "question": "In golf, what is an 'eagle'?",
+      "answer": "Two under par",
+      "alternateAnswers": ["2 under par", "two strokes under par", "2 strokes under par"],
+      "explanation": "Following the bird theme from 'birdie,' golfers chose 'eagle' -- a bigger, more impressive bird -- for the more impressive feat of finishing a hole two strokes under par. An even rarer three under par is called an 'albatross' or 'double eagle.'"
+    },
+    {
+      "id": "term-bogey",
+      "question": "In golf, what is a 'bogey'?",
+      "answer": "One over par",
+      "alternateAnswers": ["1 over par", "one stroke over par", "1 stroke over par"],
+      "explanation": "The term comes from the 'Bogey Man' of a popular 1890s British song. Originally, 'bogey' meant the ideal score for a hole, but as golfers improved and 'par' took over that meaning, bogey shifted to mean one stroke worse than par."
+    },
+    {
+      "id": "term-hat-trick",
+      "question": "In hockey and soccer, what is a 'hat trick'?",
+      "answer": "Scoring three goals in one game",
+      "alternateAnswers": ["3 goals in one game", "three goals", "3 goals", "scoring 3 goals"],
+      "explanation": "The term originated in cricket in 1858, when a bowler who took three wickets on consecutive deliveries was awarded a new hat by his club. Hockey fans celebrate hat tricks by throwing hats onto the ice, creating one of the sport's most iconic traditions."
+    },
+    {
+      "id": "term-offside-soccer",
+      "question": "In soccer (football), a player is offside if they are closer to the opponent's goal line than both the ball and what?",
+      "answer": "The second-to-last defender",
+      "alternateAnswers": ["second to last defender", "the second last defender", "penultimate defender"],
+      "explanation": "The offside rule is soccer's most debated law. The goalkeeper usually counts as one defender, so in practice a player is offside if they are ahead of the last outfield defender when the ball is played. The rule was introduced to prevent 'goal hanging.'"
+    },
+    {
+      "id": "term-double-fault",
+      "question": "In tennis, what is a 'double fault'?",
+      "answer": "Missing both serves",
+      "alternateAnswers": ["failing both serves", "two consecutive service faults", "faulting on both first and second serve"],
+      "explanation": "A server gets two attempts to land the ball in the correct service box. Missing both results in a double fault, giving the point to the opponent. Even top professionals average 2-3 double faults per match under pressure."
+    },
+    {
+      "id": "term-traveling",
+      "question": "In basketball, what violation occurs when a player moves their feet without dribbling the ball?",
+      "answer": "Traveling",
+      "alternateAnswers": ["travel", "walking"],
+      "explanation": "Traveling gives possession to the other team. The rule states you can take two steps after gathering the ball, though enforcement is famously inconsistent in the NBA. Fans of opposing teams are convinced refs never call it on star players."
+    },
+    {
+      "id": "term-balk",
+      "question": "In baseball, what is a 'balk'?",
+      "answer": "An illegal motion by the pitcher",
+      "alternateAnswers": ["an illegal pitching motion", "illegal motion by pitcher", "illegal pitch"],
+      "explanation": "A balk occurs when a pitcher makes a deceptive motion that could mislead baserunners. When called, all runners advance one base. The rule is so confusing that even veteran umpires occasionally disagree on what constitutes a balk."
+    },
+    {
+      "id": "term-icing",
+      "question": "In ice hockey, what is 'icing'?",
+      "answer": "Shooting the puck across the center line and the opposing goal line without it being touched",
+      "alternateAnswers": ["shooting the puck from behind center ice past the goal line", "shooting the puck across both the red line and goal line"],
+      "explanation": "Icing was introduced in 1937 to prevent teams from simply dumping the puck down the ice to waste time. When icing is called, the offending team cannot change players before the ensuing faceoff, adding a fatigue penalty to the stoppage."
+    },
+    {
+      "id": "term-try-rugby",
+      "question": "In rugby, what is the term for grounding the ball in the opponent's in-goal area, worth 5 points?",
+      "answer": "Try",
+      "alternateAnswers": ["a try"],
+      "explanation": "The word 'try' dates to rugby's early days when grounding the ball only earned you the chance to 'try' a kick at goal -- the kick was what actually scored points. Over time, the try itself became worth points, but the original name stuck."
+    },
+    {
+      "id": "term-conversion-rugby",
+      "question": "In rugby, what is the kick attempt worth 2 points that follows a try?",
+      "answer": "Conversion",
+      "alternateAnswers": ["a conversion", "conversion kick"],
+      "explanation": "After scoring a try, the team gets a conversion kick from a spot perpendicular to where the try was scored. This is why players try to score tries close to the center of the posts -- it makes the conversion kick much easier."
+    },
+    {
+      "id": "term-yellow-card",
+      "question": "In soccer, what does a yellow card signify?",
+      "answer": "A caution or warning",
+      "alternateAnswers": ["a warning", "caution", "a caution"],
+      "explanation": "Yellow cards were introduced for the 1970 World Cup after a 1966 quarterfinal where players could not understand the referee's verbal warnings due to language barriers. Two yellow cards in the same match equal a red card and automatic ejection."
+    },
+    {
+      "id": "term-red-card",
+      "question": "In soccer, what happens when a player receives a red card?",
+      "answer": "They are sent off the field",
+      "alternateAnswers": ["ejection", "sent off", "expelled from the game", "dismissed"],
+      "explanation": "A red card means immediate ejection with no replacement -- the team plays with 10 players for the rest of the match. The color system was inspired by traffic lights: yellow means slow down, red means stop."
+    },
+    {
+      "id": "term-penalty-shootout-count",
+      "question": "In a soccer penalty shootout, how many initial kicks does each team take?",
+      "answer": "5",
+      "alternateAnswers": ["five"],
+      "explanation": "Each team takes 5 penalty kicks from 12 yards out. If still tied, it goes to sudden death. The pressure is immense -- conversion rates drop from about 85% in regular play to roughly 75% in shootouts, with entire World Cups decided by a single miss."
+    },
+    {
+      "id": "term-strike-zone",
+      "question": "In baseball, the strike zone extends from the batter's knees to roughly what part of the body?",
+      "answer": "The midpoint between the shoulders and the waist",
+      "alternateAnswers": ["mid-torso", "chest", "letters", "the letters"],
+      "explanation": "Colloquially called 'the letters' because it reaches about where the lettering sits on a jersey. In practice, umpires call the zone inconsistently, which is a major reason MLB has experimented with an automated ball-strike system (robot umps)."
+    },
+    {
+      "id": "term-technical-foul",
+      "question": "In basketball, what type of foul is assessed for unsportsmanlike conduct, such as arguing with officials?",
+      "answer": "Technical foul",
+      "alternateAnswers": ["technical", "tech"],
+      "explanation": "A technical foul awards the opposing team one free throw and possession of the ball. Two technical fouls in a single game result in automatic ejection. Rasheed Wallace holds the NBA record with 317 career technicals."
+    },
+    {
+      "id": "term-deuce-tennis",
+      "question": "In tennis, what is the term for when the score is tied at 40-40?",
+      "answer": "Deuce",
+      "alternateAnswers": [],
+      "explanation": "At deuce, a player must win two consecutive points to win the game. The first point after deuce is called 'advantage.' If the player with advantage loses the next point, the score returns to deuce, and this can theoretically continue indefinitely."
+    },
+    {
+      "id": "term-power-play-hockey",
+      "question": "In ice hockey, what is it called when a team has a one- or two-player advantage because the opponent has players in the penalty box?",
+      "answer": "Power play",
+      "alternateAnswers": ["a power play"],
+      "explanation": "Teams score on about 20% of power plays in the NHL. If the team with the advantage scores, a minor penalty ends immediately and the penalized player returns. This creates frantic moments where the shorthanded team desperately tries to run out the clock."
+    },
+    {
+      "id": "term-ace-tennis",
+      "question": "In tennis, what is an 'ace'?",
+      "answer": "A serve that the opponent cannot touch",
+      "alternateAnswers": ["a serve the returner fails to touch", "a serve not touched by the receiver", "an unreturnable serve"],
+      "explanation": "Big servers can rack up over 20 aces in a single match. John Isner and Nicolas Mahut's legendary 2010 Wimbledon match saw a combined 216 aces over 11 hours and 5 minutes -- the longest match in tennis history."
+    },
+    {
+      "id": "term-safety-football",
+      "question": "In American football, what is a 'safety' worth in points?",
+      "answer": "2",
+      "alternateAnswers": ["two", "2 points", "two points"],
+      "explanation": "A safety occurs when the offensive team is tackled or commits a penalty in their own end zone. It is the only scoring play in football where the team that scores also receives the ensuing kickoff, giving them a double advantage."
+    },
+    {
+      "id": "term-lbw-cricket",
+      "question": "In cricket, what does the abbreviation LBW stand for?",
+      "answer": "Leg before wicket",
+      "alternateAnswers": ["leg before wickets"],
+      "explanation": "LBW is given when the ball would have hit the stumps but was blocked by the batter's leg instead. It is one of cricket's most complex and argued-about rules, leading to the adoption of ball-tracking technology (Hawk-Eye) to help umpires get it right."
+    },
+    {
+      "id": "term-grand-prix-flag",
+      "question": "In Formula 1 racing, what does a black and white checkered flag signify?",
+      "answer": "The end of the race",
+      "alternateAnswers": ["finish", "race is over", "the finish of the race", "race finished"],
+      "explanation": "The checkered flag has been used since at least 1906, though its exact origin is debated. One theory ties it to horse racing in the American Midwest, where a checkered flag was easy to distinguish from the dusty, hazy conditions at early dirt tracks."
+    },
+    {
+      "id": "term-offside-hockey",
+      "question": "In ice hockey, a player is offside if they enter the offensive zone before what?",
+      "answer": "The puck",
+      "alternateAnswers": ["the puck crosses the blue line", "puck"],
+      "explanation": "The blue lines divide the rink into three zones. If an attacking player crosses the blue line into the offensive zone before the puck does, play is stopped for offside. This prevents players from simply camping near the opposing goal."
+    },
+    {
+      "id": "term-touchdown-points",
+      "question": "In American football, how many points is a touchdown worth?",
+      "answer": "6",
+      "alternateAnswers": ["six", "6 points", "six points"],
+      "explanation": "A touchdown is worth 6 points, after which the scoring team attempts either an extra-point kick (1 point) or a two-point conversion. Despite common belief, the ball does not need to touch the ground -- it only needs to break the plane of the goal line."
+    }
+  ]
+}
