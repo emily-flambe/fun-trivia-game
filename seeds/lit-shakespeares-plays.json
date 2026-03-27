@@ -1,0 +1,269 @@
+{
+  "id": "lit-shakespeares-plays",
+  "category": "literature",
+  "name": "Shakespeare's Plays",
+  "tier": "foundation",
+  "description": "Classify Shakespeare's plays by genre and identify key characters and quotes",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "hamlet-genre",
+      "question": "Is Shakespeare's 'Hamlet' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Hamlet is Shakespeare's longest play and arguably the most performed. The phrase 'To be, or not to be' is the most quoted line in the English language."
+    },
+    {
+      "id": "macbeth-genre",
+      "question": "Is Shakespeare's 'Macbeth' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Macbeth is Shakespeare's shortest tragedy. Actors superstitiously call it 'The Scottish Play' because saying the name inside a theater is considered bad luck."
+    },
+    {
+      "id": "othello-genre",
+      "question": "Is Shakespeare's 'Othello' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Othello's villain Iago is considered one of the most manipulative characters in all of literature, speaking more lines than Othello himself."
+    },
+    {
+      "id": "king-lear-genre",
+      "question": "Is Shakespeare's 'King Lear' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "King Lear was considered so bleak that for 150 years (1681-1838) theaters only performed a rewritten version with a happy ending."
+    },
+    {
+      "id": "romeo-juliet-genre",
+      "question": "Is Shakespeare's 'Romeo and Juliet' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Romeo and Juliet takes place over just five days. It was one of Shakespeare's most popular plays during his lifetime and has never fallen out of fashion."
+    },
+    {
+      "id": "julius-caesar-genre",
+      "question": "Is Shakespeare's 'Julius Caesar' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Despite being about a real historical figure, Julius Caesar is classified as a tragedy, not a history. Shakespeare's histories deal exclusively with English kings."
+    },
+    {
+      "id": "antony-cleopatra-genre",
+      "question": "Is Shakespeare's 'Antony and Cleopatra' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Antony and Cleopatra has 42 scenes -- more than any other Shakespeare play -- spanning locations from Rome to Egypt to battlefields at sea."
+    },
+    {
+      "id": "coriolanus-genre",
+      "question": "Is Shakespeare's 'Coriolanus' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Coriolanus is set in ancient Rome and explores the tension between elite contempt and popular democracy. T.S. Eliot considered it superior to Hamlet."
+    },
+    {
+      "id": "titus-genre",
+      "question": "Is Shakespeare's 'Titus Andronicus' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Titus Andronicus is Shakespeare's bloodiest play with 14 killings, multiple mutilations, and a scene of cannibalism. It was hugely popular in Shakespeare's day but fell out of favor for centuries."
+    },
+    {
+      "id": "timon-genre",
+      "question": "Is Shakespeare's 'Timon of Athens' a comedy, tragedy, or history?",
+      "answer": "Tragedy",
+      "alternateAnswers": [],
+      "explanation": "Timon of Athens is believed to be unfinished. Karl Marx cited Timon's speeches about gold in Das Kapital as a critique of money's corrupting power."
+    },
+    {
+      "id": "midsummer-genre",
+      "question": "Is Shakespeare's 'A Midsummer Night's Dream' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "A Midsummer Night's Dream features fairies, a love potion, and a man turned into a donkey. It remains one of the most frequently performed Shakespeare plays worldwide."
+    },
+    {
+      "id": "much-ado-genre",
+      "question": "Is Shakespeare's 'Much Ado About Nothing' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "The title is likely a bawdy pun -- 'nothing' was Elizabethan slang for female anatomy, pronounced similarly to 'noting' (eavesdropping), which drives the entire plot."
+    },
+    {
+      "id": "twelfth-night-genre",
+      "question": "Is Shakespeare's 'Twelfth Night' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "Twelfth Night features one of Shakespeare's great cross-dressing heroines, Viola. In Shakespeare's time, a boy actor would play a woman disguised as a man."
+    },
+    {
+      "id": "taming-shrew-genre",
+      "question": "Is Shakespeare's 'The Taming of the Shrew' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "The Taming of the Shrew has become one of Shakespeare's most controversial plays due to its gender politics. The musical 'Kiss Me, Kate' is based on it."
+    },
+    {
+      "id": "as-you-like-genre",
+      "question": "Is Shakespeare's 'As You Like It' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "As You Like It contains the famous 'All the world's a stage' speech. The Forest of Arden is likely named after Shakespeare's mother, Mary Arden."
+    },
+    {
+      "id": "merchant-genre",
+      "question": "Is Shakespeare's 'The Merchant of Venice' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "Though classified as a comedy, The Merchant of Venice is deeply uncomfortable to modern audiences due to its treatment of Shylock. The 'pound of flesh' has become a universal metaphor."
+    },
+    {
+      "id": "merry-wives-genre",
+      "question": "Is Shakespeare's 'The Merry Wives of Windsor' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "Legend says Queen Elizabeth I so loved Falstaff that she asked Shakespeare to write a play showing him in love, resulting in this comedy written in just two weeks."
+    },
+    {
+      "id": "tempest-genre",
+      "question": "Is Shakespeare's 'The Tempest' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "The Tempest is believed to be the last play Shakespeare wrote alone. Prospero's final speech, renouncing his magic, is often read as Shakespeare's own farewell to the theater."
+    },
+    {
+      "id": "comedy-errors-genre",
+      "question": "Is Shakespeare's 'The Comedy of Errors' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "The Comedy of Errors is Shakespeare's shortest play. It features two sets of identical twins who were separated at birth, inspired by the Roman playwright Plautus."
+    },
+    {
+      "id": "loves-labours-genre",
+      "question": "Is Shakespeare's 'Love's Labour's Lost' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "Love's Labour's Lost is unusual for a comedy -- it does not end with a marriage. Shakespeare reportedly wrote a sequel, Love's Labour's Won, which is now lost."
+    },
+    {
+      "id": "two-gentlemen-genre",
+      "question": "Is Shakespeare's 'The Two Gentlemen of Verona' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "This is thought to be one of Shakespeare's earliest plays. It introduced themes he would revisit throughout his career: cross-dressing heroines, banished lovers, and the forest as a place of transformation."
+    },
+    {
+      "id": "henry-v-genre",
+      "question": "Is Shakespeare's 'Henry V' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Henry V contains the famous St. Crispin's Day speech before the Battle of Agincourt. It was used as wartime propaganda in Laurence Olivier's 1944 film adaptation."
+    },
+    {
+      "id": "richard-iii-genre",
+      "question": "Is Shakespeare's 'Richard III' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Richard III's opening line 'Now is the winter of our discontent' is one of Shakespeare's most famous. When Richard's actual skeleton was found under a parking lot in 2012, it confirmed Shakespeare's description of his scoliosis."
+    },
+    {
+      "id": "henry-iv-1-genre",
+      "question": "Is Shakespeare's 'Henry IV, Part 1' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Henry IV Part 1 introduced Falstaff, who became arguably Shakespeare's most beloved comic character. Harold Bloom called Falstaff Shakespeare's greatest invention."
+    },
+    {
+      "id": "henry-iv-2-genre",
+      "question": "Is Shakespeare's 'Henry IV, Part 2' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Henry IV Part 2 ends with the new King Henry V coldly rejecting Falstaff with 'I know thee not, old man' -- one of the most devastating moments in Shakespeare."
+    },
+    {
+      "id": "richard-ii-genre",
+      "question": "Is Shakespeare's 'Richard II' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Richard II is written entirely in verse -- no prose at all. Queen Elizabeth I reportedly said 'I am Richard II, know ye not that?' believing the play was political commentary on her reign."
+    },
+    {
+      "id": "henry-vi-1-genre",
+      "question": "Is Shakespeare's 'Henry VI, Part 1' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Henry VI Part 1 features Joan of Arc as a character. It was enormously popular when first performed, reportedly drawing 10,000 spectators over its initial run."
+    },
+    {
+      "id": "henry-viii-genre",
+      "question": "Is Shakespeare's 'Henry VIII' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "During a performance of Henry VIII in 1613, a stage cannon set fire to the Globe Theatre's thatched roof and burned it to the ground. No one was hurt, though one man's breeches caught fire."
+    },
+    {
+      "id": "king-john-genre",
+      "question": "Is Shakespeare's 'King John' a comedy, tragedy, or history?",
+      "answer": "History",
+      "alternateAnswers": [],
+      "explanation": "Surprisingly, Shakespeare's King John never mentions the Magna Carta. The play focuses instead on the political struggle between John, the Pope, and France."
+    },
+    {
+      "id": "puck-play",
+      "question": "In which Shakespeare play does the character Puck appear?",
+      "answer": "A Midsummer Night's Dream",
+      "alternateAnswers": ["Midsummer Night's Dream", "Midsummer Nights Dream"],
+      "explanation": "Puck, also called Robin Goodfellow, is a mischievous fairy who accidentally causes a love-potion mix-up. His closing line 'If we shadows have offended' breaks the fourth wall."
+    },
+    {
+      "id": "shylock-play",
+      "question": "In which Shakespeare play does the character Shylock appear?",
+      "answer": "The Merchant of Venice",
+      "alternateAnswers": ["Merchant of Venice"],
+      "explanation": "Shylock is a Jewish moneylender who demands a literal pound of flesh as collateral. His speech 'Hath not a Jew eyes?' is one of Shakespeare's most powerful pleas for shared humanity."
+    },
+    {
+      "id": "prospero-play",
+      "question": "In which Shakespeare play does the character Prospero appear?",
+      "answer": "The Tempest",
+      "alternateAnswers": [],
+      "explanation": "Prospero is a sorcerer and the rightful Duke of Milan who conjures a storm to bring his enemies to his island. He is widely seen as Shakespeare's self-portrait as a storyteller."
+    },
+    {
+      "id": "falstaff-play",
+      "question": "In which Shakespeare history play does the character Falstaff first appear?",
+      "answer": "Henry IV, Part 1",
+      "alternateAnswers": ["Henry IV Part 1", "Henry IV"],
+      "explanation": "Falstaff was originally named Sir John Oldcastle, but Shakespeare changed it after Oldcastle's descendants objected. The fat, witty knight became so popular he got his own spin-off play."
+    },
+    {
+      "id": "iago-play",
+      "question": "In which Shakespeare play does the villain Iago appear?",
+      "answer": "Othello",
+      "alternateAnswers": [],
+      "explanation": "Iago has the most lines of any character in Othello despite not being the title character. His motivations are so ambiguous that Samuel Taylor Coleridge called them 'motiveless malignity.'"
+    },
+    {
+      "id": "to-be-or-not",
+      "question": "Which Shakespeare character delivers the 'To be, or not to be' soliloquy?",
+      "answer": "Hamlet",
+      "alternateAnswers": ["Prince Hamlet"],
+      "explanation": "This speech from Act 3, Scene 1 of Hamlet is the most famous soliloquy in Western literature. It meditates on death and suicide, asking whether suffering or oblivion is preferable."
+    },
+    {
+      "id": "friends-romans",
+      "question": "Which Shakespeare character says 'Friends, Romans, countrymen, lend me your ears'?",
+      "answer": "Mark Antony",
+      "alternateAnswers": ["Antony", "Marc Antony"],
+      "explanation": "Mark Antony's funeral oration in Julius Caesar is a masterclass in rhetorical manipulation. He repeatedly calls the assassins 'honorable men' while turning the crowd against them."
+    },
+    {
+      "id": "winters-tale-genre",
+      "question": "Is Shakespeare's 'The Winter's Tale' a comedy, tragedy, or history?",
+      "answer": "Comedy",
+      "alternateAnswers": [],
+      "explanation": "The Winter's Tale is often called a 'romance' or 'problem play' -- its first half is tragic, but it pivots to comedy with a 16-year time jump and the famous stage direction 'Exit, pursued by a bear.'"
+    }
+  ]
+}

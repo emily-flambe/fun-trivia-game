@@ -1,0 +1,185 @@
+{
+  "id": "hist-ancient-civilizations",
+  "category": "history",
+  "name": "Ancient Civilizations",
+  "tier": "foundation",
+  "description": "Key rulers, achievements, cities, and writing systems of the ancient world -- Egypt, Rome, Greece, Mesopotamia, China, and Mesoamerica",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "anc-sumerian-writing",
+      "question": "What writing system did the ancient Sumerians use?",
+      "answer": "Cuneiform",
+      "alternateAnswers": [],
+      "explanation": "Cuneiform was pressed into wet clay tablets with a wedge-shaped reed stylus. It is one of the earliest known writing systems, dating to around 3400 BC, and was originally invented to keep track of grain and livestock -- the world's first accounting records."
+    },
+    {
+      "id": "anc-egypt-writing",
+      "question": "What writing system did the ancient Egyptians use for formal inscriptions?",
+      "answer": "Hieroglyphics",
+      "alternateAnswers": ["Hieroglyphs", "Egyptian hieroglyphics", "Egyptian hieroglyphs"],
+      "explanation": "Egyptian hieroglyphics remained undeciphered for over a thousand years until Jean-Francois Champollion cracked the code in 1822 using the Rosetta Stone, which had the same text in hieroglyphics, Demotic, and Greek."
+    },
+    {
+      "id": "anc-rome-first-emperor",
+      "question": "Who was the first Emperor of Rome?",
+      "answer": "Augustus",
+      "alternateAnswers": ["Octavian", "Augustus Caesar", "Caesar Augustus"],
+      "explanation": "Augustus (27 BC - 14 AD) was Julius Caesar's adopted great-nephew. He was so sickly as a young man that no one expected him to outlast his rivals, yet he ruled for 41 years and transformed Rome from a republic into an empire that would last centuries."
+    },
+    {
+      "id": "anc-alexandria-wonder",
+      "question": "What ancient wonder was located in Alexandria, Egypt?",
+      "answer": "Lighthouse of Alexandria",
+      "alternateAnswers": ["Pharos of Alexandria", "Pharos", "The Pharos", "Great Lighthouse of Alexandria"],
+      "explanation": "The Lighthouse of Alexandria (Pharos) stood roughly 330 feet tall, making it one of the tallest structures in the ancient world for centuries. Its fire could reportedly be seen from 30 miles away, and it survived for over 1,500 years before earthquakes toppled it."
+    },
+    {
+      "id": "anc-mesopotamia-region",
+      "question": "Between which two rivers was ancient Mesopotamia located?",
+      "answer": "Tigris and Euphrates",
+      "alternateAnswers": ["Euphrates and Tigris"],
+      "explanation": "Mesopotamia literally means 'land between the rivers' in Greek. This fertile crescent in modern-day Iraq gave humanity its first cities, writing, the wheel, the 60-minute hour, and the 360-degree circle."
+    },
+    {
+      "id": "anc-hammurabi",
+      "question": "Which Babylonian king is famous for one of the earliest known written legal codes?",
+      "answer": "Hammurabi",
+      "alternateAnswers": ["King Hammurabi"],
+      "explanation": "Hammurabi's Code (circa 1754 BC) contained 282 laws carved on a stone stele. It included the famous 'eye for an eye' principle, but punishments varied by social class -- harming a nobleman carried stiffer penalties than harming a commoner."
+    },
+    {
+      "id": "anc-giza-pharaoh",
+      "question": "For which pharaoh was the Great Pyramid of Giza built?",
+      "answer": "Khufu",
+      "alternateAnswers": ["Cheops", "Pharaoh Khufu"],
+      "explanation": "The Great Pyramid was built around 2560 BC and remained the tallest man-made structure on Earth for nearly 4,000 years. Despite its massive size (2.3 million stone blocks), the base is level to within just 2.1 centimeters across its entire 230-meter length."
+    },
+    {
+      "id": "anc-egypt-female-pharaoh",
+      "question": "Who was the famous female pharaoh of Egypt's 18th Dynasty who ruled for about 20 years?",
+      "answer": "Hatshepsut",
+      "alternateAnswers": [],
+      "explanation": "Hatshepsut ruled Egypt for roughly 20 years (circa 1479-1458 BC) and oversaw massive building projects and trade expeditions. After her death, her successor Thutmose III tried to erase her from history by chiseling her name and image off monuments -- but he failed."
+    },
+    {
+      "id": "anc-greece-democracy",
+      "question": "Which ancient Greek city-state is credited with developing the first democracy?",
+      "answer": "Athens",
+      "alternateAnswers": [],
+      "explanation": "Athenian democracy, established around 508 BC under Cleisthenes, was a direct democracy where citizens voted on laws themselves. However, 'citizens' excluded women, slaves, and foreigners -- meaning only about 10-20% of the population could actually participate."
+    },
+    {
+      "id": "anc-greece-philosopher",
+      "question": "Who was the ancient Greek philosopher who taught Alexander the Great?",
+      "answer": "Aristotle",
+      "alternateAnswers": [],
+      "explanation": "Aristotle tutored the young Alexander for about three years starting in 343 BC. Aristotle wrote on everything from logic to biology to politics, and his works dominated Western thought for nearly 2,000 years -- he was simply called 'The Philosopher' in the Middle Ages."
+    },
+    {
+      "id": "anc-rome-republic-end",
+      "question": "Which Roman general crossed the Rubicon River in 49 BC, triggering civil war and the eventual end of the Roman Republic?",
+      "answer": "Julius Caesar",
+      "alternateAnswers": ["Caesar", "Gaius Julius Caesar"],
+      "explanation": "By crossing the Rubicon with his army, Caesar committed treason against the Roman Senate -- the phrase 'crossing the Rubicon' still means passing a point of no return. He won the civil war but was assassinated on the Ides of March (March 15) in 44 BC."
+    },
+    {
+      "id": "anc-rome-volcano",
+      "question": "What volcano destroyed the Roman city of Pompeii in 79 AD?",
+      "answer": "Mount Vesuvius",
+      "alternateAnswers": ["Vesuvius"],
+      "explanation": "Vesuvius buried Pompeii under 13-20 feet of volcanic ash in just 24 hours. The ash preserved the city so perfectly that when it was rediscovered in 1748, archaeologists found intact bread in ovens and graffiti on walls -- including restaurant reviews and love poems."
+    },
+    {
+      "id": "anc-china-first-emperor",
+      "question": "Who was the first Emperor of a unified China?",
+      "answer": "Qin Shi Huang",
+      "alternateAnswers": ["Qin Shi Huangdi", "Shi Huangdi", "Ying Zheng"],
+      "explanation": "Qin Shi Huang unified China in 221 BC, standardized weights, measures, and writing, and began the Great Wall. He was so afraid of death that he sent expeditions to find an elixir of immortality -- and was ironically likely poisoned by the mercury pills his doctors gave him to prolong his life."
+    },
+    {
+      "id": "anc-china-terracotta",
+      "question": "What famous army of clay figures was buried with China's first emperor?",
+      "answer": "Terracotta Army",
+      "alternateAnswers": ["Terracotta Warriors", "Terra Cotta Army"],
+      "explanation": "The Terracotta Army includes over 8,000 life-sized soldiers, each with unique facial features, discovered in 1974 by farmers digging a well. They guarded Qin Shi Huang's tomb for over 2,200 years before being accidentally unearthed."
+    },
+    {
+      "id": "anc-china-dynasty-wall",
+      "question": "During which dynasty was the Great Wall of China primarily built into the form we see today?",
+      "answer": "Ming Dynasty",
+      "alternateAnswers": ["Ming"],
+      "explanation": "While Qin Shi Huang started the wall around 220 BC, the iconic stone-and-brick Great Wall we see in photographs was mostly built during the Ming Dynasty (1368-1644). The wall stretches over 13,000 miles including all branches and sections."
+    },
+    {
+      "id": "anc-maya-calendar",
+      "question": "The ancient Maya are famous for developing an extremely accurate version of what?",
+      "answer": "Calendar",
+      "alternateAnswers": ["Calendar system", "The calendar", "A calendar"],
+      "explanation": "The Maya calendar calculated the solar year at 365.2420 days -- only 0.0002 days off the modern value of 365.2422. The '2012 apocalypse' scare was a misunderstanding; the Maya Long Count calendar simply rolled over to a new cycle, like an odometer resetting."
+    },
+    {
+      "id": "anc-maya-writing",
+      "question": "The Maya were the only pre-Columbian American civilization to develop a full system of what?",
+      "answer": "Writing",
+      "alternateAnswers": ["Written language", "A writing system", "Hieroglyphic writing"],
+      "explanation": "Maya hieroglyphic writing used about 800 glyphs and wasn't fully deciphered until the late 20th century. Spanish conquistadors and priests burned nearly all Maya books (codices), and only four are known to survive -- one of the greatest losses of knowledge in history."
+    },
+    {
+      "id": "anc-aztec-capital",
+      "question": "What was the capital city of the Aztec Empire?",
+      "answer": "Tenochtitlan",
+      "alternateAnswers": [],
+      "explanation": "Tenochtitlan was built on an island in Lake Texcoco and connected to the mainland by causeways. When the Spanish arrived in 1519, it had a population of around 200,000 -- larger than any city in Spain. Mexico City was built directly on top of its ruins."
+    },
+    {
+      "id": "anc-inca-empire",
+      "question": "What South American mountain range was home to the Inca Empire?",
+      "answer": "Andes",
+      "alternateAnswers": ["Andes Mountains", "The Andes"],
+      "explanation": "The Inca Empire stretched over 2,500 miles along the Andes, from Colombia to Chile. Remarkably, the Inca built this vast empire without a writing system, the wheel, or iron tools -- they used knotted strings called quipus for record-keeping instead."
+    },
+    {
+      "id": "anc-inca-city",
+      "question": "What famous Inca citadel sits high in the Andes Mountains of Peru?",
+      "answer": "Machu Picchu",
+      "alternateAnswers": [],
+      "explanation": "Machu Picchu was built around 1450 AD at nearly 8,000 feet elevation. The Spanish never found it, so it remained unknown to the outside world until American historian Hiram Bingham was led there by a local farmer in 1911."
+    },
+    {
+      "id": "anc-greece-parthenon",
+      "question": "What famous temple on the Athenian Acropolis was dedicated to the goddess Athena?",
+      "answer": "Parthenon",
+      "alternateAnswers": ["The Parthenon"],
+      "explanation": "The Parthenon was completed in 432 BC and survived largely intact for over 2,000 years -- until 1687, when a Venetian cannonball hit the Ottoman gunpowder stored inside it, blowing out the center of the building."
+    },
+    {
+      "id": "anc-rome-colosseum",
+      "question": "What is the name of the massive amphitheater in Rome that could hold approximately 50,000 spectators?",
+      "answer": "Colosseum",
+      "alternateAnswers": ["The Colosseum", "Coliseum", "Roman Colosseum", "Flavian Amphitheatre"],
+      "explanation": "The Colosseum was completed in 80 AD and had a retractable awning system (velarium) operated by sailors to shade spectators. For its opening games, Emperor Titus held 100 days of festivities during which an estimated 9,000 animals were killed."
+    },
+    {
+      "id": "anc-egypt-cleopatra",
+      "question": "Cleopatra VII, the last active ruler of the Ptolemaic Kingdom of Egypt, had famous relationships with which two Roman leaders?",
+      "answer": "Julius Caesar and Mark Antony",
+      "alternateAnswers": ["Caesar and Antony", "Caesar and Mark Antony", "Julius Caesar and Antony", "Mark Antony and Julius Caesar"],
+      "explanation": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid. She spoke at least nine languages and was the first Ptolemaic ruler to actually learn Egyptian -- her dynasty had ruled Egypt for nearly 300 years without bothering to learn the local language."
+    },
+    {
+      "id": "anc-mesopotamia-gilgamesh",
+      "question": "What is considered the oldest known work of great literature, written in ancient Mesopotamia?",
+      "answer": "Epic of Gilgamesh",
+      "alternateAnswers": ["Gilgamesh", "The Epic of Gilgamesh"],
+      "explanation": "The Epic of Gilgamesh dates to around 2100 BC and tells the story of a Sumerian king seeking immortality. It includes a flood narrative remarkably similar to the story of Noah's Ark, written at least a thousand years before the biblical version."
+    },
+    {
+      "id": "anc-china-silk-road",
+      "question": "What ancient trade network connected China to the Mediterranean world?",
+      "answer": "Silk Road",
+      "alternateAnswers": ["The Silk Road", "Silk Route"],
+      "explanation": "The Silk Road wasn't a single road but a network of routes spanning roughly 4,000 miles. China guarded the secret of silk production so jealously that smuggling silkworm eggs out of the country was punishable by death -- yet two monks eventually smuggled them out in hollow bamboo canes around 550 AD."
+    }
+  ]
+}

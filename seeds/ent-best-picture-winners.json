@@ -1,0 +1,689 @@
+{
+  "id": "ent-best-picture-winners",
+  "category": "entertainment",
+  "name": "Academy Award Best Picture Winners",
+  "tier": "foundation",
+  "description": "Every Best Picture winner at the Academy Awards from 1927 through 2024",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "bp1927",
+      "question": "What film won Best Picture at the Academy Awards in 1927/28?",
+      "answer": "Wings",
+      "alternateAnswers": [],
+      "explanation": "Wings was the first Best Picture winner and the only silent film to win until The Artist in 2011. It featured some of the most spectacular aerial combat footage ever filmed."
+    },
+    {
+      "id": "bp1928",
+      "question": "What film won Best Picture at the Academy Awards in 1928/29?",
+      "answer": "The Broadway Melody",
+      "alternateAnswers": ["Broadway Melody"],
+      "explanation": "The Broadway Melody was the first sound film (talkie) to win Best Picture and the first musical to win. It was advertised as 'All Talking, All Singing, All Dancing.'"
+    },
+    {
+      "id": "bp1929",
+      "question": "What film won Best Picture at the Academy Awards in 1929/30?",
+      "answer": "All Quiet on the Western Front",
+      "alternateAnswers": [],
+      "explanation": "Directed by Lewis Milestone, this anti-war film was banned in Nazi Germany and several other countries. It remains one of the greatest war films ever made."
+    },
+    {
+      "id": "bp1930",
+      "question": "What film won Best Picture at the Academy Awards in 1930/31?",
+      "answer": "Cimarron",
+      "alternateAnswers": [],
+      "explanation": "Cimarron was the first Western to win Best Picture. It was a massive box office disappointment, losing money despite its prestige, and is often called the worst Best Picture winner."
+    },
+    {
+      "id": "bp1931",
+      "question": "What film won Best Picture at the Academy Awards in 1931/32?",
+      "answer": "Grand Hotel",
+      "alternateAnswers": [],
+      "explanation": "Grand Hotel featured five major stars including Greta Garbo and the Barrymore brothers. It is the only Best Picture winner that received zero other Oscar nominations."
+    },
+    {
+      "id": "bp1932",
+      "question": "What film won Best Picture at the Academy Awards in 1932/33?",
+      "answer": "Cavalcade",
+      "alternateAnswers": [],
+      "explanation": "Based on a Noel Coward play, Cavalcade follows an English family from 1899 to 1933. Despite winning three Oscars, it has largely been forgotten today."
+    },
+    {
+      "id": "bp1934",
+      "question": "What film won Best Picture at the Academy Awards in 1934?",
+      "answer": "It Happened One Night",
+      "alternateAnswers": [],
+      "explanation": "It Happened One Night was the first film to sweep all five major categories (Picture, Director, Actor, Actress, Screenplay). Clark Gable's undershirt scene allegedly tanked undershirt sales nationwide."
+    },
+    {
+      "id": "bp1935",
+      "question": "What film won Best Picture at the Academy Awards in 1935?",
+      "answer": "Mutiny on the Bounty",
+      "alternateAnswers": [],
+      "explanation": "Mutiny on the Bounty is the only film to have three actors nominated for Best Actor in the same year: Clark Gable, Charles Laughton, and Franchot Tone. None of them won."
+    },
+    {
+      "id": "bp1936",
+      "question": "What film won Best Picture at the Academy Awards in 1936?",
+      "answer": "The Great Ziegfeld",
+      "alternateAnswers": ["Great Ziegfeld"],
+      "explanation": "At nearly three hours, The Great Ziegfeld was the longest Best Picture winner at that time. Its elaborate musical numbers cost a fortune, making it one of the most expensive films of the 1930s."
+    },
+    {
+      "id": "bp1937",
+      "question": "What film won Best Picture at the Academy Awards in 1937?",
+      "answer": "The Life of Emile Zola",
+      "alternateAnswers": ["Life of Emile Zola"],
+      "explanation": "This was the second biographical film to win Best Picture. It focused on the Dreyfus Affair but controversially avoided mentioning that Dreyfus was Jewish, the central reason for his persecution."
+    },
+    {
+      "id": "bp1938",
+      "question": "What film won Best Picture at the Academy Awards in 1938?",
+      "answer": "You Can't Take It with You",
+      "alternateAnswers": [],
+      "explanation": "Directed by Frank Capra, this comedy beat out several strong competitors. Capra won three Best Director Oscars in the 1930s, an achievement no director has matched in a single decade since."
+    },
+    {
+      "id": "bp1939",
+      "question": "What film won Best Picture at the Academy Awards in 1939?",
+      "answer": "Gone with the Wind",
+      "alternateAnswers": [],
+      "explanation": "Gone with the Wind won 8 competitive Oscars and was the highest-grossing film for 25 years. Hattie McDaniel became the first African American to win an Oscar but was forced to sit at a segregated table at the ceremony."
+    },
+    {
+      "id": "bp1940",
+      "question": "What film won Best Picture at the Academy Awards in 1940?",
+      "answer": "Rebecca",
+      "alternateAnswers": [],
+      "explanation": "Rebecca was Alfred Hitchcock's first American film and his only Best Picture winner. Hitchcock himself never won the Best Director Oscar despite five nominations."
+    },
+    {
+      "id": "bp1941",
+      "question": "What film won Best Picture at the Academy Awards in 1941?",
+      "answer": "How Green Was My Valley",
+      "alternateAnswers": [],
+      "explanation": "How Green Was My Valley beat Citizen Kane for Best Picture, a result that is often called the greatest Oscar upset in history. Citizen Kane won only one Oscar, for its screenplay."
+    },
+    {
+      "id": "bp1942",
+      "question": "What film won Best Picture at the Academy Awards in 1942?",
+      "answer": "Mrs. Miniver",
+      "alternateAnswers": ["Mrs Miniver"],
+      "explanation": "Mrs. Miniver was such effective wartime propaganda that Winston Churchill said it was 'worth many battleships.' Roosevelt ordered it shown in theaters across the country."
+    },
+    {
+      "id": "bp1943",
+      "question": "What film won Best Picture at the Academy Awards in 1943?",
+      "answer": "Casablanca",
+      "alternateAnswers": [],
+      "explanation": "Casablanca was filmed during WWII and released shortly after the Allied invasion of North Africa. The script was written on the fly -- the cast famously did not know how it would end during filming."
+    },
+    {
+      "id": "bp1944",
+      "question": "What film won Best Picture at the Academy Awards in 1944?",
+      "answer": "Going My Way",
+      "alternateAnswers": [],
+      "explanation": "Going My Way starred Bing Crosby as a priest and was the highest-grossing film of 1944. Crosby won Best Actor, making him one of very few performers to win both an Oscar and have a number-one hit song."
+    },
+    {
+      "id": "bp1945",
+      "question": "What film won Best Picture at the Academy Awards in 1945?",
+      "answer": "The Lost Weekend",
+      "alternateAnswers": ["Lost Weekend"],
+      "explanation": "The Lost Weekend was a groundbreaking portrayal of alcoholism. The liquor industry reportedly offered Paramount $5 million to destroy the negative and suppress the film."
+    },
+    {
+      "id": "bp1946",
+      "question": "What film won Best Picture at the Academy Awards in 1946?",
+      "answer": "The Best Years of Our Lives",
+      "alternateAnswers": ["Best Years of Our Lives"],
+      "explanation": "This film about WWII veterans returning home featured Harold Russell, who had lost both hands in the war. Russell won two Oscars the same night -- Best Supporting Actor and an honorary award."
+    },
+    {
+      "id": "bp1947",
+      "question": "What film won Best Picture at the Academy Awards in 1947?",
+      "answer": "Gentleman's Agreement",
+      "alternateAnswers": [],
+      "explanation": "Gentleman's Agreement tackled antisemitism, with Gregory Peck posing as Jewish to expose discrimination. Several Jewish studio heads initially opposed making the film, fearing it would draw unwanted attention."
+    },
+    {
+      "id": "bp1948",
+      "question": "What film won Best Picture at the Academy Awards in 1948?",
+      "answer": "Hamlet",
+      "alternateAnswers": [],
+      "explanation": "Laurence Olivier's Hamlet was the first non-American film to win Best Picture and the first Shakespeare adaptation to win. Olivier directed, produced, and starred in it."
+    },
+    {
+      "id": "bp1949",
+      "question": "What film won Best Picture at the Academy Awards in 1949?",
+      "answer": "All the King's Men",
+      "alternateAnswers": [],
+      "explanation": "Based on Robert Penn Warren's Pulitzer-winning novel, the film was a thinly veiled portrait of Louisiana politician Huey Long. Broderick Crawford won Best Actor for his performance."
+    },
+    {
+      "id": "bp1950",
+      "question": "What film won Best Picture at the Academy Awards in 1950?",
+      "answer": "All About Eve",
+      "alternateAnswers": [],
+      "explanation": "All About Eve received 14 nominations -- a record that stood for 47 years. Bette Davis's line 'Fasten your seatbelts, it's going to be a bumpy night' became one of cinema's most quoted."
+    },
+    {
+      "id": "bp1951",
+      "question": "What film won Best Picture at the Academy Awards in 1951?",
+      "answer": "An American in Paris",
+      "alternateAnswers": [],
+      "explanation": "An American in Paris won six Oscars and featured a 17-minute ballet finale that cost nearly half a million dollars. Gene Kelly's choreography drew from the paintings of French Impressionists."
+    },
+    {
+      "id": "bp1952",
+      "question": "What film won Best Picture at the Academy Awards in 1952?",
+      "answer": "The Greatest Show on Earth",
+      "alternateAnswers": ["Greatest Show on Earth"],
+      "explanation": "The Greatest Show on Earth is widely considered one of the weakest Best Picture winners. It beat High Noon and The Quiet Man. Cecil B. DeMille filmed it at the actual Ringling Bros. circus."
+    },
+    {
+      "id": "bp1953",
+      "question": "What film won Best Picture at the Academy Awards in 1953?",
+      "answer": "From Here to Eternity",
+      "alternateAnswers": [],
+      "explanation": "From Here to Eternity won 8 of its 13 nominations. Its beach kiss between Burt Lancaster and Deborah Kerr is one of the most iconic scenes in cinema history."
+    },
+    {
+      "id": "bp1954",
+      "question": "What film won Best Picture at the Academy Awards in 1954?",
+      "answer": "On the Waterfront",
+      "alternateAnswers": [],
+      "explanation": "Marlon Brando's 'I coulda been a contender' speech is among the most famous in film history. Director Elia Kazan made the film partly to justify his controversial decision to name names before the House Un-American Activities Committee."
+    },
+    {
+      "id": "bp1955",
+      "question": "What film won Best Picture at the Academy Awards in 1955?",
+      "answer": "Marty",
+      "alternateAnswers": [],
+      "explanation": "Marty is the shortest Best Picture winner at 90 minutes and had the smallest budget. It was adapted from a TV play and also won the Palme d'Or at Cannes -- the first film to win both."
+    },
+    {
+      "id": "bp1956",
+      "question": "What film won Best Picture at the Academy Awards in 1956?",
+      "answer": "Around the World in 80 Days",
+      "alternateAnswers": ["Around the World in Eighty Days"],
+      "explanation": "This globetrotting adventure featured 46 celebrity cameos, including Frank Sinatra and Marlene Dietrich. Producer Mike Todd hired a fleet of planes to bring press to the premiere."
+    },
+    {
+      "id": "bp1957",
+      "question": "What film won Best Picture at the Academy Awards in 1957?",
+      "answer": "The Bridge on the River Kwai",
+      "alternateAnswers": ["Bridge on the River Kwai"],
+      "explanation": "Director David Lean filmed on location in Sri Lanka. The screenwriters, Carl Foreman and Michael Wilson, were blacklisted and could not receive credit until the Academy corrected the record decades later."
+    },
+    {
+      "id": "bp1958",
+      "question": "What film won Best Picture at the Academy Awards in 1958?",
+      "answer": "Gigi",
+      "alternateAnswers": [],
+      "explanation": "Gigi won all nine of its nominations, a perfect record. It was the last gasp of the classic MGM musical, directed by Vincente Minnelli with songs by Lerner and Loewe."
+    },
+    {
+      "id": "bp1959",
+      "question": "What film won Best Picture at the Academy Awards in 1959?",
+      "answer": "Ben-Hur",
+      "alternateAnswers": ["Ben Hur"],
+      "explanation": "Ben-Hur won 11 Oscars, a record that stood for 38 years. The chariot race sequence took five weeks to film and used 15,000 extras. Charlton Heston did most of his own stunt driving."
+    },
+    {
+      "id": "bp1960",
+      "question": "What film won Best Picture at the Academy Awards in 1960?",
+      "answer": "The Apartment",
+      "alternateAnswers": [],
+      "explanation": "Billy Wilder's The Apartment was the last black-and-white film to win Best Picture until Schindler's List in 1993. It inspired the musical Promises, Promises."
+    },
+    {
+      "id": "bp1961",
+      "question": "What film won Best Picture at the Academy Awards in 1961?",
+      "answer": "West Side Story",
+      "alternateAnswers": [],
+      "explanation": "West Side Story won 10 of its 11 nominations. Rita Moreno became the first Latina to win an Oscar. The film updated Romeo and Juliet to 1950s New York street gangs."
+    },
+    {
+      "id": "bp1962",
+      "question": "What film won Best Picture at the Academy Awards in 1962?",
+      "answer": "Lawrence of Arabia",
+      "alternateAnswers": [],
+      "explanation": "David Lean's epic runs 227 minutes and was filmed in the actual deserts of Jordan and Morocco. Peter O'Toole was nominated for Best Actor but lost -- the first of his eight nominations without a win."
+    },
+    {
+      "id": "bp1963",
+      "question": "What film won Best Picture at the Academy Awards in 1963?",
+      "answer": "Tom Jones",
+      "alternateAnswers": [],
+      "explanation": "Tom Jones was a bawdy British comedy that broke the fourth wall constantly. It was the first Best Picture winner based on an 18th-century novel (by Henry Fielding)."
+    },
+    {
+      "id": "bp1964",
+      "question": "What film won Best Picture at the Academy Awards in 1964?",
+      "answer": "My Fair Lady",
+      "alternateAnswers": [],
+      "explanation": "My Fair Lady starred Audrey Hepburn, but her singing was dubbed by Marni Nixon. Julie Andrews, who originated the role on Broadway but was passed over for the film, won Best Actress that same night for Mary Poppins."
+    },
+    {
+      "id": "bp1965",
+      "question": "What film won Best Picture at the Academy Awards in 1965?",
+      "answer": "The Sound of Music",
+      "alternateAnswers": ["Sound of Music"],
+      "explanation": "The Sound of Music became the highest-grossing film in history at the time, saving 20th Century Fox from bankruptcy. The real Maria von Trapp appears briefly as a background extra."
+    },
+    {
+      "id": "bp1966",
+      "question": "What film won Best Picture at the Academy Awards in 1966?",
+      "answer": "A Man for All Seasons",
+      "alternateAnswers": ["Man for All Seasons"],
+      "explanation": "Paul Scofield won Best Actor for playing Sir Thomas More, who was executed for refusing to endorse Henry VIII's divorce. Scofield was famously private and rarely appeared in films."
+    },
+    {
+      "id": "bp1967",
+      "question": "What film won Best Picture at the Academy Awards in 1967?",
+      "answer": "In the Heat of the Night",
+      "alternateAnswers": [],
+      "explanation": "Sidney Poitier's line 'They call me Mister Tibbs!' became a cultural landmark. It was filmed in Illinois because Mississippi was considered too dangerous for an integrated film crew in 1967."
+    },
+    {
+      "id": "bp1968",
+      "question": "What film won Best Picture at the Academy Awards in 1968?",
+      "answer": "Oliver!",
+      "alternateAnswers": ["Oliver"],
+      "explanation": "Oliver! was the last G-rated film to win Best Picture (the rating system was new that year). It remains the only musical version of a Dickens novel to win the top prize."
+    },
+    {
+      "id": "bp1969",
+      "question": "What film won Best Picture at the Academy Awards in 1969?",
+      "answer": "Midnight Cowboy",
+      "alternateAnswers": [],
+      "explanation": "Midnight Cowboy is the only X-rated film to win Best Picture. It was later reclassified to R without any cuts. Dustin Hoffman's 'I'm walkin' here!' was reportedly improvised when a real taxi nearly hit him."
+    },
+    {
+      "id": "bp1970",
+      "question": "What film won Best Picture at the Academy Awards in 1970?",
+      "answer": "Patton",
+      "alternateAnswers": [],
+      "explanation": "George C. Scott became the first person to refuse the Best Actor Oscar, calling the ceremony a 'meat parade.' President Nixon watched Patton repeatedly before deciding to invade Cambodia."
+    },
+    {
+      "id": "bp1971",
+      "question": "What film won Best Picture at the Academy Awards in 1971?",
+      "answer": "The French Connection",
+      "alternateAnswers": ["French Connection"],
+      "explanation": "The French Connection featured one of cinema's greatest car chases, filmed without permits on real Brooklyn streets. Gene Hackman based his portrayal of Popeye Doyle on the real detective Eddie Egan."
+    },
+    {
+      "id": "bp1972",
+      "question": "What film won Best Picture at the Academy Awards in 1972?",
+      "answer": "The Godfather",
+      "alternateAnswers": ["Godfather"],
+      "explanation": "Paramount nearly fired Francis Ford Coppola multiple times during filming. Marlon Brando won Best Actor but sent a Native American woman named Sacheen Littlefeather to decline the award in protest."
+    },
+    {
+      "id": "bp1973",
+      "question": "What film won Best Picture at the Academy Awards in 1973?",
+      "answer": "The Sting",
+      "alternateAnswers": [],
+      "explanation": "The Sting reunited Paul Newman and Robert Redford from Butch Cassidy and the Sundance Kid. Its ragtime-era soundtrack, featuring Scott Joplin's music, sparked a Joplin revival 60 years after his death."
+    },
+    {
+      "id": "bp1974",
+      "question": "What film won Best Picture at the Academy Awards in 1974?",
+      "answer": "The Godfather Part II",
+      "alternateAnswers": ["Godfather Part II", "Godfather Part 2", "The Godfather Part 2"],
+      "explanation": "The Godfather Part II was the first sequel to win Best Picture. Robert De Niro won Best Supporting Actor performing almost entirely in Sicilian dialect."
+    },
+    {
+      "id": "bp1975",
+      "question": "What film won Best Picture at the Academy Awards in 1975?",
+      "answer": "One Flew Over the Cuckoo's Nest",
+      "alternateAnswers": ["One Flew Over the Cuckoos Nest"],
+      "explanation": "It swept all five major categories -- only the second film to do so after It Happened One Night. Jack Nicholson prepared by spending time in the Oregon State Hospital where it was filmed."
+    },
+    {
+      "id": "bp1976",
+      "question": "What film won Best Picture at the Academy Awards in 1976?",
+      "answer": "Rocky",
+      "alternateAnswers": [],
+      "explanation": "Sylvester Stallone wrote the script in three days and refused to sell it unless he could star. Rocky beat All the President's Men, Network, and Taxi Driver -- considered one of the strongest fields ever."
+    },
+    {
+      "id": "bp1977",
+      "question": "What film won Best Picture at the Academy Awards in 1977?",
+      "answer": "Annie Hall",
+      "alternateAnswers": [],
+      "explanation": "Annie Hall beat Star Wars for Best Picture. Woody Allen did not attend the ceremony -- he was playing clarinet at a New York jazz club, as he did every Monday night."
+    },
+    {
+      "id": "bp1978",
+      "question": "What film won Best Picture at the Academy Awards in 1978?",
+      "answer": "The Deer Hunter",
+      "alternateAnswers": ["Deer Hunter"],
+      "explanation": "The Deer Hunter's Russian roulette scenes, while fictional, became iconic. The film was controversial for its portrayal of the Vietnam War and sparked intense debate upon release."
+    },
+    {
+      "id": "bp1979",
+      "question": "What film won Best Picture at the Academy Awards in 1979?",
+      "answer": "Kramer vs. Kramer",
+      "alternateAnswers": ["Kramer vs Kramer"],
+      "explanation": "Kramer vs. Kramer beat Apocalypse Now for Best Picture. Dustin Hoffman reportedly threw a glass against a wall to upset Meryl Streep before filming an emotional confrontation scene."
+    },
+    {
+      "id": "bp1980",
+      "question": "What film won Best Picture at the Academy Awards in 1980?",
+      "answer": "Ordinary People",
+      "alternateAnswers": [],
+      "explanation": "Robert Redford's directorial debut beat Martin Scorsese's Raging Bull, a result many critics still consider the biggest Oscar snub of all time. It was Timothy Hutton's film debut."
+    },
+    {
+      "id": "bp1981",
+      "question": "What film won Best Picture at the Academy Awards in 1981?",
+      "answer": "Chariots of Fire",
+      "alternateAnswers": [],
+      "explanation": "Chariots of Fire's Vangelis soundtrack became one of the most recognizable film scores ever. The slow-motion beach running scene has been parodied countless times."
+    },
+    {
+      "id": "bp1982",
+      "question": "What film won Best Picture at the Academy Awards in 1982?",
+      "answer": "Gandhi",
+      "alternateAnswers": [],
+      "explanation": "Ben Kingsley, who is half Indian, so resembled Gandhi that crowds in India bowed to him during filming. The funeral scene used over 300,000 extras, a world record."
+    },
+    {
+      "id": "bp1983",
+      "question": "What film won Best Picture at the Academy Awards in 1983?",
+      "answer": "Terms of Endearment",
+      "alternateAnswers": [],
+      "explanation": "Terms of Endearment won five Oscars. Shirley MacLaine and Debra Winger reportedly feuded throughout filming but both received nominations, with MacLaine winning."
+    },
+    {
+      "id": "bp1984",
+      "question": "What film won Best Picture at the Academy Awards in 1984?",
+      "answer": "Amadeus",
+      "alternateAnswers": [],
+      "explanation": "Amadeus won 8 Oscars and was filmed in Prague, standing in for 18th-century Vienna. Tom Hulce's maniacal laugh as Mozart was improvised and initially annoyed director Milos Forman, who then kept it."
+    },
+    {
+      "id": "bp1985",
+      "question": "What film won Best Picture at the Academy Awards in 1985?",
+      "answer": "Out of Africa",
+      "alternateAnswers": [],
+      "explanation": "Out of Africa beat The Color Purple, which received 11 nominations and won zero -- the biggest shutout in Oscar history. Meryl Streep mastered a Danish accent for her role as Isak Dinesen."
+    },
+    {
+      "id": "bp1986",
+      "question": "What film won Best Picture at the Academy Awards in 1986?",
+      "answer": "Platoon",
+      "alternateAnswers": [],
+      "explanation": "Oliver Stone wrote Platoon based on his own Vietnam combat experience. He put the actors through a grueling two-week boot camp in the Philippine jungle before filming."
+    },
+    {
+      "id": "bp1987",
+      "question": "What film won Best Picture at the Academy Awards in 1987?",
+      "answer": "The Last Emperor",
+      "alternateAnswers": ["Last Emperor"],
+      "explanation": "The Last Emperor swept all nine of its nominations. It was the first Western feature film permitted to film inside Beijing's Forbidden City."
+    },
+    {
+      "id": "bp1988",
+      "question": "What film won Best Picture at the Academy Awards in 1988?",
+      "answer": "Rain Man",
+      "alternateAnswers": [],
+      "explanation": "Dustin Hoffman spent a year preparing to play Raymond Babbitt, spending time with Kim Peek, the real-life savant who inspired the character. The film sparked public awareness of autism."
+    },
+    {
+      "id": "bp1989",
+      "question": "What film won Best Picture at the Academy Awards in 1989?",
+      "answer": "Driving Miss Daisy",
+      "alternateAnswers": [],
+      "explanation": "Driving Miss Daisy won Best Picture without even a Best Director nomination for Bruce Beresford -- only the third film to achieve this dubious distinction."
+    },
+    {
+      "id": "bp1990",
+      "question": "What film won Best Picture at the Academy Awards in 1990?",
+      "answer": "Dances with Wolves",
+      "alternateAnswers": [],
+      "explanation": "Kevin Costner directed, produced, and starred in Dances with Wolves. It beat Goodfellas for Best Picture, a result many cinephiles still dispute. Much of the Lakota dialogue was created specifically for the film."
+    },
+    {
+      "id": "bp1991",
+      "question": "What film won Best Picture at the Academy Awards in 1991?",
+      "answer": "The Silence of the Lambs",
+      "alternateAnswers": ["Silence of the Lambs"],
+      "explanation": "The Silence of the Lambs swept all five major categories -- only the third film to do so. Anthony Hopkins won Best Actor with just 16 minutes of screen time, one of the shortest lead performances to win."
+    },
+    {
+      "id": "bp1992",
+      "question": "What film won Best Picture at the Academy Awards in 1992?",
+      "answer": "Unforgiven",
+      "alternateAnswers": [],
+      "explanation": "Clint Eastwood's revisionist Western deconstructed the genre that made him famous. He had owned the script for 20 years, waiting until he was old enough to play the lead."
+    },
+    {
+      "id": "bp1993",
+      "question": "What film won Best Picture at the Academy Awards in 1993?",
+      "answer": "Schindler's List",
+      "alternateAnswers": ["Schindlers List"],
+      "explanation": "Steven Spielberg filmed in black and white, on location near Auschwitz. He refused to take a salary, calling it 'blood money.' The film reportedly made him so depressed that Robin Williams called him regularly to cheer him up."
+    },
+    {
+      "id": "bp1994",
+      "question": "What film won Best Picture at the Academy Awards in 1994?",
+      "answer": "Forrest Gump",
+      "alternateAnswers": [],
+      "explanation": "Forrest Gump beat Pulp Fiction and The Shawshank Redemption, both now considered all-time classics. Tom Hanks's running scenes required filming across multiple US locations over several months."
+    },
+    {
+      "id": "bp1995",
+      "question": "What film won Best Picture at the Academy Awards in 1995?",
+      "answer": "Braveheart",
+      "alternateAnswers": [],
+      "explanation": "Mel Gibson directed and starred as William Wallace. The film was shot in Ireland because Scotland's landscapes had too many modern intrusions. Historians note the film is spectacularly inaccurate."
+    },
+    {
+      "id": "bp1996",
+      "question": "What film won Best Picture at the Academy Awards in 1996?",
+      "answer": "The English Patient",
+      "alternateAnswers": ["English Patient"],
+      "explanation": "The English Patient won 9 of its 12 nominations. It was nearly shelved when its original studio dropped it mid-production, but Miramax's Harvey Weinstein picked it up and campaigned aggressively."
+    },
+    {
+      "id": "bp1997",
+      "question": "What film won Best Picture at the Academy Awards in 1997?",
+      "answer": "Titanic",
+      "alternateAnswers": [],
+      "explanation": "Titanic tied Ben-Hur's record with 11 wins. The film went massively over budget (to $200 million) and was predicted to be a disaster. It earned over $2 billion worldwide."
+    },
+    {
+      "id": "bp1998",
+      "question": "What film won Best Picture at the Academy Awards in 1998?",
+      "answer": "Shakespeare in Love",
+      "alternateAnswers": [],
+      "explanation": "Shakespeare in Love upset Steven Spielberg's Saving Private Ryan, thanks to an aggressive campaign by Miramax. It remains one of the most debated Best Picture wins in Oscar history."
+    },
+    {
+      "id": "bp1999",
+      "question": "What film won Best Picture at the Academy Awards in 1999?",
+      "answer": "American Beauty",
+      "alternateAnswers": [],
+      "explanation": "American Beauty was Sam Mendes's film debut after a career in theater. Kevin Spacey won Best Actor. The floating plastic bag scene became a cultural touchstone -- and a frequent target of parody."
+    },
+    {
+      "id": "bp2000",
+      "question": "What film won Best Picture at the Academy Awards in 2000?",
+      "answer": "Gladiator",
+      "alternateAnswers": [],
+      "explanation": "Gladiator revived the sword-and-sandal epic genre that had been dormant for decades. Oliver Reed died during filming, and his remaining scenes were completed using CGI face replacement."
+    },
+    {
+      "id": "bp2001",
+      "question": "What film won Best Picture at the Academy Awards in 2001?",
+      "answer": "A Beautiful Mind",
+      "alternateAnswers": ["Beautiful Mind"],
+      "explanation": "Russell Crowe starred as mathematician John Nash, who won the Nobel Prize while living with schizophrenia. The film controversially omitted some of the darker aspects of Nash's biography."
+    },
+    {
+      "id": "bp2002",
+      "question": "What film won Best Picture at the Academy Awards in 2002?",
+      "answer": "Chicago",
+      "alternateAnswers": [],
+      "explanation": "Chicago was the first musical to win Best Picture since Oliver! in 1968, ending a 34-year drought. It revived Hollywood's interest in the musical genre."
+    },
+    {
+      "id": "bp2003",
+      "question": "What film won Best Picture at the Academy Awards in 2003?",
+      "answer": "The Lord of the Rings: The Return of the King",
+      "alternateAnswers": ["Return of the King", "Lord of the Rings: The Return of the King", "The Return of the King"],
+      "explanation": "Return of the King won all 11 of its nominations, tying Titanic and Ben-Hur for most wins. It was widely seen as an award for the entire trilogy, which had been nominated the two previous years."
+    },
+    {
+      "id": "bp2004",
+      "question": "What film won Best Picture at the Academy Awards in 2004?",
+      "answer": "Million Dollar Baby",
+      "alternateAnswers": [],
+      "explanation": "Clint Eastwood directed this boxing drama at age 74. Its dark twist ending was kept so secret that audiences were genuinely shocked. It was made for just $30 million."
+    },
+    {
+      "id": "bp2005",
+      "question": "What film won Best Picture at the Academy Awards in 2005?",
+      "answer": "Crash",
+      "alternateAnswers": [],
+      "explanation": "Crash's win over Brokeback Mountain is considered one of the biggest upsets in Oscar history. It had the smallest budget of any Best Picture winner in decades and was nearly released direct to video."
+    },
+    {
+      "id": "bp2006",
+      "question": "What film won Best Picture at the Academy Awards in 2006?",
+      "answer": "The Departed",
+      "alternateAnswers": ["Departed"],
+      "explanation": "The Departed finally won Martin Scorsese his first Best Director Oscar after decades of snubs. It was a remake of the Hong Kong film Infernal Affairs. Jack Nicholson ad-libbed many of his most memorable scenes."
+    },
+    {
+      "id": "bp2007",
+      "question": "What film won Best Picture at the Academy Awards in 2007?",
+      "answer": "No Country for Old Men",
+      "alternateAnswers": [],
+      "explanation": "The Coen Brothers' adaptation of Cormac McCarthy's novel featured Javier Bardem's terrifying Anton Chigurh with his cattle bolt pistol and bowl haircut. Bardem reportedly hated the haircut so much he avoided going out in public."
+    },
+    {
+      "id": "bp2008",
+      "question": "What film won Best Picture at the Academy Awards in 2008?",
+      "answer": "Slumdog Millionaire",
+      "alternateAnswers": [],
+      "explanation": "Slumdog Millionaire was nearly released straight to DVD before Fox Searchlight gave it a theatrical run. It won 8 Oscars and made stars of its young Indian cast."
+    },
+    {
+      "id": "bp2009",
+      "question": "What film won Best Picture at the Academy Awards in 2009?",
+      "answer": "The Hurt Locker",
+      "alternateAnswers": ["Hurt Locker"],
+      "explanation": "Kathryn Bigelow became the first woman to win Best Director, beating her ex-husband James Cameron (Avatar). The Hurt Locker earned just $17 million domestically -- the lowest-grossing Best Picture winner."
+    },
+    {
+      "id": "bp2010",
+      "question": "What film won Best Picture at the Academy Awards in 2010?",
+      "answer": "The King's Speech",
+      "alternateAnswers": ["King's Speech"],
+      "explanation": "Colin Firth won Best Actor for playing King George VI's struggle with stammering. The real recordings of the King's speeches confirm just how effectively he overcame his stutter with help from Lionel Logue."
+    },
+    {
+      "id": "bp2011",
+      "question": "What film won Best Picture at the Academy Awards in 2011?",
+      "answer": "The Artist",
+      "alternateAnswers": ["Artist"],
+      "explanation": "The Artist was a black-and-white silent film that won Best Picture in 2011, 83 years after the last silent film (Wings) had won. Lead actor Jean Dujardin became the first French actor to win Best Actor."
+    },
+    {
+      "id": "bp2012",
+      "question": "What film won Best Picture at the Academy Awards in 2012?",
+      "answer": "Argo",
+      "alternateAnswers": [],
+      "explanation": "Ben Affleck directed and starred in Argo, based on the CIA's real scheme to rescue hostages from Iran using a fake movie production. The real rescued diplomats said the film was surprisingly accurate."
+    },
+    {
+      "id": "bp2013",
+      "question": "What film won Best Picture at the Academy Awards in 2013?",
+      "answer": "12 Years a Slave",
+      "alternateAnswers": ["Twelve Years a Slave"],
+      "explanation": "12 Years a Slave was based on the 1853 memoir of Solomon Northup, a free Black man kidnapped and sold into slavery. Director Steve McQueen became the first Black filmmaker to win Best Picture."
+    },
+    {
+      "id": "bp2014",
+      "question": "What film won Best Picture at the Academy Awards in 2014?",
+      "answer": "Birdman",
+      "alternateAnswers": ["Birdman or (The Unexpected Virtue of Ignorance)"],
+      "explanation": "Birdman was filmed to appear as one continuous take, with hidden cuts disguised by camera movements. Michael Keaton, a former Batman, played a former superhero actor, blurring fiction and reality."
+    },
+    {
+      "id": "bp2015",
+      "question": "What film won Best Picture at the Academy Awards in 2015?",
+      "answer": "Spotlight",
+      "alternateAnswers": [],
+      "explanation": "Spotlight told the true story of the Boston Globe's investigation into Catholic Church sexual abuse. The real journalists portrayed in the film consulted closely with the filmmakers on accuracy."
+    },
+    {
+      "id": "bp2016",
+      "question": "What film won Best Picture at the Academy Awards in 2016?",
+      "answer": "Moonlight",
+      "alternateAnswers": [],
+      "explanation": "Moonlight became the first film with an all-Black cast and the first LGBTQ-themed film to win Best Picture. The award was initially announced incorrectly as La La Land in one of the most dramatic moments in Oscar history."
+    },
+    {
+      "id": "bp2017",
+      "question": "What film won Best Picture at the Academy Awards in 2017?",
+      "answer": "The Shape of Water",
+      "alternateAnswers": ["Shape of Water"],
+      "explanation": "Guillermo del Toro's fantasy romance about a mute woman who falls in love with an amphibian creature won 4 Oscars. Del Toro had pitched the idea as a child and waited decades to make it."
+    },
+    {
+      "id": "bp2018",
+      "question": "What film won Best Picture at the Academy Awards in 2018?",
+      "answer": "Green Book",
+      "alternateAnswers": [],
+      "explanation": "Green Book was controversial -- the family of Don Shirley disputed its accuracy, and critics accused it of being a 'white savior' narrative. Viggo Mortensen gained 45 pounds for his role."
+    },
+    {
+      "id": "bp2019",
+      "question": "What film won Best Picture at the Academy Awards in 2019?",
+      "answer": "Parasite",
+      "alternateAnswers": [],
+      "explanation": "Bong Joon-ho's Parasite was the first non-English language film to win Best Picture. In his acceptance speech, Bong quoted Martin Scorsese: 'The most personal is the most creative.'"
+    },
+    {
+      "id": "bp2020",
+      "question": "What film won Best Picture at the Academy Awards in 2020?",
+      "answer": "Nomadland",
+      "alternateAnswers": [],
+      "explanation": "Chloe Zhao became the second woman and first woman of color to win Best Director. The film used real nomads alongside Frances McDormand, blurring documentary and fiction."
+    },
+    {
+      "id": "bp2021",
+      "question": "What film won Best Picture at the Academy Awards in 2021?",
+      "answer": "CODA",
+      "alternateAnswers": [],
+      "explanation": "CODA (Child of Deaf Adults) was the first film from a streaming service (Apple TV+) to win Best Picture. Troy Kotsur became only the second deaf actor to win an Oscar."
+    },
+    {
+      "id": "bp2022",
+      "question": "What film won Best Picture at the Academy Awards in 2022?",
+      "answer": "Everything Everywhere All at Once",
+      "alternateAnswers": ["EEAAO"],
+      "explanation": "Made for just $25 million, it won 7 Oscars. Michelle Yeoh became the first Asian woman to win Best Actress. Ke Huy Quan returned to acting after a 20-year absence and won Best Supporting Actor."
+    },
+    {
+      "id": "bp2023",
+      "question": "What film won Best Picture at the Academy Awards in 2023?",
+      "answer": "Oppenheimer",
+      "alternateAnswers": [],
+      "explanation": "Christopher Nolan's epic about the father of the atomic bomb won 7 Oscars. Nolan recreated the Trinity nuclear test without CGI, using practical effects including actual explosives."
+    },
+    {
+      "id": "bp2024",
+      "question": "What film won Best Picture at the Academy Awards in 2024?",
+      "answer": "Anora",
+      "alternateAnswers": [],
+      "explanation": "Sean Baker's Anora won Best Picture at the 97th Academy Awards. Baker also won Best Director and Mikey Madison was nominated for Best Actress for her portrayal of a Brooklyn sex worker who marries the son of a Russian oligarch."
+    }
+  ]
+}

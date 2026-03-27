@@ -1,0 +1,115 @@
+{
+  "id": "sci-human-body-systems",
+  "category": "science",
+  "name": "Human Body Systems",
+  "tier": "foundation",
+  "description": "Major organ systems of the human body -- their functions, key organs, and surprising facts",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "circulatory",
+      "question": "What organ system includes the heart and blood vessels?",
+      "answer": "Circulatory system",
+      "alternateAnswers": ["circulatory", "cardiovascular system", "cardiovascular"],
+      "explanation": "The circulatory system pumps about 2,000 gallons of blood per day. If you laid all your blood vessels end to end, they would stretch over 60,000 miles -- enough to wrap around the Earth more than twice."
+    },
+    {
+      "id": "largest-organ",
+      "question": "What is the largest organ in the human body?",
+      "answer": "Skin",
+      "alternateAnswers": ["the skin"],
+      "explanation": "An adult's skin covers about 22 square feet and weighs around 8 pounds. It is part of the integumentary system and completely replaces itself roughly every 27 days."
+    },
+    {
+      "id": "bone-count",
+      "question": "How many bones are in the adult human body?",
+      "answer": "206",
+      "alternateAnswers": ["two hundred six", "two hundred and six"],
+      "explanation": "Babies are born with about 270 bones, but many fuse together as they grow. Over a quarter of all your bones (54) are in your hands and feet alone."
+    },
+    {
+      "id": "respiratory",
+      "question": "What organ system is responsible for gas exchange, bringing oxygen in and removing carbon dioxide?",
+      "answer": "Respiratory system",
+      "alternateAnswers": ["respiratory", "pulmonary system", "pulmonary"],
+      "explanation": "Your lungs contain about 300 million alveoli -- tiny air sacs where gas exchange happens. If you spread them flat, their total surface area would cover a tennis court."
+    },
+    {
+      "id": "digestive-length",
+      "question": "What organ in the digestive system is about 20 feet long in an adult, despite its misleading name?",
+      "answer": "Small intestine",
+      "alternateAnswers": ["the small intestine", "small bowel"],
+      "explanation": "The small intestine is actually about 20 feet long -- much longer than the large intestine (about 5 feet). It is called 'small' because of its narrower diameter, not its length."
+    },
+    {
+      "id": "nervous-brain",
+      "question": "What organ system includes the brain, spinal cord, and nerves?",
+      "answer": "Nervous system",
+      "alternateAnswers": ["nervous", "neural system"],
+      "explanation": "The human brain contains roughly 86 billion neurons. Nerve signals can travel at speeds up to 268 mph, which is why you can feel a stubbed toe almost instantly."
+    },
+    {
+      "id": "largest-bone",
+      "question": "What is the longest and strongest bone in the human body?",
+      "answer": "Femur",
+      "alternateAnswers": ["the femur", "thigh bone", "thighbone"],
+      "explanation": "The femur (thigh bone) can support up to 30 times the weight of an adult. It is part of the skeletal system and is roughly one-quarter of a person's total height."
+    },
+    {
+      "id": "muscular-count",
+      "question": "Approximately how many skeletal muscles are in the human body: about 200, 400, or 600?",
+      "answer": "600",
+      "alternateAnswers": ["about 600", "~600", "around 600"],
+      "explanation": "The human body has over 600 skeletal muscles, making up about 40% of total body weight. The gluteus maximus (your buttock muscle) is the largest, while the stapedius in your ear is the smallest."
+    },
+    {
+      "id": "endocrine-master",
+      "question": "What pea-sized gland at the base of the brain is called the 'master gland' of the endocrine system?",
+      "answer": "Pituitary gland",
+      "alternateAnswers": ["pituitary", "the pituitary gland", "the pituitary"],
+      "explanation": "The pituitary gland is only about the size of a pea but controls growth, metabolism, and reproduction by signaling other glands. Despite its nickname, it actually takes orders from the hypothalamus above it."
+    },
+    {
+      "id": "immune-organ",
+      "question": "What organ of the lymphatic system filters blood, recycles old red blood cells, and holds a reserve of white blood cells?",
+      "answer": "Spleen",
+      "alternateAnswers": ["the spleen"],
+      "explanation": "The spleen filters about a cup of blood every minute. You can survive without it, but you become more vulnerable to certain infections because it plays a key role in the immune response."
+    },
+    {
+      "id": "urinary-filter",
+      "question": "What pair of organs in the urinary system filters waste from the blood to produce urine?",
+      "answer": "Kidneys",
+      "alternateAnswers": ["the kidneys", "kidney"],
+      "explanation": "Your kidneys filter all of your blood about 40 times per day, processing roughly 200 quarts. Each kidney contains about one million tiny filtering units called nephrons."
+    },
+    {
+      "id": "integumentary",
+      "question": "What body system consists of skin, hair, nails, and sweat glands?",
+      "answer": "Integumentary system",
+      "alternateAnswers": ["integumentary", "the integumentary system"],
+      "explanation": "The integumentary system is your body's first line of defense against the outside world. You shed about 1.5 million skin cells every hour -- most household dust is actually dead skin."
+    },
+    {
+      "id": "reproductive-cell",
+      "question": "What is the largest single cell in the human body?",
+      "answer": "Egg cell",
+      "alternateAnswers": ["ovum", "egg", "the egg cell", "the ovum", "oocyte"],
+      "explanation": "The human egg cell (ovum) is about 0.1 mm in diameter -- just barely visible to the naked eye. It is roughly 16 times wider than a sperm cell and about 10,000 times wider than a red blood cell."
+    },
+    {
+      "id": "digestive-acid",
+      "question": "What organ produces hydrochloric acid strong enough to dissolve metal?",
+      "answer": "Stomach",
+      "alternateAnswers": ["the stomach"],
+      "explanation": "Stomach acid has a pH of about 1.5 to 3.5 -- strong enough to dissolve a razor blade. The stomach protects itself by producing a new mucus lining every few days."
+    },
+    {
+      "id": "nervous-reflex",
+      "question": "What part of the nervous system controls involuntary actions like heart rate, digestion, and breathing?",
+      "answer": "Autonomic nervous system",
+      "alternateAnswers": ["autonomic", "the autonomic nervous system", "ANS"],
+      "explanation": "The autonomic nervous system works without conscious thought, keeping you alive while you sleep. It has two branches: sympathetic ('fight or flight') and parasympathetic ('rest and digest')."
+    }
+  ]
+}

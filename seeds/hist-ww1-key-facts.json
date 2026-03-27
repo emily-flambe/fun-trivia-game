@@ -1,0 +1,115 @@
+{
+  "id": "hist-ww1-key-facts",
+  "category": "history",
+  "name": "World War I Key Facts",
+  "tier": "foundation",
+  "description": "Causes, alliances, major battles, key figures, technology, and outcome of the Great War (1914-1918)",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "ww1-trigger",
+      "question": "Whose assassination in 1914 triggered the start of World War I?",
+      "answer": "Archduke Franz Ferdinand",
+      "alternateAnswers": ["Franz Ferdinand", "Archduke Franz Ferdinand of Austria"],
+      "explanation": "Franz Ferdinand was shot in Sarajevo on June 28, 1914, by Gavrilo Princip, a Bosnian Serb nationalist. The assassin had almost given up after an earlier bomb attempt failed -- he stumbled onto his target by chance when the Archduke's driver took a wrong turn."
+    },
+    {
+      "id": "ww1-alliances-entente",
+      "question": "Which three countries made up the Triple Entente at the start of World War I?",
+      "answer": "France, Russia, and Britain",
+      "alternateAnswers": ["Britain, France, and Russia", "Russia, France, and Britain", "France, Britain, and Russia", "UK, France, and Russia", "France, Russia, and the United Kingdom"],
+      "explanation": "The Triple Entente formed through a series of agreements between 1894 and 1907. Ironically, Britain's King George V, Germany's Kaiser Wilhelm II, and Russia's Tsar Nicholas II were all first cousins -- the war has been called 'the cousins' war.'"
+    },
+    {
+      "id": "ww1-alliances-central",
+      "question": "What were the Central Powers in World War I? Name the main three members.",
+      "answer": "Germany, Austria-Hungary, and the Ottoman Empire",
+      "alternateAnswers": ["Germany, Austria-Hungary, and Ottoman Empire", "Ottoman Empire, Germany, and Austria-Hungary", "Austria-Hungary, Germany, and the Ottoman Empire"],
+      "explanation": "The Central Powers were called 'central' because of their geographic position in the middle of Europe. Bulgaria joined them in 1915, but the alliance was always strained -- Austria-Hungary and the Ottoman Empire were both crumbling multi-ethnic empires held together by little more than tradition."
+    },
+    {
+      "id": "ww1-battle-somme",
+      "question": "In what year was the Battle of the Somme fought?",
+      "answer": "1916",
+      "alternateAnswers": [],
+      "explanation": "The Battle of the Somme (July-November 1916) saw nearly 20,000 British soldiers killed on the first day alone -- the bloodiest day in British military history. After five months of fighting, the front line had moved just six miles."
+    },
+    {
+      "id": "ww1-battle-verdun",
+      "question": "Which 1916 battle between France and Germany lasted about 10 months and became a symbol of the war's futility?",
+      "answer": "Battle of Verdun",
+      "alternateAnswers": ["Verdun"],
+      "explanation": "Verdun (February-December 1916) caused roughly 700,000 combined casualties in an area smaller than the city of Washington, D.C. The German plan was literally to 'bleed France white,' but Germany bled almost as badly."
+    },
+    {
+      "id": "ww1-gallipoli",
+      "question": "The Gallipoli Campaign of 1915-1916 was a failed Allied attempt to seize a strait connecting the Mediterranean to which body of water?",
+      "answer": "Black Sea",
+      "alternateAnswers": [],
+      "explanation": "The Allies tried to force the Dardanelles strait and knock the Ottoman Empire out of the war. The campaign was a disaster that cost over 250,000 Allied casualties, and it nearly ended Winston Churchill's career -- he had championed the plan as First Lord of the Admiralty."
+    },
+    {
+      "id": "ww1-wilson",
+      "question": "Which US President led America into World War I in 1917?",
+      "answer": "Woodrow Wilson",
+      "alternateAnswers": ["Wilson", "President Wilson"],
+      "explanation": "Wilson won re-election in 1916 with the slogan 'He kept us out of war,' then asked Congress for a declaration of war just five months later. He proposed his Fourteen Points for peace, including the League of Nations, but the US Senate refused to join it."
+    },
+    {
+      "id": "ww1-kaiser",
+      "question": "Who was the Kaiser (Emperor) of Germany during World War I?",
+      "answer": "Kaiser Wilhelm II",
+      "alternateAnswers": ["Wilhelm II", "Kaiser Wilhelm", "William II"],
+      "explanation": "Wilhelm II was Queen Victoria's eldest grandchild and first cousin to both King George V of Britain and (by marriage) Tsar Nicholas II of Russia. He was born with a withered left arm and overcompensated with aggressive militarism that helped push Europe toward war."
+    },
+    {
+      "id": "ww1-trench-warfare",
+      "question": "What type of warfare defined the Western Front, with opposing armies dug into fortified positions?",
+      "answer": "Trench warfare",
+      "alternateAnswers": ["Trench war", "Trenches"],
+      "explanation": "The trench system on the Western Front stretched about 440 miles from the English Channel to Switzerland. Soldiers endured rats, lice, mud, disease, and 'shell shock' (now called PTSD). The area between opposing trenches -- 'no man's land' -- could be as narrow as 25 yards."
+    },
+    {
+      "id": "ww1-poison-gas",
+      "question": "What chemical weapon was first used on a large scale by Germany at the Second Battle of Ypres in April 1915?",
+      "answer": "Chlorine gas",
+      "alternateAnswers": ["Poison gas", "Chlorine", "Chemical weapons"],
+      "explanation": "Germany released 168 tons of chlorine gas from 5,730 cylinders at Ypres, creating a greenish-yellow cloud that terrified Allied troops. Both sides soon escalated to deadlier agents like phosgene and mustard gas, and over 1 million soldiers were gassed during the war."
+    },
+    {
+      "id": "ww1-tanks",
+      "question": "Which country first used tanks in combat during World War I?",
+      "answer": "Britain",
+      "alternateAnswers": ["Great Britain", "United Kingdom", "UK", "England"],
+      "explanation": "Britain deployed the first tanks at the Battle of the Somme in September 1916. They were called 'tanks' as a codeword to disguise them as water carriers during development. Early models were unreliable -- at the Somme, only 9 of 49 tanks made it to the German lines."
+    },
+    {
+      "id": "ww1-end-date",
+      "question": "On what date did World War I end?",
+      "answer": "November 11, 1918",
+      "alternateAnswers": ["11 November 1918", "Nov 11 1918", "11/11/1918"],
+      "explanation": "The armistice took effect at the 11th hour of the 11th day of the 11th month. Tragically, commanders kept sending men into battle that morning even though they knew the war would end at 11 AM -- an estimated 2,738 men died on the last day of the war."
+    },
+    {
+      "id": "ww1-treaty",
+      "question": "What treaty formally ended World War I between the Allies and Germany?",
+      "answer": "Treaty of Versailles",
+      "alternateAnswers": ["Versailles", "Versailles Treaty"],
+      "explanation": "The Treaty of Versailles (signed June 28, 1919) forced Germany to accept sole blame for the war, pay massive reparations, and surrender 13% of its territory. The harsh terms created lasting resentment that Adolf Hitler would exploit to rise to power."
+    },
+    {
+      "id": "ww1-us-entry-event",
+      "question": "What was the name of the intercepted German telegram proposing a military alliance with Mexico that helped push the US into WWI?",
+      "answer": "Zimmermann Telegram",
+      "alternateAnswers": ["Zimmermann Note", "The Zimmermann Telegram"],
+      "explanation": "In January 1917, German Foreign Secretary Arthur Zimmermann sent a secret telegram to Mexico proposing an alliance: if the US entered the war, Mexico would attack the US and reclaim Texas, New Mexico, and Arizona. British intelligence intercepted and decoded it, and its publication outraged the American public."
+    },
+    {
+      "id": "ww1-casualties",
+      "question": "Approximately how many soldiers died in World War I: 5 million, 10 million, or 20 million?",
+      "answer": "10 million",
+      "alternateAnswers": ["10,000,000", "About 10 million"],
+      "explanation": "Roughly 10 million soldiers and 7 million civilians died in WWI. The influenza pandemic of 1918-1919, spread partly by troop movements, killed an additional 50-100 million people worldwide -- far more than the war itself."
+    }
+  ]
+}

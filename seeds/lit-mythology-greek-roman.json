@@ -1,0 +1,220 @@
+{
+  "id": "lit-mythology-greek-roman",
+  "category": "literature",
+  "name": "Greek and Roman Mythology",
+  "tier": "foundation",
+  "description": "Major Olympian gods, heroes, and myths from Greek and Roman tradition",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "zeus-roman",
+      "question": "What is the Roman name for the Greek god Zeus?",
+      "answer": "Jupiter",
+      "alternateAnswers": ["Jove"],
+      "explanation": "Zeus/Jupiter was king of the gods and ruler of Mount Olympus. The planet Jupiter was named after him because it is the largest planet, fitting for the king of the gods."
+    },
+    {
+      "id": "hera-roman",
+      "question": "What is the Roman name for the Greek goddess Hera?",
+      "answer": "Juno",
+      "alternateAnswers": [],
+      "explanation": "Hera/Juno was goddess of marriage and queen of the gods. NASA named the Jupiter probe 'Juno' because in myth, Jupiter drew clouds around himself to hide his mischief, but Juno could see through them."
+    },
+    {
+      "id": "poseidon-roman",
+      "question": "What is the Roman name for the Greek god Poseidon?",
+      "answer": "Neptune",
+      "alternateAnswers": [],
+      "explanation": "Poseidon/Neptune was god of the sea, earthquakes, and horses. He competed with Athena for patronage of Athens -- he offered a saltwater spring, she offered an olive tree. Athens chose the tree."
+    },
+    {
+      "id": "athena-roman",
+      "question": "What is the Roman name for the Greek goddess Athena?",
+      "answer": "Minerva",
+      "alternateAnswers": [],
+      "explanation": "Athena/Minerva was goddess of wisdom and warfare. She was born fully grown and armored from Zeus's head after he swallowed her pregnant mother, Metis."
+    },
+    {
+      "id": "ares-roman",
+      "question": "What is the Roman name for the Greek god Ares?",
+      "answer": "Mars",
+      "alternateAnswers": [],
+      "explanation": "Ares/Mars was god of war. While the Greeks found Ares brutal and unpopular, the Romans revered Mars as father of Romulus and Remus and considered him second only to Jupiter."
+    },
+    {
+      "id": "aphrodite-roman",
+      "question": "What is the Roman name for the Greek goddess Aphrodite?",
+      "answer": "Venus",
+      "alternateAnswers": [],
+      "explanation": "Aphrodite/Venus was goddess of love and beauty. According to Hesiod, she was born from sea foam after Cronus severed Uranus's body parts and threw them into the ocean."
+    },
+    {
+      "id": "hermes-roman",
+      "question": "What is the Roman name for the Greek god Hermes?",
+      "answer": "Mercury",
+      "alternateAnswers": [],
+      "explanation": "Hermes/Mercury was messenger of the gods and patron of travelers, thieves, and merchants. The planet Mercury was named for him because it moves across the sky faster than any other planet."
+    },
+    {
+      "id": "artemis-roman",
+      "question": "What is the Roman name for the Greek goddess Artemis?",
+      "answer": "Diana",
+      "alternateAnswers": [],
+      "explanation": "Artemis/Diana was goddess of the hunt and the moon. She was Apollo's twin sister and fiercely protective of her virginity -- she turned the hunter Actaeon into a stag for seeing her bathe."
+    },
+    {
+      "id": "apollo-roman",
+      "question": "What is the Roman name for the Greek god Apollo?",
+      "answer": "Apollo",
+      "alternateAnswers": [],
+      "explanation": "Apollo is one of the few Olympians whose name stayed the same in both Greek and Roman mythology. He was god of music, poetry, the sun, and prophecy -- the oracle at Delphi spoke for him."
+    },
+    {
+      "id": "hephaestus-roman",
+      "question": "What is the Roman name for the Greek god Hephaestus?",
+      "answer": "Vulcan",
+      "alternateAnswers": [],
+      "explanation": "Hephaestus/Vulcan was god of fire and the forge. He was the only Olympian who was physically imperfect -- Hera threw him off Olympus as a baby because he was lame. The word 'volcano' comes from Vulcan."
+    },
+    {
+      "id": "demeter-roman",
+      "question": "What is the Roman name for the Greek goddess Demeter?",
+      "answer": "Ceres",
+      "alternateAnswers": [],
+      "explanation": "Demeter/Ceres was goddess of the harvest. The word 'cereal' derives from Ceres. The myth of her daughter Persephone's abduction by Hades explained the seasons."
+    },
+    {
+      "id": "dionysus-roman",
+      "question": "What is the Roman name for the Greek god Dionysus?",
+      "answer": "Bacchus",
+      "alternateAnswers": [],
+      "explanation": "Dionysus/Bacchus was god of wine, theater, and ecstasy. He was the only Olympian with a mortal parent. Greek tragedy and comedy both originated from festivals held in his honor."
+    },
+    {
+      "id": "hades-roman",
+      "question": "What is the Roman name for the Greek god Hades?",
+      "answer": "Pluto",
+      "alternateAnswers": [],
+      "explanation": "Hades/Pluto was god of the underworld. Despite popular culture, he was not considered evil by the Greeks -- just stern. His name Pluto means 'the wealthy one,' because all precious metals come from underground."
+    },
+    {
+      "id": "minotaur-slayer",
+      "question": "Who slew the Minotaur in Greek mythology?",
+      "answer": "Theseus",
+      "alternateAnswers": [],
+      "explanation": "Theseus navigated the Labyrinth using a ball of thread given to him by Ariadne, daughter of King Minos. He killed the half-bull, half-man creature and followed the thread back out."
+    },
+    {
+      "id": "medusa-slayer",
+      "question": "Which Greek hero slew the Gorgon Medusa?",
+      "answer": "Perseus",
+      "alternateAnswers": [],
+      "explanation": "Perseus used a mirrored shield from Athena to avoid Medusa's petrifying gaze, then beheaded her while she slept. From her blood sprang the winged horse Pegasus."
+    },
+    {
+      "id": "achilles-weakness",
+      "question": "What was the only vulnerable spot on the body of the Greek hero Achilles?",
+      "answer": "His heel",
+      "alternateAnswers": ["Heel", "His ankle", "Ankle"],
+      "explanation": "Achilles' mother Thetis dipped him in the River Styx to make him invulnerable, holding him by the heel. Paris killed him with an arrow to that spot, guided by Apollo. The term 'Achilles heel' now means any critical weakness."
+    },
+    {
+      "id": "trojan-horse",
+      "question": "Which Greek hero is credited with the idea of the Trojan Horse?",
+      "answer": "Odysseus",
+      "alternateAnswers": ["Ulysses"],
+      "explanation": "After 10 years of failed siege, Odysseus devised the plan to hide Greek soldiers inside a giant wooden horse. The Trojans brought it inside their walls, and that night the Greeks emerged and sacked the city."
+    },
+    {
+      "id": "twelve-labors",
+      "question": "Which Greek hero was forced to complete twelve labors as penance?",
+      "answer": "Heracles",
+      "alternateAnswers": ["Hercules", "Herakles"],
+      "explanation": "Heracles (Hercules in Roman mythology) was driven mad by Hera and killed his own family. The twelve labors included slaying the Nemean Lion, capturing Cerberus, and cleaning the Augean Stables in a single day."
+    },
+    {
+      "id": "pandora",
+      "question": "In Greek mythology, who opened a container (often called a box) that released all evils into the world?",
+      "answer": "Pandora",
+      "alternateAnswers": [],
+      "explanation": "Pandora was the first woman, created by the gods as punishment for Prometheus giving fire to humans. She opened the jar (mistranslated as 'box') and all evils flew out, leaving only Hope trapped inside."
+    },
+    {
+      "id": "prometheus",
+      "question": "Which Titan stole fire from the gods and gave it to humanity?",
+      "answer": "Prometheus",
+      "alternateAnswers": [],
+      "explanation": "As punishment, Zeus chained Prometheus to a rock where an eagle ate his liver every day, only for it to regenerate each night. Heracles eventually freed him. Prometheus's name means 'forethought.'"
+    },
+    {
+      "id": "golden-fleece",
+      "question": "Which Greek hero led the Argonauts in search of the Golden Fleece?",
+      "answer": "Jason",
+      "alternateAnswers": [],
+      "explanation": "Jason sailed aboard the Argo with heroes including Heracles, Orpheus, and Atalanta. He succeeded with help from the sorceress Medea, who he later betrayed -- leading to one of mythology's most brutal revenge stories."
+    },
+    {
+      "id": "icarus",
+      "question": "In Greek mythology, who flew too close to the sun with wings made of wax and feathers?",
+      "answer": "Icarus",
+      "alternateAnswers": [],
+      "explanation": "Icarus and his father Daedalus escaped imprisonment in Crete using wings Daedalus crafted. Despite his father's warning, Icarus flew too high, the wax melted, and he fell into the sea. The story is history's oldest cautionary tale about hubris."
+    },
+    {
+      "id": "orpheus",
+      "question": "Which Greek musician traveled to the Underworld to retrieve his dead wife Eurydice?",
+      "answer": "Orpheus",
+      "alternateAnswers": [],
+      "explanation": "Orpheus's music was so beautiful it charmed Hades into releasing Eurydice, on one condition: Orpheus must not look back at her until they reached the surface. He looked back at the last moment, and lost her forever."
+    },
+    {
+      "id": "muses-number",
+      "question": "How many Muses were there in Greek mythology?",
+      "answer": "Nine",
+      "alternateAnswers": ["9"],
+      "explanation": "The nine Muses were daughters of Zeus and Mnemosyne (Memory). Each presided over a different art or science, from epic poetry (Calliope) to astronomy (Urania). The word 'museum' literally means 'place of the Muses.'"
+    },
+    {
+      "id": "war-apple",
+      "question": "What event started the chain of events leading to the Trojan War?",
+      "answer": "The Judgment of Paris",
+      "alternateAnswers": ["Judgment of Paris", "Apple of Discord"],
+      "explanation": "Eris, goddess of discord, threw a golden apple inscribed 'To the fairest' among three goddesses. Paris of Troy was asked to judge. He chose Aphrodite, who bribed him with Helen, the most beautiful woman alive -- and launched a thousand ships."
+    },
+    {
+      "id": "cerberus",
+      "question": "What was the name of the three-headed dog that guarded the entrance to the Greek Underworld?",
+      "answer": "Cerberus",
+      "alternateAnswers": [],
+      "explanation": "Cerberus prevented the dead from leaving and the living from entering. Capturing Cerberus alive was the final and most dangerous of Heracles' twelve labors. Orpheus got past him by playing music."
+    },
+    {
+      "id": "narcissus",
+      "question": "In Greek mythology, which beautiful youth fell in love with his own reflection?",
+      "answer": "Narcissus",
+      "alternateAnswers": [],
+      "explanation": "Narcissus rejected all suitors, including the nymph Echo, and was cursed to fall in love with his own reflection in a pool. Unable to leave, he wasted away and became the narcissus flower. The term 'narcissism' comes from his name."
+    },
+    {
+      "id": "sisyphus",
+      "question": "In Greek mythology, which king was condemned to roll a boulder uphill for eternity?",
+      "answer": "Sisyphus",
+      "alternateAnswers": [],
+      "explanation": "Sisyphus was punished for cheating death twice. Every time his boulder neared the top, it rolled back down. Albert Camus used Sisyphus as the central metaphor in his essay on the absurdity of human existence."
+    },
+    {
+      "id": "king-midas",
+      "question": "Which mythological king was granted the power to turn everything he touched into gold?",
+      "answer": "King Midas",
+      "alternateAnswers": ["Midas"],
+      "explanation": "Dionysus granted Midas the golden touch as a reward, but it became a curse when his food, drink, and even his daughter turned to gold. The 'Midas touch' now ironically means business success."
+    },
+    {
+      "id": "odyssey-time",
+      "question": "How many years did it take Odysseus to return home to Ithaca after the Trojan War?",
+      "answer": "Ten",
+      "alternateAnswers": ["10", "10 years", "Ten years"],
+      "explanation": "Combined with the 10-year Trojan War, Odysseus was away from home for 20 years. His wife Penelope famously fended off suitors by weaving a shroud by day and unraveling it by night."
+    }
+  ]
+}

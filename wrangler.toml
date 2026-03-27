@@ -1,6 +1,7 @@
 name = "fun-trivia-game"
 main = "src/index.ts"
 compatibility_date = "2024-12-01"
+assets = { directory = "./dist" }
 
 routes = [
   { pattern = "trivia.emilycogsdill.com", custom_domain = true }
@@ -9,4 +10,4 @@ routes = [
 [[d1_databases]]
 binding = "DB"
 database_name = "trivia-trainer"
-database_id = "placeholder"
+database_id = "f647046c-e114-41ca-9231-7942bdfb8b82"

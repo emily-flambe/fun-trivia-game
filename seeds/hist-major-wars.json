@@ -1,0 +1,185 @@
+{
+  "id": "hist-major-wars",
+  "category": "history",
+  "name": "Major Wars Throughout History",
+  "tier": "foundation",
+  "description": "Key facts about major wars from antiquity to the modern era -- dates, combatants, treaties, and turning points",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "war-peloponnesian-year",
+      "question": "In what year did the Peloponnesian War begin?",
+      "answer": "431 BC",
+      "alternateAnswers": ["431 BCE", "431"],
+      "explanation": "The Peloponnesian War began in 431 BC and lasted 27 years. Athens entered the war as the dominant naval power in Greece but emerged so weakened that it never fully recovered its former glory."
+    },
+    {
+      "id": "war-peloponnesian-sides",
+      "question": "Which two Greek city-states were the primary opponents in the Peloponnesian War?",
+      "answer": "Athens and Sparta",
+      "alternateAnswers": ["Sparta and Athens"],
+      "explanation": "Athens led the Delian League and Sparta led the Peloponnesian League. Sparta ultimately won in 404 BC, but the war so exhausted all of Greece that it left the door open for Macedonian conquest under Philip II and Alexander the Great."
+    },
+    {
+      "id": "war-punic-sides",
+      "question": "Which two powers fought the Punic Wars?",
+      "answer": "Rome and Carthage",
+      "alternateAnswers": ["Carthage and Rome", "Roman Republic and Carthage"],
+      "explanation": "The three Punic Wars (264-146 BC) ended with Rome literally destroying Carthage -- the Romans reportedly salted the earth so nothing would grow there again, though some historians dispute this detail."
+    },
+    {
+      "id": "war-punic-general",
+      "question": "Which Carthaginian general famously crossed the Alps with war elephants during the Second Punic War?",
+      "answer": "Hannibal",
+      "alternateAnswers": ["Hannibal Barca"],
+      "explanation": "Hannibal crossed the Alps in 218 BC with roughly 30,000 soldiers and 37 elephants. Most of the elephants died during the crossing, but the feat remains one of the most audacious military maneuvers in history."
+    },
+    {
+      "id": "war-hundred-years-dates",
+      "question": "In what year did the Hundred Years' War begin?",
+      "answer": "1337",
+      "alternateAnswers": [],
+      "explanation": "The Hundred Years' War actually lasted 116 years (1337-1453). It started as a dispute over the French throne and ended with France expelling England from nearly all continental territory."
+    },
+    {
+      "id": "war-hundred-years-heroine",
+      "question": "Which French heroine turned the tide of the Hundred Years' War at the Siege of Orleans in 1429?",
+      "answer": "Joan of Arc",
+      "alternateAnswers": ["Jeanne d'Arc", "Saint Joan"],
+      "explanation": "Joan of Arc was a teenage peasant girl who claimed divine visions told her to drive the English from France. She lifted the Siege of Orleans in just nine days, but was captured, tried for heresy, and burned at the stake at age 19."
+    },
+    {
+      "id": "war-thirty-years-year",
+      "question": "In what year did the Thirty Years' War begin?",
+      "answer": "1618",
+      "alternateAnswers": [],
+      "explanation": "The Thirty Years' War began in 1618 with the Defenestration of Prague, where Protestant nobles threw two Catholic imperial governors out a window. It devastated Central Europe so badly that some regions lost a third of their population."
+    },
+    {
+      "id": "war-thirty-years-treaty",
+      "question": "What treaty ended the Thirty Years' War in 1648?",
+      "answer": "Peace of Westphalia",
+      "alternateAnswers": ["Treaty of Westphalia", "Westphalia", "Treaties of Westphalia"],
+      "explanation": "The Peace of Westphalia (1648) is considered the foundation of the modern international system of sovereign nation-states. It established that each ruler could determine the religion of their own state."
+    },
+    {
+      "id": "war-seven-years-dates",
+      "question": "In what year did the Seven Years' War begin?",
+      "answer": "1756",
+      "alternateAnswers": [],
+      "explanation": "The Seven Years' War (1756-1763) was arguably the first true world war, fought across five continents. Winston Churchill called it 'the first world war' -- it involved every major European power and their colonies from India to the Americas."
+    },
+    {
+      "id": "war-american-rev-year",
+      "question": "In what year did the American Revolution begin?",
+      "answer": "1775",
+      "alternateAnswers": [],
+      "explanation": "The first shots were fired at Lexington and Concord on April 19, 1775. The Revolution is the only major war where France sided with a group of rebellious colonists against a fellow European monarchy -- largely to settle scores from the Seven Years' War."
+    },
+    {
+      "id": "war-american-rev-treaty",
+      "question": "What treaty ended the American Revolution?",
+      "answer": "Treaty of Paris",
+      "alternateAnswers": ["Treaty of Paris 1783", "Paris Treaty"],
+      "explanation": "The Treaty of Paris was signed on September 3, 1783. It was so generous to the Americans that the British negotiator reportedly wept, and the new nation's borders extended all the way to the Mississippi River."
+    },
+    {
+      "id": "war-napoleonic-year",
+      "question": "In what year did the Napoleonic Wars begin?",
+      "answer": "1803",
+      "alternateAnswers": [],
+      "explanation": "The Napoleonic Wars (1803-1815) reshaped the map of Europe. Napoleon won battle after battle against coalitions of European powers, but his disastrous 1812 invasion of Russia -- where he lost over 400,000 men -- marked the beginning of his downfall."
+    },
+    {
+      "id": "war-1812-sides",
+      "question": "Which two countries primarily fought the War of 1812?",
+      "answer": "United States and Great Britain",
+      "alternateAnswers": ["US and Britain", "USA and UK", "America and Britain", "United States and Britain"],
+      "explanation": "The War of 1812 is sometimes called 'the war that both sides won.' The British burned the White House in 1814, but Andrew Jackson's victory at New Orleans made Americans feel like winners -- even though the peace treaty had already been signed two weeks earlier."
+    },
+    {
+      "id": "war-mexican-american-treaty",
+      "question": "What treaty ended the Mexican-American War in 1848?",
+      "answer": "Treaty of Guadalupe Hidalgo",
+      "alternateAnswers": ["Guadalupe Hidalgo"],
+      "explanation": "The Treaty of Guadalupe Hidalgo forced Mexico to cede nearly half its territory to the US, including California, Nevada, Utah, and parts of four other states. The US paid $15 million -- a bargain that included the future site of Hollywood and Silicon Valley."
+    },
+    {
+      "id": "war-crimean-year",
+      "question": "In what year did the Crimean War begin?",
+      "answer": "1853",
+      "alternateAnswers": [],
+      "explanation": "The Crimean War (1853-1856) pitted Russia against an alliance of Britain, France, the Ottoman Empire, and Sardinia. It is best remembered for the disastrous Charge of the Light Brigade and for Florence Nightingale, who revolutionized military nursing."
+    },
+    {
+      "id": "war-civil-year",
+      "question": "In what year did the US Civil War begin?",
+      "answer": "1861",
+      "alternateAnswers": [],
+      "explanation": "The Civil War began on April 12, 1861, when Confederate forces fired on Fort Sumter. It remains the deadliest conflict in American history -- recent scholarship estimates 750,000 soldiers died, more than in all other American wars combined up to Vietnam."
+    },
+    {
+      "id": "war-spanish-american-year",
+      "question": "In what year did the Spanish-American War begin?",
+      "answer": "1898",
+      "alternateAnswers": [],
+      "explanation": "The Spanish-American War lasted only about four months, making it one of the shortest wars in US history. Secretary of State John Hay called it 'a splendid little war,' and it transformed the US into an imperial power with territories in the Caribbean and Pacific."
+    },
+    {
+      "id": "war-russo-japanese-year",
+      "question": "In what year did the Russo-Japanese War begin?",
+      "answer": "1904",
+      "alternateAnswers": [],
+      "explanation": "The Russo-Japanese War (1904-1905) shocked the world when Japan defeated Russia -- the first time in modern history that an Asian nation defeated a European power. The humiliating loss helped spark the Russian Revolution of 1905."
+    },
+    {
+      "id": "war-ww1-year",
+      "question": "In what year did World War I begin?",
+      "answer": "1914",
+      "alternateAnswers": [],
+      "explanation": "WWI began in 1914 after the assassination of Archduke Franz Ferdinand. A web of alliances turned a regional crisis into a global war within weeks -- the diplomats and generals expected it to be over by Christmas. It lasted four years and killed 20 million people."
+    },
+    {
+      "id": "war-ww2-treaty",
+      "question": "What treaty ended World War I?",
+      "answer": "Treaty of Versailles",
+      "alternateAnswers": ["Versailles", "Versailles Treaty"],
+      "explanation": "The Treaty of Versailles (1919) imposed harsh reparations on Germany that many historians believe created the economic misery and resentment that helped Adolf Hitler rise to power -- making the treaty a direct link between the two world wars."
+    },
+    {
+      "id": "war-ww2-year",
+      "question": "In what year did World War II begin?",
+      "answer": "1939",
+      "alternateAnswers": [],
+      "explanation": "WWII began on September 1, 1939, when Germany invaded Poland. It became the deadliest conflict in human history, killing an estimated 70-85 million people -- about 3% of the world's entire population at the time."
+    },
+    {
+      "id": "war-korean-year",
+      "question": "In what year did the Korean War begin?",
+      "answer": "1950",
+      "alternateAnswers": [],
+      "explanation": "The Korean War (1950-1953) is called 'The Forgotten War' despite nearly 40,000 American deaths. It technically never ended -- there is no peace treaty, only an armistice, meaning North and South Korea are still technically at war."
+    },
+    {
+      "id": "war-vietnam-us-year",
+      "question": "In what year did major US combat involvement in the Vietnam War begin?",
+      "answer": "1965",
+      "alternateAnswers": [],
+      "explanation": "The first US combat troops landed at Da Nang in March 1965, though military advisors had been there since the 1950s. The war became so unpopular that it ended the political careers of two presidents and sparked the largest antiwar movement in American history."
+    },
+    {
+      "id": "war-gulf-year",
+      "question": "In what year did the Gulf War begin?",
+      "answer": "1990",
+      "alternateAnswers": ["1991"],
+      "explanation": "Iraq invaded Kuwait in August 1990, and the US-led coalition launched Operation Desert Storm in January 1991. The ground war lasted just 100 hours -- one of the most lopsided military victories in modern history."
+    },
+    {
+      "id": "war-iraq-year",
+      "question": "In what year did the Iraq War (Operation Iraqi Freedom) begin?",
+      "answer": "2003",
+      "alternateAnswers": [],
+      "explanation": "The Iraq War began on March 20, 2003, with a 'shock and awe' bombing campaign. While Baghdad fell in three weeks, the subsequent occupation and insurgency lasted nearly nine years and cost over 4,400 American lives."
+    }
+  ]
+}

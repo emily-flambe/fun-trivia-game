@@ -1,0 +1,220 @@
+{
+  "id": "ent-famous-paintings-artist",
+  "category": "entertainment",
+  "name": "Famous Paintings and Their Artists",
+  "tier": "foundation",
+  "description": "Identify the artists behind the world's most famous paintings and artworks",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "mona-lisa",
+      "question": "Who painted the 'Mona Lisa'?",
+      "answer": "Leonardo da Vinci",
+      "alternateAnswers": ["Da Vinci", "Leonardo"],
+      "explanation": "Painted around 1503-1519, the Mona Lisa hangs behind bulletproof glass at the Louvre in Paris. It became world-famous partly because it was stolen in 1911 -- the empty wall drew bigger crowds than the painting ever had."
+    },
+    {
+      "id": "starry-night",
+      "question": "Who painted 'The Starry Night'?",
+      "answer": "Vincent van Gogh",
+      "alternateAnswers": ["Van Gogh"],
+      "explanation": "Painted in June 1889 from the window of his asylum room in Saint-Remy-de-Provence. Van Gogh considered it a failure. He sold only one painting during his lifetime, yet The Starry Night is now one of the most recognized images in the world."
+    },
+    {
+      "id": "the-scream",
+      "question": "Who painted 'The Scream'?",
+      "answer": "Edvard Munch",
+      "alternateAnswers": ["Munch"],
+      "explanation": "Created in 1893, Munch made four versions in paint and pastel. One sold for nearly $120 million in 2012. Scientists believe the blood-red sky was inspired by volcanic sunsets caused by the 1883 eruption of Krakatoa."
+    },
+    {
+      "id": "girl-pearl-earring",
+      "question": "Who painted 'Girl with a Pearl Earring'?",
+      "answer": "Johannes Vermeer",
+      "alternateAnswers": ["Vermeer"],
+      "explanation": "Painted around 1665, it is sometimes called the 'Mona Lisa of the North.' The identity of the girl remains unknown. The pearl is likely not a real pearl at all -- it appears to be a polished tin earring painted to look like one."
+    },
+    {
+      "id": "birth-venus",
+      "question": "Who painted 'The Birth of Venus'?",
+      "answer": "Sandro Botticelli",
+      "alternateAnswers": ["Botticelli"],
+      "explanation": "Painted around 1485, it depicts Venus emerging from the sea on a shell. During the Renaissance 'bonfire of the vanities' in Florence, Botticelli reportedly burned some of his own paintings -- but not this one."
+    },
+    {
+      "id": "last-supper",
+      "question": "Who painted 'The Last Supper'?",
+      "answer": "Leonardo da Vinci",
+      "alternateAnswers": ["Da Vinci", "Leonardo"],
+      "explanation": "Painted 1495-1498 on a wall in Milan's Santa Maria delle Grazie. Leonardo used an experimental technique instead of traditional fresco, which is why it began deteriorating almost immediately and has been restored many times."
+    },
+    {
+      "id": "guernica",
+      "question": "Who painted 'Guernica'?",
+      "answer": "Pablo Picasso",
+      "alternateAnswers": ["Picasso"],
+      "explanation": "Painted in 1937 in response to the Nazi bombing of the Basque town of Guernica during the Spanish Civil War. When a German officer asked Picasso 'Did you do this?' he reportedly replied, 'No, you did.'"
+    },
+    {
+      "id": "persistence-memory",
+      "question": "Who painted 'The Persistence of Memory' (the melting clocks)?",
+      "answer": "Salvador Dali",
+      "alternateAnswers": ["Dali"],
+      "explanation": "Painted in 1931, Dali claimed the melting watches were inspired by Camembert cheese melting in the sun. The small painting (just 9.5 by 13 inches) hangs in the Museum of Modern Art in New York."
+    },
+    {
+      "id": "water-lilies",
+      "question": "Who painted the 'Water Lilies' series?",
+      "answer": "Claude Monet",
+      "alternateAnswers": ["Monet"],
+      "explanation": "Monet painted approximately 250 Water Lilies canvases over 30 years, inspired by his garden at Giverny. He had cataracts that may have affected his color perception -- after surgery, he destroyed several canvases, unhappy with colors he had chosen while impaired."
+    },
+    {
+      "id": "american-gothic",
+      "question": "Who painted 'American Gothic'?",
+      "answer": "Grant Wood",
+      "alternateAnswers": ["Wood"],
+      "explanation": "Painted in 1930, the models were Wood's sister and his dentist, not a married couple. Wood was inspired by a house in Eldon, Iowa, with a distinctive Gothic window. Iowans were initially offended, thinking it mocked rural life."
+    },
+    {
+      "id": "sunday-afternoon",
+      "question": "Who painted 'A Sunday Afternoon on the Island of La Grande Jatte'?",
+      "answer": "Georges Seurat",
+      "alternateAnswers": ["Seurat"],
+      "explanation": "Painted 1884-1886, Seurat applied the paint in tiny dots of pure color -- a technique called pointillism that he invented. It took two years to complete and measures about 7 by 10 feet."
+    },
+    {
+      "id": "the-kiss",
+      "question": "Who painted 'The Kiss' (1907-1908)?",
+      "answer": "Gustav Klimt",
+      "alternateAnswers": ["Klimt"],
+      "explanation": "Painted during Klimt's 'Golden Phase,' The Kiss uses real gold leaf. It hangs in Vienna's Belvedere Palace. The man is widely believed to be a self-portrait of Klimt with his longtime companion Emilie Floge."
+    },
+    {
+      "id": "creation-adam",
+      "question": "Who painted 'The Creation of Adam' on the Sistine Chapel ceiling?",
+      "answer": "Michelangelo",
+      "alternateAnswers": ["Michelangelo Buonarroti", "Michelangelo di Lodovico Buonarroti Simoni"],
+      "explanation": "Painted 1508-1512, Michelangelo considered himself a sculptor, not a painter, and initially refused the commission. He painted lying on his back on scaffolding for four years. The near-touching fingers have become a universal symbol."
+    },
+    {
+      "id": "las-meninas",
+      "question": "Who painted 'Las Meninas'?",
+      "answer": "Diego Velazquez",
+      "alternateAnswers": ["Velazquez", "Diego Velazquez"],
+      "explanation": "Painted in 1656, Las Meninas is a complex scene where Velazquez includes himself painting while the king and queen are reflected in a mirror. Picasso was so obsessed with it that he created 58 variations."
+    },
+    {
+      "id": "nighthawks",
+      "question": "Who painted 'Nighthawks'?",
+      "answer": "Edward Hopper",
+      "alternateAnswers": ["Hopper"],
+      "explanation": "Painted in 1942, Nighthawks shows four figures in a late-night diner. Despite its iconic status, there is no door visible on the diner, trapping the figures inside. It hangs in the Art Institute of Chicago."
+    },
+    {
+      "id": "school-athens",
+      "question": "Who painted 'The School of Athens'?",
+      "answer": "Raphael",
+      "alternateAnswers": ["Raphael Sanzio", "Raffaello Sanzio"],
+      "explanation": "Painted 1509-1511 in the Vatican, Raphael snuck portraits of his contemporaries into the scene: Plato has Leonardo da Vinci's face, Heraclitus looks like Michelangelo, and Raphael himself appears at the far right."
+    },
+    {
+      "id": "great-wave",
+      "question": "Who created the woodblock print 'The Great Wave off Kanagawa'?",
+      "answer": "Katsushika Hokusai",
+      "alternateAnswers": ["Hokusai"],
+      "explanation": "Created around 1831, this is the most reproduced image in Japanese art. Hokusai made it when he was about 70 years old, as part of a series called 'Thirty-six Views of Mount Fuji.' He said he didn't produce anything worthy until age 70."
+    },
+    {
+      "id": "impression-sunrise",
+      "question": "Who painted 'Impression, Sunrise'?",
+      "answer": "Claude Monet",
+      "alternateAnswers": ["Monet"],
+      "explanation": "Painted in 1872, a hostile critic used this painting's title to mock the entire group as 'Impressionists' -- a name they adopted proudly. The painting was stolen in 1985 and recovered five years later."
+    },
+    {
+      "id": "whistlers-mother",
+      "question": "Who painted 'Arrangement in Grey and Black No.1' (commonly known as 'Whistler's Mother')?",
+      "answer": "James Abbott McNeill Whistler",
+      "alternateAnswers": ["Whistler", "James McNeill Whistler"],
+      "explanation": "Painted in 1871, Whistler insisted the painting was about formal composition, not sentiment, hence the technical title. His mother only posed because the original model did not show up."
+    },
+    {
+      "id": "girl-balloon",
+      "question": "Who created the artwork 'Girl with Balloon' that famously self-destructed at auction?",
+      "answer": "Banksy",
+      "alternateAnswers": [],
+      "explanation": "In 2018, immediately after selling for 1.04 million pounds at Sotheby's, the painting passed through a hidden shredder in its frame. The half-shredded work, renamed 'Love is in the Bin,' later sold for 18.6 million pounds."
+    },
+    {
+      "id": "sunday-afternoon-2",
+      "question": "Who painted 'A Bar at the Folies-Bergere'?",
+      "answer": "Edouard Manet",
+      "alternateAnswers": ["Manet"],
+      "explanation": "Painted in 1882, it was Manet's last major work before his death. The mirror reflection behind the barmaid is deliberately wrong -- the angles do not match reality, and scholars have debated whether this was intentional for decades."
+    },
+    {
+      "id": "garden-delights",
+      "question": "Who painted 'The Garden of Earthly Delights'?",
+      "answer": "Hieronymus Bosch",
+      "alternateAnswers": ["Bosch"],
+      "explanation": "Painted around 1500, this triptych moves from the Garden of Eden to a surreal paradise to a nightmarish hell. Its bizarre imagery was centuries ahead of Surrealism. A student recently transcribed the musical notes painted on a figure's buttocks and played them -- it sounds like a hymn from hell."
+    },
+    {
+      "id": "arnolfini",
+      "question": "Who painted 'The Arnolfini Portrait'?",
+      "answer": "Jan van Eyck",
+      "alternateAnswers": ["Van Eyck"],
+      "explanation": "Painted in 1434, the convex mirror in the background shows two additional figures and the inscription 'Jan van Eyck was here,' making it perhaps the first signed painting. The level of detail is so extreme that art historians have used it to study 15th-century furniture and fashion."
+    },
+    {
+      "id": "son-of-man",
+      "question": "Who painted 'The Son of Man' (the man with a bowler hat and apple)?",
+      "answer": "Rene Magritte",
+      "alternateAnswers": ["Magritte"],
+      "explanation": "Painted in 1964, Magritte said 'Everything we see hides another thing. We always want to see what is hidden by what we see.' The apple-faced man in a bowler hat has become one of the most parodied images in modern art."
+    },
+    {
+      "id": "bedroom-arles",
+      "question": "Who painted 'The Bedroom' (also known as 'Bedroom in Arles')?",
+      "answer": "Vincent van Gogh",
+      "alternateAnswers": ["Van Gogh"],
+      "explanation": "Painted in 1888, van Gogh made three versions of his bedroom in the Yellow House in Arles, France. He deliberately used flat colors and distorted perspective, writing to his brother Theo that the painting should 'suggest rest or sleep.'"
+    },
+    {
+      "id": "olympia",
+      "question": "Who painted 'Olympia'?",
+      "answer": "Edouard Manet",
+      "alternateAnswers": ["Manet"],
+      "explanation": "Painted in 1863, Olympia caused a scandal at the Paris Salon because the nude woman stares directly and defiantly at the viewer. Guards had to be posted to prevent visitors from attacking it. It is now in the Musee d'Orsay."
+    },
+    {
+      "id": "cafe-terrace",
+      "question": "Who painted 'Cafe Terrace at Night'?",
+      "answer": "Vincent van Gogh",
+      "alternateAnswers": ["Van Gogh"],
+      "explanation": "Painted in September 1888 in Arles, France, this was one of the first paintings to depict a night scene without using any black paint. The cafe still exists and is now named 'Cafe Van Gogh.'"
+    },
+    {
+      "id": "wanderer-fog",
+      "question": "Who painted 'Wanderer above the Sea of Fog'?",
+      "answer": "Caspar David Friedrich",
+      "alternateAnswers": ["Friedrich"],
+      "explanation": "Painted around 1818, this German Romantic masterpiece shows a man standing on a rocky precipice overlooking a foggy landscape. It has become the quintessential image of Romanticism and is used on more book covers than probably any other painting."
+    },
+    {
+      "id": "number-5",
+      "question": "Who painted 'No. 5, 1948'?",
+      "answer": "Jackson Pollock",
+      "alternateAnswers": ["Pollock"],
+      "explanation": "Created using Pollock's signature drip technique, No. 5 reportedly sold for $140 million in 2006, making it one of the most expensive paintings ever sold. Pollock laid the canvas on his barn floor and dripped house paint from above."
+    },
+    {
+      "id": "campbell-soup",
+      "question": "Who created the 'Campbell's Soup Cans' series?",
+      "answer": "Andy Warhol",
+      "alternateAnswers": ["Warhol"],
+      "explanation": "Created in 1962, the series of 32 canvases (one for each flavor) launched Pop Art into the mainstream. When asked why soup cans, Warhol said he had Campbell's soup for lunch every day for 20 years."
+    }
+  ]
+}

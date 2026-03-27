@@ -1,0 +1,332 @@
+{
+  "id": "geo-countries-europe",
+  "category": "geography",
+  "name": "Countries of Europe",
+  "tier": "foundation",
+  "description": "All sovereign nations of Europe -- identify countries by their capitals, geography, and cultural clues",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "albania",
+      "question": "What European country has Tirana as its capital?",
+      "answer": "Albania",
+      "alternateAnswers": [],
+      "explanation": "Albania was one of the most isolated countries in Europe during the Cold War. Its coastline faces Italy across the Adriatic Sea, and it has over 170,000 concrete bunkers built by its paranoid communist dictator."
+    },
+    {
+      "id": "andorra",
+      "question": "What tiny European country is nestled in the Pyrenees mountains between France and Spain?",
+      "answer": "Andorra",
+      "alternateAnswers": [],
+      "explanation": "Andorra has no airport, no railway, and no military. It is a co-principality with two heads of state: the President of France and the Bishop of Urgell in Spain."
+    },
+    {
+      "id": "austria",
+      "question": "What European country has Vienna as its capital?",
+      "answer": "Austria",
+      "alternateAnswers": [],
+      "explanation": "Austria is a landlocked Alpine country that was once the center of the vast Habsburg Empire. Despite its small size today, it produced Mozart, Freud, and the croissant (originally the 'kipferl')."
+    },
+    {
+      "id": "belarus",
+      "question": "What Eastern European country lies between Poland and Russia, with Minsk as its capital?",
+      "answer": "Belarus",
+      "alternateAnswers": [],
+      "explanation": "Belarus means 'White Russia.' It is Europe's last dictatorship, ruled by Alexander Lukashenko since 1994. About 40% of the country is forested, including parts of the ancient Bialowieza Forest."
+    },
+    {
+      "id": "belgium",
+      "question": "What European country has Brussels as its capital and is known for chocolate, waffles, and beer?",
+      "answer": "Belgium",
+      "alternateAnswers": [],
+      "explanation": "Belgium has three official languages (Dutch, French, and German) and a famously complicated political structure. Brussels also serves as the de facto capital of the European Union."
+    },
+    {
+      "id": "bosnia",
+      "question": "What European country has Sarajevo as its capital?",
+      "answer": "Bosnia and Herzegovina",
+      "alternateAnswers": ["Bosnia", "BiH"],
+      "explanation": "Sarajevo is where Archduke Franz Ferdinand was assassinated in 1914, triggering World War I. The country endured a devastating civil war in the 1990s after the breakup of Yugoslavia."
+    },
+    {
+      "id": "bulgaria",
+      "question": "What European country has Sofia as its capital and borders the Black Sea?",
+      "answer": "Bulgaria",
+      "alternateAnswers": [],
+      "explanation": "Bulgaria is the oldest country in Europe to have kept its original name since its founding in 681 AD. Bulgarians shake their heads to mean 'yes' and nod for 'no' -- the opposite of most cultures."
+    },
+    {
+      "id": "croatia",
+      "question": "What European country has Zagreb as its capital and a distinctive crescent-shaped coastline on the Adriatic?",
+      "answer": "Croatia",
+      "alternateAnswers": [],
+      "explanation": "Croatia's coastline has over 1,200 islands, though fewer than 50 are inhabited. The necktie (cravat) was invented there -- the word 'cravat' comes from 'Croat.'"
+    },
+    {
+      "id": "cyprus",
+      "question": "What island nation in the eastern Mediterranean has Nicosia as its capital?",
+      "answer": "Cyprus",
+      "alternateAnswers": [],
+      "explanation": "Nicosia is the world's last divided capital city -- a UN buffer zone splits it between the Greek Cypriot south and Turkish-controlled north. Cyprus is geographically in Asia but politically European."
+    },
+    {
+      "id": "czechia",
+      "question": "What European country has Prague as its capital?",
+      "answer": "Czech Republic",
+      "alternateAnswers": ["Czechia"],
+      "explanation": "Prague's historic center survived World War II almost completely intact because the Allies chose not to bomb it. The country officially adopted the short name 'Czechia' in 2016 but both names are used."
+    },
+    {
+      "id": "denmark",
+      "question": "What Scandinavian country has Copenhagen as its capital and consists of a peninsula plus over 400 islands?",
+      "answer": "Denmark",
+      "alternateAnswers": [],
+      "explanation": "Denmark's territory includes Greenland, making the Kingdom of Denmark technically one of the largest countries on Earth by total area. The country is so flat that its highest point is only 561 feet."
+    },
+    {
+      "id": "estonia",
+      "question": "What is the northernmost of the three Baltic states, with Tallinn as its capital?",
+      "answer": "Estonia",
+      "alternateAnswers": [],
+      "explanation": "Estonia is one of the most digitally advanced nations -- citizens can vote online, and in 2014 it launched e-Residency, allowing anyone in the world to start an EU-based business digitally."
+    },
+    {
+      "id": "finland",
+      "question": "What European country has Helsinki as its capital and shares its longest border with Russia?",
+      "answer": "Finland",
+      "alternateAnswers": [],
+      "explanation": "Finland has more saunas than cars -- about 3.3 million saunas for 5.5 million people. It consistently ranks as one of the happiest countries in the world."
+    },
+    {
+      "id": "france",
+      "question": "What is the largest country in the European Union by area?",
+      "answer": "France",
+      "alternateAnswers": [],
+      "explanation": "Metropolitan France is shaped like a hexagon, which is why the French sometimes call their country 'l'Hexagone.' Including overseas territories, France spans 12 time zones -- more than any other country."
+    },
+    {
+      "id": "germany",
+      "question": "What European country has Berlin as its capital and is the most populous nation in the EU?",
+      "answer": "Germany",
+      "alternateAnswers": [],
+      "explanation": "Germany has about 83 million people, making it the most populous EU country. It was divided into East and West from 1949 to 1990, with the Berlin Wall as the most visible symbol of the Cold War."
+    },
+    {
+      "id": "greece",
+      "question": "What European country has Athens as its capital and is considered the birthplace of democracy?",
+      "answer": "Greece",
+      "alternateAnswers": ["Hellas"],
+      "explanation": "Greece has more archaeological museums than any other country in the world. The Greek alphabet, developed around 800 BC, was the first to include vowels and is the ancestor of the Latin and Cyrillic alphabets."
+    },
+    {
+      "id": "hungary",
+      "question": "What European country has Budapest as its capital?",
+      "answer": "Hungary",
+      "alternateAnswers": [],
+      "explanation": "Budapest is actually two cities -- Buda and Pest -- separated by the Danube River and unified in 1873. Hungary's language, Magyar, is unrelated to any neighboring language and is notoriously difficult to learn."
+    },
+    {
+      "id": "iceland",
+      "question": "What European island nation has Reykjavik as its capital, the world's most northerly capital of a sovereign state?",
+      "answer": "Iceland",
+      "alternateAnswers": [],
+      "explanation": "Iceland has no standing army and never has. Its parliament, the Althing, was founded in 930 AD and is one of the oldest surviving parliaments in the world."
+    },
+    {
+      "id": "ireland",
+      "question": "What European country has Dublin as its capital?",
+      "answer": "Ireland",
+      "alternateAnswers": ["Republic of Ireland", "Eire"],
+      "explanation": "Ireland's population is still lower than it was before the Great Famine of the 1840s, when about one million died and another million emigrated. Today, more people of Irish descent live in the US than in Ireland."
+    },
+    {
+      "id": "italy",
+      "question": "What European country shaped like a boot has Rome as its capital?",
+      "answer": "Italy",
+      "alternateAnswers": ["Italia"],
+      "explanation": "Italy contains two independent microstates within its borders: Vatican City and San Marino. It has more UNESCO World Heritage Sites than any other country in the world."
+    },
+    {
+      "id": "kosovo",
+      "question": "What European country declared independence from Serbia in 2008, with Pristina as its capital?",
+      "answer": "Kosovo",
+      "alternateAnswers": [],
+      "explanation": "Kosovo is Europe's youngest country and the second-newest in the world. Its independence is recognized by over 100 UN member states but not by Serbia, Russia, or China."
+    },
+    {
+      "id": "latvia",
+      "question": "What is the middle of the three Baltic states, with Riga as its capital?",
+      "answer": "Latvia",
+      "alternateAnswers": [],
+      "explanation": "Riga has the largest collection of Art Nouveau architecture in the world, with over 800 buildings in the style. Latvia's flag is one of the oldest in the world, first mentioned in a medieval chronicle from 1280."
+    },
+    {
+      "id": "liechtenstein",
+      "question": "What tiny European country lies between Austria and Switzerland, with Vaduz as its capital?",
+      "answer": "Liechtenstein",
+      "alternateAnswers": [],
+      "explanation": "Liechtenstein is doubly landlocked -- meaning it is surrounded entirely by other landlocked countries. It is one of only two doubly landlocked countries in the world (the other is Uzbekistan)."
+    },
+    {
+      "id": "lithuania",
+      "question": "What is the southernmost of the three Baltic states, with Vilnius as its capital?",
+      "answer": "Lithuania",
+      "alternateAnswers": [],
+      "explanation": "Lithuania was once one of the largest countries in Europe -- the Grand Duchy of Lithuania stretched from the Baltic Sea to the Black Sea in the 15th century."
+    },
+    {
+      "id": "luxembourg",
+      "question": "What small European country is bordered by Belgium, France, and Germany, and shares its name with its capital?",
+      "answer": "Luxembourg",
+      "alternateAnswers": [],
+      "explanation": "Luxembourg has the highest GDP per capita in the world. Despite being one of Europe's smallest countries, it is a founding member of the EU, NATO, and the United Nations."
+    },
+    {
+      "id": "malta",
+      "question": "What small European island nation lies south of Sicily in the Mediterranean, with Valletta as its capital?",
+      "answer": "Malta",
+      "alternateAnswers": [],
+      "explanation": "Valletta is the smallest national capital in the EU by area. Malta's megalithic temples predate the Egyptian pyramids by about 1,000 years, making them among the oldest free-standing structures on Earth."
+    },
+    {
+      "id": "moldova",
+      "question": "What European country has Chisinau as its capital and is landlocked between Romania and Ukraine?",
+      "answer": "Moldova",
+      "alternateAnswers": [],
+      "explanation": "Moldova is the least-visited country in Europe and one of the poorest. It has a breakaway region called Transnistria that operates as a de facto independent state with its own currency and border controls."
+    },
+    {
+      "id": "monaco",
+      "question": "What is the smallest European country by area after Vatican City, located on the French Riviera?",
+      "answer": "Monaco",
+      "alternateAnswers": [],
+      "explanation": "Monaco is smaller than Central Park in New York City, at only 0.78 square miles. It has no income tax, and about one-third of its residents are millionaires."
+    },
+    {
+      "id": "montenegro",
+      "question": "What European country has Podgorica as its capital and has a name meaning 'Black Mountain'?",
+      "answer": "Montenegro",
+      "alternateAnswers": ["Crna Gora"],
+      "explanation": "Montenegro gained independence from Serbia in 2006 after a referendum that passed by a margin of just 0.5% above the required 55% threshold."
+    },
+    {
+      "id": "netherlands",
+      "question": "What European country has Amsterdam as its capital and is famous for its windmills, tulips, and extensive canal system?",
+      "answer": "The Netherlands",
+      "alternateAnswers": ["Netherlands", "Holland"],
+      "explanation": "About one-third of the Netherlands lies below sea level, protected by an elaborate system of dikes and sea barriers. 'Holland' technically refers to only two of its twelve provinces."
+    },
+    {
+      "id": "north-macedonia",
+      "question": "What European country has Skopje as its capital and changed its name in 2019 to resolve a dispute with Greece?",
+      "answer": "North Macedonia",
+      "alternateAnswers": ["Macedonia"],
+      "explanation": "The country was called 'Macedonia' until 2019, when it added 'North' to resolve a 27-year dispute with Greece, which has its own region called Macedonia. This name change was required for NATO membership."
+    },
+    {
+      "id": "norway",
+      "question": "What Scandinavian country has Oslo as its capital and is famous for its fjords?",
+      "answer": "Norway",
+      "alternateAnswers": [],
+      "explanation": "Norway's coastline, if you straightened out all the fjords, would stretch over 63,000 miles -- more than 2.5 times around the Earth. It manages the world's largest sovereign wealth fund, worth over $1 trillion."
+    },
+    {
+      "id": "poland",
+      "question": "What European country has Warsaw as its capital and lies between Germany and Ukraine?",
+      "answer": "Poland",
+      "alternateAnswers": ["Polska"],
+      "explanation": "Poland was erased from the map of Europe for 123 years (1795-1918), partitioned between Russia, Prussia, and Austria. Despite this, Polish language and culture survived."
+    },
+    {
+      "id": "portugal",
+      "question": "What European country has Lisbon as its capital and occupies the western edge of the Iberian Peninsula?",
+      "answer": "Portugal",
+      "alternateAnswers": [],
+      "explanation": "Portugal and England have the oldest active alliance in the world, the Treaty of Windsor, signed in 1386. Portugal's empire once spanned from Brazil to Macau, driven by its Age of Exploration."
+    },
+    {
+      "id": "romania",
+      "question": "What European country has Bucharest as its capital and is home to the Transylvania region?",
+      "answer": "Romania",
+      "alternateAnswers": [],
+      "explanation": "Romania's Palace of the Parliament in Bucharest is the world's heaviest building and the second-largest administrative building after the Pentagon. Transylvania is a real place -- Bram Stoker set Dracula there."
+    },
+    {
+      "id": "russia-eu",
+      "question": "What is the largest country in Europe by area, with Moscow as its capital?",
+      "answer": "Russia",
+      "alternateAnswers": [],
+      "explanation": "Russia spans both Europe and Asia, with about 23% of its territory in Europe. Even just its European portion is larger than any other entirely European country."
+    },
+    {
+      "id": "san-marino",
+      "question": "What microstate is completely surrounded by Italy and claims to be the world's oldest republic?",
+      "answer": "San Marino",
+      "alternateAnswers": [],
+      "explanation": "San Marino was allegedly founded in 301 AD by a Christian stonemason fleeing Roman persecution. It has more cars than people and its entire country could fit inside the city of Washington, D.C."
+    },
+    {
+      "id": "serbia",
+      "question": "What European country has Belgrade as its capital?",
+      "answer": "Serbia",
+      "alternateAnswers": [],
+      "explanation": "Belgrade means 'White City' and sits at the confluence of the Danube and Sava rivers. It is one of the oldest continuously inhabited cities in Europe, with settlements dating back over 7,000 years."
+    },
+    {
+      "id": "slovakia",
+      "question": "What European country has Bratislava as its capital, the only capital that borders two other countries?",
+      "answer": "Slovakia",
+      "alternateAnswers": [],
+      "explanation": "Bratislava is uniquely positioned on the borders of Austria and Hungary. Slovakia peacefully separated from the Czech Republic on January 1, 1993, in what is known as the 'Velvet Divorce.'"
+    },
+    {
+      "id": "slovenia",
+      "question": "What European country has Ljubljana as its capital and lies between Italy, Austria, Hungary, and Croatia?",
+      "answer": "Slovenia",
+      "alternateAnswers": [],
+      "explanation": "Slovenia is one of the most biodiverse countries in Europe and over 60% of it is covered in forest. It has only 29 miles of coastline on the Adriatic Sea."
+    },
+    {
+      "id": "spain",
+      "question": "What European country has Madrid as its capital and occupies most of the Iberian Peninsula?",
+      "answer": "Spain",
+      "alternateAnswers": [],
+      "explanation": "Spain has more UNESCO World Heritage Sites than almost any other country. Spanish is the second most spoken native language in the world, with over 475 million native speakers."
+    },
+    {
+      "id": "sweden",
+      "question": "What Scandinavian country has Stockholm as its capital and is the largest Nordic country by area?",
+      "answer": "Sweden",
+      "alternateAnswers": [],
+      "explanation": "Sweden has not been at war since 1814, giving it over 200 years of unbroken peace. It is home to the Nobel Prize and companies like IKEA, Volvo, Spotify, and Ericsson."
+    },
+    {
+      "id": "switzerland",
+      "question": "What European country has Bern as its seat of government and is famous for neutrality, banking, and Alpine scenery?",
+      "answer": "Switzerland",
+      "alternateAnswers": [],
+      "explanation": "Switzerland has four official languages: German, French, Italian, and Romansh. It has not fought in a foreign war since 1515 and is not a member of the European Union or NATO."
+    },
+    {
+      "id": "ukraine",
+      "question": "What is the largest country located entirely within Europe, with Kyiv as its capital?",
+      "answer": "Ukraine",
+      "alternateAnswers": [],
+      "explanation": "Ukraine is the largest country entirely in Europe at 233,000 square miles. Its fertile 'black soil' region is one of the most productive agricultural areas in the world, earning it the nickname 'breadbasket of Europe.'"
+    },
+    {
+      "id": "uk",
+      "question": "What European country has London as its capital and is made up of England, Scotland, Wales, and Northern Ireland?",
+      "answer": "United Kingdom",
+      "alternateAnswers": ["UK", "Great Britain", "Britain"],
+      "explanation": "The United Kingdom and Great Britain are not the same thing. Great Britain is the island containing England, Scotland, and Wales. The UK adds Northern Ireland to that."
+    },
+    {
+      "id": "vatican",
+      "question": "What is the smallest country in both Europe and the world, located entirely within Rome?",
+      "answer": "Vatican City",
+      "alternateAnswers": ["The Vatican", "Holy See"],
+      "explanation": "Vatican City is only 121 acres -- about one-eighth the size of Central Park. It has its own post office, radio station, and railway station, but a population of only about 800 people."
+    }
+  ]
+}

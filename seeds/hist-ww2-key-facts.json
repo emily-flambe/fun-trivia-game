@@ -1,0 +1,150 @@
+{
+  "id": "hist-ww2-key-facts",
+  "category": "history",
+  "name": "World War II Key Facts",
+  "tier": "foundation",
+  "description": "Causes, major theaters, key figures, decisive battles, pivotal events, and outcome of the Second World War (1939-1945)",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "ww2-start-event",
+      "question": "What event is considered the start of World War II in Europe?",
+      "answer": "Germany's invasion of Poland",
+      "alternateAnswers": ["Invasion of Poland", "Germany invaded Poland", "Nazi invasion of Poland"],
+      "explanation": "Germany invaded Poland on September 1, 1939, using a new tactic called Blitzkrieg ('lightning war'). To justify the attack, the SS staged a fake Polish raid on a German radio station, even dressing concentration camp prisoners in Polish uniforms as 'evidence.'"
+    },
+    {
+      "id": "ww2-dates",
+      "question": "What years did World War II span?",
+      "answer": "1939-1945",
+      "alternateAnswers": ["1939 to 1945"],
+      "explanation": "WWII lasted six years in Europe (1939-1945) but had been raging in Asia since Japan's invasion of China in 1937. It remains the deadliest conflict in human history, with an estimated 70-85 million total deaths."
+    },
+    {
+      "id": "ww2-pearl-harbor",
+      "question": "On what date did Japan attack Pearl Harbor, bringing the United States into World War II?",
+      "answer": "December 7, 1941",
+      "alternateAnswers": ["Dec 7 1941", "7 December 1941", "12/7/1941"],
+      "explanation": "Japan's surprise attack killed 2,403 Americans and sank or damaged 8 battleships. FDR called it 'a date which will live in infamy.' Crucially, the US aircraft carriers were out at sea that day and survived -- they would prove far more important than battleships in the Pacific war."
+    },
+    {
+      "id": "ww2-fdr",
+      "question": "Who was the President of the United States for most of World War II?",
+      "answer": "Franklin D. Roosevelt",
+      "alternateAnswers": ["FDR", "Roosevelt", "Franklin Roosevelt"],
+      "explanation": "FDR led the US through nearly the entire war but died on April 12, 1945 -- just weeks before Germany surrendered. He had been president for 12 years, winning four elections, and his death shocked a nation that had known no other wartime leader."
+    },
+    {
+      "id": "ww2-churchill",
+      "question": "Who was the Prime Minister of the United Kingdom during most of World War II?",
+      "answer": "Winston Churchill",
+      "alternateAnswers": ["Churchill"],
+      "explanation": "Churchill became PM in May 1940, just as France was falling. His speeches rallied Britain through its darkest hours -- 'We shall fight on the beaches' and 'Their finest hour' are among the most famous in the English language. Ironically, British voters threw him out of office just two months after victory in Europe."
+    },
+    {
+      "id": "ww2-stalin",
+      "question": "Who was the leader of the Soviet Union during World War II?",
+      "answer": "Joseph Stalin",
+      "alternateAnswers": ["Stalin"],
+      "explanation": "Stalin initially signed a non-aggression pact with Hitler in 1939, then was stunned when Germany invaded the USSR in June 1941. The Soviet Union suffered more deaths than any other nation -- an estimated 27 million people, roughly one in seven of the prewar population."
+    },
+    {
+      "id": "ww2-hitler",
+      "question": "Who was the leader of Nazi Germany during World War II?",
+      "answer": "Adolf Hitler",
+      "alternateAnswers": ["Hitler"],
+      "explanation": "Hitler rose from a failed Austrian art student to dictator of Germany. He committed suicide in his Berlin bunker on April 30, 1945, as Soviet troops closed in. His regime murdered six million Jews and millions of others in the Holocaust."
+    },
+    {
+      "id": "ww2-eisenhower",
+      "question": "Who was the Supreme Commander of Allied forces in Europe who planned the D-Day invasion?",
+      "answer": "Dwight D. Eisenhower",
+      "alternateAnswers": ["Eisenhower", "Ike", "Dwight Eisenhower", "General Eisenhower"],
+      "explanation": "Eisenhower carried a handwritten note in his pocket on D-Day accepting full blame if the invasion failed. He never had to use it. He later became the 34th President of the United States, partly on the strength of his wartime reputation."
+    },
+    {
+      "id": "ww2-macarthur",
+      "question": "Which American general famously said 'I shall return' after being forced to leave the Philippines in 1942?",
+      "answer": "Douglas MacArthur",
+      "alternateAnswers": ["MacArthur", "General MacArthur"],
+      "explanation": "MacArthur was ordered by FDR to evacuate the Philippines as Japanese forces overran the islands. He made good on his promise, wading ashore at Leyte in October 1944. He later accepted Japan's formal surrender aboard the USS Missouri in Tokyo Bay."
+    },
+    {
+      "id": "ww2-stalingrad",
+      "question": "Which battle, fought from 1942 to 1943, is considered the turning point of the war on the Eastern Front?",
+      "answer": "Battle of Stalingrad",
+      "alternateAnswers": ["Stalingrad"],
+      "explanation": "Stalingrad was the deadliest battle in human history, with nearly 2 million total casualties. The fighting was so brutal that the average life expectancy of a Soviet soldier arriving in the city was 24 hours. Germany's surrender of its 6th Army there marked the first time a German field marshal had ever surrendered."
+    },
+    {
+      "id": "ww2-dday-date",
+      "question": "On what date did the D-Day invasion of Normandy take place?",
+      "answer": "June 6, 1944",
+      "alternateAnswers": ["6 June 1944", "Jun 6 1944", "6/6/1944"],
+      "explanation": "D-Day was the largest amphibious invasion in history: over 156,000 troops crossed the English Channel in roughly 5,000 ships, supported by 11,000 aircraft. The invasion was postponed by one day due to bad weather -- if Eisenhower had waited longer, the next suitable tide wouldn't have come for two weeks."
+    },
+    {
+      "id": "ww2-midway",
+      "question": "Which 1942 naval battle is considered the turning point of the Pacific War?",
+      "answer": "Battle of Midway",
+      "alternateAnswers": ["Midway"],
+      "explanation": "At Midway, the US sank four Japanese aircraft carriers while losing only one of its own. American codebreakers had cracked Japanese communications and knew the attack was coming -- making Midway one of the greatest intelligence coups in military history."
+    },
+    {
+      "id": "ww2-bulge",
+      "question": "What was the name of Germany's last major offensive on the Western Front in December 1944?",
+      "answer": "Battle of the Bulge",
+      "alternateAnswers": ["The Bulge", "Ardennes Offensive", "Battle of Ardennes"],
+      "explanation": "Hitler launched a surprise attack through the Ardennes forest, creating a 'bulge' in Allied lines. It was the bloodiest single battle for American forces in WWII, with about 19,000 US soldiers killed. The stubborn American defense of Bastogne, where General McAuliffe replied 'Nuts!' to a German surrender demand, became legendary."
+    },
+    {
+      "id": "ww2-holocaust",
+      "question": "What is the term for the systematic genocide of six million Jews by Nazi Germany?",
+      "answer": "The Holocaust",
+      "alternateAnswers": ["Holocaust", "Shoah", "The Shoah"],
+      "explanation": "The Holocaust killed approximately six million Jews -- about two-thirds of Europe's Jewish population -- along with millions of Roma, disabled people, political prisoners, and others. The industrialized nature of the killing, centered on death camps like Auschwitz, remains one of the darkest chapters in human history."
+    },
+    {
+      "id": "ww2-hiroshima-date",
+      "question": "On what date was the atomic bomb dropped on Hiroshima?",
+      "answer": "August 6, 1945",
+      "alternateAnswers": ["6 August 1945", "Aug 6 1945", "8/6/1945"],
+      "explanation": "The bomb, called 'Little Boy,' killed an estimated 80,000 people instantly, with tens of thousands more dying from radiation. Tsutomu Yamaguchi survived the Hiroshima bombing, traveled home to Nagasaki, and survived that bombing three days later -- he is the only officially recognized survivor of both blasts."
+    },
+    {
+      "id": "ww2-nagasaki-date",
+      "question": "On what date was the atomic bomb dropped on Nagasaki?",
+      "answer": "August 9, 1945",
+      "alternateAnswers": ["9 August 1945", "Aug 9 1945", "8/9/1945"],
+      "explanation": "Nagasaki was actually the backup target -- the primary target, Kokura, was obscured by clouds. The bomb, called 'Fat Man,' killed approximately 40,000 people instantly. Japan announced its surrender five days later on August 14."
+    },
+    {
+      "id": "ww2-japan-surrender",
+      "question": "On what date did Japan formally surrender, ending World War II?",
+      "answer": "September 2, 1945",
+      "alternateAnswers": ["2 September 1945", "Sep 2 1945", "9/2/1945"],
+      "explanation": "The formal surrender ceremony took place on the deck of the USS Missouri in Tokyo Bay. General MacArthur deliberately placed the flags of the US and Commodore Perry's 1853 expedition behind him -- a reminder that the US had opened Japan to the modern world less than a century before."
+    },
+    {
+      "id": "ww2-united-nations",
+      "question": "What international organization was established in 1945 as a result of World War II to prevent future global conflicts?",
+      "answer": "United Nations",
+      "alternateAnswers": ["UN", "The United Nations", "The UN"],
+      "explanation": "The United Nations was founded on October 24, 1945, with 51 member states. It was designed to succeed where the League of Nations had failed after WWI. The five permanent Security Council members with veto power -- the US, UK, France, Russia, and China -- are the same major Allied powers from WWII."
+    },
+    {
+      "id": "ww2-dunkirk",
+      "question": "What was the name of the 1940 evacuation of Allied soldiers from the beaches of France?",
+      "answer": "Dunkirk evacuation",
+      "alternateAnswers": ["Dunkirk", "Dunkerque", "Operation Dynamo"],
+      "explanation": "Over 338,000 Allied soldiers were rescued from Dunkirk's beaches in just nine days, many by a makeshift fleet of civilian boats -- fishing vessels, pleasure yachts, even a paddle steamer. Churchill called it 'a miracle of deliverance' but warned that 'wars are not won by evacuations.'"
+    },
+    {
+      "id": "ww2-v-e-day",
+      "question": "What does V-E Day stand for, and on what date was it?",
+      "answer": "Victory in Europe Day, May 8, 1945",
+      "alternateAnswers": ["Victory in Europe Day", "V-E Day May 8 1945", "Victory in Europe, May 8, 1945"],
+      "explanation": "Germany signed its unconditional surrender on May 7, 1945, and the next day was declared V-E Day. While millions celebrated in the streets, the war in the Pacific would rage on for nearly four more months until Japan's surrender in September."
+    }
+  ]
+}

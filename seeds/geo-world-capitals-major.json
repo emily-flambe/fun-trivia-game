@@ -1,0 +1,360 @@
+{
+  "id": "geo-world-capitals-major",
+  "category": "geography",
+  "name": "World Capitals (Major Nations)",
+  "tier": "foundation",
+  "description": "Capitals of G20 nations and other major countries worldwide",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "arg",
+      "question": "What is the capital of Argentina?",
+      "answer": "Buenos Aires",
+      "alternateAnswers": [],
+      "explanation": "Buenos Aires means 'fair winds' in Spanish. About one-third of Argentina's entire population lives in the Buenos Aires metropolitan area."
+    },
+    {
+      "id": "aus",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "alternateAnswers": [],
+      "explanation": "The capital of Australia is Canberra, not Sydney or Melbourne. Canberra was purpose-built as a compromise because those two cities couldn't agree on which should be capital."
+    },
+    {
+      "id": "bra",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasilia",
+      "alternateAnswers": [],
+      "explanation": "The capital of Brazil is Brasilia, not Rio de Janeiro or Sao Paulo. Brasilia was built from scratch in just 41 months and inaugurated in 1960 as a planned city in the country's interior."
+    },
+    {
+      "id": "can",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "alternateAnswers": [],
+      "explanation": "Ottawa was chosen as capital by Queen Victoria in 1857, partly because it was far from the US border and situated between English-speaking Ontario and French-speaking Quebec."
+    },
+    {
+      "id": "chn",
+      "question": "What is the capital of China?",
+      "answer": "Beijing",
+      "alternateAnswers": ["Peking"],
+      "explanation": "Beijing means 'Northern Capital' in Mandarin. It served as the capital of several Chinese dynasties and has been the capital of the People's Republic since 1949."
+    },
+    {
+      "id": "fra",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "alternateAnswers": [],
+      "explanation": "Paris has been the capital of France since the late 10th century. The city's name comes from the Parisii, a Gallic tribe that settled there around 250 BC."
+    },
+    {
+      "id": "deu",
+      "question": "What is the capital of Germany?",
+      "answer": "Berlin",
+      "alternateAnswers": [],
+      "explanation": "Berlin regained its status as the capital of a reunified Germany in 1990. During the Cold War, Bonn served as West Germany's capital while East Berlin was the capital of East Germany."
+    },
+    {
+      "id": "ind",
+      "question": "What is the capital of India?",
+      "answer": "New Delhi",
+      "alternateAnswers": ["Delhi"],
+      "explanation": "New Delhi was designed by British architects Edwin Lutyens and Herbert Baker and became the capital in 1931, replacing Calcutta (now Kolkata) as the seat of British India's government."
+    },
+    {
+      "id": "idn",
+      "question": "What is the capital of Indonesia?",
+      "answer": "Jakarta",
+      "alternateAnswers": [],
+      "explanation": "Jakarta is the largest city in Southeast Asia with over 10 million residents. Indonesia has been building a new capital called Nusantara on Borneo island because Jakarta is sinking due to groundwater extraction."
+    },
+    {
+      "id": "ita",
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "alternateAnswers": ["Roma"],
+      "explanation": "Rome has been continuously inhabited for over 2,800 years. It uniquely contains an entire independent country within its borders -- Vatican City."
+    },
+    {
+      "id": "jpn",
+      "question": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "alternateAnswers": [],
+      "explanation": "Tokyo was formerly called Edo and was renamed when it became the imperial capital in 1868. Its metropolitan area is the most populous in the world with over 37 million people."
+    },
+    {
+      "id": "kor",
+      "question": "What is the capital of South Korea?",
+      "answer": "Seoul",
+      "alternateAnswers": [],
+      "explanation": "Seoul sits just 35 miles from the North Korean border. About half of South Korea's entire population lives in the Seoul metropolitan area, making it one of the world's most densely populated cities."
+    },
+    {
+      "id": "mex",
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "alternateAnswers": ["Ciudad de Mexico"],
+      "explanation": "Mexico City was built on the ruins of Tenochtitlan, the Aztec capital, which was itself built on an island in Lake Texcoco. The city is slowly sinking because it was built on a lakebed."
+    },
+    {
+      "id": "rus",
+      "question": "What is the capital of Russia?",
+      "answer": "Moscow",
+      "alternateAnswers": ["Moskva"],
+      "explanation": "Moscow became the capital again in 1918 after the Bolshevik Revolution. Saint Petersburg had served as Russia's capital for over 200 years, from 1712 to 1918."
+    },
+    {
+      "id": "sau",
+      "question": "What is the capital of Saudi Arabia?",
+      "answer": "Riyadh",
+      "alternateAnswers": [],
+      "explanation": "Riyadh means 'gardens' in Arabic, referring to the lush oasis that once existed there. It has grown from a small walled city to a metropolis of over 7 million people in just a few decades."
+    },
+    {
+      "id": "zaf",
+      "question": "What is the capital of South Africa?",
+      "answer": "Pretoria",
+      "alternateAnswers": ["Tshwane"],
+      "explanation": "South Africa is unique in having three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial). Pretoria is the most commonly accepted answer."
+    },
+    {
+      "id": "tur",
+      "question": "What is the capital of Turkey?",
+      "answer": "Ankara",
+      "alternateAnswers": [],
+      "explanation": "The capital of Turkey is Ankara, not Istanbul. Ataturk moved the capital from Istanbul to Ankara in 1923 to symbolize a break from the Ottoman past and because of its central location."
+    },
+    {
+      "id": "gbr",
+      "question": "What is the capital of the United Kingdom?",
+      "answer": "London",
+      "alternateAnswers": [],
+      "explanation": "London has been a major settlement for nearly 2,000 years, founded as Londinium by the Romans in AD 43. It is both the capital and the largest city of the UK."
+    },
+    {
+      "id": "usa",
+      "question": "What is the capital of the United States?",
+      "answer": "Washington, D.C.",
+      "alternateAnswers": ["Washington DC", "Washington"],
+      "explanation": "Washington, D.C. was purpose-built as the capital, with its location chosen as a compromise between northern and southern states. D.C. stands for District of Columbia."
+    },
+    {
+      "id": "egy",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "alternateAnswers": ["Al-Qahirah"],
+      "explanation": "Cairo is the largest city in Africa and the Arab world. It sits near the ancient city of Memphis, which was the capital of Egypt for much of its pharaonic history."
+    },
+    {
+      "id": "nga",
+      "question": "What is the capital of Nigeria?",
+      "answer": "Abuja",
+      "alternateAnswers": [],
+      "explanation": "The capital of Nigeria is Abuja, not Lagos. Abuja replaced Lagos as capital in 1991 -- it was purpose-built in the center of the country to be ethnically and religiously neutral."
+    },
+    {
+      "id": "ken",
+      "question": "What is the capital of Kenya?",
+      "answer": "Nairobi",
+      "alternateAnswers": [],
+      "explanation": "Nairobi is the only capital city in the world with a national park inside its borders -- you can see giraffes and lions with skyscrapers in the background."
+    },
+    {
+      "id": "eth",
+      "question": "What is the capital of Ethiopia?",
+      "answer": "Addis Ababa",
+      "alternateAnswers": [],
+      "explanation": "Addis Ababa means 'New Flower' in Amharic. It serves as the headquarters of the African Union and is sometimes called the political capital of Africa."
+    },
+    {
+      "id": "gha",
+      "question": "What is the capital of Ghana?",
+      "answer": "Accra",
+      "alternateAnswers": [],
+      "explanation": "Accra sits on the Gulf of Guinea coast. Ghana was the first sub-Saharan African country to gain independence from colonial rule, in 1957."
+    },
+    {
+      "id": "mar",
+      "question": "What is the capital of Morocco?",
+      "answer": "Rabat",
+      "alternateAnswers": [],
+      "explanation": "The capital of Morocco is Rabat, not Casablanca or Marrakech. Despite being smaller and less famous than those cities, Rabat has been the political capital since 1912."
+    },
+    {
+      "id": "tza",
+      "question": "What is the capital of Tanzania?",
+      "answer": "Dodoma",
+      "alternateAnswers": [],
+      "explanation": "The capital of Tanzania is Dodoma, not Dar es Salaam. Though Dodoma has been the official capital since 1996, most government operations still take place in Dar es Salaam."
+    },
+    {
+      "id": "mmr",
+      "question": "What is the capital of Myanmar?",
+      "answer": "Naypyidaw",
+      "alternateAnswers": ["Nay Pyi Taw"],
+      "explanation": "The capital of Myanmar is Naypyidaw, not Yangon (Rangoon). The government secretly moved the capital in 2005 to this purpose-built city that has enormous highways but very little traffic."
+    },
+    {
+      "id": "tha",
+      "question": "What is the capital of Thailand?",
+      "answer": "Bangkok",
+      "alternateAnswers": ["Krung Thep"],
+      "explanation": "Bangkok's ceremonial name in Thai is 168 letters long, making it the longest place name in the world. In 2022, the Thai government recognized 'Krung Thep Maha Nakhon' as an official name."
+    },
+    {
+      "id": "vnm",
+      "question": "What is the capital of Vietnam?",
+      "answer": "Hanoi",
+      "alternateAnswers": [],
+      "explanation": "The capital of Vietnam is Hanoi in the north, not Ho Chi Minh City (formerly Saigon) in the south, even though Ho Chi Minh City is the larger and more economically important city."
+    },
+    {
+      "id": "phl",
+      "question": "What is the capital of the Philippines?",
+      "answer": "Manila",
+      "alternateAnswers": [],
+      "explanation": "Manila is one of the most densely populated cities on Earth. The name comes from 'may-nila,' meaning 'where indigo grows,' referring to mangrove plants found along the shores."
+    },
+    {
+      "id": "pak",
+      "question": "What is the capital of Pakistan?",
+      "answer": "Islamabad",
+      "alternateAnswers": [],
+      "explanation": "The capital of Pakistan is Islamabad, not Karachi or Lahore. Islamabad was built in the 1960s as a planned capital city, replacing Karachi. The name means 'City of Islam.'"
+    },
+    {
+      "id": "bgd",
+      "question": "What is the capital of Bangladesh?",
+      "answer": "Dhaka",
+      "alternateAnswers": ["Dacca"],
+      "explanation": "Dhaka is one of the most densely populated cities in the world, with over 23 million people in its metropolitan area. It is known as the 'City of Mosques.'"
+    },
+    {
+      "id": "irn",
+      "question": "What is the capital of Iran?",
+      "answer": "Tehran",
+      "alternateAnswers": ["Teheran"],
+      "explanation": "Tehran sits at the foot of the Alborz Mountains. It became the capital in 1796 under the Qajar dynasty, replacing Isfahan, which had been capital for centuries."
+    },
+    {
+      "id": "irq",
+      "question": "What is the capital of Iraq?",
+      "answer": "Baghdad",
+      "alternateAnswers": [],
+      "explanation": "Baghdad was founded in 762 AD and quickly became the center of the Islamic Golden Age. Its House of Wisdom was the world's greatest library and center of learning during the medieval period."
+    },
+    {
+      "id": "isr",
+      "question": "What is the capital of Israel?",
+      "answer": "Jerusalem",
+      "alternateAnswers": [],
+      "explanation": "Jerusalem is sacred to Judaism, Christianity, and Islam, making it one of the most contested cities in history. Its status as capital is internationally disputed, with many embassies located in Tel Aviv."
+    },
+    {
+      "id": "col",
+      "question": "What is the capital of Colombia?",
+      "answer": "Bogota",
+      "alternateAnswers": [],
+      "explanation": "Bogota sits at 8,660 feet (2,640 meters) above sea level on a high plateau in the Andes, making it one of the highest capital cities in the world."
+    },
+    {
+      "id": "per",
+      "question": "What is the capital of Peru?",
+      "answer": "Lima",
+      "alternateAnswers": [],
+      "explanation": "Lima was founded by the Spanish conquistador Francisco Pizarro in 1535. Despite being a coastal desert city, it almost never rains there -- averaging less than an inch per year."
+    },
+    {
+      "id": "chl",
+      "question": "What is the capital of Chile?",
+      "answer": "Santiago",
+      "alternateAnswers": [],
+      "explanation": "Santiago sits in a valley surrounded by the Andes and the Chilean Coastal Range. On a clear day, you can see snow-capped peaks over 20,000 feet high from the city center."
+    },
+    {
+      "id": "ven",
+      "question": "What is the capital of Venezuela?",
+      "answer": "Caracas",
+      "alternateAnswers": [],
+      "explanation": "Caracas sits in a narrow valley at about 3,000 feet elevation, giving it a mild climate despite being near the equator. It is the birthplace of Simon Bolivar, the liberator of South America."
+    },
+    {
+      "id": "ukr",
+      "question": "What is the capital of Ukraine?",
+      "answer": "Kyiv",
+      "alternateAnswers": ["Kiev"],
+      "explanation": "Kyiv is one of the oldest cities in Eastern Europe, founded around the 5th century. The spelling 'Kyiv' reflects the Ukrainian transliteration, while 'Kiev' comes from Russian."
+    },
+    {
+      "id": "pol",
+      "question": "What is the capital of Poland?",
+      "answer": "Warsaw",
+      "alternateAnswers": ["Warszawa"],
+      "explanation": "Warsaw was almost completely destroyed during World War II -- about 85% of the city was reduced to rubble. Its historic Old Town was meticulously rebuilt and is now a UNESCO World Heritage Site."
+    },
+    {
+      "id": "esp",
+      "question": "What is the capital of Spain?",
+      "answer": "Madrid",
+      "alternateAnswers": [],
+      "explanation": "Madrid sits at 2,188 feet elevation, making it the highest capital city in the European Union. It became the capital in 1561 when Philip II moved the court there."
+    },
+    {
+      "id": "prt",
+      "question": "What is the capital of Portugal?",
+      "answer": "Lisbon",
+      "alternateAnswers": ["Lisboa"],
+      "explanation": "Lisbon is the westernmost capital city in continental Europe. The devastating 1755 earthquake and tsunami destroyed much of the city and killed up to 50,000 people."
+    },
+    {
+      "id": "grc",
+      "question": "What is the capital of Greece?",
+      "answer": "Athens",
+      "alternateAnswers": ["Athina"],
+      "explanation": "Athens is considered the birthplace of democracy, Western philosophy, and the Olympic Games. It has been continuously inhabited for over 3,400 years."
+    },
+    {
+      "id": "swe",
+      "question": "What is the capital of Sweden?",
+      "answer": "Stockholm",
+      "alternateAnswers": [],
+      "explanation": "Stockholm is built on 14 islands connected by 57 bridges. It is home to the Nobel Prize ceremony held every December at Stockholm Concert Hall."
+    },
+    {
+      "id": "nor",
+      "question": "What is the capital of Norway?",
+      "answer": "Oslo",
+      "alternateAnswers": [],
+      "explanation": "Oslo was known as Christiania from 1624 to 1925. It is one of the most expensive cities in the world, thanks in part to Norway's enormous oil wealth."
+    },
+    {
+      "id": "nld",
+      "question": "What is the capital of the Netherlands?",
+      "answer": "Amsterdam",
+      "alternateAnswers": [],
+      "explanation": "Amsterdam is the constitutional capital of the Netherlands, but the government actually sits in The Hague. Amsterdam has more canals than Venice and more bicycles than people."
+    },
+    {
+      "id": "che",
+      "question": "What is the capital of Switzerland?",
+      "answer": "Bern",
+      "alternateAnswers": ["Berne"],
+      "explanation": "Technically, Switzerland has no official capital -- Bern is the 'federal city' where the government sits. It was chosen over Zurich and Geneva as a compromise between language regions."
+    },
+    {
+      "id": "aut",
+      "question": "What is the capital of Austria?",
+      "answer": "Vienna",
+      "alternateAnswers": ["Wien"],
+      "explanation": "Vienna was the seat of the Habsburg Empire for over 600 years and the center of European politics, culture, and music. Mozart, Beethoven, and Freud all lived and worked there."
+    },
+    {
+      "id": "prk",
+      "question": "What is the capital of North Korea?",
+      "answer": "Pyongyang",
+      "alternateAnswers": [],
+      "explanation": "Pyongyang was almost completely destroyed during the Korean War and was rebuilt in Soviet monumental style. It features the 105-story Ryugyong Hotel, which stood unfinished for decades."
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "id": "lit-classic-novels-authors",
+  "category": "literature",
+  "name": "Classic Novels and Their Authors",
+  "tier": "foundation",
+  "description": "Identify the authors of major works of literature from around the world",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "pride-prejudice",
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "answer": "Jane Austen",
+      "alternateAnswers": ["Austen"],
+      "explanation": "Published in 1813, Pride and Prejudice was originally titled 'First Impressions.' Austen sold the copyright for just 110 pounds, roughly equivalent to 10,000 pounds today."
+    },
+    {
+      "id": "moby-dick",
+      "question": "Who wrote 'Moby-Dick'?",
+      "answer": "Herman Melville",
+      "alternateAnswers": ["Melville"],
+      "explanation": "Published in 1851, Moby-Dick was a commercial failure and went out of print during Melville's lifetime. Its opening line 'Call me Ishmael' is one of the most recognized in literature."
+    },
+    {
+      "id": "great-gatsby",
+      "question": "Who wrote 'The Great Gatsby'?",
+      "answer": "F. Scott Fitzgerald",
+      "alternateAnswers": ["Fitzgerald", "Francis Scott Fitzgerald", "Scott Fitzgerald"],
+      "explanation": "Published in 1925, The Great Gatsby sold poorly during Fitzgerald's life. It became a classic after 150,000 free copies were shipped to American soldiers in WWII."
+    },
+    {
+      "id": "1984",
+      "question": "Who wrote '1984'?",
+      "answer": "George Orwell",
+      "alternateAnswers": ["Orwell", "Eric Arthur Blair", "Eric Blair"],
+      "explanation": "Published in 1949, Orwell wrote 1984 while dying of tuberculosis on a remote Scottish island. The terms 'Big Brother,' 'doublethink,' and 'thoughtcrime' all entered English from this novel."
+    },
+    {
+      "id": "mockingbird",
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "answer": "Harper Lee",
+      "alternateAnswers": ["Lee", "Nelle Harper Lee"],
+      "explanation": "Published in 1960, it won the Pulitzer Prize and has never been out of print. Lee's childhood neighbor and friend was Truman Capote, who inspired the character Dill."
+    },
+    {
+      "id": "crime-punishment",
+      "question": "Who wrote 'Crime and Punishment'?",
+      "answer": "Fyodor Dostoevsky",
+      "alternateAnswers": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+      "explanation": "Published in 1866, Dostoevsky wrote it under extreme financial pressure after losing his savings gambling. He dictated the final chapters to a stenographer who later became his wife."
+    },
+    {
+      "id": "war-peace",
+      "question": "Who wrote 'War and Peace'?",
+      "answer": "Leo Tolstoy",
+      "alternateAnswers": ["Tolstoy", "Lev Tolstoy"],
+      "explanation": "Published 1865-1869, War and Peace has about 580,000 words and over 500 characters. Tolstoy's wife Sophia hand-copied the entire manuscript seven times as he revised it."
+    },
+    {
+      "id": "don-quixote",
+      "question": "Who wrote 'Don Quixote'?",
+      "answer": "Miguel de Cervantes",
+      "alternateAnswers": ["Cervantes", "Miguel de Cervantes Saavedra"],
+      "explanation": "Published in 1605 (Part 1) and 1615 (Part 2), Don Quixote is often called the first modern novel. Cervantes wrote Part 2 partly because someone else published a fake unauthorized sequel."
+    },
+    {
+      "id": "jane-eyre",
+      "question": "Who wrote 'Jane Eyre'?",
+      "answer": "Charlotte Bronte",
+      "alternateAnswers": ["Bronte", "Charlotte Bronte"],
+      "explanation": "Published in 1847 under the pen name Currer Bell, Jane Eyre was an immediate bestseller. Charlotte kept her identity hidden because she feared critics would dismiss a woman's novel."
+    },
+    {
+      "id": "wuthering-heights",
+      "question": "Who wrote 'Wuthering Heights'?",
+      "answer": "Emily Bronte",
+      "alternateAnswers": ["Bronte", "Emily Bronte"],
+      "explanation": "Published in 1847 under the pen name Ellis Bell, it was Emily Bronte's only novel. Initial reviews called it 'wild' and 'revolting,' but it is now considered a masterpiece of English literature."
+    },
+    {
+      "id": "odyssey",
+      "question": "Who is credited with writing 'The Odyssey'?",
+      "answer": "Homer",
+      "alternateAnswers": [],
+      "explanation": "Composed around the 8th century BC, The Odyssey recounts Odysseus's 10-year journey home from Troy. Whether Homer was a single author or a name for a tradition of oral poets remains one of literature's great debates."
+    },
+    {
+      "id": "les-miserables",
+      "question": "Who wrote 'Les Miserables'?",
+      "answer": "Victor Hugo",
+      "alternateAnswers": ["Hugo"],
+      "explanation": "Published in 1862, Les Miserables was an instant international hit. Hugo reportedly sent his publisher a telegram containing only '?' to ask about sales; the publisher replied '!'"
+    },
+    {
+      "id": "anna-karenina",
+      "question": "Who wrote 'Anna Karenina'?",
+      "answer": "Leo Tolstoy",
+      "alternateAnswers": ["Tolstoy", "Lev Tolstoy"],
+      "explanation": "Published 1877, its opening line 'All happy families are alike; each unhappy family is unhappy in its own way' is one of the most quoted in literature. Tolstoy himself considered it his first real novel."
+    },
+    {
+      "id": "brothers-karamazov",
+      "question": "Who wrote 'The Brothers Karamazov'?",
+      "answer": "Fyodor Dostoevsky",
+      "alternateAnswers": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+      "explanation": "Published in 1880, it was Dostoevsky's final novel -- he died three months after completing it. Freud called it 'the most magnificent novel ever written,' and Einstein said it was his favorite book."
+    },
+    {
+      "id": "ulysses",
+      "question": "Who wrote 'Ulysses'?",
+      "answer": "James Joyce",
+      "alternateAnswers": ["Joyce"],
+      "explanation": "Published in 1922, Ulysses was banned in the US for obscenity until 1933. The entire novel takes place on a single day -- June 16, 1904 -- now celebrated worldwide as Bloomsday."
+    },
+    {
+      "id": "catch-22",
+      "question": "Who wrote 'Catch-22'?",
+      "answer": "Joseph Heller",
+      "alternateAnswers": ["Heller"],
+      "explanation": "Published in 1961, the title entered the English language as a term for an impossible paradox. Heller's original title was Catch-18, but it was changed to avoid confusion with Leon Uris's Mila 18."
+    },
+    {
+      "id": "brave-new-world",
+      "question": "Who wrote 'Brave New World'?",
+      "answer": "Aldous Huxley",
+      "alternateAnswers": ["Huxley"],
+      "explanation": "Published in 1932, Huxley envisioned a dystopia of pleasure rather than pain. He and C.S. Lewis both died on November 22, 1963, the same day President Kennedy was assassinated."
+    },
+    {
+      "id": "lord-flies",
+      "question": "Who wrote 'Lord of the Flies'?",
+      "answer": "William Golding",
+      "alternateAnswers": ["Golding"],
+      "explanation": "Published in 1954 after being rejected by 21 publishers, Lord of the Flies eventually won Golding the Nobel Prize in Literature. The title translates the Hebrew name Beelzebub."
+    },
+    {
+      "id": "catcher-rye",
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "answer": "J.D. Salinger",
+      "alternateAnswers": ["Salinger", "Jerome David Salinger"],
+      "explanation": "Published in 1951, it still sells about 250,000 copies a year. Salinger became a recluse and never published another novel, though he reportedly continued writing until his death in 2010."
+    },
+    {
+      "id": "hundred-years",
+      "question": "Who wrote 'One Hundred Years of Solitude'?",
+      "answer": "Gabriel Garcia Marquez",
+      "alternateAnswers": ["Garcia Marquez", "Marquez", "Gabriel Garcia Marquez"],
+      "explanation": "Published in 1967, it became the defining work of magical realism and has sold over 50 million copies. Garcia Marquez pawned his wife's hairdryer to mail the manuscript to a publisher."
+    },
+    {
+      "id": "beloved",
+      "question": "Who wrote 'Beloved'?",
+      "answer": "Toni Morrison",
+      "alternateAnswers": ["Morrison"],
+      "explanation": "Published in 1987, Beloved is based on the true story of Margaret Garner, an escaped slave. Morrison won the Nobel Prize in Literature in 1993, becoming the first African American woman to do so."
+    },
+    {
+      "id": "invisible-man",
+      "question": "Who wrote 'Invisible Man' (1952)?",
+      "answer": "Ralph Ellison",
+      "alternateAnswers": ["Ellison"],
+      "explanation": "Published in 1952, Invisible Man explores Black identity in America. It was Ellison's only completed novel, and he spent 40 years working on a second novel that was published posthumously."
+    },
+    {
+      "id": "sound-fury",
+      "question": "Who wrote 'The Sound and the Fury'?",
+      "answer": "William Faulkner",
+      "alternateAnswers": ["Faulkner"],
+      "explanation": "Published in 1929, its first section is narrated by a man with an intellectual disability. The title comes from Macbeth's speech: 'a tale told by an idiot, full of sound and fury, signifying nothing.'"
+    },
+    {
+      "id": "frankenstein",
+      "question": "Who wrote 'Frankenstein'?",
+      "answer": "Mary Shelley",
+      "alternateAnswers": ["Shelley", "Mary Wollstonecraft Shelley"],
+      "explanation": "Published in 1818 when Shelley was just 20 years old, it originated from a ghost story contest with Lord Byron and Percy Shelley. It is considered the first science fiction novel."
+    },
+    {
+      "id": "dracula",
+      "question": "Who wrote 'Dracula'?",
+      "answer": "Bram Stoker",
+      "alternateAnswers": ["Stoker", "Abraham Stoker"],
+      "explanation": "Published in 1897, Stoker never visited Transylvania. He researched the region at the British Museum and named his vampire after Vlad Dracula, a 15th-century Romanian prince."
+    },
+    {
+      "id": "great-expectations",
+      "question": "Who wrote 'Great Expectations'?",
+      "answer": "Charles Dickens",
+      "alternateAnswers": ["Dickens"],
+      "explanation": "Published as a serial in 1860-1861, Dickens changed the ending after a friend convinced him the original was too sad. Both endings survive and scholars still argue over which is better."
+    },
+    {
+      "id": "tale-two-cities",
+      "question": "Who wrote 'A Tale of Two Cities'?",
+      "answer": "Charles Dickens",
+      "alternateAnswers": ["Dickens"],
+      "explanation": "Published in 1859, A Tale of Two Cities has sold over 200 million copies, making it possibly the best-selling novel of all time. Its opening 'It was the best of times, it was the worst of times' is universally known."
+    },
+    {
+      "id": "oliver-twist",
+      "question": "Who wrote 'Oliver Twist'?",
+      "answer": "Charles Dickens",
+      "alternateAnswers": ["Dickens"],
+      "explanation": "Published 1837-1839, Oliver Twist was one of the first novels in English to center a child protagonist. Dickens drew on his own childhood experience of working in a factory at age 12."
+    },
+    {
+      "id": "middlemarch",
+      "question": "Who wrote 'Middlemarch'?",
+      "answer": "George Eliot",
+      "alternateAnswers": ["Eliot", "Mary Ann Evans", "Marian Evans"],
+      "explanation": "Published 1871-1872, George Eliot was the pen name of Mary Ann Evans. Virginia Woolf called Middlemarch 'one of the few English novels written for grown-up people.'"
+    },
+    {
+      "id": "picture-dorian",
+      "question": "Who wrote 'The Picture of Dorian Gray'?",
+      "answer": "Oscar Wilde",
+      "alternateAnswers": ["Wilde"],
+      "explanation": "Published in 1890, it is Wilde's only novel. The book was used against him at his trial for 'gross indecency' in 1895, with prosecutors citing its homoerotic passages as evidence."
+    },
+    {
+      "id": "grapes-wrath",
+      "question": "Who wrote 'The Grapes of Wrath'?",
+      "answer": "John Steinbeck",
+      "alternateAnswers": ["Steinbeck"],
+      "explanation": "Published in 1939, it won the Pulitzer Prize and was publicly burned in Steinbeck's home county of Monterey. His wife suggested the title from the lyrics of 'The Battle Hymn of the Republic.'"
+    },
+    {
+      "id": "old-man-sea",
+      "question": "Who wrote 'The Old Man and the Sea'?",
+      "answer": "Ernest Hemingway",
+      "alternateAnswers": ["Hemingway"],
+      "explanation": "Published in 1952, it was Hemingway's last major work of fiction and helped him win the Nobel Prize in 1954. The original manuscript was just 26,531 words -- essentially a long novella."
+    },
+    {
+      "id": "farewell-arms",
+      "question": "Who wrote 'A Farewell to Arms'?",
+      "answer": "Ernest Hemingway",
+      "alternateAnswers": ["Hemingway"],
+      "explanation": "Published in 1929, Hemingway wrote 47 different endings before settling on the final one. The novel draws on his real experience as an ambulance driver wounded in WWI Italy."
+    },
+    {
+      "id": "on-the-road",
+      "question": "Who wrote 'On the Road'?",
+      "answer": "Jack Kerouac",
+      "alternateAnswers": ["Kerouac"],
+      "explanation": "Published in 1957, Kerouac typed the first draft on a single 120-foot scroll of paper in just three weeks. It defined the Beat Generation and inspired the 1960s counterculture."
+    },
+    {
+      "id": "slaughterhouse",
+      "question": "Who wrote 'Slaughterhouse-Five'?",
+      "answer": "Kurt Vonnegut",
+      "alternateAnswers": ["Vonnegut"],
+      "explanation": "Published in 1969, it draws on Vonnegut's experience as a POW in Dresden during the 1945 firebombing. He survived because he was housed in an underground slaughterhouse meat locker."
+    },
+    {
+      "id": "color-purple",
+      "question": "Who wrote 'The Color Purple'?",
+      "answer": "Alice Walker",
+      "alternateAnswers": ["Walker"],
+      "explanation": "Published in 1982, The Color Purple won both the Pulitzer Prize and the National Book Award. Walker coined the term 'womanism' as an alternative to feminism centered on Black women's experience."
+    },
+    {
+      "id": "things-fall-apart",
+      "question": "Who wrote 'Things Fall Apart'?",
+      "answer": "Chinua Achebe",
+      "alternateAnswers": ["Achebe"],
+      "explanation": "Published in 1958, it is the most widely read book in modern African literature, with over 20 million copies sold. The title comes from W.B. Yeats's poem 'The Second Coming.'"
+    },
+    {
+      "id": "lolita",
+      "question": "Who wrote 'Lolita'?",
+      "answer": "Vladimir Nabokov",
+      "alternateAnswers": ["Nabokov"],
+      "explanation": "Published in 1955, it was rejected by five American publishers before being published in Paris. Nabokov wrote in three languages and composed the novel on index cards while on butterfly-collecting trips."
+    },
+    {
+      "id": "count-monte-cristo",
+      "question": "Who wrote 'The Count of Monte Cristo'?",
+      "answer": "Alexandre Dumas",
+      "alternateAnswers": ["Dumas", "Alexandre Dumas pere"],
+      "explanation": "Published 1844-1846 as a serial, its plot of wrongful imprisonment and elaborate revenge was inspired by a real case Dumas found in police archives. The novel runs over 1,200 pages."
+    },
+    {
+      "id": "three-musketeers",
+      "question": "Who wrote 'The Three Musketeers'?",
+      "answer": "Alexandre Dumas",
+      "alternateAnswers": ["Dumas", "Alexandre Dumas pere"],
+      "explanation": "Published in 1844, Dumas was so prolific that rivals accused him of running a 'fiction factory' with ghostwriters. The novel's famous motto 'All for one, one for all' has endured for nearly two centuries."
+    },
+    {
+      "id": "huckleberry-finn",
+      "question": "Who wrote 'Adventures of Huckleberry Finn'?",
+      "answer": "Mark Twain",
+      "alternateAnswers": ["Twain", "Samuel Clemens", "Samuel Langhorne Clemens"],
+      "explanation": "Published in 1884, Hemingway said 'All modern American literature comes from one book by Mark Twain called Huckleberry Finn.' It has been both banned and celebrated since publication."
+    },
+    {
+      "id": "tom-sawyer",
+      "question": "Who wrote 'The Adventures of Tom Sawyer'?",
+      "answer": "Mark Twain",
+      "alternateAnswers": ["Twain", "Samuel Clemens"],
+      "explanation": "Published in 1876, Tom Sawyer draws on Twain's childhood in Hannibal, Missouri. The fence-painting scene has become a universal metaphor for tricking others into doing your work."
+    },
+    {
+      "id": "scarlet-letter",
+      "question": "Who wrote 'The Scarlet Letter'?",
+      "answer": "Nathaniel Hawthorne",
+      "alternateAnswers": ["Hawthorne"],
+      "explanation": "Published in 1850, Hawthorne was haunted by his ancestor Judge John Hathorne, who presided over the Salem witch trials. He added the 'w' to his surname to distance himself from that legacy."
+    },
+    {
+      "id": "little-women",
+      "question": "Who wrote 'Little Women'?",
+      "answer": "Louisa May Alcott",
+      "alternateAnswers": ["Alcott", "L.M. Alcott"],
+      "explanation": "Published in 1868, Alcott based the March sisters on herself and her real sisters. She wrote it in just two and a half months, calling it 'moral pap for the young,' yet it became her masterpiece."
+    },
+    {
+      "id": "gatsby-tender",
+      "question": "Who wrote 'Tender Is the Night'?",
+      "answer": "F. Scott Fitzgerald",
+      "alternateAnswers": ["Fitzgerald", "Scott Fitzgerald"],
+      "explanation": "Published in 1934, it drew heavily on Fitzgerald's marriage to Zelda and her mental illness. He worked on it for nine years and considered it his best novel, though it was his poorest seller."
+    },
+    {
+      "id": "east-of-eden",
+      "question": "Who wrote 'East of Eden'?",
+      "answer": "John Steinbeck",
+      "alternateAnswers": ["Steinbeck"],
+      "explanation": "Published in 1952, Steinbeck considered it his masterpiece and the book he had been 'practicing to write' his whole life. It retells the Cain and Abel story in California's Salinas Valley."
+    },
+    {
+      "id": "gone-wind",
+      "question": "Who wrote 'Gone with the Wind'?",
+      "answer": "Margaret Mitchell",
+      "alternateAnswers": ["Mitchell"],
+      "explanation": "Published in 1936, Mitchell won the Pulitzer Prize for her only novel. She worked on it for nearly 10 years and wrote the last chapter first. It sold a million copies in six months."
+    },
+    {
+      "id": "iliad",
+      "question": "Who is credited with writing 'The Iliad'?",
+      "answer": "Homer",
+      "alternateAnswers": [],
+      "explanation": "Composed around the 8th century BC, The Iliad covers just 52 days of the 10-year Trojan War. Alexander the Great reportedly slept with a copy under his pillow."
+    },
+    {
+      "id": "divine-comedy",
+      "question": "Who wrote 'The Divine Comedy'?",
+      "answer": "Dante Alighieri",
+      "alternateAnswers": ["Dante"],
+      "explanation": "Written 1308-1320, Dante wrote it in Italian rather than Latin, helping establish Tuscan as the basis for modern Italian. He populated Hell with his real political enemies."
+    },
+    {
+      "id": "canterbury-tales",
+      "question": "Who wrote 'The Canterbury Tales'?",
+      "answer": "Geoffrey Chaucer",
+      "alternateAnswers": ["Chaucer"],
+      "explanation": "Written in the late 1300s, Chaucer planned 120 tales but only completed 24 before his death. He was the first poet buried in Westminster Abbey's Poets' Corner."
+    },
+    {
+      "id": "paradise-lost",
+      "question": "Who wrote 'Paradise Lost'?",
+      "answer": "John Milton",
+      "alternateAnswers": ["Milton"],
+      "explanation": "Published in 1667, Milton dictated the entire 10,000-line epic poem because he was completely blind. He was paid just 10 pounds for the first edition's rights."
+    },
+    {
+      "id": "madame-bovary",
+      "question": "Who wrote 'Madame Bovary'?",
+      "answer": "Gustave Flaubert",
+      "alternateAnswers": ["Flaubert"],
+      "explanation": "Published in 1857, Flaubert was prosecuted for obscenity but acquitted. He spent five years writing it and would sometimes take a week to perfect a single page."
+    },
+    {
+      "id": "stranger",
+      "question": "Who wrote 'The Stranger' (also known as 'The Outsider')?",
+      "answer": "Albert Camus",
+      "alternateAnswers": ["Camus"],
+      "explanation": "Published in 1942, The Stranger's famous opening 'Mother died today. Or maybe yesterday; I can't be sure' exemplifies Camus's philosophy of absurdism. He won the Nobel Prize at age 44."
+    },
+    {
+      "id": "metamorphosis",
+      "question": "Who wrote 'The Metamorphosis'?",
+      "answer": "Franz Kafka",
+      "alternateAnswers": ["Kafka"],
+      "explanation": "Published in 1915, its opening sentence about Gregor Samsa waking up as a 'monstrous vermin' is one of the most famous in literature. Kafka asked his friend Max Brod to burn all his manuscripts after death; Brod refused."
+    },
+    {
+      "id": "trial",
+      "question": "Who wrote 'The Trial'?",
+      "answer": "Franz Kafka",
+      "alternateAnswers": ["Kafka"],
+      "explanation": "Published posthumously in 1925, The Trial follows a man arrested and prosecuted by an inaccessible authority for an unspecified crime. The word 'Kafkaesque' entered English to describe exactly this kind of nightmare bureaucracy."
+    },
+    {
+      "id": "notes-underground",
+      "question": "Who wrote 'Notes from Underground'?",
+      "answer": "Fyodor Dostoevsky",
+      "alternateAnswers": ["Dostoevsky", "Dostoyevsky"],
+      "explanation": "Published in 1864, this novella is considered the first existentialist work. Its unnamed narrator's bitter, self-contradictory monologue influenced Nietzsche, Sartre, and Camus."
+    },
+    {
+      "id": "sun-also-rises",
+      "question": "Who wrote 'The Sun Also Rises'?",
+      "answer": "Ernest Hemingway",
+      "alternateAnswers": ["Hemingway"],
+      "explanation": "Published in 1926, it defined the Lost Generation of post-WWI expatriates. Hemingway wrote the first draft in just six weeks while living in Paris and attending the bullfights in Pamplona."
+    },
+    {
+      "id": "portrait-artist",
+      "question": "Who wrote 'A Portrait of the Artist as a Young Man'?",
+      "answer": "James Joyce",
+      "alternateAnswers": ["Joyce"],
+      "explanation": "Published in 1916, this semi-autobiographical novel follows Stephen Dedalus from childhood to artistic awakening. Joyce left Ireland at 22 and never lived there again, yet set all his works in Dublin."
+    },
+    {
+      "id": "mrs-dalloway",
+      "question": "Who wrote 'Mrs Dalloway'?",
+      "answer": "Virginia Woolf",
+      "alternateAnswers": ["Woolf"],
+      "explanation": "Published in 1925, the entire novel takes place in a single day in London. Woolf pioneered the stream-of-consciousness technique that influenced a generation of modernist writers."
+    },
+    {
+      "id": "to-lighthouse",
+      "question": "Who wrote 'To the Lighthouse'?",
+      "answer": "Virginia Woolf",
+      "alternateAnswers": ["Woolf"],
+      "explanation": "Published in 1927, Woolf based the Ramsay family on her own parents. She wrote in her diary that finishing it freed her from the obsession with her mother that had haunted her since childhood."
+    },
+    {
+      "id": "heart-darkness",
+      "question": "Who wrote 'Heart of Darkness'?",
+      "answer": "Joseph Conrad",
+      "alternateAnswers": ["Conrad", "Jozef Korzeniowski"],
+      "explanation": "Published in 1899, Conrad based it on his own traumatic journey up the Congo River. English was Conrad's third language after Polish and French, yet he became one of its greatest prose stylists."
+    },
+    {
+      "id": "animal-farm",
+      "question": "Who wrote 'Animal Farm'?",
+      "answer": "George Orwell",
+      "alternateAnswers": ["Orwell", "Eric Arthur Blair"],
+      "explanation": "Published in 1945, it was rejected by multiple publishers who feared offending the Soviet Union, then a wartime ally. T.S. Eliot, as an editor at Faber, turned it down personally."
+    },
+    {
+      "id": "gatsby-side",
+      "question": "Who wrote 'This Side of Paradise'?",
+      "answer": "F. Scott Fitzgerald",
+      "alternateAnswers": ["Fitzgerald", "Scott Fitzgerald"],
+      "explanation": "Published in 1920, it was Fitzgerald's first novel, written at age 23. Its success made him famous overnight and convinced Zelda Sayre to marry him."
+    },
+    {
+      "id": "treasure-island",
+      "question": "Who wrote 'Treasure Island'?",
+      "answer": "Robert Louis Stevenson",
+      "alternateAnswers": ["Stevenson", "R.L. Stevenson"],
+      "explanation": "Published in 1883, Stevenson drew the treasure map first and then wrote the story to go with it. The novel established virtually every pirate cliche: treasure maps, X marks the spot, the Black Spot, and one-legged seamen."
+    },
+    {
+      "id": "dr-jekyll",
+      "question": "Who wrote 'Strange Case of Dr Jekyll and Mr Hyde'?",
+      "answer": "Robert Louis Stevenson",
+      "alternateAnswers": ["Stevenson", "R.L. Stevenson"],
+      "explanation": "Published in 1886, Stevenson reportedly wrote the first draft in three days during a fever, burned it, then rewrote it in another three days. The story was inspired by a nightmare."
+    },
+    {
+      "id": "gulliver",
+      "question": "Who wrote 'Gulliver's Travels'?",
+      "answer": "Jonathan Swift",
+      "alternateAnswers": ["Swift"],
+      "explanation": "Published in 1726, it was a savage political satire disguised as a travel adventure. The word 'yahoo' (meaning a brute) entered English from this novel."
+    },
+    {
+      "id": "robinson-crusoe",
+      "question": "Who wrote 'Robinson Crusoe'?",
+      "answer": "Daniel Defoe",
+      "alternateAnswers": ["Defoe"],
+      "explanation": "Published in 1719, it is often called the first English novel. Defoe based it partly on the real story of Alexander Selkirk, a Scottish sailor who lived alone on a Pacific island for four years."
+    },
+    {
+      "id": "emma",
+      "question": "Who wrote 'Emma'?",
+      "answer": "Jane Austen",
+      "alternateAnswers": ["Austen"],
+      "explanation": "Published in 1815, Austen said Emma was 'a heroine whom no one but myself will much like.' The novel was dedicated to the Prince Regent, who kept a set of Austen's works in each of his residences."
+    },
+    {
+      "id": "sense-sensibility",
+      "question": "Who wrote 'Sense and Sensibility'?",
+      "answer": "Jane Austen",
+      "alternateAnswers": ["Austen"],
+      "explanation": "Published in 1811, it was Austen's first published novel, though she had written early drafts 16 years earlier. It was published anonymously as being 'By a Lady.'"
+    },
+    {
+      "id": "tess",
+      "question": "Who wrote 'Tess of the d'Urbervilles'?",
+      "answer": "Thomas Hardy",
+      "alternateAnswers": ["Hardy"],
+      "explanation": "Published in 1891, Hardy subtitled it 'A Pure Woman,' which scandalized Victorian society. The backlash against this and his next novel was so fierce that Hardy gave up fiction entirely and only wrote poetry."
+    },
+    {
+      "id": "return-native",
+      "question": "Who wrote 'The Return of the Native'?",
+      "answer": "Thomas Hardy",
+      "alternateAnswers": ["Hardy"],
+      "explanation": "Published in 1878, the novel is set on Egdon Heath, a semi-fictional landscape based on the heaths near Hardy's birthplace in Dorset. Hardy considered the heath itself to be the novel's main character."
+    },
+    {
+      "id": "handmaids-tale",
+      "question": "Who wrote 'The Handmaid's Tale'?",
+      "answer": "Margaret Atwood",
+      "alternateAnswers": ["Atwood"],
+      "explanation": "Published in 1985, Atwood has said every atrocity in the novel has a real historical precedent. She began writing it in West Berlin, within sight of the Berlin Wall."
+    },
+    {
+      "id": "cat-cradle",
+      "question": "Who wrote 'Cat's Cradle'?",
+      "answer": "Kurt Vonnegut",
+      "alternateAnswers": ["Vonnegut"],
+      "explanation": "Published in 1963, Vonnegut submitted it as his master's thesis in anthropology at the University of Chicago, which initially rejected it. They finally accepted it in 1971 after he became famous."
+    },
+    {
+      "id": "fahrenheit-451",
+      "question": "Who wrote 'Fahrenheit 451'?",
+      "answer": "Ray Bradbury",
+      "alternateAnswers": ["Bradbury"],
+      "explanation": "Published in 1953, Bradbury wrote the first draft in nine days on rented typewriters in a library basement, paying ten cents per half hour. The title refers to the temperature at which paper supposedly ignites."
+    },
+    {
+      "id": "dune",
+      "question": "Who wrote 'Dune'?",
+      "answer": "Frank Herbert",
+      "alternateAnswers": ["Herbert"],
+      "explanation": "Published in 1965 after being rejected by 23 publishers, Dune became the best-selling science fiction novel of all time. Herbert spent six years researching ecology before writing it."
+    },
+    {
+      "id": "hitchhiker",
+      "question": "Who wrote 'The Hitchhiker's Guide to the Galaxy'?",
+      "answer": "Douglas Adams",
+      "alternateAnswers": ["Adams"],
+      "explanation": "Published in 1979, Adams reportedly came up with the idea while lying drunk in a field in Innsbruck, Austria, holding a copy of the Hitch-hiker's Guide to Europe. The number 42 as the 'Answer to the Ultimate Question' has become a cultural touchstone."
+    },
+    {
+      "id": "name-of-rose",
+      "question": "Who wrote 'The Name of the Rose'?",
+      "answer": "Umberto Eco",
+      "alternateAnswers": ["Eco"],
+      "explanation": "Published in 1980, Eco was already a famous academic semiotician when he wrote this medieval murder mystery. It sold over 50 million copies and proved that intellectually demanding fiction could be a global bestseller."
+    },
+    {
+      "id": "don-passage",
+      "question": "Who wrote 'A Passage to India'?",
+      "answer": "E.M. Forster",
+      "alternateAnswers": ["Forster", "Edward Morgan Forster"],
+      "explanation": "Published in 1924, it was Forster's last novel -- he lived another 46 years but never published another. The novel is a searing critique of British colonialism in India."
+    },
+    {
+      "id": "native-son",
+      "question": "Who wrote 'Native Son'?",
+      "answer": "Richard Wright",
+      "alternateAnswers": ["Wright"],
+      "explanation": "Published in 1940, it was the first book by an African American author to be selected by the Book of the Month Club. Wright wrote it in just four months."
+    },
+    {
+      "id": "their-eyes",
+      "question": "Who wrote 'Their Eyes Were Watching God'?",
+      "answer": "Zora Neale Hurston",
+      "alternateAnswers": ["Hurston"],
+      "explanation": "Published in 1937, Hurston wrote it in seven weeks while in Haiti on a research fellowship. The novel was largely forgotten until Alice Walker championed its rediscovery in the 1970s."
+    },
+    {
+      "id": "great-exp-2",
+      "question": "Who wrote 'The Bell Jar'?",
+      "answer": "Sylvia Plath",
+      "alternateAnswers": ["Plath"],
+      "explanation": "Published in 1963 under the pseudonym Victoria Lucas, one month before Plath's death. It was her only novel and is considered a classic of feminist literature and a vivid depiction of depression."
+    },
+    {
+      "id": "picture-dorian-2",
+      "question": "Who wrote 'The Importance of Being Earnest'?",
+      "answer": "Oscar Wilde",
+      "alternateAnswers": ["Wilde"],
+      "explanation": "Premiered in 1895, this play is Wilde's masterpiece of wit. Its success was cut short when Wilde was arrested just weeks later. The pun in the title -- 'Earnest' vs. 'Ernest' -- drives the entire plot."
+    },
+    {
+      "id": "crying-lot",
+      "question": "Who wrote 'The Crying of Lot 49'?",
+      "answer": "Thomas Pynchon",
+      "alternateAnswers": ["Pynchon"],
+      "explanation": "Published in 1966, Pynchon is one of literature's great recluses -- no verified photograph of him has been published since the 1950s. This novella packs conspiracy, paranoia, and entropy into just 150 pages."
+    }
+  ]
+}
