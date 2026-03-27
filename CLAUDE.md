@@ -35,6 +35,8 @@ Update these when the information changes. Create new keys for new topics.
 
 ## Adding Quiz Content
 
+**Read `docs/CONTENT_GUIDE.md` before writing or modifying seed files.** It defines explanation standards, format selection, card design, and all content conventions.
+
 1. Create a JSON file in `seeds/` following the format below
 2. Run `node scripts/seed.mjs --local` to test locally
 3. Run `node scripts/seed.mjs --remote` to push to production
@@ -115,5 +117,7 @@ npx wrangler d1 execute trivia-trainer --remote --file=migrations/XXXX.sql
 
 ## Docs
 
+- `docs/CONTENT_GUIDE.md` — **content standards** (read before writing seed files)
+- `docs/DESIGN_PRINCIPLES.md` — UI/UX design principles
 - `docs/PRD.md` — full product requirements and curriculum
 - `docs/TECHNICAL_DESIGN.md` — architecture, API contracts, MCP integration
