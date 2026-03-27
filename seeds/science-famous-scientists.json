@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "science/scientists", "parentId": "science", "name": "Famous Scientists", "description": "Groundbreaking scientists across physics, chemistry, biology, and medicine" }
+  ],
+  "exercises": [
+    {
+      "id": "science/scientists/key-figures",
+      "nodeId": "science/scientists",
+      "name": "Famous Scientists",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "einstein",
+          "prompt": "Which German-born physicist, who spent his later career at Princeton, published four groundbreaking papers in 1905, formulated the theories of special and general relativity, and derived the equation E=mc\u00b2?",
+          "answer": "Albert Einstein",
+          "alternates": ["Einstein"],
+          "explanation": "Born 1879 in Ulm, Germany; died 1955 in Princeton, New Jersey\nAnnus mirabilis (1905): published four papers on the photoelectric effect, Brownian motion, special relativity, and mass\u2013energy equivalence\nGeneral relativity (1915) redefined gravity as the curvature of spacetime\nNobel Prize in Physics 1921 for the photoelectric effect \u2014 NOT for relativity\nFled Nazi Germany in 1933; became a U.S. citizen in 1940\nWrote a letter to FDR urging atomic research, helping launch the Manhattan Project \u2014 later called it his 'one great mistake'\nRefused the presidency of Israel in 1952\nBrain was removed during autopsy without family permission and studied for decades",
+          "cardFront": "Relativity, E=mc\u00b2, 1905 papers",
+          "cardBack": "Albert Einstein"
+        },
+        {
+          "id": "newton",
+          "prompt": "Which English physicist and mathematician, author of *Principia Mathematica* (1687), formulated the three laws of motion and the law of universal gravitation, and served as Master of the Royal Mint?",
+          "answer": "Isaac Newton",
+          "alternates": ["Newton", "Sir Isaac Newton"],
+          "explanation": "Born 1642 (Old Style) in Woolsthorpe, England; died 1727 in London\nThree laws of motion and the law of universal gravitation laid the foundation for classical mechanics\n*Philosophi\u00e6 Naturalis Principia Mathematica* (1687) is one of the most important scientific works ever published\nThe apple story is likely apocryphal but based on Newton's own account of watching apples fall\nLucasian Professor of Mathematics at Cambridge; later Warden and Master of the Royal Mint\nCo-invented calculus independently of Leibniz; the priority dispute was one of the bitterest in science history\nAlso made major contributions to optics: split white light with a prism and built the first reflecting telescope\nSpent more time on alchemy and biblical chronology than on physics or mathematics",
+          "cardFront": "Laws of motion, gravity, *Principia*",
+          "cardBack": "Isaac Newton"
+        },
+        {
+          "id": "curie",
+          "prompt": "Which Polish-French physicist and chemist won Nobel Prizes in two different sciences, discovered the elements polonium and radium, and coined the term 'radioactivity'?",
+          "answer": "Marie Curie",
+          "alternates": ["Curie", "Maria Sklodowska-Curie", "Marie Sklodowska-Curie", "Madame Curie"],
+          "explanation": "Born 1867 in Warsaw, Poland; died 1934 in Passy, France\nFirst woman to win a Nobel Prize (Physics, 1903, shared with Pierre Curie and Henri Becquerel)\nOnly person to win Nobel Prizes in two different sciences: Physics (1903) and Chemistry (1911)\nDiscovered polonium (named for Poland) and radium while processing tons of pitchblende ore by hand\nDied of aplastic anemia caused by prolonged radiation exposure; her papers are still radioactive and kept in lead-lined boxes\nFirst woman appointed professor at the Sorbonne (1906), after Pierre's death\nDrove mobile X-ray units ('petites Curies') to the front lines during World War I\nHer daughter Ir\u00e8ne Joliot-Curie also won a Nobel Prize in Chemistry (1935)",
+          "cardFront": "Radioactivity, two Nobel Prizes, Polish-French",
+          "cardBack": "Marie Curie"
+        },
+        {
+          "id": "darwin",
+          "prompt": "Which English naturalist, who sailed aboard HMS Beagle to the Gal\u00e1pagos Islands, published *On the Origin of Species* in 1859 and proposed the theory of evolution by natural selection?",
+          "answer": "Charles Darwin",
+          "alternates": ["Darwin"],
+          "explanation": "Born 1809 in Shrewsbury, England; died 1882 at Down House, Kent\nHMS Beagle voyage (1831\u20131836): studied geology, fossils, and wildlife across South America and the Gal\u00e1pagos Islands\n*On the Origin of Species* (1859) proposed evolution by natural selection; first print run sold out in a day\nDelayed publication for 20 years, partly fearing backlash \u2014 pushed to publish when Alfred Russel Wallace independently reached the same theory\nGal\u00e1pagos finches (later called 'Darwin's finches') showed adaptive radiation across islands\nMarried his first cousin Emma Wedgwood; worried about inbreeding effects on their ten children\nBuried at Westminster Abbey near Isaac Newton, despite his religious doubts\nStudied earthworms, barnacles, and orchids in addition to evolution \u2014 published a book on earthworms shortly before his death",
+          "cardFront": "Natural selection, *Origin of Species*, Beagle",
+          "cardBack": "Charles Darwin"
+        },
+        {
+          "id": "galileo",
+          "prompt": "Which Italian astronomer, sometimes called the 'father of modern science,' used an improved telescope to observe the moons of Jupiter and the phases of Venus, and was tried by the Roman Inquisition for advocating heliocentrism?",
+          "answer": "Galileo Galilei",
+          "alternates": ["Galileo"],
+          "explanation": "Born 1564 in Pisa, Italy; died 1642 in Arcetri, near Florence\nImproved the telescope (1609) and made groundbreaking observations: Jupiter's four largest moons, phases of Venus, craters on the Moon, sunspots\nChampioned the Copernican heliocentric model; tried by the Roman Inquisition in 1633 and forced to recant\n'Eppur si muove' ('and yet it moves') \u2014 probably apocryphal, but the most famous line attributed to him\nSpent his final years under house arrest; went blind before his death\nThe four Galilean moons of Jupiter (Io, Europa, Ganymede, Callisto) are named in his honor\nAlso studied motion, discovering that falling bodies accelerate uniformly regardless of mass\nDied in 1642; Newton was born later that same year under the Julian calendar",
+          "cardFront": "Telescope, heliocentrism, Inquisition trial",
+          "cardBack": "Galileo Galilei"
+        },
+        {
+          "id": "tesla",
+          "prompt": "Which Serbian-American inventor and electrical engineer developed the alternating current (AC) electrical system, the Tesla coil, and competed with Edison in the 'War of Currents'?",
+          "answer": "Nikola Tesla",
+          "alternates": ["Tesla"],
+          "explanation": "Born 1856 in Smiljan, Austrian Empire (modern Croatia); died 1943 in New York City\nDeveloped the AC induction motor and polyphase AC power system, which became the global standard for electricity transmission\nWorked briefly for Edison before their bitter rivalry; Edison championed DC, Tesla championed AC\nThe tesla (T) is the SI unit of magnetic flux density, named in his honor\nPatented the radio before Marconi, though Marconi received the Nobel; U.S. Supreme Court restored Tesla's patent in 1943\nDied alone in Room 3327 of the Hotel New Yorker on January 7, 1943, at age 86; found by a maid two days later\nFBI seized his papers after death over fears about his 'death ray' weapon designs\nFamous for eccentric habits: obsession with the number 3, fear of pearls, feeding pigeons in NYC parks",
+          "cardFront": "AC power, Tesla coil, Serbian-American",
+          "cardBack": "Nikola Tesla"
+        },
+        {
+          "id": "bohr",
+          "prompt": "Which Danish physicist proposed a model of the atom with electrons orbiting the nucleus in quantized energy levels, won the Nobel Prize in 1922, and later contributed to the Copenhagen interpretation of quantum mechanics?",
+          "answer": "Niels Bohr",
+          "alternates": ["Bohr"],
+          "explanation": "Born 1885 in Copenhagen, Denmark; died 1962 in Copenhagen\nBohr model of the atom (1913): electrons orbit the nucleus in discrete energy levels, emitting light when jumping between them\nNobel Prize in Physics 1922 for his atomic structure work and contributions to quantum theory\nThe Copenhagen interpretation of quantum mechanics: a system exists in superposition until measured\nHelped physicists escape Nazi-occupied Denmark; had Nobel medals belonging to von Laue and Franck dissolved in acid to hide them from the Nazis \u2014 the gold was recovered and recast after the war\nHis son Aage Bohr also won the Nobel Prize in Physics (1975)\nFamous 1941 meeting with Heisenberg in occupied Copenhagen \u2014 the exact conversation remains a mystery, dramatized in Michael Frayn's play *Copenhagen*\nPlayed goalkeeper for the Danish football club Akademisk Boldklub",
+          "cardFront": "Atomic model, Copenhagen interpretation",
+          "cardBack": "Niels Bohr"
+        },
+        {
+          "id": "pasteur",
+          "prompt": "Which French chemist and microbiologist developed the germ theory of disease, invented the process of heating beverages to kill bacteria (named after him), and created vaccines for rabies and anthrax?",
+          "answer": "Louis Pasteur",
+          "alternates": ["Pasteur"],
+          "explanation": "Born 1822 in Dole, France; died 1895 in Marnes-la-Coquette, near Paris\nGerm theory of disease: proved that microorganisms cause fermentation and infection, overturning the theory of spontaneous generation\nPasteurization: heating liquids to kill harmful bacteria; originally developed for wine, now used primarily for milk\nCreated the first vaccines for rabies (1885) and anthrax (1881)\nThe rabies vaccine was first tested on 9-year-old Joseph Meister, who had been bitten by a rabid dog \u2014 Meister survived\n'In the fields of observation, chance favors only the prepared mind' \u2014 his most famous quote\nAlso discovered molecular chirality (left- and right-handed crystals of tartaric acid) early in his career\nThe Pasteur Institute, founded in 1887 in Paris, remains one of the world's leading biomedical research centers",
+          "cardFront": "Germ theory, pasteurization, rabies vaccine",
+          "cardBack": "Louis Pasteur"
+        },
+        {
+          "id": "hawking",
+          "prompt": "Which English theoretical physicist, diagnosed with ALS at age 21 and given two years to live, studied black hole radiation, held the Lucasian Professorship at Cambridge, and wrote the bestseller *A Brief History of Time*?",
+          "answer": "Stephen Hawking",
+          "alternates": ["Hawking"],
+          "explanation": "Born 1942 in Oxford, England; died 2018 in Cambridge at age 76\nDiagnosed with motor neuron disease (ALS) at 21; doctors gave him two years to live \u2014 he survived 55 more\nHawking radiation (1974): theoretical prediction that black holes emit radiation and eventually evaporate\n*A Brief History of Time* (1988) sold over 25 million copies and spent 237 weeks on the *Sunday Times* bestseller list\nLucasian Professor of Mathematics at Cambridge (1979\u20132009) \u2014 the same chair held by Newton\nCommunicated through a speech-generating device after losing his voice; his synthesized voice became iconic\nDied on March 14, 2018 \u2014 Pi Day, and the 139th anniversary of Einstein's birth\nAppeared on *The Simpsons*, *Star Trek: The Next Generation*, and *The Big Bang Theory* as himself",
+          "cardFront": "Black holes, *A Brief History of Time*, ALS",
+          "cardBack": "Stephen Hawking"
+        },
+        {
+          "id": "franklin",
+          "prompt": "Which English chemist and X-ray crystallographer produced 'Photo 51,' the critical X-ray diffraction image of DNA's structure, whose data was used by Watson and Crick without her knowledge?",
+          "answer": "Rosalind Franklin",
+          "alternates": ["Franklin"],
+          "explanation": "Born 1920 in London; died 1958 in London of ovarian cancer at age 37\nPhoto 51 (1952): her X-ray diffraction image of DNA revealed the helical structure and key dimensions\nWatson and Crick used her data without her knowledge or consent; Maurice Wilkins showed them Photo 51\nNever received a Nobel Prize \u2014 the 1962 Nobel for DNA went to Watson, Crick, and Wilkins; the Nobel is not awarded posthumously\nAlso made major contributions to understanding the structures of RNA, viruses, coal, and graphite\nHer cancer was likely caused by extensive X-ray exposure during her research\nLargely written out of the DNA story for decades; Watson's memoir *The Double Helix* (1968) portrayed her dismissively\nThe Rosalind Franklin rover, part of the ESA ExoMars program, was named in her honor",
+          "cardFront": "Photo 51, DNA X-ray crystallography",
+          "cardBack": "Rosalind Franklin"
+        },
+        {
+          "id": "feynman",
+          "prompt": "Which American physicist won the 1965 Nobel Prize for quantum electrodynamics, pioneered a diagrammatic method for visualizing particle interactions, and publicly demonstrated the O-ring failure during the Challenger disaster investigation?",
+          "answer": "Richard Feynman",
+          "alternates": ["Feynman", "Richard P. Feynman"],
+          "explanation": "Born 1918 in Queens, New York; died 1988 in Los Angeles of kidney cancer\nNobel Prize in Physics 1965 (shared with Schwinger and Tomonaga) for quantum electrodynamics (QED)\nFeynman diagrams: intuitive visual representations of particle interactions, now ubiquitous in physics\nOn the Rogers Commission investigating the 1986 Challenger disaster, he famously dunked an O-ring in ice water on live TV to demonstrate the failure\nWorked on the Manhattan Project at Los Alamos as a young physicist; cracked safes for amusement\n*Surely You're Joking, Mr. Feynman!* (1985) became a bestselling memoir\nPlayed bongo drums, sketched nude models, and picked locks \u2014 cultivated a reputation as a maverick\nHis Caltech lectures (*The Feynman Lectures on Physics*) remain among the most celebrated physics textbooks",
+          "cardFront": "QED, Feynman diagrams, Challenger O-ring",
+          "cardBack": "Richard Feynman"
+        },
+        {
+          "id": "fleming",
+          "prompt": "Which Scottish bacteriologist accidentally discovered the world's first widely used antibiotic in 1928 when he noticed mold killing bacteria in a petri dish he had left uncovered?",
+          "answer": "Alexander Fleming",
+          "alternates": ["Fleming"],
+          "explanation": "Born 1881 in Darvel, Ayrshire, Scotland; died 1955 in London\nDiscovered penicillin in September 1928 when *Penicillium notatum* mold contaminated a staphylococcus culture and killed surrounding bacteria\nNobel Prize in Physiology or Medicine 1945, shared with Howard Florey and Ernst Boris Chain, who developed penicillin into a usable drug\nFleming's discovery was largely ignored for a decade until Florey and Chain's work in the early 1940s made mass production possible\nPenicillin is estimated to have saved over 200 million lives since its introduction\nWarned as early as 1945 that overuse of antibiotics would lead to resistant bacteria \u2014 a prediction now reality\nAlso discovered lysozyme (1923), a natural antibacterial enzyme found in tears and saliva\nServed as a captain in the Royal Army Medical Corps during World War I, where he saw many soldiers die of infected wounds",
+          "cardFront": "Penicillin, 1928, mold discovery",
+          "cardBack": "Alexander Fleming"
+        },
+        {
+          "id": "mendel",
+          "prompt": "Which Augustinian friar, working in a monastery garden in Brno, conducted experiments on pea plants that established the fundamental laws of heredity, though his work was ignored until rediscovered in 1900?",
+          "answer": "Gregor Mendel",
+          "alternates": ["Mendel", "Johann Gregor Mendel"],
+          "explanation": "Born 1822 in Hyn\u010dice, Austrian Empire (now Czech Republic); died 1884 in Brno\nConducted pea plant experiments (1856\u20131863) tracking traits like height, seed color, and pod shape across generations\nDiscovered dominant and recessive traits, the law of segregation, and the law of independent assortment\nPublished his results in 1866 in *Experiments on Plant Hybridization* \u2014 virtually ignored for 34 years\nRediscovered in 1900 independently by Hugo de Vries, Carl Correns, and Erich von Tschermak\nAn Augustinian friar who became abbot of his monastery in 1868; administrative duties consumed his later years\nStudied nearly 29,000 pea plants over eight years \u2014 an enormous dataset for the era\nNow called the 'father of genetics,' though he never used the word 'gene' (coined later by Wilhelm Johannsen in 1909)",
+          "cardFront": "Pea plants, laws of heredity, Augustinian friar",
+          "cardBack": "Gregor Mendel"
+        },
+        {
+          "id": "faraday",
+          "prompt": "Which self-taught English physicist, who began his career as a bookbinder's apprentice, discovered electromagnetic induction, built the first electric motor, and invented the protective enclosure for blocking electromagnetic fields that bears his name?",
+          "answer": "Michael Faraday",
+          "alternates": ["Faraday"],
+          "explanation": "Born 1791 in Newington Butts, Surrey, England; died 1867 in Hampton Court\nDiscovered electromagnetic induction (1831): a changing magnetic field generates an electric current \u2014 the principle behind generators and transformers\nBuilt the first electric motor (1821) and the first electric generator (dynamo)\nThe Faraday cage blocks external electromagnetic fields \u2014 used in electronics shielding and MRI rooms\nThe farad (F) is the SI unit of electrical capacitance, named in his honor\nNo formal education; began as a bookbinder's apprentice and educated himself by reading the books he bound\nAppointed to the Royal Institution by Humphry Davy; later surpassed Davy as Britain's greatest experimental scientist\nRefused a knighthood and twice declined the presidency of the Royal Society",
+          "cardFront": "Electromagnetic induction, self-taught, Faraday cage",
+          "cardBack": "Michael Faraday"
+        },
+        {
+          "id": "planck",
+          "prompt": "Which German physicist, whose constant h is fundamental to quantum mechanics, originated quantum theory in 1900 by proposing that energy is emitted in discrete packets called quanta?",
+          "answer": "Max Planck",
+          "alternates": ["Planck"],
+          "explanation": "Born 1858 in Kiel, Germany; died 1947 in G\u00f6ttingen\nOriginated quantum theory (1900) by proposing that electromagnetic energy is emitted in discrete quanta, not continuously\nThe Planck constant (h \u2248 6.626 \u00d7 10\u207b\u00b3\u2074 J\u00b7s) is one of the fundamental constants of physics\nNobel Prize in Physics 1918 for his discovery of energy quanta\nHis son Erwin was executed by the Nazis on January 23, 1945, for involvement in the 20 July plot to assassinate Hitler\nMax Planck personally wrote to Hitler pleading for Erwin's life; the plea was ignored\nThe Max Planck Society, successor to the Kaiser Wilhelm Society, is Germany's premier research organization with 80+ institutes\nOriginally a reluctant revolutionary \u2014 he introduced quanta as a mathematical trick and spent years trying to reconcile it with classical physics",
+          "cardFront": "Quantum theory, Planck constant, energy quanta",
+          "cardBack": "Max Planck"
+        },
+        {
+          "id": "heisenberg",
+          "prompt": "Which German physicist formulated the principle stating that a particle's position and momentum cannot both be precisely known simultaneously, won the 1932 Nobel Prize, and controversially led Nazi Germany's nuclear research program?",
+          "answer": "Werner Heisenberg",
+          "alternates": ["Heisenberg"],
+          "explanation": "Born 1901 in W\u00fcrzburg, Germany; died 1976 in Munich\nThe uncertainty principle (1927): the more precisely you know a particle's position, the less precisely you can know its momentum, and vice versa\nNobel Prize in Physics 1932 for the creation of quantum mechanics (specifically matrix mechanics)\nHeaded Nazi Germany's Uranverein (uranium club) nuclear weapons program \u2014 whether he deliberately sabotaged it remains hotly debated among historians\nFamous 1941 meeting with Niels Bohr in occupied Copenhagen; what was said remains a mystery and inspired the play *Copenhagen* by Michael Frayn\nWalter White's alias 'Heisenberg' in *Breaking Bad* is a direct reference\nAfter the war, was detained with other German scientists at Farm Hall in England, where their conversations were secretly recorded\nAlso developed the S-matrix theory and made contributions to nuclear physics and cosmic ray research",
+          "cardFront": "Uncertainty principle, quantum mechanics",
+          "cardBack": "Werner Heisenberg"
+        },
+        {
+          "id": "goodall",
+          "prompt": "Which British primatologist spent decades studying wild chimpanzees at Gombe Stream in Tanzania, discovered that chimps use tools, and became a UN Messenger of Peace and global conservation advocate?",
+          "answer": "Jane Goodall",
+          "alternates": ["Goodall"],
+          "explanation": "Born 1934 in London; died October 1, 2025, in the United States at age 91\nBegan studying chimpanzees at Gombe Stream National Park, Tanzania, in 1960 \u2014 at age 26, with no university degree\nDiscovered that chimps make and use tools (stripping leaves from twigs to fish for termites), overturning the definition of humans as the only toolmakers\nAlso observed chimps hunting and eating meat, and engaging in warfare between groups \u2014 previously thought to be uniquely human behaviors\nNational Geographic cover story (1963) and documentary made her internationally famous\nFounded the Jane Goodall Institute (1977) and the Roots & Shoots youth program\nUN Messenger of Peace since 2002; spent ~300 days a year traveling and advocating for conservation\nHad no formal scientific training when she started; Louis Leakey sent her to Gombe believing a fresh perspective would yield new insights",
+          "cardFront": "Chimpanzees, Gombe, tool use in primates",
+          "cardBack": "Jane Goodall"
+        },
+        {
+          "id": "watson-and-crick",
+          "prompt": "Which two molecular biologists at Cambridge proposed the double helix structure of DNA in 1953, publishing a one-page paper in *Nature* that revolutionized biology?",
+          "answer": "James Watson & Francis Crick",
+          "alternates": ["Watson and Crick", "Watson & Crick", "James Watson and Francis Crick", "Crick and Watson"],
+          "explanation": "Watson (born 1928, American) and Crick (1916\u20132004, British) proposed the double helix structure of DNA in April 1953\nTheir one-page *Nature* paper famously ended: 'It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism'\nNobel Prize in Physiology or Medicine 1962, shared with Maurice Wilkins\nRelied heavily on Rosalind Franklin's X-ray crystallography data (Photo 51), shown to them without her knowledge by Wilkins\nCrick went on to propose the 'central dogma' of molecular biology (DNA \u2192 RNA \u2192 protein)\nWatson published *The Double Helix* (1968), a controversial memoir that portrayed Franklin dismissively\nWatson was stripped of honorary titles by Cold Spring Harbor Laboratory in 2019 after making racist remarks about intelligence and genetics\nCrick died of colon cancer in 2004; Watson is alive as of 2026",
+          "cardFront": "DNA double helix, 1953, Cambridge",
+          "cardBack": "James Watson & Francis Crick"
+        },
+        {
+          "id": "mendeleev",
+          "prompt": "Which Russian chemist organized the known elements by atomic weight into a periodic table in 1869, leaving gaps that correctly predicted the properties of elements not yet discovered?",
+          "answer": "Dmitri Mendeleev",
+          "alternates": ["Mendeleev", "Mendeleyev", "Dmitri Mendeleyev", "Dmitri Ivanovich Mendeleev"],
+          "explanation": "Born 1834 in Tobolsk, Siberia, Russia; died 1907 in St. Petersburg\nPublished his periodic table on March 6, 1869, organizing 63 known elements by atomic weight and chemical properties\nLeft gaps in the table and predicted the properties of undiscovered elements \u2014 gallium, scandium, and germanium were later found to match his predictions almost exactly\nLegend says the arrangement came to him in a dream: 'I saw in a dream a table where all elements fell into place'\nElement 101 (mendelevium, Md) is named in his honor\nNot the only one working on periodicity \u2014 Lothar Meyer independently developed a similar table around the same time\nNever won the Nobel Prize despite being nominated; lost by one vote in 1906, allegedly due to opposition from Svante Arrhenius\nAlso defined the standard for Russian vodka at 40% alcohol by volume (a persistent legend, though his actual thesis was on alcohol-water mixtures)",
+          "cardFront": "Periodic table, 1869, predicted elements",
+          "cardBack": "Dmitri Mendeleev"
+        },
+        {
+          "id": "sagan",
+          "prompt": "Which American astronomer and science communicator hosted the 1980 television series *Cosmos: A Personal Voyage*, championed the 'pale blue dot' photograph of Earth, and helped design the Voyager Golden Record?",
+          "answer": "Carl Sagan",
+          "alternates": ["Sagan"],
+          "explanation": "Born 1934 in Brooklyn, New York; died 1996 in Seattle of pneumonia, a complication of myelodysplastic syndrome\n*Cosmos: A Personal Voyage* (1980) was watched by over 500 million people in 60 countries \u2014 the most-watched PBS series at the time\nPersuaded NASA to turn Voyager 1 around to photograph Earth from 3.7 billion miles away, producing the 'pale blue dot' image (1990)\nHelped design the Voyager Golden Record, a message from humanity sent into interstellar space\n'Billions and billions' \u2014 the phrase associated with him was actually coined by Johnny Carson's parody; Sagan later embraced it as a book title\nWrote the novel *Contact* (1985), adapted into a 1997 film starring Jodie Foster\nPioneered the study of planetary atmospheres and helped explain Venus's extreme greenhouse effect\nCo-founded the Planetary Society (1980), now the world's largest space-interest group",
+          "cardFront": "*Cosmos*, science communicator, pale blue dot",
+          "cardBack": "Carl Sagan"
+        }
+      ]
+    }
+  ]
+}

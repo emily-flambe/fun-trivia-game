@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    { "id": "theatre/musicals", "parentId": "theatre", "name": "Musical Theatre", "description": "Landmark Broadway and West End musicals" }
+  ],
+  "exercises": [
+    {
+      "id": "theatre/musicals/landmark-shows",
+      "nodeId": "theatre/musicals",
+      "name": "Landmark Musicals",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "oklahoma",
+          "prompt": "Which 1943 Rodgers and Hammerstein musical, set in Indian Territory, was the first to fully integrate story, songs, and dance, and featured Agnes de Mille's groundbreaking dream ballet?",
+          "answer": "Oklahoma!",
+          "alternates": ["Oklahoma"],
+          "explanation": "Opened March 31, 1943; music by Richard Rodgers, lyrics and book by Oscar Hammerstein II\nFirst collaboration between Rodgers and Hammerstein; adapted from Lynn Riggs's play *Green Grow the Lilacs*\nWidely credited as the first musical to fully integrate plot, songs, and choreography into a unified dramatic whole\nAgnes de Mille's 15-minute dream ballet in Act I revolutionized Broadway choreography\nOriginal run of 2,212 performances at the St. James Theatre, a record at the time\nReceived a special Pulitzer Prize in 1944; predated the Tony Awards (established 1949)\n\"Oh, What a Beautiful Mornin'\" was the first song audiences heard\u2014a quiet solo that broke the convention of opening with a big chorus number",
+          "cardFront": "1943 \u2014 Rodgers & Hammerstein, first integrated musical",
+          "cardBack": "Oklahoma!"
+        },
+        {
+          "id": "my-fair-lady",
+          "prompt": "Which 1956 Lerner and Loewe musical, based on Shaw's *Pygmalion*, stars a phonetics professor who teaches a Cockney flower girl to speak like a duchess?",
+          "answer": "My Fair Lady",
+          "alternates": [],
+          "explanation": "Opened March 15, 1956; music by Frederick Loewe, lyrics and book by Alan Jay Lerner\nBased on George Bernard Shaw's 1913 play *Pygmalion*; Shaw had refused musical adaptations in his lifetime\nRex Harrison spoke-sang the role of Henry Higgins, a style later called Sprechgesang on Broadway\nOriginal run of 2,717 performances, the longest-running Broadway musical until surpassed by *Hello, Dolly!* in 1964\nSongs include \"I Could Have Danced All Night,\" \"The Rain in Spain,\" \"On the Street Where You Live,\" and \"Get Me to the Church on Time\"\nThe 1964 film starring Harrison and Audrey Hepburn won eight Oscars including Best Picture\nJulie Andrews originated Maria on Broadway but was passed over for the film; she won the Oscar that year for *Mary Poppins* instead",
+          "cardFront": "1956 \u2014 Lerner & Loewe, Shaw's *Pygmalion*",
+          "cardBack": "My Fair Lady"
+        },
+        {
+          "id": "west-side-story",
+          "prompt": "Which 1957 musical reimagines *Romeo and Juliet* as a turf war between the Jets and the Sharks on Manhattan's West Side, with music by Leonard Bernstein and lyrics by Stephen Sondheim?",
+          "answer": "West Side Story",
+          "alternates": [],
+          "explanation": "Opened September 26, 1957; music by Leonard Bernstein, lyrics by Stephen Sondheim, book by Arthur Laurents, conceived and choreographed by Jerome Robbins\nSondheim's Broadway debut as a lyricist; he was 27 years old\nTransposes *Romeo and Juliet* to 1950s New York: the white Jets vs. the Puerto Rican Sharks\nSongs include \"Tonight,\" \"America,\" \"Somewhere,\" \"I Feel Pretty,\" and \"Maria\"\nThe 1961 film won 10 of 11 Oscar nominations, including Best Picture\u2014the most wins for a musical film\nRita Moreno won Best Supporting Actress for the film, becoming the first Latina to win an Oscar\nSteven Spielberg directed a 2021 remake; Moreno returned in a new role at age 89",
+          "cardFront": "1957 \u2014 Bernstein/Sondheim, *Romeo and Juliet* with NYC gangs",
+          "cardBack": "West Side Story"
+        },
+        {
+          "id": "sound-of-music",
+          "prompt": "Which 1959 Rodgers and Hammerstein musical, based on the memoir of Maria von Trapp, features \"Do-Re-Mi\" and \"My Favorite Things\" and was the duo's final collaboration?",
+          "answer": "The Sound of Music",
+          "alternates": ["Sound of Music"],
+          "explanation": "Opened November 16, 1959; music by Richard Rodgers, lyrics by Oscar Hammerstein II\nFinal Rodgers and Hammerstein musical; Hammerstein died of stomach cancer on August 23, 1960, nine months after the premiere\nMary Martin originated the role of Maria on Broadway; won five Tony Awards including Best Musical\nSongs include \"Do-Re-Mi,\" \"My Favorite Things,\" \"Climb Ev'ry Mountain,\" \"Edelweiss,\" and \"The Sound of Music\"\nThe 1965 film starring Julie Andrews became the highest-grossing film of its time, surpassing *Gone with the Wind*\n\"Edelweiss\" was the last song Hammerstein ever wrote; it is often mistaken for a traditional Austrian folk song\nOriginal Broadway run of 1,443 performances; the cast album spent 16 weeks at #1 on the Billboard chart",
+          "cardFront": "1959 \u2014 Rodgers & Hammerstein's final show, von Trapp family",
+          "cardBack": "The Sound of Music"
+        },
+        {
+          "id": "chorus-line",
+          "prompt": "Which 1975 concept musical, conceived and directed by Michael Bennett, follows 17 Broadway dancers auditioning for a chorus spot and became the longest-running Broadway show of its era?",
+          "answer": "A Chorus Line",
+          "alternates": ["Chorus Line"],
+          "explanation": "Opened July 25, 1975; conceived, directed, and choreographed by Michael Bennett; music by Marvin Hamlisch, lyrics by Edward Kleban\nConcept musical built from real tape-recorded interviews with Broadway dancers about their lives and careers\nWon 9 Tony Awards from 12 nominations, plus the 1976 Pulitzer Prize for Drama\nRan for 6,137 performances, the longest-running Broadway show until surpassed by *Cats* in 1997\nSignature song \"One\" features the iconic gold-costumed kickline finale\nDeveloped at Joseph Papp's Public Theater before transferring to the Shubert Theatre\nMichael Bennett died of AIDS-related lymphoma in 1987 at age 44",
+          "cardFront": "1975 \u2014 Michael Bennett, dancers auditioning, 6,137 performances",
+          "cardBack": "A Chorus Line"
+        },
+        {
+          "id": "chicago",
+          "prompt": "Which Kander and Ebb musical, originally choreographed by Bob Fosse in 1975 and revived in 1996, became the longest-running revival in Broadway history and inspired a 2002 Best Picture\u2013winning film?",
+          "answer": "Chicago",
+          "alternates": [],
+          "explanation": "Original opened June 3, 1975; music by John Kander, lyrics by Fred Ebb, book by Ebb and Bob Fosse\nBased on a 1926 play by reporter Maurine Dallas Watkins about real Jazz Age murderesses in Chicago\nThe 1996 revival, directed by Walter Bobbie with choreography \"in the style of Bob Fosse,\" is the longest-running American musical and longest-running revival in Broadway history\nSignature songs include \"All That Jazz,\" \"Razzle Dazzle,\" \"Cell Block Tango,\" and \"Mr. Cellophane\"\nThe 2002 film starring Ren\u00e9e Zellweger, Catherine Zeta-Jones, and Richard Gere won six Oscars including Best Picture\nOriginal 1975 production ran only 936 performances, overshadowed by *A Chorus Line* opening the same year\nBebe Neuwirth and Ann Reinking starred in the revival; Reinking re-created Fosse's choreography from memory",
+          "cardFront": "1975/1996 \u2014 Kander/Ebb/Fosse, longest-running revival",
+          "cardBack": "Chicago"
+        },
+        {
+          "id": "annie",
+          "prompt": "Which 1977 musical about a red-haired orphan and her billionaire benefactor features \"Tomorrow\" and \"It's the Hard Knock Life,\" the latter famously sampled by Jay-Z?",
+          "answer": "Annie",
+          "alternates": [],
+          "explanation": "Opened April 21, 1977; music by Charles Strouse, lyrics by Martin Charnin, book by Thomas Meehan\nBased on Harold Gray's *Little Orphan Annie* comic strip, which ran from 1924 to 2010\nWon 7 Tony Awards from 11 nominations, including Best Musical\n\"Tomorrow\" became a pop standard; \"It's the Hard Knock Life\" was sampled by Jay-Z for his 1998 hit \"Hard Knock Life (Ghetto Anthem)\"\nAndrea McArdle originated the title role at age 13; Dorothy Loudon won the Tony for Best Actress as Miss Hannigan\nThe character Daddy Warbucks was named as a satire of war profiteers; his bald head is one of Broadway's most recognizable looks\nSpawned multiple film adaptations (1982 with Albert Finney, 1999 TV movie, 2014 with Jamie Foxx)",
+          "cardFront": "1977 \u2014 Strouse/Charnin, red-haired orphan, \"Tomorrow\"",
+          "cardBack": "Annie"
+        },
+        {
+          "id": "sweeney-todd",
+          "prompt": "Which 1979 Stephen Sondheim musical tells the Grand Guignol story of a vengeful barber and a pie-maker on Fleet Street who dispose of victims in meat pies?",
+          "answer": "Sweeney Todd",
+          "alternates": ["Sweeney Todd: The Demon Barber of Fleet Street"],
+          "explanation": "Opened March 1, 1979; music and lyrics by Stephen Sondheim, book by Hugh Wheeler\nSubtitled \"The Demon Barber of Fleet Street\"; based on Christopher Bond's 1973 play, itself drawn from Victorian penny dreadful serials\nWon 8 Tony Awards from 9 nominations, including Best Musical, Best Score, Best Actor (Len Cariou), and Best Actress (Angela Lansbury)\nA Grand Guignol operatic musical about murder, revenge, and human-meat pies\u2014one of the darkest subjects in musical theatre\nTim Burton directed a 2007 film adaptation starring Johnny Depp and Helena Bonham Carter\nThe 2023 Broadway revival starred Josh Groban and won the Tony for Best Revival\nSondheim considered it his finest work; the score is nearly through-composed, blurring the line between musical theatre and opera",
+          "cardFront": "1979 \u2014 Sondheim, demon barber of Fleet Street",
+          "cardBack": "Sweeney Todd"
+        },
+        {
+          "id": "cats",
+          "prompt": "Which Andrew Lloyd Webber musical, based on T.S. Eliot's *Old Possum's Book of Practical Cats*, features the ballad \"Memory\" and ran for 21 years in London's West End?",
+          "answer": "Cats",
+          "alternates": [],
+          "explanation": "Opened May 11, 1981 (London), October 7, 1982 (Broadway); music by Andrew Lloyd Webber, lyrics from T.S. Eliot's poetry\nBased on Eliot's 1939 poetry collection *Old Possum's Book of Practical Cats*\n\"Memory,\" sung by the character Grizabella, became the show's breakaway hit and has been recorded over 600 times\nLondon production ran 21 years (8,949 performances); Broadway ran 18 years (7,485 performances)\nBroadway production was the longest-running show in Broadway history from 1997 until overtaken by *The Phantom of the Opera* in 2006\nDirected by Trevor Nunn with choreography by Gillian Lynne; set entirely on an oversized junkyard designed by John Napier\nThe 2019 film adaptation was a notorious critical and commercial disaster, losing an estimated $71 million",
+          "cardFront": "1981 \u2014 Lloyd Webber, T.S. Eliot's cats, \"Memory\"",
+          "cardBack": "Cats"
+        },
+        {
+          "id": "les-miserables",
+          "prompt": "Which sung-through musical, based on Victor Hugo's 1862 novel, features \"I Dreamed a Dream\" and \"One Day More\" and is one of the longest-running shows in both the West End and Broadway?",
+          "answer": "Les Mis\u00e9rables",
+          "alternates": ["Les Miserables", "Les Mis"],
+          "explanation": "Opened October 8, 1985 (London), March 12, 1987 (Broadway); music by Claude-Michel Sch\u00f6nberg, lyrics by Alain Boubil (French) and Herbert Kretzmer (English)\nBased on Victor Hugo's 1862 novel; originally a French concept album in 1980 before Cameron Mackintosh produced the English version\nSung-through (nearly all dialogue is sung); songs include \"I Dreamed a Dream,\" \"One Day More,\" \"On My Own,\" and \"Do You Hear the People Sing?\"\nLondon critics savaged it at opening; audiences ignored the reviews and it became one of the longest-running musicals in history\nThe 2012 film starring Hugh Jackman, Anne Hathaway, and Russell Crowe recorded vocals live on set\u2014a first for a major musical film\nHathaway won the Oscar for Best Supporting Actress; her rendition of \"I Dreamed a Dream\" was shot in a single unbroken take\nCommonly nicknamed \"Les Mis\"; surpassed *Cats* as London's longest-running musical in 2006",
+          "cardFront": "1985 \u2014 Sch\u00f6nberg/Boubil, Victor Hugo, \"I Dreamed a Dream\"",
+          "cardBack": "Les Mis\u00e9rables"
+        },
+        {
+          "id": "phantom",
+          "prompt": "Which Andrew Lloyd Webber musical, famous for its falling chandelier and the song \"Music of the Night,\" is the longest-running show in Broadway history with 13,981 performances?",
+          "answer": "The Phantom of the Opera",
+          "alternates": ["Phantom of the Opera", "Phantom"],
+          "explanation": "Opened October 9, 1986 (London), January 26, 1988 (Broadway); music by Andrew Lloyd Webber, lyrics by Charles Hart and Richard Stilgoe\nLongest-running show in Broadway history: 13,981 performances over 35 years before closing on April 16, 2023\nThe crashing chandelier is the show's signature effect; it swoops over the audience at the end of Act I\n\"Music of the Night,\" \"The Phantom of the Opera,\" and \"All I Ask of You\" are the best-known songs\nMichael Crawford originated the Phantom in both London and New York; Sarah Brightman (Lloyd Webber's then-wife) originated Christine\nGrossed over $1.3 billion on Broadway alone, making it one of the highest-grossing entertainment events in history\nBased on Gaston Leroux's 1910 French novel; the half-mask has become one of the most recognizable icons in theatre",
+          "cardFront": "1986 \u2014 Lloyd Webber, 13,981 performances, chandelier",
+          "cardBack": "The Phantom of the Opera"
+        },
+        {
+          "id": "rent",
+          "prompt": "Which 1996 rock musical, loosely based on Puccini's *La Boh\u00e8me*, is set among struggling artists in NYC's East Village, and whose creator died the night before its first preview?",
+          "answer": "Rent",
+          "alternates": [],
+          "explanation": "Opened January 26, 1996 (off-Broadway), April 29, 1996 (Broadway); book, music, and lyrics by Jonathan Larson\nLarson died of an aortic dissection on January 25, 1996\u2014the morning of the first off-Broadway preview\u2014at age 35\nWon the 1996 Pulitzer Prize for Drama and four Tony Awards including Best Musical\nLoosely based on Puccini's *La Boh\u00e8me*, transplanted to New York's East Village amid the AIDS crisis\n\"Seasons of Love\" opens Act II with the cast singing \"525,600 minutes\"\u2014one of the most recognized numbers in modern musical theatre\nLarson may have had undiagnosed Marfan syndrome; two hospitals misdiagnosed him in the days before his death\n*tick, tick... BOOM!*, Larson's earlier autobiographical musical, was adapted into a 2021 film directed by Lin-Manuel Miranda",
+          "cardFront": "1996 \u2014 Jonathan Larson, *La Boh\u00e8me*, \"Seasons of Love\"",
+          "cardBack": "Rent"
+        },
+        {
+          "id": "lion-king",
+          "prompt": "Which 1997 Disney musical, with songs by Elton John and Tim Rice and innovative puppet designs by director Julie Taymor, became the highest-grossing Broadway production of all time?",
+          "answer": "The Lion King",
+          "alternates": ["Lion King"],
+          "explanation": "Opened November 13, 1997; music by Elton John and Lebo M, lyrics by Tim Rice, book by Roger Allers and Irene Mecchi\nDirected by Julie Taymor, who became the first woman to win the Tony for Best Direction of a Musical\nTaymor's design uses masks, puppets, and elaborate costumes so actors visibly manipulate their animal characters\u2014a signature innovation\nHighest-grossing Broadway production of all time, surpassing $2 billion on Broadway alone; over $11 billion worldwide including tours\nWon six Tony Awards in 1998 including Best Musical, beating the heavily favored *Ragtime*\nAdapted from the 1994 Disney animated film; adds several new songs including \"Shadowland\" and \"Endless Night\"\nHas been translated into nine languages and produced on every continent except Antarctica",
+          "cardFront": "1997 \u2014 Elton John/Tim Rice, Julie Taymor puppets, Disney",
+          "cardBack": "The Lion King"
+        },
+        {
+          "id": "producers",
+          "prompt": "Which 2001 Mel Brooks musical, based on his 1967 film, features the show-within-a-show \"Springtime for Hitler\" and won a record 12 Tony Awards?",
+          "answer": "The Producers",
+          "alternates": ["Producers"],
+          "explanation": "Opened April 19, 2001; music and lyrics by Mel Brooks, book by Brooks and Thomas Meehan\nBased on Brooks's 1967 film of the same name about two con men who oversell shares in a deliberately terrible Broadway show\nWon a record 12 Tony Awards, sweeping every category in which it was nominated\u2014breaking the 37-year record held by *Hello, Dolly!*\nNathan Lane starred as Max Bialystock and Matthew Broderick as Leo Bloom; both became the hottest ticket on Broadway\n\"Springtime for Hitler,\" the intentionally offensive show-within-a-show, is a deliberately tasteless ode to Nazi Germany played for satire\nDirected and choreographed by Susan Stroman, who won Tonys for both\nBrooks became one of the few EGOT winners (Emmy, Grammy, Oscar, Tony) thanks to his Best Score win",
+          "cardFront": "2001 \u2014 Mel Brooks, record 12 Tonys, \"Springtime for Hitler\"",
+          "cardBack": "The Producers"
+        },
+        {
+          "id": "wicked",
+          "prompt": "Which 2003 Stephen Schwartz musical tells the untold backstory of the Witches of Oz, featuring the showstopper \"Defying Gravity\" and originating stars Idina Menzel and Kristin Chenoweth?",
+          "answer": "Wicked",
+          "alternates": [],
+          "explanation": "Opened October 30, 2003; music and lyrics by Stephen Schwartz, book by Winnie Holzman\nBased on Gregory Maguire's 1995 novel *Wicked: The Life and Times of the Wicked Witch of the West*, a revisionist prequel to *The Wizard of Oz*\nIdina Menzel originated Elphaba (the Wicked Witch) and Kristin Chenoweth originated Glinda (the Good Witch)\nMenzel won the Tony for Best Leading Actress; \"Defying Gravity\" became the signature first-act finale in modern musical theatre\nReceived mixed-to-positive reviews at opening but became a commercial juggernaut, consistently among Broadway's top-grossing shows\nThe 2024 film directed by Jon M. Chu starred Cynthia Erivo and Ariana Grande; a sequel, *Wicked: For Good*, followed in 2025\nSchwartz also wrote the scores for *Godspell* (1971) and *Pippin* (1972)",
+          "cardFront": "2003 \u2014 Schwartz, Oz prequel, \"Defying Gravity\"",
+          "cardBack": "Wicked"
+        },
+        {
+          "id": "hamilton",
+          "prompt": "Which 2015 Lin-Manuel Miranda musical tells the story of a Founding Father through hip-hop, R&B, and rap, and won 11 Tony Awards and the Pulitzer Prize?",
+          "answer": "Hamilton",
+          "alternates": [],
+          "explanation": "Opened August 6, 2015; book, music, and lyrics by Lin-Manuel Miranda\nHip-hop musical about Alexander Hamilton, inspired by Ron Chernow's 2004 biography\nWon 11 Tony Awards from a record 16 nominations, including Best Musical; also won the 2016 Pulitzer Prize for Drama\nDeliberately cast non-white actors as the Founding Fathers, reframing the American origin story\nCast album debuted at #12 on the Billboard 200\u2014the highest debut for a cast album in over 50 years\n\"My Shot,\" \"The Room Where It Happens,\" and \"Wait for It\" became cultural touchstones; the show was a pop-culture phenomenon\nA filmed version of the original Broadway cast was released on Disney+ on July 3, 2020, during the COVID-19 pandemic",
+          "cardFront": "2015 \u2014 Lin-Manuel Miranda, hip-hop Founding Fathers",
+          "cardBack": "Hamilton"
+        }
+      ]
+    }
+  ]
+}

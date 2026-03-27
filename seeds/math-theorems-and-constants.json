@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "math/constants", "parentId": "math", "name": "Mathematical Constants", "description": "Named constants and special numbers in mathematics" },
+    { "id": "math/theorems", "parentId": "math", "name": "Theorems and Problems", "description": "Famous theorems, conjectures, and mathematical problems" }
+  ],
+  "exercises": [
+    {
+      "id": "math/constants/key-constants",
+      "nodeId": "math/constants",
+      "name": "Key Mathematical Constants",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "pi",
+          "prompt": "What mathematical constant, approximately 3.14159, represents the ratio of a circle's circumference to its diameter and is denoted by the Greek letter \u03c0?",
+          "answer": "Pi",
+          "alternates": ["\u03c0", "pi"],
+          "explanation": "Ratio of any circle's circumference to its diameter \u2014 the most famous constant in mathematics\nIrrational and transcendental; its decimal expansion never terminates or repeats\nKnown to over 100 trillion digits as of 2024; used as a benchmark for supercomputer performance\nArchimedes (c. 250 BCE) first rigorously estimated it between 3 10/71 and 3 1/7\nPi Day is celebrated on March 14 (3/14); in 2009, the U.S. House of Representatives officially recognized it\nAppears throughout physics: Einstein's field equations, Heisenberg's uncertainty principle, Coulomb's law",
+          "cardFront": "\u03c0 \u2248 3.14159...",
+          "cardBack": "Pi"
+        },
+        {
+          "id": "eulers-number",
+          "prompt": "What mathematical constant, approximately 2.71828, serves as the base of natural logarithms and appears in compound interest, probability, and the exponential function?",
+          "answer": "Euler's number",
+          "alternates": ["e", "Napier's constant", "Euler number"],
+          "explanation": "Denoted e; defined as the limit of (1 + 1/n)^n as n approaches infinity\nBase of the natural logarithm; the function e^x is its own derivative \u2014 unique among functions\nDiscovered by Jacob Bernoulli while studying compound interest (1683); named and standardized by Euler\nIrrational and transcendental, like pi\nAppears in the normal distribution (bell curve), radioactive decay, and population growth models\nSometimes called Napier's constant after John Napier, who developed logarithms",
+          "cardFront": "e \u2248 2.71828...",
+          "cardBack": "Euler's number"
+        },
+        {
+          "id": "golden-ratio",
+          "prompt": "What irrational number, approximately 1.618 and often denoted by the Greek letter phi (\u03c6), is found in the Fibonacci sequence, the Parthenon's proportions, and Renaissance art, and equals (1 + \u221a5) / 2?",
+          "answer": "The golden ratio",
+          "alternates": ["Golden ratio", "phi", "\u03c6", "golden mean", "divine proportion", "golden section"],
+          "explanation": "Equal to (1 + \u221a5)/2 \u2248 1.6180339...; a number is in the golden ratio to another if their ratio equals the ratio of their sum to the larger\nThe ratio of consecutive Fibonacci numbers converges to \u03c6 (e.g., 8/5 = 1.6, 13/8 = 1.625, etc.)\nAppears in the geometry of pentagons, pentagrams, and dodecahedrons\nClaimed to appear in the Parthenon, the Great Pyramid, and Da Vinci's *Vitruvian Man* \u2014 though many such claims are debated\nSalvador Dal\u00ed explicitly used it in *The Sacrament of the Last Supper* (1955)\nAlso called the divine proportion (Luca Pacioli, 1509) and sectio aurea (golden section)",
+          "cardFront": "\u03c6 \u2248 1.618...",
+          "cardBack": "The golden ratio"
+        },
+        {
+          "id": "googol",
+          "prompt": "What is the name for the number 10^100 (a 1 followed by 100 zeros), coined in 1920 by the nine-year-old nephew of American mathematician Edward Kasner?",
+          "answer": "Googol",
+          "alternates": [],
+          "explanation": "10^100 \u2014 a 1 followed by 100 zeros; larger than the estimated number of atoms in the observable universe (~10^80)\nCoined by Milton Sirotta, the nine-year-old nephew of mathematician Edward Kasner, during a walk in 1920\nKasner published it in the 1940 book *Mathematics and the Imagination*\nGoogle (the company) is named after it \u2014 the founders misspelled 'googol' when registering the domain in 1997\nA googolplex is 10^googol (10^(10^100)) \u2014 so large it couldn't be written out even if every particle in the universe were a digit",
+          "cardFront": "10^100",
+          "cardBack": "Googol"
+        },
+        {
+          "id": "imaginary-unit",
+          "prompt": "What mathematical concept, typically denoted by the letter i (or j in engineering), is defined as the square root of negative one and extends the real numbers into the complex plane?",
+          "answer": "The imaginary unit",
+          "alternates": ["Imaginary unit", "i", "imaginary number", "the square root of negative one"],
+          "explanation": "Defined as i\u00b2 = \u22121; extends real numbers into complex numbers (a + bi)\nIntroduced by Leonhard Euler, who also gave it the symbol i\nDespite the name 'imaginary' (coined dismissively by Descartes in 1637), complex numbers are essential in physics and engineering\nFundamental to electrical engineering (AC circuits), quantum mechanics, and signal processing\nEngineers use j instead of i to avoid confusion with electrical current\nCombining i with e and \u03c0 yields Euler's identity: e^(i\u03c0) + 1 = 0",
+          "cardFront": "i = \u221a(\u22121)",
+          "cardBack": "The imaginary unit"
+        },
+        {
+          "id": "fibonacci-sequence",
+          "prompt": "What sequence of numbers, beginning 0, 1, 1, 2, 3, 5, 8, 13, 21..., is defined by each number being the sum of the two preceding ones and was introduced to Europe in a 1202 book about rabbit breeding?",
+          "answer": "The Fibonacci sequence",
+          "alternates": ["Fibonacci sequence", "Fibonacci numbers", "Fibonacci series"],
+          "explanation": "Each number is the sum of the two before it: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...\nIntroduced by Fibonacci (Leonardo of Pisa) in *Liber Abaci* (1202) as a model for rabbit population growth\nThe ratio of consecutive terms converges to the golden ratio (\u03c6 \u2248 1.618)\nAppears in nature: the spiral arrangement of sunflower seeds, pinecone scales, and nautilus shells\nUsed in computer science (Fibonacci heaps, search algorithms) and financial trading (Fibonacci retracements)\nThe sequence was known in Indian mathematics centuries before Fibonacci \u2014 described by Virahanka (c. 700 CE)",
+          "cardFront": "0, 1, 1, 2, 3, 5, 8, 13...",
+          "cardBack": "The Fibonacci sequence"
+        },
+        {
+          "id": "zero",
+          "prompt": "What number, denoted by the symbol 0, was developed as a mathematical concept by Indian mathematicians including Brahmagupta around 628 CE and revolutionized arithmetic by enabling positional notation?",
+          "answer": "Zero",
+          "alternates": ["0"],
+          "explanation": "Brahmagupta (628 CE) wrote the first known rules for arithmetic with zero, including that any number times zero equals zero\nThe placeholder concept appeared earlier in Babylonian and Mayan mathematics, but India first treated zero as a number in its own right\nTransmitted to Europe via Arabic mathematicians (the word 'zero' comes from Arabic 'sifr,' meaning empty)\nMade positional notation possible \u2014 without zero, there's no way to distinguish 1, 10, 100 in a place-value system\nDivision by zero remains undefined; it has crashed software systems including a 1997 USS Yorktown engine failure\nThe concept was controversial in medieval Europe; Florence banned Hindu-Arabic numerals (including zero) in 1299",
+          "cardFront": "0",
+          "cardBack": "Zero"
+        }
+      ]
+    },
+    {
+      "id": "math/theorems/famous-theorems",
+      "nodeId": "math/theorems",
+      "name": "Famous Theorems and Problems",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "pythagorean-theorem",
+          "prompt": "What theorem, fundamental to geometry, states that in a right triangle the square of the hypotenuse equals the sum of the squares of the other two sides (a\u00b2 + b\u00b2 = c\u00b2)?",
+          "answer": "The Pythagorean theorem",
+          "alternates": ["Pythagorean theorem", "Pythagoras theorem", "Pythagoras's theorem"],
+          "explanation": "a\u00b2 + b\u00b2 = c\u00b2 for any right triangle, where c is the hypotenuse\nNamed for Pythagoras (c. 570\u2013495 BCE), though the relationship was known to Babylonians over 1,000 years earlier\nThe 3-4-5 right triangle is the simplest Pythagorean triple; others include 5-12-13 and 8-15-17\nHas over 400 known proofs, including one by U.S. President James Garfield (1876)\nExtended to higher dimensions and non-Euclidean geometry; the foundation of distance formulas\nProbably the most widely known theorem in all of mathematics",
+          "cardFront": "a\u00b2 + b\u00b2 = c\u00b2",
+          "cardBack": "The Pythagorean theorem"
+        },
+        {
+          "id": "fermats-last-theorem",
+          "prompt": "What theorem, conjectured by Pierre de Fermat in 1637 and proved by Andrew Wiles in 1995, states that no three positive integers satisfy a^n + b^n = c^n for any integer value of n greater than 2?",
+          "answer": "Fermat's Last Theorem",
+          "alternates": ["Fermat's last theorem", "FLT"],
+          "explanation": "Fermat wrote in a margin that he had a 'truly marvelous proof' but the margin was too narrow \u2014 no such proof has ever been found\nUnproven for 358 years; the most famous unsolved problem in mathematics during that time\nAndrew Wiles proved it in 1995 after working in secret for seven years; the proof is 129 pages\nWiles actually proved the modularity theorem for semistable elliptic curves, which implies Fermat's Last Theorem\nFor n = 2, there are infinite solutions (Pythagorean triples: 3\u00b2 + 4\u00b2 = 5\u00b2); for n > 2, there are none\nThe theorem itself is easy to state but the proof uses deep 20th-century mathematics that Fermat could not have known",
+          "cardFront": "a^n + b^n \u2260 c^n for n > 2",
+          "cardBack": "Fermat's Last Theorem"
+        },
+        {
+          "id": "eulers-identity",
+          "prompt": "What equation, often called the most beautiful in mathematics, links five fundamental constants (e, i, \u03c0, 1, and 0) in the form e^(i\u03c0) + 1 = 0?",
+          "answer": "Euler's identity",
+          "alternates": ["Euler identity", "Euler's equation"],
+          "explanation": "e^(i\u03c0) + 1 = 0 \u2014 connects the five most important constants in mathematics in a single equation\nA special case of Euler's formula: e^(ix) = cos(x) + i\u00b7sin(x)\nRepeatedly voted the 'most beautiful theorem' in polls of mathematicians\nLinks arithmetic (0, 1), algebra (i), geometry (\u03c0), and analysis (e) in one expression\nPublished by Leonhard Euler, though the identity in this exact form appears in later formulations\nRichard Feynman called it 'the most remarkable formula in mathematics' when he first encountered it as a teenager",
+          "cardFront": "e^(i\u03c0) + 1 = 0",
+          "cardBack": "Euler's identity"
+        },
+        {
+          "id": "goldbachs-conjecture",
+          "prompt": "What unsolved conjecture in number theory, proposed in a 1742 letter to Euler, states that every even integer greater than 2 can be expressed as the sum of two prime numbers?",
+          "answer": "Goldbach's conjecture",
+          "alternates": ["Goldbach conjecture"],
+          "explanation": "Every even integer > 2 is the sum of two primes: 4=2+2, 6=3+3, 8=3+5, 10=3+7 or 5+5, etc.\nProposed by Christian Goldbach in a letter to Leonhard Euler on June 7, 1742\nVerified by computer for all even numbers up to at least 4 \u00d7 10^18, but never proven\nOne of the oldest unsolved problems in mathematics and number theory\nThe 'weak' Goldbach conjecture (every odd number > 5 is the sum of three primes) was proved by Harald Helfgott in 2013\nFern Britton's novel *Goldbach's Conjecture* (2000) and Apostolos Doxiadis's *Uncle Petros* (2000) brought it to popular culture",
+          "cardFront": "Every even n > 2 = prime + prime",
+          "cardBack": "Goldbach's conjecture"
+        },
+        {
+          "id": "riemann-hypothesis",
+          "prompt": "What unsolved conjecture, proposed in 1859 and carrying a $1 million Millennium Prize, concerns the distribution of prime numbers and the zeros of a particular complex function?",
+          "answer": "The Riemann hypothesis",
+          "alternates": ["Riemann hypothesis"],
+          "explanation": "Conjectured by Bernhard Riemann in 1859: all non-trivial zeros of the Riemann zeta function have real part equal to 1/2\nOne of the seven Millennium Prize Problems \u2014 carries a $1 million reward from the Clay Mathematics Institute\nIf true, it would confirm precise patterns in the distribution of prime numbers\nOften called the most important unsolved problem in pure mathematics\nOver 10 trillion zeros have been computed and all lie on the critical line, but this doesn't constitute a proof\nHilbert included it in his famous list of 23 unsolved problems in 1900; it remains open 125+ years later",
+          "cardFront": "Zeros of \u03b6(s), prime distribution",
+          "cardBack": "The Riemann hypothesis"
+        },
+        {
+          "id": "four-color-theorem",
+          "prompt": "What theorem in graph theory, first conjectured in 1852 and controversially proved by computer in 1976, states that any map can be colored using at most four colors such that no two adjacent regions share the same color?",
+          "answer": "The four color theorem",
+          "alternates": ["Four color theorem", "four colour theorem", "4 color theorem"],
+          "explanation": "Any planar map can be colored with at most four colors so that no two adjacent regions share a color\nFirst conjectured by Francis Guthrie in 1852 while coloring a map of English counties\nProved in 1976 by Kenneth Appel and Wolfgang Haken at the University of Illinois \u2014 the first major theorem proved by computer\nThe proof required checking 1,936 reducible configurations by computer, sparking debate about whether computer-assisted proofs count\nFive colors had been proved sufficient since 1890 (Heawood); the jump from five to four took 86 more years\nSome mathematicians still consider it 'unproven' in the traditional sense due to reliance on computer verification",
+          "cardFront": "4 colors suffice for any map",
+          "cardBack": "The four color theorem"
+        },
+        {
+          "id": "godels-incompleteness",
+          "prompt": "What pair of theorems, published in 1931 by an Austrian logician, proved that any consistent mathematical system powerful enough to describe basic arithmetic must contain true statements that cannot be proved within the system?",
+          "answer": "G\u00f6del's incompleteness theorems",
+          "alternates": ["G\u00f6del's incompleteness theorem", "Godel's incompleteness theorems", "incompleteness theorems", "Goedel's incompleteness theorems"],
+          "explanation": "First incompleteness theorem: any consistent formal system capable of expressing arithmetic contains statements that are true but unprovable\nSecond incompleteness theorem: such a system cannot prove its own consistency\nPublished by Kurt G\u00f6del in 1931, when he was just 25 years old\nShattered David Hilbert's program to find a complete and consistent set of axioms for all mathematics\nUsed a technique of self-reference (G\u00f6del numbering) to construct a statement that says 'I am not provable'\nOften compared to the liar's paradox ('this statement is false') but is a rigorous mathematical proof, not a trick",
+          "cardFront": "True but unprovable, 1931",
+          "cardBack": "G\u00f6del's incompleteness theorems"
+        },
+        {
+          "id": "monty-hall",
+          "prompt": "What famous probability puzzle, named after a game show host, demonstrates that switching your choice of door after one losing door is revealed gives you a 2/3 chance of winning rather than 1/2?",
+          "answer": "The Monty Hall problem",
+          "alternates": ["Monty Hall problem", "Monty Hall paradox"],
+          "explanation": "Based on the TV show *Let's Make a Deal* hosted by Monty Hall: three doors, one prize, two goats\nAfter you pick a door, the host (who knows what's behind each door) opens another door showing a goat \u2014 should you switch?\nSwitching wins 2/3 of the time; staying wins only 1/3 \u2014 counterintuitive but mathematically certain\nMarilyn vos Savant published the correct answer in Parade magazine (1990); nearly 1,000 PhDs wrote in to say she was wrong\nPaul Erd\u0151s, one of the greatest mathematicians of the 20th century, refused to believe the answer until shown a computer simulation\nThe key insight: the host's action gives you information \u2014 your original choice had a 1/3 chance, and that doesn't change",
+          "cardFront": "Switch doors: 2/3 vs 1/3",
+          "cardBack": "The Monty Hall problem"
+        },
+        {
+          "id": "birthday-problem",
+          "prompt": "What counterintuitive result in probability theory states that in a group of just 23 people, there is a greater than 50% chance that at least two of them share the same birthday?",
+          "answer": "The birthday problem",
+          "alternates": ["Birthday problem", "birthday paradox"],
+          "explanation": "With 23 people, the probability of a shared birthday exceeds 50%; with 70 people, it exceeds 99.9%\nCounterintuitive because people compare 23 to 365 \u2014 but what matters is the number of pairs: 23 people create 253 pairs\nNot a true paradox \u2014 the math is straightforward probability, but the result surprises most people\nUsed in cryptography: 'birthday attacks' exploit this principle to find hash collisions\nWith 57 people the probability exceeds 99%; the curve rises steeply between 15 and 30 people\nA standard example in introductory probability courses to demonstrate that human intuition about probability is unreliable",
+          "cardFront": "23 people, >50% shared birthday",
+          "cardBack": "The birthday problem"
+        },
+        {
+          "id": "p-vs-np",
+          "prompt": "What unsolved problem in computer science, one of the seven Millennium Prize Problems worth $1 million, asks whether every problem whose solution can be quickly verified can also be quickly solved?",
+          "answer": "P vs NP",
+          "alternates": ["P versus NP", "P vs. NP", "P = NP", "P vs NP problem"],
+          "explanation": "P = problems solvable in polynomial time; NP = problems verifiable in polynomial time; the question: is P = NP?\nOne of the seven Millennium Prize Problems with a $1 million reward from the Clay Mathematics Institute\nMost computer scientists believe P \u2260 NP, but no one has proved it\nIf P = NP, currently 'hard' problems (traveling salesman, protein folding) would have efficient solutions\nWould also break most modern cryptography \u2014 RSA encryption relies on the assumption that factoring large numbers is hard\nFirst formally stated by Stephen Cook in 1971; independently described by Leonid Levin",
+          "cardFront": "Can verification speed = solution speed?",
+          "cardBack": "P vs NP"
+        },
+        {
+          "id": "bayes-theorem",
+          "prompt": "What theorem in probability, published posthumously in 1763, provides a formula for updating the probability of a hypothesis based on new evidence and is the foundation of Bayesian statistics?",
+          "answer": "Bayes' theorem",
+          "alternates": ["Bayes theorem", "Bayes' rule", "Bayes rule", "Bayesian theorem"],
+          "explanation": "P(A|B) = P(B|A) \u00d7 P(A) / P(B) \u2014 calculates the probability of A given that B has occurred\nDerived by Reverend Thomas Bayes, an English Presbyterian minister; published posthumously in 1763\nFoundation of Bayesian statistics, which updates beliefs based on new evidence (vs. frequentist statistics)\nUsed in spam filters, medical diagnosis, machine learning, search engines, and DNA analysis\nWas controversial for centuries \u2014 frequentists dismissed Bayesian methods as subjective\nExperienced a renaissance in the late 20th century with increased computing power making Bayesian computation practical",
+          "cardFront": "P(A|B) = P(B|A)\u00b7P(A)/P(B)",
+          "cardBack": "Bayes' theorem"
+        },
+        {
+          "id": "zenos-paradoxes",
+          "prompt": "What set of philosophical problems, posed by a Greek philosopher around 450 BCE, argued that motion is impossible \u2014 including the famous scenario where Achilles can never overtake a tortoise because he must first reach where the tortoise was?",
+          "answer": "Zeno's paradoxes",
+          "alternates": ["Zeno paradoxes", "Zeno's paradox", "Zenos paradoxes"],
+          "explanation": "Proposed by Zeno of Elea (c. 490\u2013430 BCE) to support Parmenides' philosophy that change and motion are illusions\nThe Achilles and the Tortoise paradox: Achilles gives the tortoise a head start and can never overtake it because he must always first reach where the tortoise was\nThe Dichotomy paradox: to travel any distance, you must first travel half, then half of that, ad infinitum \u2014 so you can never start\nResolved mathematically by the concept of convergent infinite series: 1/2 + 1/4 + 1/8 + ... = 1\nPhilosophically, the paradoxes remain debated 2,500 years later \u2014 they probe the nature of space, time, and infinity\nAristotle was the first to attempt a refutation, distinguishing between 'potential' and 'actual' infinity",
+          "cardFront": "Achilles and the Tortoise",
+          "cardBack": "Zeno's paradoxes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    { "id": "art/artists", "parentId": "art", "name": "Famous Artists", "description": "Major visual artists from the Renaissance to modern day" }
+  ],
+  "exercises": [
+    {
+      "id": "art/artists/key-figures",
+      "nodeId": "art/artists",
+      "name": "Famous Artists",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "da-vinci",
+          "prompt": "Which Italian Renaissance polymath, born in 1452, painted the *Mona Lisa* and *The Last Supper*, filled notebooks with anatomical drawings and inventions, and famously wrote in mirror script with his left hand?",
+          "answer": "Leonardo da Vinci",
+          "alternates": ["Da Vinci", "Leonardo"],
+          "explanation": "Italian, 1452\u20131519, born in Vinci near Florence\nPainted the *Mona Lisa* (Louvre) and *The Last Supper* (Santa Maria delle Grazie, Milan) \u2014 two of the most famous paintings in history\nFilled thousands of notebook pages with anatomical studies, flying machines, and engineering designs, centuries ahead of their time\nLeft-handed; wrote in mirror script (right to left) that required a mirror to read\nWorked as painter, sculptor, architect, engineer, and scientist \u2014 the archetypal Renaissance man\nRival of the younger Michelangelo; the two despised each other in Florence\nDied at Amboise, France, in the arms of King Francis I according to legend (probably apocryphal)\nOnly about 15\u201320 surviving paintings are attributed to him",
+          "cardFront": "*Mona Lisa*, Renaissance polymath",
+          "cardBack": "Leonardo da Vinci"
+        },
+        {
+          "id": "michelangelo",
+          "prompt": "Which Italian Renaissance artist painted the ceiling of the Sistine Chapel, sculpted the 17-foot marble *David* in Florence, and designed the dome of St. Peter's Basilica in Rome?",
+          "answer": "Michelangelo",
+          "alternates": ["Michelangelo Buonarroti", "Michelangelo di Lodovico Buonarroti Simoni"],
+          "explanation": "Italian, 1475\u20131564, born in Caprese near Arezzo\nPainted the Sistine Chapel ceiling (1508\u20131512) including *The Creation of Adam* \u2014 painted lying on scaffolding, not on his back as myth claims\nSculpted *David* (1501\u20131504) from a marble block two other sculptors had rejected\n*Piet\u00e0* (1499), carved at age 24, is the only work he ever signed \u2014 he chiseled his name across the Madonna's sash\nAppointed chief architect of St. Peter's Basilica in 1547; designed its massive dome\nRival of Leonardo da Vinci; once mocked Leonardo publicly in Florence for failing to finish a horse statue\nWrote over 300 poems, many homoerotic, addressed to the nobleman Tommaso dei Cavalieri\nDied at 88, working until six days before his death",
+          "cardFront": "Sistine Chapel, *David*, *Piet\u00e0*",
+          "cardBack": "Michelangelo"
+        },
+        {
+          "id": "van-gogh",
+          "prompt": "Which Dutch Post-Impressionist painter, who sold only one painting during his lifetime, created *The Starry Night* and cut off part of his own ear in 1888 before dying of a self-inflicted gunshot wound at age 37?",
+          "answer": "Vincent van Gogh",
+          "alternates": ["Van Gogh"],
+          "explanation": "Dutch, 1853\u20131890, born in Groot-Zundert, Netherlands\nPost-Impressionist known for bold color, emotional intensity, and thick impasto brushwork\n*The Starry Night* (1889) painted from the window of his room at the Saint-Paul-de-Mausole asylum in Saint-R\u00e9my\nCut off part of his left ear (likely just the lobe) in December 1888 after a confrontation with Paul Gauguin in Arles\nSold only one painting in his lifetime: *The Red Vineyard* (1888), for 400 francs\nShot himself in the chest in a wheat field at Auvers-sur-Oise on July 27, 1890; died two days later at 37\nProduced about 2,100 artworks in roughly a decade, including ~860 oil paintings\nHis brother Theo was his lifelong financial supporter and confidant; their letters are a major art-historical document",
+          "cardFront": "*Starry Night*, ear, Post-Impressionism",
+          "cardBack": "Vincent van Gogh"
+        },
+        {
+          "id": "picasso",
+          "prompt": "Which Spanish artist co-founded Cubism with Georges Braque, painted the anti-war mural *Guernica*, went through Blue and Rose periods, and is estimated to have produced around 50,000 works in his lifetime?",
+          "answer": "Pablo Picasso",
+          "alternates": ["Picasso"],
+          "explanation": "Spanish, 1881\u20131973, born in M\u00e1laga, Spain\nCo-founded Cubism with Georges Braque around 1907\u20131908, shattering traditional perspective\n*Les Demoiselles d'Avignon* (1907) is considered the most revolutionary painting of the 20th century\n*Guernica* (1937) depicts the Nazi bombing of a Basque town during the Spanish Civil War\nBlue Period (1901\u20131904) and Rose Period (1904\u20131906) preceded his Cubist breakthrough\nMost prolific artist ever recorded: an estimated 50,000 works including paintings, sculptures, prints, and ceramics\nLived in France for most of his adult life; refused to return to Spain under Franco's dictatorship\nDied at 91 in Mougins, France; his estate took six years to inventory",
+          "cardFront": "Cubism, *Guernica*, Blue Period",
+          "cardBack": "Pablo Picasso"
+        },
+        {
+          "id": "monet",
+          "prompt": "Which French painter's 1872 work *Impression, Sunrise* gave the Impressionist movement its name, and who spent decades painting water lilies in the garden he designed at his home in Giverny?",
+          "answer": "Claude Monet",
+          "alternates": ["Monet"],
+          "explanation": "French, 1840\u20131926, born in Paris, raised in Le Havre\n*Impression, Sunrise* (1872) was ridiculed by a critic who coined the term 'Impressionism' as an insult\nPainted approximately 250 *Water Lilies* canvases over the last 30 years of his life\nDesigned the famous water garden at Giverny with the Japanese bridge, which became his primary subject\nPioneered painting en plein air (outdoors) to capture changing light conditions\nOften painted the same subject at different times of day: haystacks, Rouen Cathedral, the Houses of Parliament\nDeveloped cataracts in his 70s that shifted his color perception; late paintings became increasingly abstract and reddish\nDied at 86 in Giverny; buried in the local churchyard",
+          "cardFront": "*Water Lilies*, Giverny, Impressionism",
+          "cardBack": "Claude Monet"
+        },
+        {
+          "id": "rembrandt",
+          "prompt": "Which Dutch Golden Age painter, famous for *The Night Watch* and an extraordinary series of roughly 80 self-portraits spanning his career, mastered the use of light and shadow but went bankrupt in 1656?",
+          "answer": "Rembrandt",
+          "alternates": ["Rembrandt van Rijn", "Rembrandt Harmenszoon van Rijn"],
+          "explanation": "Dutch, 1606\u20131669, born in Leiden, worked primarily in Amsterdam\n*The Night Watch* (1642) is the most famous Dutch painting; actually depicts a daytime scene (dark varnish obscured the original colors)\nPainted roughly 80 self-portraits over 40 years \u2014 the most sustained self-examination by any artist before photography\nMaster of chiaroscuro: dramatic contrast of light and dark, especially in his portraits and biblical scenes\nDeclared bankrupt in 1656; his house and art collection were auctioned off\nRan the largest painting workshop in the Netherlands; questions of attribution persist to this day\nHis son Titus and common-law wife Hendrickje Stoffels both died before him\nDied in poverty in 1669 and was buried in an unmarked grave in Amsterdam's Westerkerk",
+          "cardFront": "*The Night Watch*, Dutch Golden Age",
+          "cardBack": "Rembrandt"
+        },
+        {
+          "id": "kahlo",
+          "prompt": "Which Mexican artist, known for vivid self-portraits incorporating elements of surrealism and Mexican folk art, survived a devastating bus accident at 18 and had a turbulent marriage to muralist Diego Rivera?",
+          "answer": "Frida Kahlo",
+          "alternates": ["Kahlo"],
+          "explanation": "Mexican, 1907\u20131954, born and died in Coyoac\u00e1n, Mexico City (in the Blue House, now a museum)\nA bus accident at age 18 shattered her spine, collarbone, ribs, and pelvis; she endured 30+ surgeries and chronic pain for life\n55 of her 143 paintings are self-portraits \u2014 'I paint myself because I am so often alone'\nMarried muralist Diego Rivera twice (1929 and 1940); both had numerous affairs, including Kahlo's with Leon Trotsky\nSurrealist Andr\u00e9 Breton claimed her as a Surrealist, but she rejected the label: 'I never painted dreams. I painted my own reality'\nHer unibrow and traditional Tehuana dress became feminist and cultural icons\nDied at 47; official cause was pulmonary embolism, though some suspect suicide by overdose\nHer work was largely forgotten until a feminist revival in the 1970s\u201380s; now among the most expensive by any female artist",
+          "cardFront": "Self-portraits, bus accident, Rivera",
+          "cardBack": "Frida Kahlo"
+        },
+        {
+          "id": "dali",
+          "prompt": "Which Spanish Surrealist, famous for his flamboyant handlebar mustache, painted *The Persistence of Memory* with its melting clocks and collaborated with filmmaker Luis Bu\u00f1uel on the short film *Un Chien Andalou*?",
+          "answer": "Salvador Dal\u00ed",
+          "alternates": ["Dali", "Salvador Dali"],
+          "explanation": "Spanish, 1904\u20131989, born in Figueres, Catalonia\n*The Persistence of Memory* (1931) with its melting clocks is one of the most recognizable paintings in the world (MoMA, New York)\nCollaborated with Luis Bu\u00f1uel on the Surrealist films *Un Chien Andalou* (1929) and *L'\u00c2ge d'Or* (1930)\nDesigned the dream sequence for Hitchcock's *Spellbound* (1945) and the Chupa Chups lollipop logo\nHis trademark upturned handlebar mustache was inspired by 17th-century painter Diego Vel\u00e1zquez\nExpelled from the Surrealist movement by Andr\u00e9 Breton for his fascist sympathies and self-promotion\nCreated the Dal\u00ed Theatre-Museum in Figueres, where he is buried in a crypt beneath the stage\nIn 2017 his body was exhumed for a paternity suit; the claim was dismissed, but his mustache was reportedly still intact",
+          "cardFront": "*Persistence of Memory*, Surrealism",
+          "cardBack": "Salvador Dal\u00ed"
+        },
+        {
+          "id": "warhol",
+          "prompt": "Which American artist, a leading figure of Pop Art, became famous for his silkscreened images of Campbell's Soup cans and Marilyn Monroe, ran a studio called The Factory, and was shot by Valerie Solanas in 1968?",
+          "answer": "Andy Warhol",
+          "alternates": ["Warhol"],
+          "explanation": "American, 1928\u20131987, born Andrew Warhola in Pittsburgh to Slovak immigrant parents\nPioneered Pop Art by elevating commercial imagery: Campbell's Soup Cans (1962), Brillo Boxes, Coca-Cola bottles\nMarilyn Diptych (1962) \u2014 silkscreen prints of Monroe became icons of 20th-century art\nCoined (or popularized) the phrase 'In the future, everyone will be world-famous for 15 minutes'\nRan The Factory, his Manhattan studio that became a hangout for musicians, drag queens, and the Velvet Underground\nShot nearly fatally by radical feminist Valerie Solanas on June 3, 1968; spent weeks in critical condition and wore a surgical corset for life\nAlso a filmmaker: directed over 60 experimental films including *Chelsea Girls* (1966)\nDied at 58 from cardiac arrhythmia after gallbladder surgery; his estate was worth ~$600 million",
+          "cardFront": "Pop Art, Campbell's Soup, The Factory",
+          "cardBack": "Andy Warhol"
+        },
+        {
+          "id": "klimt",
+          "prompt": "Which Austrian artist, leader of the Vienna Secession movement, is best known for *The Kiss* and his distinctive use of gold leaf, and whose erotic paintings scandalized early 20th-century Vienna?",
+          "answer": "Gustav Klimt",
+          "alternates": ["Klimt"],
+          "explanation": "Austrian, 1862\u20131918, born in Baumgarten near Vienna\n*The Kiss* (1907\u20131908) is his most famous work, depicting an embracing couple wrapped in gold-patterned robes (\u00d6sterreichische Galerie Belvedere, Vienna)\nCo-founded the Vienna Secession (1897), an Art Nouveau movement that broke from conservative academic art\nGold leaf technique in his 'Golden Phase' was inspired by Byzantine mosaics he saw in Ravenna, Italy\nHis ceiling paintings for the University of Vienna were attacked as 'pornographic' and ultimately destroyed in a fire during WWII\n*Portrait of Adele Bloch-Bauer I* (1907) sold for $135 million in 2006 \u2014 then the most expensive painting ever; its Nazi-era theft was depicted in the film *Woman in Gold* (2015)\nNever married but fathered an estimated 14 children; kept numerous mistresses\nDied in 1918 during the Spanish flu pandemic, from a stroke followed by pneumonia",
+          "cardFront": "*The Kiss*, Vienna Secession, gold leaf",
+          "cardBack": "Gustav Klimt"
+        },
+        {
+          "id": "pollock",
+          "prompt": "Which American Abstract Expressionist, nicknamed 'Jack the Dripper,' pioneered the drip painting technique by pouring and flinging paint onto canvases laid on the floor, and died in an alcohol-related car crash at 44?",
+          "answer": "Jackson Pollock",
+          "alternates": ["Pollock"],
+          "explanation": "American, 1912\u20131956, born in Cody, Wyoming\nPioneered drip painting (action painting): laid canvases on the floor and poured, dripped, and flung house paint using sticks and hardened brushes\nNicknamed 'Jack the Dripper' by *Time* magazine in 1956\n*No. 5, 1948* reportedly sold for $140 million in 2006, one of the most expensive paintings ever\nThe CIA secretly promoted Abstract Expressionism (including Pollock) during the Cold War as a weapon of cultural freedom against Soviet realism\nStruggled with alcoholism throughout his life; underwent Jungian psychotherapy\nDied on August 11, 1956, in a drunk-driving crash in Springs, New York, at age 44; one of his two passengers also died\nHis wife, Lee Krasner, was also a significant Abstract Expressionist painter; she managed his estate after his death",
+          "cardFront": "Drip painting, Abstract Expressionism",
+          "cardBack": "Jackson Pollock"
+        },
+        {
+          "id": "okeeffe",
+          "prompt": "Which American artist, called the 'Mother of American Modernism,' is celebrated for her large-scale flower paintings and New Mexico desert landscapes, was married to photographer Alfred Stieglitz, and lived to age 98?",
+          "answer": "Georgia O'Keeffe",
+          "alternates": ["O'Keeffe", "OKeeffe"],
+          "explanation": "American, 1887\u20131986, born in Sun Prairie, Wisconsin\nCalled the 'Mother of American Modernism' for her pioneering abstract and semi-abstract work starting in the 1910s\nLarge-scale flower paintings (*Jimson Weed/White Flower No. 1*, 1932) are her most iconic works; she rejected Freudian sexual interpretations\nMoved to New Mexico permanently in 1949; painted its landscapes, animal skulls, and adobe architecture for decades\nMarried photographer and gallery owner Alfred Stieglitz in 1924; he exhibited her work and took hundreds of photographs of her\n*Jimson Weed/White Flower No. 1* sold for $44.4 million in 2014 \u2014 then a record for any female artist at auction\nLived to 98, continuing to work even after losing central vision in the 1970s; switched to pottery and clay\nReceived the Presidential Medal of Freedom in 1977",
+          "cardFront": "Flowers, New Mexico, American Modernism",
+          "cardBack": "Georgia O'Keeffe"
+        },
+        {
+          "id": "banksy",
+          "prompt": "Which anonymous British street artist, whose identity remains unconfirmed, is known for satirical political stencil art and made headlines when *Girl with Balloon* self-shredded moments after selling at Sotheby's for \u00a31 million in 2018?",
+          "answer": "Banksy",
+          "alternates": [],
+          "explanation": "British (believed from Bristol), identity unknown, active since the early 1990s\n*Girl with Balloon* (2018) partially shredded itself via a mechanism hidden in the frame moments after selling at Sotheby's for \u00a31.04 million; renamed *Love is in the Bin*, it later resold for \u00a318.6 million in 2021\nStencil-based street art with political and social commentary: anti-war, anti-capitalism, pro-refugee themes\n*Dismaland* (2015) was a dystopian parody of Disneyland in Weston-super-Mare, England\nOpened the Walled Off Hotel in Bethlehem (2017) overlooking the Israeli West Bank barrier, billed as the 'worst view in the world'\nHis film *Exit Through the Gift Shop* (2010) was nominated for the Academy Award for Best Documentary\nMultiple candidates for his identity have been proposed, most commonly Robin Gunningham from Bristol\nWorks sell for millions despite (or because of) his anonymity; originals on buildings are sometimes cut from walls and auctioned",
+          "cardFront": "Anonymous, *Girl with Balloon*, street art",
+          "cardBack": "Banksy"
+        },
+        {
+          "id": "munch",
+          "prompt": "Which Norwegian Expressionist painter created *The Scream*, a work depicting an agonized figure against a tumultuous sky, which has been stolen from museums twice \u2014 in 1994 and again in 2004?",
+          "answer": "Edvard Munch",
+          "alternates": ["Munch"],
+          "explanation": "Norwegian, 1863\u20131944, born in \u00c5dal, Norway\n*The Scream* (1893) \u2014 actually a series of four versions (two paintings, two pastels) \u2014 depicts existential anxiety, not a person screaming but hearing 'a scream through nature'\nStolen from the National Gallery in Oslo in 1994 (on the opening day of the Winter Olympics in Lillehammer); recovered three months later\nA different version stolen from the Munch Museum in 2004 by armed robbers; recovered in 2006\nA pastel version sold at Sotheby's in 2012 for nearly $120 million, then a record for any artwork at auction\nPart of a larger series called *The Frieze of Life*, exploring love, anxiety, and death\nHis mother and favorite sister both died of tuberculosis when he was young, deeply shaping his art's themes of illness and mortality\nDonated his entire remaining collection (over 1,000 paintings, 15,000 prints) to the city of Oslo",
+          "cardFront": "*The Scream*, Expressionism, Norwegian",
+          "cardBack": "Edvard Munch"
+        },
+        {
+          "id": "caravaggio",
+          "prompt": "Which Italian Baroque painter, born Michelangelo Merisi, revolutionized art with his dramatic use of chiaroscuro called tenebrism, but killed a man in a brawl in 1606 and spent his final years as a fugitive?",
+          "answer": "Caravaggio",
+          "alternates": ["Michelangelo Merisi", "Michelangelo Merisi da Caravaggio"],
+          "explanation": "Italian, 1571\u20131610, born Michelangelo Merisi in Milan (named after the town of Caravaggio)\nPioneered tenebrism: extreme contrast between deep shadow and bright illumination, giving scenes theatrical drama\nUsed ordinary people as models for saints and biblical figures \u2014 shocking for the Counter-Reformation era\nKilled Ranuccio Tomassoni in a street brawl in Rome in 1606; fled and never returned\nSpent his last four years as a fugitive in Naples, Malta, and Sicily, still producing masterpieces\nKnighted by the Order of Malta in 1608, then expelled after another violent incident\nDied under mysterious circumstances at age 38 on a beach in Porto Ercole, possibly of fever, lead poisoning, or murder\nLost and forgotten for centuries; rediscovered by art historians in the early 20th century",
+          "cardFront": "Tenebrism, killed a man, Baroque",
+          "cardBack": "Caravaggio"
+        },
+        {
+          "id": "matisse",
+          "prompt": "Which French artist led the Fauvist movement with his bold, non-naturalistic use of color, became a rival and close friend of Picasso, and turned to paper cut-outs in his later years when he could no longer paint due to illness?",
+          "answer": "Henri Matisse",
+          "alternates": ["Matisse"],
+          "explanation": "French, 1869\u20131954, born in Le Cateau-Cambr\u00e9sis, northern France\nLeader of Fauvism ('wild beasts') \u2014 a movement characterized by bold, arbitrary color; *Woman with a Hat* (1905) scandalized the Salon d'Automne\n*The Dance* (1910) and *The Red Studio* (1911) are among his most celebrated works\nRival and friend of Picasso for over 40 years; they exchanged paintings and Picasso kept Matisse's works after his death\nAfter cancer surgery in 1941 left him largely bedridden, he invented the 'cut-out' technique \u2014 painting with scissors on colored paper\nThe cut-outs, including *The Snail* and *Blue Nudes*, are now considered his crowning achievement\nDesigned the entire interior of the Chapelle du Rosaire in Vence, France (1948\u20131951), including stained glass, murals, and vestments\nDied in 1954 in Nice; Picasso said 'Matisse has always been the only one'",
+          "cardFront": "Fauvism, bold color, paper cut-outs",
+          "cardBack": "Henri Matisse"
+        },
+        {
+          "id": "vermeer",
+          "prompt": "Which Dutch Golden Age painter, active in Delft, created *Girl with a Pearl Earring* and is known for luminous interior scenes, yet left only about 35 confirmed paintings and may have used a camera obscura?",
+          "answer": "Johannes Vermeer",
+          "alternates": ["Vermeer", "Jan Vermeer"],
+          "explanation": "Dutch, 1632\u20131675, born and worked in Delft\n*Girl with a Pearl Earring* (c. 1665) is called the 'Mona Lisa of the North' (Mauritshuis, The Hague)\nOnly about 34\u201336 paintings are attributed to him \u2014 one of the smallest known \u0153uvres of any major artist\nMaster of light: his interior scenes feature a distinctive soft, pearly luminosity, often with light streaming from a left-side window\nThe camera obscura theory suggests he used an optical device to achieve his photographic precision; debated but not proven\nVirtually forgotten for nearly 200 years until rediscovered by critic Th\u00e9ophile Thor\u00e9-B\u00fcrger in the 1860s\nHan van Meegeren forged several 'Vermeers' in the 1930s\u201340s, fooling museums and even Hermann G\u00f6ring\nDied at 43, likely of stress-related illness, leaving his wife and 11 children in severe debt",
+          "cardFront": "*Girl with a Pearl Earring*, Delft",
+          "cardBack": "Johannes Vermeer"
+        },
+        {
+          "id": "basquiat",
+          "prompt": "Which American neo-expressionist artist began as a graffiti artist under the tag SAMO in New York, collaborated with Andy Warhol, became the first major Black American artist in mainstream galleries, and died of a heroin overdose at 27?",
+          "answer": "Jean-Michel Basquiat",
+          "alternates": ["Basquiat"],
+          "explanation": "American, 1960\u20131988, born in Brooklyn, New York, of Haitian and Puerto Rican descent\nBegan as a graffiti artist spraying cryptic aphorisms under the tag SAMO (\u00a9) on buildings in Lower Manhattan\nFirst major Black American artist to achieve mainstream gallery and auction success, breaking racial barriers in the art world\nCollaborated with Andy Warhol on a series of joint paintings in 1984\u20131985; their friendship was complex and competitive\nWork combines text, symbols, anatomy, and references to Black history, jazz, and racism \u2014 often on raw, unprimed canvas\nHis painting *Untitled* (1982) \u2014 a skull-like head \u2014 sold for $110.5 million at Sotheby's in 2017 to Japanese collector Yusaku Maezawa\nDied of a heroin overdose on August 12, 1988, at age 27, joining the so-called '27 Club'\nHad no formal art training; dropped out of high school at 17",
+          "cardFront": "SAMO, neo-expressionism, Warhol collaborator",
+          "cardBack": "Jean-Michel Basquiat"
+        }
+      ]
+    }
+  ]
+}
