@@ -719,6 +719,44 @@ describe('checkFillBlanks', () => {
 		});
 	});
 
+	describe('exact-before-fuzzy priority', () => {
+		it('Xenon matches xenon item, not neon via fuzzy (distance 1)', () => {
+			// This was a real bug: single-pass iteration fuzzy-matched "Xenon"
+			// to "Neon" (distance 1) because Neon appeared earlier in the list.
+			const result = checkFillBlanks(nobleGasItems, 'Xenon');
+			expect(result.matched).toBe(true);
+			expect(result.matchedItemId).toBe('xenon');
+			expect(result.fuzzyMatch).toBe(false);
+		});
+
+		it('Neon still matches neon item exactly', () => {
+			const result = checkFillBlanks(nobleGasItems, 'Neon');
+			expect(result.matched).toBe(true);
+			expect(result.matchedItemId).toBe('neon');
+			expect(result.fuzzyMatch).toBe(false);
+		});
+
+		it('exact match wins even when fuzzy match appears first in list', () => {
+			// Items ordered: Abc (index 0), Axc (index 1)
+			// Typing "Axc" should exact-match Axc, not fuzzy-match Abc
+			const items: Item[] = [
+				{ id: 'abc', exerciseId: 'test', answer: 'Abcde', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+				{ id: 'axcde', exerciseId: 'test', answer: 'Axcde', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+			];
+			const result = checkFillBlanks(items, 'Axcde');
+			expect(result.matched).toBe(true);
+			expect(result.matchedItemId).toBe('axcde');
+			expect(result.fuzzyMatch).toBe(false);
+		});
+
+		it('fuzzy match still works when no exact match exists', () => {
+			const result = checkFillBlanks(nobleGasItems, 'Heliun');
+			expect(result.matched).toBe(true);
+			expect(result.matchedItemId).toBe('helium');
+			expect(result.fuzzyMatch).toBe(true);
+		});
+	});
+
 	describe('first-match semantics', () => {
 		it('returns first matching item when multiple items could match', () => {
 			// Two items with the same answer text -- should return the first one found

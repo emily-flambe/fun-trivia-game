@@ -18,9 +18,26 @@ export function checkTextEntry(item: Item, userAnswer: string): CheckAnswerResul
 
 /**
  * Check a fill-blanks guess against all items in the exercise.
- * Returns the first matching item, or a no-match result.
+ * Two passes: exact matches first, then fuzzy. This prevents
+ * "Xenon" from fuzzy-matching "Neon" (distance 1) when an exact
+ * Xenon item exists later in the list.
  */
 export function checkFillBlanks(items: Item[], userAnswer: string): FillBlanksCheckResult {
+	// Pass 1: exact matches only
+	for (const item of items) {
+		const result = fuzzyCheck(userAnswer, item.answer, item.alternates);
+		if (result.exactMatch) {
+			return {
+				matched: true,
+				matchedItemId: item.id,
+				position: item.sortOrder,
+				userAnswer,
+				fuzzyMatch: false,
+			};
+		}
+	}
+
+	// Pass 2: fuzzy matches (only if no exact match found)
 	for (const item of items) {
 		const result = fuzzyCheck(userAnswer, item.answer, item.alternates);
 		if (result.match) {
@@ -29,10 +46,11 @@ export function checkFillBlanks(items: Item[], userAnswer: string): FillBlanksCh
 				matchedItemId: item.id,
 				position: item.sortOrder,
 				userAnswer,
-				fuzzyMatch: result.fuzzyMatch,
+				fuzzyMatch: true,
 			};
 		}
 	}
+
 	return {
 		matched: false,
 		userAnswer,
