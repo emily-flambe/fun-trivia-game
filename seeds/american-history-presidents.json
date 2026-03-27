@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    { "id": "american-history/presidents", "parentId": "american-history", "name": "U.S. Presidents", "description": "Presidents of the United States" }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/presidents/first-ten",
+      "nodeId": "american-history/presidents",
+      "name": "First 10 Presidents",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name the first 10 U.S. Presidents in order" },
+      "items": [
+        {
+          "id": "washington",
+          "answer": "George Washington",
+          "alternates": ["Washington"],
+          "explanation": "1st President (1789-1797). Commander of the Continental Army, 'Father of His Country'."
+        },
+        {
+          "id": "adams-j",
+          "answer": "John Adams",
+          "alternates": ["Adams", "J. Adams"],
+          "explanation": "2nd President (1797-1801). First VP, key advocate for independence."
+        },
+        {
+          "id": "jefferson",
+          "answer": "Thomas Jefferson",
+          "alternates": ["Jefferson"],
+          "explanation": "3rd President (1801-1809). Author of the Declaration of Independence."
+        },
+        {
+          "id": "madison",
+          "answer": "James Madison",
+          "alternates": ["Madison"],
+          "explanation": "4th President (1809-1817). 'Father of the Constitution', led nation through War of 1812."
+        },
+        {
+          "id": "monroe",
+          "answer": "James Monroe",
+          "alternates": ["Monroe"],
+          "explanation": "5th President (1817-1825). Monroe Doctrine warned European powers against colonizing the Americas."
+        },
+        {
+          "id": "adams-jq",
+          "answer": "John Quincy Adams",
+          "alternates": ["JQ Adams", "J.Q. Adams", "Quincy Adams"],
+          "explanation": "6th President (1825-1829). Son of John Adams, only president to serve in Congress after presidency."
+        },
+        {
+          "id": "jackson",
+          "answer": "Andrew Jackson",
+          "alternates": ["Jackson"],
+          "explanation": "7th President (1829-1837). Founder of the Democratic Party, hero of Battle of New Orleans."
+        },
+        {
+          "id": "van-buren",
+          "answer": "Martin Van Buren",
+          "alternates": ["Van Buren"],
+          "explanation": "8th President (1837-1841). First president born a U.S. citizen (not British subject)."
+        },
+        {
+          "id": "harrison-wh",
+          "answer": "William Henry Harrison",
+          "alternates": ["Harrison", "W.H. Harrison"],
+          "explanation": "9th President (1841). Shortest presidency—died 31 days after inauguration."
+        },
+        {
+          "id": "tyler",
+          "answer": "John Tyler",
+          "alternates": ["Tyler"],
+          "explanation": "10th President (1841-1845). First VP to succeed a deceased president, nicknamed 'His Accidency'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    { "id": "american-history", "parentId": null, "name": "American History", "description": "U.S. history from colonial era through modern day", "sortOrder": 0 },
+    { "id": "world-history", "parentId": null, "name": "World History", "description": "Global history, civilizations, and world events", "sortOrder": 1 },
+    { "id": "science", "parentId": null, "name": "Science", "description": "Physical sciences, biology, chemistry, physics, astronomy", "sortOrder": 2 },
+    { "id": "literature", "parentId": null, "name": "Literature", "description": "Novels, poetry, drama, and literary movements", "sortOrder": 3 },
+    { "id": "social-sciences", "parentId": null, "name": "Social Sciences", "description": "Psychology, sociology, philosophy, religion, law", "sortOrder": 4 },
+    { "id": "pop-music", "parentId": null, "name": "Pop Music", "description": "Popular music from rock to hip-hop, artists and albums", "sortOrder": 5 },
+    { "id": "classical-music", "parentId": null, "name": "Classical Music", "description": "Classical composers, works, and musical theory", "sortOrder": 6 },
+    { "id": "jazz", "parentId": null, "name": "Jazz", "description": "Jazz history, musicians, and recordings", "sortOrder": 7 },
+    { "id": "film", "parentId": null, "name": "Film", "description": "Movies, directors, actors, and cinema history", "sortOrder": 8 },
+    { "id": "television", "parentId": null, "name": "Television", "description": "TV shows, personalities, and broadcasting history", "sortOrder": 9 },
+    { "id": "geography", "parentId": null, "name": "Geography", "description": "Countries, capitals, physical features, maps", "sortOrder": 10 },
+    { "id": "lifestyle", "parentId": null, "name": "Lifestyle", "description": "Fashion, art, architecture, design, and culture", "sortOrder": 11 },
+    { "id": "sports", "parentId": null, "name": "Sports", "description": "Professional and amateur sports, athletes, records", "sortOrder": 12 },
+    { "id": "current-events", "parentId": null, "name": "Current Events", "description": "Recent news and contemporary affairs", "sortOrder": 13 },
+    { "id": "business-economics", "parentId": null, "name": "Business/Economics", "description": "Business, finance, economics, and trade", "sortOrder": 14 },
+    { "id": "technology", "parentId": null, "name": "Technology", "description": "Computing, internet, innovation, and engineering", "sortOrder": 15 },
+    { "id": "food-drink", "parentId": null, "name": "Food & Drink", "description": "Cuisine, beverages, culinary arts, and food science", "sortOrder": 16 },
+    { "id": "miscellaneous", "parentId": null, "name": "Miscellaneous", "description": "General knowledge that spans multiple categories", "sortOrder": 17 }
+  ],
+  "exercises": []
+}

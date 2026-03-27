@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    { "id": "science/chemistry", "parentId": "science", "name": "Chemistry", "description": "Elements, compounds, and reactions" }
+  ],
+  "exercises": [
+    {
+      "id": "science/chemistry/element-symbols",
+      "nodeId": "science/chemistry",
+      "name": "Element Symbols",
+      "format": "text-entry",
+      "displayType": "periodic-table",
+      "items": [
+        {
+          "id": "hydrogen",
+          "prompt": "What element has the symbol H?",
+          "answer": "Hydrogen",
+          "alternates": [],
+          "explanation": "The lightest element, makes up ~75% of the universe's elemental mass.",
+          "cardFront": "H",
+          "cardBack": "Hydrogen"
+        },
+        {
+          "id": "helium",
+          "prompt": "What element has the symbol He?",
+          "answer": "Helium",
+          "alternates": [],
+          "explanation": "Named after Helios, the Greek sun god. Second most abundant element in the universe.",
+          "cardFront": "He",
+          "cardBack": "Helium"
+        },
+        {
+          "id": "carbon",
+          "prompt": "What element has the symbol C?",
+          "answer": "Carbon",
+          "alternates": [],
+          "explanation": "The basis of organic chemistry. Has more known compounds than any other element.",
+          "cardFront": "C",
+          "cardBack": "Carbon"
+        },
+        {
+          "id": "nitrogen",
+          "prompt": "What element has the symbol N?",
+          "answer": "Nitrogen",
+          "alternates": [],
+          "explanation": "Makes up ~78% of Earth's atmosphere. Essential for amino acids and DNA.",
+          "cardFront": "N",
+          "cardBack": "Nitrogen"
+        },
+        {
+          "id": "oxygen",
+          "prompt": "What element has the symbol O?",
+          "answer": "Oxygen",
+          "alternates": [],
+          "explanation": "Makes up ~21% of Earth's atmosphere. Essential for aerobic respiration.",
+          "cardFront": "O",
+          "cardBack": "Oxygen"
+        },
+        {
+          "id": "iron",
+          "prompt": "What element has the symbol Fe?",
+          "answer": "Iron",
+          "alternates": [],
+          "explanation": "Fe from Latin 'ferrum'. Most common element on Earth by mass, core of Earth is mostly iron.",
+          "cardFront": "Fe",
+          "cardBack": "Iron"
+        },
+        {
+          "id": "gold",
+          "prompt": "What element has the symbol Au?",
+          "answer": "Gold",
+          "alternates": [],
+          "explanation": "Au from Latin 'aurum'. One of the least reactive metals, prized since antiquity.",
+          "cardFront": "Au",
+          "cardBack": "Gold"
+        },
+        {
+          "id": "silver",
+          "prompt": "What element has the symbol Ag?",
+          "answer": "Silver",
+          "alternates": [],
+          "explanation": "Ag from Latin 'argentum'. Has the highest electrical conductivity of any element.",
+          "cardFront": "Ag",
+          "cardBack": "Silver"
+        }
+      ]
+    },
+    {
+      "id": "science/chemistry/noble-gases",
+      "nodeId": "science/chemistry",
+      "name": "Noble Gases",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name all six noble gases" },
+      "items": [
+        {
+          "id": "helium",
+          "answer": "Helium",
+          "alternates": ["He"],
+          "explanation": "Atomic number 2. The lightest noble gas, used in balloons and cryogenics."
+        },
+        {
+          "id": "neon",
+          "answer": "Neon",
+          "alternates": ["Ne"],
+          "explanation": "Atomic number 10. Famous for its reddish-orange glow in neon signs."
+        },
+        {
+          "id": "argon",
+          "answer": "Argon",
+          "alternates": ["Ar"],
+          "explanation": "Atomic number 18. Makes up ~0.93% of Earth's atmosphere, most abundant noble gas."
+        },
+        {
+          "id": "krypton",
+          "answer": "Krypton",
+          "alternates": ["Kr"],
+          "explanation": "Atomic number 36. Used in high-performance lighting and photography."
+        },
+        {
+          "id": "xenon",
+          "answer": "Xenon",
+          "alternates": ["Xe"],
+          "explanation": "Atomic number 54. Used in flash lamps, arc lamps, and ion propulsion."
+        },
+        {
+          "id": "radon",
+          "answer": "Radon",
+          "alternates": ["Rn"],
+          "explanation": "Atomic number 86. Radioactive gas, can accumulate in buildings from soil."
+        }
+      ]
+    }
+  ]
+}

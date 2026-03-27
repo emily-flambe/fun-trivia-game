@@ -1,186 +1,212 @@
-import type { Category, CategoryInfo, Tier, QuestionFormat, QuizModule, QuizModuleWithQuestions, Question } from './types';
-import { CATEGORY_META } from './types';
+import type { Node, Exercise, ExerciseFormat, DisplayType, FillBlanksConfig, Item } from './types';
 
-interface QuestionRow {
+// === DB row interfaces ===
+
+interface NodeRow {
 	id: string;
-	module_id: string;
-	question: string;
+	parent_id: string | null;
+	name: string;
+	description: string;
+	sort_order: number;
+	child_count?: number;
+	exercise_count?: number;
+}
+
+interface ExerciseRow {
+	id: string;
+	node_id: string;
+	name: string;
+	description: string;
+	format: string;
+	display_type: string | null;
+	config: string | null;
+	sort_order: number;
+	item_count?: number;
+}
+
+interface ItemRow {
+	id: string;
+	exercise_id: string;
 	answer: string;
-	alternate_answers: string | null;
-	options: string | null;
-	correct_index: number | null;
-	match_pairs: string | null;
+	alternates: string;
 	explanation: string;
-	card_front: string | null;
-	card_back: string | null;
+	data: string;
 	sort_order: number;
 }
 
-interface ModuleRow {
-	id: string;
-	category: string;
-	name: string;
-	tier: string;
-	description: string;
-	default_format: string;
+// === Row-to-type mappers ===
+
+function mapNode(row: NodeRow): Node {
+	const node: Node = {
+		id: row.id,
+		parentId: row.parent_id,
+		name: row.name,
+		description: row.description,
+		sortOrder: row.sort_order,
+	};
+	if (row.child_count !== undefined) {
+		node.childCount = row.child_count;
+	}
+	if (row.exercise_count !== undefined) {
+		node.exerciseCount = row.exercise_count;
+	}
+	return node;
 }
 
-export class QuizRepository {
+function mapExercise(row: ExerciseRow): Exercise {
+	const exercise: Exercise = {
+		id: row.id,
+		nodeId: row.node_id,
+		name: row.name,
+		description: row.description,
+		format: row.format as ExerciseFormat,
+		sortOrder: row.sort_order,
+	};
+	if (row.display_type) {
+		exercise.displayType = row.display_type as DisplayType;
+	}
+	if (row.config) {
+		exercise.config = JSON.parse(row.config) as FillBlanksConfig;
+	}
+	if (row.item_count !== undefined) {
+		exercise.itemCount = row.item_count;
+	}
+	return exercise;
+}
+
+function mapItem(row: ItemRow): Item {
+	return {
+		id: row.id,
+		exerciseId: row.exercise_id,
+		answer: row.answer,
+		alternates: JSON.parse(row.alternates || '[]'),
+		explanation: row.explanation,
+		data: JSON.parse(row.data || '{}'),
+		sortOrder: row.sort_order,
+	};
+}
+
+// === Repository ===
+
+export class NodeRepository {
 	constructor(private db: D1Database) {}
 
-	async getCategories(): Promise<CategoryInfo[]> {
+	async getRootNodes(): Promise<Node[]> {
 		const rows = await this.db
-			.prepare(`SELECT category, tier, COUNT(*) as count FROM modules GROUP BY category, tier`)
-			.all<{ category: Category; tier: Tier; count: number }>();
-
-		const categoryMap = new Map<Category, CategoryInfo>();
-
-		for (const row of rows.results) {
-			if (!categoryMap.has(row.category)) {
-				const meta = CATEGORY_META[row.category];
-				categoryMap.set(row.category, {
-					id: row.category,
-					name: meta.name,
-					color: meta.color,
-					moduleCount: 0,
-					tiers: { foundation: 0, core: 0, advanced: 0 },
-				});
-			}
-			const cat = categoryMap.get(row.category)!;
-			cat.tiers[row.tier] = row.count;
-			cat.moduleCount += row.count;
-		}
-
-		return Array.from(categoryMap.values());
-	}
-
-	async getModules(filters?: { category?: Category; tier?: Tier }): Promise<QuizModule[]> {
-		let sql = `SELECT m.id, m.category, m.name, m.tier, m.description, m.default_format,
-		           (SELECT COUNT(*) FROM questions q WHERE q.module_id = m.id) as question_count
-		           FROM modules m WHERE 1=1`;
-		const bindings: string[] = [];
-
-		if (filters?.category) {
-			sql += ` AND m.category = ?`;
-			bindings.push(filters.category);
-		}
-		if (filters?.tier) {
-			sql += ` AND m.tier = ?`;
-			bindings.push(filters.tier);
-		}
-
-		sql += ` ORDER BY m.category, CASE m.tier WHEN 'foundation' THEN 0 WHEN 'core' THEN 1 WHEN 'advanced' THEN 2 END, m.name`;
-
-		const stmt = this.db.prepare(sql);
-		const rows = await (bindings.length > 0 ? stmt.bind(...bindings) : stmt).all<ModuleRow & { question_count: number }>();
-
-		return rows.results.map((r) => ({
-			id: r.id,
-			category: r.category as Category,
-			name: r.name,
-			tier: r.tier as Tier,
-			description: r.description,
-			defaultFormat: r.default_format as QuestionFormat,
-			questionCount: r.question_count,
-		}));
-	}
-
-	async getModule(moduleId: string): Promise<QuizModuleWithQuestions | null> {
-		const moduleRow = await this.db
-			.prepare(`SELECT id, category, name, tier, description, default_format FROM modules WHERE id = ?`)
-			.bind(moduleId)
-			.first<ModuleRow>();
-
-		if (!moduleRow) return null;
-
-		const questionRows = await this.db
 			.prepare(
-				`SELECT id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, card_front, card_back, sort_order
-				 FROM questions WHERE module_id = ? ORDER BY sort_order, id`
+				`SELECT n.*,
+				        (SELECT COUNT(*) FROM nodes c WHERE c.parent_id = n.id) as child_count,
+				        (SELECT COUNT(*) FROM exercises e WHERE e.node_id = n.id) as exercise_count
+				 FROM nodes n
+				 WHERE parent_id IS NULL
+				 ORDER BY sort_order`
 			)
-			.bind(moduleId)
-			.all<QuestionRow>();
+			.all<NodeRow>();
 
-		const questions = questionRows.results.map((r) => mapQuestion(r));
+		return rows.results.map(mapNode);
+	}
+
+	async getNode(id: string): Promise<{ node: Node; children: Node[]; exercises: Exercise[] } | null> {
+		const nodeRow = await this.db
+			.prepare(
+				`SELECT n.*,
+				        (SELECT COUNT(*) FROM nodes c WHERE c.parent_id = n.id) as child_count,
+				        (SELECT COUNT(*) FROM exercises e WHERE e.node_id = n.id) as exercise_count
+				 FROM nodes n
+				 WHERE n.id = ?`
+			)
+			.bind(id)
+			.first<NodeRow>();
+
+		if (!nodeRow) return null;
+
+		const [childRows, exerciseRows] = await Promise.all([
+			this.db
+				.prepare(
+					`SELECT n.*,
+					        (SELECT COUNT(*) FROM nodes c WHERE c.parent_id = n.id) as child_count,
+					        (SELECT COUNT(*) FROM exercises e WHERE e.node_id = n.id) as exercise_count
+					 FROM nodes n
+					 WHERE n.parent_id = ?
+					 ORDER BY n.sort_order`
+				)
+				.bind(id)
+				.all<NodeRow>(),
+			this.db
+				.prepare(
+					`SELECT e.*,
+					        (SELECT COUNT(*) FROM items i WHERE i.exercise_id = e.id) as item_count
+					 FROM exercises e
+					 WHERE e.node_id = ?
+					 ORDER BY e.sort_order`
+				)
+				.bind(id)
+				.all<ExerciseRow>(),
+		]);
 
 		return {
-			id: moduleRow.id,
-			category: moduleRow.category as Category,
-			name: moduleRow.name,
-			tier: moduleRow.tier as Tier,
-			description: moduleRow.description,
-			defaultFormat: moduleRow.default_format as QuestionFormat,
-			questionCount: questions.length,
-			questions,
+			node: mapNode(nodeRow),
+			children: childRows.results.map(mapNode),
+			exercises: exerciseRows.results.map(mapExercise),
 		};
 	}
 
-	async getQuestion(moduleId: string, questionId: string): Promise<Question | null> {
-		const row = await this.db
+	async getNodeBreadcrumbs(id: string): Promise<Node[]> {
+		const parts = id.split('/');
+		const ancestorIds: string[] = [];
+		for (let i = 1; i <= parts.length; i++) {
+			ancestorIds.push(parts.slice(0, i).join('/'));
+		}
+
+		const placeholders = ancestorIds.map(() => '?').join(', ');
+		const rows = await this.db
+			.prepare(`SELECT * FROM nodes WHERE id IN (${placeholders}) ORDER BY length(id)`)
+			.bind(...ancestorIds)
+			.all<NodeRow>();
+
+		return rows.results.map(mapNode);
+	}
+
+	async getExercise(id: string): Promise<{ exercise: Exercise; items: Item[] } | null> {
+		const exerciseRow = await this.db
 			.prepare(
-				`SELECT id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, card_front, card_back, sort_order
-				 FROM questions WHERE module_id = ? AND id = ?`
+				`SELECT e.*,
+				        (SELECT COUNT(*) FROM items i WHERE i.exercise_id = e.id) as item_count
+				 FROM exercises e
+				 WHERE e.id = ?`
 			)
-			.bind(moduleId, questionId)
-			.first<QuestionRow>();
+			.bind(id)
+			.first<ExerciseRow>();
+
+		if (!exerciseRow) return null;
+
+		const itemRows = await this.db
+			.prepare(`SELECT * FROM items WHERE exercise_id = ? ORDER BY sort_order`)
+			.bind(id)
+			.all<ItemRow>();
+
+		return {
+			exercise: mapExercise(exerciseRow),
+			items: itemRows.results.map(mapItem),
+		};
+	}
+
+	async getItem(exerciseId: string, itemId: string): Promise<Item | null> {
+		const row = await this.db
+			.prepare(`SELECT * FROM items WHERE exercise_id = ? AND id = ?`)
+			.bind(exerciseId, itemId)
+			.first<ItemRow>();
 
 		if (!row) return null;
-		return mapQuestion(row);
+		return mapItem(row);
 	}
 
-	async getRandomQuestion(filters?: { category?: Category; tier?: Tier }): Promise<(Question & { moduleName: string }) | null> {
-		let sql = `SELECT q.id, q.module_id, q.question, q.answer, q.alternate_answers,
-		           q.options, q.correct_index, q.match_pairs, q.explanation, q.card_front, q.sort_order,
-		           m.name as module_name
-		           FROM questions q JOIN modules m ON q.module_id = m.id WHERE 1=1`;
-		const bindings: string[] = [];
+	async getExerciseItems(exerciseId: string): Promise<Item[]> {
+		const rows = await this.db
+			.prepare(`SELECT * FROM items WHERE exercise_id = ? ORDER BY sort_order`)
+			.bind(exerciseId)
+			.all<ItemRow>();
 
-		if (filters?.category) {
-			sql += ` AND m.category = ?`;
-			bindings.push(filters.category);
-		}
-		if (filters?.tier) {
-			sql += ` AND m.tier = ?`;
-			bindings.push(filters.tier);
-		}
-
-		sql += ` ORDER BY RANDOM() LIMIT 1`;
-
-		const stmt = this.db.prepare(sql);
-		const row = await (bindings.length > 0 ? stmt.bind(...bindings) : stmt).first<QuestionRow & { module_name: string }>();
-
-		if (!row) return null;
-		return { ...mapQuestion(row), moduleName: row.module_name };
+		return rows.results.map(mapItem);
 	}
-}
-
-function mapQuestion(row: QuestionRow): Question {
-	const q: Question = {
-		id: row.id,
-		moduleId: row.module_id,
-		question: row.question,
-		answer: row.answer,
-		alternateAnswers: JSON.parse(row.alternate_answers || '[]'),
-		explanation: row.explanation,
-		sortOrder: row.sort_order,
-	};
-
-	// Attach optional format-specific data if present
-	if (row.options) {
-		q.options = JSON.parse(row.options);
-		if (row.correct_index !== null) {
-			q.correctIndex = row.correct_index;
-		}
-	}
-	if (row.match_pairs) {
-		q.matchPairs = JSON.parse(row.match_pairs);
-	}
-	if (row.card_front) {
-		q.cardFront = row.card_front;
-	}
-	if (row.card_back) {
-		q.cardBack = row.card_back;
-	}
-
-	return q;
 }
