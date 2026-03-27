@@ -56,6 +56,21 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return json({ id });
 		}
 
+		// GET /api/exercises/:path+/answers — reveal all answers (for give-up)
+		const answersMatch = path.match(/^\/api\/exercises\/(.+)\/answers$/);
+		if (answersMatch) {
+			const result = await repo.getExercise(answersMatch[1]);
+			if (!result) return json({ error: 'Exercise not found' }, 404);
+			return json({
+				items: result.items.map((item) => ({
+					id: item.id,
+					answer: item.answer,
+					explanation: item.explanation,
+					sortOrder: item.sortOrder,
+				})),
+			});
+		}
+
 		// POST /api/exercises/:path+/check — MUST be before exercise detail route
 		const checkMatch = path.match(/^\/api\/exercises\/(.+)\/check$/);
 		if (checkMatch && request.method === 'POST') {

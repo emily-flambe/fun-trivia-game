@@ -248,6 +248,26 @@ describe('Trivia API', () => {
 		});
 	});
 
+	// ─── Exercises: answers (reveal) ─────────────────────────
+
+	describe('GET /api/exercises/.../answers', () => {
+		it('returns all items with answers for an exercise', async () => {
+			const res = await makeRequest('/api/exercises/science/chemistry/noble-gases/answers');
+			expect(res.status).toBe(200);
+			const data = await res.json<{ items: any[] }>();
+			expect(data.items).toHaveLength(3);
+			const helium = data.items.find((i: any) => i.id === 'helium');
+			expect(helium.answer).toBe('Helium');
+			expect(helium.explanation).toBeDefined();
+			expect(typeof helium.sortOrder).toBe('number');
+		});
+
+		it('returns 404 for nonexistent exercise', async () => {
+			const res = await makeRequest('/api/exercises/nonexistent/answers');
+			expect(res.status).toBe(404);
+		});
+	});
+
 	// ─── Check: text-entry ────────────────────────────────────
 
 	describe('POST /api/exercises/.../check (text-entry)', () => {

@@ -85,6 +85,19 @@ export async function getRandomExerciseId(): Promise<string> {
 	return data.id;
 }
 
+export interface RevealedItem {
+	id: string;
+	answer: string;
+	explanation: string;
+	sortOrder: number;
+}
+
+export async function revealAnswers(exercisePath: string): Promise<RevealedItem[]> {
+	const res = await fetch(`${BASE}/exercises/${exercisePath}/answers`);
+	const data = await res.json() as { items: RevealedItem[] };
+	return data.items;
+}
+
 export async function checkAnswer(
 	exercisePath: string,
 	body: { itemId?: string; answer: string }

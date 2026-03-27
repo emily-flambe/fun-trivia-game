@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { checkAnswer, type ExerciseSummary, type PublicItem, type FillBlanksCheckResult } from '../lib/api';
+import { checkAnswer, revealAnswers, type ExerciseSummary, type PublicItem, type FillBlanksCheckResult, type RevealedItem } from '../lib/api';
 
 interface FoundItem {
 	itemId: string;
@@ -20,6 +20,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 	const [checking, setChecking] = useState(false);
 	const [lastResult, setLastResult] = useState<{ text: string; success: boolean } | null>(null);
 	const [gaveUp, setGaveUp] = useState(false);
+	const [revealed, setRevealed] = useState<RevealedItem[]>([]);
 	const inputRef = useRef<HTMLInputElement>(null);
 
 	const nodeId = exercise.nodeId;
@@ -60,16 +61,21 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 
 	function handleGiveUp() {
 		setGaveUp(true);
+		revealAnswers(exercisePath).then(setRevealed).catch(() => {});
 	}
 
 	const allFound = found.length === totalItems;
 	const isComplete = allFound || gaveUp;
 
+	// Build a map of revealed answers by item id
+	const revealedMap = new Map(revealed.map((r) => [r.id, r]));
+
 	// Build slots for display
-	const slots: { position: number; found: FoundItem | null; label?: string }[] = [];
+	const slots: { position: number; found: FoundItem | null; revealedAnswer?: string; label?: string }[] = [];
 	for (let i = 0; i < totalItems; i++) {
 		const item = items[i];
-		slots.push({ position: i, found: null, label: item.data?.label });
+		const rev = revealedMap.get(item.id);
+		slots.push({ position: i, found: null, revealedAnswer: rev?.answer, label: item.data?.label });
 	}
 
 	// Place found items into slots
@@ -108,11 +114,15 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 							className={`rounded-xl p-3 min-h-[60px] flex items-center justify-center text-sm border transition-all duration-200 ${
 								slot.found
 									? 'bg-correct-bg border-correct-border text-correct font-medium'
-									: 'bg-surface-bright border-border-subtle text-text-tertiary'
+									: gaveUp && slot.revealedAnswer
+										? 'bg-incorrect-bg border-incorrect-border text-incorrect font-medium'
+										: 'bg-surface-bright border-border-subtle text-text-tertiary'
 							}`}
 						>
 							{slot.found ? (
 								<span>{slot.found.userAnswer}{slot.found.fuzzyMatch ? ' *' : ''}</span>
+							) : gaveUp && slot.revealedAnswer ? (
+								<span>{slot.revealedAnswer}</span>
 							) : (
 								<span>{ordered ? `#${i + 1}` : '?'}</span>
 							)}
