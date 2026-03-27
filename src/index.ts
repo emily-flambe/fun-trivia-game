@@ -7,10 +7,19 @@ interface Env {
 }
 
 export default {
-	async fetch(request: Request, env: Env): Promise<Response> {
+	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		const url = new URL(request.url);
 		const path = url.pathname;
 
+		// MCP endpoint — lazy import to avoid bundling ajv/agents into test env
+		if (path === '/mcp' || path.startsWith('/mcp/')) {
+			const { createMcpHandler } = await import('agents/mcp');
+			const { createTriviaServer } = await import('./mcp');
+			const server = createTriviaServer(env.DB);
+			return createMcpHandler(server, { route: '/mcp' })(request, env, ctx);
+		}
+
+		// REST API
 		if (path.startsWith('/api/')) {
 			return handleApi(path, url, request, env);
 		}
