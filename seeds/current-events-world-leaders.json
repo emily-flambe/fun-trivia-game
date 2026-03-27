@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "current-events/world-leaders", "parentId": "current-events", "name": "World Leaders", "description": "Heads of state and government worldwide (as of 2025)" }
+  ],
+  "exercises": [
+    {
+      "id": "current-events/world-leaders/world-leaders-2025",
+      "nodeId": "current-events/world-leaders",
+      "name": "Current World Leaders (2025)",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "us-president",
+          "prompt": "Who is the current President of the United States?",
+          "answer": "Donald Trump",
+          "alternates": ["Trump"],
+          "explanation": "47th President (2025\u2013present), Republican\nPreviously served as the 45th President (2017\u20132021), making him the second president to serve non-consecutive terms (after Grover Cleveland)\nDefeated Vice President Kamala Harris in the 2024 election\nFirst president to be convicted of felony crimes (2024 New York hush-money trial) before winning reelection\nImpeached twice during his first term (2019, 2021)\u2014acquitted by the Senate both times\nFormer real estate developer and host of The Apprentice\nAt 78 years old at inauguration, the oldest person ever inaugurated as president",
+          "cardFront": "United States \u2014 President",
+          "cardBack": "Donald Trump"
+        },
+        {
+          "id": "france-president",
+          "prompt": "Who is the current President of France?",
+          "answer": "Emmanuel Macron",
+          "alternates": ["Macron"],
+          "explanation": "President of France (2017\u2013present)\nYoungest president in French history, elected at age 39\nFounded the centrist party En Marche! (now Renaissance) in 2016\nMarried to Brigitte Macron, who was his drama teacher\u201424 years his senior\nReelected in 2022, defeating Marine Le Pen for the second time\nFormer investment banker at Rothschild & Co and Minister of the Economy under Hollande\nFaced prolonged Yellow Vest protests (2018\u20132019) and pension reform strikes (2023)",
+          "cardFront": "France \u2014 President",
+          "cardBack": "Emmanuel Macron"
+        },
+        {
+          "id": "uk-pm",
+          "prompt": "Who is the current Prime Minister of the United Kingdom?",
+          "answer": "Keir Starmer",
+          "alternates": ["Starmer"],
+          "explanation": "Prime Minister (2024\u2013present), Labour Party\nTook office July 5, 2024, after Labour won a landslide general election, ending 14 years of Conservative rule\nFormer Director of Public Prosecutions (2008\u20132013), head of the Crown Prosecution Service\nKnighted in 2014 for services to law and criminal justice (hence \"Sir Keir\")\nLeader of the Labour Party since 2020, succeeding Jeremy Corbyn\nFirst Labour PM since Gordon Brown (2007\u20132010)\nNamed after Keir Hardie, the first leader of the Labour Party",
+          "cardFront": "United Kingdom \u2014 Prime Minister",
+          "cardBack": "Keir Starmer"
+        },
+        {
+          "id": "germany-chancellor",
+          "prompt": "Who is the current Chancellor of Germany?",
+          "answer": "Friedrich Merz",
+          "alternates": ["Merz"],
+          "explanation": "Chancellor of Germany (May 2025\u2013present), CDU/CSU\nElected chancellor by the Bundestag on May 6, 2025\nLeader of the Christian Democratic Union (CDU) since 2022\nWon the snap federal election on February 23, 2025, after Olaf Scholz's coalition collapsed\nFormer corporate lawyer and BlackRock Germany board member\nLost the CDU leadership to Angela Merkel in 2002 and spent years in the political wilderness before returning\nForms a coalition government; succeeded Olaf Scholz (SPD) as chancellor",
+          "cardFront": "Germany \u2014 Chancellor",
+          "cardBack": "Friedrich Merz"
+        },
+        {
+          "id": "canada-pm",
+          "prompt": "Who is the current Prime Minister of Canada?",
+          "answer": "Mark Carney",
+          "alternates": ["Carney"],
+          "explanation": "24th Prime Minister (March 2025\u2013present), Liberal Party\nSworn in March 14, 2025, five days after winning the Liberal leadership with 85.9% of the vote\nSucceeded Justin Trudeau, who resigned as Liberal leader in January 2025\nFormer Governor of the Bank of Canada (2008\u20132013) and Governor of the Bank of England (2013\u20132020)\nFirst Canadian to lead a central bank of another G7 country\nHad never held elected office before becoming PM\u2014won the April 2025 federal election\nCampaigned largely on confronting U.S. tariffs under the Trump administration",
+          "cardFront": "Canada \u2014 Prime Minister",
+          "cardBack": "Mark Carney"
+        },
+        {
+          "id": "brazil-president",
+          "prompt": "Who is the current President of Brazil?",
+          "answer": "Luiz Inacio Lula da Silva",
+          "alternates": ["Lula", "Lula da Silva", "Luiz Lula da Silva"],
+          "explanation": "39th President of Brazil (2023\u2013present), Workers' Party (PT)\nPreviously served two terms (2003\u20132010); returned to office 12 years later\nWas a metalworker and union leader with no university degree\u2014rose to lead Latin America's largest country\nImprisoned for corruption in 2018; convictions annulled in 2021 on jurisdictional grounds\nDefeated incumbent Jair Bolsonaro in the 2022 runoff by a narrow margin\nCommonly known simply as \"Lula,\" which was legally added to his name\nHeld the BRICS presidency in 2025",
+          "cardFront": "Brazil \u2014 President",
+          "cardBack": "Luiz Inacio Lula da Silva"
+        },
+        {
+          "id": "mexico-president",
+          "prompt": "Who is the current President of Mexico?",
+          "answer": "Claudia Sheinbaum",
+          "alternates": ["Sheinbaum", "Claudia Sheinbaum Pardo"],
+          "explanation": "66th President of Mexico (October 2024\u2013present), Morena party\nFirst woman and first Jewish person to serve as President of Mexico\nWon the 2024 election with nearly 60% of the vote\u2014the highest percentage since free elections began in Mexico\nHolds a PhD in energy engineering from UNAM; was a contributing author on IPCC climate reports\nFormer Mayor of Mexico City (2018\u20132023)\nProtege of predecessor Andres Manuel Lopez Obrador (AMLO); continues his \"Fourth Transformation\" agenda\nCarried 31 of 32 states in her election victory",
+          "cardFront": "Mexico \u2014 President",
+          "cardBack": "Claudia Sheinbaum"
+        },
+        {
+          "id": "india-pm",
+          "prompt": "Who is the current Prime Minister of India?",
+          "answer": "Narendra Modi",
+          "alternates": ["Modi"],
+          "explanation": "Prime Minister of India (2014\u2013present), Bharatiya Janata Party (BJP)\nWon three consecutive general elections (2014, 2019, 2024)\nFormer Chief Minister of Gujarat (2001\u20132014), India's longest-serving CM of that state\nPromoted \"Make in India\" industrialization and the Digital India initiative\nOnce denied a U.S. visa over the 2002 Gujarat riots; now one of the world's most-traveled leaders\nOversaw India's G20 presidency in 2023 and the Chandrayaan-3 moon landing\nHighest domestic approval rating among world leaders, consistently near 70%",
+          "cardFront": "India \u2014 Prime Minister",
+          "cardBack": "Narendra Modi"
+        },
+        {
+          "id": "china-president",
+          "prompt": "Who is the current President of China?",
+          "answer": "Xi Jinping",
+          "alternates": ["Xi"],
+          "explanation": "President of the People's Republic of China (2013\u2013present), General Secretary of the CPC (2012\u2013present)\nMost powerful Chinese leader since Mao Zedong\nRemoved presidential term limits in 2018, allowing indefinite rule\nSecured an unprecedented third term as General Secretary in 2022\nArchitect of the Belt and Road Initiative, China's global infrastructure program\nFather Xi Zhongxun was a revolutionary leader; Xi was sent to rural labor during the Cultural Revolution\nCentralized power more than any Chinese leader in decades, including a sweeping anti-corruption campaign",
+          "cardFront": "China \u2014 President",
+          "cardBack": "Xi Jinping"
+        },
+        {
+          "id": "russia-president",
+          "prompt": "Who is the current President of Russia?",
+          "answer": "Vladimir Putin",
+          "alternates": ["Putin"],
+          "explanation": "President of Russia (2000\u20132008, 2012\u2013present)\nServed as Prime Minister (2008\u20132012) between presidential terms to comply with consecutive-term limits\nFormer KGB intelligence officer stationed in Dresden, East Germany\nOrdered the full-scale invasion of Ukraine in February 2022, triggering the largest European land war since WWII\nWon the 2024 presidential election with 87% of the vote in a contest widely regarded as neither free nor fair\nOverseen constitutional changes (2020) potentially allowing him to remain in power until 2036\nSubject of an International Criminal Court arrest warrant (2023) for alleged deportation of Ukrainian children",
+          "cardFront": "Russia \u2014 President",
+          "cardBack": "Vladimir Putin"
+        },
+        {
+          "id": "japan-pm",
+          "prompt": "Who is the current Prime Minister of Japan?",
+          "answer": "Sanae Takaichi",
+          "alternates": ["Takaichi"],
+          "explanation": "Prime Minister of Japan (October 2025\u2013present), Liberal Democratic Party\nFirst woman to serve as Prime Minister of Japan\nAlso the first woman to lead the LDP as party president\nFormer Minister of Internal Affairs and Communications; known as a fiscal hawk\nElected by the National Diet on October 21, 2025, after winning the LDP leadership election\nSuceeeded Shigeru Ishiba, who served briefly from October 2024\nConsidered a conservative nationalist; has visited the controversial Yasukuni Shrine\nDefeated Shinjiro Koizumi (son of former PM Junichiro Koizumi) in the LDP leadership race",
+          "cardFront": "Japan \u2014 Prime Minister",
+          "cardBack": "Sanae Takaichi"
+        },
+        {
+          "id": "south-korea-president",
+          "prompt": "Who is the current President of South Korea?",
+          "answer": "Lee Jae-myung",
+          "alternates": ["Lee Jae Myung", "Lee"],
+          "explanation": "14th President of South Korea (June 2025\u2013present), Democratic Party of Korea\nSworn in June 4, 2025, after winning the snap presidential election with 49.4% of the vote\nElection triggered by the impeachment and removal of predecessor Yoon Suk-yeol\nYoon had declared martial law in December 2024\u2014the Constitutional Court removed him in April 2025\nFormer Governor of Gyeonggi Province, South Korea's most populous province\nPreviously lost the 2022 presidential election to Yoon by 0.7%\u2014the narrowest margin in Korean history\nPledged to reopen dialogue with North Korea and \"heal wounds\" after months of political turmoil",
+          "cardFront": "South Korea \u2014 President",
+          "cardBack": "Lee Jae-myung"
+        },
+        {
+          "id": "australia-pm",
+          "prompt": "Who is the current Prime Minister of Australia?",
+          "answer": "Anthony Albanese",
+          "alternates": ["Albanese", "Albo"],
+          "explanation": "31st Prime Minister of Australia (2022\u2013present), Australian Labor Party\nReelected in May 2025 with an expanded majority\nGrew up in public housing in inner Sydney, raised by a single mother on a disability pension\nFirst PM of Italian descent (father was Italian; Albanese visited Italy to meet him)\nServed as Deputy PM and Infrastructure Minister under Kevin Rudd and Julia Gillard\nOverseed the 2023 Voice to Parliament referendum (which failed) on Indigenous recognition\nKnown colloquially as \"Albo\"; first Labor PM to win reelection since Kevin Rudd in 2007",
+          "cardFront": "Australia \u2014 Prime Minister",
+          "cardBack": "Anthony Albanese"
+        },
+        {
+          "id": "south-africa-president",
+          "prompt": "Who is the current President of South Africa?",
+          "answer": "Cyril Ramaphosa",
+          "alternates": ["Ramaphosa"],
+          "explanation": "President of South Africa (2018\u2013present), African National Congress (ANC)\nBecame president in 2018 after Jacob Zuma resigned amid corruption scandals\nWon a second term after the 2024 elections, forming a Government of National Unity coalition\nKey negotiator during the end of apartheid; led the ANC's negotiations with the de Klerk government\nFormer trade union leader and one of South Africa's wealthiest people through business investments\nSurvived the \"Phala Phala\" farmgate scandal (2022) involving cash found hidden on his farm\nProtege of Nelson Mandela, who once considered him a potential presidential successor",
+          "cardFront": "South Africa \u2014 President",
+          "cardBack": "Cyril Ramaphosa"
+        },
+        {
+          "id": "italy-pm",
+          "prompt": "Who is the current Prime Minister of Italy?",
+          "answer": "Giorgia Meloni",
+          "alternates": ["Meloni"],
+          "explanation": "Prime Minister of Italy (October 2022\u2013present), Brothers of Italy (Fratelli d'Italia)\nFirst woman to serve as Prime Minister of Italy\nLeader of Brothers of Italy, a right-wing party with roots in Italy's post-fascist movement\nWon the 2022 election in coalition with Matteo Salvini's League and Silvio Berlusconi's Forza Italia\nAt 45, was the youngest Italian PM at the time of her appointment\nHas positioned herself as a pragmatic EU partner despite her party's euroskeptic origins\nBerlusconi's death in 2023 made her the dominant figure in Italy's right-wing coalition\nMaintained strong support for Ukraine, breaking with some European far-right peers",
+          "cardFront": "Italy \u2014 Prime Minister",
+          "cardBack": "Giorgia Meloni"
+        }
+      ]
+    }
+  ]
+}

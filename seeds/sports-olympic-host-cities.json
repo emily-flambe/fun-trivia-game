@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    { "id": "sports/olympics", "parentId": "sports", "name": "Olympics", "description": "Olympic Games history, host cities, and notable events" }
+  ],
+  "exercises": [
+    {
+      "id": "sports/olympics/summer-host-cities",
+      "nodeId": "sports/olympics",
+      "name": "Summer Olympic Host Cities",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "athens-1896",
+          "prompt": "Which city hosted the first modern Summer Olympics in 1896?",
+          "answer": "Athens",
+          "alternates": [],
+          "explanation": "1896 Summer Olympics, Greece\nFirst modern Olympic Games, revived by Pierre de Coubertin and the International Olympic Committee\n241 athletes from 14 nations competed in 43 events\nHeld at the Panathenaic Stadium, a marble stadium rebuilt from ancient ruins\nNo gold medals were awarded\u2014winners received silver medals and olive branches\nThe marathon event was inspired by the legend of Pheidippides running from Marathon to Athens\nGreek water carrier Spyridon Louis won the marathon, becoming a national hero",
+          "cardFront": "1896, first modern Olympics",
+          "cardBack": "Athens"
+        },
+        {
+          "id": "london-1908",
+          "prompt": "Which city hosted the 1908 Summer Olympics, originally awarded to Rome before Italy withdrew due to the eruption of Mount Vesuvius?",
+          "answer": "London",
+          "alternates": [],
+          "explanation": "1908 Summer Olympics, United Kingdom\nOriginally awarded to Rome, but Italy withdrew after the 1906 eruption of Mount Vesuvius diverted funds\nFirst Olympics to feature a purpose-built stadium (White City Stadium, 70,000 capacity)\nThe marathon distance was set at 26 miles 385 yards to finish in front of the Royal Box\u2014this became the standard marathon distance in 1921\nItalian runner Dorando Pietri was disqualified from the marathon after officials helped him across the finish line\n22 sports and 110 events with 2,008 athletes from 22 nations\nFirst Olympics where athletes marched behind national flags in the opening ceremony",
+          "cardFront": "1908, originally awarded to Rome, set marathon distance",
+          "cardBack": "London"
+        },
+        {
+          "id": "berlin-1936",
+          "prompt": "Which city hosted the 1936 Summer Olympics, controversially under Nazi Germany?",
+          "answer": "Berlin",
+          "alternates": [],
+          "explanation": "1936 Summer Olympics, Nazi Germany\nHitler intended the Games as a showcase for Aryan racial superiority\nJesse Owens, a Black American, won four gold medals (100m, 200m, long jump, 4x100m relay)\u2014undermining Nazi ideology\nFirst Olympics to be televised, reaching viewers in Berlin and Potsdam\nLeni Riefenstahl's film Olympia pioneered sports cinematography techniques still used today\nSeveral nations debated boycotting due to Nazi persecution of Jews; most competed anyway\n49 nations participated with 3,963 athletes\u2014the largest Games to that point",
+          "cardFront": "1936, Nazi Germany, Jesse Owens won 4 golds",
+          "cardBack": "Berlin"
+        },
+        {
+          "id": "london-1948",
+          "prompt": "Which city hosted the 1948 Summer Olympics, nicknamed the 'Austerity Games' because they were held in the aftermath of World War II?",
+          "answer": "London",
+          "alternates": [],
+          "explanation": "1948 Summer Olympics, United Kingdom\nNicknamed the \"Austerity Games\"\u2014held amid postwar rationing, with no new venues built\nFirst Games held after a 12-year gap (1936)\u2014no Olympics during WWII\nGermany and Japan were banned from competing\nFanny Blankers-Koen of the Netherlands won four gold medals in track and field, nicknamed the \"Flying Housewife\"\nFirst Games shown on home television in the UK, though few owned sets\n4,104 athletes from 59 nations competed at Wembley Stadium\nThe 1940 Games had been awarded to Tokyo, then Helsinki, before being cancelled",
+          "cardFront": "1948, postwar 'Austerity Games'",
+          "cardBack": "London"
+        },
+        {
+          "id": "tokyo-1964",
+          "prompt": "Which city hosted the 1964 Summer Olympics, the first ever held in Asia?",
+          "answer": "Tokyo",
+          "alternates": [],
+          "explanation": "1964 Summer Olympics, Japan\nFirst Olympic Games held in Asia\nShowcased Japan's postwar economic recovery and technological advancement\nIntroduced the Shinkansen (bullet train), which began service just before the Games opened\nSatellite technology enabled live international television broadcast for the first time\nJudo debuted as an Olympic sport\u2014in the host country where it originated\nThe Olympic flame was lit by Yoshinori Sakai, born in Hiroshima on August 6, 1945\u2014the day the atomic bomb was dropped\n5,151 athletes from 93 nations participated",
+          "cardFront": "1964, first Olympics in Asia, bullet train debut",
+          "cardBack": "Tokyo"
+        },
+        {
+          "id": "mexico-city-1968",
+          "prompt": "Which city hosted the 1968 Summer Olympics, remembered for the Black Power salute on the medal podium and Bob Beamon's record long jump?",
+          "answer": "Mexico City",
+          "alternates": ["Mexico"],
+          "explanation": "1968 Summer Olympics, Mexico\nFirst Olympics held in Latin America and at high altitude (2,240m / 7,350ft)\nTommie Smith and John Carlos raised black-gloved fists on the 200m podium in the iconic Black Power salute\nBob Beamon shattered the long jump record by nearly 2 feet (8.90m)\u2014it stood for 23 years\nDick Fosbury debuted the \"Fosbury Flop\" high jump technique, which became universal\nTen days before the Games, Mexican military killed hundreds of student protesters in the Tlatelolco massacre\nThe high altitude aided sprinters and jumpers but challenged distance runners\n5,516 athletes from 112 nations competed",
+          "cardFront": "1968, Black Power salute, Bob Beamon's long jump",
+          "cardBack": "Mexico City"
+        },
+        {
+          "id": "munich-1972",
+          "prompt": "Which city hosted the 1972 Summer Olympics, tragically marred by the terrorist attack in which 11 Israeli athletes and coaches were killed?",
+          "answer": "Munich",
+          "alternates": [],
+          "explanation": "1972 Summer Olympics, West Germany\nPalestinian militant group Black September took 11 Israeli team members hostage; all were killed\nThe Games were suspended for 34 hours\u2014IOC President Avery Brundage controversially declared \"The Games must go on\"\nMark Spitz won seven gold medals in swimming, all in world-record times\nSoviet basketball team controversially defeated the U.S. in the gold-medal game after officials added extra time\nDesigned as the \"Cheerful Games\" to contrast with Berlin 1936\u2014security was intentionally minimal\n7,134 athletes from 121 nations participated\nThe attack led to the creation of counter-terrorism units worldwide, including Germany's GSG 9",
+          "cardFront": "1972, Munich massacre, Mark Spitz 7 golds",
+          "cardBack": "Munich"
+        },
+        {
+          "id": "montreal-1976",
+          "prompt": "Which city hosted the 1976 Summer Olympics, notorious for massive cost overruns that left the city in debt for 30 years?",
+          "answer": "Montreal",
+          "alternates": [],
+          "explanation": "1976 Summer Olympics, Canada\nOriginal budget of $124 million ballooned to over $1.5 billion\u2014the city did not pay off the debt until 2006\nThe Olympic Stadium's retractable roof was never completed in time; nicknamed \"The Big O\" (also \"The Big Owe\")\n29 African nations boycotted over New Zealand's rugby ties with apartheid South Africa\n14-year-old Romanian gymnast Nadia Comaneci scored the first perfect 10.0 in Olympic gymnastics history\nThe scoreboard could not display 10.00 and showed 1.00 instead\u2014Comaneci earned seven perfect scores total\n6,084 athletes from 92 nations competed (reduced by the African boycott)",
+          "cardFront": "1976, massive debt, Nadia Comaneci's perfect 10",
+          "cardBack": "Montreal"
+        },
+        {
+          "id": "los-angeles-1984",
+          "prompt": "Which city hosted the 1984 Summer Olympics, boycotted by the Soviet bloc, and became the first Games to turn a major profit through corporate sponsorship?",
+          "answer": "Los Angeles",
+          "alternates": ["LA", "L.A."],
+          "explanation": "1984 Summer Olympics, United States\nSoviet Union and 13 allied nations boycotted in retaliation for the U.S. boycott of Moscow 1980\nFirst Olympics to generate a significant profit (~$215 million) through private funding and corporate sponsorship\nNo new permanent venues built\u2014used existing infrastructure like the LA Memorial Coliseum\nCarl Lewis matched Jesse Owens by winning four track and field golds (100m, 200m, long jump, 4x100m)\nMary Lou Retton became the first American woman to win gymnastics all-around gold\nOnly city to bid for the 1984 Games after Montreal's financial disaster scared others away\nThe model of corporate-funded Games became standard for future Olympics",
+          "cardFront": "1984, Soviet boycott, first profitable Games",
+          "cardBack": "Los Angeles"
+        },
+        {
+          "id": "seoul-1988",
+          "prompt": "Which city hosted the 1988 Summer Olympics, marking South Korea's emergence on the world stage and remembered for Ben Johnson's steroid disqualification?",
+          "answer": "Seoul",
+          "alternates": [],
+          "explanation": "1988 Summer Olympics, South Korea\nFirst Olympics without a major boycott since 1972\u2014159 nations participated\nBen Johnson won the 100m final in 9.79s but was stripped of gold after testing positive for stanozolol\nFlorence Griffith-Joyner (\"Flo-Jo\") set still-standing world records in the 100m (10.49s) and 200m (21.34s)\nGreg Louganis hit his head on the springboard during diving preliminaries, then won gold\nSouth Korea used the Games to showcase its transformation from war-torn nation to economic power\nTennis returned as a full medal sport for the first time since 1924\nNorth Korea boycotted after being denied co-host status",
+          "cardFront": "1988, Ben Johnson disqualified, Flo-Jo's records",
+          "cardBack": "Seoul"
+        },
+        {
+          "id": "barcelona-1992",
+          "prompt": "Which city hosted the 1992 Summer Olympics, the first Games with no boycotts since 1972 and featuring the U.S. basketball 'Dream Team'?",
+          "answer": "Barcelona",
+          "alternates": [],
+          "explanation": "1992 Summer Olympics, Spain\nFirst Games since 1972 with no boycotts\u2014169 nations participated, including a post-Soviet Unified Team\nThe U.S. \"Dream Team\" (Jordan, Magic, Bird, et al.) dominated basketball, winning by an average of 44 points\nFirst Games where professional athletes competed openly (NBA players in basketball)\nThe opening ceremony featured an archer lighting the cauldron by shooting a flaming arrow over it\nSouth Africa returned after 32 years of apartheid-era bans\nGermany competed as a unified team for the first time since 1964\n9,356 athletes from 169 nations\u2014the largest Games to date at that time",
+          "cardFront": "1992, Dream Team, no boycotts, post-Cold War Games",
+          "cardBack": "Barcelona"
+        },
+        {
+          "id": "atlanta-1996",
+          "prompt": "Which city hosted the 1996 Summer Olympics, marking the centennial of the modern Games, marred by the Centennial Park bombing?",
+          "answer": "Atlanta",
+          "alternates": [],
+          "explanation": "1996 Summer Olympics, United States\nCentennial Olympic Games\u2014100 years after Athens 1896\nA pipe bomb exploded in Centennial Olympic Park, killing 2 and injuring 111\nSecurity guard Richard Jewell discovered the bomb but was wrongly suspected; Eric Rudolph was convicted in 2003\nMuhammad Ali, visibly affected by Parkinson's, lit the Olympic cauldron\u2014one of the most emotional moments in Games history\nMichael Johnson won gold in both the 200m and 400m, wearing his signature gold shoes\n10,318 athletes from 197 nations\u2014a record at the time\nControversially awarded over Athens, the sentimental favorite for the centennial",
+          "cardFront": "1996, centennial Games, Centennial Park bombing",
+          "cardBack": "Atlanta"
+        },
+        {
+          "id": "sydney-2000",
+          "prompt": "Which city hosted the 2000 Summer Olympics, often called the 'best Olympics ever' by IOC president Juan Antonio Samaranch?",
+          "answer": "Sydney",
+          "alternates": [],
+          "explanation": "2000 Summer Olympics, Australia\nIOC President Juan Antonio Samaranch called them \"the best Olympic Games ever\"\nCathy Freeman, an Indigenous Australian, won the 400m gold\u2014one of the most celebrated moments in Australian sports\nFreeman lit the Olympic cauldron at the opening ceremony, symbolizing reconciliation\nFirst Games to feature the triathlon and taekwondo as medal sports\nIan Thorpe (\"Thorpedo\") won three swimming golds for Australia at age 17\n10,651 athletes from 199 nations competed\nThe Sydney Opera House and Harbour Bridge provided iconic backdrops for sailing and marathon events",
+          "cardFront": "2000, 'best Olympics ever,' Cathy Freeman",
+          "cardBack": "Sydney"
+        },
+        {
+          "id": "beijing-2008",
+          "prompt": "Which city hosted the 2008 Summer Olympics, featuring the 'Bird's Nest' stadium and Michael Phelps winning a record eight gold medals?",
+          "answer": "Beijing",
+          "alternates": ["Peking"],
+          "explanation": "2008 Summer Olympics, China\nMichael Phelps won 8 gold medals\u2014the most by any athlete at a single Games\nThe National Stadium (\"Bird's Nest\"), designed by Herzog & de Meuron and Ai Weiwei, became an architectural icon\nUsain Bolt burst onto the scene, winning 100m (world record 9.69s) and 200m (world record 19.30s)\nOpening ceremony directed by Zhang Yimou was the most elaborate in Olympic history, with 15,000 performers\n10,942 athletes from 204 nations\u2014the most countries ever at that time\nControversies included air quality concerns, human rights criticism, and a lip-syncing scandal at the opening\nChina topped the gold medal count (51) for the first time, surpassing the U.S. (36)",
+          "cardFront": "2008, Bird's Nest, Phelps 8 golds, Bolt's debut",
+          "cardBack": "Beijing"
+        },
+        {
+          "id": "london-2012",
+          "prompt": "Which city hosted the 2012 Summer Olympics, becoming the first city to host the Games three times?",
+          "answer": "London",
+          "alternates": [],
+          "explanation": "2012 Summer Olympics, United Kingdom\nLondon became the first city to host three Summer Olympics (1908, 1948, 2012)\nUsain Bolt repeated his Beijing double, winning the 100m and 200m again\u2014first to defend both sprint titles\nMo Farah won the 5,000m and 10,000m double for Great Britain on \"Super Saturday\"\nOpening ceremony directed by Danny Boyle celebrated British culture from Shakespeare to the NHS to Mr. Bean\nMichael Phelps became the most decorated Olympian ever with 22 medals (18 gold at that point)\n10,568 athletes from 204 nations competed\nThe Olympic Park in Stratford regenerated a formerly industrial area of East London",
+          "cardFront": "2012, first city to host three times, Bolt double repeat",
+          "cardBack": "London"
+        },
+        {
+          "id": "rio-2016",
+          "prompt": "Which city hosted the 2016 Summer Olympics, the first ever held in South America?",
+          "answer": "Rio de Janeiro",
+          "alternates": ["Rio"],
+          "explanation": "2016 Summer Olympics, Brazil\nFirst Olympic Games held in South America\nUsain Bolt completed an unprecedented \"triple triple\"\u2014three consecutive 100m, 200m, and 4x100m golds (2008\u20132016)\nMichael Phelps competed in his fifth Olympics, finishing with 23 gold medals\u2014a record unlikely to be broken\nGolf returned to the Olympics for the first time since 1904; rugby sevens debuted\nOrganizational challenges included the Zika virus outbreak, polluted waterways, and budget overruns\nHost nation Brazil won its first Olympic gold in men's football, with Neymar scoring the winning penalty\n11,238 athletes from 207 nations competed",
+          "cardFront": "2016, first in South America, Bolt's triple triple",
+          "cardBack": "Rio de Janeiro"
+        },
+        {
+          "id": "tokyo-2020",
+          "prompt": "Which city hosted the 2020 Summer Olympics, postponed to 2021 due to the COVID-19 pandemic and held largely without spectators?",
+          "answer": "Tokyo",
+          "alternates": [],
+          "explanation": "2020 Summer Olympics (held 2021), Japan\nFirst Olympics postponed (not cancelled) in peacetime\u2014delayed one year by COVID-19\nHeld almost entirely without spectators due to pandemic restrictions\nRetained the name \"Tokyo 2020\" despite being held in 2021\nSimone Biles withdrew from multiple events citing the \"twisties\" (a dangerous mental block), sparking global conversation about athlete mental health\nNew sports included skateboarding, surfing, sport climbing, and karate\nCaleb Dressel (U.S.) won 5 swimming golds; Elaine Thompson-Herah (Jamaica) repeated as 100m/200m champion\n11,420 athletes from 206 nations competed",
+          "cardFront": "2020 (held 2021), COVID postponement, no spectators",
+          "cardBack": "Tokyo"
+        },
+        {
+          "id": "paris-2024",
+          "prompt": "Which city hosted the 2024 Summer Olympics, its first since 1924, with iconic events held at landmarks like the Eiffel Tower and Palace of Versailles?",
+          "answer": "Paris",
+          "alternates": [],
+          "explanation": "2024 Summer Olympics, France\nParis's third time hosting (1900, 1924, 2024)\u2014exactly 100 years after its last Games\nOpening ceremony held on the Seine River with athletes on boats\u2014first ceremony outside a stadium\nEvents staged at landmarks: beach volleyball at the Eiffel Tower, equestrian at Versailles, fencing at the Grand Palais\nBreaking (breakdancing) debuted as an Olympic sport\nLeon Marchand became a French national hero with 4 swimming golds\nThe U.S. led the overall medal count; China and the U.S. tied with 40 golds each\n10,714 athletes from 206 nations competed\nLos Angeles hosts next in 2028, followed by Brisbane in 2032",
+          "cardFront": "2024, 100 years since Paris 1924, Seine opening ceremony",
+          "cardBack": "Paris"
+        }
+      ]
+    }
+  ]
+}

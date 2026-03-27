@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "business-economics/major-companies", "parentId": "business-economics", "name": "Major Companies", "description": "Iconic companies and the people who built them" }
+  ],
+  "exercises": [
+    {
+      "id": "business-economics/major-companies/iconic-companies-founders",
+      "nodeId": "business-economics/major-companies",
+      "name": "Iconic Companies \u2014 Founders",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "apple",
+          "prompt": "Who co-founded Apple Computer in a garage in Los Altos, California, in 1976?",
+          "answer": "Steve Jobs",
+          "alternates": ["Jobs", "Steve Wozniak", "Wozniak", "Woz", "Ronald Wayne"],
+          "explanation": "Co-founded April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne\nFirst product was the Apple I, designed and hand-built entirely by Wozniak\nRonald Wayne held 10% but sold his stake back for $800 after 12 days\nJobs sold his VW Bus and Wozniak sold his HP-65 calculator to raise capital\nApple I retailed for $666.66; the Apple II (1977) launched the personal computer era\nJobs was ousted in 1985, returned in 1997, and led the iPod/iPhone/iPad revolution\nFirst company to reach $1 trillion, $2 trillion, and $3 trillion market cap",
+          "cardFront": "Apple (1976, garage in Los Altos)",
+          "cardBack": "Steve Jobs"
+        },
+        {
+          "id": "microsoft",
+          "prompt": "Who co-founded Microsoft with Paul Allen in 1975?",
+          "answer": "Bill Gates",
+          "alternates": ["Gates", "William Gates", "Paul Allen", "Allen"],
+          "explanation": "Co-founded April 4, 1975, by Bill Gates and Paul Allen in Albuquerque, New Mexico\nName coined by Allen: a portmanteau of 'microcomputer' and 'software'\nFirst product was a BASIC interpreter for the MITS Altair 8800\nMS-DOS deal with IBM in 1980 became the foundation of Microsoft's dominance\nWindows launched in 1985; Windows 95 sold 7 million copies in five weeks\nGates was the world's richest person for much of 1995\u20132017\nAllen died in 2018; owned the Portland Trail Blazers and Seattle Seahawks",
+          "cardFront": "Microsoft (1975, Albuquerque)",
+          "cardBack": "Bill Gates"
+        },
+        {
+          "id": "amazon",
+          "prompt": "Who founded Amazon as an online bookstore in his garage in Bellevue, Washington, in 1994?",
+          "answer": "Jeff Bezos",
+          "alternates": ["Bezos"],
+          "explanation": "Founded July 5, 1994; launched online July 16, 1995, as an online bookstore\nBezos left a VP role at D.E. Shaw & Co. on Wall Street to start the company\nOperated from a rented garage in Bellevue, WA, with desks made from doors\nOriginal name was 'Cadabra'; changed to Amazon after the world's largest river\nAmazon Web Services (AWS), launched 2006, now generates most of the company's profit\nBezos bought The Washington Post in 2013 for $250 million\nBezos founded Blue Origin (space company) in 2000 and flew to space in July 2021",
+          "cardFront": "Amazon (1994, Bellevue garage)",
+          "cardBack": "Jeff Bezos"
+        },
+        {
+          "id": "google",
+          "prompt": "Who co-founded Google with Sergey Brin as a Stanford University research project in 1998?",
+          "answer": "Larry Page",
+          "alternates": ["Page", "Sergey Brin", "Brin"],
+          "explanation": "Co-founded September 4, 1998, by Larry Page and Sergey Brin, PhD students at Stanford\nBegan as 'BackRub', a search engine ranking pages by backlinks (PageRank algorithm)\nIncorporated in Susan Wojcicki's garage in Menlo Park, California\nFirst outside investment was a $100,000 check from Sun co-founder Andy Bechtolsheim\nName derived from 'googol' (10^100), reflecting the mission to organize vast information\nParent company Alphabet created in 2015 restructuring\nBrin emigrated from the Soviet Union at age 6; Page's parents were both computer science professors",
+          "cardFront": "Google (1998, Stanford/Menlo Park)",
+          "cardBack": "Larry Page"
+        },
+        {
+          "id": "facebook",
+          "prompt": "Who launched Facebook from his Harvard dorm room on February 4, 2004?",
+          "answer": "Mark Zuckerberg",
+          "alternates": ["Zuckerberg", "Zuck"],
+          "explanation": "Launched February 4, 2004, as 'TheFacebook' from Zuckerberg's Harvard dorm room\nCo-founded with Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes\nHalf of Harvard's undergrads signed up within the first month\nZuckerberg dropped out of Harvard sophomore year; received an honorary degree in 2017\nRebranded parent company to Meta Platforms in October 2021\nAcquired Instagram (2012, $1 billion) and WhatsApp (2014, $19 billion)\nThe Social Network (2010), directed by David Fincher, dramatized the founding story",
+          "cardFront": "Facebook/Meta (2004, Harvard dorm)",
+          "cardBack": "Mark Zuckerberg"
+        },
+        {
+          "id": "tesla",
+          "prompt": "Who incorporated Tesla Motors in San Carlos, California, in July 2003, before Elon Musk joined as lead investor?",
+          "answer": "Martin Eberhard",
+          "alternates": ["Eberhard", "Marc Tarpenning", "Tarpenning", "Elon Musk", "Musk"],
+          "explanation": "Incorporated July 1, 2003, by Martin Eberhard and Marc Tarpenning\nElon Musk joined in 2004, leading the $7.5M Series A round with $6.5M of his own money\nA 2009 lawsuit settlement lets all five co-founders (Eberhard, Tarpenning, Wright, Musk, Straubel) use the title\nNamed after inventor Nikola Tesla; first product was the Roadster (2008), based on a Lotus Elise\nMusk became CEO in 2008 after Eberhard was pushed out\nModel S, Model 3, Model X, Model Y spell out S-3-X-Y (3 replaced E due to Ford's trademark)\nBecame the most valuable automaker by market cap in 2020",
+          "cardFront": "Tesla (2003, San Carlos, CA)",
+          "cardBack": "Martin Eberhard"
+        },
+        {
+          "id": "walmart",
+          "prompt": "Who opened the first Walmart discount store in Rogers, Arkansas, in 1962?",
+          "answer": "Sam Walton",
+          "alternates": ["Walton", "Samuel Walton"],
+          "explanation": "First Walmart opened July 2, 1962, in Rogers, Arkansas; Sam was 44 years old\nEarlier ran Walton's 5&10 on the Bentonville, Arkansas, town square starting in 1950\nWalmart became the world's largest company by revenue, a title it has held repeatedly\nWalton's strategy: high volume, low margins, small-town locations competitors ignored\nWent public in 1970 at $16.50 per share; made the Walton family the richest in America\nWalton personally visited stores by flying his own plane and driving his old pickup truck\nDied April 5, 1992; received the Presidential Medal of Freedom from George H.W. Bush the same year",
+          "cardFront": "Walmart (1962, Rogers, AR)",
+          "cardBack": "Sam Walton"
+        },
+        {
+          "id": "mcdonalds",
+          "prompt": "Which brothers opened the original McDonald's restaurant in San Bernardino, California, in 1940?",
+          "answer": "Richard and Maurice McDonald",
+          "alternates": ["McDonald brothers", "Dick and Mac McDonald", "Richard McDonald", "Maurice McDonald", "Ray Kroc"],
+          "explanation": "Richard ('Dick') and Maurice ('Mac') McDonald opened the original in San Bernardino, CA, 1940\nInvented the 'Speedee Service System' (1948), the template for modern fast food\nRay Kroc, a milkshake mixer salesman, visited in 1954 and became their franchise agent\nKroc opened the first franchise in Des Plaines, Illinois, in April 1955\nKroc bought the company from the brothers in 1961 for $2.7 million\nThe brothers' original restaurant was not included in the deal; Kroc opened a McDonald's across the street\nMcDonald's now operates in 100+ countries with 40,000+ locations",
+          "cardFront": "McDonald's (1940, San Bernardino)",
+          "cardBack": "Richard and Maurice McDonald"
+        },
+        {
+          "id": "disney",
+          "prompt": "Which brothers co-founded the Disney Brothers Cartoon Studio on October 16, 1923?",
+          "answer": "Walt Disney",
+          "alternates": ["Disney", "Walt and Roy Disney", "Roy Disney", "Roy O. Disney"],
+          "explanation": "Founded October 16, 1923, by Walt Disney and his brother Roy O. Disney\nOriginally called Disney Brothers Cartoon Studio; Walt insisted on 'Walt Disney Studio'\nWalt's previous venture, Laugh-O-Gram Studio in Kansas City, had gone bankrupt\nFirst success was the Alice Comedies, commissioned by New York distributor Margaret Winkler\nMickey Mouse debuted in Steamboat Willie (1928), one of the first synchronized sound cartoons\nSnow White and the Seven Dwarfs (1937) was the first full-length animated feature film\nDisneyland opened in Anaheim, CA, on July 17, 1955; Walt died of lung cancer in 1966",
+          "cardFront": "Disney (1923, Hollywood)",
+          "cardBack": "Walt Disney"
+        },
+        {
+          "id": "nike",
+          "prompt": "Who co-founded Blue Ribbon Sports (later Nike) with coach Bill Bowerman in 1964?",
+          "answer": "Phil Knight",
+          "alternates": ["Knight", "Bill Bowerman", "Bowerman"],
+          "explanation": "Co-founded January 25, 1964, as Blue Ribbon Sports by Phil Knight and Bill Bowerman\nKnight ran middle distance for Bowerman's track team at the University of Oregon\nStarted as a distributor for Japanese shoemaker Onitsuka Tiger (now ASICS)\nRenamed Nike, Inc. on May 30, 1971, after the Greek goddess of victory\nBowerman invented the waffle sole by pouring rubber into his wife's waffle iron\nThe Swoosh logo was designed by Portland State student Carolyn Davidson for $35 in 1971\nKnight's memoir Shoe Dog (2016) details the company's scrappy early years",
+          "cardFront": "Nike/Blue Ribbon Sports (1964, Oregon)",
+          "cardBack": "Phil Knight"
+        },
+        {
+          "id": "ford",
+          "prompt": "Who founded the Ford Motor Company, incorporated on June 16, 1903, in Detroit?",
+          "answer": "Henry Ford",
+          "alternates": ["Ford"],
+          "explanation": "Ford Motor Company incorporated June 16, 1903, with $28,000 from 12 investors\nThe first president was actually banker John S. Gray, not Ford himself\nModel T (1908) made cars affordable; Ford sold 15 million by 1927\nIntroduced the moving assembly line at Highland Park in 1913, cutting chassis assembly from 12 hours to 93 minutes\nFamous $5 workday (1914) doubled prevailing wages and reduced turnover\nFord was a controversial figure: received the Grand Cross of the German Eagle from Nazi Germany in 1938\nDied April 7, 1947; Ford Motor remained family-controlled through a dual-class stock structure",
+          "cardFront": "Ford Motor Company (1903, Detroit)",
+          "cardBack": "Henry Ford"
+        },
+        {
+          "id": "standard-oil",
+          "prompt": "Who founded Standard Oil in Cleveland, Ohio, in 1870, becoming America's first billionaire?",
+          "answer": "John D. Rockefeller",
+          "alternates": ["Rockefeller", "John Rockefeller", "J.D. Rockefeller"],
+          "explanation": "Standard Oil of Ohio incorporated January 10, 1870, with $1 million in capital\nCo-founded with brother William, Samuel Andrews, Henry Flagler, and Stephen Harkness\nControlled ~90% of U.S. oil refining by the late 1870s through aggressive acquisitions\nBroken up by the Supreme Court in 1911 under the Sherman Antitrust Act into 34 companies\nSpinoffs include ExxonMobil, Chevron, and BP America (Sohio)\nRockefeller is often cited as the richest American in history (inflation-adjusted wealth ~$400 billion)\nFounded the University of Chicago (1890) and Rockefeller Foundation (1913)",
+          "cardFront": "Standard Oil (1870, Cleveland)",
+          "cardBack": "John D. Rockefeller"
+        },
+        {
+          "id": "berkshire-hathaway",
+          "prompt": "Who took control of the struggling textile company Berkshire Hathaway in 1965 and transformed it into an investment conglomerate?",
+          "answer": "Warren Buffett",
+          "alternates": ["Buffett"],
+          "explanation": "Buffett began buying Berkshire shares in 1962 at $7.50/share through his investment partnership\nTook control May 10, 1965, originally out of spite after a lowball tender offer\nBerkshire Hathaway was a failing New England textile maker; last textile mill closed in 1985\nBuffett has called buying the textile company 'the biggest investment mistake' of his career\nClass A shares have never split; traded above $600,000/share by 2024\nOwns GEICO, BNSF Railway, Dairy Queen, See's Candies, and large stakes in Apple and Coca-Cola\nBuffett pledged to give away 99% of his wealth; annual shareholder letter is widely read",
+          "cardFront": "Berkshire Hathaway (1965 takeover)",
+          "cardBack": "Warren Buffett"
+        },
+        {
+          "id": "samsung",
+          "prompt": "Who founded Samsung as a trading company in Daegu, Korea, on March 1, 1938?",
+          "answer": "Lee Byung-chul",
+          "alternates": ["Lee Byung-chul", "Lee Byungchul", "Byung-chul Lee"],
+          "explanation": "Founded March 1, 1938, in Daegu, as a small trading company exporting dried fish and noodles\nSamsung means 'three stars' in Korean, symbolizing something big, numerous, and powerful\nDiversified into textiles, insurance, securities, and retail over the next three decades\nEntered electronics in the late 1960s; Samsung Electronics established in 1969\nNow the world's largest manufacturer of smartphones and memory chips\nThe Lee family has controlled Samsung through a complex cross-shareholding structure\nLee Byung-chul died in 1987; son Lee Kun-hee led the company until his death in 2020",
+          "cardFront": "Samsung (1938, Daegu, Korea)",
+          "cardBack": "Lee Byung-chul"
+        },
+        {
+          "id": "sony",
+          "prompt": "Who co-founded Tokyo Tsushin Kogyo (later Sony) with Masaru Ibuka in 1946?",
+          "answer": "Akio Morita",
+          "alternates": ["Morita", "Masaru Ibuka", "Ibuka"],
+          "explanation": "Founded May 7, 1946, as Tokyo Tsushin Kogyo (Tokyo Telecommunications Engineering Corp.)\nCo-founded by Masaru Ibuka and Akio Morita; they met in a wartime navy research group\nStarted in a bombed-out department store in Tokyo with about 20 employees\nBuilt Japan's first tape recorder (Type-G) and first transistor radio (TR-55, 1955)\nRenamed Sony Corporation in 1958; name from Latin 'sonus' (sound) and English 'sonny'\nWalkman (1979) created the portable music category and sold 200+ million units\nMorita's heir to a sake-brewing dynasty; Ibuka was the engineer, Morita the marketer",
+          "cardFront": "Sony (1946, Tokyo)",
+          "cardBack": "Akio Morita"
+        }
+      ]
+    }
+  ]
+}

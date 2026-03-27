@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "pop-music/iconic-artists", "parentId": "pop-music", "name": "Iconic Artists", "description": "Legendary musicians and their signature songs" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/iconic-artists/signature-songs",
+      "nodeId": "pop-music/iconic-artists",
+      "name": "Iconic Artists \u2014 Signature Songs",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "elvis",
+          "prompt": "Which artist, known as the 'King of Rock and Roll,' released 'Hound Dog' and 'Jailhouse Rock' in the 1950s?",
+          "answer": "Elvis Presley",
+          "alternates": ["Elvis", "Presley"],
+          "explanation": "Singer, musician, actor (1935\u20131977)\nDubbed the 'King of Rock and Roll' \u2014 brought Black rhythm-and-blues to white mainstream audiences in the 1950s\nHad 18 #1 singles on the Billboard Hot 100, including 'Heartbreak Hotel,' 'Hound Dog,' and 'Jailhouse Rock'\nGraceland in Memphis is the second-most-visited private home in the U.S. after the White House\nServed in the U.S. Army in Germany (1958\u20131960), where he met wife Priscilla\nDied at age 42 at Graceland; medical examiner cited cardiac arrhythmia\nFirst rock-and-roll artist inducted into the Rock & Roll Hall of Fame (1986, charter class)",
+          "cardFront": "'Hound Dog' / 'Jailhouse Rock'",
+          "cardBack": "Elvis Presley"
+        },
+        {
+          "id": "beatles",
+          "prompt": "Which band released 'Hey Jude' in 1968 and 'Let It Be' in 1970, becoming the best-selling music act of all time?",
+          "answer": "The Beatles",
+          "alternates": ["Beatles"],
+          "explanation": "English rock band active 1960\u20131970: Lennon, McCartney, Harrison, Starr\nBest-selling music act of all time with estimated 600 million units sold worldwide\n20 #1 singles on the Billboard Hot 100 \u2014 more than any other act\nLed the 'British Invasion' of the U.S. in 1964 with their Ed Sullivan Show appearance (73 million viewers)\nPioneered studio experimentation on *Sgt. Pepper's Lonely Hearts Club Band* (1967)\nBroke up in 1970; Lennon was murdered in New York City on December 8, 1980\nAll four members were appointed MBE by Queen Elizabeth II in 1965",
+          "cardFront": "'Hey Jude' / *Abbey Road*",
+          "cardBack": "The Beatles"
+        },
+        {
+          "id": "michael-jackson",
+          "prompt": "Which artist released the album *Thriller* in 1982, which became the best-selling album of all time?",
+          "answer": "Michael Jackson",
+          "alternates": ["Jackson", "MJ"],
+          "explanation": "Singer, songwriter, dancer (1958\u20132009), known as the 'King of Pop'\n*Thriller* (1982) is the best-selling album of all time with 70+ million copies sold\nInvented the moonwalk, first performed on *Motown 25* TV special in 1983\nStarted as lead singer of the Jackson 5 at age 11; first solo #1 at age 13\n13 #1 singles as a solo artist on the Billboard Hot 100\nDied at age 50 from cardiac arrest caused by propofol administered by his personal physician\nSuper Bowl XXVII halftime show (1993) established the modern mega-halftime format",
+          "cardFront": "*Thriller* (1982)",
+          "cardBack": "Michael Jackson"
+        },
+        {
+          "id": "madonna",
+          "prompt": "Which artist released 'Like a Virgin' in 1984 and 'Vogue' in 1990, becoming the best-selling female recording artist of the 20th century?",
+          "answer": "Madonna",
+          "alternates": ["Madonna Louise Ciccone"],
+          "explanation": "Singer, actress, businesswoman (b. 1958), known as the 'Queen of Pop'\nBest-selling female recording artist of all time with 300+ million records sold\n'Like a Virgin' (1984) spent six weeks at #1 and became a cultural lightning rod\nHeld the record for most #1 hits by a female artist on the Billboard Hot 100 (12) until surpassed\nConstantly reinvented her image \u2014 from 'Material Girl' to Kabbalah to electronica\nDirected two feature films: *Filth and Wisdom* (2008) and *W.E.* (2011)\nInducted into the Rock & Roll Hall of Fame in 2008",
+          "cardFront": "'Like a Virgin' / 'Vogue'",
+          "cardBack": "Madonna"
+        },
+        {
+          "id": "prince",
+          "prompt": "Which artist released 'Purple Rain' in 1984 and was known for playing virtually every instrument on his recordings?",
+          "answer": "Prince",
+          "alternates": ["Prince Rogers Nelson", "The Artist Formerly Known as Prince"],
+          "explanation": "Singer, multi-instrumentalist, producer (1958\u20132016)\n*Purple Rain* (1984) \u2014 both album and film \u2014 spent 24 weeks at #1 on the Billboard 200\nPlayed 27 instruments on his debut album *For You* (1978); recorded most of his albums nearly solo\nChanged his name to an unpronounceable symbol (1993\u20132000) in a dispute with Warner Bros. over master recordings\nGuitar virtuoso: his solo on 'While My Guitar Gently Weeps' at the 2004 Rock Hall induction is legendary\nDied at age 57 from an accidental fentanyl overdose at Paisley Park, his Minnesota studio compound\nWon 7 Grammys and an Academy Award for Best Original Song Score (*Purple Rain*)",
+          "cardFront": "'Purple Rain' (1984)",
+          "cardBack": "Prince"
+        },
+        {
+          "id": "david-bowie",
+          "prompt": "Which artist released 'Space Oddity' in 1969 and created the alter ego Ziggy Stardust?",
+          "answer": "David Bowie",
+          "alternates": ["Bowie"],
+          "explanation": "Singer, songwriter, actor (1947\u20132016), born David Robert Jones\nCreated the glam-rock alter ego Ziggy Stardust for *The Rise and Fall of Ziggy Stardust and the Spiders from Mars* (1972)\n'Space Oddity' released five days before the Apollo 11 moon landing in July 1969\nReinvented his persona repeatedly: Ziggy Stardust, Aladdin Sane, the Thin White Duke\nStarred in films including *The Man Who Fell to Earth* (1976) and *Labyrinth* (1986)\nHis Berlin Trilogy with Brian Eno (*Low*, *Heroes*, *Lodger*) pioneered art-rock and ambient music\nReleased final album *Blackstar* two days before his death from liver cancer; it debuted at #1",
+          "cardFront": "'Space Oddity' / Ziggy Stardust",
+          "cardBack": "David Bowie"
+        },
+        {
+          "id": "stevie-wonder",
+          "prompt": "Which Motown artist released 'Superstition' in 1972 and signed his first record deal at age 11?",
+          "answer": "Stevie Wonder",
+          "alternates": ["Wonder", "Stevland Hardaway Morris", "Little Stevie Wonder"],
+          "explanation": "Singer, songwriter, multi-instrumentalist (b. 1950), blind since shortly after birth\nSigned with Motown's Tamla label at age 11 as 'Little Stevie Wonder'; first #1 hit at age 13\nWon 25 Grammys \u2014 most by a solo artist at the time; three consecutive Album of the Year wins (1973\u20131976)\n'Superstition' (1972) hit #1 and featured his signature clavinet riff\nNegotiated unprecedented creative control from Motown at age 21 with *Music of My Mind* (1972)\nKey campaigner for making Martin Luther King Jr. Day a federal holiday (signed into law 1983)\nPlays harmonica, piano, synthesizer, drums, and bass; largely self-taught on all instruments",
+          "cardFront": "'Superstition' / *Songs in the Key of Life*",
+          "cardBack": "Stevie Wonder"
+        },
+        {
+          "id": "aretha-franklin",
+          "prompt": "Which artist, known as the 'Queen of Soul,' recorded 'Respect' in 1967?",
+          "answer": "Aretha Franklin",
+          "alternates": ["Aretha", "Franklin"],
+          "explanation": "Singer, songwriter, pianist (1942\u20132018), known as the 'Queen of Soul'\n'Respect' (1967) \u2014 originally an Otis Redding song \u2014 became a feminist and civil rights anthem\nFirst woman inducted into the Rock & Roll Hall of Fame (1987)\n18 Grammy Awards including the first eight Grammys ever given for Best Female R&B Vocal Performance\nSang at the inaugurations of Jimmy Carter, Bill Clinton, and Barack Obama\nDaughter of celebrity Baptist minister C.L. Franklin; began singing in his Detroit church as a child\nRolling Stone ranked her #1 on its list of the 100 Greatest Singers of All Time (2008, 2023)",
+          "cardFront": "'Respect' (1967)",
+          "cardBack": "Aretha Franklin"
+        },
+        {
+          "id": "bob-dylan",
+          "prompt": "Which artist released 'Blowin' in the Wind' in 1963 and won the Nobel Prize in Literature in 2016?",
+          "answer": "Bob Dylan",
+          "alternates": ["Dylan", "Robert Zimmerman"],
+          "explanation": "Singer-songwriter (b. 1941), born Robert Allen Zimmerman in Duluth, Minnesota\nWon the 2016 Nobel Prize in Literature 'for having created new poetic expressions within the great American song tradition'\n'Blowin' in the Wind' (1963) and 'The Times They Are a-Changin'' (1964) became civil rights anthems\nShocked the folk world by going electric at the 1965 Newport Folk Festival\n*Highway 61 Revisited* (1965) and *Blonde on Blonde* (1966) redefined rock lyricism\nTook his stage name from the poet Dylan Thomas\nHas released 39 studio albums across seven decades; still actively touring",
+          "cardFront": "'Blowin' in the Wind' / Nobel Prize",
+          "cardBack": "Bob Dylan"
+        },
+        {
+          "id": "led-zeppelin",
+          "prompt": "Which band released 'Stairway to Heaven' and the album *Led Zeppelin IV* in 1971?",
+          "answer": "Led Zeppelin",
+          "alternates": ["Zeppelin", "Led Zep"],
+          "explanation": "English rock band active 1968\u20131980: Page, Plant, Jones, Bonham\n'Stairway to Heaven' (1971) is the most-requested song in FM radio history, though never released as a single\nEstimated 300 million albums sold worldwide; one of the best-selling music acts of all time\nPioneered hard rock and heavy metal while drawing on blues, folk, and Eastern music\nRefused to release singles in the UK, insisting albums be heard as complete works\nDisbanded in 1980 after drummer John Bonham's death from alcohol-related asphyxiation at age 32\nTheir untitled fourth album (commonly called *Led Zeppelin IV* or *Zoso*) has sold 37+ million copies",
+          "cardFront": "'Stairway to Heaven' / *IV*",
+          "cardBack": "Led Zeppelin"
+        },
+        {
+          "id": "nirvana",
+          "prompt": "Which band released 'Smells Like Teen Spirit' in 1991, spearheading the grunge movement?",
+          "answer": "Nirvana",
+          "alternates": [],
+          "explanation": "American rock band formed in Aberdeen, Washington, 1987: Cobain, Novoselic, Grohl\n'Smells Like Teen Spirit' (1991) from *Nevermind* knocked Michael Jackson off #1 and launched grunge into the mainstream\n*Nevermind* has sold 30+ million copies; its baby-in-a-pool cover is one of the most iconic album covers ever\nKurt Cobain became the reluctant voice of Generation X\nTheir raw, lo-fi aesthetic on *In Utero* (1993) was a deliberate rejection of *Nevermind*'s polished sound\nCobain died by suicide on April 5, 1994, at age 27, joining the '27 Club'\nDrummer Dave Grohl went on to found Foo Fighters, one of the biggest rock bands of the next three decades",
+          "cardFront": "'Smells Like Teen Spirit' / *Nevermind*",
+          "cardBack": "Nirvana"
+        },
+        {
+          "id": "radiohead",
+          "prompt": "Which band released *OK Computer* in 1997 and pioneered the pay-what-you-want model with *In Rainbows*?",
+          "answer": "Radiohead",
+          "alternates": [],
+          "explanation": "English rock band formed in Abingdon, Oxfordshire, 1985: Yorke, Greenwood, Greenwood, O'Brien, Selway\n*OK Computer* (1997) explored alienation and technology; widely regarded as one of the greatest albums of all time\n*Kid A* (2000) abandoned guitar rock for electronic and avant-garde textures \u2014 debuted at #1 in 21 countries\nReleased *In Rainbows* (2007) as a pay-what-you-want download, upending music industry distribution\nThom Yorke's falsetto and the band's layered arrangements became hugely influential on 2000s alternative rock\nAll five members met at Abingdon School; original name was On a Friday\nNominated for 18 Grammys, winning three",
+          "cardFront": "*OK Computer* / *In Rainbows*",
+          "cardBack": "Radiohead"
+        },
+        {
+          "id": "beyonce",
+          "prompt": "Which artist released *Lemonade* in 2016 and is the most-awarded artist in Grammy history?",
+          "answer": "Beyonc\u00e9",
+          "alternates": ["Beyonce", "Beyonce Knowles", "Beyonc\u00e9 Knowles-Carter"],
+          "explanation": "Singer, songwriter, actress, businesswoman (b. 1981), from Houston, Texas\nMost Grammy wins of all time with 32 awards (surpassed Georg Solti's 31 in 2023)\nRose to fame as lead singer of Destiny's Child; went solo with *Dangerously in Love* (2003)\n*Lemonade* (2016) was a surprise visual album exploring Black womanhood, infidelity, and resilience\n*Renaissance* (2022) topped charts in 30+ countries and celebrated Black and queer dance music history\nSuper Bowl 50 halftime (2016): performed 'Formation' with Black Panther\u2013referencing choreography\n*Cowboy Carter* (2024) debuted at #1 on the Billboard 200 and Country Albums chart simultaneously",
+          "cardFront": "*Lemonade* / Most Grammy wins ever",
+          "cardBack": "Beyonc\u00e9"
+        },
+        {
+          "id": "jimi-hendrix",
+          "prompt": "Which guitarist performed a legendary rendition of 'The Star-Spangled Banner' at Woodstock in 1969?",
+          "answer": "Jimi Hendrix",
+          "alternates": ["Hendrix", "James Marshall Hendrix"],
+          "explanation": "Guitarist, singer, songwriter (1942\u20131970), widely regarded as the greatest electric guitarist of all time\nHis Woodstock performance of 'The Star-Spangled Banner' (1969) used feedback and distortion to evoke the Vietnam War\nReleased only three studio albums: *Are You Experienced* (1967), *Axis: Bold as Love* (1967), *Electric Ladyland* (1968)\nWas left-handed but played a right-handed Fender Stratocaster flipped upside down and restrung\nPioneered the use of feedback, wah-wah pedal, and the fuzz tone as musical elements rather than defects\nDied in London at age 27 from asphyxia after ingesting barbiturates \u2014 a member of the '27 Club'\nInducted into the Rock & Roll Hall of Fame in 1992; ranked #1 guitarist by Rolling Stone",
+          "cardFront": "Woodstock 'Star-Spangled Banner' / *Are You Experienced*",
+          "cardBack": "Jimi Hendrix"
+        },
+        {
+          "id": "whitney-houston",
+          "prompt": "Which artist's rendition of 'I Will Always Love You' from *The Bodyguard* soundtrack became one of the best-selling singles of all time?",
+          "answer": "Whitney Houston",
+          "alternates": ["Whitney", "Houston"],
+          "explanation": "Singer, actress (1963\u20132012), known as 'The Voice'\n'I Will Always Love You' (1992) \u2014 originally a Dolly Parton song \u2014 spent 14 weeks at #1, the longest run for a female artist at the time\nFirst artist to chart seven consecutive #1 singles on the Billboard Hot 100 (1985\u20131988)\n*The Bodyguard* soundtrack sold 45+ million copies, making it the best-selling soundtrack of all time\nDaughter of gospel singer Cissy Houston and cousin of Dionne Warwick\nWon six Grammys, including Record of the Year for 'I Will Always Love You'\nDrowned in a hotel bathtub in Beverly Hills at age 48; cocaine and heart disease were contributing factors",
+          "cardFront": "'I Will Always Love You' / *The Bodyguard*",
+          "cardBack": "Whitney Houston"
+        },
+        {
+          "id": "marvin-gaye",
+          "prompt": "Which Motown artist released the concept album *What's Going On* in 1971, addressing war and social injustice?",
+          "answer": "Marvin Gaye",
+          "alternates": ["Gaye", "Marvin Pentz Gay Jr."],
+          "explanation": "Singer, songwriter, producer (1939\u20131984), known as the 'Prince of Motown'\n*What's Going On* (1971) addressed Vietnam, ecology, and poverty \u2014 a landmark in socially conscious pop music\n'Let's Get It On' (1973) and 'Sexual Healing' (1982) established him as a master of romantic soul\nMotown initially refused to release *What's Going On*; Berry Gordy relented, and it became a massive hit\n'I Heard It Through the Grapevine' (1968) was Motown's biggest-selling single at the time\nShot and killed by his father, Marvin Gay Sr., on April 1, 1984 \u2014 the day before his 45th birthday\nThe shooting followed a domestic argument; his father received a suspended sentence after a plea deal",
+          "cardFront": "*What's Going On* (1971)",
+          "cardBack": "Marvin Gaye"
+        },
+        {
+          "id": "elton-john",
+          "prompt": "Which artist performed 'Candle in the Wind' at Princess Diana's funeral in 1997, producing the best-selling single in UK chart history?",
+          "answer": "Elton John",
+          "alternates": ["Elton", "Reginald Dwight"],
+          "explanation": "Singer, pianist, composer (b. 1947), born Reginald Kenneth Dwight\n'Candle in the Wind 1997' sold 33+ million copies, making it the best-selling physical single of all time\nLongtime songwriting partnership with lyricist Bernie Taupin, beginning in 1967 via a shared audition\nComposed the music for Disney's *The Lion King* (1994), winning the Academy Award for 'Can You Feel the Love Tonight'\nOver 300 million records sold; five #1 albums on the Billboard 200\nKnighted in 1998; became Sir Elton Hercules John, CBE\nFarewell Yellow Brick Road tour (2018\u20132023) grossed $939 million, the highest-grossing tour of all time at its conclusion",
+          "cardFront": "'Candle in the Wind' / *Goodbye Yellow Brick Road*",
+          "cardBack": "Elton John"
+        },
+        {
+          "id": "fleetwood-mac",
+          "prompt": "Which band released *Rumours* in 1977, recorded while its members were going through romantic breakups with each other?",
+          "answer": "Fleetwood Mac",
+          "alternates": ["Fleetwood"],
+          "explanation": "British-American rock band formed in London, 1967; classic lineup: Buckingham, Nicks, C. McVie, J. McVie, Fleetwood\n*Rumours* (1977) has sold 40+ million copies; recorded during simultaneous breakups between couples in the band\nSpent 31 weeks at #1 on the Billboard 200 and won the Grammy for Album of the Year (1978)\nOriginally a British blues band led by Peter Green; completely reinvented after Buckingham and Nicks joined in 1975\n'Dreams' became the band's only #1 single; went viral again in 2020 via a TikTok skateboarding video\nStevie Nicks was inducted into the Rock Hall both as a member of Fleetwood Mac (1998) and as a solo artist (2019)\nBand name combines the surnames of drummer Mick Fleetwood and bassist John McVie",
+          "cardFront": "*Rumours* (1977)",
+          "cardBack": "Fleetwood Mac"
+        },
+        {
+          "id": "pink-floyd",
+          "prompt": "Which band released *The Dark Side of the Moon* in 1973, the album that spent over 900 weeks on the Billboard 200?",
+          "answer": "Pink Floyd",
+          "alternates": ["Floyd"],
+          "explanation": "English rock band formed in London, 1965: Barrett, Waters, Gilmour, Wright, Mason\n*The Dark Side of the Moon* (1973) spent 917+ weeks on the Billboard 200 \u2014 longest chart run of any album ever\n*The Wall* (1979) produced 'Another Brick in the Wall (Part 2),' their only #1 single\nPioneered concept albums, quadraphonic sound, and elaborate live shows with inflatables and projection\nOriginal frontman Syd Barrett left in 1968 due to mental illness, inspiring the albums *Wish You Were Here* and *The Wall*\nThe prism cover art of *The Dark Side of the Moon*, designed by Storm Thorgerson, is one of the most recognized album covers ever\nRoger Waters and David Gilmour's feud split the band; they reunited briefly for Live 8 in 2005",
+          "cardFront": "*The Dark Side of the Moon* (1973)",
+          "cardBack": "Pink Floyd"
+        },
+        {
+          "id": "bob-marley",
+          "prompt": "Which Jamaican artist released 'No Woman, No Cry' and brought reggae music to a worldwide audience?",
+          "answer": "Bob Marley",
+          "alternates": ["Marley", "Robert Nesta Marley"],
+          "explanation": "Singer, songwriter, guitarist (1945\u20131981), born in Nine Mile, Jamaica\nBrought reggae to the global mainstream as frontman of Bob Marley and the Wailers\n*Legend* (1984), a posthumous compilation, is the best-selling reggae album of all time (25+ million copies)\nDevout Rastafarian whose music fused reggae with messages of Pan-Africanism and social justice\nShot in a politically motivated assassination attempt at his Kingston home in 1976; performed two days later\nDied at age 36 from acral lentiginous melanoma that spread from under his toenail\nReceived a state funeral in Jamaica attended by both the prime minister and the opposition leader",
+          "cardFront": "'No Woman, No Cry' / *Legend*",
+          "cardBack": "Bob Marley"
+        }
+      ]
+    }
+  ]
+}

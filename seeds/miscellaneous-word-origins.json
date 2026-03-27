@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "miscellaneous/word-origins", "parentId": "miscellaneous", "name": "Word Origins", "description": "English words borrowed from other languages" }
+  ],
+  "exercises": [
+    {
+      "id": "miscellaneous/word-origins/etymologies",
+      "nodeId": "miscellaneous/word-origins",
+      "name": "Word Origins \u2014 Etymologies",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "algorithm",
+          "prompt": "What language gives us the word 'algorithm,' named after the 9th-century mathematician al-Khwarizmi?",
+          "answer": "Arabic",
+          "alternates": [],
+          "explanation": "From the Latinized name 'Algoritmi,' derived from Muhammad ibn Musa al-Khwarizmi\nAl-Khwarizmi was a Persian scholar working in Baghdad's House of Wisdom (~820 AD)\nHis book on Hindu-Arabic numerals was translated into Latin as Algoritmi de numero Indorum\nThe Latin text begins 'Dixit Algorismi' ('Thus spoke al-Khwarizmi'), giving us the English word\nAl-Khwarizmi also wrote the foundational algebra text Kitab al-Jabr, giving us the word 'algebra'\nHis name means 'the native of Khwarezm' (modern Khiva, Uzbekistan)\nThe word now describes any step-by-step computational procedure",
+          "cardFront": "Algorithm",
+          "cardBack": "Arabic"
+        },
+        {
+          "id": "tsunami",
+          "prompt": "From which language does the word 'tsunami' come, meaning 'harbor wave'?",
+          "answer": "Japanese",
+          "alternates": [],
+          "explanation": "From Japanese tsu (\u6d25, 'harbor') + nami (\u6ce2, 'wave')\nFishermen returning to port would find the harbor devastated despite calm seas offshore\nEntered English usage after the 1896 Meiji Sanriku earthquake and tsunami\nThe 2004 Indian Ocean tsunami killed ~230,000 people across 14 countries and made the word universally known\nBefore 'tsunami,' English used 'tidal wave,' though tsunamis are unrelated to tides\nCaused by undersea earthquakes, volcanic eruptions, or landslides displacing water\nJapan's Pacific coastline makes it especially vulnerable; the country has extensive early-warning systems",
+          "cardFront": "Tsunami",
+          "cardBack": "Japanese"
+        },
+        {
+          "id": "kindergarten",
+          "prompt": "From which language does the word 'kindergarten' come, literally meaning 'children's garden'?",
+          "answer": "German",
+          "alternates": [],
+          "explanation": "From German Kinder ('children') + Garten ('garden')\nCoined in 1840 by Friedrich Fr\u00f6bel, a German education reformer\nFr\u00f6bel opened his first school in 1837 in Blankenburg, Germany, initially called 'The Institution for Play and Occupation'\nHe likened children to plants that need nurturing in a garden-like environment\nFr\u00f6bel's educational philosophy emphasized guided play and structured activities\nThe first U.S. kindergarten was opened in Watertown, Wisconsin, in 1856 by Margarethe Schurz\nThe word entered English unchanged, preserving the German compound noun structure",
+          "cardFront": "Kindergarten",
+          "cardBack": "German"
+        },
+        {
+          "id": "safari",
+          "prompt": "From which language does the word 'safari' come, originally meaning 'journey'?",
+          "answer": "Swahili",
+          "alternates": ["Arabic"],
+          "explanation": "From Swahili safari meaning 'journey,' itself from Arabic safar (\u0633\u0641\u0631) meaning 'travel' or 'trip'\nArab traders brought the word to the East African coast through centuries of trade\nEntered English in the late 1850s, popularized by explorer Richard Francis Burton\nOriginally referred to any long overland journey in East Africa, not just wildlife viewing\nThe verb 'to travel' in Swahili is kusafiri, from the same Arabic root\nModern usage narrowed to mean a wildlife-viewing expedition, especially in Kenya and Tanzania\nApple's web browser Safari (2003) borrowed the word for its connotation of exploration",
+          "cardFront": "Safari",
+          "cardBack": "Swahili"
+        },
+        {
+          "id": "robot",
+          "prompt": "From which language does the word 'robot' come, introduced in a 1920 science-fiction play?",
+          "answer": "Czech",
+          "alternates": [],
+          "explanation": "Introduced in Karel \u010capek's 1920 play R.U.R. (Rossum's Universal Robots)\nFrom Czech robota meaning 'forced labor' or 'drudgery,' from rab ('slave')\nKarel \u010capek credited his brother Josef with actually coining the word\n\u010capek originally wanted to call them 'labo\u0159i' (from Latin labor) but found it too artificial\nThe play premiered January 2, 1921, in Hradec Kr\u00e1lov\u00e9; translated into 30 languages by 1923\nIn the play, the robots are biological, not mechanical \u2014 closer to modern clones or androids\nThe word displaced older terms like 'automaton' and 'android' in languages worldwide",
+          "cardFront": "Robot",
+          "cardBack": "Czech"
+        },
+        {
+          "id": "shampoo",
+          "prompt": "From which language does the word 'shampoo' come, originally meaning 'to press or knead'?",
+          "answer": "Hindi",
+          "alternates": ["Hindustani", "Urdu"],
+          "explanation": "From Hindi ch\u0101mpo (\u091a\u093e\u0901\u092a\u094b), imperative of ch\u0101mpn\u0101 ('to press, knead the muscles')\nUltimately from Sanskrit chapati (\u091a\u092a\u0924\u093f) meaning 'to press or knead'\nEntered English around 1762 during the British colonial era in India\nOriginally referred to a therapeutic head-and-body massage, not hair washing\nThe meaning shifted to 'lather and wash the hair' by the 1860s\nBritish traders encountered the champi massage in Indian bathhouses and adopted the word\nSake Dean Mahomed, an Indian traveler, opened shampooing baths in Brighton, England, in 1814",
+          "cardFront": "Shampoo",
+          "cardBack": "Hindi"
+        },
+        {
+          "id": "ketchup",
+          "prompt": "From which language family does the word 'ketchup' ultimately derive, referring to a fermented fish sauce?",
+          "answer": "Chinese",
+          "alternates": ["Hokkien", "Malay"],
+          "explanation": "From Hokkien Chinese k\u00ea-tsi\u00e1p or k\u00f4e-chiap meaning 'preserved fish sauce'\nPassed through Malay as kicap/kecap before reaching English in the early 18th century\nOriginal ketchup was a thin, dark fish sauce \u2014 nothing like modern tomato ketchup\nBritish merchant Charles Lockyer described acquiring ketchup in Asia in 1711\nTomatoes were added to the recipe in the U.S. in the early 19th century\nHeinz began selling tomato ketchup in 1876, eventually dominating the market\nIn Indonesia, kecap manis (sweet soy sauce) preserves the original Malay spelling",
+          "cardFront": "Ketchup",
+          "cardBack": "Chinese"
+        },
+        {
+          "id": "typhoon",
+          "prompt": "The word 'typhoon' has a complex origin, blending Greek, Arabic, and which Asian language?",
+          "answer": "Chinese",
+          "alternates": ["Cantonese"],
+          "explanation": "A convergence of three etymological streams: Greek, Arabic, and Chinese\nCantonese taaifung (\u5927\u98a8, 'big wind') was heard by European sailors in the 16th\u201318th centuries\nArabic t\u016bf\u0101n (\u0637\u0648\u0641\u0627\u0646, 'flood/deluge') appears in two passages of the Quran\nGreek Typhon was a mythological storm giant, father of the winds\nPortuguese tuf\u00e3o (attested by 1560) was the first European form of the word\nThe modern English spelling 'typhoon' first appeared in Shelley's Prometheus Unbound (1819)\nThe three unrelated words converged by coincidence into a single English term",
+          "cardFront": "Typhoon",
+          "cardBack": "Chinese"
+        },
+        {
+          "id": "yogurt",
+          "prompt": "From which language does the word 'yogurt' come?",
+          "answer": "Turkish",
+          "alternates": [],
+          "explanation": "From Turkish yo\u011furt, related to the verb yo\u011furmak ('to knead' or 'to be curdled')\nFermented milk products have been made in Central Asia and the Middle East for thousands of years\nGenghis Khan's armies are said to have subsisted partly on fermented mare's milk\nThe first industrialized production of yogurt began in Barcelona in 1919 by Isaac Carasso (Danone)\nStamen Grigorov, a Bulgarian physician, identified Lactobacillus bulgaricus in yogurt in 1905\nThe spelling varies widely: yogurt (U.S.), yoghurt (UK), yaourt (French), jogurt (German)\nTurkish cuisine uses yogurt in both savory dishes (cacik, iskender) and drinks (ayran)",
+          "cardFront": "Yogurt",
+          "cardBack": "Turkish"
+        },
+        {
+          "id": "algebra",
+          "prompt": "From which language does the word 'algebra' come, meaning 'the reunion of broken parts'?",
+          "answer": "Arabic",
+          "alternates": [],
+          "explanation": "From Arabic al-jabr (\u0627\u0644\u062c\u0628\u0631), meaning 'the restoration' or 'reunion of broken parts'\nTitle of al-Khwarizmi's ~820 AD book Kitab al-Jabr wa-l-Muqabala\nThe same mathematician whose name gave us 'algorithm'\nAl-jabr originally referred to a specific operation: moving a subtracted term to the other side of an equation\nThe book was translated into Latin by Robert of Chester in 1145, spreading algebra to Europe\nAl-Khwarizmi's work synthesized Greek, Indian, and Babylonian mathematical traditions\nThe word entered English via Medieval Latin and Old Spanish algebrista (also a bone-setter)",
+          "cardFront": "Algebra",
+          "cardBack": "Arabic"
+        },
+        {
+          "id": "sofa",
+          "prompt": "From which language does the word 'sofa' come, originally meaning a raised platform with cushions?",
+          "answer": "Arabic",
+          "alternates": [],
+          "explanation": "From Arabic suffa (\u0635\u064f\u0641\u0651\u0629), meaning a raised platform or bench covered with cushions and rugs\nThe Ahl al-Suffa ('People of the Bench') were companions of the Prophet Muhammad who lived on a raised platform in his mosque\nEntered European languages in the 17th century via Turkish, as the Ottoman Empire influenced European furnishings\nOriginally referred to a part of the floor raised a foot or two, covered with rich carpets and cushions\nThe modern meaning of an upholstered seat with a back and arms developed in the 18th century\nThe related word 'divan' also came from Arabic/Persian/Turkish into European languages\nFrench adopted 'sofa' by 1657; English followed by 1625",
+          "cardFront": "Sofa",
+          "cardBack": "Arabic"
+        },
+        {
+          "id": "chocolate",
+          "prompt": "From which indigenous American language does the word 'chocolate' derive?",
+          "answer": "Nahuatl",
+          "alternates": ["Aztec"],
+          "explanation": "Likely from Nahuatl chocolatl or chicolati, meaning 'chocolate beverage'\nThe exact etymology is debated; possibly from 'bitter water' (xococ + atl) or 'cacao-beater' (chicol + atl)\nThe Aztecs drank chocolate as a cold, bitter, frothy beverage spiced with chili and vanilla\nCacao beans were so valuable the Aztecs used them as currency\nSpanish conquistadors brought chocolate to Europe after encountering it in Mexico around 1519\nThe addition of sugar by the Spanish transformed it into a sweet drink, then a solid confection\nTheobroma cacao, the scientific name for the cacao tree, means 'food of the gods' in Greek",
+          "cardFront": "Chocolate",
+          "cardBack": "Nahuatl"
+        },
+        {
+          "id": "piano",
+          "prompt": "From which language does the word 'piano' come, short for 'pianoforte' meaning 'soft-loud'?",
+          "answer": "Italian",
+          "alternates": [],
+          "explanation": "Short for pianoforte, from Italian piano ('soft') + forte ('loud')\nNamed for its ability to vary volume based on how hard the keys are struck\nThe first piano was built around 1700 by Bartolomeo Cristofori in Florence, Italy\nCristofori called it gravicembalo col piano e forte ('harpsichord with soft and loud')\nReplaced the harpsichord, which could not vary dynamics\nPiano and forte are also standard musical dynamics terms (p = soft, f = loud)\nThe musical meaning of piano derives from Latin planus ('flat, even, smooth')",
+          "cardFront": "Piano",
+          "cardBack": "Italian"
+        },
+        {
+          "id": "karate",
+          "prompt": "From which language does the word 'karate' come, meaning 'empty hand'?",
+          "answer": "Japanese",
+          "alternates": [],
+          "explanation": "From Japanese kara (\u7a7a, 'empty') + te (\u624b, 'hand')\nOriginally written with characters meaning 'Chinese hand' (\u5510\u624b), reflecting its Okinawan and Chinese roots\nGichin Funakoshi changed the characters to 'empty hand' in the 1930s to make it more acceptable in Japan\nDeveloped in the Ryukyu Kingdom (Okinawa) from indigenous fighting and Chinese kung fu influences\nBecame an Olympic sport at the 2020 Tokyo Games, though it was dropped for the 2024 Paris Games\nMajor styles include Shotokan, Goju-ryu, Shito-ryu, and Wado-ryu\nThe Karate Kid (1984) popularized the martial art in American culture; 'wax on, wax off' is iconic",
+          "cardFront": "Karate",
+          "cardBack": "Japanese"
+        },
+        {
+          "id": "guru",
+          "prompt": "From which ancient language does the word 'guru' come, meaning 'heavy' or 'weighty'?",
+          "answer": "Sanskrit",
+          "alternates": [],
+          "explanation": "From Sanskrit guru (\u0917\u0941\u0930\u0941) meaning 'heavy' or 'weighty,' implying gravitas and authority\nCognate with Latin gravis ('heavy, serious') and Greek barus ('heavy')\nA popular folk etymology splits it into gu ('darkness') + ru ('dispeller'), meaning 'dispeller of ignorance'\nIn Hinduism, Sikhism, and Buddhism, a guru is a spiritual teacher of highest importance\nThe concept of guru-shishya (teacher-disciple) tradition is central to Indian knowledge transmission\nEntered English by 1613; the modern informal sense of 'expert' developed in the 20th century\nSikh tradition reveres ten human gurus, from Guru Nanak (1469\u20131539) to Guru Gobind Singh (1666\u20131708)",
+          "cardFront": "Guru",
+          "cardBack": "Sanskrit"
+        }
+      ]
+    }
+  ]
+}

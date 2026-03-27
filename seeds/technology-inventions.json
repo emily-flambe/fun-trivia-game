@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "technology/inventions", "parentId": "technology", "name": "Inventions", "description": "Great inventions and the people behind them" }
+  ],
+  "exercises": [
+    {
+      "id": "technology/inventions/great-inventions",
+      "nodeId": "technology/inventions",
+      "name": "Great Inventions",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "telephone",
+          "prompt": "Who is credited with patenting the telephone in 1876?",
+          "answer": "Alexander Graham Bell",
+          "alternates": ["Bell", "Graham Bell", "A.G. Bell"],
+          "explanation": "Received U.S. patent No. 174,465 on March 7, 1876, for 'an apparatus for transmitting vocal sounds'\nFirst intelligible telephone call: 'Mr. Watson, come here. I want to see you.' (March 10, 1876)\nElisha Gray filed a patent caveat for a similar device the same day; priority dispute lasted years\nBorn in Edinburgh, Scotland; emigrated to Canada, then the U.S.\nAlso worked on the photophone (transmitted sound via light) and early metal detectors\nCo-founded the National Geographic Society in 1888\nAntonio Meucci is recognized by the U.S. Congress (2002) for earlier work on voice communication devices",
+          "cardFront": "Telephone (1876)",
+          "cardBack": "Alexander Graham Bell"
+        },
+        {
+          "id": "light-bulb",
+          "prompt": "Who developed the first commercially practical incandescent light bulb in 1879?",
+          "answer": "Thomas Edison",
+          "alternates": ["Edison", "Thomas Alva Edison"],
+          "explanation": "Demonstrated a carbon-filament bulb lasting 13.5 hours on October 21, 1879, at Menlo Park, NJ\nBy 1880, improved bamboo filaments lasted over 1,200 hours\nEdison did not 'invent' the light bulb from scratch; he improved on decades of prior work by Humphry Davy, Warren de la Rue, and Joseph Swan\nEstablished the first commercial power station, Pearl Street Station, in Manhattan (1882)\nHolds 1,093 U.S. patents, still the fourth-most prolific inventor in patent history\nMenlo Park earned him the nickname 'The Wizard of Menlo Park'\nFamous rivalry with Nikola Tesla over AC vs. DC current ('War of Currents')",
+          "cardFront": "Practical incandescent light bulb (1879)",
+          "cardBack": "Thomas Edison"
+        },
+        {
+          "id": "printing-press",
+          "prompt": "Who invented the movable-type printing press in Europe around 1440?",
+          "answer": "Johannes Gutenberg",
+          "alternates": ["Gutenberg", "Johann Gutenberg"],
+          "explanation": "Developed the movable-type printing press in Mainz, Germany, around 1440\nKey innovation was a hand mould for rapidly casting individual metal type pieces\nThe Gutenberg Bible (~1455) was the first major book printed with movable type in the West\nA single press could produce 3,600 pages per workday vs. 40 by hand-printing\nGutenberg was a goldsmith by trade; his metalworking skills were essential to the invention\nLost his press to investor Johann Fust in a lawsuit over unpaid debts\nChinese inventor Bi Sheng created movable type in the 11th century, but Gutenberg's system was independently developed and far more widely adopted",
+          "cardFront": "Movable-type printing press (~1440)",
+          "cardBack": "Johannes Gutenberg"
+        },
+        {
+          "id": "world-wide-web",
+          "prompt": "Who invented the World Wide Web while working at CERN in 1989?",
+          "answer": "Tim Berners-Lee",
+          "alternates": ["Berners-Lee", "Sir Tim Berners-Lee"],
+          "explanation": "Proposed the Web in a March 1989 paper titled 'Information Management: A Proposal'\nBuilt the first web browser, server, and website by December 1990 at CERN in Geneva\nThe first website described the World Wide Web project itself\nInvented HTML, HTTP, and URLs as the three pillars of the Web\nCERN released the Web software into the public domain on April 30, 1993, enabling its explosion\nKnighted by Queen Elizabeth II in 2004; holds the Order of Merit\nBritish computer scientist, born in London; both parents worked on the Ferranti Mark 1 computer",
+          "cardFront": "World Wide Web (1989)",
+          "cardBack": "Tim Berners-Lee"
+        },
+        {
+          "id": "airplane",
+          "prompt": "Which brothers achieved the first sustained, controlled, powered heavier-than-air flight on December 17, 1903?",
+          "answer": "Wright Brothers",
+          "alternates": ["Wright brothers", "Orville and Wilbur Wright", "Orville Wright", "Wilbur Wright"],
+          "explanation": "First flight at Kitty Hawk, North Carolina, December 17, 1903; Orville piloted\nThe first flight lasted 12 seconds and covered 120 feet; fourth flight that day went 852 feet in 59 seconds\nOwned a bicycle shop in Dayton, Ohio, which funded their aeronautical research\nNeither brother had a college degree or a pilot's license\nBuilt their own wind tunnel to test over 200 wing designs\nWilbur died of typhoid in 1912 at age 45; Orville lived until 1948\nTheir claim was contested by supporters of Samuel Langley, whose Aerodrome crashed into the Potomac nine days earlier",
+          "cardFront": "Powered airplane (1903)",
+          "cardBack": "Wright Brothers"
+        },
+        {
+          "id": "radio",
+          "prompt": "Which Italian inventor transmitted the first radio signals over a distance of 1.5 miles in 1895 and won the Nobel Prize in 1909?",
+          "answer": "Guglielmo Marconi",
+          "alternates": ["Marconi"],
+          "explanation": "Transmitted radio signals ~1.5 miles in 1895 near Bologna, Italy\nShared the 1909 Nobel Prize in Physics with Ferdinand Braun for wireless telegraphy\nSent the first transatlantic radio signal from Cornwall, England, to Newfoundland in December 1901\nThe U.S. Supreme Court (1943) invalidated Marconi's radio patent, restoring prior patents by Tesla, Lodge, and Stone\nNikola Tesla demonstrated radio principles earlier but a lab fire in 1895 destroyed his work\nMarconi's mother was Annie Jameson, heiress to the Jameson Irish whiskey family\nHeinrich Hertz proved the existence of radio waves in 1887, building on James Clerk Maxwell's theory",
+          "cardFront": "Radio (1895)",
+          "cardBack": "Guglielmo Marconi"
+        },
+        {
+          "id": "television",
+          "prompt": "Which American inventor demonstrated the first fully electronic television system on September 7, 1927, in San Francisco?",
+          "answer": "Philo Farnsworth",
+          "alternates": ["Farnsworth", "Philo T. Farnsworth"],
+          "explanation": "Demonstrated the first all-electronic TV image on September 7, 1927, in San Francisco\nHis image dissector camera tube transmitted a simple straight line as its first image\nConceived the basic idea at age 14 while plowing a potato field in Idaho\nScottish inventor John Logie Baird demonstrated a mechanical television on January 26, 1926\nFarnsworth fought a bitter patent war with RCA's Vladimir Zworykin; Farnsworth ultimately prevailed\nBy 1929 his system had no mechanical parts, unlike Baird's spinning-disc approach\nDied in 1971 at 64; largely uncelebrated during his lifetime compared to corporate rivals",
+          "cardFront": "Electronic television (1927)",
+          "cardBack": "Philo Farnsworth"
+        },
+        {
+          "id": "penicillin",
+          "prompt": "Who discovered penicillin in 1928 after noticing mold killing bacteria in a petri dish?",
+          "answer": "Alexander Fleming",
+          "alternates": ["Fleming"],
+          "explanation": "Discovered penicillin on September 28, 1928, at St. Mary's Hospital, London\nFound that Penicillium notatum mold inhibited Staphylococcus bacteria on a petri dish left out during vacation\nShared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain\nFlorey and Chain developed penicillin into a usable drug; mass production began during WWII\nPenicillin is estimated to have saved over 200 million lives since its introduction\nFleming warned about antibiotic resistance in his 1945 Nobel lecture\nScottish bacteriologist; served in the Royal Army Medical Corps in World War I",
+          "cardFront": "Penicillin (1928)",
+          "cardBack": "Alexander Fleming"
+        },
+        {
+          "id": "steam-engine",
+          "prompt": "Who radically improved the steam engine in 1765 by adding a separate condenser, powering the Industrial Revolution?",
+          "answer": "James Watt",
+          "alternates": ["Watt"],
+          "explanation": "Conceived the separate condenser in 1765 while repairing a model Newcomen engine at the University of Glasgow\nThe separate condenser eliminated the massive energy waste of Newcomen's design\nThomas Newcomen built the first practical steam engine in 1712 for pumping water from mines\nWatt's engine was commercialized through a partnership with Matthew Boulton starting in 1775\nThe unit of power 'watt' is named after him; he also coined 'horsepower' as a marketing term\nScottish inventor and mechanical engineer, born in Greenock\nHis patent expired in 1800, unleashing a wave of steam innovation including Trevithick's locomotive",
+          "cardFront": "Improved steam engine (1765)",
+          "cardBack": "James Watt"
+        },
+        {
+          "id": "dynamite",
+          "prompt": "Who invented dynamite in 1867 and used his fortune to establish a famous prize?",
+          "answer": "Alfred Nobel",
+          "alternates": ["Nobel"],
+          "explanation": "Patented dynamite in 1867 after discovering that nitroglycerin absorbed in diatomaceous earth was stable and safe to handle\nDynamite made blasting for construction and mining far safer than raw nitroglycerin\nA premature obituary in 1888 called him a 'merchant of death,' reportedly motivating the Nobel Prizes\nHis will endowed the Nobel Prizes (first awarded 1901) in physics, chemistry, medicine, literature, and peace\nSwedish chemist, engineer, and industrialist; held 355 patents\nOwned Bofors, a major arms manufacturer, which he redirected toward steel and chemical production\nDied December 10, 1896, in San Remo, Italy; Nobel Prizes are awarded on the anniversary of his death",
+          "cardFront": "Dynamite (1867)",
+          "cardBack": "Alfred Nobel"
+        },
+        {
+          "id": "photography",
+          "prompt": "Which French inventor publicly announced the daguerreotype photographic process in 1839?",
+          "answer": "Louis Daguerre",
+          "alternates": ["Daguerre", "Louis-Jacques-Mand\u00e9 Daguerre"],
+          "explanation": "The daguerreotype was publicly announced on August 19, 1839, as a gift 'free to the world' by the French government\nDaguerre's process required only minutes of exposure vs. hours for earlier methods\nJoseph Nic\u00e9phore Ni\u00e9pce took the first photograph (heliograph) around 1826\u20131827 with an 8-hour exposure\nNi\u00e9pce and Daguerre became partners in 1829; Ni\u00e9pce died in 1833 before the process was perfected\nDaguerre was originally a painter and theatrical set designer known for the Diorama in Paris\nThe daguerreotype produced a mirror-like image on a silver-coated copper plate\nWilliam Henry Fox Talbot independently invented the calotype (negative-positive) process in England",
+          "cardFront": "Daguerreotype photography (1839)",
+          "cardBack": "Louis Daguerre"
+        },
+        {
+          "id": "transistor",
+          "prompt": "Which three physicists at Bell Labs demonstrated the first transistor on December 23, 1947?",
+          "answer": "John Bardeen",
+          "alternates": ["Bardeen", "William Shockley", "Shockley", "Walter Brattain", "Brattain", "Bardeen, Brattain, and Shockley"],
+          "explanation": "First working transistor demonstrated December 23, 1947, at Bell Labs in Murray Hill, NJ\nInvented by John Bardeen, Walter Brattain, and William Shockley\nThe point-contact transistor used a germanium crystal with two gold contacts\nNamed 'transistor' by Bell Labs engineer John Pierce (trans + resistor)\nAll three shared the 1956 Nobel Prize in Physics\nBardeen is the only person to win two Nobel Prizes in Physics (also 1972, for superconductivity theory)\nShockley later founded Shockley Semiconductor in Palo Alto, seeding Silicon Valley; his employees left to start Fairchild Semiconductor",
+          "cardFront": "Transistor (1947)",
+          "cardBack": "John Bardeen"
+        },
+        {
+          "id": "smallpox-vaccine",
+          "prompt": "Who performed the first successful vaccination in 1796, inoculating a boy with cowpox to protect against smallpox?",
+          "answer": "Edward Jenner",
+          "alternates": ["Jenner"],
+          "explanation": "Inoculated 8-year-old James Phipps with cowpox on May 14, 1796, in Berkeley, Gloucestershire\nMaterial came from a cowpox sore on milkmaid Sarah Nelmes's hand\nWhen later exposed to smallpox, Phipps showed no sign of disease\nPublished results in 1798: An Inquiry into the Causes and Effects of the Variolae Vaccinae\nThe word 'vaccine' derives from Latin vacca ('cow'), a reference to Jenner's cowpox method\nSmallpox was declared eradicated by the WHO in 1980, the only human disease eliminated by vaccination\nEnglish country doctor; often called 'the father of immunology'",
+          "cardFront": "Smallpox vaccination (1796)",
+          "cardBack": "Edward Jenner"
+        },
+        {
+          "id": "cotton-gin",
+          "prompt": "Who invented the cotton gin in 1793, transforming Southern agriculture?",
+          "answer": "Eli Whitney",
+          "alternates": ["Whitney"],
+          "explanation": "Built the cotton gin in 1793 on a Georgia plantation; patented March 14, 1794\nThe machine separated cotton fibers from seeds, cleaning 50 lbs of cotton per day vs. 1 lb by hand\nU.S. cotton exports exploded from ~500,000 lbs (1793) to 93 million lbs (1810)\nParadoxically strengthened slavery by making cotton enormously profitable in the Deep South\nWhitney's patent was widely pirated; he earned almost nothing from the gin itself\nLater pioneered interchangeable parts in musket manufacturing for the U.S. government\nYale graduate; invented the cotton gin within months of arriving in the South",
+          "cardFront": "Cotton gin (1793)",
+          "cardBack": "Eli Whitney"
+        },
+        {
+          "id": "telegraph",
+          "prompt": "Who developed the electric telegraph and sent the first message, 'What hath God wrought,' on May 24, 1844?",
+          "answer": "Samuel Morse",
+          "alternates": ["Morse", "Samuel F.B. Morse"],
+          "explanation": "Sent the first telegraph message from Washington, D.C., to Baltimore on May 24, 1844\nThe message 'What hath God wrought' (Numbers 23:23) was sent from the U.S. Capitol\nAlfred Vail received the message in Baltimore and returned it successfully\nCo-developed Morse Code with Vail in 1838; dots and dashes represented letters\nMorse was originally a successful portrait painter before turning to invention\nCongress funded the Baltimore\u2013Washington line with a $30,000 appropriation in 1843\nThe telegraph revolutionized communication and enabled real-time news reporting and stock trading",
+          "cardFront": "Electric telegraph (1844)",
+          "cardBack": "Samuel Morse"
+        }
+      ]
+    }
+  ]
+}

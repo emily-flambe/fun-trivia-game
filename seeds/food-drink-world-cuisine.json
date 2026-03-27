@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "food-drink/world-cuisine", "parentId": "food-drink", "name": "World Cuisine", "description": "Signature dishes and their countries of origin" }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/world-cuisine/signature-dishes",
+      "nodeId": "food-drink/world-cuisine",
+      "name": "World Cuisine \u2014 Signature Dishes",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "sushi",
+          "prompt": "Which country is the origin of sushi, a dish of vinegared rice typically served with raw fish?",
+          "answer": "Japan",
+          "alternates": [],
+          "explanation": "Vinegared rice (shari) is the defining element, not raw fish; sushi means 'sour rice'\nOriginated as narezushi, a Southeast Asian preservation method where fish was fermented in rice\nModern nigiri-zushi credited to Hanaya Yohei in Edo (Tokyo) around the 1820s\u20131830s\nWasabi was originally used for its antimicrobial properties, not just flavor\nThe California roll, invented in North America in the 1960s, popularized sushi in the West\nJiro Ono's Sukiyabashi Jiro in Tokyo held three Michelin stars and was the subject of the documentary Jiro Dreams of Sushi (2011)\nConveyor-belt sushi (kaiten-zushi) was invented by Yoshiaki Shiraishi in 1958",
+          "cardFront": "Sushi",
+          "cardBack": "Japan"
+        },
+        {
+          "id": "paella",
+          "prompt": "Which country is the origin of paella, a saffron-seasoned rice dish traditionally cooked in a wide, shallow pan?",
+          "answer": "Spain",
+          "alternates": [],
+          "explanation": "Originated in the Valencia region; 'paella' is Valencian for 'frying pan'\nOriginal paella Valenciana used rabbit, snails, green beans, and sometimes duck\nRice cultivation was introduced to the Iberian Peninsula during the Moorish period (8th century)\nTraditionally cooked outdoors over a wood fire, often using orange-tree branches\nSocarrat, the caramelized crust of rice at the bottom, is considered the best part\nSeafood paella and mixed paella are popular variations but not traditional Valencian\nAdding chorizo to paella is controversial and considered offensive by many Valencians",
+          "cardFront": "Paella",
+          "cardBack": "Spain"
+        },
+        {
+          "id": "croissant",
+          "prompt": "Although perfected in France, the croissant's ancestor, the kipferl, originated in which country?",
+          "answer": "Austria",
+          "alternates": [],
+          "explanation": "The kipferl, a crescent-shaped pastry, dates to at least the 13th century in Austria\nAugust Zang, an Austrian entrepreneur, opened a Viennese bakery in Paris in 1839 and introduced the kipferl\nFrench bakers adapted it using laminated puff pastry dough, creating the modern croissant\nThe word 'croissant' means 'crescent' in French, referencing the pastry's shape\nA popular legend (likely apocryphal) ties the shape to the Ottoman crescent moon after the 1683 Siege of Vienna\nThe French term 'viennoiserie' (Viennese things) refers to this category of pastry\nThe first French croissant recipe using laminated dough was published by Sylvain Claudius Goy in 1915",
+          "cardFront": "Croissant (kipferl ancestor)",
+          "cardBack": "Austria"
+        },
+        {
+          "id": "pad-thai",
+          "prompt": "Which country is the origin of pad thai, a stir-fried rice noodle dish with tamarind, peanuts, and bean sprouts?",
+          "answer": "Thailand",
+          "alternates": [],
+          "explanation": "Promoted as a national dish in the late 1930s\u20131940s by Prime Minister Plaek Phibunsongkhram\nPart of a cultural nationalism campaign to reduce Chinese influence and boost Thai rice noodle consumption\nName literally means 'Thai-style stir-fried' (pad = stir-fried, thai = Thai)\nKey ingredients: rice noodles, tamarind paste, fish sauce, dried shrimp, tofu, peanuts, bean sprouts\nOften served with lime wedge and chili flakes; shrimp or chicken are common protein additions\nStreet food stalls in Bangkok are the classic setting for the dish\nDespite its nationalist origins, the dish draws on Chinese stir-fry techniques and ingredients",
+          "cardFront": "Pad Thai",
+          "cardBack": "Thailand"
+        },
+        {
+          "id": "tacos",
+          "prompt": "Which country is the origin of tacos, featuring seasoned fillings in a folded tortilla?",
+          "answer": "Mexico",
+          "alternates": [],
+          "explanation": "The word 'taco' has uncertain origins; it may derive from the Nahuatl word 'tlahco' (half/middle)\nCorn tortillas have been made in Mesoamerica for thousands of years\nTacos al pastor, with spit-roasted pork, was influenced by Lebanese shawarma immigrants in the early 20th century\nTaco Bell, founded by Glen Bell in 1962, popularized a hard-shell, Americanized version\nTraditional Mexican tacos use soft corn tortillas, not the crispy U-shaped shells common in the U.S.\nCommon regional varieties include carnitas (Michoac\u00e1n), birria (Jalisco), and fish tacos (Baja California)\nDay of the Dead and other celebrations feature special taco preparations",
+          "cardFront": "Tacos",
+          "cardBack": "Mexico"
+        },
+        {
+          "id": "pizza",
+          "prompt": "Which country is the origin of pizza, a flatbread dish typically topped with tomato sauce and cheese?",
+          "answer": "Italy",
+          "alternates": [],
+          "explanation": "Modern pizza originated in Naples; flatbreads with toppings existed in ancient Rome, Egypt, and Greece\nPizza Margherita, created in 1889, was named for Queen Margherita of Savoy\nIts red tomato, white mozzarella, and green basil represented the Italian flag\nThe first pizzeria in the U.S. was Lombardi's, opened in Manhattan in 1905\nNeapolitan pizza was inscribed on UNESCO's Intangible Cultural Heritage list in 2017\nTraditional Neapolitan pizza is cooked at 905\u00b0F (485\u00b0C) for 60\u201390 seconds\nAmericans consume about 3 billion pizzas per year; it's a $46+ billion industry in the U.S.",
+          "cardFront": "Pizza",
+          "cardBack": "Italy"
+        },
+        {
+          "id": "pierogi",
+          "prompt": "Which country considers pierogi, stuffed dumplings with fillings like potato, cheese, or sauerkraut, a national dish?",
+          "answer": "Poland",
+          "alternates": [],
+          "explanation": "Filled dumplings made from unleavened dough, boiled and often pan-fried in butter\nClassic fillings: potato and cheese (ruskie), sauerkraut and mushroom, ground meat, or sweet fruit\nOrigins debated: possibly brought from the East via trade routes in the 13th century\nPierogi ruskie ('Ruthenian pierogi') refers to the Rus region, not Russia\nA traditional Christmas Eve (Wigilia) dish in Polish households\nPolish immigrants brought pierogi to North America; Pierogifest in Whiting, Indiana, draws 300,000+ visitors\nThe word 'pierogi' is already plural in Polish; 'pierog' is the singular form",
+          "cardFront": "Pierogi",
+          "cardBack": "Poland"
+        },
+        {
+          "id": "pho",
+          "prompt": "Which country is the origin of pho, a fragrant soup of rice noodles, herbs, and meat in a slow-simmered broth?",
+          "answer": "Vietnam",
+          "alternates": [],
+          "explanation": "Originated in northern Vietnam in the early 20th century, likely around Hanoi and Nam Dinh\nPronounced roughly like 'fuh,' not 'foh'; the name may derive from French pot-au-feu\nPho bo (beef) is the original; pho ga (chicken) developed later\nBroth is simmered for hours with star anise, cinnamon, cloves, and charred onion and ginger\nServed with a plate of fresh herbs, bean sprouts, lime, and chili for the diner to add\nNorthern pho is simpler; southern pho uses more herbs and a sweeter broth\nVietnamese refugees brought pho to the U.S., Australia, and France after 1975",
+          "cardFront": "Pho",
+          "cardBack": "Vietnam"
+        },
+        {
+          "id": "curry",
+          "prompt": "Which country is most associated with curry, a dish of meat or vegetables in a spiced sauce?",
+          "answer": "India",
+          "alternates": [],
+          "explanation": "The word 'curry' likely derives from Tamil 'kari' meaning sauce or gravy\nIndian cuisine has hundreds of regional spice-based dishes; 'curry' is largely a British umbrella term\nKey spices include turmeric, cumin, coriander, chili, and garam masala blends\nBritish curry houses date to the 1810s; chicken tikka masala was reportedly invented in the UK\nThe East India Company brought Indian spices and cooking methods to Britain\nThailand, Japan, and the Caribbean all have distinct curry traditions derived from Indian influence\nIndia's spice trade drove European exploration, including Columbus's voyage west",
+          "cardFront": "Curry",
+          "cardBack": "India"
+        },
+        {
+          "id": "kimchi",
+          "prompt": "Which country is the origin of kimchi, a fermented vegetable dish most commonly made with napa cabbage and chili pepper?",
+          "answer": "South Korea",
+          "alternates": ["Korea", "Republic of Korea"],
+          "explanation": "A staple of Korean cuisine for over 2,000 years in various forms\nModern kimchi with chili peppers dates to the 17th\u201318th century, after chili was introduced from the Americas via Japan\nNapa cabbage (baechu) kimchi is the most common of hundreds of varieties\nKimjang, the communal autumn tradition of making kimchi, is UNESCO Intangible Cultural Heritage (2013)\nKimchi is rich in probiotics from lactobacillus fermentation; often cited for health benefits\nServed at virtually every Korean meal, including breakfast\nSouth Korea consumes ~1.85 million metric tons of kimchi per year",
+          "cardFront": "Kimchi",
+          "cardBack": "South Korea"
+        },
+        {
+          "id": "feijoada",
+          "prompt": "Which country considers feijoada, a hearty stew of black beans and pork, its national dish?",
+          "answer": "Brazil",
+          "alternates": [],
+          "explanation": "A rich stew of black beans simmered with various cuts of pork including sausage, ribs, and ears\nOften cited as Brazil's national dish, traditionally served on Wednesdays and Saturdays\nPortuguese origins: 'feij\u00e3o' means 'bean' in Portuguese; similar bean stews exist in Portugal\nPopular origin myth ties it to enslaved Africans cooking with leftover pork cuts; historians dispute this\nServed with white rice, farofa (toasted cassava flour), orange slices, and couve (collard greens)\nA full feijoada completa can include over a dozen types of meat\nRio de Janeiro restaurants are especially known for elaborate Saturday feijoada",
+          "cardFront": "Feijoada",
+          "cardBack": "Brazil"
+        },
+        {
+          "id": "moussaka",
+          "prompt": "Which European country is most associated with moussaka, a baked casserole of eggplant, ground meat, and b\u00e9chamel sauce?",
+          "answer": "Greece",
+          "alternates": [],
+          "explanation": "The iconic Greek version with b\u00e9chamel topping was codified by chef Nikolaos Tselementes in the 1920s\nLayered casserole of sliced eggplant, spiced ground lamb or beef, and creamy b\u00e9chamel sauce\nThe word 'moussaka' derives from Arabic 'musaqqa\u2019a' meaning 'chilled' or 'moistened'\nVersions exist across the Eastern Mediterranean: Turkey, Lebanon, and Egypt each have their own\nTurkish moussaka typically omits b\u00e9chamel and is not always baked\nTselementes was influenced by French cuisine; his cookbook modernized Greek cooking\nCinnamon and nutmeg are characteristic spices in the Greek meat layer",
+          "cardFront": "Moussaka",
+          "cardBack": "Greece"
+        },
+        {
+          "id": "ceviche",
+          "prompt": "Which South American country is most associated with ceviche, raw fish cured in citrus juice?",
+          "answer": "Peru",
+          "alternates": [],
+          "explanation": "Raw fish 'cooked' (denatured) in lime or bitter orange juice with onions, chili, and cilantro\nPeru declared ceviche part of its national heritage in 2004 and celebrates National Ceviche Day on June 28\nPre-Columbian origins: the Moche civilization may have marinated fish in fermented chicha (corn beer)\nLeche de tigre ('tiger's milk') is the citrus marinade, often drunk as a hangover cure or appetizer\nEcuador, Mexico, and other Latin American countries have their own ceviche traditions\nTraditional Peruvian ceviche uses corvina (sea bass) and aji amarillo chili\nJapanese-Peruvian fusion (Nikkei cuisine) influences modern ceviche in Lima's top restaurants",
+          "cardFront": "Ceviche",
+          "cardBack": "Peru"
+        },
+        {
+          "id": "dim-sum",
+          "prompt": "Which country is the origin of dim sum, small dishes like dumplings and buns traditionally served with tea?",
+          "answer": "China",
+          "alternates": [],
+          "explanation": "Originated in southern China, particularly Canton (Guangzhou), linked to yum cha (tea drinking) culture\nDim sum means 'touch the heart' in Cantonese; dishes are meant to be small, shared, and varied\nClassic items: har gow (shrimp dumpling), siu mai (pork dumpling), char siu bao (BBQ pork bun)\nTraditionally served from rolling carts in large, noisy restaurants; diners select dishes as carts pass\nRooted in teahouses along the Silk Road that began offering snacks to travelers\nDim sum brunch is a social institution in Hong Kong, Guangzhou, and Chinatowns worldwide\nSteaming is the most common cooking method, though some items are fried, baked, or braised",
+          "cardFront": "Dim Sum",
+          "cardBack": "China"
+        },
+        {
+          "id": "injera",
+          "prompt": "Which African country is the origin of injera, a spongy fermented flatbread made from teff flour?",
+          "answer": "Ethiopia",
+          "alternates": ["Eritrea"],
+          "explanation": "Spongy, sour flatbread made from teff, the world's tiniest grain, domesticated in the Ethiopian Highlands\nTeff has been cultivated in Ethiopia and Eritrea for thousands of years\nThe batter ferments for 2\u20133 days, producing a tangy flavor from wild lactobacillus\nCooked on a large circular griddle called a mitad; the injera is peeled off in one round piece\nServes as both plate and utensil: stews (wot) are spooned on top and scooped up by tearing pieces\nNaturally gluten-free; teff contains no gluten proteins (despite being a cereal grain)\nGursha, the Ethiopian tradition of hand-feeding someone a rolled bite of injera, is a sign of respect",
+          "cardFront": "Injera",
+          "cardBack": "Ethiopia"
+        }
+      ]
+    }
+  ]
+}

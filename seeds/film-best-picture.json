@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "film/oscars", "parentId": "film", "name": "Academy Awards", "description": "Oscar-winning films and landmark moments in Academy history" }
+  ],
+  "exercises": [
+    {
+      "id": "film/oscars/best-picture-winners",
+      "nodeId": "film/oscars",
+      "name": "Best Picture Winners",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "wings",
+          "prompt": "Which 1927 silent war film about World War I combat pilots was the first movie to win the Academy Award for Best Picture?",
+          "answer": "Wings",
+          "alternates": [],
+          "explanation": "Directed by William A. Wellman; produced by Lucien Hubbard for Paramount\nWon Outstanding Picture at the 1st Academy Awards ceremony (May 16, 1929, Hollywood Roosevelt Hotel)\nStars Clara Bow, Charles 'Buddy' Rogers, and Richard Arlen as WWI fighter pilots\nOnly silent film ever to win Best Picture\nShot on location at Kelly Field in San Antonio, Texas, with actual Army planes and 3,500 extras\nBudgeted at $2 million (roughly $35 million today), making it one of the most expensive films of its era\nFeatures one of the earliest on-screen same-sex kisses in American cinema",
+          "cardFront": "1927 \u2014 first Best Picture, silent film",
+          "cardBack": "Wings"
+        },
+        {
+          "id": "gone-with-the-wind",
+          "prompt": "Which 1939 Civil War epic starring Vivien Leigh and Clark Gable won eight competitive Oscars and featured the first African American Oscar winner?",
+          "answer": "Gone with the Wind",
+          "alternates": ["Gone With the Wind", "GWTW"],
+          "explanation": "Directed by Victor Fleming; produced by David O. Selznick\nWon eight competitive Oscars plus two honorary awards from 13 nominations at the 12th Academy Awards (February 29, 1940)\nHattie McDaniel became the first African American to win an Oscar (Best Supporting Actress) but was segregated at the ceremony\nBased on Margaret Mitchell's 1936 novel; screenplay by Sidney Howard, who won posthumously (killed in a tractor accident)\nAdjusted for inflation, remains the highest-grossing film of all time\nVivien Leigh beat 1,400 candidates for the role of Scarlett O'Hara in one of Hollywood's most publicized casting searches\nThe burning of Atlanta scene used old sets from *King Kong* and *The Garden of Allah*",
+          "cardFront": "1939 \u2014 Civil War epic, Hattie McDaniel",
+          "cardBack": "Gone with the Wind"
+        },
+        {
+          "id": "casablanca",
+          "prompt": "Which 1942 wartime romance starring Humphrey Bogart and Ingrid Bergman, set in French Morocco, won Best Picture at the 1944 ceremony?",
+          "answer": "Casablanca",
+          "alternates": [],
+          "explanation": "Directed by Michael Curtiz; produced by Hal B. Wallis for Warner Bros.\nWon Best Picture, Best Director, and Best Screenplay at the 16th Academy Awards (March 2, 1944)\nStars Humphrey Bogart as Rick Blaine and Ingrid Bergman as Ilsa Lund\nFamous quotes include 'Here's looking at you, kid,' 'Of all the gin joints...,' and 'Play it, Sam' (often misquoted as 'Play it again, Sam')\nThe script was still being written during filming; actors often did not know the ending\nSet and partially filmed during WWII; released weeks after the Allied invasion of North Africa, boosting its topicality\nConsistently ranked among the top three on the AFI 100 Greatest American Films list",
+          "cardFront": "1942 \u2014 Bogart, 'Here's looking at you, kid'",
+          "cardBack": "Casablanca"
+        },
+        {
+          "id": "on-the-waterfront",
+          "prompt": "Which 1954 film starring Marlon Brando as a dockworker fighting union corruption features the famous line 'I coulda been a contender'?",
+          "answer": "On the Waterfront",
+          "alternates": [],
+          "explanation": "Directed by Elia Kazan; written by Budd Schulberg\nWon eight Oscars from 12 nominations, including Best Picture, Best Director, Best Actor (Brando), and Best Supporting Actress (Eva Marie Saint)\nBrando's 'I coulda been a contender' speech in the back of a taxi is one of the most iconic scenes in cinema\nBrando played Terry Malloy, an ex-boxer who testifies against corrupt union boss Johnny Friendly\nWidely read as Kazan's defense of his own testimony before the House Un-American Activities Committee in 1952\nShot on location on the docks of Hoboken, New Jersey, in the dead of winter\nEva Marie Saint's film debut; she went on to appear in Hitchcock's *North by Northwest* (1959)",
+          "cardFront": "1954 \u2014 Brando, 'I coulda been a contender'",
+          "cardBack": "On the Waterfront"
+        },
+        {
+          "id": "west-side-story",
+          "prompt": "Which 1961 musical, a modern retelling of *Romeo and Juliet* set among New York street gangs, won 10 of its 11 Oscar nominations?",
+          "answer": "West Side Story",
+          "alternates": [],
+          "explanation": "Co-directed by Robert Wise and Jerome Robbins; music by Leonard Bernstein, lyrics by Stephen Sondheim\nWon 10 of 11 nominations at the 34th Academy Awards \u2014 the most wins for a musical ever\nRita Moreno won Best Supporting Actress, becoming the first Latina to win an Oscar\nWise and Robbins became the first co-directors to win Best Director\nAdapts *Romeo and Juliet* to 1950s New York, with the Jets (white) and Sharks (Puerto Rican) replacing Montagues and Capulets\nBernstein's score includes 'Tonight,' 'America,' 'Somewhere,' and 'I Feel Pretty'\nSteven Spielberg directed a 2021 remake; Moreno returned in a new role at age 89",
+          "cardFront": "1961 \u2014 10 Oscars, Bernstein/Sondheim musical",
+          "cardBack": "West Side Story"
+        },
+        {
+          "id": "the-godfather",
+          "prompt": "Which 1972 gangster epic, directed by Francis Ford Coppola and starring Marlon Brando as Vito Corleone, won Best Picture?",
+          "answer": "The Godfather",
+          "alternates": ["Godfather"],
+          "explanation": "Directed by Francis Ford Coppola; based on Mario Puzo's 1969 novel\nWon three Oscars: Best Picture, Best Actor (Brando), and Best Adapted Screenplay (Coppola and Puzo)\nBrando refused his Best Actor Oscar; sent Sacheen Littlefeather to decline it in protest of Hollywood's treatment of Native Americans\nAl Pacino's breakthrough as Michael Corleone; Paramount initially opposed his casting\nThe studio wanted a cheaper, shorter film; Coppola fought for the period setting, three-hour runtime, and Brando\n'I'm gonna make him an offer he can't refuse' was voted the second-greatest movie quote by AFI\n*The Godfather Part II* (1974) also won Best Picture \u2014 the only sequel to do so until *The Lord of the Rings: The Return of the King* (2003)",
+          "cardFront": "1972 \u2014 Coppola, Brando refused Oscar",
+          "cardBack": "The Godfather"
+        },
+        {
+          "id": "one-flew-over-the-cuckoos-nest",
+          "prompt": "Which 1975 film set in a psychiatric hospital, starring Jack Nicholson and directed by Milos Forman, swept the Big Five Oscar categories?",
+          "answer": "One Flew Over the Cuckoo's Nest",
+          "alternates": ["One Flew Over the Cuckoos Nest", "Cuckoo's Nest"],
+          "explanation": "Directed by Milos Forman; based on Ken Kesey's 1962 novel\nSecond film to win the 'Big Five' Oscars: Best Picture, Director, Actor (Nicholson), Actress (Louise Fletcher), and Screenplay\nOnly two other films have swept the Big Five: *It Happened One Night* (1934) and *The Silence of the Lambs* (1991)\nNicholson plays Randle McMurphy, a convict who fakes insanity and clashes with authoritarian Nurse Ratched\nFilmed at Oregon State Hospital, an actual psychiatric institution, using real patients as extras\nProduced by Michael Douglas and Saul Zaentz; Douglas bought the rights from his father Kirk, who starred in the 1963 Broadway version\nMade $109 million on a $3 million budget",
+          "cardFront": "1975 \u2014 Nicholson, Big Five sweep",
+          "cardBack": "One Flew Over the Cuckoo's Nest"
+        },
+        {
+          "id": "annie-hall",
+          "prompt": "Which 1977 Woody Allen romantic comedy starring Diane Keaton beat *Star Wars* for Best Picture?",
+          "answer": "Annie Hall",
+          "alternates": [],
+          "explanation": "Directed by Woody Allen; starring Allen and Diane Keaton\nWon four Oscars: Best Picture, Best Director, Best Actress (Keaton), and Best Original Screenplay (Allen and Marshall Brickman)\nBeat *Star Wars* for Best Picture, one of the most discussed upsets in Oscar history\nKeaton's role inspired a fashion trend \u2014 the 'Annie Hall look' of men's vests, ties, and baggy trousers on women\nOriginally titled *Anhedonia* (the inability to feel pleasure) and was more of a surreal sketch comedy before editing\nAllen did not attend the ceremony; he was playing clarinet at Michael's Pub in Manhattan, as he did every Monday night\nRanked #31 on AFI's 100 Greatest American Films and #4 on their greatest comedies list",
+          "cardFront": "1977 \u2014 Allen/Keaton, beat *Star Wars*",
+          "cardBack": "Annie Hall"
+        },
+        {
+          "id": "schindlers-list",
+          "prompt": "Which 1993 Steven Spielberg film, shot in black and white, tells the story of a German industrialist who saved over 1,000 Jews during the Holocaust?",
+          "answer": "Schindler's List",
+          "alternates": ["Schindler's List", "Schindlers List"],
+          "explanation": "Directed by Steven Spielberg; screenplay by Steven Zaillian, based on Thomas Keneally's novel *Schindler's Ark*\nWon seven Oscars from 12 nominations, including Best Picture and Spielberg's first Best Director award\nStars Liam Neeson as Oskar Schindler, Ralph Fiennes as SS officer Amon G\u00f6th, and Ben Kingsley as Itzhak Stern\nShot almost entirely in black and white; the 'girl in the red coat' scene is one of the most memorable uses of color in film\nFilmed on location in Krak\u00f3w, Poland, over 72 days; Spielberg refused a salary, calling it 'blood money'\nJohn Williams composed the score; Itzhak Perlman performed the main theme\nSpielberg used his profits to establish the Shoah Foundation, which has recorded 55,000+ Holocaust survivor testimonies",
+          "cardFront": "1993 \u2014 Spielberg, Holocaust, black and white",
+          "cardBack": "Schindler\u2019s List"
+        },
+        {
+          "id": "forrest-gump",
+          "prompt": "Which 1994 film starring Tom Hanks follows a simple man from Alabama through decades of American history, from Elvis to Watergate?",
+          "answer": "Forrest Gump",
+          "alternates": ["Forrest Gump"],
+          "explanation": "Directed by Robert Zemeckis; based on Winston Groom's 1986 novel\nWon six Oscars: Best Picture, Best Director, Best Actor (Hanks), Best Adapted Screenplay, Best Visual Effects, Best Film Editing\nHanks won his second consecutive Best Actor Oscar (after *Philadelphia* in 1993), only the second actor to do so since Spencer Tracy\nPioneered digital compositing to insert Forrest into historical footage with JFK, Nixon, and John Lennon\n'Life is like a box of chocolates' became one of the most quoted movie lines of the 1990s\nThe bench scenes were filmed in Savannah, Georgia's Chippewa Square\nGrossed $678 million worldwide on a $55 million budget",
+          "cardFront": "1994 \u2014 Tom Hanks, 'box of chocolates'",
+          "cardBack": "Forrest Gump"
+        },
+        {
+          "id": "titanic",
+          "prompt": "Which 1997 James Cameron film about a doomed ocean liner tied *Ben-Hur*'s record with 11 Oscar wins?",
+          "answer": "Titanic",
+          "alternates": [],
+          "explanation": "Directed by James Cameron; starring Leonardo DiCaprio and Kate Winslet\nWon 11 Oscars from 14 nominations, tying *Ben-Hur* (1959) for most wins by a single film\nFirst film to gross over $1 billion worldwide; at the time, the most expensive film ever made ($200 million)\nCameron shouted 'I'm the king of the world!' upon accepting Best Director \u2014 quoting his own film's most famous line\nC\u00e9line Dion's 'My Heart Will Go On' won Best Original Song and became a global megahit\nCameron personally dove to the real wreck of the Titanic to shoot footage used in the film\nHeld the worldwide box office record for 12 years until Cameron's own *Avatar* surpassed it in 2010",
+          "cardFront": "1997 \u2014 Cameron, 11 Oscars, $1B box office",
+          "cardBack": "Titanic"
+        },
+        {
+          "id": "american-beauty",
+          "prompt": "Which 1999 film, directed by Sam Mendes in his feature debut, stars Kevin Spacey as a suburban man in midlife crisis?",
+          "answer": "American Beauty",
+          "alternates": [],
+          "explanation": "Directed by Sam Mendes; written by Alan Ball\nWon five Oscars: Best Picture, Best Director (Mendes's debut), Best Actor (Spacey), Best Original Screenplay, Best Cinematography\nMendes was a theater director making his first film; he went on to direct *Road to Perdition* and two James Bond films\nThe floating plastic bag scene became an iconic (and often parodied) symbol of suburban ennui\nAlan Ball later created HBO's *Six Feet Under* and *True Blood*\nGrossed $356 million worldwide on a $15 million budget\nConrad L. Hall's Oscar-winning cinematography used a desaturated suburban palette with bursts of red (roses, Spacey's sports car)",
+          "cardFront": "1999 \u2014 Mendes debut, suburban satire",
+          "cardBack": "American Beauty"
+        },
+        {
+          "id": "no-country-for-old-men",
+          "prompt": "Which 2007 Coen brothers film, based on a Cormac McCarthy novel, features Javier Bardem as the hitman Anton Chigurh?",
+          "answer": "No Country for Old Men",
+          "alternates": ["No Country For Old Men"],
+          "explanation": "Directed by Joel and Ethan Coen; based on Cormac McCarthy's 2005 novel\nWon four Oscars: Best Picture, Best Director, Best Supporting Actor (Bardem), Best Adapted Screenplay\nBardem's portrayal of Anton Chigurh and his captive-bolt pistol became one of cinema's most menacing villains\nSet in 1980 West Texas; stars Josh Brolin, Tommy Lee Jones, and Bardem\nThe Coens shot the film with minimal score \u2014 long stretches have no music at all, only ambient sound\nFirst Coen brothers film to win Best Picture, after previous nominations for *Fargo* (1996)\nOften cited alongside *There Will Be Blood* (also 2007) as one of the best films of the 2000s",
+          "cardFront": "2007 \u2014 Coen brothers, Bardem's Chigurh",
+          "cardBack": "No Country for Old Men"
+        },
+        {
+          "id": "the-hurt-locker",
+          "prompt": "Which 2009 Iraq War film made Kathryn Bigelow the first woman to win the Best Director Oscar?",
+          "answer": "The Hurt Locker",
+          "alternates": ["Hurt Locker"],
+          "explanation": "Directed by Kathryn Bigelow; written by Mark Boal\nWon six Oscars: Best Picture, Best Director, Best Original Screenplay, Best Film Editing, Best Sound Editing, Best Sound Mixing\nBigelow became the first woman to win Best Director, beating her ex-husband James Cameron (*Avatar*)\nJeremy Renner stars as a reckless U.S. Army bomb disposal technician in Baghdad\nThe film follows an Explosive Ordnance Disposal (EOD) team during the Iraq War in 2004\nMade only $17 million at the box office \u2014 the lowest-grossing Best Picture winner in the modern era at the time\nOpening title card quotes journalist Chris Hedges: 'The rush of battle is a potent and often lethal addiction'",
+          "cardFront": "2009 \u2014 first woman Best Director",
+          "cardBack": "The Hurt Locker"
+        },
+        {
+          "id": "12-years-a-slave",
+          "prompt": "Which 2013 film, directed by Steve McQueen and starring Chiwetel Ejiofor, tells the true story of a free Black man kidnapped into slavery?",
+          "answer": "12 Years a Slave",
+          "alternates": ["Twelve Years a Slave"],
+          "explanation": "Directed by Steve McQueen; screenplay by John Ridley, based on Solomon Northup's 1853 memoir\nWon three Oscars: Best Picture, Best Adapted Screenplay, Best Supporting Actress (Lupita Nyong'o)\nFirst film by a Black director (McQueen) to win Best Picture\nChiwetel Ejiofor stars as Solomon Northup, a free man from New York kidnapped and sold into slavery in 1841\nMichael Fassbender, Benedict Cumberbatch, and Brad Pitt (also a producer) appear in supporting roles\nMcQueen is a British artist and filmmaker; he won the Turner Prize in 1999 before turning to feature films\nNyong'o's debut film performance; she won the Oscar over Jennifer Lawrence and Julia Roberts",
+          "cardFront": "2013 \u2014 first Black director to win Best Picture",
+          "cardBack": "12 Years a Slave"
+        },
+        {
+          "id": "moonlight",
+          "prompt": "Which 2016 coming-of-age drama, told in three chapters, won Best Picture after *La La Land* was mistakenly announced as the winner?",
+          "answer": "Moonlight",
+          "alternates": [],
+          "explanation": "Directed by Barry Jenkins; based on Tarell Alvin McCraney's play *In Moonlight Black Boys Look Blue*\nWon three Oscars: Best Picture, Best Supporting Actor (Mahershala Ali), Best Adapted Screenplay\nThe envelope mix-up: Warren Beatty was handed the wrong envelope and Faye Dunaway announced *La La Land* before the error was corrected on live television\nFirst film with an all-Black cast and first LGBTQ-themed film to win Best Picture\nTold in three chapters following Chiron from childhood to adulthood in Liberty City, Miami\nMade for only $1.5 million \u2014 one of the lowest budgets for a Best Picture winner ever\nMahershala Ali became the first Muslim actor to win an Oscar",
+          "cardFront": "2016 \u2014 envelope mix-up, three chapters",
+          "cardBack": "Moonlight"
+        },
+        {
+          "id": "parasite",
+          "prompt": "Which 2019 South Korean film by Bong Joon-ho became the first non-English-language film to win Best Picture?",
+          "answer": "Parasite",
+          "alternates": [],
+          "explanation": "Directed by Bong Joon-ho; a South Korean black comedy thriller\nWon four Oscars: Best Picture, Best Director, Best Original Screenplay, Best International Feature Film\nFirst non-English-language film to win Best Picture in 92 years of Oscar history\nAlso won the Palme d'Or at Cannes \u2014 only the fourth film to win both the Palme and Best Picture\nFollows the impoverished Kim family as they infiltrate a wealthy household, with a dramatic class-warfare twist\nBong's acceptance speech: 'Once you overcome the one-inch-tall barrier of subtitles, you will be introduced to so many more amazing films'\nGrossed $266 million worldwide on a $11 million budget",
+          "cardFront": "2019 \u2014 first non-English Best Picture, Bong Joon-ho",
+          "cardBack": "Parasite"
+        },
+        {
+          "id": "nomadland",
+          "prompt": "Which 2020 film, directed by Chlo\u00e9 Zhao and starring Frances McDormand, follows a woman living as a modern-day nomad in the American West?",
+          "answer": "Nomadland",
+          "alternates": [],
+          "explanation": "Directed by Chlo\u00e9 Zhao; based on Jessica Bruder's 2017 nonfiction book\nWon three Oscars: Best Picture, Best Director (Zhao), Best Actress (McDormand)\nZhao became the second woman and first woman of color to win Best Director\nMcDormand plays Fern, a widow who becomes a van-dwelling itinerant worker after her Nevada company town collapses\nCast real-life nomads alongside McDormand, including Linda May and Swankie playing versions of themselves\nShot on location across the American West with a small crew using natural light\nSecond female-directed film to win Best Picture, after Bigelow's *The Hurt Locker*",
+          "cardFront": "2020 \u2014 Zhao, van-dwelling nomads",
+          "cardBack": "Nomadland"
+        },
+        {
+          "id": "coda",
+          "prompt": "Which 2021 film about a hearing teenager in a deaf fishing family became the first streaming-distributed movie to win Best Picture?",
+          "answer": "CODA",
+          "alternates": [],
+          "explanation": "Directed by Si\u00e2n Heder; distributed by Apple TV+\nWon three Oscars: Best Picture, Best Supporting Actor (Troy Kotsur), Best Adapted Screenplay\nFirst film distributed by a streaming service to win Best Picture \u2014 and the first Sundance premiere to do so\nTroy Kotsur became the first deaf male actor to win an Oscar; Marlee Matlin (also in the cast) was the first deaf actor to win, for *Children of a Lesser God* (1986)\nCODA stands for 'Child of Deaf Adults'; Emilia Jones stars as Ruby, an aspiring singer\nApple acquired distribution rights for $25 million after a Sundance bidding war in 2021\nA remake of the 2014 French film *La Famille B\u00e9lier*",
+          "cardFront": "2021 \u2014 first streaming Best Picture, Apple TV+",
+          "cardBack": "CODA"
+        },
+        {
+          "id": "oppenheimer",
+          "prompt": "Which 2023 Christopher Nolan film about the father of the atomic bomb won seven Oscars, including Best Picture and Best Director?",
+          "answer": "Oppenheimer",
+          "alternates": [],
+          "explanation": "Directed by Christopher Nolan; starring Cillian Murphy as J. Robert Oppenheimer\nWon seven Oscars from 13 nominations: Best Picture, Best Director, Best Actor (Murphy), Best Supporting Actor (Robert Downey Jr.), Best Cinematography, Best Film Editing, Best Original Score\nNolan's first Best Director and Best Picture wins after a career spanning *Memento*, *The Dark Knight*, *Inception*, and *Interstellar*\nGrossed $975 million worldwide, the highest-grossing Best Picture winner since *The Lord of the Rings: The Return of the King* (2003)\nShot using IMAX cameras; some scenes used black-and-white IMAX film stock for the first time in history\nReleased on the same day as *Barbie*, creating the 'Barbenheimer' cultural phenomenon\nBased on the biography *American Prometheus* by Kai Bird and Martin J. Sherwin",
+          "cardFront": "2023 \u2014 Nolan, atomic bomb, 7 Oscars",
+          "cardBack": "Oppenheimer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "lifestyle/art-movements", "parentId": "lifestyle", "name": "Art Movements", "description": "Major Western art movements from the Renaissance to the 20th century" }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/art-movements/art-movements",
+      "nodeId": "lifestyle/art-movements",
+      "name": "Art Movements",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "renaissance",
+          "prompt": "Which art movement, originating in 14th-century Italy, marked a 'rebirth' of classical Greek and Roman ideals and emphasized humanism, perspective, and naturalism?",
+          "answer": "Renaissance",
+          "alternates": ["The Renaissance"],
+          "explanation": "Originated in Florence, Italy, c. 1400\u20131600\nName means \"rebirth\" in French\u2014revival of classical antiquity's art, philosophy, and science\nPioneered linear perspective (Brunelleschi), chiaroscuro, and anatomical accuracy\nKey artists: Leonardo da Vinci, Michelangelo, Raphael, Botticelli, Titian\nLeonardo's Mona Lisa and Michelangelo's Sistine Chapel ceiling are defining works\nPatronized heavily by the Medici family in Florence and the Catholic Church in Rome\nHigh Renaissance (c. 1490\u20131527) is considered the peak; ended roughly with the Sack of Rome (1527)",
+          "cardFront": "14th\u201316th c. Italy, classical rebirth, perspective, humanism",
+          "cardBack": "Renaissance"
+        },
+        {
+          "id": "baroque",
+          "prompt": "Which art movement, flourishing in 17th-century Europe, featured dramatic lighting, rich color, intense emotion, and grandeur, often in service of the Counter-Reformation?",
+          "answer": "Baroque",
+          "alternates": ["The Baroque", "Baroque art"],
+          "explanation": "Flourished c. 1600\u20131750, originating in Rome\nPromoted by the Catholic Church as a response to the Protestant Reformation\nCharacterized by dramatic contrast of light and shadow (tenebrism), movement, and emotional intensity\nKey artists: Caravaggio, Rembrandt, Bernini, Rubens, Velazquez, Vermeer\nCaravaggio's radical use of chiaroscuro influenced virtually every Baroque painter\nBernini's Ecstasy of Saint Teresa exemplifies Baroque sculpture's theatrical emotion\nExtended into music (Bach, Handel, Vivaldi) and architecture (Palace of Versailles)",
+          "cardFront": "17th c. Europe, dramatic lighting, Counter-Reformation grandeur",
+          "cardBack": "Baroque"
+        },
+        {
+          "id": "romanticism",
+          "prompt": "Which late 18th- to mid-19th-century art movement emphasized emotion, individualism, the sublime power of nature, and rebellion against Enlightenment rationalism?",
+          "answer": "Romanticism",
+          "alternates": ["The Romantic movement", "Romantic movement"],
+          "explanation": "Flourished c. 1790\u20131850, originating in Germany and Britain\nReaction against the Enlightenment's emphasis on reason and the Industrial Revolution's mechanization\nPrized emotion, imagination, the sublime, and untamed nature over classical order\nKey artists: Delacroix, Turner, Friedrich, Goya, Constable\nDelacroix's Liberty Leading the People (1830) is the movement's most iconic painting\nCaspar David Friedrich's Wanderer Above the Sea of Fog epitomizes Romantic landscape painting\nSpanned literature (Byron, Shelley, Keats), music (Beethoven, Chopin, Liszt), and philosophy",
+          "cardFront": "Late 18th\u2013mid-19th c., emotion, nature, individualism",
+          "cardBack": "Romanticism"
+        },
+        {
+          "id": "impressionism",
+          "prompt": "Which art movement, originating in 1860s France, emphasized light, color, and everyday scenes painted en plein air over precise academic detail?",
+          "answer": "Impressionism",
+          "alternates": ["The Impressionist movement", "Impressionist movement"],
+          "explanation": "Originated in France, c. 1860s\u20131880s\nNamed (mockingly) after Monet's Impression, Sunrise (1872) by critic Louis Leroy\nPainted outdoors (en plein air) to capture fleeting effects of light and atmosphere\nKey artists: Monet, Renoir, Degas, Pissarro, Morisot, Cassatt\nRejected by the official Paris Salon; held independent exhibitions starting in 1874\nMonet's series paintings (Haystacks, Water Lilies, Rouen Cathedral) explored light across time\nBerthe Morisot and Mary Cassatt were leading female Impressionists in a male-dominated field",
+          "cardFront": "1860s France, light, color, en plein air painting",
+          "cardBack": "Impressionism"
+        },
+        {
+          "id": "post-impressionism",
+          "prompt": "Which art movement (c. 1886\u20131905) extended Impressionism while rejecting its limitations, with artists like Cezanne, Van Gogh, Gauguin, and Seurat pursuing more structure, symbolism, or emotional expression?",
+          "answer": "Post-Impressionism",
+          "alternates": ["Post Impressionism", "Postimpressionism"],
+          "explanation": "Active c. 1886\u20131905; term coined by British critic Roger Fry in 1910\nNot a unified style\u2014an umbrella for diverse reactions against Impressionism's focus on surface appearances\nKey artists: Cezanne, Van Gogh, Gauguin, Seurat, Toulouse-Lautrec\nCezanne's geometric simplification of form directly influenced Cubism\nVan Gogh's expressive brushwork and color anticipated Expressionism; he sold only one painting in his lifetime\nSeurat invented Pointillism\u2014tiny dots of color that blend optically (A Sunday Afternoon on the Island of La Grande Jatte)\nGauguin left France for Tahiti seeking \"primitive\" subject matter, influencing Primitivism and Symbolism",
+          "cardFront": "c. 1886\u20131905, beyond Impressionism: Cezanne, Van Gogh, Gauguin, Seurat",
+          "cardBack": "Post-Impressionism"
+        },
+        {
+          "id": "expressionism",
+          "prompt": "Which early 20th-century art movement, originating in Germany, prioritized emotional experience and subjective feeling over realistic depiction, often using distorted forms and vivid colors?",
+          "answer": "Expressionism",
+          "alternates": ["German Expressionism"],
+          "explanation": "Originated in Germany c. 1905\u20131920s; term established by 1913\nTwo key groups: Die Brucke (The Bridge, Dresden, 1905) and Der Blaue Reiter (The Blue Rider, Munich, 1911)\nDistorted forms, bold colors, and raw emotion to convey inner psychological states\nKey artists: Kirchner, Kandinsky, Marc, Schiele, Nolde\nInfluenced by Edvard Munch (The Scream, 1893) and Van Gogh's emotional color\nExtended into film (The Cabinet of Dr. Caligari, 1920; Nosferatu, 1922) and theater\nKandinsky, a Der Blaue Reiter founder, is credited with painting the first purely abstract work (c. 1910\u20131913)",
+          "cardFront": "Early 20th c. Germany, distorted forms, subjective emotion",
+          "cardBack": "Expressionism"
+        },
+        {
+          "id": "cubism",
+          "prompt": "Which revolutionary art movement, pioneered by Picasso and Braque around 1907\u20131908, fragmented objects into geometric forms and showed multiple viewpoints simultaneously?",
+          "answer": "Cubism",
+          "alternates": [],
+          "explanation": "Developed c. 1907\u20131914 in Paris by Pablo Picasso and Georges Braque\nPicasso's Les Demoiselles d'Avignon (1907) is the proto-Cubist breakthrough\nAbandoned single-point perspective\u2014showed subjects from multiple angles at once\nTwo phases: Analytic Cubism (fragmented, monochrome) and Synthetic Cubism (collage, color)\nName coined by critic Louis Vauxcelles, mocking Braque's \"bizarreries cubiques\" in 1908\nInfluenced by Cezanne's geometric simplification and African/Iberian sculpture\nOne of the most influential art movements of the 20th century\u2014paved the way for abstraction, Futurism, and Constructivism",
+          "cardFront": "c. 1907\u20131914 Paris, Picasso and Braque, geometric fragmentation",
+          "cardBack": "Cubism"
+        },
+        {
+          "id": "surrealism",
+          "prompt": "Which art movement, formally launched by Andre Breton's 1924 manifesto, sought to channel the unconscious mind through dreamlike imagery and irrational juxtapositions?",
+          "answer": "Surrealism",
+          "alternates": [],
+          "explanation": "Launched in 1924 with Andre Breton's Manifeste du surrealisme in Paris\nHeavily influenced by Sigmund Freud's theories of the unconscious and dream interpretation\nKey artists: Dali, Magritte, Ernst, Miro, Man Ray\nDali's The Persistence of Memory (1931)\u2014melting clocks\u2014is the movement's most recognizable image\nMagritte's The Treachery of Images (\"Ceci n'est pas une pipe\") questioned perception and representation\nTechniques included automatism (unplanned drawing), frottage, and exquisite corpse (collaborative drawing)\nBreton was the self-appointed \"Pope of Surrealism\" who expelled members for ideological disagreements",
+          "cardFront": "1924 Paris, Breton manifesto, unconscious mind, dreamlike imagery",
+          "cardBack": "Surrealism"
+        },
+        {
+          "id": "abstract-expressionism",
+          "prompt": "Which post-WWII art movement, centered in 1940s New York, was the first major American avant-garde movement and featured artists like Pollock and de Kooning?",
+          "answer": "Abstract Expressionism",
+          "alternates": ["Abstract Expressionist movement", "AbEx"],
+          "explanation": "Emerged in New York in the 1940s; dominant through the 1950s\nFirst major American art movement to achieve international influence\u2014shifted the art world's center from Paris to New York\nTwo main strands: Action Painting (Pollock, de Kooning) and Color Field (Rothko, Newman)\nPollock's drip paintings (e.g., No. 5, 1948) made the physical act of painting the subject\nRothko's luminous color-field canvases aimed to evoke raw human emotion; he committed suicide in 1970\nOften called the New York School; also known as the New York School painters\nCIA secretly promoted AbEx during the Cold War as proof of American creative freedom",
+          "cardFront": "1940s\u20131950s New York, Pollock, de Kooning, Rothko",
+          "cardBack": "Abstract Expressionism"
+        },
+        {
+          "id": "pop-art",
+          "prompt": "Which 1950s\u20131960s art movement, led by Andy Warhol and Roy Lichtenstein, drew from mass culture, advertising, and consumer goods to blur the line between 'high' and 'low' art?",
+          "answer": "Pop Art",
+          "alternates": ["Pop art"],
+          "explanation": "Emerged in Britain mid-1950s, exploded in America early 1960s\nReaction against Abstract Expressionism's seriousness and elitism\nKey artists: Warhol, Lichtenstein, Oldenburg, Rosenquist, Hamilton, Johns\nWarhol's Campbell's Soup Cans (1962) and Marilyn Monroe silkscreens are defining works\nLichtenstein enlarged comic-strip panels with Ben-Day dots, treating mass media as fine art\nRichard Hamilton's 1956 collage Just What Is It That Makes Today's Homes So Different, So Appealing? is a key early work\nWarhol's Factory studio became a celebrity gathering place; he survived a 1968 assassination attempt by Valerie Solanas",
+          "cardFront": "1950s\u20131960s, Warhol, mass culture, advertising as art",
+          "cardBack": "Pop Art"
+        },
+        {
+          "id": "art-nouveau",
+          "prompt": "Which decorative art movement (c. 1890\u20131910) was characterized by flowing organic lines, natural forms, and the integration of art into architecture and everyday objects?",
+          "answer": "Art Nouveau",
+          "alternates": ["Art nouveau"],
+          "explanation": "Flourished c. 1890\u20131910 during the Belle Epoque\nCharacterized by sinuous, flowing lines inspired by natural forms\u2014flowers, vines, insects\nIntegrated art across disciplines: architecture, furniture, jewelry, posters, glasswork\nKey figures: Mucha (posters), Gaudi (architecture), Klimt (painting), Tiffany (glass), Horta (architecture)\nGaudi's Sagrada Familia in Barcelona is the movement's most famous architectural work\nKlimt co-founded the Vienna Secession (1897), the Austrian branch of Art Nouveau\nKnown by different names across Europe: Jugendstil (Germany), Stile Liberty (Italy), Modernisme (Catalonia)",
+          "cardFront": "c. 1890\u20131910, organic flowing lines, art in everyday objects",
+          "cardBack": "Art Nouveau"
+        },
+        {
+          "id": "art-deco",
+          "prompt": "Which decorative art movement (c. 1920s\u20131930s) featured bold geometric forms, rich materials, and sleek modernity, exemplified by the Chrysler Building in New York?",
+          "answer": "Art Deco",
+          "alternates": ["Art deco"],
+          "explanation": "Flourished c. 1920s\u20131930s; named after the 1925 Paris Exposition internationale des arts decoratifs\nCharacterized by geometric shapes, symmetry, bold colors, and luxurious materials (chrome, lacquer, ivory)\nApplied to architecture, fashion, jewelry, furniture, film sets, and industrial design\nIconic buildings: Chrysler Building (1930) and Empire State Building (1931) in New York\nThe Chrysler Building, designed by William Van Alen, is often called the finest Art Deco skyscraper\nInfluenced by Cubism, Bauhaus, Egyptian art (after Tutankhamun's tomb discovery, 1922), and machine-age aesthetics\nExperienced a major revival in the 1980s in Miami's South Beach district",
+          "cardFront": "1920s\u20131930s, geometric forms, Chrysler Building, machine-age glamour",
+          "cardBack": "Art Deco"
+        }
+      ]
+    }
+  ]
+}

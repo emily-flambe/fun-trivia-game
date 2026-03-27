@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "classical-music/great-composers", "parentId": "classical-music", "name": "Great Composers", "description": "Major classical composers and their landmark works" }
+  ],
+  "exercises": [
+    {
+      "id": "classical-music/great-composers/great-composers",
+      "nodeId": "classical-music/great-composers",
+      "name": "Great Composers",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "bach",
+          "prompt": "Which Baroque composer wrote *The Well-Tempered Clavier*, the *Brandenburg Concertos*, and over 1,000 surviving works?",
+          "answer": "Johann Sebastian Bach",
+          "alternates": ["Bach", "J.S. Bach", "JS Bach"],
+          "explanation": "German composer and musician (1685\u20131750), Baroque era\nWrote over 1,000 surviving compositions including cantatas, concertos, fugues, and chorales\n*The Well-Tempered Clavier* (1722, 1742) demonstrated that keyboards could be tuned to play in all 24 major and minor keys\nThe *Brandenburg Concertos* (1721) are among the most celebrated orchestral works in Western music\nFathered 20 children; four sons (C.P.E., J.C., W.F., J.C.F.) became notable composers\nWent blind in his final years after two failed eye surgeries by the same charlatan surgeon who later operated on Handel\nLargely forgotten after death; revived by Mendelssohn's 1829 performance of the *St. Matthew Passion*",
+          "cardFront": "*The Well-Tempered Clavier* / *Brandenburg Concertos*",
+          "cardBack": "Johann Sebastian Bach"
+        },
+        {
+          "id": "mozart",
+          "prompt": "Which Austrian child prodigy composed over 600 works, including *The Marriage of Figaro* and *Requiem*, before dying at 35?",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": ["Mozart", "W.A. Mozart"],
+          "explanation": "Austrian composer (1756\u20131791), Classical era\nChild prodigy who performed for European royalty from age 6; composed first symphony at age 8\nWrote 41 symphonies, 27 piano concertos, and major operas including *The Marriage of Figaro*, *Don Giovanni*, and *The Magic Flute*\nHis *Requiem* (K. 626) was left unfinished at his death; completed by his student Franz Xaver S\u00fcssmayr\nDied at 35 in Vienna; cause of death remains debated (rheumatic fever is the leading theory)\nBuried in a common grave in St. Marx Cemetery, Vienna \u2014 standard practice for his social class, not a sign of poverty\nRival with Antonio Salieri was exaggerated by the play and film *Amadeus* (1984)",
+          "cardFront": "*The Marriage of Figaro* / *Requiem*",
+          "cardBack": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "beethoven",
+          "prompt": "Which composer wrote the *Ninth Symphony* containing 'Ode to Joy' and continued composing after losing his hearing?",
+          "answer": "Ludwig van Beethoven",
+          "alternates": ["Beethoven"],
+          "explanation": "German composer and pianist (1770\u20131827), bridged Classical and Romantic eras\nBegan losing his hearing around age 28; was almost entirely deaf when he composed the *Ninth Symphony* (1824)\nThe *Ninth Symphony*'s 'Ode to Joy' melody was adopted as the Anthem of Europe in 1972\n'F\u00fcr Elise' (1810) is one of the most recognizable piano pieces ever written; the dedicatee's identity is debated\nHis *Third Symphony* ('Eroica') originally honored Napoleon; Beethoven scratched out the dedication when Napoleon crowned himself Emperor\nWrote 32 piano sonatas, including the 'Moonlight,' 'Path\u00e9tique,' and 'Appassionata'\nDied in Vienna during a thunderstorm; an estimated 20,000 people attended his funeral procession",
+          "cardFront": "*Ninth Symphony* ('Ode to Joy')",
+          "cardBack": "Ludwig van Beethoven"
+        },
+        {
+          "id": "chopin",
+          "prompt": "Which Polish-born composer, who lived most of his career in Paris, is considered the greatest composer for solo piano?",
+          "answer": "Fr\u00e9d\u00e9ric Chopin",
+          "alternates": ["Chopin", "Frederic Chopin", "Fryderyk Chopin"],
+          "explanation": "Polish-French composer and pianist (1810\u20131849), Romantic era\nComposed almost exclusively for solo piano \u2014 no symphonies, no operas, no purely orchestral works\nLeft Poland at age 20 and never returned; lived in Paris from 1831 until his death\nHad a famous nine-year relationship with French novelist George Sand (Amantine Lucile Aurore Dupin)\nWrote 27 \u00e9tudes, 21 nocturnes, 4 ballades, and 2 piano concertos, all still core repertoire\nDied of tuberculosis at age 39; his heart was removed and preserved in a crystal jar in Warsaw's Holy Cross Church\nHis funeral at La Madeleine in Paris featured Mozart's *Requiem*, as he had requested",
+          "cardFront": "Nocturnes / \u00c9tudes / Polish-born pianist",
+          "cardBack": "Fr\u00e9d\u00e9ric Chopin"
+        },
+        {
+          "id": "tchaikovsky",
+          "prompt": "Which Russian composer wrote *Swan Lake*, *The Nutcracker*, and the *1812 Overture*?",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "alternates": ["Tchaikovsky", "Chaikovsky", "Peter Tchaikovsky"],
+          "explanation": "Russian composer (1840\u20131893), late Romantic era\nWrote three of the most-performed ballets in history: *Swan Lake* (1877), *The Sleeping Beauty* (1889), *The Nutcracker* (1892)\nThe *1812 Overture* (1880) features real cannon fire and is a staple of July 4th concerts in the U.S.\nFirst Russian composer to gain lasting international recognition\nHis *Piano Concerto No. 1* (1875) was initially rejected by Nikolai Rubinstein as unplayable; now among the most-performed concertos\nDied nine days after conducting the premiere of his *Sixth Symphony* ('Path\u00e9tique'); cause remains debated (cholera vs. suicide)\nCorresponded for 14 years with patron Nadezhda von Meck, who financially supported him on the condition they never meet",
+          "cardFront": "*Swan Lake* / *The Nutcracker* / *1812 Overture*",
+          "cardBack": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "brahms",
+          "prompt": "Which German Romantic composer wrote four symphonies and the famous *Lullaby* (Wiegenlied), and was championed by Robert Schumann?",
+          "answer": "Johannes Brahms",
+          "alternates": ["Brahms"],
+          "explanation": "German composer and pianist (1833\u20131897), Romantic era\nOne of the 'Three Bs' of classical music (with Bach and Beethoven) \u2014 a label coined by conductor Hans von B\u00fclow\nTook 21 years to complete his *First Symphony* (1876) under the shadow of Beethoven; it was dubbed 'Beethoven's Tenth'\nBrahms's *Lullaby* ('Wiegenlied,' 1868) is one of the most recognized melodies in the world\nRobert Schumann published an essay in 1853 hailing the 20-year-old Brahms as a genius; Brahms later grew close to Schumann's wife Clara\n*A German Requiem* (1868) uses Luther's Bible rather than the Latin liturgy\nDied of liver cancer in Vienna, eleven months after Clara Schumann's death in 1896",
+          "cardFront": "Four symphonies / *Lullaby*",
+          "cardBack": "Johannes Brahms"
+        },
+        {
+          "id": "wagner",
+          "prompt": "Which German composer created the four-opera *Ring* cycle and built a custom theater at Bayreuth for his works?",
+          "answer": "Richard Wagner",
+          "alternates": ["Wagner"],
+          "explanation": "German composer, conductor, theater director (1813\u20131883), Romantic era\nThe *Ring of the Nibelung* \u2014 four operas totaling ~15 hours \u2014 took 26 years to complete (1848\u20131874)\nBuilt the Bayreuth Festspielhaus (1876) specifically for his operas; it is still used exclusively for his works each summer\nPioneered the 'Gesamtkunstwerk' (total work of art), integrating music, poetry, drama, and visual art\n'Ride of the Valkyries' is one of the most recognizable pieces in classical music, famously used in *Apocalypse Now* (1979)\nHis music was later co-opted by the Nazi regime; Wagner's antisemitic writings and Hitler's admiration have shadowed his legacy\nInfluenced virtually every major composer after him, from Bruckner and Mahler to Debussy and Richard Strauss",
+          "cardFront": "*Ring* cycle / Bayreuth Festival",
+          "cardBack": "Richard Wagner"
+        },
+        {
+          "id": "vivaldi",
+          "prompt": "Which Venetian priest and violinist composed *The Four Seasons*, among the most popular works in the Baroque repertoire?",
+          "answer": "Antonio Vivaldi",
+          "alternates": ["Vivaldi"],
+          "explanation": "Italian Baroque composer, violinist, priest (1678\u20131741)\n*The Four Seasons* (1725) \u2014 four violin concertos depicting spring, summer, autumn, winter \u2014 are among the most recorded classical works\nWrote over 500 concertos, 46 operas, and numerous sacred choral works\nNicknamed 'il Prete Rosso' (the Red Priest) for his red hair\nOrdained as a priest but almost never said Mass, citing a chest ailment (possibly asthma)\nTaught at the Ospedale della Piet\u00e0, an orphanage for girls in Venice, raising its orchestra to international fame\nDied in poverty in Vienna and was buried in a pauper's grave; his music was largely forgotten until a revival in the early 20th century",
+          "cardFront": "*The Four Seasons*",
+          "cardBack": "Antonio Vivaldi"
+        },
+        {
+          "id": "handel",
+          "prompt": "Which German-born, British-naturalized composer wrote *Messiah*, including the 'Hallelujah' chorus?",
+          "answer": "George Frideric Handel",
+          "alternates": ["Handel", "Georg Friedrich H\u00e4ndel", "Haendel"],
+          "explanation": "German-British composer (1685\u20131759), Baroque era \u2014 born the same year as Bach, about 80 miles away\n*Messiah* (1741) was composed in roughly 24 days; the 'Hallelujah' chorus is the most famous choral passage in Western music\n*Music for the Royal Fireworks* (1749) premiered in London with an audience of 12,000\nBecame a British citizen in 1727; composed the coronation anthem 'Zadok the Priest,' used at every British coronation since George II\nWrote over 40 operas and popularized Italian opera in England before turning to English-language oratorios\nWent blind in his last years; operated on by the same surgeon (John Taylor) who treated Bach\nBuried in Westminster Abbey; 3,000 people attended the funeral",
+          "cardFront": "*Messiah* / 'Hallelujah' chorus",
+          "cardBack": "George Frideric Handel"
+        },
+        {
+          "id": "haydn",
+          "prompt": "Which Austrian composer, known as the 'Father of the Symphony,' wrote 104 numbered symphonies and mentored Mozart and Beethoven?",
+          "answer": "Joseph Haydn",
+          "alternates": ["Haydn", "Franz Joseph Haydn"],
+          "explanation": "Austrian composer (1732\u20131809), Classical era, known as the 'Father of the Symphony' and 'Father of the String Quartet'\nWrote 104 numbered symphonies, 68 string quartets, and numerous operas, masses, and concertos\nServed the Esterh\u00e1zy family for nearly 30 years (1761\u20131790) as court musician\nMentored Mozart (they were close friends) and briefly taught Beethoven in Vienna\nThe 'Surprise' Symphony (No. 94) includes a sudden loud chord to wake drowsy audiences\nComposed the melody for 'Gott erhalte Franz den Kaiser' (1797), later used as the German national anthem\nHis skull was stolen by phrenologists after burial and not reunited with his body until 1954",
+          "cardFront": "104 symphonies / 'Father of the Symphony'",
+          "cardBack": "Joseph Haydn"
+        },
+        {
+          "id": "debussy",
+          "prompt": "Which French composer wrote *Clair de lune* and *La mer*, pioneering musical Impressionism?",
+          "answer": "Claude Debussy",
+          "alternates": ["Debussy"],
+          "explanation": "French composer (1862\u20131918), Impressionist era\n*Clair de lune* (1890, rev. 1905), the third movement of *Suite bergamasque*, is one of the most-performed piano pieces\n*La mer* (1905) evoked the sea through orchestral color rather than traditional thematic development\nPioneered musical Impressionism alongside Ravel, though Debussy disliked the 'Impressionist' label\n*Pr\u00e9lude \u00e0 l'apr\u00e8s-midi d'un faune* (1894) is sometimes called the start of modern music\nUsed the whole-tone scale, parallel chords, and non-Western tonalities (influenced by Javanese gamelan he heard at the 1889 Paris Exposition)\nDied of colorectal cancer in Paris in March 1918, during German artillery bombardment of the city in World War I",
+          "cardFront": "*Clair de lune* / *La mer*",
+          "cardBack": "Claude Debussy"
+        },
+        {
+          "id": "dvorak",
+          "prompt": "Which Czech composer wrote the *New World Symphony* while directing the National Conservatory of Music in New York?",
+          "answer": "Anton\u00edn Dvo\u0159\u00e1k",
+          "alternates": ["Dvorak", "Dvořák", "Antonin Dvorak"],
+          "explanation": "Czech composer (1841\u20131904), late Romantic era\n*Symphony No. 9* ('From the New World,' 1893) was composed during his tenure as director of the National Conservatory of Music in New York City (1892\u20131895)\nIts second movement (Largo) became the song 'Goin' Home' and is often mistaken for a genuine spiritual\nAdvocated that American classical music should draw on African American and Native American melodies\nAlso known for his *Cello Concerto in B minor* (1895), which Brahms praised as near-perfect\nAvid trainspotter who spent hours at Prague's railway stations memorizing locomotive numbers\nReturned to Bohemia in 1895 and served as director of the Prague Conservatory until his death",
+          "cardFront": "*New World Symphony* (No. 9)",
+          "cardBack": "Anton\u00edn Dvo\u0159\u00e1k"
+        },
+        {
+          "id": "stravinsky",
+          "prompt": "Which Russian-born composer's ballet *The Rite of Spring* caused a riot at its 1913 Paris premiere?",
+          "answer": "Igor Stravinsky",
+          "alternates": ["Stravinsky"],
+          "explanation": "Russian-born composer (1882\u20131971), active in France and the U.S.\n*The Rite of Spring* (1913) provoked a near-riot at its Paris premiere due to its savage rhythms and dissonant harmonies\nThree early ballets for Diaghilev's Ballets Russes \u2014 *The Firebird* (1910), *Petrushka* (1911), *The Rite of Spring* (1913) \u2014 made him famous\nShifted from Russian nationalism to Neoclassicism (*Symphony of Psalms*, 1930) to serialism (*Agon*, 1957)\nBecame a French citizen in 1934 and a U.S. citizen in 1945; lived in Hollywood, California for his final decades\nBuried on the cemetery island of San Michele in Venice, near Diaghilev's grave\nWidely regarded as the most influential composer of the 20th century",
+          "cardFront": "*The Rite of Spring* (1913 riot)",
+          "cardBack": "Igor Stravinsky"
+        },
+        {
+          "id": "mahler",
+          "prompt": "Which Austrian composer wrote nine completed symphonies of massive scale and served as director of the Vienna Court Opera?",
+          "answer": "Gustav Mahler",
+          "alternates": ["Mahler"],
+          "explanation": "Austrian composer and conductor (1860\u20131911), late Romantic era\nWrote nine completed symphonies (the unfinished *Tenth* was later reconstructed) of unprecedented length and orchestral forces\n*Symphony No. 8* ('Symphony of a Thousand') requires over 1,000 performers\nDirected the Vienna Court Opera (1897\u20131907) and the New York Philharmonic (1909\u20131911)\nConverted from Judaism to Catholicism in 1897, largely to qualify for the Vienna Opera directorship (Jews were barred)\nDied at 50 of bacterial endocarditis; his wife Alma later married architect Walter Gropius and then writer Franz Werfel\nHis music fell out of favor after his death and was banned by the Nazis; revived in the 1960s by conductors like Leonard Bernstein",
+          "cardFront": "Nine massive symphonies / Vienna Opera",
+          "cardBack": "Gustav Mahler"
+        },
+        {
+          "id": "schubert",
+          "prompt": "Which Viennese composer wrote over 600 *Lieder* (art songs), including 'Erl King,' and died at just 31?",
+          "answer": "Franz Schubert",
+          "alternates": ["Schubert"],
+          "explanation": "Austrian composer (1797\u20131828), bridged Classical and Romantic eras\nWrote over 600 Lieder (art songs), more than any other major composer \u2014 including 'Erlk\u00f6nig' (1815), composed at age 18\nHis *'Unfinished' Symphony* (No. 8, 1822) has only two movements; why he stopped is unknown\nComposed the song cycle *Winterreise* (1827), one of the pinnacles of the art-song repertoire\nLived in poverty in Vienna and never held a permanent musical post despite prolific output\nDied at 31, likely of typhoid fever, though syphilis and mercury poisoning (a treatment for it) contributed\nMuch of his work was unpublished at death; the 'Great' C major Symphony (No. 9) was not performed until Schumann championed it in 1839",
+          "cardFront": "600+ Lieder / *Unfinished Symphony*",
+          "cardBack": "Franz Schubert"
+        }
+      ]
+    }
+  ]
+}

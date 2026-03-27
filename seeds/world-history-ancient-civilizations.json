@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "world-history/ancient-civilizations", "parentId": "world-history", "name": "Ancient Civilizations", "description": "Major civilizations of the ancient world" }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/ancient-civilizations/ancient-civilizations",
+      "nodeId": "world-history/ancient-civilizations",
+      "name": "Ancient Civilizations",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "egypt",
+          "prompt": "Which ancient civilization built the pyramids at Giza?",
+          "answer": "Egypt",
+          "alternates": ["Ancient Egypt", "Egyptian", "Egyptians"],
+          "explanation": "Nile Valley civilization, c. 3100–30 BCE\nBuilt the Great Pyramid of Giza (c. 2560 BCE) — the only surviving Wonder of the Ancient World\nDeveloped hieroglyphic writing, decoded via the Rosetta Stone in 1822 by Champollion\nMummification process preserved bodies for the afterlife; Tutankhamun's tomb discovered intact in 1922\nUnified under Pharaoh Narmer/Menes around 3100 BCE into Upper and Lower Egypt\nCleopatra VII was the last active pharaoh before Roman annexation in 30 BCE",
+          "cardFront": "Pyramids of Giza, Nile Valley, hieroglyphs",
+          "cardBack": "Egypt"
+        },
+        {
+          "id": "rome",
+          "prompt": "Which ancient civilization was founded in 753 BCE and grew into an empire spanning three continents?",
+          "answer": "Rome",
+          "alternates": ["Roman Empire", "Romans", "Ancient Rome", "Roman"],
+          "explanation": "Traditional founding date 753 BCE; Republic established 509 BCE; Empire from 27 BCE\nAt its height under Trajan (117 CE), controlled the entire Mediterranean, Britain to Mesopotamia\nEngineered aqueducts, concrete, roads ('all roads lead to Rome'), and the Colosseum\nRepublic fell after Julius Caesar's assassination (44 BCE) and Octavian became Augustus, first emperor\nWestern Empire fell in 476 CE when Odoacer deposed Romulus Augustulus\nLatin language became the root of all Romance languages (French, Spanish, Italian, Portuguese, Romanian)",
+          "cardFront": "Colosseum, Latin, Republic to Empire, three continents",
+          "cardBack": "Rome"
+        },
+        {
+          "id": "greece",
+          "prompt": "Which ancient civilization originated democracy in Athens and produced philosophers like Socrates, Plato, and Aristotle?",
+          "answer": "Greece",
+          "alternates": ["Ancient Greece", "Greek", "Greeks"],
+          "explanation": "City-states (poleis) flourished c. 800–146 BCE; Athens and Sparta were the dominant powers\nAthenian democracy established by Cleisthenes c. 508 BCE — first known democratic system\nProduced Socrates, Plato, and Aristotle — foundational Western philosophers\nAlexander the Great (356–323 BCE) conquered from Greece to India, spreading Hellenistic culture\nOriginated the Olympic Games at Olympia in 776 BCE\nDefeated the Persian Empire at Marathon (490 BCE) and Salamis (480 BCE)",
+          "cardFront": "Democracy, Athens and Sparta, Socrates/Plato/Aristotle",
+          "cardBack": "Greece"
+        },
+        {
+          "id": "mesopotamia",
+          "prompt": "Which ancient civilization, located between the Tigris and Euphrates rivers, is often called the 'cradle of civilization'?",
+          "answer": "Mesopotamia",
+          "alternates": ["Sumer", "Sumeria", "Sumerians", "Mesopotamian"],
+          "explanation": "Located in modern-day Iraq between the Tigris and Euphrates rivers\nSumerians (c. 4500–1900 BCE) invented cuneiform, the earliest known writing system\nProduced the Epic of Gilgamesh, the oldest surviving great work of literature\nHammurabi of Babylon (r. c. 1792–1750 BCE) created one of the first written legal codes\nInvented the wheel, the plow, the 60-minute hour, and the 360-degree circle\nSuccessive empires: Sumerian, Akkadian, Babylonian, Assyrian, and Neo-Babylonian",
+          "cardFront": "Tigris and Euphrates, cuneiform, 'cradle of civilization'",
+          "cardBack": "Mesopotamia"
+        },
+        {
+          "id": "persia",
+          "prompt": "Which ancient civilization, founded by Cyrus the Great, created the largest empire the world had yet seen?",
+          "answer": "Persia",
+          "alternates": ["Persian Empire", "Achaemenid Empire", "Persians", "Achaemenid"],
+          "explanation": "Achaemenid Empire founded by Cyrus the Great c. 550 BCE in modern-day Iran\nAt its peak under Darius I, stretched from Egypt to India — largest empire the world had seen\nCyrus issued the Cyrus Cylinder (539 BCE), sometimes called the first declaration of human rights\nBuilt the Royal Road (1,677 miles from Sardis to Susa) with a postal relay system\nDefeated by Alexander the Great in 330 BCE, ending the Achaemenid dynasty\nZoroastrianism was the state religion — one of the world's oldest monotheistic faiths",
+          "cardFront": "Cyrus the Great, largest ancient empire, Royal Road",
+          "cardBack": "Persia"
+        },
+        {
+          "id": "han-china",
+          "prompt": "Which ancient Chinese dynasty (206 BCE–220 CE) established the Silk Road and is so influential that the majority ethnic group in China shares its name?",
+          "answer": "Han Dynasty",
+          "alternates": ["Han", "Han China", "China"],
+          "explanation": "Ruled 206 BCE–220 CE; one of China's longest and most influential dynasties\nEstablished the Silk Road trade network connecting China to Rome\nThe ethnic majority in China (92%) is called 'Han Chinese' after this dynasty\nInvented paper (c. 105 CE, attributed to Cai Lun), which revolutionized record-keeping\nAdopted Confucianism as the state philosophy and created the civil service examination system\nPreceded by the Qin Dynasty (221–206 BCE), which built the first Great Wall and unified Chinese script",
+          "cardFront": "Silk Road, paper, 206 BCE–220 CE, ethnic majority namesake",
+          "cardBack": "Han Dynasty"
+        },
+        {
+          "id": "maurya",
+          "prompt": "Which ancient Indian empire, founded by Chandragupta around 322 BCE, was the first to unify most of the Indian subcontinent?",
+          "answer": "Maurya Empire",
+          "alternates": ["Maurya", "Mauryan Empire", "Mauryan"],
+          "explanation": "Founded by Chandragupta Maurya c. 322 BCE in Magadha (modern Bihar, India)\nFirst empire to unify most of the Indian subcontinent, from Afghanistan to Bengal\nAshoka the Great (r. c. 268–232 BCE) converted to Buddhism after the bloody Kalinga War\nAshoka's edicts, carved on pillars and rocks, are among the oldest deciphered writings in India\nThe Ashoka Chakra (wheel) from his pillars appears on India's modern national flag\nKautilya (Chanakya), Chandragupta's advisor, wrote the Arthashastra — an ancient treatise on statecraft",
+          "cardFront": "Chandragupta, Ashoka, first to unify India",
+          "cardBack": "Maurya Empire"
+        },
+        {
+          "id": "maya",
+          "prompt": "Which Mesoamerican civilization developed an advanced writing system, a base-20 number system with the concept of zero, and built pyramid-temples like Chichen Itza?",
+          "answer": "Maya",
+          "alternates": ["Mayan", "Mayans", "Maya civilization"],
+          "explanation": "Flourished c. 2000 BCE–1500 CE in present-day southern Mexico, Guatemala, Belize, Honduras\nDeveloped the most sophisticated writing system in the pre-Columbian Americas (hieroglyphic)\nIndependently invented the concept of zero and used a base-20 (vigesimal) number system\nBuilt Chichen Itza, Tikal, and Palenque — monumental pyramid-temple complexes\nCreated highly accurate astronomical calendars; the Long Count calendar sparked the '2012 apocalypse' myth\nNever a single unified empire — organized as competing city-states, similar to ancient Greece",
+          "cardFront": "Chichen Itza, hieroglyphs, concept of zero, Mesoamerica",
+          "cardBack": "Maya"
+        },
+        {
+          "id": "aztec",
+          "prompt": "Which Mesoamerican civilization built its capital Tenochtitlan on an island in Lake Texcoco, on the site of modern-day Mexico City?",
+          "answer": "Aztec",
+          "alternates": ["Aztecs", "Aztec Empire", "Mexica"],
+          "explanation": "Empire flourished c. 1300–1521 CE in central Mexico; also known as the Mexica\nCapital Tenochtitlan built on an island in Lake Texcoco — population ~200,000, one of the world's largest cities\nUsed chinampas ('floating gardens') for agriculture on the lake\nPracticed large-scale human sacrifice as central religious ritual\nConquered by Hernán Cortés and Spanish conquistadors in 1521 with help from rival indigenous groups\nTenochtitlan was demolished and rebuilt as Mexico City, now the capital of Mexico",
+          "cardFront": "Tenochtitlan, Lake Texcoco, site of Mexico City",
+          "cardBack": "Aztec"
+        },
+        {
+          "id": "inca",
+          "prompt": "Which South American civilization built Machu Picchu and connected its empire with an extensive road system through the Andes?",
+          "answer": "Inca",
+          "alternates": ["Incas", "Inca Empire", "Incan"],
+          "explanation": "Empire flourished c. 1400–1533 CE along the Andes in South America; capital at Cusco (Peru)\nBuilt Machu Picchu (c. 1450), a royal estate at 7,970 ft elevation, rediscovered by Hiram Bingham in 1911\nConnected the empire with 25,000+ miles of roads (Qhapaq Ñan) through extreme mountain terrain\nUsed quipu (knotted strings) for record-keeping — had no written language\nLargest empire in pre-Columbian America, stretching from Colombia to Chile\nConquered by Francisco Pizarro with ~168 Spanish soldiers in 1533 after capturing Emperor Atahualpa",
+          "cardFront": "Machu Picchu, Andes, quipu, Cusco",
+          "cardBack": "Inca"
+        },
+        {
+          "id": "phoenicia",
+          "prompt": "Which ancient maritime civilization, based in city-states like Tyre and Sidon, created the alphabet that became the basis for Greek and Latin scripts?",
+          "answer": "Phoenicia",
+          "alternates": ["Phoenicians", "Phoenician"],
+          "explanation": "Maritime civilization on the coast of modern Lebanon, c. 1500–332 BCE\nCity-states included Tyre, Sidon, and Byblos (the word 'Bible' derives from Byblos)\nCreated a 22-letter alphabet that became the ancestor of Greek, Latin, Arabic, and Hebrew scripts\nMaster shipbuilders and navigators — dominated Mediterranean trade for centuries\nInvented Tyrian purple dye, extracted from murex sea snails — so expensive it became synonymous with royalty\nFounded Carthage (in modern Tunisia, c. 814 BCE), which later rivaled Rome in the Punic Wars",
+          "cardFront": "Tyre and Sidon, invented the alphabet, Tyrian purple",
+          "cardBack": "Phoenicia"
+        },
+        {
+          "id": "carthage",
+          "prompt": "Which ancient North African city-state, founded by Phoenician colonists, fought three wars against Rome before being destroyed in 146 BCE?",
+          "answer": "Carthage",
+          "alternates": ["Carthaginian", "Carthaginians"],
+          "explanation": "Founded by Phoenician colonists c. 814 BCE in modern-day Tunisia\nFought three Punic Wars against Rome (264–146 BCE) — 'Punic' comes from Latin for Phoenician\nHannibal Barca famously crossed the Alps with war elephants to invade Italy in 218 BCE\nHannibal defeated Roman armies at Cannae (216 BCE), one of history's worst military defeats for Rome\nRome destroyed the city completely in 146 BCE; legend says they salted the earth\nThe phrase 'Carthago delenda est' ('Carthage must be destroyed') was Cato the Elder's rallying cry in the Roman Senate",
+          "cardFront": "Hannibal, Punic Wars, North African rival of Rome",
+          "cardBack": "Carthage"
+        }
+      ]
+    }
+  ]
+}

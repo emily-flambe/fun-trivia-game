@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "literature/classic-novels", "parentId": "literature", "name": "Classic Novels", "description": "Foundational novels of world literature and their authors" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/classic-novels/author-matching",
+      "nodeId": "literature/classic-novels",
+      "name": "Classic Novels — Author Matching",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "moby-dick",
+          "prompt": "Who wrote *Moby-Dick*?",
+          "answer": "Herman Melville",
+          "alternates": ["Melville"],
+          "explanation": "Published 1851; flopped commercially and was out of print when Melville died in 1891\nRediscovered in the 1920s 'Melville Revival' and now considered a masterpiece of American literature\nOpening line 'Call me Ishmael' is one of the most famous in English\nBased partly on the real sinking of the whaleship Essex (1820) by a sperm whale\nMelville dedicated the novel to Nathaniel Hawthorne, his friend and neighbor in the Berkshires\nMelville spent his final 19 years as a customs inspector in New York, largely forgotten",
+          "cardFront": "*Moby-Dick*",
+          "cardBack": "Herman Melville"
+        },
+        {
+          "id": "great-gatsby",
+          "prompt": "Who wrote *The Great Gatsby*?",
+          "answer": "F. Scott Fitzgerald",
+          "alternates": ["Fitzgerald", "Scott Fitzgerald", "Francis Scott Fitzgerald"],
+          "explanation": "Published 1925; sold poorly in Fitzgerald's lifetime — fewer than 25,000 copies before his death\nBecame canonical after WWII when the U.S. Armed Services distributed free copies to soldiers\nSet in the Jazz Age on Long Island; explores the American Dream's corruption through Jay Gatsby\nFitzgerald coined the term 'Jazz Age' and epitomized it with wife Zelda in 1920s Paris and New York\nDied in 1940 at age 44 of a heart attack, believing himself a failure\nThe green light at the end of Daisy's dock is one of literature's most analyzed symbols",
+          "cardFront": "*The Great Gatsby*",
+          "cardBack": "F. Scott Fitzgerald"
+        },
+        {
+          "id": "pride-and-prejudice",
+          "prompt": "Who wrote *Pride and Prejudice*?",
+          "answer": "Jane Austen",
+          "alternates": ["Austen"],
+          "explanation": "Published 1813; originally titled 'First Impressions' when drafted in 1796–1797\nAll six of Austen's novels were published anonymously, credited only to 'A Lady'\nOpening line: 'It is a truth universally acknowledged...' — among the most quoted in English literature\nAusten never married; died at 41 in 1817, possibly of Addison's disease\nThe novel follows Elizabeth Bennet and Mr. Darcy — the prototypical enemies-to-lovers romance\nAusten's face has appeared on the British ten-pound note since 2017",
+          "cardFront": "*Pride and Prejudice*",
+          "cardBack": "Jane Austen"
+        },
+        {
+          "id": "1984",
+          "prompt": "Who wrote *1984*?",
+          "answer": "George Orwell",
+          "alternates": ["Orwell", "Eric Arthur Blair", "Eric Blair"],
+          "explanation": "Published 1949; Orwell's real name was Eric Arthur Blair\nIntroduced 'Big Brother,' 'doublethink,' 'Newspeak,' and 'thoughtcrime' into the English language\nWritten on the Scottish island of Jura while Orwell was dying of tuberculosis; he died in January 1950\nSales spike every time a government surveillance scandal breaks — topped bestseller lists after Snowden leaks (2013)\nAlso wrote *Animal Farm* (1945), the anti-Stalinist allegory ('All animals are equal...')\nFought in the Spanish Civil War (1937) and was shot through the throat by a sniper; survived",
+          "cardFront": "*1984*",
+          "cardBack": "George Orwell"
+        },
+        {
+          "id": "to-kill-a-mockingbird",
+          "prompt": "Who wrote *To Kill a Mockingbird*?",
+          "answer": "Harper Lee",
+          "alternates": ["Lee", "Nelle Harper Lee"],
+          "explanation": "Published 1960; won the Pulitzer Prize for Fiction in 1961\nBased partly on Lee's childhood in Monroeville, Alabama; Atticus Finch modeled on her father\nHer childhood neighbor and friend was Truman Capote, the model for Dill in the novel\nLee published no other novel for 55 years until *Go Set a Watchman* (2015), written before Mockingbird\nThe novel has sold over 40 million copies and is a staple of American high school curricula\nLee was awarded the Presidential Medal of Freedom in 2007",
+          "cardFront": "*To Kill a Mockingbird*",
+          "cardBack": "Harper Lee"
+        },
+        {
+          "id": "crime-and-punishment",
+          "prompt": "Who wrote *Crime and Punishment*?",
+          "answer": "Fyodor Dostoevsky",
+          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky", "Dostoievsky"],
+          "explanation": "Published 1866 as a serial in a Russian literary journal\nFollows Raskolnikov, a destitute student who murders a pawnbroker to test his theory of the 'extraordinary man'\nDostoevsky wrote it under crushing debt and a brutal deadline, sometimes dictating to a stenographer\nAlso wrote *The Brothers Karamazov* (1880), *The Idiot* (1869), and *Notes from Underground* (1864)\nSentenced to death by firing squad in 1849 for political activities; reprieved at the last moment\nHis epilepsy and gambling addiction informed much of his fiction's psychological intensity",
+          "cardFront": "*Crime and Punishment*",
+          "cardBack": "Fyodor Dostoevsky"
+        },
+        {
+          "id": "don-quixote",
+          "prompt": "Who wrote *Don Quixote*?",
+          "answer": "Miguel de Cervantes",
+          "alternates": ["Cervantes", "Miguel de Cervantes Saavedra"],
+          "explanation": "Published in two parts (1605 and 1615); often called the first modern novel\nFull title: *El Ingenioso Hidalgo Don Quixote de la Mancha*\nCervantes lost the use of his left hand at the Battle of Lepanto (1571) against the Ottoman fleet\nSpent five years as a prisoner of war in Algiers before being ransomed\nThe novel satirizes chivalric romances through a delusional knight and his squire Sancho Panza\nCervantes died on April 22, 1616 — one day before Shakespeare's death (though different calendars)",
+          "cardFront": "*Don Quixote*",
+          "cardBack": "Miguel de Cervantes"
+        },
+        {
+          "id": "war-and-peace",
+          "prompt": "Who wrote *War and Peace*?",
+          "answer": "Leo Tolstoy",
+          "alternates": ["Tolstoy", "Lev Tolstoy"],
+          "explanation": "Published 1865–1869; set during Napoleon's invasion of Russia (1812)\nOver 580,000 words with 580+ characters — a byword for length ('it's not exactly War and Peace')\nTolstoy also wrote *Anna Karenina* (1878), which opens: 'All happy families are alike...'\nA Russian count who renounced his wealth and title late in life, embracing ascetic Christian anarchism\nInfluenced Gandhi and Martin Luther King Jr. with his philosophy of nonviolent resistance\nDied in 1910 at a remote train station, having fled his estate at age 82 after a domestic crisis",
+          "cardFront": "*War and Peace*",
+          "cardBack": "Leo Tolstoy"
+        },
+        {
+          "id": "jane-eyre",
+          "prompt": "Who wrote *Jane Eyre*?",
+          "answer": "Charlotte Bronte",
+          "alternates": ["Charlotte Brontë", "Bronte", "Brontë"],
+          "explanation": "Published 1847 under the male pseudonym 'Currer Bell'\nOne of three literary Brontë sisters: Charlotte, Emily (*Wuthering Heights*), and Anne (*The Tenant of Wildfell Hall*)\nThe novel's 'Reader, I married him' is one of the most famous lines in English fiction\nFeatures the 'madwoman in the attic' — Bertha Mason — a trope analyzed extensively in feminist criticism\nCharlotte married in 1854 but died in 1855, likely from complications of pregnancy, at age 38\nAll three Brontë sisters died before age 40; their brother Branwell also died young, of tuberculosis and addiction",
+          "cardFront": "*Jane Eyre*",
+          "cardBack": "Charlotte Bronte"
+        },
+        {
+          "id": "wuthering-heights",
+          "prompt": "Who wrote *Wuthering Heights*?",
+          "answer": "Emily Bronte",
+          "alternates": ["Emily Brontë", "Bronte", "Brontë"],
+          "explanation": "Published 1847 under the pseudonym 'Ellis Bell' — Emily's only novel\nShocked Victorian readers with its raw depiction of obsessive love between Heathcliff and Catherine\nEmily died of tuberculosis in 1848 at age 30, just one year after publication\nKate Bush's 1978 debut single 'Wuthering Heights' hit #1 in the UK\nThe novel was poorly received initially — critics called it 'wild,' 'confused,' and 'disagreeable'\nEmily was the most reclusive Brontë sister; she rarely left the family home at Haworth Parsonage",
+          "cardFront": "*Wuthering Heights*",
+          "cardBack": "Emily Bronte"
+        },
+        {
+          "id": "great-expectations",
+          "prompt": "Who wrote *Great Expectations*?",
+          "answer": "Charles Dickens",
+          "alternates": ["Dickens"],
+          "explanation": "Published 1860–1861 as a weekly serial in Dickens's own magazine, *All the Year Round*\nFollows orphan Pip from the Kent marshes to London; features Miss Havisham in her decayed wedding dress\nDickens also created Scrooge (*A Christmas Carol*), Oliver Twist, and David Copperfield\nThe most popular English novelist of the Victorian era, famous for public readings that drew thousands\nHad 10 children; left his wife Catherine in 1858 for actress Ellen Ternan, causing a public scandal\nDied mid-novel in 1870 (writing *The Mystery of Edwin Drood*); buried in Westminster Abbey",
+          "cardFront": "*Great Expectations*",
+          "cardBack": "Charles Dickens"
+        },
+        {
+          "id": "catch-22",
+          "prompt": "Who wrote *Catch-22*?",
+          "answer": "Joseph Heller",
+          "alternates": ["Heller"],
+          "explanation": "Published 1961; originally titled *Catch-18* but changed to avoid confusion with Leon Uris's *Mila 18*\n'Catch-22' entered the English language as a term for an inescapable paradoxical dilemma\nSet among U.S. Army Air Forces bombardiers in WWII Italy; Heller himself flew 60 combat missions as a bombardier\nSlow initial sales but became a cult classic during the Vietnam War as an anti-war satire\nHeller's famous quip when told he'd never written anything as good: 'Who has?'\nTook Heller eight years to write; he worked on it nights while holding an advertising job at Time magazine",
+          "cardFront": "*Catch-22*",
+          "cardBack": "Joseph Heller"
+        },
+        {
+          "id": "brave-new-world",
+          "prompt": "Who wrote *Brave New World*?",
+          "answer": "Aldous Huxley",
+          "alternates": ["Huxley"],
+          "explanation": "Published 1932; depicts a dystopia of engineered humans, soma drugs, and mandatory hedonism\nOften paired with Orwell's *1984* — Huxley warned of control through pleasure, Orwell through pain\nHuxley was nearly blind from age 16 after a childhood eye infection; read with a magnifying glass\nGrandson of T.H. Huxley, the biologist known as 'Darwin's Bulldog'\nExperimented with psychedelics; his 1954 book *The Doors of Perception* (on mescaline) inspired the band name The Doors\nDied November 22, 1963 — the same day as C.S. Lewis and JFK's assassination, overshadowing both literary deaths",
+          "cardFront": "*Brave New World*",
+          "cardBack": "Aldous Huxley"
+        },
+        {
+          "id": "catcher-in-the-rye",
+          "prompt": "Who wrote *The Catcher in the Rye*?",
+          "answer": "J.D. Salinger",
+          "alternates": ["Salinger", "Jerome David Salinger"],
+          "explanation": "Published 1951; narrated by Holden Caulfield, the archetypal disaffected teenager\nStill sells ~250,000 copies per year despite (or because of) frequent banning attempts\nSalinger became a famous recluse after its success, moving to Cornish, New Hampshire, and refusing interviews\nPublished almost nothing after 1965; didn't publish a new book after *Raise High the Roof Beam, Carpenters* (1963)\nFound on Mark David Chapman when he assassinated John Lennon in 1980; also carried by John Hinckley Jr.\nSalinger served in WWII, landing at Utah Beach on D-Day and fighting through the Battle of the Bulge",
+          "cardFront": "*The Catcher in the Rye*",
+          "cardBack": "J.D. Salinger"
+        },
+        {
+          "id": "one-hundred-years-of-solitude",
+          "prompt": "Who wrote *One Hundred Years of Solitude*?",
+          "answer": "Gabriel Garcia Marquez",
+          "alternates": ["Garcia Marquez", "Gabriel García Márquez", "García Márquez", "Marquez", "Gabo"],
+          "explanation": "Published 1967 in Spanish; has sold over 30 million copies worldwide\nFollows seven generations of the Buendía family in the fictional town of Macondo, Colombia\nThe defining work of magical realism — blends the fantastical and the mundane seamlessly\nGarcía Márquez won the Nobel Prize in Literature in 1982 — first Colombian Nobel laureate\nHe was a close friend of Fidel Castro, which drew criticism from other Latin American intellectuals\nWorked as a journalist before fiction; reportedly sold his car to support his family while writing the novel",
+          "cardFront": "*One Hundred Years of Solitude*",
+          "cardBack": "Gabriel Garcia Marquez"
+        },
+        {
+          "id": "beloved",
+          "prompt": "Who wrote *Beloved*?",
+          "answer": "Toni Morrison",
+          "alternates": ["Morrison"],
+          "explanation": "Published 1987; won the Pulitzer Prize for Fiction in 1988\nInspired by the true story of Margaret Garner, an enslaved woman who killed her daughter to prevent recapture\nMorrison won the Nobel Prize in Literature in 1993 — first African American woman to receive the honor\nBorn Chloe Ardelia Woffard in Lorain, Ohio; 'Toni' was a college nickname from her baptismal name Anthony\nWorked as an editor at Random House before her writing career, championing Black authors\nIn a 2006 *New York Times* survey of writers and critics, *Beloved* was named the best American novel of the past 25 years",
+          "cardFront": "*Beloved*",
+          "cardBack": "Toni Morrison"
+        },
+        {
+          "id": "invisible-man",
+          "prompt": "Who wrote *Invisible Man* (1952), about a nameless Black man navigating American society?",
+          "answer": "Ralph Ellison",
+          "alternates": ["Ellison"],
+          "explanation": "Published 1952; won the National Book Award in 1953 — Ellison was the first African American to win it\nThe unnamed narrator's invisibility is metaphorical — society refuses to see him as an individual\nEllison's only novel published in his lifetime; he worked on a second novel for 40+ years without finishing\nBegan writing it in a barn in Vermont in 1945 while on leave from the Merchant Marine\nRanked #19 on the Modern Library's 100 Best English-Language Novels of the 20th Century\nNot to be confused with H.G. Wells's *The Invisible Man* (1897), a science fiction novel about literal invisibility",
+          "cardFront": "*Invisible Man* (1952)",
+          "cardBack": "Ralph Ellison"
+        },
+        {
+          "id": "the-sun-also-rises",
+          "prompt": "Who wrote *The Sun Also Rises*?",
+          "answer": "Ernest Hemingway",
+          "alternates": ["Hemingway"],
+          "explanation": "Published 1926; Hemingway's first major novel, set among expatriates in 1920s Paris and Pamplona, Spain\nDefined the 'Lost Generation' — a term coined by Gertrude Stein that Hemingway used as the book's epigraph\nHemingway's spare, declarative prose style influenced virtually all 20th-century American fiction\nWon the Nobel Prize in Literature in 1954; also won the Pulitzer for *The Old Man and the Sea* (1953)\nWas an ambulance driver in WWI, war correspondent in WWII, survived two plane crashes in Africa\nDied by suicide in Ketchum, Idaho, in 1961, following a family history of depression",
+          "cardFront": "*The Sun Also Rises*",
+          "cardBack": "Ernest Hemingway"
+        },
+        {
+          "id": "ulysses",
+          "prompt": "Who wrote *Ulysses*?",
+          "answer": "James Joyce",
+          "alternates": ["Joyce"],
+          "explanation": "Published 1922 in Paris by Sylvia Beach's Shakespeare and Company bookshop\nSet entirely on June 16, 1904, in Dublin — now celebrated annually as 'Bloomsday' after protagonist Leopold Bloom\nBanned in the U.S. for obscenity until the landmark 1933 *United States v. One Book Called Ulysses* ruling\nRanked #1 on the Modern Library's 100 Best English-Language Novels of the 20th Century\nJoyce also wrote *Dubliners* (1914), *A Portrait of the Artist as a Young Man* (1916), and *Finnegans Wake* (1939)\nLived most of his adult life in self-imposed exile from Ireland — in Trieste, Zurich, and Paris",
+          "cardFront": "*Ulysses*",
+          "cardBack": "James Joyce"
+        },
+        {
+          "id": "frankenstein",
+          "prompt": "Who wrote *Frankenstein*?",
+          "answer": "Mary Shelley",
+          "alternates": ["Shelley", "Mary Wollstonecraft Shelley"],
+          "explanation": "Published 1818; subtitled 'The Modern Prometheus' — Shelley was only 18 when she began writing it\nConceived during a ghost story contest at Lord Byron's villa on Lake Geneva in 1816\nConsidered the first science fiction novel — the creature is animated by galvanism, not magic\nPublished anonymously; many assumed her husband Percy Bysshe Shelley wrote it\nHer mother was Mary Wollstonecraft, author of *A Vindication of the Rights of Woman* (1792), a foundational feminist text\nShelley kept her dead husband's calcified heart wrapped in silk until her death in 1851",
+          "cardFront": "*Frankenstein*",
+          "cardBack": "Mary Shelley"
+        }
+      ]
+    }
+  ]
+}

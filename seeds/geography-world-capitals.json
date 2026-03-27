@@ -1,0 +1,375 @@
+{
+  "nodes": [
+    { "id": "geography/world-capitals", "parentId": "geography", "name": "World Capitals", "description": "Capital cities of countries around the world" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/world-capitals/major-countries",
+      "nodeId": "geography/world-capitals",
+      "name": "World Capitals — Major Countries",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "france",
+          "prompt": "What is the capital of France?",
+          "answer": "Paris",
+          "alternates": [],
+          "explanation": "Population ~2.1 million (city proper), ~12 million (metro area)\nBuilt on the Seine River; the Île de la Cité is the historic heart (Notre-Dame, Sainte-Chapelle)\nHost city of the 2024 Summer Olympics\nThe Eiffel Tower (1889) was built as a temporary exhibit for the World's Fair and nearly demolished\nFrance is the world's most visited country; Paris alone draws ~30 million tourists annually",
+          "cardFront": "France",
+          "cardBack": "Paris"
+        },
+        {
+          "id": "united-kingdom",
+          "prompt": "What is the capital of the United Kingdom?",
+          "answer": "London",
+          "alternates": [],
+          "explanation": "Population ~9 million (city proper) — largest city in Western Europe\nSeat of the British monarchy since the Norman Conquest (1066)\nThe City of London (the 'Square Mile') is one of the world's oldest financial centers\nThe Great Fire of 1666 destroyed most of medieval London; St. Paul's Cathedral was rebuilt by Christopher Wren\nThe Underground ('the Tube'), opened 1863, was the world's first underground railway",
+          "cardFront": "United Kingdom",
+          "cardBack": "London"
+        },
+        {
+          "id": "germany",
+          "prompt": "What is the capital of Germany?",
+          "answer": "Berlin",
+          "alternates": [],
+          "explanation": "Population ~3.7 million; divided into East and West from 1945 to 1990\nThe Berlin Wall fell on November 9, 1989 — reunification followed on October 3, 1990\nBrandenburg Gate, built 1791, became the symbol of German reunification\nWest Germany's capital was Bonn from 1949–1990; the government moved back to Berlin in 1999\nHome to Museum Island, a UNESCO World Heritage Site with five museums on a Spree River island",
+          "cardFront": "Germany",
+          "cardBack": "Berlin"
+        },
+        {
+          "id": "italy",
+          "prompt": "What is the capital of Italy?",
+          "answer": "Rome",
+          "alternates": ["Roma"],
+          "explanation": "Population ~2.8 million; founded (by legend) in 753 BCE by Romulus and Remus\nContains Vatican City, an independent city-state and the smallest country in the world (121 acres)\nThe Colosseum (c. 80 CE) could seat ~50,000 spectators for gladiatorial games\nCapital of the Roman Republic, Roman Empire, and the Papal States before becoming Italy's capital in 1871\nThe Trevi Fountain collects ~3,000 euros in coins daily, donated to charity",
+          "cardFront": "Italy",
+          "cardBack": "Rome"
+        },
+        {
+          "id": "spain",
+          "prompt": "What is the capital of Spain?",
+          "answer": "Madrid",
+          "alternates": [],
+          "explanation": "Population ~3.3 million; located almost exactly at the geographic center of the Iberian Peninsula\nBecame the capital in 1561 under Philip II, replacing Valladolid\nHome to the Prado Museum, one of the world's finest art collections (Velázquez, Goya, El Greco)\nHighest-altitude capital in the EU at ~650 meters (2,130 ft) above sea level\nReal Madrid and Atlético Madrid are two of Europe's top football clubs",
+          "cardFront": "Spain",
+          "cardBack": "Madrid"
+        },
+        {
+          "id": "russia",
+          "prompt": "What is the capital of Russia?",
+          "answer": "Moscow",
+          "alternates": ["Moskva"],
+          "explanation": "Population ~13 million — the largest city in Europe\nThe Kremlin complex is the seat of the Russian government and a UNESCO World Heritage Site\nSt. Basil's Cathedral (1561) on Red Square, with its colorful onion domes, is Russia's most recognizable landmark\nSt. Petersburg was the capital from 1712–1918 under the tsars; the Bolsheviks moved it back to Moscow\nThe Moscow Metro (opened 1935) is famous for its ornate, palace-like stations",
+          "cardFront": "Russia",
+          "cardBack": "Moscow"
+        },
+        {
+          "id": "china",
+          "prompt": "What is the capital of China?",
+          "answer": "Beijing",
+          "alternates": ["Peking"],
+          "explanation": "Population ~21 million; name means 'Northern Capital' in Mandarin\nHome to the Forbidden City, the imperial palace for 24 emperors across the Ming and Qing dynasties\nTiananmen Square is one of the largest public squares in the world\nHosted the 2008 Summer Olympics and the 2022 Winter Olympics — first city to host both\nThe Great Wall's nearest sections to Beijing (Badaling, Mutianyu) are the most visited",
+          "cardFront": "China",
+          "cardBack": "Beijing"
+        },
+        {
+          "id": "japan",
+          "prompt": "What is the capital of Japan?",
+          "answer": "Tokyo",
+          "alternates": [],
+          "explanation": "Greater Tokyo metro area population ~37 million — the world's most populous metropolitan area\nOriginally called Edo; renamed Tokyo ('Eastern Capital') in 1868 when the emperor moved from Kyoto\nHosted the 1964 Summer Olympics (first in Asia) and the postponed 2020 Olympics (held in 2021)\nThe Tsukiji/Toyosu fish market is the world's largest wholesale fish and seafood market\nTokyo Tower (1958) and Tokyo Skytree (2012, 634m) are the city's iconic landmarks",
+          "cardFront": "Japan",
+          "cardBack": "Tokyo"
+        },
+        {
+          "id": "india",
+          "prompt": "What is the capital of India?",
+          "answer": "New Delhi",
+          "alternates": ["Delhi"],
+          "explanation": "Population ~1.4 million (New Delhi proper); Delhi metro area ~32 million\nDesigned by British architects Edwin Lutyens and Herbert Baker, inaugurated in 1931\nReplaced Calcutta (now Kolkata) as capital of British India in 1911\nIndia Gate, a war memorial, anchors the ceremonial boulevard Rajpath (now Kartavya Path)\nNew Delhi is technically a district within the National Capital Territory of Delhi",
+          "cardFront": "India",
+          "cardBack": "New Delhi"
+        },
+        {
+          "id": "south-korea",
+          "prompt": "What is the capital of South Korea?",
+          "answer": "Seoul",
+          "alternates": [],
+          "explanation": "Population ~9.7 million (city), ~26 million (metro area)\nServed as the capital of Korean kingdoms for over 600 years (since the Joseon dynasty, 1394)\nThe DMZ (Demilitarized Zone) separating North and South Korea is just 35 miles north of Seoul\nGangnam District became globally famous from Psy's 'Gangnam Style' (2012), the first YouTube video to hit 1 billion views\nHome to Samsung, Hyundai, and LG headquarters — South Korea's GDP per capita rivals Western Europe",
+          "cardFront": "South Korea",
+          "cardBack": "Seoul"
+        },
+        {
+          "id": "indonesia",
+          "prompt": "What is the capital of Indonesia?",
+          "answer": "Jakarta",
+          "alternates": [],
+          "explanation": "Population ~10.5 million (city), ~34 million (metro area) — one of the world's most densely populated cities\nLocated on the northwest coast of Java, the world's most populous island\nIndonesia is moving its capital to Nusantara on Borneo, announced in 2022, to relieve Jakarta's congestion and sinking\nJakarta is sinking up to 25 cm per year due to groundwater extraction — among the fastest-sinking cities on Earth\nFourth most populous country in the world with ~275 million people across 17,000+ islands",
+          "cardFront": "Indonesia",
+          "cardBack": "Jakarta"
+        },
+        {
+          "id": "brazil",
+          "prompt": "What is the capital of Brazil?",
+          "answer": "Brasilia",
+          "alternates": ["Brasília"],
+          "explanation": "Population ~3 million; a planned city inaugurated in 1960, replacing Rio de Janeiro as capital\nDesigned by urban planner Lúcio Costa and architect Oscar Niemeyer; shaped like an airplane from above\nA UNESCO World Heritage Site — the largest 20th-century city to receive the designation\nRio de Janeiro was the capital from 1763–1960; before that, Salvador from 1549–1763\nBuilt in 41 months in the interior cerrado (savanna) to promote development away from the coast",
+          "cardFront": "Brazil",
+          "cardBack": "Brasilia"
+        },
+        {
+          "id": "mexico",
+          "prompt": "What is the capital of Mexico?",
+          "answer": "Mexico City",
+          "alternates": ["Ciudad de Mexico", "Ciudad de México", "CDMX"],
+          "explanation": "Population ~9 million (city), ~21 million (metro area) — the largest city in North America\nBuilt on the ruins of Tenochtitlan, the Aztec capital conquered by Cortés in 1521\nSits at 2,240 meters (7,350 ft) elevation in the Valley of Mexico, surrounded by volcanic mountains\nSinking at ~50 cm per year due to clay soil compression from groundwater extraction\nThe Zócalo (Plaza de la Constitución) is one of the largest public squares in the world",
+          "cardFront": "Mexico",
+          "cardBack": "Mexico City"
+        },
+        {
+          "id": "argentina",
+          "prompt": "What is the capital of Argentina?",
+          "answer": "Buenos Aires",
+          "alternates": [],
+          "explanation": "Population ~3 million (city), ~15 million (metro area)\nKnown as the 'Paris of South America' for its European-style architecture and café culture\nBirthplace of tango, which originated in the working-class neighborhoods of La Boca and San Telmo\nCasa Rosada (the Pink House) is the executive mansion and seat of the Argentine president\nEva Perón ('Evita') remains the city's most famous figure; her tomb in Recoleta Cemetery is a major attraction",
+          "cardFront": "Argentina",
+          "cardBack": "Buenos Aires"
+        },
+        {
+          "id": "united-states",
+          "prompt": "What is the capital of the United States?",
+          "answer": "Washington, D.C.",
+          "alternates": ["Washington DC", "Washington", "DC", "D.C."],
+          "explanation": "Population ~670,000; not a state — a federal district established by the Residence Act of 1790\nDesigned by Pierre Charles L'Enfant with a grid of lettered and numbered streets and diagonal avenues\nThe White House, Capitol Building, and Supreme Court are all within 2 miles of each other on the National Mall\nD.C. residents pay federal taxes but had no presidential vote until the 23rd Amendment (1961)\nNew York City was the first U.S. capital (1789–1790), then Philadelphia (1790–1800)",
+          "cardFront": "United States",
+          "cardBack": "Washington, D.C."
+        },
+        {
+          "id": "canada",
+          "prompt": "What is the capital of Canada?",
+          "answer": "Ottawa",
+          "alternates": [],
+          "explanation": "Population ~1 million (metro area); located in Ontario on the Ontario-Quebec border\nChosen as capital by Queen Victoria in 1857 — a compromise between Toronto, Montreal, Kingston, and Quebec City\nThe Rideau Canal (UNESCO World Heritage Site) becomes the world's largest skating rink in winter (~7.8 km)\nParliament Hill overlooks the Ottawa River; the Centre Block's Peace Tower is 92 meters tall\nThe most common wrong answer for Canada's capital is Toronto (the largest city) or Montreal",
+          "cardFront": "Canada",
+          "cardBack": "Ottawa"
+        },
+        {
+          "id": "australia",
+          "prompt": "What is the capital of Australia?",
+          "answer": "Canberra",
+          "alternates": [],
+          "explanation": "Population ~460,000; a planned city chosen as a compromise between rivals Sydney and Melbourne\nDesigned by American architects Walter Burley Griffin and Marion Mahony Griffin, who won an international competition\nConstruction began 1913; Parliament House opened 1988 (the old Parliament House operated 1927–1988)\nMelbourne served as the interim national capital from 1901–1927\nThe most common wrong answer is Sydney (largest city) — Canberra is only Australia's 8th-largest city",
+          "cardFront": "Australia",
+          "cardBack": "Canberra"
+        },
+        {
+          "id": "saudi-arabia",
+          "prompt": "What is the capital of Saudi Arabia?",
+          "answer": "Riyadh",
+          "alternates": [],
+          "explanation": "Population ~7.6 million; located in the center of the Arabian Peninsula on the Najd plateau\nThe Al Saud family captured Riyadh in 1902, launching the campaign that created Saudi Arabia in 1932\nHome to the Kingdom Centre Tower (302m), one of the tallest skyscrapers in the Middle East\nJeddah is the second city and gateway for Hajj pilgrims to Mecca\nRiyadh means 'gardens' in Arabic, referring to the historical oasis settlement",
+          "cardFront": "Saudi Arabia",
+          "cardBack": "Riyadh"
+        },
+        {
+          "id": "south-africa",
+          "prompt": "What is the administrative capital of South Africa?",
+          "answer": "Pretoria",
+          "alternates": ["Tshwane"],
+          "explanation": "South Africa has three capitals: Pretoria (executive), Cape Town (legislative), Bloemfontein (judicial)\nPretoria is commonly given as 'the' capital in trivia; it houses the president and government ministries\nThe Union Buildings in Pretoria are the official seat of the South African government\nNamed after Voortrekker leader Andries Pretorius; now part of the Tshwane metropolitan municipality\nNelson Mandela was inaugurated as president at the Union Buildings on May 10, 1994",
+          "cardFront": "South Africa",
+          "cardBack": "Pretoria"
+        },
+        {
+          "id": "turkey",
+          "prompt": "What is the capital of Turkey?",
+          "answer": "Ankara",
+          "alternates": [],
+          "explanation": "Population ~5.7 million; became the capital in 1923 when Atatürk founded the Republic of Turkey\nChosen over Istanbul to symbolize a break from the Ottoman Empire and its coastal vulnerability\nAnıtkabir, Atatürk's mausoleum, is the city's most visited landmark\nIstanbul is far larger (~16 million) and more famous, making Ankara one of trivia's classic 'trick' capitals\nAnkara has been continuously settled since the Bronze Age; known as Ancyra in antiquity",
+          "cardFront": "Turkey",
+          "cardBack": "Ankara"
+        },
+        {
+          "id": "egypt",
+          "prompt": "What is the capital of Egypt?",
+          "answer": "Cairo",
+          "alternates": ["Al-Qahira", "Al-Qahirah"],
+          "explanation": "Population ~10 million (city), ~22 million (metro area) — largest city in the Arab world and Africa\nFounded in 969 CE by the Fatimid dynasty; the name Al-Qahira means 'The Victorious'\nThe Great Pyramids of Giza are technically in Giza, across the Nile, but within Cairo's metro area\nAl-Azhar University (founded 970 CE) is one of the oldest continuously operating universities in the world\nTahrir Square was the center of the 2011 Egyptian revolution that toppled Hosni Mubarak",
+          "cardFront": "Egypt",
+          "cardBack": "Cairo"
+        },
+        {
+          "id": "nigeria",
+          "prompt": "What is the capital of Nigeria?",
+          "answer": "Abuja",
+          "alternates": [],
+          "explanation": "Population ~3.6 million; became the capital in 1991, replacing Lagos\nA planned city in the center of Nigeria, chosen for its central location and to avoid ethnic associations\nLagos remains by far the largest city (~15 million) and economic hub\nThe Nigerian National Mosque and National Church sit across from each other, symbolizing religious coexistence\nOne of trivia's frequent 'wrong answer' capitals — most people guess Lagos",
+          "cardFront": "Nigeria",
+          "cardBack": "Abuja"
+        },
+        {
+          "id": "kenya",
+          "prompt": "What is the capital of Kenya?",
+          "answer": "Nairobi",
+          "alternates": [],
+          "explanation": "Population ~4.4 million; founded in 1899 as a railway depot on the Uganda Railway\nNairobi National Park is the only national park within a major capital city — lions with skyscrapers in the background\nServes as the headquarters of the United Nations Environment Programme (UNEP)\nKenyatta International Convention Centre is the city's iconic landmark\nThe name comes from the Maasai phrase 'enkare nairobi' meaning 'cool water'",
+          "cardFront": "Kenya",
+          "cardBack": "Nairobi"
+        },
+        {
+          "id": "ethiopia",
+          "prompt": "What is the capital of Ethiopia?",
+          "answer": "Addis Ababa",
+          "alternates": [],
+          "explanation": "Population ~5.4 million; name means 'New Flower' in Amharic\nHeadquarters of the African Union (AU) since its founding as the OAU in 1963\nSits at ~2,355 meters (7,726 ft) elevation — the world's third-highest capital city\nLucy, the 3.2-million-year-old Australopithecus afarensis fossil, is housed at the National Museum\nEthiopia was never colonized (except for a brief Italian occupation 1936–1941)",
+          "cardFront": "Ethiopia",
+          "cardBack": "Addis Ababa"
+        },
+        {
+          "id": "morocco",
+          "prompt": "What is the capital of Morocco?",
+          "answer": "Rabat",
+          "alternates": [],
+          "explanation": "Population ~580,000; located on the Atlantic coast at the mouth of the Bou Regreg river\nCasablanca is larger (~3.7 million) and more famous — a common trivia trap\nThe Hassan Tower, an incomplete 12th-century minaret, is Rabat's most recognizable landmark\nRabat's medina and modern city together form a UNESCO World Heritage Site\nBecame the capital under the French protectorate in 1912, replacing the traditional capital Fez",
+          "cardFront": "Morocco",
+          "cardBack": "Rabat"
+        },
+        {
+          "id": "myanmar",
+          "prompt": "What is the capital of Myanmar?",
+          "answer": "Naypyidaw",
+          "alternates": ["Nay Pyi Taw", "Naypyitaw"],
+          "explanation": "Population ~1.2 million; replaced Yangon (Rangoon) as the capital in 2005\nA purpose-built city in the center of the country; the move was announced with almost no warning\nNotorious for its enormous, largely empty 20-lane highways and vast government complexes\nYangon (~5 million) remains the largest city and economic center\nOne of trivia's hardest capitals — most people still think Yangon/Rangoon is the capital",
+          "cardFront": "Myanmar",
+          "cardBack": "Naypyidaw"
+        },
+        {
+          "id": "thailand",
+          "prompt": "What is the capital of Thailand?",
+          "answer": "Bangkok",
+          "alternates": ["Krung Thep", "Krung Thep Maha Nakhon"],
+          "explanation": "Population ~10.5 million (metro area); Bangkok's ceremonial name in Thai is 168 letters long — the world's longest place name\nThe full Thai name begins 'Krung Thep Maha Nakhon' ('City of Angels')\nThe Grand Palace complex, home to the Emerald Buddha, has been the royal residence since 1782\nOne of the world's most visited cities, with ~25 million international visitors annually\nKnown for its ornate Buddhist temples, floating markets, and street food culture",
+          "cardFront": "Thailand",
+          "cardBack": "Bangkok"
+        },
+        {
+          "id": "vietnam",
+          "prompt": "What is the capital of Vietnam?",
+          "answer": "Hanoi",
+          "alternates": ["Ha Noi"],
+          "explanation": "Population ~8.4 million (metro area); located in northern Vietnam on the Red River\nHo Chi Minh City (formerly Saigon) in the south is larger (~9 million) but is not the capital\nHanoi has been a capital for over 1,000 years, since 1010 under the Ly dynasty\nThe Old Quarter's 36 streets are each named for the goods traditionally sold there\nHo Chi Minh's embalmed body is displayed in a mausoleum in Ba Dinh Square, modeled on Lenin's tomb",
+          "cardFront": "Vietnam",
+          "cardBack": "Hanoi"
+        },
+        {
+          "id": "pakistan",
+          "prompt": "What is the capital of Pakistan?",
+          "answer": "Islamabad",
+          "alternates": [],
+          "explanation": "Population ~1.2 million; a planned city that became the capital in 1967, replacing Karachi\nLocated at the base of the Margalla Hills in the Pothohar Plateau\nFaisal Mosque (completed 1986) is one of the largest mosques in the world, designed by Turkish architect Vedat Dalokay\nKarachi (~15 million) remains the largest city and economic hub\nThe name means 'City of Islam' — the city was built from scratch in the 1960s",
+          "cardFront": "Pakistan",
+          "cardBack": "Islamabad"
+        },
+        {
+          "id": "iran",
+          "prompt": "What is the capital of Iran?",
+          "answer": "Tehran",
+          "alternates": ["Teheran"],
+          "explanation": "Population ~9 million (city), ~16 million (metro area) — the largest city in Western Asia\nBecame the capital in 1786 under the Qajar dynasty, replacing Isfahan\nSits at the foot of the Alborz Mountains; Mount Damavand (5,671m) is visible on clear days\nThe 1979 Iranian Revolution and the 444-day U.S. Embassy hostage crisis both centered in Tehran\nGolestan Palace, a UNESCO World Heritage Site, is the former Qajar royal complex",
+          "cardFront": "Iran",
+          "cardBack": "Tehran"
+        },
+        {
+          "id": "israel",
+          "prompt": "What does Israel designate as its capital?",
+          "answer": "Jerusalem",
+          "alternates": [],
+          "explanation": "Population ~950,000; sacred to Judaism, Christianity, and Islam\nIsrael declared Jerusalem its capital in 1950; the 1980 Jerusalem Law formalized the claim\nMost countries maintain embassies in Tel Aviv; the U.S. moved its embassy to Jerusalem in 2018\nThe Old City contains the Western Wall, Church of the Holy Sepulchre, and Dome of the Rock within ~1 km\nJerusalem's status is one of the most contested issues in international diplomacy",
+          "cardFront": "Israel",
+          "cardBack": "Jerusalem"
+        },
+        {
+          "id": "ukraine",
+          "prompt": "What is the capital of Ukraine?",
+          "answer": "Kyiv",
+          "alternates": ["Kiev"],
+          "explanation": "Population ~2.9 million; one of Europe's oldest cities, founded in the 5th century\n'Kiev' is the Russian-language spelling; 'Kyiv' (from Ukrainian) became standard internationally after 2018\nThe Kyiv Pechersk Lavra (Monastery of the Caves), founded 1051, is a UNESCO World Heritage Site\nSaint Sophia Cathedral (built 1037) contains mosaics and frescoes from the original construction\nHas been under military threat since Russia's full-scale invasion of Ukraine in February 2022",
+          "cardFront": "Ukraine",
+          "cardBack": "Kyiv"
+        },
+        {
+          "id": "poland",
+          "prompt": "What is the capital of Poland?",
+          "answer": "Warsaw",
+          "alternates": ["Warszawa"],
+          "explanation": "Population ~1.8 million; 85% of the city was destroyed in WWII, then meticulously rebuilt\nThe Old Town reconstruction was so faithful it became a UNESCO World Heritage Site\nBecame the capital in 1596, replacing Kraków when King Sigismund III moved the court\nThe Warsaw Uprising (August–October 1944) against Nazi occupation killed ~200,000 civilians\nChopin was born near Warsaw and his heart is preserved in a pillar at the Holy Cross Church",
+          "cardFront": "Poland",
+          "cardBack": "Warsaw"
+        },
+        {
+          "id": "netherlands",
+          "prompt": "What is the capital of the Netherlands?",
+          "answer": "Amsterdam",
+          "alternates": [],
+          "explanation": "Population ~900,000 (city), ~2.5 million (metro area); built on a network of 165 canals\nAmsterdam is the constitutional capital, but the government sits in The Hague (Den Haag)\nThe Anne Frank House and the Rijksmuseum (home to Rembrandt's *Night Watch*) are top landmarks\nThe canal ring district is a UNESCO World Heritage Site\nA common trivia follow-up: 'Where is the Dutch government seated?' — The Hague",
+          "cardFront": "Netherlands",
+          "cardBack": "Amsterdam"
+        },
+        {
+          "id": "switzerland",
+          "prompt": "What is the capital of Switzerland?",
+          "answer": "Bern",
+          "alternates": ["Berne"],
+          "explanation": "Population ~135,000; technically designated the 'Federal City' rather than official capital\nA common trivia trick — many guess Zurich (financial center) or Geneva (UN and Red Cross headquarters)\nThe Zytglogge, a medieval clock tower, is the city's most famous landmark\nAlbert Einstein developed his special theory of relativity while working at the patent office in Bern (1905)\nBern's Old Town, built on a peninsula in the Aare River, is a UNESCO World Heritage Site",
+          "cardFront": "Switzerland",
+          "cardBack": "Bern"
+        },
+        {
+          "id": "greece",
+          "prompt": "What is the capital of Greece?",
+          "answer": "Athens",
+          "alternates": ["Athina"],
+          "explanation": "Population ~3.2 million (metro area); continuously inhabited for over 5,000 years\nBirthplace of democracy, Western philosophy, and the Olympic Games\nThe Acropolis and Parthenon (447–432 BCE) dominate the skyline\nHosted the first modern Olympic Games in 1896 and again in 2004\nNamed after the goddess Athena, who won patronage of the city over Poseidon in Greek myth",
+          "cardFront": "Greece",
+          "cardBack": "Athens"
+        },
+        {
+          "id": "sweden",
+          "prompt": "What is the capital of Sweden?",
+          "answer": "Stockholm",
+          "alternates": [],
+          "explanation": "Population ~1 million (city), ~2.4 million (metro area); spread across 14 islands\nThe Nobel Prize ceremonies are held at Stockholm's Concert Hall and City Hall each December 10\nGamla Stan (Old Town) dates to the 13th century and contains the Royal Palace\nThe Vasa Museum houses a nearly intact 17th-century warship that sank on its maiden voyage in 1628\nOften called the 'Venice of the North' (a title shared with several other cities)",
+          "cardFront": "Sweden",
+          "cardBack": "Stockholm"
+        },
+        {
+          "id": "norway",
+          "prompt": "What is the capital of Norway?",
+          "answer": "Oslo",
+          "alternates": ["Christiania", "Kristiania"],
+          "explanation": "Population ~700,000; founded c. 1040 CE\nWas named Christiania (later Kristiania) from 1624 to 1925 when it reverted to Oslo\nThe Nobel Peace Prize is awarded in Oslo (all other Nobels are awarded in Stockholm)\nHome to the Viking Ship Museum and Edvard Munch's *The Scream* at the National Museum\nOne of the most expensive cities in the world, fueled by Norway's sovereign wealth fund (oil revenues)",
+          "cardFront": "Norway",
+          "cardBack": "Oslo"
+        },
+        {
+          "id": "colombia",
+          "prompt": "What is the capital of Colombia?",
+          "answer": "Bogota",
+          "alternates": ["Bogotá"],
+          "explanation": "Population ~7.4 million; sits at 2,640 meters (8,660 ft) in the Andes — one of the highest major capitals\nFounded in 1538 by the Spanish conquistador Gonzalo Jiménez de Quesada\nThe Gold Museum (Museo del Oro) holds the world's largest collection of pre-Columbian gold artifacts\nColombia is frequently misspelled as 'Columbia' — a trivia pet peeve\nBogotá's TransMilenio bus rapid transit system is one of the world's largest",
+          "cardFront": "Colombia",
+          "cardBack": "Bogota"
+        },
+        {
+          "id": "peru",
+          "prompt": "What is the capital of Peru?",
+          "answer": "Lima",
+          "alternates": [],
+          "explanation": "Population ~10.8 million (metro area); the largest city on South America's Pacific coast\nFounded by Francisco Pizarro in 1535; the historic center is a UNESCO World Heritage Site\nLima's food scene is world-renowned — Central restaurant has repeatedly been ranked among the world's best\nAlmost never rains (annual rainfall ~15mm) despite high humidity; sits in a coastal desert\nThe catacombs beneath the Basilica of San Francisco hold the bones of an estimated 25,000 people",
+          "cardFront": "Peru",
+          "cardBack": "Lima"
+        }
+      ]
+    }
+  ]
+}
