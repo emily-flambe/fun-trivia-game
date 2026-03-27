@@ -11,8 +11,6 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 	const [selectedId, setSelectedId] = useState<string | null>(null);
 	const [reversed, setReversed] = useState(false);
 
-	const nodeId = exercise.nodeId;
-
 	// Check if items have cardFront/cardBack in data for reversible mode
 	const hasCardFields = items.some((item) => item.data?.cardFront || item.data?.cardBack);
 
@@ -25,10 +23,9 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 		setSelectedId(null);
 	}
 
-	function cardFace(item: PublicItem) {
-		const front = item.data?.cardBack || item.data?.prompt || item.id;
-		const back = item.data?.cardFront || item.data?.prompt || item.id;
-		return reversed ? back : front;
+	function cardFace(item: PublicItem): string {
+		if (reversed) return item.data?.cardFront || item.data?.prompt || item.id;
+		return item.data?.cardBack || item.data?.prompt || item.id;
 	}
 
 	const selectedItem = selectedId ? items.find((i) => i.id === selectedId) : null;
@@ -36,7 +33,7 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 	return (
 		<div className="animate-in">
 			<div className="flex items-center gap-3 mb-6">
-				<a href={`#/node/${nodeId}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
+				<a href={`#/node/${exercise.nodeId}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
 				<h2 className="text-lg font-semibold flex-1 tracking-tight">{exercise.name}</h2>
 				{hasCardFields && (
 					<button

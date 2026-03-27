@@ -1,19 +1,29 @@
 {
   "nodes": [
-    { "id": "american-history/presidents", "parentId": "american-history", "name": "U.S. Presidents", "description": "Presidents of the United States" }
+    {
+      "id": "american-history/presidents",
+      "parentId": "american-history",
+      "name": "U.S. Presidents",
+      "description": "Presidents of the United States"
+    }
   ],
   "exercises": [
     {
-      "id": "american-history/presidents/first-ten",
+      "id": "american-history/presidents/all-presidents",
       "nodeId": "american-history/presidents",
-      "name": "First 10 Presidents",
+      "name": "All U.S. Presidents",
       "format": "fill-blanks",
-      "config": { "ordered": true, "prompt": "Name the first 10 U.S. Presidents in order" },
+      "config": {
+        "ordered": true,
+        "prompt": "Name all 47 U.S. Presidents in order"
+      },
       "items": [
         {
           "id": "washington",
           "answer": "George Washington",
-          "alternates": ["Washington"],
+          "alternates": [
+            "Washington"
+          ],
           "explanation": "1st President (1789–1797), Federalist (no formal party)\nCommander-in-Chief of the Continental Army during the Revolutionary War\nOnly president unanimously elected by the Electoral College — twice\nSet the two-term precedent that held until FDR\nPresided over the Constitutional Convention in Philadelphia, 1787\nFarewell Address warned against political parties and foreign entanglements\nDied in 1799 at Mount Vernon; at death was the wealthiest president in history (adjusted)",
           "cardFront": "#1 (1789–1797)",
           "cardBack": "George Washington"
@@ -21,7 +31,10 @@
         {
           "id": "adams-j",
           "answer": "John Adams",
-          "alternates": ["Adams", "J. Adams"],
+          "alternates": [
+            "Adams",
+            "J. Adams"
+          ],
           "explanation": "2nd President (1797–1801), Federalist\nFirst president to live in the White House (moved in November 1800)\nDefended British soldiers in court after the Boston Massacre (1770)\nSigned the Alien and Sedition Acts, which criminalized dissent\nFirst president to be defeated for reelection\nDied on July 4, 1826 — the same day as Thomas Jefferson, exactly 50 years after the Declaration\nFather of John Quincy Adams (6th President) — first father-son presidential pair",
           "cardFront": "#2 (1797–1801)",
           "cardBack": "John Adams"
@@ -29,7 +42,9 @@
         {
           "id": "jefferson",
           "answer": "Thomas Jefferson",
-          "alternates": ["Jefferson"],
+          "alternates": [
+            "Jefferson"
+          ],
           "explanation": "3rd President (1801–1809), Democratic-Republican\nPrincipal author of the Declaration of Independence (1776)\nEngineered the Louisiana Purchase (1803), doubling U.S. territory for ~$15 million\nFounded the University of Virginia; designed its campus himself\nSent Lewis and Clark on their expedition (1804–1806)\nInventor and polymath: redesigned the plow, built a revolving book stand, played violin\nDied July 4, 1826 — same day as John Adams, on the Declaration's 50th anniversary",
           "cardFront": "#3 (1801–1809)",
           "cardBack": "Thomas Jefferson"
@@ -37,7 +52,9 @@
         {
           "id": "madison",
           "answer": "James Madison",
-          "alternates": ["Madison"],
+          "alternates": [
+            "Madison"
+          ],
           "explanation": "4th President (1809–1817), Democratic-Republican\n'Father of the Constitution' — principal architect and author of the Bill of Rights\nShortest president at 5'4\" and never weighed more than ~100 lbs\nLed the nation through the War of 1812 against Britain\nOnly sitting president to personally command troops in battle (Bladensburg, 1814)\nThe White House was burned by the British during his presidency\nHis wife Dolley Madison famously saved Gilbert Stuart's portrait of Washington from the fire",
           "cardFront": "#4 (1809–1817)",
           "cardBack": "James Madison"
@@ -45,7 +62,9 @@
         {
           "id": "monroe",
           "answer": "James Monroe",
-          "alternates": ["Monroe"],
+          "alternates": [
+            "Monroe"
+          ],
           "explanation": "5th President (1817–1825), Democratic-Republican\nIssued the Monroe Doctrine (1823): the Americas are closed to further European colonization\nPresidency known as the 'Era of Good Feelings' — ran virtually unopposed in 1820\nLast president who was a Founding Father and Revolutionary War veteran\nWounded at the Battle of Trenton (1776) alongside Washington\nOversaw the Missouri Compromise (1820), temporarily resolving the slavery expansion debate\nDied July 4, 1831 — the third president to die on Independence Day",
           "cardFront": "#5 (1817–1825)",
           "cardBack": "James Monroe"
@@ -53,7 +72,11 @@
         {
           "id": "adams-jq",
           "answer": "John Quincy Adams",
-          "alternates": ["JQ Adams", "J.Q. Adams", "Quincy Adams"],
+          "alternates": [
+            "JQ Adams",
+            "J.Q. Adams",
+            "Quincy Adams"
+          ],
           "explanation": "6th President (1825–1829), Democratic-Republican / National Republican\nSon of John Adams — first son of a president to become president (until George W. Bush)\nWon the presidency via the House of Representatives ('Corrupt Bargain' of 1824)\nOnly former president to serve in the U.S. House of Representatives (1831–1848)\nFluent in seven languages; served as diplomat in Europe from age 14\nArgued the Amistad case before the Supreme Court (1841), winning freedom for enslaved Africans\nCollapsed on the House floor and died in the Capitol building, 1848",
           "cardFront": "#6 (1825–1829)",
           "cardBack": "John Quincy Adams"
@@ -61,7 +84,9 @@
         {
           "id": "jackson",
           "answer": "Andrew Jackson",
-          "alternates": ["Jackson"],
+          "alternates": [
+            "Jackson"
+          ],
           "explanation": "7th President (1829–1837), Democrat\nFounder of the modern Democratic Party; his election called the 'rise of the common man'\nHero of the Battle of New Orleans (1815) — won decisively after the peace treaty was signed\nFirst president to survive an assassination attempt (1835, both pistols misfired)\nDestroyed the Second Bank of the United States, sparking the Panic of 1837\nForced the Indian Removal Act (1830), leading to the Trail of Tears\nNicknamed 'Old Hickory' for his toughness; fought in multiple duels, carrying bullets in his body",
           "cardFront": "#7 (1829–1837)",
           "cardBack": "Andrew Jackson"
@@ -69,7 +94,9 @@
         {
           "id": "van-buren",
           "answer": "Martin Van Buren",
-          "alternates": ["Van Buren"],
+          "alternates": [
+            "Van Buren"
+          ],
           "explanation": "8th President (1837–1841), Democrat\nFirst president born a U.S. citizen (not a British colonial subject)\nFirst president born speaking a language other than English (Dutch, grew up in Kinderhook, NY)\nNicknamed 'The Little Magician' for his political skill and 'Old Kinderhook' (possibly the origin of 'OK')\nPresidency dominated by the Panic of 1837, one of the worst financial crises in U.S. history\nLost reelection to William Henry Harrison in 1840 ('Tippecanoe and Tyler Too')\nRan again in 1848 on the Free Soil ticket, opposing the expansion of slavery",
           "cardFront": "#8 (1837–1841)",
           "cardBack": "Martin Van Buren"
@@ -77,7 +104,10 @@
         {
           "id": "harrison-wh",
           "answer": "William Henry Harrison",
-          "alternates": ["Harrison", "W.H. Harrison"],
+          "alternates": [
+            "Harrison",
+            "W.H. Harrison"
+          ],
           "explanation": "9th President (1841), Whig\nShortest presidency in history — died 31 days after inauguration\nDelivered the longest inaugural address (nearly 2 hours, in cold rain without a coat)\nDied of pneumonia (or possibly typhoid) on April 4, 1841\nCampaigned with the famous slogan 'Tippecanoe and Tyler Too'\n'Tippecanoe' referred to his 1811 victory over Tecumseh's confederacy at the Battle of Tippecanoe\nGrandfather of Benjamin Harrison (23rd President) — only grandparent-grandchild presidential pair",
           "cardFront": "#9 (1841)",
           "cardBack": "William Henry Harrison"
@@ -85,10 +115,409 @@
         {
           "id": "tyler",
           "answer": "John Tyler",
-          "alternates": ["Tyler"],
+          "alternates": [
+            "Tyler"
+          ],
           "explanation": "10th President (1841–1845), Whig (expelled from party)\nFirst VP to assume presidency upon a president's death — set the precedent for succession\nNicknamed 'His Accidency' by opponents who questioned his legitimacy\nExpelled from his own party; his entire Cabinet resigned except Daniel Webster\nAnnexed Texas in 1845, one of the last acts of his presidency\nFathered 15 children — the most of any president\nDied in 1862 as an elected Confederate congressman — the only president to join the Confederacy",
           "cardFront": "#10 (1841–1845)",
           "cardBack": "John Tyler"
+        },
+        {
+          "id": "polk",
+          "answer": "James K. Polk",
+          "alternates": [
+            "Polk",
+            "James Polk"
+          ],
+          "explanation": "11th President (1845–1849), Democrat\n\"Dark horse\" candidate — first major surprise nominee in U.S. presidential history\nPromised to serve only one term and kept it — one of the few presidents to voluntarily limit himself\nAcquired Oregon Territory through negotiation with Britain and California/Southwest via the Mexican-American War\nOversaw the greatest territorial expansion since the Louisiana Purchase — added more land than any president except Jefferson\nDied just 103 days after leaving office, the shortest retirement of any president\nConsidered the last strong president before the Civil War era\nSigned the act establishing the Smithsonian Institution (1846)",
+          "cardFront": "#11 (1845–1849)",
+          "cardBack": "James K. Polk"
+        },
+        {
+          "id": "taylor-z",
+          "answer": "Zachary Taylor",
+          "alternates": [
+            "Taylor",
+            "Z. Taylor"
+          ],
+          "explanation": "12th President (1849–1850), Whig\nNicknamed \"Old Rough and Ready\" for his informal style and battlefield toughness\nHero of the Mexican-American War, especially the Battle of Buena Vista (1847)\nNever voted in an election before being elected president himself\nDied just 16 months into his term — possibly from gastroenteritis after eating cherries and iced milk at a July 4th celebration\nOwned slaves but opposed the expansion of slavery into new territories\nSecond president to die in office (after William Henry Harrison)\nHis body was exhumed in 1991 to test for arsenic poisoning — results were negative",
+          "cardFront": "#12 (1849–1850)",
+          "cardBack": "Zachary Taylor"
+        },
+        {
+          "id": "fillmore",
+          "answer": "Millard Fillmore",
+          "alternates": [
+            "Fillmore"
+          ],
+          "explanation": "13th President (1850–1853), Whig\nLast Whig president — the party collapsed shortly after his term\nAssumed the presidency after Zachary Taylor's sudden death\nSigned the Compromise of 1850, including the controversial Fugitive Slave Act\nOften credited with installing the first bathtub and kitchen stove in the White House, though these claims are disputed\nLater ran for president on the anti-immigrant Know-Nothing Party ticket in 1856\nHelped found the University of Buffalo\nRefused an honorary degree from Oxford, reportedly saying he had neither the literary nor scientific attainment to deserve it",
+          "cardFront": "#13 (1850–1853)",
+          "cardBack": "Millard Fillmore"
+        },
+        {
+          "id": "pierce",
+          "answer": "Franklin Pierce",
+          "alternates": [
+            "Pierce"
+          ],
+          "explanation": "14th President (1853–1857), Democrat\nOnly president from New Hampshire\nConsistently ranked among the worst presidents by historians\nSigned the Kansas-Nebraska Act (1854), which led to the violent conflict known as \"Bleeding Kansas\"\nHis 11-year-old son Bennie was killed in a train accident weeks before the inauguration — Pierce and his wife witnessed the death\nThe only elected president not nominated for a second term by his own party\nArrested during his presidency for running over a woman with his horse (charges were dropped)\nClose college friend of Nathaniel Hawthorne, who wrote his campaign biography",
+          "cardFront": "#14 (1853–1857)",
+          "cardBack": "Franklin Pierce"
+        },
+        {
+          "id": "buchanan",
+          "answer": "James Buchanan",
+          "alternates": [
+            "Buchanan"
+          ],
+          "explanation": "15th President (1857–1861), Democrat\nOnly president from Pennsylvania and the only president who never married (lifelong bachelor)\nServed in Polk's Cabinet as Secretary of State and later as U.S. Ambassador to the United Kingdom\nPresidency saw the Dred Scott Supreme Court decision (1857) and the secession crisis that led to the Civil War\nWidely regarded as one of the worst presidents for failing to prevent the breakup of the Union\nHis niece Harriet Lane served as First Lady in the absence of a presidential spouse\nLast president born in the 18th century (born 1791)",
+          "cardFront": "#15 (1857–1861)",
+          "cardBack": "James Buchanan"
+        },
+        {
+          "id": "lincoln",
+          "answer": "Abraham Lincoln",
+          "alternates": [
+            "Lincoln",
+            "Abe Lincoln"
+          ],
+          "explanation": "16th President (1861–1865), Republican\nPreserved the Union through the Civil War and issued the Emancipation Proclamation (1863)\nDelivered the Gettysburg Address, one of the most famous speeches in American history\nFirst Republican president ever elected\nAssassinated by John Wilkes Booth at Ford's Theatre on April 14, 1865 — died the next morning\nTallest president at 6'4\" and largely self-educated as a frontier lawyer from Illinois\nEstablished Thanksgiving as a permanent national holiday (1863)\nFace on the $5 bill and the penny, and carved into Mount Rushmore",
+          "cardFront": "#16 (1861–1865)",
+          "cardBack": "Abraham Lincoln"
+        },
+        {
+          "id": "johnson-a",
+          "answer": "Andrew Johnson",
+          "alternates": [
+            "A. Johnson",
+            "Andrew Johnson"
+          ],
+          "explanation": "17th President (1865–1869), National Union/Democrat\nFirst president to be impeached — acquitted by a single vote in the Senate\nAssumed office after Lincoln's assassination; clashed bitterly with Radical Republicans over Reconstruction\nVetoed the Civil Rights Act of 1866, but Congress overrode the veto — the first major legislation passed over a presidential veto\nPurchased Alaska from Russia for $7.2 million, a deal mocked as \"Seward's Folly\"\nNever attended a single day of school — his wife taught him to read and write\nOnly former president to later serve in the U.S. Senate (elected 1875), until Andrew Johnson held that distinction alone among presidents",
+          "cardFront": "#17 (1865–1869)",
+          "cardBack": "Andrew Johnson"
+        },
+        {
+          "id": "grant",
+          "answer": "Ulysses S. Grant",
+          "alternates": [
+            "Grant",
+            "U.S. Grant"
+          ],
+          "explanation": "18th President (1869–1877), Republican\nCommanded all Union forces in the Civil War and accepted Lee's surrender at Appomattox Court House (1865)\nReal name was Hiram Ulysses Grant — \"U.S.\" came from a clerical error at West Point that stuck\nPresidency plagued by scandals including Credit Mobilier and the Whiskey Ring, though Grant himself was not personally corrupt\nEstablished Yellowstone as the first national park (1872)\nWrote his memoirs while dying of throat cancer — published by Mark Twain, they became a critical and financial success\nFace on the $50 bill\nServed two full terms despite the scandals",
+          "cardFront": "#18 (1869–1877)",
+          "cardBack": "Ulysses S. Grant"
+        },
+        {
+          "id": "hayes",
+          "answer": "Rutherford B. Hayes",
+          "alternates": [
+            "Hayes",
+            "R.B. Hayes"
+          ],
+          "explanation": "19th President (1877–1881), Republican\nWon the most disputed election in U.S. history (1876) — decided by a congressional commission after contested electoral votes\nNicknamed \"Rutherfraud\" by opponents who considered his presidency illegitimate\nEnded Reconstruction by withdrawing federal troops from the South as part of the compromise that gave him the presidency\nFirst president to have a telephone in the White House, installed by Alexander Graham Bell himself\nBanned alcohol from the White House — his wife Frances was nicknamed \"Lemonade Lucy\"\nPledged to serve only one term and kept his promise",
+          "cardFront": "#19 (1877–1881)",
+          "cardBack": "Rutherford B. Hayes"
+        },
+        {
+          "id": "garfield",
+          "answer": "James A. Garfield",
+          "alternates": [
+            "Garfield",
+            "J.A. Garfield",
+            "James Garfield"
+          ],
+          "explanation": "20th President (1881), Republican\nCould simultaneously write in Latin with one hand and Greek with the other — he was ambidextrous\nAssassinated by Charles Guiteau after only 200 days in office — shot on July 2, 1881 and died September 19, 1881\nHis death led directly to the Pendleton Civil Service Reform Act (1883), ending the spoils system\nWas a Civil War general and the only sitting member of the House of Representatives ever elected president\nLast president born in a log cabin\nLast of four presidents to die in office up to that point (Harrison, Taylor, Lincoln, Garfield)",
+          "cardFront": "#20 (1881)",
+          "cardBack": "James A. Garfield"
+        },
+        {
+          "id": "arthur",
+          "answer": "Chester A. Arthur",
+          "alternates": [
+            "Arthur",
+            "Chester Arthur"
+          ],
+          "explanation": "21st President (1881–1885), Republican\nNicknamed \"The Gentleman Boss\" for his elegant style and political connections\nAssumed the presidency after James Garfield's assassination\nSurprised everyone by championing civil service reform — signed the Pendleton Act despite being a product of the spoils system himself\nAccused of being born in Canada rather than Vermont — an early \"birther\" controversy\nKnown for his lavish wardrobe and redecorating the White House with Tiffany glass and new furnishings\nHad been a machine politician running the New York Customs House before the vice presidency\nSuffered from Bright's disease (kidney failure) which he kept secret from the public",
+          "cardFront": "#21 (1881–1885)",
+          "cardBack": "Chester A. Arthur"
+        },
+        {
+          "id": "cleveland-1",
+          "answer": "Grover Cleveland",
+          "alternates": [
+            "Cleveland"
+          ],
+          "explanation": "22nd and 24th President — the only president to serve non-consecutive terms\nOnly Democrat elected president between 1856 and 1912\nVetoed more bills than all previous presidents combined\nSecretly had surgery for oral cancer on a friend's yacht in 1893 to avoid causing a market panic — the public didn't learn of it for decades\nKnown for personal honesty — \"Tell the truth\" was his guiding motto\nMarried Frances Folsom in the White House in 1886 — the only presidential wedding held there — making her the youngest First Lady at age 21\nThe Baby Ruth candy bar may have been named for his daughter Ruth, though this is disputed",
+          "cardFront": "#22 (1885–1889)",
+          "cardBack": "Grover Cleveland"
+        },
+        {
+          "id": "harrison-b",
+          "answer": "Benjamin Harrison",
+          "alternates": [
+            "Harrison",
+            "B. Harrison"
+          ],
+          "explanation": "23rd President (1889–1893), Republican\nGrandson of William Henry Harrison (#9) — the only grandparent-grandchild pair in presidential history\nNicknamed \"Little Ben\" at just 5'6\" tall\nFirst president with electricity in the White House, but he and his wife were reportedly afraid to touch the switches\nSigned the Sherman Antitrust Act (1890), the first federal law to limit monopolies\nAdmitted six states during his term: both Dakotas, Montana, Washington, Idaho, and Wyoming\nPresided over the first \"billion-dollar Congress\" due to record federal spending\nLost the popular vote to Grover Cleveland in both 1888 (won Electoral College) and 1892 (lost both)",
+          "cardFront": "#23 (1889–1893)",
+          "cardBack": "Benjamin Harrison"
+        },
+        {
+          "id": "cleveland-2",
+          "answer": "Grover Cleveland",
+          "alternates": [
+            "Cleveland"
+          ],
+          "explanation": "Same person as #22 — the only president to serve non-consecutive terms\nSecond term dominated by the Panic of 1893, the worst economic depression until the 1930s\nSent federal troops to break the Pullman Strike in 1894 without the request of the Illinois governor\nRepealed the Sherman Silver Purchase Act to stabilize the gold standard\nLost the support of his own Democratic Party by the end of his second term\nLeft office deeply unpopular, with the country still mired in economic crisis",
+          "cardFront": "#24 (1893–1897)",
+          "cardBack": "Grover Cleveland"
+        },
+        {
+          "id": "mckinley",
+          "answer": "William McKinley",
+          "alternates": [
+            "McKinley"
+          ],
+          "explanation": "25th President (1897–1901), Republican\nLast Civil War veteran to serve as president\nLed the nation into the Spanish-American War (1898), gaining Puerto Rico, Guam, and the Philippines\nPresided over U.S. annexation of Hawaii (1898)\nAssassinated by anarchist Leon Czolgosz at the Pan-American Exposition in Buffalo, New York (September 1901)\nHis campaign pioneered the \"front porch\" strategy, delivering speeches from his home in Canton, Ohio\nHis face was on the $500 bill\nHis death elevated Theodore Roosevelt to the presidency",
+          "cardFront": "#25 (1897–1901)",
+          "cardBack": "William McKinley"
+        },
+        {
+          "id": "roosevelt-t",
+          "answer": "Theodore Roosevelt",
+          "alternates": [
+            "Roosevelt",
+            "T. Roosevelt",
+            "Teddy Roosevelt",
+            "TR"
+          ],
+          "explanation": "26th President (1901–1909), Republican\nYoungest person to become president at age 42, after McKinley's assassination\nWon the Nobel Peace Prize for mediating the Russo-Japanese War (1905) — first American Nobel laureate\nChampioned the national parks system and conservation, protecting roughly 230 million acres of public land\nBuilt the Panama Canal, one of the greatest engineering feats of the era\n\"Trust Buster\" who broke up monopolies under the Sherman Antitrust Act\nThe \"Teddy Bear\" was named after him following a hunting trip incident\nLeft the Republican Party to run as the Bull Moose (Progressive) candidate in 1912\nShot during a 1912 campaign speech in Milwaukee — finished the speech with the bullet still in his chest\nOne of four faces on Mount Rushmore",
+          "cardFront": "#26 (1901–1909)",
+          "cardBack": "Theodore Roosevelt"
+        },
+        {
+          "id": "taft",
+          "answer": "William Howard Taft",
+          "alternates": [
+            "Taft"
+          ],
+          "explanation": "27th President (1909–1913), Republican\nOnly person in U.S. history to serve as both President and Chief Justice of the Supreme Court (appointed 1921)\nWeighed over 300 pounds — the heaviest president in American history\nPopular legend says he got stuck in the White House bathtub, though the story may be apocryphal\nHandpicked by Theodore Roosevelt as his successor, but they became bitter political rivals — Roosevelt ran against him in 1912\nHis administration actually filed more antitrust suits than Roosevelt's, despite TR getting the \"Trust Buster\" label\nReportedly said the presidency was \"the loneliest place in the world\" — he much preferred the judiciary\nFirst president to throw a ceremonial first pitch at a baseball game (1910)",
+          "cardFront": "#27 (1909–1913)",
+          "cardBack": "William Howard Taft"
+        },
+        {
+          "id": "wilson",
+          "answer": "Woodrow Wilson",
+          "alternates": [
+            "Wilson"
+          ],
+          "explanation": "28th President (1913–1921), Democrat\nLed the nation through World War I after initially campaigning on keeping the U.S. out of the war\nProposed the League of Nations and won the Nobel Peace Prize (1919), but the U.S. Senate rejected American membership\nSigned the Federal Reserve Act (1913), creating the modern central banking system\nSigned the 19th Amendment (1920) granting women the right to vote\nSuffered a severe stroke in October 1919 — his wife Edith effectively ran the executive branch for the remaining months of his presidency\nRe-segregated the federal workforce, reversing progress made since Reconstruction\nOnly president with a PhD (political science, Johns Hopkins) and former president of Princeton University",
+          "cardFront": "#28 (1913–1921)",
+          "cardBack": "Woodrow Wilson"
+        },
+        {
+          "id": "harding",
+          "answer": "Warren G. Harding",
+          "alternates": [
+            "Harding"
+          ],
+          "explanation": "29th President (1921–1923), Republican\nWon in a landslide promising a \"return to normalcy\" after the upheaval of World War I\nPresidency plagued by the Teapot Dome scandal — his Interior Secretary Albert Fall took bribes in exchange for oil drilling leases on federal land\nDied suddenly in San Francisco in August 1923 — the cause was debated (likely a heart attack or stroke)\nAppointed the first female director of the U.S. Mint (Nellie Tayloe Ross came later; he appointed the first female Bureau chief)\nCoined the word \"normalcy\" as a political slogan, though the word already existed in English\nOften ranked among the worst presidents by historians\nHis extramarital affair with Nan Britton, long rumored, was confirmed by DNA testing in 2015",
+          "cardFront": "#29 (1921–1923)",
+          "cardBack": "Warren G. Harding"
+        },
+        {
+          "id": "coolidge",
+          "answer": "Calvin Coolidge",
+          "alternates": [
+            "Coolidge"
+          ],
+          "explanation": "30th President (1923–1929), Republican\nNicknamed \"Silent Cal\" — famous for being a man of few words\nSworn in by his own father, a notary public, by kerosene lamp at 2:47 AM after Harding's death in 1923\nPresided over the Roaring Twenties economic boom and embraced laissez-faire economics\nFamously declared \"the chief business of the American people is business\"\nVetoed a farm relief bill (McNary-Haugen) twice, angering agricultural states\nChose not to run for reelection in 1928, announcing simply \"I do not choose to run for president in 1928\"\nHis 16-year-old son Calvin Jr. died in 1924 from an infected blister he got playing tennis on the White House grounds — Coolidge said the presidency lost its appeal after the loss",
+          "cardFront": "#30 (1923–1929)",
+          "cardBack": "Calvin Coolidge"
+        },
+        {
+          "id": "hoover",
+          "answer": "Herbert Hoover",
+          "alternates": [
+            "Hoover"
+          ],
+          "explanation": "31st President (1929–1933), Republican\nTrained as a mining engineer — one of the few presidents with a technical background\nLed massive humanitarian relief efforts feeding millions in Europe after World War I before entering politics\nPresided over the 1929 stock market crash and the onset of the Great Depression\nShantytowns of the unemployed became known as \"Hoovervilles\" as a term of blame\nLived 31 years after leaving office — the longest post-presidency until Jimmy Carter surpassed him\nSpoke Mandarin Chinese with his wife Lou to keep conversations private in the White House\nDeeply unpopular when he left office, but later rehabilitated his reputation through public service",
+          "cardFront": "#31 (1929–1933)",
+          "cardBack": "Herbert Hoover"
+        },
+        {
+          "id": "roosevelt-f",
+          "answer": "Franklin D. Roosevelt",
+          "alternates": [
+            "FDR",
+            "Roosevelt",
+            "F. Roosevelt",
+            "Franklin Roosevelt"
+          ],
+          "explanation": "32nd President (1933–1945), Democrat\nOnly president elected four times — his unprecedented tenure led to the 22nd Amendment limiting presidents to two terms\nLaunched the New Deal, a sweeping set of programs to combat the Great Depression (Social Security, WPA, SEC, FDIC)\nLed the United States through most of World War II, dying in office on April 12, 1945, just weeks before V-E Day\nParalyzed from the waist down by polio (diagnosed 1921) — used a wheelchair but was rarely photographed in it\nPioneered \"fireside chats,\" radio addresses that made him a reassuring presence in American homes\nMarried to Eleanor Roosevelt, his fifth cousin once removed, who became the most activist First Lady in history\nFace on the dime",
+          "cardFront": "#32 (1933–1945)",
+          "cardBack": "Franklin D. Roosevelt"
+        },
+        {
+          "id": "truman",
+          "answer": "Harry S. Truman",
+          "alternates": [
+            "Truman",
+            "Harry Truman"
+          ],
+          "explanation": "33rd President (1945–1953), Democrat\nOrdered the atomic bombings of Hiroshima and Nagasaki (August 1945), ending World War II\nDesegregated the U.S. military by executive order in 1948\nLed the U.S. into the Korean War (1950–1953)\nKept a sign on his desk reading \"The Buck Stops Here\"\nLeft office in 1953 with a 22% approval rating — the lowest of any president at that time — though historians now rank him highly\nNever attended college — the last president without a college degree\nWas a haberdasher (men's clothing store owner) before entering politics\nNicknamed \"Give 'em Hell Harry\" for his combative campaign style in the 1948 upset victory over Dewey",
+          "cardFront": "#33 (1945–1953)",
+          "cardBack": "Harry S. Truman"
+        },
+        {
+          "id": "eisenhower",
+          "answer": "Dwight D. Eisenhower",
+          "alternates": [
+            "Eisenhower",
+            "Ike"
+          ],
+          "explanation": "34th President (1953–1961), Republican\nSupreme Allied Commander in World War II who planned and oversaw the D-Day invasion of Normandy (June 6, 1944)\nCreated the Interstate Highway System (1956), the largest public works project in American history\nHis farewell address warned of the dangers of the \"military-industrial complex\"\nSent federal troops to Little Rock, Arkansas to enforce school desegregation in 1957\nCampaign slogan \"I Like Ike\" became one of the most iconic in presidential history\nBoth the Democratic and Republican parties tried to recruit him as their nominee before he chose the GOP\nNASA was created during his presidency (1958) in response to the Soviet launch of Sputnik",
+          "cardFront": "#34 (1953–1961)",
+          "cardBack": "Dwight D. Eisenhower"
+        },
+        {
+          "id": "kennedy",
+          "answer": "John F. Kennedy",
+          "alternates": [
+            "JFK",
+            "Kennedy"
+          ],
+          "explanation": "35th President (1961–1963), Democrat\nYoungest person ever elected president at age 43 (Theodore Roosevelt was younger when he assumed office, but was not elected to his first term)\nFirst Catholic president\nNavigated the Cuban Missile Crisis (October 1962), the closest the world came to nuclear war\nCreated the Peace Corps by executive order in 1961\nAssassinated in Dallas, Texas on November 22, 1963 — a date seared into American memory\n\"Ask not what your country can do for you — ask what you can do for your country\" from his inaugural address\nWWII hero who saved his crew after PT-109 was sunk by a Japanese destroyer\nWon the Pulitzer Prize for \"Profiles in Courage\" (1957), though the extent of his authorship is debated",
+          "cardFront": "#35 (1961–1963)",
+          "cardBack": "John F. Kennedy"
+        },
+        {
+          "id": "johnson-l",
+          "answer": "Lyndon B. Johnson",
+          "alternates": [
+            "LBJ",
+            "Johnson",
+            "L. Johnson",
+            "Lyndon Johnson"
+          ],
+          "explanation": "36th President (1963–1969), Democrat\nSigned the Civil Rights Act of 1964 and the Voting Rights Act of 1965 — landmark legislation ending legal segregation\nHis \"Great Society\" programs created Medicare, Medicaid, and the War on Poverty\nEscalation of the Vietnam War destroyed his presidency and divided the nation\nAssumed office after JFK's assassination — sworn in aboard Air Force One with Jackie Kennedy standing beside him\nWon the 1964 election by the largest popular vote margin in modern history\nKnown for a crude, dominating personality — the \"Johnson Treatment\" was his method of physically cornering people to get their votes\nChose not to run for reelection in 1968, announcing his withdrawal in a televised address",
+          "cardFront": "#36 (1963–1969)",
+          "cardBack": "Lyndon B. Johnson"
+        },
+        {
+          "id": "nixon",
+          "answer": "Richard Nixon",
+          "alternates": [
+            "Nixon"
+          ],
+          "explanation": "37th President (1969–1974), Republican\nOnly president to resign from office, leaving in disgrace over the Watergate scandal (August 9, 1974)\nOpened diplomatic relations with the People's Republic of China in 1972 — a historic foreign policy shift\nCreated the Environmental Protection Agency (EPA) in 1970\nWon reelection in 1972 carrying 49 out of 50 states — one of the largest landslides in history\nInfamously declared \"I am not a crook\" during a press conference\nPardoned by Gerald Ford, sparing him from criminal prosecution\nServed as Eisenhower's Vice President (1953–1961) and lost to JFK in 1960 in the first televised presidential debate",
+          "cardFront": "#37 (1969–1974)",
+          "cardBack": "Richard Nixon"
+        },
+        {
+          "id": "ford",
+          "answer": "Gerald Ford",
+          "alternates": [
+            "Ford"
+          ],
+          "explanation": "38th President (1974–1977), Republican\nOnly president never elected as either president or vice president — appointed VP after Spiro Agnew resigned, then became president when Nixon resigned\nPardoned Richard Nixon for all crimes related to Watergate — a decision that likely cost him the 1976 election\nSurvived two assassination attempts within 17 days in September 1975 (by Lynette \"Squeaky\" Fromme and Sara Jane Moore)\nWas a star football player at the University of Michigan — turned down offers from the NFL's Detroit Lions and Green Bay Packers\nBorn Leslie Lynch King Jr. — his name was changed after his mother remarried Gerald Rudolff Ford Sr.\nThe only president from Michigan",
+          "cardFront": "#38 (1974–1977)",
+          "cardBack": "Gerald Ford"
+        },
+        {
+          "id": "carter",
+          "answer": "Jimmy Carter",
+          "alternates": [
+            "Carter"
+          ],
+          "explanation": "39th President (1977–1981), Democrat\nBrokered the Camp David Accords (1978), achieving a historic peace treaty between Israel and Egypt\nPresidency overshadowed by the Iran hostage crisis (1979–1981), in which 52 Americans were held for 444 days\nWon the Nobel Peace Prize in 2002 for decades of humanitarian work through the Carter Center\nWas a peanut farmer from Plains, Georgia, and a trained nuclear submarine officer in the Navy\nInstalled solar panels on the White House roof — Ronald Reagan later had them removed\nLongest-lived president in American history — died on December 29, 2024 at age 100\nFirst president from the Deep South since Zachary Taylor (1849)",
+          "cardFront": "#39 (1977–1981)",
+          "cardBack": "Jimmy Carter"
+        },
+        {
+          "id": "reagan",
+          "answer": "Ronald Reagan",
+          "alternates": [
+            "Reagan"
+          ],
+          "explanation": "40th President (1981–1989), Republican\n\"The Great Communicator\" — a former Hollywood actor and president of the Screen Actors Guild before entering politics\nOldest president at inauguration (69) until Donald Trump (70) and then Joe Biden (78) surpassed him\nSurvived an assassination attempt on March 30, 1981, quipping to surgeons \"I hope you're all Republicans\"\nChallenged Gorbachev to \"tear down this wall\" at the Berlin Wall in 1987\nIran-Contra scandal: his administration secretly sold arms to Iran and funneled profits to Nicaraguan rebels\nEnacted sweeping tax cuts and a massive military buildup during the Cold War\nWon 49 states in his 1984 reelection, losing only Minnesota and D.C.\nDiagnosed with Alzheimer's disease in 1994 after leaving office; was a Democrat until switching to Republican in 1962",
+          "cardFront": "#40 (1981–1989)",
+          "cardBack": "Ronald Reagan"
+        },
+        {
+          "id": "bush-hw",
+          "answer": "George H.W. Bush",
+          "alternates": [
+            "Bush",
+            "H.W. Bush",
+            "George Bush Sr."
+          ],
+          "explanation": "41st President (1989–1993), Republican\nLast World War II veteran to serve as president — was a Navy torpedo bomber pilot shot down over the Pacific\nFormer CIA Director (1976–1977) before becoming Reagan's Vice President\nFamous broken promise: \"Read my lips: no new taxes\" — then raised taxes, which contributed to his 1992 reelection loss\nLed the U.S. through the Gulf War (Operation Desert Storm, 1991), liberating Kuwait from Iraq\nFather of George W. Bush (#43) — the second father-son presidential pair after John and John Quincy Adams\nParachuted from an airplane on his 90th birthday as part of a series of celebratory skydives\nOverseen the end of the Cold War and the fall of the Berlin Wall during his presidency",
+          "cardFront": "#41 (1989–1993)",
+          "cardBack": "George H.W. Bush"
+        },
+        {
+          "id": "clinton",
+          "answer": "Bill Clinton",
+          "alternates": [
+            "Clinton"
+          ],
+          "explanation": "42nd President (1993–2001), Democrat\nSecond president to be impeached (after Andrew Johnson) — acquitted by the Senate on charges related to the Monica Lewinsky scandal\nPresided over the longest peacetime economic expansion in American history\nBalanced the federal budget and achieved a surplus — the first since 1969\nSigned NAFTA (North American Free Trade Agreement) into law\nCampaign strategist James Carville's mantra \"It's the economy, stupid\" defined his 1992 victory\nRhodes Scholar who studied at Oxford University\nPlayed saxophone on The Arsenio Hall Show during the 1992 campaign — a defining moment of pop-culture politics\nFirst Baby Boomer president (born 1946)",
+          "cardFront": "#42 (1993–2001)",
+          "cardBack": "Bill Clinton"
+        },
+        {
+          "id": "bush-gw",
+          "answer": "George W. Bush",
+          "alternates": [
+            "G.W. Bush",
+            "Bush Jr.",
+            "W. Bush"
+          ],
+          "explanation": "43rd President (2001–2009), Republican\nWon the disputed 2000 election decided by Bush v. Gore — the Supreme Court halted a Florida recount, giving him the presidency by 537 votes\nLed the post-9/11 response, launching wars in Afghanistan (2001) and Iraq (2003)\nSigned No Child Left Behind (2002) and the TARP bailout during the 2008 financial crisis\nFormer governor of Texas\nSon of George H.W. Bush (#41) — only the second son of a president to become president (after John Quincy Adams)\nAlso the second president to win the Electoral College while losing the popular vote in the modern era (after Benjamin Harrison in 1888)\nBefore entering politics, co-owned the Texas Rangers baseball team",
+          "cardFront": "#43 (2001–2009)",
+          "cardBack": "George W. Bush"
+        },
+        {
+          "id": "obama",
+          "answer": "Barack Obama",
+          "alternates": [
+            "Obama"
+          ],
+          "explanation": "44th President (2009–2017), Democrat\nFirst African American president in U.S. history\nSigned the Affordable Care Act (2010), commonly known as \"Obamacare,\" the most significant healthcare reform since Medicare\nOrdered the military operation that killed Osama bin Laden in Abbottabad, Pakistan (May 2, 2011)\nAwarded the Nobel Peace Prize in 2009, early in his first term\nFormer U.S. Senator from Illinois — served only one partial Senate term before winning the presidency\nCampaign slogan \"Yes We Can\" became a cultural phenomenon\nBorn in Honolulu, Hawaii — the first president born outside the contiguous United States\nNegotiated the Paris Climate Agreement (2015) and the Iran nuclear deal (JCPOA)",
+          "cardFront": "#44 (2009–2017)",
+          "cardBack": "Barack Obama"
+        },
+        {
+          "id": "trump-1",
+          "answer": "Donald Trump",
+          "alternates": [
+            "Trump"
+          ],
+          "explanation": "45th and 47th President — first president to serve non-consecutive terms since Grover Cleveland (#22/#24)\nFirst president with no prior military or government service before taking office\nFirst president impeached twice (2019 and 2021) — acquitted by the Senate both times\nWon the 2016 election as a political outsider, defeating Hillary Clinton despite losing the popular vote\nBuilt his career as a real estate developer and television personality (hosted \"The Apprentice\")\nPresidency shaped by the COVID-19 pandemic beginning in 2020\nLost the 2020 election to Joe Biden; the January 6, 2021 Capitol breach followed the certification of electoral votes\nSigned the Tax Cuts and Jobs Act (2017), the largest tax overhaul since 1986",
+          "cardFront": "#45 (2017–2021)",
+          "cardBack": "Donald Trump"
+        },
+        {
+          "id": "biden",
+          "answer": "Joe Biden",
+          "alternates": [
+            "Biden",
+            "Joseph Biden"
+          ],
+          "explanation": "46th President (2021–2025), Democrat\nOldest person ever inaugurated as president at age 78\nServed as Vice President under Barack Obama for two full terms (2009–2017)\nFirst ran for president in 1988 — took over three decades to finally win the office\nServed as a U.S. Senator from Delaware for 36 years (1973–2009), one of the longest Senate tenures in history\nOversaw the COVID-19 vaccine rollout and signed the Bipartisan Infrastructure Law\nWithdrew from the 2024 presidential race, endorsing Vice President Kamala Harris\nLost his first wife Neilia and infant daughter Naomi in a 1972 car accident, and his son Beau died of brain cancer in 2015",
+          "cardFront": "#46 (2021–2025)",
+          "cardBack": "Joe Biden"
+        },
+        {
+          "id": "trump-2",
+          "answer": "Donald Trump",
+          "alternates": [
+            "Trump"
+          ],
+          "explanation": "Same person as #45 — second president to serve non-consecutive terms (after Grover Cleveland, #22 and #24)\nWon the 2024 presidential election, defeating Kamala Harris\nOldest person to win a presidential election at age 78, surpassing Joe Biden's record\nFirst president to return to office after being voted out since Grover Cleveland won in 1892",
+          "cardFront": "#47 (2025–)",
+          "cardBack": "Donald Trump"
         }
       ]
     }

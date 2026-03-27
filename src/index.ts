@@ -80,7 +80,7 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 async function handleCheckAnswer(exercisePath: string, request: Request, repo: NodeRepository): Promise<Response> {
 	const body = await request.json<{ itemId?: string; answer?: string }>();
 
-	if (!body.answer && body.answer !== '') {
+	if (body.answer == null) {
 		return json({ error: 'Missing required field: answer' }, 400);
 	}
 
