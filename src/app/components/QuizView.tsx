@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { getModule, checkAnswer, type Question, type ModuleWithQuestions, type CheckResult } from '../lib/api';
 
 interface QuizState {
@@ -105,10 +105,9 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 								}`}
 							>
 								<div className="text-text-tertiary text-xs font-mono mb-1">{i + 1}</div>
-								{isFlipped ? (
-									<div className="font-medium text-accent">{q.answer}</div>
-								) : (
-									<div className="text-text-tertiary">tap to reveal</div>
+								<div className="font-medium">{q.answer}</div>
+								{isFlipped && (
+									<div className="text-text-tertiary text-xs mt-1">{q.explanation}</div>
 								)}
 							</button>
 						);
@@ -122,32 +121,24 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	const progress = `${state.current + 1} / ${state.questions.length}`;
 	const progressPct = (state.answers.length / state.questions.length) * 100;
 
-	async function handleSubmit(e: React.FormEvent) {
-		e.preventDefault();
+	async function submitAnswer(userAnswer: string, forceIncorrect = false) {
 		if (!question || checking) return;
 		setChecking(true);
-
-		const result = await checkAnswer(moduleId, question.id, input);
-		setCurrentResult(result);
+		const result = await checkAnswer(moduleId, question.id, userAnswer);
+		const correct = forceIncorrect ? false : result.correct;
+		const finalResult = { ...result, correct };
+		setCurrentResult(finalResult);
 		setState((s) => ({
 			...s,
 			status: 'showing-result',
-			answers: [...s.answers, { questionId: question.id, correct: result.correct, userAnswer: input, result }],
+			answers: [...s.answers, { questionId: question.id, correct, userAnswer, result: finalResult }],
 		}));
 		setChecking(false);
 	}
 
-	async function handleGiveUp() {
-		if (!question || checking) return;
-		setChecking(true);
-		const result = await checkAnswer(moduleId, question.id, '');
-		setCurrentResult({ ...result, correct: false });
-		setState((s) => ({
-			...s,
-			status: 'showing-result',
-			answers: [...s.answers, { questionId: question.id, correct: false, userAnswer: '(gave up)', result: { ...result, correct: false } }],
-		}));
-		setChecking(false);
+	function handleSubmit(e: React.FormEvent) {
+		e.preventDefault();
+		submitAnswer(input);
 	}
 
 	function handleNext() {
@@ -190,7 +181,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 						<h3 className="text-lg font-semibold mb-3">Incorrect Answers</h3>
 						<div className="space-y-3">
 							{wrong.map((a) => {
-								const q = state.questions.find((q) => q.id === a.questionId);
+								const q = state.questions.find((item) => item.id === a.questionId);
 								return (
 									<div key={a.questionId} className="bg-surface-raised rounded-xl p-5 border-l-4 border-incorrect">
 										<div className="font-medium mb-1">{q?.question}</div>
@@ -287,11 +278,11 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 						</form>
 						<div className="mt-3 flex justify-end">
 							<button
-								onClick={handleGiveUp}
+								onClick={() => submitAnswer('(gave up)', true)}
 								disabled={checking}
 								className="text-sm font-medium text-text-tertiary hover:text-incorrect transition-colors disabled:opacity-50 px-3 py-1.5 rounded-lg hover:bg-incorrect-bg"
 							>
-								Skip &amp; reveal answer
+								Skip & reveal answer
 							</button>
 						</div>
 					</div>
