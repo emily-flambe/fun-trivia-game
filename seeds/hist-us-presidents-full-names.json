@@ -1,14 +1,14 @@
 {
-  "id": "hist-us-presidents",
+  "id": "hist-us-presidents-full-names",
   "category": "history",
-  "name": "US Presidents — By Number",
+  "name": "US Presidents — Full Names in Order",
   "tier": "foundation",
-  "description": "Given a president number, name the president. Good for random quiz mode to test recall by number.",
+  "description": "Name each president by full name, in order from #1 to #47. Use in Learn mode for sequential drill.",
   "defaultFormat": "text-entry",
   "questions": [
     {
       "id": "p1",
-      "question": "Who was the 1st President of the United States?",
+      "question": "Who was the 1st president?",
       "answer": "George Washington",
       "alternateAnswers": [
         "Washington"
@@ -17,7 +17,7 @@
     },
     {
       "id": "p2",
-      "question": "Who was the 2nd President of the United States?",
+      "question": "After George Washington, who was president #2?",
       "answer": "John Adams",
       "alternateAnswers": [
         "Adams"
@@ -26,7 +26,7 @@
     },
     {
       "id": "p3",
-      "question": "Who was the 3rd President of the United States?",
+      "question": "After John Adams, who was president #3?",
       "answer": "Thomas Jefferson",
       "alternateAnswers": [
         "Jefferson"
@@ -35,7 +35,7 @@
     },
     {
       "id": "p4",
-      "question": "Who was the 4th President of the United States?",
+      "question": "After Thomas Jefferson, who was president #4?",
       "answer": "James Madison",
       "alternateAnswers": [
         "Madison"
@@ -44,7 +44,7 @@
     },
     {
       "id": "p5",
-      "question": "Who was the 5th President of the United States?",
+      "question": "After James Madison, who was president #5?",
       "answer": "James Monroe",
       "alternateAnswers": [
         "Monroe"
@@ -53,7 +53,7 @@
     },
     {
       "id": "p6",
-      "question": "Who was the 6th President of the United States?",
+      "question": "After James Monroe, who was president #6?",
       "answer": "John Quincy Adams",
       "alternateAnswers": [
         "Adams",
@@ -64,7 +64,7 @@
     },
     {
       "id": "p7",
-      "question": "Who was the 7th President of the United States?",
+      "question": "After John Quincy Adams, who was president #7?",
       "answer": "Andrew Jackson",
       "alternateAnswers": [
         "Jackson"
@@ -73,7 +73,7 @@
     },
     {
       "id": "p8",
-      "question": "Who was the 8th President of the United States?",
+      "question": "After Andrew Jackson, who was president #8?",
       "answer": "Martin Van Buren",
       "alternateAnswers": [
         "Van Buren"
@@ -82,7 +82,7 @@
     },
     {
       "id": "p9",
-      "question": "Who was the 9th President of the United States?",
+      "question": "After Martin Van Buren, who was president #9?",
       "answer": "William Henry Harrison",
       "alternateAnswers": [
         "Harrison",
@@ -93,7 +93,7 @@
     },
     {
       "id": "p10",
-      "question": "Who was the 10th President of the United States?",
+      "question": "After William Henry Harrison, who was president #10?",
       "answer": "John Tyler",
       "alternateAnswers": [
         "Tyler"
@@ -102,7 +102,7 @@
     },
     {
       "id": "p11",
-      "question": "Who was the 11th President of the United States?",
+      "question": "After John Tyler, who was president #11?",
       "answer": "James K. Polk",
       "alternateAnswers": [
         "Polk",
@@ -112,7 +112,7 @@
     },
     {
       "id": "p12",
-      "question": "Who was the 12th President of the United States?",
+      "question": "After James K. Polk, who was president #12?",
       "answer": "Zachary Taylor",
       "alternateAnswers": [
         "Taylor"
@@ -121,7 +121,7 @@
     },
     {
       "id": "p13",
-      "question": "Who was the 13th President of the United States?",
+      "question": "After Zachary Taylor, who was president #13?",
       "answer": "Millard Fillmore",
       "alternateAnswers": [
         "Fillmore"
@@ -130,7 +130,7 @@
     },
     {
       "id": "p14",
-      "question": "Who was the 14th President of the United States?",
+      "question": "After Millard Fillmore, who was president #14?",
       "answer": "Franklin Pierce",
       "alternateAnswers": [
         "Pierce"
@@ -139,7 +139,7 @@
     },
     {
       "id": "p15",
-      "question": "Who was the 15th President of the United States?",
+      "question": "After Franklin Pierce, who was president #15?",
       "answer": "James Buchanan",
       "alternateAnswers": [
         "Buchanan"
@@ -148,7 +148,7 @@
     },
     {
       "id": "p16",
-      "question": "Who was the 16th President of the United States?",
+      "question": "After James Buchanan, who was president #16?",
       "answer": "Abraham Lincoln",
       "alternateAnswers": [
         "Lincoln",
@@ -158,7 +158,7 @@
     },
     {
       "id": "p17",
-      "question": "Who was the 17th President of the United States?",
+      "question": "After Abraham Lincoln, who was president #17?",
       "answer": "Andrew Johnson",
       "alternateAnswers": [
         "Johnson",
@@ -168,7 +168,7 @@
     },
     {
       "id": "p18",
-      "question": "Who was the 18th President of the United States?",
+      "question": "After Andrew Johnson, who was president #18?",
       "answer": "Ulysses S. Grant",
       "alternateAnswers": [
         "Grant",
@@ -178,7 +178,7 @@
     },
     {
       "id": "p19",
-      "question": "Who was the 19th President of the United States?",
+      "question": "After Ulysses S. Grant, who was president #19?",
       "answer": "Rutherford B. Hayes",
       "alternateAnswers": [
         "Hayes",
@@ -188,7 +188,7 @@
     },
     {
       "id": "p20",
-      "question": "Who was the 20th President of the United States?",
+      "question": "After Rutherford B. Hayes, who was president #20?",
       "answer": "James A. Garfield",
       "alternateAnswers": [
         "Garfield",
@@ -198,7 +198,7 @@
     },
     {
       "id": "p21",
-      "question": "Who was the 21st President of the United States?",
+      "question": "After James A. Garfield, who was president #21?",
       "answer": "Chester A. Arthur",
       "alternateAnswers": [
         "Arthur",
@@ -208,7 +208,7 @@
     },
     {
       "id": "p22",
-      "question": "Who was the 22nd President of the United States?",
+      "question": "After Chester A. Arthur, who was president #22?",
       "answer": "Grover Cleveland",
       "alternateAnswers": [
         "Cleveland"
@@ -217,7 +217,7 @@
     },
     {
       "id": "p23",
-      "question": "Who was the 23rd President of the United States?",
+      "question": "After Grover Cleveland, who was president #23?",
       "answer": "Benjamin Harrison",
       "alternateAnswers": [
         "Harrison",
@@ -227,7 +227,7 @@
     },
     {
       "id": "p24",
-      "question": "Who was the 24th President of the United States?",
+      "question": "After Benjamin Harrison, who was president #24?",
       "answer": "Grover Cleveland",
       "alternateAnswers": [
         "Cleveland"
@@ -236,7 +236,7 @@
     },
     {
       "id": "p25",
-      "question": "Who was the 25th President of the United States?",
+      "question": "After Grover Cleveland, who was president #25?",
       "answer": "William McKinley",
       "alternateAnswers": [
         "McKinley"
@@ -245,7 +245,7 @@
     },
     {
       "id": "p26",
-      "question": "Who was the 26th President of the United States?",
+      "question": "After William McKinley, who was president #26?",
       "answer": "Theodore Roosevelt",
       "alternateAnswers": [
         "Roosevelt",
@@ -257,7 +257,7 @@
     },
     {
       "id": "p27",
-      "question": "Who was the 27th President of the United States?",
+      "question": "After Theodore Roosevelt, who was president #27?",
       "answer": "William Howard Taft",
       "alternateAnswers": [
         "Taft",
@@ -267,7 +267,7 @@
     },
     {
       "id": "p28",
-      "question": "Who was the 28th President of the United States?",
+      "question": "After William Howard Taft, who was president #28?",
       "answer": "Woodrow Wilson",
       "alternateAnswers": [
         "Wilson"
@@ -276,7 +276,7 @@
     },
     {
       "id": "p29",
-      "question": "Who was the 29th President of the United States?",
+      "question": "After Woodrow Wilson, who was president #29?",
       "answer": "Warren G. Harding",
       "alternateAnswers": [
         "Harding",
@@ -286,7 +286,7 @@
     },
     {
       "id": "p30",
-      "question": "Who was the 30th President of the United States?",
+      "question": "After Warren G. Harding, who was president #30?",
       "answer": "Calvin Coolidge",
       "alternateAnswers": [
         "Coolidge"
@@ -295,7 +295,7 @@
     },
     {
       "id": "p31",
-      "question": "Who was the 31st President of the United States?",
+      "question": "After Calvin Coolidge, who was president #31?",
       "answer": "Herbert Hoover",
       "alternateAnswers": [
         "Hoover"
@@ -304,7 +304,7 @@
     },
     {
       "id": "p32",
-      "question": "Who was the 32nd President of the United States?",
+      "question": "After Herbert Hoover, who was president #32?",
       "answer": "Franklin D. Roosevelt",
       "alternateAnswers": [
         "FDR",
@@ -316,7 +316,7 @@
     },
     {
       "id": "p33",
-      "question": "Who was the 33rd President of the United States?",
+      "question": "After Franklin D. Roosevelt, who was president #33?",
       "answer": "Harry S. Truman",
       "alternateAnswers": [
         "Truman",
@@ -326,7 +326,7 @@
     },
     {
       "id": "p34",
-      "question": "Who was the 34th President of the United States?",
+      "question": "After Harry S. Truman, who was president #34?",
       "answer": "Dwight D. Eisenhower",
       "alternateAnswers": [
         "Eisenhower",
@@ -337,7 +337,7 @@
     },
     {
       "id": "p35",
-      "question": "Who was the 35th President of the United States?",
+      "question": "After Dwight D. Eisenhower, who was president #35?",
       "answer": "John F. Kennedy",
       "alternateAnswers": [
         "Kennedy",
@@ -348,7 +348,7 @@
     },
     {
       "id": "p36",
-      "question": "Who was the 36th President of the United States?",
+      "question": "After John F. Kennedy, who was president #36?",
       "answer": "Lyndon B. Johnson",
       "alternateAnswers": [
         "Johnson",
@@ -359,7 +359,7 @@
     },
     {
       "id": "p37",
-      "question": "Who was the 37th President of the United States?",
+      "question": "After Lyndon B. Johnson, who was president #37?",
       "answer": "Richard Nixon",
       "alternateAnswers": [
         "Nixon"
@@ -368,7 +368,7 @@
     },
     {
       "id": "p38",
-      "question": "Who was the 38th President of the United States?",
+      "question": "After Richard Nixon, who was president #38?",
       "answer": "Gerald Ford",
       "alternateAnswers": [
         "Ford"
@@ -377,7 +377,7 @@
     },
     {
       "id": "p39",
-      "question": "Who was the 39th President of the United States?",
+      "question": "After Gerald Ford, who was president #39?",
       "answer": "Jimmy Carter",
       "alternateAnswers": [
         "Carter",
@@ -388,7 +388,7 @@
     },
     {
       "id": "p40",
-      "question": "Who was the 40th President of the United States?",
+      "question": "After Jimmy Carter, who was president #40?",
       "answer": "Ronald Reagan",
       "alternateAnswers": [
         "Reagan"
@@ -397,7 +397,7 @@
     },
     {
       "id": "p41",
-      "question": "Who was the 41st President of the United States?",
+      "question": "After Ronald Reagan, who was president #41?",
       "answer": "George H. W. Bush",
       "alternateAnswers": [
         "Bush",
@@ -409,7 +409,7 @@
     },
     {
       "id": "p42",
-      "question": "Who was the 42nd President of the United States?",
+      "question": "After George H. W. Bush, who was president #42?",
       "answer": "Bill Clinton",
       "alternateAnswers": [
         "Clinton",
@@ -420,7 +420,7 @@
     },
     {
       "id": "p43",
-      "question": "Who was the 43rd President of the United States?",
+      "question": "After Bill Clinton, who was president #43?",
       "answer": "George W. Bush",
       "alternateAnswers": [
         "Bush",
@@ -431,7 +431,7 @@
     },
     {
       "id": "p44",
-      "question": "Who was the 44th President of the United States?",
+      "question": "After George W. Bush, who was president #44?",
       "answer": "Barack Obama",
       "alternateAnswers": [
         "Obama"
@@ -440,7 +440,7 @@
     },
     {
       "id": "p45",
-      "question": "Who was the 45th President of the United States?",
+      "question": "After Barack Obama, who was president #45?",
       "answer": "Donald Trump",
       "alternateAnswers": [
         "Trump"
@@ -449,7 +449,7 @@
     },
     {
       "id": "p46",
-      "question": "Who was the 46th President of the United States?",
+      "question": "After Donald Trump, who was president #46?",
       "answer": "Joe Biden",
       "alternateAnswers": [
         "Biden",
@@ -460,7 +460,7 @@
     },
     {
       "id": "p47",
-      "question": "Who is the 47th President of the United States?",
+      "question": "After Joe Biden, who was president #47?",
       "answer": "Donald Trump",
       "alternateAnswers": [
         "Trump"
