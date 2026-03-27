@@ -27,7 +27,7 @@ export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
 				<h2 className="text-2xl font-bold tracking-tight">{exercise.name}</h2>
 			</div>
 
-			<div className="bg-surface-raised rounded-2xl p-8 mb-8 text-center">
+			<div className="bg-surface-raised rounded-2xl p-5 sm:p-8 mb-8 text-center">
 				<div className="text-5xl font-extrabold mb-2 text-accent">
 					{total > 0 ? `${correct} / ${total}` : 'No questions'}
 				</div>
@@ -47,9 +47,8 @@ export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
 							return (
 								<div key={a.itemId} className="bg-surface-raised rounded-xl p-5 border-l-4 border-incorrect">
 									<div className="font-medium mb-1">{item?.data?.prompt || a.itemId}</div>
-									<div className="text-sm">
+									<div className="text-sm flex flex-col sm:flex-row sm:gap-2">
 										<span className="text-incorrect">Your answer: {a.userAnswer}</span>
-										<span className="text-border-default mx-2">|</span>
 										<span className="text-correct">Correct: {a.result.correctAnswer}</span>
 									</div>
 									<div className="text-sm text-text-tertiary mt-1">{a.result.explanation}</div>
@@ -60,7 +59,7 @@ export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
 				</div>
 			)}
 
-			<div className="mt-6 flex gap-3">
+			<div className="mt-6 flex flex-wrap gap-3">
 				<a href={`#/exercise/${exercisePath}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 					Try Again
 				</a>

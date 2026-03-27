@@ -41,7 +41,7 @@ export function App() {
 					Trivia Trainer
 				</a>
 			</nav>
-			<main className="max-w-4xl mx-auto px-6 py-8">
+			<main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
 				{route.page === 'dashboard' && <Dashboard />}
 				{route.page === 'node' && <NodeView path={route.path} />}
 				{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}

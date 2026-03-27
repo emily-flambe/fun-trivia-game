@@ -29,9 +29,11 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 		if (exercise.displayType === 'periodic-table') {
 			return (
 				<div className="animate-in">
-					<div className="flex items-center gap-3 mb-6">
+					<div className="flex items-center gap-3 mb-2">
 						<a href={`#/node/${nodeId}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
 						<h2 className="text-lg font-semibold flex-1 tracking-tight">{exercise.name}</h2>
+					</div>
+					<div className="flex items-center gap-2 mb-6 justify-end">
 						<a
 							href={`#/exercise/${path}?mode=quiz`}
 							className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"

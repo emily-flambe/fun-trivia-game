@@ -97,7 +97,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 				<span className="text-sm text-text-tertiary font-medium">{found.length} / {totalItems}</span>
 			</div>
 
-			<div className="bg-surface-raised rounded-2xl p-8 mb-6">
+			<div className="bg-surface-raised rounded-2xl p-5 sm:p-8 mb-6">
 				<div className="text-lg mb-6 font-medium">{prompt}</div>
 
 				{/* Slots grid */}
@@ -130,7 +130,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 								value={input}
 								onChange={(e) => setInput(e.target.value)}
 								placeholder="Type a guess..."
-								className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
+								className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-base text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
 								autoComplete="off"
 								disabled={checking}
 							/>
@@ -167,7 +167,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 								)}
 							</div>
 						</div>
-						<div className="flex gap-3">
+						<div className="flex flex-wrap gap-3">
 							<a href={`#/exercise/${exercisePath}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 								Try Again
 							</a>

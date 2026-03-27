@@ -8,23 +8,41 @@ interface Props {
 }
 
 export function LearnGrid({ exercise, items, exercisePath }: Props) {
+	const [flippedCards, setFlippedCards] = useState<Set<string>>(new Set());
 	const [selectedId, setSelectedId] = useState<string | null>(null);
 	const [reversed, setReversed] = useState(false);
 
 	// Check if items have cardFront/cardBack in data for reversible mode
 	const hasCardFields = items.some((item) => item.data?.cardFront || item.data?.cardBack);
 
-	function selectCard(id: string) {
-		setSelectedId((prev) => (prev === id ? null : id));
+	function toggleCard(id: string) {
+		setFlippedCards((prev) => {
+			const next = new Set(prev);
+			if (next.has(id)) next.delete(id);
+			else next.add(id);
+			return next;
+		});
+		setSelectedId(id);
+	}
+
+	function flipAll() {
+		const allFlipped = flippedCards.size === items.length;
+		if (allFlipped) {
+			setFlippedCards(new Set());
+		} else {
+			setFlippedCards(new Set(items.map((item) => item.id)));
+		}
 	}
 
 	function toggleDirection() {
 		setReversed((r) => !r);
+		setFlippedCards(new Set());
 		setSelectedId(null);
 	}
 
-	function cardFace(item: PublicItem): string {
-		if (reversed) return item.data?.cardFront || item.data?.prompt || item.id;
+	function cardFace(item: PublicItem, flipped: boolean): string {
+		const showFront = reversed ? !flipped : flipped;
+		if (showFront) return item.data?.cardFront || item.data?.prompt || item.id;
 		return item.data?.cardBack || item.data?.prompt || item.id;
 	}
 
@@ -32,17 +50,28 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 
 	return (
 		<div className="animate-in">
-			<div className="flex items-center gap-3 mb-6">
+			<div className="flex items-center gap-3 mb-2">
 				<a href={`#/node/${exercise.nodeId}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
 				<h2 className="text-lg font-semibold flex-1 tracking-tight">{exercise.name}</h2>
+			</div>
+			<div className="flex items-center gap-2 mb-6 justify-end">
 				{hasCardFields && (
-					<button
-						onClick={toggleDirection}
-						className="text-sm text-text-tertiary hover:text-accent transition-colors"
-						title="Swap card sides"
-					>
-						&#8644; Flip
-					</button>
+					<>
+						<button
+							onClick={flipAll}
+							className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+							title="Flip all cards"
+						>
+							&#8644; Flip All
+						</button>
+						<button
+							onClick={toggleDirection}
+							className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+							title="Swap default card sides"
+						>
+							&#x21C5; Reverse
+						</button>
+					</>
 				)}
 				<a
 					href={`#/exercise/${exercisePath}?mode=quiz`}
@@ -54,19 +83,22 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 
 			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
 				{items.map((item) => {
+					const isFlipped = flippedCards.has(item.id);
 					const isSelected = item.id === selectedId;
 					return (
 						<button
 							key={item.id}
-							onClick={() => selectCard(item.id)}
+							onClick={() => toggleCard(item.id)}
 							className={`rounded-xl p-3 text-left text-sm min-h-[70px] transition-all duration-200 cursor-pointer ${
 								isSelected
 									? 'bg-surface-raised ring-2 ring-accent'
-									: 'bg-surface-bright hover:bg-surface-hover'
+									: isFlipped
+										? 'bg-surface-raised'
+										: 'bg-surface-bright hover:bg-surface-hover'
 							}`}
 						>
-							<div className={`font-medium ${isSelected ? 'text-accent' : ''}`}>
-								{cardFace(item)}
+							<div className={`font-medium ${isFlipped ? 'text-accent' : ''}`}>
+								{cardFace(item, isFlipped)}
 							</div>
 						</button>
 					);

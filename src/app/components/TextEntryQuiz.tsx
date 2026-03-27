@@ -111,7 +111,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 				<div className="h-1 bg-gradient-to-r from-action to-accent rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }} />
 			</div>
 
-			<div className="bg-surface-raised rounded-2xl p-8">
+			<div className="bg-surface-raised rounded-2xl p-5 sm:p-8">
 				<div className="text-lg mb-6">{item.data?.prompt || `What is ${item.id}?`}</div>
 
 				{status === 'showing-result' && currentResult ? (
@@ -147,7 +147,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 								value={input}
 								onChange={(e) => setInput(e.target.value)}
 								placeholder="Type your answer..."
-								className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
+								className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-base text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
 								autoComplete="off"
 								disabled={checking}
 							/>
