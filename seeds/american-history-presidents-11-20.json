@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    { "id": "american-history/presidents", "parentId": "american-history", "name": "U.S. Presidents", "description": "Presidents of the United States" }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/presidents/presidents-11-20",
+      "nodeId": "american-history/presidents",
+      "name": "Presidents 11–20",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name Presidents 11 through 20 in order" },
+      "items": [
+        {
+          "id": "polk",
+          "answer": "James K. Polk",
+          "alternates": ["Polk", "James Polk"],
+          "explanation": "11th President (1845–1849), Democrat\n\"Dark horse\" candidate — first major surprise nominee in U.S. presidential history\nPromised to serve only one term and kept it — one of the few presidents to voluntarily limit himself\nAcquired Oregon Territory through negotiation with Britain and California/Southwest via the Mexican-American War\nOversaw the greatest territorial expansion since the Louisiana Purchase — added more land than any president except Jefferson\nDied just 103 days after leaving office, the shortest retirement of any president\nConsidered the last strong president before the Civil War era\nSigned the act establishing the Smithsonian Institution (1846)",
+          "cardFront": "#11 (1845–1849)",
+          "cardBack": "James K. Polk"
+        },
+        {
+          "id": "taylor-z",
+          "answer": "Zachary Taylor",
+          "alternates": ["Taylor", "Z. Taylor"],
+          "explanation": "12th President (1849–1850), Whig\nNicknamed \"Old Rough and Ready\" for his informal style and battlefield toughness\nHero of the Mexican-American War, especially the Battle of Buena Vista (1847)\nNever voted in an election before being elected president himself\nDied just 16 months into his term — possibly from gastroenteritis after eating cherries and iced milk at a July 4th celebration\nOwned slaves but opposed the expansion of slavery into new territories\nSecond president to die in office (after William Henry Harrison)\nHis body was exhumed in 1991 to test for arsenic poisoning — results were negative",
+          "cardFront": "#12 (1849–1850)",
+          "cardBack": "Zachary Taylor"
+        },
+        {
+          "id": "fillmore",
+          "answer": "Millard Fillmore",
+          "alternates": ["Fillmore"],
+          "explanation": "13th President (1850–1853), Whig\nLast Whig president — the party collapsed shortly after his term\nAssumed the presidency after Zachary Taylor's sudden death\nSigned the Compromise of 1850, including the controversial Fugitive Slave Act\nOften credited with installing the first bathtub and kitchen stove in the White House, though these claims are disputed\nLater ran for president on the anti-immigrant Know-Nothing Party ticket in 1856\nHelped found the University of Buffalo\nRefused an honorary degree from Oxford, reportedly saying he had neither the literary nor scientific attainment to deserve it",
+          "cardFront": "#13 (1850–1853)",
+          "cardBack": "Millard Fillmore"
+        },
+        {
+          "id": "pierce",
+          "answer": "Franklin Pierce",
+          "alternates": ["Pierce"],
+          "explanation": "14th President (1853–1857), Democrat\nOnly president from New Hampshire\nConsistently ranked among the worst presidents by historians\nSigned the Kansas-Nebraska Act (1854), which led to the violent conflict known as \"Bleeding Kansas\"\nHis 11-year-old son Bennie was killed in a train accident weeks before the inauguration — Pierce and his wife witnessed the death\nThe only elected president not nominated for a second term by his own party\nArrested during his presidency for running over a woman with his horse (charges were dropped)\nClose college friend of Nathaniel Hawthorne, who wrote his campaign biography",
+          "cardFront": "#14 (1853–1857)",
+          "cardBack": "Franklin Pierce"
+        },
+        {
+          "id": "buchanan",
+          "answer": "James Buchanan",
+          "alternates": ["Buchanan"],
+          "explanation": "15th President (1857–1861), Democrat\nOnly president from Pennsylvania and the only president who never married (lifelong bachelor)\nServed in Polk's Cabinet as Secretary of State and later as U.S. Ambassador to the United Kingdom\nPresidency saw the Dred Scott Supreme Court decision (1857) and the secession crisis that led to the Civil War\nWidely regarded as one of the worst presidents for failing to prevent the breakup of the Union\nHis niece Harriet Lane served as First Lady in the absence of a presidential spouse\nLast president born in the 18th century (born 1791)",
+          "cardFront": "#15 (1857–1861)",
+          "cardBack": "James Buchanan"
+        },
+        {
+          "id": "lincoln",
+          "answer": "Abraham Lincoln",
+          "alternates": ["Lincoln", "Abe Lincoln"],
+          "explanation": "16th President (1861–1865), Republican\nPreserved the Union through the Civil War and issued the Emancipation Proclamation (1863)\nDelivered the Gettysburg Address, one of the most famous speeches in American history\nFirst Republican president ever elected\nAssassinated by John Wilkes Booth at Ford's Theatre on April 14, 1865 — died the next morning\nTallest president at 6'4\" and largely self-educated as a frontier lawyer from Illinois\nEstablished Thanksgiving as a permanent national holiday (1863)\nFace on the $5 bill and the penny, and carved into Mount Rushmore",
+          "cardFront": "#16 (1861–1865)",
+          "cardBack": "Abraham Lincoln"
+        },
+        {
+          "id": "johnson-a",
+          "answer": "Andrew Johnson",
+          "alternates": ["A. Johnson", "Andrew Johnson"],
+          "explanation": "17th President (1865–1869), National Union/Democrat\nFirst president to be impeached — acquitted by a single vote in the Senate\nAssumed office after Lincoln's assassination; clashed bitterly with Radical Republicans over Reconstruction\nVetoed the Civil Rights Act of 1866, but Congress overrode the veto — the first major legislation passed over a presidential veto\nPurchased Alaska from Russia for $7.2 million, a deal mocked as \"Seward's Folly\"\nNever attended a single day of school — his wife taught him to read and write\nOnly former president to later serve in the U.S. Senate (elected 1875), until Andrew Johnson held that distinction alone among presidents",
+          "cardFront": "#17 (1865–1869)",
+          "cardBack": "Andrew Johnson"
+        },
+        {
+          "id": "grant",
+          "answer": "Ulysses S. Grant",
+          "alternates": ["Grant", "U.S. Grant"],
+          "explanation": "18th President (1869–1877), Republican\nCommanded all Union forces in the Civil War and accepted Lee's surrender at Appomattox Court House (1865)\nReal name was Hiram Ulysses Grant — \"U.S.\" came from a clerical error at West Point that stuck\nPresidency plagued by scandals including Credit Mobilier and the Whiskey Ring, though Grant himself was not personally corrupt\nEstablished Yellowstone as the first national park (1872)\nWrote his memoirs while dying of throat cancer — published by Mark Twain, they became a critical and financial success\nFace on the $50 bill\nServed two full terms despite the scandals",
+          "cardFront": "#18 (1869–1877)",
+          "cardBack": "Ulysses S. Grant"
+        },
+        {
+          "id": "hayes",
+          "answer": "Rutherford B. Hayes",
+          "alternates": ["Hayes", "R.B. Hayes"],
+          "explanation": "19th President (1877–1881), Republican\nWon the most disputed election in U.S. history (1876) — decided by a congressional commission after contested electoral votes\nNicknamed \"Rutherfraud\" by opponents who considered his presidency illegitimate\nEnded Reconstruction by withdrawing federal troops from the South as part of the compromise that gave him the presidency\nFirst president to have a telephone in the White House, installed by Alexander Graham Bell himself\nBanned alcohol from the White House — his wife Frances was nicknamed \"Lemonade Lucy\"\nPledged to serve only one term and kept his promise",
+          "cardFront": "#19 (1877–1881)",
+          "cardBack": "Rutherford B. Hayes"
+        },
+        {
+          "id": "garfield",
+          "answer": "James A. Garfield",
+          "alternates": ["Garfield", "J.A. Garfield", "James Garfield"],
+          "explanation": "20th President (1881), Republican\nCould simultaneously write in Latin with one hand and Greek with the other — he was ambidextrous\nAssassinated by Charles Guiteau after only 200 days in office — shot on July 2, 1881 and died September 19, 1881\nHis death led directly to the Pendleton Civil Service Reform Act (1883), ending the spoils system\nWas a Civil War general and the only sitting member of the House of Representatives ever elected president\nLast president born in a log cabin\nLast of four presidents to die in office up to that point (Harrison, Taylor, Lincoln, Garfield)",
+          "cardFront": "#20 (1881)",
+          "cardBack": "James A. Garfield"
+        }
+      ]
+    }
+  ]
+}

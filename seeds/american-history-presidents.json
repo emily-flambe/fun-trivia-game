@@ -15,7 +15,7 @@
           "answer": "George Washington",
           "alternates": ["Washington"],
           "explanation": "1st President (1789–1797), Federalist (no formal party)\nCommander-in-Chief of the Continental Army during the Revolutionary War\nOnly president unanimously elected by the Electoral College — twice\nSet the two-term precedent that held until FDR\nPresided over the Constitutional Convention in Philadelphia, 1787\nFarewell Address warned against political parties and foreign entanglements\nDied in 1799 at Mount Vernon; at death was the wealthiest president in history (adjusted)",
-          "cardFront": "#1",
+          "cardFront": "#1 (1789–1797)",
           "cardBack": "George Washington"
         },
         {
@@ -23,7 +23,7 @@
           "answer": "John Adams",
           "alternates": ["Adams", "J. Adams"],
           "explanation": "2nd President (1797–1801), Federalist\nFirst president to live in the White House (moved in November 1800)\nDefended British soldiers in court after the Boston Massacre (1770)\nSigned the Alien and Sedition Acts, which criminalized dissent\nFirst president to be defeated for reelection\nDied on July 4, 1826 — the same day as Thomas Jefferson, exactly 50 years after the Declaration\nFather of John Quincy Adams (6th President) — first father-son presidential pair",
-          "cardFront": "#2",
+          "cardFront": "#2 (1797–1801)",
           "cardBack": "John Adams"
         },
         {
@@ -31,7 +31,7 @@
           "answer": "Thomas Jefferson",
           "alternates": ["Jefferson"],
           "explanation": "3rd President (1801–1809), Democratic-Republican\nPrincipal author of the Declaration of Independence (1776)\nEngineered the Louisiana Purchase (1803), doubling U.S. territory for ~$15 million\nFounded the University of Virginia; designed its campus himself\nSent Lewis and Clark on their expedition (1804–1806)\nInventor and polymath: redesigned the plow, built a revolving book stand, played violin\nDied July 4, 1826 — same day as John Adams, on the Declaration's 50th anniversary",
-          "cardFront": "#3",
+          "cardFront": "#3 (1801–1809)",
           "cardBack": "Thomas Jefferson"
         },
         {
@@ -39,7 +39,7 @@
           "answer": "James Madison",
           "alternates": ["Madison"],
           "explanation": "4th President (1809–1817), Democratic-Republican\n'Father of the Constitution' — principal architect and author of the Bill of Rights\nShortest president at 5'4\" and never weighed more than ~100 lbs\nLed the nation through the War of 1812 against Britain\nOnly sitting president to personally command troops in battle (Bladensburg, 1814)\nThe White House was burned by the British during his presidency\nHis wife Dolley Madison famously saved Gilbert Stuart's portrait of Washington from the fire",
-          "cardFront": "#4",
+          "cardFront": "#4 (1809–1817)",
           "cardBack": "James Madison"
         },
         {
@@ -47,7 +47,7 @@
           "answer": "James Monroe",
           "alternates": ["Monroe"],
           "explanation": "5th President (1817–1825), Democratic-Republican\nIssued the Monroe Doctrine (1823): the Americas are closed to further European colonization\nPresidency known as the 'Era of Good Feelings' — ran virtually unopposed in 1820\nLast president who was a Founding Father and Revolutionary War veteran\nWounded at the Battle of Trenton (1776) alongside Washington\nOversaw the Missouri Compromise (1820), temporarily resolving the slavery expansion debate\nDied July 4, 1831 — the third president to die on Independence Day",
-          "cardFront": "#5",
+          "cardFront": "#5 (1817–1825)",
           "cardBack": "James Monroe"
         },
         {
@@ -55,7 +55,7 @@
           "answer": "John Quincy Adams",
           "alternates": ["JQ Adams", "J.Q. Adams", "Quincy Adams"],
           "explanation": "6th President (1825–1829), Democratic-Republican / National Republican\nSon of John Adams — first son of a president to become president (until George W. Bush)\nWon the presidency via the House of Representatives ('Corrupt Bargain' of 1824)\nOnly former president to serve in the U.S. House of Representatives (1831–1848)\nFluent in seven languages; served as diplomat in Europe from age 14\nArgued the Amistad case before the Supreme Court (1841), winning freedom for enslaved Africans\nCollapsed on the House floor and died in the Capitol building, 1848",
-          "cardFront": "#6",
+          "cardFront": "#6 (1825–1829)",
           "cardBack": "John Quincy Adams"
         },
         {
@@ -63,7 +63,7 @@
           "answer": "Andrew Jackson",
           "alternates": ["Jackson"],
           "explanation": "7th President (1829–1837), Democrat\nFounder of the modern Democratic Party; his election called the 'rise of the common man'\nHero of the Battle of New Orleans (1815) — won decisively after the peace treaty was signed\nFirst president to survive an assassination attempt (1835, both pistols misfired)\nDestroyed the Second Bank of the United States, sparking the Panic of 1837\nForced the Indian Removal Act (1830), leading to the Trail of Tears\nNicknamed 'Old Hickory' for his toughness; fought in multiple duels, carrying bullets in his body",
-          "cardFront": "#7",
+          "cardFront": "#7 (1829–1837)",
           "cardBack": "Andrew Jackson"
         },
         {
@@ -71,7 +71,7 @@
           "answer": "Martin Van Buren",
           "alternates": ["Van Buren"],
           "explanation": "8th President (1837–1841), Democrat\nFirst president born a U.S. citizen (not a British colonial subject)\nFirst president born speaking a language other than English (Dutch, grew up in Kinderhook, NY)\nNicknamed 'The Little Magician' for his political skill and 'Old Kinderhook' (possibly the origin of 'OK')\nPresidency dominated by the Panic of 1837, one of the worst financial crises in U.S. history\nLost reelection to William Henry Harrison in 1840 ('Tippecanoe and Tyler Too')\nRan again in 1848 on the Free Soil ticket, opposing the expansion of slavery",
-          "cardFront": "#8",
+          "cardFront": "#8 (1837–1841)",
           "cardBack": "Martin Van Buren"
         },
         {
@@ -79,7 +79,7 @@
           "answer": "William Henry Harrison",
           "alternates": ["Harrison", "W.H. Harrison"],
           "explanation": "9th President (1841), Whig\nShortest presidency in history — died 31 days after inauguration\nDelivered the longest inaugural address (nearly 2 hours, in cold rain without a coat)\nDied of pneumonia (or possibly typhoid) on April 4, 1841\nCampaigned with the famous slogan 'Tippecanoe and Tyler Too'\n'Tippecanoe' referred to his 1811 victory over Tecumseh's confederacy at the Battle of Tippecanoe\nGrandfather of Benjamin Harrison (23rd President) — only grandparent-grandchild presidential pair",
-          "cardFront": "#9",
+          "cardFront": "#9 (1841)",
           "cardBack": "William Henry Harrison"
         },
         {
@@ -87,7 +87,7 @@
           "answer": "John Tyler",
           "alternates": ["Tyler"],
           "explanation": "10th President (1841–1845), Whig (expelled from party)\nFirst VP to assume presidency upon a president's death — set the precedent for succession\nNicknamed 'His Accidency' by opponents who questioned his legitimacy\nExpelled from his own party; his entire Cabinet resigned except Daniel Webster\nAnnexed Texas in 1845, one of the last acts of his presidency\nFathered 15 children — the most of any president\nDied in 1862 as an elected Confederate congressman — the only president to join the Confederacy",
-          "cardFront": "#10",
+          "cardFront": "#10 (1841–1845)",
           "cardBack": "John Tyler"
         }
       ]

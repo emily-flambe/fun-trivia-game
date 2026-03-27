@@ -17,7 +17,7 @@ const SEEDS_DIR = join(import.meta.dirname, '..', 'seeds');
 
 function escapeSQL(s) {
 	if (s == null) return '';
-	return String(s).replace(/'/g, "''");
+	return String(s).replace(/'/g, "''").replace(/\n/g, '\\n');
 }
 
 async function loadSeedFiles() {
@@ -61,7 +61,7 @@ function generateSQL(seedFiles) {
 			const parentId = node.parentId ? `'${escapeSQL(node.parentId)}'` : 'NULL';
 			const sortOrder = node.sortOrder !== undefined ? node.sortOrder : i;
 			statements.push(
-				`INSERT OR REPLACE INTO nodes (id, parent_id, name, description, sort_order) VALUES ('${escapeSQL(node.id)}', ${parentId}, '${escapeSQL(node.name)}', '${escapeSQL(node.description || '')}', ${sortOrder});`
+				`INSERT OR IGNORE INTO nodes (id, parent_id, name, description, sort_order) VALUES ('${escapeSQL(node.id)}', ${parentId}, '${escapeSQL(node.name)}', '${escapeSQL(node.description || '')}', ${sortOrder});`
 			);
 			nodeCount++;
 		}
@@ -105,23 +105,15 @@ async function main() {
 	const { sql, nodeCount, exerciseCount, itemCount } = generateSQL(seedFiles);
 	console.log(`-- Seeding ${nodeCount} nodes, ${exerciseCount} exercises, ${itemCount} items`);
 
-	if (args.includes('--local')) {
+	if (args.includes('--local') || args.includes('--remote')) {
+		const { writeFileSync, unlinkSync } = await import('node:fs');
 		const tmpFile = join(import.meta.dirname, '..', '.seed-tmp.sql');
-		const { writeFile, unlink } = await import('node:fs/promises');
-		await writeFile(tmpFile, sql);
+		writeFileSync(tmpFile, sql);
+		const flag = args.includes('--remote') ? '--remote' : '--local';
 		try {
-			execSync(`npx wrangler d1 execute trivia-trainer --local --file=${tmpFile}`, { stdio: 'inherit' });
+			execSync(`npx wrangler d1 execute trivia-trainer ${flag} --file=${tmpFile}`, { stdio: 'inherit' });
 		} finally {
-			await unlink(tmpFile).catch(() => {});
-		}
-	} else if (args.includes('--remote')) {
-		const tmpFile = join(import.meta.dirname, '..', '.seed-tmp.sql');
-		const { writeFile, unlink } = await import('node:fs/promises');
-		await writeFile(tmpFile, sql);
-		try {
-			execSync(`npx wrangler d1 execute trivia-trainer --remote --file=${tmpFile}`, { stdio: 'inherit' });
-		} finally {
-			await unlink(tmpFile).catch(() => {});
+			try { unlinkSync(tmpFile); } catch {}
 		}
 	} else {
 		// Just print SQL to stdout

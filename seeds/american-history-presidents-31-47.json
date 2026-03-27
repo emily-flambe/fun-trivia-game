@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    { "id": "american-history/presidents", "parentId": "american-history", "name": "U.S. Presidents", "description": "Presidents of the United States" }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/presidents/presidents-31-47",
+      "nodeId": "american-history/presidents",
+      "name": "Presidents 31–47",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name Presidents 31 through 47 in order" },
+      "items": [
+        {
+          "id": "hoover",
+          "answer": "Herbert Hoover",
+          "alternates": ["Hoover"],
+          "explanation": "31st President (1929–1933), Republican\nTrained as a mining engineer — one of the few presidents with a technical background\nLed massive humanitarian relief efforts feeding millions in Europe after World War I before entering politics\nPresided over the 1929 stock market crash and the onset of the Great Depression\nShantytowns of the unemployed became known as \"Hoovervilles\" as a term of blame\nLived 31 years after leaving office — the longest post-presidency until Jimmy Carter surpassed him\nSpoke Mandarin Chinese with his wife Lou to keep conversations private in the White House\nDeeply unpopular when he left office, but later rehabilitated his reputation through public service",
+          "cardFront": "#31 (1929–1933)",
+          "cardBack": "Herbert Hoover"
+        },
+        {
+          "id": "roosevelt-f",
+          "answer": "Franklin D. Roosevelt",
+          "alternates": ["FDR", "Roosevelt", "F. Roosevelt", "Franklin Roosevelt"],
+          "explanation": "32nd President (1933–1945), Democrat\nOnly president elected four times — his unprecedented tenure led to the 22nd Amendment limiting presidents to two terms\nLaunched the New Deal, a sweeping set of programs to combat the Great Depression (Social Security, WPA, SEC, FDIC)\nLed the United States through most of World War II, dying in office on April 12, 1945, just weeks before V-E Day\nParalyzed from the waist down by polio (diagnosed 1921) — used a wheelchair but was rarely photographed in it\nPioneered \"fireside chats,\" radio addresses that made him a reassuring presence in American homes\nMarried to Eleanor Roosevelt, his fifth cousin once removed, who became the most activist First Lady in history\nFace on the dime",
+          "cardFront": "#32 (1933–1945)",
+          "cardBack": "Franklin D. Roosevelt"
+        },
+        {
+          "id": "truman",
+          "answer": "Harry S. Truman",
+          "alternates": ["Truman", "Harry Truman"],
+          "explanation": "33rd President (1945–1953), Democrat\nOrdered the atomic bombings of Hiroshima and Nagasaki (August 1945), ending World War II\nDesegregated the U.S. military by executive order in 1948\nLed the U.S. into the Korean War (1950–1953)\nKept a sign on his desk reading \"The Buck Stops Here\"\nLeft office in 1953 with a 22% approval rating — the lowest of any president at that time — though historians now rank him highly\nNever attended college — the last president without a college degree\nWas a haberdasher (men's clothing store owner) before entering politics\nNicknamed \"Give 'em Hell Harry\" for his combative campaign style in the 1948 upset victory over Dewey",
+          "cardFront": "#33 (1945–1953)",
+          "cardBack": "Harry S. Truman"
+        },
+        {
+          "id": "eisenhower",
+          "answer": "Dwight D. Eisenhower",
+          "alternates": ["Eisenhower", "Ike"],
+          "explanation": "34th President (1953–1961), Republican\nSupreme Allied Commander in World War II who planned and oversaw the D-Day invasion of Normandy (June 6, 1944)\nCreated the Interstate Highway System (1956), the largest public works project in American history\nHis farewell address warned of the dangers of the \"military-industrial complex\"\nSent federal troops to Little Rock, Arkansas to enforce school desegregation in 1957\nCampaign slogan \"I Like Ike\" became one of the most iconic in presidential history\nBoth the Democratic and Republican parties tried to recruit him as their nominee before he chose the GOP\nNASA was created during his presidency (1958) in response to the Soviet launch of Sputnik",
+          "cardFront": "#34 (1953–1961)",
+          "cardBack": "Dwight D. Eisenhower"
+        },
+        {
+          "id": "kennedy",
+          "answer": "John F. Kennedy",
+          "alternates": ["JFK", "Kennedy"],
+          "explanation": "35th President (1961–1963), Democrat\nYoungest person ever elected president at age 43 (Theodore Roosevelt was younger when he assumed office, but was not elected to his first term)\nFirst Catholic president\nNavigated the Cuban Missile Crisis (October 1962), the closest the world came to nuclear war\nCreated the Peace Corps by executive order in 1961\nAssassinated in Dallas, Texas on November 22, 1963 — a date seared into American memory\n\"Ask not what your country can do for you — ask what you can do for your country\" from his inaugural address\nWWII hero who saved his crew after PT-109 was sunk by a Japanese destroyer\nWon the Pulitzer Prize for \"Profiles in Courage\" (1957), though the extent of his authorship is debated",
+          "cardFront": "#35 (1961–1963)",
+          "cardBack": "John F. Kennedy"
+        },
+        {
+          "id": "johnson-l",
+          "answer": "Lyndon B. Johnson",
+          "alternates": ["LBJ", "Johnson", "L. Johnson", "Lyndon Johnson"],
+          "explanation": "36th President (1963–1969), Democrat\nSigned the Civil Rights Act of 1964 and the Voting Rights Act of 1965 — landmark legislation ending legal segregation\nHis \"Great Society\" programs created Medicare, Medicaid, and the War on Poverty\nEscalation of the Vietnam War destroyed his presidency and divided the nation\nAssumed office after JFK's assassination — sworn in aboard Air Force One with Jackie Kennedy standing beside him\nWon the 1964 election by the largest popular vote margin in modern history\nKnown for a crude, dominating personality — the \"Johnson Treatment\" was his method of physically cornering people to get their votes\nChose not to run for reelection in 1968, announcing his withdrawal in a televised address",
+          "cardFront": "#36 (1963–1969)",
+          "cardBack": "Lyndon B. Johnson"
+        },
+        {
+          "id": "nixon",
+          "answer": "Richard Nixon",
+          "alternates": ["Nixon"],
+          "explanation": "37th President (1969–1974), Republican\nOnly president to resign from office, leaving in disgrace over the Watergate scandal (August 9, 1974)\nOpened diplomatic relations with the People's Republic of China in 1972 — a historic foreign policy shift\nCreated the Environmental Protection Agency (EPA) in 1970\nWon reelection in 1972 carrying 49 out of 50 states — one of the largest landslides in history\nInfamously declared \"I am not a crook\" during a press conference\nPardoned by Gerald Ford, sparing him from criminal prosecution\nServed as Eisenhower's Vice President (1953–1961) and lost to JFK in 1960 in the first televised presidential debate",
+          "cardFront": "#37 (1969–1974)",
+          "cardBack": "Richard Nixon"
+        },
+        {
+          "id": "ford",
+          "answer": "Gerald Ford",
+          "alternates": ["Ford"],
+          "explanation": "38th President (1974–1977), Republican\nOnly president never elected as either president or vice president — appointed VP after Spiro Agnew resigned, then became president when Nixon resigned\nPardoned Richard Nixon for all crimes related to Watergate — a decision that likely cost him the 1976 election\nSurvived two assassination attempts within 17 days in September 1975 (by Lynette \"Squeaky\" Fromme and Sara Jane Moore)\nWas a star football player at the University of Michigan — turned down offers from the NFL's Detroit Lions and Green Bay Packers\nBorn Leslie Lynch King Jr. — his name was changed after his mother remarried Gerald Rudolff Ford Sr.\nThe only president from Michigan",
+          "cardFront": "#38 (1974–1977)",
+          "cardBack": "Gerald Ford"
+        },
+        {
+          "id": "carter",
+          "answer": "Jimmy Carter",
+          "alternates": ["Carter"],
+          "explanation": "39th President (1977–1981), Democrat\nBrokered the Camp David Accords (1978), achieving a historic peace treaty between Israel and Egypt\nPresidency overshadowed by the Iran hostage crisis (1979–1981), in which 52 Americans were held for 444 days\nWon the Nobel Peace Prize in 2002 for decades of humanitarian work through the Carter Center\nWas a peanut farmer from Plains, Georgia, and a trained nuclear submarine officer in the Navy\nInstalled solar panels on the White House roof — Ronald Reagan later had them removed\nLongest-lived president in American history — died on December 29, 2024 at age 100\nFirst president from the Deep South since Zachary Taylor (1849)",
+          "cardFront": "#39 (1977–1981)",
+          "cardBack": "Jimmy Carter"
+        },
+        {
+          "id": "reagan",
+          "answer": "Ronald Reagan",
+          "alternates": ["Reagan"],
+          "explanation": "40th President (1981–1989), Republican\n\"The Great Communicator\" — a former Hollywood actor and president of the Screen Actors Guild before entering politics\nOldest president at inauguration (69) until Donald Trump (70) and then Joe Biden (78) surpassed him\nSurvived an assassination attempt on March 30, 1981, quipping to surgeons \"I hope you're all Republicans\"\nChallenged Gorbachev to \"tear down this wall\" at the Berlin Wall in 1987\nIran-Contra scandal: his administration secretly sold arms to Iran and funneled profits to Nicaraguan rebels\nEnacted sweeping tax cuts and a massive military buildup during the Cold War\nWon 49 states in his 1984 reelection, losing only Minnesota and D.C.\nDiagnosed with Alzheimer's disease in 1994 after leaving office; was a Democrat until switching to Republican in 1962",
+          "cardFront": "#40 (1981–1989)",
+          "cardBack": "Ronald Reagan"
+        },
+        {
+          "id": "bush-hw",
+          "answer": "George H.W. Bush",
+          "alternates": ["Bush", "H.W. Bush", "George Bush Sr."],
+          "explanation": "41st President (1989–1993), Republican\nLast World War II veteran to serve as president — was a Navy torpedo bomber pilot shot down over the Pacific\nFormer CIA Director (1976–1977) before becoming Reagan's Vice President\nFamous broken promise: \"Read my lips: no new taxes\" — then raised taxes, which contributed to his 1992 reelection loss\nLed the U.S. through the Gulf War (Operation Desert Storm, 1991), liberating Kuwait from Iraq\nFather of George W. Bush (#43) — the second father-son presidential pair after John and John Quincy Adams\nParachuted from an airplane on his 90th birthday as part of a series of celebratory skydives\nOverseen the end of the Cold War and the fall of the Berlin Wall during his presidency",
+          "cardFront": "#41 (1989–1993)",
+          "cardBack": "George H.W. Bush"
+        },
+        {
+          "id": "clinton",
+          "answer": "Bill Clinton",
+          "alternates": ["Clinton"],
+          "explanation": "42nd President (1993–2001), Democrat\nSecond president to be impeached (after Andrew Johnson) — acquitted by the Senate on charges related to the Monica Lewinsky scandal\nPresided over the longest peacetime economic expansion in American history\nBalanced the federal budget and achieved a surplus — the first since 1969\nSigned NAFTA (North American Free Trade Agreement) into law\nCampaign strategist James Carville's mantra \"It's the economy, stupid\" defined his 1992 victory\nRhodes Scholar who studied at Oxford University\nPlayed saxophone on The Arsenio Hall Show during the 1992 campaign — a defining moment of pop-culture politics\nFirst Baby Boomer president (born 1946)",
+          "cardFront": "#42 (1993–2001)",
+          "cardBack": "Bill Clinton"
+        },
+        {
+          "id": "bush-gw",
+          "answer": "George W. Bush",
+          "alternates": ["G.W. Bush", "Bush Jr.", "W. Bush"],
+          "explanation": "43rd President (2001–2009), Republican\nWon the disputed 2000 election decided by Bush v. Gore — the Supreme Court halted a Florida recount, giving him the presidency by 537 votes\nLed the post-9/11 response, launching wars in Afghanistan (2001) and Iraq (2003)\nSigned No Child Left Behind (2002) and the TARP bailout during the 2008 financial crisis\nFormer governor of Texas\nSon of George H.W. Bush (#41) — only the second son of a president to become president (after John Quincy Adams)\nAlso the second president to win the Electoral College while losing the popular vote in the modern era (after Benjamin Harrison in 1888)\nBefore entering politics, co-owned the Texas Rangers baseball team",
+          "cardFront": "#43 (2001–2009)",
+          "cardBack": "George W. Bush"
+        },
+        {
+          "id": "obama",
+          "answer": "Barack Obama",
+          "alternates": ["Obama"],
+          "explanation": "44th President (2009–2017), Democrat\nFirst African American president in U.S. history\nSigned the Affordable Care Act (2010), commonly known as \"Obamacare,\" the most significant healthcare reform since Medicare\nOrdered the military operation that killed Osama bin Laden in Abbottabad, Pakistan (May 2, 2011)\nAwarded the Nobel Peace Prize in 2009, early in his first term\nFormer U.S. Senator from Illinois — served only one partial Senate term before winning the presidency\nCampaign slogan \"Yes We Can\" became a cultural phenomenon\nBorn in Honolulu, Hawaii — the first president born outside the contiguous United States\nNegotiated the Paris Climate Agreement (2015) and the Iran nuclear deal (JCPOA)",
+          "cardFront": "#44 (2009–2017)",
+          "cardBack": "Barack Obama"
+        },
+        {
+          "id": "trump-1",
+          "answer": "Donald Trump",
+          "alternates": ["Trump"],
+          "explanation": "45th and 47th President — first president to serve non-consecutive terms since Grover Cleveland (#22/#24)\nFirst president with no prior military or government service before taking office\nFirst president impeached twice (2019 and 2021) — acquitted by the Senate both times\nWon the 2016 election as a political outsider, defeating Hillary Clinton despite losing the popular vote\nBuilt his career as a real estate developer and television personality (hosted \"The Apprentice\")\nPresidency shaped by the COVID-19 pandemic beginning in 2020\nLost the 2020 election to Joe Biden; the January 6, 2021 Capitol breach followed the certification of electoral votes\nSigned the Tax Cuts and Jobs Act (2017), the largest tax overhaul since 1986",
+          "cardFront": "#45 (2017–2021)",
+          "cardBack": "Donald Trump"
+        },
+        {
+          "id": "biden",
+          "answer": "Joe Biden",
+          "alternates": ["Biden", "Joseph Biden"],
+          "explanation": "46th President (2021–2025), Democrat\nOldest person ever inaugurated as president at age 78\nServed as Vice President under Barack Obama for two full terms (2009–2017)\nFirst ran for president in 1988 — took over three decades to finally win the office\nServed as a U.S. Senator from Delaware for 36 years (1973–2009), one of the longest Senate tenures in history\nOversaw the COVID-19 vaccine rollout and signed the Bipartisan Infrastructure Law\nWithdrew from the 2024 presidential race, endorsing Vice President Kamala Harris\nLost his first wife Neilia and infant daughter Naomi in a 1972 car accident, and his son Beau died of brain cancer in 2015",
+          "cardFront": "#46 (2021–2025)",
+          "cardBack": "Joe Biden"
+        },
+        {
+          "id": "trump-2",
+          "answer": "Donald Trump",
+          "alternates": ["Trump"],
+          "explanation": "Same person as #45 — second president to serve non-consecutive terms (after Grover Cleveland, #22 and #24)\nWon the 2024 presidential election, defeating Kamala Harris\nOldest person to win a presidential election at age 78, surpassing Joe Biden's record\nFirst president to return to office after being voted out since Grover Cleveland won in 1892",
+          "cardFront": "#47 (2025–)",
+          "cardBack": "Donald Trump"
+        }
+      ]
+    }
+  ]
+}
