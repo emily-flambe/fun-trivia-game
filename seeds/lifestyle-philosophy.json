@@ -1,11 +1,11 @@
 {
   "nodes": [
-    { "id": "social-sciences/philosophy", "parentId": "social-sciences", "name": "Philosophy", "description": "Major philosophers and their ideas" }
+    { "id": "lifestyle/philosophy", "parentId": "lifestyle", "name": "Philosophy", "description": "Major philosophers and their ideas" }
   ],
   "exercises": [
     {
-      "id": "social-sciences/philosophy/major-philosophers",
-      "nodeId": "social-sciences/philosophy",
+      "id": "lifestyle/philosophy/major-philosophers",
+      "nodeId": "lifestyle/philosophy",
       "name": "Major Philosophers",
       "format": "text-entry",
       "items": [

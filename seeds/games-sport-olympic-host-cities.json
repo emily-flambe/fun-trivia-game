@@ -1,11 +1,11 @@
 {
   "nodes": [
-    { "id": "sports/olympics", "parentId": "sports", "name": "Olympics", "description": "Olympic Games history, host cities, and notable events" }
+    { "id": "games-sport/olympics", "parentId": "games-sport", "name": "Olympics", "description": "Olympic Games history, host cities, and notable events" }
   ],
   "exercises": [
     {
-      "id": "sports/olympics/summer-host-cities",
-      "nodeId": "sports/olympics",
+      "id": "games-sport/olympics/summer-host-cities",
+      "nodeId": "games-sport/olympics",
       "name": "Summer Olympic Host Cities",
       "format": "text-entry",
       "items": [

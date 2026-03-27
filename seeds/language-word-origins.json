@@ -1,11 +1,11 @@
 {
   "nodes": [
-    { "id": "miscellaneous/word-origins", "parentId": "miscellaneous", "name": "Word Origins", "description": "English words borrowed from other languages" }
+    { "id": "language/word-origins", "parentId": "language", "name": "Word Origins", "description": "English words borrowed from other languages" }
   ],
   "exercises": [
     {
-      "id": "miscellaneous/word-origins/etymologies",
-      "nodeId": "miscellaneous/word-origins",
+      "id": "language/word-origins/etymologies",
+      "nodeId": "language/word-origins",
       "name": "Word Origins \u2014 Etymologies",
       "format": "text-entry",
       "items": [

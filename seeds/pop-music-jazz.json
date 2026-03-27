@@ -1,11 +1,11 @@
 {
   "nodes": [
-    { "id": "jazz/legends", "parentId": "jazz", "name": "Jazz Legends", "description": "Pioneering jazz musicians and their landmark recordings" }
+    { "id": "pop-music/jazz", "parentId": "pop-music", "name": "Jazz", "description": "Pioneering jazz musicians and their landmark recordings" }
   ],
   "exercises": [
     {
-      "id": "jazz/legends/jazz-legends",
-      "nodeId": "jazz/legends",
+      "id": "pop-music/jazz/jazz-legends",
+      "nodeId": "pop-music/jazz",
       "name": "Jazz Legends",
       "format": "text-entry",
       "items": [

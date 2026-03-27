@@ -1,11 +1,11 @@
 {
   "nodes": [
-    { "id": "technology/inventions", "parentId": "technology", "name": "Inventions", "description": "Great inventions and the people behind them" }
+    { "id": "science/inventions", "parentId": "science", "name": "Inventions", "description": "Great inventions and the people behind them" }
   ],
   "exercises": [
     {
-      "id": "technology/inventions/great-inventions",
-      "nodeId": "technology/inventions",
+      "id": "science/inventions/great-inventions",
+      "nodeId": "science/inventions",
       "name": "Great Inventions",
       "format": "text-entry",
       "items": [
