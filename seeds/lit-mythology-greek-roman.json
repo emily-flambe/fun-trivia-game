@@ -11,210 +11,210 @@
       "question": "What is the Roman name for the Greek god Zeus?",
       "answer": "Jupiter",
       "alternateAnswers": ["Jove"],
-      "explanation": "Zeus/Jupiter was king of the gods and ruler of Mount Olympus. The planet Jupiter was named after him because it is the largest planet, fitting for the king of the gods."
+      "explanation": "Zeus (Greek) or Jupiter (Roman) was king of the gods and ruler of Mount Olympus, presiding over sky and thunder. He was the youngest son of the Titans Cronus and Rhea, and after overthrowing his father, he divided the cosmos with his brothers Poseidon (sea) and Hades (underworld). His key offspring include Athena, Apollo, Artemis, Ares, Hermes, Dionysus, Heracles, and Perseus. His symbols are the thunderbolt, eagle, and oak tree. The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World. The planet Jupiter, the largest in our solar system, was named after him as befitting the king of the gods. The word 'jovial' derives from Jove, reflecting the belief that those born under Jupiter's influence were cheerful."
     },
     {
       "id": "hera-roman",
       "question": "What is the Roman name for the Greek goddess Hera?",
       "answer": "Juno",
       "alternateAnswers": [],
-      "explanation": "Hera/Juno was goddess of marriage and queen of the gods. NASA named the Jupiter probe 'Juno' because in myth, Jupiter drew clouds around himself to hide his mischief, but Juno could see through them."
+      "explanation": "Hera (Greek) or Juno (Roman) was goddess of marriage, women, family, and the protector of women during childbirth. She was the daughter of the Titans Cronus and Rhea, and both sister and wife of Zeus. Her children include Ares (god of war), Hephaestus (god of the forge), and Hebe (goddess of youth). She is best known in myth for her fierce jealousy toward Zeus's many lovers and illegitimate children, relentlessly persecuting figures like Heracles, Io, and Leto. Her symbols include the peacock, cow, and pomegranate. The Heraion of Samos was one of the largest temples in Greece. NASA named its Jupiter probe 'Juno' because in myth, Jupiter drew clouds around himself to hide his affairs, but Juno could see through them, just as the spacecraft peers through Jupiter's clouds."
     },
     {
       "id": "poseidon-roman",
       "question": "What is the Roman name for the Greek god Poseidon?",
       "answer": "Neptune",
       "alternateAnswers": [],
-      "explanation": "Poseidon/Neptune was god of the sea, earthquakes, and horses. He competed with Athena for patronage of Athens -- he offered a saltwater spring, she offered an olive tree. Athens chose the tree."
+      "explanation": "Poseidon (Greek) or Neptune (Roman) was one of the twelve Olympians, presiding over the sea, storms, earthquakes, and horses. The son of Cronus and Rhea, he received dominion over the oceans when the cosmos was divided among the three brothers. He was known as the 'Earth-Shaker' for causing earthquakes with his trident, and was regarded as the tamer and father of horses, having created the first horse from sea foam. His offspring include the Cyclops Polyphemus, the hero Theseus (in some traditions), and the winged horse Pegasus. He competed with Athena for patronage of Athens: he offered a saltwater spring, she offered the olive tree, and the city chose Athena. The planet Neptune was named for him in 1846 due to its blue oceanic color. His trident remains one of the most recognizable symbols in mythology."
     },
     {
       "id": "athena-roman",
       "question": "What is the Roman name for the Greek goddess Athena?",
       "answer": "Minerva",
       "alternateAnswers": [],
-      "explanation": "Athena/Minerva was goddess of wisdom and warfare. She was born fully grown and armored from Zeus's head after he swallowed her pregnant mother, Metis."
+      "explanation": "Athena (Greek) or Minerva (Roman) was the goddess of wisdom, warfare, and handicraft. According to myth, she was born fully grown and armored from the head of her father Zeus after he swallowed her pregnant mother, the Titaness Metis. Unlike Ares, who represented brutal violence, Athena embodied strategic warfare and disciplined combat. Her symbols include the owl (representing wisdom), the olive tree (her gift to Athens), snakes, and the gorgoneion (Medusa's head on her shield). The Parthenon on the Acropolis of Athens was her chief temple, housing a massive gold and ivory statue by Phidias. She was patron of heroes including Odysseus, Perseus, and Heracles. The city of Athens bears her name after she won the contest against Poseidon. The owl of Athena appears on Greek euro coins today, and her image has symbolized wisdom and learning for millennia."
     },
     {
       "id": "ares-roman",
       "question": "What is the Roman name for the Greek god Ares?",
       "answer": "Mars",
       "alternateAnswers": [],
-      "explanation": "Ares/Mars was god of war. While the Greeks found Ares brutal and unpopular, the Romans revered Mars as father of Romulus and Remus and considered him second only to Jupiter."
+      "explanation": "Ares (Greek) or Mars (Roman) was the god of war and courage, the son of Zeus and Hera. He embodied the physical valor necessary for success in war but also personified sheer brutality and bloodlust, in contrast to his sister Athena's strategic wisdom. The Greeks generally found Ares unpopular and feared him, but the Romans revered Mars as one of their most important gods, second only to Jupiter, because he was considered the father of Romulus and Remus, the founders of Rome. His lovers included Aphrodite, with whom he fathered Eros (Cupid), Phobos (Fear), and Deimos (Terror). His symbols include the spear, shield, and vulture. The planet Mars was named for him due to its blood-red color. The month of March (Martius) is also named after him, as it marked the beginning of the military campaign season in ancient Rome."
     },
     {
       "id": "aphrodite-roman",
       "question": "What is the Roman name for the Greek goddess Aphrodite?",
       "answer": "Venus",
       "alternateAnswers": [],
-      "explanation": "Aphrodite/Venus was goddess of love and beauty. According to Hesiod, she was born from sea foam after Cronus severed Uranus's body parts and threw them into the ocean."
+      "explanation": "Aphrodite (Greek) or Venus (Roman) was the goddess of love, beauty, pleasure, passion, and procreation. According to Hesiod's Theogony, she was born from sea foam (aphros) that formed when Cronus severed Uranus's genitals and cast them into the ocean, making her older than the Olympians themselves. Her major symbols include seashells, myrtles, roses, doves, sparrows, and swans. Her primary cult centers were on Cyprus and Cythera. She was mother of Eros (Cupid) and, in Roman tradition, Aeneas, the Trojan hero and legendary ancestor of Rome. Her worship derived partly from the Phoenician goddess Astarte. The planet Venus was named for her as the brightest object in the sky after the sun and moon. Botticelli's The Birth of Venus and the ancient Venus de Milo sculpture remain among the most celebrated artistic depictions of any mythological figure."
     },
     {
       "id": "hermes-roman",
       "question": "What is the Roman name for the Greek god Hermes?",
       "answer": "Mercury",
       "alternateAnswers": [],
-      "explanation": "Hermes/Mercury was messenger of the gods and patron of travelers, thieves, and merchants. The planet Mercury was named for him because it moves across the sky faster than any other planet."
+      "explanation": "Hermes (Greek) or Mercury (Roman) was the messenger of the gods, an Olympian deity who served as herald, protector of travelers, thieves, merchants, and orators, and as psychopomp, guiding the souls of the dead to the underworld. He was the son of Zeus and the nymph Maia, and on the day he was born, he stole Apollo's sacred cattle, demonstrating his cleverness from infancy. His symbols include the caduceus (a staff entwined with two serpents), winged sandals (talaria), and a winged cap (petasos), which enabled him to move freely between the mortal and divine worlds. He fathered Pan, the god of the wild. The planet Mercury was named for him because it moves across the sky faster than any other planet. The chemical element mercury also bears his name, as does the word 'mercurial,' meaning quick and changeable. The Hermes brand and FTD florist logo both use his imagery."
     },
     {
       "id": "artemis-roman",
       "question": "What is the Roman name for the Greek goddess Artemis?",
       "answer": "Diana",
       "alternateAnswers": [],
-      "explanation": "Artemis/Diana was goddess of the hunt and the moon. She was Apollo's twin sister and fiercely protective of her virginity -- she turned the hunter Actaeon into a stag for seeing her bathe."
+      "explanation": "Artemis (Greek) or Diana (Roman) was the goddess of hunting, the wilderness, wild animals, the moon, and chastity. She was the daughter of Zeus and the Titaness Leto, and the twin sister of Apollo, born on the island of Delos. She was fiercely protective of her virginity: when the hunter Actaeon accidentally saw her bathing, she transformed him into a stag, and he was torn apart by his own hounds. Her symbols include the bow and arrow, hunting dogs, deer, and the crescent moon. The Temple of Artemis at Ephesus was one of the Seven Wonders of the Ancient World. The famous Roman sculpture Diana of Versailles in the Louvre depicts her in mid-stride with a deer. NASA named its 21st-century lunar program 'Artemis' after her, as she was Apollo's twin and the moon was her domain, a fitting successor to the Apollo program that first landed humans on the moon."
     },
     {
       "id": "apollo-roman",
       "question": "What is the Roman name for the Greek god Apollo?",
       "answer": "Apollo",
       "alternateAnswers": [],
-      "explanation": "Apollo is one of the few Olympians whose name stayed the same in both Greek and Roman mythology. He was god of music, poetry, the sun, and prophecy -- the oracle at Delphi spoke for him."
+      "explanation": "Apollo is one of the few Olympian gods whose name remained unchanged in both Greek and Roman mythology. He was the son of Zeus and the Titaness Leto, and the twin brother of Artemis. His domains were remarkably broad: music, poetry, art, the sun, light, healing, plague, prophecy, truth, and archery. The Oracle at Delphi, the most important prophetic site in the ancient world, spoke in his name. His key offspring include Asclepius (god of medicine) and Orpheus (in some traditions). His symbols include the lyre, laurel wreath, bow and arrow, and the sun. The myth of Apollo and Daphne, in which the nymph transformed into a laurel tree to escape him, inspired Bernini's famous Baroque sculpture. NASA named its moon landing program 'Apollo,' and the Apollo Belvedere statue in the Vatican has been considered the ideal of male beauty since the Renaissance."
     },
     {
       "id": "hephaestus-roman",
       "question": "What is the Roman name for the Greek god Hephaestus?",
       "answer": "Vulcan",
       "alternateAnswers": [],
-      "explanation": "Hephaestus/Vulcan was god of fire and the forge. He was the only Olympian who was physically imperfect -- Hera threw him off Olympus as a baby because he was lame. The word 'volcano' comes from Vulcan."
+      "explanation": "Hephaestus (Greek) or Vulcan (Roman) was the god of fire, the forge, metalworking, sculpture, and volcanoes. He was the son of Hera, born either by her alone or through her union with Zeus. He was the only Olympian who was physically imperfect: born lame, he was cast off Mount Olympus by his mother Hera, who was ashamed of his appearance. Despite this rejection, he became the master craftsman of the gods, forging Zeus's thunderbolts, Athena's shield, Achilles' armor, and Aphrodite's girdle. Ironically, the ugly god of the forge was married to Aphrodite, the most beautiful goddess, who famously had an affair with Ares. His symbols include the hammer, anvil, and tongs. The word 'volcano' derives directly from Vulcan, as the Romans believed volcanic eruptions were sparks from his forge beneath Mount Etna. The Star Trek species 'Vulcans' also take their name from him."
     },
     {
       "id": "demeter-roman",
       "question": "What is the Roman name for the Greek goddess Demeter?",
       "answer": "Ceres",
       "alternateAnswers": [],
-      "explanation": "Demeter/Ceres was goddess of the harvest. The word 'cereal' derives from Ceres. The myth of her daughter Persephone's abduction by Hades explained the seasons."
+      "explanation": "Demeter (Greek) or Ceres (Roman) was the goddess of the harvest, crops, grains, food, and the fertility of the earth. She was the daughter of Cronus and Rhea, and the mother of Persephone by Zeus. Her most important myth explains the seasons: when Hades abducted Persephone to the underworld, Demeter's grief caused all crops to wither and die. Zeus brokered a compromise in which Persephone would spend part of the year underground (winter) and part with her mother (spring and summer). The Eleusinian Mysteries, among the most important religious rites in ancient Greece, were held in her honor and promised initiates a blessed afterlife. Her symbols include sheaves of wheat, the cornucopia, and the torch she carried while searching for Persephone. The word 'cereal' derives directly from Ceres. The dwarf planet Ceres, the largest object in the asteroid belt, was also named after her."
     },
     {
       "id": "dionysus-roman",
       "question": "What is the Roman name for the Greek god Dionysus?",
       "answer": "Bacchus",
       "alternateAnswers": [],
-      "explanation": "Dionysus/Bacchus was god of wine, theater, and ecstasy. He was the only Olympian with a mortal parent. Greek tragedy and comedy both originated from festivals held in his honor."
+      "explanation": "Dionysus (Greek) or Bacchus (Roman) was the god of wine, winemaking, vegetation, fertility, festivity, ritual madness, religious ecstasy, and theater. He was the son of Zeus and the mortal princess Semele of Thebes, making him the only Olympian with a mortal parent. When Hera tricked Semele into asking Zeus to reveal his true form, the sight destroyed her, but Zeus rescued the unborn Dionysus and sewed him into his own thigh until birth. His symbol was the thyrsus, a fennel-staff wound with ivy and dripping with honey. Followers called Maenads (or Bacchantes) were said to enter ecstatic frenzies during his rituals. Greek tragedy and comedy both originated from festivals held in his honor, the Dionysia in Athens, making him the patron of all theater. The word 'bacchanalia' for wild celebrations comes directly from Bacchus. Caravaggio's Bacchus and Titian's Bacchus and Ariadne are among the most famous depictions."
     },
     {
       "id": "hades-roman",
       "question": "What is the Roman name for the Greek god Hades?",
       "answer": "Pluto",
       "alternateAnswers": [],
-      "explanation": "Hades/Pluto was god of the underworld. Despite popular culture, he was not considered evil by the Greeks -- just stern. His name Pluto means 'the wealthy one,' because all precious metals come from underground."
+      "explanation": "Hades (Greek) or Pluto (Roman) was the god of the dead and king of the underworld. He was the eldest son of the Titans Cronus and Rhea, and brother to Zeus and Poseidon. After the three brothers defeated the Titans, they drew lots to divide the cosmos: Zeus took the sky, Poseidon the sea, and Hades the underworld. His most famous myth is the abduction of Persephone, whom he seized and brought to his realm as queen, causing her mother Demeter's grief to bring winter upon the earth. His symbols include the bident (a two-pronged fork), the Helm of Darkness which rendered him invisible, and Cerberus, his three-headed guard dog. Despite popular culture's portrayal, the ancient Greeks did not consider him evil, merely stern and implacable. His name Pluto means 'the wealthy one,' since all precious metals and gems come from underground. The dwarf planet Pluto was named after him in 1930, at the suggestion of an 11-year-old English girl."
     },
     {
       "id": "minotaur-slayer",
       "question": "Who slew the Minotaur in Greek mythology?",
       "answer": "Theseus",
       "alternateAnswers": [],
-      "explanation": "Theseus navigated the Labyrinth using a ball of thread given to him by Ariadne, daughter of King Minos. He killed the half-bull, half-man creature and followed the thread back out."
+      "explanation": "Theseus was a divine hero and legendary king of Athens, the son of either King Aegeus of Athens or the god Poseidon (depending on the tradition) and Aethra of Troezen. His most celebrated feat was slaying the Minotaur, a half-bull, half-man monster confined in the Labyrinth beneath Knossos on Crete, designed by the master craftsman Daedalus for King Minos. Athens was forced to send seven young men and seven young women as tribute to be devoured by the beast. Theseus volunteered, and with the help of Ariadne, Minos's daughter, who gave him a ball of thread to mark his path, he navigated the Labyrinth, killed the Minotaur, and led the other Athenians to safety. He then abandoned Ariadne on the island of Naxos. Forgetting to change his ship's sails from black to white as promised, he caused his father Aegeus to leap into the sea in grief, giving the Aegean Sea its name."
     },
     {
       "id": "medusa-slayer",
       "question": "Which Greek hero slew the Gorgon Medusa?",
       "answer": "Perseus",
       "alternateAnswers": [],
-      "explanation": "Perseus used a mirrored shield from Athena to avoid Medusa's petrifying gaze, then beheaded her while she slept. From her blood sprang the winged horse Pegasus."
+      "explanation": "Perseus was the son of Zeus and the mortal Danae, and is regarded as one of the greatest Greek heroes and slayers of monsters. King Polydectes of Seriphos sent Perseus on what was intended to be a suicide mission: to bring back the head of Medusa, one of three Gorgon sisters whose gaze turned anyone to stone. The gods equipped him with Athena's mirrored shield, Hermes' winged sandals and curved sword, and Hades' Helm of Darkness. Using the shield to avoid Medusa's petrifying gaze, he beheaded her while she slept. From her severed neck sprang Pegasus, the winged horse, and the giant Chrysaor. On his return, Perseus used Medusa's head to rescue the princess Andromeda from a sea monster and later turned his enemies to stone. He founded the Perseid dynasty and was the great-grandfather of Heracles. The constellation Perseus commemorates him, and the annual Perseid meteor shower takes its name from his legacy."
     },
     {
       "id": "achilles-weakness",
       "question": "What was the only vulnerable spot on the body of the Greek hero Achilles?",
       "answer": "His heel",
       "alternateAnswers": ["Heel", "His ankle", "Ankle"],
-      "explanation": "Achilles' mother Thetis dipped him in the River Styx to make him invulnerable, holding him by the heel. Paris killed him with an arrow to that spot, guided by Apollo. The term 'Achilles heel' now means any critical weakness."
+      "explanation": "Achilles was the son of the Nereid (sea nymph) Thetis and Peleus, king of Phthia, and was the greatest warrior of the Trojan War. His mother dipped him in the River Styx to make his body invulnerable, holding him by the heel, which remained the one spot unprotected by the magical waters. He was raised alongside his companion Patroclus and trained by the centaur Chiron. As commander of the Myrmidons, he was the central figure of Homer's Iliad, which tells how he withdrew from battle after a quarrel with Agamemnon and returned only after Patroclus was killed by Hector. Achilles slew Hector and was himself killed when Paris shot an arrow guided by Apollo into his unprotected heel. The phrase 'Achilles heel' has entered dozens of languages as a term for a critical vulnerability, and the Achilles tendon in human anatomy is named after him."
     },
     {
       "id": "trojan-horse",
       "question": "Which Greek hero is credited with the idea of the Trojan Horse?",
       "answer": "Odysseus",
       "alternateAnswers": ["Ulysses"],
-      "explanation": "After 10 years of failed siege, Odysseus devised the plan to hide Greek soldiers inside a giant wooden horse. The Trojans brought it inside their walls, and that night the Greeks emerged and sacked the city."
+      "explanation": "Odysseus, known as Ulysses in Latin, was a legendary king of Ithaca and the hero of Homer's two great epics. He was the son of Laertes and Anticlea, and was celebrated above all for his cunning intelligence (metis). After ten years of failed siege during the Trojan War, Odysseus devised the stratagem of the Trojan Horse: the Greeks built a giant hollow wooden horse, concealed elite warriors inside it, and pretended to sail away. The Trojans, believing the horse a divine offering, dragged it within their walls. That night the Greeks emerged and sacked Troy. Odysseus's own ten-year journey home, the Odyssey, took him past the Cyclops Polyphemus, the Sirens, the witch Circe, the monsters Scylla and Charybdis, and many more perils. The word 'odyssey' has entered modern English to mean any long, eventful journey. His cunning and eloquence inspired literary descendants from Virgil's Aeneid to James Joyce's Ulysses."
     },
     {
       "id": "twelve-labors",
       "question": "Which Greek hero was forced to complete twelve labors as penance?",
       "answer": "Heracles",
       "alternateAnswers": ["Hercules", "Herakles"],
-      "explanation": "Heracles (Hercules in Roman mythology) was driven mad by Hera and killed his own family. The twelve labors included slaying the Nemean Lion, capturing Cerberus, and cleaning the Augean Stables in a single day."
+      "explanation": "Heracles (Greek) or Hercules (Roman) was a divine hero, the son of Zeus and the mortal Alcmene, born as Alcaeus. Hera, enraged by yet another of Zeus's illegitimate children, drove Heracles temporarily insane, causing him to kill his own wife and children. As penance, the Oracle at Delphi sentenced him to serve King Eurystheus of Tiryns and complete twelve seemingly impossible labors. These included slaying the Nemean Lion (whose skin he wore ever after), killing the nine-headed Lernaean Hydra, capturing the Ceryneian Hind, cleaning the vast Augean Stables in a single day by diverting two rivers, and his final and most dangerous task: capturing Cerberus, the three-headed guard dog of the underworld, alive. His symbols include the lion skin, the club, and the bow. He is the most depicted hero in ancient art, appearing on countless vases, sculptures, and mosaics. The Farnese Hercules is among the most famous ancient sculptures."
     },
     {
       "id": "pandora",
       "question": "In Greek mythology, who opened a container (often called a box) that released all evils into the world?",
       "answer": "Pandora",
       "alternateAnswers": [],
-      "explanation": "Pandora was the first woman, created by the gods as punishment for Prometheus giving fire to humans. She opened the jar (mistranslated as 'box') and all evils flew out, leaving only Hope trapped inside."
+      "explanation": "Pandora was the first human woman in Greek mythology, crafted by the god Hephaestus on the instructions of Zeus as a punishment for humanity after Prometheus stole fire from the gods. Each deity contributed a gift: Athena clothed her, Aphrodite gave her beauty, and Hermes gave her a deceptive nature and the power of speech. Her name means 'all-gifted.' Zeus gave her a large jar (pithos in Greek, mistranslated as 'box' by the Renaissance scholar Erasmus) and sent her to Epimetheus, Prometheus's brother, who accepted her despite his brother's warnings. When Pandora opened the jar, all evils, diseases, and hardships flew out into the world. She slammed the lid shut just in time to trap one thing inside: Hope (Elpis). The phrase 'Pandora's box' remains one of the most widely used mythological references in modern language. John William Waterhouse and Dante Gabriel Rossetti created celebrated paintings of her."
     },
     {
       "id": "prometheus",
       "question": "Which Titan stole fire from the gods and gave it to humanity?",
       "answer": "Prometheus",
       "alternateAnswers": [],
-      "explanation": "As punishment, Zeus chained Prometheus to a rock where an eagle ate his liver every day, only for it to regenerate each night. Heracles eventually freed him. Prometheus's name means 'forethought.'"
+      "explanation": "Prometheus was a Titan, the son of Iapetus and the Oceanid Clymene (or Themis, in some accounts), and a champion of humanity. His name means 'forethought,' in contrast to his brother Epimetheus ('afterthought'). In some traditions, Prometheus created humanity from clay. His most celebrated act was defying the Olympian gods by stealing fire from Mount Olympus and giving it to mortals in the form of technology, knowledge, and civilization. As punishment, Zeus chained him to a rock in the Caucasus mountains, where an eagle devoured his liver each day, only for it to regenerate each night, condemning him to eternal agony. He was eventually freed by Heracles. The myth has inspired profound works across centuries: Aeschylus's tragedy Prometheus Bound, Mary Shelley's Frankenstein (subtitled 'The Modern Prometheus'), and the Romantic poets who saw him as a symbol of human striving against tyranny. The adjective 'Promethean' means boldly creative or daringly original."
     },
     {
       "id": "golden-fleece",
       "question": "Which Greek hero led the Argonauts in search of the Golden Fleece?",
       "answer": "Jason",
       "alternateAnswers": [],
-      "explanation": "Jason sailed aboard the Argo with heroes including Heracles, Orpheus, and Atalanta. He succeeded with help from the sorceress Medea, who he later betrayed -- leading to one of mythology's most brutal revenge stories."
+      "explanation": "Jason was the son of Aeson, the rightful king of Iolcos, whose throne was usurped by his half-brother Pelias. To reclaim his birthright, Jason was sent on an ostensibly impossible quest: to retrieve the Golden Fleece of a divine ram from Colchis (modern-day Georgia) at the far edge of the Black Sea. He assembled a crew of heroes aboard the ship Argo, including Heracles, Orpheus, Atalanta, and the twins Castor and Pollux, collectively called the Argonauts. In Colchis, the sorceress Medea, granddaughter of the sun god Helios, fell in love with Jason and used her magic to help him yoke fire-breathing bulls, sow dragon's teeth, and steal the Fleece from a sleepless dragon. Jason later betrayed Medea by marrying the princess of Corinth, provoking one of mythology's most brutal revenge tales: Medea killed her own children. The ancient Greek cup by the artist Douris, now in the Vatican, famously depicts Jason's quest."
     },
     {
       "id": "icarus",
       "question": "In Greek mythology, who flew too close to the sun with wings made of wax and feathers?",
       "answer": "Icarus",
       "alternateAnswers": [],
-      "explanation": "Icarus and his father Daedalus escaped imprisonment in Crete using wings Daedalus crafted. Despite his father's warning, Icarus flew too high, the wax melted, and he fell into the sea. The story is history's oldest cautionary tale about hubris."
+      "explanation": "Icarus was the son of the master craftsman Daedalus, the architect who designed the Labyrinth for King Minos of Crete. After Theseus escaped the Labyrinth using Ariadne's thread, Minos imprisoned both Daedalus and Icarus in a tower. Daedalus fashioned two pairs of wings from bird feathers, thread, leather straps, and beeswax. He warned Icarus not to fly too close to the sun, which would melt the wax, or too close to the sea, which would dampen the feathers. Icarus, intoxicated by the thrill of flight, soared too high. The wax melted, the feathers scattered, and he plunged into the sea and drowned. The body of water where he fell became known as the Icarian Sea, near the island of Icaria. The story is one of the oldest cautionary tales about hubris and the dangers of ignoring wise counsel. Pieter Bruegel the Elder's painting Landscape with the Fall of Icarus (c. 1560) famously depicts the tragedy as a tiny splash unnoticed by the surrounding world."
     },
     {
       "id": "orpheus",
       "question": "Which Greek musician traveled to the Underworld to retrieve his dead wife Eurydice?",
       "answer": "Orpheus",
       "alternateAnswers": [],
-      "explanation": "Orpheus's music was so beautiful it charmed Hades into releasing Eurydice, on one condition: Orpheus must not look back at her until they reached the surface. He looked back at the last moment, and lost her forever."
+      "explanation": "Orpheus was a legendary Thracian bard and prophet, the son of the muse Calliope (or in some accounts, Apollo) and the Thracian king Oeagrus. He was the greatest musician in Greek mythology: his lyre-playing could charm animals, move trees and stones, and even divert the course of rivers. He sailed with Jason and the Argonauts, where his music saved the crew from the Sirens. When his wife Eurydice died from a snake bite, Orpheus descended into the underworld, charming Charon, Cerberus, and even Hades and Persephone with his music. They agreed to release Eurydice on one condition: Orpheus must not look back at her until they reached the surface. At the very threshold of the upper world, he turned to look, and Eurydice vanished forever. His story has inspired more operas than any other myth, beginning with Monteverdi's L'Orfeo (1607), considered the first great opera. The Orphic mysteries, a religious movement, claimed him as founder."
     },
     {
       "id": "muses-number",
       "question": "How many Muses were there in Greek mythology?",
       "answer": "Nine",
       "alternateAnswers": ["9"],
-      "explanation": "The nine Muses were daughters of Zeus and Mnemosyne (Memory). Each presided over a different art or science, from epic poetry (Calliope) to astronomy (Urania). The word 'museum' literally means 'place of the Muses.'"
+      "explanation": "The nine Muses were daughters of Zeus and the Titaness Mnemosyne (Memory), born after nine consecutive nights together. Each presided over a different art or science: Calliope (epic poetry), Clio (history), Erato (love poetry), Euterpe (lyric poetry and music), Melpomene (tragedy), Polyhymnia (hymns and sacred poetry), Terpsichore (dance), Thalia (comedy), and Urania (astronomy). They lived on Mount Helicon and were associated with the springs of Hippocrene and Castalia, whose waters brought poetic inspiration. Ancient Greek poets traditionally began their works by invoking the Muses: Homer opens both the Iliad and the Odyssey this way. The word 'museum' literally means 'place of the Muses,' derived from the great Mouseion of Alexandria. The word 'music' also traces back to them. Raphael depicted them in his fresco Parnassus in the Vatican, and they appear in countless classical sculptures, Renaissance paintings, and neoclassical works."
     },
     {
       "id": "war-apple",
       "question": "What event started the chain of events leading to the Trojan War?",
       "answer": "The Judgment of Paris",
       "alternateAnswers": ["Judgment of Paris", "Apple of Discord"],
-      "explanation": "Eris, goddess of discord, threw a golden apple inscribed 'To the fairest' among three goddesses. Paris of Troy was asked to judge. He chose Aphrodite, who bribed him with Helen, the most beautiful woman alive -- and launched a thousand ships."
+      "explanation": "The Judgment of Paris began when Eris, the goddess of discord, was not invited to the wedding of Peleus and Thetis (Achilles' future parents). In revenge, she threw a golden apple inscribed 'To the Fairest' among the guests. Three goddesses claimed it: Hera, Athena, and Aphrodite. Zeus refused to judge and delegated the decision to Paris, a Trojan prince. Each goddess offered a bribe: Hera promised power and dominion over Asia, Athena offered wisdom and skill in war, and Aphrodite offered the love of the most beautiful mortal woman, Helen of Sparta. Paris chose Aphrodite and was awarded Helen, who was already married to King Menelaus. Paris abducted Helen to Troy, and Menelaus rallied the Greek kings to retrieve her, launching a thousand ships and a ten-year war. The story is one of the most depicted subjects in Western art, painted by Rubens, Cranach, Renoir, and many others."
     },
     {
       "id": "cerberus",
       "question": "What was the name of the three-headed dog that guarded the entrance to the Greek Underworld?",
       "answer": "Cerberus",
       "alternateAnswers": [],
-      "explanation": "Cerberus prevented the dead from leaving and the living from entering. Capturing Cerberus alive was the final and most dangerous of Heracles' twelve labors. Orpheus got past him by playing music."
+      "explanation": "Cerberus was a monstrous multi-headed dog, typically depicted with three heads, who guarded the gates of the Greek underworld. He was the offspring of the monsters Typhon and Echidna, making him sibling to other fearsome creatures including the Lernaean Hydra and the Chimera. His role was to prevent the dead from leaving the underworld and the living from entering. Ancient descriptions gave him a serpent for a tail and snakes sprouting from his body. The most famous myth involving Cerberus is the twelfth and final labor of Heracles, who was required to capture the beast alive and unarmed, drag him to the surface, and return him. Orpheus charmed Cerberus with his lyre music to gain passage. The Sibyl of Cumae drugged him with a honey cake to help Aeneas enter. Cerberus appears in Dante's Inferno as the guardian of the Third Circle. His name has become synonymous with any fierce, vigilant guardian."
     },
     {
       "id": "narcissus",
       "question": "In Greek mythology, which beautiful youth fell in love with his own reflection?",
       "answer": "Narcissus",
       "alternateAnswers": [],
-      "explanation": "Narcissus rejected all suitors, including the nymph Echo, and was cursed to fall in love with his own reflection in a pool. Unable to leave, he wasted away and became the narcissus flower. The term 'narcissism' comes from his name."
+      "explanation": "Narcissus was a hunter from Thespiae in Boeotia, the son of the river god Cephissus and the nymph Liriope, renowned for his extraordinary beauty. According to Ovid's Metamorphoses, the prophet Tiresias warned that Narcissus would live long only if he never 'knew himself.' The nymph Echo fell deeply in love with him, but he cruelly rejected her, and she wasted away until only her voice remained. The goddess Nemesis punished Narcissus by leading him to a pool where he fell in love with his own reflection, unable to look away. He wasted away gazing at himself and was transformed into the narcissus flower. The myth gave rise to the psychological term 'narcissism,' coined by Freud, and the narcissus flower (daffodil) bears his name. Caravaggio's painting Narcissus (c. 1599), showing the youth transfixed by his reflection, is one of the most celebrated depictions of this myth in Western art."
     },
     {
       "id": "sisyphus",
       "question": "In Greek mythology, which king was condemned to roll a boulder uphill for eternity?",
       "answer": "Sisyphus",
       "alternateAnswers": [],
-      "explanation": "Sisyphus was punished for cheating death twice. Every time his boulder neared the top, it rolled back down. Albert Camus used Sisyphus as the central metaphor in his essay on the absurdity of human existence."
+      "explanation": "Sisyphus was the founder and king of Ephyra (later Corinth), the son of Aeolus and Enarete. He was renowned as the most cunning of mortals but was punished for multiple transgressions against the gods: he betrayed Zeus's secrets by revealing the abduction of Aegina to the river god Asopus, and he cheated death not once but twice, first by tricking Thanatos (Death) into his own chains, and later by persuading Persephone to let him return to the living world. When he finally died of old age, the gods condemned him to roll an immense boulder up a steep hill for eternity; every time it neared the summit, it rolled back down. The adjective 'Sisyphean' now describes any task that is both laborious and futile. Albert Camus made Sisyphus the central figure of his 1942 philosophical essay The Myth of Sisyphus, which explores the absurdity of human existence and concludes, famously, that 'one must imagine Sisyphus happy.'"
     },
     {
       "id": "king-midas",
       "question": "Which mythological king was granted the power to turn everything he touched into gold?",
       "answer": "King Midas",
       "alternateAnswers": ["Midas"],
-      "explanation": "Dionysus granted Midas the golden touch as a reward, but it became a curse when his food, drink, and even his daughter turned to gold. The 'Midas touch' now ironically means business success."
+      "explanation": "King Midas was a legendary ruler of Phrygia (in modern-day Turkey). When Silenus, the elderly companion of Dionysus, wandered drunk into Midas's rose gardens, Midas treated him hospitably for ten days. In gratitude, Dionysus offered to grant Midas any wish. The king asked that everything he touched be turned to gold. The gift quickly became a curse: his food, drink, and even his beloved daughter turned to solid gold at his touch. Midas begged Dionysus to reverse the power and was told to wash in the river Pactolus, which according to legend is why the river's sands contained gold dust. In a separate myth, Midas judged a music contest between Apollo and Pan, declaring Pan the winner. Apollo punished his poor taste by giving him donkey ears, which Midas hid under a tall cap. The phrase 'Midas touch' has entered modern English to mean an ability to make money effortlessly, ironically ignoring the cautionary nature of the original tale."
     },
     {
       "id": "odyssey-time",
       "question": "How many years did it take Odysseus to return home to Ithaca after the Trojan War?",
       "answer": "Ten",
       "alternateAnswers": ["10", "10 years", "Ten years"],
-      "explanation": "Combined with the 10-year Trojan War, Odysseus was away from home for 20 years. His wife Penelope famously fended off suitors by weaving a shroud by day and unraveling it by night."
+      "explanation": "The Odyssey, attributed to Homer, tells the story of Odysseus's ten-year voyage home to Ithaca after the fall of Troy, meaning he was away from home for a total of twenty years when combined with the ten-year war itself. The epic is one of the oldest surviving works of Western literature. During his journey, Odysseus faced the Cyclops Polyphemus (whom he blinded), the enchantress Circe (who turned his men into pigs), the deadly Sirens (whose song he heard while bound to his mast), the monsters Scylla and Charybdis, and the wrath of Poseidon. Meanwhile, his wife Penelope fended off over a hundred suitors by weaving a burial shroud by day and secretly unraveling it each night, promising to choose a new husband when the work was done. Their son Telemachus grew from infant to young man during the absence. The word 'odyssey' has entered modern English as a synonym for any long, difficult journey, and James Joyce's novel Ulysses (1922) retells the entire epic in a single day in Dublin."
     }
   ]
 }

@@ -1,0 +1,515 @@
+{
+  "id": "hist-us-amendments",
+  "category": "history",
+  "name": "US Constitutional Amendments",
+  "tier": "core",
+  "description": "All 27 amendments to the US Constitution -- what each one does, when it was ratified, and key facts",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "a1",
+      "question": "What does the 1st Amendment protect?",
+      "answer": "Freedom of speech, religion, press, assembly, and petition",
+      "alternateAnswers": [
+        "Freedom of speech",
+        "Freedom of speech and religion",
+        "Freedom of speech, religion, and the press"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 1st Amendment protects five fundamental freedoms: religion, speech, press, assembly, and petition. It bars Congress from establishing an official religion or prohibiting free exercise of religion, and protects citizens' rights to speak freely, publish without government censorship, gather peacefully, and ask the government to address grievances. Landmark cases include Schenck v. United States (1919), which introduced the 'clear and present danger' test, and New York Times Co. v. Sullivan (1964), which raised the bar for public officials suing for defamation. The Establishment Clause has been at the center of debates over prayer in public schools and religious displays on government property. It is the most litigated amendment in American history."
+    },
+    {
+      "id": "a2",
+      "question": "What does the 2nd Amendment protect?",
+      "answer": "The right to keep and bear arms",
+      "alternateAnswers": [
+        "Right to bear arms",
+        "Gun rights",
+        "The right to bear arms"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 2nd Amendment states: 'A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.' For over two centuries, courts debated whether this protects an individual right or only a collective militia right. In District of Columbia v. Heller (2008), the Supreme Court ruled for the first time that it protects an individual's right to own firearms unconnected to militia service. McDonald v. City of Chicago (2010) extended this to state and local governments. The amendment remains one of the most politically divisive in American law, with ongoing battles over assault weapon bans, background checks, and concealed carry permits."
+    },
+    {
+      "id": "a3",
+      "question": "What does the 3rd Amendment prohibit?",
+      "answer": "Quartering of soldiers in private homes",
+      "alternateAnswers": [
+        "Quartering soldiers",
+        "Housing soldiers in private homes",
+        "Forcing citizens to house soldiers"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 3rd Amendment prohibits the government from forcing citizens to house soldiers in their homes during peacetime without consent, and limits it during wartime to methods prescribed by law. It was a direct response to the British Quartering Acts of 1765 and 1774, which required American colonists to provide lodging and provisions to British troops. This is the least litigated amendment in the entire Constitution. The only significant federal court case is Engblom v. Carey (1982), where the Second Circuit ruled that National Guard members housed in striking prison guards' residences during a labor dispute violated the amendment. Some legal scholars argue it supports a broader right to residential privacy."
+    },
+    {
+      "id": "a4",
+      "question": "What does the 4th Amendment protect against?",
+      "answer": "Unreasonable searches and seizures",
+      "alternateAnswers": [
+        "Unreasonable search and seizure",
+        "Illegal searches",
+        "Search and seizure without a warrant"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 4th Amendment protects people from unreasonable searches and seizures by the government and requires warrants to be supported by probable cause. It was inspired by colonial outrage over British 'writs of assistance,' which were general warrants letting officials search any home. Mapp v. Ohio (1961) established the exclusionary rule, barring illegally obtained evidence from state trials. Katz v. United States (1967) extended protection to electronic surveillance. In the digital age, the amendment is central to debates over phone searches (Riley v. California, 2014) and cell phone location tracking (Carpenter v. United States, 2018). The 'reasonable expectation of privacy' test from Katz remains the standard for what counts as a search."
+    },
+    {
+      "id": "a5",
+      "question": "What does the 5th Amendment protect?",
+      "answer": "Due process, protection against self-incrimination and double jeopardy",
+      "alternateAnswers": [
+        "Right against self-incrimination",
+        "Right to remain silent",
+        "Due process and self-incrimination protection",
+        "The right not to testify against yourself"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 5th Amendment packs several protections into one: grand jury indictment for serious crimes, protection from double jeopardy (being tried twice for the same offense), the right against self-incrimination, due process of law, and just compensation for government taking of private property (eminent domain). 'Pleading the Fifth' became part of popular culture during the 1950s McCarthy hearings. Miranda v. Arizona (1966) required police to inform suspects of their 5th Amendment rights before interrogation -- the famous 'Miranda warning.' The Takings Clause has generated extensive case law about when government regulation goes so far that it becomes a taking requiring compensation. Kelo v. City of New London (2005) controversially allowed eminent domain for private economic development."
+    },
+    {
+      "id": "a6",
+      "question": "What does the 6th Amendment guarantee?",
+      "answer": "The right to a speedy and public trial by jury",
+      "alternateAnswers": [
+        "Right to a speedy trial",
+        "Right to a fair trial",
+        "Speedy trial and right to counsel",
+        "Right to a jury trial"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 6th Amendment guarantees criminal defendants a speedy and public trial by an impartial jury, the right to be informed of charges, the right to confront witnesses, compulsory process for obtaining favorable witnesses, and the right to legal counsel. Gideon v. Wainwright (1963) was a landmark case establishing that states must provide free attorneys to defendants who cannot afford one in felony cases -- later extended to any case where imprisonment is possible. The Confrontation Clause was strengthened in Crawford v. Washington (2004), requiring live testimony rather than written statements. The 'speedy trial' right led Congress to pass the Speedy Trial Act of 1974, generally requiring federal trials to begin within 70 days of indictment."
+    },
+    {
+      "id": "a7",
+      "question": "What does the 7th Amendment guarantee?",
+      "answer": "The right to a jury trial in civil cases",
+      "alternateAnswers": [
+        "Jury trial in civil lawsuits",
+        "Right to jury trial in civil suits",
+        "Civil jury trial rights"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 7th Amendment preserves the right to a jury trial in federal civil lawsuits where the value in controversy exceeds twenty dollars. It also prevents courts from re-examining facts tried by a jury except as allowed by common law. The twenty-dollar threshold has never been adjusted for inflation -- in 1791 that was roughly equivalent to several hundred dollars today. Unlike most of the Bill of Rights, the 7th Amendment has not been incorporated against the states through the 14th Amendment, meaning states are not required to provide jury trials in civil cases. This makes it one of the few Bill of Rights provisions that applies only to federal courts. Pub quiz fact: the $20 threshold is the only specific dollar amount mentioned in the Bill of Rights."
+    },
+    {
+      "id": "a8",
+      "question": "What does the 8th Amendment prohibit?",
+      "answer": "Excessive bail, excessive fines, and cruel and unusual punishment",
+      "alternateAnswers": [
+        "Cruel and unusual punishment",
+        "Excessive bail and cruel punishment",
+        "Cruel and unusual punishments"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 8th Amendment prohibits excessive bail, excessive fines, and cruel and unusual punishments. The 'cruel and unusual' clause has been the most litigated part, evolving with society's standards of decency. Furman v. Georgia (1972) temporarily halted all executions in the United States, finding that the death penalty as then applied was arbitrary and unconstitutional. Gregg v. Georgia (1976) allowed executions to resume under new guidelines. Roper v. Simmons (2005) banned executing people for crimes committed as minors, and Atkins v. Virginia (2002) banned executing intellectually disabled persons. Timbs v. Indiana (2019) incorporated the Excessive Fines Clause against the states. Debates continue over whether solitary confinement, lethal injection protocols, and life without parole for juveniles constitute cruel and unusual punishment."
+    },
+    {
+      "id": "a9",
+      "question": "What does the 9th Amendment state?",
+      "answer": "Rights not listed in the Constitution are still retained by the people",
+      "alternateAnswers": [
+        "The people retain rights not enumerated in the Constitution",
+        "Unenumerated rights are retained by the people",
+        "People have rights beyond those listed in the Constitution"
+      ],
+      "explanation": "Ratified in 1791 as part of the Bill of Rights, the 9th Amendment states that the enumeration of certain rights in the Constitution shall not be construed to deny or disparage others retained by the people. James Madison included it to address concerns that listing specific rights might imply those were the only rights people had. Justice Arthur Goldberg's concurrence in Griswold v. Connecticut (1965) relied on the 9th Amendment to argue for a right to marital privacy, striking down a ban on contraceptives. Despite this, the amendment is rarely cited as a standalone basis for court rulings. Constitutional scholars debate whether it is a rule of interpretation or an independent source of rights. It is sometimes called the 'forgotten amendment' because it is so rarely invoked directly, yet it has influenced broader constitutional thinking about unenumerated rights like privacy."
+    },
+    {
+      "id": "a10",
+      "question": "What does the 10th Amendment reserve?",
+      "answer": "Powers not delegated to the federal government are reserved to the states or the people",
+      "alternateAnswers": [
+        "States' rights",
+        "Powers reserved to the states",
+        "Reserved powers to the states and the people"
+      ],
+      "explanation": "Ratified in 1791 as the final amendment in the Bill of Rights, the 10th Amendment states that powers not delegated to the United States by the Constitution, nor prohibited to the states, are reserved to the states respectively or to the people. It is the foundation of federalism and states' rights arguments. In National Federation of Independent Business v. Sebelius (2012), the Supreme Court used 10th Amendment principles to strike down the Affordable Care Act's mandatory Medicaid expansion. New York v. United States (1992) established the 'anti-commandeering' doctrine, barring the federal government from forcing states to enforce federal regulations. The amendment has been invoked in debates over marijuana legalization, immigration enforcement, gun control, and education policy. It remains central to the ongoing tension between federal authority and state sovereignty in American governance."
+    },
+    {
+      "id": "a11",
+      "question": "What does the 11th Amendment address?",
+      "answer": "State sovereign immunity from lawsuits by citizens of other states",
+      "alternateAnswers": [
+        "States cannot be sued by citizens of other states",
+        "State sovereign immunity",
+        "Sovereign immunity for states"
+      ],
+      "explanation": "Ratified in 1795, the 11th Amendment was the first amendment adopted after the Bill of Rights. It was a direct response to Chisholm v. Georgia (1793), where the Supreme Court ruled that states could be sued in federal court by citizens of other states. The ruling shocked state legislatures, and the amendment was ratified in less than a year. It establishes that federal courts do not have jurisdiction over lawsuits brought against a state by citizens of another state or by foreign nationals. The Supreme Court later expanded this principle in Hans v. Louisiana (1890) to also bar suits by a state's own citizens. However, the doctrine has exceptions: Congress can abrogate state immunity under the 14th Amendment, states can waive their immunity, and the Ex parte Young (1908) doctrine allows suits against state officials for ongoing constitutional violations."
+    },
+    {
+      "id": "a12",
+      "question": "What did the 12th Amendment change about presidential elections?",
+      "answer": "Separate electoral votes for President and Vice President",
+      "alternateAnswers": [
+        "President and Vice President are elected separately",
+        "Separate ballots for president and vice president",
+        "Electoral College votes separately for president and VP"
+      ],
+      "explanation": "Ratified in 1804, the 12th Amendment changed how the Electoral College works by requiring separate ballots for President and Vice President. Under the original system, the runner-up in the presidential election became Vice President, which created serious problems. In 1796, this produced a President (John Adams) and Vice President (Thomas Jefferson) from opposing parties. In 1800, Jefferson and his intended VP Aaron Burr received the same number of electoral votes, throwing the election to the House of Representatives for 36 ballots before Jefferson prevailed. The 12th Amendment fixed this by having electors cast distinct votes for each office. It also specifies that the Vice President must meet the same eligibility requirements as the President. The amendment has shaped the modern ticket system where presidential candidates choose their running mates."
+    },
+    {
+      "id": "a13",
+      "question": "Which amendment abolished slavery?",
+      "answer": "13th Amendment",
+      "alternateAnswers": [
+        "The 13th Amendment",
+        "Thirteenth Amendment",
+        "The Thirteenth Amendment",
+        "13"
+      ],
+      "explanation": "Ratified in 1865, the 13th Amendment abolished slavery and involuntary servitude throughout the United States, except as punishment for a crime. It was the first of three Reconstruction Amendments (13th, 14th, and 15th) passed after the Civil War. President Lincoln pushed for its passage even before the war ended, and it passed the Senate in April 1864 but initially failed in the House before passing in January 1865 -- a struggle depicted in Steven Spielberg's film 'Lincoln.' The exception clause allowing involuntary servitude as criminal punishment has drawn modern criticism for enabling convict leasing and prison labor systems. Mississippi did not officially ratify the amendment until 1995 and did not file the paperwork until 2013. The amendment also granted Congress enforcement power, which it used to pass the Civil Rights Act of 1866."
+    },
+    {
+      "id": "a14",
+      "question": "What does the 14th Amendment guarantee?",
+      "answer": "Citizenship rights, due process, and equal protection under the law",
+      "alternateAnswers": [
+        "Equal protection and due process",
+        "Equal protection under the law",
+        "Citizenship, due process, and equal protection",
+        "Due process and equal protection"
+      ],
+      "explanation": "Ratified in 1868, the 14th Amendment is arguably the most consequential amendment after the Bill of Rights. It defines citizenship (overruling Dred Scott v. Sandford), prohibits states from denying due process or equal protection of the laws, and reduces congressional representation for states that deny voting rights. The Equal Protection Clause was the basis for Brown v. Board of Education (1954), which ended legal school segregation. Through 'incorporation,' the Due Process Clause has been used to apply most of the Bill of Rights to state governments. It underpinned Roe v. Wade (1973), Obergefell v. Hodges (2015) on same-sex marriage, and countless civil rights decisions. The Citizenship Clause grants citizenship to all persons born in the United States, making it central to debates over birthright citizenship and immigration. It is the most litigated amendment in Supreme Court history."
+    },
+    {
+      "id": "a15",
+      "question": "What does the 15th Amendment prohibit?",
+      "answer": "Denying the right to vote based on race, color, or previous condition of servitude",
+      "alternateAnswers": [
+        "Racial discrimination in voting",
+        "Denying voting rights based on race",
+        "Voting discrimination by race"
+      ],
+      "explanation": "Ratified in 1870, the 15th Amendment prohibits the federal and state governments from denying a citizen's right to vote based on race, color, or previous condition of servitude. It was the last of the three Reconstruction Amendments and was championed by Radical Republicans to secure Black male suffrage. Despite its passage, Southern states circumvented it for nearly a century through literacy tests, grandfather clauses, poll taxes, and outright intimidation. The Supreme Court struck down grandfather clauses in Guinn v. United States (1915) and white primaries in Smith v. Allwright (1944). True enforcement did not come until the Voting Rights Act of 1965, which gave the federal government tools to combat voter suppression. Women were notably excluded from the amendment's protections -- that would require the 19th Amendment fifty years later."
+    },
+    {
+      "id": "a16",
+      "question": "What did the 16th Amendment authorize?",
+      "answer": "Federal income tax",
+      "alternateAnswers": [
+        "Income tax",
+        "The federal income tax",
+        "Congress to levy an income tax",
+        "Congressional power to tax income"
+      ],
+      "explanation": "Ratified in 1913, the 16th Amendment authorized Congress to levy an income tax without apportioning it among the states based on population. This was necessary because the Supreme Court had struck down an earlier income tax in Pollock v. Farmers' Loan & Trust Co. (1895), ruling it was a direct tax that had to be apportioned by state population. The amendment enabled the modern federal tax system and fundamentally changed how the government raises revenue. Before 1913, the federal government relied primarily on tariffs and excise taxes. The first income tax under the amendment was modest: 1% on incomes above $3,000 (about $92,000 today) and a maximum of 7% on incomes above $500,000. Today the IRS collects over $4 trillion annually. Tax protesters have tried various arguments that the 16th Amendment was never properly ratified, but every court has rejected these claims."
+    },
+    {
+      "id": "a17",
+      "question": "What did the 17th Amendment change about the Senate?",
+      "answer": "Direct election of senators by popular vote",
+      "alternateAnswers": [
+        "Senators elected by popular vote",
+        "Direct election of senators",
+        "People vote directly for senators"
+      ],
+      "explanation": "Ratified in 1913, the 17th Amendment established the direct election of United States senators by popular vote in each state. Previously, Article I of the Constitution gave state legislatures the power to choose senators. By the early 1900s, this system had become deeply corrupt -- Senate seats were essentially bought and sold, and multiple states had deadlocked legislatures that left Senate seats vacant for months. Oregon pioneered a system in 1907 where voters indicated their Senate preference and legislators pledged to follow the popular choice. Other states adopted similar workarounds, building momentum for a constitutional amendment. The 17th Amendment passed alongside the 16th as part of the Progressive Era's push for more democratic governance. Some modern critics argue it weakened federalism by severing the direct link between state governments and the Senate, which was originally designed to represent state interests."
+    },
+    {
+      "id": "a18",
+      "question": "Which amendment was repealed by another amendment?",
+      "answer": "18th Amendment",
+      "alternateAnswers": [
+        "The 18th Amendment",
+        "Eighteenth Amendment",
+        "The Eighteenth Amendment",
+        "18"
+      ],
+      "explanation": "Ratified in 1919, the 18th Amendment prohibited the manufacture, sale, and transportation of intoxicating liquors in the United States, launching the era known as Prohibition. It was the culmination of a decades-long temperance movement driven by groups like the Anti-Saloon League and the Women's Christian Temperance Union. The Volstead Act defined 'intoxicating liquors' as anything with more than 0.5% alcohol. Rather than reducing drinking, Prohibition fueled organized crime, speakeasies, and bootlegging empires run by figures like Al Capone. Government revenue from alcohol taxes disappeared while enforcement costs soared. It remains the only amendment to the Constitution that has been repealed, undone by the 21st Amendment in 1933 after just 13 years. Interestingly, the amendment banned the sale and manufacture of alcohol but never made it illegal to drink or possess alcohol for personal consumption."
+    },
+    {
+      "id": "a19",
+      "question": "Which amendment gave women the right to vote?",
+      "answer": "19th Amendment",
+      "alternateAnswers": [
+        "The 19th Amendment",
+        "Nineteenth Amendment",
+        "The Nineteenth Amendment",
+        "19"
+      ],
+      "explanation": "Ratified in 1920, the 19th Amendment prohibits denying the right to vote on the basis of sex. The women's suffrage movement began at the Seneca Falls Convention in 1848 and took 72 years to achieve a constitutional amendment. Key figures included Susan B. Anthony, Elizabeth Cady Stanton, and Alice Paul. Wyoming was the first territory to grant women's suffrage in 1869, and by 1920 several states already allowed women to vote. The amendment passed the House in 1918 but stalled in the Senate until 1919. Ratification came down to Tennessee, where a 24-year-old legislator named Harry T. Burn changed his vote to 'yes' after receiving a letter from his mother urging him to support suffrage -- passing by a single vote. Despite the amendment, many women of color continued to face barriers to voting until the Voting Rights Act of 1965."
+    },
+    {
+      "id": "a20",
+      "question": "What does the 20th Amendment change about presidential terms?",
+      "answer": "Moved presidential inauguration from March 4 to January 20",
+      "alternateAnswers": [
+        "Changed inauguration date to January 20",
+        "Moved inauguration day",
+        "Shortened the lame duck period",
+        "Presidential term begins January 20"
+      ],
+      "explanation": "Ratified in 1933, the 20th Amendment -- nicknamed the 'Lame Duck Amendment' -- moved the start of the presidential term from March 4 to January 20, and the start of congressional terms from March 4 to January 3. Under the old system, there was a four-month gap between Election Day and inauguration, which proved dangerous during crises. When Abraham Lincoln won in November 1860, seven states seceded before his March 1861 inauguration while President Buchanan did nothing. Similarly, during the Great Depression, FDR could not act until four months after his November 1932 victory. The amendment also addresses what happens if a president-elect dies before taking office: the vice president-elect becomes president. Senator George Norris of Nebraska championed the amendment for over a decade before it was finally adopted. The first inauguration under the new date was FDR's second, on January 20, 1937."
+    },
+    {
+      "id": "a21",
+      "question": "What did the 21st Amendment do?",
+      "answer": "Repealed Prohibition (the 18th Amendment)",
+      "alternateAnswers": [
+        "Repealed Prohibition",
+        "Repealed the 18th Amendment",
+        "Ended Prohibition",
+        "Made alcohol legal again"
+      ],
+      "explanation": "Ratified in 1933, the 21st Amendment repealed the 18th Amendment, ending the nationwide prohibition of alcohol. It is the only amendment that repeals a previous amendment and the only one ratified by state conventions rather than state legislatures -- Congress chose this method because state legislatures were seen as more susceptible to pressure from dry lobbies. The repeal was driven by Prohibition's spectacular failure: organized crime flourished, enforcement was expensive and ineffective, and the Great Depression made the lost tax revenue from alcohol painfully obvious. FDR ran on a repeal platform and signed the Beer and Wine Revenue Act even before the amendment was ratified. Section 2 gives states the power to regulate alcohol within their borders, which is why alcohol laws vary so wildly across the United States. Some counties remain 'dry' to this day. The amendment was ratified in just 288 days -- the fastest ratification in history."
+    },
+    {
+      "id": "a22",
+      "question": "What does the 22nd Amendment limit?",
+      "answer": "Presidents to two terms in office",
+      "alternateAnswers": [
+        "Presidential term limits",
+        "Two-term limit for president",
+        "Number of times someone can be elected president",
+        "A president can only serve two terms"
+      ],
+      "explanation": "Ratified in 1951, the 22nd Amendment limits a president to being elected no more than twice, or once if they have already served more than two years of another president's term. George Washington established the two-term tradition by declining a third term in 1796, and every president followed suit until Franklin D. Roosevelt won four consecutive elections (1932, 1936, 1940, 1944). FDR's unprecedented tenure alarmed many, and the Republican-controlled Congress proposed the amendment in 1947. Harry Truman was specifically exempted from its provisions. Dwight Eisenhower was the first president actually bound by it. The amendment has been criticized for making second-term presidents 'lame ducks' and has periodically faced repeal proposals from both parties. Ironically, the Republicans who pushed for it later wished they could run popular presidents like Eisenhower and Reagan for third terms."
+    },
+    {
+      "id": "a23",
+      "question": "What does the 23rd Amendment grant to Washington, D.C.?",
+      "answer": "Electoral votes in presidential elections",
+      "alternateAnswers": [
+        "The right to vote for president",
+        "Electoral College representation",
+        "Electors in the Electoral College",
+        "Presidential voting rights"
+      ],
+      "explanation": "Ratified in 1961, the 23rd Amendment grants the District of Columbia electors in the Electoral College, treating it as if it were a state for presidential elections (though with no more electors than the least populous state, giving it three). Before this amendment, D.C. residents -- who numbered over 760,000 at the time -- had no vote in presidential elections despite paying federal taxes. The amendment was part of a broader push for D.C. representation. However, it did not give D.C. voting representation in Congress, which remains a contentious issue. D.C. has voted overwhelmingly Democratic in every presidential election since gaining the right, with margins often exceeding 80-90%. The fight for full D.C. statehood continues, with supporters arguing that its population exceeds that of Wyoming and Vermont. A proposed D.C. voting rights amendment passed Congress in 1978 but failed to be ratified by enough states before its 1985 deadline."
+    },
+    {
+      "id": "a24",
+      "question": "What did the 24th Amendment abolish?",
+      "answer": "Poll taxes in federal elections",
+      "alternateAnswers": [
+        "Poll taxes",
+        "The poll tax",
+        "Voting taxes",
+        "Tax requirements for voting"
+      ],
+      "explanation": "Ratified in 1964, the 24th Amendment prohibits Congress and the states from conditioning the right to vote in federal elections on payment of a poll tax or any other tax. Poll taxes had been used primarily in Southern states since the late 1800s to disenfranchise Black voters and poor whites. At the time of ratification, five states still imposed poll taxes: Virginia, Alabama, Texas, Arkansas, and Mississippi. The amendment only applied to federal elections, but the Supreme Court extended the ban to state and local elections in Harper v. Virginia State Board of Elections (1966), ruling that poll taxes in any election violated the Equal Protection Clause of the 14th Amendment. The amendment was part of the broader civil rights movement and helped pave the way for the Voting Rights Act of 1965. Some poll taxes were as low as $1-2, but accumulated unpaid taxes from previous years could make the total cost prohibitive for poor citizens."
+    },
+    {
+      "id": "a25",
+      "question": "What does the 25th Amendment establish?",
+      "answer": "Presidential succession and procedures for presidential disability",
+      "alternateAnswers": [
+        "Presidential succession",
+        "Rules for presidential disability and succession",
+        "VP becomes president if president is removed",
+        "Presidential disability procedures"
+      ],
+      "explanation": "Ratified in 1967, the 25th Amendment clarifies presidential succession and creates procedures for filling a vice presidential vacancy and handling presidential disability. It was prompted by the assassination of JFK in 1963 and concerns about President Eisenhower's health problems during the 1950s. Section 1 confirms that the VP becomes President (not just acting president) when the president dies or resigns. Section 2 lets the president nominate a new VP when that office is vacant -- used twice: Gerald Ford replaced Spiro Agnew in 1973, then Nelson Rockefeller replaced Ford in 1974. Section 3 allows the president to temporarily transfer power, used during presidential surgeries. Section 4 -- the most dramatic provision, never invoked -- allows the VP and a majority of the Cabinet to declare the president unable to serve, potentially triggering a congressional showdown. It has been discussed during multiple presidential health crises."
+    },
+    {
+      "id": "a26",
+      "question": "Which amendment lowered the voting age to 18?",
+      "answer": "26th Amendment",
+      "alternateAnswers": [
+        "The 26th Amendment",
+        "Twenty-sixth Amendment",
+        "The Twenty-sixth Amendment",
+        "26"
+      ],
+      "explanation": "Ratified in 1971, the 26th Amendment lowered the voting age from 21 to 18 in all elections. The primary argument was that if 18-year-olds were old enough to be drafted and sent to fight in Vietnam, they were old enough to vote. The slogan 'Old enough to fight, old enough to vote' dated back to World War II but gained irresistible momentum during the Vietnam era. Congress first tried to lower the voting age through the Voting Rights Act of 1970, but the Supreme Court in Oregon v. Mitchell ruled Congress could only do so for federal elections, not state ones. This created a logistical nightmare of maintaining two voter rolls, so both parties quickly supported a constitutional amendment. The 26th Amendment holds the record for the fastest ratification of any amendment: just 100 days from congressional proposal to ratification by the required 38 states. It enfranchised approximately 11 million new voters."
+    },
+    {
+      "id": "a27",
+      "question": "What is the most recent amendment to the Constitution?",
+      "answer": "27th Amendment",
+      "alternateAnswers": [
+        "The 27th Amendment",
+        "Twenty-seventh Amendment",
+        "The Twenty-seventh Amendment",
+        "27"
+      ],
+      "explanation": "Ratified in 1992, the 27th Amendment prohibits any law that changes congressional pay from taking effect until after the next election of the House of Representatives. Its origin story is extraordinary: James Madison originally proposed it in 1789 as part of the original Bill of Rights, but it fell one state short of ratification. It then languished for nearly 200 years until Gregory Watson, a University of Texas student, wrote a paper in 1982 arguing it could still be ratified. His professor gave him a C. Undeterred, Watson launched a one-man campaign, writing to state legislatures across the country. Over the next decade, enough states ratified it to meet the three-fourths threshold. Congress declared it ratified on May 20, 1992 -- 202 years, 7 months, and 12 days after it was first proposed. Watson's professor later changed his grade to an A. It holds the record for the longest ratification period of any amendment."
+    },
+    {
+      "id": "a13-what",
+      "question": "What does the 13th Amendment do?",
+      "answer": "Abolishes slavery and involuntary servitude",
+      "alternateAnswers": [
+        "Abolished slavery",
+        "Bans slavery",
+        "Ended slavery",
+        "Abolishes slavery"
+      ],
+      "explanation": "Ratified in 1865 after the Civil War, the 13th Amendment abolished slavery and involuntary servitude throughout the United States, with an exception for punishment of crime. It was the first constitutional amendment in over 60 years (since the 12th in 1804) and the first of the three Reconstruction Amendments. Abraham Lincoln considered it essential because the Emancipation Proclamation was a wartime executive order that only applied to Confederate states and could have been reversed. The amendment freed approximately 4 million enslaved people. Its exception clause -- 'except as a punishment for crime' -- has drawn increasing scrutiny as the legal basis for prison labor. The 2016 documentary '13th' by Ava DuVernay examined how this loophole has been exploited throughout American history, from convict leasing to mass incarceration."
+    },
+    {
+      "id": "a14-equal",
+      "question": "Which amendment contains the Equal Protection Clause?",
+      "answer": "14th Amendment",
+      "alternateAnswers": [
+        "The 14th Amendment",
+        "Fourteenth Amendment",
+        "The Fourteenth Amendment",
+        "14"
+      ],
+      "explanation": "Ratified in 1868, the 14th Amendment's Equal Protection Clause prohibits states from denying any person within their jurisdiction the equal protection of the laws. This single clause has been the basis for more Supreme Court cases than perhaps any other constitutional provision. It struck down segregation in Brown v. Board of Education (1954), prohibited gender discrimination in Reed v. Reed (1971), established marriage equality in Obergefell v. Hodges (2015), and was central to Bush v. Gore (2000). The clause was originally intended to protect formerly enslaved people, but its broad language has been applied to virtually every form of government discrimination. The Supreme Court applies different levels of scrutiny depending on the classification: strict scrutiny for race, intermediate scrutiny for gender, and rational basis review for most other distinctions."
+    },
+    {
+      "id": "a15-vote",
+      "question": "Which amendment prohibited denying the vote based on race?",
+      "answer": "15th Amendment",
+      "alternateAnswers": [
+        "The 15th Amendment",
+        "Fifteenth Amendment",
+        "The Fifteenth Amendment",
+        "15"
+      ],
+      "explanation": "Ratified in 1870, the 15th Amendment was the last of the Reconstruction Amendments and declared that the right to vote could not be denied on account of race, color, or previous condition of servitude. Despite its passage, enforcement was almost nonexistent for nearly a century. Southern states devised poll taxes, literacy tests, grandfather clauses, white primaries, and outright violence to prevent Black citizens from voting. During Reconstruction, Black voter turnout was high and Black representatives served in Congress, but this progress was violently reversed after federal troops withdrew in 1877. The Supreme Court gutted enforcement in United States v. Cruikshank (1876). Meaningful enforcement finally came with the Voting Rights Act of 1965, signed by President Lyndon Johnson after the Selma to Montgomery marches. The amendment only protected men; women of all races had to wait for the 19th Amendment."
+    },
+    {
+      "id": "a18-prohibition",
+      "question": "Which amendment established Prohibition?",
+      "answer": "18th Amendment",
+      "alternateAnswers": [
+        "The 18th Amendment",
+        "Eighteenth Amendment",
+        "The Eighteenth Amendment",
+        "18"
+      ],
+      "explanation": "Ratified in 1919, the 18th Amendment banned the manufacture, sale, and transportation of intoxicating liquors, ushering in the Prohibition era that lasted from 1920 to 1933. The temperance movement that produced it had roots going back to the 1820s. The amendment was enforced by the Volstead Act, which defined intoxicating liquor as any beverage containing more than 0.5% alcohol by volume. Exceptions were made for medicinal, sacramental, and industrial uses -- loopholes that were widely abused. Doctors could prescribe whiskey, and prescriptions for 'medicinal alcohol' skyrocketed. The amendment proved nearly impossible to enforce: the Bureau of Prohibition was underfunded and often corrupt. Speakeasies -- illegal bars -- numbered in the tens of thousands in cities like New York and Chicago. The amendment became so unpopular that it was repealed by the 21st Amendment, making it the only constitutional amendment ever to be entirely repealed."
+    },
+    {
+      "id": "a19-suffrage",
+      "question": "What year was the 19th Amendment (women's suffrage) ratified?",
+      "answer": "1920",
+      "alternateAnswers": [],
+      "explanation": "The 19th Amendment was ratified on August 18, 1920, after a 72-year fight for women's suffrage that began at the Seneca Falls Convention in 1848. The amendment states: 'The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of sex.' The final ratification battle in Tennessee was extraordinarily close. The state legislature was deadlocked until Harry T. Burn, the youngest member at 24, switched his vote from nay to yea after receiving a note from his mother saying, 'Don't forget to be a good boy.' Wyoming had first granted women the vote in 1869 as a territory, and several Western states followed. The suffrage movement used both the 'mainstream' approach of lobbying (led by NAWSA) and militant tactics like hunger strikes and picketing the White House (led by Alice Paul's NWP)."
+    },
+    {
+      "id": "a20-lame-duck",
+      "question": "Which amendment is known as the 'Lame Duck Amendment'?",
+      "answer": "20th Amendment",
+      "alternateAnswers": [
+        "The 20th Amendment",
+        "Twentieth Amendment",
+        "The Twentieth Amendment",
+        "20"
+      ],
+      "explanation": "Ratified in 1933, the 20th Amendment earned the nickname 'Lame Duck Amendment' because it shortened the period between Election Day and when new officials take office. Before the amendment, defeated congressmen and presidents served for four months after losing, often accomplishing little or pushing through unpopular measures. The amendment moved presidential inauguration from March 4 to January 20 and congressional terms from March 4 to January 3. Senator George Norris of Nebraska, a progressive Republican, championed the amendment for over a decade. The dangerous gap had real consequences: after Lincoln's election in November 1860, seven Southern states seceded before his March inauguration, and outgoing President Buchanan felt powerless to act. Similarly, FDR had to watch the economy deteriorate for four months between his November 1932 election and March 1933 inauguration. The amendment also addresses what happens if the president-elect dies before inauguration."
+    },
+    {
+      "id": "a21-repeal",
+      "question": "Which amendment repealed Prohibition?",
+      "answer": "21st Amendment",
+      "alternateAnswers": [
+        "The 21st Amendment",
+        "Twenty-first Amendment",
+        "The Twenty-first Amendment",
+        "21"
+      ],
+      "explanation": "Ratified on December 5, 1933, the 21st Amendment repealed the 18th Amendment and ended Prohibition. It holds several distinctions: it is the only amendment to repeal another amendment and the only one ratified by state ratifying conventions rather than state legislatures. Congress chose conventions because state legislatures were seen as too susceptible to pressure from prohibitionist groups. The ratification was remarkably swift, taking just 288 days. When Utah became the 36th state to ratify (providing the three-fourths majority needed), celebrations erupted nationwide. President Roosevelt reportedly declared, 'What America needs now is a drink.' The amendment's Section 2 gave states broad power to regulate alcohol, which is why alcohol laws vary so dramatically across the United States -- from dry counties in the South to varying legal drinking ages (before the National Minimum Drinking Age Act of 1984 standardized it at 21)."
+    },
+    {
+      "id": "a22-terms",
+      "question": "Which amendment limits the president to two terms?",
+      "answer": "22nd Amendment",
+      "alternateAnswers": [
+        "The 22nd Amendment",
+        "Twenty-second Amendment",
+        "The Twenty-second Amendment",
+        "22"
+      ],
+      "explanation": "Ratified in 1951, the 22nd Amendment codified the two-term limit for the presidency. George Washington established the two-term precedent when he declined to run in 1796, and every president honored it until Franklin Roosevelt won a record four terms (1932-1944). FDR's break with tradition alarmed many, particularly Republicans, who proposed the amendment immediately after winning Congress in 1946. The amendment states that no person shall be elected president more than twice, and anyone who has served more than two years of another president's term can only be elected once more. This means a president could theoretically serve up to ten years. Harry Truman was explicitly exempt but chose not to run again. The amendment has been criticized as undemocratic, preventing voters from choosing a popular leader. Both Republican and Democratic legislators have introduced repeal bills, particularly when their party had a popular two-term president nearing the end of office."
+    },
+    {
+      "id": "a25-succession",
+      "question": "Which amendment addresses presidential disability and succession?",
+      "answer": "25th Amendment",
+      "alternateAnswers": [
+        "The 25th Amendment",
+        "Twenty-fifth Amendment",
+        "The Twenty-fifth Amendment",
+        "25"
+      ],
+      "explanation": "Ratified in 1967, the 25th Amendment was prompted by the assassination of President Kennedy in 1963 and longstanding confusion about presidential succession. Before the amendment, when a president died, it was unclear whether the VP became president or merely 'acting president.' John Tyler settled this in 1841 by insisting he was fully president after William Henry Harrison's death, setting a precedent but not a legal rule. The amendment's four sections cover: the VP becoming president when the office is vacant; the president nominating a new VP (used for Gerald Ford in 1973 and Nelson Rockefeller in 1974); the president voluntarily transferring power temporarily (used several times for medical procedures); and the VP and Cabinet declaring the president unable to serve (never used, but discussed during multiple administrations). The amendment is the reason the United States had an unelected president (Ford) for the first and only time."
+    },
+    {
+      "id": "a26-age",
+      "question": "What year was the 26th Amendment (voting age) ratified?",
+      "answer": "1971",
+      "alternateAnswers": [],
+      "explanation": "The 26th Amendment was ratified on July 1, 1971, just 100 days after Congress proposed it -- the fastest ratification of any constitutional amendment. It lowered the voting age from 21 to 18 for all elections. The driving force was the Vietnam War and the draft: hundreds of thousands of 18-to-20-year-olds were being conscripted to fight but could not vote for or against the leaders sending them to war. The rallying cry 'Old enough to fight, old enough to vote' had been used since World War II, when Georgia lowered its voting age to 18 in 1943. President Eisenhower supported the change in the 1950s, but it took the Vietnam era to build unstoppable momentum. The amendment enfranchised approximately 11 million Americans overnight. Despite initial enthusiasm, voter turnout among 18-to-24-year-olds has historically been the lowest of any age group, though it has increased in recent elections."
+    },
+    {
+      "id": "a27-salary",
+      "question": "What does the 27th Amendment restrict?",
+      "answer": "Congressional pay raises from taking effect until after the next election",
+      "alternateAnswers": [
+        "Congressional salary changes",
+        "Congress giving itself immediate pay raises",
+        "Changes to congressional compensation"
+      ],
+      "explanation": "Ratified in 1992, the 27th Amendment states that no law varying the compensation of senators and representatives can take effect until after the next election of representatives. Its backstory is one of the most remarkable in constitutional history. James Madison proposed it in 1789 as one of the original twelve amendments sent to the states (only ten were ratified as the Bill of Rights). It sat dormant for nearly 200 years until 1982, when Gregory Watson, a sophomore at the University of Texas at Austin, discovered it while researching a paper. He argued the amendment had no ratification deadline and could still be adopted. His professor gave him a C. Watson then spent a decade writing letters to state legislators across the country, and one by one, states ratified the long-forgotten amendment. It was declared ratified on May 7, 1992 -- 202 years after being proposed. Watson's professor later acknowledged the error and changed his grade to an A."
+    },
+    {
+      "id": "a16-tax",
+      "question": "Which amendment authorized the federal income tax?",
+      "answer": "16th Amendment",
+      "alternateAnswers": [
+        "The 16th Amendment",
+        "Sixteenth Amendment",
+        "The Sixteenth Amendment",
+        "16"
+      ],
+      "explanation": "Ratified in 1913, the 16th Amendment authorized Congress to levy an income tax without apportioning it among the states based on population. The Constitution originally required 'direct taxes' to be divided among states proportionally by population, which made a national income tax impractical. Congress had imposed a temporary income tax during the Civil War, but when it tried a peacetime income tax in 1894, the Supreme Court struck it down in Pollock v. Farmers' Loan & Trust Co. (1895). The progressive movement pushed for the amendment, arguing that tariffs (the main revenue source) placed a disproportionate burden on consumers. The amendment passed Congress in 1909 and was ratified four years later. The initial tax rates were modest, but they expanded dramatically during World War I, reaching 77% at the top bracket. Today, the income tax is the federal government's largest revenue source, collecting trillions of dollars annually."
+    },
+    {
+      "id": "a17-senate",
+      "question": "Which amendment established direct election of senators?",
+      "answer": "17th Amendment",
+      "alternateAnswers": [
+        "The 17th Amendment",
+        "Seventeenth Amendment",
+        "The Seventeenth Amendment",
+        "17"
+      ],
+      "explanation": "Ratified in 1913, the 17th Amendment shifted the election of U.S. senators from state legislatures to a direct popular vote. Under the original Constitution, the Framers designed the Senate as a body representing state governments, with legislators choosing senators. But by the late 1800s, the system was plagued by corruption: corporate interests bribed legislators, and political deadlocks left seats vacant -- in one case, Delaware went four years without full Senate representation. The progressive movement pushed for reform, and several states adopted informal popular votes for Senate candidates before the amendment formalized the change. William Randolph Hearst's newspapers ran a series called 'The Treason of the Senate' in 1906, exposing corruption that built public support. The amendment also allows state governors to make temporary appointments when Senate vacancies occur, a provision that has remained relevant in modern politics when senators resign or die in office."
+    },
+    {
+      "id": "a23-dc",
+      "question": "Which amendment gave Washington, D.C. electoral votes?",
+      "answer": "23rd Amendment",
+      "alternateAnswers": [
+        "The 23rd Amendment",
+        "Twenty-third Amendment",
+        "The Twenty-third Amendment",
+        "23"
+      ],
+      "explanation": "Ratified in 1961, the 23rd Amendment granted citizens of Washington, D.C. the right to vote in presidential elections by allocating the district electoral votes as though it were a state, but no more than the least populous state. This gives D.C. three electoral votes. Before 1961, D.C. residents paid federal taxes and served in the military but had no say in choosing the president. The district's population at the time exceeded 760,000, larger than 13 states. The amendment was proposed during the civil rights era and had broad bipartisan support, ratified in just nine months. D.C. has voted for the Democratic candidate in every presidential election since 1964, often by the widest margins in the nation -- in 2020, Joe Biden won over 92% of the D.C. vote. The amendment did not grant D.C. representation in Congress. A broader D.C. representation amendment was proposed in 1978 but expired in 1985 without sufficient ratification."
+    },
+    {
+      "id": "a24-poll-tax",
+      "question": "Which amendment banned poll taxes?",
+      "answer": "24th Amendment",
+      "alternateAnswers": [
+        "The 24th Amendment",
+        "Twenty-fourth Amendment",
+        "The Twenty-fourth Amendment",
+        "24"
+      ],
+      "explanation": "Ratified in 1964, the 24th Amendment prohibited poll taxes as a condition for voting in federal elections. Poll taxes were among the most effective tools used to disenfranchise Black voters and poor whites in the post-Reconstruction South. Although the taxes were often small in amount (typically $1-2 per year), many states required payment of accumulated back taxes, which could total a significant sum. At the time the amendment was ratified, five Southern states still imposed poll taxes: Virginia, Alabama, Texas, Arkansas, and Mississippi. President Kennedy had championed the amendment, and it was ratified shortly after his assassination. The Supreme Court extended the ban to state and local elections two years later in Harper v. Virginia State Board of Elections (1966). The amendment was one of several voting rights measures in the 1960s, alongside the Civil Rights Act of 1964 and the Voting Rights Act of 1965, that dismantled the legal architecture of Jim Crow voter suppression."
+    },
+    {
+      "id": "a11-immunity",
+      "question": "Which amendment established state sovereign immunity from federal lawsuits?",
+      "answer": "11th Amendment",
+      "alternateAnswers": [
+        "The 11th Amendment",
+        "Eleventh Amendment",
+        "The Eleventh Amendment",
+        "11"
+      ],
+      "explanation": "Ratified in 1795, the 11th Amendment was a swift response to the Supreme Court case Chisholm v. Georgia (1793), in which the Court allowed a South Carolina citizen to sue the state of Georgia in federal court. States were outraged at the idea of being hauled into court by private citizens, and Congress proposed the amendment almost immediately. It was ratified in less than a year. The amendment provides that federal courts do not have jurisdiction over suits against a state brought by citizens of another state or foreign country. The Supreme Court later expanded this principle to bar suits by a state's own citizens in Hans v. Louisiana (1890). However, important exceptions exist: Congress can override state immunity under Section 5 of the 14th Amendment, states can consent to being sued, and under Ex parte Young (1908) individuals can sue state officials for prospective injunctive relief against ongoing constitutional violations."
+    },
+    {
+      "id": "a12-electoral",
+      "question": "Which amendment changed how the Electoral College votes for President and Vice President?",
+      "answer": "12th Amendment",
+      "alternateAnswers": [
+        "The 12th Amendment",
+        "Twelfth Amendment",
+        "The Twelfth Amendment",
+        "12"
+      ],
+      "explanation": "Ratified in 1804, the 12th Amendment was adopted after two chaotic presidential elections exposed a critical flaw in the Electoral College. Originally, each elector cast two votes for president, and the runner-up became vice president. In 1796, this produced a president (Federalist John Adams) and vice president (Democratic-Republican Thomas Jefferson) from opposing parties. In 1800, Jefferson and his intended running mate Aaron Burr received identical electoral votes, deadlocking the election for 36 ballots in the House of Representatives -- during which Burr refused to concede. The amendment fixed this by requiring separate ballots for president and vice president. It also stipulates that if no candidate wins an Electoral College majority, the House chooses the president from the top three candidates (reduced from five), with each state delegation getting one vote. This contingency procedure was used in 1824, when the House elected John Quincy Adams over Andrew Jackson despite Jackson winning the popular vote."
+    }
+  ]
+}
