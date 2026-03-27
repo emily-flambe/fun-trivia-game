@@ -51,7 +51,11 @@ export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
 										<span className="text-incorrect">Your answer: {a.userAnswer}</span>
 										<span className="text-correct">Correct: {a.result.correctAnswer}</span>
 									</div>
-									<div className="text-sm text-text-tertiary mt-1">{a.result.explanation}</div>
+									<ul className="text-sm text-text-tertiary mt-1 list-disc list-outside ml-4 space-y-0.5">
+									{a.result.explanation.split('\\n').map((line, i) => (
+										<li key={i}>{line}</li>
+									))}
+								</ul>
 								</div>
 							);
 						})}

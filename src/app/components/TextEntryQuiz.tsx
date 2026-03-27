@@ -132,7 +132,11 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 									</span>
 								)}
 							</div>
-							<div className="text-sm text-text-secondary">{currentResult.explanation}</div>
+							<ul className="text-sm text-text-secondary list-disc list-outside ml-4 space-y-1">
+								{currentResult.explanation.split('\\n').map((line, i) => (
+									<li key={i}>{line}</li>
+								))}
+							</ul>
 						</div>
 						<button onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							{current + 1 >= quizItems.length ? 'See Results' : 'Next'}
