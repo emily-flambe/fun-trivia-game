@@ -1,144 +1,182 @@
+import { QuizRepository } from './data/repository';
+import { checkAnswer as fuzzyCheckAnswer } from './lib/fuzzy-match';
+import type { Category, Tier } from './data/types';
+
+interface Env {
+	DB: D1Database;
+}
+
 export default {
-	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+	async fetch(request: Request, env: Env): Promise<Response> {
 		const url = new URL(request.url);
+		const path = url.pathname;
 
-		if (url.pathname === '/api/question') {
-			const question = getRandomQuestion();
-			return Response.json(question);
+		// API routing
+		if (path.startsWith('/api/')) {
+			return handleApi(path, url, request, env);
 		}
 
-		if (url.pathname === '/api/answer' && request.method === 'POST') {
-			const body = await request.json<{ questionId: number; answer: number }>();
-			const result = checkAnswer(body.questionId, body.answer);
-			return Response.json(result);
-		}
-
+		// SPA fallback — for now, return a minimal placeholder
 		return new Response(html(), {
 			headers: { 'Content-Type': 'text/html; charset=utf-8' },
 		});
 	},
 } satisfies ExportedHandler<Env>;
 
-interface Question {
-	id: number;
-	question: string;
-	options: string[];
-	correctIndex: number;
+async function handleApi(path: string, url: URL, request: Request, env: Env): Promise<Response> {
+	const repo = new QuizRepository(env.DB);
+
+	try {
+		// GET /api/health
+		if (path === '/api/health') {
+			return json({ status: 'ok', version: '0.0.1' });
+		}
+
+		// GET /api/categories
+		if (path === '/api/categories') {
+			const categories = await repo.getCategories();
+			return json({ categories });
+		}
+
+		// GET /api/quiz/random
+		if (path === '/api/quiz/random') {
+			const category = url.searchParams.get('category') as Category | null;
+			const tier = url.searchParams.get('tier') as Tier | null;
+			const result = await repo.getRandomQuestion({
+				category: category || undefined,
+				tier: tier || undefined,
+			});
+			if (!result) {
+				return json({ error: 'No questions found' }, 404);
+			}
+			const { moduleName, ...question } = result;
+			return json({
+				moduleId: question.moduleId,
+				moduleName,
+				question: stripAnswer(question),
+			});
+		}
+
+		// Match /api/modules/:moduleId/check
+		const checkMatch = path.match(/^\/api\/modules\/([^/]+)\/check$/);
+		if (checkMatch) {
+			if (request.method !== 'POST') {
+				return json({ error: 'Method not allowed' }, 405);
+			}
+			return handleCheckAnswer(checkMatch[1], request, repo);
+		}
+
+		// Match /api/modules/:moduleId
+		const moduleMatch = path.match(/^\/api\/modules\/([^/]+)$/);
+		if (moduleMatch) {
+			const mod = await repo.getModule(moduleMatch[1]);
+			if (!mod) {
+				return json({ error: 'Module not found', moduleId: moduleMatch[1] }, 404);
+			}
+			return json(mod);
+		}
+
+		// GET /api/modules
+		if (path === '/api/modules') {
+			const category = url.searchParams.get('category') as Category | null;
+			const tier = url.searchParams.get('tier') as Tier | null;
+			const modules = await repo.getModules({
+				category: category || undefined,
+				tier: tier || undefined,
+			});
+			return json({ modules });
+		}
+
+		return json({ error: 'Not found' }, 404);
+	} catch (err) {
+		const message = err instanceof Error ? err.message : 'Internal server error';
+		return json({ error: message }, 500);
+	}
 }
 
-const questions: Question[] = [
-	{
-		id: 1,
-		question: 'What planet is known as the Red Planet?',
-		options: ['Venus', 'Mars', 'Jupiter', 'Saturn'],
-		correctIndex: 1,
-	},
-	{
-		id: 2,
-		question: 'What is the largest ocean on Earth?',
-		options: ['Atlantic', 'Indian', 'Arctic', 'Pacific'],
-		correctIndex: 3,
-	},
-	{
-		id: 3,
-		question: 'How many bones are in the adult human body?',
-		options: ['186', '206', '226', '256'],
-		correctIndex: 1,
-	},
-	{
-		id: 4,
-		question: 'Which element has the chemical symbol "O"?',
-		options: ['Gold', 'Osmium', 'Oxygen', 'Oganesson'],
-		correctIndex: 2,
-	},
-	{
-		id: 5,
-		question: 'In what year did the Berlin Wall fall?',
-		options: ['1987', '1988', '1989', '1990'],
-		correctIndex: 2,
-	},
-];
+async function handleCheckAnswer(moduleId: string, request: Request, repo: QuizRepository): Promise<Response> {
+	const body = await request.json<{ questionId?: string; answer?: string; answerIndex?: number }>();
 
-function getRandomQuestion() {
-	const q = questions[Math.floor(Math.random() * questions.length)];
-	return { id: q.id, question: q.question, options: q.options };
-}
+	if (!body.questionId) {
+		return json({ error: 'Missing required field: questionId' }, 400);
+	}
 
-function checkAnswer(questionId: number, answerIndex: number) {
-	const q = questions.find((q) => q.id === questionId);
-	if (!q) return { correct: false, message: 'Question not found' };
-	const correct = q.correctIndex === answerIndex;
-	return {
+	const question = await repo.getQuestion(moduleId, body.questionId);
+	if (!question) {
+		return json({ error: 'Question not found', questionId: body.questionId }, 404);
+	}
+
+	let correct: boolean;
+	let fuzzyMatch = false;
+	let userAnswer = '';
+	let correctAnswer = '';
+
+	switch (question.type) {
+		case 'type-in': {
+			userAnswer = body.answer ?? '';
+			correctAnswer = question.answer;
+			const result = fuzzyCheckAnswer(userAnswer, question.answer, question.alternateAnswers);
+			correct = result.match;
+			fuzzyMatch = result.fuzzyMatch;
+			break;
+		}
+		case 'multiple-choice': {
+			const idx = body.answerIndex ?? -1;
+			userAnswer = String(idx);
+			correctAnswer = question.options[question.correctIndex] ?? '';
+			correct = idx === question.correctIndex;
+			break;
+		}
+		case 'matching': {
+			// Matching is checked client-side; server just returns correctness info
+			correct = false;
+			correctAnswer = question.pairs.map((p) => `${p.left} → ${p.right}`).join(', ');
+			break;
+		}
+		default:
+			return json({ error: 'Unknown question type' }, 400);
+	}
+
+	return json({
 		correct,
-		message: correct ? 'Correct!' : `Wrong! The answer was: ${q.options[q.correctIndex]}`,
-	};
+		correctAnswer,
+		explanation: question.explanation,
+		userAnswer,
+		fuzzyMatch,
+	});
 }
 
-function html() {
+function stripAnswer(question: any): any {
+	// Strip answer data from questions sent to the client for quiz mode
+	const { answer, alternateAnswers, correctIndex, pairs, ...safe } = question;
+	return safe;
+}
+
+function json(data: any, status = 200): Response {
+	return Response.json(data, { status });
+}
+
+function html(): string {
 	return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fun Trivia Game</title>
+<title>Trivia Trainer</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
-  .card { background: #1e293b; border-radius: 16px; padding: 2rem; max-width: 480px; width: 90%; box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
-  h1 { text-align: center; margin-bottom: 1.5rem; color: #38bdf8; }
-  #question { font-size: 1.2rem; margin-bottom: 1.5rem; line-height: 1.5; }
-  .options { display: flex; flex-direction: column; gap: 0.75rem; }
-  .option { background: #334155; border: 2px solid transparent; border-radius: 8px; padding: 0.75rem 1rem; cursor: pointer; font-size: 1rem; color: #e2e8f0; transition: all 0.2s; }
-  .option:hover { border-color: #38bdf8; background: #3b4d66; }
-  .option.correct { border-color: #22c55e; background: #14532d; }
-  .option.wrong { border-color: #ef4444; background: #7f1d1d; }
-  #result { text-align: center; margin-top: 1rem; font-weight: 600; min-height: 1.5em; }
-  #next { display: none; margin: 1rem auto 0; background: #38bdf8; color: #0f172a; border: none; border-radius: 8px; padding: 0.6rem 1.5rem; font-size: 1rem; cursor: pointer; font-weight: 600; }
-  #next:hover { background: #7dd3fc; }
+  .card { background: #1e293b; border-radius: 16px; padding: 2rem; max-width: 480px; width: 90%; box-shadow: 0 8px 32px rgba(0,0,0,0.3); text-align: center; }
+  h1 { margin-bottom: 1rem; color: #38bdf8; }
+  p { color: #94a3b8; line-height: 1.6; }
 </style>
 </head>
 <body>
 <div class="card">
-  <h1>Fun Trivia</h1>
-  <div id="question">Loading...</div>
-  <div class="options" id="options"></div>
-  <div id="result"></div>
-  <button id="next" onclick="loadQuestion()">Next Question</button>
+  <h1>Trivia Trainer</h1>
+  <p>API is live. React SPA coming soon.</p>
+  <p style="margin-top: 1rem; font-size: 0.875rem; color: #64748b;">Try: <code>/api/health</code>, <code>/api/categories</code>, <code>/api/modules</code></p>
 </div>
-<script>
-let currentId = null;
-async function loadQuestion() {
-  document.getElementById('result').textContent = '';
-  document.getElementById('next').style.display = 'none';
-  const res = await fetch('/api/question');
-  const data = await res.json();
-  currentId = data.id;
-  document.getElementById('question').textContent = data.question;
-  const opts = document.getElementById('options');
-  opts.innerHTML = '';
-  data.options.forEach((opt, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'option';
-    btn.textContent = opt;
-    btn.onclick = () => submitAnswer(i, btn);
-    opts.appendChild(btn);
-  });
-}
-async function submitAnswer(index, btn) {
-  document.querySelectorAll('.option').forEach(b => b.disabled = true);
-  const res = await fetch('/api/answer', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ questionId: currentId, answer: index })
-  });
-  const data = await res.json();
-  btn.classList.add(data.correct ? 'correct' : 'wrong');
-  // correct answer highlight is handled server-side via the message
-  document.getElementById('result').textContent = data.message;
-  document.getElementById('next').style.display = 'block';
-}
-loadQuestion();
-</script>
 </body>
 </html>`;
 }

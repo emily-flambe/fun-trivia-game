@@ -1,0 +1,410 @@
+{
+  "id": "geo-us-state-capitals",
+  "category": "geography",
+  "name": "US State Capitals",
+  "tier": "foundation",
+  "description": "All 50 US state capitals",
+  "questionType": "type-in",
+  "questions": [
+    {
+      "id": "al",
+      "type": "type-in",
+      "question": "What is the capital of Alabama?",
+      "answer": "Montgomery",
+      "alternateAnswers": [],
+      "explanation": "Montgomery has been Alabama's capital since 1846. It was also the first capital of the Confederate States."
+    },
+    {
+      "id": "ak",
+      "type": "type-in",
+      "question": "What is the capital of Alaska?",
+      "answer": "Juneau",
+      "alternateAnswers": [],
+      "explanation": "Juneau is the only US state capital accessible only by sea or air — there are no roads connecting it to the rest of Alaska."
+    },
+    {
+      "id": "az",
+      "type": "type-in",
+      "question": "What is the capital of Arizona?",
+      "answer": "Phoenix",
+      "alternateAnswers": [],
+      "explanation": "Phoenix is both the capital and largest city of Arizona, and the 5th most populous city in the US."
+    },
+    {
+      "id": "ar",
+      "type": "type-in",
+      "question": "What is the capital of Arkansas?",
+      "answer": "Little Rock",
+      "alternateAnswers": [],
+      "explanation": "Little Rock sits on the south bank of the Arkansas River. It was central to the 1957 desegregation crisis at Central High School."
+    },
+    {
+      "id": "ca",
+      "type": "type-in",
+      "question": "What is the capital of California?",
+      "answer": "Sacramento",
+      "alternateAnswers": [],
+      "explanation": "Sacramento became the capital in 1854 — not Los Angeles or San Francisco, which are both larger cities."
+    },
+    {
+      "id": "co",
+      "type": "type-in",
+      "question": "What is the capital of Colorado?",
+      "answer": "Denver",
+      "alternateAnswers": [],
+      "explanation": "Denver is known as the Mile High City — its official elevation is exactly 5,280 feet (one mile) above sea level."
+    },
+    {
+      "id": "ct",
+      "type": "type-in",
+      "question": "What is the capital of Connecticut?",
+      "answer": "Hartford",
+      "alternateAnswers": [],
+      "explanation": "Hartford was the insurance capital of the US. Mark Twain lived there and wrote several of his most famous works."
+    },
+    {
+      "id": "de",
+      "type": "type-in",
+      "question": "What is the capital of Delaware?",
+      "answer": "Dover",
+      "alternateAnswers": [],
+      "explanation": "Dover is home to Dover Air Force Base, which serves as the port of entry for fallen service members returning to the US."
+    },
+    {
+      "id": "fl",
+      "type": "type-in",
+      "question": "What is the capital of Florida?",
+      "answer": "Tallahassee",
+      "alternateAnswers": [],
+      "explanation": "Tallahassee was chosen as the capital in 1824 as a midpoint between the two major cities at the time: St. Augustine and Pensacola."
+    },
+    {
+      "id": "ga",
+      "type": "type-in",
+      "question": "What is the capital of Georgia?",
+      "answer": "Atlanta",
+      "alternateAnswers": [],
+      "explanation": "Atlanta is one of the few state capitals that is also the state's largest city. It hosted the 1996 Summer Olympics."
+    },
+    {
+      "id": "hi",
+      "type": "type-in",
+      "question": "What is the capital of Hawaii?",
+      "answer": "Honolulu",
+      "alternateAnswers": [],
+      "explanation": "Honolulu is the most remote major city in the world — about 2,400 miles from the nearest mainland."
+    },
+    {
+      "id": "id",
+      "type": "type-in",
+      "question": "What is the capital of Idaho?",
+      "answer": "Boise",
+      "alternateAnswers": [],
+      "explanation": "Boise's name comes from the French 'les bois' meaning 'the woods,' named by French-Canadian fur trappers."
+    },
+    {
+      "id": "il",
+      "type": "type-in",
+      "question": "What is the capital of Illinois?",
+      "answer": "Springfield",
+      "alternateAnswers": [],
+      "explanation": "Springfield is Abraham Lincoln's hometown, not Chicago. Lincoln practiced law there before becoming president."
+    },
+    {
+      "id": "in",
+      "type": "type-in",
+      "question": "What is the capital of Indiana?",
+      "answer": "Indianapolis",
+      "alternateAnswers": [],
+      "explanation": "Indianapolis hosts the Indy 500, the largest single-day sporting event in the world by attendance."
+    },
+    {
+      "id": "ia",
+      "type": "type-in",
+      "question": "What is the capital of Iowa?",
+      "answer": "Des Moines",
+      "alternateAnswers": [],
+      "explanation": "Des Moines hosts the Iowa caucuses, traditionally the first major electoral event of the US presidential primary season."
+    },
+    {
+      "id": "ks",
+      "type": "type-in",
+      "question": "What is the capital of Kansas?",
+      "answer": "Topeka",
+      "alternateAnswers": [],
+      "explanation": "Topeka was the site of the landmark Brown v. Board of Education case that ended racial segregation in public schools."
+    },
+    {
+      "id": "ky",
+      "type": "type-in",
+      "question": "What is the capital of Kentucky?",
+      "answer": "Frankfort",
+      "alternateAnswers": [],
+      "explanation": "Frankfort is one of the smallest state capitals by population — far smaller than Louisville or Lexington."
+    },
+    {
+      "id": "la",
+      "type": "type-in",
+      "question": "What is the capital of Louisiana?",
+      "answer": "Baton Rouge",
+      "alternateAnswers": [],
+      "explanation": "Baton Rouge means 'red stick' in French, named for a cypress tree stripped of bark that marked tribal boundaries."
+    },
+    {
+      "id": "me",
+      "type": "type-in",
+      "question": "What is the capital of Maine?",
+      "answer": "Augusta",
+      "alternateAnswers": [],
+      "explanation": "Augusta sits on the Kennebec River. It's one of the least populous state capitals in the eastern US."
+    },
+    {
+      "id": "md",
+      "type": "type-in",
+      "question": "What is the capital of Maryland?",
+      "answer": "Annapolis",
+      "alternateAnswers": [],
+      "explanation": "Annapolis is home to the US Naval Academy and briefly served as the capital of the United States in 1783-1784."
+    },
+    {
+      "id": "ma",
+      "type": "type-in",
+      "question": "What is the capital of Massachusetts?",
+      "answer": "Boston",
+      "alternateAnswers": [],
+      "explanation": "Boston is one of the oldest cities in the US, founded in 1630. It played a key role in the American Revolution."
+    },
+    {
+      "id": "mi",
+      "type": "type-in",
+      "question": "What is the capital of Michigan?",
+      "answer": "Lansing",
+      "alternateAnswers": [],
+      "explanation": "Lansing, not Detroit, is the capital. It was chosen in 1847 partly because its inland location was considered safer from foreign invasion."
+    },
+    {
+      "id": "mn",
+      "type": "type-in",
+      "question": "What is the capital of Minnesota?",
+      "answer": "Saint Paul",
+      "alternateAnswers": ["St. Paul", "St Paul"],
+      "explanation": "Saint Paul and Minneapolis together form the Twin Cities. Saint Paul sits on the east bank of the Mississippi."
+    },
+    {
+      "id": "ms",
+      "type": "type-in",
+      "question": "What is the capital of Mississippi?",
+      "answer": "Jackson",
+      "alternateAnswers": [],
+      "explanation": "Jackson was named after Andrew Jackson, who later became the 7th US President."
+    },
+    {
+      "id": "mo",
+      "type": "type-in",
+      "question": "What is the capital of Missouri?",
+      "answer": "Jefferson City",
+      "alternateAnswers": [],
+      "explanation": "Jefferson City was named after Thomas Jefferson. It sits on the Missouri River, roughly in the center of the state."
+    },
+    {
+      "id": "mt",
+      "type": "type-in",
+      "question": "What is the capital of Montana?",
+      "answer": "Helena",
+      "alternateAnswers": [],
+      "explanation": "Helena was founded as a gold camp in 1864 during the Montana gold rush."
+    },
+    {
+      "id": "ne",
+      "type": "type-in",
+      "question": "What is the capital of Nebraska?",
+      "answer": "Lincoln",
+      "alternateAnswers": [],
+      "explanation": "Lincoln was renamed from Lancaster after Abraham Lincoln's assassination. Nebraska's legislature is the only unicameral (single chamber) in the US."
+    },
+    {
+      "id": "nv",
+      "type": "type-in",
+      "question": "What is the capital of Nevada?",
+      "answer": "Carson City",
+      "alternateAnswers": [],
+      "explanation": "Carson City, not Las Vegas, is the capital. It was named after frontiersman Kit Carson."
+    },
+    {
+      "id": "nh",
+      "type": "type-in",
+      "question": "What is the capital of New Hampshire?",
+      "answer": "Concord",
+      "alternateAnswers": [],
+      "explanation": "Concord's name means 'harmony' or 'agreement,' chosen to reflect the peaceful resolution of a boundary dispute."
+    },
+    {
+      "id": "nj",
+      "type": "type-in",
+      "question": "What is the capital of New Jersey?",
+      "answer": "Trenton",
+      "alternateAnswers": [],
+      "explanation": "Trenton was the site of George Washington's famous crossing of the Delaware River on Christmas night 1776."
+    },
+    {
+      "id": "nm",
+      "type": "type-in",
+      "question": "What is the capital of New Mexico?",
+      "answer": "Santa Fe",
+      "alternateAnswers": [],
+      "explanation": "Santa Fe is the oldest state capital in the US, founded by Spanish colonists in 1610 — a decade before the Pilgrims landed."
+    },
+    {
+      "id": "ny",
+      "type": "type-in",
+      "question": "What is the capital of New York?",
+      "answer": "Albany",
+      "alternateAnswers": [],
+      "explanation": "Albany, not New York City, is the capital. It's one of the oldest surviving European settlements from the original 13 colonies."
+    },
+    {
+      "id": "nc",
+      "type": "type-in",
+      "question": "What is the capital of North Carolina?",
+      "answer": "Raleigh",
+      "alternateAnswers": [],
+      "explanation": "Raleigh was named after Sir Walter Raleigh, who established the first English colonies in North America."
+    },
+    {
+      "id": "nd",
+      "type": "type-in",
+      "question": "What is the capital of North Dakota?",
+      "answer": "Bismarck",
+      "alternateAnswers": [],
+      "explanation": "Bismarck was named after German Chancellor Otto von Bismarck, in an effort to attract German investment in the railroad."
+    },
+    {
+      "id": "oh",
+      "type": "type-in",
+      "question": "What is the capital of Ohio?",
+      "answer": "Columbus",
+      "alternateAnswers": [],
+      "explanation": "Columbus is the most populous city in Ohio, surpassing both Cleveland and Cincinnati."
+    },
+    {
+      "id": "ok",
+      "type": "type-in",
+      "question": "What is the capital of Oklahoma?",
+      "answer": "Oklahoma City",
+      "alternateAnswers": ["OKC"],
+      "explanation": "Oklahoma City was settled in a single day during the Land Run of 1889, when thousands of settlers rushed to claim land."
+    },
+    {
+      "id": "or",
+      "type": "type-in",
+      "question": "What is the capital of Oregon?",
+      "answer": "Salem",
+      "alternateAnswers": [],
+      "explanation": "Salem sits in the Willamette Valley. Portland is Oregon's largest city but not its capital."
+    },
+    {
+      "id": "pa",
+      "type": "type-in",
+      "question": "What is the capital of Pennsylvania?",
+      "answer": "Harrisburg",
+      "alternateAnswers": [],
+      "explanation": "Harrisburg, not Philadelphia or Pittsburgh, has been the capital since 1812. It sits on the Susquehanna River."
+    },
+    {
+      "id": "ri",
+      "type": "type-in",
+      "question": "What is the capital of Rhode Island?",
+      "answer": "Providence",
+      "alternateAnswers": [],
+      "explanation": "Providence was founded by Roger Williams in 1636 after he was banished from Massachusetts for his religious views."
+    },
+    {
+      "id": "sc",
+      "type": "type-in",
+      "question": "What is the capital of South Carolina?",
+      "answer": "Columbia",
+      "alternateAnswers": [],
+      "explanation": "Columbia was largely burned during Sherman's March to the Sea in 1865 during the Civil War."
+    },
+    {
+      "id": "sd",
+      "type": "type-in",
+      "question": "What is the capital of South Dakota?",
+      "answer": "Pierre",
+      "alternateAnswers": [],
+      "explanation": "Pierre (pronounced 'peer') is one of the least populous state capitals. It's named after fur trader Pierre Chouteau Jr."
+    },
+    {
+      "id": "tn",
+      "type": "type-in",
+      "question": "What is the capital of Tennessee?",
+      "answer": "Nashville",
+      "alternateAnswers": [],
+      "explanation": "Nashville is known as Music City and is both the state capital and home of the Grand Ole Opry and Country Music Hall of Fame."
+    },
+    {
+      "id": "tx",
+      "type": "type-in",
+      "question": "What is the capital of Texas?",
+      "answer": "Austin",
+      "alternateAnswers": [],
+      "explanation": "Austin was named after Stephen F. Austin, known as the 'Father of Texas.' It's the live music capital of the world."
+    },
+    {
+      "id": "ut",
+      "type": "type-in",
+      "question": "What is the capital of Utah?",
+      "answer": "Salt Lake City",
+      "alternateAnswers": ["SLC"],
+      "explanation": "Salt Lake City was founded in 1847 by Brigham Young and Mormon pioneers. It hosted the 2002 Winter Olympics."
+    },
+    {
+      "id": "vt",
+      "type": "type-in",
+      "question": "What is the capital of Vermont?",
+      "answer": "Montpelier",
+      "alternateAnswers": [],
+      "explanation": "Montpelier is the least populous state capital in the US, with about 8,000 residents. It's the only state capital without a McDonald's."
+    },
+    {
+      "id": "va",
+      "type": "type-in",
+      "question": "What is the capital of Virginia?",
+      "answer": "Richmond",
+      "alternateAnswers": [],
+      "explanation": "Richmond served as the capital of the Confederate States during the Civil War (1861-1865)."
+    },
+    {
+      "id": "wa",
+      "type": "type-in",
+      "question": "What is the capital of Washington?",
+      "answer": "Olympia",
+      "alternateAnswers": [],
+      "explanation": "Olympia, not Seattle, is the capital. It was named after the nearby Olympic Mountains."
+    },
+    {
+      "id": "wv",
+      "type": "type-in",
+      "question": "What is the capital of West Virginia?",
+      "answer": "Charleston",
+      "alternateAnswers": [],
+      "explanation": "Charleston is West Virginia's capital and largest city. Don't confuse it with Charleston, South Carolina."
+    },
+    {
+      "id": "wi",
+      "type": "type-in",
+      "question": "What is the capital of Wisconsin?",
+      "answer": "Madison",
+      "alternateAnswers": [],
+      "explanation": "Madison was named after James Madison and sits on an isthmus between two lakes: Mendota and Monona."
+    },
+    {
+      "id": "wy",
+      "type": "type-in",
+      "question": "What is the capital of Wyoming?",
+      "answer": "Cheyenne",
+      "alternateAnswers": [],
+      "explanation": "Cheyenne was named after the Cheyenne people. Wyoming was the first state to grant women the right to vote (1869)."
+    }
+  ]
+}
