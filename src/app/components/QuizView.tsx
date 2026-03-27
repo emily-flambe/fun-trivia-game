@@ -47,7 +47,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	}, [state.current, state.status]);
 
 	if (state.status === 'loading' || !mod) {
-		return <div className="text-center text-slate-400 py-12">Loading quiz...</div>;
+		return <div className="text-center text-text-tertiary py-16">Loading quiz...</div>;
 	}
 
 	const question = state.questions[state.current];
@@ -88,18 +88,18 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		const wrong = state.answers.filter((a) => !a.correct);
 
 		return (
-			<div>
+			<div className="animate-in">
 				<div className="flex items-center gap-3 mb-6">
-					<a href={`#/category/${mod.category}`} className="text-slate-400 hover:text-slate-200">&larr; Back</a>
-					<h2 className="text-2xl font-bold">{mod.name}</h2>
+					<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr; Back</a>
+					<h2 className="text-2xl font-bold tracking-tight">{mod.name}</h2>
 				</div>
 
-				<div className="bg-slate-800 rounded-xl p-6 mb-6 text-center">
-					<div className="text-4xl font-bold mb-2">
+				<div className="bg-surface-raised rounded-2xl p-8 mb-8 text-center">
+					<div className="text-5xl font-extrabold mb-2 text-accent">
 						{total > 0 ? `${correct} / ${total}` : 'No questions'}
 					</div>
 					{total > 0 && (
-						<div className="text-slate-400">
+						<div className="text-text-secondary text-lg">
 							{Math.round((correct / total) * 100)}% correct
 						</div>
 					)}
@@ -112,14 +112,14 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 							{wrong.map((a) => {
 								const q = state.questions.find((q) => q.id === a.questionId);
 								return (
-									<div key={a.questionId} className="bg-slate-800 rounded-lg p-4 border-l-4 border-red-500">
+									<div key={a.questionId} className="bg-surface-raised rounded-xl p-5 border-l-4 border-incorrect">
 										<div className="font-medium mb-1">{q?.question}</div>
 										<div className="text-sm">
-											<span className="text-red-400">Your answer: {a.userAnswer}</span>
-											<span className="text-slate-500 mx-2">|</span>
-											<span className="text-emerald-400">Correct: {a.result.correctAnswer}</span>
+											<span className="text-incorrect">Your answer: {a.userAnswer}</span>
+											<span className="text-border-default mx-2">|</span>
+											<span className="text-correct">Correct: {a.result.correctAnswer}</span>
 										</div>
-										<div className="text-sm text-slate-400 mt-1">{a.result.explanation}</div>
+										<div className="text-sm text-text-tertiary mt-1">{a.result.explanation}</div>
 									</div>
 								);
 							})}
@@ -128,10 +128,10 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 				)}
 
 				<div className="mt-6 flex gap-3">
-					<a href={`#/quiz/${moduleId}?mode=${mode}`} className="bg-sky-600 hover:bg-sky-500 px-4 py-2 rounded transition-colors">
+					<a href={`#/quiz/${moduleId}?mode=${mode}`} className="bg-action hover:bg-action-hover px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 						Try Again
 					</a>
-					<a href={`#/category/${mod.category}`} className="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded transition-colors">
+					<a href={`#/category/${mod.category}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 						Back to Category
 					</a>
 				</div>
@@ -141,29 +141,29 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 
 	// Active question
 	return (
-		<div>
+		<div className="animate-in">
 			<div className="flex items-center gap-3 mb-4">
-				<a href={`#/category/${mod.category}`} className="text-slate-400 hover:text-slate-200">&larr;</a>
-				<h2 className="text-lg font-semibold flex-1">{mod.name}</h2>
-				<span className="text-sm text-slate-400">{progress}</span>
+				<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
+				<h2 className="text-lg font-semibold flex-1 tracking-tight">{mod.name}</h2>
+				<span className="text-sm text-text-tertiary font-medium">{progress}</span>
 			</div>
 
 			{/* Progress bar */}
-			<div className="h-1 bg-slate-700 rounded-full mb-6">
-				<div className="h-1 bg-sky-500 rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }} />
+			<div className="h-1 bg-border-subtle rounded-full mb-6">
+				<div className="h-1 bg-gradient-to-r from-action to-accent rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }} />
 			</div>
 
-			<div className="bg-slate-800 rounded-xl p-6">
+			<div className="bg-surface-raised rounded-2xl p-8">
 				<div className="text-lg mb-6">{question.question}</div>
 
 				{isLearn ? (
 					// Learn mode — show answer immediately
 					<div>
-						<div className="bg-emerald-900/30 border border-emerald-700 rounded-lg p-4 mb-4">
-							<div className="font-semibold text-emerald-400 mb-1">{question.answer}</div>
-							<div className="text-sm text-slate-300">{question.explanation}</div>
+						<div className="bg-correct-bg border border-correct-border rounded-xl p-5 mb-4">
+							<div className="font-semibold text-correct mb-1">{question.answer}</div>
+							<div className="text-sm text-text-secondary">{question.explanation}</div>
 						</div>
-						<button onClick={handleNext} className="bg-sky-600 hover:bg-sky-500 px-4 py-2 rounded transition-colors">
+						<button onClick={handleNext} className="bg-action hover:bg-action-hover px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							Next
 						</button>
 					</div>
@@ -171,46 +171,46 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 					// Showing result after answer
 					<div>
 						<div
-							className={`rounded-lg p-4 mb-4 border ${
+							className={`rounded-xl p-5 mb-4 border ${
 								currentResult.correct
-									? 'bg-emerald-900/30 border-emerald-700'
-									: 'bg-red-900/30 border-red-700'
+									? 'bg-correct-bg border-correct-border'
+									: 'bg-incorrect-bg border-incorrect-border'
 							}`}
 						>
 							<div className="font-semibold mb-1">
 								{currentResult.correct ? (
-									<span className="text-emerald-400">
+									<span className="text-correct">
 										Correct!{currentResult.fuzzyMatch ? ' (close enough)' : ''}
 									</span>
 								) : (
-									<span className="text-red-400">
-										Incorrect — the answer is <span className="text-slate-100">{currentResult.correctAnswer}</span>
+									<span className="text-incorrect">
+										Incorrect — the answer is <span className="text-text-primary">{currentResult.correctAnswer}</span>
 									</span>
 								)}
 							</div>
-							<div className="text-sm text-slate-300">{currentResult.explanation}</div>
+							<div className="text-sm text-text-secondary">{currentResult.explanation}</div>
 						</div>
-						<button onClick={handleNext} className="bg-sky-600 hover:bg-sky-500 px-4 py-2 rounded transition-colors">
+						<button onClick={handleNext} className="bg-action hover:bg-action-hover px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							{state.current + 1 >= state.questions.length ? 'See Results' : 'Next'}
 						</button>
 					</div>
 				) : (
 					// Input form
-					<form onSubmit={handleSubmit} className="flex gap-2">
+					<form onSubmit={handleSubmit} className="flex gap-3">
 						<input
 							ref={inputRef}
 							type="text"
 							value={input}
 							onChange={(e) => setInput(e.target.value)}
 							placeholder="Type your answer..."
-							className="flex-1 bg-slate-700 border border-slate-600 rounded-lg px-4 py-2 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors"
+							className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
 							autoComplete="off"
 							disabled={checking}
 						/>
 						<button
 							type="submit"
 							disabled={!input.trim() || checking}
-							className="bg-sky-600 hover:bg-sky-500 disabled:bg-slate-700 disabled:text-slate-500 px-4 py-2 rounded-lg transition-colors"
+							className="bg-action hover:bg-action-hover disabled:bg-surface-bright disabled:text-text-tertiary px-5 py-3 rounded-xl font-medium transition-all duration-200"
 						>
 							{checking ? '...' : 'Submit'}
 						</button>

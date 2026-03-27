@@ -1,1 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  /* Warm dark palette */
+  --color-surface: #1a1a2e;
+  --color-surface-raised: #22223a;
+  --color-surface-hover: #2a2a45;
+  --color-surface-bright: #32324f;
+
+  --color-text-primary: #eeeef0;
+  --color-text-secondary: #a0a0b8;
+  --color-text-tertiary: #6b6b82;
+
+  --color-border-subtle: #2e2e48;
+  --color-border-default: #3a3a55;
+
+  /* Warm amber accent */
+  --color-accent: #f0b86e;
+  --color-accent-hover: #f5ca8e;
+  --color-accent-muted: rgba(240, 184, 110, 0.15);
+
+  /* Action blue (warmer than sky) */
+  --color-action: #6c8dfa;
+  --color-action-hover: #8ba4fb;
+  --color-action-bg: rgba(108, 141, 250, 0.12);
+
+  /* Feedback */
+  --color-correct: #5dd9a3;
+  --color-correct-bg: rgba(93, 217, 163, 0.1);
+  --color-correct-border: rgba(93, 217, 163, 0.3);
+  --color-incorrect: #f07070;
+  --color-incorrect-bg: rgba(240, 112, 112, 0.1);
+  --color-incorrect-border: rgba(240, 112, 112, 0.3);
+}
+
+/* Subtle card glow on hover */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.stagger > * {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+.stagger > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger > *:nth-child(2) { animation-delay: 0.1s; }
+.stagger > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger > *:nth-child(4) { animation-delay: 0.2s; }
+.stagger > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger > *:nth-child(6) { animation-delay: 0.3s; }
+.stagger > *:nth-child(7) { animation-delay: 0.35s; }
+.stagger > *:nth-child(8) { animation-delay: 0.4s; }
+.stagger > *:nth-child(9) { animation-delay: 0.45s; }
+
+/* Category card color glow */
+.card-glow {
+  position: relative;
+  overflow: hidden;
+}
+.card-glow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 9999px 9999px 0 0;
+}

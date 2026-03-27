@@ -32,13 +32,13 @@ export function App() {
 	}, []);
 
 	return (
-		<div className="min-h-screen bg-slate-900 text-slate-100 font-[system-ui]">
-			<nav className="bg-slate-800 border-b border-slate-700 px-4 py-3 flex items-center justify-between">
-				<a href="#/" className="text-xl font-bold text-sky-400 hover:text-sky-300 transition-colors">
+		<div className="min-h-screen bg-surface text-text-primary font-sans">
+			<nav className="px-6 py-4 flex items-center justify-between">
+				<a href="#/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
 					Trivia Trainer
 				</a>
 			</nav>
-			<main className="max-w-5xl mx-auto px-4 py-6">
+			<main className="max-w-4xl mx-auto px-6 py-8">
 				{route.page === 'dashboard' && <Dashboard />}
 				{route.page === 'category' && <CategoryView categoryId={route.id} />}
 				{route.page === 'quiz' && <QuizView moduleId={route.moduleId} mode={route.mode} />}
