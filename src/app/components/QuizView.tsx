@@ -128,7 +128,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 				)}
 
 				<div className="mt-6 flex gap-3">
-					<a href={`#/quiz/${moduleId}?mode=${mode}`} className="bg-action hover:bg-action-hover px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+					<a href={`#/quiz/${moduleId}?mode=${mode}`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 						Try Again
 					</a>
 					<a href={`#/category/${mod.category}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
@@ -163,7 +163,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 							<div className="font-semibold text-correct mb-1">{question.answer}</div>
 							<div className="text-sm text-text-secondary">{question.explanation}</div>
 						</div>
-						<button onClick={handleNext} className="bg-action hover:bg-action-hover px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						<button onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							Next
 						</button>
 					</div>
@@ -190,7 +190,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 							</div>
 							<div className="text-sm text-text-secondary">{currentResult.explanation}</div>
 						</div>
-						<button onClick={handleNext} className="bg-action hover:bg-action-hover px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						<button onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							{state.current + 1 >= state.questions.length ? 'See Results' : 'Next'}
 						</button>
 					</div>
@@ -210,7 +210,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 						<button
 							type="submit"
 							disabled={!input.trim() || checking}
-							className="bg-action hover:bg-action-hover disabled:bg-surface-bright disabled:text-text-tertiary px-5 py-3 rounded-xl font-medium transition-all duration-200"
+							className="bg-action hover:bg-action-hover text-white disabled:bg-surface-bright disabled:text-text-tertiary px-5 py-3 rounded-xl font-medium transition-all duration-200"
 						>
 							{checking ? '...' : 'Submit'}
 						</button>

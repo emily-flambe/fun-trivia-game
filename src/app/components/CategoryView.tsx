@@ -50,7 +50,7 @@ export function CategoryView({ categoryId }: { categoryId: string }) {
 									className="w-full bg-surface-raised rounded-xl p-4 text-left hover:bg-surface-hover transition-all duration-200 flex items-center justify-between group"
 								>
 									<div>
-										<span className="font-medium group-hover:text-white transition-colors">{mod.name}</span>
+										<span className="font-medium group-hover:text-accent transition-colors">{mod.name}</span>
 										<span className="text-sm text-text-tertiary ml-2">
 											{mod.questionCount} questions
 										</span>
