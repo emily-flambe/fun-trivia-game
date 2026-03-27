@@ -1,42 +1,50 @@
 const BASE = '/api';
 
-export interface CategoryInfo {
-	id: string;
-	name: string;
-	color: string;
-	moduleCount: number;
-	tiers: { foundation: number; core: number; advanced: number };
-}
+// === Client-side types (API response shapes) ===
 
-export interface QuizModule {
+export interface NodeSummary {
 	id: string;
-	category: string;
+	parentId: string | null;
 	name: string;
-	tier: string;
 	description: string;
-	defaultFormat: string;
-	questionCount: number;
-}
-
-export interface Question {
-	id: string;
-	moduleId: string;
-	question: string;
-	answer: string;
-	alternateAnswers: string[];
-	explanation: string;
-	cardFront?: string;
-	cardBack?: string;
 	sortOrder: number;
-	options?: string[];
-	correctIndex?: number;
+	childCount?: number;
+	exerciseCount?: number;
 }
 
-export interface ModuleWithQuestions extends QuizModule {
-	questions: Question[];
+export interface ExerciseSummary {
+	id: string;
+	nodeId: string;
+	name: string;
+	description: string;
+	format: string;
+	displayType?: string;
+	config?: { ordered?: boolean; prompt?: string };
+	sortOrder: number;
+	itemCount?: number;
 }
 
-export interface CheckResult {
+// Item as returned by GET /api/exercises/:path — answers stripped
+export interface PublicItem {
+	id: string;
+	exerciseId: string;
+	data: Record<string, any>;
+	sortOrder: number;
+}
+
+export interface NodeDetail {
+	node: NodeSummary;
+	children: NodeSummary[];
+	exercises: ExerciseSummary[];
+	breadcrumbs: NodeSummary[];
+}
+
+export interface ExerciseDetail {
+	exercise: ExerciseSummary;
+	items: PublicItem[];
+}
+
+export interface CheckAnswerResult {
 	correct: boolean;
 	correctAnswer: string;
 	explanation: string;
@@ -44,32 +52,40 @@ export interface CheckResult {
 	fuzzyMatch: boolean;
 }
 
-export async function getCategories(): Promise<CategoryInfo[]> {
-	const res = await fetch(`${BASE}/categories`);
+export interface FillBlanksCheckResult {
+	matched: boolean;
+	matchedItemId?: string;
+	position?: number;
+	userAnswer: string;
+	fuzzyMatch: boolean;
+}
+
+export async function getRootNodes(): Promise<NodeSummary[]> {
+	const res = await fetch(`${BASE}/nodes`);
 	const data = await res.json();
-	return (data as { categories: CategoryInfo[] }).categories;
+	return (data as { nodes: NodeSummary[] }).nodes;
 }
 
-export async function getModules(category?: string, tier?: string): Promise<QuizModule[]> {
-	const params = new URLSearchParams();
-	if (category) params.set('category', category);
-	if (tier) params.set('tier', tier);
-	const res = await fetch(`${BASE}/modules?${params}`);
-	const data = await res.json();
-	return (data as { modules: QuizModule[] }).modules;
+export async function getNode(path: string): Promise<NodeDetail> {
+	const res = await fetch(`${BASE}/nodes/${path}`);
+	if (!res.ok) throw new Error('Node not found');
+	return res.json() as Promise<NodeDetail>;
 }
 
-export async function getModule(moduleId: string): Promise<ModuleWithQuestions> {
-	const res = await fetch(`${BASE}/modules/${moduleId}`);
-	if (!res.ok) throw new Error('Module not found');
-	return res.json() as Promise<ModuleWithQuestions>;
+export async function getExercise(path: string): Promise<ExerciseDetail> {
+	const res = await fetch(`${BASE}/exercises/${path}`);
+	if (!res.ok) throw new Error('Exercise not found');
+	return res.json() as Promise<ExerciseDetail>;
 }
 
-export async function checkAnswer(moduleId: string, questionId: string, answer: string): Promise<CheckResult> {
-	const res = await fetch(`${BASE}/modules/${moduleId}/check`, {
+export async function checkAnswer(
+	exercisePath: string,
+	body: { itemId?: string; answer: string }
+): Promise<CheckAnswerResult | FillBlanksCheckResult> {
+	const res = await fetch(`${BASE}/exercises/${exercisePath}/check`, {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
-		body: JSON.stringify({ questionId, answer }),
+		body: JSON.stringify(body),
 	});
-	return res.json() as Promise<CheckResult>;
+	return res.json() as Promise<CheckAnswerResult | FillBlanksCheckResult>;
 }
