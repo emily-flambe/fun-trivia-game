@@ -11,13 +11,14 @@ type Route =
 
 function parseHash(): Route {
 	const hash = window.location.hash.slice(1) || '/';
-	const parts = hash.split('/').filter(Boolean);
+	const [path, query] = hash.split('?');
+	const parts = path.split('/').filter(Boolean);
 
 	if (parts[0] === 'category' && parts[1]) {
 		return { page: 'category', id: parts[1] };
 	}
 	if (parts[0] === 'quiz' && parts[1]) {
-		const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
+		const params = new URLSearchParams(query || '');
 		return { page: 'quiz', moduleId: parts[1], mode: params.get('mode') || 'quiz' };
 	}
 	return { page: 'dashboard' };

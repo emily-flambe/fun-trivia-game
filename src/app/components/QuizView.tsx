@@ -70,6 +70,19 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		setChecking(false);
 	}
 
+	async function handleGiveUp() {
+		if (!question || checking) return;
+		setChecking(true);
+		const result = await checkAnswer(moduleId, question.id, '');
+		setCurrentResult({ ...result, correct: false });
+		setState((s) => ({
+			...s,
+			status: 'showing-result',
+			answers: [...s.answers, { questionId: question.id, correct: false, userAnswer: '(gave up)', result: { ...result, correct: false } }],
+		}));
+		setChecking(false);
+	}
+
 	function handleNext() {
 		const nextIdx = state.current + 1;
 		if (nextIdx >= state.questions.length) {
@@ -196,25 +209,34 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 					</div>
 				) : (
 					// Input form
-					<form onSubmit={handleSubmit} className="flex gap-3">
-						<input
-							ref={inputRef}
-							type="text"
-							value={input}
-							onChange={(e) => setInput(e.target.value)}
-							placeholder="Type your answer..."
-							className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
-							autoComplete="off"
-							disabled={checking}
-						/>
+					<div>
+						<form onSubmit={handleSubmit} className="flex gap-3">
+							<input
+								ref={inputRef}
+								type="text"
+								value={input}
+								onChange={(e) => setInput(e.target.value)}
+								placeholder="Type your answer..."
+								className="flex-1 bg-surface-bright border border-border-default rounded-xl px-4 py-3 text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
+								autoComplete="off"
+								disabled={checking}
+							/>
+							<button
+								type="submit"
+								disabled={!input.trim() || checking}
+								className="bg-action hover:bg-action-hover text-white disabled:bg-surface-bright disabled:text-text-tertiary px-5 py-3 rounded-xl font-medium transition-all duration-200"
+							>
+								{checking ? '...' : 'Submit'}
+							</button>
+						</form>
 						<button
-							type="submit"
-							disabled={!input.trim() || checking}
-							className="bg-action hover:bg-action-hover text-white disabled:bg-surface-bright disabled:text-text-tertiary px-5 py-3 rounded-xl font-medium transition-all duration-200"
+							onClick={handleGiveUp}
+							disabled={checking}
+							className="mt-3 text-sm text-text-tertiary hover:text-accent transition-colors disabled:opacity-50"
 						>
-							{checking ? '...' : 'Submit'}
+							Give up
 						</button>
-					</form>
+					</div>
 				)}
 			</div>
 		</div>
