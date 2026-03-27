@@ -124,7 +124,6 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 										: 'bg-surface-bright hover:bg-surface-hover'
 								}`}
 							>
-								<div className="text-text-tertiary text-xs font-mono mb-1">{i + 1}</div>
 								<div className="font-medium">{q.answer}</div>
 								{isFlipped && (
 									<div className="text-text-tertiary text-xs mt-1">{q.explanation}</div>
