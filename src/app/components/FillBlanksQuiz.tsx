@@ -12,9 +12,11 @@ interface Props {
 	exercise: ExerciseSummary;
 	items: PublicItem[];
 	exercisePath: string;
+	onRetake: () => void;
+	onRetryMissed: (missedIds: string[]) => void;
 }
 
-export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
+export function FillBlanksQuiz({ exercise, items, exercisePath, onRetake, onRetryMissed }: Props) {
 	const [found, setFound] = useState<FoundItem[]>([]);
 	const [input, setInput] = useState('');
 	const [checking, setChecking] = useState(false);
@@ -78,6 +80,9 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 		slots.push({ position: i, found: null, revealedAnswer: rev?.answer, label: item.data?.label });
 	}
 
+	// Items revealed after giving up that the user didn't find
+	const missedIds = revealed.filter((r) => !foundIds.has(r.id)).map((r) => r.id);
+
 	// Place found items into slots
 	if (ordered) {
 		for (const f of found) {
@@ -108,26 +113,23 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 
 				{/* Slots grid */}
 				<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-6">
-					{slots.map((slot, i) => (
-						<div
-							key={i}
-							className={`rounded-xl p-3 min-h-[60px] flex items-center justify-center text-sm border transition-all duration-200 ${
-								slot.found
-									? 'bg-correct-bg border-correct-border text-correct font-medium'
-									: gaveUp && slot.revealedAnswer
-										? 'bg-incorrect-bg border-incorrect-border text-incorrect font-medium'
-										: 'bg-surface-bright border-border-subtle text-text-tertiary'
-							}`}
-						>
-							{slot.found ? (
-								<span>{slot.found.userAnswer}{slot.found.fuzzyMatch ? ' *' : ''}</span>
-							) : gaveUp && slot.revealedAnswer ? (
-								<span>{slot.revealedAnswer}</span>
-							) : (
-								<span>{ordered ? `#${i + 1}` : '?'}</span>
-							)}
-						</div>
-					))}
+					{slots.map((slot, i) => {
+						const isMissed = !slot.found && gaveUp && slot.revealedAnswer;
+						let slotStyle = 'bg-surface-bright border-border-subtle text-text-tertiary';
+						if (slot.found) slotStyle = 'bg-correct-bg border-correct-border text-correct font-medium';
+						else if (isMissed) slotStyle = 'bg-incorrect-bg border-incorrect-border text-incorrect font-medium';
+
+						let content: string;
+						if (slot.found) content = slot.found.userAnswer + (slot.found.fuzzyMatch ? ' *' : '');
+						else if (isMissed) content = slot.revealedAnswer!;
+						else content = ordered ? `#${i + 1}` : '?';
+
+						return (
+							<div key={i} className={`rounded-xl p-3 min-h-[60px] flex items-center justify-center text-sm border transition-all duration-200 ${slotStyle}`}>
+								<span>{content}</span>
+							</div>
+						);
+					})}
 				</div>
 
 				{/* Input or completion */}
@@ -178,9 +180,14 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 							</div>
 						</div>
 						<div className="flex flex-wrap gap-3">
-							<a href={`#/exercise/${exercisePath}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-								Try Again
-							</a>
+							<button onClick={onRetake} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+								Retake
+							</button>
+							{missedIds.length > 0 && (
+								<button onClick={() => onRetryMissed(missedIds)} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+									Retry missed ({missedIds.length})
+								</button>
+							)}
 							<a href={`#/exercise/${exercisePath}?mode=learn`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 								Study
 							</a>

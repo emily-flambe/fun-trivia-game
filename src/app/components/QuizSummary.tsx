@@ -12,9 +12,11 @@ interface Props {
 	answers: AnswerRecord[];
 	items: PublicItem[];
 	exercisePath: string;
+	onRetake: () => void;
+	onRetryMissed: (missedIds: string[]) => void;
 }
 
-export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
+export function QuizSummary({ exercise, answers, items, exercisePath, onRetake, onRetryMissed }: Props) {
 	const nodeId = exercise.nodeId;
 	const correct = answers.filter((a) => a.correct).length;
 	const total = answers.length;
@@ -64,9 +66,14 @@ export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
 			)}
 
 			<div className="mt-6 flex flex-wrap gap-3">
-				<a href={`#/exercise/${exercisePath}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-					Try Again
-				</a>
+				<button onClick={onRetake} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+					Retake
+				</button>
+				{wrong.length > 0 && (
+					<button onClick={() => onRetryMissed(wrong.map((a) => a.itemId))} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						Retry missed ({wrong.length})
+					</button>
+				)}
 				<a href={`#/exercise/${exercisePath}?mode=learn`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 					Study List
 				</a>

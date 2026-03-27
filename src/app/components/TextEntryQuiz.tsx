@@ -23,9 +23,11 @@ interface Props {
 	items: PublicItem[];
 	exercisePath: string;
 	mode: string; // 'quiz' or 'random-10'
+	onRetake: () => void;
+	onRetryMissed: (missedIds: string[]) => void;
 }
 
-export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
+export function TextEntryQuiz({ exercise, items, exercisePath, mode, onRetake, onRetryMissed }: Props) {
 	const [quizItems, setQuizItems] = useState<PublicItem[]>([]);
 	const [current, setCurrent] = useState(0);
 	const [answers, setAnswers] = useState<AnswerRecord[]>([]);
@@ -59,6 +61,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 				answers={answers}
 				items={quizItems}
 				exercisePath={exercisePath}
+				onRetake={onRetake}
+				onRetryMissed={onRetryMissed}
 			/>
 		);
 	}

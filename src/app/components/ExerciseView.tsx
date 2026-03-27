@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getExercise, type ExerciseDetail } from '../lib/api';
+import { getExercise, type ExerciseDetail, type PublicItem } from '../lib/api';
 import { LearnGrid } from './LearnGrid';
 import { PeriodicTable } from './PeriodicTable';
 import { TextEntryQuiz } from './TextEntryQuiz';
@@ -9,10 +9,14 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(false);
+	const [activeItems, setActiveItems] = useState<PublicItem[] | null>(null);
+	const [quizKey, setQuizKey] = useState(0);
 
 	useEffect(() => {
 		setLoading(true);
 		setError(false);
+		setActiveItems(null);
+		setQuizKey(0);
 		getExercise(path)
 			.then(setData)
 			.catch(() => setError(true))
@@ -24,6 +28,17 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 
 	const { exercise, items } = data;
 	const nodeId = exercise.nodeId;
+	const displayItems = activeItems ?? items;
+
+	function handleRetake() {
+		setActiveItems(null);
+		setQuizKey((k) => k + 1);
+	}
+
+	function handleRetryMissed(missedIds: string[]) {
+		setActiveItems(items.filter((item) => missedIds.includes(item.id)));
+		setQuizKey((k) => k + 1);
+	}
 
 	if (mode === 'learn') {
 		if (exercise.displayType === 'periodic-table') {
@@ -49,8 +64,8 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	}
 
 	if (exercise.format === 'fill-blanks') {
-		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} />;
+		return <FillBlanksQuiz key={quizKey} exercise={exercise} items={displayItems} exercisePath={path} onRetake={handleRetake} onRetryMissed={handleRetryMissed} />;
 	}
 
-	return <TextEntryQuiz exercise={exercise} items={items} exercisePath={path} mode={mode} />;
+	return <TextEntryQuiz key={quizKey} exercise={exercise} items={displayItems} exercisePath={path} mode={mode} onRetake={handleRetake} onRetryMissed={handleRetryMissed} />;
 }
