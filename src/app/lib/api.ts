@@ -25,6 +25,8 @@ export interface Question {
 	answer: string;
 	alternateAnswers: string[];
 	explanation: string;
+	cardFront?: string;
+	cardBack?: string;
 	sortOrder: number;
 	options?: string[];
 	correctIndex?: number;

@@ -10,204 +10,328 @@
       "id": "four-seasons",
       "question": "Who composed 'The Four Seasons'?",
       "answer": "Antonio Vivaldi",
-      "alternateAnswers": ["Vivaldi"],
-      "explanation": "Antonio Vivaldi (1678-1741) was an Italian Baroque composer and virtuoso violinist, often called 'The Red Priest' for his red hair. The Four Seasons, a set of four violin concertos published in 1725, is one of the most recognizable pieces in all of classical music. Vivaldi composed over 500 concertos and helped establish the concerto as a major musical form. He was ordained as a priest but was excused from saying Mass, reportedly due to chest ailments -- possibly asthma. He spent much of his career teaching and composing at the Ospedale della Pieta, an orphanage for girls in Venice whose orchestra became famous across Europe. Despite his immense fame during his lifetime, Vivaldi died in poverty in Vienna and was buried in a pauper's grave. His music was largely forgotten for nearly 200 years until a major revival in the early 20th century."
+      "alternateAnswers": [
+        "Vivaldi"
+      ],
+      "explanation": "Antonio Vivaldi (1678-1741) was an Italian Baroque composer and virtuoso violinist, often called 'The Red Priest' for his red hair. The Four Seasons, a set of four violin concertos published in 1725, is one of the most recognizable pieces in all of classical music. Vivaldi composed over 500 concertos and helped establish the concerto as a major musical form. He was ordained as a priest but was excused from saying Mass, reportedly due to chest ailments -- possibly asthma. He spent much of his career teaching and composing at the Ospedale della Pieta, an orphanage for girls in Venice whose orchestra became famous across Europe. Despite his immense fame during his lifetime, Vivaldi died in poverty in Vienna and was buried in a pauper's grave. His music was largely forgotten for nearly 200 years until a major revival in the early 20th century.",
+      "cardFront": "The Four Seasons",
+      "cardBack": "Antonio Vivaldi"
     },
     {
       "id": "moonlight-sonata",
       "question": "Who composed the 'Moonlight Sonata'?",
       "answer": "Ludwig van Beethoven",
-      "alternateAnswers": ["Beethoven"],
-      "explanation": "Ludwig van Beethoven (1770-1827) was a German composer and pianist who bridged the Classical and Romantic eras. The Moonlight Sonata, formally Piano Sonata No. 14, was composed in 1801 and dedicated to his student Countess Giulietta Guicciardi -- the nickname came from a critic who compared the first movement to moonlight on a lake. Beethoven's most famous works include nine symphonies, five piano concertos, the Emperor Concerto, Fur Elise, and the opera Fidelio. He began losing his hearing in his late twenties and was almost completely deaf by his mid-forties, yet composed some of his greatest works in total deafness, including the Ninth Symphony with its iconic 'Ode to Joy.' He died in Vienna during a thunderstorm, and legend holds that he shook his fist at the sky in his final moments. An autopsy revealed dangerously high levels of lead in his body."
+      "alternateAnswers": [
+        "Beethoven"
+      ],
+      "explanation": "Ludwig van Beethoven (1770-1827) was a German composer and pianist who bridged the Classical and Romantic eras. The Moonlight Sonata, formally Piano Sonata No. 14, was composed in 1801 and dedicated to his student Countess Giulietta Guicciardi -- the nickname came from a critic who compared the first movement to moonlight on a lake. Beethoven's most famous works include nine symphonies, five piano concertos, the Emperor Concerto, Fur Elise, and the opera Fidelio. He began losing his hearing in his late twenties and was almost completely deaf by his mid-forties, yet composed some of his greatest works in total deafness, including the Ninth Symphony with its iconic 'Ode to Joy.' He died in Vienna during a thunderstorm, and legend holds that he shook his fist at the sky in his final moments. An autopsy revealed dangerously high levels of lead in his body.",
+      "cardFront": "Moonlight Sonata",
+      "cardBack": "Ludwig van Beethoven"
     },
     {
       "id": "chopin-nationality",
       "question": "What nationality was Frederic Chopin?",
       "answer": "Polish",
-      "alternateAnswers": ["Polish-French"],
-      "explanation": "Frederic Chopin (1810-1849) was a Polish Romantic composer and virtuoso pianist who spent most of his adult life in Paris. He is widely regarded as the greatest composer for solo piano, writing almost exclusively for the instrument -- his output includes nocturnes, etudes, waltzes, polonaises, mazurkas, ballades, and two piano concertos. Chopin left Poland at age 20 and never returned, carrying a jar of Polish soil with him into exile. He had a famous nine-year relationship with the French novelist George Sand. Chopin suffered from poor health throughout his life and died of tuberculosis at just 39. Per his dying wish, his heart was removed and preserved in a jar of cognac, then smuggled back to Warsaw, where it remains sealed inside a pillar at the Holy Cross Church. During World War II, the Nazis actually removed the heart for safekeeping before it was returned."
+      "alternateAnswers": [
+        "Polish-French"
+      ],
+      "explanation": "Frederic Chopin (1810-1849) was a Polish Romantic composer and virtuoso pianist who spent most of his adult life in Paris. He is widely regarded as the greatest composer for solo piano, writing almost exclusively for the instrument -- his output includes nocturnes, etudes, waltzes, polonaises, mazurkas, ballades, and two piano concertos. Chopin left Poland at age 20 and never returned, carrying a jar of Polish soil with him into exile. He had a famous nine-year relationship with the French novelist George Sand. Chopin suffered from poor health throughout his life and died of tuberculosis at just 39. Per his dying wish, his heart was removed and preserved in a jar of cognac, then smuggled back to Warsaw, where it remains sealed inside a pillar at the Holy Cross Church. During World War II, the Nazis actually removed the heart for safekeeping before it was returned.",
+      "cardFront": "What nationality was Frederic Chopin",
+      "cardBack": "Polish"
     },
     {
       "id": "ring-cycle",
       "question": "Who composed the 'Ring Cycle' operas?",
       "answer": "Richard Wagner",
-      "alternateAnswers": ["Wagner"],
-      "explanation": "Richard Wagner (1813-1883) was a German composer, theatre director, and conductor best known for his epic operas. The Ring Cycle, formally Der Ring des Nibelungen, is a cycle of four operas -- Das Rheingold, Die Walkure, Siegfried, and Gotterdammerung -- that took 26 years to complete and runs about 15 hours in total. Wagner built his own opera house, the Bayreuth Festspielhaus, specifically to stage the Ring Cycle, and the Bayreuth Festival continues to this day. He pioneered the concept of Gesamtkunstwerk (total work of art) and the use of leitmotifs -- recurring musical themes tied to characters and ideas. Unlike most opera composers, Wagner wrote both the music and the libretti for all his works. His other famous operas include Tristan und Isolde, The Flying Dutchman, and Lohengrin, whose Bridal Chorus is the famous 'Here Comes the Bride' wedding march."
+      "alternateAnswers": [
+        "Wagner"
+      ],
+      "explanation": "Richard Wagner (1813-1883) was a German composer, theatre director, and conductor best known for his epic operas. The Ring Cycle, formally Der Ring des Nibelungen, is a cycle of four operas -- Das Rheingold, Die Walkure, Siegfried, and Gotterdammerung -- that took 26 years to complete and runs about 15 hours in total. Wagner built his own opera house, the Bayreuth Festspielhaus, specifically to stage the Ring Cycle, and the Bayreuth Festival continues to this day. He pioneered the concept of Gesamtkunstwerk (total work of art) and the use of leitmotifs -- recurring musical themes tied to characters and ideas. Unlike most opera composers, Wagner wrote both the music and the libretti for all his works. His other famous operas include Tristan und Isolde, The Flying Dutchman, and Lohengrin, whose Bridal Chorus is the famous 'Here Comes the Bride' wedding march.",
+      "cardFront": "Ring Cycle",
+      "cardBack": "Richard Wagner"
     },
     {
       "id": "1812-overture",
       "question": "Who composed the '1812 Overture'?",
       "answer": "Pyotr Ilyich Tchaikovsky",
-      "alternateAnswers": ["Tchaikovsky", "Peter Ilyich Tchaikovsky"],
-      "explanation": "Pyotr Ilyich Tchaikovsky (1840-1893) was a Russian Romantic composer and the first Russian composer to achieve lasting international fame. The 1812 Overture, written in 1880 to commemorate Russia's defense against Napoleon, is famous for its use of actual cannon fire in the score. Tchaikovsky himself called it 'very loud and noisy' and without artistic merit, yet it became one of the most popular orchestral works ever written. His other masterpieces include the ballets Swan Lake, The Sleeping Beauty, and The Nutcracker, the opera Eugene Onegin, his Violin Concerto, and his last three symphonies. His death at 53 remains controversial -- the official cause was cholera from drinking unboiled water, but persistent theories suggest he may have been pressured into suicide over a scandal. The Nutcracker alone accounts for roughly 40% of ticket revenue for many American ballet companies each year."
+      "alternateAnswers": [
+        "Tchaikovsky",
+        "Peter Ilyich Tchaikovsky"
+      ],
+      "explanation": "Pyotr Ilyich Tchaikovsky (1840-1893) was a Russian Romantic composer and the first Russian composer to achieve lasting international fame. The 1812 Overture, written in 1880 to commemorate Russia's defense against Napoleon, is famous for its use of actual cannon fire in the score. Tchaikovsky himself called it 'very loud and noisy' and without artistic merit, yet it became one of the most popular orchestral works ever written. His other masterpieces include the ballets Swan Lake, The Sleeping Beauty, and The Nutcracker, the opera Eugene Onegin, his Violin Concerto, and his last three symphonies. His death at 53 remains controversial -- the official cause was cholera from drinking unboiled water, but persistent theories suggest he may have been pressured into suicide over a scandal. The Nutcracker alone accounts for roughly 40% of ticket revenue for many American ballet companies each year.",
+      "cardFront": "1812 Overture",
+      "cardBack": "Pyotr Ilyich Tchaikovsky"
     },
     {
       "id": "well-tempered-clavier",
       "question": "Who composed 'The Well-Tempered Clavier'?",
       "answer": "Johann Sebastian Bach",
-      "alternateAnswers": ["Bach", "J.S. Bach"],
-      "explanation": "Johann Sebastian Bach (1685-1750) was a German Baroque composer and organist widely regarded as one of the greatest composers in Western music history. The Well-Tempered Clavier is a collection of 48 preludes and fugues in all major and minor keys, composed in two books (1722 and 1742), and is considered the definitive keyboard work of the Baroque era. Bach was a master of counterpoint -- the art of weaving multiple independent melodies together. His other landmark works include the Brandenburg Concertos, the Mass in B minor, the St. Matthew Passion, the Goldberg Variations, and Toccata and Fugue in D minor. Bach fathered 20 children, of whom several became important composers themselves. Despite his enormous output, his music fell into relative obscurity after his death until Felix Mendelssohn revived interest by performing the St. Matthew Passion in 1829. Bach went blind in his final years after botched eye surgery by the same doctor who later operated on Handel."
+      "alternateAnswers": [
+        "Bach",
+        "J.S. Bach"
+      ],
+      "explanation": "Johann Sebastian Bach (1685-1750) was a German Baroque composer and organist widely regarded as one of the greatest composers in Western music history. The Well-Tempered Clavier is a collection of 48 preludes and fugues in all major and minor keys, composed in two books (1722 and 1742), and is considered the definitive keyboard work of the Baroque era. Bach was a master of counterpoint -- the art of weaving multiple independent melodies together. His other landmark works include the Brandenburg Concertos, the Mass in B minor, the St. Matthew Passion, the Goldberg Variations, and Toccata and Fugue in D minor. Bach fathered 20 children, of whom several became important composers themselves. Despite his enormous output, his music fell into relative obscurity after his death until Felix Mendelssohn revived interest by performing the St. Matthew Passion in 1829. Bach went blind in his final years after botched eye surgery by the same doctor who later operated on Handel.",
+      "cardFront": "The Well-Tempered Clavier",
+      "cardBack": "Johann Sebastian Bach"
     },
     {
       "id": "messiah",
       "question": "Who composed the oratorio 'Messiah', which includes the 'Hallelujah' chorus?",
       "answer": "George Frideric Handel",
-      "alternateAnswers": ["Handel", "Georg Friedrich Handel"],
-      "explanation": "George Frideric Handel (1685-1759) was a German-born Baroque composer who spent most of his career in London and became a British citizen. Messiah, composed in just 24 days in 1741, is the most performed choral work in Western music. The tradition of standing during the Hallelujah chorus supposedly began when King George II rose to his feet at the London premiere, though this story may be apocryphal. Handel was enormously prolific, composing over 40 operas, 29 oratorios, and numerous concertos and organ works. Born the same year as Bach and just 80 miles away in Germany, the two never met. Handel survived a sword duel in 1704 when a large button on his coat deflected his opponent's blade. He suffered a series of strokes later in life and went completely blind, yet continued to perform organ concertos from memory. He was buried with full state honors in Westminster Abbey."
+      "alternateAnswers": [
+        "Handel",
+        "Georg Friedrich Handel"
+      ],
+      "explanation": "George Frideric Handel (1685-1759) was a German-born Baroque composer who spent most of his career in London and became a British citizen. Messiah, composed in just 24 days in 1741, is the most performed choral work in Western music. The tradition of standing during the Hallelujah chorus supposedly began when King George II rose to his feet at the London premiere, though this story may be apocryphal. Handel was enormously prolific, composing over 40 operas, 29 oratorios, and numerous concertos and organ works. Born the same year as Bach and just 80 miles away in Germany, the two never met. Handel survived a sword duel in 1704 when a large button on his coat deflected his opponent's blade. He suffered a series of strokes later in life and went completely blind, yet continued to perform organ concertos from memory. He was buried with full state honors in Westminster Abbey.",
+      "cardFront": "Messiah",
+      "cardBack": "George Frideric Handel"
     },
     {
       "id": "new-world-symphony",
       "question": "Who composed the 'New World Symphony'?",
       "answer": "Antonin Dvorak",
-      "alternateAnswers": ["Dvorak", "Antonin Dvorak"],
-      "explanation": "Antonin Dvorak (1841-1904) was a Czech Romantic composer regarded as one of the most versatile composers of his time. The Symphony No. 9, 'From the New World,' was composed in 1893 while Dvorak was directing the National Conservatory of Music in New York City. The Largo movement's famous English horn melody was later adapted into the spiritual 'Goin' Home,' and Neil Armstrong carried a recording of it to the Moon on Apollo 11. Dvorak drew inspiration from both Czech folk music and the African American spirituals he heard in America, having been deeply influenced by his student Harry Burleigh, who sang spirituals for him. His other major works include the Cello Concerto in B minor, the Slavonic Dances, and the opera Rusalka. Dvorak was an avid trainspotter who spent hours at Prague's railway station memorizing locomotive numbers -- he would reportedly send students to check train arrivals if he was too busy composing."
+      "alternateAnswers": [
+        "Dvorak",
+        "Antonin Dvorak"
+      ],
+      "explanation": "Antonin Dvorak (1841-1904) was a Czech Romantic composer regarded as one of the most versatile composers of his time. The Symphony No. 9, 'From the New World,' was composed in 1893 while Dvorak was directing the National Conservatory of Music in New York City. The Largo movement's famous English horn melody was later adapted into the spiritual 'Goin' Home,' and Neil Armstrong carried a recording of it to the Moon on Apollo 11. Dvorak drew inspiration from both Czech folk music and the African American spirituals he heard in America, having been deeply influenced by his student Harry Burleigh, who sang spirituals for him. His other major works include the Cello Concerto in B minor, the Slavonic Dances, and the opera Rusalka. Dvorak was an avid trainspotter who spent hours at Prague's railway station memorizing locomotive numbers -- he would reportedly send students to check train arrivals if he was too busy composing.",
+      "cardFront": "New World Symphony",
+      "cardBack": "Antonin Dvorak"
     },
     {
       "id": "nutcracker",
       "question": "Who composed the ballet 'The Nutcracker'?",
       "answer": "Pyotr Ilyich Tchaikovsky",
-      "alternateAnswers": ["Tchaikovsky", "Peter Ilyich Tchaikovsky"],
-      "explanation": "Tchaikovsky (1840-1893) composed The Nutcracker in 1892, and it premiered at the Mariinsky Theatre in Saint Petersburg. The ballet was based on E.T.A. Hoffmann's story 'The Nutcracker and the Mouse King' and was choreographed by Marius Petipa and Lev Ivanov. Tchaikovsky used the celesta, a keyboard instrument with a bell-like sound, in the 'Dance of the Sugar Plum Fairy' -- he had discovered the instrument in Paris and was so excited that he asked his publisher to keep it secret so rival composers would not use it first. The premiere received mixed reviews, and Tchaikovsky himself was unsatisfied with the production. It did not become a Christmas tradition in the United States until the 1960s, when George Balanchine's New York City Ballet production popularized it. Today it is performed by virtually every ballet company in the world during the holiday season, and the suite Tchaikovsky extracted from it is among the most recorded orchestral works."
+      "alternateAnswers": [
+        "Tchaikovsky",
+        "Peter Ilyich Tchaikovsky"
+      ],
+      "explanation": "Tchaikovsky (1840-1893) composed The Nutcracker in 1892, and it premiered at the Mariinsky Theatre in Saint Petersburg. The ballet was based on E.T.A. Hoffmann's story 'The Nutcracker and the Mouse King' and was choreographed by Marius Petipa and Lev Ivanov. Tchaikovsky used the celesta, a keyboard instrument with a bell-like sound, in the 'Dance of the Sugar Plum Fairy' -- he had discovered the instrument in Paris and was so excited that he asked his publisher to keep it secret so rival composers would not use it first. The premiere received mixed reviews, and Tchaikovsky himself was unsatisfied with the production. It did not become a Christmas tradition in the United States until the 1960s, when George Balanchine's New York City Ballet production popularized it. Today it is performed by virtually every ballet company in the world during the holiday season, and the suite Tchaikovsky extracted from it is among the most recorded orchestral works.",
+      "cardFront": "The Nutcracker",
+      "cardBack": "Pyotr Ilyich Tchaikovsky"
     },
     {
       "id": "peer-gynt",
       "question": "Who composed the 'Peer Gynt' suite, including 'In the Hall of the Mountain King'?",
       "answer": "Edvard Grieg",
-      "alternateAnswers": ["Grieg"],
-      "explanation": "Edvard Grieg (1843-1907) was a Norwegian Romantic composer and pianist, widely considered the leading Scandinavian composer of his era. The Peer Gynt suites, composed as incidental music for Henrik Ibsen's play in 1875, contain some of the most recognizable classical melodies ever written, including 'Morning Mood' and 'In the Hall of the Mountain King.' Grieg actually disliked 'In the Hall of the Mountain King,' writing that it 'smells of cow dung and Norwegian nationalism.' His Piano Concerto in A minor, written at age 25, remains one of the most popular piano concertos in the repertoire. Grieg drew heavily on Norwegian folk music, helping to establish a distinct Norwegian musical identity. He suffered from chronic lung problems after contracting tuberculosis as a teenager, which destroyed his left lung. Despite this, he performed and composed prolifically. He was only five feet tall and was a close friend of Tchaikovsky, who admired his music greatly."
+      "alternateAnswers": [
+        "Grieg"
+      ],
+      "explanation": "Edvard Grieg (1843-1907) was a Norwegian Romantic composer and pianist, widely considered the leading Scandinavian composer of his era. The Peer Gynt suites, composed as incidental music for Henrik Ibsen's play in 1875, contain some of the most recognizable classical melodies ever written, including 'Morning Mood' and 'In the Hall of the Mountain King.' Grieg actually disliked 'In the Hall of the Mountain King,' writing that it 'smells of cow dung and Norwegian nationalism.' His Piano Concerto in A minor, written at age 25, remains one of the most popular piano concertos in the repertoire. Grieg drew heavily on Norwegian folk music, helping to establish a distinct Norwegian musical identity. He suffered from chronic lung problems after contracting tuberculosis as a teenager, which destroyed his left lung. Despite this, he performed and composed prolifically. He was only five feet tall and was a close friend of Tchaikovsky, who admired his music greatly.",
+      "cardFront": "Peer Gynt",
+      "cardBack": "Edvard Grieg"
     },
     {
       "id": "peter-and-the-wolf",
       "question": "Who composed 'Peter and the Wolf'?",
       "answer": "Sergei Prokofiev",
-      "alternateAnswers": ["Prokofiev"],
-      "explanation": "Sergei Prokofiev (1891-1953) was a Russian and Soviet composer, pianist, and conductor regarded as one of the major composers of the 20th century. Peter and the Wolf, composed in 1936, is a symphonic fairy tale for children in which each character is represented by a different instrument -- the bird by a flute, the duck by an oboe, the cat by a clarinet, the grandfather by a bassoon, the wolf by French horns, and Peter by strings. It has become the most popular work for introducing children to the orchestra. Prokofiev's other major works include the ballet Romeo and Juliet (with the iconic 'Dance of the Knights'), Lieutenant Kije, seven symphonies, and five piano concertos. He left Russia after the Revolution, lived in the US and Paris, then controversially returned to the Soviet Union in 1936. He died on March 5, 1953 -- the exact same day as Joseph Stalin -- and his death went virtually unnoticed because the entire country was mourning the dictator."
+      "alternateAnswers": [
+        "Prokofiev"
+      ],
+      "explanation": "Sergei Prokofiev (1891-1953) was a Russian and Soviet composer, pianist, and conductor regarded as one of the major composers of the 20th century. Peter and the Wolf, composed in 1936, is a symphonic fairy tale for children in which each character is represented by a different instrument -- the bird by a flute, the duck by an oboe, the cat by a clarinet, the grandfather by a bassoon, the wolf by French horns, and Peter by strings. It has become the most popular work for introducing children to the orchestra. Prokofiev's other major works include the ballet Romeo and Juliet (with the iconic 'Dance of the Knights'), Lieutenant Kije, seven symphonies, and five piano concertos. He left Russia after the Revolution, lived in the US and Paris, then controversially returned to the Soviet Union in 1936. He died on March 5, 1953 -- the exact same day as Joseph Stalin -- and his death went virtually unnoticed because the entire country was mourning the dictator.",
+      "cardFront": "Peter and the Wolf",
+      "cardBack": "Sergei Prokofiev"
     },
     {
       "id": "unfinished-symphony",
       "question": "Which Austrian composer wrote the 'Unfinished Symphony' and over 600 songs (Lieder)?",
       "answer": "Franz Schubert",
-      "alternateAnswers": ["Schubert"],
-      "explanation": "Franz Schubert (1797-1828) was an Austrian composer of the late Classical and early Romantic eras. His Symphony No. 8 in B minor, known as the 'Unfinished Symphony,' has only two completed movements -- why he abandoned it remains one of music's great mysteries. Schubert composed over 600 Lieder (art songs), including the haunting 'Erlkonig,' 'Ave Maria,' and the song cycles Die schone Mullerin and Winterreise. Other major works include the Trout Quintet, the String Quintet in C major, and his late piano sonatas. Despite his staggering output -- over 1,000 works in just 31 years of life -- Schubert was never financially successful and relied on the generosity of friends, who organized informal concerts called 'Schubertiades.' He was only five feet one inch tall and his friends nicknamed him 'Schwammerl' (Little Mushroom). He died at 31, likely of typhoid fever, and was buried near Beethoven at his own request. Much of his music was not published until decades after his death."
+      "alternateAnswers": [
+        "Schubert"
+      ],
+      "explanation": "Franz Schubert (1797-1828) was an Austrian composer of the late Classical and early Romantic eras. His Symphony No. 8 in B minor, known as the 'Unfinished Symphony,' has only two completed movements -- why he abandoned it remains one of music's great mysteries. Schubert composed over 600 Lieder (art songs), including the haunting 'Erlkonig,' 'Ave Maria,' and the song cycles Die schone Mullerin and Winterreise. Other major works include the Trout Quintet, the String Quintet in C major, and his late piano sonatas. Despite his staggering output -- over 1,000 works in just 31 years of life -- Schubert was never financially successful and relied on the generosity of friends, who organized informal concerts called 'Schubertiades.' He was only five feet one inch tall and his friends nicknamed him 'Schwammerl' (Little Mushroom). He died at 31, likely of typhoid fever, and was buried near Beethoven at his own request. Much of his music was not published until decades after his death.",
+      "cardFront": "Unfinished Symphony",
+      "cardBack": "Franz Schubert"
     },
     {
       "id": "wedding-march",
       "question": "Who composed the famous 'Wedding March' from 'A Midsummer Night's Dream'?",
       "answer": "Felix Mendelssohn",
-      "alternateAnswers": ["Mendelssohn"],
-      "explanation": "Felix Mendelssohn (1809-1847) was a German Romantic composer, pianist, organist, and conductor. He wrote the overture to A Midsummer Night's Dream at just 17 years old, and added the famous Wedding March 16 years later as part of the full incidental music -- it became the standard recessional at weddings after being played at the marriage of Queen Victoria's daughter in 1858. Mendelssohn was also instrumental in reviving the music of J.S. Bach, conducting the first performance of the St. Matthew Passion since Bach's death, which sparked the Bach revival. His other major works include the Italian and Scottish Symphonies, the Hebrides Overture, the Violin Concerto in E minor, and the oratorios St. Paul and Elijah. He also composed the melody used for 'Hark! The Herald Angels Sing.' Mendelssohn was a child prodigy who met Goethe at age 12 and was compared to Mozart. He died at 38, possibly from a series of strokes, just months after the death of his beloved sister Fanny, who was herself a talented composer."
+      "alternateAnswers": [
+        "Mendelssohn"
+      ],
+      "explanation": "Felix Mendelssohn (1809-1847) was a German Romantic composer, pianist, organist, and conductor. He wrote the overture to A Midsummer Night's Dream at just 17 years old, and added the famous Wedding March 16 years later as part of the full incidental music -- it became the standard recessional at weddings after being played at the marriage of Queen Victoria's daughter in 1858. Mendelssohn was also instrumental in reviving the music of J.S. Bach, conducting the first performance of the St. Matthew Passion since Bach's death, which sparked the Bach revival. His other major works include the Italian and Scottish Symphonies, the Hebrides Overture, the Violin Concerto in E minor, and the oratorios St. Paul and Elijah. He also composed the melody used for 'Hark! The Herald Angels Sing.' Mendelssohn was a child prodigy who met Goethe at age 12 and was compared to Mozart. He died at 38, possibly from a series of strokes, just months after the death of his beloved sister Fanny, who was herself a talented composer.",
+      "cardFront": "Wedding March",
+      "cardBack": "Felix Mendelssohn"
     },
     {
       "id": "swan-lake",
       "question": "Who composed the ballet 'Swan Lake'?",
       "answer": "Pyotr Ilyich Tchaikovsky",
-      "alternateAnswers": ["Tchaikovsky", "Peter Ilyich Tchaikovsky"],
-      "explanation": "Tchaikovsky composed Swan Lake in 1875-1876 for the Moscow Bolshoi Ballet. The original 1877 production was considered a failure due to poor choreography and an inadequate orchestra. It was not until Marius Petipa and Lev Ivanov rechoreographed it in 1895 -- two years after Tchaikovsky's death -- that Swan Lake became the iconic ballet we know today. The dual role of Odette (the White Swan) and Odile (the Black Swan) is considered one of the most demanding in all of ballet, and the 32 fouettes in Act III are a legendary technical challenge. Swan Lake, together with The Sleeping Beauty and The Nutcracker, forms Tchaikovsky's trio of great ballets, which dominate the repertoire of every major ballet company worldwide. Tchaikovsky was the first Russian composer to achieve true international stardom, and his melodic gifts were unmatched among his contemporaries."
+      "alternateAnswers": [
+        "Tchaikovsky",
+        "Peter Ilyich Tchaikovsky"
+      ],
+      "explanation": "Tchaikovsky composed Swan Lake in 1875-1876 for the Moscow Bolshoi Ballet. The original 1877 production was considered a failure due to poor choreography and an inadequate orchestra. It was not until Marius Petipa and Lev Ivanov rechoreographed it in 1895 -- two years after Tchaikovsky's death -- that Swan Lake became the iconic ballet we know today. The dual role of Odette (the White Swan) and Odile (the Black Swan) is considered one of the most demanding in all of ballet, and the 32 fouettes in Act III are a legendary technical challenge. Swan Lake, together with The Sleeping Beauty and The Nutcracker, forms Tchaikovsky's trio of great ballets, which dominate the repertoire of every major ballet company worldwide. Tchaikovsky was the first Russian composer to achieve true international stardom, and his melodic gifts were unmatched among his contemporaries.",
+      "cardFront": "Swan Lake",
+      "cardBack": "Pyotr Ilyich Tchaikovsky"
     },
     {
       "id": "la-boheme",
       "question": "Who composed the opera 'La Boheme'?",
       "answer": "Giacomo Puccini",
-      "alternateAnswers": ["Puccini"],
-      "explanation": "Giacomo Puccini (1858-1924) was an Italian opera composer, considered the greatest successor to Verdi in the Italian operatic tradition. La Boheme, which premiered in 1896 under the baton of a young Arturo Toscanini, tells the tragic love story of struggling artists in Paris and inspired the modern musical Rent. Puccini came from a long line of composers stretching back to the late Baroque era -- four generations of Puccinis had been musicians in Lucca. His other beloved operas include Tosca (famous for 'Vissi d'arte'), Madama Butterfly (which flopped at its premiere but became an enduring masterpiece), and Turandot, which contains the tenor aria 'Nessun dorma.' Puccini died of a heart attack during treatment for throat cancer in 1924, leaving Turandot unfinished -- it was completed by Franco Alfano. He was an avid hunter, fast-car enthusiast, and chain smoker. His operas are among the most frequently performed in the world today."
+      "alternateAnswers": [
+        "Puccini"
+      ],
+      "explanation": "Giacomo Puccini (1858-1924) was an Italian opera composer, considered the greatest successor to Verdi in the Italian operatic tradition. La Boheme, which premiered in 1896 under the baton of a young Arturo Toscanini, tells the tragic love story of struggling artists in Paris and inspired the modern musical Rent. Puccini came from a long line of composers stretching back to the late Baroque era -- four generations of Puccinis had been musicians in Lucca. His other beloved operas include Tosca (famous for 'Vissi d'arte'), Madama Butterfly (which flopped at its premiere but became an enduring masterpiece), and Turandot, which contains the tenor aria 'Nessun dorma.' Puccini died of a heart attack during treatment for throat cancer in 1924, leaving Turandot unfinished -- it was completed by Franco Alfano. He was an avid hunter, fast-car enthusiast, and chain smoker. His operas are among the most frequently performed in the world today.",
+      "cardFront": "La Boheme",
+      "cardBack": "Giacomo Puccini"
     },
     {
       "id": "aida",
       "question": "Who composed the opera 'Aida'?",
       "answer": "Giuseppe Verdi",
-      "alternateAnswers": ["Verdi"],
-      "explanation": "Giuseppe Verdi (1813-1901) was an Italian Romantic composer and the dominant figure in 19th-century Italian opera. Aida, commissioned by the Khedive of Egypt and premiering in Cairo in 1871, is set in ancient Egypt and is famous for its grand 'Triumphal March.' Verdi's other masterpieces include Rigoletto, Il Trovatore, La Traviata, Otello, and Falstaff -- the last composed when he was nearly 80. Early in his career, Verdi suffered devastating personal tragedy when his two infant children and his young wife all died within three years. He nearly abandoned music but was persuaded to compose Nabucco, whose chorus 'Va, pensiero' became an unofficial Italian anthem during the struggle for unification. Verdi himself became a national symbol -- the letters of his name were used as an acronym for 'Vittorio Emanuele Re D'Italia' (Victor Emanuel King of Italy). He served in the Italian parliament and used his wealth to build a retirement home for aged musicians in Milan, Casa Verdi, which still operates today."
+      "alternateAnswers": [
+        "Verdi"
+      ],
+      "explanation": "Giuseppe Verdi (1813-1901) was an Italian Romantic composer and the dominant figure in 19th-century Italian opera. Aida, commissioned by the Khedive of Egypt and premiering in Cairo in 1871, is set in ancient Egypt and is famous for its grand 'Triumphal March.' Verdi's other masterpieces include Rigoletto, Il Trovatore, La Traviata, Otello, and Falstaff -- the last composed when he was nearly 80. Early in his career, Verdi suffered devastating personal tragedy when his two infant children and his young wife all died within three years. He nearly abandoned music but was persuaded to compose Nabucco, whose chorus 'Va, pensiero' became an unofficial Italian anthem during the struggle for unification. Verdi himself became a national symbol -- the letters of his name were used as an acronym for 'Vittorio Emanuele Re D'Italia' (Victor Emanuel King of Italy). He served in the Italian parliament and used his wealth to build a retirement home for aged musicians in Milan, Casa Verdi, which still operates today.",
+      "cardFront": "Aida",
+      "cardBack": "Giuseppe Verdi"
     },
     {
       "id": "hungarian-rhapsody",
       "question": "Which Hungarian composer was considered the greatest piano virtuoso of the 19th century?",
       "answer": "Franz Liszt",
-      "alternateAnswers": ["Liszt"],
-      "explanation": "Franz Liszt (1811-1886) was a Hungarian Romantic composer, virtuoso pianist, conductor, and teacher whose technical abilities on the piano were legendary and arguably unsurpassed. He invented the solo piano recital and was the first performer to play entire concerts from memory, facing the audience rather than turning his back. Women famously fainted at his performances, a phenomenon dubbed 'Lisztomania' -- making him arguably the first musical 'rock star.' His most famous works include the Hungarian Rhapsodies, the Transcendental Etudes, the Sonata in B minor, the symphonic poems Les Preludes and Mazeppa, and the Liebestraum nocturnes. Liszt was also Richard Wagner's father-in-law -- Wagner married Liszt's daughter Cosima. In later life, Liszt took minor orders in the Catholic Church and was known as Abbe Liszt. He was extraordinarily generous, giving away much of his concert earnings and teaching hundreds of students for free. He is credited with inventing the symphonic poem as a musical form."
+      "alternateAnswers": [
+        "Liszt"
+      ],
+      "explanation": "Franz Liszt (1811-1886) was a Hungarian Romantic composer, virtuoso pianist, conductor, and teacher whose technical abilities on the piano were legendary and arguably unsurpassed. He invented the solo piano recital and was the first performer to play entire concerts from memory, facing the audience rather than turning his back. Women famously fainted at his performances, a phenomenon dubbed 'Lisztomania' -- making him arguably the first musical 'rock star.' His most famous works include the Hungarian Rhapsodies, the Transcendental Etudes, the Sonata in B minor, the symphonic poems Les Preludes and Mazeppa, and the Liebestraum nocturnes. Liszt was also Richard Wagner's father-in-law -- Wagner married Liszt's daughter Cosima. In later life, Liszt took minor orders in the Catholic Church and was known as Abbe Liszt. He was extraordinarily generous, giving away much of his concert earnings and teaching hundreds of students for free. He is credited with inventing the symphonic poem as a musical form.",
+      "cardFront": "Which Hungarian composer was considered the greatest piano virtuoso of the 19th century",
+      "cardBack": "Franz Liszt"
     },
     {
       "id": "clair-de-lune",
       "question": "Who composed 'Clair de Lune'?",
       "answer": "Claude Debussy",
-      "alternateAnswers": ["Debussy"],
-      "explanation": "Claude Debussy (1862-1918) was a French composer often called the father of Impressionist music, though he vigorously rejected that label. 'Clair de Lune,' the third movement of his Suite bergamasque, is one of the most beloved piano pieces ever written -- the title means 'moonlight' and was inspired by a Paul Verlaine poem. Debussy's revolutionary use of harmony, tone color, and non-traditional scales (including the whole-tone and pentatonic scales) broke away from the German Romantic tradition and profoundly influenced 20th-century music. His other landmark works include Prelude to the Afternoon of a Faun, La Mer, the opera Pelleas et Melisande, and the two books of Preludes for piano. He was deeply influenced by the Javanese gamelan music he heard at the 1889 Paris World Exhibition and by Japanese art. Debussy died of colorectal cancer in 1918, during the final German bombardment of Paris in World War I. His funeral procession moved through deserted, shell-damaged streets."
+      "alternateAnswers": [
+        "Debussy"
+      ],
+      "explanation": "Claude Debussy (1862-1918) was a French composer often called the father of Impressionist music, though he vigorously rejected that label. 'Clair de Lune,' the third movement of his Suite bergamasque, is one of the most beloved piano pieces ever written -- the title means 'moonlight' and was inspired by a Paul Verlaine poem. Debussy's revolutionary use of harmony, tone color, and non-traditional scales (including the whole-tone and pentatonic scales) broke away from the German Romantic tradition and profoundly influenced 20th-century music. His other landmark works include Prelude to the Afternoon of a Faun, La Mer, the opera Pelleas et Melisande, and the two books of Preludes for piano. He was deeply influenced by the Javanese gamelan music he heard at the 1889 Paris World Exhibition and by Japanese art. Debussy died of colorectal cancer in 1918, during the final German bombardment of Paris in World War I. His funeral procession moved through deserted, shell-damaged streets.",
+      "cardFront": "Clair de Lune",
+      "cardBack": "Claude Debussy"
     },
     {
       "id": "bolero",
       "question": "Who composed 'Bolero'?",
       "answer": "Maurice Ravel",
-      "alternateAnswers": ["Ravel"],
-      "explanation": "Maurice Ravel (1875-1937) was a French composer known for his impeccable orchestration and meticulous craftsmanship. Bolero, composed in 1928 as a ballet commission, is built on a single melody repeated over and over with steadily increasing orchestration and volume -- Ravel himself called it 'a piece for orchestra without music' and was baffled by its enormous popularity. It remains one of the most performed orchestral works in the world and was used memorably in the film '10' starring Bo Derek. Ravel's other masterpieces include the piano works Gaspard de la nuit and Miroirs, the orchestral works Daphnis et Chloe and La Valse, and his famous orchestration of Mussorgsky's Pictures at an Exhibition. Often paired with Debussy as an 'Impressionist,' Ravel rejected the label, favoring precision over vagueness. In his final years, he suffered from a progressive neurological condition -- possibly frontotemporal dementia -- that robbed him of the ability to write or play music while leaving his mind otherwise intact. He died following experimental brain surgery in 1937."
+      "alternateAnswers": [
+        "Ravel"
+      ],
+      "explanation": "Maurice Ravel (1875-1937) was a French composer known for his impeccable orchestration and meticulous craftsmanship. Bolero, composed in 1928 as a ballet commission, is built on a single melody repeated over and over with steadily increasing orchestration and volume -- Ravel himself called it 'a piece for orchestra without music' and was baffled by its enormous popularity. It remains one of the most performed orchestral works in the world and was used memorably in the film '10' starring Bo Derek. Ravel's other masterpieces include the piano works Gaspard de la nuit and Miroirs, the orchestral works Daphnis et Chloe and La Valse, and his famous orchestration of Mussorgsky's Pictures at an Exhibition. Often paired with Debussy as an 'Impressionist,' Ravel rejected the label, favoring precision over vagueness. In his final years, he suffered from a progressive neurological condition -- possibly frontotemporal dementia -- that robbed him of the ability to write or play music while leaving his mind otherwise intact. He died following experimental brain surgery in 1937.",
+      "cardFront": "Bolero",
+      "cardBack": "Maurice Ravel"
     },
     {
       "id": "rite-of-spring",
       "question": "Who composed 'The Rite of Spring', whose premiere caused a riot?",
       "answer": "Igor Stravinsky",
-      "alternateAnswers": ["Stravinsky"],
-      "explanation": "Igor Stravinsky (1882-1971) was a Russian-born composer who also held French and American citizenship, widely considered the most influential composer of the 20th century. The Rite of Spring premiered in Paris on May 29, 1913, and its primitive rhythms, dissonant harmonies, and Vaslav Nijinsky's provocative choreography provoked one of the most famous audience riots in music history -- fistfights broke out and police were called. Stravinsky's career is divided into three stylistic periods: the Russian period (The Firebird, Petrushka, The Rite of Spring), the Neoclassical period (Pulcinella, Symphony of Psalms), and the Serial period (Agon, Requiem Canticles). He lived in Switzerland, France, and finally the United States, becoming an American citizen in 1945. Stravinsky was a close collaborator with Sergei Diaghilev and the Ballets Russes. He reinvented his style multiple times across six decades, something almost no other major composer has done. He was buried in Venice, near the grave of Diaghilev, per his wishes."
+      "alternateAnswers": [
+        "Stravinsky"
+      ],
+      "explanation": "Igor Stravinsky (1882-1971) was a Russian-born composer who also held French and American citizenship, widely considered the most influential composer of the 20th century. The Rite of Spring premiered in Paris on May 29, 1913, and its primitive rhythms, dissonant harmonies, and Vaslav Nijinsky's provocative choreography provoked one of the most famous audience riots in music history -- fistfights broke out and police were called. Stravinsky's career is divided into three stylistic periods: the Russian period (The Firebird, Petrushka, The Rite of Spring), the Neoclassical period (Pulcinella, Symphony of Psalms), and the Serial period (Agon, Requiem Canticles). He lived in Switzerland, France, and finally the United States, becoming an American citizen in 1945. Stravinsky was a close collaborator with Sergei Diaghilev and the Ballets Russes. He reinvented his style multiple times across six decades, something almost no other major composer has done. He was buried in Venice, near the grave of Diaghilev, per his wishes.",
+      "cardFront": "The Rite of Spring",
+      "cardBack": "Igor Stravinsky"
     },
     {
       "id": "piano-concerto-2",
       "question": "Which Russian composer wrote the famous Piano Concerto No. 2 in C minor?",
       "answer": "Sergei Rachmaninoff",
-      "alternateAnswers": ["Rachmaninoff", "Rachmaninov"],
-      "explanation": "Sergei Rachmaninoff (1873-1943) was a Russian Romantic composer, virtuoso pianist, and conductor -- one of the last great representatives of Russian Romanticism. His Piano Concerto No. 2, composed in 1901, was dedicated to his hypnotherapist Nikolai Dahl, who helped him overcome a severe depression and creative block following the disastrous premiere of his First Symphony. The concerto's lush melodies have made it one of the most popular in the repertoire and its themes were adapted into the pop song 'All by Myself' by Eric Carmen. Rachmaninoff had famously large hands, reportedly able to span 13 keys on the piano, which enabled him to play chords that most pianists find physically impossible. His other celebrated works include the Third Piano Concerto, Rhapsody on a Theme of Paganini, and the Prelude in C-sharp minor. He fled Russia permanently after the 1917 Revolution and eventually settled in the United States. He died of melanoma in Beverly Hills in 1943, just days before becoming an American citizen."
+      "alternateAnswers": [
+        "Rachmaninoff",
+        "Rachmaninov"
+      ],
+      "explanation": "Sergei Rachmaninoff (1873-1943) was a Russian Romantic composer, virtuoso pianist, and conductor -- one of the last great representatives of Russian Romanticism. His Piano Concerto No. 2, composed in 1901, was dedicated to his hypnotherapist Nikolai Dahl, who helped him overcome a severe depression and creative block following the disastrous premiere of his First Symphony. The concerto's lush melodies have made it one of the most popular in the repertoire and its themes were adapted into the pop song 'All by Myself' by Eric Carmen. Rachmaninoff had famously large hands, reportedly able to span 13 keys on the piano, which enabled him to play chords that most pianists find physically impossible. His other celebrated works include the Third Piano Concerto, Rhapsody on a Theme of Paganini, and the Prelude in C-sharp minor. He fled Russia permanently after the 1917 Revolution and eventually settled in the United States. He died of melanoma in Beverly Hills in 1943, just days before becoming an American citizen.",
+      "cardFront": "Which Russian composer wrote the famous Piano Concerto No. 2 in C minor",
+      "cardBack": "Sergei Rachmaninoff"
     },
     {
       "id": "father-of-symphony",
       "question": "Which composer is known as the 'Father of the Symphony' and the 'Father of the String Quartet'?",
       "answer": "Joseph Haydn",
-      "alternateAnswers": ["Haydn", "Franz Joseph Haydn"],
-      "explanation": "Joseph Haydn (1732-1809) was an Austrian Classical composer who played a pivotal role in developing the symphony and string quartet into the forms we know today, earning him those two famous nicknames. He composed 104 numbered symphonies, 68 string quartets, and numerous other works across a career spanning over five decades. Haydn spent nearly 30 years as court musician to the wealthy Esterhazy family in Hungary, where the isolation -- as he put it -- forced him to 'become original.' He was a close friend and mentor to Mozart and later a teacher to the young Beethoven, though Beethoven's lessons with him were reportedly tense. His Symphony No. 94, the 'Surprise Symphony,' features a sudden loud chord designed to jolt dozing audience members awake. Haydn was famous for his humor and wit, and many of his symphonies have playful nicknames (The Clock, The Drumroll, The Farewell). In the Farewell Symphony, musicians leave the stage one by one -- his clever way of hinting to his patron that the orchestra deserved a vacation."
+      "alternateAnswers": [
+        "Haydn",
+        "Franz Joseph Haydn"
+      ],
+      "explanation": "Joseph Haydn (1732-1809) was an Austrian Classical composer who played a pivotal role in developing the symphony and string quartet into the forms we know today, earning him those two famous nicknames. He composed 104 numbered symphonies, 68 string quartets, and numerous other works across a career spanning over five decades. Haydn spent nearly 30 years as court musician to the wealthy Esterhazy family in Hungary, where the isolation -- as he put it -- forced him to 'become original.' He was a close friend and mentor to Mozart and later a teacher to the young Beethoven, though Beethoven's lessons with him were reportedly tense. His Symphony No. 94, the 'Surprise Symphony,' features a sudden loud chord designed to jolt dozing audience members awake. Haydn was famous for his humor and wit, and many of his symphonies have playful nicknames (The Clock, The Drumroll, The Farewell). In the Farewell Symphony, musicians leave the stage one by one -- his clever way of hinting to his patron that the orchestra deserved a vacation.",
+      "cardFront": "Father of the Symphony",
+      "cardBack": "Joseph Haydn"
     },
     {
       "id": "mozart-requiem",
       "question": "Which child prodigy composed over 800 works including 'The Magic Flute' and an unfinished 'Requiem'?",
       "answer": "Wolfgang Amadeus Mozart",
-      "alternateAnswers": ["Mozart"],
-      "explanation": "Wolfgang Amadeus Mozart (1756-1791) was an Austrian Classical composer who began performing for European royalty at age six and composed his first symphony at eight. His father Leopold toured him and his sister Nannerl across Europe as child prodigies. Mozart completed over 800 works in just 35 years of life, including the operas The Marriage of Figaro, Don Giovanni, Cosi fan tutte, and The Magic Flute, along with 41 symphonies, 27 piano concertos, and chamber music of unmatched beauty. His Requiem in D minor was left unfinished at his death and was completed by his student Franz Xaver Sussmayr -- the mysterious stranger who commissioned it was actually a count's messenger, not a ghostly premonition of death as legend suggests. Mozart died in Vienna of a still-debated illness and was buried in a common grave, as was customary for his social class. Despite his genius, he was perpetually in financial trouble. His rivalry with Antonio Salieri was greatly exaggerated by the play and film 'Amadeus' -- the two were professional competitors but not bitter enemies."
+      "alternateAnswers": [
+        "Mozart"
+      ],
+      "explanation": "Wolfgang Amadeus Mozart (1756-1791) was an Austrian Classical composer who began performing for European royalty at age six and composed his first symphony at eight. His father Leopold toured him and his sister Nannerl across Europe as child prodigies. Mozart completed over 800 works in just 35 years of life, including the operas The Marriage of Figaro, Don Giovanni, Cosi fan tutte, and The Magic Flute, along with 41 symphonies, 27 piano concertos, and chamber music of unmatched beauty. His Requiem in D minor was left unfinished at his death and was completed by his student Franz Xaver Sussmayr -- the mysterious stranger who commissioned it was actually a count's messenger, not a ghostly premonition of death as legend suggests. Mozart died in Vienna of a still-debated illness and was buried in a common grave, as was customary for his social class. Despite his genius, he was perpetually in financial trouble. His rivalry with Antonio Salieri was greatly exaggerated by the play and film 'Amadeus' -- the two were professional competitors but not bitter enemies.",
+      "cardFront": "The Magic Flute",
+      "cardBack": "Wolfgang Amadeus Mozart"
     },
     {
       "id": "brahms-lullaby",
       "question": "Who composed the famous lullaby known as 'Brahms' Lullaby'?",
       "answer": "Johannes Brahms",
-      "alternateAnswers": ["Brahms"],
-      "explanation": "Johannes Brahms (1833-1897) was a German Romantic composer and virtuoso pianist from Hamburg. His 'Wiegenlied' (Lullaby), Op. 49 No. 4, composed in 1868, is one of the most recognizable melodies in the world and is built into countless music boxes and baby toys. Brahms was a perfectionist who destroyed many works he deemed unworthy -- he did not publish his First Symphony until age 43, having labored over it for 21 years, partly because he felt the weight of following Beethoven. The conductor Hans von Bulow famously called it 'Beethoven's Tenth.' His major works include four symphonies, two piano concertos, the Violin Concerto, the Double Concerto, and A German Requiem. Brahms was part of the 'Three Bs' of classical music alongside Bach and Beethoven. He was a close friend of Robert and Clara Schumann -- Clara was likely the love of his life, though their relationship remained publicly proper. Brahms was known for his gruff personality and biting wit, once leaving a party by saying, 'If there is anyone here whom I have not insulted, I beg his pardon.'"
+      "alternateAnswers": [
+        "Brahms"
+      ],
+      "explanation": "Johannes Brahms (1833-1897) was a German Romantic composer and virtuoso pianist from Hamburg. His 'Wiegenlied' (Lullaby), Op. 49 No. 4, composed in 1868, is one of the most recognizable melodies in the world and is built into countless music boxes and baby toys. Brahms was a perfectionist who destroyed many works he deemed unworthy -- he did not publish his First Symphony until age 43, having labored over it for 21 years, partly because he felt the weight of following Beethoven. The conductor Hans von Bulow famously called it 'Beethoven's Tenth.' His major works include four symphonies, two piano concertos, the Violin Concerto, the Double Concerto, and A German Requiem. Brahms was part of the 'Three Bs' of classical music alongside Bach and Beethoven. He was a close friend of Robert and Clara Schumann -- Clara was likely the love of his life, though their relationship remained publicly proper. Brahms was known for his gruff personality and biting wit, once leaving a party by saying, 'If there is anyone here whom I have not insulted, I beg his pardon.'",
+      "cardFront": "Brahms",
+      "cardBack": "Johannes Brahms"
     },
     {
       "id": "west-side-story",
       "question": "Who composed the music for 'West Side Story'?",
       "answer": "Leonard Bernstein",
-      "alternateAnswers": ["Bernstein"],
-      "explanation": "Leonard Bernstein (1918-1990) was an American composer, conductor, pianist, music educator, and humanitarian -- the first American-born conductor to achieve worldwide fame. West Side Story, which premiered on Broadway in 1957, retells Romeo and Juliet through rival New York street gangs and features songs like 'Tonight,' 'Maria,' and 'America.' Bernstein became an overnight sensation in 1943 when, at age 25, he substituted for an ailing Bruno Walter to conduct the New York Philharmonic with no rehearsal -- the concert was broadcast nationally on radio. He served as music director of the New York Philharmonic from 1958 to 1969 and his televised 'Young People's Concerts' introduced classical music to millions of Americans. His other works include the operetta Candide, three symphonies, and the Chichester Psalms. Bernstein won seven Emmy Awards, two Tony Awards, 16 Grammy Awards, and was nominated for an Academy Award. He was a larger-than-life personality known for his passionate conducting style and boundless energy."
+      "alternateAnswers": [
+        "Bernstein"
+      ],
+      "explanation": "Leonard Bernstein (1918-1990) was an American composer, conductor, pianist, music educator, and humanitarian -- the first American-born conductor to achieve worldwide fame. West Side Story, which premiered on Broadway in 1957, retells Romeo and Juliet through rival New York street gangs and features songs like 'Tonight,' 'Maria,' and 'America.' Bernstein became an overnight sensation in 1943 when, at age 25, he substituted for an ailing Bruno Walter to conduct the New York Philharmonic with no rehearsal -- the concert was broadcast nationally on radio. He served as music director of the New York Philharmonic from 1958 to 1969 and his televised 'Young People's Concerts' introduced classical music to millions of Americans. His other works include the operetta Candide, three symphonies, and the Chichester Psalms. Bernstein won seven Emmy Awards, two Tony Awards, 16 Grammy Awards, and was nominated for an Academy Award. He was a larger-than-life personality known for his passionate conducting style and boundless energy.",
+      "cardFront": "West Side Story",
+      "cardBack": "Leonard Bernstein"
     },
     {
       "id": "star-wars-composer",
       "question": "Who composed the film scores for 'Star Wars', 'Jaws', and 'Indiana Jones'?",
       "answer": "John Williams",
-      "alternateAnswers": ["John Towner Williams"],
-      "explanation": "John Williams (born 1932) is an American composer and conductor whose career has spanned over seven decades. His collaboration with Steven Spielberg and George Lucas produced some of the most iconic film scores in cinema history, including Star Wars, Jaws, Indiana Jones, E.T. the Extra-Terrestrial, Jurassic Park, Schindler's List, and Harry Potter. Williams has received 54 Academy Award nominations -- second only to Walt Disney -- and has won five Oscars, along with 27 Grammy Awards, seven BAFTA Awards, and four Golden Globe Awards. His music blends late Romanticism, Impressionism, and atonal techniques with rich orchestration, and he has cited composers like Korngold, Holst, and Stravinsky as influences. The Star Wars main theme, Imperial March, and Superman theme are among the most recognizable pieces of music in popular culture. In 2024, at age 91, he became the oldest person ever nominated for an Academy Award in any category. Williams served as conductor of the Boston Pops Orchestra from 1980 to 1993 and has written concert works including concertos for violin, cello, and flute."
+      "alternateAnswers": [
+        "John Towner Williams"
+      ],
+      "explanation": "John Williams (born 1932) is an American composer and conductor whose career has spanned over seven decades. His collaboration with Steven Spielberg and George Lucas produced some of the most iconic film scores in cinema history, including Star Wars, Jaws, Indiana Jones, E.T. the Extra-Terrestrial, Jurassic Park, Schindler's List, and Harry Potter. Williams has received 54 Academy Award nominations -- second only to Walt Disney -- and has won five Oscars, along with 27 Grammy Awards, seven BAFTA Awards, and four Golden Globe Awards. His music blends late Romanticism, Impressionism, and atonal techniques with rich orchestration, and he has cited composers like Korngold, Holst, and Stravinsky as influences. The Star Wars main theme, Imperial March, and Superman theme are among the most recognizable pieces of music in popular culture. In 2024, at age 91, he became the oldest person ever nominated for an Academy Award in any category. Williams served as conductor of the Boston Pops Orchestra from 1980 to 1993 and has written concert works including concertos for violin, cello, and flute.",
+      "cardFront": "Star Wars",
+      "cardBack": "John Williams"
     },
     {
       "id": "shostakovich-symphony",
       "question": "Which Soviet composer wrote his Symphony No. 7 'Leningrad' during the Nazi siege of that city?",
       "answer": "Dmitri Shostakovich",
-      "alternateAnswers": ["Shostakovich"],
-      "explanation": "Dmitri Shostakovich (1906-1975) was a Soviet composer and pianist who created some of the most powerful music of the 20th century under extraordinarily difficult political circumstances. His Leningrad Symphony, completed in 1941 during the Nazi siege, became a symbol of Soviet resistance -- parts of the score were microfilmed and flown out of the besieged city, and it was performed there in August 1942 by starving musicians, with loudspeakers broadcasting it toward German lines. Shostakovich had a famously fraught relationship with the Soviet regime. After Stalin attended his opera Lady Macbeth of Mtsensk in 1936, Pravda published a devastating review titled 'Muddle Instead of Music,' and Shostakovich lived in fear of arrest for years. He responded with his Fifth Symphony, subtitled 'A Soviet Artist's Reply to Just Criticism,' which audiences understood as a coded work of defiance. His 15 symphonies and 15 string quartets form the backbone of 20th-century orchestral and chamber music. Whether his music was genuinely pro-Soviet or secretly subversive remains one of musicology's great debates."
+      "alternateAnswers": [
+        "Shostakovich"
+      ],
+      "explanation": "Dmitri Shostakovich (1906-1975) was a Soviet composer and pianist who created some of the most powerful music of the 20th century under extraordinarily difficult political circumstances. His Leningrad Symphony, completed in 1941 during the Nazi siege, became a symbol of Soviet resistance -- parts of the score were microfilmed and flown out of the besieged city, and it was performed there in August 1942 by starving musicians, with loudspeakers broadcasting it toward German lines. Shostakovich had a famously fraught relationship with the Soviet regime. After Stalin attended his opera Lady Macbeth of Mtsensk in 1936, Pravda published a devastating review titled 'Muddle Instead of Music,' and Shostakovich lived in fear of arrest for years. He responded with his Fifth Symphony, subtitled 'A Soviet Artist's Reply to Just Criticism,' which audiences understood as a coded work of defiance. His 15 symphonies and 15 string quartets form the backbone of 20th-century orchestral and chamber music. Whether his music was genuinely pro-Soviet or secretly subversive remains one of musicology's great debates.",
+      "cardFront": "Leningrad",
+      "cardBack": "Dmitri Shostakovich"
     },
     {
       "id": "schumann-wife",
       "question": "Which Romantic composer married the famous pianist Clara Wieck despite her father's fierce opposition?",
       "answer": "Robert Schumann",
-      "alternateAnswers": ["Schumann"],
-      "explanation": "Robert Schumann (1810-1856) was a German Romantic composer, pianist, and influential music critic. His courtship of Clara Wieck, a piano prodigy and daughter of his own teacher Friedrich Wieck, became one of music's great love stories -- they had to sue her father in court to obtain permission to marry in 1840. Schumann originally aspired to be a concert pianist but permanently injured his right hand, possibly from a device meant to strengthen his fingers, forcing him to focus on composition. His major works include the Piano Concerto in A minor, four symphonies, the song cycles Dichterliebe and Frauenliebe und -leben, and imaginative piano works like Carnaval and Kinderszenen (whose 'Traumerei' is among the most famous piano pieces). As a critic, he founded the influential Neue Zeitschrift fur Musik and was among the first to champion the young Brahms and Chopin. Schumann suffered from severe mental illness -- likely bipolar disorder -- throughout his life. In 1854 he attempted suicide by throwing himself into the Rhine and spent his final two years in an asylum, where he died at 46."
+      "alternateAnswers": [
+        "Schumann"
+      ],
+      "explanation": "Robert Schumann (1810-1856) was a German Romantic composer, pianist, and influential music critic. His courtship of Clara Wieck, a piano prodigy and daughter of his own teacher Friedrich Wieck, became one of music's great love stories -- they had to sue her father in court to obtain permission to marry in 1840. Schumann originally aspired to be a concert pianist but permanently injured his right hand, possibly from a device meant to strengthen his fingers, forcing him to focus on composition. His major works include the Piano Concerto in A minor, four symphonies, the song cycles Dichterliebe and Frauenliebe und -leben, and imaginative piano works like Carnaval and Kinderszenen (whose 'Traumerei' is among the most famous piano pieces). As a critic, he founded the influential Neue Zeitschrift fur Musik and was among the first to champion the young Brahms and Chopin. Schumann suffered from severe mental illness -- likely bipolar disorder -- throughout his life. In 1854 he attempted suicide by throwing himself into the Rhine and spent his final two years in an asylum, where he died at 46.",
+      "cardFront": "Which Romantic composer married the famous pianist Clara Wieck despite her father's fierce opposition",
+      "cardBack": "Robert Schumann"
     },
     {
       "id": "mahler-symphonies",
       "question": "Which Austro-Bohemian composer, also a famous conductor, wrote symphonies so large they were called 'a world in themselves'?",
       "answer": "Gustav Mahler",
-      "alternateAnswers": ["Mahler"],
-      "explanation": "Gustav Mahler (1860-1911) was an Austro-Bohemian late Romantic composer and one of the leading conductors of his generation, serving as director of the Vienna Court Opera and later the New York Philharmonic. His nine completed symphonies (plus the unfinished Tenth and Das Lied von der Erde) are monumental works that pushed the orchestra to its limits -- his Symphony No. 8, the 'Symphony of a Thousand,' requires over 1,000 performers. Mahler famously said, 'A symphony must be like the world -- it must contain everything.' His song cycles, including Des Knaben Wunderhorn and Kindertotenlieder, are among the finest in the repertoire. Mahler was Jewish and faced persistent anti-Semitism throughout his career, converting to Catholicism to secure the Vienna Opera post. His music was banned under the Nazis and was only fully rediscovered after World War II, championed by conductors like Leonard Bernstein. He died of a heart condition at 50 after being told by Sigmund Freud that his obsession with death in his music was unhealthy. There is a famous superstition called the 'Curse of the Ninth' -- the belief that composers die after writing their ninth symphony -- which Mahler tried to outwit by not numbering Das Lied von der Erde."
+      "alternateAnswers": [
+        "Mahler"
+      ],
+      "explanation": "Gustav Mahler (1860-1911) was an Austro-Bohemian late Romantic composer and one of the leading conductors of his generation, serving as director of the Vienna Court Opera and later the New York Philharmonic. His nine completed symphonies (plus the unfinished Tenth and Das Lied von der Erde) are monumental works that pushed the orchestra to its limits -- his Symphony No. 8, the 'Symphony of a Thousand,' requires over 1,000 performers. Mahler famously said, 'A symphony must be like the world -- it must contain everything.' His song cycles, including Des Knaben Wunderhorn and Kindertotenlieder, are among the finest in the repertoire. Mahler was Jewish and faced persistent anti-Semitism throughout his career, converting to Catholicism to secure the Vienna Opera post. His music was banned under the Nazis and was only fully rediscovered after World War II, championed by conductors like Leonard Bernstein. He died of a heart condition at 50 after being told by Sigmund Freud that his obsession with death in his music was unhealthy. There is a famous superstition called the 'Curse of the Ninth' -- the belief that composers die after writing their ninth symphony -- which Mahler tried to outwit by not numbering Das Lied von der Erde.",
+      "cardFront": "a world in themselves",
+      "cardBack": "Gustav Mahler"
     }
   ]
 }

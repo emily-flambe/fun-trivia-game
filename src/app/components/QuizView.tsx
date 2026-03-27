@@ -30,6 +30,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	const [currentResult, setCurrentResult] = useState<CheckResult | null>(null);
 	const [checking, setChecking] = useState(false);
 	const [flippedCards, setFlippedCards] = useState<Set<string>>(new Set());
+	const [reversed, setReversed] = useState(false);
 	const inputRef = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
@@ -74,6 +75,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		}
 
 		const allFlipped = flippedCards.size === state.questions.length;
+		const hasCardFields = state.questions.some((q) => q.cardFront || q.cardBack);
 
 		function toggleCard(id: string) {
 			setFlippedCards((prev) => {
@@ -92,11 +94,31 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 			}
 		}
 
+		function toggleDirection() {
+			setReversed((r) => !r);
+			setFlippedCards(new Set());
+		}
+
+		function cardSides(q: Question) {
+			const front = q.cardFront || q.question;
+			const back = q.cardBack || q.answer;
+			return reversed ? { front: back, back: front } : { front, back };
+		}
+
 		return (
 			<div className="animate-in">
 				<div className="flex items-center gap-3 mb-6">
 					<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
 					<h2 className="text-lg font-semibold flex-1 tracking-tight">{mod.name}</h2>
+					{hasCardFields && (
+						<button
+							onClick={toggleDirection}
+							className="text-sm text-text-tertiary hover:text-accent transition-colors"
+							title="Swap card sides"
+						>
+							⇄ Flip
+						</button>
+					)}
 					<button
 						onClick={flipAll}
 						className="text-sm text-text-tertiary hover:text-accent transition-colors"
@@ -114,6 +136,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 				<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
 					{state.questions.map((q, i) => {
 						const isFlipped = flippedCards.has(q.id);
+						const sides = cardSides(q);
 						return (
 							<button
 								key={q.id}
@@ -124,14 +147,9 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 										: 'bg-surface-bright hover:bg-surface-hover'
 								}`}
 							>
-								{isFlipped ? (
-									<>
-										<div className="font-medium text-accent">{q.answer}</div>
-										<div className="text-text-tertiary text-xs mt-1">{q.explanation}</div>
-									</>
-								) : (
-									<div className="font-medium">{q.question}</div>
-								)}
+								<div className={`font-medium ${isFlipped ? 'text-accent' : ''}`}>
+									{isFlipped ? sides.back : sides.front}
+								</div>
 							</button>
 						);
 					})}

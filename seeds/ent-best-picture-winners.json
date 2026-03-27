@@ -11,679 +11,943 @@
       "question": "What film won Best Picture at the Academy Awards in 1927/28?",
       "answer": "Wings",
       "alternateAnswers": [],
-      "explanation": "Directed by William A. Wellman, Wings stars Clara Bow, Charles \"Buddy\" Rogers, and Richard Arlen in a WWI aviation drama about two rival pilots who become friends while competing for the same woman. It won 2 Oscars from 2 nominations, including the very first Best Picture award, and remains the only fully silent film to win the top prize until The Artist in 2011. The production used 300 pilots and 3,500 extras, took nine months to film at Kelly Field in Texas, and a stunt pilot broke his neck during shooting. Gary Cooper's small supporting role helped launch his career, and the film also features one of cinema's earliest male-to-male kisses."
+      "explanation": "Directed by William A. Wellman, Wings stars Clara Bow, Charles \"Buddy\" Rogers, and Richard Arlen in a WWI aviation drama about two rival pilots who become friends while competing for the same woman. It won 2 Oscars from 2 nominations, including the very first Best Picture award, and remains the only fully silent film to win the top prize until The Artist in 2011. The production used 300 pilots and 3,500 extras, took nine months to film at Kelly Field in Texas, and a stunt pilot broke his neck during shooting. Gary Cooper's small supporting role helped launch his career, and the film also features one of cinema's earliest male-to-male kisses.",
+      "cardFront": "1927/28",
+      "cardBack": "Wings"
     },
     {
       "id": "bp1928",
       "question": "What film won Best Picture at the Academy Awards in 1928/29?",
       "answer": "The Broadway Melody",
-      "alternateAnswers": ["Broadway Melody"],
-      "explanation": "Directed by Harry Beaumont, this musical romance stars Anita Page, Bessie Love, and Charles King as two sisters pursuing show business dreams in New York whose relationship is tested by romantic rivalry. It earned 3 nominations and won 1 Oscar (Best Picture), becoming the first sound film and first musical to claim the top prize. Made for just $379,000, it grossed $4.4 million at the box office. A separate silent version had to be produced for theaters lacking sound equipment, and a single ukulele scene took over three hours to film due to the primitive limitations of early sound recording technology."
+      "alternateAnswers": [
+        "Broadway Melody"
+      ],
+      "explanation": "Directed by Harry Beaumont, this musical romance stars Anita Page, Bessie Love, and Charles King as two sisters pursuing show business dreams in New York whose relationship is tested by romantic rivalry. It earned 3 nominations and won 1 Oscar (Best Picture), becoming the first sound film and first musical to claim the top prize. Made for just $379,000, it grossed $4.4 million at the box office. A separate silent version had to be produced for theaters lacking sound equipment, and a single ukulele scene took over three hours to film due to the primitive limitations of early sound recording technology.",
+      "cardFront": "1928/29",
+      "cardBack": "The Broadway Melody"
     },
     {
       "id": "bp1929",
       "question": "What film won Best Picture at the Academy Awards in 1929/30?",
       "answer": "All Quiet on the Western Front",
       "alternateAnswers": [],
-      "explanation": "Directed by Lewis Milestone, this epic anti-war film stars Lew Ayres, Louis Wolheim, and John Wray in an adaptation of Erich Maria Remarque's 1929 novel about German soldiers experiencing the horrors of World War I. It won 2 Oscars including Best Picture and Best Director. The film was banned in Nazi Germany and several other countries for its unflinching pacifist message. It is one of only four films to win both the Academy Award for Best Picture and the top prize at a major European festival, and remains one of the most influential war films ever made, setting the template for the genre's honest depictions of combat trauma."
+      "explanation": "Directed by Lewis Milestone, this epic anti-war film stars Lew Ayres, Louis Wolheim, and John Wray in an adaptation of Erich Maria Remarque's 1929 novel about German soldiers experiencing the horrors of World War I. It won 2 Oscars including Best Picture and Best Director. The film was banned in Nazi Germany and several other countries for its unflinching pacifist message. It is one of only four films to win both the Academy Award for Best Picture and the top prize at a major European festival, and remains one of the most influential war films ever made, setting the template for the genre's honest depictions of combat trauma.",
+      "cardFront": "1929/30",
+      "cardBack": "All Quiet on the Western Front"
     },
     {
       "id": "bp1930",
       "question": "What film won Best Picture at the Academy Awards in 1930/31?",
       "answer": "Cimarron",
       "alternateAnswers": [],
-      "explanation": "Directed by Wesley Ruggles, this epic Western stars Richard Dix and Irene Dunne in the story of an Oklahoma land rush family across several decades. It won 3 Oscars from its nominations, including Best Picture, Best Adapted Screenplay, and Best Production Design. Cimarron was the first Western to win Best Picture and would remain the only one to do so for 59 years until Dances with Wolves in 1990. Despite its prestige, the film was a massive box office disappointment that lost money for RKO, and it is frequently cited by critics and historians as one of the weakest Best Picture winners in the award's history."
+      "explanation": "Directed by Wesley Ruggles, this epic Western stars Richard Dix and Irene Dunne in the story of an Oklahoma land rush family across several decades. It won 3 Oscars from its nominations, including Best Picture, Best Adapted Screenplay, and Best Production Design. Cimarron was the first Western to win Best Picture and would remain the only one to do so for 59 years until Dances with Wolves in 1990. Despite its prestige, the film was a massive box office disappointment that lost money for RKO, and it is frequently cited by critics and historians as one of the weakest Best Picture winners in the award's history.",
+      "cardFront": "1930/31",
+      "cardBack": "Cimarron"
     },
     {
       "id": "bp1931",
       "question": "What film won Best Picture at the Academy Awards in 1931/32?",
       "answer": "Grand Hotel",
       "alternateAnswers": [],
-      "explanation": "Directed by Edmund Goulding, this pre-Code drama stars Greta Garbo, John Barrymore, and Joan Crawford in interconnected stories unfolding at a Berlin luxury hotel where a disfigured WWI veteran observes that \"nothing ever happens\" before everything does. It holds the unique distinction of being the only Best Picture winner that received zero other Oscar nominations. Garbo's iconic line \"I want to be alone\" ranks 30th on AFI's 100 Movie Quotes. The film pioneered an innovative 360-degree rotating hotel lobby set and was the first to feature brothers Lionel and John Barrymore together. It grossed $2.6 million against a $750,000 budget."
+      "explanation": "Directed by Edmund Goulding, this pre-Code drama stars Greta Garbo, John Barrymore, and Joan Crawford in interconnected stories unfolding at a Berlin luxury hotel where a disfigured WWI veteran observes that \"nothing ever happens\" before everything does. It holds the unique distinction of being the only Best Picture winner that received zero other Oscar nominations. Garbo's iconic line \"I want to be alone\" ranks 30th on AFI's 100 Movie Quotes. The film pioneered an innovative 360-degree rotating hotel lobby set and was the first to feature brothers Lionel and John Barrymore together. It grossed $2.6 million against a $750,000 budget.",
+      "cardFront": "1931/32",
+      "cardBack": "Grand Hotel"
     },
     {
       "id": "bp1932",
       "question": "What film won Best Picture at the Academy Awards in 1932/33?",
       "answer": "Cavalcade",
       "alternateAnswers": [],
-      "explanation": "Directed by Frank Lloyd, this epic pre-Code drama stars Diana Wynyard and Clive Brook, adapted from Noel Coward's 1931 stage play following an English family's experiences from New Year's Eve 1899 through the early 1930s, encompassing the Boer War, the Titanic disaster, and World War I. It won 3 Oscars including Best Picture and Best Director. The screenplay by Reginald Berkeley and Sonya Levien faithfully translated Coward's sweeping theatrical vision to the screen. Despite winning the top prize, Cavalcade has largely been forgotten today and is one of the least-watched Best Picture winners, rarely screened or discussed by modern audiences."
+      "explanation": "Directed by Frank Lloyd, this epic pre-Code drama stars Diana Wynyard and Clive Brook, adapted from Noel Coward's 1931 stage play following an English family's experiences from New Year's Eve 1899 through the early 1930s, encompassing the Boer War, the Titanic disaster, and World War I. It won 3 Oscars including Best Picture and Best Director. The screenplay by Reginald Berkeley and Sonya Levien faithfully translated Coward's sweeping theatrical vision to the screen. Despite winning the top prize, Cavalcade has largely been forgotten today and is one of the least-watched Best Picture winners, rarely screened or discussed by modern audiences.",
+      "cardFront": "1932/33",
+      "cardBack": "Cavalcade"
     },
     {
       "id": "bp1934",
       "question": "What film won Best Picture at the Academy Awards in 1934?",
       "answer": "It Happened One Night",
       "alternateAnswers": [],
-      "explanation": "Directed by Frank Capra, this romantic comedy stars Clark Gable and Claudette Colbert as a cynical reporter and a runaway heiress who fall in love during a cross-country bus trip. It made Oscar history by sweeping all five major categories (Picture, Director, Actor, Actress, Screenplay), a feat not matched for 41 years until One Flew Over the Cuckoo's Nest. It grossed $2.5 million worldwide. Colbert nearly missed her Best Actress win because she had boarded a train, certain she would lose. The famous hitchhiking scene reportedly influenced Bugs Bunny's character, and an urban legend claims Gable's undershirt-free scene tanked undershirt sales nationwide."
+      "explanation": "Directed by Frank Capra, this romantic comedy stars Clark Gable and Claudette Colbert as a cynical reporter and a runaway heiress who fall in love during a cross-country bus trip. It made Oscar history by sweeping all five major categories (Picture, Director, Actor, Actress, Screenplay), a feat not matched for 41 years until One Flew Over the Cuckoo's Nest. It grossed $2.5 million worldwide. Colbert nearly missed her Best Actress win because she had boarded a train, certain she would lose. The famous hitchhiking scene reportedly influenced Bugs Bunny's character, and an urban legend claims Gable's undershirt-free scene tanked undershirt sales nationwide.",
+      "cardFront": "1934",
+      "cardBack": "It Happened One Night"
     },
     {
       "id": "bp1935",
       "question": "What film won Best Picture at the Academy Awards in 1935?",
       "answer": "Mutiny on the Bounty",
       "alternateAnswers": [],
-      "explanation": "Directed by Frank Lloyd, this historical adventure stars Charles Laughton, Clark Gable, and Franchot Tone in the story of a crew's revolt against the tyrannical Captain Bligh during a Pacific voyage aboard HMS Bounty. It received 8 nominations but won only Best Picture, making it the last Best Picture winner to win in no other category until a much later era. It is the only film in Oscar history to have three actors nominated for Best Actor in the same year, though none won. The highest-grossing film of 1935 at $4.5 million, Gable reluctantly shaved his iconic mustache for the role, and uncredited extras included James Cagney and David Niven."
+      "explanation": "Directed by Frank Lloyd, this historical adventure stars Charles Laughton, Clark Gable, and Franchot Tone in the story of a crew's revolt against the tyrannical Captain Bligh during a Pacific voyage aboard HMS Bounty. It received 8 nominations but won only Best Picture, making it the last Best Picture winner to win in no other category until a much later era. It is the only film in Oscar history to have three actors nominated for Best Actor in the same year, though none won. The highest-grossing film of 1935 at $4.5 million, Gable reluctantly shaved his iconic mustache for the role, and uncredited extras included James Cagney and David Niven.",
+      "cardFront": "1935",
+      "cardBack": "Mutiny on the Bounty"
     },
     {
       "id": "bp1936",
       "question": "What film won Best Picture at the Academy Awards in 1936?",
       "answer": "The Great Ziegfeld",
-      "alternateAnswers": ["Great Ziegfeld"],
-      "explanation": "Directed by Robert Z. Leonard, this musical biography stars William Powell, Luise Rainer, and Myrna Loy, chronicling theatrical impresario Florenz Ziegfeld Jr.'s rise from the 1893 Chicago World's Fair to the creation of the legendary Ziegfeld Follies. It won 3 of its 7 nominations, including Best Picture and Best Actress for Rainer. At 177 minutes, it was the longest talking film of its time. The famous \"A Pretty Girl Is Like a Melody\" sequence alone cost $220,000 and featured a 70-foot rotating wedding-cake set with 175 steps weighing 100 tons. It beat Mr. Deeds Goes to Town for the top prize and grossed $4.7 million."
+      "alternateAnswers": [
+        "Great Ziegfeld"
+      ],
+      "explanation": "Directed by Robert Z. Leonard, this musical biography stars William Powell, Luise Rainer, and Myrna Loy, chronicling theatrical impresario Florenz Ziegfeld Jr.'s rise from the 1893 Chicago World's Fair to the creation of the legendary Ziegfeld Follies. It won 3 of its 7 nominations, including Best Picture and Best Actress for Rainer. At 177 minutes, it was the longest talking film of its time. The famous \"A Pretty Girl Is Like a Melody\" sequence alone cost $220,000 and featured a 70-foot rotating wedding-cake set with 175 steps weighing 100 tons. It beat Mr. Deeds Goes to Town for the top prize and grossed $4.7 million.",
+      "cardFront": "1936",
+      "cardBack": "The Great Ziegfeld"
     },
     {
       "id": "bp1937",
       "question": "What film won Best Picture at the Academy Awards in 1937?",
       "answer": "The Life of Emile Zola",
-      "alternateAnswers": ["Life of Emile Zola"],
-      "explanation": "Directed by William Dieterle, this biographical drama stars Paul Muni, Gloria Holden, and Joseph Schildkraut in the story of French author Emile Zola's rise to literary fame and his courageous defense of Captain Alfred Dreyfus against false espionage charges. It won 3 of its 10 nominations, including Best Picture and Best Supporting Actor for Schildkraut. It was the first Warner Bros. film to win Best Picture and the second biographical film to claim the prize. Controversially, the word \"Jew\" was excised from the script despite antisemitism being central to the Dreyfus Affair, reflecting Hollywood's timidity during the Nazi era. Muni's courtroom speech was filmed in a single six-minute take, the longest continuous courtroom scene at the time."
+      "alternateAnswers": [
+        "Life of Emile Zola"
+      ],
+      "explanation": "Directed by William Dieterle, this biographical drama stars Paul Muni, Gloria Holden, and Joseph Schildkraut in the story of French author Emile Zola's rise to literary fame and his courageous defense of Captain Alfred Dreyfus against false espionage charges. It won 3 of its 10 nominations, including Best Picture and Best Supporting Actor for Schildkraut. It was the first Warner Bros. film to win Best Picture and the second biographical film to claim the prize. Controversially, the word \"Jew\" was excised from the script despite antisemitism being central to the Dreyfus Affair, reflecting Hollywood's timidity during the Nazi era. Muni's courtroom speech was filmed in a single six-minute take, the longest continuous courtroom scene at the time.",
+      "cardFront": "1937",
+      "cardBack": "The Life of Emile Zola"
     },
     {
       "id": "bp1938",
       "question": "What film won Best Picture at the Academy Awards in 1938?",
       "answer": "You Can't Take It with You",
       "alternateAnswers": [],
-      "explanation": "Directed by Frank Capra, this screwball comedy stars Jean Arthur, James Stewart, and Lionel Barrymore in the story of a wealthy banker's son who falls for a stenographer from a delightfully eccentric family, creating class conflict when the families collide. It won 2 of its 7 nominations (Best Picture and Best Director), giving Capra his third Best Director Oscar in five years, a feat no director has matched in a single decade. It grossed $5.3 million internationally. Ann Miller was only 15 years old during filming, and Barrymore's use of crutches was incorporated into the plot to accommodate his real arthritis. The line \"Confidentially, she stinks!\" was later referenced in 1940s Looney Tunes cartoons."
+      "explanation": "Directed by Frank Capra, this screwball comedy stars Jean Arthur, James Stewart, and Lionel Barrymore in the story of a wealthy banker's son who falls for a stenographer from a delightfully eccentric family, creating class conflict when the families collide. It won 2 of its 7 nominations (Best Picture and Best Director), giving Capra his third Best Director Oscar in five years, a feat no director has matched in a single decade. It grossed $5.3 million internationally. Ann Miller was only 15 years old during filming, and Barrymore's use of crutches was incorporated into the plot to accommodate his real arthritis. The line \"Confidentially, she stinks!\" was later referenced in 1940s Looney Tunes cartoons.",
+      "cardFront": "1938",
+      "cardBack": "You Can't Take It with You"
     },
     {
       "id": "bp1939",
       "question": "What film won Best Picture at the Academy Awards in 1939?",
       "answer": "Gone with the Wind",
       "alternateAnswers": [],
-      "explanation": "Directed by Victor Fleming, this epic historical romance stars Clark Gable, Vivien Leigh, Leslie Howard, and Olivia de Havilland, following Southern belle Scarlett O'Hara through the Civil War and Reconstruction as she fights to survive and hold onto her plantation. It won 10 Oscars from 13 nominations, including the first color film to win Best Picture. Hattie McDaniel became the first African American to win an Oscar (Best Supporting Actress) but was forced to sit at a segregated table at the ceremony. Adjusted for inflation, it remains the highest-grossing film in history. A nationwide casting call interviewed 1,400 women for Scarlett's role, and its 1976 TV premiere drew 65% of all viewers, still the record for a film broadcast."
+      "explanation": "Directed by Victor Fleming, this epic historical romance stars Clark Gable, Vivien Leigh, Leslie Howard, and Olivia de Havilland, following Southern belle Scarlett O'Hara through the Civil War and Reconstruction as she fights to survive and hold onto her plantation. It won 10 Oscars from 13 nominations, including the first color film to win Best Picture. Hattie McDaniel became the first African American to win an Oscar (Best Supporting Actress) but was forced to sit at a segregated table at the ceremony. Adjusted for inflation, it remains the highest-grossing film in history. A nationwide casting call interviewed 1,400 women for Scarlett's role, and its 1976 TV premiere drew 65% of all viewers, still the record for a film broadcast.",
+      "cardFront": "1939",
+      "cardBack": "Gone with the Wind"
     },
     {
       "id": "bp1940",
       "question": "What film won Best Picture at the Academy Awards in 1940?",
       "answer": "Rebecca",
       "alternateAnswers": [],
-      "explanation": "Directed by Alfred Hitchcock, this romantic psychological thriller stars Laurence Olivier, Joan Fontaine, and Judith Anderson in the story of a young bride who moves into her husband's grand estate only to find it haunted by the memory of his glamorous first wife, Rebecca. It won 2 of its 11 nominations (Best Picture and Best Cinematography), grossing $6 million. It was Hitchcock's first American film and his only Best Picture winner; he never won Best Director despite five nominations. Over 126 actresses were considered for the lead before Fontaine was cast just three days before filming. The Production Code forced the script to change Rebecca's death from murder to accident, altering the novel's ending."
+      "explanation": "Directed by Alfred Hitchcock, this romantic psychological thriller stars Laurence Olivier, Joan Fontaine, and Judith Anderson in the story of a young bride who moves into her husband's grand estate only to find it haunted by the memory of his glamorous first wife, Rebecca. It won 2 of its 11 nominations (Best Picture and Best Cinematography), grossing $6 million. It was Hitchcock's first American film and his only Best Picture winner; he never won Best Director despite five nominations. Over 126 actresses were considered for the lead before Fontaine was cast just three days before filming. The Production Code forced the script to change Rebecca's death from murder to accident, altering the novel's ending.",
+      "cardFront": "1940",
+      "cardBack": "Rebecca"
     },
     {
       "id": "bp1941",
       "question": "What film won Best Picture at the Academy Awards in 1941?",
       "answer": "How Green Was My Valley",
       "alternateAnswers": [],
-      "explanation": "Directed by John Ford, this family drama stars Walter Pidgeon, Maureen O'Hara, and young Roddy McDowall, telling the story of a Welsh mining family through the eyes of youngest son Huw as they endure labor disputes, tragedy, and the erosion of their close-knit community. It won 5 of its 10 nominations, including Best Picture and Best Director. Its victory over Citizen Kane is widely considered the greatest Oscar upset in history; it also beat The Maltese Falcon and Sergeant York. Ford built an 80-acre replica Welsh mining village in the Santa Monica Mountains near Malibu since wartime conditions made filming in actual Wales impossible. It grossed $2.4 million."
+      "explanation": "Directed by John Ford, this family drama stars Walter Pidgeon, Maureen O'Hara, and young Roddy McDowall, telling the story of a Welsh mining family through the eyes of youngest son Huw as they endure labor disputes, tragedy, and the erosion of their close-knit community. It won 5 of its 10 nominations, including Best Picture and Best Director. Its victory over Citizen Kane is widely considered the greatest Oscar upset in history; it also beat The Maltese Falcon and Sergeant York. Ford built an 80-acre replica Welsh mining village in the Santa Monica Mountains near Malibu since wartime conditions made filming in actual Wales impossible. It grossed $2.4 million.",
+      "cardFront": "1941",
+      "cardBack": "How Green Was My Valley"
     },
     {
       "id": "bp1942",
       "question": "What film won Best Picture at the Academy Awards in 1942?",
       "answer": "Mrs. Miniver",
-      "alternateAnswers": ["Mrs Miniver"],
-      "explanation": "Directed by William Wyler, this wartime drama stars Greer Garson, Walter Pidgeon, and Teresa Wright as a British housewife navigating family life while German bombs fall on her rural English village. It won 6 of its 12 nominations, including Best Picture, Best Director, Best Actress, and Best Supporting Actress. The highest-grossing film of 1942 at $8.9 million, it was such effective propaganda that Nazi minister Joseph Goebbels acknowledged its \"anti-German tendency.\" Winston Churchill said it was worth many battleships, and Roosevelt ordered it shown nationwide. Garson's acceptance speech lasted 5.5 minutes, directly prompting the Academy to impose a time limit on speeches afterward."
+      "alternateAnswers": [
+        "Mrs Miniver"
+      ],
+      "explanation": "Directed by William Wyler, this wartime drama stars Greer Garson, Walter Pidgeon, and Teresa Wright as a British housewife navigating family life while German bombs fall on her rural English village. It won 6 of its 12 nominations, including Best Picture, Best Director, Best Actress, and Best Supporting Actress. The highest-grossing film of 1942 at $8.9 million, it was such effective propaganda that Nazi minister Joseph Goebbels acknowledged its \"anti-German tendency.\" Winston Churchill said it was worth many battleships, and Roosevelt ordered it shown nationwide. Garson's acceptance speech lasted 5.5 minutes, directly prompting the Academy to impose a time limit on speeches afterward.",
+      "cardFront": "1942",
+      "cardBack": "Mrs. Miniver"
     },
     {
       "id": "bp1943",
       "question": "What film won Best Picture at the Academy Awards in 1943?",
       "answer": "Casablanca",
       "alternateAnswers": [],
-      "explanation": "Directed by Michael Curtiz, this romantic drama stars Humphrey Bogart, Ingrid Bergman, and Paul Henreid as an American nightclub owner in wartime Casablanca who must choose between his love for a woman and helping her Resistance-fighter husband escape Nazi-occupied territory. It won 3 of its 8 nominations (Best Picture, Director, Adapted Screenplay) and grossed up to $6.9 million. Only three credited actors were American-born; many cast members were actual European refugees. The famous line \"Here's looking at you, kid\" was ad-libbed by Bogart. Producer Hal Wallis was famously upstaged when studio chief Jack Warner rushed the stage to accept the Best Picture award, causing Wallis to leave the studio months later."
+      "explanation": "Directed by Michael Curtiz, this romantic drama stars Humphrey Bogart, Ingrid Bergman, and Paul Henreid as an American nightclub owner in wartime Casablanca who must choose between his love for a woman and helping her Resistance-fighter husband escape Nazi-occupied territory. It won 3 of its 8 nominations (Best Picture, Director, Adapted Screenplay) and grossed up to $6.9 million. Only three credited actors were American-born; many cast members were actual European refugees. The famous line \"Here's looking at you, kid\" was ad-libbed by Bogart. Producer Hal Wallis was famously upstaged when studio chief Jack Warner rushed the stage to accept the Best Picture award, causing Wallis to leave the studio months later.",
+      "cardFront": "1943",
+      "cardBack": "Casablanca"
     },
     {
       "id": "bp1944",
       "question": "What film won Best Picture at the Academy Awards in 1944?",
       "answer": "Going My Way",
       "alternateAnswers": [],
-      "explanation": "Directed by Leo McCarey, this musical comedy-drama stars Bing Crosby and Barry Fitzgerald as a young, unconventional priest and the elderly, traditional pastor he is sent to assist at a struggling New York parish. It dominated the Oscars with 7 wins from 10 nominations, including Best Picture, Director, Actor, and Supporting Actor. The highest-grossing film of 1944 at $6.5 million in domestic rentals, it holds a unique Oscar distinction: Barry Fitzgerald received simultaneous nominations for both Best Actor and Best Supporting Actor for the same role, a situation the Academy later prevented through a rule change. Crosby's performance cemented his status as one of Hollywood's biggest stars."
+      "explanation": "Directed by Leo McCarey, this musical comedy-drama stars Bing Crosby and Barry Fitzgerald as a young, unconventional priest and the elderly, traditional pastor he is sent to assist at a struggling New York parish. It dominated the Oscars with 7 wins from 10 nominations, including Best Picture, Director, Actor, and Supporting Actor. The highest-grossing film of 1944 at $6.5 million in domestic rentals, it holds a unique Oscar distinction: Barry Fitzgerald received simultaneous nominations for both Best Actor and Best Supporting Actor for the same role, a situation the Academy later prevented through a rule change. Crosby's performance cemented his status as one of Hollywood's biggest stars.",
+      "cardFront": "1944",
+      "cardBack": "Going My Way"
     },
     {
       "id": "bp1945",
       "question": "What film won Best Picture at the Academy Awards in 1945?",
       "answer": "The Lost Weekend",
-      "alternateAnswers": ["Lost Weekend"],
-      "explanation": "Directed by Billy Wilder, this drama stars Ray Milland and Jane Wyman in a groundbreaking portrayal of an alcoholic New York writer's devastating weekend binge. It won 4 of its 7 nominations (Best Picture, Director, Actor, Adapted Screenplay) and grossed $11 million. The liquor industry and reportedly gangster Frank Costello offered Paramount $5 million to destroy the negative and suppress the film. It is one of only four films to win both the Best Picture Oscar and the Palme d'Or at Cannes. Composer Miklos Rozsa's score was among the first to feature the theremin, and the production secured unprecedented permission to shoot inside Bellevue Hospital's actual alcoholic ward."
+      "alternateAnswers": [
+        "Lost Weekend"
+      ],
+      "explanation": "Directed by Billy Wilder, this drama stars Ray Milland and Jane Wyman in a groundbreaking portrayal of an alcoholic New York writer's devastating weekend binge. It won 4 of its 7 nominations (Best Picture, Director, Actor, Adapted Screenplay) and grossed $11 million. The liquor industry and reportedly gangster Frank Costello offered Paramount $5 million to destroy the negative and suppress the film. It is one of only four films to win both the Best Picture Oscar and the Palme d'Or at Cannes. Composer Miklos Rozsa's score was among the first to feature the theremin, and the production secured unprecedented permission to shoot inside Bellevue Hospital's actual alcoholic ward.",
+      "cardFront": "1945",
+      "cardBack": "The Lost Weekend"
     },
     {
       "id": "bp1946",
       "question": "What film won Best Picture at the Academy Awards in 1946?",
       "answer": "The Best Years of Our Lives",
-      "alternateAnswers": ["Best Years of Our Lives"],
-      "explanation": "Directed by William Wyler, this postwar drama stars Fredric March, Dana Andrews, and Myrna Loy as three WWII veterans struggling to readjust to civilian life while confronting disability, broken marriages, and economic hardship. It won 7 Oscars including Best Picture, Director, and Actor. Harold Russell, a real veteran who lost both hands in the war, received two Oscars the same night: a competitive Best Supporting Actor award and an honorary one, the only time two Oscars were given for the same performance. It grossed $23.7 million, making it one of the highest-grossing films since Gone with the Wind. He later sold his statuette in 1992 for $60,500 to pay his wife's medical bills."
+      "alternateAnswers": [
+        "Best Years of Our Lives"
+      ],
+      "explanation": "Directed by William Wyler, this postwar drama stars Fredric March, Dana Andrews, and Myrna Loy as three WWII veterans struggling to readjust to civilian life while confronting disability, broken marriages, and economic hardship. It won 7 Oscars including Best Picture, Director, and Actor. Harold Russell, a real veteran who lost both hands in the war, received two Oscars the same night: a competitive Best Supporting Actor award and an honorary one, the only time two Oscars were given for the same performance. It grossed $23.7 million, making it one of the highest-grossing films since Gone with the Wind. He later sold his statuette in 1992 for $60,500 to pay his wife's medical bills.",
+      "cardFront": "1946",
+      "cardBack": "The Best Years of Our Lives"
     },
     {
       "id": "bp1947",
       "question": "What film won Best Picture at the Academy Awards in 1947?",
       "answer": "Gentleman's Agreement",
       "alternateAnswers": [],
-      "explanation": "Directed by Elia Kazan, this social drama stars Gregory Peck, Dorothy McGuire, and John Garfield as a journalist who poses as Jewish to expose widespread antisemitism in postwar New York and Connecticut. It won 3 of its 8 nominations (Best Picture, Director, Supporting Actress for Celeste Holm) and grossed $7.8 million. Producer Darryl Zanuck was motivated after being wrongly assumed to be Jewish and denied country club membership. Several Jewish studio heads urged Zanuck not to make it, fearing unwanted attention. Cary Grant declined the lead role, and Peck's own agent warned him it could damage his career. The film was preserved in the National Film Registry in 2017."
+      "explanation": "Directed by Elia Kazan, this social drama stars Gregory Peck, Dorothy McGuire, and John Garfield as a journalist who poses as Jewish to expose widespread antisemitism in postwar New York and Connecticut. It won 3 of its 8 nominations (Best Picture, Director, Supporting Actress for Celeste Holm) and grossed $7.8 million. Producer Darryl Zanuck was motivated after being wrongly assumed to be Jewish and denied country club membership. Several Jewish studio heads urged Zanuck not to make it, fearing unwanted attention. Cary Grant declined the lead role, and Peck's own agent warned him it could damage his career. The film was preserved in the National Film Registry in 2017.",
+      "cardFront": "1947",
+      "cardBack": "Gentleman's Agreement"
     },
     {
       "id": "bp1948",
       "question": "What film won Best Picture at the Academy Awards in 1948?",
       "answer": "Hamlet",
       "alternateAnswers": [],
-      "explanation": "Directed by and starring Laurence Olivier, with Basil Sydney as Claudius and Eileen Herlie as Gertrude, this Shakespearean drama follows Prince Hamlet's quest for vengeance after learning his father was murdered by his uncle, who has now married his mother. It won 4 of its 11 nominations, including Best Picture and Best Actor. It was the first non-American film to win Best Picture and the first Shakespeare adaptation to claim the prize. Olivier directed himself to an Oscar-winning performance, a feat not repeated until Roberto Benigni in 1998. It also won the Golden Lion at Venice. The film cuts roughly 90 minutes from the play, eliminating Rosencrantz and Guildenstern entirely, and grossed $3.25 million in US rentals."
+      "explanation": "Directed by and starring Laurence Olivier, with Basil Sydney as Claudius and Eileen Herlie as Gertrude, this Shakespearean drama follows Prince Hamlet's quest for vengeance after learning his father was murdered by his uncle, who has now married his mother. It won 4 of its 11 nominations, including Best Picture and Best Actor. It was the first non-American film to win Best Picture and the first Shakespeare adaptation to claim the prize. Olivier directed himself to an Oscar-winning performance, a feat not repeated until Roberto Benigni in 1998. It also won the Golden Lion at Venice. The film cuts roughly 90 minutes from the play, eliminating Rosencrantz and Guildenstern entirely, and grossed $3.25 million in US rentals.",
+      "cardFront": "1948",
+      "cardBack": "Hamlet"
     },
     {
       "id": "bp1949",
       "question": "What film won Best Picture at the Academy Awards in 1949?",
       "answer": "All the King's Men",
       "alternateAnswers": [],
-      "explanation": "Directed by Robert Rossen, this political drama stars Broderick Crawford, John Ireland, and Mercedes McCambridge in a thinly veiled portrait of Louisiana politician Huey Long, following an idealistic small-town politician's ruthless rise to power and inevitable downfall. It won 3 of its 7 nominations (Best Picture, Best Actor for Crawford, Best Supporting Actress for McCambridge) and grossed $4.2 million on a $2 million budget. John Wayne was offered the lead but refused, finding the script unpatriotic. The film was saved in the editing room after an initial cut ran over four hours. As of 2025, it remains the last Best Picture winner based on a Pulitzer Prize-winning novel."
+      "explanation": "Directed by Robert Rossen, this political drama stars Broderick Crawford, John Ireland, and Mercedes McCambridge in a thinly veiled portrait of Louisiana politician Huey Long, following an idealistic small-town politician's ruthless rise to power and inevitable downfall. It won 3 of its 7 nominations (Best Picture, Best Actor for Crawford, Best Supporting Actress for McCambridge) and grossed $4.2 million on a $2 million budget. John Wayne was offered the lead but refused, finding the script unpatriotic. The film was saved in the editing room after an initial cut ran over four hours. As of 2025, it remains the last Best Picture winner based on a Pulitzer Prize-winning novel.",
+      "cardFront": "1949",
+      "cardBack": "All the King's Men"
     },
     {
       "id": "bp1950",
       "question": "What film won Best Picture at the Academy Awards in 1950?",
       "answer": "All About Eve",
       "alternateAnswers": [],
-      "explanation": "Directed by Joseph L. Mankiewicz, this backstage drama stars Bette Davis, Anne Baxter, and George Sanders in the story of an ambitious young fan who manipulates her way into an aging Broadway star's life, threatening both her career and relationships. It won 6 of its 14 nominations, including Best Picture and Best Director. Its 14 nominations set a record that stood for 47 years until Titanic matched it. It beat Sunset Boulevard for the top prize. The film remains the only Oscar contender to receive four female acting nominations simultaneously. Marilyn Monroe appeared in only two scenes but arrived an hour late on her first day and required 25 takes. Davis's line \"Fasten your seatbelts\" ranks among cinema's most quoted."
+      "explanation": "Directed by Joseph L. Mankiewicz, this backstage drama stars Bette Davis, Anne Baxter, and George Sanders in the story of an ambitious young fan who manipulates her way into an aging Broadway star's life, threatening both her career and relationships. It won 6 of its 14 nominations, including Best Picture and Best Director. Its 14 nominations set a record that stood for 47 years until Titanic matched it. It beat Sunset Boulevard for the top prize. The film remains the only Oscar contender to receive four female acting nominations simultaneously. Marilyn Monroe appeared in only two scenes but arrived an hour late on her first day and required 25 takes. Davis's line \"Fasten your seatbelts\" ranks among cinema's most quoted.",
+      "cardFront": "1950",
+      "cardBack": "All About Eve"
     },
     {
       "id": "bp1951",
       "question": "What film won Best Picture at the Academy Awards in 1951?",
       "answer": "An American in Paris",
       "alternateAnswers": [],
-      "explanation": "Directed by Vincente Minnelli, this musical romance stars Gene Kelly, Leslie Caron, and Oscar Levant as an American WWII veteran pursuing art and love in postwar Paris while navigating romantic rivalries. It won 6 of its 8 nominations, and Kelly also received an Honorary Oscar for his versatility. The climactic 17-minute ballet sequence cost approximately $450,000 and was filmed on 44 MGM back-lot sets inspired by French Impressionist paintings. Leslie Caron's film debut encountered Hays Office censorship over a dance sequence with a chair deemed too provocative. The film grossed $7 million on a $2.7 million budget and ranks 9th on AFI's Greatest Movie Musicals list. Damien Chazelle called it a film \"that we just pillaged\" for La La Land."
+      "explanation": "Directed by Vincente Minnelli, this musical romance stars Gene Kelly, Leslie Caron, and Oscar Levant as an American WWII veteran pursuing art and love in postwar Paris while navigating romantic rivalries. It won 6 of its 8 nominations, and Kelly also received an Honorary Oscar for his versatility. The climactic 17-minute ballet sequence cost approximately $450,000 and was filmed on 44 MGM back-lot sets inspired by French Impressionist paintings. Leslie Caron's film debut encountered Hays Office censorship over a dance sequence with a chair deemed too provocative. The film grossed $7 million on a $2.7 million budget and ranks 9th on AFI's Greatest Movie Musicals list. Damien Chazelle called it a film \"that we just pillaged\" for La La Land.",
+      "cardFront": "1951",
+      "cardBack": "An American in Paris"
     },
     {
       "id": "bp1952",
       "question": "What film won Best Picture at the Academy Awards in 1952?",
       "answer": "The Greatest Show on Earth",
-      "alternateAnswers": ["Greatest Show on Earth"],
-      "explanation": "Directed by Cecil B. DeMille, this circus drama stars Betty Hutton, Cornel Wilde, and Charlton Heston as a circus manager navigating romantic rivalries between aerialists and a mysterious clown hiding a dark past within the Ringling Bros. and Barnum & Bailey Circus. It won 2 of its 5 nominations (Best Picture and Best Story) and was the highest-grossing film of 1952 at $36 million. It is widely considered one of the weakest Best Picture winners, having beaten High Noon, The Quiet Man, and the unnominated Singin' in the Rain. Steven Spielberg credits it as the first film he saw in theaters, calling the train crash sequence a major career inspiration. Some critics cite Cold War politics favoring DeMille's conservatism over High Noon's blacklisted producer."
+      "alternateAnswers": [
+        "Greatest Show on Earth"
+      ],
+      "explanation": "Directed by Cecil B. DeMille, this circus drama stars Betty Hutton, Cornel Wilde, and Charlton Heston as a circus manager navigating romantic rivalries between aerialists and a mysterious clown hiding a dark past within the Ringling Bros. and Barnum & Bailey Circus. It won 2 of its 5 nominations (Best Picture and Best Story) and was the highest-grossing film of 1952 at $36 million. It is widely considered one of the weakest Best Picture winners, having beaten High Noon, The Quiet Man, and the unnominated Singin' in the Rain. Steven Spielberg credits it as the first film he saw in theaters, calling the train crash sequence a major career inspiration. Some critics cite Cold War politics favoring DeMille's conservatism over High Noon's blacklisted producer.",
+      "cardFront": "1952",
+      "cardBack": "The Greatest Show on Earth"
     },
     {
       "id": "bp1953",
       "question": "What film won Best Picture at the Academy Awards in 1953?",
       "answer": "From Here to Eternity",
       "alternateAnswers": [],
-      "explanation": "Directed by Fred Zinnemann, this war drama stars Burt Lancaster, Montgomery Clift, and Frank Sinatra as three US Army soldiers stationed in Hawaii navigating personal struggles and forbidden relationships in the months before the attack on Pearl Harbor. It won 8 of its 13 nominations, including Best Picture, Director, and Best Supporting Actor for Sinatra, whose career was revived by the role. It grossed $30.5 million, making it one of the decade's top-grossing films. The beach kiss between Lancaster and Deborah Kerr became one of cinema's most iconic scenes. Despite the Army's cooperation during production, the Navy banned the film from being shown to servicemen, calling it \"derogatory of a sister service.\""
+      "explanation": "Directed by Fred Zinnemann, this war drama stars Burt Lancaster, Montgomery Clift, and Frank Sinatra as three US Army soldiers stationed in Hawaii navigating personal struggles and forbidden relationships in the months before the attack on Pearl Harbor. It won 8 of its 13 nominations, including Best Picture, Director, and Best Supporting Actor for Sinatra, whose career was revived by the role. It grossed $30.5 million, making it one of the decade's top-grossing films. The beach kiss between Lancaster and Deborah Kerr became one of cinema's most iconic scenes. Despite the Army's cooperation during production, the Navy banned the film from being shown to servicemen, calling it \"derogatory of a sister service.\"",
+      "cardFront": "1953",
+      "cardBack": "From Here to Eternity"
     },
     {
       "id": "bp1954",
       "question": "What film won Best Picture at the Academy Awards in 1954?",
       "answer": "On the Waterfront",
       "alternateAnswers": [],
-      "explanation": "Directed by Elia Kazan, this crime drama stars Marlon Brando, Eva Marie Saint, and Karl Malden as a former boxer turned longshoreman who confronts mob corruption on the New Jersey waterfront after witnessing a murder. It won 8 of its 12 nominations, including Best Picture, Director, Actor, and Supporting Actress for Saint in her film debut. Brando's \"I coulda been a contender\" speech ranks 3rd on AFI's Movie Quotes list. Kazan made the film partly to justify naming names before the House Un-American Activities Committee. It was filmed in 36 days on location in Hoboken, New Jersey, and features Leonard Bernstein's only original film score. It grossed $9.6 million and ranks 8th on AFI's greatest films list."
+      "explanation": "Directed by Elia Kazan, this crime drama stars Marlon Brando, Eva Marie Saint, and Karl Malden as a former boxer turned longshoreman who confronts mob corruption on the New Jersey waterfront after witnessing a murder. It won 8 of its 12 nominations, including Best Picture, Director, Actor, and Supporting Actress for Saint in her film debut. Brando's \"I coulda been a contender\" speech ranks 3rd on AFI's Movie Quotes list. Kazan made the film partly to justify naming names before the House Un-American Activities Committee. It was filmed in 36 days on location in Hoboken, New Jersey, and features Leonard Bernstein's only original film score. It grossed $9.6 million and ranks 8th on AFI's greatest films list.",
+      "cardFront": "1954",
+      "cardBack": "On the Waterfront"
     },
     {
       "id": "bp1955",
       "question": "What film won Best Picture at the Academy Awards in 1955?",
       "answer": "Marty",
       "alternateAnswers": [],
-      "explanation": "Directed by Delbert Mann in his feature debut, this romantic drama stars Ernest Borgnine and Betsy Blair as a lonely Bronx butcher and a plain schoolteacher who find unexpected love despite social pressure from family and friends. It won 4 of its 8 nominations (Best Picture, Director, Actor, Adapted Screenplay) on a tiny $350,000 budget, making it the shortest Best Picture winner at 90 minutes. It was the first film ever to win the Palme d'Or at Cannes and is one of only four films to win both the Palme d'Or and Best Picture. Gene Kelly leveraged his MGM contract to pressure the studio into casting his blacklisted wife Betsy Blair, threatening to pull out of another film if she did not get the part."
+      "explanation": "Directed by Delbert Mann in his feature debut, this romantic drama stars Ernest Borgnine and Betsy Blair as a lonely Bronx butcher and a plain schoolteacher who find unexpected love despite social pressure from family and friends. It won 4 of its 8 nominations (Best Picture, Director, Actor, Adapted Screenplay) on a tiny $350,000 budget, making it the shortest Best Picture winner at 90 minutes. It was the first film ever to win the Palme d'Or at Cannes and is one of only four films to win both the Palme d'Or and Best Picture. Gene Kelly leveraged his MGM contract to pressure the studio into casting his blacklisted wife Betsy Blair, threatening to pull out of another film if she did not get the part.",
+      "cardFront": "1955",
+      "cardBack": "Marty"
     },
     {
       "id": "bp1956",
       "question": "What film won Best Picture at the Academy Awards in 1956?",
       "answer": "Around the World in 80 Days",
-      "alternateAnswers": ["Around the World in Eighty Days"],
-      "explanation": "Directed by Michael Anderson, this epic adventure-comedy stars David Niven, Cantinflas, and Shirley MacLaine as an English gentleman who wagers he can circumnavigate the globe in exactly 80 days, traveling with his resourceful French valet across continents. It won 5 of its 8 nominations and grossed $42 million on a $6 million budget. It featured more than 40 celebrity cameos, including Frank Sinatra, Marlene Dietrich, Buster Keaton, and Noel Coward. The production used approximately 68,894 cast members and extras plus 7,959 animals, with wardrobe creating 74,685 costumes. It beat Friendly Persuasion, Giant, The King and I, and The Ten Commandments. Producer Mike Todd died in a plane crash just 18 months after release."
+      "alternateAnswers": [
+        "Around the World in Eighty Days"
+      ],
+      "explanation": "Directed by Michael Anderson, this epic adventure-comedy stars David Niven, Cantinflas, and Shirley MacLaine as an English gentleman who wagers he can circumnavigate the globe in exactly 80 days, traveling with his resourceful French valet across continents. It won 5 of its 8 nominations and grossed $42 million on a $6 million budget. It featured more than 40 celebrity cameos, including Frank Sinatra, Marlene Dietrich, Buster Keaton, and Noel Coward. The production used approximately 68,894 cast members and extras plus 7,959 animals, with wardrobe creating 74,685 costumes. It beat Friendly Persuasion, Giant, The King and I, and The Ten Commandments. Producer Mike Todd died in a plane crash just 18 months after release.",
+      "cardFront": "1956",
+      "cardBack": "Around the World in 80 Days"
     },
     {
       "id": "bp1957",
       "question": "What film won Best Picture at the Academy Awards in 1957?",
       "answer": "The Bridge on the River Kwai",
-      "alternateAnswers": ["Bridge on the River Kwai"],
-      "explanation": "Directed by David Lean, this epic war drama stars Alec Guinness, William Holden, and Jack Hawkins as British POWs forced by Japanese captors to construct a railway bridge in Thailand during WWII, exploring the tensions between duty and collaboration. It won 7 of its 8 nominations, including Best Picture and Best Director, and grossed $30.6 million. Blacklisted screenwriters Carl Foreman and Michael Wilson worked in secret; Pierre Boulle received sole credit and the Oscar despite not writing in English. The Academy did not correct this until 1984. The famous whistled march was added because Lean needed extras to march in time. Warren Buffett has cited it as his favorite film."
+      "alternateAnswers": [
+        "Bridge on the River Kwai"
+      ],
+      "explanation": "Directed by David Lean, this epic war drama stars Alec Guinness, William Holden, and Jack Hawkins as British POWs forced by Japanese captors to construct a railway bridge in Thailand during WWII, exploring the tensions between duty and collaboration. It won 7 of its 8 nominations, including Best Picture and Best Director, and grossed $30.6 million. Blacklisted screenwriters Carl Foreman and Michael Wilson worked in secret; Pierre Boulle received sole credit and the Oscar despite not writing in English. The Academy did not correct this until 1984. The famous whistled march was added because Lean needed extras to march in time. Warren Buffett has cited it as his favorite film.",
+      "cardFront": "1957",
+      "cardBack": "The Bridge on the River Kwai"
     },
     {
       "id": "bp1958",
       "question": "What film won Best Picture at the Academy Awards in 1958?",
       "answer": "Gigi",
       "alternateAnswers": [],
-      "explanation": "Directed by Vincente Minnelli, this musical romance stars Leslie Caron, Maurice Chevalier, and Louis Jourdan in the story of a young Parisian woman being groomed as a courtesan who instead wins the genuine love of a wealthy playboy. It achieved a perfect sweep, winning all 9 of its nominations including Best Picture and Best Director, a record that stood until Ben-Hur won 11 the following year. Songs by Lerner and Loewe include the memorable title number, which was composed spontaneously when lyricist Alan Jay Lerner jumped up with \"his trousers still clinging to his ankles\" upon hearing the melody. It was the last great gasp of the classic MGM musical era, filmed at the famous Maxim's restaurant in Paris."
+      "explanation": "Directed by Vincente Minnelli, this musical romance stars Leslie Caron, Maurice Chevalier, and Louis Jourdan in the story of a young Parisian woman being groomed as a courtesan who instead wins the genuine love of a wealthy playboy. It achieved a perfect sweep, winning all 9 of its nominations including Best Picture and Best Director, a record that stood until Ben-Hur won 11 the following year. Songs by Lerner and Loewe include the memorable title number, which was composed spontaneously when lyricist Alan Jay Lerner jumped up with \"his trousers still clinging to his ankles\" upon hearing the melody. It was the last great gasp of the classic MGM musical era, filmed at the famous Maxim's restaurant in Paris.",
+      "cardFront": "1958",
+      "cardBack": "Gigi"
     },
     {
       "id": "bp1959",
       "question": "What film won Best Picture at the Academy Awards in 1959?",
       "answer": "Ben-Hur",
-      "alternateAnswers": ["Ben Hur"],
-      "explanation": "Directed by William Wyler, this religious epic stars Charlton Heston, Stephen Boyd, and Jack Hawkins as a Jewish prince betrayed by his Roman childhood friend, condemned to slavery, and returning as a champion charioteer seeking vengeance and redemption. It won a then-record 11 of its 12 nominations, a record unmatched for 38 years. The nine-minute chariot race took five weeks to film, used 78 specially trained horses, and shot over 200 miles of racing footage at a cost of $1 million. It grossed $146.9 million, becoming the second highest-grossing film ever behind Gone with the Wind. Producer Sam Zimbalist died during filming, and at $15.2 million, it was the most expensive film ever made at the time."
+      "alternateAnswers": [
+        "Ben Hur"
+      ],
+      "explanation": "Directed by William Wyler, this religious epic stars Charlton Heston, Stephen Boyd, and Jack Hawkins as a Jewish prince betrayed by his Roman childhood friend, condemned to slavery, and returning as a champion charioteer seeking vengeance and redemption. It won a then-record 11 of its 12 nominations, a record unmatched for 38 years. The nine-minute chariot race took five weeks to film, used 78 specially trained horses, and shot over 200 miles of racing footage at a cost of $1 million. It grossed $146.9 million, becoming the second highest-grossing film ever behind Gone with the Wind. Producer Sam Zimbalist died during filming, and at $15.2 million, it was the most expensive film ever made at the time.",
+      "cardFront": "1959",
+      "cardBack": "Ben-Hur"
     },
     {
       "id": "bp1960",
       "question": "What film won Best Picture at the Academy Awards in 1960?",
       "answer": "The Apartment",
       "alternateAnswers": [],
-      "explanation": "Directed by Billy Wilder, this romantic comedy stars Jack Lemmon, Shirley MacLaine, and Fred MacMurray as an ambitious insurance clerk who lends his apartment to executives for their affairs hoping to advance his career, until he falls for an elevator operator involved with his boss. It won 5 of its 10 nominations, including Best Picture, Director, and Original Screenplay. It was the last black-and-white film to win Best Picture until Schindler's List in 1993, and grossed $24.6 million. Wilder let Lemmon improvise, including the famous scene of straining spaghetti through a tennis racket. The sprawling office sequence was inspired by King Vidor's 1928 film The Crowd."
+      "explanation": "Directed by Billy Wilder, this romantic comedy stars Jack Lemmon, Shirley MacLaine, and Fred MacMurray as an ambitious insurance clerk who lends his apartment to executives for their affairs hoping to advance his career, until he falls for an elevator operator involved with his boss. It won 5 of its 10 nominations, including Best Picture, Director, and Original Screenplay. It was the last black-and-white film to win Best Picture until Schindler's List in 1993, and grossed $24.6 million. Wilder let Lemmon improvise, including the famous scene of straining spaghetti through a tennis racket. The sprawling office sequence was inspired by King Vidor's 1928 film The Crowd.",
+      "cardFront": "1960",
+      "cardBack": "The Apartment"
     },
     {
       "id": "bp1961",
       "question": "What film won Best Picture at the Academy Awards in 1961?",
       "answer": "West Side Story",
       "alternateAnswers": [],
-      "explanation": "Co-directed by Robert Wise and Jerome Robbins, this musical drama stars Natalie Wood, Richard Beymer, and Russ Tamblyn in a modern retelling of Romeo and Juliet set among rival New York street gangs, the Jets and the Sharks. It won 10 of its 11 nominations, still the record for most wins by a musical. Rita Moreno became the first Latina to win an Oscar for Best Supporting Actress as Anita. It grossed $44.1 million, the highest for a musical until The Sound of Music. Natalie Wood's singing was dubbed by Marni Nixon without her knowledge, and Robbins was fired midway through production for budget overruns but still received co-directing credit and a special Oscar."
+      "explanation": "Co-directed by Robert Wise and Jerome Robbins, this musical drama stars Natalie Wood, Richard Beymer, and Russ Tamblyn in a modern retelling of Romeo and Juliet set among rival New York street gangs, the Jets and the Sharks. It won 10 of its 11 nominations, still the record for most wins by a musical. Rita Moreno became the first Latina to win an Oscar for Best Supporting Actress as Anita. It grossed $44.1 million, the highest for a musical until The Sound of Music. Natalie Wood's singing was dubbed by Marni Nixon without her knowledge, and Robbins was fired midway through production for budget overruns but still received co-directing credit and a special Oscar.",
+      "cardFront": "1961",
+      "cardBack": "West Side Story"
     },
     {
       "id": "bp1962",
       "question": "What film won Best Picture at the Academy Awards in 1962?",
       "answer": "Lawrence of Arabia",
       "alternateAnswers": [],
-      "explanation": "Directed by David Lean, this epic biographical drama stars Peter O'Toole, Alec Guinness, and Omar Sharif as British officer T.E. Lawrence who leads an Arab revolt against the Ottoman Empire during WWI while struggling with his own identity and moral compass. It won 7 of its 10 nominations, including Best Picture and Best Director. Running approximately 222 minutes, it was filmed in the actual deserts of Jordan and Morocco. Composer Maurice Jarre had just six weeks to write two hours of orchestral music and won his first Oscar for the score. O'Toole was nominated for Best Actor but lost, beginning a record streak of eight nominations without a win. It grossed $70 million worldwide."
+      "explanation": "Directed by David Lean, this epic biographical drama stars Peter O'Toole, Alec Guinness, and Omar Sharif as British officer T.E. Lawrence who leads an Arab revolt against the Ottoman Empire during WWI while struggling with his own identity and moral compass. It won 7 of its 10 nominations, including Best Picture and Best Director. Running approximately 222 minutes, it was filmed in the actual deserts of Jordan and Morocco. Composer Maurice Jarre had just six weeks to write two hours of orchestral music and won his first Oscar for the score. O'Toole was nominated for Best Actor but lost, beginning a record streak of eight nominations without a win. It grossed $70 million worldwide.",
+      "cardFront": "1962",
+      "cardBack": "Lawrence of Arabia"
     },
     {
       "id": "bp1963",
       "question": "What film won Best Picture at the Academy Awards in 1963?",
       "answer": "Tom Jones",
       "alternateAnswers": [],
-      "explanation": "Directed by Tony Richardson, this bawdy period comedy stars Albert Finney, Susannah York, and Hugh Griffith in the story of a foundling raised by a wealthy squire who navigates romance, scandal, and near-execution in 18th-century England before winning fortune and love. It won 4 of its 10 nominations (Best Picture, Director, Adapted Screenplay, Original Score) and was enormously profitable, grossing $17 million in US rentals on a tiny budget under $500,000. It is the only film in Oscar history where three actresses received Best Supporting Actress nominations simultaneously. Richardson himself was dissatisfied with the result, calling it \"incomplete and botched in much of its execution.\" The film constantly breaks the fourth wall, a daring technique for its era."
+      "explanation": "Directed by Tony Richardson, this bawdy period comedy stars Albert Finney, Susannah York, and Hugh Griffith in the story of a foundling raised by a wealthy squire who navigates romance, scandal, and near-execution in 18th-century England before winning fortune and love. It won 4 of its 10 nominations (Best Picture, Director, Adapted Screenplay, Original Score) and was enormously profitable, grossing $17 million in US rentals on a tiny budget under $500,000. It is the only film in Oscar history where three actresses received Best Supporting Actress nominations simultaneously. Richardson himself was dissatisfied with the result, calling it \"incomplete and botched in much of its execution.\" The film constantly breaks the fourth wall, a daring technique for its era.",
+      "cardFront": "1963",
+      "cardBack": "Tom Jones"
     },
     {
       "id": "bp1964",
       "question": "What film won Best Picture at the Academy Awards in 1964?",
       "answer": "My Fair Lady",
       "alternateAnswers": [],
-      "explanation": "Directed by George Cukor, this musical comedy stars Audrey Hepburn, Rex Harrison, and Stanley Holloway as a phonetics professor who wagers he can teach a Cockney flower seller to pass as a duchess. It won 8 of its 12 nominations, including Best Picture, Director, and Best Actor for Harrison. Hepburn's singing was dubbed by Marni Nixon for most songs. Julie Andrews, who originated the role on Broadway, was passed over for the film but won Best Actress that same night for Mary Poppins. At $17 million, it was the most expensive American film of its time. Harrison used an early wireless microphone hidden in his necktie, a first for motion pictures. It grossed $72.7 million domestically."
+      "explanation": "Directed by George Cukor, this musical comedy stars Audrey Hepburn, Rex Harrison, and Stanley Holloway as a phonetics professor who wagers he can teach a Cockney flower seller to pass as a duchess. It won 8 of its 12 nominations, including Best Picture, Director, and Best Actor for Harrison. Hepburn's singing was dubbed by Marni Nixon for most songs. Julie Andrews, who originated the role on Broadway, was passed over for the film but won Best Actress that same night for Mary Poppins. At $17 million, it was the most expensive American film of its time. Harrison used an early wireless microphone hidden in his necktie, a first for motion pictures. It grossed $72.7 million domestically.",
+      "cardFront": "1964",
+      "cardBack": "My Fair Lady"
     },
     {
       "id": "bp1965",
       "question": "What film won Best Picture at the Academy Awards in 1965?",
       "answer": "The Sound of Music",
-      "alternateAnswers": ["Sound of Music"],
-      "explanation": "Directed by Robert Wise, this musical drama stars Julie Andrews and Christopher Plummer as a free-spirited governess and the widowed Austrian naval captain she falls in love with while caring for his seven children and helping the family escape Nazi occupation. It won 5 of its 10 nominations and grossed $287.8 million worldwide, becoming the highest-grossing film in history by November 1966, surpassing Gone with the Wind. It was the first film to gross over $100 million and saved 20th Century Fox from bankruptcy. The real Maria von Trapp makes an uncredited cameo during the \"I Have Confidence\" sequence. Plummer's singing was dubbed, and Salzburg officials initially opposed scenes with swastika banners until Wise threatened to use actual newsreel footage."
+      "alternateAnswers": [
+        "Sound of Music"
+      ],
+      "explanation": "Directed by Robert Wise, this musical drama stars Julie Andrews and Christopher Plummer as a free-spirited governess and the widowed Austrian naval captain she falls in love with while caring for his seven children and helping the family escape Nazi occupation. It won 5 of its 10 nominations and grossed $287.8 million worldwide, becoming the highest-grossing film in history by November 1966, surpassing Gone with the Wind. It was the first film to gross over $100 million and saved 20th Century Fox from bankruptcy. The real Maria von Trapp makes an uncredited cameo during the \"I Have Confidence\" sequence. Plummer's singing was dubbed, and Salzburg officials initially opposed scenes with swastika banners until Wise threatened to use actual newsreel footage.",
+      "cardFront": "1965",
+      "cardBack": "The Sound of Music"
     },
     {
       "id": "bp1966",
       "question": "What film won Best Picture at the Academy Awards in 1966?",
       "answer": "A Man for All Seasons",
-      "alternateAnswers": ["Man for All Seasons"],
-      "explanation": "Directed by Fred Zinnemann, this historical drama stars Paul Scofield, Wendy Hiller, and Leo McKern in the story of Sir Thomas More's principled refusal to endorse Henry VIII's divorce and supremacy over the English Church, leading to his execution. It achieved a remarkable 6 wins from 6 nominations, including Best Picture, Director, and Actor for Scofield, who reprised his acclaimed stage performance. Made for under $2 million, actors took pay cuts; John Hurt earned only 3,000 pounds for his breakout film role. Vanessa Redgrave appeared as Anne Boleyn without billing or payment, simply \"for the fun of it.\" It grossed $28.35 million domestically and the Vatican later included it in their 1995 list of important films."
+      "alternateAnswers": [
+        "Man for All Seasons"
+      ],
+      "explanation": "Directed by Fred Zinnemann, this historical drama stars Paul Scofield, Wendy Hiller, and Leo McKern in the story of Sir Thomas More's principled refusal to endorse Henry VIII's divorce and supremacy over the English Church, leading to his execution. It achieved a remarkable 6 wins from 6 nominations, including Best Picture, Director, and Actor for Scofield, who reprised his acclaimed stage performance. Made for under $2 million, actors took pay cuts; John Hurt earned only 3,000 pounds for his breakout film role. Vanessa Redgrave appeared as Anne Boleyn without billing or payment, simply \"for the fun of it.\" It grossed $28.35 million domestically and the Vatican later included it in their 1995 list of important films.",
+      "cardFront": "1966",
+      "cardBack": "A Man for All Seasons"
     },
     {
       "id": "bp1967",
       "question": "What film won Best Picture at the Academy Awards in 1967?",
       "answer": "In the Heat of the Night",
       "alternateAnswers": [],
-      "explanation": "Directed by Norman Jewison, this mystery drama stars Sidney Poitier and Rod Steiger as a Black Philadelphia detective and a racist Mississippi police chief forced to work together to solve a murder. It won 5 of its 7 nominations, including Best Picture and Best Actor for Steiger, and grossed $24.4 million on a $2 million budget. Poitier's line \"They call me Mister Tibbs!\" ranks 16th on AFI's greatest movie quotes. Poitier contractually insisted on the scene where his character slaps back after being slapped, requiring it appear in every version. Cinematographer Haskell Wexler pioneered lighting techniques specifically designed for proper photographic representation of darker skin tones, a groundbreaking first for major Hollywood productions."
+      "explanation": "Directed by Norman Jewison, this mystery drama stars Sidney Poitier and Rod Steiger as a Black Philadelphia detective and a racist Mississippi police chief forced to work together to solve a murder. It won 5 of its 7 nominations, including Best Picture and Best Actor for Steiger, and grossed $24.4 million on a $2 million budget. Poitier's line \"They call me Mister Tibbs!\" ranks 16th on AFI's greatest movie quotes. Poitier contractually insisted on the scene where his character slaps back after being slapped, requiring it appear in every version. Cinematographer Haskell Wexler pioneered lighting techniques specifically designed for proper photographic representation of darker skin tones, a groundbreaking first for major Hollywood productions.",
+      "cardFront": "1967",
+      "cardBack": "In the Heat of the Night"
     },
     {
       "id": "bp1968",
       "question": "What film won Best Picture at the Academy Awards in 1968?",
       "answer": "Oliver!",
-      "alternateAnswers": ["Oliver"],
-      "explanation": "Directed by Carol Reed, this British musical stars Ron Moody, Mark Lester, and Oliver Reed as Fagin, the orphan Oliver Twist, and the menacing Bill Sikes in Dickens's tale of an orphan who escapes a workhouse only to fall in with a gang of child pickpockets in Victorian London. It won 6 of its 11 nominations, including Best Picture and Best Director. It was the last G-rated film to win Best Picture (the MPAA rating system was brand new that year) and the last musical to win until Chicago 34 years later. It was also the last British film to win Best Picture until Chariots of Fire in 1981. Producer John Woolf suggested Oliver Reed for his role without realizing the actor was director Carol Reed's nephew. It grossed $40 million worldwide."
+      "alternateAnswers": [
+        "Oliver"
+      ],
+      "explanation": "Directed by Carol Reed, this British musical stars Ron Moody, Mark Lester, and Oliver Reed as Fagin, the orphan Oliver Twist, and the menacing Bill Sikes in Dickens's tale of an orphan who escapes a workhouse only to fall in with a gang of child pickpockets in Victorian London. It won 6 of its 11 nominations, including Best Picture and Best Director. It was the last G-rated film to win Best Picture (the MPAA rating system was brand new that year) and the last musical to win until Chicago 34 years later. It was also the last British film to win Best Picture until Chariots of Fire in 1981. Producer John Woolf suggested Oliver Reed for his role without realizing the actor was director Carol Reed's nephew. It grossed $40 million worldwide.",
+      "cardFront": "1968",
+      "cardBack": "Oliver!"
     },
     {
       "id": "bp1969",
       "question": "What film won Best Picture at the Academy Awards in 1969?",
       "answer": "Midnight Cowboy",
       "alternateAnswers": [],
-      "explanation": "Directed by John Schlesinger, this gritty drama stars Dustin Hoffman and Jon Voight as a struggling con man named Ratso Rizzo and a naive Texan who arrives in New York City hoping to become a male hustler, forming an unlikely friendship amid urban poverty. It won 3 of its 7 nominations (Best Picture, Director, Adapted Screenplay) and grossed $44.8 million. It remains the only X-rated film ever to win Best Picture and was later reclassified to R without any cuts. Hoffman's famous line \"I'm walkin' here!\" ranks 27th on AFI's Movie Quotes list, though whether it was truly ad-libbed remains disputed. Voight, playing an out-of-place Texan, was actually from Yonkers, New York. The Muppets character Rizzo the Rat was named after Hoffman's character."
+      "explanation": "Directed by John Schlesinger, this gritty drama stars Dustin Hoffman and Jon Voight as a struggling con man named Ratso Rizzo and a naive Texan who arrives in New York City hoping to become a male hustler, forming an unlikely friendship amid urban poverty. It won 3 of its 7 nominations (Best Picture, Director, Adapted Screenplay) and grossed $44.8 million. It remains the only X-rated film ever to win Best Picture and was later reclassified to R without any cuts. Hoffman's famous line \"I'm walkin' here!\" ranks 27th on AFI's Movie Quotes list, though whether it was truly ad-libbed remains disputed. Voight, playing an out-of-place Texan, was actually from Yonkers, New York. The Muppets character Rizzo the Rat was named after Hoffman's character.",
+      "cardFront": "1969",
+      "cardBack": "Midnight Cowboy"
     },
     {
       "id": "bp1970",
       "question": "What film won Best Picture at the Academy Awards in 1970?",
       "answer": "Patton",
       "alternateAnswers": [],
-      "explanation": "Directed by Franklin J. Schaffner, this epic biographical war film stars George C. Scott and Karl Malden as General George Patton and General Omar Bradley, following Patton's restoration of the demoralized II Corps in North Africa through campaigns in Sicily, France, and the Battle of the Bulge. It won 7 of its 10 nominations, including Best Picture, Director, and Actor. Scott became the first person to refuse the Best Actor Oscar, calling the ceremony a \"meat parade.\" It grossed $61.7 million on a $12.6 million budget. The iconic opening monologue before a massive American flag was shot in one afternoon. President Nixon watched it repeatedly at the White House and reportedly screened it before his decision to invade Cambodia. Filming spanned 71 locations across six countries."
+      "explanation": "Directed by Franklin J. Schaffner, this epic biographical war film stars George C. Scott and Karl Malden as General George Patton and General Omar Bradley, following Patton's restoration of the demoralized II Corps in North Africa through campaigns in Sicily, France, and the Battle of the Bulge. It won 7 of its 10 nominations, including Best Picture, Director, and Actor. Scott became the first person to refuse the Best Actor Oscar, calling the ceremony a \"meat parade.\" It grossed $61.7 million on a $12.6 million budget. The iconic opening monologue before a massive American flag was shot in one afternoon. President Nixon watched it repeatedly at the White House and reportedly screened it before his decision to invade Cambodia. Filming spanned 71 locations across six countries.",
+      "cardFront": "1970",
+      "cardBack": "Patton"
     },
     {
       "id": "bp1971",
       "question": "What film won Best Picture at the Academy Awards in 1971?",
       "answer": "The French Connection",
-      "alternateAnswers": ["French Connection"],
-      "explanation": "Directed by William Friedkin, this neo-noir action thriller stars Gene Hackman, Roy Scheider, and Fernando Rey as NYPD detectives pursuing a wealthy French heroin smuggler through the streets of New York. It won 5 of its 8 nominations (Best Picture, Director, Actor, Editing, Adapted Screenplay) and grossed $75 million. The iconic car-versus-elevated-train chase through Brooklyn was filmed without full permits on real streets, with the cinematographer undercranking to 18 frames per second to enhance the sense of speed; some vehicle collisions were accidental but left in the final cut. Friedkin initially opposed casting Hackman, considering Paul Newman and Jackie Gleason. Fernando Rey was cast by mistake when Friedkin confused him with a different Spanish actor from a Luis Bunuel film."
+      "alternateAnswers": [
+        "French Connection"
+      ],
+      "explanation": "Directed by William Friedkin, this neo-noir action thriller stars Gene Hackman, Roy Scheider, and Fernando Rey as NYPD detectives pursuing a wealthy French heroin smuggler through the streets of New York. It won 5 of its 8 nominations (Best Picture, Director, Actor, Editing, Adapted Screenplay) and grossed $75 million. The iconic car-versus-elevated-train chase through Brooklyn was filmed without full permits on real streets, with the cinematographer undercranking to 18 frames per second to enhance the sense of speed; some vehicle collisions were accidental but left in the final cut. Friedkin initially opposed casting Hackman, considering Paul Newman and Jackie Gleason. Fernando Rey was cast by mistake when Friedkin confused him with a different Spanish actor from a Luis Bunuel film.",
+      "cardFront": "1971",
+      "cardBack": "The French Connection"
     },
     {
       "id": "bp1972",
       "question": "What film won Best Picture at the Academy Awards in 1972?",
       "answer": "The Godfather",
-      "alternateAnswers": ["Godfather"],
-      "explanation": "Directed by Francis Ford Coppola, this epic crime drama stars Marlon Brando, Al Pacino, and James Caan as the aging patriarch, reluctant heir, and hot-headed eldest son of the Corleone mafia dynasty, chronicling a WWII veteran's gradual transformation into a ruthless crime boss. It won 3 of its 10 nominations (Best Picture, Actor, Adapted Screenplay) and earned $250-291 million, making it the highest-grossing film of 1972. Brando used cotton balls in his cheeks to create Vito Corleone's distinctive voice and sent Sacheen Littlefeather to decline his Oscar in protest of Hollywood's treatment of Native Americans. An actual severed horse head was used in filming. Paramount acquired rights for just $80,000 before the novel became a bestseller, and Coppola was nearly fired multiple times."
+      "alternateAnswers": [
+        "Godfather"
+      ],
+      "explanation": "Directed by Francis Ford Coppola, this epic crime drama stars Marlon Brando, Al Pacino, and James Caan as the aging patriarch, reluctant heir, and hot-headed eldest son of the Corleone mafia dynasty, chronicling a WWII veteran's gradual transformation into a ruthless crime boss. It won 3 of its 10 nominations (Best Picture, Actor, Adapted Screenplay) and earned $250-291 million, making it the highest-grossing film of 1972. Brando used cotton balls in his cheeks to create Vito Corleone's distinctive voice and sent Sacheen Littlefeather to decline his Oscar in protest of Hollywood's treatment of Native Americans. An actual severed horse head was used in filming. Paramount acquired rights for just $80,000 before the novel became a bestseller, and Coppola was nearly fired multiple times.",
+      "cardFront": "1972",
+      "cardBack": "The Godfather"
     },
     {
       "id": "bp1973",
       "question": "What film won Best Picture at the Academy Awards in 1973?",
       "answer": "The Sting",
       "alternateAnswers": [],
-      "explanation": "Directed by George Roy Hill, this caper film stars Paul Newman, Robert Redford, and Robert Shaw as two Depression-era con artists who orchestrate an elaborate scheme to swindle a ruthless mob boss, reuniting the Butch Cassidy duo. It won 7 of its 10 nominations, including Best Picture and Best Director, and grossed $257 million worldwide. The ragtime-era soundtrack featuring Marvin Hamlisch's adaptations of Scott Joplin's music sparked a nationwide Joplin revival 60 years after his death and topped the Billboard charts. Jack Nicholson turned down the lead role. Academic David Maurer sued for plagiarism over his 1940 book The Big Con, and Universal settled for $600,000. Robert Shaw's limp in the film was real, from a handball injury."
+      "explanation": "Directed by George Roy Hill, this caper film stars Paul Newman, Robert Redford, and Robert Shaw as two Depression-era con artists who orchestrate an elaborate scheme to swindle a ruthless mob boss, reuniting the Butch Cassidy duo. It won 7 of its 10 nominations, including Best Picture and Best Director, and grossed $257 million worldwide. The ragtime-era soundtrack featuring Marvin Hamlisch's adaptations of Scott Joplin's music sparked a nationwide Joplin revival 60 years after his death and topped the Billboard charts. Jack Nicholson turned down the lead role. Academic David Maurer sued for plagiarism over his 1940 book The Big Con, and Universal settled for $600,000. Robert Shaw's limp in the film was real, from a handball injury.",
+      "cardFront": "1973",
+      "cardBack": "The Sting"
     },
     {
       "id": "bp1974",
       "question": "What film won Best Picture at the Academy Awards in 1974?",
       "answer": "The Godfather Part II",
-      "alternateAnswers": ["Godfather Part II", "Godfather Part 2", "The Godfather Part 2"],
-      "explanation": "Directed by Francis Ford Coppola, this epic crime saga stars Al Pacino, Robert De Niro, and Robert Duvall, interweaving Michael Corleone's expansion of the family's criminal empire in 1958 with his father Vito's rise from Sicilian immigrant to crime boss in early 1900s New York. It won 6 of its 11 nominations, including Best Picture, Director, and Supporting Actor for De Niro, who performed almost entirely in Sicilian dialect. The first sequel ever to win Best Picture, it grossed $93 million worldwide. Marlon Brando was set to appear in a flashback but failed to show up, forcing Coppola to rewrite the scene the same day. It was the last major American film made using Technicolor's dye imbibition process for decades."
+      "alternateAnswers": [
+        "Godfather Part II",
+        "Godfather Part 2",
+        "The Godfather Part 2"
+      ],
+      "explanation": "Directed by Francis Ford Coppola, this epic crime saga stars Al Pacino, Robert De Niro, and Robert Duvall, interweaving Michael Corleone's expansion of the family's criminal empire in 1958 with his father Vito's rise from Sicilian immigrant to crime boss in early 1900s New York. It won 6 of its 11 nominations, including Best Picture, Director, and Supporting Actor for De Niro, who performed almost entirely in Sicilian dialect. The first sequel ever to win Best Picture, it grossed $93 million worldwide. Marlon Brando was set to appear in a flashback but failed to show up, forcing Coppola to rewrite the scene the same day. It was the last major American film made using Technicolor's dye imbibition process for decades.",
+      "cardFront": "1974",
+      "cardBack": "The Godfather Part II"
     },
     {
       "id": "bp1975",
       "question": "What film won Best Picture at the Academy Awards in 1975?",
       "answer": "One Flew Over the Cuckoo's Nest",
-      "alternateAnswers": ["One Flew Over the Cuckoos Nest"],
-      "explanation": "Directed by Milos Forman, this psychological comedy-drama stars Jack Nicholson, Louise Fletcher, and Will Sampson as a rebellious inmate who feigns mental illness to avoid prison labor and clashes with an authoritarian nurse at a psychiatric hospital. It swept all five major categories (Picture, Director, Actor, Actress, Screenplay), only the second film to achieve this after It Happened One Night. It won 5 of its 9 nominations and grossed $163 million worldwide. The production took 13 years to develop after Kirk Douglas originally optioned it in 1962. It was shot entirely at Oregon State Hospital, a real psychiatric facility, where Nicholson met actual patients to research electroconvulsive therapy. Will Sampson and Brad Dourif had never acted professionally before, and Christopher Lloyd made his film debut."
+      "alternateAnswers": [
+        "One Flew Over the Cuckoos Nest"
+      ],
+      "explanation": "Directed by Milos Forman, this psychological comedy-drama stars Jack Nicholson, Louise Fletcher, and Will Sampson as a rebellious inmate who feigns mental illness to avoid prison labor and clashes with an authoritarian nurse at a psychiatric hospital. It swept all five major categories (Picture, Director, Actor, Actress, Screenplay), only the second film to achieve this after It Happened One Night. It won 5 of its 9 nominations and grossed $163 million worldwide. The production took 13 years to develop after Kirk Douglas originally optioned it in 1962. It was shot entirely at Oregon State Hospital, a real psychiatric facility, where Nicholson met actual patients to research electroconvulsive therapy. Will Sampson and Brad Dourif had never acted professionally before, and Christopher Lloyd made his film debut.",
+      "cardFront": "1975",
+      "cardBack": "One Flew Over the Cuckoo's Nest"
     },
     {
       "id": "bp1976",
       "question": "What film won Best Picture at the Academy Awards in 1976?",
       "answer": "Rocky",
       "alternateAnswers": [],
-      "explanation": "Directed by John G. Avildsen, this sports drama stars Sylvester Stallone, Talia Shire, and Burgess Meredith as an unknown Philadelphia boxer who gets an improbable shot at the heavyweight championship and fights to prove he is not \"just another bum from the neighborhood.\" It won 3 of its 10 nominations (Best Picture, Director, Film Editing) and grossed $225 million worldwide. Stallone wrote the screenplay in three and a half days after watching a Muhammad Ali fight and famously refused to sell it unless he could star, despite offers up to $350,000 for the script alone. Made for under $1.1 million, it yielded over 11,000% return on investment. It beat All the President's Men, Network, and Taxi Driver, considered one of the strongest nominee fields ever."
+      "explanation": "Directed by John G. Avildsen, this sports drama stars Sylvester Stallone, Talia Shire, and Burgess Meredith as an unknown Philadelphia boxer who gets an improbable shot at the heavyweight championship and fights to prove he is not \"just another bum from the neighborhood.\" It won 3 of its 10 nominations (Best Picture, Director, Film Editing) and grossed $225 million worldwide. Stallone wrote the screenplay in three and a half days after watching a Muhammad Ali fight and famously refused to sell it unless he could star, despite offers up to $350,000 for the script alone. Made for under $1.1 million, it yielded over 11,000% return on investment. It beat All the President's Men, Network, and Taxi Driver, considered one of the strongest nominee fields ever.",
+      "cardFront": "1976",
+      "cardBack": "Rocky"
     },
     {
       "id": "bp1977",
       "question": "What film won Best Picture at the Academy Awards in 1977?",
       "answer": "Annie Hall",
       "alternateAnswers": [],
-      "explanation": "Written and directed by Woody Allen, this romantic comedy stars Allen and Diane Keaton as a neurotic comedian and his free-spirited girlfriend examining why their relationship fell apart. It won 4 of its 5 nominations (Best Picture, Director, Actress, Original Screenplay) and grossed $44 million worldwide. It famously beat Star Wars for Best Picture. Allen did not attend the ceremony, preferring to play clarinet at a New York jazz club as he did every Monday night. The film was originally conceived as a murder mystery before being radically restructured in editing. Keaton's costume style of oversized blazers, vests, and ties became a fashion phenomenon known as \"the Annie Hall look.\" It ranks 31st on AFI's greatest American films list."
+      "explanation": "Written and directed by Woody Allen, this romantic comedy stars Allen and Diane Keaton as a neurotic comedian and his free-spirited girlfriend examining why their relationship fell apart. It won 4 of its 5 nominations (Best Picture, Director, Actress, Original Screenplay) and grossed $44 million worldwide. It famously beat Star Wars for Best Picture. Allen did not attend the ceremony, preferring to play clarinet at a New York jazz club as he did every Monday night. The film was originally conceived as a murder mystery before being radically restructured in editing. Keaton's costume style of oversized blazers, vests, and ties became a fashion phenomenon known as \"the Annie Hall look.\" It ranks 31st on AFI's greatest American films list.",
+      "cardFront": "1977",
+      "cardBack": "Annie Hall"
     },
     {
       "id": "bp1978",
       "question": "What film won Best Picture at the Academy Awards in 1978?",
       "answer": "The Deer Hunter",
-      "alternateAnswers": ["Deer Hunter"],
-      "explanation": "Directed by Michael Cimino, this epic war drama stars Robert De Niro, Christopher Walken, and John Savage as three Russian-American steelworkers from Pennsylvania who are drafted into the Vietnam War and endure torture, including harrowing Russian roulette sessions, before returning home traumatized. It won 5 of its 9 nominations, including Best Picture, Director, and Supporting Actor for Walken, and grossed $49 million. The controversial Russian roulette scenes had no historical basis in actual Vietnam War records. John Cazale, terminally ill with cancer, completed all his scenes before his death; De Niro reportedly paid his insurance to keep him in the project. The extended 51-minute wedding sequence, initially budgeted at 21 minutes, became a subject of heated debate during production."
+      "alternateAnswers": [
+        "Deer Hunter"
+      ],
+      "explanation": "Directed by Michael Cimino, this epic war drama stars Robert De Niro, Christopher Walken, and John Savage as three Russian-American steelworkers from Pennsylvania who are drafted into the Vietnam War and endure torture, including harrowing Russian roulette sessions, before returning home traumatized. It won 5 of its 9 nominations, including Best Picture, Director, and Supporting Actor for Walken, and grossed $49 million. The controversial Russian roulette scenes had no historical basis in actual Vietnam War records. John Cazale, terminally ill with cancer, completed all his scenes before his death; De Niro reportedly paid his insurance to keep him in the project. The extended 51-minute wedding sequence, initially budgeted at 21 minutes, became a subject of heated debate during production.",
+      "cardFront": "1978",
+      "cardBack": "The Deer Hunter"
     },
     {
       "id": "bp1979",
       "question": "What film won Best Picture at the Academy Awards in 1979?",
       "answer": "Kramer vs. Kramer",
-      "alternateAnswers": ["Kramer vs Kramer"],
-      "explanation": "Directed by Robert Benton, this legal drama stars Dustin Hoffman, Meryl Streep, and Justin Henry as a workaholic father who must learn to parent his young son after his wife abruptly leaves, leading to a bitter custody battle. It won 5 of its 9 nominations (Best Picture, Director, Actor, Supporting Actress, Adapted Screenplay) and grossed $173 million, becoming 1979's highest-grossing film. It beat Apocalypse Now for the top prize. Hoffman was initially reluctant, going through his own divorce at the time. Streep was contracted for only 12 days of filming. The ice cream scene between Hoffman and 7-year-old Henry was entirely improvised, and Hoffman's intense method acting, including an unsanctioned wine-glass throw that caught Streep off-guard, created significant tension on set."
+      "alternateAnswers": [
+        "Kramer vs Kramer"
+      ],
+      "explanation": "Directed by Robert Benton, this legal drama stars Dustin Hoffman, Meryl Streep, and Justin Henry as a workaholic father who must learn to parent his young son after his wife abruptly leaves, leading to a bitter custody battle. It won 5 of its 9 nominations (Best Picture, Director, Actor, Supporting Actress, Adapted Screenplay) and grossed $173 million, becoming 1979's highest-grossing film. It beat Apocalypse Now for the top prize. Hoffman was initially reluctant, going through his own divorce at the time. Streep was contracted for only 12 days of filming. The ice cream scene between Hoffman and 7-year-old Henry was entirely improvised, and Hoffman's intense method acting, including an unsanctioned wine-glass throw that caught Streep off-guard, created significant tension on set.",
+      "cardFront": "1979",
+      "cardBack": "Kramer vs. Kramer"
     },
     {
       "id": "bp1980",
       "question": "What film won Best Picture at the Academy Awards in 1980?",
       "answer": "Ordinary People",
       "alternateAnswers": [],
-      "explanation": "Directed by Robert Redford in his feature debut, this family drama stars Donald Sutherland, Mary Tyler Moore, and Timothy Hutton as an affluent suburban family struggling with grief and emotional disconnection after one son's accidental death and another's suicide attempt. It won 4 of its 6 nominations (Best Picture, Director, Supporting Actor, Adapted Screenplay) and grossed $90 million worldwide. Its victory over Martin Scorsese's Raging Bull is widely considered one of the biggest Oscar upsets. Hutton became the youngest Best Supporting Actor winner at age 20. Gene Hackman was originally cast but left over a financial disagreement. The film's prominent use of Pachelbel's Canon helped popularize the centuries-old composition. Entertainment Weekly later called Sutherland's lack of a nomination one of the biggest acting snubs in Oscar history."
+      "explanation": "Directed by Robert Redford in his feature debut, this family drama stars Donald Sutherland, Mary Tyler Moore, and Timothy Hutton as an affluent suburban family struggling with grief and emotional disconnection after one son's accidental death and another's suicide attempt. It won 4 of its 6 nominations (Best Picture, Director, Supporting Actor, Adapted Screenplay) and grossed $90 million worldwide. Its victory over Martin Scorsese's Raging Bull is widely considered one of the biggest Oscar upsets. Hutton became the youngest Best Supporting Actor winner at age 20. Gene Hackman was originally cast but left over a financial disagreement. The film's prominent use of Pachelbel's Canon helped popularize the centuries-old composition. Entertainment Weekly later called Sutherland's lack of a nomination one of the biggest acting snubs in Oscar history.",
+      "cardFront": "1980",
+      "cardBack": "Ordinary People"
     },
     {
       "id": "bp1981",
       "question": "What film won Best Picture at the Academy Awards in 1981?",
       "answer": "Chariots of Fire",
       "alternateAnswers": [],
-      "explanation": "Directed by Hugh Hudson, this historical sports drama stars Ian Charleson and Ben Cross as two British athletes competing in the 1924 Paris Olympics: a devout Scottish Christian running for God's glory and an English Jewish sprinter overcoming antisemitism. It won 4 of its 7 nominations, including Best Picture and Best Original Score. Vangelis's iconic electronic score was revolutionary for a period piece, reaching No. 1 on the Billboard Hot 100 in 1982 and becoming one of the most recognizable film themes ever. The slow-motion beach running scene has been parodied countless times. It grossed $59 million in the US, becoming the highest-grossing film import into America at that time. The 2012 London Olympics heavily featured the theme in opening ceremonies."
+      "explanation": "Directed by Hugh Hudson, this historical sports drama stars Ian Charleson and Ben Cross as two British athletes competing in the 1924 Paris Olympics: a devout Scottish Christian running for God's glory and an English Jewish sprinter overcoming antisemitism. It won 4 of its 7 nominations, including Best Picture and Best Original Score. Vangelis's iconic electronic score was revolutionary for a period piece, reaching No. 1 on the Billboard Hot 100 in 1982 and becoming one of the most recognizable film themes ever. The slow-motion beach running scene has been parodied countless times. It grossed $59 million in the US, becoming the highest-grossing film import into America at that time. The 2012 London Olympics heavily featured the theme in opening ceremonies.",
+      "cardFront": "1981",
+      "cardBack": "Chariots of Fire"
     },
     {
       "id": "bp1982",
       "question": "What film won Best Picture at the Academy Awards in 1982?",
       "answer": "Gandhi",
       "alternateAnswers": [],
-      "explanation": "Directed by Richard Attenborough, this epic biographical drama stars Ben Kingsley, Candice Bergen, and John Gielgud, chronicling Mahatma Gandhi's life from 1893 through his 1948 assassination, focusing on his nonviolent resistance against British colonial rule. It won 8 of its 11 nominations, including Best Picture, Director, and Actor for Kingsley, and grossed $127.8 million on a $22 million budget. The funeral scene used over 300,000 extras, a Guinness World Record. Kingsley, born Krishna Bhanji with Gujarati heritage, so convincingly resembled Gandhi that crowds in India reportedly bowed to him during filming. Attenborough spent 18 years bringing the project to fruition. The film received an \"A+\" CinemaScore, a rare achievement."
+      "explanation": "Directed by Richard Attenborough, this epic biographical drama stars Ben Kingsley, Candice Bergen, and John Gielgud, chronicling Mahatma Gandhi's life from 1893 through his 1948 assassination, focusing on his nonviolent resistance against British colonial rule. It won 8 of its 11 nominations, including Best Picture, Director, and Actor for Kingsley, and grossed $127.8 million on a $22 million budget. The funeral scene used over 300,000 extras, a Guinness World Record. Kingsley, born Krishna Bhanji with Gujarati heritage, so convincingly resembled Gandhi that crowds in India reportedly bowed to him during filming. Attenborough spent 18 years bringing the project to fruition. The film received an \"A+\" CinemaScore, a rare achievement.",
+      "cardFront": "1982",
+      "cardBack": "Gandhi"
     },
     {
       "id": "bp1983",
       "question": "What film won Best Picture at the Academy Awards in 1983?",
       "answer": "Terms of Endearment",
       "alternateAnswers": [],
-      "explanation": "Directed by James L. Brooks, this tragicomedy stars Shirley MacLaine, Debra Winger, and Jack Nicholson, spanning 30 years of a complicated mother-daughter relationship as they navigate marriages, infidelity, a rakish retired astronaut next door, and ultimately terminal illness. It won 5 of its 11 nominations (Best Picture, Director, Actress for MacLaine, Adapted Screenplay, Supporting Actor for Nicholson) and grossed $165 million, second only to Return of the Jedi that year. MacLaine and Winger reportedly feuded throughout filming; Brooks intentionally worked \"with tension on the set\" to fuel their performances. Burt Reynolds turned down the Nicholson role, later calling it a career mistake. Nicholson improvised several key scenes, including a memorable beach moment."
+      "explanation": "Directed by James L. Brooks, this tragicomedy stars Shirley MacLaine, Debra Winger, and Jack Nicholson, spanning 30 years of a complicated mother-daughter relationship as they navigate marriages, infidelity, a rakish retired astronaut next door, and ultimately terminal illness. It won 5 of its 11 nominations (Best Picture, Director, Actress for MacLaine, Adapted Screenplay, Supporting Actor for Nicholson) and grossed $165 million, second only to Return of the Jedi that year. MacLaine and Winger reportedly feuded throughout filming; Brooks intentionally worked \"with tension on the set\" to fuel their performances. Burt Reynolds turned down the Nicholson role, later calling it a career mistake. Nicholson improvised several key scenes, including a memorable beach moment.",
+      "cardFront": "1983",
+      "cardBack": "Terms of Endearment"
     },
     {
       "id": "bp1984",
       "question": "What film won Best Picture at the Academy Awards in 1984?",
       "answer": "Amadeus",
       "alternateAnswers": [],
-      "explanation": "Directed by Milos Forman, this period drama stars F. Murray Abraham, Tom Hulce, and Elizabeth Berridge as the jealous court composer Antonio Salieri who confesses from a psychiatric hospital that he destroyed his brilliant rival Wolfgang Amadeus Mozart. It won 8 of its 11 nominations, including Best Picture and Best Actor for Abraham, and grossed over $90 million. Filmed in Prague standing in for 18th-century Vienna, it beat The Killing Fields and A Passage to India. During the ceremony, presenter Laurence Olivier, suffering from mild dementia, forgot to read the other nominees and simply announced \"The winner is Amadeus,\" the only such gaffe in Oscar history until decades later. Hulce's maniacal laugh as Mozart was improvised and initially annoyed Forman, who ultimately kept it."
+      "explanation": "Directed by Milos Forman, this period drama stars F. Murray Abraham, Tom Hulce, and Elizabeth Berridge as the jealous court composer Antonio Salieri who confesses from a psychiatric hospital that he destroyed his brilliant rival Wolfgang Amadeus Mozart. It won 8 of its 11 nominations, including Best Picture and Best Actor for Abraham, and grossed over $90 million. Filmed in Prague standing in for 18th-century Vienna, it beat The Killing Fields and A Passage to India. During the ceremony, presenter Laurence Olivier, suffering from mild dementia, forgot to read the other nominees and simply announced \"The winner is Amadeus,\" the only such gaffe in Oscar history until decades later. Hulce's maniacal laugh as Mozart was improvised and initially annoyed Forman, who ultimately kept it.",
+      "cardFront": "1984",
+      "cardBack": "Amadeus"
     },
     {
       "id": "bp1985",
       "question": "What film won Best Picture at the Academy Awards in 1985?",
       "answer": "Out of Africa",
       "alternateAnswers": [],
-      "explanation": "Directed by Sydney Pollack, this epic romance stars Meryl Streep, Robert Redford, and Klaus Maria Brandauer as a Danish aristocrat who moves to colonial Kenya, builds a life on a coffee plantation, and develops a passionate affair with a free-spirited big-game hunter. It won 7 of its 11 nominations, including Best Picture and Best Director, and grossed $227.5 million worldwide. It beat The Color Purple, which received 11 nominations and won zero, the biggest shutout in Oscar history. Streep mastered a Danish accent for her role as Isak Dinesen. Redford was instructed to keep his American accent despite playing an aristocratic Englishman. Its score by John Barry ranks 15th on AFI's list of greatest film scores."
+      "explanation": "Directed by Sydney Pollack, this epic romance stars Meryl Streep, Robert Redford, and Klaus Maria Brandauer as a Danish aristocrat who moves to colonial Kenya, builds a life on a coffee plantation, and develops a passionate affair with a free-spirited big-game hunter. It won 7 of its 11 nominations, including Best Picture and Best Director, and grossed $227.5 million worldwide. It beat The Color Purple, which received 11 nominations and won zero, the biggest shutout in Oscar history. Streep mastered a Danish accent for her role as Isak Dinesen. Redford was instructed to keep his American accent despite playing an aristocratic Englishman. Its score by John Barry ranks 15th on AFI's list of greatest film scores.",
+      "cardFront": "1985",
+      "cardBack": "Out of Africa"
     },
     {
       "id": "bp1986",
       "question": "What film won Best Picture at the Academy Awards in 1986?",
       "answer": "Platoon",
       "alternateAnswers": [],
-      "explanation": "Directed by Oliver Stone, this war drama stars Charlie Sheen, Willem Dafoe, and Tom Berenger as a young volunteer and two rival sergeants whose conflicting philosophies about combat divide their platoon in the jungles of Vietnam. It won 4 of its 8 nominations (Best Picture, Director, Film Editing, Sound) and grossed $138 million domestically on a $6 million budget. Stone wrote the screenplay based on his own combat experience as a US infantryman, making it the first Hollywood Vietnam film written and directed by a veteran. The Department of Defense refused to support production due to its depictions of war crimes and drug use. The cast endured 30 days of military training led by Vietnam veteran Dale Dye in the Philippine jungle before filming."
+      "explanation": "Directed by Oliver Stone, this war drama stars Charlie Sheen, Willem Dafoe, and Tom Berenger as a young volunteer and two rival sergeants whose conflicting philosophies about combat divide their platoon in the jungles of Vietnam. It won 4 of its 8 nominations (Best Picture, Director, Film Editing, Sound) and grossed $138 million domestically on a $6 million budget. Stone wrote the screenplay based on his own combat experience as a US infantryman, making it the first Hollywood Vietnam film written and directed by a veteran. The Department of Defense refused to support production due to its depictions of war crimes and drug use. The cast endured 30 days of military training led by Vietnam veteran Dale Dye in the Philippine jungle before filming.",
+      "cardFront": "1986",
+      "cardBack": "Platoon"
     },
     {
       "id": "bp1987",
       "question": "What film won Best Picture at the Academy Awards in 1987?",
       "answer": "The Last Emperor",
-      "alternateAnswers": ["Last Emperor"],
-      "explanation": "Directed by Bernardo Bertolucci, this epic biographical drama stars John Lone, Peter O'Toole, and Joan Chen, chronicling Puyi's life from his coronation as China's child emperor through imprisonment and political rehabilitation after the Communist revolution. It achieved a perfect sweep, winning all 9 of its nominations including Best Picture, Director, and Adapted Screenplay. It was the first Western feature film authorized by the People's Republic of China to film inside Beijing's Forbidden City, lending it extraordinary visual authenticity. It grossed $44 million worldwide on a $23.8 million budget. The Japanese distributor initially cut a thirty-second sequence depicting the Rape of Nanking, prompting Bertolucci to call the removal \"revolting\" until the scene was restored."
+      "alternateAnswers": [
+        "Last Emperor"
+      ],
+      "explanation": "Directed by Bernardo Bertolucci, this epic biographical drama stars John Lone, Peter O'Toole, and Joan Chen, chronicling Puyi's life from his coronation as China's child emperor through imprisonment and political rehabilitation after the Communist revolution. It achieved a perfect sweep, winning all 9 of its nominations including Best Picture, Director, and Adapted Screenplay. It was the first Western feature film authorized by the People's Republic of China to film inside Beijing's Forbidden City, lending it extraordinary visual authenticity. It grossed $44 million worldwide on a $23.8 million budget. The Japanese distributor initially cut a thirty-second sequence depicting the Rape of Nanking, prompting Bertolucci to call the removal \"revolting\" until the scene was restored.",
+      "cardFront": "1987",
+      "cardBack": "The Last Emperor"
     },
     {
       "id": "bp1988",
       "question": "What film won Best Picture at the Academy Awards in 1988?",
       "answer": "Rain Man",
       "alternateAnswers": [],
-      "explanation": "Directed by Barry Levinson, this road comedy-drama stars Dustin Hoffman, Tom Cruise, and Valeria Golino as a selfish car dealer who discovers his estranged autistic savant brother stands to inherit their father's fortune, prompting a cross-country road trip that transforms their relationship. It won 4 of its 8 nominations (Best Picture, Director, Actor, Original Screenplay) and grossed up to $429 million, the highest-grossing film of 1988. Hoffman spent a year preparing by studying real-life savant Kim Peek, who inspired the character. The only film to win both the Berlin Golden Bear and Best Picture in the same year. Its airline scene prompted 15 carriers to edit out the fear-of-flying dialogue, except Qantas, inadvertently promoting the airline's safety record to American audiences."
+      "explanation": "Directed by Barry Levinson, this road comedy-drama stars Dustin Hoffman, Tom Cruise, and Valeria Golino as a selfish car dealer who discovers his estranged autistic savant brother stands to inherit their father's fortune, prompting a cross-country road trip that transforms their relationship. It won 4 of its 8 nominations (Best Picture, Director, Actor, Original Screenplay) and grossed up to $429 million, the highest-grossing film of 1988. Hoffman spent a year preparing by studying real-life savant Kim Peek, who inspired the character. The only film to win both the Berlin Golden Bear and Best Picture in the same year. Its airline scene prompted 15 carriers to edit out the fear-of-flying dialogue, except Qantas, inadvertently promoting the airline's safety record to American audiences.",
+      "cardFront": "1988",
+      "cardBack": "Rain Man"
     },
     {
       "id": "bp1989",
       "question": "What film won Best Picture at the Academy Awards in 1989?",
       "answer": "Driving Miss Daisy",
       "alternateAnswers": [],
-      "explanation": "Directed by Bruce Beresford, this comedy-drama stars Jessica Tandy, Morgan Freeman, and Dan Aykroyd as an elderly Jewish widow in Atlanta who develops a deep 25-year friendship with her Black chauffeur while navigating racism and social change in the American South. It won 4 of its 9 nominations (Best Picture, Actress, Makeup, Adapted Screenplay) and grossed $145.8 million. Tandy became the oldest Best Actress winner in history at age 80. Notoriously, it won Best Picture without even a Best Director nomination; host Billy Crystal joked it was \"the film that apparently directed itself.\" It beat Spike Lee's Do the Right Thing, a decision Lee later critiqued. It remains the most recent PG-rated film to win Best Picture."
+      "explanation": "Directed by Bruce Beresford, this comedy-drama stars Jessica Tandy, Morgan Freeman, and Dan Aykroyd as an elderly Jewish widow in Atlanta who develops a deep 25-year friendship with her Black chauffeur while navigating racism and social change in the American South. It won 4 of its 9 nominations (Best Picture, Actress, Makeup, Adapted Screenplay) and grossed $145.8 million. Tandy became the oldest Best Actress winner in history at age 80. Notoriously, it won Best Picture without even a Best Director nomination; host Billy Crystal joked it was \"the film that apparently directed itself.\" It beat Spike Lee's Do the Right Thing, a decision Lee later critiqued. It remains the most recent PG-rated film to win Best Picture.",
+      "cardFront": "1989",
+      "cardBack": "Driving Miss Daisy"
     },
     {
       "id": "bp1990",
       "question": "What film won Best Picture at the Academy Awards in 1990?",
       "answer": "Dances with Wolves",
       "alternateAnswers": [],
-      "explanation": "Directed by and starring Kevin Costner in his feature directorial debut, with Mary McDonnell and Graham Greene, this epic revisionist Western follows a Union Army lieutenant who befriends a Lakota tribe after being posted to a remote frontier outpost, eventually becoming one of them. It won 7 of its 12 nominations, including Best Picture and Best Director, and grossed $424 million worldwide. It beat Goodfellas for the top prize, a result cinephiles still debate. Costner had encouraged author Michael Blake to convert his unsold screenplay into a novel to improve its production chances, and the strategy worked. Much of the dialogue was performed in the Lakota language with English subtitles, translated by Doris Leader Charge from Sinte Gleska University."
+      "explanation": "Directed by and starring Kevin Costner in his feature directorial debut, with Mary McDonnell and Graham Greene, this epic revisionist Western follows a Union Army lieutenant who befriends a Lakota tribe after being posted to a remote frontier outpost, eventually becoming one of them. It won 7 of its 12 nominations, including Best Picture and Best Director, and grossed $424 million worldwide. It beat Goodfellas for the top prize, a result cinephiles still debate. Costner had encouraged author Michael Blake to convert his unsold screenplay into a novel to improve its production chances, and the strategy worked. Much of the dialogue was performed in the Lakota language with English subtitles, translated by Doris Leader Charge from Sinte Gleska University.",
+      "cardFront": "1990",
+      "cardBack": "Dances with Wolves"
     },
     {
       "id": "bp1991",
       "question": "What film won Best Picture at the Academy Awards in 1991?",
       "answer": "The Silence of the Lambs",
-      "alternateAnswers": ["Silence of the Lambs"],
-      "explanation": "Directed by Jonathan Demme, this psychological horror thriller stars Jodie Foster, Anthony Hopkins, and Scott Glenn as an FBI trainee who seeks help from an imprisoned cannibalistic psychiatrist to catch a serial killer who skins his victims. It swept all five major categories (Picture, Director, Actor, Actress, Screenplay), only the third film ever to achieve this feat. It grossed $272.7 million on a $19 million budget. Hopkins won Best Actor with remarkably limited screen time, delivering one of cinema's most terrifying performances. It remains the only horror film ever to win Best Picture. Gene Hackman was originally attached to direct and star but withdrew after his children objected to the violence. Hopkins accepted the role after reading just 10 pages of the script."
+      "alternateAnswers": [
+        "Silence of the Lambs"
+      ],
+      "explanation": "Directed by Jonathan Demme, this psychological horror thriller stars Jodie Foster, Anthony Hopkins, and Scott Glenn as an FBI trainee who seeks help from an imprisoned cannibalistic psychiatrist to catch a serial killer who skins his victims. It swept all five major categories (Picture, Director, Actor, Actress, Screenplay), only the third film ever to achieve this feat. It grossed $272.7 million on a $19 million budget. Hopkins won Best Actor with remarkably limited screen time, delivering one of cinema's most terrifying performances. It remains the only horror film ever to win Best Picture. Gene Hackman was originally attached to direct and star but withdrew after his children objected to the violence. Hopkins accepted the role after reading just 10 pages of the script.",
+      "cardFront": "1991",
+      "cardBack": "The Silence of the Lambs"
     },
     {
       "id": "bp1992",
       "question": "What film won Best Picture at the Academy Awards in 1992?",
       "answer": "Unforgiven",
       "alternateAnswers": [],
-      "explanation": "Directed by and starring Clint Eastwood, with Gene Hackman and Morgan Freeman, this revisionist Western follows an aging outlaw turned farmer who accepts one final assassination job, confronting the violence of his past that he thought he had left behind. It won 4 of its 9 nominations (Best Picture, Director, Supporting Actor for Hackman, Film Editing) and grossed $159 million on a $14.4 million budget. Eastwood had owned the script for nearly 20 years, waiting until he was old enough to play the lead. The script was initially rejected by Eastwood's own story editor, who called it \"an insult to this company.\" The third Western to win Best Picture after Cimarron and Dances with Wolves, it stayed in theaters for 343 days. Eastwood has said it would likely be his final traditional Western."
+      "explanation": "Directed by and starring Clint Eastwood, with Gene Hackman and Morgan Freeman, this revisionist Western follows an aging outlaw turned farmer who accepts one final assassination job, confronting the violence of his past that he thought he had left behind. It won 4 of its 9 nominations (Best Picture, Director, Supporting Actor for Hackman, Film Editing) and grossed $159 million on a $14.4 million budget. Eastwood had owned the script for nearly 20 years, waiting until he was old enough to play the lead. The script was initially rejected by Eastwood's own story editor, who called it \"an insult to this company.\" The third Western to win Best Picture after Cimarron and Dances with Wolves, it stayed in theaters for 343 days. Eastwood has said it would likely be his final traditional Western.",
+      "cardFront": "1992",
+      "cardBack": "Unforgiven"
     },
     {
       "id": "bp1993",
       "question": "What film won Best Picture at the Academy Awards in 1993?",
       "answer": "Schindler's List",
-      "alternateAnswers": ["Schindlers List"],
-      "explanation": "Directed by Steven Spielberg, this epic historical drama stars Liam Neeson, Ralph Fiennes, and Ben Kingsley as a German industrialist who risks everything to save over a thousand Polish-Jewish refugees from the Holocaust by employing them in his factories. It won 7 of its 12 nominations, including Best Picture and Best Director, Spielberg's first. Shot in black and white on location near Auschwitz, it grossed $322 million on a $22 million budget. Spielberg refused his salary, calling it \"blood money.\" The iconic girl in the red coat was achieved through hand-rotoscoping to preserve color in the otherwise monochrome film. Spielberg founded the Survivors of the Shoah Visual History Foundation afterward to preserve Holocaust survivor testimonies, its most lasting legacy beyond cinema."
+      "alternateAnswers": [
+        "Schindlers List"
+      ],
+      "explanation": "Directed by Steven Spielberg, this epic historical drama stars Liam Neeson, Ralph Fiennes, and Ben Kingsley as a German industrialist who risks everything to save over a thousand Polish-Jewish refugees from the Holocaust by employing them in his factories. It won 7 of its 12 nominations, including Best Picture and Best Director, Spielberg's first. Shot in black and white on location near Auschwitz, it grossed $322 million on a $22 million budget. Spielberg refused his salary, calling it \"blood money.\" The iconic girl in the red coat was achieved through hand-rotoscoping to preserve color in the otherwise monochrome film. Spielberg founded the Survivors of the Shoah Visual History Foundation afterward to preserve Holocaust survivor testimonies, its most lasting legacy beyond cinema.",
+      "cardFront": "1993",
+      "cardBack": "Schindler's List"
     },
     {
       "id": "bp1994",
       "question": "What film won Best Picture at the Academy Awards in 1994?",
       "answer": "Forrest Gump",
       "alternateAnswers": [],
-      "explanation": "Directed by Robert Zemeckis, this comedy-drama stars Tom Hanks, Robin Wright, and Gary Sinise as a kind but intellectually limited Alabama man who unwittingly participates in pivotal moments of 20th-century American history while pursuing his childhood love. It won 6 of its 13 nominations (Best Picture, Director, Actor, Adapted Screenplay, Visual Effects, Film Editing) and grossed $678 million worldwide. It famously beat both Pulp Fiction and The Shawshank Redemption, now considered all-time classics. John Travolta turned down the lead, later calling it a mistake. Hanks signed on after just 90 minutes of reading the script. Author Winston Groom received only $350,000 plus 3% of net profits, which Paramount's Hollywood accounting declared the film never generated."
+      "explanation": "Directed by Robert Zemeckis, this comedy-drama stars Tom Hanks, Robin Wright, and Gary Sinise as a kind but intellectually limited Alabama man who unwittingly participates in pivotal moments of 20th-century American history while pursuing his childhood love. It won 6 of its 13 nominations (Best Picture, Director, Actor, Adapted Screenplay, Visual Effects, Film Editing) and grossed $678 million worldwide. It famously beat both Pulp Fiction and The Shawshank Redemption, now considered all-time classics. John Travolta turned down the lead, later calling it a mistake. Hanks signed on after just 90 minutes of reading the script. Author Winston Groom received only $350,000 plus 3% of net profits, which Paramount's Hollywood accounting declared the film never generated.",
+      "cardFront": "1994",
+      "cardBack": "Forrest Gump"
     },
     {
       "id": "bp1995",
       "question": "What film won Best Picture at the Academy Awards in 1995?",
       "answer": "Braveheart",
       "alternateAnswers": [],
-      "explanation": "Directed by and starring Mel Gibson, with Sophie Marceau and Patrick McGoohan, this epic historical war drama follows Scottish warrior William Wallace's rebellion against English occupation during the First War of Scottish Independence. It won 5 of its 10 nominations (Best Picture, Director, Cinematography, Sound Effects Editing, Makeup) and grossed $209 million on a $53-72 million budget. Shot in Ireland because Scotland's landscapes had too many modern intrusions, it beat Apollo 13 and Sense and Sensibility. Historians widely criticize its accuracy, noting anachronistic costumes, the absence of the bridge at Stirling Bridge, and the fabricated concept of jus primae noctis. The film boosted Scottish tourism by 15-39%, and a controversial Gibson statue at the Wallace Monument was removed in 2008 after repeated vandalism."
+      "explanation": "Directed by and starring Mel Gibson, with Sophie Marceau and Patrick McGoohan, this epic historical war drama follows Scottish warrior William Wallace's rebellion against English occupation during the First War of Scottish Independence. It won 5 of its 10 nominations (Best Picture, Director, Cinematography, Sound Effects Editing, Makeup) and grossed $209 million on a $53-72 million budget. Shot in Ireland because Scotland's landscapes had too many modern intrusions, it beat Apollo 13 and Sense and Sensibility. Historians widely criticize its accuracy, noting anachronistic costumes, the absence of the bridge at Stirling Bridge, and the fabricated concept of jus primae noctis. The film boosted Scottish tourism by 15-39%, and a controversial Gibson statue at the Wallace Monument was removed in 2008 after repeated vandalism.",
+      "cardFront": "1995",
+      "cardBack": "Braveheart"
     },
     {
       "id": "bp1996",
       "question": "What film won Best Picture at the Academy Awards in 1996?",
       "answer": "The English Patient",
-      "alternateAnswers": ["English Patient"],
-      "explanation": "Directed by Anthony Minghella, this epic romantic war drama stars Ralph Fiennes, Juliette Binoche, and Kristin Scott Thomas as a severely burned man with no memory who reveals through flashbacks a forbidden love affair set against WWII's North African campaign. It won 9 of its 12 nominations, including Best Picture, Director, and Supporting Actress for Binoche, and grossed $232 million worldwide. It was nearly shelved when its original studio dropped it mid-production before Miramax picked it up and campaigned aggressively. It was the first film to win Best Film Editing using digital editing technology. The film is famously referenced in a Seinfeld episode where Elaine is ostracized for disliking it, cementing its place in 1990s pop culture."
+      "alternateAnswers": [
+        "English Patient"
+      ],
+      "explanation": "Directed by Anthony Minghella, this epic romantic war drama stars Ralph Fiennes, Juliette Binoche, and Kristin Scott Thomas as a severely burned man with no memory who reveals through flashbacks a forbidden love affair set against WWII's North African campaign. It won 9 of its 12 nominations, including Best Picture, Director, and Supporting Actress for Binoche, and grossed $232 million worldwide. It was nearly shelved when its original studio dropped it mid-production before Miramax picked it up and campaigned aggressively. It was the first film to win Best Film Editing using digital editing technology. The film is famously referenced in a Seinfeld episode where Elaine is ostracized for disliking it, cementing its place in 1990s pop culture.",
+      "cardFront": "1996",
+      "cardBack": "The English Patient"
     },
     {
       "id": "bp1997",
       "question": "What film won Best Picture at the Academy Awards in 1997?",
       "answer": "Titanic",
       "alternateAnswers": [],
-      "explanation": "Directed by James Cameron, this epic romance and disaster film stars Leonardo DiCaprio, Kate Winslet, and Billy Zane as a poor artist and a wealthy engaged woman from different social classes who fall in love aboard the doomed Titanic in 1912. It tied Ben-Hur's record with 11 wins from 14 nominations, including Best Picture and Best Director. The film's $200 million budget, the most expensive ever at the time, ballooned from massive overruns and was predicted to be a disaster, but it earned $2.26 billion worldwide, the second highest-grossing film ever. Cameron pitched it as \"Romeo and Juliet on the Titanic.\" Over 50 people were hospitalized when someone laced the crew's soup with PCP during Nova Scotia filming. An actual J. Dawson is buried in Halifax, discovered by producers only after release."
+      "explanation": "Directed by James Cameron, this epic romance and disaster film stars Leonardo DiCaprio, Kate Winslet, and Billy Zane as a poor artist and a wealthy engaged woman from different social classes who fall in love aboard the doomed Titanic in 1912. It tied Ben-Hur's record with 11 wins from 14 nominations, including Best Picture and Best Director. The film's $200 million budget, the most expensive ever at the time, ballooned from massive overruns and was predicted to be a disaster, but it earned $2.26 billion worldwide, the second highest-grossing film ever. Cameron pitched it as \"Romeo and Juliet on the Titanic.\" Over 50 people were hospitalized when someone laced the crew's soup with PCP during Nova Scotia filming. An actual J. Dawson is buried in Halifax, discovered by producers only after release.",
+      "cardFront": "1997",
+      "cardBack": "Titanic"
     },
     {
       "id": "bp1998",
       "question": "What film won Best Picture at the Academy Awards in 1998?",
       "answer": "Shakespeare in Love",
       "alternateAnswers": [],
-      "explanation": "Directed by John Madden, this romantic comedy stars Gwyneth Paltrow, Joseph Fiennes, and Geoffrey Rush in a fictional love affair between playwright William Shakespeare and noblewoman Viola de Lesseps that inspires the creation of Romeo and Juliet. It won 7 of its 13 nominations, including Best Picture, Actress, and Supporting Actress for Judi Dench. Made for $25 million, it grossed $289 million. Its upset victory over Saving Private Ryan remains one of the most debated in Oscar history, driven by Miramax's Harvey Weinstein and his \"unprecedented blitzkrieg\" of campaigning. A 2015 Hollywood Reporter survey found Academy members would have chosen Saving Private Ryan given a second chance. Prince Edward reportedly chose the Earldom of Wessex after watching the film."
+      "explanation": "Directed by John Madden, this romantic comedy stars Gwyneth Paltrow, Joseph Fiennes, and Geoffrey Rush in a fictional love affair between playwright William Shakespeare and noblewoman Viola de Lesseps that inspires the creation of Romeo and Juliet. It won 7 of its 13 nominations, including Best Picture, Actress, and Supporting Actress for Judi Dench. Made for $25 million, it grossed $289 million. Its upset victory over Saving Private Ryan remains one of the most debated in Oscar history, driven by Miramax's Harvey Weinstein and his \"unprecedented blitzkrieg\" of campaigning. A 2015 Hollywood Reporter survey found Academy members would have chosen Saving Private Ryan given a second chance. Prince Edward reportedly chose the Earldom of Wessex after watching the film.",
+      "cardFront": "1998",
+      "cardBack": "Shakespeare in Love"
     },
     {
       "id": "bp1999",
       "question": "What film won Best Picture at the Academy Awards in 1999?",
       "answer": "American Beauty",
       "alternateAnswers": [],
-      "explanation": "Directed by Sam Mendes in his feature debut after a distinguished theater career, this dark comedy-drama stars Kevin Spacey, Annette Bening, and Thora Birch as a middle-aged advertising executive experiencing a midlife crisis who becomes infatuated with his teenage daughter's friend, triggering a transformative and ultimately fatal year in suburban America. It won 5 of its 8 nominations (Best Picture, Director, Actor, Original Screenplay, Cinematography) and grossed $356 million on a $15 million budget. Mendes earned only $38,000 after taxes and commission from his $150,000 directing fee. The floating plastic bag scene became both a cultural touchstone and a frequent target of parody. Cast members worked for reduced rates, and Kirsten Dunst and Sarah Michelle Gellar both turned down key roles."
+      "explanation": "Directed by Sam Mendes in his feature debut after a distinguished theater career, this dark comedy-drama stars Kevin Spacey, Annette Bening, and Thora Birch as a middle-aged advertising executive experiencing a midlife crisis who becomes infatuated with his teenage daughter's friend, triggering a transformative and ultimately fatal year in suburban America. It won 5 of its 8 nominations (Best Picture, Director, Actor, Original Screenplay, Cinematography) and grossed $356 million on a $15 million budget. Mendes earned only $38,000 after taxes and commission from his $150,000 directing fee. The floating plastic bag scene became both a cultural touchstone and a frequent target of parody. Cast members worked for reduced rates, and Kirsten Dunst and Sarah Michelle Gellar both turned down key roles.",
+      "cardFront": "1999",
+      "cardBack": "American Beauty"
     },
     {
       "id": "bp2000",
       "question": "What film won Best Picture at the Academy Awards in 2000?",
       "answer": "Gladiator",
       "alternateAnswers": [],
-      "explanation": "Directed by Ridley Scott, this epic action drama stars Russell Crowe, Joaquin Phoenix, and Connie Nielsen as a betrayed Roman general who is enslaved, becomes a gladiator, and seeks revenge against the treacherous emperor who murdered his family. It won 5 of its 12 nominations (Best Picture, Actor, Costume Design, Sound, Visual Effects) and grossed $466 million on a $103 million budget. It revived the sword-and-sandal epic genre dormant for decades. Oliver Reed, playing gladiator trainer Proximo, died of a heart attack before completing his scenes; digital face-mapping was used to finish his footage and a new death scene was written. Crowe improvised key dialogue, including describing his actual Australian home in a pivotal scene, and coined the phrase \"Strength and Honor\" from his high school motto."
+      "explanation": "Directed by Ridley Scott, this epic action drama stars Russell Crowe, Joaquin Phoenix, and Connie Nielsen as a betrayed Roman general who is enslaved, becomes a gladiator, and seeks revenge against the treacherous emperor who murdered his family. It won 5 of its 12 nominations (Best Picture, Actor, Costume Design, Sound, Visual Effects) and grossed $466 million on a $103 million budget. It revived the sword-and-sandal epic genre dormant for decades. Oliver Reed, playing gladiator trainer Proximo, died of a heart attack before completing his scenes; digital face-mapping was used to finish his footage and a new death scene was written. Crowe improvised key dialogue, including describing his actual Australian home in a pivotal scene, and coined the phrase \"Strength and Honor\" from his high school motto.",
+      "cardFront": "2000",
+      "cardBack": "Gladiator"
     },
     {
       "id": "bp2001",
       "question": "What film won Best Picture at the Academy Awards in 2001?",
       "answer": "A Beautiful Mind",
-      "alternateAnswers": ["Beautiful Mind"],
-      "explanation": "Directed by Ron Howard, this biographical drama stars Russell Crowe, Jennifer Connelly, and Ed Harris as mathematician John Nash, following his Princeton doctoral work, groundbreaking game theory research, his struggle with schizophrenia, and eventual Nobel Prize recognition. It won 4 of its 8 nominations (Best Picture, Director, Supporting Actress for Connelly, Adapted Screenplay) and grossed $316.8 million on a $58 million budget. The film took significant artistic license; Nash never experienced visual hallucinations in reality, and characters like Charles Herman were screenwriter inventions to visually represent his mental illness. Tom Cruise was considered for the lead before Crowe was cast. The film controversially omitted darker aspects of Nash's biography."
+      "alternateAnswers": [
+        "Beautiful Mind"
+      ],
+      "explanation": "Directed by Ron Howard, this biographical drama stars Russell Crowe, Jennifer Connelly, and Ed Harris as mathematician John Nash, following his Princeton doctoral work, groundbreaking game theory research, his struggle with schizophrenia, and eventual Nobel Prize recognition. It won 4 of its 8 nominations (Best Picture, Director, Supporting Actress for Connelly, Adapted Screenplay) and grossed $316.8 million on a $58 million budget. The film took significant artistic license; Nash never experienced visual hallucinations in reality, and characters like Charles Herman were screenwriter inventions to visually represent his mental illness. Tom Cruise was considered for the lead before Crowe was cast. The film controversially omitted darker aspects of Nash's biography.",
+      "cardFront": "2001",
+      "cardBack": "A Beautiful Mind"
     },
     {
       "id": "bp2002",
       "question": "What film won Best Picture at the Academy Awards in 2002?",
       "answer": "Chicago",
       "alternateAnswers": [],
-      "explanation": "Directed by Rob Marshall in his feature debut, this musical black comedy stars Renee Zellweger, Catherine Zeta-Jones, and Richard Gere as two murderesses in 1920s Chicago who compete for tabloid celebrity and a slick lawyer's attention to escape execution. It won 6 of its 13 nominations, including Best Picture, and grossed $306.8 million, becoming the highest-grossing live-action musical at that time. It was the first musical to win Best Picture since Oliver! in 1968, ending a 34-year drought and reviving Hollywood's interest in the genre. Filmed entirely in Toronto rather than Chicago, it drew heavily from Bob Fosse's original 1975 Broadway choreography. John Travolta turned down the Billy Flynn role, and Michael Jackson was considered before the producer objected."
+      "explanation": "Directed by Rob Marshall in his feature debut, this musical black comedy stars Renee Zellweger, Catherine Zeta-Jones, and Richard Gere as two murderesses in 1920s Chicago who compete for tabloid celebrity and a slick lawyer's attention to escape execution. It won 6 of its 13 nominations, including Best Picture, and grossed $306.8 million, becoming the highest-grossing live-action musical at that time. It was the first musical to win Best Picture since Oliver! in 1968, ending a 34-year drought and reviving Hollywood's interest in the genre. Filmed entirely in Toronto rather than Chicago, it drew heavily from Bob Fosse's original 1975 Broadway choreography. John Travolta turned down the Billy Flynn role, and Michael Jackson was considered before the producer objected.",
+      "cardFront": "2002",
+      "cardBack": "Chicago"
     },
     {
       "id": "bp2003",
       "question": "What film won Best Picture at the Academy Awards in 2003?",
       "answer": "The Lord of the Rings: The Return of the King",
-      "alternateAnswers": ["Return of the King", "Lord of the Rings: The Return of the King", "The Return of the King"],
-      "explanation": "Directed by Peter Jackson, this epic fantasy stars Elijah Wood, Ian McKellen, and Viggo Mortensen as hobbit Frodo and his allies who battle Sauron's forces while Frodo and Sam journey toward Mount Doom to destroy the One Ring. It achieved a perfect sweep, winning all 11 of its nominations and tying Ben-Hur and Titanic for most Oscar wins ever. It grossed $1.15 billion worldwide, the highest-grossing film of 2003. The victory was widely seen as an award for the entire trilogy, which had been nominated in the two previous years. It was the first fantasy film to win Best Picture. Jackson did not see the complete film until the Wellington premiere on December 1, 2003, just one day before release, and the final piece of trilogy footage was shot in March 2004, after it had already won the Oscar."
+      "alternateAnswers": [
+        "Return of the King",
+        "Lord of the Rings: The Return of the King",
+        "The Return of the King"
+      ],
+      "explanation": "Directed by Peter Jackson, this epic fantasy stars Elijah Wood, Ian McKellen, and Viggo Mortensen as hobbit Frodo and his allies who battle Sauron's forces while Frodo and Sam journey toward Mount Doom to destroy the One Ring. It achieved a perfect sweep, winning all 11 of its nominations and tying Ben-Hur and Titanic for most Oscar wins ever. It grossed $1.15 billion worldwide, the highest-grossing film of 2003. The victory was widely seen as an award for the entire trilogy, which had been nominated in the two previous years. It was the first fantasy film to win Best Picture. Jackson did not see the complete film until the Wellington premiere on December 1, 2003, just one day before release, and the final piece of trilogy footage was shot in March 2004, after it had already won the Oscar.",
+      "cardFront": "2003",
+      "cardBack": "The Lord of the Rings: The Return of the King"
     },
     {
       "id": "bp2004",
       "question": "What film won Best Picture at the Academy Awards in 2004?",
       "answer": "Million Dollar Baby",
       "alternateAnswers": [],
-      "explanation": "Directed by Clint Eastwood, this sports drama stars Eastwood, Hilary Swank, and Morgan Freeman as a reluctant veteran boxing trainer, a determined female boxer from the Ozarks, and the trainer's longtime friend and gym assistant. It won 4 of its 7 nominations (Best Picture, Director, Actress, Supporting Actor) and grossed $216.8 million on a $30 million budget. Its dark twist ending was kept so secret that audiences were genuinely shocked. Swank gained 19 pounds of muscle and trained nearly five hours daily, enduring a potentially life-threatening staph infection without informing Eastwood. Shot in under 40 days, it sparked disability rights protests regarding its ending. Roger Ebert named it the best film of 2004."
+      "explanation": "Directed by Clint Eastwood, this sports drama stars Eastwood, Hilary Swank, and Morgan Freeman as a reluctant veteran boxing trainer, a determined female boxer from the Ozarks, and the trainer's longtime friend and gym assistant. It won 4 of its 7 nominations (Best Picture, Director, Actress, Supporting Actor) and grossed $216.8 million on a $30 million budget. Its dark twist ending was kept so secret that audiences were genuinely shocked. Swank gained 19 pounds of muscle and trained nearly five hours daily, enduring a potentially life-threatening staph infection without informing Eastwood. Shot in under 40 days, it sparked disability rights protests regarding its ending. Roger Ebert named it the best film of 2004.",
+      "cardFront": "2004",
+      "cardBack": "Million Dollar Baby"
     },
     {
       "id": "bp2005",
       "question": "What film won Best Picture at the Academy Awards in 2005?",
       "answer": "Crash",
       "alternateAnswers": [],
-      "explanation": "Directed by Paul Haggis, this ensemble crime drama stars Sandra Bullock, Don Cheadle, and Matt Dillon in interconnected stories examining racial and social tensions in Los Angeles through characters whose lives collide in unexpected ways. It won 3 of its 6 nominations (Best Picture, Original Screenplay, Film Editing) and grossed $98.4 million on just $6.5 million. Its upset victory over the heavily favored Brokeback Mountain is considered one of the biggest surprises in Oscar history; Jack Nicholson's visible shock at the announcement was caught on camera. Haggis was inspired after being carjacked at gunpoint in 1991 and suffered a heart attack during filming but refused to hire a replacement. He later admitted he would not have voted for his own film, acknowledging Brokeback Mountain was superior."
+      "explanation": "Directed by Paul Haggis, this ensemble crime drama stars Sandra Bullock, Don Cheadle, and Matt Dillon in interconnected stories examining racial and social tensions in Los Angeles through characters whose lives collide in unexpected ways. It won 3 of its 6 nominations (Best Picture, Original Screenplay, Film Editing) and grossed $98.4 million on just $6.5 million. Its upset victory over the heavily favored Brokeback Mountain is considered one of the biggest surprises in Oscar history; Jack Nicholson's visible shock at the announcement was caught on camera. Haggis was inspired after being carjacked at gunpoint in 1991 and suffered a heart attack during filming but refused to hire a replacement. He later admitted he would not have voted for his own film, acknowledging Brokeback Mountain was superior.",
+      "cardFront": "2005",
+      "cardBack": "Crash"
     },
     {
       "id": "bp2006",
       "question": "What film won Best Picture at the Academy Awards in 2006?",
       "answer": "The Departed",
-      "alternateAnswers": ["Departed"],
-      "explanation": "Directed by Martin Scorsese, this crime thriller stars Leonardo DiCaprio, Matt Damon, and Jack Nicholson as an undercover state trooper and a mob mole who infiltrate each other's organizations in South Boston's criminal underworld. It won 4 of its 5 nominations (Best Picture, Director, Adapted Screenplay, Film Editing) and grossed $291.5 million on a $90 million budget. The win finally gave Scorsese his first and only personal Oscar after decades of snubs for masterpieces like Taxi Driver, Raging Bull, and Goodfellas. It was a remake of the 2002 Hong Kong film Infernal Affairs, loosely inspired by real figures including crime boss Whitey Bulger. Nicholson ad-libbed many of his most memorable and unsettling scenes."
+      "alternateAnswers": [
+        "Departed"
+      ],
+      "explanation": "Directed by Martin Scorsese, this crime thriller stars Leonardo DiCaprio, Matt Damon, and Jack Nicholson as an undercover state trooper and a mob mole who infiltrate each other's organizations in South Boston's criminal underworld. It won 4 of its 5 nominations (Best Picture, Director, Adapted Screenplay, Film Editing) and grossed $291.5 million on a $90 million budget. The win finally gave Scorsese his first and only personal Oscar after decades of snubs for masterpieces like Taxi Driver, Raging Bull, and Goodfellas. It was a remake of the 2002 Hong Kong film Infernal Affairs, loosely inspired by real figures including crime boss Whitey Bulger. Nicholson ad-libbed many of his most memorable and unsettling scenes.",
+      "cardFront": "2006",
+      "cardBack": "The Departed"
     },
     {
       "id": "bp2007",
       "question": "What film won Best Picture at the Academy Awards in 2007?",
       "answer": "No Country for Old Men",
       "alternateAnswers": [],
-      "explanation": "Directed by Joel and Ethan Coen, this neo-Western crime thriller stars Tommy Lee Jones, Javier Bardem, and Josh Brolin as a weary sheriff, a relentless hitman with a cattle bolt pistol, and a Vietnam veteran who stumbles upon $2 million in drug money in the Texas desert. It won 4 of its 8 nominations (Best Picture, Director, Supporting Actor, Adapted Screenplay) and grossed $171.6 million. Bardem became the first Spanish actor to win an Academy Award and reportedly hated his bowl haircut so much he avoided going out in public. The title comes from W.B. Yeats's poem \"Sailing to Byzantium.\" The film uses only 16 minutes of music across its runtime. It was shot simultaneously with There Will Be Blood in Marfa, Texas; smoke from that film's oil derrick forced the Coens to scrap an entire day of filming."
+      "explanation": "Directed by Joel and Ethan Coen, this neo-Western crime thriller stars Tommy Lee Jones, Javier Bardem, and Josh Brolin as a weary sheriff, a relentless hitman with a cattle bolt pistol, and a Vietnam veteran who stumbles upon $2 million in drug money in the Texas desert. It won 4 of its 8 nominations (Best Picture, Director, Supporting Actor, Adapted Screenplay) and grossed $171.6 million. Bardem became the first Spanish actor to win an Academy Award and reportedly hated his bowl haircut so much he avoided going out in public. The title comes from W.B. Yeats's poem \"Sailing to Byzantium.\" The film uses only 16 minutes of music across its runtime. It was shot simultaneously with There Will Be Blood in Marfa, Texas; smoke from that film's oil derrick forced the Coens to scrap an entire day of filming.",
+      "cardFront": "2007",
+      "cardBack": "No Country for Old Men"
     },
     {
       "id": "bp2008",
       "question": "What film won Best Picture at the Academy Awards in 2008?",
       "answer": "Slumdog Millionaire",
       "alternateAnswers": [],
-      "explanation": "Directed by Danny Boyle, this drama stars Dev Patel, Freida Pinto, and Anil Kapoor as an 18-year-old from Mumbai's slums who becomes a contestant on Who Wants to Be a Millionaire, using flashbacks of his extraordinary life to explain how he knows every answer. It won 8 of its 10 nominations, including Best Picture and Best Director, and grossed $378 million worldwide. Fox Searchlight's highest-grossing film ever, it was nearly released straight to DVD before receiving a theatrical run. It was the first film shot using digital cinematography to win the Oscar for Best Cinematography. Made on a modest budget with a largely unknown cast, its young Indian stars became international celebrities overnight."
+      "explanation": "Directed by Danny Boyle, this drama stars Dev Patel, Freida Pinto, and Anil Kapoor as an 18-year-old from Mumbai's slums who becomes a contestant on Who Wants to Be a Millionaire, using flashbacks of his extraordinary life to explain how he knows every answer. It won 8 of its 10 nominations, including Best Picture and Best Director, and grossed $378 million worldwide. Fox Searchlight's highest-grossing film ever, it was nearly released straight to DVD before receiving a theatrical run. It was the first film shot using digital cinematography to win the Oscar for Best Cinematography. Made on a modest budget with a largely unknown cast, its young Indian stars became international celebrities overnight.",
+      "cardFront": "2008",
+      "cardBack": "Slumdog Millionaire"
     },
     {
       "id": "bp2009",
       "question": "What film won Best Picture at the Academy Awards in 2009?",
       "answer": "The Hurt Locker",
-      "alternateAnswers": ["Hurt Locker"],
-      "explanation": "Directed by Kathryn Bigelow, this war drama stars Jeremy Renner, Anthony Mackie, and Brian Geraghty as an Iraq War bomb disposal team navigating the psychological strain of defusing explosives in combat. It won 6 of its 9 nominations, including Best Picture and Best Director. Bigelow became the first woman to win Best Director, defeating her ex-husband James Cameron and his blockbuster Avatar. It grossed approximately $50 million worldwide on a $15 million budget, making it the lowest-grossing Best Picture winner in modern history. Shot entirely in Jordan near the Iraqi border using Iraqi refugees as extras, the cast endured 120-degree temperatures during 44 days of filming. Renner wore an 80-100 pound bomb suit daily on set."
+      "alternateAnswers": [
+        "Hurt Locker"
+      ],
+      "explanation": "Directed by Kathryn Bigelow, this war drama stars Jeremy Renner, Anthony Mackie, and Brian Geraghty as an Iraq War bomb disposal team navigating the psychological strain of defusing explosives in combat. It won 6 of its 9 nominations, including Best Picture and Best Director. Bigelow became the first woman to win Best Director, defeating her ex-husband James Cameron and his blockbuster Avatar. It grossed approximately $50 million worldwide on a $15 million budget, making it the lowest-grossing Best Picture winner in modern history. Shot entirely in Jordan near the Iraqi border using Iraqi refugees as extras, the cast endured 120-degree temperatures during 44 days of filming. Renner wore an 80-100 pound bomb suit daily on set.",
+      "cardFront": "2009",
+      "cardBack": "The Hurt Locker"
     },
     {
       "id": "bp2010",
       "question": "What film won Best Picture at the Academy Awards in 2010?",
       "answer": "The King's Speech",
-      "alternateAnswers": ["King's Speech"],
-      "explanation": "Directed by Tom Hooper, this historical drama stars Colin Firth, Geoffrey Rush, and Helena Bonham Carter as Prince Albert (later King George VI), his unorthodox Australian speech therapist Lionel Logue, and Queen Elizabeth, chronicling the Duke's battle to overcome a debilitating stammer before wartime radio addresses. It won 4 of its 12 nominations (Best Picture, Director, Actor, Original Screenplay) and grossed $414 million on a modest 8 million pound budget, becoming one of the most profitable independent British films ever. It beat The Social Network and Inception. The filmmakers discovered Lionel Logue's original treatment notes just nine weeks before filming, incorporating them into the script. Hooper successfully challenged the British censors' initial 15 rating, arguing the profanity served a therapeutic purpose."
+      "alternateAnswers": [
+        "King's Speech"
+      ],
+      "explanation": "Directed by Tom Hooper, this historical drama stars Colin Firth, Geoffrey Rush, and Helena Bonham Carter as Prince Albert (later King George VI), his unorthodox Australian speech therapist Lionel Logue, and Queen Elizabeth, chronicling the Duke's battle to overcome a debilitating stammer before wartime radio addresses. It won 4 of its 12 nominations (Best Picture, Director, Actor, Original Screenplay) and grossed $414 million on a modest 8 million pound budget, becoming one of the most profitable independent British films ever. It beat The Social Network and Inception. The filmmakers discovered Lionel Logue's original treatment notes just nine weeks before filming, incorporating them into the script. Hooper successfully challenged the British censors' initial 15 rating, arguing the profanity served a therapeutic purpose.",
+      "cardFront": "2010",
+      "cardBack": "The King's Speech"
     },
     {
       "id": "bp2011",
       "question": "What film won Best Picture at the Academy Awards in 2011?",
       "answer": "The Artist",
-      "alternateAnswers": ["Artist"],
-      "explanation": "Directed by Michel Hazanavicius, this French comedy-drama stars Jean Dujardin and Berenice Bejo as a declining silent film star and a rising young actress navigating the transition to sound cinema in 1920s-30s Hollywood. A black-and-white silent film, it won 5 of its 10 nominations (Best Picture, Director, Actor, Costume Design, Original Score) and grossed $133 million on a $15 million budget. It was the first primarily silent film to win Best Picture since Wings in 1929, 83 years earlier. Dujardin became the first French actor to win Best Actor. The film was shot at 22 fps instead of 24 fps to recreate the slightly accelerated appearance of 1920s silents, and it used the 1.33:1 aspect ratio of the silent era. The climactic dance sequence required five months of tap-dancing lessons and seventeen takes."
+      "alternateAnswers": [
+        "Artist"
+      ],
+      "explanation": "Directed by Michel Hazanavicius, this French comedy-drama stars Jean Dujardin and Berenice Bejo as a declining silent film star and a rising young actress navigating the transition to sound cinema in 1920s-30s Hollywood. A black-and-white silent film, it won 5 of its 10 nominations (Best Picture, Director, Actor, Costume Design, Original Score) and grossed $133 million on a $15 million budget. It was the first primarily silent film to win Best Picture since Wings in 1929, 83 years earlier. Dujardin became the first French actor to win Best Actor. The film was shot at 22 fps instead of 24 fps to recreate the slightly accelerated appearance of 1920s silents, and it used the 1.33:1 aspect ratio of the silent era. The climactic dance sequence required five months of tap-dancing lessons and seventeen takes.",
+      "cardFront": "2011",
+      "cardBack": "The Artist"
     },
     {
       "id": "bp2012",
       "question": "What film won Best Picture at the Academy Awards in 2012?",
       "answer": "Argo",
       "alternateAnswers": [],
-      "explanation": "Directed by and starring Ben Affleck, with Bryan Cranston, Alan Arkin, and John Goodman, this political thriller dramatizes the CIA's real 1979 scheme to rescue six American diplomats trapped in Tehran during the Iran hostage crisis by disguising them as a Canadian film crew scouting locations for a fake science-fiction movie. It won 3 of its 7 nominations (Best Picture, Adapted Screenplay, Film Editing) and grossed $232 million. The fake Studio Six production was so convincing it received 26 unsolicited scripts, including one from Steven Spielberg. Affleck was controversially not nominated for Best Director. The film faced criticism for downplaying Canada's crucial role in the actual rescue. Roger Ebert selected it as his final \"best film of the year\" before his death in 2013."
+      "explanation": "Directed by and starring Ben Affleck, with Bryan Cranston, Alan Arkin, and John Goodman, this political thriller dramatizes the CIA's real 1979 scheme to rescue six American diplomats trapped in Tehran during the Iran hostage crisis by disguising them as a Canadian film crew scouting locations for a fake science-fiction movie. It won 3 of its 7 nominations (Best Picture, Adapted Screenplay, Film Editing) and grossed $232 million. The fake Studio Six production was so convincing it received 26 unsolicited scripts, including one from Steven Spielberg. Affleck was controversially not nominated for Best Director. The film faced criticism for downplaying Canada's crucial role in the actual rescue. Roger Ebert selected it as his final \"best film of the year\" before his death in 2013.",
+      "cardFront": "2012",
+      "cardBack": "Argo"
     },
     {
       "id": "bp2013",
       "question": "What film won Best Picture at the Academy Awards in 2013?",
       "answer": "12 Years a Slave",
-      "alternateAnswers": ["Twelve Years a Slave"],
-      "explanation": "Directed by Steve McQueen, this historical drama stars Chiwetel Ejiofor, Michael Fassbender, and Lupita Nyong'o as Solomon Northup, a free Black man from New York kidnapped and sold into 12 years of brutal slavery in Louisiana, his sadistic owner, and a fellow enslaved woman. It won 3 of its 9 nominations (Best Picture, Adapted Screenplay, Supporting Actress for Nyong'o in her film debut) and grossed $187.7 million. McQueen became the first Black filmmaker to win Best Picture and the first Black producer to receive the award. Shot on 35mm film at historic Louisiana plantations including Magnolia Plantation, just miles from where the real Northup was enslaved. Information Is Beautiful calculated the film at 88.1% historically accurate."
+      "alternateAnswers": [
+        "Twelve Years a Slave"
+      ],
+      "explanation": "Directed by Steve McQueen, this historical drama stars Chiwetel Ejiofor, Michael Fassbender, and Lupita Nyong'o as Solomon Northup, a free Black man from New York kidnapped and sold into 12 years of brutal slavery in Louisiana, his sadistic owner, and a fellow enslaved woman. It won 3 of its 9 nominations (Best Picture, Adapted Screenplay, Supporting Actress for Nyong'o in her film debut) and grossed $187.7 million. McQueen became the first Black filmmaker to win Best Picture and the first Black producer to receive the award. Shot on 35mm film at historic Louisiana plantations including Magnolia Plantation, just miles from where the real Northup was enslaved. Information Is Beautiful calculated the film at 88.1% historically accurate.",
+      "cardFront": "2013",
+      "cardBack": "12 Years a Slave"
     },
     {
       "id": "bp2014",
       "question": "What film won Best Picture at the Academy Awards in 2014?",
       "answer": "Birdman",
-      "alternateAnswers": ["Birdman or (The Unexpected Virtue of Ignorance)"],
-      "explanation": "Directed by Alejandro Gonzalez Inarritu, this satirical black comedy stars Michael Keaton, Edward Norton, and Emma Stone as a faded Hollywood actor famous for playing a superhero who attempts a Broadway comeback by adapting a Raymond Carver story while battling his ego and inner demons. It won 4 of its 9 nominations (Best Picture, Director, Original Screenplay, Cinematography) and grossed $103 million. The film was shot to appear as one continuous take, with hidden cuts disguised by camera movements, a groundbreaking technique cinematographer Emmanuel Lubezki said \"would have been impossible years before\" due to camera limitations. Keaton, a former Batman, played a former superhero actor, blurring fiction and reality. The ending was rewritten mid-production after it came to Inarritu in a dream."
+      "alternateAnswers": [
+        "Birdman or (The Unexpected Virtue of Ignorance)"
+      ],
+      "explanation": "Directed by Alejandro Gonzalez Inarritu, this satirical black comedy stars Michael Keaton, Edward Norton, and Emma Stone as a faded Hollywood actor famous for playing a superhero who attempts a Broadway comeback by adapting a Raymond Carver story while battling his ego and inner demons. It won 4 of its 9 nominations (Best Picture, Director, Original Screenplay, Cinematography) and grossed $103 million. The film was shot to appear as one continuous take, with hidden cuts disguised by camera movements, a groundbreaking technique cinematographer Emmanuel Lubezki said \"would have been impossible years before\" due to camera limitations. Keaton, a former Batman, played a former superhero actor, blurring fiction and reality. The ending was rewritten mid-production after it came to Inarritu in a dream.",
+      "cardFront": "2014",
+      "cardBack": "Birdman"
     },
     {
       "id": "bp2015",
       "question": "What film won Best Picture at the Academy Awards in 2015?",
       "answer": "Spotlight",
       "alternateAnswers": [],
-      "explanation": "Directed by Tom McCarthy, this journalistic drama stars Mark Ruffalo, Michael Keaton, and Rachel McAdams as members of the Boston Globe's Spotlight investigative team who uncover decades of widespread child sexual abuse by Catholic priests and the Church's systematic cover-up. It won 2 of its 6 nominations (Best Picture and Original Screenplay) and grossed $98.7 million. It became the first Best Picture winner since 1952's The Greatest Show on Earth to win fewer than three Oscars. The real journalists portrayed in the film, including Sacha Pfeiffer and Michael Rezendes, made cameos in the Fenway Park scene and consulted closely with filmmakers on accuracy. It achieved a 97% Rotten Tomatoes rating and appeared on over 120 critics' top-ten lists."
+      "explanation": "Directed by Tom McCarthy, this journalistic drama stars Mark Ruffalo, Michael Keaton, and Rachel McAdams as members of the Boston Globe's Spotlight investigative team who uncover decades of widespread child sexual abuse by Catholic priests and the Church's systematic cover-up. It won 2 of its 6 nominations (Best Picture and Original Screenplay) and grossed $98.7 million. It became the first Best Picture winner since 1952's The Greatest Show on Earth to win fewer than three Oscars. The real journalists portrayed in the film, including Sacha Pfeiffer and Michael Rezendes, made cameos in the Fenway Park scene and consulted closely with filmmakers on accuracy. It achieved a 97% Rotten Tomatoes rating and appeared on over 120 critics' top-ten lists.",
+      "cardFront": "2015",
+      "cardBack": "Spotlight"
     },
     {
       "id": "bp2016",
       "question": "What film won Best Picture at the Academy Awards in 2016?",
       "answer": "Moonlight",
       "alternateAnswers": [],
-      "explanation": "Directed by Barry Jenkins, this coming-of-age drama stars Trevante Rhodes, Mahershala Ali, and Naomie Harris, following Chiron through three life stages as he navigates his identity as a Black gay man growing up in poverty in Miami. It won 3 of its 8 nominations (Best Picture, Supporting Actor for Ali, Adapted Screenplay) and grossed $65.3 million. It became the first film with an all-Black cast and the first LGBTQ-themed film to win Best Picture. The award was initially announced as La La Land in the most dramatic blunder in Oscar history when presenter Faye Dunaway was handed the wrong envelope; producer Jordan Horowitz corrected the error on stage. Ali became the first Muslim to win an acting Oscar, and editor Joi McMillon became the first Black woman nominated for a film editing Oscar."
+      "explanation": "Directed by Barry Jenkins, this coming-of-age drama stars Trevante Rhodes, Mahershala Ali, and Naomie Harris, following Chiron through three life stages as he navigates his identity as a Black gay man growing up in poverty in Miami. It won 3 of its 8 nominations (Best Picture, Supporting Actor for Ali, Adapted Screenplay) and grossed $65.3 million. It became the first film with an all-Black cast and the first LGBTQ-themed film to win Best Picture. The award was initially announced as La La Land in the most dramatic blunder in Oscar history when presenter Faye Dunaway was handed the wrong envelope; producer Jordan Horowitz corrected the error on stage. Ali became the first Muslim to win an acting Oscar, and editor Joi McMillon became the first Black woman nominated for a film editing Oscar.",
+      "cardFront": "2016",
+      "cardBack": "Moonlight"
     },
     {
       "id": "bp2017",
       "question": "What film won Best Picture at the Academy Awards in 2017?",
       "answer": "The Shape of Water",
-      "alternateAnswers": ["Shape of Water"],
-      "explanation": "Directed by Guillermo del Toro, this romantic dark fantasy stars Sally Hawkins, Michael Shannon, and Richard Jenkins as a mute janitor at a Cold War government laboratory who falls in love with a captured humanoid amphibian creature and plots to free him from a ruthless colonel. It won 4 of its 13 nominations (Best Picture, Director, Original Score, Production Design) and grossed $195 million. Only the second fantasy film to win Best Picture after Return of the King. Del Toro first pitched the concept to Hawkins while intoxicated at the 2014 Golden Globes. The film was originally planned in black and white but shot in color after Fox Searchlight offered a higher budget for the color version. The creature's vocalizations were created using del Toro's own breathing combined with animal sounds."
+      "alternateAnswers": [
+        "Shape of Water"
+      ],
+      "explanation": "Directed by Guillermo del Toro, this romantic dark fantasy stars Sally Hawkins, Michael Shannon, and Richard Jenkins as a mute janitor at a Cold War government laboratory who falls in love with a captured humanoid amphibian creature and plots to free him from a ruthless colonel. It won 4 of its 13 nominations (Best Picture, Director, Original Score, Production Design) and grossed $195 million. Only the second fantasy film to win Best Picture after Return of the King. Del Toro first pitched the concept to Hawkins while intoxicated at the 2014 Golden Globes. The film was originally planned in black and white but shot in color after Fox Searchlight offered a higher budget for the color version. The creature's vocalizations were created using del Toro's own breathing combined with animal sounds.",
+      "cardFront": "2017",
+      "cardBack": "The Shape of Water"
     },
     {
       "id": "bp2018",
       "question": "What film won Best Picture at the Academy Awards in 2018?",
       "answer": "Green Book",
       "alternateAnswers": [],
-      "explanation": "Directed by Peter Farrelly, this biographical comedy-drama stars Viggo Mortensen and Mahershala Ali as an Italian-American bouncer hired as driver and bodyguard for an African-American concert pianist touring the segregated Deep South in 1962. It won 3 of its 5 nominations (Best Picture, Original Screenplay, Supporting Actor for Ali) and grossed $321.8 million on a $23 million budget. It became only the fifth Best Picture winner without a Best Director nomination. The film was controversial: Don Shirley's family disputed its accuracy, and Spike Lee publicly compared it unfavorably to Driving Miss Daisy. Mortensen gained 45 pounds for his role. Steven Spielberg reportedly watched it five times in two weeks, calling it his favorite buddy movie since Butch Cassidy and the Sundance Kid."
+      "explanation": "Directed by Peter Farrelly, this biographical comedy-drama stars Viggo Mortensen and Mahershala Ali as an Italian-American bouncer hired as driver and bodyguard for an African-American concert pianist touring the segregated Deep South in 1962. It won 3 of its 5 nominations (Best Picture, Original Screenplay, Supporting Actor for Ali) and grossed $321.8 million on a $23 million budget. It became only the fifth Best Picture winner without a Best Director nomination. The film was controversial: Don Shirley's family disputed its accuracy, and Spike Lee publicly compared it unfavorably to Driving Miss Daisy. Mortensen gained 45 pounds for his role. Steven Spielberg reportedly watched it five times in two weeks, calling it his favorite buddy movie since Butch Cassidy and the Sundance Kid.",
+      "cardFront": "2018",
+      "cardBack": "Green Book"
     },
     {
       "id": "bp2019",
       "question": "What film won Best Picture at the Academy Awards in 2019?",
       "answer": "Parasite",
       "alternateAnswers": [],
-      "explanation": "Directed by Bong Joon-ho, this black comedy thriller stars Song Kang-ho, Lee Sun-kyun, and Cho Yeo-jeong as a poor family who infiltrate a wealthy household by securing jobs while concealing their true identities, with class tensions building toward a violent climax. It won 4 of its 6 nominations (Best Picture, Director, Original Screenplay, International Feature Film) and grossed $258 million on an $11.4 million budget. It became the first non-English-language film to win Best Picture. It won the Palme d'Or at Cannes with a unanimous jury vote, the first Korean film to do so, and is only the fourth film to win both the Palme d'Or and Best Picture. In his acceptance speech, Bong quoted Martin Scorsese: \"The most personal is the most creative.\" The New York Times ranked it the best film of the 21st century."
+      "explanation": "Directed by Bong Joon-ho, this black comedy thriller stars Song Kang-ho, Lee Sun-kyun, and Cho Yeo-jeong as a poor family who infiltrate a wealthy household by securing jobs while concealing their true identities, with class tensions building toward a violent climax. It won 4 of its 6 nominations (Best Picture, Director, Original Screenplay, International Feature Film) and grossed $258 million on an $11.4 million budget. It became the first non-English-language film to win Best Picture. It won the Palme d'Or at Cannes with a unanimous jury vote, the first Korean film to do so, and is only the fourth film to win both the Palme d'Or and Best Picture. In his acceptance speech, Bong quoted Martin Scorsese: \"The most personal is the most creative.\" The New York Times ranked it the best film of the 21st century.",
+      "cardFront": "2019",
+      "cardBack": "Parasite"
     },
     {
       "id": "bp2020",
       "question": "What film won Best Picture at the Academy Awards in 2020?",
       "answer": "Nomadland",
       "alternateAnswers": [],
-      "explanation": "Directed by Chloe Zhao, this drama stars Frances McDormand and David Strathairn as a widow who loses her job after a Nevada plant closure and travels across America in a van, discovering community among fellow nomads while processing grief and reinvention. It won 3 of its 6 nominations (Best Picture, Director, Actress) and grossed $39.5 million on a $5 million budget. Zhao became the second woman and first Asian woman to win Best Director, and was the first director nominated in four categories in a single year. The film used real nomads alongside McDormand, blurring documentary and fiction. It was the first film to win the top prize at both Venice and Toronto. When accepting Best Picture, McDormand howled toward the ceiling as a tribute to the film's sound mixer, Michael \"Wolf\" Snyder, who had recently died."
+      "explanation": "Directed by Chloe Zhao, this drama stars Frances McDormand and David Strathairn as a widow who loses her job after a Nevada plant closure and travels across America in a van, discovering community among fellow nomads while processing grief and reinvention. It won 3 of its 6 nominations (Best Picture, Director, Actress) and grossed $39.5 million on a $5 million budget. Zhao became the second woman and first Asian woman to win Best Director, and was the first director nominated in four categories in a single year. The film used real nomads alongside McDormand, blurring documentary and fiction. It was the first film to win the top prize at both Venice and Toronto. When accepting Best Picture, McDormand howled toward the ceiling as a tribute to the film's sound mixer, Michael \"Wolf\" Snyder, who had recently died.",
+      "cardFront": "2020",
+      "cardBack": "Nomadland"
     },
     {
       "id": "bp2021",
       "question": "What film won Best Picture at the Academy Awards in 2021?",
       "answer": "CODA",
       "alternateAnswers": [],
-      "explanation": "Directed by Sian Heder, this coming-of-age comedy-drama stars Emilia Jones, Troy Kotsur, and Marlee Matlin as a hearing teenager who is the only hearing member of a deaf family in Gloucester, Massachusetts, torn between helping her parents' struggling fishing business and pursuing her dream of becoming a singer. It achieved a perfect 3-for-3 at the Oscars, winning Best Picture, Supporting Actor for Kotsur, and Adapted Screenplay, and grossed just $2.2 million theatrically. It was the first film from a streaming service (Apple TV+) to win Best Picture and the first Sundance premiere to claim the top award. Kotsur became the first deaf male actor to win an Oscar. Apple acquired distribution rights for a festival-record $25 million two days after its Sundance debut. Streaming views increased 300% in the three days after its win."
+      "explanation": "Directed by Sian Heder, this coming-of-age comedy-drama stars Emilia Jones, Troy Kotsur, and Marlee Matlin as a hearing teenager who is the only hearing member of a deaf family in Gloucester, Massachusetts, torn between helping her parents' struggling fishing business and pursuing her dream of becoming a singer. It achieved a perfect 3-for-3 at the Oscars, winning Best Picture, Supporting Actor for Kotsur, and Adapted Screenplay, and grossed just $2.2 million theatrically. It was the first film from a streaming service (Apple TV+) to win Best Picture and the first Sundance premiere to claim the top award. Kotsur became the first deaf male actor to win an Oscar. Apple acquired distribution rights for a festival-record $25 million two days after its Sundance debut. Streaming views increased 300% in the three days after its win.",
+      "cardFront": "2021",
+      "cardBack": "CODA"
     },
     {
       "id": "bp2022",
       "question": "What film won Best Picture at the Academy Awards in 2022?",
       "answer": "Everything Everywhere All at Once",
-      "alternateAnswers": ["EEAAO"],
-      "explanation": "Directed by Daniel Kwan and Daniel Scheinert (the Daniels), this absurdist sci-fi comedy-drama stars Michelle Yeoh, Stephanie Hsu, and Ke Huy Quan as a Chinese-American laundromat owner who discovers she must connect with parallel universe versions of herself to prevent a powerful being from destroying the multiverse. It won 7 of its 11 nominations, including Best Picture, Director, Actress, Supporting Actor, Supporting Actress for Jamie Lee Curtis, Original Screenplay, and Film Editing. Made for $25 million, it grossed $143 million to become A24's highest-grossing film. Yeoh became the first Asian woman to win Best Actress at 59. Quan returned to acting after a 20-year absence and became the first Vietnam-born actor to win an Oscar. It was the first science-fiction film to win Best Picture."
+      "alternateAnswers": [
+        "EEAAO"
+      ],
+      "explanation": "Directed by Daniel Kwan and Daniel Scheinert (the Daniels), this absurdist sci-fi comedy-drama stars Michelle Yeoh, Stephanie Hsu, and Ke Huy Quan as a Chinese-American laundromat owner who discovers she must connect with parallel universe versions of herself to prevent a powerful being from destroying the multiverse. It won 7 of its 11 nominations, including Best Picture, Director, Actress, Supporting Actor, Supporting Actress for Jamie Lee Curtis, Original Screenplay, and Film Editing. Made for $25 million, it grossed $143 million to become A24's highest-grossing film. Yeoh became the first Asian woman to win Best Actress at 59. Quan returned to acting after a 20-year absence and became the first Vietnam-born actor to win an Oscar. It was the first science-fiction film to win Best Picture.",
+      "cardFront": "2022",
+      "cardBack": "Everything Everywhere All at Once"
     },
     {
       "id": "bp2023",
       "question": "What film won Best Picture at the Academy Awards in 2023?",
       "answer": "Oppenheimer",
       "alternateAnswers": [],
-      "explanation": "Directed by Christopher Nolan, this epic biographical thriller stars Cillian Murphy, Robert Downey Jr., and Emily Blunt as theoretical physicist J. Robert Oppenheimer, political operative Lewis Strauss, and Kitty Oppenheimer, following the development of the atomic bomb and Oppenheimer's subsequent 1954 security hearing. It won 7 of its 13 nominations (Best Picture, Director, Actor, Supporting Actor, Film Editing, Cinematography, Original Score) and grossed $976 million. The Trinity nuclear test was recreated without CGI, using real explosives and oversized miniature models with forced perspective at a replica 100-foot steel tower in New Mexico. It was Nolan's first film not distributed by Warner Bros. since 2000's Memento, following a dispute over streaming strategy. It was also the first film to use IMAX black-and-white photography."
+      "explanation": "Directed by Christopher Nolan, this epic biographical thriller stars Cillian Murphy, Robert Downey Jr., and Emily Blunt as theoretical physicist J. Robert Oppenheimer, political operative Lewis Strauss, and Kitty Oppenheimer, following the development of the atomic bomb and Oppenheimer's subsequent 1954 security hearing. It won 7 of its 13 nominations (Best Picture, Director, Actor, Supporting Actor, Film Editing, Cinematography, Original Score) and grossed $976 million. The Trinity nuclear test was recreated without CGI, using real explosives and oversized miniature models with forced perspective at a replica 100-foot steel tower in New Mexico. It was Nolan's first film not distributed by Warner Bros. since 2000's Memento, following a dispute over streaming strategy. It was also the first film to use IMAX black-and-white photography.",
+      "cardFront": "2023",
+      "cardBack": "Oppenheimer"
     },
     {
       "id": "bp2024",
       "question": "What film won Best Picture at the Academy Awards in 2024?",
       "answer": "Anora",
       "alternateAnswers": [],
-      "explanation": "Directed by Sean Baker, this romantic comedy-drama stars Mikey Madison, Mark Eydelshteyn, and Yura Borisov as a Brooklyn sex worker who impulsively marries the young son of a Russian oligarch, only to have his family's enforcers arrive to annul the marriage. It won 5 of its 6 nominations (Best Picture, Director, Actress, Original Screenplay, Film Editing) and grossed $59.3 million on a $6 million budget. It is one of only four films to win both the Palme d'Or at Cannes and the Best Picture Oscar, joining The Lost Weekend, Marty, and Parasite. Baker matched Walt Disney's record for most Academy Awards won by one person in a single year and uniquely won all four of his personal awards for the same film, a distinction Disney does not share."
+      "explanation": "Directed by Sean Baker, this romantic comedy-drama stars Mikey Madison, Mark Eydelshteyn, and Yura Borisov as a Brooklyn sex worker who impulsively marries the young son of a Russian oligarch, only to have his family's enforcers arrive to annul the marriage. It won 5 of its 6 nominations (Best Picture, Director, Actress, Original Screenplay, Film Editing) and grossed $59.3 million on a $6 million budget. It is one of only four films to win both the Palme d'Or at Cannes and the Best Picture Oscar, joining The Lost Weekend, Marty, and Parasite. Baker matched Walt Disney's record for most Academy Awards won by one person in a single year and uniquely won all four of his personal awards for the same film, a distinction Disney does not share.",
+      "cardFront": "2024",
+      "cardBack": "Anora"
     }
   ]
 }

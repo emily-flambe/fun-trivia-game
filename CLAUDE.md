@@ -27,9 +27,9 @@ Update these when the information changes. Create new keys for new topics.
 | Dev (React only, proxied) | `npm run dev:client` |
 | Build SPA | `npm run build` |
 | Deploy (build + deploy) | `npm run deploy` |
-| Unit tests (63) | `npm test` |
-| Worker integration tests (25) | `npm run test:worker` |
-| All tests (88) | `npm run test:all` |
+| Unit tests | `npm test` |
+| Worker integration tests | `npm run test:worker` |
+| All tests | `npm run test:all` |
 | Seed local D1 | `node scripts/seed.mjs --local` |
 | Seed remote D1 | `node scripts/seed.mjs --remote` |
 
@@ -56,7 +56,9 @@ Seed format:
       "question": "Question text?",
       "answer": "Canonical answer",
       "alternateAnswers": ["Alt spelling", "Nickname"],
-      "explanation": "1-2 memorable sentences. Not just restating the answer."
+      "explanation": "1-2 memorable sentences. Not just restating the answer.",
+      "cardFront": "Optional: short label for flashcard front (falls back to question)",
+      "cardBack": "Optional: short label for flashcard back (falls back to answer)"
     }
   ]
 }
@@ -70,11 +72,12 @@ Module ID convention: `{prefix}-{topic}` where prefix is `geo`, `hist`, `sci`, `
 - ID: `f647046c-e114-41ca-9231-7942bdfb8b82`
 - Region: WNAM
 - Tables: `modules`, `questions`
-- Schema: `migrations/0001_schema.sql` + `migrations/0002_format_refactor.sql`
+- Schema: `migrations/0001_schema.sql` + `migrations/0002_format_refactor.sql` + `migrations/0003_card_front.sql`
 
 ## Architecture Notes
 
 - **Questions are format-agnostic.** Don't add format-specific question types. Store canonical answer text on every question; format-specific data (MC options, matching pairs) is optional/supplementary.
+- **Flashcard fields are separate from quiz fields.** `cardFront`/`cardBack` are optional per-question fields for Learn mode. They fall back to `question`/`answer` when not set. Modules with these fields get a reversible direction toggle in Learn mode.
 - **MCP is lazy-imported** in the worker (`await import('agents/mcp')`) to avoid breaking vitest-pool-workers. Don't change this to a static import.
 - **Two vitest configs**: `vitest.unit.config.ts` for pure functions, `vitest.config.ts` for Workers pool integration tests. Don't merge them.
 - **Vite config is separate**: `vite.config.app.ts` builds the React SPA. It's distinct from the vitest configs.
@@ -82,10 +85,17 @@ Module ID convention: `{prefix}-{topic}` where prefix is `geo`, `hist`, `sci`, `
 
 ## Deploying
 
+**Always deploy after making changes.** Don't wait to be asked.
+
 ```bash
 npm run test:all           # verify tests pass
 npm run deploy             # builds SPA + deploys worker
 node scripts/seed.mjs --remote  # if seed data changed
+```
+
+If migrations were added, run them on remote BEFORE seeding:
+```bash
+npx wrangler d1 execute trivia-trainer --remote --file=migrations/XXXX.sql
 ```
 
 ## Docs

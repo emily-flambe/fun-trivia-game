@@ -11,6 +11,8 @@ interface QuestionRow {
 	correct_index: number | null;
 	match_pairs: string | null;
 	explanation: string;
+	card_front: string | null;
+	card_back: string | null;
 	sort_order: number;
 }
 
@@ -93,7 +95,7 @@ export class QuizRepository {
 
 		const questionRows = await this.db
 			.prepare(
-				`SELECT id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, sort_order
+				`SELECT id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, card_front, card_back, sort_order
 				 FROM questions WHERE module_id = ? ORDER BY sort_order, id`
 			)
 			.bind(moduleId)
@@ -116,7 +118,7 @@ export class QuizRepository {
 	async getQuestion(moduleId: string, questionId: string): Promise<Question | null> {
 		const row = await this.db
 			.prepare(
-				`SELECT id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, sort_order
+				`SELECT id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, card_front, card_back, sort_order
 				 FROM questions WHERE module_id = ? AND id = ?`
 			)
 			.bind(moduleId, questionId)
@@ -128,7 +130,7 @@ export class QuizRepository {
 
 	async getRandomQuestion(filters?: { category?: Category; tier?: Tier }): Promise<(Question & { moduleName: string }) | null> {
 		let sql = `SELECT q.id, q.module_id, q.question, q.answer, q.alternate_answers,
-		           q.options, q.correct_index, q.match_pairs, q.explanation, q.sort_order,
+		           q.options, q.correct_index, q.match_pairs, q.explanation, q.card_front, q.sort_order,
 		           m.name as module_name
 		           FROM questions q JOIN modules m ON q.module_id = m.id WHERE 1=1`;
 		const bindings: string[] = [];
@@ -172,6 +174,12 @@ function mapQuestion(row: QuestionRow): Question {
 	}
 	if (row.match_pairs) {
 		q.matchPairs = JSON.parse(row.match_pairs);
+	}
+	if (row.card_front) {
+		q.cardFront = row.card_front;
+	}
+	if (row.card_back) {
+		q.cardBack = row.card_back;
 	}
 
 	return q;

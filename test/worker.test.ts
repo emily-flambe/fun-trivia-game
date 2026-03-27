@@ -4,17 +4,17 @@ import worker from '../src/index';
 
 async function seedTestData(db: D1Database) {
 	await db.exec(`CREATE TABLE IF NOT EXISTS modules (id TEXT PRIMARY KEY, category TEXT NOT NULL, name TEXT NOT NULL, tier TEXT NOT NULL, description TEXT NOT NULL, default_format TEXT NOT NULL DEFAULT 'text-entry');`);
-	await db.exec(`CREATE TABLE IF NOT EXISTS questions (id TEXT NOT NULL, module_id TEXT NOT NULL, question TEXT NOT NULL, answer TEXT NOT NULL, alternate_answers TEXT DEFAULT '[]', options TEXT, correct_index INTEGER, match_pairs TEXT, explanation TEXT NOT NULL, sort_order INTEGER DEFAULT 0, PRIMARY KEY (id, module_id));`);
+	await db.exec(`CREATE TABLE IF NOT EXISTS questions (id TEXT NOT NULL, module_id TEXT NOT NULL, question TEXT NOT NULL, answer TEXT NOT NULL, alternate_answers TEXT DEFAULT '[]', options TEXT, correct_index INTEGER, match_pairs TEXT, explanation TEXT NOT NULL, card_front TEXT, card_back TEXT, sort_order INTEGER DEFAULT 0, PRIMARY KEY (id, module_id));`);
 
 	await db.exec(`INSERT INTO modules VALUES ('geo-test', 'geography', 'Test Capitals', 'foundation', 'Test module', 'text-entry');`);
 	await db.exec(`INSERT INTO modules VALUES ('sci-test', 'science', 'Test Planets', 'foundation', 'Test science module', 'multiple-choice');`);
 
-	await db.exec(`INSERT INTO questions VALUES ('q1', 'geo-test', 'Capital of France?', 'Paris', '[]', NULL, NULL, NULL, 'Paris is the capital of France.', 0);`);
-	await db.exec(`INSERT INTO questions VALUES ('q2', 'geo-test', 'Capital of Germany?', 'Berlin', '[]', NULL, NULL, NULL, 'Berlin is the capital of Germany.', 1);`);
-	await db.exec(`INSERT INTO questions VALUES ('q3', 'geo-test', 'Capital of Japan?', 'Tokyo', '["Tōkyō"]', NULL, NULL, NULL, 'Tokyo is the capital of Japan.', 2);`);
+	await db.exec(`INSERT INTO questions VALUES ('q1', 'geo-test', 'Capital of France?', 'Paris', '[]', NULL, NULL, NULL, 'Paris is the capital of France.', NULL, NULL, 0);`);
+	await db.exec(`INSERT INTO questions VALUES ('q2', 'geo-test', 'Capital of Germany?', 'Berlin', '[]', NULL, NULL, NULL, 'Berlin is the capital of Germany.', NULL, NULL, 1);`);
+	await db.exec(`INSERT INTO questions VALUES ('q3', 'geo-test', 'Capital of Japan?', 'Tokyo', '["Tōkyō"]', NULL, NULL, NULL, 'Tokyo is the capital of Japan.', NULL, NULL, 2);`);
 
-	await db.exec(`INSERT INTO questions VALUES ('q1', 'sci-test', 'Largest planet?', 'Jupiter', '[]', '["Mars","Jupiter","Saturn","Venus"]', 1, NULL, 'Jupiter is the largest planet.', 0);`);
-	await db.exec(`INSERT INTO questions VALUES ('q2', 'sci-test', 'Closest star?', 'Proxima Centauri', '[]', '["Proxima Centauri","Sirius","Alpha Centauri","Betelgeuse"]', 0, NULL, 'Proxima Centauri is the closest star to our Sun.', 1);`);
+	await db.exec(`INSERT INTO questions VALUES ('q1', 'sci-test', 'Largest planet?', 'Jupiter', '[]', '["Mars","Jupiter","Saturn","Venus"]', 1, NULL, 'Jupiter is the largest planet.', NULL, NULL, 0);`);
+	await db.exec(`INSERT INTO questions VALUES ('q2', 'sci-test', 'Closest star?', 'Proxima Centauri', '[]', '["Proxima Centauri","Sirius","Alpha Centauri","Betelgeuse"]', 0, NULL, 'Proxima Centauri is the closest star to our Sun.', NULL, NULL, 1);`);
 }
 
 async function makeRequest(path: string, options?: RequestInit) {

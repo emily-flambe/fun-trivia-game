@@ -10,211 +10,335 @@
       "id": "mona-lisa",
       "question": "Who painted the 'Mona Lisa'?",
       "answer": "Leonardo da Vinci",
-      "alternateAnswers": ["Da Vinci", "Leonardo"],
-      "explanation": "Leonardo da Vinci painted the Mona Lisa in oil on a poplar wood panel between approximately 1503 and 1519, during the Italian Renaissance. The portrait, believed to depict Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo, measures just 30 by 21 inches. It hangs behind bulletproof glass at the Louvre in Paris, where it draws millions of visitors annually. The painting became a global sensation after it was stolen in 1911 by Louvre employee Vincenzo Peruggia, who hid it in his apartment for two years. The empty wall attracted larger crowds than the painting ever had. Celebrated for its enigmatic expression, atmospheric sfumato technique, and masterful composition, it is the most visited, most written about, and most parodied work of art in the world."
+      "alternateAnswers": [
+        "Da Vinci",
+        "Leonardo"
+      ],
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in oil on a poplar wood panel between approximately 1503 and 1519, during the Italian Renaissance. The portrait, believed to depict Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo, measures just 30 by 21 inches. It hangs behind bulletproof glass at the Louvre in Paris, where it draws millions of visitors annually. The painting became a global sensation after it was stolen in 1911 by Louvre employee Vincenzo Peruggia, who hid it in his apartment for two years. The empty wall attracted larger crowds than the painting ever had. Celebrated for its enigmatic expression, atmospheric sfumato technique, and masterful composition, it is the most visited, most written about, and most parodied work of art in the world.",
+      "cardFront": "Mona Lisa",
+      "cardBack": "Leonardo da Vinci"
     },
     {
       "id": "starry-night",
       "question": "Who painted 'The Starry Night'?",
       "answer": "Vincent van Gogh",
-      "alternateAnswers": ["Van Gogh"],
-      "explanation": "Vincent van Gogh painted The Starry Night in oil on canvas in June 1889, during the Post-Impressionist movement. He created it from the east-facing window of his asylum room at Saint-Remy-de-Provence, depicting the pre-dawn view with the addition of an imaginary village below swirling, luminous skies. The canvas measures approximately 29 by 36 inches. Van Gogh considered it a failure and sold only one painting during his lifetime, yet The Starry Night became a touchstone of modern art. It entered the collection of the Museum of Modern Art in New York City in 1941 through the Lillie P. Bliss Bequest, where it remains one of the most recognized images in Western culture, inspiring countless reproductions and homages across every medium."
+      "alternateAnswers": [
+        "Van Gogh"
+      ],
+      "explanation": "Vincent van Gogh painted The Starry Night in oil on canvas in June 1889, during the Post-Impressionist movement. He created it from the east-facing window of his asylum room at Saint-Remy-de-Provence, depicting the pre-dawn view with the addition of an imaginary village below swirling, luminous skies. The canvas measures approximately 29 by 36 inches. Van Gogh considered it a failure and sold only one painting during his lifetime, yet The Starry Night became a touchstone of modern art. It entered the collection of the Museum of Modern Art in New York City in 1941 through the Lillie P. Bliss Bequest, where it remains one of the most recognized images in Western culture, inspiring countless reproductions and homages across every medium.",
+      "cardFront": "The Starry Night",
+      "cardBack": "Vincent van Gogh"
     },
     {
       "id": "the-scream",
       "question": "Who painted 'The Scream'?",
       "answer": "Edvard Munch",
-      "alternateAnswers": ["Munch"],
-      "explanation": "Edvard Munch created The Scream in 1893 using oil, tempera, and pastel on cardboard, measuring 91 by 73 centimeters. The work became a foundational piece of the Expressionist movement, depicting an agonized figure against a turbulent orange sky on a bridge in Christiania (now Oslo). Munch made four versions across paint and pastel between 1893 and 1910. The original Norwegian title is Skrik. Scientists have theorized the blood-red sky was inspired by volcanic sunsets from the 1883 eruption of Krakatoa. One pastel version sold for nearly 120 million dollars at Sotheby's in 2012. Two versions were stolen and recovered: from the National Gallery in 1994 and the Munch Museum in 2004. The painting's depiction of existential dread has made it one of the most iconic images in art history."
+      "alternateAnswers": [
+        "Munch"
+      ],
+      "explanation": "Edvard Munch created The Scream in 1893 using oil, tempera, and pastel on cardboard, measuring 91 by 73 centimeters. The work became a foundational piece of the Expressionist movement, depicting an agonized figure against a turbulent orange sky on a bridge in Christiania (now Oslo). Munch made four versions across paint and pastel between 1893 and 1910. The original Norwegian title is Skrik. Scientists have theorized the blood-red sky was inspired by volcanic sunsets from the 1883 eruption of Krakatoa. One pastel version sold for nearly 120 million dollars at Sotheby's in 2012. Two versions were stolen and recovered: from the National Gallery in 1994 and the Munch Museum in 2004. The painting's depiction of existential dread has made it one of the most iconic images in art history.",
+      "cardFront": "The Scream",
+      "cardBack": "Edvard Munch"
     },
     {
       "id": "girl-pearl-earring",
       "question": "Who painted 'Girl with a Pearl Earring'?",
       "answer": "Johannes Vermeer",
-      "alternateAnswers": ["Vermeer"],
-      "explanation": "Johannes Vermeer painted Girl with a Pearl Earring around 1665 in oil on canvas during the Dutch Golden Age. The work is a tronie, a Dutch genre depicting an idealized character rather than a specific person, and the identity of the model remains unknown. Sometimes called the 'Mona Lisa of the North,' the painting acquired its current title only toward the end of the 20th century. The luminous pearl is likely not a real gem at all but a polished tin earring painted to create the illusion. The painting has been housed at the Mauritshuis in The Hague since 1902. It inspired Tracy Chevalier's 1999 novel and a 2003 film starring Scarlett Johansson, cementing its place as one of the most beloved and widely reproduced works in Western art."
+      "alternateAnswers": [
+        "Vermeer"
+      ],
+      "explanation": "Johannes Vermeer painted Girl with a Pearl Earring around 1665 in oil on canvas during the Dutch Golden Age. The work is a tronie, a Dutch genre depicting an idealized character rather than a specific person, and the identity of the model remains unknown. Sometimes called the 'Mona Lisa of the North,' the painting acquired its current title only toward the end of the 20th century. The luminous pearl is likely not a real gem at all but a polished tin earring painted to create the illusion. The painting has been housed at the Mauritshuis in The Hague since 1902. It inspired Tracy Chevalier's 1999 novel and a 2003 film starring Scarlett Johansson, cementing its place as one of the most beloved and widely reproduced works in Western art.",
+      "cardFront": "Girl with a Pearl Earring",
+      "cardBack": "Johannes Vermeer"
     },
     {
       "id": "birth-venus",
       "question": "Who painted 'The Birth of Venus'?",
       "answer": "Sandro Botticelli",
-      "alternateAnswers": ["Botticelli"],
-      "explanation": "Sandro Botticelli painted The Birth of Venus in tempera on canvas in the mid-1480s during the Italian Renaissance. The large work, measuring roughly 5.7 by 9.2 feet, depicts the goddess Venus emerging fully grown from the sea on a scallop shell, blown toward shore by the winds Zephyr and Chloris. It was likely commissioned by Lorenzo di Pierfrancesco de' Medici for his villa. The painting is one of the first large-scale Renaissance works to depict a non-biblical female nude, drawing directly on classical mythology. During Savonarola's 'bonfire of the vanities' in 1490s Florence, Botticelli reportedly burned some of his own paintings, but this masterpiece survived. It hangs in the Uffizi Gallery in Florence, where it remains one of the most visited and reproduced images of the Renaissance."
+      "alternateAnswers": [
+        "Botticelli"
+      ],
+      "explanation": "Sandro Botticelli painted The Birth of Venus in tempera on canvas in the mid-1480s during the Italian Renaissance. The large work, measuring roughly 5.7 by 9.2 feet, depicts the goddess Venus emerging fully grown from the sea on a scallop shell, blown toward shore by the winds Zephyr and Chloris. It was likely commissioned by Lorenzo di Pierfrancesco de' Medici for his villa. The painting is one of the first large-scale Renaissance works to depict a non-biblical female nude, drawing directly on classical mythology. During Savonarola's 'bonfire of the vanities' in 1490s Florence, Botticelli reportedly burned some of his own paintings, but this masterpiece survived. It hangs in the Uffizi Gallery in Florence, where it remains one of the most visited and reproduced images of the Renaissance.",
+      "cardFront": "The Birth of Venus",
+      "cardBack": "Sandro Botticelli"
     },
     {
       "id": "last-supper",
       "question": "Who painted 'The Last Supper'?",
       "answer": "Leonardo da Vinci",
-      "alternateAnswers": ["Da Vinci", "Leonardo"],
-      "explanation": "Leonardo da Vinci painted The Last Supper between approximately 1495 and 1498 as a mural in the refectory of the Convent of Santa Maria delle Grazie in Milan, a masterwork of the High Renaissance. Rather than traditional fresco technique, which requires painting quickly on wet plaster, Leonardo used an experimental method of applying tempera and oil on a dry gesso ground, allowing him to work slowly and achieve extraordinary detail. This decision proved catastrophic for preservation: the paint began flaking within decades. The mural, measuring roughly 15 by 29 feet, depicts the dramatic moment after Jesus announces one of his apostles will betray him. Its handling of perspective, human emotion, and spatial composition has been studied for over five centuries. It has survived wartime bombing, flooding, and numerous restorations, the most recent completed in 1999."
+      "alternateAnswers": [
+        "Da Vinci",
+        "Leonardo"
+      ],
+      "explanation": "Leonardo da Vinci painted The Last Supper between approximately 1495 and 1498 as a mural in the refectory of the Convent of Santa Maria delle Grazie in Milan, a masterwork of the High Renaissance. Rather than traditional fresco technique, which requires painting quickly on wet plaster, Leonardo used an experimental method of applying tempera and oil on a dry gesso ground, allowing him to work slowly and achieve extraordinary detail. This decision proved catastrophic for preservation: the paint began flaking within decades. The mural, measuring roughly 15 by 29 feet, depicts the dramatic moment after Jesus announces one of his apostles will betray him. Its handling of perspective, human emotion, and spatial composition has been studied for over five centuries. It has survived wartime bombing, flooding, and numerous restorations, the most recent completed in 1999.",
+      "cardFront": "The Last Supper",
+      "cardBack": "Leonardo da Vinci"
     },
     {
       "id": "guernica",
       "question": "Who painted 'Guernica'?",
       "answer": "Pablo Picasso",
-      "alternateAnswers": ["Picasso"],
-      "explanation": "Pablo Picasso painted Guernica in oil on canvas in 1937, creating what many art critics consider the most powerful anti-war painting in history. The monumental work measures roughly 11.5 by 25.6 feet and was his response to the Nazi German and Italian Fascist bombing of the Basque town of Guernica during the Spanish Civil War. Picasso completed it in just over a month for the Spanish Republic's pavilion at the 1937 Paris International Exposition. Rendered entirely in stark black, white, and gray, it depicts the suffering of people and animals caught in the bombardment. When a German officer reportedly asked Picasso, 'Did you do this?' he replied, 'No, you did.' Picasso refused to let the painting return to Spain until democracy was restored. It hung at MoMA in New York for decades before finally moving to the Museo Reina Sofia in Madrid in 1981."
+      "alternateAnswers": [
+        "Picasso"
+      ],
+      "explanation": "Pablo Picasso painted Guernica in oil on canvas in 1937, creating what many art critics consider the most powerful anti-war painting in history. The monumental work measures roughly 11.5 by 25.6 feet and was his response to the Nazi German and Italian Fascist bombing of the Basque town of Guernica during the Spanish Civil War. Picasso completed it in just over a month for the Spanish Republic's pavilion at the 1937 Paris International Exposition. Rendered entirely in stark black, white, and gray, it depicts the suffering of people and animals caught in the bombardment. When a German officer reportedly asked Picasso, 'Did you do this?' he replied, 'No, you did.' Picasso refused to let the painting return to Spain until democracy was restored. It hung at MoMA in New York for decades before finally moving to the Museo Reina Sofia in Madrid in 1981.",
+      "cardFront": "Guernica",
+      "cardBack": "Pablo Picasso"
     },
     {
       "id": "persistence-memory",
       "question": "Who painted 'The Persistence of Memory' (the melting clocks)?",
       "answer": "Salvador Dali",
-      "alternateAnswers": ["Dali"],
-      "explanation": "Salvador Dali painted The Persistence of Memory in oil on canvas in 1931, creating one of the most recognizable works of the Surrealist movement. The painting is remarkably small, measuring just 9.5 by 13 inches, yet its image of melting pocket watches draped across a barren landscape has become an icon of 20th-century art. Dali claimed the soft watches were inspired by the sight of Camembert cheese melting in the sun, and the landscape depicts Port Lligat in Catalonia, near his home. The painting was first shown at the Julien Levy Gallery in 1932, where it sold for just 250 dollars. It was donated to the Museum of Modern Art in New York City in 1934, where it remains a centerpiece of the collection. Also known as 'The Melting Clocks' or 'The Soft Watches,' it has become shorthand for Surrealism itself in popular culture."
+      "alternateAnswers": [
+        "Dali"
+      ],
+      "explanation": "Salvador Dali painted The Persistence of Memory in oil on canvas in 1931, creating one of the most recognizable works of the Surrealist movement. The painting is remarkably small, measuring just 9.5 by 13 inches, yet its image of melting pocket watches draped across a barren landscape has become an icon of 20th-century art. Dali claimed the soft watches were inspired by the sight of Camembert cheese melting in the sun, and the landscape depicts Port Lligat in Catalonia, near his home. The painting was first shown at the Julien Levy Gallery in 1932, where it sold for just 250 dollars. It was donated to the Museum of Modern Art in New York City in 1934, where it remains a centerpiece of the collection. Also known as 'The Melting Clocks' or 'The Soft Watches,' it has become shorthand for Surrealism itself in popular culture.",
+      "cardFront": "The Persistence of Memory",
+      "cardBack": "Salvador Dali"
     },
     {
       "id": "water-lilies",
       "question": "Who painted the 'Water Lilies' series?",
       "answer": "Claude Monet",
-      "alternateAnswers": ["Monet"],
-      "explanation": "Claude Monet painted approximately 250 Water Lilies canvases in oil over the last 31 years of his life, from around 1895 to 1926, making this Impressionist series one of the most ambitious undertakings in art history. He painted them at his home in Giverny, depicting the water garden and Japanese bridge he had meticulously designed. Many of the later works were created while Monet suffered from cataracts, which affected his color perception and pushed his palette toward reds and muddy tones. After cataract surgery in 1923, he destroyed several canvases, unhappy with the colors he had chosen while visually impaired. The large-scale panels he donated to the French state are displayed in two oval rooms at the Musee de l'Orangerie in Paris, while other canvases hang in major museums worldwide including MoMA, the Met, and the National Gallery in London."
+      "alternateAnswers": [
+        "Monet"
+      ],
+      "explanation": "Claude Monet painted approximately 250 Water Lilies canvases in oil over the last 31 years of his life, from around 1895 to 1926, making this Impressionist series one of the most ambitious undertakings in art history. He painted them at his home in Giverny, depicting the water garden and Japanese bridge he had meticulously designed. Many of the later works were created while Monet suffered from cataracts, which affected his color perception and pushed his palette toward reds and muddy tones. After cataract surgery in 1923, he destroyed several canvases, unhappy with the colors he had chosen while visually impaired. The large-scale panels he donated to the French state are displayed in two oval rooms at the Musee de l'Orangerie in Paris, while other canvases hang in major museums worldwide including MoMA, the Met, and the National Gallery in London.",
+      "cardFront": "Water Lilies",
+      "cardBack": "Claude Monet"
     },
     {
       "id": "american-gothic",
       "question": "Who painted 'American Gothic'?",
       "answer": "Grant Wood",
-      "alternateAnswers": ["Wood"],
-      "explanation": "Grant Wood painted American Gothic in 1930 in oil on beaverboard, making it a landmark of the American Regionalism movement. The painting depicts a stern-faced farmer holding a pitchfork beside a woman in front of a house with a distinctive Carpenter Gothic window. The models were not a married couple but Wood's sister Nan and his dentist, Dr. Byron McKeeby. Wood was inspired by a small house he spotted in Eldon, Iowa, and imagined the kind of people who might live there. When first exhibited, many Iowans took offense, believing it mocked rural Midwestern life, though Wood insisted it was a tribute. The painting won a bronze medal and a 300-dollar prize at the Art Institute of Chicago, which purchased it and still displays it today. It has become one of the most famous and most parodied American paintings of the 20th century."
+      "alternateAnswers": [
+        "Wood"
+      ],
+      "explanation": "Grant Wood painted American Gothic in 1930 in oil on beaverboard, making it a landmark of the American Regionalism movement. The painting depicts a stern-faced farmer holding a pitchfork beside a woman in front of a house with a distinctive Carpenter Gothic window. The models were not a married couple but Wood's sister Nan and his dentist, Dr. Byron McKeeby. Wood was inspired by a small house he spotted in Eldon, Iowa, and imagined the kind of people who might live there. When first exhibited, many Iowans took offense, believing it mocked rural Midwestern life, though Wood insisted it was a tribute. The painting won a bronze medal and a 300-dollar prize at the Art Institute of Chicago, which purchased it and still displays it today. It has become one of the most famous and most parodied American paintings of the 20th century.",
+      "cardFront": "American Gothic",
+      "cardBack": "Grant Wood"
     },
     {
       "id": "sunday-afternoon",
       "question": "Who painted 'A Sunday Afternoon on the Island of La Grande Jatte'?",
       "answer": "Georges Seurat",
-      "alternateAnswers": ["Seurat"],
-      "explanation": "Georges Seurat painted A Sunday Afternoon on the Island of La Grande Jatte in oil on canvas between 1884 and 1886, creating the founding masterpiece of the Neo-Impressionist movement. The monumental canvas measures approximately 6.8 by 10.1 feet and depicts Parisians relaxing on a Seine island. Seurat applied the paint in tiny dots of pure, unmixed color placed side by side, a revolutionary technique he called chromoluminarism, now commonly known as pointillism. The viewer's eye blends the adjacent dots at a distance, creating luminous colors. Seurat made over 60 preparatory sketches and studies before completing the final work. It hangs in the Art Institute of Chicago, where it is one of the museum's most prized possessions. Stephen Sondheim's musical Sunday in the Park with George (1984) was inspired by Seurat's painstaking creation of this painting."
+      "alternateAnswers": [
+        "Seurat"
+      ],
+      "explanation": "Georges Seurat painted A Sunday Afternoon on the Island of La Grande Jatte in oil on canvas between 1884 and 1886, creating the founding masterpiece of the Neo-Impressionist movement. The monumental canvas measures approximately 6.8 by 10.1 feet and depicts Parisians relaxing on a Seine island. Seurat applied the paint in tiny dots of pure, unmixed color placed side by side, a revolutionary technique he called chromoluminarism, now commonly known as pointillism. The viewer's eye blends the adjacent dots at a distance, creating luminous colors. Seurat made over 60 preparatory sketches and studies before completing the final work. It hangs in the Art Institute of Chicago, where it is one of the museum's most prized possessions. Stephen Sondheim's musical Sunday in the Park with George (1984) was inspired by Seurat's painstaking creation of this painting.",
+      "cardFront": "A Sunday Afternoon on the Island of La Grande Jatte",
+      "cardBack": "Georges Seurat"
     },
     {
       "id": "the-kiss",
       "question": "Who painted 'The Kiss' (1907-1908)?",
       "answer": "Gustav Klimt",
-      "alternateAnswers": ["Klimt"],
-      "explanation": "Gustav Klimt painted The Kiss in oil on canvas with applied gold leaf, silver, and platinum between 1907 and 1908, during his celebrated 'Golden Phase.' The work belongs to the Austrian Symbolist movement with influences from Art Nouveau and the Arts and Crafts tradition. It depicts a couple entwined in an intimate embrace, their bodies wrapped in elaborate, richly patterned robes set against a golden background. The man is widely believed to be a self-portrait of Klimt with his longtime companion Emilie Floge. First exhibited in 1908 under the title Liebespaar (Lovers), it was purchased by the Austrian government and has hung in the Belvedere Palace in Vienna ever since. The painting's fusion of sensuality, decorative opulence, and shimmering gold has made it one of the most reproduced and beloved images in art."
+      "alternateAnswers": [
+        "Klimt"
+      ],
+      "explanation": "Gustav Klimt painted The Kiss in oil on canvas with applied gold leaf, silver, and platinum between 1907 and 1908, during his celebrated 'Golden Phase.' The work belongs to the Austrian Symbolist movement with influences from Art Nouveau and the Arts and Crafts tradition. It depicts a couple entwined in an intimate embrace, their bodies wrapped in elaborate, richly patterned robes set against a golden background. The man is widely believed to be a self-portrait of Klimt with his longtime companion Emilie Floge. First exhibited in 1908 under the title Liebespaar (Lovers), it was purchased by the Austrian government and has hung in the Belvedere Palace in Vienna ever since. The painting's fusion of sensuality, decorative opulence, and shimmering gold has made it one of the most reproduced and beloved images in art.",
+      "cardFront": "The Kiss",
+      "cardBack": "Gustav Klimt"
     },
     {
       "id": "creation-adam",
       "question": "Who painted 'The Creation of Adam' on the Sistine Chapel ceiling?",
       "answer": "Michelangelo",
-      "alternateAnswers": ["Michelangelo Buonarroti", "Michelangelo di Lodovico Buonarroti Simoni"],
-      "explanation": "Michelangelo painted The Creation of Adam as a fresco between 1508 and 1512 on the ceiling of the Sistine Chapel in Vatican City, commissioned by Pope Julius II. It is the fourth in a series of panels depicting scenes from Genesis. Michelangelo, who considered himself a sculptor rather than a painter, initially resisted the commission. He worked on scaffolding high above the chapel floor for four years, painting not on his back as popularly believed but standing with his head tilted upward, causing lasting damage to his eyesight. The composition shows God reaching out to give life to Adam, their fingers nearly touching in what has become one of the most replicated religious images in history. Neuroanatomists have noted that the shape surrounding God and the angels closely resembles a cross-section of the human brain, though whether Michelangelo intended this remains debated."
+      "alternateAnswers": [
+        "Michelangelo Buonarroti",
+        "Michelangelo di Lodovico Buonarroti Simoni"
+      ],
+      "explanation": "Michelangelo painted The Creation of Adam as a fresco between 1508 and 1512 on the ceiling of the Sistine Chapel in Vatican City, commissioned by Pope Julius II. It is the fourth in a series of panels depicting scenes from Genesis. Michelangelo, who considered himself a sculptor rather than a painter, initially resisted the commission. He worked on scaffolding high above the chapel floor for four years, painting not on his back as popularly believed but standing with his head tilted upward, causing lasting damage to his eyesight. The composition shows God reaching out to give life to Adam, their fingers nearly touching in what has become one of the most replicated religious images in history. Neuroanatomists have noted that the shape surrounding God and the angels closely resembles a cross-section of the human brain, though whether Michelangelo intended this remains debated.",
+      "cardFront": "The Creation of Adam",
+      "cardBack": "Michelangelo"
     },
     {
       "id": "las-meninas",
       "question": "Who painted 'Las Meninas'?",
       "answer": "Diego Velazquez",
-      "alternateAnswers": ["Velazquez", "Diego Velazquez"],
-      "explanation": "Diego Velazquez painted Las Meninas in oil on canvas in 1656 during the Spanish Golden Age, while serving as the leading artist in the court of King Philip IV. The large canvas, measuring roughly 10.5 by 9 feet, presents a complex scene in which Velazquez depicts himself at his easel while the young Infanta Margarita Teresa is attended by her maids of honor (meninas). King Philip IV and Queen Mariana appear reflected in a mirror on the back wall, creating a puzzle about who is the true subject. The painting's sophisticated interplay between viewer, artist, and subject has made it one of the most widely analyzed works in Western art history. It hangs in the Museo del Prado in Madrid. Pablo Picasso was so obsessed with the composition that he created 58 reinterpretations of it in 1957."
+      "alternateAnswers": [
+        "Velazquez",
+        "Diego Velazquez"
+      ],
+      "explanation": "Diego Velazquez painted Las Meninas in oil on canvas in 1656 during the Spanish Golden Age, while serving as the leading artist in the court of King Philip IV. The large canvas, measuring roughly 10.5 by 9 feet, presents a complex scene in which Velazquez depicts himself at his easel while the young Infanta Margarita Teresa is attended by her maids of honor (meninas). King Philip IV and Queen Mariana appear reflected in a mirror on the back wall, creating a puzzle about who is the true subject. The painting's sophisticated interplay between viewer, artist, and subject has made it one of the most widely analyzed works in Western art history. It hangs in the Museo del Prado in Madrid. Pablo Picasso was so obsessed with the composition that he created 58 reinterpretations of it in 1957.",
+      "cardFront": "Las Meninas",
+      "cardBack": "Diego Velazquez"
     },
     {
       "id": "nighthawks",
       "question": "Who painted 'Nighthawks'?",
       "answer": "Edward Hopper",
-      "alternateAnswers": ["Hopper"],
-      "explanation": "Edward Hopper painted Nighthawks in oil on canvas in 1942, creating an iconic depiction of American urban isolation. The painting shows four figures in a brightly lit downtown diner late at night, viewed through a large plate-glass window. The light from inside the diner sharply contrasts with the dark, deserted streetscape outside. Notably, there is no visible door on the diner, giving the scene a feeling of entrapment. Hopper's wife Jo, who modeled for the lone woman in the painting, recorded in her diary that the work was inspired by 'a restaurant on Greenwich Avenue where two streets meet.' The canvas measures approximately 33 by 60 inches. It was purchased by the Art Institute of Chicago within months of completion for 3,000 dollars, where it remains one of the most popular works in the collection. The painting has been endlessly parodied and referenced in film, television, and advertising."
+      "alternateAnswers": [
+        "Hopper"
+      ],
+      "explanation": "Edward Hopper painted Nighthawks in oil on canvas in 1942, creating an iconic depiction of American urban isolation. The painting shows four figures in a brightly lit downtown diner late at night, viewed through a large plate-glass window. The light from inside the diner sharply contrasts with the dark, deserted streetscape outside. Notably, there is no visible door on the diner, giving the scene a feeling of entrapment. Hopper's wife Jo, who modeled for the lone woman in the painting, recorded in her diary that the work was inspired by 'a restaurant on Greenwich Avenue where two streets meet.' The canvas measures approximately 33 by 60 inches. It was purchased by the Art Institute of Chicago within months of completion for 3,000 dollars, where it remains one of the most popular works in the collection. The painting has been endlessly parodied and referenced in film, television, and advertising.",
+      "cardFront": "Nighthawks",
+      "cardBack": "Edward Hopper"
     },
     {
       "id": "school-athens",
       "question": "Who painted 'The School of Athens'?",
       "answer": "Raphael",
-      "alternateAnswers": ["Raphael Sanzio", "Raffaello Sanzio"],
-      "explanation": "Raphael painted The School of Athens as a fresco between 1509 and 1511 in the Apostolic Palace in Vatican City, as part of a commission by Pope Julius II to decorate the rooms now called the Stanze di Raffaello. This Italian Renaissance masterpiece depicts an imagined gathering of the greatest philosophers and scientists of antiquity in a grand classical architectural setting. Raphael embedded portraits of his contemporaries throughout the scene: Plato is given the face of Leonardo da Vinci, the brooding Heraclitus resembles Michelangelo (added after Raphael saw the Sistine Chapel ceiling in progress), Euclid bears the likeness of architect Bramante, and Raphael himself appears modestly at the far right. The fresco measures approximately 16.5 by 25 feet and stands as one of the supreme achievements of Renaissance perspective and composition."
+      "alternateAnswers": [
+        "Raphael Sanzio",
+        "Raffaello Sanzio"
+      ],
+      "explanation": "Raphael painted The School of Athens as a fresco between 1509 and 1511 in the Apostolic Palace in Vatican City, as part of a commission by Pope Julius II to decorate the rooms now called the Stanze di Raffaello. This Italian Renaissance masterpiece depicts an imagined gathering of the greatest philosophers and scientists of antiquity in a grand classical architectural setting. Raphael embedded portraits of his contemporaries throughout the scene: Plato is given the face of Leonardo da Vinci, the brooding Heraclitus resembles Michelangelo (added after Raphael saw the Sistine Chapel ceiling in progress), Euclid bears the likeness of architect Bramante, and Raphael himself appears modestly at the far right. The fresco measures approximately 16.5 by 25 feet and stands as one of the supreme achievements of Renaissance perspective and composition.",
+      "cardFront": "The School of Athens",
+      "cardBack": "Raphael"
     },
     {
       "id": "great-wave",
       "question": "Who created the woodblock print 'The Great Wave off Kanagawa'?",
       "answer": "Katsushika Hokusai",
-      "alternateAnswers": ["Hokusai"],
-      "explanation": "Katsushika Hokusai created The Great Wave off Kanagawa as a polychrome woodblock print (ukiyo-e) around 1831, during Japan's Edo period. It is the first and most famous print in his series Thirty-six Views of Mount Fuji. The composition shows three fishing boats caught in a massive cresting wave, with Mount Fuji appearing small and calm in the background. Hokusai made it when he was approximately 70 years old; he once declared that nothing he produced before age 70 was worthy of notice. The print uses Prussian blue pigment, recently imported from Europe, which gives it the distinctive deep blue tones. Thousands of impressions were printed, distributed widely, and most wore out from use. Surviving prints are held by museums worldwide including the Metropolitan Museum of Art and the British Museum. It is the most reproduced image in Japanese art and has influenced artists from the Impressionists to modern graphic designers."
+      "alternateAnswers": [
+        "Hokusai"
+      ],
+      "explanation": "Katsushika Hokusai created The Great Wave off Kanagawa as a polychrome woodblock print (ukiyo-e) around 1831, during Japan's Edo period. It is the first and most famous print in his series Thirty-six Views of Mount Fuji. The composition shows three fishing boats caught in a massive cresting wave, with Mount Fuji appearing small and calm in the background. Hokusai made it when he was approximately 70 years old; he once declared that nothing he produced before age 70 was worthy of notice. The print uses Prussian blue pigment, recently imported from Europe, which gives it the distinctive deep blue tones. Thousands of impressions were printed, distributed widely, and most wore out from use. Surviving prints are held by museums worldwide including the Metropolitan Museum of Art and the British Museum. It is the most reproduced image in Japanese art and has influenced artists from the Impressionists to modern graphic designers.",
+      "cardFront": "The Great Wave off Kanagawa",
+      "cardBack": "Katsushika Hokusai"
     },
     {
       "id": "impression-sunrise",
       "question": "Who painted 'Impression, Sunrise'?",
       "answer": "Claude Monet",
-      "alternateAnswers": ["Monet"],
-      "explanation": "Claude Monet painted Impression, Sunrise in oil on canvas in 1872, depicting the port of Le Havre at dawn with loose brushstrokes and a vivid orange sun reflected on the water. When it was exhibited at the first independent exhibition of the Impressionist group in 1874, critic Louis Leroy seized on the title to mock the entire show, derisively calling the artists 'Impressionists' in a satirical review. The artists embraced the label, and it gave the movement its name, making this painting the unlikely origin of one of art's most important schools. The painting was stolen from the Musee Marmottan Monet in Paris in 1985 and not recovered until five years later in 1990. It was returned to the Marmottan, where it remains on display. The work's atmospheric, almost abstract quality marked a radical departure from academic painting and helped launch modern art."
+      "alternateAnswers": [
+        "Monet"
+      ],
+      "explanation": "Claude Monet painted Impression, Sunrise in oil on canvas in 1872, depicting the port of Le Havre at dawn with loose brushstrokes and a vivid orange sun reflected on the water. When it was exhibited at the first independent exhibition of the Impressionist group in 1874, critic Louis Leroy seized on the title to mock the entire show, derisively calling the artists 'Impressionists' in a satirical review. The artists embraced the label, and it gave the movement its name, making this painting the unlikely origin of one of art's most important schools. The painting was stolen from the Musee Marmottan Monet in Paris in 1985 and not recovered until five years later in 1990. It was returned to the Marmottan, where it remains on display. The work's atmospheric, almost abstract quality marked a radical departure from academic painting and helped launch modern art.",
+      "cardFront": "Impression, Sunrise",
+      "cardBack": "Claude Monet"
     },
     {
       "id": "whistlers-mother",
       "question": "Who painted 'Arrangement in Grey and Black No.1' (commonly known as 'Whistler's Mother')?",
       "answer": "James Abbott McNeill Whistler",
-      "alternateAnswers": ["Whistler", "James McNeill Whistler"],
-      "explanation": "James Abbott McNeill Whistler painted Arrangement in Grey and Black No. 1 in oil on canvas in 1871. The painting measures approximately 57 by 64 inches and depicts his mother, Anna McNeill Whistler, seated in profile against a plain gray wall. Whistler insisted the work was an exercise in formal composition and color harmony, not maternal sentiment, hence the austere technical title. His mother only posed because the original model failed to show up. Whistler designed the frame himself. The French government acquired the painting in 1891, and it now hangs in the Musee d'Orsay in Paris, making it one of the most famous works by an American artist outside the United States. It has been compared to the Mona Lisa for its iconic status and was featured on a U.S. postage stamp in 1934 for Mother's Day, forever linking it to maternal devotion despite the artist's intentions."
+      "alternateAnswers": [
+        "Whistler",
+        "James McNeill Whistler"
+      ],
+      "explanation": "James Abbott McNeill Whistler painted Arrangement in Grey and Black No. 1 in oil on canvas in 1871. The painting measures approximately 57 by 64 inches and depicts his mother, Anna McNeill Whistler, seated in profile against a plain gray wall. Whistler insisted the work was an exercise in formal composition and color harmony, not maternal sentiment, hence the austere technical title. His mother only posed because the original model failed to show up. Whistler designed the frame himself. The French government acquired the painting in 1891, and it now hangs in the Musee d'Orsay in Paris, making it one of the most famous works by an American artist outside the United States. It has been compared to the Mona Lisa for its iconic status and was featured on a U.S. postage stamp in 1934 for Mother's Day, forever linking it to maternal devotion despite the artist's intentions.",
+      "cardFront": "Arrangement in Grey and Black No.1",
+      "cardBack": "James Abbott McNeill Whistler"
     },
     {
       "id": "girl-balloon",
       "question": "Who created the artwork 'Girl with Balloon' that famously self-destructed at auction?",
       "answer": "Banksy",
       "alternateAnswers": [],
-      "explanation": "The anonymous British street artist Banksy first created Girl with Balloon as a series of stencil murals across London beginning in 2002. The image depicts a young girl reaching toward a red heart-shaped balloon carried away by the wind. It appeared on walls in Shoreditch, the South Bank, and near Waterloo Bridge, though the original murals have since been lost or painted over. In October 2018, a framed canvas version sold at Sotheby's for 1.04 million pounds. Immediately after the hammer fell, a hidden battery-powered shredder built into the frame partially destroyed the canvas in front of stunned auction-goers. The half-shredded work was renamed Love is in the Bin and authenticated as a new piece of art. In October 2021, it sold again at Sotheby's for 18.6 million pounds, roughly 18 times the original price, making the shredding arguably the most lucrative act of vandalism in history."
+      "explanation": "The anonymous British street artist Banksy first created Girl with Balloon as a series of stencil murals across London beginning in 2002. The image depicts a young girl reaching toward a red heart-shaped balloon carried away by the wind. It appeared on walls in Shoreditch, the South Bank, and near Waterloo Bridge, though the original murals have since been lost or painted over. In October 2018, a framed canvas version sold at Sotheby's for 1.04 million pounds. Immediately after the hammer fell, a hidden battery-powered shredder built into the frame partially destroyed the canvas in front of stunned auction-goers. The half-shredded work was renamed Love is in the Bin and authenticated as a new piece of art. In October 2021, it sold again at Sotheby's for 18.6 million pounds, roughly 18 times the original price, making the shredding arguably the most lucrative act of vandalism in history.",
+      "cardFront": "Girl with Balloon",
+      "cardBack": "Banksy"
     },
     {
       "id": "sunday-afternoon-2",
       "question": "Who painted 'A Bar at the Folies-Bergere'?",
       "answer": "Edouard Manet",
-      "alternateAnswers": ["Manet"],
-      "explanation": "Edouard Manet painted A Bar at the Folies-Bergere in oil on canvas in 1882, and it was exhibited at the Paris Salon that same year. The painting depicts a barmaid standing behind a marble counter laden with bottles, fruit, and flowers at the famous Parisian nightclub. A large mirror behind her reflects the crowded venue, but the reflection is deliberately distorted: the angles do not match physical reality, and scholars have debated for over a century whether this was intentional commentary or artistic license. It was Manet's last major work before his death in 1883. The painting originally belonged to the composer Emmanuel Chabrier, Manet's close friend, who displayed it above his piano. It now hangs in the Courtauld Gallery in London. The work stands as a culmination of Manet's career-long interest in modern Parisian life and the ambiguity between appearance and reality."
+      "alternateAnswers": [
+        "Manet"
+      ],
+      "explanation": "Edouard Manet painted A Bar at the Folies-Bergere in oil on canvas in 1882, and it was exhibited at the Paris Salon that same year. The painting depicts a barmaid standing behind a marble counter laden with bottles, fruit, and flowers at the famous Parisian nightclub. A large mirror behind her reflects the crowded venue, but the reflection is deliberately distorted: the angles do not match physical reality, and scholars have debated for over a century whether this was intentional commentary or artistic license. It was Manet's last major work before his death in 1883. The painting originally belonged to the composer Emmanuel Chabrier, Manet's close friend, who displayed it above his piano. It now hangs in the Courtauld Gallery in London. The work stands as a culmination of Manet's career-long interest in modern Parisian life and the ambiguity between appearance and reality.",
+      "cardFront": "A Bar at the Folies-Bergere",
+      "cardBack": "Edouard Manet"
     },
     {
       "id": "garden-delights",
       "question": "Who painted 'The Garden of Earthly Delights'?",
       "answer": "Hieronymus Bosch",
-      "alternateAnswers": ["Bosch"],
-      "explanation": "Hieronymus Bosch painted The Garden of Earthly Delights in oil on oak panels between approximately 1490 and 1510, during the early Netherlandish period. This massive triptych measures roughly 7.2 by 12.8 feet when open and unfolds from left to right: the left panel shows the Garden of Eden, the center panel depicts a surreal paradise of indulgent human figures, and the right panel descends into a nightmarish hellscape. The outer panels, visible when the triptych is closed, depict the Third Day of Creation in grisaille. Its bizarre, fantastical imagery was centuries ahead of Surrealism and has generated wildly varied scholarly interpretations, generally understood as a warning against the perils of temptation. A student famously transcribed musical notes painted on a figure's buttocks in the hell panel and performed the resulting melody. The painting hangs in the Museo del Prado in Madrid, where it remains one of the most studied works in art history."
+      "alternateAnswers": [
+        "Bosch"
+      ],
+      "explanation": "Hieronymus Bosch painted The Garden of Earthly Delights in oil on oak panels between approximately 1490 and 1510, during the early Netherlandish period. This massive triptych measures roughly 7.2 by 12.8 feet when open and unfolds from left to right: the left panel shows the Garden of Eden, the center panel depicts a surreal paradise of indulgent human figures, and the right panel descends into a nightmarish hellscape. The outer panels, visible when the triptych is closed, depict the Third Day of Creation in grisaille. Its bizarre, fantastical imagery was centuries ahead of Surrealism and has generated wildly varied scholarly interpretations, generally understood as a warning against the perils of temptation. A student famously transcribed musical notes painted on a figure's buttocks in the hell panel and performed the resulting melody. The painting hangs in the Museo del Prado in Madrid, where it remains one of the most studied works in art history.",
+      "cardFront": "The Garden of Earthly Delights",
+      "cardBack": "Hieronymus Bosch"
     },
     {
       "id": "arnolfini",
       "question": "Who painted 'The Arnolfini Portrait'?",
       "answer": "Jan van Eyck",
-      "alternateAnswers": ["Van Eyck"],
-      "explanation": "Jan van Eyck painted The Arnolfini Portrait in 1434 in oil on oak panel, a masterpiece of Early Netherlandish art. The full-length double portrait depicts the Italian merchant Giovanni di Nicolao Arnolfini and his wife in their home in the Flemish city of Bruges. The level of detail is astonishing: a convex mirror on the back wall reflects two additional figures entering the room, and above it Van Eyck inscribed 'Jan van Eyck was here' in Latin, making it perhaps one of the earliest signed paintings in European art. The painting's meticulous rendering of textures, fabrics, light, and domestic objects is so precise that art historians have used it to study 15th-century furniture, fashion, and material culture. Its symbolism, particularly whether it records a marriage ceremony, has been debated for centuries. The painting hangs in the National Gallery in London, where it has been since 1842."
+      "alternateAnswers": [
+        "Van Eyck"
+      ],
+      "explanation": "Jan van Eyck painted The Arnolfini Portrait in 1434 in oil on oak panel, a masterpiece of Early Netherlandish art. The full-length double portrait depicts the Italian merchant Giovanni di Nicolao Arnolfini and his wife in their home in the Flemish city of Bruges. The level of detail is astonishing: a convex mirror on the back wall reflects two additional figures entering the room, and above it Van Eyck inscribed 'Jan van Eyck was here' in Latin, making it perhaps one of the earliest signed paintings in European art. The painting's meticulous rendering of textures, fabrics, light, and domestic objects is so precise that art historians have used it to study 15th-century furniture, fashion, and material culture. Its symbolism, particularly whether it records a marriage ceremony, has been debated for centuries. The painting hangs in the National Gallery in London, where it has been since 1842.",
+      "cardFront": "The Arnolfini Portrait",
+      "cardBack": "Jan van Eyck"
     },
     {
       "id": "son-of-man",
       "question": "Who painted 'The Son of Man' (the man with a bowler hat and apple)?",
       "answer": "Rene Magritte",
-      "alternateAnswers": ["Magritte"],
-      "explanation": "Belgian Surrealist Rene Magritte painted The Son of Man in oil on canvas in 1964, creating perhaps his best-known artwork. The painting depicts a man in an overcoat and bowler hat standing before a low wall with the sea and cloudy sky behind him, his face almost entirely obscured by a hovering green apple. Magritte originally intended it as a self-portrait. He explained the concept by saying, 'Everything we see hides another thing. We always want to see what is hidden by what we see.' The man's left eye is just barely visible at the edge of the apple, creating an unsettling tension between concealment and revelation. The work remains in a private collection and is not on permanent public display, which has only added to its mystique. The apple-faced man in a bowler hat has become one of the most parodied and referenced images in modern art, appearing in films, advertisements, and popular culture worldwide."
+      "alternateAnswers": [
+        "Magritte"
+      ],
+      "explanation": "Belgian Surrealist Rene Magritte painted The Son of Man in oil on canvas in 1964, creating perhaps his best-known artwork. The painting depicts a man in an overcoat and bowler hat standing before a low wall with the sea and cloudy sky behind him, his face almost entirely obscured by a hovering green apple. Magritte originally intended it as a self-portrait. He explained the concept by saying, 'Everything we see hides another thing. We always want to see what is hidden by what we see.' The man's left eye is just barely visible at the edge of the apple, creating an unsettling tension between concealment and revelation. The work remains in a private collection and is not on permanent public display, which has only added to its mystique. The apple-faced man in a bowler hat has become one of the most parodied and referenced images in modern art, appearing in films, advertisements, and popular culture worldwide.",
+      "cardFront": "The Son of Man",
+      "cardBack": "Rene Magritte"
     },
     {
       "id": "bedroom-arles",
       "question": "Who painted 'The Bedroom' (also known as 'Bedroom in Arles')?",
       "answer": "Vincent van Gogh",
-      "alternateAnswers": ["Van Gogh"],
-      "explanation": "Dutch Post-Impressionist Vincent van Gogh painted the first version of Bedroom in Arles in oil on canvas in October 1888, depicting his bedroom in the Yellow House in Arles, France, which he rented as a studio and living space. He made three nearly identical versions: the original (1888, now in the Van Gogh Museum in Amsterdam), a copy he painted in 1889 after the first was damaged by flooding (now in the Art Institute of Chicago), and a smaller version for his mother and sister (now in the Musee d'Orsay in Paris). Van Gogh deliberately used flat, bold colors and slightly distorted perspective, writing to his brother Theo that the painting should 'suggest rest or sleep' through color alone. The skewed angles of the furniture and walls give the room an unsettling, dreamlike quality that scholars attribute both to artistic intent and to the actual irregular shape of the room itself."
+      "alternateAnswers": [
+        "Van Gogh"
+      ],
+      "explanation": "Dutch Post-Impressionist Vincent van Gogh painted the first version of Bedroom in Arles in oil on canvas in October 1888, depicting his bedroom in the Yellow House in Arles, France, which he rented as a studio and living space. He made three nearly identical versions: the original (1888, now in the Van Gogh Museum in Amsterdam), a copy he painted in 1889 after the first was damaged by flooding (now in the Art Institute of Chicago), and a smaller version for his mother and sister (now in the Musee d'Orsay in Paris). Van Gogh deliberately used flat, bold colors and slightly distorted perspective, writing to his brother Theo that the painting should 'suggest rest or sleep' through color alone. The skewed angles of the furniture and walls give the room an unsettling, dreamlike quality that scholars attribute both to artistic intent and to the actual irregular shape of the room itself.",
+      "cardFront": "The Bedroom",
+      "cardBack": "Vincent van Gogh"
     },
     {
       "id": "olympia",
       "question": "Who painted 'Olympia'?",
       "answer": "Edouard Manet",
-      "alternateAnswers": ["Manet"],
-      "explanation": "Edouard Manet painted Olympia in oil on canvas in 1863, though it was not exhibited until the Paris Salon of 1865, where it caused one of the greatest scandals in art history. The painting depicts a nude woman, identified as a courtesan by her name and accessories, reclining on a bed while a Black maid presents her with a bouquet from a client. What shocked audiences was not the nudity itself but Olympia's confrontational, unapologetic gaze directly at the viewer, breaking with the tradition of idealized, passive nudes. Guards had to be posted to protect the painting from outraged visitors who attempted to attack it with canes and umbrellas. In 1890, Claude Monet organized a public subscription to purchase the painting for the French state, raising 20,000 francs. It now hangs in the Musee d'Orsay in Paris and is considered a pivotal work in the transition from Realism to modern art."
+      "alternateAnswers": [
+        "Manet"
+      ],
+      "explanation": "Edouard Manet painted Olympia in oil on canvas in 1863, though it was not exhibited until the Paris Salon of 1865, where it caused one of the greatest scandals in art history. The painting depicts a nude woman, identified as a courtesan by her name and accessories, reclining on a bed while a Black maid presents her with a bouquet from a client. What shocked audiences was not the nudity itself but Olympia's confrontational, unapologetic gaze directly at the viewer, breaking with the tradition of idealized, passive nudes. Guards had to be posted to protect the painting from outraged visitors who attempted to attack it with canes and umbrellas. In 1890, Claude Monet organized a public subscription to purchase the painting for the French state, raising 20,000 francs. It now hangs in the Musee d'Orsay in Paris and is considered a pivotal work in the transition from Realism to modern art.",
+      "cardFront": "Olympia",
+      "cardBack": "Edouard Manet"
     },
     {
       "id": "cafe-terrace",
       "question": "Who painted 'Cafe Terrace at Night'?",
       "answer": "Vincent van Gogh",
-      "alternateAnswers": ["Van Gogh"],
-      "explanation": "Vincent van Gogh painted Cafe Terrace at Night in oil on canvas in September 1888 in Arles, France, depicting the terrace of a coffee house on the Place du Forum. Originally titled 'Coffeehouse, in the evening' when first exhibited in 1891, it was one of the first paintings to portray a nighttime scene without using any black paint, instead achieving darkness through deep blues and purples contrasted with the warm yellow gaslight of the terrace. Van Gogh wrote to his sister Wilhelmina about his excitement at painting a starry sky on location at night. The cafe still exists on the same spot and is now called Cafe Van Gogh, painted to match the yellows in the artwork. The painting hangs in the Kroeller-Mueller Museum in Otterlo, Netherlands. Some art historians have suggested the composition contains a hidden reference to The Last Supper, with twelve seated figures and a central standing figure."
+      "alternateAnswers": [
+        "Van Gogh"
+      ],
+      "explanation": "Vincent van Gogh painted Cafe Terrace at Night in oil on canvas in September 1888 in Arles, France, depicting the terrace of a coffee house on the Place du Forum. Originally titled 'Coffeehouse, in the evening' when first exhibited in 1891, it was one of the first paintings to portray a nighttime scene without using any black paint, instead achieving darkness through deep blues and purples contrasted with the warm yellow gaslight of the terrace. Van Gogh wrote to his sister Wilhelmina about his excitement at painting a starry sky on location at night. The cafe still exists on the same spot and is now called Cafe Van Gogh, painted to match the yellows in the artwork. The painting hangs in the Kroeller-Mueller Museum in Otterlo, Netherlands. Some art historians have suggested the composition contains a hidden reference to The Last Supper, with twelve seated figures and a central standing figure.",
+      "cardFront": "Cafe Terrace at Night",
+      "cardBack": "Vincent van Gogh"
     },
     {
       "id": "wanderer-fog",
       "question": "Who painted 'Wanderer above the Sea of Fog'?",
       "answer": "Caspar David Friedrich",
-      "alternateAnswers": ["Friedrich"],
-      "explanation": "Caspar David Friedrich painted Wanderer above the Sea of Fog in oil on canvas around 1818, creating the quintessential image of German Romanticism. The painting shows a man in a dark frock coat standing on a rocky precipice with his back to the viewer, gazing out over a vast landscape shrouded in thick fog, with mountain peaks emerging in the distance. The figure's Ruckenfigur pose (a person seen from behind) was a signature technique Friedrich used to invite the viewer to share the figure's experience of the sublime. The identity of the wanderer is unknown, though some scholars suggest he may be a veteran of the Napoleonic Wars. The painting measures approximately 37 by 29 inches. It hangs in the Hamburger Kunsthalle in Hamburg, Germany. The image has become so ubiquitous on book covers, album art, and advertisements that it is arguably the most reproduced Romantic painting in existence."
+      "alternateAnswers": [
+        "Friedrich"
+      ],
+      "explanation": "Caspar David Friedrich painted Wanderer above the Sea of Fog in oil on canvas around 1818, creating the quintessential image of German Romanticism. The painting shows a man in a dark frock coat standing on a rocky precipice with his back to the viewer, gazing out over a vast landscape shrouded in thick fog, with mountain peaks emerging in the distance. The figure's Ruckenfigur pose (a person seen from behind) was a signature technique Friedrich used to invite the viewer to share the figure's experience of the sublime. The identity of the wanderer is unknown, though some scholars suggest he may be a veteran of the Napoleonic Wars. The painting measures approximately 37 by 29 inches. It hangs in the Hamburger Kunsthalle in Hamburg, Germany. The image has become so ubiquitous on book covers, album art, and advertisements that it is arguably the most reproduced Romantic painting in existence.",
+      "cardFront": "Wanderer above the Sea of Fog",
+      "cardBack": "Caspar David Friedrich"
     },
     {
       "id": "number-5",
       "question": "Who painted 'No. 5, 1948'?",
       "answer": "Jackson Pollock",
-      "alternateAnswers": ["Pollock"],
-      "explanation": "Jackson Pollock created No. 5, 1948 using his signature drip technique, a landmark work of Abstract Expressionism. Pollock laid the large canvas (approximately 4 by 8 feet) flat on the floor of his barn studio in Springs, Long Island, and dripped, poured, and flung house paint and enamel from above using sticks and hardened brushes, moving around the canvas in a rhythmic, almost dance-like process. The dense, interwoven layers of brown and yellow paint create a complex web with no single focal point. The painting reportedly sold privately for 140 million dollars on November 2, 2006, through Sotheby's, setting a new record for the most expensive painting ever sold at the time, a record that stood until 2011. The buyer was reported to be Mexican financier David Martinez, though he denied it. The work epitomizes Pollock's radical rejection of traditional easel painting and helped establish New York as the center of the postwar art world."
+      "alternateAnswers": [
+        "Pollock"
+      ],
+      "explanation": "Jackson Pollock created No. 5, 1948 using his signature drip technique, a landmark work of Abstract Expressionism. Pollock laid the large canvas (approximately 4 by 8 feet) flat on the floor of his barn studio in Springs, Long Island, and dripped, poured, and flung house paint and enamel from above using sticks and hardened brushes, moving around the canvas in a rhythmic, almost dance-like process. The dense, interwoven layers of brown and yellow paint create a complex web with no single focal point. The painting reportedly sold privately for 140 million dollars on November 2, 2006, through Sotheby's, setting a new record for the most expensive painting ever sold at the time, a record that stood until 2011. The buyer was reported to be Mexican financier David Martinez, though he denied it. The work epitomizes Pollock's radical rejection of traditional easel painting and helped establish New York as the center of the postwar art world.",
+      "cardFront": "No. 5, 1948",
+      "cardBack": "Jackson Pollock"
     },
     {
       "id": "campbell-soup",
       "question": "Who created the 'Campbell's Soup Cans' series?",
       "answer": "Andy Warhol",
-      "alternateAnswers": ["Warhol"],
-      "explanation": "Andy Warhol created Campbell's Soup Cans in 1962, a series of 32 canvases each measuring 20 by 16 inches, with each canvas depicting a different variety of Campbell's condensed soup. The works, executed in synthetic polymer paint on canvas, were first exhibited in July 1962 at the Ferus Gallery in Los Angeles, where they were displayed on shelves like products in a grocery store. The series marked a breakthrough for Pop Art, challenging traditional distinctions between fine art and commercial imagery. When asked why soup cans, Warhol famously replied that he had Campbell's soup for lunch every day for twenty years. The initial response was mixed: another gallery owner derisively displayed actual soup cans in his window for less than the paintings. The complete set of 32 canvases was acquired by the Museum of Modern Art in New York in 1996 for 15 million dollars, where they remain on permanent display as a defining statement of 20th-century American art."
+      "alternateAnswers": [
+        "Warhol"
+      ],
+      "explanation": "Andy Warhol created Campbell's Soup Cans in 1962, a series of 32 canvases each measuring 20 by 16 inches, with each canvas depicting a different variety of Campbell's condensed soup. The works, executed in synthetic polymer paint on canvas, were first exhibited in July 1962 at the Ferus Gallery in Los Angeles, where they were displayed on shelves like products in a grocery store. The series marked a breakthrough for Pop Art, challenging traditional distinctions between fine art and commercial imagery. When asked why soup cans, Warhol famously replied that he had Campbell's soup for lunch every day for twenty years. The initial response was mixed: another gallery owner derisively displayed actual soup cans in his window for less than the paintings. The complete set of 32 canvases was acquired by the Museum of Modern Art in New York in 1996 for 15 million dollars, where they remain on permanent display as a defining statement of 20th-century American art.",
+      "cardFront": "Campbell",
+      "cardBack": "Andy Warhol"
     }
   ]
 }

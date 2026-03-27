@@ -10,92 +10,120 @@
       "id": "zeus-roman",
       "question": "What is the Roman name for the Greek god Zeus?",
       "answer": "Jupiter",
-      "alternateAnswers": ["Jove"],
-      "explanation": "Zeus (Greek) or Jupiter (Roman) was king of the gods and ruler of Mount Olympus, presiding over sky and thunder. He was the youngest son of the Titans Cronus and Rhea, and after overthrowing his father, he divided the cosmos with his brothers Poseidon (sea) and Hades (underworld). His key offspring include Athena, Apollo, Artemis, Ares, Hermes, Dionysus, Heracles, and Perseus. His symbols are the thunderbolt, eagle, and oak tree. The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World. The planet Jupiter, the largest in our solar system, was named after him as befitting the king of the gods. The word 'jovial' derives from Jove, reflecting the belief that those born under Jupiter's influence were cheerful."
+      "alternateAnswers": [
+        "Jove"
+      ],
+      "explanation": "Zeus (Greek) or Jupiter (Roman) was king of the gods and ruler of Mount Olympus, presiding over sky and thunder. He was the youngest son of the Titans Cronus and Rhea, and after overthrowing his father, he divided the cosmos with his brothers Poseidon (sea) and Hades (underworld). His key offspring include Athena, Apollo, Artemis, Ares, Hermes, Dionysus, Heracles, and Perseus. His symbols are the thunderbolt, eagle, and oak tree. The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World. The planet Jupiter, the largest in our solar system, was named after him as befitting the king of the gods. The word 'jovial' derives from Jove, reflecting the belief that those born under Jupiter's influence were cheerful.",
+      "cardFront": "Zeus (Greek)",
+      "cardBack": "Jupiter (Roman)"
     },
     {
       "id": "hera-roman",
       "question": "What is the Roman name for the Greek goddess Hera?",
       "answer": "Juno",
       "alternateAnswers": [],
-      "explanation": "Hera (Greek) or Juno (Roman) was goddess of marriage, women, family, and the protector of women during childbirth. She was the daughter of the Titans Cronus and Rhea, and both sister and wife of Zeus. Her children include Ares (god of war), Hephaestus (god of the forge), and Hebe (goddess of youth). She is best known in myth for her fierce jealousy toward Zeus's many lovers and illegitimate children, relentlessly persecuting figures like Heracles, Io, and Leto. Her symbols include the peacock, cow, and pomegranate. The Heraion of Samos was one of the largest temples in Greece. NASA named its Jupiter probe 'Juno' because in myth, Jupiter drew clouds around himself to hide his affairs, but Juno could see through them, just as the spacecraft peers through Jupiter's clouds."
+      "explanation": "Hera (Greek) or Juno (Roman) was goddess of marriage, women, family, and the protector of women during childbirth. She was the daughter of the Titans Cronus and Rhea, and both sister and wife of Zeus. Her children include Ares (god of war), Hephaestus (god of the forge), and Hebe (goddess of youth). She is best known in myth for her fierce jealousy toward Zeus's many lovers and illegitimate children, relentlessly persecuting figures like Heracles, Io, and Leto. Her symbols include the peacock, cow, and pomegranate. The Heraion of Samos was one of the largest temples in Greece. NASA named its Jupiter probe 'Juno' because in myth, Jupiter drew clouds around himself to hide his affairs, but Juno could see through them, just as the spacecraft peers through Jupiter's clouds.",
+      "cardFront": "Hera (Greek)",
+      "cardBack": "Juno (Roman)"
     },
     {
       "id": "poseidon-roman",
       "question": "What is the Roman name for the Greek god Poseidon?",
       "answer": "Neptune",
       "alternateAnswers": [],
-      "explanation": "Poseidon (Greek) or Neptune (Roman) was one of the twelve Olympians, presiding over the sea, storms, earthquakes, and horses. The son of Cronus and Rhea, he received dominion over the oceans when the cosmos was divided among the three brothers. He was known as the 'Earth-Shaker' for causing earthquakes with his trident, and was regarded as the tamer and father of horses, having created the first horse from sea foam. His offspring include the Cyclops Polyphemus, the hero Theseus (in some traditions), and the winged horse Pegasus. He competed with Athena for patronage of Athens: he offered a saltwater spring, she offered the olive tree, and the city chose Athena. The planet Neptune was named for him in 1846 due to its blue oceanic color. His trident remains one of the most recognizable symbols in mythology."
+      "explanation": "Poseidon (Greek) or Neptune (Roman) was one of the twelve Olympians, presiding over the sea, storms, earthquakes, and horses. The son of Cronus and Rhea, he received dominion over the oceans when the cosmos was divided among the three brothers. He was known as the 'Earth-Shaker' for causing earthquakes with his trident, and was regarded as the tamer and father of horses, having created the first horse from sea foam. His offspring include the Cyclops Polyphemus, the hero Theseus (in some traditions), and the winged horse Pegasus. He competed with Athena for patronage of Athens: he offered a saltwater spring, she offered the olive tree, and the city chose Athena. The planet Neptune was named for him in 1846 due to its blue oceanic color. His trident remains one of the most recognizable symbols in mythology.",
+      "cardFront": "Poseidon (Greek)",
+      "cardBack": "Neptune (Roman)"
     },
     {
       "id": "athena-roman",
       "question": "What is the Roman name for the Greek goddess Athena?",
       "answer": "Minerva",
       "alternateAnswers": [],
-      "explanation": "Athena (Greek) or Minerva (Roman) was the goddess of wisdom, warfare, and handicraft. According to myth, she was born fully grown and armored from the head of her father Zeus after he swallowed her pregnant mother, the Titaness Metis. Unlike Ares, who represented brutal violence, Athena embodied strategic warfare and disciplined combat. Her symbols include the owl (representing wisdom), the olive tree (her gift to Athens), snakes, and the gorgoneion (Medusa's head on her shield). The Parthenon on the Acropolis of Athens was her chief temple, housing a massive gold and ivory statue by Phidias. She was patron of heroes including Odysseus, Perseus, and Heracles. The city of Athens bears her name after she won the contest against Poseidon. The owl of Athena appears on Greek euro coins today, and her image has symbolized wisdom and learning for millennia."
+      "explanation": "Athena (Greek) or Minerva (Roman) was the goddess of wisdom, warfare, and handicraft. According to myth, she was born fully grown and armored from the head of her father Zeus after he swallowed her pregnant mother, the Titaness Metis. Unlike Ares, who represented brutal violence, Athena embodied strategic warfare and disciplined combat. Her symbols include the owl (representing wisdom), the olive tree (her gift to Athens), snakes, and the gorgoneion (Medusa's head on her shield). The Parthenon on the Acropolis of Athens was her chief temple, housing a massive gold and ivory statue by Phidias. She was patron of heroes including Odysseus, Perseus, and Heracles. The city of Athens bears her name after she won the contest against Poseidon. The owl of Athena appears on Greek euro coins today, and her image has symbolized wisdom and learning for millennia.",
+      "cardFront": "Athena (Greek)",
+      "cardBack": "Minerva (Roman)"
     },
     {
       "id": "ares-roman",
       "question": "What is the Roman name for the Greek god Ares?",
       "answer": "Mars",
       "alternateAnswers": [],
-      "explanation": "Ares (Greek) or Mars (Roman) was the god of war and courage, the son of Zeus and Hera. He embodied the physical valor necessary for success in war but also personified sheer brutality and bloodlust, in contrast to his sister Athena's strategic wisdom. The Greeks generally found Ares unpopular and feared him, but the Romans revered Mars as one of their most important gods, second only to Jupiter, because he was considered the father of Romulus and Remus, the founders of Rome. His lovers included Aphrodite, with whom he fathered Eros (Cupid), Phobos (Fear), and Deimos (Terror). His symbols include the spear, shield, and vulture. The planet Mars was named for him due to its blood-red color. The month of March (Martius) is also named after him, as it marked the beginning of the military campaign season in ancient Rome."
+      "explanation": "Ares (Greek) or Mars (Roman) was the god of war and courage, the son of Zeus and Hera. He embodied the physical valor necessary for success in war but also personified sheer brutality and bloodlust, in contrast to his sister Athena's strategic wisdom. The Greeks generally found Ares unpopular and feared him, but the Romans revered Mars as one of their most important gods, second only to Jupiter, because he was considered the father of Romulus and Remus, the founders of Rome. His lovers included Aphrodite, with whom he fathered Eros (Cupid), Phobos (Fear), and Deimos (Terror). His symbols include the spear, shield, and vulture. The planet Mars was named for him due to its blood-red color. The month of March (Martius) is also named after him, as it marked the beginning of the military campaign season in ancient Rome.",
+      "cardFront": "Ares (Greek)",
+      "cardBack": "Mars (Roman)"
     },
     {
       "id": "aphrodite-roman",
       "question": "What is the Roman name for the Greek goddess Aphrodite?",
       "answer": "Venus",
       "alternateAnswers": [],
-      "explanation": "Aphrodite (Greek) or Venus (Roman) was the goddess of love, beauty, pleasure, passion, and procreation. According to Hesiod's Theogony, she was born from sea foam (aphros) that formed when Cronus severed Uranus's genitals and cast them into the ocean, making her older than the Olympians themselves. Her major symbols include seashells, myrtles, roses, doves, sparrows, and swans. Her primary cult centers were on Cyprus and Cythera. She was mother of Eros (Cupid) and, in Roman tradition, Aeneas, the Trojan hero and legendary ancestor of Rome. Her worship derived partly from the Phoenician goddess Astarte. The planet Venus was named for her as the brightest object in the sky after the sun and moon. Botticelli's The Birth of Venus and the ancient Venus de Milo sculpture remain among the most celebrated artistic depictions of any mythological figure."
+      "explanation": "Aphrodite (Greek) or Venus (Roman) was the goddess of love, beauty, pleasure, passion, and procreation. According to Hesiod's Theogony, she was born from sea foam (aphros) that formed when Cronus severed Uranus's genitals and cast them into the ocean, making her older than the Olympians themselves. Her major symbols include seashells, myrtles, roses, doves, sparrows, and swans. Her primary cult centers were on Cyprus and Cythera. She was mother of Eros (Cupid) and, in Roman tradition, Aeneas, the Trojan hero and legendary ancestor of Rome. Her worship derived partly from the Phoenician goddess Astarte. The planet Venus was named for her as the brightest object in the sky after the sun and moon. Botticelli's The Birth of Venus and the ancient Venus de Milo sculpture remain among the most celebrated artistic depictions of any mythological figure.",
+      "cardFront": "Aphrodite (Greek)",
+      "cardBack": "Venus (Roman)"
     },
     {
       "id": "hermes-roman",
       "question": "What is the Roman name for the Greek god Hermes?",
       "answer": "Mercury",
       "alternateAnswers": [],
-      "explanation": "Hermes (Greek) or Mercury (Roman) was the messenger of the gods, an Olympian deity who served as herald, protector of travelers, thieves, merchants, and orators, and as psychopomp, guiding the souls of the dead to the underworld. He was the son of Zeus and the nymph Maia, and on the day he was born, he stole Apollo's sacred cattle, demonstrating his cleverness from infancy. His symbols include the caduceus (a staff entwined with two serpents), winged sandals (talaria), and a winged cap (petasos), which enabled him to move freely between the mortal and divine worlds. He fathered Pan, the god of the wild. The planet Mercury was named for him because it moves across the sky faster than any other planet. The chemical element mercury also bears his name, as does the word 'mercurial,' meaning quick and changeable. The Hermes brand and FTD florist logo both use his imagery."
+      "explanation": "Hermes (Greek) or Mercury (Roman) was the messenger of the gods, an Olympian deity who served as herald, protector of travelers, thieves, merchants, and orators, and as psychopomp, guiding the souls of the dead to the underworld. He was the son of Zeus and the nymph Maia, and on the day he was born, he stole Apollo's sacred cattle, demonstrating his cleverness from infancy. His symbols include the caduceus (a staff entwined with two serpents), winged sandals (talaria), and a winged cap (petasos), which enabled him to move freely between the mortal and divine worlds. He fathered Pan, the god of the wild. The planet Mercury was named for him because it moves across the sky faster than any other planet. The chemical element mercury also bears his name, as does the word 'mercurial,' meaning quick and changeable. The Hermes brand and FTD florist logo both use his imagery.",
+      "cardFront": "Hermes (Greek)",
+      "cardBack": "Mercury (Roman)"
     },
     {
       "id": "artemis-roman",
       "question": "What is the Roman name for the Greek goddess Artemis?",
       "answer": "Diana",
       "alternateAnswers": [],
-      "explanation": "Artemis (Greek) or Diana (Roman) was the goddess of hunting, the wilderness, wild animals, the moon, and chastity. She was the daughter of Zeus and the Titaness Leto, and the twin sister of Apollo, born on the island of Delos. She was fiercely protective of her virginity: when the hunter Actaeon accidentally saw her bathing, she transformed him into a stag, and he was torn apart by his own hounds. Her symbols include the bow and arrow, hunting dogs, deer, and the crescent moon. The Temple of Artemis at Ephesus was one of the Seven Wonders of the Ancient World. The famous Roman sculpture Diana of Versailles in the Louvre depicts her in mid-stride with a deer. NASA named its 21st-century lunar program 'Artemis' after her, as she was Apollo's twin and the moon was her domain, a fitting successor to the Apollo program that first landed humans on the moon."
+      "explanation": "Artemis (Greek) or Diana (Roman) was the goddess of hunting, the wilderness, wild animals, the moon, and chastity. She was the daughter of Zeus and the Titaness Leto, and the twin sister of Apollo, born on the island of Delos. She was fiercely protective of her virginity: when the hunter Actaeon accidentally saw her bathing, she transformed him into a stag, and he was torn apart by his own hounds. Her symbols include the bow and arrow, hunting dogs, deer, and the crescent moon. The Temple of Artemis at Ephesus was one of the Seven Wonders of the Ancient World. The famous Roman sculpture Diana of Versailles in the Louvre depicts her in mid-stride with a deer. NASA named its 21st-century lunar program 'Artemis' after her, as she was Apollo's twin and the moon was her domain, a fitting successor to the Apollo program that first landed humans on the moon.",
+      "cardFront": "Artemis (Greek)",
+      "cardBack": "Diana (Roman)"
     },
     {
       "id": "apollo-roman",
       "question": "What is the Roman name for the Greek god Apollo?",
       "answer": "Apollo",
       "alternateAnswers": [],
-      "explanation": "Apollo is one of the few Olympian gods whose name remained unchanged in both Greek and Roman mythology. He was the son of Zeus and the Titaness Leto, and the twin brother of Artemis. His domains were remarkably broad: music, poetry, art, the sun, light, healing, plague, prophecy, truth, and archery. The Oracle at Delphi, the most important prophetic site in the ancient world, spoke in his name. His key offspring include Asclepius (god of medicine) and Orpheus (in some traditions). His symbols include the lyre, laurel wreath, bow and arrow, and the sun. The myth of Apollo and Daphne, in which the nymph transformed into a laurel tree to escape him, inspired Bernini's famous Baroque sculpture. NASA named its moon landing program 'Apollo,' and the Apollo Belvedere statue in the Vatican has been considered the ideal of male beauty since the Renaissance."
+      "explanation": "Apollo is one of the few Olympian gods whose name remained unchanged in both Greek and Roman mythology. He was the son of Zeus and the Titaness Leto, and the twin brother of Artemis. His domains were remarkably broad: music, poetry, art, the sun, light, healing, plague, prophecy, truth, and archery. The Oracle at Delphi, the most important prophetic site in the ancient world, spoke in his name. His key offspring include Asclepius (god of medicine) and Orpheus (in some traditions). His symbols include the lyre, laurel wreath, bow and arrow, and the sun. The myth of Apollo and Daphne, in which the nymph transformed into a laurel tree to escape him, inspired Bernini's famous Baroque sculpture. NASA named its moon landing program 'Apollo,' and the Apollo Belvedere statue in the Vatican has been considered the ideal of male beauty since the Renaissance.",
+      "cardFront": "Apollo (Greek)",
+      "cardBack": "Apollo (Roman)"
     },
     {
       "id": "hephaestus-roman",
       "question": "What is the Roman name for the Greek god Hephaestus?",
       "answer": "Vulcan",
       "alternateAnswers": [],
-      "explanation": "Hephaestus (Greek) or Vulcan (Roman) was the god of fire, the forge, metalworking, sculpture, and volcanoes. He was the son of Hera, born either by her alone or through her union with Zeus. He was the only Olympian who was physically imperfect: born lame, he was cast off Mount Olympus by his mother Hera, who was ashamed of his appearance. Despite this rejection, he became the master craftsman of the gods, forging Zeus's thunderbolts, Athena's shield, Achilles' armor, and Aphrodite's girdle. Ironically, the ugly god of the forge was married to Aphrodite, the most beautiful goddess, who famously had an affair with Ares. His symbols include the hammer, anvil, and tongs. The word 'volcano' derives directly from Vulcan, as the Romans believed volcanic eruptions were sparks from his forge beneath Mount Etna. The Star Trek species 'Vulcans' also take their name from him."
+      "explanation": "Hephaestus (Greek) or Vulcan (Roman) was the god of fire, the forge, metalworking, sculpture, and volcanoes. He was the son of Hera, born either by her alone or through her union with Zeus. He was the only Olympian who was physically imperfect: born lame, he was cast off Mount Olympus by his mother Hera, who was ashamed of his appearance. Despite this rejection, he became the master craftsman of the gods, forging Zeus's thunderbolts, Athena's shield, Achilles' armor, and Aphrodite's girdle. Ironically, the ugly god of the forge was married to Aphrodite, the most beautiful goddess, who famously had an affair with Ares. His symbols include the hammer, anvil, and tongs. The word 'volcano' derives directly from Vulcan, as the Romans believed volcanic eruptions were sparks from his forge beneath Mount Etna. The Star Trek species 'Vulcans' also take their name from him.",
+      "cardFront": "Hephaestus (Greek)",
+      "cardBack": "Vulcan (Roman)"
     },
     {
       "id": "demeter-roman",
       "question": "What is the Roman name for the Greek goddess Demeter?",
       "answer": "Ceres",
       "alternateAnswers": [],
-      "explanation": "Demeter (Greek) or Ceres (Roman) was the goddess of the harvest, crops, grains, food, and the fertility of the earth. She was the daughter of Cronus and Rhea, and the mother of Persephone by Zeus. Her most important myth explains the seasons: when Hades abducted Persephone to the underworld, Demeter's grief caused all crops to wither and die. Zeus brokered a compromise in which Persephone would spend part of the year underground (winter) and part with her mother (spring and summer). The Eleusinian Mysteries, among the most important religious rites in ancient Greece, were held in her honor and promised initiates a blessed afterlife. Her symbols include sheaves of wheat, the cornucopia, and the torch she carried while searching for Persephone. The word 'cereal' derives directly from Ceres. The dwarf planet Ceres, the largest object in the asteroid belt, was also named after her."
+      "explanation": "Demeter (Greek) or Ceres (Roman) was the goddess of the harvest, crops, grains, food, and the fertility of the earth. She was the daughter of Cronus and Rhea, and the mother of Persephone by Zeus. Her most important myth explains the seasons: when Hades abducted Persephone to the underworld, Demeter's grief caused all crops to wither and die. Zeus brokered a compromise in which Persephone would spend part of the year underground (winter) and part with her mother (spring and summer). The Eleusinian Mysteries, among the most important religious rites in ancient Greece, were held in her honor and promised initiates a blessed afterlife. Her symbols include sheaves of wheat, the cornucopia, and the torch she carried while searching for Persephone. The word 'cereal' derives directly from Ceres. The dwarf planet Ceres, the largest object in the asteroid belt, was also named after her.",
+      "cardFront": "Demeter (Greek)",
+      "cardBack": "Ceres (Roman)"
     },
     {
       "id": "dionysus-roman",
       "question": "What is the Roman name for the Greek god Dionysus?",
       "answer": "Bacchus",
       "alternateAnswers": [],
-      "explanation": "Dionysus (Greek) or Bacchus (Roman) was the god of wine, winemaking, vegetation, fertility, festivity, ritual madness, religious ecstasy, and theater. He was the son of Zeus and the mortal princess Semele of Thebes, making him the only Olympian with a mortal parent. When Hera tricked Semele into asking Zeus to reveal his true form, the sight destroyed her, but Zeus rescued the unborn Dionysus and sewed him into his own thigh until birth. His symbol was the thyrsus, a fennel-staff wound with ivy and dripping with honey. Followers called Maenads (or Bacchantes) were said to enter ecstatic frenzies during his rituals. Greek tragedy and comedy both originated from festivals held in his honor, the Dionysia in Athens, making him the patron of all theater. The word 'bacchanalia' for wild celebrations comes directly from Bacchus. Caravaggio's Bacchus and Titian's Bacchus and Ariadne are among the most famous depictions."
+      "explanation": "Dionysus (Greek) or Bacchus (Roman) was the god of wine, winemaking, vegetation, fertility, festivity, ritual madness, religious ecstasy, and theater. He was the son of Zeus and the mortal princess Semele of Thebes, making him the only Olympian with a mortal parent. When Hera tricked Semele into asking Zeus to reveal his true form, the sight destroyed her, but Zeus rescued the unborn Dionysus and sewed him into his own thigh until birth. His symbol was the thyrsus, a fennel-staff wound with ivy and dripping with honey. Followers called Maenads (or Bacchantes) were said to enter ecstatic frenzies during his rituals. Greek tragedy and comedy both originated from festivals held in his honor, the Dionysia in Athens, making him the patron of all theater. The word 'bacchanalia' for wild celebrations comes directly from Bacchus. Caravaggio's Bacchus and Titian's Bacchus and Ariadne are among the most famous depictions.",
+      "cardFront": "Dionysus (Greek)",
+      "cardBack": "Bacchus (Roman)"
     },
     {
       "id": "hades-roman",
       "question": "What is the Roman name for the Greek god Hades?",
       "answer": "Pluto",
       "alternateAnswers": [],
-      "explanation": "Hades (Greek) or Pluto (Roman) was the god of the dead and king of the underworld. He was the eldest son of the Titans Cronus and Rhea, and brother to Zeus and Poseidon. After the three brothers defeated the Titans, they drew lots to divide the cosmos: Zeus took the sky, Poseidon the sea, and Hades the underworld. His most famous myth is the abduction of Persephone, whom he seized and brought to his realm as queen, causing her mother Demeter's grief to bring winter upon the earth. His symbols include the bident (a two-pronged fork), the Helm of Darkness which rendered him invisible, and Cerberus, his three-headed guard dog. Despite popular culture's portrayal, the ancient Greeks did not consider him evil, merely stern and implacable. His name Pluto means 'the wealthy one,' since all precious metals and gems come from underground. The dwarf planet Pluto was named after him in 1930, at the suggestion of an 11-year-old English girl."
+      "explanation": "Hades (Greek) or Pluto (Roman) was the god of the dead and king of the underworld. He was the eldest son of the Titans Cronus and Rhea, and brother to Zeus and Poseidon. After the three brothers defeated the Titans, they drew lots to divide the cosmos: Zeus took the sky, Poseidon the sea, and Hades the underworld. His most famous myth is the abduction of Persephone, whom he seized and brought to his realm as queen, causing her mother Demeter's grief to bring winter upon the earth. His symbols include the bident (a two-pronged fork), the Helm of Darkness which rendered him invisible, and Cerberus, his three-headed guard dog. Despite popular culture's portrayal, the ancient Greeks did not consider him evil, merely stern and implacable. His name Pluto means 'the wealthy one,' since all precious metals and gems come from underground. The dwarf planet Pluto was named after him in 1930, at the suggestion of an 11-year-old English girl.",
+      "cardFront": "Hades (Greek)",
+      "cardBack": "Pluto (Roman)"
     },
     {
       "id": "minotaur-slayer",
@@ -115,21 +143,30 @@
       "id": "achilles-weakness",
       "question": "What was the only vulnerable spot on the body of the Greek hero Achilles?",
       "answer": "His heel",
-      "alternateAnswers": ["Heel", "His ankle", "Ankle"],
+      "alternateAnswers": [
+        "Heel",
+        "His ankle",
+        "Ankle"
+      ],
       "explanation": "Achilles was the son of the Nereid (sea nymph) Thetis and Peleus, king of Phthia, and was the greatest warrior of the Trojan War. His mother dipped him in the River Styx to make his body invulnerable, holding him by the heel, which remained the one spot unprotected by the magical waters. He was raised alongside his companion Patroclus and trained by the centaur Chiron. As commander of the Myrmidons, he was the central figure of Homer's Iliad, which tells how he withdrew from battle after a quarrel with Agamemnon and returned only after Patroclus was killed by Hector. Achilles slew Hector and was himself killed when Paris shot an arrow guided by Apollo into his unprotected heel. The phrase 'Achilles heel' has entered dozens of languages as a term for a critical vulnerability, and the Achilles tendon in human anatomy is named after him."
     },
     {
       "id": "trojan-horse",
       "question": "Which Greek hero is credited with the idea of the Trojan Horse?",
       "answer": "Odysseus",
-      "alternateAnswers": ["Ulysses"],
+      "alternateAnswers": [
+        "Ulysses"
+      ],
       "explanation": "Odysseus, known as Ulysses in Latin, was a legendary king of Ithaca and the hero of Homer's two great epics. He was the son of Laertes and Anticlea, and was celebrated above all for his cunning intelligence (metis). After ten years of failed siege during the Trojan War, Odysseus devised the stratagem of the Trojan Horse: the Greeks built a giant hollow wooden horse, concealed elite warriors inside it, and pretended to sail away. The Trojans, believing the horse a divine offering, dragged it within their walls. That night the Greeks emerged and sacked Troy. Odysseus's own ten-year journey home, the Odyssey, took him past the Cyclops Polyphemus, the Sirens, the witch Circe, the monsters Scylla and Charybdis, and many more perils. The word 'odyssey' has entered modern English to mean any long, eventful journey. His cunning and eloquence inspired literary descendants from Virgil's Aeneid to James Joyce's Ulysses."
     },
     {
       "id": "twelve-labors",
       "question": "Which Greek hero was forced to complete twelve labors as penance?",
       "answer": "Heracles",
-      "alternateAnswers": ["Hercules", "Herakles"],
+      "alternateAnswers": [
+        "Hercules",
+        "Herakles"
+      ],
       "explanation": "Heracles (Greek) or Hercules (Roman) was a divine hero, the son of Zeus and the mortal Alcmene, born as Alcaeus. Hera, enraged by yet another of Zeus's illegitimate children, drove Heracles temporarily insane, causing him to kill his own wife and children. As penance, the Oracle at Delphi sentenced him to serve King Eurystheus of Tiryns and complete twelve seemingly impossible labors. These included slaying the Nemean Lion (whose skin he wore ever after), killing the nine-headed Lernaean Hydra, capturing the Ceryneian Hind, cleaning the vast Augean Stables in a single day by diverting two rivers, and his final and most dangerous task: capturing Cerberus, the three-headed guard dog of the underworld, alive. His symbols include the lion skin, the club, and the bow. He is the most depicted hero in ancient art, appearing on countless vases, sculptures, and mosaics. The Farnese Hercules is among the most famous ancient sculptures."
     },
     {
@@ -171,14 +208,19 @@
       "id": "muses-number",
       "question": "How many Muses were there in Greek mythology?",
       "answer": "Nine",
-      "alternateAnswers": ["9"],
+      "alternateAnswers": [
+        "9"
+      ],
       "explanation": "The nine Muses were daughters of Zeus and the Titaness Mnemosyne (Memory), born after nine consecutive nights together. Each presided over a different art or science: Calliope (epic poetry), Clio (history), Erato (love poetry), Euterpe (lyric poetry and music), Melpomene (tragedy), Polyhymnia (hymns and sacred poetry), Terpsichore (dance), Thalia (comedy), and Urania (astronomy). They lived on Mount Helicon and were associated with the springs of Hippocrene and Castalia, whose waters brought poetic inspiration. Ancient Greek poets traditionally began their works by invoking the Muses: Homer opens both the Iliad and the Odyssey this way. The word 'museum' literally means 'place of the Muses,' derived from the great Mouseion of Alexandria. The word 'music' also traces back to them. Raphael depicted them in his fresco Parnassus in the Vatican, and they appear in countless classical sculptures, Renaissance paintings, and neoclassical works."
     },
     {
       "id": "war-apple",
       "question": "What event started the chain of events leading to the Trojan War?",
       "answer": "The Judgment of Paris",
-      "alternateAnswers": ["Judgment of Paris", "Apple of Discord"],
+      "alternateAnswers": [
+        "Judgment of Paris",
+        "Apple of Discord"
+      ],
       "explanation": "The Judgment of Paris began when Eris, the goddess of discord, was not invited to the wedding of Peleus and Thetis (Achilles' future parents). In revenge, she threw a golden apple inscribed 'To the Fairest' among the guests. Three goddesses claimed it: Hera, Athena, and Aphrodite. Zeus refused to judge and delegated the decision to Paris, a Trojan prince. Each goddess offered a bribe: Hera promised power and dominion over Asia, Athena offered wisdom and skill in war, and Aphrodite offered the love of the most beautiful mortal woman, Helen of Sparta. Paris chose Aphrodite and was awarded Helen, who was already married to King Menelaus. Paris abducted Helen to Troy, and Menelaus rallied the Greek kings to retrieve her, launching a thousand ships and a ten-year war. The story is one of the most depicted subjects in Western art, painted by Rubens, Cranach, Renoir, and many others."
     },
     {
@@ -206,14 +248,20 @@
       "id": "king-midas",
       "question": "Which mythological king was granted the power to turn everything he touched into gold?",
       "answer": "King Midas",
-      "alternateAnswers": ["Midas"],
+      "alternateAnswers": [
+        "Midas"
+      ],
       "explanation": "King Midas was a legendary ruler of Phrygia (in modern-day Turkey). When Silenus, the elderly companion of Dionysus, wandered drunk into Midas's rose gardens, Midas treated him hospitably for ten days. In gratitude, Dionysus offered to grant Midas any wish. The king asked that everything he touched be turned to gold. The gift quickly became a curse: his food, drink, and even his beloved daughter turned to solid gold at his touch. Midas begged Dionysus to reverse the power and was told to wash in the river Pactolus, which according to legend is why the river's sands contained gold dust. In a separate myth, Midas judged a music contest between Apollo and Pan, declaring Pan the winner. Apollo punished his poor taste by giving him donkey ears, which Midas hid under a tall cap. The phrase 'Midas touch' has entered modern English to mean an ability to make money effortlessly, ironically ignoring the cautionary nature of the original tale."
     },
     {
       "id": "odyssey-time",
       "question": "How many years did it take Odysseus to return home to Ithaca after the Trojan War?",
       "answer": "Ten",
-      "alternateAnswers": ["10", "10 years", "Ten years"],
+      "alternateAnswers": [
+        "10",
+        "10 years",
+        "Ten years"
+      ],
       "explanation": "The Odyssey, attributed to Homer, tells the story of Odysseus's ten-year voyage home to Ithaca after the fall of Troy, meaning he was away from home for a total of twenty years when combined with the ten-year war itself. The epic is one of the oldest surviving works of Western literature. During his journey, Odysseus faced the Cyclops Polyphemus (whom he blinded), the enchantress Circe (who turned his men into pigs), the deadly Sirens (whose song he heard while bound to his mast), the monsters Scylla and Charybdis, and the wrath of Poseidon. Meanwhile, his wife Penelope fended off over a hundred suitors by weaving a burial shroud by day and secretly unraveling it each night, promising to choose a new husband when the work was done. Their son Telemachus grew from infant to young man during the absence. The word 'odyssey' has entered modern English as a synonym for any long, difficult journey, and James Joyce's novel Ulysses (1922) retells the entire epic in a single day in Dublin."
     }
   ]

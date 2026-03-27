@@ -10,827 +10,1299 @@
       "id": "h",
       "question": "What is the chemical symbol for Hydrogen?",
       "answer": "H",
-      "alternateAnswers": ["h"],
-      "explanation": "Hydrogen (atomic number 1) is the lightest and most abundant element in the universe, making up about 75% of all normal matter by mass. Its name comes from Greek 'hydro' (water) + 'genes' (forming)."
+      "alternateAnswers": [
+        "h"
+      ],
+      "explanation": "Hydrogen (atomic number 1) is the lightest and most abundant element in the universe, making up about 75% of all normal matter by mass. Its name comes from Greek 'hydro' (water) + 'genes' (forming).",
+      "cardFront": "Hydrogen",
+      "cardBack": "H"
     },
     {
       "id": "he",
       "question": "What is the chemical symbol for Helium?",
       "answer": "He",
-      "alternateAnswers": ["he"],
-      "explanation": "Helium (atomic number 2) was first discovered in the Sun's spectrum before it was found on Earth -- its name comes from 'Helios,' the Greek sun god. It is the only element that cannot be solidified by cooling alone at normal pressure."
+      "alternateAnswers": [
+        "he"
+      ],
+      "explanation": "Helium (atomic number 2) was first discovered in the Sun's spectrum before it was found on Earth -- its name comes from 'Helios,' the Greek sun god. It is the only element that cannot be solidified by cooling alone at normal pressure.",
+      "cardFront": "Helium",
+      "cardBack": "He"
     },
     {
       "id": "li",
       "question": "What is the chemical symbol for Lithium?",
       "answer": "Li",
-      "alternateAnswers": ["li"],
-      "explanation": "Lithium (atomic number 3) is the lightest metal and is soft enough to cut with a knife. Its name comes from Greek 'lithos' (stone), and it is now essential in rechargeable batteries."
+      "alternateAnswers": [
+        "li"
+      ],
+      "explanation": "Lithium (atomic number 3) is the lightest metal and is soft enough to cut with a knife. Its name comes from Greek 'lithos' (stone), and it is now essential in rechargeable batteries.",
+      "cardFront": "Lithium",
+      "cardBack": "Li"
     },
     {
       "id": "be",
       "question": "What is the chemical symbol for Beryllium?",
       "answer": "Be",
-      "alternateAnswers": ["be"],
-      "explanation": "Beryllium (atomic number 4) is named after the mineral beryl, which includes emeralds and aquamarine. It is remarkably stiff and lightweight, making it useful in aerospace applications."
+      "alternateAnswers": [
+        "be"
+      ],
+      "explanation": "Beryllium (atomic number 4) is named after the mineral beryl, which includes emeralds and aquamarine. It is remarkably stiff and lightweight, making it useful in aerospace applications.",
+      "cardFront": "Beryllium",
+      "cardBack": "Be"
     },
     {
       "id": "b",
       "question": "What is the chemical symbol for Boron?",
       "answer": "B",
-      "alternateAnswers": ["b"],
-      "explanation": "Boron (atomic number 5) gets its name from the Arabic 'buraq' (borax). It is essential for plant growth but toxic to insects, which is why borax has been used as a pesticide for centuries."
+      "alternateAnswers": [
+        "b"
+      ],
+      "explanation": "Boron (atomic number 5) gets its name from the Arabic 'buraq' (borax). It is essential for plant growth but toxic to insects, which is why borax has been used as a pesticide for centuries.",
+      "cardFront": "Boron",
+      "cardBack": "B"
     },
     {
       "id": "c",
       "question": "What is the chemical symbol for Carbon?",
       "answer": "C",
-      "alternateAnswers": ["c"],
-      "explanation": "Carbon (atomic number 6) is the basis of all known life and can form more compounds than any other element. Its name comes from Latin 'carbo' (charcoal). Diamond and graphite are both pure carbon with different structures."
+      "alternateAnswers": [
+        "c"
+      ],
+      "explanation": "Carbon (atomic number 6) is the basis of all known life and can form more compounds than any other element. Its name comes from Latin 'carbo' (charcoal). Diamond and graphite are both pure carbon with different structures.",
+      "cardFront": "Carbon",
+      "cardBack": "C"
     },
     {
       "id": "n",
       "question": "What is the chemical symbol for Nitrogen?",
       "answer": "N",
-      "alternateAnswers": ["n"],
-      "explanation": "Nitrogen (atomic number 7) makes up about 78% of Earth's atmosphere. Its name comes from Greek 'nitron genes' (niter-forming). Despite being all around us, it was not identified as a separate gas until 1772."
+      "alternateAnswers": [
+        "n"
+      ],
+      "explanation": "Nitrogen (atomic number 7) makes up about 78% of Earth's atmosphere. Its name comes from Greek 'nitron genes' (niter-forming). Despite being all around us, it was not identified as a separate gas until 1772.",
+      "cardFront": "Nitrogen",
+      "cardBack": "N"
     },
     {
       "id": "o",
       "question": "What is the chemical symbol for Oxygen?",
       "answer": "O",
-      "alternateAnswers": ["o"],
-      "explanation": "Oxygen (atomic number 8) makes up about 21% of the atmosphere and roughly 65% of the human body by mass. Its name means 'acid-former' in Greek, because it was mistakenly thought to be present in all acids."
+      "alternateAnswers": [
+        "o"
+      ],
+      "explanation": "Oxygen (atomic number 8) makes up about 21% of the atmosphere and roughly 65% of the human body by mass. Its name means 'acid-former' in Greek, because it was mistakenly thought to be present in all acids.",
+      "cardFront": "Oxygen",
+      "cardBack": "O"
     },
     {
       "id": "f",
       "question": "What is the chemical symbol for Fluorine?",
       "answer": "F",
-      "alternateAnswers": ["f"],
-      "explanation": "Fluorine (atomic number 9) is the most reactive and electronegative of all elements. Its name comes from Latin 'fluere' (to flow), from its use in mineral fluorite as a flux in smelting."
+      "alternateAnswers": [
+        "f"
+      ],
+      "explanation": "Fluorine (atomic number 9) is the most reactive and electronegative of all elements. Its name comes from Latin 'fluere' (to flow), from its use in mineral fluorite as a flux in smelting.",
+      "cardFront": "Fluorine",
+      "cardBack": "F"
     },
     {
       "id": "ne",
       "question": "What is the chemical symbol for Neon?",
       "answer": "Ne",
-      "alternateAnswers": ["ne"],
-      "explanation": "Neon (atomic number 10) gets its name from Greek 'neos' (new). True neon signs glow red-orange; other 'neon' sign colors actually use different gases like argon or mercury vapor."
+      "alternateAnswers": [
+        "ne"
+      ],
+      "explanation": "Neon (atomic number 10) gets its name from Greek 'neos' (new). True neon signs glow red-orange; other 'neon' sign colors actually use different gases like argon or mercury vapor.",
+      "cardFront": "Neon",
+      "cardBack": "Ne"
     },
     {
       "id": "na",
       "question": "What is the chemical symbol for Sodium?",
       "answer": "Na",
-      "alternateAnswers": ["na"],
-      "explanation": "Sodium's symbol Na comes from the Latin 'natrium,' which traces back to the Egyptian word 'natron' for the salt deposits found in dry lake beds. Sodium (atomic number 11) reacts violently with water."
+      "alternateAnswers": [
+        "na"
+      ],
+      "explanation": "Sodium's symbol Na comes from the Latin 'natrium,' which traces back to the Egyptian word 'natron' for the salt deposits found in dry lake beds. Sodium (atomic number 11) reacts violently with water.",
+      "cardFront": "Sodium",
+      "cardBack": "Na"
     },
     {
       "id": "mg",
       "question": "What is the chemical symbol for Magnesium?",
       "answer": "Mg",
-      "alternateAnswers": ["mg"],
-      "explanation": "Magnesium (atomic number 12) is named after Magnesia, a district in Greece. It burns with an intensely bright white flame and is the eighth most abundant element in Earth's crust."
+      "alternateAnswers": [
+        "mg"
+      ],
+      "explanation": "Magnesium (atomic number 12) is named after Magnesia, a district in Greece. It burns with an intensely bright white flame and is the eighth most abundant element in Earth's crust.",
+      "cardFront": "Magnesium",
+      "cardBack": "Mg"
     },
     {
       "id": "al",
       "question": "What is the chemical symbol for Aluminium?",
       "answer": "Al",
-      "alternateAnswers": ["al"],
-      "explanation": "Aluminium (atomic number 13) was once more valuable than gold because it was so hard to extract. Napoleon III served his most honored guests on aluminium plates while lesser guests used gold."
+      "alternateAnswers": [
+        "al"
+      ],
+      "explanation": "Aluminium (atomic number 13) was once more valuable than gold because it was so hard to extract. Napoleon III served his most honored guests on aluminium plates while lesser guests used gold.",
+      "cardFront": "Aluminium",
+      "cardBack": "Al"
     },
     {
       "id": "si",
       "question": "What is the chemical symbol for Silicon?",
       "answer": "Si",
-      "alternateAnswers": ["si"],
-      "explanation": "Silicon (atomic number 14) is named from Latin 'silex' (flint). It is the second most abundant element in Earth's crust and the foundation of modern electronics -- hence 'Silicon Valley.'"
+      "alternateAnswers": [
+        "si"
+      ],
+      "explanation": "Silicon (atomic number 14) is named from Latin 'silex' (flint). It is the second most abundant element in Earth's crust and the foundation of modern electronics -- hence 'Silicon Valley.'",
+      "cardFront": "Silicon",
+      "cardBack": "Si"
     },
     {
       "id": "p",
       "question": "What is the chemical symbol for Phosphorus?",
       "answer": "P",
-      "alternateAnswers": ["p"],
-      "explanation": "Phosphorus (atomic number 15) means 'light-bearer' in Greek because white phosphorus glows in the dark. It was discovered in 1669 by Hennig Brand, who extracted it from urine."
+      "alternateAnswers": [
+        "p"
+      ],
+      "explanation": "Phosphorus (atomic number 15) means 'light-bearer' in Greek because white phosphorus glows in the dark. It was discovered in 1669 by Hennig Brand, who extracted it from urine.",
+      "cardFront": "Phosphorus",
+      "cardBack": "P"
     },
     {
       "id": "s",
       "question": "What is the chemical symbol for Sulfur?",
       "answer": "S",
-      "alternateAnswers": ["s"],
-      "explanation": "Sulfur (atomic number 16) has been known since ancient times and is mentioned in the Bible as 'brimstone.' It is essential for life, found in the amino acids cysteine and methionine."
+      "alternateAnswers": [
+        "s"
+      ],
+      "explanation": "Sulfur (atomic number 16) has been known since ancient times and is mentioned in the Bible as 'brimstone.' It is essential for life, found in the amino acids cysteine and methionine.",
+      "cardFront": "Sulfur",
+      "cardBack": "S"
     },
     {
       "id": "cl",
       "question": "What is the chemical symbol for Chlorine?",
       "answer": "Cl",
-      "alternateAnswers": ["cl"],
-      "explanation": "Chlorine (atomic number 17) gets its name from Greek 'chloros' (pale green), describing the color of the gas. In small amounts it purifies drinking water; in large amounts it was used as a chemical weapon in World War I."
+      "alternateAnswers": [
+        "cl"
+      ],
+      "explanation": "Chlorine (atomic number 17) gets its name from Greek 'chloros' (pale green), describing the color of the gas. In small amounts it purifies drinking water; in large amounts it was used as a chemical weapon in World War I.",
+      "cardFront": "Chlorine",
+      "cardBack": "Cl"
     },
     {
       "id": "ar",
       "question": "What is the chemical symbol for Argon?",
       "answer": "Ar",
-      "alternateAnswers": ["ar"],
-      "explanation": "Argon (atomic number 18) is named from Greek 'argos' (lazy or inactive), because it almost never reacts with anything. It makes up nearly 1% of Earth's atmosphere -- the third most abundant gas after nitrogen and oxygen."
+      "alternateAnswers": [
+        "ar"
+      ],
+      "explanation": "Argon (atomic number 18) is named from Greek 'argos' (lazy or inactive), because it almost never reacts with anything. It makes up nearly 1% of Earth's atmosphere -- the third most abundant gas after nitrogen and oxygen.",
+      "cardFront": "Argon",
+      "cardBack": "Ar"
     },
     {
       "id": "k",
       "question": "What is the chemical symbol for Potassium?",
       "answer": "K",
-      "alternateAnswers": ["k"],
-      "explanation": "Potassium's symbol K comes from 'kalium,' the Latin word derived from Arabic 'al-qalyah' (plant ashes). Potassium (atomic number 19) is essential for nerve and muscle function, and bananas are famously rich in it."
+      "alternateAnswers": [
+        "k"
+      ],
+      "explanation": "Potassium's symbol K comes from 'kalium,' the Latin word derived from Arabic 'al-qalyah' (plant ashes). Potassium (atomic number 19) is essential for nerve and muscle function, and bananas are famously rich in it.",
+      "cardFront": "Potassium",
+      "cardBack": "K"
     },
     {
       "id": "ca",
       "question": "What is the chemical symbol for Calcium?",
       "answer": "Ca",
-      "alternateAnswers": ["ca"],
-      "explanation": "Calcium (atomic number 20) is named from Latin 'calx' (lime). It is the most abundant metal in the human body, with 99% of it stored in bones and teeth."
+      "alternateAnswers": [
+        "ca"
+      ],
+      "explanation": "Calcium (atomic number 20) is named from Latin 'calx' (lime). It is the most abundant metal in the human body, with 99% of it stored in bones and teeth.",
+      "cardFront": "Calcium",
+      "cardBack": "Ca"
     },
     {
       "id": "sc",
       "question": "What is the chemical symbol for Scandium?",
       "answer": "Sc",
-      "alternateAnswers": ["sc"],
-      "explanation": "Scandium (atomic number 21) is named after Scandinavia, where it was discovered. It is used in aluminium-scandium alloys for aerospace components because it makes aluminium much stronger without adding much weight."
+      "alternateAnswers": [
+        "sc"
+      ],
+      "explanation": "Scandium (atomic number 21) is named after Scandinavia, where it was discovered. It is used in aluminium-scandium alloys for aerospace components because it makes aluminium much stronger without adding much weight.",
+      "cardFront": "Scandium",
+      "cardBack": "Sc"
     },
     {
       "id": "ti",
       "question": "What is the chemical symbol for Titanium?",
       "answer": "Ti",
-      "alternateAnswers": ["ti"],
-      "explanation": "Titanium (atomic number 22) is named after the Titans of Greek mythology. It is as strong as steel but 45% lighter, making it ideal for jet engines, spacecraft, and hip replacements."
+      "alternateAnswers": [
+        "ti"
+      ],
+      "explanation": "Titanium (atomic number 22) is named after the Titans of Greek mythology. It is as strong as steel but 45% lighter, making it ideal for jet engines, spacecraft, and hip replacements.",
+      "cardFront": "Titanium",
+      "cardBack": "Ti"
     },
     {
       "id": "v",
       "question": "What is the chemical symbol for Vanadium?",
       "answer": "V",
-      "alternateAnswers": ["v"],
-      "explanation": "Vanadium (atomic number 23) is named after Vanadis, the Norse goddess of beauty, because of the beautiful multicolored compounds it forms. Henry Ford called it the element that made the automobile possible, using vanadium steel in Model Ts."
+      "alternateAnswers": [
+        "v"
+      ],
+      "explanation": "Vanadium (atomic number 23) is named after Vanadis, the Norse goddess of beauty, because of the beautiful multicolored compounds it forms. Henry Ford called it the element that made the automobile possible, using vanadium steel in Model Ts.",
+      "cardFront": "Vanadium",
+      "cardBack": "V"
     },
     {
       "id": "cr",
       "question": "What is the chemical symbol for Chromium?",
       "answer": "Cr",
-      "alternateAnswers": ["cr"],
-      "explanation": "Chromium (atomic number 24) gets its name from Greek 'chroma' (color), because its compounds come in a vivid range of colors. It is what makes rubies red and emeralds green."
+      "alternateAnswers": [
+        "cr"
+      ],
+      "explanation": "Chromium (atomic number 24) gets its name from Greek 'chroma' (color), because its compounds come in a vivid range of colors. It is what makes rubies red and emeralds green.",
+      "cardFront": "Chromium",
+      "cardBack": "Cr"
     },
     {
       "id": "mn",
       "question": "What is the chemical symbol for Manganese?",
       "answer": "Mn",
-      "alternateAnswers": ["mn"],
-      "explanation": "Manganese (atomic number 25) is essential in steelmaking -- about 90% of all manganese produced goes into steel alloys. Its name comes from the Latin 'magnes' (magnet), though manganese itself is only weakly magnetic."
+      "alternateAnswers": [
+        "mn"
+      ],
+      "explanation": "Manganese (atomic number 25) is essential in steelmaking -- about 90% of all manganese produced goes into steel alloys. Its name comes from the Latin 'magnes' (magnet), though manganese itself is only weakly magnetic.",
+      "cardFront": "Manganese",
+      "cardBack": "Mn"
     },
     {
       "id": "fe",
       "question": "What is the chemical symbol for Iron?",
       "answer": "Fe",
-      "alternateAnswers": ["fe"],
-      "explanation": "Iron's symbol Fe comes from the Latin 'ferrum.' Iron (atomic number 26) is the most abundant element on Earth by mass, forming most of the planet's core. It is also what makes your blood red when oxygen binds to it."
+      "alternateAnswers": [
+        "fe"
+      ],
+      "explanation": "Iron's symbol Fe comes from the Latin 'ferrum.' Iron (atomic number 26) is the most abundant element on Earth by mass, forming most of the planet's core. It is also what makes your blood red when oxygen binds to it.",
+      "cardFront": "Iron",
+      "cardBack": "Fe"
     },
     {
       "id": "co",
       "question": "What is the chemical symbol for Cobalt?",
       "answer": "Co",
-      "alternateAnswers": ["co"],
-      "explanation": "Cobalt (atomic number 27) is named from the German 'Kobold' (goblin), because miners blamed goblins for the toxic fumes released when cobalt ores were smelted. It has been used to create brilliant blue pigments for thousands of years."
+      "alternateAnswers": [
+        "co"
+      ],
+      "explanation": "Cobalt (atomic number 27) is named from the German 'Kobold' (goblin), because miners blamed goblins for the toxic fumes released when cobalt ores were smelted. It has been used to create brilliant blue pigments for thousands of years.",
+      "cardFront": "Cobalt",
+      "cardBack": "Co"
     },
     {
       "id": "ni",
       "question": "What is the chemical symbol for Nickel?",
       "answer": "Ni",
-      "alternateAnswers": ["ni"],
-      "explanation": "Nickel (atomic number 28) gets its name from 'Kupfernickel' (Old Nick's copper) -- a German miners' term for a deceptive ore that looked like copper but yielded none. The US five-cent coin is actually 75% copper and only 25% nickel."
+      "alternateAnswers": [
+        "ni"
+      ],
+      "explanation": "Nickel (atomic number 28) gets its name from 'Kupfernickel' (Old Nick's copper) -- a German miners' term for a deceptive ore that looked like copper but yielded none. The US five-cent coin is actually 75% copper and only 25% nickel.",
+      "cardFront": "Nickel",
+      "cardBack": "Ni"
     },
     {
       "id": "cu",
       "question": "What is the chemical symbol for Copper?",
       "answer": "Cu",
-      "alternateAnswers": ["cu"],
-      "explanation": "Copper's symbol Cu comes from the Latin 'cuprum,' named after Cyprus, where the Romans mined most of their copper. Copper (atomic number 29) was one of the first metals used by humans, dating back over 10,000 years."
+      "alternateAnswers": [
+        "cu"
+      ],
+      "explanation": "Copper's symbol Cu comes from the Latin 'cuprum,' named after Cyprus, where the Romans mined most of their copper. Copper (atomic number 29) was one of the first metals used by humans, dating back over 10,000 years.",
+      "cardFront": "Copper",
+      "cardBack": "Cu"
     },
     {
       "id": "zn",
       "question": "What is the chemical symbol for Zinc?",
       "answer": "Zn",
-      "alternateAnswers": ["zn"],
-      "explanation": "Zinc (atomic number 30) gets its name from the German 'Zinke' (prong or tooth), referring to the pointed shape of zinc crystals. It is used to galvanize steel, and your body needs it for a functioning immune system."
+      "alternateAnswers": [
+        "zn"
+      ],
+      "explanation": "Zinc (atomic number 30) gets its name from the German 'Zinke' (prong or tooth), referring to the pointed shape of zinc crystals. It is used to galvanize steel, and your body needs it for a functioning immune system.",
+      "cardFront": "Zinc",
+      "cardBack": "Zn"
     },
     {
       "id": "ga",
       "question": "What is the chemical symbol for Gallium?",
       "answer": "Ga",
-      "alternateAnswers": ["ga"],
-      "explanation": "Gallium (atomic number 31) melts at just 85.6 degrees F, so it will literally melt in your hand. It was named after 'Gallia' (France) by its French discoverer, and its existence was predicted by Mendeleev before it was found."
+      "alternateAnswers": [
+        "ga"
+      ],
+      "explanation": "Gallium (atomic number 31) melts at just 85.6 degrees F, so it will literally melt in your hand. It was named after 'Gallia' (France) by its French discoverer, and its existence was predicted by Mendeleev before it was found.",
+      "cardFront": "Gallium",
+      "cardBack": "Ga"
     },
     {
       "id": "ge",
       "question": "What is the chemical symbol for Germanium?",
       "answer": "Ge",
-      "alternateAnswers": ["ge"],
-      "explanation": "Germanium (atomic number 32) is named after Germany. It was another element predicted by Mendeleev and became crucial in early transistors before silicon took over. It is still used in fiber optic systems and infrared optics."
+      "alternateAnswers": [
+        "ge"
+      ],
+      "explanation": "Germanium (atomic number 32) is named after Germany. It was another element predicted by Mendeleev and became crucial in early transistors before silicon took over. It is still used in fiber optic systems and infrared optics.",
+      "cardFront": "Germanium",
+      "cardBack": "Ge"
     },
     {
       "id": "as",
       "question": "What is the chemical symbol for Arsenic?",
       "answer": "As",
-      "alternateAnswers": ["as"],
-      "explanation": "Arsenic (atomic number 33) gets its name from the Greek 'arsenikon' (potent). It was historically called 'inheritance powder' because of its popularity as an undetectable poison in the Middle Ages."
+      "alternateAnswers": [
+        "as"
+      ],
+      "explanation": "Arsenic (atomic number 33) gets its name from the Greek 'arsenikon' (potent). It was historically called 'inheritance powder' because of its popularity as an undetectable poison in the Middle Ages.",
+      "cardFront": "Arsenic",
+      "cardBack": "As"
     },
     {
       "id": "se",
       "question": "What is the chemical symbol for Selenium?",
       "answer": "Se",
-      "alternateAnswers": ["se"],
-      "explanation": "Selenium (atomic number 34) is named after 'Selene,' the Greek moon goddess, to mirror tellurium (named after Earth). It is essential in tiny amounts for human health but toxic in larger doses."
+      "alternateAnswers": [
+        "se"
+      ],
+      "explanation": "Selenium (atomic number 34) is named after 'Selene,' the Greek moon goddess, to mirror tellurium (named after Earth). It is essential in tiny amounts for human health but toxic in larger doses.",
+      "cardFront": "Selenium",
+      "cardBack": "Se"
     },
     {
       "id": "br",
       "question": "What is the chemical symbol for Bromine?",
       "answer": "Br",
-      "alternateAnswers": ["br"],
-      "explanation": "Bromine (atomic number 35) gets its name from Greek 'bromos' (stench). It is one of only two elements that are liquid at room temperature -- the other being mercury."
+      "alternateAnswers": [
+        "br"
+      ],
+      "explanation": "Bromine (atomic number 35) gets its name from Greek 'bromos' (stench). It is one of only two elements that are liquid at room temperature -- the other being mercury.",
+      "cardFront": "Bromine",
+      "cardBack": "Br"
     },
     {
       "id": "kr",
       "question": "What is the chemical symbol for Krypton?",
       "answer": "Kr",
-      "alternateAnswers": ["kr"],
-      "explanation": "Krypton (atomic number 36) is named from Greek 'kryptos' (hidden), not from Superman's home planet. From 1960 to 1983, the standard definition of a meter was based on the wavelength of krypton-86 emissions."
+      "alternateAnswers": [
+        "kr"
+      ],
+      "explanation": "Krypton (atomic number 36) is named from Greek 'kryptos' (hidden), not from Superman's home planet. From 1960 to 1983, the standard definition of a meter was based on the wavelength of krypton-86 emissions.",
+      "cardFront": "Krypton",
+      "cardBack": "Kr"
     },
     {
       "id": "rb",
       "question": "What is the chemical symbol for Rubidium?",
       "answer": "Rb",
-      "alternateAnswers": ["rb"],
-      "explanation": "Rubidium (atomic number 37) is named from Latin 'rubidus' (dark red) for the red lines in its emission spectrum. It is so reactive that it ignites spontaneously in air."
+      "alternateAnswers": [
+        "rb"
+      ],
+      "explanation": "Rubidium (atomic number 37) is named from Latin 'rubidus' (dark red) for the red lines in its emission spectrum. It is so reactive that it ignites spontaneously in air.",
+      "cardFront": "Rubidium",
+      "cardBack": "Rb"
     },
     {
       "id": "sr",
       "question": "What is the chemical symbol for Strontium?",
       "answer": "Sr",
-      "alternateAnswers": ["sr"],
-      "explanation": "Strontium (atomic number 38) is named after Strontian, a village in Scotland. Strontium compounds produce the brilliant red color in fireworks and emergency flares."
+      "alternateAnswers": [
+        "sr"
+      ],
+      "explanation": "Strontium (atomic number 38) is named after Strontian, a village in Scotland. Strontium compounds produce the brilliant red color in fireworks and emergency flares.",
+      "cardFront": "Strontium",
+      "cardBack": "Sr"
     },
     {
       "id": "y",
       "question": "What is the chemical symbol for Yttrium?",
       "answer": "Y",
-      "alternateAnswers": ["y"],
-      "explanation": "Yttrium (atomic number 39) is one of four elements named after the Swedish village of Ytterby (along with terbium, erbium, and ytterbium). It is used in LEDs and is a component of the red phosphor in older CRT televisions."
+      "alternateAnswers": [
+        "y"
+      ],
+      "explanation": "Yttrium (atomic number 39) is one of four elements named after the Swedish village of Ytterby (along with terbium, erbium, and ytterbium). It is used in LEDs and is a component of the red phosphor in older CRT televisions.",
+      "cardFront": "Yttrium",
+      "cardBack": "Y"
     },
     {
       "id": "zr",
       "question": "What is the chemical symbol for Zirconium?",
       "answer": "Zr",
-      "alternateAnswers": ["zr"],
-      "explanation": "Zirconium (atomic number 40) gets its name from the mineral zircon, which comes from the Persian 'zargun' (gold-colored). Cubic zirconia, a diamond simulant, is made from zirconium oxide."
+      "alternateAnswers": [
+        "zr"
+      ],
+      "explanation": "Zirconium (atomic number 40) gets its name from the mineral zircon, which comes from the Persian 'zargun' (gold-colored). Cubic zirconia, a diamond simulant, is made from zirconium oxide.",
+      "cardFront": "Zirconium",
+      "cardBack": "Zr"
     },
     {
       "id": "nb",
       "question": "What is the chemical symbol for Niobium?",
       "answer": "Nb",
-      "alternateAnswers": ["nb"],
-      "explanation": "Niobium (atomic number 41) is named after Niobe, daughter of Tantalus in Greek mythology, because it is chemically similar to tantalum. It was called 'columbium' in the US for over a century before the name niobium was officially adopted in 1949."
+      "alternateAnswers": [
+        "nb"
+      ],
+      "explanation": "Niobium (atomic number 41) is named after Niobe, daughter of Tantalus in Greek mythology, because it is chemically similar to tantalum. It was called 'columbium' in the US for over a century before the name niobium was officially adopted in 1949.",
+      "cardFront": "Niobium",
+      "cardBack": "Nb"
     },
     {
       "id": "mo",
       "question": "What is the chemical symbol for Molybdenum?",
       "answer": "Mo",
-      "alternateAnswers": ["mo"],
-      "explanation": "Molybdenum (atomic number 42) comes from Greek 'molybdos' (lead), because its ore was long confused with lead ore. It is used to make high-strength steel alloys and is an essential trace element in all living organisms."
+      "alternateAnswers": [
+        "mo"
+      ],
+      "explanation": "Molybdenum (atomic number 42) comes from Greek 'molybdos' (lead), because its ore was long confused with lead ore. It is used to make high-strength steel alloys and is an essential trace element in all living organisms.",
+      "cardFront": "Molybdenum",
+      "cardBack": "Mo"
     },
     {
       "id": "tc",
       "question": "What is the chemical symbol for Technetium?",
       "answer": "Tc",
-      "alternateAnswers": ["tc"],
-      "explanation": "Technetium (atomic number 43) was the first artificially produced element -- its name comes from Greek 'technetos' (artificial). It has no stable isotopes, meaning every atom of it is radioactive and eventually decays."
+      "alternateAnswers": [
+        "tc"
+      ],
+      "explanation": "Technetium (atomic number 43) was the first artificially produced element -- its name comes from Greek 'technetos' (artificial). It has no stable isotopes, meaning every atom of it is radioactive and eventually decays.",
+      "cardFront": "Technetium",
+      "cardBack": "Tc"
     },
     {
       "id": "ru",
       "question": "What is the chemical symbol for Ruthenium?",
       "answer": "Ru",
-      "alternateAnswers": ["ru"],
-      "explanation": "Ruthenium (atomic number 44) is named after 'Ruthenia,' the Latin name for Russia. It is one of the rarest elements on Earth and is used to harden platinum and palladium alloys."
+      "alternateAnswers": [
+        "ru"
+      ],
+      "explanation": "Ruthenium (atomic number 44) is named after 'Ruthenia,' the Latin name for Russia. It is one of the rarest elements on Earth and is used to harden platinum and palladium alloys.",
+      "cardFront": "Ruthenium",
+      "cardBack": "Ru"
     },
     {
       "id": "rh",
       "question": "What is the chemical symbol for Rhodium?",
       "answer": "Rh",
-      "alternateAnswers": ["rh"],
-      "explanation": "Rhodium (atomic number 45) gets its name from Greek 'rhodon' (rose), for the rose-red color of its salts. It is the most expensive precious metal, often worth several times more than gold, and is used in catalytic converters."
+      "alternateAnswers": [
+        "rh"
+      ],
+      "explanation": "Rhodium (atomic number 45) gets its name from Greek 'rhodon' (rose), for the rose-red color of its salts. It is the most expensive precious metal, often worth several times more than gold, and is used in catalytic converters.",
+      "cardFront": "Rhodium",
+      "cardBack": "Rh"
     },
     {
       "id": "pd",
       "question": "What is the chemical symbol for Palladium?",
       "answer": "Pd",
-      "alternateAnswers": ["pd"],
-      "explanation": "Palladium (atomic number 46) is named after the asteroid Pallas, which was itself named after the Greek goddess Athena. It can absorb up to 900 times its own volume of hydrogen gas."
+      "alternateAnswers": [
+        "pd"
+      ],
+      "explanation": "Palladium (atomic number 46) is named after the asteroid Pallas, which was itself named after the Greek goddess Athena. It can absorb up to 900 times its own volume of hydrogen gas.",
+      "cardFront": "Palladium",
+      "cardBack": "Pd"
     },
     {
       "id": "ag",
       "question": "What is the chemical symbol for Silver?",
       "answer": "Ag",
-      "alternateAnswers": ["ag"],
-      "explanation": "Silver's symbol Ag comes from the Latin 'argentum' (shiny or white), which also gave Argentina its name. Silver (atomic number 47) has the highest electrical and thermal conductivity of any element."
+      "alternateAnswers": [
+        "ag"
+      ],
+      "explanation": "Silver's symbol Ag comes from the Latin 'argentum' (shiny or white), which also gave Argentina its name. Silver (atomic number 47) has the highest electrical and thermal conductivity of any element.",
+      "cardFront": "Silver",
+      "cardBack": "Ag"
     },
     {
       "id": "cd",
       "question": "What is the chemical symbol for Cadmium?",
       "answer": "Cd",
-      "alternateAnswers": ["cd"],
-      "explanation": "Cadmium (atomic number 48) is named from the Latin 'cadmia' (calamine), the zinc ore in which it was discovered. It was widely used in rechargeable NiCd batteries before environmental concerns led to restrictions."
+      "alternateAnswers": [
+        "cd"
+      ],
+      "explanation": "Cadmium (atomic number 48) is named from the Latin 'cadmia' (calamine), the zinc ore in which it was discovered. It was widely used in rechargeable NiCd batteries before environmental concerns led to restrictions.",
+      "cardFront": "Cadmium",
+      "cardBack": "Cd"
     },
     {
       "id": "in",
       "question": "What is the chemical symbol for Indium?",
       "answer": "In",
-      "alternateAnswers": ["in"],
-      "explanation": "Indium (atomic number 49) is named for the indigo-blue line in its emission spectrum. It is soft enough to be cut with a knife and makes a high-pitched 'tin cry' when bent. Indium tin oxide coats virtually every touchscreen."
+      "alternateAnswers": [
+        "in"
+      ],
+      "explanation": "Indium (atomic number 49) is named for the indigo-blue line in its emission spectrum. It is soft enough to be cut with a knife and makes a high-pitched 'tin cry' when bent. Indium tin oxide coats virtually every touchscreen.",
+      "cardFront": "Indium",
+      "cardBack": "In"
     },
     {
       "id": "sn",
       "question": "What is the chemical symbol for Tin?",
       "answer": "Sn",
-      "alternateAnswers": ["sn"],
-      "explanation": "Tin's symbol Sn comes from the Latin 'stannum.' Tin (atomic number 50) has been used since the Bronze Age, when it was alloyed with copper to make bronze. In extreme cold, tin can transform from a metal into a crumbly powder -- a phenomenon called 'tin pest.'"
+      "alternateAnswers": [
+        "sn"
+      ],
+      "explanation": "Tin's symbol Sn comes from the Latin 'stannum.' Tin (atomic number 50) has been used since the Bronze Age, when it was alloyed with copper to make bronze. In extreme cold, tin can transform from a metal into a crumbly powder -- a phenomenon called 'tin pest.'",
+      "cardFront": "Tin",
+      "cardBack": "Sn"
     },
     {
       "id": "sb",
       "question": "What is the chemical symbol for Antimony?",
       "answer": "Sb",
-      "alternateAnswers": ["sb"],
-      "explanation": "Antimony's symbol Sb comes from the Latin 'stibium,' derived from the Greek 'stibi' (a cosmetic powder). Ancient Egyptians used antimony compounds as eyeliner (kohl). Antimony is atomic number 51."
+      "alternateAnswers": [
+        "sb"
+      ],
+      "explanation": "Antimony's symbol Sb comes from the Latin 'stibium,' derived from the Greek 'stibi' (a cosmetic powder). Ancient Egyptians used antimony compounds as eyeliner (kohl). Antimony is atomic number 51.",
+      "cardFront": "Antimony",
+      "cardBack": "Sb"
     },
     {
       "id": "te",
       "question": "What is the chemical symbol for Tellurium?",
       "answer": "Te",
-      "alternateAnswers": ["te"],
-      "explanation": "Tellurium (atomic number 52) is named from Latin 'tellus' (Earth). It is one of the rarest stable elements in Earth's crust, yet it is abundant in the universe. People who ingest even tiny amounts develop garlic-smelling breath for weeks."
+      "alternateAnswers": [
+        "te"
+      ],
+      "explanation": "Tellurium (atomic number 52) is named from Latin 'tellus' (Earth). It is one of the rarest stable elements in Earth's crust, yet it is abundant in the universe. People who ingest even tiny amounts develop garlic-smelling breath for weeks.",
+      "cardFront": "Tellurium",
+      "cardBack": "Te"
     },
     {
       "id": "i",
       "question": "What is the chemical symbol for Iodine?",
       "answer": "I",
-      "alternateAnswers": ["i"],
-      "explanation": "Iodine (atomic number 53) gets its name from Greek 'iodes' (violet), for the purple vapor it produces when heated. Adding iodine to table salt has been one of the most successful public health measures, virtually eliminating goiter in many countries."
+      "alternateAnswers": [
+        "i"
+      ],
+      "explanation": "Iodine (atomic number 53) gets its name from Greek 'iodes' (violet), for the purple vapor it produces when heated. Adding iodine to table salt has been one of the most successful public health measures, virtually eliminating goiter in many countries.",
+      "cardFront": "Iodine",
+      "cardBack": "I"
     },
     {
       "id": "xe",
       "question": "What is the chemical symbol for Xenon?",
       "answer": "Xe",
-      "alternateAnswers": ["xe"],
-      "explanation": "Xenon (atomic number 54) means 'stranger' in Greek. Despite being a noble gas, it can form compounds -- xenon hexafluoroplatinate, made in 1962, shattered the belief that noble gases were completely inert."
+      "alternateAnswers": [
+        "xe"
+      ],
+      "explanation": "Xenon (atomic number 54) means 'stranger' in Greek. Despite being a noble gas, it can form compounds -- xenon hexafluoroplatinate, made in 1962, shattered the belief that noble gases were completely inert.",
+      "cardFront": "Xenon",
+      "cardBack": "Xe"
     },
     {
       "id": "cs",
       "question": "What is the chemical symbol for Caesium?",
       "answer": "Cs",
-      "alternateAnswers": ["cs"],
-      "explanation": "Caesium (atomic number 55) is named from Latin 'caesius' (sky blue) for the blue lines in its spectrum. It is the most electropositive stable element, and caesium atomic clocks are so precise they lose less than one second in 300 million years."
+      "alternateAnswers": [
+        "cs"
+      ],
+      "explanation": "Caesium (atomic number 55) is named from Latin 'caesius' (sky blue) for the blue lines in its spectrum. It is the most electropositive stable element, and caesium atomic clocks are so precise they lose less than one second in 300 million years.",
+      "cardFront": "Caesium",
+      "cardBack": "Cs"
     },
     {
       "id": "ba",
       "question": "What is the chemical symbol for Barium?",
       "answer": "Ba",
-      "alternateAnswers": ["ba"],
-      "explanation": "Barium (atomic number 56) comes from Greek 'barys' (heavy), because its ore baryte is notably dense. Barium sulfate is used in 'barium swallows' -- patients drink it so doctors can X-ray the digestive tract, because it is opaque to X-rays."
+      "alternateAnswers": [
+        "ba"
+      ],
+      "explanation": "Barium (atomic number 56) comes from Greek 'barys' (heavy), because its ore baryte is notably dense. Barium sulfate is used in 'barium swallows' -- patients drink it so doctors can X-ray the digestive tract, because it is opaque to X-rays.",
+      "cardFront": "Barium",
+      "cardBack": "Ba"
     },
     {
       "id": "la",
       "question": "What is the chemical symbol for Lanthanum?",
       "answer": "La",
-      "alternateAnswers": ["la"],
-      "explanation": "Lanthanum (atomic number 57) means 'to lie hidden' in Greek, because it was concealed inside cerium ore for 36 years before being identified. It is the first element in the lanthanide series and is used in high-end camera lenses."
+      "alternateAnswers": [
+        "la"
+      ],
+      "explanation": "Lanthanum (atomic number 57) means 'to lie hidden' in Greek, because it was concealed inside cerium ore for 36 years before being identified. It is the first element in the lanthanide series and is used in high-end camera lenses.",
+      "cardFront": "Lanthanum",
+      "cardBack": "La"
     },
     {
       "id": "ce",
       "question": "What is the chemical symbol for Cerium?",
       "answer": "Ce",
-      "alternateAnswers": ["ce"],
-      "explanation": "Cerium (atomic number 58) is named after the dwarf planet Ceres, which had been discovered just two years before the element. It is the most abundant of the rare earth elements and is used in catalytic converters and self-cleaning ovens."
+      "alternateAnswers": [
+        "ce"
+      ],
+      "explanation": "Cerium (atomic number 58) is named after the dwarf planet Ceres, which had been discovered just two years before the element. It is the most abundant of the rare earth elements and is used in catalytic converters and self-cleaning ovens.",
+      "cardFront": "Cerium",
+      "cardBack": "Ce"
     },
     {
       "id": "pr",
       "question": "What is the chemical symbol for Praseodymium?",
       "answer": "Pr",
-      "alternateAnswers": ["pr"],
-      "explanation": "Praseodymium (atomic number 59) means 'green twin' in Greek, because it was separated from its 'twin' neodymium. It is used in the glass of welder's goggles because it filters out infrared radiation."
+      "alternateAnswers": [
+        "pr"
+      ],
+      "explanation": "Praseodymium (atomic number 59) means 'green twin' in Greek, because it was separated from its 'twin' neodymium. It is used in the glass of welder's goggles because it filters out infrared radiation.",
+      "cardFront": "Praseodymium",
+      "cardBack": "Pr"
     },
     {
       "id": "nd",
       "question": "What is the chemical symbol for Neodymium?",
       "answer": "Nd",
-      "alternateAnswers": ["nd"],
-      "explanation": "Neodymium (atomic number 60) means 'new twin' in Greek. Neodymium magnets are the strongest permanent magnets available, capable of lifting thousands of times their own weight."
+      "alternateAnswers": [
+        "nd"
+      ],
+      "explanation": "Neodymium (atomic number 60) means 'new twin' in Greek. Neodymium magnets are the strongest permanent magnets available, capable of lifting thousands of times their own weight.",
+      "cardFront": "Neodymium",
+      "cardBack": "Nd"
     },
     {
       "id": "pm",
       "question": "What is the chemical symbol for Promethium?",
       "answer": "Pm",
-      "alternateAnswers": ["pm"],
-      "explanation": "Promethium (atomic number 61) is named after Prometheus, the Titan who stole fire from the gods. It is the only lanthanide with no stable isotopes and does not occur naturally in significant amounts on Earth."
+      "alternateAnswers": [
+        "pm"
+      ],
+      "explanation": "Promethium (atomic number 61) is named after Prometheus, the Titan who stole fire from the gods. It is the only lanthanide with no stable isotopes and does not occur naturally in significant amounts on Earth.",
+      "cardFront": "Promethium",
+      "cardBack": "Pm"
     },
     {
       "id": "sm",
       "question": "What is the chemical symbol for Samarium?",
       "answer": "Sm",
-      "alternateAnswers": ["sm"],
-      "explanation": "Samarium (atomic number 62) is named after the mineral samarskite, itself named after Russian mining official Vasili Samarsky-Bykhovets -- the first person to have an element named after them. Samarium-cobalt magnets work at higher temperatures than neodymium ones."
+      "alternateAnswers": [
+        "sm"
+      ],
+      "explanation": "Samarium (atomic number 62) is named after the mineral samarskite, itself named after Russian mining official Vasili Samarsky-Bykhovets -- the first person to have an element named after them. Samarium-cobalt magnets work at higher temperatures than neodymium ones.",
+      "cardFront": "Samarium",
+      "cardBack": "Sm"
     },
     {
       "id": "eu",
       "question": "What is the chemical symbol for Europium?",
       "answer": "Eu",
-      "alternateAnswers": ["eu"],
-      "explanation": "Europium (atomic number 63) is named after Europe. It is the most reactive of the rare earth elements and glows red under UV light, which is why it is used as an anti-counterfeiting measure in Euro banknotes."
+      "alternateAnswers": [
+        "eu"
+      ],
+      "explanation": "Europium (atomic number 63) is named after Europe. It is the most reactive of the rare earth elements and glows red under UV light, which is why it is used as an anti-counterfeiting measure in Euro banknotes.",
+      "cardFront": "Europium",
+      "cardBack": "Eu"
     },
     {
       "id": "gd",
       "question": "What is the chemical symbol for Gadolinium?",
       "answer": "Gd",
-      "alternateAnswers": ["gd"],
-      "explanation": "Gadolinium (atomic number 64) is named after Finnish chemist Johan Gadolin. It is strongly paramagnetic and is used as a contrast agent in MRI scans to make images clearer."
+      "alternateAnswers": [
+        "gd"
+      ],
+      "explanation": "Gadolinium (atomic number 64) is named after Finnish chemist Johan Gadolin. It is strongly paramagnetic and is used as a contrast agent in MRI scans to make images clearer.",
+      "cardFront": "Gadolinium",
+      "cardBack": "Gd"
     },
     {
       "id": "tb",
       "question": "What is the chemical symbol for Terbium?",
       "answer": "Tb",
-      "alternateAnswers": ["tb"],
-      "explanation": "Terbium (atomic number 65) is one of four elements named after the village of Ytterby, Sweden. It produces the green color in some LED and fluorescent lighting."
+      "alternateAnswers": [
+        "tb"
+      ],
+      "explanation": "Terbium (atomic number 65) is one of four elements named after the village of Ytterby, Sweden. It produces the green color in some LED and fluorescent lighting.",
+      "cardFront": "Terbium",
+      "cardBack": "Tb"
     },
     {
       "id": "dy",
       "question": "What is the chemical symbol for Dysprosium?",
       "answer": "Dy",
-      "alternateAnswers": ["dy"],
-      "explanation": "Dysprosium (atomic number 66) means 'hard to get at' in Greek, because it was extremely difficult to isolate. It is now used in wind turbines and electric vehicle motors because it keeps magnets effective at high temperatures."
+      "alternateAnswers": [
+        "dy"
+      ],
+      "explanation": "Dysprosium (atomic number 66) means 'hard to get at' in Greek, because it was extremely difficult to isolate. It is now used in wind turbines and electric vehicle motors because it keeps magnets effective at high temperatures.",
+      "cardFront": "Dysprosium",
+      "cardBack": "Dy"
     },
     {
       "id": "ho",
       "question": "What is the chemical symbol for Holmium?",
       "answer": "Ho",
-      "alternateAnswers": ["ho"],
-      "explanation": "Holmium (atomic number 67) is named after Stockholm ('Holmia' in Latin). It has the highest magnetic strength of any element and is used in medical lasers for kidney stone and cancer surgery."
+      "alternateAnswers": [
+        "ho"
+      ],
+      "explanation": "Holmium (atomic number 67) is named after Stockholm ('Holmia' in Latin). It has the highest magnetic strength of any element and is used in medical lasers for kidney stone and cancer surgery.",
+      "cardFront": "Holmium",
+      "cardBack": "Ho"
     },
     {
       "id": "er",
       "question": "What is the chemical symbol for Erbium?",
       "answer": "Er",
-      "alternateAnswers": ["er"],
-      "explanation": "Erbium (atomic number 68) is another element named after Ytterby, Sweden. It gives a pink color to glass and is used as a signal amplifier in fiber optic cables, making long-distance internet possible."
+      "alternateAnswers": [
+        "er"
+      ],
+      "explanation": "Erbium (atomic number 68) is another element named after Ytterby, Sweden. It gives a pink color to glass and is used as a signal amplifier in fiber optic cables, making long-distance internet possible.",
+      "cardFront": "Erbium",
+      "cardBack": "Er"
     },
     {
       "id": "tm",
       "question": "What is the chemical symbol for Thulium?",
       "answer": "Tm",
-      "alternateAnswers": ["tm"],
-      "explanation": "Thulium (atomic number 69) is named after Thule, the ancient Greek name for a land in the far north (likely Scandinavia). It is the second-least abundant lanthanide and is used in portable X-ray machines."
+      "alternateAnswers": [
+        "tm"
+      ],
+      "explanation": "Thulium (atomic number 69) is named after Thule, the ancient Greek name for a land in the far north (likely Scandinavia). It is the second-least abundant lanthanide and is used in portable X-ray machines.",
+      "cardFront": "Thulium",
+      "cardBack": "Tm"
     },
     {
       "id": "yb",
       "question": "What is the chemical symbol for Ytterbium?",
       "answer": "Yb",
-      "alternateAnswers": ["yb"],
-      "explanation": "Ytterbium (atomic number 70) is the fourth and final element named after Ytterby, Sweden -- the most honored village in the periodic table. Ytterbium atomic clocks are even more precise than caesium ones."
+      "alternateAnswers": [
+        "yb"
+      ],
+      "explanation": "Ytterbium (atomic number 70) is the fourth and final element named after Ytterby, Sweden -- the most honored village in the periodic table. Ytterbium atomic clocks are even more precise than caesium ones.",
+      "cardFront": "Ytterbium",
+      "cardBack": "Yb"
     },
     {
       "id": "lu",
       "question": "What is the chemical symbol for Lutetium?",
       "answer": "Lu",
-      "alternateAnswers": ["lu"],
-      "explanation": "Lutetium (atomic number 71) is named after 'Lutetia,' the Latin name for Paris. It is the last element in the lanthanide series and one of the most expensive rare earth elements."
+      "alternateAnswers": [
+        "lu"
+      ],
+      "explanation": "Lutetium (atomic number 71) is named after 'Lutetia,' the Latin name for Paris. It is the last element in the lanthanide series and one of the most expensive rare earth elements.",
+      "cardFront": "Lutetium",
+      "cardBack": "Lu"
     },
     {
       "id": "hf",
       "question": "What is the chemical symbol for Hafnium?",
       "answer": "Hf",
-      "alternateAnswers": ["hf"],
-      "explanation": "Hafnium (atomic number 72) is named after 'Hafnia,' the Latin name for Copenhagen, where it was discovered. It absorbs neutrons exceptionally well, making it essential for nuclear reactor control rods."
+      "alternateAnswers": [
+        "hf"
+      ],
+      "explanation": "Hafnium (atomic number 72) is named after 'Hafnia,' the Latin name for Copenhagen, where it was discovered. It absorbs neutrons exceptionally well, making it essential for nuclear reactor control rods.",
+      "cardFront": "Hafnium",
+      "cardBack": "Hf"
     },
     {
       "id": "ta",
       "question": "What is the chemical symbol for Tantalum?",
       "answer": "Ta",
-      "alternateAnswers": ["ta"],
-      "explanation": "Tantalum (atomic number 73) is named after King Tantalus from Greek mythology. It is highly resistant to corrosion and is used in capacitors in virtually every smartphone and laptop."
+      "alternateAnswers": [
+        "ta"
+      ],
+      "explanation": "Tantalum (atomic number 73) is named after King Tantalus from Greek mythology. It is highly resistant to corrosion and is used in capacitors in virtually every smartphone and laptop.",
+      "cardFront": "Tantalum",
+      "cardBack": "Ta"
     },
     {
       "id": "w",
       "question": "What is the chemical symbol for Tungsten?",
       "answer": "W",
-      "alternateAnswers": ["w"],
-      "explanation": "Tungsten's symbol W comes from 'Wolfram,' its German name, which means 'wolf's foam' because the ore seemed to devour tin during smelting. Tungsten (atomic number 74) has the highest melting point of any element at 6,192 degrees F."
+      "alternateAnswers": [
+        "w"
+      ],
+      "explanation": "Tungsten's symbol W comes from 'Wolfram,' its German name, which means 'wolf's foam' because the ore seemed to devour tin during smelting. Tungsten (atomic number 74) has the highest melting point of any element at 6,192 degrees F.",
+      "cardFront": "Tungsten",
+      "cardBack": "W"
     },
     {
       "id": "re",
       "question": "What is the chemical symbol for Rhenium?",
       "answer": "Re",
-      "alternateAnswers": ["re"],
-      "explanation": "Rhenium (atomic number 75) is named after the Rhine River in Germany. It was the last stable element to be discovered (1925) and has the third-highest melting point of any element, making it vital in jet engine turbine blades."
+      "alternateAnswers": [
+        "re"
+      ],
+      "explanation": "Rhenium (atomic number 75) is named after the Rhine River in Germany. It was the last stable element to be discovered (1925) and has the third-highest melting point of any element, making it vital in jet engine turbine blades.",
+      "cardFront": "Rhenium",
+      "cardBack": "Re"
     },
     {
       "id": "os",
       "question": "What is the chemical symbol for Osmium?",
       "answer": "Os",
-      "alternateAnswers": ["os"],
-      "explanation": "Osmium (atomic number 76) gets its name from Greek 'osme' (smell), because its oxide has a pungent odor. It is the densest naturally occurring element -- a cubic foot of osmium weighs about 1,400 pounds."
+      "alternateAnswers": [
+        "os"
+      ],
+      "explanation": "Osmium (atomic number 76) gets its name from Greek 'osme' (smell), because its oxide has a pungent odor. It is the densest naturally occurring element -- a cubic foot of osmium weighs about 1,400 pounds.",
+      "cardFront": "Osmium",
+      "cardBack": "Os"
     },
     {
       "id": "ir",
       "question": "What is the chemical symbol for Iridium?",
       "answer": "Ir",
-      "alternateAnswers": ["ir"],
-      "explanation": "Iridium (atomic number 77) is named after Iris, the Greek goddess of rainbows, because its salts are vividly colored. A thin layer of iridium in rock strata worldwide is key evidence for the asteroid impact that killed the dinosaurs."
+      "alternateAnswers": [
+        "ir"
+      ],
+      "explanation": "Iridium (atomic number 77) is named after Iris, the Greek goddess of rainbows, because its salts are vividly colored. A thin layer of iridium in rock strata worldwide is key evidence for the asteroid impact that killed the dinosaurs.",
+      "cardFront": "Iridium",
+      "cardBack": "Ir"
     },
     {
       "id": "pt",
       "question": "What is the chemical symbol for Platinum?",
       "answer": "Pt",
-      "alternateAnswers": ["pt"],
-      "explanation": "Platinum (atomic number 78) comes from the Spanish 'platina' (little silver). Spanish conquistadors considered it a nuisance impurity in their gold and threw it back into rivers. It is now far more valuable than gold."
+      "alternateAnswers": [
+        "pt"
+      ],
+      "explanation": "Platinum (atomic number 78) comes from the Spanish 'platina' (little silver). Spanish conquistadors considered it a nuisance impurity in their gold and threw it back into rivers. It is now far more valuable than gold.",
+      "cardFront": "Platinum",
+      "cardBack": "Pt"
     },
     {
       "id": "au",
       "question": "What is the chemical symbol for Gold?",
       "answer": "Au",
-      "alternateAnswers": ["au"],
-      "explanation": "Gold's symbol Au comes from the Latin 'aurum' (shining dawn). Gold (atomic number 79) is so malleable that a single ounce can be hammered into a sheet covering 100 square feet. All the gold ever mined would fit in about three Olympic swimming pools."
+      "alternateAnswers": [
+        "au"
+      ],
+      "explanation": "Gold's symbol Au comes from the Latin 'aurum' (shining dawn). Gold (atomic number 79) is so malleable that a single ounce can be hammered into a sheet covering 100 square feet. All the gold ever mined would fit in about three Olympic swimming pools.",
+      "cardFront": "Gold",
+      "cardBack": "Au"
     },
     {
       "id": "hg",
       "question": "What is the chemical symbol for Mercury?",
       "answer": "Hg",
-      "alternateAnswers": ["hg"],
-      "explanation": "Mercury's symbol Hg comes from the Latin 'hydrargyrum' (liquid silver). Mercury (atomic number 80) is the only metal that is liquid at room temperature. It was once used in thermometers and hat-making -- the latter causing 'mad hatter' syndrome."
+      "alternateAnswers": [
+        "hg"
+      ],
+      "explanation": "Mercury's symbol Hg comes from the Latin 'hydrargyrum' (liquid silver). Mercury (atomic number 80) is the only metal that is liquid at room temperature. It was once used in thermometers and hat-making -- the latter causing 'mad hatter' syndrome.",
+      "cardFront": "Mercury",
+      "cardBack": "Hg"
     },
     {
       "id": "tl",
       "question": "What is the chemical symbol for Thallium?",
       "answer": "Tl",
-      "alternateAnswers": ["tl"],
-      "explanation": "Thallium (atomic number 81) is named from Greek 'thallos' (green shoot), because of the bright green line in its emission spectrum. It is extremely toxic and was once used as a rat poison before being banned in many countries."
+      "alternateAnswers": [
+        "tl"
+      ],
+      "explanation": "Thallium (atomic number 81) is named from Greek 'thallos' (green shoot), because of the bright green line in its emission spectrum. It is extremely toxic and was once used as a rat poison before being banned in many countries.",
+      "cardFront": "Thallium",
+      "cardBack": "Tl"
     },
     {
       "id": "pb",
       "question": "What is the chemical symbol for Lead?",
       "answer": "Pb",
-      "alternateAnswers": ["pb"],
-      "explanation": "Lead's symbol Pb comes from the Latin 'plumbum,' which also gives us the word 'plumber' since Romans used lead pipes. Lead (atomic number 82) has been used for over 6,000 years but is now known to be toxic even in tiny amounts."
+      "alternateAnswers": [
+        "pb"
+      ],
+      "explanation": "Lead's symbol Pb comes from the Latin 'plumbum,' which also gives us the word 'plumber' since Romans used lead pipes. Lead (atomic number 82) has been used for over 6,000 years but is now known to be toxic even in tiny amounts.",
+      "cardFront": "Lead",
+      "cardBack": "Pb"
     },
     {
       "id": "bi",
       "question": "What is the chemical symbol for Bismuth?",
       "answer": "Bi",
-      "alternateAnswers": ["bi"],
-      "explanation": "Bismuth (atomic number 83) has an uncertain name origin, possibly from German 'Wismuth' (white mass). It forms stunning rainbow-colored hopper crystals and is the active ingredient in Pepto-Bismol."
+      "alternateAnswers": [
+        "bi"
+      ],
+      "explanation": "Bismuth (atomic number 83) has an uncertain name origin, possibly from German 'Wismuth' (white mass). It forms stunning rainbow-colored hopper crystals and is the active ingredient in Pepto-Bismol.",
+      "cardFront": "Bismuth",
+      "cardBack": "Bi"
     },
     {
       "id": "po",
       "question": "What is the chemical symbol for Polonium?",
       "answer": "Po",
-      "alternateAnswers": ["po"],
-      "explanation": "Polonium (atomic number 84) was named by Marie Curie after her homeland, Poland, at a time when Poland did not exist as an independent state. It is extremely radioactive -- a gram of polonium-210 generates 140 watts of heat."
+      "alternateAnswers": [
+        "po"
+      ],
+      "explanation": "Polonium (atomic number 84) was named by Marie Curie after her homeland, Poland, at a time when Poland did not exist as an independent state. It is extremely radioactive -- a gram of polonium-210 generates 140 watts of heat.",
+      "cardFront": "Polonium",
+      "cardBack": "Po"
     },
     {
       "id": "at",
       "question": "What is the chemical symbol for Astatine?",
       "answer": "At",
-      "alternateAnswers": ["at"],
-      "explanation": "Astatine (atomic number 85) comes from Greek 'astatos' (unstable). It is the rarest naturally occurring element -- at any given moment, there are estimated to be fewer than 30 grams of astatine in the entire Earth's crust."
+      "alternateAnswers": [
+        "at"
+      ],
+      "explanation": "Astatine (atomic number 85) comes from Greek 'astatos' (unstable). It is the rarest naturally occurring element -- at any given moment, there are estimated to be fewer than 30 grams of astatine in the entire Earth's crust.",
+      "cardFront": "Astatine",
+      "cardBack": "At"
     },
     {
       "id": "rn",
       "question": "What is the chemical symbol for Radon?",
       "answer": "Rn",
-      "alternateAnswers": ["rn"],
-      "explanation": "Radon (atomic number 86) gets its name from radium, of which it is a decay product. It is the leading cause of lung cancer among non-smokers because it seeps into homes from natural uranium in soil and rock."
+      "alternateAnswers": [
+        "rn"
+      ],
+      "explanation": "Radon (atomic number 86) gets its name from radium, of which it is a decay product. It is the leading cause of lung cancer among non-smokers because it seeps into homes from natural uranium in soil and rock.",
+      "cardFront": "Radon",
+      "cardBack": "Rn"
     },
     {
       "id": "fr",
       "question": "What is the chemical symbol for Francium?",
       "answer": "Fr",
-      "alternateAnswers": ["fr"],
-      "explanation": "Francium (atomic number 87) is named after France and was the last element to be discovered in nature rather than synthesized. It is the second-rarest natural element and so radioactive that any visible quantity would instantly vaporize from its own heat."
+      "alternateAnswers": [
+        "fr"
+      ],
+      "explanation": "Francium (atomic number 87) is named after France and was the last element to be discovered in nature rather than synthesized. It is the second-rarest natural element and so radioactive that any visible quantity would instantly vaporize from its own heat.",
+      "cardFront": "Francium",
+      "cardBack": "Fr"
     },
     {
       "id": "ra",
       "question": "What is the chemical symbol for Radium?",
       "answer": "Ra",
-      "alternateAnswers": ["ra"],
-      "explanation": "Radium (atomic number 88) comes from Latin 'radius' (ray). Discovered by Marie and Pierre Curie, it was once added to toothpaste, chocolate, and drinking water as a 'health tonic' before its dangers were understood."
+      "alternateAnswers": [
+        "ra"
+      ],
+      "explanation": "Radium (atomic number 88) comes from Latin 'radius' (ray). Discovered by Marie and Pierre Curie, it was once added to toothpaste, chocolate, and drinking water as a 'health tonic' before its dangers were understood.",
+      "cardFront": "Radium",
+      "cardBack": "Ra"
     },
     {
       "id": "ac",
       "question": "What is the chemical symbol for Actinium?",
       "answer": "Ac",
-      "alternateAnswers": ["ac"],
-      "explanation": "Actinium (atomic number 89) is named from Greek 'aktinos' (ray) because of its radioactivity. It glows blue in the dark due to its intense radiation exciting the surrounding air."
+      "alternateAnswers": [
+        "ac"
+      ],
+      "explanation": "Actinium (atomic number 89) is named from Greek 'aktinos' (ray) because of its radioactivity. It glows blue in the dark due to its intense radiation exciting the surrounding air.",
+      "cardFront": "Actinium",
+      "cardBack": "Ac"
     },
     {
       "id": "th",
       "question": "What is the chemical symbol for Thorium?",
       "answer": "Th",
-      "alternateAnswers": ["th"],
-      "explanation": "Thorium (atomic number 90) is named after Thor, the Norse god of thunder. It is about three times more abundant than uranium in Earth's crust and is being researched as a safer alternative nuclear fuel."
+      "alternateAnswers": [
+        "th"
+      ],
+      "explanation": "Thorium (atomic number 90) is named after Thor, the Norse god of thunder. It is about three times more abundant than uranium in Earth's crust and is being researched as a safer alternative nuclear fuel.",
+      "cardFront": "Thorium",
+      "cardBack": "Th"
     },
     {
       "id": "pa",
       "question": "What is the chemical symbol for Protactinium?",
       "answer": "Pa",
-      "alternateAnswers": ["pa"],
-      "explanation": "Protactinium (atomic number 91) means 'parent of actinium' because it decays into actinium. It is one of the rarest and most expensive naturally occurring elements, with virtually no commercial applications."
+      "alternateAnswers": [
+        "pa"
+      ],
+      "explanation": "Protactinium (atomic number 91) means 'parent of actinium' because it decays into actinium. It is one of the rarest and most expensive naturally occurring elements, with virtually no commercial applications.",
+      "cardFront": "Protactinium",
+      "cardBack": "Pa"
     },
     {
       "id": "u",
       "question": "What is the chemical symbol for Uranium?",
       "answer": "U",
-      "alternateAnswers": ["u"],
-      "explanation": "Uranium (atomic number 92) was named after the planet Uranus, discovered just eight years earlier. A single kilogram of uranium-235 can release as much energy as about 3,000 tons of coal."
+      "alternateAnswers": [
+        "u"
+      ],
+      "explanation": "Uranium (atomic number 92) was named after the planet Uranus, discovered just eight years earlier. A single kilogram of uranium-235 can release as much energy as about 3,000 tons of coal.",
+      "cardFront": "Uranium",
+      "cardBack": "U"
     },
     {
       "id": "np",
       "question": "What is the chemical symbol for Neptunium?",
       "answer": "Np",
-      "alternateAnswers": ["np"],
-      "explanation": "Neptunium (atomic number 93) is named after Neptune, continuing the planet-naming pattern (Uranus, Neptune, Pluto). It was the first transuranium element to be synthesized, created in 1940 by bombarding uranium with neutrons."
+      "alternateAnswers": [
+        "np"
+      ],
+      "explanation": "Neptunium (atomic number 93) is named after Neptune, continuing the planet-naming pattern (Uranus, Neptune, Pluto). It was the first transuranium element to be synthesized, created in 1940 by bombarding uranium with neutrons.",
+      "cardFront": "Neptunium",
+      "cardBack": "Np"
     },
     {
       "id": "pu",
       "question": "What is the chemical symbol for Plutonium?",
       "answer": "Pu",
-      "alternateAnswers": ["pu"],
-      "explanation": "Plutonium (atomic number 94) is named after Pluto, continuing the sequence after uranium and neptunium. The 'Pu' symbol was chosen as a joke by its discoverers. Plutonium-239 was used in the atomic bomb dropped on Nagasaki."
+      "alternateAnswers": [
+        "pu"
+      ],
+      "explanation": "Plutonium (atomic number 94) is named after Pluto, continuing the sequence after uranium and neptunium. The 'Pu' symbol was chosen as a joke by its discoverers. Plutonium-239 was used in the atomic bomb dropped on Nagasaki.",
+      "cardFront": "Plutonium",
+      "cardBack": "Pu"
     },
     {
       "id": "am",
       "question": "What is the chemical symbol for Americium?",
       "answer": "Am",
-      "alternateAnswers": ["am"],
-      "explanation": "Americium (atomic number 95) is named after the Americas, paralleling europium (named after Europe) directly above it on the periodic table. It is the most common synthetic element in households because it is used in smoke detectors."
+      "alternateAnswers": [
+        "am"
+      ],
+      "explanation": "Americium (atomic number 95) is named after the Americas, paralleling europium (named after Europe) directly above it on the periodic table. It is the most common synthetic element in households because it is used in smoke detectors.",
+      "cardFront": "Americium",
+      "cardBack": "Am"
     },
     {
       "id": "cm",
       "question": "What is the chemical symbol for Curium?",
       "answer": "Cm",
-      "alternateAnswers": ["cm"],
-      "explanation": "Curium (atomic number 96) is named after Marie and Pierre Curie. It is so intensely radioactive that it glows purple in the dark. It has been used as a power source on Mars rovers."
+      "alternateAnswers": [
+        "cm"
+      ],
+      "explanation": "Curium (atomic number 96) is named after Marie and Pierre Curie. It is so intensely radioactive that it glows purple in the dark. It has been used as a power source on Mars rovers.",
+      "cardFront": "Curium",
+      "cardBack": "Cm"
     },
     {
       "id": "bk",
       "question": "What is the chemical symbol for Berkelium?",
       "answer": "Bk",
-      "alternateAnswers": ["bk"],
-      "explanation": "Berkelium (atomic number 97) is named after Berkeley, California, where it was synthesized at the University of California in 1949. It took nine years from its discovery to produce enough berkelium to see with the naked eye."
+      "alternateAnswers": [
+        "bk"
+      ],
+      "explanation": "Berkelium (atomic number 97) is named after Berkeley, California, where it was synthesized at the University of California in 1949. It took nine years from its discovery to produce enough berkelium to see with the naked eye.",
+      "cardFront": "Berkelium",
+      "cardBack": "Bk"
     },
     {
       "id": "cf",
       "question": "What is the chemical symbol for Californium?",
       "answer": "Cf",
-      "alternateAnswers": ["cf"],
-      "explanation": "Californium (atomic number 98) is named after the state and university of California. One microgram of californium-252 produces 170 million neutrons per minute, making it useful for starting nuclear reactors and detecting gold and silver ores."
+      "alternateAnswers": [
+        "cf"
+      ],
+      "explanation": "Californium (atomic number 98) is named after the state and university of California. One microgram of californium-252 produces 170 million neutrons per minute, making it useful for starting nuclear reactors and detecting gold and silver ores.",
+      "cardFront": "Californium",
+      "cardBack": "Cf"
     },
     {
       "id": "es",
       "question": "What is the chemical symbol for Einsteinium?",
       "answer": "Es",
-      "alternateAnswers": ["es"],
-      "explanation": "Einsteinium (atomic number 99) is named after Albert Einstein. It was first identified in the fallout of the first hydrogen bomb test in 1952 and kept secret for several years."
+      "alternateAnswers": [
+        "es"
+      ],
+      "explanation": "Einsteinium (atomic number 99) is named after Albert Einstein. It was first identified in the fallout of the first hydrogen bomb test in 1952 and kept secret for several years.",
+      "cardFront": "Einsteinium",
+      "cardBack": "Es"
     },
     {
       "id": "fm",
       "question": "What is the chemical symbol for Fermium?",
       "answer": "Fm",
-      "alternateAnswers": ["fm"],
-      "explanation": "Fermium (atomic number 100) honors Enrico Fermi, who created the first controlled nuclear chain reaction. Like einsteinium, it was first found in hydrogen bomb fallout and its discovery was initially classified."
+      "alternateAnswers": [
+        "fm"
+      ],
+      "explanation": "Fermium (atomic number 100) honors Enrico Fermi, who created the first controlled nuclear chain reaction. Like einsteinium, it was first found in hydrogen bomb fallout and its discovery was initially classified.",
+      "cardFront": "Fermium",
+      "cardBack": "Fm"
     },
     {
       "id": "md",
       "question": "What is the chemical symbol for Mendelevium?",
       "answer": "Md",
-      "alternateAnswers": ["md"],
-      "explanation": "Mendelevium (atomic number 101) is named after Dmitri Mendeleev, who created the periodic table. It was produced just 17 atoms at a time when first synthesized in 1955."
+      "alternateAnswers": [
+        "md"
+      ],
+      "explanation": "Mendelevium (atomic number 101) is named after Dmitri Mendeleev, who created the periodic table. It was produced just 17 atoms at a time when first synthesized in 1955.",
+      "cardFront": "Mendelevium",
+      "cardBack": "Md"
     },
     {
       "id": "no",
       "question": "What is the chemical symbol for Nobelium?",
       "answer": "No",
-      "alternateAnswers": ["no"],
-      "explanation": "Nobelium (atomic number 102) is named after Alfred Nobel, inventor of dynamite and founder of the Nobel Prizes. Its discovery was disputed between Swedish, American, and Soviet teams for decades."
+      "alternateAnswers": [
+        "no"
+      ],
+      "explanation": "Nobelium (atomic number 102) is named after Alfred Nobel, inventor of dynamite and founder of the Nobel Prizes. Its discovery was disputed between Swedish, American, and Soviet teams for decades.",
+      "cardFront": "Nobelium",
+      "cardBack": "No"
     },
     {
       "id": "lr",
       "question": "What is the chemical symbol for Lawrencium?",
       "answer": "Lr",
-      "alternateAnswers": ["lr"],
-      "explanation": "Lawrencium (atomic number 103) is named after Ernest Lawrence, inventor of the cyclotron particle accelerator. It is the final element in the actinide series."
+      "alternateAnswers": [
+        "lr"
+      ],
+      "explanation": "Lawrencium (atomic number 103) is named after Ernest Lawrence, inventor of the cyclotron particle accelerator. It is the final element in the actinide series.",
+      "cardFront": "Lawrencium",
+      "cardBack": "Lr"
     },
     {
       "id": "rf",
       "question": "What is the chemical symbol for Rutherfordium?",
       "answer": "Rf",
-      "alternateAnswers": ["rf"],
-      "explanation": "Rutherfordium (atomic number 104) is named after Ernest Rutherford, the father of nuclear physics. It was at the center of a naming controversy between American and Soviet scientists during the Cold War."
+      "alternateAnswers": [
+        "rf"
+      ],
+      "explanation": "Rutherfordium (atomic number 104) is named after Ernest Rutherford, the father of nuclear physics. It was at the center of a naming controversy between American and Soviet scientists during the Cold War.",
+      "cardFront": "Rutherfordium",
+      "cardBack": "Rf"
     },
     {
       "id": "db",
       "question": "What is the chemical symbol for Dubnium?",
       "answer": "Db",
-      "alternateAnswers": ["db"],
-      "explanation": "Dubnium (atomic number 105) is named after Dubna, Russia, home of the Joint Institute for Nuclear Research. Its naming was part of the 'Transfermium Wars' between American and Soviet scientists."
+      "alternateAnswers": [
+        "db"
+      ],
+      "explanation": "Dubnium (atomic number 105) is named after Dubna, Russia, home of the Joint Institute for Nuclear Research. Its naming was part of the 'Transfermium Wars' between American and Soviet scientists.",
+      "cardFront": "Dubnium",
+      "cardBack": "Db"
     },
     {
       "id": "sg",
       "question": "What is the chemical symbol for Seaborgium?",
       "answer": "Sg",
-      "alternateAnswers": ["sg"],
-      "explanation": "Seaborgium (atomic number 106) honors Glenn Seaborg, who co-discovered ten transuranium elements. He was the only person to have an element named after him while still alive, which initially broke a longstanding tradition."
+      "alternateAnswers": [
+        "sg"
+      ],
+      "explanation": "Seaborgium (atomic number 106) honors Glenn Seaborg, who co-discovered ten transuranium elements. He was the only person to have an element named after him while still alive, which initially broke a longstanding tradition.",
+      "cardFront": "Seaborgium",
+      "cardBack": "Sg"
     },
     {
       "id": "bh",
       "question": "What is the chemical symbol for Bohrium?",
       "answer": "Bh",
-      "alternateAnswers": ["bh"],
-      "explanation": "Bohrium (atomic number 107) is named after Niels Bohr, the Danish physicist who revolutionized our understanding of atomic structure. Only a few atoms of bohrium have ever been produced at a time."
+      "alternateAnswers": [
+        "bh"
+      ],
+      "explanation": "Bohrium (atomic number 107) is named after Niels Bohr, the Danish physicist who revolutionized our understanding of atomic structure. Only a few atoms of bohrium have ever been produced at a time.",
+      "cardFront": "Bohrium",
+      "cardBack": "Bh"
     },
     {
       "id": "hs",
       "question": "What is the chemical symbol for Hassium?",
       "answer": "Hs",
-      "alternateAnswers": ["hs"],
-      "explanation": "Hassium (atomic number 108) is named after Hesse, the German state where it was synthesized at the GSI Helmholtz Centre. Experiments suggest it behaves chemically like osmium, its lighter cousin in the periodic table."
+      "alternateAnswers": [
+        "hs"
+      ],
+      "explanation": "Hassium (atomic number 108) is named after Hesse, the German state where it was synthesized at the GSI Helmholtz Centre. Experiments suggest it behaves chemically like osmium, its lighter cousin in the periodic table.",
+      "cardFront": "Hassium",
+      "cardBack": "Hs"
     },
     {
       "id": "mt",
       "question": "What is the chemical symbol for Meitnerium?",
       "answer": "Mt",
-      "alternateAnswers": ["mt"],
-      "explanation": "Meitnerium (atomic number 109) honors Lise Meitner, the Austrian-Swedish physicist who helped discover nuclear fission but was overlooked for the Nobel Prize. She is one of only two women with an element named after her, alongside Marie Curie."
+      "alternateAnswers": [
+        "mt"
+      ],
+      "explanation": "Meitnerium (atomic number 109) honors Lise Meitner, the Austrian-Swedish physicist who helped discover nuclear fission but was overlooked for the Nobel Prize. She is one of only two women with an element named after her, alongside Marie Curie.",
+      "cardFront": "Meitnerium",
+      "cardBack": "Mt"
     },
     {
       "id": "ds",
       "question": "What is the chemical symbol for Darmstadtium?",
       "answer": "Ds",
-      "alternateAnswers": ["ds"],
-      "explanation": "Darmstadtium (atomic number 110) is named after Darmstadt, Germany, where it was first created in 1994. Its most stable isotope has a half-life of only about 14 seconds."
+      "alternateAnswers": [
+        "ds"
+      ],
+      "explanation": "Darmstadtium (atomic number 110) is named after Darmstadt, Germany, where it was first created in 1994. Its most stable isotope has a half-life of only about 14 seconds.",
+      "cardFront": "Darmstadtium",
+      "cardBack": "Ds"
     },
     {
       "id": "rg",
       "question": "What is the chemical symbol for Roentgenium?",
       "answer": "Rg",
-      "alternateAnswers": ["rg"],
-      "explanation": "Roentgenium (atomic number 111) honors Wilhelm Roentgen, who discovered X-rays in 1895 and won the first Nobel Prize in Physics. Only a few atoms of roentgenium have ever been detected."
+      "alternateAnswers": [
+        "rg"
+      ],
+      "explanation": "Roentgenium (atomic number 111) honors Wilhelm Roentgen, who discovered X-rays in 1895 and won the first Nobel Prize in Physics. Only a few atoms of roentgenium have ever been detected.",
+      "cardFront": "Roentgenium",
+      "cardBack": "Rg"
     },
     {
       "id": "cn",
       "question": "What is the chemical symbol for Copernicium?",
       "answer": "Cn",
-      "alternateAnswers": ["cn"],
-      "explanation": "Copernicium (atomic number 112) honors Nicolaus Copernicus, who proposed the heliocentric model of the solar system. It is predicted to be a gas at room temperature despite being a very heavy element."
+      "alternateAnswers": [
+        "cn"
+      ],
+      "explanation": "Copernicium (atomic number 112) honors Nicolaus Copernicus, who proposed the heliocentric model of the solar system. It is predicted to be a gas at room temperature despite being a very heavy element.",
+      "cardFront": "Copernicium",
+      "cardBack": "Cn"
     },
     {
       "id": "nh",
       "question": "What is the chemical symbol for Nihonium?",
       "answer": "Nh",
-      "alternateAnswers": ["nh"],
-      "explanation": "Nihonium (atomic number 113) is named after 'Nihon,' the Japanese word for Japan. It was the first element to be discovered in an Asian country, at the RIKEN institute in 2003."
+      "alternateAnswers": [
+        "nh"
+      ],
+      "explanation": "Nihonium (atomic number 113) is named after 'Nihon,' the Japanese word for Japan. It was the first element to be discovered in an Asian country, at the RIKEN institute in 2003.",
+      "cardFront": "Nihonium",
+      "cardBack": "Nh"
     },
     {
       "id": "fl",
       "question": "What is the chemical symbol for Flerovium?",
       "answer": "Fl",
-      "alternateAnswers": ["fl"],
-      "explanation": "Flerovium (atomic number 114) honors Georgy Flyorov, the Soviet nuclear physicist who founded the lab in Dubna where it was synthesized. It is predicted to be one of the more stable superheavy elements."
+      "alternateAnswers": [
+        "fl"
+      ],
+      "explanation": "Flerovium (atomic number 114) honors Georgy Flyorov, the Soviet nuclear physicist who founded the lab in Dubna where it was synthesized. It is predicted to be one of the more stable superheavy elements.",
+      "cardFront": "Flerovium",
+      "cardBack": "Fl"
     },
     {
       "id": "mc",
       "question": "What is the chemical symbol for Moscovium?",
       "answer": "Mc",
-      "alternateAnswers": ["mc"],
-      "explanation": "Moscovium (atomic number 115) is named after the Moscow Oblast, where the Joint Institute for Nuclear Research is located. It was first synthesized in 2003 through a collaboration between Russian and American scientists."
+      "alternateAnswers": [
+        "mc"
+      ],
+      "explanation": "Moscovium (atomic number 115) is named after the Moscow Oblast, where the Joint Institute for Nuclear Research is located. It was first synthesized in 2003 through a collaboration between Russian and American scientists.",
+      "cardFront": "Moscovium",
+      "cardBack": "Mc"
     },
     {
       "id": "lv",
       "question": "What is the chemical symbol for Livermorium?",
       "answer": "Lv",
-      "alternateAnswers": ["lv"],
-      "explanation": "Livermorium (atomic number 116) is named after Lawrence Livermore National Laboratory in California, honoring the US-Russia collaboration that produced it. Only about 30 atoms have ever been observed."
+      "alternateAnswers": [
+        "lv"
+      ],
+      "explanation": "Livermorium (atomic number 116) is named after Lawrence Livermore National Laboratory in California, honoring the US-Russia collaboration that produced it. Only about 30 atoms have ever been observed.",
+      "cardFront": "Livermorium",
+      "cardBack": "Lv"
     },
     {
       "id": "ts",
       "question": "What is the chemical symbol for Tennessine?",
       "answer": "Ts",
-      "alternateAnswers": ["ts"],
-      "explanation": "Tennessine (atomic number 117) is named after Tennessee, home to Oak Ridge National Laboratory, which contributed to its synthesis. It is the most recently named element on the periodic table (2016) and is predicted to be a metalloid."
+      "alternateAnswers": [
+        "ts"
+      ],
+      "explanation": "Tennessine (atomic number 117) is named after Tennessee, home to Oak Ridge National Laboratory, which contributed to its synthesis. It is the most recently named element on the periodic table (2016) and is predicted to be a metalloid.",
+      "cardFront": "Tennessine",
+      "cardBack": "Ts"
     },
     {
       "id": "og",
       "question": "What is the chemical symbol for Oganesson?",
       "answer": "Og",
-      "alternateAnswers": ["og"],
-      "explanation": "Oganesson (atomic number 118) honors Yuri Oganessian, the Russian physicist who led the discovery of many superheavy elements. Despite being in the noble gas column, it is predicted to be a solid at room temperature due to relativistic effects on its electrons."
+      "alternateAnswers": [
+        "og"
+      ],
+      "explanation": "Oganesson (atomic number 118) honors Yuri Oganessian, the Russian physicist who led the discovery of many superheavy elements. Despite being in the noble gas column, it is predicted to be a solid at room temperature due to relativistic effects on its electrons.",
+      "cardFront": "Oganesson",
+      "cardBack": "Og"
     }
   ]
 }

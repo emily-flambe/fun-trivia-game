@@ -30,6 +30,8 @@ export interface Question {
 	answer: string;
 	alternateAnswers: string[];
 	explanation: string;
+	cardFront?: string;
+	cardBack?: string;
 	sortOrder: number;
 
 	// Format-specific supplementary data (optional)

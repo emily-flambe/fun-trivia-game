@@ -54,8 +54,11 @@ function generateSQL(modules) {
 			const matchPairs = q.matchPairs ? `'${escapeSQL(JSON.stringify(q.matchPairs))}'` : 'NULL';
 			const explanation = escapeSQL(q.explanation);
 
+			const cardFront = q.cardFront ? `'${escapeSQL(q.cardFront)}'` : 'NULL';
+			const cardBack = q.cardBack ? `'${escapeSQL(q.cardBack)}'` : 'NULL';
+
 			statements.push(
-				`INSERT OR REPLACE INTO questions (id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, sort_order) VALUES ('${escapeSQL(id)}', '${escapeSQL(mod.id)}', '${question}', ${answer}, '${escapeSQL(alternateAnswers)}', ${options}, ${correctIndex}, ${matchPairs}, '${explanation}', ${i});`
+				`INSERT OR REPLACE INTO questions (id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, card_front, card_back, sort_order) VALUES ('${escapeSQL(id)}', '${escapeSQL(mod.id)}', '${question}', ${answer}, '${escapeSQL(alternateAnswers)}', ${options}, ${correctIndex}, ${matchPairs}, '${explanation}', ${cardFront}, ${cardBack}, ${i});`
 			);
 		}
 	}
