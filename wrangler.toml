@@ -1,0 +1,7 @@
+name = "fun-trivia-game"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+routes = [
+  { pattern = "trivia.emilycogsdill.com", custom_domain = true }
+]
