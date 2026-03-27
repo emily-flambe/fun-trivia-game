@@ -28,7 +28,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	const [input, setInput] = useState('');
 	const [currentResult, setCurrentResult] = useState<CheckResult | null>(null);
 	const [checking, setChecking] = useState(false);
-	const [flipped, setFlipped] = useState(false);
+	const [flippedCards, setFlippedCards] = useState<Set<string>>(new Set());
 	const inputRef = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
@@ -51,28 +51,24 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		return <div className="text-center text-text-tertiary py-16">Loading...</div>;
 	}
 
-	// ─── LEARN MODE: Flashcards ───
+	// ─── LEARN MODE: Grid of flippable cards ───
 	if (mode === 'learn') {
-		const card = state.questions[state.current];
-		if (!card) return null;
+		const allFlipped = flippedCards.size === state.questions.length;
 
-		function handleLearnNext() {
-			setFlipped(false);
-			const next = state.current + 1;
-			if (next >= state.questions.length) {
-				setState((s) => ({ ...s, current: 0 })); // loop back
-			} else {
-				setState((s) => ({ ...s, current: next }));
-			}
+		function toggleCard(id: string) {
+			setFlippedCards((prev) => {
+				const next = new Set(prev);
+				if (next.has(id)) next.delete(id);
+				else next.add(id);
+				return next;
+			});
 		}
 
-		function handleLearnPrev() {
-			setFlipped(false);
-			const prev = state.current - 1;
-			if (prev < 0) {
-				setState((s) => ({ ...s, current: state.questions.length - 1 }));
+		function flipAll() {
+			if (allFlipped) {
+				setFlippedCards(new Set());
 			} else {
-				setState((s) => ({ ...s, current: prev }));
+				setFlippedCards(new Set(state.questions.map((q) => q.id)));
 			}
 		}
 
@@ -81,39 +77,42 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 				<div className="flex items-center gap-3 mb-6">
 					<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
 					<h2 className="text-lg font-semibold flex-1 tracking-tight">{mod.name}</h2>
-					<span className="text-sm text-text-tertiary">{state.current + 1} / {state.questions.length}</span>
-				</div>
-
-				<div
-					onClick={() => setFlipped(!flipped)}
-					className="bg-surface-raised rounded-2xl p-8 min-h-[200px] flex flex-col items-center justify-center cursor-pointer select-none hover:bg-surface-hover transition-colors"
-				>
-					{!flipped ? (
-						<div className="text-center">
-							<div className="text-lg">{card.question}</div>
-							<div className="text-sm text-text-tertiary mt-4">tap to flip</div>
-						</div>
-					) : (
-						<div className="text-center">
-							<div className="text-2xl font-bold text-accent mb-3">{card.answer}</div>
-							<div className="text-sm text-text-secondary max-w-lg">{card.explanation}</div>
-						</div>
-					)}
-				</div>
-
-				<div className="flex justify-between items-center mt-4">
-					<button onClick={handleLearnPrev} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-4 py-2 rounded-xl font-medium transition-all duration-200">
-						&larr; Prev
+					<button
+						onClick={flipAll}
+						className="text-sm text-text-tertiary hover:text-accent transition-colors"
+					>
+						{allFlipped ? 'Hide All' : 'Reveal All'}
 					</button>
 					<a
 						href={`#/quiz/${moduleId}?mode=quiz`}
-						className="text-sm text-text-tertiary hover:text-accent transition-colors"
+						className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
 					>
 						Quiz Me
 					</a>
-					<button onClick={handleLearnNext} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-4 py-2 rounded-xl font-medium transition-all duration-200">
-						Next &rarr;
-					</button>
+				</div>
+
+				<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+					{state.questions.map((q, i) => {
+						const isFlipped = flippedCards.has(q.id);
+						return (
+							<button
+								key={q.id}
+								onClick={() => toggleCard(q.id)}
+								className={`rounded-xl p-3 text-left text-sm min-h-[70px] transition-all duration-200 cursor-pointer ${
+									isFlipped
+										? 'bg-surface-raised'
+										: 'bg-surface-bright hover:bg-surface-hover'
+								}`}
+							>
+								<div className="text-text-tertiary text-xs font-mono mb-1">{i + 1}</div>
+								{isFlipped ? (
+									<div className="font-medium text-accent">{q.answer}</div>
+								) : (
+									<div className="text-text-tertiary">tap to reveal</div>
+								)}
+							</button>
+						);
+					})}
 				</div>
 			</div>
 		);
