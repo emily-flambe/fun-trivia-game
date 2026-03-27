@@ -1,0 +1,241 @@
+{
+  "id": "sci-math-fundamentals",
+  "category": "science",
+  "name": "Math Fundamentals",
+  "tier": "core",
+  "description": "Key constants, famous theorems, and notable mathematicians -- the math facts that come up in trivia",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "pi-value",
+      "question": "What is the value of pi to 5 decimal places?",
+      "answer": "3.14159",
+      "alternateAnswers": [],
+      "explanation": "Pi is the ratio of a circle's circumference to its diameter and is one of the most recognized constants in all of mathematics. It was known to ancient civilizations -- the Babylonians approximated it as 3.125 and the Egyptians as 3.1605. Archimedes was the first to rigorously estimate pi using polygons, arriving at a value between 3.1408 and 3.1429. Pi is irrational, meaning its decimal expansion never terminates or repeats. As of 2024, pi has been computed to over 100 trillion digits, though only about 40 digits are needed to calculate the circumference of the observable universe to the accuracy of a single hydrogen atom."
+    },
+    {
+      "id": "eulers-number",
+      "question": "What is Euler's number (e) to 4 decimal places?",
+      "answer": "2.7183",
+      "alternateAnswers": [],
+      "explanation": "Euler's number was actually first discovered by Jacob Bernoulli in 1683 while studying compound interest -- he found that compounding interest more and more frequently approaches a limit near 2.718. Leonhard Euler later adopted the letter 'e' around 1727, and the notation stuck. The constant appears everywhere in mathematics: it is the base of natural logarithms, the foundation of exponential growth and decay models, and central to probability theory. The function e^x is remarkable because it is its own derivative, making it indispensable in calculus and differential equations."
+    },
+    {
+      "id": "golden-ratio",
+      "question": "What is the golden ratio approximately equal to?",
+      "answer": "1.618",
+      "alternateAnswers": ["phi", "1.61803"],
+      "explanation": "The golden ratio, denoted by the Greek letter phi, equals (1 + sqrt(5)) / 2, or approximately 1.61803. It has fascinated mathematicians since antiquity -- Euclid described it as the 'extreme and mean ratio' around 300 BC. The golden ratio appears in the proportions of regular pentagons, in the spiral arrangements of sunflower seeds and pinecones, and in the limit of successive Fibonacci number ratios. Renaissance artists like Leonardo da Vinci studied it for its aesthetic properties. The symbol phi was adopted around 1910 by mathematician Mark Barr, named after the Greek sculptor Phidias."
+    },
+    {
+      "id": "only-even-prime",
+      "question": "What is the only even prime number?",
+      "answer": "2",
+      "alternateAnswers": ["two"],
+      "explanation": "The number 2 is the smallest and only even prime number, making it uniquely odd among primes -- a fact mathematicians sometimes joke about. Every even number greater than 2 is divisible by 2, which automatically disqualifies it from being prime. This makes 2 the foundation of one of the oldest unsolved problems in mathematics: Goldbach's conjecture (1742), which states that every even integer greater than 2 can be expressed as the sum of two primes. Despite being verified for numbers up to at least 4 x 10^18, no one has managed to prove it in general."
+    },
+    {
+      "id": "fibonacci-first-six",
+      "question": "What are the first 6 Fibonacci numbers?",
+      "answer": "1, 1, 2, 3, 5, 8",
+      "alternateAnswers": ["0, 1, 1, 2, 3, 5"],
+      "explanation": "The Fibonacci sequence, where each number is the sum of the two preceding ones, was introduced to Western mathematics by Leonardo of Pisa (Fibonacci) in his 1202 book Liber Abaci. He used it to model rabbit population growth. The sequence appears throughout nature: the number of petals on flowers, the spiral arrangement of shells, and the branching of trees often follow Fibonacci numbers. The modern convention starts with 0, 1, 1, 2, 3, 5, though the classical version begins at 1, 1. As the sequence progresses, the ratio of consecutive terms converges to the golden ratio."
+    },
+    {
+      "id": "pythagorean-theorem",
+      "question": "What theorem states that a squared plus b squared equals c squared for right triangles?",
+      "answer": "Pythagorean theorem",
+      "alternateAnswers": ["Pythagoras theorem", "Pythagorean Theorem", "the Pythagorean theorem"],
+      "explanation": "Though named after the Greek mathematician Pythagoras (c. 570-495 BC), this relationship was known to Babylonian mathematicians over a thousand years earlier -- a clay tablet called Plimpton 322 lists Pythagorean triples from around 1800 BC. The theorem states that in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides. It has over 370 known proofs, including one by President James Garfield and a recent novel proof by two high school students using trigonometry. It is foundational to distance calculations in GPS, architecture, and computer graphics."
+    },
+    {
+      "id": "prime-number-definition",
+      "question": "What is the term for a number greater than 1 that is divisible only by 1 and itself?",
+      "answer": "Prime number",
+      "alternateAnswers": ["prime", "a prime number", "a prime"],
+      "explanation": "Prime numbers are the building blocks of all integers -- the Fundamental Theorem of Arithmetic states that every integer greater than 1 can be uniquely expressed as a product of primes. Euclid proved around 300 BC that there are infinitely many primes. The largest known prime, as of recent records, has tens of millions of digits and was found by the Great Internet Mersenne Prime Search (GIMPS). Prime numbers are essential to modern cryptography: RSA encryption relies on the fact that multiplying two large primes is easy, but factoring the product back into those primes is computationally infeasible."
+    },
+    {
+      "id": "fermats-last-theorem",
+      "question": "What was the last of Fermat's theorems to be proved, finally solved by Andrew Wiles in 1995?",
+      "answer": "Fermat's Last Theorem",
+      "alternateAnswers": ["Fermats Last Theorem", "Fermat's last theorem"],
+      "explanation": "Pierre de Fermat scribbled in the margin of his copy of Arithmetica around 1637 that the equation a^n + b^n = c^n has no integer solutions for n greater than 2, adding the famous note that the margin was too small to contain his proof. The theorem resisted all attempts at proof for 358 years. Andrew Wiles worked on it in secret for six years, presenting his proof in 1993, only to discover a critical gap. After a tense year of revisions with Richard Taylor, the corrected proof was published in 1995 in the Annals of Mathematics. Wiles received a special silver plaque from the International Mathematical Union in 1998 since he was over the age limit for the Fields Medal."
+    },
+    {
+      "id": "father-of-geometry",
+      "question": "Who is considered the father of geometry?",
+      "answer": "Euclid",
+      "alternateAnswers": ["Euclid of Alexandria"],
+      "explanation": "Euclid of Alexandria (c. 300 BC) wrote the Elements, one of the most influential textbooks ever produced. It organized all known geometry of the time into a logical system built from five postulates. For over 2,000 years it was the primary geometry textbook, second only to the Bible in number of editions printed. Euclid's fifth postulate -- the parallel postulate -- became the subject of intense study and eventually led to the discovery of non-Euclidean geometries by Lobachevsky, Bolyai, and Riemann in the 19th century, which in turn became essential to Einstein's general theory of relativity."
+    },
+    {
+      "id": "leibniz-calculus",
+      "question": "What mathematician developed calculus independently of Isaac Newton?",
+      "answer": "Gottfried Wilhelm Leibniz",
+      "alternateAnswers": ["Leibniz", "Gottfried Leibniz"],
+      "explanation": "Leibniz published his calculus in 1684, while Newton had developed his version in the 1660s but did not publish until later. This led to one of the bitterest priority disputes in the history of science. Despite the controversy, modern mathematics uses Leibniz's notation almost exclusively -- his dy/dx for derivatives and the elongated S for integrals proved far more practical than Newton's dot notation. Leibniz was also a philosopher, diplomat, and polymath who independently invented binary arithmetic, anticipated aspects of modern logic, and dreamed of a universal calculating machine."
+    },
+    {
+      "id": "cantor-infinity",
+      "question": "Who proved that there are different sizes of infinity?",
+      "answer": "Georg Cantor",
+      "alternateAnswers": ["Cantor"],
+      "explanation": "Georg Cantor's work in the 1870s and 1880s revolutionized mathematics by demonstrating that not all infinities are equal. His famous diagonal argument (1891) showed that the real numbers are 'more numerous' than the natural numbers -- they are uncountably infinite. He developed a system of cardinal numbers using the Hebrew letter aleph to classify different infinite sizes. The work was so controversial that prominent mathematicians like Leopold Kronecker opposed him fiercely, and Cantor suffered repeated bouts of depression. Today, set theory -- which Cantor essentially created -- is considered the foundation of modern mathematics."
+    },
+    {
+      "id": "ramanujan",
+      "question": "What Indian mathematician sent letters to G.H. Hardy that revolutionized number theory?",
+      "answer": "Srinivasa Ramanujan",
+      "alternateAnswers": ["Ramanujan"],
+      "explanation": "In January 1913, Ramanujan, a self-taught clerk in Madras, sent a letter to Cambridge mathematician G.H. Hardy containing dozens of extraordinary formulas -- many without proofs. Hardy initially thought it might be a fraud, but upon closer inspection recognized genius: some results were known, some were new, and some were so novel Hardy could 'scarcely imagine' them. Ramanujan traveled to Cambridge in 1914 and produced groundbreaking work on partition functions, infinite series, and modular forms before his early death in 1920 at age 32. His lost notebook, discovered in 1976, continued to yield new mathematical insights decades after his passing."
+    },
+    {
+      "id": "ada-lovelace",
+      "question": "Who developed the first computer algorithm and is considered the first computer programmer?",
+      "answer": "Ada Lovelace",
+      "alternateAnswers": ["Augusta Ada King", "Ada Byron"],
+      "explanation": "Ada Lovelace (1815-1852) wrote what is widely recognized as the first published computer program -- an algorithm for Charles Babbage's Analytical Engine to compute Bernoulli numbers, published in 1843 as 'Note G.' What set Lovelace apart was not just the algorithm but her vision: she recognized that the machine could manipulate symbols beyond mere numbers, theorizing it could compose music or process any logical relationship. This insight -- that computation is fundamentally about symbol manipulation, not just arithmetic -- anticipated modern computer science by over a century. The U.S. Department of Defense named the programming language Ada in her honor in 1980."
+    },
+    {
+      "id": "imaginary-unit",
+      "question": "What letter represents the square root of negative one?",
+      "answer": "i",
+      "alternateAnswers": ["j"],
+      "explanation": "The imaginary unit i, defined as the square root of -1, was initially dismissed as an absurd impossibility -- hence the name 'imaginary,' coined derisively by Rene Descartes in 1637. Leonhard Euler introduced the notation 'i' in 1777. Despite the dismissive name, imaginary and complex numbers turned out to be essential in physics and engineering. They simplify the mathematics of electrical circuits, quantum mechanics, and signal processing. Electrical engineers use 'j' instead of 'i' to avoid confusion with current. Euler's identity, e^(i*pi) + 1 = 0, which links five fundamental constants, has been called the most beautiful equation in mathematics."
+    },
+    {
+      "id": "eulers-identity",
+      "question": "What famous equation links e, i, pi, 1, and 0 and is often called the most beautiful equation in mathematics?",
+      "answer": "Euler's identity",
+      "alternateAnswers": ["e^(i*pi) + 1 = 0", "Euler's Identity", "Eulers identity"],
+      "explanation": "Euler's identity, e^(i*pi) + 1 = 0, connects five of the most important numbers in mathematics in a single elegant equation: e (the base of natural logarithms), i (the imaginary unit), pi (the ratio of circumference to diameter), 1 (the multiplicative identity), and 0 (the additive identity). It is a special case of Euler's formula e^(ix) = cos(x) + i*sin(x), evaluated at x = pi. Physicist Richard Feynman called it 'the most remarkable formula in mathematics.' The identity emerges from deep connections between exponential functions and trigonometry, revealing that these seemingly unrelated areas of mathematics are fundamentally linked through complex numbers."
+    },
+    {
+      "id": "infinity-symbol",
+      "question": "What is the name of the figure-eight symbol used to represent infinity?",
+      "answer": "Lemniscate",
+      "alternateAnswers": ["lemniscate of Bernoulli", "lemniscate"],
+      "explanation": "The infinity symbol, resembling a sideways figure eight, was introduced by English mathematician John Wallis in 1655 in his work De Sectionibus Conicis. The shape itself is called a lemniscate, from the Latin 'lemniscatus' meaning 'decorated with ribbons.' Wallis never explained why he chose this particular shape -- some historians speculate it derives from the Roman numeral for 1000 (CIO, sometimes written as a similar loop), while others suggest connections to the ouroboros, the ancient symbol of a snake eating its own tail. The symbol has since become universal in mathematics, appearing in calculus limits, set theory, and projective geometry."
+    },
+    {
+      "id": "hypatia",
+      "question": "Who was the first notable female mathematician, a scholar in ancient Alexandria murdered by a mob in 415 AD?",
+      "answer": "Hypatia",
+      "alternateAnswers": ["Hypatia of Alexandria"],
+      "explanation": "Hypatia of Alexandria (c. 350-415 AD) was a Neoplatonist philosopher and mathematician who lectured on the works of Diophantus and Apollonius. She is believed to have edited the surviving text of Ptolemy's Almagest and wrote commentaries on advanced mathematical works. As a prominent pagan intellectual during a time of rising Christian political power, she became a target of religious tensions in Alexandria and was murdered by a Christian mob. Her death is sometimes considered a symbolic end to the classical intellectual tradition in the ancient world. She has become an icon for women in mathematics and science."
+    },
+    {
+      "id": "gauss-prince",
+      "question": "Which mathematician, known as the 'Prince of Mathematicians,' made foundational contributions to number theory, statistics, and physics?",
+      "answer": "Carl Friedrich Gauss",
+      "alternateAnswers": ["Gauss", "Carl Gauss"],
+      "explanation": "Gauss (1777-1855) was a child prodigy who reportedly summed the integers from 1 to 100 in seconds as a schoolboy by recognizing that the sum equals 50 pairs of 101. His 1801 Disquisitiones Arithmeticae laid the groundwork for modern number theory. He proved the Fundamental Theorem of Algebra, developed the method of least squares in statistics, and made major contributions to electromagnetism -- the unit of magnetic flux density is named the gauss. He also proved that regular polygons with a Fermat prime number of sides could be constructed with compass and straightedge. Despite his enormous output, he reportedly withheld many discoveries, publishing only work he considered fully polished."
+    },
+    {
+      "id": "zero-origin",
+      "question": "What ancient civilization is credited with inventing the concept of zero as a number?",
+      "answer": "India",
+      "alternateAnswers": ["Indian", "Ancient India", "Indians"],
+      "explanation": "While several civilizations used placeholder symbols, Indian mathematicians were the first to treat zero as a number in its own right. Brahmagupta, in his 628 AD work Brahmasphutasiddhanta, provided the first known rules for arithmetic involving zero -- addition, subtraction, and the (incorrect but pioneering) attempt at defining division by zero. The concept traveled from India to the Islamic world through scholars like al-Khwarizmi and eventually reached Europe via Fibonacci's Liber Abaci in 1202. The word 'zero' itself comes from the Arabic 'sifr,' which came from the Sanskrit 'shunya' meaning void or empty. The invention of zero was essential for positional number systems and, ultimately, all of modern mathematics and computing."
+    },
+    {
+      "id": "pi-symbol-letter",
+      "question": "What Greek letter is used to represent the ratio of a circle's circumference to its diameter?",
+      "answer": "Pi",
+      "alternateAnswers": ["pi"],
+      "explanation": "The Greek letter pi was first used for this purpose by Welsh mathematician William Jones in 1706, and it was popularized by Leonhard Euler beginning in 1736. Jones chose pi as the first letter of the Greek word 'perimetros' (periphery). Before this notation was adopted, mathematicians used cumbersome phrases like 'the quantity which, when the diameter is multiplied by it, yields the circumference.' Pi is irrational (proved by Johann Lambert in 1761) and transcendental (proved by Ferdinand von Lindemann in 1882), which means it cannot be the solution to any polynomial equation with rational coefficients -- and that squaring the circle with compass and straightedge is impossible."
+    },
+    {
+      "id": "right-angle-degrees",
+      "question": "How many degrees are in a right angle?",
+      "answer": "90",
+      "alternateAnswers": ["ninety", "90 degrees"],
+      "explanation": "A right angle measures exactly 90 degrees, which is one-quarter of a full 360-degree rotation. The choice of 360 degrees in a full circle comes from the ancient Babylonians, who used a base-60 (sexagesimal) number system -- 360 was a convenient number because it is divisible by many small integers (2, 3, 4, 5, 6, 8, 9, 10, 12, and more). The right angle is fundamental to geometry and construction: it defines perpendicularity, underpins the Pythagorean theorem, and is essential in architecture, navigation, and coordinate systems. In radians, a right angle equals pi/2."
+    },
+    {
+      "id": "triangle-angle-sum",
+      "question": "What do the interior angles of a triangle always add up to, in degrees?",
+      "answer": "180",
+      "alternateAnswers": ["180 degrees", "one hundred eighty"],
+      "explanation": "In Euclidean geometry, the interior angles of any triangle always sum to exactly 180 degrees. This result was known to the ancient Greeks and follows from the parallel postulate. One elegant proof involves drawing a line parallel to one side of the triangle through the opposite vertex, creating alternate interior angles. Importantly, this property holds only in flat (Euclidean) space. On a sphere, triangle angles sum to more than 180 degrees -- a triangle connecting the North Pole to two points on the equator can have three right angles, totaling 270 degrees. This distinction became crucial in general relativity, where massive objects curve spacetime."
+    },
+    {
+      "id": "base-ten-name",
+      "question": "What is the mathematical term for the base-10 number system used in everyday arithmetic?",
+      "answer": "Decimal",
+      "alternateAnswers": ["decimal system", "the decimal system", "denary"],
+      "explanation": "The decimal system uses ten digits (0-9) and positional notation where each place represents a power of 10. Its dominance is almost certainly because humans have ten fingers -- the word 'digit' itself comes from the Latin 'digitus' meaning finger. Other bases have important uses: binary (base 2) underlies all digital computing, octal (base 8) and hexadecimal (base 16) are common in programming, and the ancient Babylonians used base 60, which is why we have 60 seconds in a minute. The Hindu-Arabic decimal system, which includes zero and positional notation, reached Europe through al-Khwarizmi's 9th-century texts and gradually replaced Roman numerals."
+    },
+    {
+      "id": "al-khwarizmi",
+      "question": "What Persian mathematician's name gave us the word 'algorithm'?",
+      "answer": "Al-Khwarizmi",
+      "alternateAnswers": ["Muhammad ibn Musa al-Khwarizmi", "al-Khwarizmi", "Khwarizmi"],
+      "explanation": "Muhammad ibn Musa al-Khwarizmi (c. 780-850) was a scholar at the House of Wisdom in Baghdad whose work transformed mathematics. His book on arithmetic, translated into Latin, introduced Hindu-Arabic numerals to Europe -- the Latinized form of his name, 'Algoritmi,' became the word 'algorithm.' His most famous work, Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala, gave us the word 'algebra' (from 'al-jabr,' meaning 'completion' or 'restoration'). He systematized methods for solving linear and quadratic equations, presenting them as general procedures rather than specific numerical problems -- essentially inventing the concept of an algorithm as we know it."
+    },
+    {
+      "id": "googol",
+      "question": "What is the name for the number 1 followed by 100 zeros?",
+      "answer": "Googol",
+      "alternateAnswers": ["a googol", "googol"],
+      "explanation": "The googol (10^100) was named in 1920 by nine-year-old Milton Sirotta, nephew of mathematician Edward Kasner. Kasner asked the boy to invent a name for an unimaginably large number, and the result stuck. A googol exceeds the estimated number of elementary particles in the observable universe (roughly 10^80). Kasner also described the googolplex -- 10 to the power of a googol -- a number so large it cannot be written out in standard notation even if every particle in the universe were a digit. Google's founders Larry Page and Sergey Brin named their company after this number (with an altered spelling) to reflect their mission of organizing vast amounts of information."
+    },
+    {
+      "id": "emmy-noether",
+      "question": "What female mathematician's theorem fundamentally links symmetry in physics to conservation laws?",
+      "answer": "Emmy Noether",
+      "alternateAnswers": ["Noether", "Amalie Emmy Noether"],
+      "explanation": "Emmy Noether (1882-1935) proved in 1915 that every differentiable symmetry of a physical system corresponds to a conservation law -- for example, symmetry under time translation corresponds to conservation of energy, and spatial translation symmetry corresponds to conservation of momentum. Einstein called her 'the most significant creative mathematical genius thus far produced since the higher education of women began.' Despite her brilliance, she faced severe discrimination: she was denied a faculty position at Gottingen for years because she was a woman, with colleagues having to list courses under their own names. She also made foundational contributions to abstract algebra, particularly ring theory."
+    },
+    {
+      "id": "pythagorean-triple-smallest",
+      "question": "What is the smallest Pythagorean triple (three whole numbers that satisfy a squared plus b squared equals c squared)?",
+      "answer": "3, 4, 5",
+      "alternateAnswers": ["3 4 5"],
+      "explanation": "The triple (3, 4, 5) is the smallest set of positive integers satisfying the Pythagorean theorem: 9 + 16 = 25. Ancient Egyptian surveyors reportedly used a rope with 12 evenly spaced knots to form a 3-4-5 triangle, guaranteeing a right angle for construction projects -- earning them the nickname 'rope stretchers.' Other common triples include (5, 12, 13), (8, 15, 17), and (7, 24, 25). There are infinitely many Pythagorean triples, and Euclid provided a formula for generating them. Any multiple of a Pythagorean triple is also a Pythagorean triple -- for instance, doubling (3, 4, 5) gives (6, 8, 10)."
+    },
+    {
+      "id": "euler",
+      "question": "Which Swiss mathematician, one of the most prolific in history, introduced much of modern mathematical notation including f(x), sigma, and i?",
+      "answer": "Leonhard Euler",
+      "alternateAnswers": ["Euler"],
+      "explanation": "Leonhard Euler (1707-1783) published more than 800 papers and books, a record that stood for decades. He introduced or popularized much of the notation still used today: f(x) for functions, e for the base of natural logarithms, i for the imaginary unit, sigma for summation, and the use of Greek letters for constants. Remarkably, he continued producing mathematics prolifically after going completely blind in 1771, dictating his work to assistants. His contributions span virtually every branch of mathematics that existed in his time, from number theory and calculus to graph theory (his solution to the Konigsberg bridge problem in 1736 is considered the origin of both graph theory and topology)."
+    },
+    {
+      "id": "infinity-hotel",
+      "question": "What thought experiment uses a hotel with infinitely many rooms to illustrate the counterintuitive properties of infinite sets?",
+      "answer": "Hilbert's Hotel",
+      "alternateAnswers": ["Hilbert's Grand Hotel", "Hilbert's paradox", "Hilberts Hotel", "the Hilbert Hotel"],
+      "explanation": "Hilbert's Hotel, proposed by German mathematician David Hilbert in a 1924 lecture, imagines a hotel with infinitely many rooms, all occupied. If a new guest arrives, every current guest can move to the next room (room 1 to room 2, room 2 to room 3, and so on), freeing room 1. Even if infinitely many new guests arrive, they can be accommodated by moving each current guest to the room with double their number, freeing all odd-numbered rooms. This paradox vividly demonstrates that infinite sets behave very differently from finite ones and helps explain Cantor's work on cardinality -- a concept that initially baffled even professional mathematicians."
+    },
+    {
+      "id": "turing",
+      "question": "What British mathematician's theoretical 'machine' became the foundation for the theory of computation?",
+      "answer": "Alan Turing",
+      "alternateAnswers": ["Turing"],
+      "explanation": "Alan Turing (1912-1954) introduced the concept of the Turing machine in his 1936 paper 'On Computable Numbers,' which formalized what it means for a function to be computable. The Turing machine is not a physical device but a mathematical model: an infinite tape, a read/write head, and a set of rules. Turing proved that some problems are fundamentally undecidable -- no algorithm can solve them. During World War II, he played a pivotal role at Bletchley Park in breaking the German Enigma code, work estimated to have shortened the war by two years. He was persecuted for his homosexuality and died in 1954. The Turing Award, the highest honor in computer science, bears his name."
+    },
+    {
+      "id": "quadratic-formula",
+      "question": "What formula gives the solutions to any equation of the form ax squared plus bx plus c equals zero?",
+      "answer": "Quadratic formula",
+      "alternateAnswers": ["the quadratic formula", "quadratic equation"],
+      "explanation": "The quadratic formula, x = (-b +/- sqrt(b^2 - 4ac)) / 2a, provides the roots of any quadratic equation. Methods for solving quadratics date back to Babylonian mathematics around 2000 BC, though they used geometric rather than algebraic approaches. Indian mathematician Brahmagupta gave an explicit formula in 628 AD. The expression under the square root, b^2 - 4ac, is called the discriminant: when positive it yields two real solutions, when zero one repeated solution, and when negative two complex solutions. The formula is one of the first encounters students have with a general algebraic solution, and it historically motivated the search for similar formulas for cubic and quartic equations."
+    },
+    {
+      "id": "mobius-strip",
+      "question": "What mathematical surface has only one side and one edge, formed by giving a strip of paper a half-twist and joining the ends?",
+      "answer": "Mobius strip",
+      "alternateAnswers": ["Mobius band", "Moebius strip", "Moebius band"],
+      "explanation": "The Mobius strip was independently discovered in 1858 by August Ferdinand Mobius and Johann Benedict Listing. It is the simplest example of a non-orientable surface -- if you trace a line down the center, you will cover both 'sides' and return to your starting point without ever lifting your pen. Cutting a Mobius strip down the middle produces not two separate strips but one longer strip with two twists. The concept has practical applications: conveyor belts are sometimes designed as Mobius strips so both surfaces wear evenly, doubling their lifespan. In mathematics, it is a fundamental object in topology, the study of properties preserved under continuous deformations."
+    },
+    {
+      "id": "pascals-triangle",
+      "question": "What triangular arrangement of numbers, where each entry is the sum of the two entries above it, is used in combinatorics and probability?",
+      "answer": "Pascal's triangle",
+      "alternateAnswers": ["Pascals triangle", "Pascal's Triangle"],
+      "explanation": "Though named after French mathematician Blaise Pascal, who published his treatment in 1653, this triangular number pattern was known centuries earlier in China (Jia Xian, c. 1050), Persia (Omar Khayyam, c. 1100), and India (Pingala, c. 200 BC). Each row gives the binomial coefficients -- the numbers you get when expanding expressions like (a + b)^n. The triangle encodes an astonishing number of patterns: natural numbers, triangular numbers, Fibonacci numbers (along diagonals), powers of 2 (row sums), and Catalan numbers. It is essential in probability theory, where the entries give the number of ways to choose k items from n, written as 'n choose k.'"
+    }
+  ]
+}

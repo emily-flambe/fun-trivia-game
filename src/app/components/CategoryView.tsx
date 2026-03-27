@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getModules, type QuizModule } from '../lib/api';
 
 const TIER_ORDER = ['foundation', 'core', 'advanced'] as const;

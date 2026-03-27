@@ -1,0 +1,248 @@
+{
+  "id": "hist-world-religions",
+  "category": "history",
+  "name": "World Religions",
+  "tier": "core",
+  "description": "Major world religions -- founders, holy books, key beliefs, denominations, and trivia facts",
+  "defaultFormat": "text-entry",
+  "questions": [
+    {
+      "id": "religion-oldest-major",
+      "question": "What is the oldest major world religion still practiced today?",
+      "answer": "Hinduism",
+      "alternateAnswers": [],
+      "explanation": "Hinduism has no single founder and developed gradually over thousands of years, with roots stretching back to the Indus Valley civilization around 2300 BC. The Vedas, its oldest sacred texts, were composed between roughly 1500 and 1200 BC. With over 1.2 billion adherents, it is the world's third-largest religion, concentrated primarily in India and Nepal. Hindus follow the concept of dharma (cosmic order) and believe in a cycle of birth, death, and rebirth called samsara. Major branches include Vaishnavism, Shaivism, and Shaktism. Key holidays include Diwali, Holi, and Navratri. Unlike most major religions, Hinduism is not traced to a single founder or single sacred text -- it is sometimes called Sanatana Dharma, meaning 'the eternal way.' India's constitution recognizes Buddhists, Jains, and Sikhs under the broader Hindu legal category, though each is a distinct faith."
+    },
+    {
+      "id": "religion-hindu-holy-text",
+      "question": "What are the oldest sacred texts of Hinduism?",
+      "answer": "The Vedas",
+      "alternateAnswers": ["Vedas"],
+      "explanation": "The Vedas are a collection of hymns, philosophical texts, and ritual instructions composed in Vedic Sanskrit between roughly 1500 and 1200 BC. There are four Vedas: the Rigveda, Samaveda, Yajurveda, and Atharvaveda. The Rigveda is the oldest and contains 1,028 hymns dedicated to various deities. Other important Hindu scriptures include the Upanishads (philosophical commentaries), the Bhagavad Gita (a dialogue between Prince Arjuna and the god Krishna), and the epics Mahabharata and Ramayana. The Vedas were transmitted orally for centuries before being written down, making them among the oldest religious literature in existence. Hinduism's rich textual tradition means there is no single 'Bible equivalent' -- different branches and traditions emphasize different texts, giving the religion remarkable intellectual diversity."
+    },
+    {
+      "id": "religion-hindu-trinity",
+      "question": "In Hinduism, what are the three gods of the Trimurti?",
+      "answer": "Brahma, Vishnu, and Shiva",
+      "alternateAnswers": ["Brahma Vishnu Shiva", "Vishnu Brahma Shiva", "Shiva Vishnu Brahma"],
+      "explanation": "The Trimurti represents the three fundamental aspects of the supreme in Hinduism: Brahma the Creator, Vishnu the Preserver, and Shiva the Destroyer. Despite being the creator god, Brahma is rarely worshipped directly today -- there are only a handful of temples dedicated to him in all of India, the most famous being the Brahma Temple at Pushkar in Rajasthan. Vishnu is believed to have taken ten major incarnations (avatars) including Rama and Krishna. Shiva is associated with both destruction and regeneration, and is often depicted in meditation or performing the cosmic dance called Tandava. Hinduism encompasses an enormous range of beliefs, from strict monotheism to devotional polytheism. The religion has about 1.2 billion followers worldwide, making it the largest religion without a single founding figure."
+    },
+    {
+      "id": "religion-judaism-holy-book",
+      "question": "What is the most important sacred text of Judaism?",
+      "answer": "The Torah",
+      "alternateAnswers": ["Torah"],
+      "explanation": "The Torah comprises the first five books of the Hebrew Bible: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. Jewish tradition holds that God revealed the Torah to Moses on Mount Sinai. Judaism originated around 2000 BC with the patriarch Abraham and is considered one of the earliest monotheistic religions, with roughly 15 million adherents today, concentrated in Israel and the United States. The broader Hebrew Bible is called the Tanakh, and the Talmud contains rabbinic commentary and interpretation of Jewish law. Major branches include Orthodox, Conservative, and Reform Judaism. Important holidays include Rosh Hashanah (New Year), Yom Kippur (Day of Atonement), Passover, and Hanukkah. Despite its relatively small number of followers compared to Christianity and Islam, Judaism has had an outsized influence on Western civilization, as both Christianity and Islam trace their roots to the Abrahamic tradition."
+    },
+    {
+      "id": "religion-talmud",
+      "question": "What religion uses the Talmud as a central text of religious law and commentary?",
+      "answer": "Judaism",
+      "alternateAnswers": [],
+      "explanation": "The Talmud is a vast collection of rabbinic discussions on Jewish law, ethics, customs, and history. It exists in two versions: the Babylonian Talmud (Talmud Bavli), compiled around 500 AD, and the Jerusalem Talmud (Talmud Yerushalmi), compiled around 400 AD. The Babylonian Talmud is the more authoritative and widely studied of the two. It consists of the Mishnah (the core legal text, codified around 200 AD by Rabbi Judah the Prince) and the Gemara (centuries of rabbinic analysis and debate about the Mishnah). The Talmud runs to over 6,200 pages in standard editions and covers everything from criminal law to dietary rules to philosophy. A traditional page of Talmud features the core text in the center surrounded by layers of commentary from different centuries, making it a living document of scholarly debate spanning over a thousand years."
+    },
+    {
+      "id": "religion-christianity-largest",
+      "question": "What is the largest religion in the world by number of followers?",
+      "answer": "Christianity",
+      "alternateAnswers": [],
+      "explanation": "Christianity has over 2.3 billion followers, comprising about 28.8 percent of the world population and forming a majority in 120 countries and territories. It is an Abrahamic monotheistic faith centered on the life and teachings of Jesus of Nazareth, who Christians believe is the Son of God and the prophesied messiah. The religion emerged in first-century Judea within the Roman Empire. Its sacred text is the Bible, divided into the Old Testament and New Testament. The three major branches are Roman Catholicism (the largest, with about 1.3 billion members), Protestantism, and Eastern Orthodoxy. Key holidays include Christmas (celebrating Jesus's birth) and Easter (celebrating his resurrection). Christianity spread rapidly through the Roman Empire, became the official state religion under Emperor Theodosius I in 380 AD, and went on to shape European civilization profoundly."
+    },
+    {
+      "id": "religion-christian-holy-book",
+      "question": "What is the holy book of Christianity?",
+      "answer": "The Bible",
+      "alternateAnswers": ["Bible"],
+      "explanation": "The Bible is divided into two main sections: the Old Testament (shared in large part with the Hebrew Bible) and the New Testament, which chronicles the life of Jesus and the early Christian church. The New Testament contains 27 books, including four Gospels (Matthew, Mark, Luke, and John), the Acts of the Apostles, epistles (letters) by Paul and other apostles, and the Book of Revelation. The Bible has been translated into over 700 languages in full and portions exist in over 3,500 languages, making it the most translated book in history. It is also the best-selling book of all time, with an estimated 5 billion copies sold. The King James Version, published in 1611, remains one of the most influential English-language texts ever produced and had a major impact on English literature and the English language itself."
+    },
+    {
+      "id": "religion-christian-denominations",
+      "question": "What are the three major branches of Christianity?",
+      "answer": "Catholicism, Protestantism, and Eastern Orthodoxy",
+      "alternateAnswers": ["Catholic, Protestant, and Orthodox", "Roman Catholic, Protestant, and Eastern Orthodox", "Catholicism Protestantism Eastern Orthodoxy"],
+      "explanation": "Christianity split into its major branches through two great schisms. The East-West Schism of 1054 divided the church into Roman Catholicism in the West and Eastern Orthodoxy in the East, driven by theological disputes, cultural differences, and political rivalry between Rome and Constantinople. The Protestant Reformation began in 1517 when Martin Luther nailed his 95 Theses to a church door in Wittenberg, Germany, protesting practices like the sale of indulgences. Protestantism then fragmented into thousands of denominations including Lutherans, Baptists, Methodists, Presbyterians, Anglicans, and Pentecostals. Roman Catholicism remains the largest single denomination with about 1.3 billion members led by the Pope. Eastern Orthodoxy has roughly 220 million adherents organized into autocephalous (self-governing) national churches. Protestantism collectively accounts for about 900 million followers worldwide."
+    },
+    {
+      "id": "religion-islam-holy-book",
+      "question": "What is the holy book of Islam?",
+      "answer": "Quran",
+      "alternateAnswers": ["The Quran", "Koran", "The Koran", "Qur'an"],
+      "explanation": "The Quran is believed by Muslims to be the literal word of God (Allah) as revealed to the Prophet Muhammad through the angel Gabriel over approximately 23 years, beginning in 610 AD. It contains 114 chapters (surahs) and is written in classical Arabic. Muslims consider it the final and unaltered revelation from God, following earlier scriptures given to Abraham, Moses, and Jesus. Islam has approximately 2 billion adherents worldwide, making it the second-largest religion after Christianity. It is the fastest-growing major religion by percentage. The Quran is traditionally memorized in its entirety by devout Muslims -- a person who achieves this is called a hafiz. The text has never been altered from its original Arabic, which Muslims regard as a miracle. Alongside the Quran, Muslims also follow the Hadith, collections of the Prophet Muhammad's sayings and actions."
+    },
+    {
+      "id": "religion-five-pillars",
+      "question": "What are the Five Pillars of Islam?",
+      "answer": "Shahada, Salah, Zakat, Sawm, and Hajj",
+      "alternateAnswers": ["Shahada Salah Zakat Sawm Hajj", "Declaration of faith, prayer, charity, fasting, and pilgrimage"],
+      "explanation": "The Five Pillars are the fundamental practices every Muslim is expected to follow. Shahada is the declaration of faith ('There is no god but God, and Muhammad is his messenger'). Salah is ritual prayer performed five times daily facing Mecca. Zakat is obligatory charitable giving, typically 2.5 percent of one's savings. Sawm is fasting during the holy month of Ramadan, from dawn to sunset. Hajj is the pilgrimage to Mecca that every able-bodied Muslim who can afford it must undertake at least once in their lifetime. The Hajj draws roughly 2 to 3 million pilgrims each year, making it one of the largest annual gatherings of people on Earth. These five obligations provide structure to Muslim life and are accepted by both Sunni and Shia Islam, though Shia Islam adds additional practices."
+    },
+    {
+      "id": "religion-islam-branches",
+      "question": "What are the two main branches of Islam?",
+      "answer": "Sunni and Shia",
+      "alternateAnswers": ["Sunni and Shiite", "Sunnism and Shiism"],
+      "explanation": "The split between Sunni and Shia Islam originated in a dispute over who should succeed the Prophet Muhammad after his death in 632 AD. Sunnis supported Abu Bakr, Muhammad's close companion and father-in-law, while Shia Muslims believed leadership should have passed to Ali ibn Abi Talib, Muhammad's cousin and son-in-law. Today Sunni Islam accounts for roughly 85 to 90 percent of all Muslims worldwide, while Shia Islam makes up about 10 to 15 percent. Shia Muslims are the majority in Iran, Iraq, Bahrain, and Azerbaijan. The two branches share the same core beliefs and the Five Pillars but differ on matters of religious authority, certain rituals, and legal interpretation. The Sunni-Shia divide has had enormous geopolitical consequences, influencing conflicts from medieval caliphate wars to modern tensions in the Middle East."
+    },
+    {
+      "id": "religion-islam-prophet",
+      "question": "Who is considered the final prophet in Islam?",
+      "answer": "Muhammad",
+      "alternateAnswers": ["Prophet Muhammad", "Mohammed", "Mohammad"],
+      "explanation": "Muhammad was born around 570 AD in Mecca (in modern-day Saudi Arabia) and received his first revelation from God through the angel Gabriel at age 40 while meditating in a cave on Mount Hira. Muslims regard him as the Seal of the Prophets -- the last in a long line of prophets that includes Abraham, Moses, and Jesus, all of whom Islam recognizes as messengers of God. Muhammad unified the Arabian Peninsula under Islam before his death in 632 AD. He is not worshipped as divine (Islam strictly prohibits this) but is revered as the perfect example of how to live according to God's will. The Hadith literature, recording his sayings and actions, forms a major source of Islamic law alongside the Quran. Medina, where Muhammad established the first Muslim community, and Mecca, his birthplace, are Islam's two holiest cities."
+    },
+    {
+      "id": "religion-buddhism-founder",
+      "question": "Who founded Buddhism?",
+      "answer": "Siddhartha Gautama",
+      "alternateAnswers": ["Buddha", "Gautama Buddha", "The Buddha", "Shakyamuni"],
+      "explanation": "Siddhartha Gautama was born a prince in Lumbini (in modern-day Nepal) around the 5th or 6th century BC. According to tradition, he lived in luxury until age 29, when he encountered old age, sickness, death, and an ascetic monk -- the 'Four Sights' that prompted him to renounce his princely life and seek the cause of human suffering. After years of ascetic practice and meditation, he attained enlightenment while sitting under a Bodhi tree in Bodh Gaya, India, becoming the Buddha ('the awakened one'). Buddhism has approximately 520 million followers worldwide (about 7 percent of the global population), concentrated in East and Southeast Asia. The religion's three major branches are Theravada (dominant in Sri Lanka, Myanmar, and Thailand), Mahayana (prevalent in China, Japan, and Korea), and Vajrayana (associated with Tibet and Mongolia). Buddhism spread across Asia without a single war fought in its name."
+    },
+    {
+      "id": "religion-buddhism-four-truths",
+      "question": "What are the Four Noble Truths in Buddhism?",
+      "answer": "Suffering, the cause of suffering, the end of suffering, and the path to end suffering",
+      "alternateAnswers": ["Dukkha, Samudaya, Nirodha, Magga"],
+      "explanation": "The Four Noble Truths are the foundation of Buddhist teaching, delivered in the Buddha's first sermon at Deer Park in Sarnath, India. The First Truth (Dukkha) states that life involves suffering and dissatisfaction. The Second Truth (Samudaya) identifies craving and attachment as the origin of suffering. The Third Truth (Nirodha) teaches that suffering can be ended by eliminating craving. The Fourth Truth (Magga) prescribes the Noble Eightfold Path as the way to achieve this -- right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration. Buddhism does not require belief in a creator god, which distinguishes it from most other major religions. The Dalai Lama, spiritual leader of Tibetan Buddhism, has described the Four Noble Truths as analogous to a medical diagnosis: identifying the illness, its cause, the prognosis, and the treatment."
+    },
+    {
+      "id": "religion-buddhism-enlightenment",
+      "question": "What is the term for the ultimate goal of liberation from the cycle of rebirth in Buddhism?",
+      "answer": "Nirvana",
+      "alternateAnswers": ["Nibbana"],
+      "explanation": "Nirvana literally means 'blowing out' or 'extinguishing,' referring to the extinction of craving, aversion, and ignorance that bind a person to the cycle of rebirth (samsara). It is not a place like heaven but rather a state of perfect peace and liberation from suffering. The Buddha is said to have attained nirvana under the Bodhi tree and then 'parinirvana' (final nirvana) at his death. Theravada Buddhism emphasizes individual attainment of nirvana through monastic discipline, while Mahayana Buddhism introduced the bodhisattva ideal -- beings who postpone their own final nirvana to help all sentient beings achieve liberation. Buddhism's influence extends far beyond religion into psychology, philosophy, and modern mindfulness practices. Meditation techniques derived from Buddhist practice are now widely used in secular contexts for stress reduction and mental health treatment."
+    },
+    {
+      "id": "religion-sikhism-founder",
+      "question": "What religion was founded by Guru Nanak?",
+      "answer": "Sikhism",
+      "alternateAnswers": [],
+      "explanation": "Guru Nanak (1469-1539) was born in Talwandi (now Nankana Sahib, Pakistan) in the Punjab region and founded Sikhism around the end of the 15th century. He taught that there is one God, that all humans are equal regardless of caste or creed, and that the path to God requires honest living, sharing with others, and meditating on God's name. Sikhism has 25 to 30 million adherents, making it the fifth-largest organized religion in the world. After Guru Nanak, nine more human gurus followed in succession, the last being Guru Gobind Singh (1666-1708), who declared the Sikh scripture as the eternal guru. The Golden Temple (Harmandir Sahib) in Amritsar, India, is Sikhism's holiest site and runs the world's largest free community kitchen (langar), serving up to 100,000 meals daily to people of all backgrounds. Sikhs are recognizable by the turban (dastar), which covers uncut hair -- one of the five articles of faith."
+    },
+    {
+      "id": "religion-sikh-holy-book",
+      "question": "What is the holy scripture of Sikhism?",
+      "answer": "Guru Granth Sahib",
+      "alternateAnswers": ["The Guru Granth Sahib", "Adi Granth"],
+      "explanation": "The Guru Granth Sahib is unique among world scriptures because it is treated as a living guru rather than simply a book. It was first compiled by Guru Arjan, the fifth Sikh guru, in 1604 and was given its final form by Guru Gobind Singh, the tenth and last human guru, in 1708. It contains 1,430 pages of hymns and writings by six Sikh gurus as well as Hindu and Muslim saints, making it one of the few major scriptures to include contributions from multiple religious traditions. The Guru Granth Sahib is written primarily in Gurmukhi script. In Sikh gurdwaras (temples), it is placed on a throne, fanned ceremonially, and put to rest each evening. Sikhs do not worship the physical book but regard it as the embodiment of divine wisdom. The scripture's inclusive nature -- drawing from both Hindu and Muslim traditions -- reflects Guru Nanak's teaching that God transcends religious boundaries."
+    },
+    {
+      "id": "religion-taoism-text",
+      "question": "What is the foundational text of Taoism?",
+      "answer": "Tao Te Ching",
+      "alternateAnswers": ["The Tao Te Ching", "Daodejing", "Dao De Jing"],
+      "explanation": "The Tao Te Ching is attributed to the sage Laozi (Lao Tzu), who according to tradition lived in the 6th century BC in China. The text consists of 81 short chapters exploring the nature of the Tao (the Way) -- an ineffable, all-encompassing force underlying reality. It is one of the most translated books in history, second only to the Bible. Taoism emerged as both a philosophy and a religion indigenous to China, emphasizing harmony with nature, simplicity, and wu wei (effortless action or non-interference). The tradition encompasses diverse practices including meditation, feng shui, tai chi, and internal alchemy. The three treasures of Taoism are compassion, frugality, and humility. Taoism deeply influenced Chinese art, literature, medicine, and martial arts. The iconic yin-yang symbol, representing the balance of opposing forces, is closely associated with Taoist philosophy. Alongside Confucianism and Buddhism, Taoism is considered one of the 'Three Teachings' that have shaped Chinese civilization."
+    },
+    {
+      "id": "religion-confucianism-founder",
+      "question": "Who founded Confucianism?",
+      "answer": "Confucius",
+      "alternateAnswers": ["Kong Qiu", "Kongzi", "Kong Fuzi"],
+      "explanation": "Confucius (551-479 BC) was a Chinese philosopher and teacher who lived during the turbulent Spring and Autumn period. He emphasized virtue, proper social relationships, filial piety, and good governance. Confucianism is variously described as a philosophy, religion, ethical system, and way of life -- scholars still debate which category fits best. Its central text is the Analerta (Lunyu), a collection of Confucius's sayings compiled by his disciples. Other key texts include the Five Classics and Four Books. Confucianism shaped Chinese government through the imperial examination system, which selected officials based on knowledge of Confucian texts for over 1,300 years (from 605 to 1905 AD). Its influence extends throughout East Asia, particularly Korea, Japan, and Vietnam. Confucius taught during the Hundred Schools of Thought era, competing with Taoism, Legalism, and Mohism. His emphasis on education, social harmony, and familial responsibility remains deeply embedded in East Asian cultures today."
+    },
+    {
+      "id": "religion-confucianism-text",
+      "question": "What is the primary text recording the sayings and ideas of Confucius?",
+      "answer": "The Analects",
+      "alternateAnswers": ["Analects", "Lunyu"],
+      "explanation": "The Analects (Lunyu) is a collection of sayings, dialogues, and brief narratives attributed to Confucius, compiled by his students after his death. It consists of 20 books covering topics from personal ethics to statecraft. The text emphasizes ren (benevolence or humaneness), li (ritual propriety), and the ideal of the junzi (the exemplary person or gentleman). Unlike many religious texts, the Analects focuses almost entirely on practical ethics and social conduct rather than theology or metaphysics. Confucius himself said, 'Respect the spirits but keep them at a distance,' reflecting his pragmatic focus on this-worldly affairs. The Analects became one of the Four Books that formed the core curriculum for China's civil service examinations. Confucianism influenced an estimated 6 million people who identify specifically as Confucian, though its cultural impact on the 1.5 billion people of East Asia is incalculably larger."
+    },
+    {
+      "id": "religion-shinto-country",
+      "question": "Shinto is the indigenous religion of which country?",
+      "answer": "Japan",
+      "alternateAnswers": [],
+      "explanation": "Shinto, meaning 'the way of the gods,' is a polytheistic and animistic religion native to Japan. It centers on the worship of kami -- supernatural beings or spirits believed to inhabit all things, including natural features like mountains, rivers, trees, and rocks. Shinto has no single founder, no central scripture, and no centralized authority. Its origins predate recorded history, making it one of the oldest active religions in the world. The most important Shinto shrine is the Grand Shrine of Ise, dedicated to the sun goddess Amaterasu, who is considered the mythical ancestor of the Japanese imperial family. There are roughly 80,000 Shinto shrines across Japan. Many Japanese practice both Shinto and Buddhism simultaneously -- a tradition of religious syncretism uncommon in Western religions. Shinto rituals mark major life events: babies are brought to shrines shortly after birth, weddings often follow Shinto rites, and New Year shrine visits (hatsumode) draw millions."
+    },
+    {
+      "id": "religion-shinto-spirits",
+      "question": "In Shinto, what is the term for the spirits or gods believed to inhabit all things?",
+      "answer": "Kami",
+      "alternateAnswers": [],
+      "explanation": "Kami is a central concept in Shinto, referring to the sacred spirits or divine forces present throughout nature and the universe. Kami can inhabit mountains, rivers, wind, thunder, animals, and even exceptional human beings. The number of kami is often said to be eight million (yaoyorozu no kami), a poetic expression meaning 'innumerably many' rather than a literal count. The most prominent kami is Amaterasu, the sun goddess, from whom the Japanese imperial line traditionally claims descent. Shinto shrines (jinja) are built to house and honor specific kami, and worshippers purify themselves with water before approaching. The torii gate, usually painted vermilion red, marks the entrance to sacred Shinto space. Shinto's animistic worldview has deeply influenced Japanese attitudes toward nature and the environment. The concept of kami also influenced Japanese aesthetics -- the idea that beauty and divinity exist in natural, impermanent things is reflected throughout Japanese art and literature."
+    },
+    {
+      "id": "religion-zoroastrianism-founder",
+      "question": "Who founded Zoroastrianism?",
+      "answer": "Zoroaster",
+      "alternateAnswers": ["Zarathustra", "Zarathushtra", "Zarathushtra Spitama"],
+      "explanation": "Zoroaster (also known as Zarathushtra Spitama) founded Zoroastrianism in ancient Persia, though scholars debate whether he lived around 1500 BC or 600 BC. He taught the worship of Ahura Mazda, an uncreated and benevolent supreme deity, in opposition to Angra Mainyu, a destructive spirit of evil. This dualistic framework of good versus evil may have influenced Judaism, Christianity, and Islam. Zoroastrianism was the state religion of three successive Persian empires for over a thousand years and at its peak was one of the most powerful religions in the world. Its sacred text is the Avesta, and its most recognizable symbol is the Faravahar, a winged figure. Today only about 100,000 to 200,000 Zoroastrians remain, mainly in India (where they are called Parsis) and Iran. Zoroastrians maintain sacred fires in their temples, symbolizing truth and righteousness. The religion introduced concepts like heaven, hell, final judgment, and a messiah figure that later appeared in Abrahamic religions."
+    },
+    {
+      "id": "religion-zoroastrian-text",
+      "question": "What is the primary sacred text of Zoroastrianism?",
+      "answer": "The Avesta",
+      "alternateAnswers": ["Avesta", "Zend-Avesta"],
+      "explanation": "The Avesta is the sacred scripture of Zoroastrianism, containing hymns, liturgies, and laws. Its oldest section, the Gathas, is attributed directly to Zoroaster himself and is written in Old Avestan, a language closely related to Vedic Sanskrit. Much of the original Avesta was lost after Alexander the Great's conquest of Persia in 330 BC, and again during the Arab conquest in the 7th century AD. Only about a quarter of the original text is believed to survive. The Avesta was transmitted orally for centuries before being written down during the Sassanid Empire (224-651 AD). Zoroastrianism profoundly influenced the development of Western religious thought. The religion's concepts of a cosmic battle between good and evil, angels and demons, a final judgment, and bodily resurrection all predate similar ideas in Judaism and Christianity by centuries. The word 'paradise' itself comes from the Old Persian word pairidaeza, reflecting Zoroastrian influence on Western culture."
+    },
+    {
+      "id": "religion-bahai-founder",
+      "question": "Who founded the Baha'i Faith?",
+      "answer": "Baha'u'llah",
+      "alternateAnswers": ["Bahaullah"],
+      "explanation": "Baha'u'llah (1817-1892), born Mirza Husayn-Ali Nuri in Tehran, Iran, founded the Baha'i Faith in the mid-19th century. He declared himself the latest in a line of divine messengers that includes Abraham, Moses, Jesus, Muhammad, and the Buddha. The Baha'i Faith teaches the essential unity of all religions and the oneness of humanity. It has 7 to 8 million followers spread across virtually every country on Earth, making it one of the most geographically widespread religions. The religion has no clergy; local and national affairs are governed by elected councils called Spiritual Assemblies. The Baha'i House of Worship in each continent is open to people of all faiths. The most famous is the Lotus Temple in New Delhi, which attracts over 4 million visitors annually. Baha'is have faced severe persecution in Iran since the 1979 revolution, including executions, imprisonment, and exclusion from higher education. The Baha'i calendar has 19 months of 19 days each."
+    },
+    {
+      "id": "religion-bahai-belief",
+      "question": "Which religion teaches the essential unity of all world religions and the oneness of humanity?",
+      "answer": "Baha'i Faith",
+      "alternateAnswers": ["Bahai Faith", "Bahai", "Baha'i"],
+      "explanation": "The Baha'i Faith, founded by Baha'u'llah in 19th-century Iran, holds that all major religions come from the same divine source and that their founders are successive messengers of one God. Core principles include the elimination of all forms of prejudice, equality of men and women, universal education, harmony of science and religion, and the need for a world government. The religion grew out of the earlier Babi movement founded by the Bab (1819-1850), whom Baha'is regard as a herald of Baha'u'llah. The Baha'i World Centre is located in Haifa, Israel, where the terraced gardens surrounding the Shrine of the Bab are a UNESCO World Heritage Site. Despite its message of peace and unity, the Baha'i Faith has been persecuted since its inception, particularly in Iran where adherents are denied basic civil rights. The religion prohibits partisan political involvement and requires its followers to obey the laws of whatever country they reside in."
+    },
+    {
+      "id": "religion-jainism-principle",
+      "question": "What is the central ethical principle of Jainism?",
+      "answer": "Ahimsa",
+      "alternateAnswers": ["Non-violence", "Nonviolence"],
+      "explanation": "Ahimsa (non-violence toward all living beings) is the supreme ethical principle of Jainism, taken to a degree unmatched by any other major religion. Devout Jains sweep the path before them to avoid stepping on insects, strain their drinking water, and wear cloth over their mouths to prevent inhaling tiny creatures. Jainism originated in India and follows the teachings of 24 tirthankaras (ford-makers or spiritual teachers), the last of whom was Mahavira (c. 599-527 BC). The religion has approximately 4 to 5 million followers, almost entirely in India. Its three core principles are ahimsa (non-violence), anekantavada (non-absolutism or multiplicity of viewpoints), and aparigraha (non-possessiveness). Jainism's two main branches are Digambara ('sky-clad,' whose monks practice complete nudity) and Svetambara ('white-clad,' whose monks wear white robes). The Jain community in India is renowned for its high literacy rates, success in commerce, and generous charitable giving."
+    },
+    {
+      "id": "religion-jainism-teacher",
+      "question": "Who is considered the last tirthankara and a key historical figure in Jainism?",
+      "answer": "Mahavira",
+      "alternateAnswers": ["Vardhamana Mahavira", "Vardhamana"],
+      "explanation": "Mahavira (meaning 'great hero'), born as Vardhamana around 599 BC in what is now Bihar, India, is the 24th and last tirthankara of Jainism. He was a contemporary of the Buddha and, like him, was born into a royal family and renounced worldly life to seek spiritual truth. After 12 years of intense asceticism and meditation, he attained kevala jnana (omniscience). Mahavira did not claim to found a new religion but rather to revive the eternal truths taught by the previous 23 tirthankaras. The first tirthankara, Rishabhadeva (also called Adinatha), is a figure of immense antiquity in Jain tradition. Jainism's emphasis on non-violence had a direct influence on Mahatma Gandhi's philosophy of nonviolent resistance. Jain temples are among the most ornate in India, with the Dilwara Temples at Mount Abu in Rajasthan considered masterpieces of marble carving. Jains celebrate Mahavir Jayanti, the birthday of Mahavira, as their most important festival."
+    },
+    {
+      "id": "religion-mecca-pilgrimage",
+      "question": "What is the name of the annual Islamic pilgrimage to Mecca?",
+      "answer": "Hajj",
+      "alternateAnswers": ["The Hajj"],
+      "explanation": "The Hajj is one of the Five Pillars of Islam and must be undertaken at least once in a lifetime by every Muslim who is physically and financially able. It takes place during the last month of the Islamic lunar calendar (Dhu al-Hijjah) and involves specific rituals performed over five to six days. Pilgrims wear simple white garments called ihram, symbolizing equality before God -- kings and commoners dress identically. Key rituals include circling the Kaaba seven times (tawaf), walking between the hills of Safa and Marwah, and standing in prayer on the plain of Arafat. The Hajj draws roughly 2 to 3 million pilgrims annually from every corner of the globe, making it one of the largest peaceful gatherings on Earth. The city of Mecca in Saudi Arabia is closed to non-Muslims. Malcolm X famously credited his Hajj experience with changing his views on race, as he witnessed Muslims of all ethnicities worshipping side by side."
+    },
+    {
+      "id": "religion-karma-religions",
+      "question": "Which major world religions share the concept of karma?",
+      "answer": "Hinduism, Buddhism, Jainism, and Sikhism",
+      "alternateAnswers": ["Hinduism Buddhism Jainism Sikhism", "Hinduism and Buddhism", "Hinduism, Buddhism, and Jainism"],
+      "explanation": "Karma -- the principle that a person's actions determine their future experiences -- is a concept shared by Hinduism, Buddhism, Jainism, and Sikhism, all of which originated in the Indian subcontinent. However, each religion interprets karma differently. In Hinduism, karma affects one's position in future reincarnations within the caste system. In Buddhism, karma influences rebirth but there is no permanent soul that transmigrates. In Jainism, karma is understood almost physically -- as fine particles of matter that adhere to the soul and must be purged through asceticism and right conduct. In Sikhism, karma operates alongside divine grace (nadar), meaning that God's mercy can override karmic debt. The word karma comes from Sanskrit and literally means 'action' or 'deed.' The concept has entered Western popular culture, often simplified as 'what goes around comes around,' though the original philosophical concept is far more nuanced and complex."
+    },
+    {
+      "id": "religion-abrahamic-three",
+      "question": "What are the three major Abrahamic religions?",
+      "answer": "Judaism, Christianity, and Islam",
+      "alternateAnswers": ["Christianity, Islam, and Judaism", "Islam, Christianity, and Judaism", "Judaism Christianity Islam"],
+      "explanation": "Judaism, Christianity, and Islam are called Abrahamic religions because they all trace their spiritual lineage to the patriarch Abraham. Judaism regards Abraham as the founding father of the covenant between God and the Jewish people. Christianity, which emerged from Judaism in the first century AD, views Abraham as a model of faith. Islam considers Abraham (Ibrahim) a prophet and the builder of the Kaaba in Mecca. Together these three religions account for over 4 billion adherents -- more than half the world's population. All three are monotheistic, believe in prophets and divine revelation, and share many of the same figures (Adam, Noah, Moses). Despite their common roots, their theological differences are profound: Judaism does not accept Jesus as the messiah, Christianity centers on Jesus as the Son of God, and Islam regards Jesus as a prophet but not divine. Jerusalem is a holy city for all three, which has been a source of both cultural richness and conflict for millennia."
+    },
+    {
+      "id": "religion-reincarnation",
+      "question": "What is the term for the cycle of birth, death, and rebirth in Hinduism and Buddhism?",
+      "answer": "Samsara",
+      "alternateAnswers": [],
+      "explanation": "Samsara refers to the continuous cycle of birth, death, and rebirth that binds living beings to worldly existence. In Hinduism, the goal is to achieve moksha -- liberation from samsara -- through various paths including devotion (bhakti), knowledge (jnana), and selfless action (karma yoga). In Buddhism, the goal is nirvana, the cessation of suffering and escape from the cycle of rebirth. Jainism also teaches liberation from samsara through right faith, right knowledge, and right conduct. The concept implies that the universe is not progressing toward a final destination but rather cycling endlessly until an individual achieves liberation through spiritual practice. One's station in samsara is determined by karma -- the accumulated effects of one's actions across lifetimes. The Tibetan Buddhist 'Wheel of Life' (Bhavachakra) is a famous artistic depiction of samsara, showing six realms of existence through which beings cycle, from heavenly to hellish, all held in the grip of impermanence."
+    },
+    {
+      "id": "religion-guru-gobind-singh",
+      "question": "Which Sikh guru established the Khalsa and declared the Guru Granth Sahib as the eternal guru?",
+      "answer": "Guru Gobind Singh",
+      "alternateAnswers": ["Gobind Singh"],
+      "explanation": "Guru Gobind Singh (1666-1708) was the tenth and final human guru of Sikhism. In 1699, he established the Khalsa -- a community of initiated Sikhs bound by a strict code of conduct and the five articles of faith known as the Five Ks: kesh (uncut hair), kangha (wooden comb), kara (steel bracelet), kachera (cotton undergarments), and kirpan (ceremonial dagger). Before his death, he declared that there would be no more human gurus and that the Guru Granth Sahib would serve as the eternal, living guru of the Sikhs. This made Sikhism unique among world religions in transferring spiritual authority from a human leader to a sacred text. Guru Gobind Singh was also a warrior, poet, and philosopher who fought against religious persecution by the Mughal Empire. The surname Singh (meaning 'lion') for Sikh men and Kaur (meaning 'princess') for Sikh women was introduced by Guru Gobind Singh to eliminate caste distinctions."
+    },
+    {
+      "id": "religion-eightfold-path",
+      "question": "In Buddhism, what is the name of the path prescribed to end suffering?",
+      "answer": "The Noble Eightfold Path",
+      "alternateAnswers": ["Noble Eightfold Path", "Eightfold Path"],
+      "explanation": "The Noble Eightfold Path is the Fourth Noble Truth in Buddhism and provides a practical guide to ethical and mental development with the goal of freeing the individual from suffering. Its eight components are: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration. These are grouped into three categories: wisdom (prajna), ethical conduct (sila), and mental discipline (samadhi). The path is not meant to be followed in sequence but practiced simultaneously, with each element reinforcing the others. It is often represented by the eight-spoked Dharma wheel (dharmachakra), one of the oldest Buddhist symbols. The Buddha described this path as the 'Middle Way' between extreme asceticism and sensual indulgence. Buddhist monasteries (sanghas) around the world structure their daily life around these principles. The path has influenced modern therapeutic approaches, particularly Mindfulness-Based Stress Reduction (MBSR) developed by Jon Kabat-Zinn."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { getModule, checkAnswer, type Question, type ModuleWithQuestions, type CheckResult } from '../lib/api';
+import { PeriodicTable } from './PeriodicTable';
 
 interface QuizState {
 	questions: Question[];
@@ -51,8 +52,27 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		return <div className="text-center text-text-tertiary py-16">Loading...</div>;
 	}
 
-	// ─── LEARN MODE: Grid of flippable cards ───
+	// ─── LEARN MODE ───
 	if (mode === 'learn') {
+		// Special rendering for periodic table
+		if (moduleId === 'sci-element-symbols') {
+			return (
+				<div className="animate-in">
+					<div className="flex items-center gap-3 mb-6">
+						<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
+						<h2 className="text-lg font-semibold flex-1 tracking-tight">{mod.name}</h2>
+						<a
+							href={`#/quiz/${moduleId}?mode=quiz`}
+							className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
+						>
+							Quiz Me
+						</a>
+					</div>
+					<PeriodicTable questions={state.questions} moduleId={moduleId} />
+				</div>
+			);
+		}
+
 		const allFlipped = flippedCards.size === state.questions.length;
 
 		function toggleCard(id: string) {
