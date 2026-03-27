@@ -59,7 +59,7 @@
       "id": "anc-egypt-female-pharaoh",
       "question": "Who was the famous female pharaoh of Egypt's 18th Dynasty who ruled for about 20 years?",
       "answer": "Hatshepsut",
-      "alternateAnswers": [],
+      "alternateAnswers": ["Hatchepsut", "Hat Shepsut", "Hatshepsuit"],
       "explanation": "Hatshepsut ruled Egypt for roughly 20 years (circa 1479-1458 BC) and oversaw massive building projects and trade expeditions. After her death, her successor Thutmose III tried to erase her from history by chiseling her name and image off monuments -- but he failed."
     },
     {

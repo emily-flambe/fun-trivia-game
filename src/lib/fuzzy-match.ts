@@ -11,6 +11,19 @@ export function normalize(s: string): string {
 }
 
 /**
+ * Deeper normalization for answer comparison: strips punctuation, hyphens,
+ * and leading articles on top of basic normalize().
+ */
+export function normalizeForMatching(s: string): string {
+  return normalize(s)
+    .replace(/[.,']/g, '')
+    .replace(/-/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/^(the|a|an)\s+/i, '');
+}
+
+/**
  * Compute Levenshtein distance between two strings.
  */
 export function levenshtein(a: string, b: string): number {
@@ -54,12 +67,12 @@ export function checkAnswer(
   correctAnswer: string,
   alternateAnswers: string[] = []
 ): FuzzyMatchResult {
-  const normalizedUser = normalize(userAnswer);
+  const normalizedUser = normalizeForMatching(userAnswer);
   const allAnswers = [correctAnswer, ...alternateAnswers];
 
   // Check exact matches first
   for (const ans of allAnswers) {
-    if (normalize(ans) === normalizedUser) {
+    if (normalizeForMatching(ans) === normalizedUser) {
       return {
         match: true,
         exactMatch: true,
@@ -76,7 +89,7 @@ export function checkAnswer(
     let bestAnswer = correctAnswer;
 
     for (const ans of allAnswers) {
-      const d = levenshtein(normalizedUser, normalize(ans));
+      const d = levenshtein(normalizedUser, normalizeForMatching(ans));
       if (d < bestDistance) {
         bestDistance = d;
         bestAnswer = ans;
@@ -108,6 +121,6 @@ export function checkAnswer(
     exactMatch: false,
     fuzzyMatch: false,
     closestAnswer: correctAnswer,
-    distance: levenshtein(normalizedUser, normalize(correctAnswer)),
+    distance: levenshtein(normalizedUser, normalizeForMatching(correctAnswer)),
   };
 }

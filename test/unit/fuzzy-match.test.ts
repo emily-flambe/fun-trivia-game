@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { normalize, levenshtein, checkAnswer } from '../../src/lib/fuzzy-match';
+import { normalize, normalizeForMatching, levenshtein, checkAnswer } from '../../src/lib/fuzzy-match';
 
 describe('normalize', () => {
 	it('lowercases and trims', () => {
@@ -22,6 +22,40 @@ describe('normalize', () => {
 
 	it('handles combined normalization', () => {
 		expect(normalize('  SÃO   PAULO  ')).toBe('sao paulo');
+	});
+});
+
+describe('normalizeForMatching', () => {
+	it('strips leading "The"', () => {
+		expect(normalizeForMatching('The Odyssey')).toBe('odyssey');
+	});
+
+	it('strips leading "A"', () => {
+		expect(normalizeForMatching('A Beautiful Mind')).toBe('beautiful mind');
+	});
+
+	it('strips leading "An" but not mid-sentence "a"', () => {
+		expect(normalizeForMatching('An Officer and a Gentleman')).toBe('officer and a gentleman');
+	});
+
+	it('does NOT strip article if it is the entire string', () => {
+		expect(normalizeForMatching('The')).toBe('the');
+	});
+
+	it('strips periods', () => {
+		expect(normalizeForMatching('St. Louis')).toBe('st louis');
+	});
+
+	it('strips apostrophes', () => {
+		expect(normalizeForMatching("O'Brien")).toBe('obrien');
+	});
+
+	it('replaces hyphens with spaces', () => {
+		expect(normalizeForMatching('Timor-Leste')).toBe('timor leste');
+	});
+
+	it('combines all transformations', () => {
+		expect(normalizeForMatching("The St. Mary's-on-Thames")).toBe('st marys on thames');
 	});
 });
 
@@ -171,6 +205,63 @@ describe('checkAnswer', () => {
 		it('handles hyphenated answers', () => {
 			const result = checkAnswer('Timor-Leste', 'Timor-Leste', ['East Timor']);
 			expect(result.match).toBe(true);
+		});
+	});
+
+	describe('article-insensitive matching', () => {
+		it('matches when user drops leading "The"', () => {
+			const result = checkAnswer('Great Gatsby', 'The Great Gatsby');
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('matches when answer has no article but user adds one', () => {
+			const result = checkAnswer('The Great Gatsby', 'Great Gatsby');
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('matches without needing alternateAnswers for articles', () => {
+			const result = checkAnswer('Broadway Melody', 'The Broadway Melody');
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('matches when user drops leading "A"', () => {
+			const result = checkAnswer('Beautiful Mind', 'A Beautiful Mind');
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('does NOT false-match standalone "The" against unrelated words', () => {
+			const result = checkAnswer('The', 'Theory');
+			expect(result.match).toBe(false);
+		});
+	});
+
+	describe('punctuation-insensitive matching', () => {
+		it('matches without periods', () => {
+			const result = checkAnswer('St Louis', 'St. Louis');
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('matches without apostrophes', () => {
+			const result = checkAnswer('OBrien', "O'Brien");
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('matches with space instead of hyphen', () => {
+			const result = checkAnswer('Timor Leste', 'Timor-Leste');
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
+		});
+
+		it('matches without apostrophe in complex name', () => {
+			const result = checkAnswer('NDjamena', "N'Djamena");
+			expect(result.match).toBe(true);
+			expect(result.exactMatch).toBe(true);
 		});
 	});
 });
