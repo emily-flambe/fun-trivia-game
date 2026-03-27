@@ -4,11 +4,11 @@
   "name": "US State Capitals",
   "tier": "foundation",
   "description": "All 50 US state capitals",
-  "questionType": "type-in",
+  "defaultFormat": "text-entry",
   "questions": [
     {
       "id": "al",
-      "type": "type-in",
+
       "question": "What is the capital of Alabama?",
       "answer": "Montgomery",
       "alternateAnswers": [],
@@ -16,7 +16,7 @@
     },
     {
       "id": "ak",
-      "type": "type-in",
+
       "question": "What is the capital of Alaska?",
       "answer": "Juneau",
       "alternateAnswers": [],
@@ -24,7 +24,7 @@
     },
     {
       "id": "az",
-      "type": "type-in",
+
       "question": "What is the capital of Arizona?",
       "answer": "Phoenix",
       "alternateAnswers": [],
@@ -32,7 +32,7 @@
     },
     {
       "id": "ar",
-      "type": "type-in",
+
       "question": "What is the capital of Arkansas?",
       "answer": "Little Rock",
       "alternateAnswers": [],
@@ -40,7 +40,7 @@
     },
     {
       "id": "ca",
-      "type": "type-in",
+
       "question": "What is the capital of California?",
       "answer": "Sacramento",
       "alternateAnswers": [],
@@ -48,7 +48,7 @@
     },
     {
       "id": "co",
-      "type": "type-in",
+
       "question": "What is the capital of Colorado?",
       "answer": "Denver",
       "alternateAnswers": [],
@@ -56,7 +56,7 @@
     },
     {
       "id": "ct",
-      "type": "type-in",
+
       "question": "What is the capital of Connecticut?",
       "answer": "Hartford",
       "alternateAnswers": [],
@@ -64,7 +64,7 @@
     },
     {
       "id": "de",
-      "type": "type-in",
+
       "question": "What is the capital of Delaware?",
       "answer": "Dover",
       "alternateAnswers": [],
@@ -72,7 +72,7 @@
     },
     {
       "id": "fl",
-      "type": "type-in",
+
       "question": "What is the capital of Florida?",
       "answer": "Tallahassee",
       "alternateAnswers": [],
@@ -80,7 +80,7 @@
     },
     {
       "id": "ga",
-      "type": "type-in",
+
       "question": "What is the capital of Georgia?",
       "answer": "Atlanta",
       "alternateAnswers": [],
@@ -88,7 +88,7 @@
     },
     {
       "id": "hi",
-      "type": "type-in",
+
       "question": "What is the capital of Hawaii?",
       "answer": "Honolulu",
       "alternateAnswers": [],
@@ -96,7 +96,7 @@
     },
     {
       "id": "id",
-      "type": "type-in",
+
       "question": "What is the capital of Idaho?",
       "answer": "Boise",
       "alternateAnswers": [],
@@ -104,7 +104,7 @@
     },
     {
       "id": "il",
-      "type": "type-in",
+
       "question": "What is the capital of Illinois?",
       "answer": "Springfield",
       "alternateAnswers": [],
@@ -112,7 +112,7 @@
     },
     {
       "id": "in",
-      "type": "type-in",
+
       "question": "What is the capital of Indiana?",
       "answer": "Indianapolis",
       "alternateAnswers": [],
@@ -120,7 +120,7 @@
     },
     {
       "id": "ia",
-      "type": "type-in",
+
       "question": "What is the capital of Iowa?",
       "answer": "Des Moines",
       "alternateAnswers": [],
@@ -128,7 +128,7 @@
     },
     {
       "id": "ks",
-      "type": "type-in",
+
       "question": "What is the capital of Kansas?",
       "answer": "Topeka",
       "alternateAnswers": [],
@@ -136,7 +136,7 @@
     },
     {
       "id": "ky",
-      "type": "type-in",
+
       "question": "What is the capital of Kentucky?",
       "answer": "Frankfort",
       "alternateAnswers": [],
@@ -144,7 +144,7 @@
     },
     {
       "id": "la",
-      "type": "type-in",
+
       "question": "What is the capital of Louisiana?",
       "answer": "Baton Rouge",
       "alternateAnswers": [],
@@ -152,7 +152,7 @@
     },
     {
       "id": "me",
-      "type": "type-in",
+
       "question": "What is the capital of Maine?",
       "answer": "Augusta",
       "alternateAnswers": [],
@@ -160,7 +160,7 @@
     },
     {
       "id": "md",
-      "type": "type-in",
+
       "question": "What is the capital of Maryland?",
       "answer": "Annapolis",
       "alternateAnswers": [],
@@ -168,7 +168,7 @@
     },
     {
       "id": "ma",
-      "type": "type-in",
+
       "question": "What is the capital of Massachusetts?",
       "answer": "Boston",
       "alternateAnswers": [],
@@ -176,7 +176,7 @@
     },
     {
       "id": "mi",
-      "type": "type-in",
+
       "question": "What is the capital of Michigan?",
       "answer": "Lansing",
       "alternateAnswers": [],
@@ -184,7 +184,7 @@
     },
     {
       "id": "mn",
-      "type": "type-in",
+
       "question": "What is the capital of Minnesota?",
       "answer": "Saint Paul",
       "alternateAnswers": ["St. Paul", "St Paul"],
@@ -192,7 +192,7 @@
     },
     {
       "id": "ms",
-      "type": "type-in",
+
       "question": "What is the capital of Mississippi?",
       "answer": "Jackson",
       "alternateAnswers": [],
@@ -200,7 +200,7 @@
     },
     {
       "id": "mo",
-      "type": "type-in",
+
       "question": "What is the capital of Missouri?",
       "answer": "Jefferson City",
       "alternateAnswers": [],
@@ -208,7 +208,7 @@
     },
     {
       "id": "mt",
-      "type": "type-in",
+
       "question": "What is the capital of Montana?",
       "answer": "Helena",
       "alternateAnswers": [],
@@ -216,7 +216,7 @@
     },
     {
       "id": "ne",
-      "type": "type-in",
+
       "question": "What is the capital of Nebraska?",
       "answer": "Lincoln",
       "alternateAnswers": [],
@@ -224,7 +224,7 @@
     },
     {
       "id": "nv",
-      "type": "type-in",
+
       "question": "What is the capital of Nevada?",
       "answer": "Carson City",
       "alternateAnswers": [],
@@ -232,7 +232,7 @@
     },
     {
       "id": "nh",
-      "type": "type-in",
+
       "question": "What is the capital of New Hampshire?",
       "answer": "Concord",
       "alternateAnswers": [],
@@ -240,7 +240,7 @@
     },
     {
       "id": "nj",
-      "type": "type-in",
+
       "question": "What is the capital of New Jersey?",
       "answer": "Trenton",
       "alternateAnswers": [],
@@ -248,7 +248,7 @@
     },
     {
       "id": "nm",
-      "type": "type-in",
+
       "question": "What is the capital of New Mexico?",
       "answer": "Santa Fe",
       "alternateAnswers": [],
@@ -256,7 +256,7 @@
     },
     {
       "id": "ny",
-      "type": "type-in",
+
       "question": "What is the capital of New York?",
       "answer": "Albany",
       "alternateAnswers": [],
@@ -264,7 +264,7 @@
     },
     {
       "id": "nc",
-      "type": "type-in",
+
       "question": "What is the capital of North Carolina?",
       "answer": "Raleigh",
       "alternateAnswers": [],
@@ -272,7 +272,7 @@
     },
     {
       "id": "nd",
-      "type": "type-in",
+
       "question": "What is the capital of North Dakota?",
       "answer": "Bismarck",
       "alternateAnswers": [],
@@ -280,7 +280,7 @@
     },
     {
       "id": "oh",
-      "type": "type-in",
+
       "question": "What is the capital of Ohio?",
       "answer": "Columbus",
       "alternateAnswers": [],
@@ -288,7 +288,7 @@
     },
     {
       "id": "ok",
-      "type": "type-in",
+
       "question": "What is the capital of Oklahoma?",
       "answer": "Oklahoma City",
       "alternateAnswers": ["OKC"],
@@ -296,7 +296,7 @@
     },
     {
       "id": "or",
-      "type": "type-in",
+
       "question": "What is the capital of Oregon?",
       "answer": "Salem",
       "alternateAnswers": [],
@@ -304,7 +304,7 @@
     },
     {
       "id": "pa",
-      "type": "type-in",
+
       "question": "What is the capital of Pennsylvania?",
       "answer": "Harrisburg",
       "alternateAnswers": [],
@@ -312,7 +312,7 @@
     },
     {
       "id": "ri",
-      "type": "type-in",
+
       "question": "What is the capital of Rhode Island?",
       "answer": "Providence",
       "alternateAnswers": [],
@@ -320,7 +320,7 @@
     },
     {
       "id": "sc",
-      "type": "type-in",
+
       "question": "What is the capital of South Carolina?",
       "answer": "Columbia",
       "alternateAnswers": [],
@@ -328,7 +328,7 @@
     },
     {
       "id": "sd",
-      "type": "type-in",
+
       "question": "What is the capital of South Dakota?",
       "answer": "Pierre",
       "alternateAnswers": [],
@@ -336,7 +336,7 @@
     },
     {
       "id": "tn",
-      "type": "type-in",
+
       "question": "What is the capital of Tennessee?",
       "answer": "Nashville",
       "alternateAnswers": [],
@@ -344,7 +344,7 @@
     },
     {
       "id": "tx",
-      "type": "type-in",
+
       "question": "What is the capital of Texas?",
       "answer": "Austin",
       "alternateAnswers": [],
@@ -352,7 +352,7 @@
     },
     {
       "id": "ut",
-      "type": "type-in",
+
       "question": "What is the capital of Utah?",
       "answer": "Salt Lake City",
       "alternateAnswers": ["SLC"],
@@ -360,7 +360,7 @@
     },
     {
       "id": "vt",
-      "type": "type-in",
+
       "question": "What is the capital of Vermont?",
       "answer": "Montpelier",
       "alternateAnswers": [],
@@ -368,7 +368,7 @@
     },
     {
       "id": "va",
-      "type": "type-in",
+
       "question": "What is the capital of Virginia?",
       "answer": "Richmond",
       "alternateAnswers": [],
@@ -376,7 +376,7 @@
     },
     {
       "id": "wa",
-      "type": "type-in",
+
       "question": "What is the capital of Washington?",
       "answer": "Olympia",
       "alternateAnswers": [],
@@ -384,7 +384,7 @@
     },
     {
       "id": "wv",
-      "type": "type-in",
+
       "question": "What is the capital of West Virginia?",
       "answer": "Charleston",
       "alternateAnswers": [],
@@ -392,7 +392,7 @@
     },
     {
       "id": "wi",
-      "type": "type-in",
+
       "question": "What is the capital of Wisconsin?",
       "answer": "Madison",
       "alternateAnswers": [],
@@ -400,7 +400,7 @@
     },
     {
       "id": "wy",
-      "type": "type-in",
+
       "question": "What is the capital of Wyoming?",
       "answer": "Cheyenne",
       "alternateAnswers": [],

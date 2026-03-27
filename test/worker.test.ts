@@ -2,20 +2,19 @@ import { env, createExecutionContext, waitOnExecutionContext } from 'cloudflare:
 import { describe, it, expect, beforeAll } from 'vitest';
 import worker from '../src/index';
 
-// Seed test data into D1 before tests run
 async function seedTestData(db: D1Database) {
-	await db.exec(`CREATE TABLE IF NOT EXISTS modules (id TEXT PRIMARY KEY, category TEXT NOT NULL, name TEXT NOT NULL, tier TEXT NOT NULL, description TEXT NOT NULL, question_type TEXT NOT NULL);`);
-	await db.exec(`CREATE TABLE IF NOT EXISTS questions (id TEXT NOT NULL, module_id TEXT NOT NULL, type TEXT NOT NULL, question TEXT NOT NULL, answer TEXT, alternate_answers TEXT DEFAULT '[]', options TEXT, correct_index INTEGER, pairs TEXT, explanation TEXT NOT NULL, sort_order INTEGER DEFAULT 0, PRIMARY KEY (id, module_id));`);
+	await db.exec(`CREATE TABLE IF NOT EXISTS modules (id TEXT PRIMARY KEY, category TEXT NOT NULL, name TEXT NOT NULL, tier TEXT NOT NULL, description TEXT NOT NULL, default_format TEXT NOT NULL DEFAULT 'text-entry');`);
+	await db.exec(`CREATE TABLE IF NOT EXISTS questions (id TEXT NOT NULL, module_id TEXT NOT NULL, question TEXT NOT NULL, answer TEXT NOT NULL, alternate_answers TEXT DEFAULT '[]', options TEXT, correct_index INTEGER, match_pairs TEXT, explanation TEXT NOT NULL, sort_order INTEGER DEFAULT 0, PRIMARY KEY (id, module_id));`);
 
-	await db.exec(`INSERT INTO modules VALUES ('geo-test', 'geography', 'Test Capitals', 'foundation', 'Test module', 'type-in');`);
+	await db.exec(`INSERT INTO modules VALUES ('geo-test', 'geography', 'Test Capitals', 'foundation', 'Test module', 'text-entry');`);
 	await db.exec(`INSERT INTO modules VALUES ('sci-test', 'science', 'Test Planets', 'foundation', 'Test science module', 'multiple-choice');`);
 
-	await db.exec(`INSERT INTO questions VALUES ('q1', 'geo-test', 'type-in', 'Capital of France?', 'Paris', '[]', NULL, NULL, NULL, 'Paris is the capital of France.', 0);`);
-	await db.exec(`INSERT INTO questions VALUES ('q2', 'geo-test', 'type-in', 'Capital of Germany?', 'Berlin', '[]', NULL, NULL, NULL, 'Berlin is the capital of Germany.', 1);`);
-	await db.exec(`INSERT INTO questions VALUES ('q3', 'geo-test', 'type-in', 'Capital of Japan?', 'Tokyo', '["Tōkyō"]', NULL, NULL, NULL, 'Tokyo is the capital of Japan.', 2);`);
+	await db.exec(`INSERT INTO questions VALUES ('q1', 'geo-test', 'Capital of France?', 'Paris', '[]', NULL, NULL, NULL, 'Paris is the capital of France.', 0);`);
+	await db.exec(`INSERT INTO questions VALUES ('q2', 'geo-test', 'Capital of Germany?', 'Berlin', '[]', NULL, NULL, NULL, 'Berlin is the capital of Germany.', 1);`);
+	await db.exec(`INSERT INTO questions VALUES ('q3', 'geo-test', 'Capital of Japan?', 'Tokyo', '["Tōkyō"]', NULL, NULL, NULL, 'Tokyo is the capital of Japan.', 2);`);
 
-	await db.exec(`INSERT INTO questions VALUES ('q1', 'sci-test', 'multiple-choice', 'Largest planet?', NULL, '[]', '["Mars","Jupiter","Saturn","Venus"]', 1, NULL, 'Jupiter is the largest planet.', 0);`);
-	await db.exec(`INSERT INTO questions VALUES ('q2', 'sci-test', 'multiple-choice', 'Closest star?', NULL, '[]', '["Proxima Centauri","Sirius","Alpha Centauri","Betelgeuse"]', 0, NULL, 'Proxima Centauri is the closest star to our Sun.', 1);`);
+	await db.exec(`INSERT INTO questions VALUES ('q1', 'sci-test', 'Largest planet?', 'Jupiter', '[]', '["Mars","Jupiter","Saturn","Venus"]', 1, NULL, 'Jupiter is the largest planet.', 0);`);
+	await db.exec(`INSERT INTO questions VALUES ('q2', 'sci-test', 'Closest star?', 'Proxima Centauri', '[]', '["Proxima Centauri","Sirius","Alpha Centauri","Betelgeuse"]', 0, NULL, 'Proxima Centauri is the closest star to our Sun.', 1);`);
 }
 
 async function makeRequest(path: string, options?: RequestInit) {
@@ -81,11 +80,12 @@ describe('Trivia API', () => {
 			expect(data.modules).toHaveLength(0);
 		});
 
-		it('includes question count', async () => {
+		it('includes question count and default format', async () => {
 			const res = await makeRequest('/api/modules');
 			const data = await res.json<{ modules: any[] }>();
 			const geo = data.modules.find((m: any) => m.id === 'geo-test');
 			expect(geo.questionCount).toBe(3);
+			expect(geo.defaultFormat).toBe('text-entry');
 		});
 	});
 
@@ -95,8 +95,8 @@ describe('Trivia API', () => {
 			expect(res.status).toBe(200);
 			const data = await res.json<any>();
 			expect(data.id).toBe('geo-test');
+			expect(data.defaultFormat).toBe('text-entry');
 			expect(data.questions).toHaveLength(3);
-			expect(data.questions[0].type).toBe('type-in');
 			expect(data.questions[0].answer).toBe('Paris');
 			expect(data.questions[0].explanation).toBeTruthy();
 		});
@@ -116,13 +116,13 @@ describe('Trivia API', () => {
 			expect(data.error).toBeDefined();
 		});
 
-		it('parses multiple-choice questions correctly', async () => {
+		it('includes MC options when present', async () => {
 			const res = await makeRequest('/api/modules/sci-test');
 			const data = await res.json<any>();
 			const q = data.questions[0];
-			expect(q.type).toBe('multiple-choice');
 			expect(q.options).toHaveLength(4);
 			expect(q.correctIndex).toBe(1);
+			expect(q.answer).toBe('Jupiter');
 		});
 
 		it('parses alternate answers from JSON', async () => {
@@ -134,7 +134,7 @@ describe('Trivia API', () => {
 	});
 
 	describe('POST /api/modules/:moduleId/check', () => {
-		it('checks correct type-in answer', async () => {
+		it('checks correct text-entry answer', async () => {
 			const res = await makeRequest('/api/modules/geo-test/check', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
@@ -146,7 +146,7 @@ describe('Trivia API', () => {
 			expect(data.explanation).toBeTruthy();
 		});
 
-		it('checks incorrect type-in answer', async () => {
+		it('checks incorrect text-entry answer', async () => {
 			const res = await makeRequest('/api/modules/geo-test/check', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
@@ -157,18 +157,18 @@ describe('Trivia API', () => {
 			expect(data.correctAnswer).toBe('Paris');
 		});
 
-		it('accepts fuzzy match for type-in', async () => {
+		it('accepts fuzzy match for text-entry', async () => {
 			const res = await makeRequest('/api/modules/geo-test/check', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ questionId: 'q2', answer: 'Berln' }), // missing i, but only 5 chars
+				body: JSON.stringify({ questionId: 'q2', answer: 'Berln' }),
 			});
 			const data = await res.json<any>();
 			expect(data.correct).toBe(true);
 			expect(data.fuzzyMatch).toBe(true);
 		});
 
-		it('checks correct multiple-choice answer', async () => {
+		it('checks correct multiple-choice answer via answerIndex', async () => {
 			const res = await makeRequest('/api/modules/sci-test/check', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
@@ -187,6 +187,17 @@ describe('Trivia API', () => {
 			const data = await res.json<any>();
 			expect(data.correct).toBe(false);
 			expect(data.correctAnswer).toBe('Jupiter');
+		});
+
+		it('allows explicit format override', async () => {
+			// Use text-entry format on a question that has MC data
+			const res = await makeRequest('/api/modules/sci-test/check', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ questionId: 'q1', answer: 'Jupiter', format: 'text-entry' }),
+			});
+			const data = await res.json<any>();
+			expect(data.correct).toBe(true);
 		});
 
 		it('returns 404 for non-existent question', async () => {

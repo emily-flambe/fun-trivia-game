@@ -38,24 +38,24 @@ function generateSQL(modules) {
 	const statements = [];
 
 	for (const mod of modules) {
+		const defaultFormat = mod.defaultFormat || 'text-entry';
 		statements.push(
-			`INSERT OR REPLACE INTO modules (id, category, name, tier, description, question_type) VALUES ('${escapeSQL(mod.id)}', '${escapeSQL(mod.category)}', '${escapeSQL(mod.name)}', '${escapeSQL(mod.tier)}', '${escapeSQL(mod.description)}', '${escapeSQL(mod.questionType)}');`
+			`INSERT OR REPLACE INTO modules (id, category, name, tier, description, default_format) VALUES ('${escapeSQL(mod.id)}', '${escapeSQL(mod.category)}', '${escapeSQL(mod.name)}', '${escapeSQL(mod.tier)}', '${escapeSQL(mod.description)}', '${escapeSQL(defaultFormat)}');`
 		);
 
 		for (let i = 0; i < mod.questions.length; i++) {
 			const q = mod.questions[i];
 			const id = q.id || `q${i + 1}`;
-			const type = q.type || mod.questionType;
 			const question = escapeSQL(q.question);
-			const answer = q.answer ? `'${escapeSQL(q.answer)}'` : 'NULL';
+			const answer = `'${escapeSQL(q.answer)}'`;
 			const alternateAnswers = JSON.stringify(q.alternateAnswers || []);
 			const options = q.options ? `'${escapeSQL(JSON.stringify(q.options))}'` : 'NULL';
 			const correctIndex = q.correctIndex !== undefined ? q.correctIndex : 'NULL';
-			const pairs = q.pairs ? `'${escapeSQL(JSON.stringify(q.pairs))}'` : 'NULL';
+			const matchPairs = q.matchPairs ? `'${escapeSQL(JSON.stringify(q.matchPairs))}'` : 'NULL';
 			const explanation = escapeSQL(q.explanation);
 
 			statements.push(
-				`INSERT OR REPLACE INTO questions (id, module_id, type, question, answer, alternate_answers, options, correct_index, pairs, explanation, sort_order) VALUES ('${escapeSQL(id)}', '${escapeSQL(mod.id)}', '${escapeSQL(type)}', '${question}', ${answer}, '${escapeSQL(alternateAnswers)}', ${options}, ${correctIndex}, ${pairs}, '${explanation}', ${i});`
+				`INSERT OR REPLACE INTO questions (id, module_id, question, answer, alternate_answers, options, correct_index, match_pairs, explanation, sort_order) VALUES ('${escapeSQL(id)}', '${escapeSQL(mod.id)}', '${question}', ${answer}, '${escapeSQL(alternateAnswers)}', ${options}, ${correctIndex}, ${matchPairs}, '${explanation}', ${i});`
 			);
 		}
 	}

@@ -1,6 +1,6 @@
 import { QuizRepository } from './data/repository';
-import { checkAnswer as fuzzyCheckAnswer } from './lib/fuzzy-match';
-import type { Category, Tier } from './data/types';
+import { checkAnswerByFormat } from './lib/answer-checker';
+import type { Category, Tier, QuestionFormat } from './data/types';
 
 interface Env {
 	DB: D1Database;
@@ -11,12 +11,10 @@ export default {
 		const url = new URL(request.url);
 		const path = url.pathname;
 
-		// API routing
 		if (path.startsWith('/api/')) {
 			return handleApi(path, url, request, env);
 		}
 
-		// SPA fallback — for now, return a minimal placeholder
 		return new Response(html(), {
 			headers: { 'Content-Type': 'text/html; charset=utf-8' },
 		});
@@ -27,18 +25,15 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 	const repo = new QuizRepository(env.DB);
 
 	try {
-		// GET /api/health
 		if (path === '/api/health') {
 			return json({ status: 'ok', version: '0.0.1' });
 		}
 
-		// GET /api/categories
 		if (path === '/api/categories') {
 			const categories = await repo.getCategories();
 			return json({ categories });
 		}
 
-		// GET /api/quiz/random
 		if (path === '/api/quiz/random') {
 			const category = url.searchParams.get('category') as Category | null;
 			const tier = url.searchParams.get('tier') as Tier | null;
@@ -57,7 +52,7 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			});
 		}
 
-		// Match /api/modules/:moduleId/check
+		// POST /api/modules/:moduleId/check
 		const checkMatch = path.match(/^\/api\/modules\/([^/]+)\/check$/);
 		if (checkMatch) {
 			if (request.method !== 'POST') {
@@ -66,7 +61,7 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return handleCheckAnswer(checkMatch[1], request, repo);
 		}
 
-		// Match /api/modules/:moduleId
+		// GET /api/modules/:moduleId
 		const moduleMatch = path.match(/^\/api\/modules\/([^/]+)$/);
 		if (moduleMatch) {
 			const mod = await repo.getModule(moduleMatch[1]);
@@ -76,7 +71,6 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return json(mod);
 		}
 
-		// GET /api/modules
 		if (path === '/api/modules') {
 			const category = url.searchParams.get('category') as Category | null;
 			const tier = url.searchParams.get('tier') as Tier | null;
@@ -95,7 +89,12 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 }
 
 async function handleCheckAnswer(moduleId: string, request: Request, repo: QuizRepository): Promise<Response> {
-	const body = await request.json<{ questionId?: string; answer?: string; answerIndex?: number }>();
+	const body = await request.json<{
+		questionId?: string;
+		answer?: string;
+		answerIndex?: number;
+		format?: QuestionFormat;
+	}>();
 
 	if (!body.questionId) {
 		return json({ error: 'Missing required field: questionId' }, 400);
@@ -106,49 +105,15 @@ async function handleCheckAnswer(moduleId: string, request: Request, repo: QuizR
 		return json({ error: 'Question not found', questionId: body.questionId }, 404);
 	}
 
-	let correct: boolean;
-	let fuzzyMatch = false;
-	let userAnswer = '';
-	let correctAnswer = '';
+	// Use requested format, or infer from the input
+	const format: QuestionFormat = body.format ?? (body.answerIndex !== undefined ? 'multiple-choice' : 'text-entry');
 
-	switch (question.type) {
-		case 'type-in': {
-			userAnswer = body.answer ?? '';
-			correctAnswer = question.answer;
-			const result = fuzzyCheckAnswer(userAnswer, question.answer, question.alternateAnswers);
-			correct = result.match;
-			fuzzyMatch = result.fuzzyMatch;
-			break;
-		}
-		case 'multiple-choice': {
-			const idx = body.answerIndex ?? -1;
-			userAnswer = String(idx);
-			correctAnswer = question.options[question.correctIndex] ?? '';
-			correct = idx === question.correctIndex;
-			break;
-		}
-		case 'matching': {
-			// Matching is checked client-side; server just returns correctness info
-			correct = false;
-			correctAnswer = question.pairs.map((p) => `${p.left} → ${p.right}`).join(', ');
-			break;
-		}
-		default:
-			return json({ error: 'Unknown question type' }, 400);
-	}
-
-	return json({
-		correct,
-		correctAnswer,
-		explanation: question.explanation,
-		userAnswer,
-		fuzzyMatch,
-	});
+	const result = checkAnswerByFormat(question, { answer: body.answer, answerIndex: body.answerIndex }, format);
+	return json(result);
 }
 
 function stripAnswer(question: any): any {
-	// Strip answer data from questions sent to the client for quiz mode
-	const { answer, alternateAnswers, correctIndex, pairs, ...safe } = question;
+	const { answer, alternateAnswers, correctIndex, matchPairs, ...safe } = question;
 	return safe;
 }
 
