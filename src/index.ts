@@ -1,6 +1,5 @@
-import { QuizRepository } from './data/repository';
-import { checkAnswerByFormat } from './lib/answer-checker';
-import type { Category, Tier, QuestionFormat } from './data/types';
+import { NodeRepository } from './data/repository';
+import { checkTextEntry, checkFillBlanks } from './lib/answer-checker';
 
 interface Env {
 	DB: D1Database;
@@ -31,63 +30,44 @@ export default {
 } satisfies ExportedHandler<Env>;
 
 async function handleApi(path: string, url: URL, request: Request, env: Env): Promise<Response> {
-	const repo = new QuizRepository(env.DB);
+	const repo = new NodeRepository(env.DB);
 
 	try {
 		if (path === '/api/health') {
 			return json({ status: 'ok', version: '0.0.1' });
 		}
 
-		if (path === '/api/categories') {
-			const categories = await repo.getCategories();
-			return json({ categories });
+		if (path === '/api/nodes') {
+			const nodes = await repo.getRootNodes();
+			return json({ nodes });
 		}
 
-		if (path === '/api/quiz/random') {
-			const category = url.searchParams.get('category') as Category | null;
-			const tier = url.searchParams.get('tier') as Tier | null;
-			const result = await repo.getRandomQuestion({
-				category: category || undefined,
-				tier: tier || undefined,
-			});
-			if (!result) {
-				return json({ error: 'No questions found' }, 404);
-			}
-			const { moduleName, ...question } = result;
-			return json({
-				moduleId: question.moduleId,
-				moduleName,
-				question: stripAnswer(question),
-			});
+		const nodeMatch = path.match(/^\/api\/nodes\/(.+)$/);
+		if (nodeMatch) {
+			const result = await repo.getNode(nodeMatch[1]);
+			if (!result) return json({ error: 'Node not found' }, 404);
+			const breadcrumbs = await repo.getNodeBreadcrumbs(nodeMatch[1]);
+			return json({ ...result, breadcrumbs });
 		}
 
-		// POST /api/modules/:moduleId/check
-		const checkMatch = path.match(/^\/api\/modules\/([^/]+)\/check$/);
-		if (checkMatch) {
-			if (request.method !== 'POST') {
-				return json({ error: 'Method not allowed' }, 405);
-			}
+		// POST /api/exercises/:path+/check — MUST be before exercise detail route
+		const checkMatch = path.match(/^\/api\/exercises\/(.+)\/check$/);
+		if (checkMatch && request.method === 'POST') {
 			return handleCheckAnswer(checkMatch[1], request, repo);
 		}
-
-		// GET /api/modules/:moduleId
-		const moduleMatch = path.match(/^\/api\/modules\/([^/]+)$/);
-		if (moduleMatch) {
-			const mod = await repo.getModule(moduleMatch[1]);
-			if (!mod) {
-				return json({ error: 'Module not found', moduleId: moduleMatch[1] }, 404);
-			}
-			return json(mod);
+		if (checkMatch) {
+			return json({ error: 'Method not allowed' }, 405);
 		}
 
-		if (path === '/api/modules') {
-			const category = url.searchParams.get('category') as Category | null;
-			const tier = url.searchParams.get('tier') as Tier | null;
-			const modules = await repo.getModules({
-				category: category || undefined,
-				tier: tier || undefined,
+		// GET /api/exercises/:path+
+		const exerciseMatch = path.match(/^\/api\/exercises\/(.+)$/);
+		if (exerciseMatch) {
+			const result = await repo.getExercise(exerciseMatch[1]);
+			if (!result) return json({ error: 'Exercise not found' }, 404);
+			return json({
+				exercise: result.exercise,
+				items: result.items.map(stripItemAnswers),
 			});
-			return json({ modules });
 		}
 
 		return json({ error: 'Not found' }, 404);
@@ -97,32 +77,45 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 	}
 }
 
-async function handleCheckAnswer(moduleId: string, request: Request, repo: QuizRepository): Promise<Response> {
-	const body = await request.json<{
-		questionId?: string;
-		answer?: string;
-		answerIndex?: number;
-		format?: QuestionFormat;
-	}>();
+async function handleCheckAnswer(exercisePath: string, request: Request, repo: NodeRepository): Promise<Response> {
+	const body = await request.json<{ itemId?: string; answer?: string }>();
 
-	if (!body.questionId) {
-		return json({ error: 'Missing required field: questionId' }, 400);
+	if (!body.answer && body.answer !== '') {
+		return json({ error: 'Missing required field: answer' }, 400);
 	}
 
-	const question = await repo.getQuestion(moduleId, body.questionId);
-	if (!question) {
-		return json({ error: 'Question not found', questionId: body.questionId }, 404);
+	// Get the exercise to know its format
+	const exerciseResult = await repo.getExercise(exercisePath);
+	if (!exerciseResult) {
+		return json({ error: 'Exercise not found' }, 404);
 	}
 
-	// Use requested format, or infer from the input
-	const format: QuestionFormat = body.format ?? (body.answerIndex !== undefined ? 'multiple-choice' : 'text-entry');
+	const { exercise, items } = exerciseResult;
 
-	const result = checkAnswerByFormat(question, { answer: body.answer, answerIndex: body.answerIndex }, format);
-	return json(result);
+	if (exercise.format === 'text-entry') {
+		// Text-entry requires itemId
+		if (!body.itemId) {
+			return json({ error: 'Missing required field: itemId for text-entry format' }, 400);
+		}
+		const item = items.find((i) => i.id === body.itemId);
+		if (!item) {
+			return json({ error: 'Item not found', itemId: body.itemId }, 404);
+		}
+		const result = checkTextEntry(item, body.answer ?? '');
+		return json(result);
+	}
+
+	if (exercise.format === 'fill-blanks') {
+		// Fill-blanks checks against all items
+		const result = checkFillBlanks(items, body.answer ?? '');
+		return json(result);
+	}
+
+	return json({ error: `Unsupported format: ${exercise.format}` }, 400);
 }
 
-function stripAnswer(question: any): any {
-	const { answer, alternateAnswers, correctIndex, matchPairs, ...safe } = question;
+function stripItemAnswers(item: any): any {
+	const { answer, alternates, explanation, ...safe } = item;
 	return safe;
 }
 
@@ -149,7 +142,7 @@ function html(): string {
 <div class="card">
   <h1>Trivia Trainer</h1>
   <p>API is live. React SPA coming soon.</p>
-  <p style="margin-top: 1rem; font-size: 0.875rem; color: #64748b;">Try: <code>/api/health</code>, <code>/api/categories</code>, <code>/api/modules</code></p>
+  <p style="margin-top: 1rem; font-size: 0.875rem; color: #64748b;">Try: <code>/api/health</code>, <code>/api/nodes</code></p>
 </div>
 </body>
 </html>`;
