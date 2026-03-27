@@ -89,7 +89,11 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 							)}
 						</div>
 						{selectedItem.explanation && (
-							<div className="text-sm text-text-secondary leading-relaxed">{selectedItem.explanation}</div>
+							<ul className="text-sm text-text-secondary leading-relaxed space-y-1 list-disc list-outside ml-4">
+								{selectedItem.explanation.split('\n').map((line, i) => (
+									<li key={i}>{line}</li>
+								))}
+							</ul>
 						)}
 					</div>
 				) : (
