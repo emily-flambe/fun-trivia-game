@@ -35,7 +35,7 @@ async function seedTestData(db: D1Database) {
 async function makeRequest(path: string, options?: RequestInit) {
 	const request = new Request(`http://localhost${path}`, options);
 	const ctx = createExecutionContext();
-	const response = await worker.fetch(request, env, ctx);
+	const response = await worker.fetch(request, env as any, ctx);
 	await waitOnExecutionContext(ctx);
 	return response;
 }
@@ -50,7 +50,7 @@ function postJson(path: string, body: unknown) {
 
 describe('Trivia API', () => {
 	beforeAll(async () => {
-		await seedTestData(env.DB);
+		await seedTestData((env as any).DB);
 	});
 
 	// ─── Health ───────────────────────────────────────────────

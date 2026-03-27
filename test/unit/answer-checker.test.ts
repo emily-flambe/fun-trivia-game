@@ -764,7 +764,7 @@ describe('checkFillBlanks', () => {
 		it('answer that is prefix of input does not match', () => {
 			// "Argonauts" should NOT match "Argon"
 			const result = checkFillBlanks(nobleGasItems, 'Argonauts');
-			expect(result.correct).toBeUndefined(); // FillBlanksCheckResult has no 'correct' field
+			expect((result as any).correct).toBeUndefined(); // FillBlanksCheckResult has no 'correct' field
 			expect(result.matched).toBe(false);
 		});
 	});

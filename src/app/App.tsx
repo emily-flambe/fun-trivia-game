@@ -1,24 +1,26 @@
 import { useState, useEffect } from 'react';
 import { Dashboard } from './components/Dashboard';
-import { CategoryView } from './components/CategoryView';
-import { QuizView } from './components/QuizView';
+import { NodeView } from './components/NodeView';
+import { ExerciseView } from './components/ExerciseView';
 
 type Route =
 	| { page: 'dashboard' }
-	| { page: 'category'; id: string }
-	| { page: 'quiz'; moduleId: string; mode: string };
+	| { page: 'node'; path: string }
+	| { page: 'exercise'; path: string; mode: string };
 
 function parseHash(): Route {
 	const hash = window.location.hash.slice(1) || '/';
-	const [path, query] = hash.split('?');
-	const parts = path.split('/').filter(Boolean);
+	const [rawPath, query] = hash.split('?');
+	const path = rawPath.replace(/^\//, '');
 
-	if (parts[0] === 'category' && parts[1]) {
-		return { page: 'category', id: parts[1] };
+	if (path.startsWith('node/')) {
+		const nodePath = path.slice('node/'.length);
+		return { page: 'node', path: nodePath };
 	}
-	if (parts[0] === 'quiz' && parts[1]) {
+	if (path.startsWith('exercise/')) {
+		const exercisePath = path.slice('exercise/'.length);
 		const params = new URLSearchParams(query || '');
-		return { page: 'quiz', moduleId: parts[1], mode: params.get('mode') || 'quiz' };
+		return { page: 'exercise', path: exercisePath, mode: params.get('mode') || 'quiz' };
 	}
 	return { page: 'dashboard' };
 }
@@ -41,8 +43,8 @@ export function App() {
 			</nav>
 			<main className="max-w-4xl mx-auto px-6 py-8">
 				{route.page === 'dashboard' && <Dashboard />}
-				{route.page === 'category' && <CategoryView categoryId={route.id} />}
-				{route.page === 'quiz' && <QuizView moduleId={route.moduleId} mode={route.mode} />}
+				{route.page === 'node' && <NodeView path={route.path} />}
+				{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}
 			</main>
 		</div>
 	);
