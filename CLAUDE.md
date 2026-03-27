@@ -35,49 +35,64 @@ Update these when the information changes. Create new keys for new topics.
 
 ## Adding Quiz Content
 
-1. Create a JSON file in `seeds/` following the format of existing files
+1. Create a JSON file in `seeds/` following the format below
 2. Run `node scripts/seed.mjs --local` to test locally
 3. Run `node scripts/seed.mjs --remote` to push to production
-4. Run `npm run deploy` to redeploy (not strictly needed for data-only changes, but good practice)
+4. Run `npm run deploy` to redeploy
 5. Update `trivia-trainer/seed-system` context in Agent-MCP with new counts
 
 Seed format:
 ```json
 {
-  "id": "category-prefix-topic",
-  "category": "geography|history|science|literature|entertainment|sports",
-  "name": "Display Name",
-  "tier": "foundation|core|advanced",
-  "description": "Short description",
-  "defaultFormat": "text-entry",
-  "questions": [
+  "nodes": [
     {
-      "id": "unique-id",
-      "question": "Question text?",
-      "answer": "Canonical answer",
-      "alternateAnswers": ["Alt spelling", "Nickname"],
-      "explanation": "1-2 memorable sentences. Not just restating the answer.",
-      "cardFront": "Optional: short label for flashcard front (falls back to question)",
-      "cardBack": "Optional: short label for flashcard back (falls back to answer)"
+      "id": "category/subcategory",
+      "parentId": "category",
+      "name": "Display Name",
+      "description": "Short description"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "category/subcategory/exercise-name",
+      "nodeId": "category/subcategory",
+      "name": "Exercise Name",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "item-slug",
+          "prompt": "Question text?",
+          "answer": "Canonical answer",
+          "alternates": ["Alt spelling"],
+          "explanation": "Memorable explanation.",
+          "cardFront": "Optional: flashcard front",
+          "cardBack": "Optional: flashcard back"
+        }
+      ]
     }
   ]
 }
 ```
 
-Module ID convention: `{prefix}-{topic}` where prefix is `geo`, `hist`, `sci`, `lit`, `ent`, `sport`.
+For fill-blanks exercises, add `"config": { "ordered": false, "prompt": "Name all X..." }` to the exercise, and items don't need `prompt`.
+
+Root category nodes are in `seeds/_categories.json` (18 Learned League categories).
 
 ## D1 Database
 
 - Name: `trivia-trainer`
 - ID: `f647046c-e114-41ca-9231-7942bdfb8b82`
 - Region: WNAM
-- Tables: `modules`, `questions`
-- Schema: `migrations/0001_schema.sql` + `migrations/0002_format_refactor.sql` + `migrations/0003_card_front.sql`
+- Tables: `nodes`, `exercises`, `items`
+- Schema: `migrations/0001_schema.sql` through `migrations/0004_redesign.sql`
 
 ## Architecture Notes
 
-- **Questions are format-agnostic.** Don't add format-specific question types. Store canonical answer text on every question; format-specific data (MC options, matching pairs) is optional/supplementary.
-- **Flashcard fields are separate from quiz fields.** `cardFront`/`cardBack` are optional per-question fields for Learn mode. They fall back to `question`/`answer` when not set. Modules with these fields get a reversible direction toggle in Learn mode.
+- **Three-table schema**: nodes (navigation tree), exercises (interactive content), items (atomic facts). Questions are now items with format-specific `data` JSON.
+- **Two exercise formats**: `text-entry` (type answer for each item) and `fill-blanks` (guess all items). Format determines quiz behavior; Learn mode is always a viewing mode.
+- **Hierarchical nodes**: Categories -> subcategories -> exercises. Node IDs are slash-separated paths (e.g., `science/chemistry`). Breadcrumbs derived by splitting on `/`.
+- **Display types are exercise-level**: `displayType` on exercises selects the Learn mode renderer (cards, periodic-table, map, timeline). Not hardcoded by exercise ID.
 - **MCP is lazy-imported** in the worker (`await import('agents/mcp')`) to avoid breaking vitest-pool-workers. Don't change this to a static import.
 - **Two vitest configs**: `vitest.unit.config.ts` for pure functions, `vitest.config.ts` for Workers pool integration tests. Don't merge them.
 - **Vite config is separate**: `vite.config.app.ts` builds the React SPA. It's distinct from the vitest configs.
