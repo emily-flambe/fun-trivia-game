@@ -1,9 +1,9 @@
 {
   "id": "hist-us-presidents",
   "category": "history",
-  "name": "US Presidents — By Number",
+  "name": "US Presidents in Order",
   "tier": "foundation",
-  "description": "Given a president number, name the president. Good for random quiz mode to test recall by number.",
+  "description": "All 47 US presidents in chronological order. Learn mode shows the full list; Quiz mode tests recall by number.",
   "defaultFormat": "text-entry",
   "questions": [
     {

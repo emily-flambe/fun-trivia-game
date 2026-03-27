@@ -28,6 +28,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	const [input, setInput] = useState('');
 	const [currentResult, setCurrentResult] = useState<CheckResult | null>(null);
 	const [checking, setChecking] = useState(false);
+	const [expandedLearnItem, setExpandedLearnItem] = useState<string | null>(null);
 	const inputRef = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
@@ -41,19 +42,62 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	}, [moduleId, mode]);
 
 	useEffect(() => {
-		if (state.status === 'in-progress' && inputRef.current) {
+		if (state.status === 'in-progress' && inputRef.current && mode !== 'learn') {
 			inputRef.current.focus();
 		}
-	}, [state.current, state.status]);
+	}, [state.current, state.status, mode]);
 
 	if (state.status === 'loading' || !mod) {
-		return <div className="text-center text-text-tertiary py-16">Loading quiz...</div>;
+		return <div className="text-center text-text-tertiary py-16">Loading...</div>;
+	}
+
+	// ─── LEARN MODE: Full reference list ───
+	if (mode === 'learn') {
+		return (
+			<div className="animate-in">
+				<div className="flex items-center gap-3 mb-6">
+					<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
+					<div className="flex-1">
+						<h2 className="text-xl font-bold tracking-tight">{mod.name}</h2>
+						<p className="text-sm text-text-tertiary">{state.questions.length} items</p>
+					</div>
+					<a
+						href={`#/quiz/${moduleId}?mode=quiz`}
+						className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
+					>
+						Quiz Me
+					</a>
+				</div>
+
+				<div className="space-y-1">
+					{state.questions.map((q, i) => (
+						<div key={q.id}>
+							<button
+								onClick={() => setExpandedLearnItem(expandedLearnItem === q.id ? null : q.id)}
+								className="w-full text-left px-4 py-3 rounded-xl hover:bg-surface-raised transition-colors flex items-baseline gap-3 group"
+							>
+								<span className="text-text-tertiary text-sm font-mono w-8 text-right shrink-0">
+									{i + 1}
+								</span>
+								<span className="font-medium group-hover:text-white transition-colors">
+									{q.answer}
+								</span>
+							</button>
+							{expandedLearnItem === q.id && (
+								<div className="ml-15 pl-11 pr-4 pb-3 text-sm text-text-secondary">
+									{q.explanation}
+								</div>
+							)}
+						</div>
+					))}
+				</div>
+			</div>
+		);
 	}
 
 	const question = state.questions[state.current];
-	const isLearn = mode === 'learn';
 	const progress = `${state.current + 1} / ${state.questions.length}`;
-	const progressPct = ((state.current) / state.questions.length) * 100;
+	const progressPct = (state.current / state.questions.length) * 100;
 
 	async function handleSubmit(e: React.FormEvent) {
 		e.preventDefault();
@@ -94,7 +138,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		}
 	}
 
-	// Quiz complete — show summary
+	// ─── QUIZ COMPLETE: Summary ───
 	if (state.status === 'complete') {
 		const correct = state.answers.filter((a) => a.correct).length;
 		const total = state.answers.length;
@@ -141,18 +185,21 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 				)}
 
 				<div className="mt-6 flex gap-3">
-					<a href={`#/quiz/${moduleId}?mode=${mode}`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+					<a href={`#/quiz/${moduleId}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 						Try Again
 					</a>
+					<a href={`#/quiz/${moduleId}?mode=learn`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						Study List
+					</a>
 					<a href={`#/category/${mod.category}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-						Back to Category
+						Back
 					</a>
 				</div>
 			</div>
 		);
 	}
 
-	// Active question
+	// ─── QUIZ MODE: One question at a time ───
 	return (
 		<div className="animate-in">
 			<div className="flex items-center gap-3 mb-4">
@@ -161,7 +208,6 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 				<span className="text-sm text-text-tertiary font-medium">{progress}</span>
 			</div>
 
-			{/* Progress bar */}
 			<div className="h-1 bg-border-subtle rounded-full mb-6">
 				<div className="h-1 bg-gradient-to-r from-action to-accent rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }} />
 			</div>
@@ -169,19 +215,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 			<div className="bg-surface-raised rounded-2xl p-8">
 				<div className="text-lg mb-6">{question.question}</div>
 
-				{isLearn ? (
-					// Learn mode — show answer immediately
-					<div>
-						<div className="bg-correct-bg border border-correct-border rounded-xl p-5 mb-4">
-							<div className="font-semibold text-correct mb-1">{question.answer}</div>
-							<div className="text-sm text-text-secondary">{question.explanation}</div>
-						</div>
-						<button onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-							Next
-						</button>
-					</div>
-				) : state.status === 'showing-result' && currentResult ? (
-					// Showing result after answer
+				{state.status === 'showing-result' && currentResult ? (
 					<div>
 						<div
 							className={`rounded-xl p-5 mb-4 border ${
@@ -208,7 +242,6 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 						</button>
 					</div>
 				) : (
-					// Input form
 					<div>
 						<form onSubmit={handleSubmit} className="flex gap-3">
 							<input
