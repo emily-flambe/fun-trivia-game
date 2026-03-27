@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { getRandomExerciseId } from './lib/api';
 import { Dashboard } from './components/Dashboard';
 import { NodeView } from './components/NodeView';
 import { ExerciseView } from './components/ExerciseView';
@@ -36,10 +37,18 @@ export function App() {
 
 	return (
 		<div className="min-h-screen bg-surface text-text-primary font-sans">
-			<nav className="px-6 py-4 flex items-center justify-between">
+			<nav className="px-4 sm:px-6 py-4 flex items-center justify-between">
 				<a href="#/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
 					Trivia Trainer
 				</a>
+				<button
+					onClick={() => getRandomExerciseId().then((id) => {
+						if (id) window.location.hash = `/exercise/${id}?mode=quiz`;
+					}).catch(() => {})}
+					className="text-sm font-medium text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+				>
+					Random
+				</button>
 			</nav>
 			<main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
 				{route.page === 'dashboard' && <Dashboard />}

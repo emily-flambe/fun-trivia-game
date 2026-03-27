@@ -79,6 +79,12 @@ export async function getExercise(path: string): Promise<ExerciseDetail> {
 	return res.json() as Promise<ExerciseDetail>;
 }
 
+export async function getRandomExerciseId(): Promise<string> {
+	const res = await fetch(`${BASE}/exercises/random`);
+	const data = await res.json() as { id: string };
+	return data.id;
+}
+
 export async function checkAnswer(
 	exercisePath: string,
 	body: { itemId?: string; answer: string }

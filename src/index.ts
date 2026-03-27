@@ -50,6 +50,12 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return json({ ...result, breadcrumbs });
 		}
 
+		if (path === '/api/exercises/random') {
+			const id = await repo.getRandomExerciseId();
+			if (!id) return json({ error: 'No exercises found' }, 404);
+			return json({ id });
+		}
+
 		// POST /api/exercises/:path+/check — MUST be before exercise detail route
 		const checkMatch = path.match(/^\/api\/exercises\/(.+)\/check$/);
 		if (checkMatch && request.method === 'POST') {

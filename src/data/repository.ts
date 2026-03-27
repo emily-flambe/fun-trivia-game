@@ -167,6 +167,13 @@ export class NodeRepository {
 		return rows.results.map(mapNode);
 	}
 
+	async getRandomExerciseId(): Promise<string | null> {
+		const row = await this.db
+			.prepare(`SELECT id FROM exercises ORDER BY RANDOM() LIMIT 1`)
+			.first<{ id: string }>();
+		return row?.id ?? null;
+	}
+
 	async getExercise(id: string): Promise<{ exercise: Exercise; items: Item[] } | null> {
 		const exerciseRow = await this.db
 			.prepare(

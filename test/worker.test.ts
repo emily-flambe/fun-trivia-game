@@ -165,6 +165,20 @@ describe('Trivia API', () => {
 		});
 	});
 
+	// ─── Exercises: random ───────────────────────────────────
+
+	describe('GET /api/exercises/random', () => {
+		it('returns a random exercise id', async () => {
+			const res = await makeRequest('/api/exercises/random');
+			expect(res.status).toBe(200);
+			const data = await res.json<{ id: string }>();
+			expect(data.id).toBeDefined();
+			expect(typeof data.id).toBe('string');
+			// Should be one of the seeded exercises
+			expect(['science/chemistry/element-symbols', 'science/chemistry/noble-gases']).toContain(data.id);
+		});
+	});
+
 	// ─── Exercises: detail ────────────────────────────────────
 
 	describe('GET /api/exercises/:id', () => {
