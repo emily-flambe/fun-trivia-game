@@ -51,46 +51,69 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 		return <div className="text-center text-text-tertiary py-16">Loading...</div>;
 	}
 
-	// ─── LEARN MODE: Full reference list ───
+	// ─── LEARN MODE: Flashcards ───
 	if (mode === 'learn') {
+		const card = state.questions[state.current];
+		if (!card) return null;
+
+		function handleLearnNext() {
+			setFlipped(false);
+			const next = state.current + 1;
+			if (next >= state.questions.length) {
+				setState((s) => ({ ...s, current: 0 })); // loop back
+			} else {
+				setState((s) => ({ ...s, current: next }));
+			}
+		}
+
+		function handleLearnPrev() {
+			setFlipped(false);
+			const prev = state.current - 1;
+			if (prev < 0) {
+				setState((s) => ({ ...s, current: state.questions.length - 1 }));
+			} else {
+				setState((s) => ({ ...s, current: prev }));
+			}
+		}
+
 		return (
 			<div className="animate-in">
 				<div className="flex items-center gap-3 mb-6">
 					<a href={`#/category/${mod.category}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
-					<div className="flex-1">
-						<h2 className="text-xl font-bold tracking-tight">{mod.name}</h2>
-						<p className="text-sm text-text-tertiary">{state.questions.length} items</p>
-					</div>
+					<h2 className="text-lg font-semibold flex-1 tracking-tight">{mod.name}</h2>
+					<span className="text-sm text-text-tertiary">{state.current + 1} / {state.questions.length}</span>
+				</div>
+
+				<div
+					onClick={() => setFlipped(!flipped)}
+					className="bg-surface-raised rounded-2xl p-8 min-h-[200px] flex flex-col items-center justify-center cursor-pointer select-none hover:bg-surface-hover transition-colors"
+				>
+					{!flipped ? (
+						<div className="text-center">
+							<div className="text-lg">{card.question}</div>
+							<div className="text-sm text-text-tertiary mt-4">tap to flip</div>
+						</div>
+					) : (
+						<div className="text-center">
+							<div className="text-2xl font-bold text-accent mb-3">{card.answer}</div>
+							<div className="text-sm text-text-secondary max-w-lg">{card.explanation}</div>
+						</div>
+					)}
+				</div>
+
+				<div className="flex justify-between items-center mt-4">
+					<button onClick={handleLearnPrev} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-4 py-2 rounded-xl font-medium transition-all duration-200">
+						&larr; Prev
+					</button>
 					<a
 						href={`#/quiz/${moduleId}?mode=quiz`}
-						className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
+						className="text-sm text-text-tertiary hover:text-accent transition-colors"
 					>
 						Quiz Me
 					</a>
-				</div>
-
-				<div className="space-y-1">
-					{state.questions.map((q, i) => (
-						<div key={q.id}>
-							<button
-								onClick={() => setExpandedLearnItem(expandedLearnItem === q.id ? null : q.id)}
-								className="w-full text-left px-4 py-3 rounded-xl hover:bg-surface-raised transition-colors flex items-baseline gap-3 group"
-							>
-								<span className="text-text-tertiary text-sm font-mono w-8 text-right shrink-0">
-									{i + 1}
-								</span>
-								<span className="font-medium group-hover:text-accent transition-colors">
-									{q.answer}
-								</span>
-							</button>
-							{expandedLearnItem === q.id && (
-								<div className="ml-15 pl-11 pr-4 pb-3 text-sm">
-									<div className="text-text-primary mb-1">{q.question}</div>
-									<div className="text-text-tertiary">{q.explanation}</div>
-								</div>
-							)}
-						</div>
-					))}
+					<button onClick={handleLearnNext} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-4 py-2 rounded-xl font-medium transition-all duration-200">
+						Next &rarr;
+					</button>
 				</div>
 			</div>
 		);
