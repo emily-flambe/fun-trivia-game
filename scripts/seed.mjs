@@ -35,10 +35,11 @@ async function loadSeedFiles() {
 
 function buildItemData(exercise, item) {
 	const data = {};
+	// cardFront/cardBack are format-agnostic (any exercise can have Learn mode cards)
+	if (item.cardFront) data.cardFront = item.cardFront;
+	if (item.cardBack) data.cardBack = item.cardBack;
 	if (exercise.format === 'text-entry') {
 		if (item.prompt) data.prompt = item.prompt;
-		if (item.cardFront) data.cardFront = item.cardFront;
-		if (item.cardBack) data.cardBack = item.cardBack;
 	} else if (exercise.format === 'fill-blanks') {
 		if (item.label) data.label = item.label;
 	}
