@@ -1,121 +1,100 @@
-export type Category = 'geography' | 'history' | 'science' | 'literature' | 'entertainment' | 'sports';
-export type Tier = 'foundation' | 'core' | 'advanced';
-export type QuizMode = 'learn' | 'quiz' | 'review-mistakes' | 'random-10';
+// === Exercise formats and display types ===
 
-/**
- * QuestionFormat defines how a question is *presented* and *answered*.
- * This is separate from the question content itself — the same question
- * can be rendered in multiple formats.
- *
- * Currently implemented: 'text-entry'
- * Planned: 'multiple-choice', 'true-false', 'matching', 'select-many', 'ordered-list'
- */
-export type QuestionFormat = 'text-entry' | 'multiple-choice' | 'true-false' | 'matching' | 'select-many' | 'ordered-list';
+export type ExerciseFormat = 'text-entry' | 'fill-blanks';
+export type DisplayType = 'cards' | 'periodic-table' | 'map' | 'timeline';
 
-/**
- * A Question stores *content* — the fact being tested.
- * Format-specific rendering data (MC options, matching pairs) is optional
- * and supplementary. The canonical answer is always `answer` (text).
- *
- * This lets the same question be presented in multiple formats:
- * - text-entry: user types `answer`
- * - multiple-choice: pick from `options` (auto-generated if not provided)
- * - true-false: "Is [statement] true?" using `answer` to validate
- * - matching: pair items from `matchPairs`
- */
-export interface Question {
-	id: string;
-	moduleId: string;
-	question: string;
-	answer: string;
-	alternateAnswers: string[];
-	explanation: string;
-	cardFront?: string;
-	cardBack?: string;
-	sortOrder: number;
+// === Core domain types ===
 
-	// Format-specific supplementary data (optional)
-	// Multiple-choice options — if absent, can be auto-generated from other answers in the module
-	options?: string[];
-	correctIndex?: number;
-	// Matching pairs — for matching format
-	matchPairs?: { left: string; right: string }[];
+export interface Node {
+  id: string;
+  parentId: string | null;
+  name: string;
+  description: string;
+  sortOrder: number;
+  childCount?: number;
+  exerciseCount?: number;
 }
 
-export interface QuizModule {
-	id: string;
-	category: Category;
-	name: string;
-	tier: Tier;
-	description: string;
-	defaultFormat: QuestionFormat;
-	questionCount: number;
+export interface Exercise {
+  id: string;
+  nodeId: string;
+  name: string;
+  description: string;
+  format: ExerciseFormat;
+  displayType?: DisplayType;
+  config?: FillBlanksConfig;
+  sortOrder: number;
+  itemCount?: number;
 }
 
-export interface QuizModuleWithQuestions extends QuizModule {
-	questions: Question[];
+export interface FillBlanksConfig {
+  ordered: boolean;
+  prompt: string;
 }
 
-export interface CategoryInfo {
-	id: Category;
-	name: string;
-	color: string;
-	moduleCount: number;
-	tiers: {
-		foundation: number;
-		core: number;
-		advanced: number;
-	};
+export interface Item {
+  id: string;
+  exerciseId: string;
+  answer: string;
+  alternates: string[];
+  explanation: string;
+  data: TextEntryData | FillBlanksData;
+  sortOrder: number;
 }
 
-export interface QuestionProgress {
-	seen: number;
-	correct: number;
-	incorrect: number;
-	lastSeen: string;
+export interface TextEntryData {
+  prompt: string;
+  cardFront?: string;
+  cardBack?: string;
 }
 
-export interface ModuleProgress {
-	questions: Record<string, QuestionProgress>;
+export interface FillBlanksData {
+  label?: string;
 }
 
-export interface StreakData {
-	currentStreak: number;
-	lastActiveDate: string;
-}
-
-export interface QuizSession {
-	moduleId: string;
-	mode: QuizMode;
-	format: QuestionFormat;
-	questions: Question[];
-	currentIndex: number;
-	answers: SessionAnswer[];
-	startedAt: string;
-	status: 'in-progress' | 'complete';
-}
-
-export interface SessionAnswer {
-	questionId: string;
-	correct: boolean;
-	userAnswer: string;
-	timeSpentMs: number;
-}
+// === Answer checking ===
 
 export interface CheckAnswerResult {
-	correct: boolean;
-	correctAnswer: string;
-	explanation: string;
-	userAnswer: string;
-	fuzzyMatch: boolean;
+  correct: boolean;
+  correctAnswer: string;
+  explanation: string;
+  userAnswer: string;
+  fuzzyMatch: boolean;
 }
 
-// Category display metadata (static, not in DB)
-export const CATEGORY_META: Record<Category, { name: string; color: string }> = {
-	geography: { name: 'Geography', color: '#34d399' },
-	history: { name: 'History', color: '#fbbf24' },
-	science: { name: 'Science', color: '#38bdf8' },
-	literature: { name: 'Literature', color: '#a78bfa' },
-	entertainment: { name: 'Entertainment', color: '#f472b6' },
-	sports: { name: 'Sports & Games', color: '#fb923c' },
-};
+export interface FillBlanksCheckResult {
+  matched: boolean;
+  matchedItemId?: string;
+  position?: number;
+  userAnswer: string;
+  fuzzyMatch: boolean;
+}
+
+// === Learned League categories ===
+
+export interface LLCategory {
+  id: string;
+  name: string;
+  color: string;
+}
+
+export const LL_CATEGORIES: LLCategory[] = [
+  { id: 'american-history', name: 'American History', color: '#dc2626' },
+  { id: 'world-history', name: 'World History', color: '#ea580c' },
+  { id: 'science', name: 'Science', color: '#2563eb' },
+  { id: 'literature', name: 'Literature', color: '#7c3aed' },
+  { id: 'social-sciences', name: 'Social Sciences', color: '#0891b2' },
+  { id: 'pop-music', name: 'Pop Music', color: '#e11d48' },
+  { id: 'classical-music', name: 'Classical Music', color: '#9333ea' },
+  { id: 'jazz', name: 'Jazz', color: '#c026d3' },
+  { id: 'film', name: 'Film', color: '#d946ef' },
+  { id: 'television', name: 'Television', color: '#f43f5e' },
+  { id: 'geography', name: 'Geography', color: '#059669' },
+  { id: 'lifestyle', name: 'Lifestyle', color: '#0d9488' },
+  { id: 'sports', name: 'Sports', color: '#ca8a04' },
+  { id: 'current-events', name: 'Current Events', color: '#64748b' },
+  { id: 'business-economics', name: 'Business/Economics', color: '#475569' },
+  { id: 'technology', name: 'Technology', color: '#0284c7' },
+  { id: 'food-drink', name: 'Food & Drink', color: '#65a30d' },
+  { id: 'miscellaneous', name: 'Miscellaneous', color: '#78716c' },
+];
