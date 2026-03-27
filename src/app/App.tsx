@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Dashboard } from './components/Dashboard';
 import { CategoryView } from './components/CategoryView';
 import { QuizView } from './components/QuizView';
-import { LearnView } from './components/LearnView';
 
 type Route =
 	| { page: 'dashboard' }
@@ -40,14 +39,10 @@ export function App() {
 					Trivia Trainer
 				</a>
 			</nav>
-			<main className={`mx-auto px-6 py-8 ${route.page === 'quiz' && route.mode === 'learn' ? 'max-w-6xl' : 'max-w-4xl'}`}>
+			<main className="max-w-4xl mx-auto px-6 py-8">
 				{route.page === 'dashboard' && <Dashboard />}
 				{route.page === 'category' && <CategoryView categoryId={route.id} />}
-				{route.page === 'quiz' && (
-					route.mode === 'learn'
-						? <LearnView moduleId={route.moduleId} />
-						: <QuizView moduleId={route.moduleId} mode={route.mode} />
-				)}
+				{route.page === 'quiz' && <QuizView moduleId={route.moduleId} mode={route.mode} />}
 			</main>
 		</div>
 	);

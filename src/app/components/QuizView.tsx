@@ -28,7 +28,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 	const [input, setInput] = useState('');
 	const [currentResult, setCurrentResult] = useState<CheckResult | null>(null);
 	const [checking, setChecking] = useState(false);
-	const [expandedLearnItem, setExpandedLearnItem] = useState<string | null>(null);
+	const [flipped, setFlipped] = useState(false);
 	const inputRef = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
@@ -79,13 +79,14 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 								<span className="text-text-tertiary text-sm font-mono w-8 text-right shrink-0">
 									{i + 1}
 								</span>
-								<span className="font-medium group-hover:text-white transition-colors">
+								<span className="font-medium group-hover:text-accent transition-colors">
 									{q.answer}
 								</span>
 							</button>
 							{expandedLearnItem === q.id && (
-								<div className="ml-15 pl-11 pr-4 pb-3 text-sm text-text-secondary">
-									{q.explanation}
+								<div className="ml-15 pl-11 pr-4 pb-3 text-sm">
+									<div className="text-text-primary mb-1">{q.question}</div>
+									<div className="text-text-tertiary">{q.explanation}</div>
 								</div>
 							)}
 						</div>
@@ -97,7 +98,7 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 
 	const question = state.questions[state.current];
 	const progress = `${state.current + 1} / ${state.questions.length}`;
-	const progressPct = (state.current / state.questions.length) * 100;
+	const progressPct = (state.answers.length / state.questions.length) * 100;
 
 	async function handleSubmit(e: React.FormEvent) {
 		e.preventDefault();
@@ -262,13 +263,15 @@ export function QuizView({ moduleId, mode }: { moduleId: string; mode: string })
 								{checking ? '...' : 'Submit'}
 							</button>
 						</form>
-						<button
-							onClick={handleGiveUp}
-							disabled={checking}
-							className="mt-3 text-sm text-text-tertiary hover:text-accent transition-colors disabled:opacity-50"
-						>
-							Give up
-						</button>
+						<div className="mt-3 flex justify-end">
+							<button
+								onClick={handleGiveUp}
+								disabled={checking}
+								className="text-sm font-medium text-text-tertiary hover:text-incorrect transition-colors disabled:opacity-50 px-3 py-1.5 rounded-lg hover:bg-incorrect-bg"
+							>
+								Skip &amp; reveal answer
+							</button>
+						</div>
 					</div>
 				)}
 			</div>
