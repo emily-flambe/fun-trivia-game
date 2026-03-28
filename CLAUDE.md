@@ -41,6 +41,10 @@ curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
 ```
 Do NOT assume "not in seed files" means "doesn't exist." Check the API.
 
+## Linear Labels for Content Tickets
+
+All trivia content creation tickets MUST have the `agent:trivia-content` label. This label identifies tickets that the trivia content agent (Orca) can pick up autonomously. When creating or updating Linear tickets for seed file work, quiz content, or exercise creation, always include `agent:trivia-content` in the labels array.
+
 ## Adding Quiz Content
 
 **Read `docs/CONTENT_GUIDE.md` before writing or modifying seed files.** It defines explanation standards, format selection, card design, and all content conventions.
