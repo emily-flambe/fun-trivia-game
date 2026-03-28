@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "art/modern-contemporary", "parentId": "art", "name": "Photography & Modern Art", "description": "Landmark photographers and contemporary artists from the 20th and 21st centuries" }
+  ],
+  "exercises": [
+    {
+      "id": "art/modern-contemporary/photography-modern-art",
+      "nodeId": "art/modern-contemporary",
+      "name": "Photography & Modern Art",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "ansel-adams",
+          "prompt": "Which American photographer, famous for dramatic black-and-white images of the American West (especially Yosemite), co-developed the Zone System for precise exposure control and co-founded Group f/64?",
+          "answer": "Ansel Adams",
+          "alternates": ["Adams"],
+          "explanation": "American, 1902\u20131984, born in San Francisco\nBest known for majestic black-and-white landscape photographs of Yosemite, the Sierra Nevada, and the American Southwest\nFirst visited Yosemite at age 14; received his first camera (a Kodak Brownie) on that trip\nCo-developed the Zone System with Fred Archer in the 1930s \u2014 a method of controlling exposure and development to precisely map tonal values from pure black (Zone 0) to pure white (Zone X)\nCo-founded Group f/64 in 1932 with Edward Weston and others, advocating sharp-focus 'straight photography' over soft-focus pictorialism\nA passionate environmentalist; his photographs helped persuade Congress to establish Kings Canyon National Park (1940)\nHis *Moonrise, Hernandez, New Mexico* (1941) is one of the most valuable photographs ever \u2014 a print sold for $609,600 in 2006\nReceived the Presidential Medal of Freedom in 1980",
+          "cardFront": "Landscape photography \u2014 Yosemite, Zone System, black-and-white",
+          "cardBack": "Ansel Adams"
+        },
+        {
+          "id": "campbells-soup-cans",
+          "prompt": "Which 1962 artwork consisting of 32 hand-painted canvases, each depicting a different variety of a canned food product, launched Pop Art into mainstream attention when first exhibited at the Ferus Gallery in Los Angeles?",
+          "answer": "Campbell's Soup Cans",
+          "alternates": ["Campbell's Soup Cans by Andy Warhol", "32 Campbell's Soup Cans"],
+          "explanation": "Andy Warhol, synthetic polymer paint on canvas (32 canvases), 1962, Museum of Modern Art (MoMA), New York\nEach of the 32 canvases depicts a different variety of Campbell's condensed soup \u2014 one for every flavor the company sold at the time\nFirst exhibited at the Ferus Gallery in Los Angeles in July 1962, displayed on shelves like products in a grocery store\nWarhol said he chose soup because he had it for lunch every day for 20 years \u2014 though this may be apocryphal\nEach canvas measures 50.8 x 40.6 cm (20 x 16 in); the earliest canvases were hand-painted, not silkscreened\nThe work challenged the boundary between fine art and commercial design, a central Pop Art concern\nMoMA acquired all 32 canvases as a set in 1996 for approximately $15 million\nCampbell's initially considered legal action but eventually embraced the association, commissioning Warhol to paint a can of their new tomato-rice flavor",
+          "cardFront": "Pop Art \u2014 32 canned soup paintings, 1962, Ferus Gallery debut",
+          "cardBack": "Campbell's Soup Cans"
+        },
+        {
+          "id": "duchamp-fountain",
+          "prompt": "Which 1917 'readymade' \u2014 a mass-produced porcelain urinal turned on its side and signed 'R. Mutt' \u2014 was submitted to a New York exhibition by a French-American artist and is considered the most influential artwork of the 20th century?",
+          "answer": "Fountain",
+          "alternates": ["Fountain by Duchamp", "Fountain by Marcel Duchamp"],
+          "explanation": "Marcel Duchamp, porcelain urinal (readymade), 1917 (original lost; replicas from 1950 onward)\nA standard Bedfordshire-type urinal purchased from J.L. Mott Iron Works in New York, turned 90 degrees and signed 'R. Mutt 1917'\nSubmitted to the Society of Independent Artists exhibition in 1917, which claimed to accept all works; the committee rejected it regardless\nDuchamp resigned from the Society's board in protest; the rejection became the point \u2014 who decides what is art?\nThe original was lost (likely discarded); Duchamp authorized 17 replicas in the 1950s and 1960s\nVoted the most influential artwork of the 20th century in a 2004 survey of 500 art professionals by Turner Prize sponsors\nCoined the concept of the 'readymade' \u2014 an ordinary manufactured object designated as art by the artist's choice\nDuchamp's other readymades include a bicycle wheel on a stool (1913) and a snow shovel titled *In Advance of the Broken Arm* (1915)",
+          "cardFront": "Conceptual art \u2014 urinal readymade signed 'R. Mutt,' 1917",
+          "cardBack": "Fountain (Duchamp)"
+        },
+        {
+          "id": "damien-hirst",
+          "prompt": "Which British artist, a leading member of the Young British Artists group, placed a 14-foot tiger shark in formaldehyde in a glass case in 1991, titling it *The Physical Impossibility of Death in the Mind of Someone Living*?",
+          "answer": "Damien Hirst",
+          "alternates": ["Hirst"],
+          "explanation": "British, born 1965 in Bristol, raised in Leeds\nThe shark in formaldehyde, *The Physical Impossibility of Death in the Mind of Someone Living* (1991), was commissioned by collector Charles Saatchi for \u00a350,000\nThe original shark deteriorated and was replaced with a new specimen in 2006\nA leading member of the Young British Artists (YBAs) who emerged from Goldsmiths College in the late 1980s\nHis diamond-encrusted platinum skull, *For the Love of God* (2007), reportedly cost \u00a314 million to produce and was listed at \u00a350 million\nOrganized the landmark *Freeze* exhibition (1988) while still a student, which launched the YBA movement\n*Beautiful Inside My Head Forever* (2008) was sold directly at Sotheby's, bypassing galleries, and raised \u00a3111 million in two days\nHis 'spot paintings' and 'spin paintings' are deliberately produced by studio assistants, challenging notions of artistic authorship",
+          "cardFront": "YBA \u2014 shark in formaldehyde, diamond skull",
+          "cardBack": "Damien Hirst"
+        },
+        {
+          "id": "jeff-koons",
+          "prompt": "Which American artist is known for monumental stainless-steel sculptures of everyday objects like balloon animals, exhibited at venues including the Palace of Versailles, and whose *Rabbit* (1986) sold for $91.1 million in 2019?",
+          "answer": "Jeff Koons",
+          "alternates": ["Koons"],
+          "explanation": "American, born 1955 in York, Pennsylvania\n*Balloon Dog* sculptures are his most recognizable works \u2014 five unique versions in different colors, each over 10 feet tall, made of mirror-polished stainless steel\n*Rabbit* (1986), a stainless-steel cast of an inflatable rabbit, sold at Christie's in 2019 for $91.1 million \u2014 a record for a living artist at the time\nWorks are manufactured by teams of over 100 studio assistants using industrial processes; Koons directs but rarely fabricates\nElevates kitsch and commercial objects to high art: vacuum cleaners in display cases, porcelain Michael Jackson, giant Play-Doh pile\nA retrospective at the Palace of Versailles in 2008 was both celebrated and controversial\nWorked as a Wall Street commodities broker in the early 1980s to fund his art\nCritics are sharply divided: some see brilliant commentary on consumer culture, others see cynical commercialism",
+          "cardFront": "Contemporary art \u2014 *Balloon Dog*, *Rabbit*, kitsch elevated",
+          "cardBack": "Jeff Koons"
+        },
+        {
+          "id": "ai-weiwei",
+          "prompt": "Which Chinese dissident artist and activist created an installation of 100 million hand-painted porcelain sunflower seeds at Tate Modern in 2010, and helped design the 'Bird's Nest' stadium for the 2008 Beijing Olympics before publicly disavowing the games?",
+          "answer": "Ai Weiwei",
+          "alternates": ["Weiwei"],
+          "explanation": "Chinese, born 1957 in Beijing; son of poet Ai Qing, who was persecuted during the Cultural Revolution\n*Sunflower Seeds* (2010) at Tate Modern: 100 million hand-crafted porcelain seeds, each individually sculpted and painted by 1,600 workers in Jingdezhen over two and a half years\nCollaborated with architects Herzog & de Meuron on the Beijing National Stadium ('Bird's Nest') for the 2008 Olympics, then publicly boycotted the games as propaganda\nDetained by Chinese authorities for 81 days in 2011 without formal charges; his passport was confiscated for four years\n*Remembering* (2009): covered the facade of Munich's Haus der Kunst with 9,000 children's backpacks spelling out a quote about the Sichuan earthquake, in which thousands of children died in poorly built schools\nDocumented the European refugee crisis in the film *Human Flow* (2017)\nHis Beijing studio was demolished by Chinese authorities in 2011; now lives in exile, primarily in Portugal\nUses social media (especially Instagram) as an artistic and activist medium",
+          "cardFront": "Chinese dissident \u2014 *Sunflower Seeds*, Bird's Nest collaborator",
+          "cardBack": "Ai Weiwei"
+        },
+        {
+          "id": "yayoi-kusama",
+          "prompt": "Which Japanese artist, born in 1929 and voluntarily living in a psychiatric institution since 1977, is known for obsessive polka-dot patterns and immersive mirrored rooms that create the illusion of infinite space?",
+          "answer": "Yayoi Kusama",
+          "alternates": ["Kusama"],
+          "explanation": "Japanese, born 1929 in Matsumoto City, Nagano Prefecture; has voluntarily lived in a psychiatric hospital in Tokyo since 1977\nInfinity Mirror Rooms: immersive installations using mirrors and lights to create the sensation of endless, cosmic space; first created in 1965\nHer obsessive repetition of polka dots stems from childhood hallucinations she describes as seeing dots covering everything\nMoved to New York in 1958; became part of the avant-garde scene alongside Donald Judd and Claes Oldenburg\nOrganized nude happenings and anti-war protests in New York in the 1960s; returned to Japan in 1973\nHer pumpkin sculptures, often covered in polka dots, have become iconic \u2014 a yellow pumpkin on Naoshima island is a major tourist attraction\nNow the world's top-selling female artist at auction; her works regularly sell for tens of millions\nProduces paintings daily from her studio near the hospital, often on large canvases covered in her signature 'infinity nets'",
+          "cardFront": "Japanese \u2014 Infinity Mirror Rooms, polka dots, pumpkins",
+          "cardBack": "Yayoi Kusama"
+        },
+        {
+          "id": "cindy-sherman",
+          "prompt": "Which American artist created *Untitled Film Stills* (1977\u20131980), a series of 69 black-and-white photographs in which she posed as stereotypical female characters from 1950s and 1960s B-movies, exploring identity and gender representation?",
+          "answer": "Cindy Sherman",
+          "alternates": ["Sherman"],
+          "explanation": "American, born 1954 in Glen Ridge, New Jersey\n*Untitled Film Stills* (1977\u20131980): 69 black-and-white photographs in which she appears as various female archetypes inspired by 1950s\u20131960s film and media imagery\nEvery photograph features Sherman herself, but she rejects being called a self-portrait artist \u2014 the work is about constructed identity, not autobiography\nThe complete set of *Untitled Film Stills* was acquired by MoMA in 1995 for $1 million\nHer *Untitled #96* (1981) \u2014 a centerfold-format image of a teenage girl clutching a newspaper clipping \u2014 sold for $3.89 million in 2011\nLater series explored grotesque and disturbing imagery: prosthetic body parts, clown faces, fairy tales, Old Master paintings\nPart of the Pictures Generation of artists (alongside Richard Prince and Sherrie Levine) who deconstructed mass media imagery\nReceived a MacArthur Fellowship in 1995",
+          "cardFront": "Photography \u2014 *Untitled Film Stills*, self-as-others, identity",
+          "cardBack": "Cindy Sherman"
+        },
+        {
+          "id": "man-ray",
+          "prompt": "Which American-born artist in Paris invented 'Rayographs' \u2014 cameraless photographs made by placing objects directly on light-sensitive paper \u2014 and was a key figure in both the Dada and Surrealist movements?",
+          "answer": "Man Ray",
+          "alternates": ["Emmanuel Radnitzky"],
+          "explanation": "American, 1890\u20131976, born Emmanuel Radnitzky in Philadelphia; lived in Paris for most of his career\nInvented the 'Rayograph' (his term for photograms): images made without a camera by placing objects directly on photosensitized paper and exposing it to light\nPublished *Les Champs d\u00e9licieux* (1922), a book of Rayographs, with an introduction by Dada leader Tristan Tzara\nRediscovered solarization (the Sabattier effect) with his assistant and lover Lee Miller, creating an eerie halo around photographic subjects\nA central figure in both Dada and Surrealism; close associates included Marcel Duchamp, Andr\u00e9 Breton, and Salvador Dal\u00ed\nAlso a painter, sculptor, and filmmaker; directed the experimental film *Le Retour \u00e0 la raison* (1923)\nHis fashion and portrait photography appeared in *Vogue* and *Harper's Bazaar*, giving Surrealist aesthetics a commercial audience\nDied in Paris in 1976; his epitaph reads 'unconcerned, but not indifferent'",
+          "cardFront": "Dada/Surrealism \u2014 Rayographs, cameraless photography, Paris",
+          "cardBack": "Man Ray"
+        },
+        {
+          "id": "robert-mapplethorpe",
+          "prompt": "Which American photographer, known for austere black-and-white images of flowers, celebrity portraits, and explicitly homoerotic male nudes, sparked a national debate over government arts funding when a 1990 exhibition in Cincinnati led to obscenity charges?",
+          "answer": "Robert Mapplethorpe",
+          "alternates": ["Mapplethorpe"],
+          "explanation": "American, 1946\u20131989, born in Floral Park, Queens, New York\nKnown for technically precise black-and-white photographs: flowers (especially calla lilies and orchids), celebrity portraits, and male nudes\nHis explicitly homoerotic and sadomasochistic images ignited the 1989\u20131990 'culture wars' over government arts funding in the United States\nAn NEA-funded retrospective, *The Perfect Moment*, led to the Contemporary Arts Center in Cincinnati being charged with obscenity in 1990; the director was acquitted\nThe controversy prompted Congress to impose content restrictions on National Endowment for the Arts grants\nClose companion of Patti Smith for years; she documented their relationship in the memoir *Just Kids* (2010), which won the National Book Award\nDied of AIDS-related complications on March 9, 1989, at age 42\nEstablished the Robert Mapplethorpe Foundation before his death to fund photography exhibitions and AIDS research",
+          "cardFront": "Photography \u2014 flowers, male nudes, NEA funding controversy",
+          "cardBack": "Robert Mapplethorpe"
+        },
+        {
+          "id": "dorothea-lange",
+          "prompt": "Which American documentary photographer captured *Migrant Mother* in 1936 \u2014 a portrait of Florence Owens Thompson and her children at a California pea-pickers camp that became the defining image of the Great Depression?",
+          "answer": "Dorothea Lange",
+          "alternates": ["Lange"],
+          "explanation": "American, 1895\u20131965, born in Hoboken, New Jersey\n*Migrant Mother* (March 1936) depicts Florence Owens Thompson, age 32, with three of her seven children at a pea-pickers camp in Nipomo, California\nLange made six exposures, moving progressively closer; the final image became the most iconic photograph of the Great Depression\nThe photograph was published in newspapers and prompted the federal government to send 20,000 pounds of food to the camp\nEmployed by the Farm Security Administration (FSA) to document rural poverty and migrant workers across America\nAlso photographed the internment of Japanese Americans during WWII \u2014 the Army impounded many of her images as too sympathetic\nThompson's identity was not publicly known until 1978 when a reporter tracked her down\nLange died in 1965, shortly before a major retrospective of her work opened at MoMA",
+          "cardFront": "Documentary photography \u2014 *Migrant Mother*, Depression-era FSA",
+          "cardBack": "Dorothea Lange"
+        },
+        {
+          "id": "christo-jeanne-claude",
+          "prompt": "Which artistic duo, married partners born on the same day in 1935, wrapped the Reichstag in Berlin in silvery fabric in 1995, surrounded islands in Miami with pink fabric, and created massive outdoor installations that existed only temporarily?",
+          "answer": "Christo and Jeanne-Claude",
+          "alternates": ["Christo", "Christo and Jeanne Claude"],
+          "explanation": "Christo Vladimirov Javacheff (Bulgarian-born) and Jeanne-Claude Denat de Guillebon (French-born), both born June 13, 1935\nWrapped Reichstag, Berlin (1995): 100,000 square meters of silvery fabric and 15 km of blue rope covering the German parliament building for two weeks; seen by 5 million visitors\n*Surrounded Islands* (1983): 11 islands in Miami's Biscayne Bay encircled with 603,850 square meters of pink polypropylene fabric\n*The Gates* (2005): 7,503 saffron-colored fabric panels lining 37 km of walkways in New York's Central Park for 16 days\nAll installations were temporary by design \u2014 the transient nature was central to the art\nRefused all sponsorship and government funding; financed every project through the sale of preparatory drawings, models, and collages\nJeanne-Claude died in 2009; Christo continued working and died in 2020\nTheir final project, *L'Arc de Triomphe, Wrapped*, was realized posthumously in Paris in September 2021",
+          "cardFront": "Environmental installations \u2014 Wrapped Reichstag, *The Gates*, temporary art",
+          "cardBack": "Christo and Jeanne-Claude"
+        }
+      ]
+    }
+  ]
+}

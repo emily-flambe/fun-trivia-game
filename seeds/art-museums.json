@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "art/museums", "parentId": "art", "name": "Art Museums of the World", "description": "Major art museums and galleries worldwide" }
+  ],
+  "exercises": [
+    {
+      "id": "art/museums/world-museums",
+      "nodeId": "art/museums",
+      "name": "Art Museums of the World",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "louvre",
+          "prompt": "Which museum in Paris, housed in a former royal palace with a modern glass pyramid entrance designed by I.M. Pei, is the world's most visited art museum and home to the *Mona Lisa*, *Venus de Milo*, and *Winged Victory of Samothrace*?",
+          "answer": "Louvre",
+          "alternates": ["The Louvre", "Louvre Museum", "Mus\u00e9e du Louvre"],
+          "explanation": "Paris, France; world's largest and most visited art museum with approximately 10 million visitors annually\nHoused in the Louvre Palace, a former royal residence dating to the 12th century as a fortress under Philip II\nThe glass pyramid entrance, designed by Chinese-American architect I.M. Pei, opened in 1989 and was initially controversial\nHome to the *Mona Lisa*, *Venus de Milo*, and *Winged Victory of Samothrace* \u2014 its three most famous works\nCollection spans from antiquity to the mid-19th century, with over 380,000 objects and 35,000 on display\nOpened as a public museum in 1793 during the French Revolution, displaying the royal collection\nCovers 72,735 square meters (782,910 sq ft) of gallery space \u2014 walking every gallery would take several days\nA satellite branch, Louvre Abu Dhabi, opened in 2017 on Saadiyat Island in the UAE",
+          "cardFront": "Paris \u2014 *Mona Lisa*, glass pyramid by I.M. Pei",
+          "cardBack": "Louvre"
+        },
+        {
+          "id": "met",
+          "prompt": "Which museum on Fifth Avenue in New York City, founded in 1870, is the largest art museum in the Americas, with a collection of over 1.5 million objects spanning 5,000 years and 17 curatorial departments?",
+          "answer": "Metropolitan Museum of Art",
+          "alternates": ["The Met", "The Metropolitan Museum of Art", "Met Museum"],
+          "explanation": "New York City, USA; founded in 1870, opened in 1872; largest art museum in the Americas\nMain building on Fifth Avenue at 82nd Street along Central Park's eastern edge, designed by Richard Morris Hunt\nCollection of over 1.5 million objects spanning 5,000 years, divided into 17 curatorial departments\nNotable holdings include the Temple of Dendur (an entire Egyptian temple), European paintings, and the American Wing\nThe Met Cloisters in Fort Tryon Park houses medieval art in a building assembled from parts of five European cloisters\nAdmission was pay-what-you-wish for decades; fixed-price tickets for non-New Yorkers were introduced in 2018\nThe rooftop sculpture garden offers views of Central Park and the Manhattan skyline\nFourth-largest museum in the world by floor area, after the Louvre, Hermitage, and National Museum of China",
+          "cardFront": "New York City \u2014 largest art museum in the Americas, Fifth Avenue",
+          "cardBack": "Metropolitan Museum of Art"
+        },
+        {
+          "id": "uffizi",
+          "prompt": "Which gallery in Florence, begun in 1560 by Giorgio Vasari as offices for Florentine magistrates, houses Botticelli's *Birth of Venus* and *Primavera* and is one of the oldest art museums in the Western world?",
+          "answer": "Uffizi Gallery",
+          "alternates": ["The Uffizi", "Uffizi", "Galleria degli Uffizi"],
+          "explanation": "Florence, Italy; one of the oldest and most famous art museums in the world\nBuilt by Giorgio Vasari in 1560 as offices ('uffizi') for Florentine magistrates under Cosimo I de' Medici\nThe Medici family's art collection was bequeathed to the city of Florence in 1737 by Anna Maria Luisa de' Medici, last of the Medici line\nHome to Botticelli's *Birth of Venus* and *Primavera*, along with works by Leonardo, Michelangelo, Raphael, Titian, and Caravaggio\nThe Vasari Corridor, an elevated passageway above the Ponte Vecchio, connects the Uffizi to the Pitti Palace across the Arno\nOne of the first European galleries open to visitors by request (from 1765); formally became a public museum after Italian unification\nHoused the world's finest collection of Italian Renaissance art\nA car bomb attack by the Sicilian Mafia in 1993 killed five people and damaged several paintings",
+          "cardFront": "Florence \u2014 Botticelli's *Birth of Venus*, Medici collection",
+          "cardBack": "Uffizi Gallery"
+        },
+        {
+          "id": "prado",
+          "prompt": "Which museum in Madrid, opened in 1819, holds the world's finest collection of Spanish painting, including major works by Vel\u00e1zquez (*Las Meninas*), Goya (*The Third of May 1808*), and El Greco?",
+          "answer": "Museo del Prado",
+          "alternates": ["The Prado", "Prado Museum", "Prado"],
+          "explanation": "Madrid, Spain; opened November 19, 1819, in a neoclassical building designed by Juan de Villanueva\nHolds the world's richest collection of Spanish art: Vel\u00e1zquez, Goya, El Greco, Zurbar\u00e1n, Murillo, Ribera\nVel\u00e1zquez's *Las Meninas* (1656) is the museum's most celebrated painting, displayed in its own room\nGoya's works span both his elegant court portraits and his harrowing late 'Black Paintings,' originally painted on his dining room walls\nAlso strong in Flemish and Italian painting: Bosch's *The Garden of Earthly Delights*, Titian, Raphael, Rubens\nThe building was originally designed as a natural science museum; Ferdinand VII repurposed it as a royal painting gallery\nCollection comprises over 8,000 paintings, though only about 1,300 are on display at any time\nA major expansion designed by Rafael Moneo, incorporating the former Jer\u00f3nimos cloister, opened in 2007",
+          "cardFront": "Madrid \u2014 Vel\u00e1zquez, Goya, El Greco, Spanish masters",
+          "cardBack": "Museo del Prado"
+        },
+        {
+          "id": "hermitage",
+          "prompt": "Which museum in St. Petersburg, founded in 1764 when an empress acquired 225 paintings from a Berlin merchant, occupies the former Winter Palace and contains over three million items spanning two million years of culture?",
+          "answer": "Hermitage Museum",
+          "alternates": ["The Hermitage", "State Hermitage Museum", "Hermitage"],
+          "explanation": "St. Petersburg, Russia; founded 1764 by Empress Catherine the Great; open to the public since 1852\nBegan when Catherine acquired 225 paintings from Berlin merchant Johann Ernst Gotzkowsky\nHoused across six buildings including the Winter Palace, the former imperial residence of the Russian tsars\nCollection of over three million items makes it one of the largest museum collections in the world\nEuropean painting holdings include works by Leonardo, Raphael, Rembrandt (over 20 paintings), Matisse, and Picasso\nCatherine's collecting was voracious \u2014 she bought entire collections wholesale from European aristocrats and dealers\nThe museum is famous for its cats: dozens of cats live in the basement to control mice, a tradition dating to the 18th century\nThe name 'hermitage' means a place of solitude \u2014 Catherine originally kept her art in private rooms for personal enjoyment",
+          "cardFront": "St. Petersburg \u2014 Winter Palace, Catherine the Great's collection",
+          "cardBack": "Hermitage Museum"
+        },
+        {
+          "id": "rijksmuseum",
+          "prompt": "Which museum in Amsterdam, reopened in 2013 after a decade-long renovation, houses Rembrandt's *The Night Watch* in a specially designed gallery and is the Netherlands' national museum of art and history?",
+          "answer": "Rijksmuseum",
+          "alternates": ["The Rijksmuseum"],
+          "explanation": "Amsterdam, Netherlands; national museum of art and history, founded in The Hague in 1800, moved to Amsterdam in 1808\nThe current building, designed by Pierre Cuypers in a Dutch Neo-Renaissance style, opened in 1885\nClosed for a major renovation from 2003 to 2013 by Spanish architects Cruz y Ortiz; reopened to critical acclaim\nRembrandt's *The Night Watch* is the centerpiece, displayed in the purpose-built Gallery of Honour\nAlso holds Vermeer's *The Milkmaid* and *Woman Reading a Letter*, and works by Frans Hals and Jan Steen\nThe building straddles a public roadway \u2014 cyclists pass through a tunnel beneath the museum\nCollection includes over one million objects; approximately 8,000 are on display, focused on 1200\u20132000 AD\n'Rijksmuseum' translates to 'State Museum' in Dutch",
+          "cardFront": "Amsterdam \u2014 Rembrandt's *Night Watch*, Dutch masters",
+          "cardBack": "Rijksmuseum"
+        },
+        {
+          "id": "national-gallery-london",
+          "prompt": "Which free-admission art museum on Trafalgar Square in London, founded in 1824 with 38 paintings, now holds over 2,300 works dating from the mid-13th century to 1900, including paintings by Van Gogh, Turner, and Constable?",
+          "answer": "National Gallery",
+          "alternates": ["The National Gallery", "National Gallery London"],
+          "explanation": "London, England; founded in 1824 when the British government purchased 38 paintings from the estate of banker John Julius Angerstein\nLocated on the north side of Trafalgar Square; the building designed by William Wilkins opened in 1838\nCollection of over 2,300 paintings spanning the mid-13th century to 1900 \u2014 relatively small but exceptionally high quality\nMajor holdings include works by Van Eyck, Leonardo, Raphael, Titian, Velazquez, Rembrandt, Vermeer, Turner, Constable, Monet, and Van Gogh\nFree admission since its founding \u2014 intended to be accessible to all social classes, unlike private aristocratic collections\nDuring WWII, paintings were evacuated to slate mines in Wales; one painting was returned each month for a 'Picture of the Month' exhibition to boost public morale\nThe Sainsbury Wing extension (1991), designed by Robert Venturi, houses the oldest paintings in the collection\nShares the site with the National Portrait Gallery, located just behind it",
+          "cardFront": "London \u2014 Trafalgar Square, free admission, 2,300+ paintings",
+          "cardBack": "National Gallery"
+        },
+        {
+          "id": "moma",
+          "prompt": "Which New York museum, founded in 1929, holds Van Gogh's *The Starry Night*, Dal\u00ed's *The Persistence of Memory*, and Picasso's *Les Demoiselles d'Avignon*, and played a pivotal role in establishing modern art as a legitimate field?",
+          "answer": "Museum of Modern Art",
+          "alternates": ["MoMA", "The Museum of Modern Art", "MOMA"],
+          "explanation": "New York City, USA; founded November 7, 1929, just nine days after the stock market crash that began the Great Depression\nFounded by Abby Aldrich Rockefeller, Lillie P. Bliss, and Mary Quinn Sullivan \u2014 three prominent art patrons\nCollection of over 200,000 works, including painting, sculpture, film, photography, design, and architecture\nHolds Van Gogh's *Starry Night*, Dal\u00ed's *Persistence of Memory*, Picasso's *Les Demoiselles d'Avignon*, and Warhol's *Campbell's Soup Cans*\nThe current building on 53rd Street in Midtown Manhattan has been expanded and renovated multiple times, most recently in 2019\nFirst museum to establish curatorial departments for film, photography, and architecture/design\nAlfred Barr, its founding director, organized groundbreaking exhibitions that defined the canon of modern art\nThe sculpture garden, designed by Philip Johnson, is one of the most celebrated outdoor spaces in New York",
+          "cardFront": "New York City \u2014 *Starry Night*, *Persistence of Memory*, modern art canon",
+          "cardBack": "Museum of Modern Art"
+        },
+        {
+          "id": "tate-modern",
+          "prompt": "Which London museum, opened in 2000 in a converted power station designed by Sir Giles Gilbert Scott on the south bank of the Thames, has a vast Turbine Hall used for large-scale commissions and is Britain's national gallery of modern art?",
+          "answer": "Tate Modern",
+          "alternates": ["The Tate Modern"],
+          "explanation": "London, England; opened May 12, 2000, in the former Bankside Power Station on the south bank of the Thames\nThe power station, designed by Sir Giles Gilbert Scott (who also designed the red telephone box), operated from 1947 to 1981\nConverted by Swiss architects Herzog & de Meuron, who kept the industrial character of the building\nThe Turbine Hall, the former engine room, is used for major annual commissions: Ai Weiwei's *Sunflower Seeds* (2010), Olafur Eliasson's *The Weather Project* (2003)\nFree admission to the permanent collection; one of the most visited museums in the world with about 6 million visitors annually\nConnected to St Paul's Cathedral across the Thames by the Millennium Bridge (which famously wobbled when first opened)\nA 10-story extension, the Switch House (now Blavatnik Building), opened in 2016\nPart of the Tate gallery family, which also includes Tate Britain, Tate Liverpool, and Tate St Ives",
+          "cardFront": "London \u2014 former Bankside Power Station, Turbine Hall",
+          "cardBack": "Tate Modern"
+        },
+        {
+          "id": "guggenheim",
+          "prompt": "Which museum exists in two famous buildings: a 1959 spiraling white rotunda in New York designed by Frank Lloyd Wright, and a 1997 titanium-clad structure in Bilbao, Spain, designed by Frank Gehry that revitalized the city's economy?",
+          "answer": "Guggenheim Museum",
+          "alternates": ["The Guggenheim", "Guggenheim", "Solomon R. Guggenheim Museum"],
+          "explanation": "Two iconic buildings: New York (opened 1959) and Bilbao, Spain (opened 1997)\nThe New York Guggenheim on Fifth Avenue was designed by Frank Lloyd Wright; visitors walk a continuous spiral ramp to view art\nWright's building was controversial when it opened \u2014 some artists refused to exhibit, saying the curves distracted from the art\nThe Bilbao Guggenheim, designed by Frank Gehry, is clad in titanium panels that shimmer and change color in the light\nBilbao's opening in 1997 sparked the 'Bilbao effect' \u2014 the idea that a single spectacular building can transform a city's economy and reputation\nFounded by industrialist and art collector Solomon R. Guggenheim; the foundation was established in 1937\nThe New York museum focuses on Impressionist, Post-Impressionist, early Modern, and contemporary art; strong holdings in Kandinsky\nAdditional Guggenheim venues have operated in Venice (Peggy Guggenheim Collection) and other cities",
+          "cardFront": "New York (Wright spiral) and Bilbao (Gehry titanium)",
+          "cardBack": "Guggenheim Museum"
+        },
+        {
+          "id": "art-institute-chicago",
+          "prompt": "Which museum guarded by two bronze lion statues on Michigan Avenue in Chicago holds Grant Wood's *American Gothic*, Hopper's *Nighthawks*, and Seurat's *A Sunday Afternoon on the Island of La Grande Jatte*?",
+          "answer": "Art Institute of Chicago",
+          "alternates": ["The Art Institute of Chicago", "AIC"],
+          "explanation": "Chicago, USA; founded in 1879 as both a museum and a school (the School of the Art Institute of Chicago)\nTwo iconic bronze lions by sculptor Edward Kemeys flank the entrance on Michigan Avenue; installed in 1894\nHolds three of America's most famous paintings: Grant Wood's *American Gothic*, Hopper's *Nighthawks*, and Seurat's *Grande Jatte*\nAlso strong in Impressionism: major works by Monet, Renoir, and Caillebotte (*Paris Street; Rainy Day*)\nThe Modern Wing, designed by Renzo Piano, opened in 2009 and doubled the museum's gallery space\nOne of the oldest and largest art museums in the United States; collection of approximately 300,000 works\nThe museum building was originally constructed for the 1893 World's Columbian Exposition\nConsistently ranked among the best museums in the world by major travel publications",
+          "cardFront": "Chicago \u2014 *American Gothic*, *Nighthawks*, bronze lions",
+          "cardBack": "Art Institute of Chicago"
+        },
+        {
+          "id": "musee-dorsay",
+          "prompt": "Which Paris museum, opened in 1986 in a former Beaux-Arts railway station built for the 1900 World's Fair, specializes in Impressionist and Post-Impressionist art and bridges the gap between the Louvre and modern art museums?",
+          "answer": "Mus\u00e9e d'Orsay",
+          "alternates": ["Musee d'Orsay", "Musee dOrsay", "The Mus\u00e9e d'Orsay"],
+          "explanation": "Paris, France; opened December 9, 1986, in the former Gare d'Orsay railway station\nThe Beaux-Arts station was built by architect Victor Laloux for the 1900 Exposition Universelle; it was one of the first electrified urban rail terminals\nThe station closed in 1939 when its platforms became too short for modern trains; nearly demolished before being repurposed\nSpecializes in Western art from 1848 to 1914, filling the chronological gap between the Louvre (pre-1848) and the Centre Pompidou (post-1914)\nHolds the world's greatest collection of Impressionist and Post-Impressionist paintings: Monet, Renoir, Degas, C\u00e9zanne, Van Gogh, Gauguin, Seurat\nThe giant station clock on the museum's upper level is a famous photo spot overlooking the Seine\nThe transformation from station to museum was championed by President Val\u00e9ry Giscard d'Estaing in 1978\nReceives approximately 3.5 million visitors annually",
+          "cardFront": "Paris \u2014 former Gare d'Orsay railway station, Impressionism",
+          "cardBack": "Mus\u00e9e d'Orsay"
+        },
+        {
+          "id": "vatican-museums",
+          "prompt": "Which complex of galleries in the world's smallest independent state, founded by Pope Julius II in the early 16th century, contains the Sistine Chapel ceiling and the *School of Athens* fresco by Raphael?",
+          "answer": "Vatican Museums",
+          "alternates": ["The Vatican Museums", "Musei Vaticani"],
+          "explanation": "Vatican City; founded by Pope Julius II in the early 16th century; one of the oldest museum collections in the world\nThe Sistine Chapel, with Michelangelo's ceiling (1508\u20131512) and *The Last Judgment* (1536\u20131541), is the culmination of the museum route\nRaphael's *School of Athens* (1509\u20131511) is in the Raphael Rooms (Stanze di Raffaello), painted as a commission from Julius II\nCollection spans Egyptian antiquities, Etruscan artifacts, Renaissance masterpieces, and modern religious art\nThe spiral staircase designed by Giuseppe Momo in 1932 is one of the most photographed staircases in the world\nApproximately 7 million visitors annually; the museums are among the most visited in the world\nThe collection includes the Laoco\u00f6n and His Sons sculpture group, rediscovered in Rome in 1506\nThe Sistine Chapel serves as the location for the papal conclave, where new popes are elected",
+          "cardFront": "Vatican City \u2014 Sistine Chapel, Raphael's *School of Athens*",
+          "cardBack": "Vatican Museums"
+        },
+        {
+          "id": "getty-center",
+          "prompt": "Which museum complex in Los Angeles, designed by architect Richard Meier and opened in 1997, sits atop a hilltop in the Santa Monica Mountains, cost approximately $1.3 billion to build, and offers free admission funded by an oil fortune trust?",
+          "answer": "Getty Center",
+          "alternates": ["The Getty Center", "Getty Museum", "J. Paul Getty Museum"],
+          "explanation": "Los Angeles, USA; opened December 16, 1997, after 13 years of planning and construction\nDesigned by architect Richard Meier in white travertine and aluminum panels; sits atop a ridge in the Santa Monica Mountains at the Sepulveda Pass\nCost approximately $1.3 billion to build \u2014 one of the most expensive museum projects ever\nFunded by the J. Paul Getty Trust, endowed by the oil magnate J. Paul Getty; admission is free (parking is charged)\nCollection focuses on European paintings, drawings, sculptures, and decorative arts from the Middle Ages to the present, plus photographs\nNotable holdings include Van Gogh's *Irises* (1889), acquired in 1990\nThe campus includes a 134,000-square-foot Central Garden designed by artist Robert Irwin\nA separate site, the Getty Villa in Malibu, houses the collection's Greek, Roman, and Etruscan antiquities",
+          "cardFront": "Los Angeles \u2014 Richard Meier hilltop campus, free admission",
+          "cardBack": "Getty Center"
+        },
+        {
+          "id": "british-museum",
+          "prompt": "Which London museum, established by an Act of Parliament in 1753 and opened in 1759, holds the Rosetta Stone, the Elgin Marbles from the Parthenon, and a collection of approximately eight million objects spanning two million years of human history?",
+          "answer": "British Museum",
+          "alternates": ["The British Museum"],
+          "explanation": "London, England; established 1753, opened to the public January 15, 1759 \u2014 the world's first national public museum\nCollection of approximately eight million objects spanning two million years of human history and culture\nThe Rosetta Stone (196 BC), key to deciphering Egyptian hieroglyphs, has been in the museum since 1802\nThe Elgin Marbles (Parthenon Sculptures), removed from Athens by Lord Elgin in the early 1800s, remain a source of ongoing dispute with Greece\nThe Great Court, redesigned by Norman Foster with a glass-and-steel roof (2000), is the largest covered public square in Europe\nFounded on the collection of physician Sir Hans Sloane, who bequeathed 71,000 objects to the nation\nFree admission; one of the most visited museums in the world with approximately 6 million visitors annually\nDespite the name, the British Museum is a world cultures museum, not specifically focused on British history or art",
+          "cardFront": "London \u2014 Rosetta Stone, Elgin Marbles, 1753",
+          "cardBack": "British Museum"
+        }
+      ]
+    }
+  ]
+}

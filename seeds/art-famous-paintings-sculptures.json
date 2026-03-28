@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    { "id": "art/famous-works", "parentId": "art", "name": "Famous Paintings & Sculptures", "description": "Iconic paintings and sculptures from antiquity to the 20th century" }
+  ],
+  "exercises": [
+    {
+      "id": "art/famous-works/famous-paintings-sculptures",
+      "nodeId": "art/famous-works",
+      "name": "Famous Paintings & Sculptures",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "mona-lisa",
+          "prompt": "Which oil painting on poplar wood, housed in the Louvre behind bulletproof glass, measures just 30 x 21 inches and was stolen in 1911 by an Italian handyman who hid it in his apartment for two years?",
+          "answer": "Mona Lisa",
+          "alternates": ["The Mona Lisa", "La Gioconda", "La Joconde"],
+          "explanation": "Leonardo da Vinci, oil on poplar panel, c. 1503\u20131519, Louvre, Paris\nMeasures only 77 x 53 cm (30 x 21 in) \u2014 far smaller than most visitors expect\nStolen in 1911 by Vincenzo Peruggia, an Italian handyman who hid it under his coat; recovered in Florence in 1913\nThe subject is believed to be Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo\nSfumato technique creates the famous ambiguous smile \u2014 the expression appears to change depending on where you look\nFrancis I of France acquired it; it has been French state property since the Revolution\nSurvived an acid attack (1956) and a rock thrown at it (1956); now protected by bulletproof glass since 1974\nMost visited artwork in the world \u2014 approximately 10 million people view it annually",
+          "cardFront": "Leonardo da Vinci, c. 1503\u20131519",
+          "cardBack": "Mona Lisa"
+        },
+        {
+          "id": "starry-night",
+          "prompt": "Which swirling oil painting of a night sky over a village, now at MoMA in New York, was created in June 1889 by a Dutch Post-Impressionist while he was a patient at the Saint-Paul-de-Mausole asylum in southern France?",
+          "answer": "The Starry Night",
+          "alternates": ["Starry Night"],
+          "explanation": "Vincent van Gogh, oil on canvas, June 1889, Museum of Modern Art (MoMA), New York\nPainted from the east-facing window of his room at the Saint-Paul-de-Mausole asylum in Saint-R\u00e9my-de-Provence\nThe village depicted is partly imaginary \u2014 the church spire resembles those in the Netherlands, not Provence\nVan Gogh considered it a failure and mentioned it only briefly in letters to his brother Theo\nMeasures 73.7 x 92.1 cm (29 x 36.3 in); relatively modest in size\nAcquired by MoMA in 1941 through the Lillie P. Bliss bequest\nThe swirling sky may reflect turbulent atmospheric phenomena; some researchers have linked the patterns to mathematical fluid dynamics\nOne of the most reproduced and recognized paintings in Western art",
+          "cardFront": "Van Gogh, 1889",
+          "cardBack": "The Starry Night"
+        },
+        {
+          "id": "the-scream",
+          "prompt": "Which tempera-and-crayon composition on cardboard depicting an agonized figure on a bridge against a blood-red sky was created in 1893 by a Norwegian artist, exists in four versions, and has been stolen from Oslo museums twice?",
+          "answer": "The Scream",
+          "alternates": ["The Scream of Nature"],
+          "explanation": "Edvard Munch, 1893 (original tempera and crayon on cardboard), National Gallery, Oslo\nActually a series of four versions: two paintings and two pastels, created between 1893 and 1910\nThe figure is not screaming but hearing a scream \u2014 Munch wrote of sensing 'an infinite scream passing through nature'\nStolen from the National Gallery in 1994 on the opening day of the Lillehammer Winter Olympics; recovered three months later\nA different version stolen by armed robbers from the Munch Museum in 2004; recovered in 2006\nA pastel version sold at Sotheby's in 2012 for nearly $120 million, then a record for any artwork at auction\nThe blood-red sky may have been inspired by the atmospheric effects of the 1883 Krakatoa volcanic eruption\nPart of Munch's larger *Frieze of Life* series exploring love, anxiety, and death",
+          "cardFront": "Edvard Munch, 1893",
+          "cardBack": "The Scream"
+        },
+        {
+          "id": "david",
+          "prompt": "Which 17-foot marble statue of a biblical hero, carved from a block two other sculptors had rejected, stands in the Galleria dell'Accademia in Florence and was completed in 1504 by a 29-year-old Italian Renaissance master?",
+          "answer": "David",
+          "alternates": ["David by Michelangelo", "Michelangelo's David"],
+          "explanation": "Michelangelo, marble, 1501\u20131504, Galleria dell'Accademia, Florence\nStands 5.17 meters (17 feet) tall, carved from a single block of Carrara marble\nThe marble block had been abandoned by sculptors Agostino di Duccio and Antonio Rossellino as unworkable\nDepicts the moment before the battle with Goliath, not after \u2014 David is tense, with veins visible in his right hand\nOriginally placed outside the Palazzo della Signoria as a symbol of Florentine civic power; moved indoors in 1873\nAn outdoor replica now stands in the original location in the Piazza della Signoria\nThe left hand is disproportionately large \u2014 likely deliberate, designed to be viewed from below\nSurvived a 1991 attack when a man struck the left foot with a hammer, breaking off a toe",
+          "cardFront": "Michelangelo, 1501\u20131504",
+          "cardBack": "David"
+        },
+        {
+          "id": "the-thinker",
+          "prompt": "Which bronze sculpture of a seated nude male resting his chin on one hand was originally designed as part of a larger portal called *The Gates of Hell* and exists in numerous casts worldwide, with one at the Mus\u00e9e Rodin in Paris?",
+          "answer": "The Thinker",
+          "alternates": ["Le Penseur"],
+          "explanation": "Auguste Rodin, bronze (originally modeled 1880, first large cast 1904), Mus\u00e9e Rodin, Paris\nOriginally conceived as part of *The Gates of Hell*, Rodin's monumental door inspired by Dante's *Inferno*\nThe figure was initially called *The Poet* and represented Dante contemplating his work\nThe first large-scale bronze (186 cm) was cast in 1904; over 25 authorized full-size casts exist worldwide\nDepicts a muscular nude man deep in thought, right elbow on left knee \u2014 often misremembered as chin on fist of the same-side hand\nBecame a universal symbol of intellectual activity and philosophy\nA cast outside the Pantheon in Paris was placed over Rodin's grave at his request\nThe Cleveland Museum of Art's cast was damaged by a pipe bomb in 1970",
+          "cardFront": "Rodin, modeled 1880, cast 1904",
+          "cardBack": "The Thinker"
+        },
+        {
+          "id": "girl-pearl-earring",
+          "prompt": "Which oil painting of a young woman in a blue-and-gold turban, often called the 'Mona Lisa of the North,' hangs in the Mauritshuis in The Hague and was painted by a Dutch Golden Age master around 1665?",
+          "answer": "Girl with a Pearl Earring",
+          "alternates": ["The Girl with a Pearl Earring"],
+          "explanation": "Johannes Vermeer, oil on canvas, c. 1665, Mauritshuis, The Hague\nA tronie (character study) rather than a portrait \u2014 the girl's identity is unknown\nThe pearl is unusually large and may be tin, glass, or entirely imaginary \u2014 no pearl of that size and sheen existed in the 17th century\nThe turban is exotic and Oriental, unusual for Dutch genre painting of the period\nVermeer's characteristic luminous light is concentrated on the girl's face, lips, and the gleaming pearl\nVirtually forgotten for centuries; rediscovered along with Vermeer's other works in the 1880s\nInspired Tracy Chevalier's 1999 novel and the 2003 film starring Scarlett Johansson\nMeasures just 44.5 x 39 cm (17.5 x 15.4 in) \u2014 intimate in scale",
+          "cardFront": "Vermeer, c. 1665",
+          "cardBack": "Girl with a Pearl Earring"
+        },
+        {
+          "id": "persistence-of-memory",
+          "prompt": "Which small Surrealist oil painting at MoMA depicts melting pocket watches draped over a barren landscape and was completed in 1931, reportedly inspired by the sight of Camembert cheese melting in the sun?",
+          "answer": "The Persistence of Memory",
+          "alternates": ["Persistence of Memory"],
+          "explanation": "Salvador Dal\u00ed, oil on canvas, 1931, Museum of Modern Art (MoMA), New York\nMeasures only 24.1 x 33 cm (9.5 x 13 in) \u2014 surprisingly small given its fame\nDal\u00ed said the melting watches were inspired by the sight of Camembert cheese melting in the sun\nThe barren landscape depicts the cliffs of Port Lligat in Catalonia, near Dal\u00ed's home\nThe soft watches symbolize the irrelevance of time in the unconscious mind \u2014 a core Surrealist theme\nThe fleshy form in the center is a distorted self-portrait of Dal\u00ed's own profile\nCompleted in under five hours, according to Dal\u00ed, while his wife Gala was at the cinema\nDal\u00ed painted a sequel, *The Disintegration of the Persistence of Memory* (1954), incorporating atomic-age imagery",
+          "cardFront": "Dal\u00ed, 1931",
+          "cardBack": "The Persistence of Memory"
+        },
+        {
+          "id": "american-gothic",
+          "prompt": "Which painting of a stern-faced farmer holding a pitchfork beside a woman, inspired by a house with a pointed arched window in Eldon, Iowa, was exhibited at the Art Institute of Chicago in 1930, where it won a bronze medal and was purchased for $300?",
+          "answer": "American Gothic",
+          "alternates": [],
+          "explanation": "Grant Wood, oil on beaverboard, 1930, Art Institute of Chicago\nThe models were Wood's sister Nan Wood Graham and his dentist Dr. Byron McKeeby \u2014 not a married couple\nInspired by a small house with a distinctive Gothic Revival window in Eldon, Iowa (the house still stands)\nOften interpreted as satire of rural Midwestern values, though Wood insisted it was affectionate tribute\nWon a bronze medal at the Art Institute of Chicago's annual exhibition in 1930; the museum purchased it for $300\nBecame one of the most parodied images in American art and popular culture\nMeasures 78 x 65.3 cm (30.7 x 25.7 in); painted on beaverboard (a type of fiberboard), not canvas\nWood was part of the American Regionalism movement, along with Thomas Hart Benton and John Steuart Curry",
+          "cardFront": "Grant Wood, 1930",
+          "cardBack": "American Gothic"
+        },
+        {
+          "id": "guernica",
+          "prompt": "Which monumental anti-war painting in grisaille (shades of grey), measuring 3.49 x 7.76 meters, was created in 1937 as a response to the bombing of a Basque town during the Spanish Civil War and hangs in the Museo Reina Sof\u00eda?",
+          "answer": "Guernica",
+          "alternates": [],
+          "explanation": "Pablo Picasso, oil on canvas, 1937, Museo Reina Sof\u00eda, Madrid\nCreated for the Spanish Republic's pavilion at the 1937 Paris International Exposition\nDepicts the Nazi German and Italian Fascist bombing of the Basque town of Guernica on April 26, 1937\nPainted entirely in grisaille (black, white, and grey) to evoke newspaper photography and the horror of war\nMeasures 3.49 x 7.76 m (11.5 x 25.5 ft) \u2014 one of the largest paintings by any modern artist\nKept at MoMA in New York from 1939 to 1981; Picasso refused to let it return to Spain under Franco's dictatorship\nTransferred to Spain in 1981, six years after Franco's death, fulfilling Picasso's wishes\nWhen a Nazi officer saw a photo of it and asked Picasso 'Did you do this?', he reportedly replied 'No, you did'",
+          "cardFront": "Picasso, 1937",
+          "cardBack": "Guernica"
+        },
+        {
+          "id": "birth-of-venus",
+          "prompt": "Which tempera painting depicts a goddess emerging fully grown from the sea on a giant scallop shell, was painted in the mid-1480s for the Medici family, and hangs in the Uffizi Gallery in Florence?",
+          "answer": "The Birth of Venus",
+          "alternates": ["Birth of Venus"],
+          "explanation": "Sandro Botticelli, tempera on canvas, c. 1485, Uffizi Gallery, Florence\nCommissioned by Lorenzo di Pierfrancesco de' Medici, a cousin of Lorenzo the Magnificent\nDepicts Venus (Aphrodite) arriving at shore on a shell, blown by the wind god Zephyr and the nymph Chloris\nThe model is believed to be Simonetta Vespucci, a Florentine noblewoman renowned for her beauty\nPainted on canvas rather than wood panel, unusual for the period \u2014 measures 172.5 x 278.9 cm (5.7 x 9.2 ft)\nOne of the first large-scale post-classical paintings of a non-biblical female nude\nNearly destroyed during Savonarola's Bonfire of the Vanities in the 1490s; survived because it was in a private villa\nThe pose derives from the classical Venus Pudica (modest Venus) type, such as the Medici Venus",
+          "cardFront": "Botticelli, c. 1485",
+          "cardBack": "The Birth of Venus"
+        },
+        {
+          "id": "last-supper",
+          "prompt": "Which mural depicting Jesus's final meal with his disciples, painted on the refectory wall of a Milanese convent, began deteriorating within decades because the artist used experimental tempera and oil on dry plaster instead of true fresco?",
+          "answer": "The Last Supper",
+          "alternates": ["Last Supper", "Il Cenacolo"],
+          "explanation": "Leonardo da Vinci, tempera and oil on gesso/pitch/mastic, 1495\u20131498, Santa Maria delle Grazie, Milan\nMeasures 4.6 x 8.8 m (15 x 29 ft), covering an entire wall of the convent's refectory\nLeonardo used an experimental dry-wall technique instead of true fresco, allowing him to work slowly but causing rapid deterioration\nCaptures the moment Jesus announces 'One of you will betray me' \u2014 each apostle reacts with distinct emotion\nSurvived an Allied bombing in 1943 that destroyed the refectory's roof; the wall with the painting remained standing thanks to protective sandbags\nHas undergone multiple restorations; the most recent (1978\u20131999) took 21 years\nA doorway cut through the wall in 1652 removed Jesus's feet from the composition\nVisitors are admitted in groups of 25 for exactly 15 minutes; reservations often book out months in advance",
+          "cardFront": "Leonardo da Vinci, 1495\u20131498",
+          "cardBack": "The Last Supper"
+        },
+        {
+          "id": "night-watch",
+          "prompt": "Which enormous 1642 painting of a militia company, darkened by varnish to appear like a nocturnal scene (though it actually depicts daytime), hangs in the Rijksmuseum in Amsterdam and measures 3.63 x 4.37 meters?",
+          "answer": "The Night Watch",
+          "alternates": ["Night Watch"],
+          "explanation": "Rembrandt van Rijn, oil on canvas, 1642, Rijksmuseum, Amsterdam\nFull title: *The Militia Company of Captain Frans Banning Cocq and Lieutenant Willem van Ruytenburch*\nActually depicts a daytime scene \u2014 centuries of dark varnish and soot gave it the misleading name 'Night Watch'\nMeasures 3.63 x 4.37 m (11.9 x 14.3 ft), though it was trimmed on all four sides in 1715 to fit between two doors in Amsterdam's Town Hall\nRevolutionary for its time: instead of a static group portrait, Rembrandt depicted the militia in dynamic motion\nThe central figure in black with a red sash is Captain Frans Banning Cocq; the luminous figure in gold is his lieutenant\nSubjected to multiple attacks: slashed with a knife in 1911 and 1975, sprayed with acid in 1990\nUnderwent a major public restoration (Operation Night Watch) starting in 2019, partly conducted live for visitors behind glass",
+          "cardFront": "Rembrandt, 1642",
+          "cardBack": "The Night Watch"
+        },
+        {
+          "id": "creation-of-adam",
+          "prompt": "Which fresco showing God reaching out to touch the finger of the first man is part of a larger ceiling commission in Vatican City, painted between 1508 and 1512 while the artist worked on scaffolding 20 meters above the floor?",
+          "answer": "The Creation of Adam",
+          "alternates": ["Creation of Adam"],
+          "explanation": "Michelangelo, fresco, 1508\u20131512, ceiling of the Sistine Chapel, Vatican City\nPart of a larger scheme covering the entire ceiling with scenes from Genesis \u2014 over 500 square meters of painted surface\nThe near-touching fingers of God and Adam have become one of the most replicated images in art history\nMichelangelo painted on scaffolding he designed himself; contrary to myth, he worked standing up, not lying on his back\nThe shape surrounding God and the angels has been interpreted as resembling a cross-section of the human brain \u2014 possibly a deliberate anatomical reference\nThe entire ceiling took approximately four years; Michelangelo worked with minimal assistance\nRestored between 1980 and 1994, revealing vivid colors hidden under centuries of candle soot and overpainting\nMichelangelo considered himself primarily a sculptor, not a painter, and initially resisted the commission from Pope Julius II",
+          "cardFront": "Michelangelo, 1508\u20131512",
+          "cardBack": "The Creation of Adam"
+        },
+        {
+          "id": "las-meninas",
+          "prompt": "Which complex 1656 painting in the Museo del Prado shows the artist at his easel with the Infanta Margarita and her attendants, while the Spanish king and queen appear reflected in a mirror on the back wall?",
+          "answer": "Las Meninas",
+          "alternates": ["The Ladies-in-Waiting", "The Maids of Honour"],
+          "explanation": "Diego Vel\u00e1zquez, oil on canvas, 1656, Museo del Prado, Madrid\nMeasures 318 x 276 cm (10.4 x 9.1 ft) \u2014 nearly life-size figures\nCentral figure is the five-year-old Infanta Margarita Teresa, attended by her ladies-in-waiting (meninas)\nVel\u00e1zquez included himself painting at a large canvas on the left side of the composition\nKing Philip IV and Queen Mariana appear in a mirror on the back wall, ambiguously placed to question who is being painted\nPicasso created 58 variations on the painting in 1957; Michel Foucault devoted the opening chapter of *The Order of Things* (1966) to analyzing it\nConsidered by many art historians to be the greatest painting in Western art for its sophisticated play with perspective, viewpoint, and reality\nThe title means 'The Ladies-in-Waiting' and was not used until the 19th century",
+          "cardFront": "Vel\u00e1zquez, 1656",
+          "cardBack": "Las Meninas"
+        },
+        {
+          "id": "water-lilies",
+          "prompt": "Which series of approximately 250 oil paintings depicting a flower garden and Japanese bridge was created over 30 years by a French Impressionist at his home in Giverny, with large panels now displayed in the Mus\u00e9e de l'Orangerie in Paris?",
+          "answer": "Water Lilies",
+          "alternates": ["Nymph\u00e9as", "Les Nymph\u00e9as", "The Water Lilies"],
+          "explanation": "Claude Monet, oil on canvas, c. 1896\u20131926, various museums worldwide\nApproximately 250 paintings in the series, produced over the last 30 years of Monet's life\nEight large panels installed in two oval rooms at the Mus\u00e9e de l'Orangerie in Paris, as Monet intended \u2014 offered to France the day after the WWI Armistice (November 12, 1918), though not installed until 1927\nThe garden at Giverny was Monet's own creation: he diverted a river to build the water garden and Japanese bridge\nLate paintings became increasingly abstract as Monet's cataracts worsened, shifting his color perception toward red and brown\nAfter cataract surgery in 1923, he destroyed several canvases he felt had been affected by his impaired vision\nOne painting from the series sold at Christie's in 2024 for $65.5 million\nThe series influenced Abstract Expressionists including Jackson Pollock and Mark Rothko",
+          "cardFront": "Monet, c. 1896\u20131926",
+          "cardBack": "Water Lilies"
+        },
+        {
+          "id": "the-kiss-klimt",
+          "prompt": "Which gold-leaf-laden painting shows a couple embracing on a flowered cliff, with the man's robe decorated in geometric rectangles and the woman's in circular patterns, painted 1907\u20131908 by the leader of the Vienna Secession?",
+          "answer": "The Kiss (Klimt)",
+          "alternates": ["The Kiss", "The Kiss by Klimt", "Der Kuss"],
+          "explanation": "Gustav Klimt, oil and gold leaf on canvas, 1907\u20131908, \u00d6sterreichische Galerie Belvedere, Vienna\nMeasures 180 x 180 cm (5.9 x 5.9 ft) \u2014 a perfect square\nPainted during Klimt's 'Golden Phase,' inspired by Byzantine mosaics he saw in Ravenna, Italy\nThe man's robe features black-and-white rectangles; the woman's has circular floral motifs \u2014 commonly interpreted as masculine/feminine symbolism\nThe couple kneels at the edge of a flowered precipice, adding tension beneath the tenderness\nAcquired by the Austrian state for the Belvedere in 1908 while still in progress\nOne of the most commercially reproduced artworks in history \u2014 appears on posters, mugs, phone cases worldwide\nNot to be confused with Rodin's marble sculpture of the same name (1882)",
+          "cardFront": "Klimt, 1907\u20131908",
+          "cardBack": "The Kiss (Klimt)"
+        },
+        {
+          "id": "grande-jatte",
+          "prompt": "Which monumental Pointillist painting (over 2 x 3 meters) depicts Parisians relaxing by the Seine on an island, composed entirely of tiny dots of color, and hangs in the Art Institute of Chicago?",
+          "answer": "A Sunday Afternoon on the Island of La Grande Jatte",
+          "alternates": ["Sunday Afternoon on the Island of La Grande Jatte", "La Grande Jatte", "Sunday on La Grande Jatte"],
+          "explanation": "Georges Seurat, oil on canvas, 1884\u20131886, Art Institute of Chicago\nMeasures 207.6 x 308 cm (6.8 x 10.1 ft) \u2014 took Seurat two years to complete\nPioneering work of Pointillism (Neo-Impressionism): composed entirely of small, distinct dots of pure color that blend optically at a distance\nDepicts a Sunday afternoon on La Grande Jatte, an island in the Seine near the Parisian suburb of Asni\u00e8res\nSeurat made over 60 preparatory studies and sketches before beginning the final canvas\nFigures appear deliberately frozen and doll-like \u2014 Seurat aimed for timeless monumentality rather than Impressionist spontaneity\nInspired Stephen Sondheim's musical *Sunday in the Park with George* (1984)\nAcquired by the Art Institute of Chicago in 1926; it has not left the museum since",
+          "cardFront": "Seurat, 1884\u20131886",
+          "cardBack": "A Sunday Afternoon on the Island of La Grande Jatte"
+        },
+        {
+          "id": "les-demoiselles",
+          "prompt": "Which 1907 painting of five nude female figures with angular, fragmented forms and faces influenced by African and Iberian sculpture is considered the work that launched Cubism and hangs at MoMA in New York?",
+          "answer": "Les Demoiselles d'Avignon",
+          "alternates": ["The Young Ladies of Avignon", "Demoiselles d'Avignon"],
+          "explanation": "Pablo Picasso, oil on canvas, 1907, Museum of Modern Art (MoMA), New York\nMeasures 243.9 x 233.7 cm (8 x 7.7 ft) \u2014 nearly square and life-sized\nThe title refers to a street in Barcelona's red-light district (Carrer d'Aviny\u00f3); the women are prostitutes\nThe two right-hand faces are directly influenced by African masks and Iberian sculpture \u2014 a radical departure from European tradition\nShocked even Picasso's closest friends when first shown privately; Matisse thought it was a hoax\nNot publicly exhibited until 1916 and not widely seen until the 1930s\nConsidered the most revolutionary painting of the 20th century and the direct precursor to Cubism\nPicasso made over 800 preparatory sketches for the composition",
+          "cardFront": "Picasso, 1907",
+          "cardBack": "Les Demoiselles d'Avignon"
+        },
+        {
+          "id": "great-wave",
+          "prompt": "Which Japanese woodblock print from the series *Thirty-six Views of Mount Fuji* shows enormous waves threatening boats off the coast, uses imported Prussian blue pigment, and is one of the most reproduced images in art history?",
+          "answer": "The Great Wave off Kanagawa",
+          "alternates": ["The Great Wave", "Great Wave off Kanagawa", "Great Wave"],
+          "explanation": "Katsushika Hokusai, woodblock print (nishiki-e), c. 1831, various collections worldwide\nPart of the series *Thirty-six Views of Mount Fuji* (Fugaku sanj\u016brokkei) \u2014 Mount Fuji appears small in the background\nMeasures only 25.7 x 37.9 cm (10.1 x 14.9 in) \u2014 a standard \u014dban size print\nThe blue color comes from imported Prussian blue (Berlin blue), a synthetic pigment new to Japanese printmaking\nHokusai was about 70 years old when he created this print \u2014 he called himself 'the old man mad about drawing'\nAs a woodblock print, it was produced in multiple impressions; surviving examples exist in museums worldwide\nHeavily influenced European Impressionists, especially Monet and Degas, during the Japonisme craze of the 1860s\u201380s\nThe wave's claw-like spray and dramatic composition have made it one of the most recognized images in world art",
+          "cardFront": "Hokusai, c. 1831",
+          "cardBack": "The Great Wave off Kanagawa"
+        },
+        {
+          "id": "venus-de-milo",
+          "prompt": "Which ancient Greek marble statue of a goddess, discovered on an Aegean island in 1820 by a farmer, is missing both arms and has been displayed at the Louvre since 1821?",
+          "answer": "Venus de Milo",
+          "alternates": ["Aphrodite of Milos", "The Venus de Milo"],
+          "explanation": "Unknown sculptor, marble, c. 150\u2013125 BC, Louvre, Paris\nDiscovered in 1820 on the island of Milos (Melos) in the Aegean Sea by a Greek farmer named Yorgos Kentrotas\nStands 203 cm (6 ft 8 in) tall; carved from Parian marble in two blocks joined at the hips\nThe arms were already missing at the time of discovery; their original position remains debated \u2014 she may have held an apple, a shield, or been spinning thread\nAcquired by the French ambassador to the Ottoman Empire and presented to King Louis XVIII, who donated it to the Louvre in 1821\nDated to the Hellenistic period; once attributed to Praxiteles but now considered to be by Alexandros of Antioch based on an inscription on the original plinth (now lost)\nBecame a symbol of classical Greek beauty and one of the Louvre's three most famous works, alongside the Mona Lisa and Winged Victory\nDespite its fame, it was relatively obscure until France promoted it as a replacement for the Medici Venus, which was returned to Italy in 1815",
+          "cardFront": "Unknown, c. 150\u2013125 BC",
+          "cardBack": "Venus de Milo"
+        },
+        {
+          "id": "winged-victory",
+          "prompt": "Which headless marble statue of the Greek goddess Nike, dating to c. 190 BC, stands atop a ship's prow at the top of the Daru staircase in the Louvre and is considered one of the greatest surviving Hellenistic sculptures?",
+          "answer": "Winged Victory of Samothrace",
+          "alternates": ["Nike of Samothrace", "The Winged Victory", "Winged Victory"],
+          "explanation": "Unknown sculptor, Parian marble, c. 190 BC, Louvre, Paris\nDiscovered in 1863 by French consul Charles Champoiseau on the island of Samothrace in the northern Aegean\nStands 2.75 m (9 ft) tall on a marble ship's prow; the total monument is 5.57 m (18.3 ft) with the base\nDepicts Nike, the Greek goddess of victory, alighting on the bow of a warship with wings spread wide\nThe head and both arms are missing; the right hand was found in 1950 and is displayed in a case nearby\nPlaced at the top of the monumental Daru staircase in the Louvre's Denon wing since 1884 \u2014 one of the most dramatic museum installations in the world\nWet drapery technique creates the illusion of wind pressing fabric against the body, revealing the figure beneath\nMay have been created to commemorate a naval victory, possibly by the Rhodians; the exact occasion is debated",
+          "cardFront": "Unknown, c. 190 BC",
+          "cardBack": "Winged Victory of Samothrace"
+        },
+        {
+          "id": "pieta",
+          "prompt": "Which marble sculpture of the Virgin Mary cradling the body of Christ, completed in 1499, is the only work its creator ever signed \u2014 he chiseled his name across the sash of the Madonna after hearing it attributed to another artist?",
+          "answer": "Piet\u00e0",
+          "alternates": ["Pieta", "The Pieta", "The Piet\u00e0", "Michelangelo's Pieta"],
+          "explanation": "Michelangelo, Carrara marble, 1498\u20131499, St. Peter's Basilica, Vatican City\nCommissioned by French Cardinal Jean de Bilh\u00e8res for his funeral monument; Michelangelo was only 23\u201324 when he carved it\nThe only work Michelangelo ever signed \u2014 he chiseled 'MICHAELA[N]GELVS BONAROTVS FLORENT[INVS] FACIEBAT' across Mary's sash\nMary is depicted as unusually young, almost the same age as Christ \u2014 Michelangelo said the Virgin's purity preserved her youth\nMeasures 174 x 195 cm (5.7 x 6.4 ft); carved from a single block of marble\nAttacked in 1972 by L\u00e1szl\u00f3 T\u00f3th with a geologist's hammer, damaging Mary's nose, left arm, and eyelid; restored and now displayed behind bulletproof glass\nThe triangular composition and serene expression became deeply influential on Renaissance sculpture\nVasari called it 'a miracle that a formless block of stone could ever have been reduced to a perfection that nature is scarcely able to create in the flesh'",
+          "cardFront": "Michelangelo, 1498\u20131499",
+          "cardBack": "Piet\u00e0"
+        },
+        {
+          "id": "the-kiss-rodin",
+          "prompt": "Which marble sculpture of two lovers in an embrace, originally titled *Francesca da Rimini* after a character from Dante's *Inferno*, was first modeled in 1882 and its large marble version completed in 1898 by a French sculptor?",
+          "answer": "The Kiss (Rodin)",
+          "alternates": ["The Kiss", "The Kiss by Rodin", "Le Baiser"],
+          "explanation": "Auguste Rodin, marble (modeled 1882, large marble completed 1888\u20131898), Mus\u00e9e Rodin, Paris\nOriginally part of *The Gates of Hell*, depicting the tragic lovers Paolo and Francesca from Dante's *Inferno* (Canto V)\nRemoved from the Gates because Rodin felt the happy embrace was too different in mood from the rest of the tormented figures\nThe large marble version was commissioned by the French state in 1888; publicly exhibited at the Salon in 1898\nThe lovers' lips do not actually touch \u2014 they are caught in the moment just before the kiss\nConsidered scandalous when first shown; a bronze cast sent to the 1904 St. Louis World's Fair was kept in a restricted room\nMultiple marble and bronze casts exist; a large marble is also in the Tate Gallery, London\nNot to be confused with Klimt's 1907\u20131908 painting of the same name",
+          "cardFront": "Rodin, modeled 1882",
+          "cardBack": "The Kiss (Rodin)"
+        },
+        {
+          "id": "nighthawks",
+          "prompt": "Which 1942 painting of four figures in a brightly lit all-night diner on an empty city street, often seen as an image of urban isolation, hangs in the Art Institute of Chicago and was completed just weeks after Pearl Harbor?",
+          "answer": "Nighthawks",
+          "alternates": [],
+          "explanation": "Edward Hopper, oil on canvas, 1942, Art Institute of Chicago\nMeasures 84.1 x 152.4 cm (33.1 x 60 in); completed on January 21, 1942, weeks after the attack on Pearl Harbor\nDepicts three customers and a server in a brightly fluorescent-lit diner at night on an otherwise deserted street corner\nThe diner has no visible entrance \u2014 the figures appear sealed inside, reinforcing themes of urban alienation\nHopper's wife, Josephine, modeled for the red-haired woman; she also kept meticulous records of all his paintings\nThe setting is thought to be inspired by a real diner in Greenwich Village, Manhattan, now demolished\nOne of the most reproduced and parodied paintings in American art \u2014 numerous versions substitute pop-culture characters\nHopper said 'unconsciously, probably, I was painting the loneliness of a large city'",
+          "cardFront": "Edward Hopper, 1942",
+          "cardBack": "Nighthawks"
+        },
+        {
+          "id": "liberty-leading",
+          "prompt": "Which large Romantic painting in the Louvre shows a bare-breasted female figure holding the French tricolour atop a barricade strewn with fallen fighters, commemorating the July Revolution of 1830?",
+          "answer": "Liberty Leading the People",
+          "alternates": ["La Libert\u00e9 guidant le peuple"],
+          "explanation": "Eug\u00e8ne Delacroix, oil on canvas, 1830, Louvre, Paris\nMeasures 260 x 325 cm (8.5 x 10.7 ft); painted in the autumn of 1830, months after the July Revolution that overthrew King Charles X\nThe central figure is Marianne, a personification of Liberty, wearing a Phrygian cap and holding the French tricolour\nDelacroix included himself in the painting \u2014 he is believed to be the man in the top hat holding a rifle at left\nThe boy brandishing pistols at right may have inspired Victor Hugo's character Gavroche in *Les Mis\u00e9rables* (1862)\nFirst exhibited at the 1831 Salon; the French state purchased it but considered it too politically inflammatory and hid it from public view for years\nThe composition influenced the design of the Statue of Liberty, a gift from France to the United States in 1886\nAppeared on the former French 100-franc banknote (1978\u20131995)",
+          "cardFront": "Delacroix, 1830",
+          "cardBack": "Liberty Leading the People"
+        }
+      ]
+    }
+  ]
+}

@@ -36,11 +36,11 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 |---|----------|--------|--------|-------|
 | 1 | Art Movements | 12 | ✅ | |
 | 2 | Famous Artists | 18 | ✅ | |
-| 3 | Famous Paintings & Sculptures | 25 | ❌ | TS has multiple "Famous Artwork" pages. Omnibus: Mona Lisa, Starry Night, The Scream, David, The Thinker, etc. Artist + year + museum. |
-| 4 | Art Museums of the World | 15 | ❌ | TS has "Art Museums." Louvre, Met, Uffizi, Prado, Hermitage, etc. City + notable works. |
-| 5 | Photography & Modern Art | 12 | ❌ | Ansel Adams, Warhol's soup cans, Banksy, Damien Hirst. Bridges Art→Contemporary. |
+| 3 | Famous Paintings & Sculptures | 25 | ✅ | Mona Lisa, Starry Night, The Scream, David, The Thinker, etc. Artist + year + museum. |
+| 4 | Art Museums of the World | 15 | ✅ | Louvre, Met, Uffizi, Prado, Hermitage, etc. City + notable works. |
+| 5 | Photography & Modern Art | 12 | ✅ | Ansel Adams, Duchamp's Fountain, Kusama, Hirst. Bridges Art→Contemporary. |
 
-**Coverage**: 2/5 done. Core artists/movements covered but missing the actual artworks.
+**Coverage**: 5/5 done. Complete.
 
 ---
 
@@ -364,7 +364,7 @@ Inspired by TrivialStudies' unique study tools:
 | Category | Have | Target | % Done |
 |----------|------|--------|--------|
 | American History | 5 | 10 | 50% |
-| Art | 2 | 5 | 40% |
+| Art | 5 | 5 | 100% |
 | Business/Economics | 1 | 8 | 13% |
 | Classical Music | 1 | 4 | 25% |
 | Current Events | 1 | 3 | 33% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **76** | **177** | **43%** |
+| **TOTAL** | **79** | **177** | **45%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -394,7 +394,7 @@ Inspired by TrivialStudies' unique study tools:
 6. **Theatre** — 1/5 (20%). Small but tested category.
 7. **Language** — 1/5 (20%). Small but distinctive LL category.
 8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
-9. **Art** — 2/5 (40%). Needs the actual artworks.
+9. **Art** — 5/5 (100%). Complete.
 10. **Literature** — 16/16 (100%). Complete.
 11. **Film** — 5/10 (50%). Good core, needs depth.
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
