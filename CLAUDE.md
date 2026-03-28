@@ -33,6 +33,28 @@ Update these when the information changes. Create new keys for new topics.
 | Seed local D1 | `node scripts/seed.mjs --local` |
 | Seed remote D1 | `node scripts/seed.mjs --remote` |
 
+## Testing (MANDATORY)
+
+**Every feature or bug fix MUST include test coverage.** No exceptions. Use TDD where feasible — write failing tests first, then implement.
+
+| Change type | Required tests |
+|-------------|---------------|
+| New UI feature | E2E test in `e2e/` verifying user-visible behavior |
+| New API endpoint | Worker integration test in `test/worker.test.ts` |
+| Pure logic (utils, checkers) | Unit test in `test/unit/` |
+| Bug fix | Regression test proving the bug is fixed |
+
+**Test locations:**
+- `test/unit/` — pure function unit tests (vitest)
+- `test/worker.test.ts` — Workers pool integration tests (vitest-pool-workers)
+- `e2e/` — Playwright E2E tests against local wrangler dev
+
+**Workflow:**
+1. Write a failing test that captures the requirement
+2. Implement the minimum code to pass it
+3. Refactor if needed, keeping tests green
+4. Run `npm run test:all` before committing
+
 ## Finding Quiz Content
 
 **The D1 database is the source of truth, NOT the seed files.** Many exercises in the deployed DB do not have corresponding seed files in `seeds/`. When looking for content to update or verify, always check the deployed API first:
