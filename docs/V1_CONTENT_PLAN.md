@@ -95,13 +95,13 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 3 | Famous Directors | 20 | ✅ | |
 | 4 | Iconic Films | 20 | ✅ | |
 | 5 | Famous Movie Quotes | 15 | ✅ | |
-| 6 | Oscar Winners — Acting | 20 | ❌ | TS has Best Actor, Best Actress, Supporting categories. Omnibus of most notable winners. |
-| 7 | James Bond Films | 15 | ❌ | TS has "James Bond Films" + "James Bond Music." Actors, films, theme songs. |
-| 8 | Movie Taglines | 15 | ❌ | TS has this. "In space, no one can hear you scream"→Alien. |
-| 9 | Films Based on Books | 15 | ❌ | TS has this. Shawshank→Stephen King, Jaws→Peter Benchley, etc. |
-| 10 | AFI Greatest Films | 20 | ❌ | TS has AFI quotes, songs, and implies AFI 100. Citizen Kane #1, Godfather #2, etc. |
+| 6 | Oscar Winners — Acting | 20 | ✅ | TS has Best Actor, Best Actress, Supporting categories. Omnibus of most notable winners. |
+| 7 | James Bond Films | 15 | ✅ | TS has "James Bond Films" + "James Bond Music." Actors, films, theme songs. |
+| 8 | Movie Taglines | 15 | ✅ | TS has this. "In space, no one can hear you scream"→Alien. |
+| 9 | Films Based on Books | 15 | ✅ | TS has this. Shawshank→Stephen King, Jaws→Peter Benchley, etc. |
+| 10 | AFI Greatest Films | 20 | ✅ | TS has AFI quotes, songs, and implies AFI 100. Citizen Kane #1, Godfather #2, etc. |
 
-**Coverage**: 5/10 done. Strong core, needs award depth and cultural touchstones.
+**Coverage**: 10/10 done. Complete.
 
 ---
 
@@ -368,7 +368,7 @@ Inspired by TrivialStudies' unique study tools:
 | Business/Economics | 1 | 8 | 13% |
 | Classical Music | 1 | 4 | 25% |
 | Current Events | 1 | 3 | 33% |
-| Film | 5 | 10 | 50% |
+| Film | 10 | 10 | 100% |
 | Food/Drink | 5 | 10 | 50% |
 | Games/Sport | 2 | 15 | 13% |
 | Geography | 10 | 20 | 50% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **76** | **177** | **43%** |
+| **TOTAL** | **81** | **177** | **46%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -396,7 +396,7 @@ Inspired by TrivialStudies' unique study tools:
 8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
 9. **Art** — 2/5 (40%). Needs the actual artworks.
 10. **Literature** — 16/16 (100%). Complete.
-11. **Film** — 5/10 (50%). Good core, needs depth.
+11. **Film** — 10/10 (100%). Complete.
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
 14. **Geography** — 10/20 (50%). Most exercises but missing continents.

@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "film/oscars", "parentId": "film", "name": "Academy Awards", "description": "Oscar-winning films and landmark moments in Academy history" }
+  ],
+  "exercises": [
+    {
+      "id": "film/oscars/oscar-acting-winners",
+      "nodeId": "film/oscars",
+      "name": "Oscar Winners \u2014 Acting",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "hepburn",
+          "prompt": "Which actress holds the all-time record with four Best Actress wins, for *Morning Glory* (1933), *Guess Who's Coming to Dinner* (1967), *The Lion in Winter* (1968), and *On Golden Pond* (1981)?",
+          "answer": "Katharine Hepburn",
+          "alternates": ["Hepburn", "Katherine Hepburn", "Kate Hepburn"],
+          "explanation": "Won Best Actress four times \u2014 a record no other actor has matched in any acting category\nHer 1968 win for *The Lion in Winter* was a tie with Barbra Streisand for *Funny Girl* \u2014 the only tied Best Actress result in Oscar history\nReceived 12 acting nominations spanning 48 years (1933\u20131981)\nFiercely independent; defied Hollywood studio expectations and rarely attended award ceremonies\nHer fourth win came at age 74 for *On Golden Pond*, opposite Henry Fonda in his final film",
+          "cardFront": "Record 4 Best Actress wins (1933\u20131981)",
+          "cardBack": "Katharine Hepburn"
+        },
+        {
+          "id": "day-lewis",
+          "prompt": "Which British-Irish method actor is the only person to win Best Actor three times, for *My Left Foot* (1989), *There Will Be Blood* (2007), and *Lincoln* (2012)?",
+          "answer": "Daniel Day-Lewis",
+          "alternates": ["Day-Lewis", "Daniel Day Lewis"],
+          "explanation": "Only actor to win three Best Actor Oscars \u2014 a record in the lead acting category\nExtreme method acting: stayed in a wheelchair on set for *My Left Foot*; learned Czech for *The Unbearable Lightness of Being*; refused to break character during *There Will Be Blood*\nSon of Poet Laureate Cecil Day-Lewis; holds dual British-Irish citizenship\nAnnounced retirement from acting in 2017 after *Phantom Thread*\nTrained as a cobbler during one of his extended acting hiatuses in the 1990s",
+          "cardFront": "Record 3 Best Actor wins (method actor)",
+          "cardBack": "Daniel Day-Lewis"
+        },
+        {
+          "id": "brennan",
+          "prompt": "Which character actor holds the record for most Best Supporting Actor wins with three, for *Come and Get It* (1936), *Kentucky* (1938), and *The Westerner* (1940)?",
+          "answer": "Walter Brennan",
+          "alternates": ["Brennan"],
+          "explanation": "Won three of the first five Best Supporting Actor Oscars ever awarded (the category began in 1936)\nRecord three Supporting Actor wins has never been matched\nKnown for playing grizzled old-timers despite being only in his 40s during his winning streak\nAppeared in over 230 films across a career spanning the 1920s\u20131970s\nLater starred in the TV series *The Real McCoys* (1957\u20131963), one of the first rural sitcoms",
+          "cardFront": "Record 3 Best Supporting Actor wins (1936\u20131940)",
+          "cardBack": "Walter Brennan"
+        },
+        {
+          "id": "streep",
+          "prompt": "Which actress holds the record for most acting Oscar nominations (21), winning three times for *Kramer vs. Kramer* (1979), *Sophie's Choice* (1982), and *The Iron Lady* (2011)?",
+          "answer": "Meryl Streep",
+          "alternates": ["Streep"],
+          "explanation": "21 acting nominations \u2014 far more than any other performer in Oscar history\nThree wins: Best Supporting Actress (*Kramer vs. Kramer*), Best Actress (*Sophie's Choice*, *The Iron Lady*)\nMastered German, Polish, Italian, and Danish for various roles; accent work is considered unmatched\nFirst nominated in 1978 for *The Deer Hunter*; spanned five decades of nominations\nOnce told by a Universal executive she was \"not pretty enough\" for a role; proved otherwise across a 50-year career",
+          "cardFront": "Record 21 nominations, 3 acting wins",
+          "cardBack": "Meryl Streep"
+        },
+        {
+          "id": "nicholson",
+          "prompt": "Which actor won three Oscars \u2014 Best Actor for *One Flew Over the Cuckoo's Nest* (1975) and *As Good as It Gets* (1997), and Best Supporting Actor for *Terms of Endearment* (1983) \u2014 and received 12 total nominations?",
+          "answer": "Jack Nicholson",
+          "alternates": ["Nicholson"],
+          "explanation": "12 Oscar nominations \u2014 the most for any male actor in history\nThree wins across two categories: two Best Actor, one Best Supporting Actor\nOne of several men to win both lead and supporting acting Oscars, along with Robert De Niro, Gene Hackman, Jack Lemmon, and Kevin Spacey\nIconic roles include Jack Torrance (*The Shining*), the Joker (*Batman*, 1989), and Col. Jessup (*A Few Good Men*)\nNotoriously missed out on several roles: was considered for Michael Corleone in *The Godfather* before Al Pacino was cast",
+          "cardFront": "3 wins (2 Actor, 1 Supporting), 12 nominations",
+          "cardBack": "Jack Nicholson"
+        },
+        {
+          "id": "leigh",
+          "prompt": "Which British actress won Best Actress twice, as Scarlett O'Hara in *Gone with the Wind* (1939) and as Blanche DuBois in *A Streetcar Named Desire* (1951)?",
+          "answer": "Vivien Leigh",
+          "alternates": ["Leigh"],
+          "explanation": "Won two of only four roles she played in Hollywood \u2014 an extraordinary hit rate\nBeat 1,400 candidates for the role of Scarlett O'Hara in one of Hollywood's most publicized casting searches\n*A Streetcar Named Desire* also starred Marlon Brando; she reprised the role she had played on London's West End under Laurence Olivier's direction\nMarried to Laurence Olivier from 1940 to 1960; their relationship was among the most publicized of the era\nSuffered from bipolar disorder and tuberculosis; died at age 53 in 1967",
+          "cardFront": "2 Best Actress wins: Scarlett O'Hara, Blanche DuBois",
+          "cardBack": "Vivien Leigh"
+        },
+        {
+          "id": "hanks",
+          "prompt": "Which actor won back-to-back Best Actor Oscars for *Philadelphia* (1993) and *Forrest Gump* (1994), only the second actor to achieve consecutive wins?",
+          "answer": "Tom Hanks",
+          "alternates": ["Hanks"],
+          "explanation": "Back-to-back Best Actor wins in 1994 and 1995 \u2014 only the second actor to do so, after Spencer Tracy (1937\u20131938)\n*Philadelphia*: played Andrew Beckett, one of the first major Hollywood portrayals of AIDS discrimination\n*Forrest Gump*: the film pioneered digital compositing to insert the character into historical footage\nAlso acclaimed for *Cast Away* (2000), *Saving Private Ryan* (1998), and voicing Woody in the *Toy Story* franchise\nProduced the HBO miniseries *Band of Brothers* (2001) and *The Pacific* (2010)",
+          "cardFront": "Back-to-back Best Actor (1993\u20131994)",
+          "cardBack": "Tom Hanks"
+        },
+        {
+          "id": "tracy",
+          "prompt": "Which actor was the first to win back-to-back Best Actor Oscars, for *Captains Courageous* (1937) and *Boys Town* (1938)?",
+          "answer": "Spencer Tracy",
+          "alternates": ["Tracy"],
+          "explanation": "First actor to win consecutive Best Actor Oscars (1937\u20131938); Tom Hanks later matched the feat in 1994\u20131995\nReceived nine Best Actor nominations total \u2014 a record that stood for decades\nPartnered with Katharine Hepburn in nine films between 1942 and 1967; their off-screen relationship was an open secret in Hollywood\nFinal film was *Guess Who's Coming to Dinner* (1967); died 17 days after filming ended\nHis Best Actor statue for *Boys Town* was inscribed \"To Dick\" (his character's name) at his request",
+          "cardFront": "First back-to-back Best Actor (1937\u20131938)",
+          "cardBack": "Spencer Tracy"
+        },
+        {
+          "id": "brando",
+          "prompt": "Which actor won Best Actor for *On the Waterfront* (1954) and *The Godfather* (1972), but refused his second Oscar, sending Sacheen Littlefeather to decline it?",
+          "answer": "Marlon Brando",
+          "alternates": ["Brando"],
+          "explanation": "Refused his 1973 Best Actor Oscar for *The Godfather*; sent Sacheen Littlefeather to the podium to protest Hollywood's treatment of Native Americans\nHis performance in *On the Waterfront* produced the iconic line \"I coulda been a contender\"\nPioneered method acting in American cinema, studied under Stella Adler\nInsisted on improvisation; stuffed his cheeks with cotton (later a dental appliance) to create Vito Corleone's distinctive voice\nAlso starred in *A Streetcar Named Desire* (1951), *Apocalypse Now* (1979), and *Last Tango in Paris* (1972)",
+          "cardFront": "2 Best Actor wins; refused Oscar for *The Godfather*",
+          "cardBack": "Marlon Brando"
+        },
+        {
+          "id": "foster",
+          "prompt": "Which actress won Best Actress for both *The Accused* (1988) and *The Silence of the Lambs* (1991), and later directed several films?",
+          "answer": "Jodie Foster",
+          "alternates": ["Foster"],
+          "explanation": "Won Best Actress three ceremonies apart: *The Accused* at the 61st ceremony (1989) and *The Silence of the Lambs* at the 64th ceremony (1992)\n*The Silence of the Lambs* swept the Big Five \u2014 only the third film to do so, after *It Happened One Night* and *One Flew Over the Cuckoo's Nest*\nChild star from age three; first major role in Scorsese's *Taxi Driver* (1976) at age 13\nGraduated magna cum laude from Yale University in 1985\nDirected films including *Little Man Tate* (1991) and *Money Monster* (2016)",
+          "cardFront": "2 Best Actress wins: *The Accused*, *Silence of the Lambs*",
+          "cardBack": "Jodie Foster"
+        },
+        {
+          "id": "washington",
+          "prompt": "Which actor won Best Supporting Actor for *Glory* (1989) and Best Actor for *Training Day* (2001), becoming only the second African American to win lead actor?",
+          "answer": "Denzel Washington",
+          "alternates": ["Denzel", "Washington"],
+          "explanation": "Won in both supporting and lead categories \u2014 one of the few actors to achieve this\nSecond African American to win Best Actor (after Sidney Poitier in 1964), with a 38-year gap between the two wins\n*Glory*: played Private Trip, a formerly enslaved Union soldier in the Civil War\n*Training Day*: played corrupt LAPD detective Alonzo Harris in a departure from his typically heroic roles\nReceived nine Oscar nominations total across a career spanning 1987\u20132021",
+          "cardFront": "2 wins: *Glory* (supporting), *Training Day* (lead)",
+          "cardBack": "Denzel Washington"
+        },
+        {
+          "id": "mcdormand",
+          "prompt": "Which actress won three Best Actress Oscars, for *Fargo* (1996), *Three Billboards Outside Ebbing, Missouri* (2017), and *Nomadland* (2020)?",
+          "answer": "Frances McDormand",
+          "alternates": ["McDormand"],
+          "explanation": "Three Best Actress wins ties her with Ingrid Bergman for second-most female acting Oscars (behind Katharine Hepburn's four)\nMarried to Coen brothers collaborator Joel Coen; *Fargo* was directed by the Coen brothers\n*Nomadland*: also served as a producer, winning Best Picture as well as Best Actress\nDuring her 2018 acceptance speech for *Three Billboards*, she introduced the concept of an \"inclusion rider\" to mainstream awareness\nKnown for minimal red-carpet preparation; once famously said she would never get cosmetic surgery",
+          "cardFront": "3 Best Actress wins: *Fargo*, *Three Billboards*, *Nomadland*",
+          "cardBack": "Frances McDormand"
+        },
+        {
+          "id": "hopkins",
+          "prompt": "Which Welsh actor became the oldest Best Actor winner at age 83 for *The Father* (2020), decades after his first win as Hannibal Lecter in *The Silence of the Lambs*?",
+          "answer": "Anthony Hopkins",
+          "alternates": ["Hopkins"],
+          "explanation": "Oldest Best Actor winner at 83 years old for *The Father* (2020), surpassing Henry Fonda who won at 76\nFirst win was for Hannibal Lecter in *The Silence of the Lambs* (1991) \u2014 a role with only about 16 minutes of screen time\nHis *Silence of the Lambs* performance is one of the shortest screen times ever to win a lead acting Oscar\nBorn in Port Talbot, Wales; became a U.S. citizen in 2000\nWas not present at the 2021 ceremony; his *Father* win over Chadwick Boseman (posthumous favorite) was one of the most debated Oscar results in recent history",
+          "cardFront": "Oldest Best Actor at 83; Hannibal Lecter",
+          "cardBack": "Anthony Hopkins"
+        },
+        {
+          "id": "oneal",
+          "prompt": "Which actress became the youngest competitive Oscar winner at age 10, winning Best Supporting Actress for *Paper Moon* (1973) opposite her real-life father?",
+          "answer": "Tatum O'Neal",
+          "alternates": ["O'Neal", "Tatum ONeal"],
+          "explanation": "Won Best Supporting Actress at age 10 at the 46th Academy Awards (April 1974) \u2014 still the youngest competitive winner ever\nPlayed Addie Loggins, a con artist's daughter, opposite her father Ryan O'Neal in *Paper Moon*\nDirected by Peter Bogdanovich; shot in black and white to evoke Depression-era Kansas\nHer career declined after early success; she later wrote a memoir, *A Paper Life* (2004), about her turbulent childhood\nShirley Temple received an honorary juvenile Oscar at age 6 in 1935, but that was non-competitive",
+          "cardFront": "Youngest competitive Oscar winner (age 10)",
+          "cardBack": "Tatum O'Neal"
+        },
+        {
+          "id": "mcdaniel",
+          "prompt": "Which actress became the first African American to win an Oscar, taking Best Supporting Actress for her role as Mammy in *Gone with the Wind* (1939)?",
+          "answer": "Hattie McDaniel",
+          "alternates": ["McDaniel"],
+          "explanation": "First African American to win an Academy Award, at the 12th ceremony (February 29, 1940)\nWon for playing Mammy in *Gone with the Wind*; the role has been both celebrated and criticized\nSeated at a segregated table at the side of the Cocoanut Grove nightclub during the ceremony, away from the film's white cast\nAlso the first Black woman to sing on American radio\nAppeared in over 300 films, often in uncredited maid roles; responded to criticism by saying she'd \"rather play a maid than be one\"",
+          "cardFront": "First African American Oscar winner (1940)",
+          "cardBack": "Hattie McDaniel"
+        },
+        {
+          "id": "poitier",
+          "prompt": "Which actor became the first African American to win Best Actor, for *Lilies of the Field* (1963), and later received an honorary Oscar for his overall contribution to cinema?",
+          "answer": "Sidney Poitier",
+          "alternates": ["Poitier"],
+          "explanation": "First African American to win Best Actor at the 36th Academy Awards (April 1964)\nWon for *Lilies of the Field*, playing Homer Smith, an itinerant handyman who helps German-speaking nuns build a chapel in the Arizona desert\n1967 was his landmark year: starred in *In the Heat of the Night*, *Guess Who's Coming to Dinner*, and *To Sir, with Love*\nReceived an Honorary Oscar in 2002 for \"extraordinary performances and unique presence on the screen\"\nBorn in Miami, raised in the Bahamas; largely self-taught as an actor after being rejected by the American Negro Theatre",
+          "cardFront": "First African American Best Actor (1963)",
+          "cardBack": "Sidney Poitier"
+        },
+        {
+          "id": "bergman",
+          "prompt": "Which Swedish actress won three Oscars \u2014 Best Actress for *Gaslight* (1944) and *Anastasia* (1956), and Best Supporting Actress for *Murder on the Orient Express* (1974)?",
+          "answer": "Ingrid Bergman",
+          "alternates": ["Bergman"],
+          "explanation": "Three Oscar wins across two acting categories: two Best Actress, one Best Supporting Actress\nAlso starred in *Casablanca* (1942), *Notorious* (1946), and *Autumn Sonata* (1978, directed by Ingmar Bergman \u2014 no relation)\nHer affair with Italian director Roberto Rossellini in 1950 caused a scandal that effectively exiled her from Hollywood for seven years\n*Anastasia* (1956) marked her triumphant return to Hollywood after the scandal\nDied on her 67th birthday, August 29, 1982, in London",
+          "cardFront": "3 wins: *Gaslight*, *Anastasia*, *Orient Express*",
+          "cardBack": "Ingrid Bergman"
+        },
+        {
+          "id": "blanchett",
+          "prompt": "Which Australian actress won Best Supporting Actress as Katharine Hepburn in *The Aviator* (2004) and Best Actress for *Blue Jasmine* (2013)?",
+          "answer": "Cate Blanchett",
+          "alternates": ["Blanchett"],
+          "explanation": "Won in both supporting and lead categories \u2014 one of the few actresses to achieve both\nHer portrayal of Katharine Hepburn in *The Aviator* made her one of the rare actors to win an Oscar for playing another Oscar winner\n*Blue Jasmine*: played a socialite in financial and psychological freefall, in a Woody Allen film inspired by *A Streetcar Named Desire*\nAlso acclaimed for playing Galadriel in *The Lord of the Rings* trilogy and the title role in *Elizabeth* (1998)\nCo-artistic director of the Sydney Theatre Company from 2008 to 2013",
+          "cardFront": "2 wins: *The Aviator* (supporting), *Blue Jasmine* (lead)",
+          "cardBack": "Cate Blanchett"
+        },
+        {
+          "id": "swank",
+          "prompt": "Which actress won two Best Actress Oscars, for *Boys Don't Cry* (1999) and *Million Dollar Baby* (2004), both playing characters facing physical adversity?",
+          "answer": "Hilary Swank",
+          "alternates": ["Swank"],
+          "explanation": "Won Best Actress twice within a five-year span \u2014 a rare feat for the category\n*Boys Don't Cry*: played Brandon Teena, a transgender man murdered in Nebraska in 1993; Swank lived as a man for a month to prepare\n*Million Dollar Baby*: played aspiring boxer Maggie Fitzgerald, trained by Clint Eastwood's character\nLived in a car with her mother as a teenager after moving to Los Angeles to pursue acting\nThe 11th actress in history to win two or more Best Actress awards",
+          "cardFront": "2 Best Actress wins: *Boys Don't Cry*, *Million Dollar Baby*",
+          "cardBack": "Hilary Swank"
+        },
+        {
+          "id": "ledger",
+          "prompt": "Which Australian actor won a posthumous Best Supporting Actor Oscar for playing the Joker in *The Dark Knight* (2008), having died of an accidental drug overdose at age 28?",
+          "answer": "Heath Ledger",
+          "alternates": ["Ledger"],
+          "explanation": "Died January 22, 2008, from an accidental overdose of prescription medications, six months before *The Dark Knight* premiered\nWon Best Supporting Actor posthumously at the 81st Academy Awards (February 2009) \u2014 only the second posthumous acting winner, after Peter Finch (1976)\nHis Joker is widely regarded as one of the greatest villain performances in cinema history\nAlso acclaimed for *Brokeback Mountain* (2005), for which he received a Best Actor nomination\nHis Joker was inspired partly by punk rocker Sid Vicious and the character Alex from *A Clockwork Orange*",
+          "cardFront": "Posthumous Supporting Actor: the Joker in *The Dark Knight*",
+          "cardBack": "Heath Ledger"
+        }
+      ]
+    }
+  ]
+}
