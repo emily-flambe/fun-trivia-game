@@ -154,16 +154,14 @@ git add <files>
 git commit -m "Description of changes"
 git push -u origin my-feature
 
-# 3. Create PR
+# 3. Create PR with auto-merge enabled
 gh pr create --fill
+gh pr merge --squash --auto
 
-# 4. Wait for CI (all 4 checks must pass: Unit Tests, Worker Integration Tests, Build, E2E Tests)
-gh pr checks
+# 4. Wait for CI (all 5 checks must pass: Unit Tests, Worker Integration Tests, Build, E2E Tests, Workers Builds)
+gh pr checks --watch
 
-# 5. Merge when green
-gh pr merge --squash
-
-# 6. Clean up worktree
+# 5. Clean up worktree
 cd ../fun-trivia-game
 git worktree remove ../fun-trivia-game-my-feature
 ```
@@ -175,10 +173,11 @@ git worktree remove ../fun-trivia-game-my-feature
 - Merge PRs with failing CI checks
 
 ### Branch protection rules on `main`:
-- 4 required status checks: Unit Tests, Worker Integration Tests, Build, E2E Tests
+- 5 required status checks: Unit Tests, Worker Integration Tests, Build, E2E Tests, Workers Builds
 - PRs required (no direct pushes)
 - Force pushes disabled
 - Enforced for admins
+- Auto-merge enabled: use `gh pr merge --squash --auto` after creating PRs
 
 ## Deploying
 
