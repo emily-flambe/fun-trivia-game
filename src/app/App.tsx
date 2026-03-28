@@ -5,6 +5,7 @@ import { Dashboard } from './components/Dashboard';
 import { NodeView } from './components/NodeView';
 import { ExerciseView } from './components/ExerciseView';
 import { ProfilePage } from './components/ProfilePage';
+import { Sidebar } from './components/Sidebar';
 
 type Route =
 	| { page: 'dashboard' }
@@ -35,6 +36,7 @@ function parseHash(): Route {
 export function App() {
 	const [route, setRoute] = useState<Route>(parseHash);
 	const [auth, setAuth] = useState<AuthState>({ authenticated: false });
+	const [sidebarOpen, setSidebarOpen] = useState(false);
 
 	useEffect(() => {
 		const onHash = () => setRoute(parseHash());
@@ -46,14 +48,29 @@ export function App() {
 		getAuthMe().then(setAuth).catch(() => {});
 	}, []);
 
+	const activePath = (route.page === 'node' || route.page === 'exercise') ? route.path : null;
+	const activeType = route.page === 'node' ? 'node' as const
+		: route.page === 'exercise' ? 'exercise' as const
+		: null;
+
 	return (
 		<AuthProvider value={auth}>
-		<div className="min-h-screen bg-surface text-text-primary font-sans">
-			<nav className="px-4 sm:px-6 py-4 flex items-center justify-between">
+		<div className="h-screen flex flex-col bg-surface text-text-primary font-sans">
+			{/* Top navigation bar */}
+			<nav className="shrink-0 px-4 sm:px-6 py-3 flex items-center border-b border-border-subtle">
+				<button
+					onClick={() => setSidebarOpen(true)}
+					className="md:hidden w-9 h-9 flex items-center justify-center rounded-lg hover:bg-surface-hover text-text-secondary -ml-1 mr-2"
+					aria-label="Open navigation"
+				>
+					<svg className="w-5 h-5" viewBox="0 0 20 20" fill="none">
+						<path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+					</svg>
+				</button>
 				<a href="#/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
 					Trivia Trainer
 				</a>
-				<div className="flex items-center gap-1">
+				<div className="flex items-center gap-1 ml-auto">
 					<button
 						onClick={() => getRandomExerciseId().then((id) => {
 							if (id) window.location.hash = `/exercise/${id}?mode=quiz`;
@@ -87,12 +104,24 @@ export function App() {
 					) : null}
 				</div>
 			</nav>
-			<main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
-				{route.page === 'dashboard' && <Dashboard />}
-				{route.page === 'node' && <NodeView path={route.path} />}
-				{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}
-				{route.page === 'profile' && <ProfilePage />}
-			</main>
+
+			{/* Sidebar + main content */}
+			<div className="flex flex-1 min-h-0">
+				<Sidebar
+					activePath={activePath}
+					activeType={activeType}
+					isOpen={sidebarOpen}
+					onClose={() => setSidebarOpen(false)}
+				/>
+				<main className="flex-1 overflow-y-auto min-w-0">
+					<div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+						{route.page === 'dashboard' && <Dashboard />}
+						{route.page === 'node' && <NodeView path={route.path} />}
+						{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}
+						{route.page === 'profile' && <ProfilePage />}
+					</div>
+				</main>
+			</div>
 		</div>
 		</AuthProvider>
 	);
