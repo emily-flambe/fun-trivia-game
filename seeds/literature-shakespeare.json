@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    { "id": "literature/shakespeare", "parentId": "literature", "name": "Shakespeare", "description": "Plays, characters, and quotes from Shakespeare" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/shakespeare/plays",
+      "nodeId": "literature/shakespeare",
+      "name": "Shakespeare's Plays",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "hamlet-genre",
+          "prompt": "What genre is Shakespeare's *Hamlet*?",
+          "answer": "Tragedy",
+          "alternates": ["Tragic"],
+          "explanation": "Written c. 1600–1601; one of Shakespeare's longest plays\nSet in Denmark; Prince Hamlet avenges his murdered father by killing his uncle Claudius\nContains more quoted lines than any other Shakespeare play\nSource material: the Scandinavian legend of Amleth, via François de Belleforest's *Histoires Tragiques* (1570)\nThe First Folio (1623) classifies it among the Tragedies",
+          "cardFront": "*Hamlet*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "to-be-or-not-to-be",
+          "prompt": "Which Shakespeare play contains the soliloquy beginning 'To be, or not to be, that is the question'?",
+          "answer": "Hamlet",
+          "alternates": [],
+          "explanation": "Act 3, Scene 1 of *Hamlet*; spoken by Prince Hamlet contemplating existence and suicide\nAmong the most quoted lines in the English language\nThree substantially different versions exist across the First Quarto, Second Quarto, and First Folio texts\nLaurence Olivier's 1948 film opens with this soliloquy delivered in voice-over",
+          "cardFront": "\"To be, or not to be, that is the question\"",
+          "cardBack": "*Hamlet*"
+        },
+        {
+          "id": "macbeth-genre",
+          "prompt": "What genre is Shakespeare's *Macbeth*?",
+          "answer": "Tragedy",
+          "alternates": ["Tragic"],
+          "explanation": "Written c. 1606; Shakespeare's shortest tragedy\nSet in medieval Scotland; Macbeth murders King Duncan to seize the throne\nSuperstition holds that saying the title in a theatre brings bad luck — actors call it 'The Scottish Play'\nBased on Raphael Holinshed's *Chronicles of England, Scotland and Ireland* (1577)\nFeatured in a 2015 film adaptation starring Michael Fassbender and Marion Cotillard",
+          "cardFront": "*Macbeth*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "tomorrow-and-tomorrow",
+          "prompt": "Which Shakespeare play contains the speech beginning 'Tomorrow and tomorrow and tomorrow, / Creeps in this petty pace from day to day'?",
+          "answer": "Macbeth",
+          "alternates": [],
+          "explanation": "Act 5, Scene 5 of *Macbeth*; spoken by Macbeth upon learning of Lady Macbeth's death\nFull line continues: '...to the last syllable of recorded time'\nWilliam Faulkner took the title *The Sound and the Fury* from the same speech: 'full of sound and fury, signifying nothing'\nExpresses nihilistic despair — Macbeth sees life as meaningless after a reign of murder",
+          "cardFront": "\"Tomorrow and tomorrow and tomorrow\"",
+          "cardBack": "*Macbeth*"
+        },
+        {
+          "id": "othello-genre",
+          "prompt": "What genre is Shakespeare's *Othello*?",
+          "answer": "Tragedy",
+          "alternates": ["Tragic"],
+          "explanation": "Written c. 1603; set in Venice and Cyprus\nOthello, a Moorish general, is manipulated by Iago into believing his wife Desdemona is unfaithful\nSource: Cinthio's novella collection *Gli Hecatommithi* (1565)\nOliver Parker's 1995 film starred Laurence Fishburne as Othello — first Black actor in the lead role in a major film adaptation",
+          "cardFront": "*Othello*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "iago-othello",
+          "prompt": "Which Shakespeare play features the villain Iago, who manipulates the protagonist into killing his innocent wife?",
+          "answer": "Othello",
+          "alternates": [],
+          "explanation": "Iago is often called Shakespeare's greatest villain — his motives remain deliberately ambiguous\nClaims to be passed over for promotion by Othello in favor of Cassio; possibly also jealous of Othello's marriage\nThe character has no redemption arc; he refuses to explain his actions at the play's end\nVerdi's opera *Otello* (1887) is based on the play",
+          "cardFront": "Iago (manipulative villain)",
+          "cardBack": "*Othello*"
+        },
+        {
+          "id": "king-lear-genre",
+          "prompt": "What genre is Shakespeare's *King Lear*?",
+          "answer": "Tragedy",
+          "alternates": ["Tragic"],
+          "explanation": "Written c. 1605–1606; based on the legendary pre-Roman British King Leir\nLear divides his kingdom among three daughters based on their professions of love, with catastrophic results\nConsidered one of Shakespeare's most emotionally devastating works\nNahum Tate's 1681 adaptation gave it a happy ending — this version dominated the stage for 150 years\nThe Fool disappears mysteriously midway through and is never explained",
+          "cardFront": "*King Lear*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "romeo-and-juliet-genre",
+          "prompt": "What genre is Shakespeare's *Romeo and Juliet*?",
+          "answer": "Tragedy",
+          "alternates": ["Tragic"],
+          "explanation": "Written c. 1594–1596; among Shakespeare's most performed plays worldwide\nBased on Arthur Brooke's narrative poem *The Tragicall Historye of Romeus and Juliet* (1562)\nSet in Verona, Italy; the feud between the Montague and Capulet families drives the plot\nMusical adaptation: *West Side Story* (1957, then 1961 and 2021 films)\nFrancesca da Rimini in Dante's *Inferno* is sometimes cited as a precursor to the star-crossed lovers concept",
+          "cardFront": "*Romeo and Juliet*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "midsummer-genre",
+          "prompt": "What genre is Shakespeare's *A Midsummer Night's Dream*?",
+          "answer": "Comedy",
+          "alternates": ["Romantic Comedy"],
+          "explanation": "Written c. 1595–1596; one of Shakespeare's most fantastical plays\nSet in Athens and an enchanted forest ruled by Oberon and Titania, fairy king and queen\nThe mechanicals (working-class tradesmen) rehearse a play within the play, culminating in 'Pyramus and Thisbe'\nCentral to the plot: a love potion that causes characters to fall in love with the first creature they see upon waking",
+          "cardFront": "*A Midsummer Night's Dream*",
+          "cardBack": "Comedy"
+        },
+        {
+          "id": "puck-midsummer",
+          "prompt": "Which Shakespeare play features Puck (Robin Goodfellow), a mischievous fairy who causes chaos with a love potion?",
+          "answer": "A Midsummer Night's Dream",
+          "alternates": ["Midsummer Night's Dream", "Midsummer"],
+          "explanation": "Puck is the servant of Oberon, the fairy king\nHis most famous line: 'Lord, what fools these mortals be!'\nPuck's mistaken application of the love potion drives the comedy's central plot\nMendelssohn composed incidental music for the play in 1842, including the famous 'Wedding March'",
+          "cardFront": "Puck / Robin Goodfellow (mischievous fairy, love potion)",
+          "cardBack": "*A Midsummer Night's Dream*"
+        },
+        {
+          "id": "much-ado-genre",
+          "prompt": "What genre is Shakespeare's *Much Ado About Nothing*?",
+          "answer": "Comedy",
+          "alternates": ["Romantic Comedy"],
+          "explanation": "Written c. 1598–1599; set in Messina, Sicily\nCentral couple Beatrice and Benedick are tricked into falling in love through an elaborate scheme\nTheir witty verbal sparring is one of Shakespeare's most beloved comic dynamics\nKenneth Branagh directed and starred in a celebrated 1993 film adaptation set in Tuscany",
+          "cardFront": "*Much Ado About Nothing*",
+          "cardBack": "Comedy"
+        },
+        {
+          "id": "merchant-of-venice-genre",
+          "prompt": "What genre is Shakespeare's *The Merchant of Venice*?",
+          "answer": "Comedy",
+          "alternates": ["Romantic Comedy", "Problem Play"],
+          "explanation": "Written c. 1596–1598; classified as a comedy in the First Folio but often called a 'problem play'\nFeatures the 'pound of flesh' bond and the casket lottery for Portia's hand\nConsidered Shakespeare's most controversial play due to the portrayal of Shylock\nAl Pacino played Shylock in a 2004 film adaptation",
+          "cardFront": "*The Merchant of Venice*",
+          "cardBack": "Comedy"
+        },
+        {
+          "id": "shylock-merchant",
+          "prompt": "Which Shakespeare play features Shylock, a Jewish moneylender who demands a 'pound of flesh' as collateral for a loan?",
+          "answer": "The Merchant of Venice",
+          "alternates": ["Merchant of Venice"],
+          "explanation": "Shylock lends money to Antonio on the condition that forfeiture is a pound of Antonio's flesh\nThe 'Hath not a Jew eyes?' speech (Act 3, Scene 1) is one of Shakespeare's most powerful monologues on shared humanity\nPortia famously defeats Shylock's legal claim with the argument that the bond specifies flesh but not blood\nDebated as both antisemitic caricature and sympathetic portrait of a persecuted man",
+          "cardFront": "Shylock (moneylender, pound of flesh)",
+          "cardBack": "*The Merchant of Venice*"
+        },
+        {
+          "id": "twelfth-night-genre",
+          "prompt": "What genre is Shakespeare's *Twelfth Night*?",
+          "answer": "Comedy",
+          "alternates": ["Romantic Comedy"],
+          "explanation": "Written c. 1601–1602; subtitle 'Or What You Will'\nViola disguises herself as a man (Cesario) after a shipwreck, creating a love triangle with Orsino and Olivia\nFeatures Malvolio, the pompous steward tricked into wearing yellow stockings and cross-garters\nWas likely performed at the court of Queen Elizabeth I at the Twelfth Night festivities of 1601 or 1602",
+          "cardFront": "*Twelfth Night*",
+          "cardBack": "Comedy"
+        },
+        {
+          "id": "taming-of-the-shrew-genre",
+          "prompt": "What genre is Shakespeare's *The Taming of the Shrew*?",
+          "answer": "Comedy",
+          "alternates": ["Romantic Comedy"],
+          "explanation": "Written c. 1590–1592; among Shakespeare's earliest plays\nPetruchio woos and 'tames' Katherina (the 'shrew') while Lucentio pursues her sister Bianca\nAmong Shakespeare's most controversial plays for its depiction of gender roles\nModern adaptation: *10 Things I Hate About You* (1999), set in a high school in Seattle",
+          "cardFront": "*The Taming of the Shrew*",
+          "cardBack": "Comedy"
+        },
+        {
+          "id": "henry-v-genre",
+          "prompt": "What genre is Shakespeare's *Henry V*?",
+          "answer": "History",
+          "alternates": ["Historical"],
+          "explanation": "Written c. 1598–1600; covers the English victory at the Battle of Agincourt (1415)\n'Once more unto the breach, dear friends' and 'We few, we happy few, we band of brothers' are from this play\nKenneth Branagh's 1989 film adaptation is considered definitive; he also played Henry in a 1951 Laurence Olivier version\nContinues from *Henry IV, Parts 1 and 2*, in which Prince Hal (Henry) is a carousing youth",
+          "cardFront": "*Henry V*",
+          "cardBack": "History"
+        },
+        {
+          "id": "richard-iii-genre",
+          "prompt": "What genre is Shakespeare's *Richard III*?",
+          "answer": "History",
+          "alternates": ["Historical"],
+          "explanation": "Written c. 1592–1593; covers Richard's rise to and fall from the English throne\nOpens with the famous line: 'Now is the winter of our discontent'\nRichard III's skeleton was discovered under a Leicester car park in 2012; confirmed by DNA in 2013\nShakespeare's portrayal is largely Tudor propaganda — depicting Richard as a deformed villain",
+          "cardFront": "*Richard III*",
+          "cardBack": "History"
+        },
+        {
+          "id": "julius-caesar-genre",
+          "prompt": "What genre is Shakespeare's *Julius Caesar*?",
+          "answer": "Tragedy",
+          "alternates": ["History", "Tragic"],
+          "explanation": "Written c. 1599; covers the assassination of Caesar and its aftermath\nBrutus and Cassius lead the conspirators; Mark Antony's 'Friends, Romans, countrymen' oration turns the crowd\nCaesar's death is depicted in Act 3; the play shifts focus to Brutus and Antony for the remainder\nClassified as a Tragedy in the First Folio despite its historical subject; sometimes grouped with the Roman plays",
+          "cardFront": "*Julius Caesar*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "antony-and-cleopatra-genre",
+          "prompt": "What genre is Shakespeare's *Antony and Cleopatra*?",
+          "answer": "Tragedy",
+          "alternates": ["Tragic", "History"],
+          "explanation": "Written c. 1606–1607; follows *Julius Caesar* chronologically\nDepicts the love affair between Mark Antony and the Egyptian queen Cleopatra VII\nOne of Shakespeare's longest plays; spans multiple locations across the Roman world and Egypt\nCleopatra's suicide by asp bite ('Give me my robe, put on my crown') is among Shakespeare's most theatrical deaths",
+          "cardFront": "*Antony and Cleopatra*",
+          "cardBack": "Tragedy"
+        },
+        {
+          "id": "tempest-genre",
+          "prompt": "What genre is Shakespeare's *The Tempest*?",
+          "answer": "Romance",
+          "alternates": ["Romantic", "Comedy", "Tragicomedy"],
+          "explanation": "Written c. 1610–1611; believed to be Shakespeare's final solo-authored play\nProspero, the rightful Duke of Milan, uses magic to manipulate events on a remote island\nCaliban — Prospero's enslaved servant — is central to postcolonial readings of the play\nShakespeare likely retired to Stratford-upon-Avon shortly after writing it",
+          "cardFront": "*The Tempest*",
+          "cardBack": "Romance"
+        },
+        {
+          "id": "winter-tale-genre",
+          "prompt": "What genre is Shakespeare's *The Winter's Tale*?",
+          "answer": "Romance",
+          "alternates": ["Romantic", "Comedy", "Tragicomedy"],
+          "explanation": "Written c. 1610–1611; one of the 'late romances' alongside *The Tempest* and *Pericles*\nKing Leontes's jealous delusion drives the first half (tragic); his daughter Perdita's story resolves it (comic)\nContains the famous stage direction: 'Exit, pursued by a bear'\nHermione's apparent return to life as a statue is one of Shakespeare's most magical theatrical moments",
+          "cardFront": "*The Winter's Tale*",
+          "cardBack": "Romance"
+        }
+      ]
+    }
+  ]
+}

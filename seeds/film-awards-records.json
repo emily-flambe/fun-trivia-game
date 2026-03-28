@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "film/oscars", "parentId": "film", "name": "Academy Awards", "description": "Oscar-winning films and landmark moments in Academy history" }
+  ],
+  "exercises": [
+    {
+      "id": "film/oscars/awards-records",
+      "nodeId": "film/oscars",
+      "name": "Film Awards & Records",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "most-oscar-wins-single-film",
+          "prompt": "Three films share the all-time record for most Oscar wins by a single film, each winning 11: *Ben-Hur* (1959), *Titanic* (1997), and which 2003 Peter Jackson epic that swept every category it was nominated in?",
+          "answer": "The Lord of the Rings: The Return of the King",
+          "alternates": ["The Return of the King", "Return of the King", "Lord of the Rings: The Return of the King"],
+          "explanation": "All three films won 11 Oscars: *Ben-Hur* from 12 nominations, *Titanic* from 14 nominations, *Return of the King* from 11 nominations (11 for 11 – perfect sweep)\n*The Return of the King* is the only film to win every Oscar for which it was nominated\nDirected by Peter Jackson; the third installment of the *Lord of the Rings* trilogy\nAlso the only sequel (with *The Godfather Part II*) to win Best Picture",
+          "cardFront": "Most Oscar wins, single film (tied record)",
+          "cardBack": "The Lord of the Rings: The Return of the King"
+        },
+        {
+          "id": "most-oscar-nominations-single-film",
+          "prompt": "Which 2025 Ryan Coogler film set the all-time record for most Oscar nominations with 16 at the 98th Academy Awards, breaking the previous record of 14 shared by All About Eve, Titanic, and La La Land?",
+          "answer": "Sinners",
+          "alternates": [],
+          "explanation": "Ryan Coogler's *Sinners* (2025) received 16 nominations at the 98th Academy Awards (2026), breaking the all-time record\nStarring Michael B. Jordan; the film also set a record for most Black individuals nominated for a single film (10)\nThe previous record of 14 nominations was a three-way tie: *All About Eve* (1950), *Titanic* (1997), and *La La Land* (2016)\n*All About Eve* won 6 of its 14; *Titanic* won 11 of its 14 including Best Picture; *La La Land* won 6 of its 14 but lost Best Picture to *Moonlight*",
+          "cardFront": "Most Oscar nominations, single film",
+          "cardBack": "Sinners"
+        },
+        {
+          "id": "most-best-actress-wins",
+          "prompt": "Which actress holds the record for most Best Actress Oscar wins with four, for *Morning Glory* (1933), *Guess Who's Coming to Dinner* (1967), *The Lion in Winter* (1968), and *On Golden Pond* (1981)?",
+          "answer": "Katharine Hepburn",
+          "alternates": ["Hepburn", "Katherine Hepburn"],
+          "explanation": "Won Best Actress four times – a record no other actor has matched in any category\nHer 1968 win for *The Lion in Winter* was a tie with Barbra Streisand (*Funny Girl*) – the only tied Best Actress result in Oscar history\nReceived 12 acting nominations over a 48-year span (1933–1981)\nKnown for her independent persona and refusal to comply with Hollywood's studio system expectations\nHer fourth win came 48 years after her first – the longest span between first and last wins",
+          "cardFront": "Most Best Actress Oscar wins",
+          "cardBack": "Katharine Hepburn"
+        },
+        {
+          "id": "most-best-actor-wins",
+          "prompt": "Which actor holds the record for most Best Actor Oscar wins with three, for *My Left Foot* (1989), *There Will Be Blood* (2007), and *Lincoln* (2012)?",
+          "answer": "Daniel Day-Lewis",
+          "alternates": ["Day-Lewis", "Daniel Day Lewis"],
+          "explanation": "Unique record: the only person ever to win Best Actor three times\nKnown for extreme method acting: learned to speak Gaelic and stayed in a wheelchair for *My Left Foot*; refused to break character on *Gangs of New York* or *There Will Be Blood*\nAnnounced retirement from acting in 2017 after *Phantom Thread*\nBorn in London; holds dual British-Irish citizenship; son of Poet Laureate Cecil Day-Lewis",
+          "cardFront": "Most Best Actor Oscar wins",
+          "cardBack": "Daniel Day-Lewis"
+        },
+        {
+          "id": "most-acting-nominations-woman",
+          "prompt": "Which actress holds the record for most Oscar nominations in acting with 21, winning three times for *Kramer vs. Kramer* (1979), *Sophie's Choice* (1982), and *The Iron Lady* (2011)?",
+          "answer": "Meryl Streep",
+          "alternates": ["Streep"],
+          "explanation": "21 acting nominations – far more than any other performer; also holds the record for most nominations overall among actors\nThree wins: Best Supporting Actress (*Kramer vs. Kramer*), Best Actress (*Sophie's Choice*, *The Iron Lady*)\nFirst nomination in 1978 (*The Deer Hunter*); most recent major nomination in 2023 (*She Said* did not receive one; most recent was *The Post*, 2018)\nWidely regarded as the greatest living actress; fluent in German, Polish, and Italian for various roles\nOnce told at a Universal audition she was 'not pretty enough'; she proved otherwise over a 50-year career",
+          "cardFront": "Most Oscar nominations, actress (acting)",
+          "cardBack": "Meryl Streep"
+        },
+        {
+          "id": "most-best-director-wins",
+          "prompt": "Which director holds the record for most Best Director Oscar wins with four, for *The Informer* (1935), *The Grapes of Wrath* (1940), *How Green Was My Valley* (1941), and *The Quiet Man* (1952)?",
+          "answer": "John Ford",
+          "alternates": ["Ford"],
+          "explanation": "Holds the record for most Best Director wins: four\nBorn Sean Aloysius O'Fearna in Cape Elizabeth, Maine, to Irish immigrant parents\n*How Green Was My Valley* (1941) famously defeated *Citizen Kane* for Best Picture\nDefined the Hollywood Western: Monument Valley, Utah became his visual signature through films like *Stagecoach* and *The Searchers*\nServed in the U.S. Navy during WWII; filmed the Battle of Midway and was wounded; received Navy Cross",
+          "cardFront": "Most Best Director Oscar wins",
+          "cardBack": "John Ford"
+        },
+        {
+          "id": "first-big-five-sweep",
+          "prompt": "Which 1934 Frank Capra romantic comedy starring Clark Gable and Claudette Colbert was the first film to sweep the 'Big Five' Oscars (Picture, Director, Actor, Actress, Screenplay)?",
+          "answer": "It Happened One Night",
+          "alternates": [],
+          "explanation": "Directed by Frank Capra, 1934; starring Clark Gable (a spoiled heiress on the run) and Claudette Colbert\nOnly three films have ever swept the Big Five: *It Happened One Night* (1934), *One Flew Over the Cuckoo's Nest* (1975), and *The Silence of the Lambs* (1991)\nColbert reportedly hated making the film and demanded double her normal fee; the film made her an A-list star\nThe 'walls of Jericho' blanket scene sparked a brief decline in men's undershirt sales after Gable removed his shirt and wore none",
+          "cardFront": "First film to sweep the 'Big Five' Oscars",
+          "cardBack": "It Happened One Night"
+        },
+        {
+          "id": "youngest-supporting-actress",
+          "prompt": "Which actress became the youngest Oscar winner ever when she won Best Supporting Actress at age 10 for *Paper Moon* (1973), co-starring with her father Ryan O'Neal?",
+          "answer": "Tatum O'Neal",
+          "alternates": ["O'Neal", "Tatum ONeal"],
+          "explanation": "Won at age 10 years and 148 days – still the youngest competitive Oscar winner in history\n*Paper Moon* directed by Peter Bogdanovich; Tatum plays Addie Loggins, a Depression-era con artist's companion\nRyan O'Neal, her real father, plays Moses Pray; she outacted him so thoroughly that his nomination never materialized\nLater starred in *The Bad News Bears* (1976) before a troubled personal life overshadowed her career",
+          "cardFront": "Youngest Oscar winner ever",
+          "cardBack": "Tatum O'Neal"
+        },
+        {
+          "id": "most-oscars-without-best-picture",
+          "prompt": "Which 1972 Bob Fosse musical won 8 Oscars including Best Director, Best Actress (Liza Minnelli), and Best Supporting Actor (Joel Grey) but lost Best Picture to *The Godfather*?",
+          "answer": "Cabaret",
+          "alternates": [],
+          "explanation": "Directed by Bob Fosse, 1972; won 8 Oscars from 10 nominations – the most wins by a film that did not win Best Picture\nLiza Minnelli won Best Actress; Joel Grey won Best Supporting Actor; Fosse won Best Director\n*The Godfather* won Best Picture the same year despite winning only 3 Oscars to *Cabaret*'s 8\nSet in 1931 Weimar Republic Berlin; based on Christopher Isherwood's stories and the 1966 Broadway musical\nFosse's kinetic, stylized choreography and the MC character (Grey) defined the film's decadent aesthetic",
+          "cardFront": "Most Oscars won without winning Best Picture",
+          "cardBack": "Cabaret"
+        },
+        {
+          "id": "first-animated-best-picture-nomination",
+          "prompt": "Which 1991 Disney animated film, directed by Gary Trousdale and Kirk Wise, became the first animated film nominated for Best Picture in the era when only five nominees were selected?",
+          "answer": "Beauty and the Beast",
+          "alternates": [],
+          "explanation": "Directed by Gary Trousdale and Kirk Wise, 1991; produced by Don Hahn\nFirst animated film nominated for Best Picture under the traditional 5-nominee format; lost to *The Silence of the Lambs*\nWon Best Original Score and Best Original Song ('Beauty and the Beast,' performed by Celine Dion and Peabo Bryson)\nComposer Alan Menken and lyricist Howard Ashman collaborated; Ashman died of AIDS-related complications before the film's release\nThe Academy expanded to 10 nominees in 2009; several animated films have been nominated since, but none has won",
+          "cardFront": "First animated film nominated for Best Picture",
+          "cardBack": "Beauty and the Beast"
+        },
+        {
+          "id": "most-nominations-zero-wins",
+          "prompt": "Which 1985 Steven Spielberg drama and which 1977 Herbert Ross film share the record for most Oscar nominations (11 each) without winning a single award?",
+          "answer": "The Color Purple",
+          "alternates": ["Color Purple"],
+          "explanation": "Both *The Color Purple* (1985) and *The Turning Point* (1977) received 11 nominations and won nothing\n*The Color Purple* directed by Steven Spielberg; stars Whoopi Goldberg, Oprah Winfrey, Danny Glover; based on Alice Walker's 1982 novel\n*The Turning Point* directed by Herbert Ross; starring Anne Bancroft and Shirley MacLaine; a ballet drama\nSpielberg's non-win for *The Color Purple* was widely viewed as an Academy snub; he was not nominated for Best Director",
+          "cardFront": "Most nominations with zero wins (tied record)",
+          "cardBack": "The Color Purple"
+        },
+        {
+          "id": "first-film-gross-billion",
+          "prompt": "Which 1997 James Cameron film was the first in history to gross over $1 billion worldwide, and later the first to gross over $2 billion?",
+          "answer": "Titanic",
+          "alternates": [],
+          "explanation": "Directed by James Cameron, 1997; starring Leonardo DiCaprio and Kate Winslet\nFirst film to cross $1 billion worldwide; later broke $2 billion – held the all-time box office record for 12 years\nRecord was finally broken by Cameron's own *Avatar* (2009), which crossed $2.7 billion\nMade on a budget of approximately $200 million – the most expensive film ever made at the time\nWon 11 Oscars including Best Picture and Best Director",
+          "cardFront": "First film to gross $1 billion worldwide",
+          "cardBack": "Titanic"
+        }
+      ]
+    }
+  ]
+}

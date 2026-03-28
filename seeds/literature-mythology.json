@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": "literature/mythology",
+      "parentId": "literature",
+      "name": "Greek & Roman Mythology",
+      "description": "Gods, heroes, and myths of ancient Greece and Rome"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "literature/mythology/greek-roman-gods",
+      "nodeId": "literature/mythology",
+      "name": "Greek & Roman Gods",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "zeus-roman",
+          "prompt": "What is the Roman equivalent of the Greek god Zeus, king of the Olympian gods and god of lightning?",
+          "answer": "Jupiter",
+          "alternates": ["Jove"],
+          "explanation": "Zeus (Greek) = Jupiter (Roman); king of the gods and ruler of Mount Olympus\nGod of the sky, thunder, and lightning — the thunderbolt is his primary symbol\nFather of many gods and heroes, including Athena, Apollo, Artemis, Hermes, Heracles, and Perseus\nJupiter is also the name of the largest planet in the solar system\nThe Roman Capitoline triad: Jupiter, Juno, Minerva — the three patron deities of Rome",
+          "cardFront": "Zeus (Greek)",
+          "cardBack": "Jupiter (Roman)"
+        },
+        {
+          "id": "hera-roman",
+          "prompt": "What is the Roman equivalent of the Greek goddess Hera, queen of the gods and goddess of marriage?",
+          "answer": "Juno",
+          "alternates": [],
+          "explanation": "Hera (Greek) = Juno (Roman); queen of the Olympian gods\nGoddess of marriage, childbirth, and women; wife and sister of Zeus\nFamous for jealous persecution of Zeus's lovers and illegitimate offspring, including Heracles\nJune — the most popular wedding month — is named after Juno\nHer symbols: peacock, pomegranate, and cuckoo (Zeus disguised as a cuckoo to seduce her)",
+          "cardFront": "Hera (Greek)",
+          "cardBack": "Juno (Roman)"
+        },
+        {
+          "id": "poseidon-roman",
+          "prompt": "Who was the Greek god of the sea, earthquakes, and horses, whose Roman equivalent is Neptune?",
+          "answer": "Poseidon",
+          "alternates": [],
+          "explanation": "Poseidon (Greek) = Neptune (Roman); one of the three ruling brothers alongside Zeus and Hades\nGod of the sea, earthquakes (called 'Earth-Shaker'), and horses\nHis primary weapon: the trident — a three-pronged spear that could shatter rocks and trigger storms\nLost the contest to be patron of Athens to Athena; she gave the city an olive tree, he offered a saltwater spring\nNeptune is also the name of the eighth planet in the solar system",
+          "cardFront": "Who was the Greek god of the sea?",
+          "cardBack": "Poseidon"
+        },
+        {
+          "id": "demeter-roman",
+          "prompt": "What is the Roman equivalent of the Greek goddess Demeter, goddess of agriculture and the harvest?",
+          "answer": "Ceres",
+          "alternates": [],
+          "explanation": "Demeter (Greek) = Ceres (Roman); goddess of grain, agriculture, fertility, and the harvest\nWhen her daughter Persephone was abducted by Hades, Demeter's grief caused winter — the mythological origin of seasons\nCereal — the word for grain-based foods — derives from Ceres\nHer symbols: wheat sheaf, cornucopia, torch, and poppy\nCeres is also the largest object in the asteroid belt and the first dwarf planet discovered (1801)",
+          "cardFront": "Demeter (Greek)",
+          "cardBack": "Ceres (Roman)"
+        },
+        {
+          "id": "athena-roman",
+          "prompt": "What is the Roman equivalent of the Greek goddess Athena, goddess of wisdom, crafts, and war strategy?",
+          "answer": "Minerva",
+          "alternates": [],
+          "explanation": "Athena (Greek) = Minerva (Roman); goddess of wisdom, crafts, and strategic warfare (not brute war — that is Ares/Mars)\nBorn fully grown and armored from the head of Zeus after he swallowed her pregnant mother Metis\nPatron goddess of Athens — she won the contest against Poseidon by giving the city the olive tree\nHer symbols: owl (wisdom), olive branch, aegis (shield), and helmet\nOne of three virgin goddesses (along with Artemis and Hestia)",
+          "cardFront": "Athena (Greek)",
+          "cardBack": "Minerva (Roman)"
+        },
+        {
+          "id": "apollo-same-name",
+          "prompt": "Which Olympian god kept the same name in both Greek and Roman mythology, and was associated with the sun, music, poetry, and prophecy?",
+          "answer": "Apollo",
+          "alternates": [],
+          "explanation": "Apollo is one of the few major deities who kept the same name in both Greek and Roman traditions\nGod of the sun, light, music, poetry, art, archery, plague, healing, and prophecy\nTwin brother of Artemis (Diana); son of Zeus and Leto\nHis oracle at Delphi was the most important in the ancient world — 'Know thyself' was inscribed at its entrance\nAlso associated with reason, order, and beauty — often contrasted with Dionysus (chaos, instinct)",
+          "cardFront": "Which god had the same Greek and Roman name?",
+          "cardBack": "Apollo"
+        },
+        {
+          "id": "artemis-roman",
+          "prompt": "What is the Roman equivalent of the Greek goddess Artemis, goddess of the moon, the hunt, and wild animals?",
+          "answer": "Diana",
+          "alternates": [],
+          "explanation": "Artemis (Greek) = Diana (Roman); goddess of the hunt, moon, wilderness, and chastity\nTwin sister of Apollo; daughter of Zeus and Leto\nOne of three virgin goddesses; served as a protector of young women and childbirth\nHer symbols: silver bow and arrows, crescent moon, and deer\nArtemis of Ephesus — one of the Seven Wonders of the Ancient World was her temple in Ephesus",
+          "cardFront": "Artemis (Greek)",
+          "cardBack": "Diana (Roman)"
+        },
+        {
+          "id": "ares-roman",
+          "prompt": "What is the Greek equivalent of the Roman god Mars, god of war?",
+          "answer": "Ares",
+          "alternates": [],
+          "explanation": "Ares (Greek) = Mars (Roman); god of war, violence, and bloodshed\nUnlike Athena (strategic warfare), Ares represents the brutal, physical aspect of war\nAmong the least admired of the Olympians in Greek myth — even his father Zeus disliked him\nLover of Aphrodite (Venus); father of Phobos (Fear) and Deimos (Dread)\nMars was more revered by Romans than Ares by Greeks — second only to Jupiter in the Roman pantheon; the month of March is named for him",
+          "cardFront": "What is the Greek equivalent of the Roman god Mars?",
+          "cardBack": "Ares"
+        },
+        {
+          "id": "aphrodite-roman",
+          "prompt": "What is the Roman equivalent of the Greek goddess Aphrodite, goddess of love and beauty?",
+          "answer": "Venus",
+          "alternates": [],
+          "explanation": "Aphrodite (Greek) = Venus (Roman); goddess of love, beauty, pleasure, and procreation\nBorn from the sea foam (in one tradition) after Cronus castrated Uranus and threw the remains into the sea\nMother of Eros (Cupid) and, with Anchises, of the Trojan hero Aeneas — making her an ancestor of Rome\nThe Trojan War began when she bribed Paris with Helen (the most beautiful mortal woman) in the Judgment of Paris\nVenus is also the name of the second planet from the sun — the brightest natural object in the night sky after the moon",
+          "cardFront": "Aphrodite (Greek)",
+          "cardBack": "Venus (Roman)"
+        },
+        {
+          "id": "hephaestus-roman",
+          "prompt": "What is the Roman equivalent of the Greek god Hephaestus, god of fire and the forge?",
+          "answer": "Vulcan",
+          "alternates": [],
+          "explanation": "Hephaestus (Greek) = Vulcan (Roman); god of fire, metalworking, and craftsmanship\nThe only Olympian described as physically ugly and lame — thrown from Olympus as an infant (by Hera or Zeus, accounts differ)\nCraftsman-god who forged weapons and armor for the gods: Achilles's armor, Hermes's winged sandals, Zeus's thunderbolts\nMarried to Aphrodite, who was unfaithful with Ares\nVolcanoes derive their name from Vulcan; his forge was said to lie beneath volcanic mountains",
+          "cardFront": "Hephaestus (Greek)",
+          "cardBack": "Vulcan (Roman)"
+        },
+        {
+          "id": "hermes-roman",
+          "prompt": "What is the Roman equivalent of the Greek god Hermes, messenger of the gods and patron of commerce and travelers?",
+          "answer": "Mercury",
+          "alternates": [],
+          "explanation": "Hermes (Greek) = Mercury (Roman); messenger of the gods; guide of souls to the underworld (psychopomp)\nGod of commerce, communication, thieves, travelers, and borders\nDistinguished by his winged sandals (talaria), winged helmet (petasus), and caduceus (staff entwined with two serpents)\nFastest of the Olympians; known for cunning and mischief — stole Apollo's cattle on the day he was born\nMercury is the planet closest to the sun; also the only metal that is liquid at room temperature",
+          "cardFront": "Hermes (Greek)",
+          "cardBack": "Mercury (Roman)"
+        },
+        {
+          "id": "dionysus-roman",
+          "prompt": "What is the Roman equivalent of the Greek god Dionysus, god of wine and revelry?",
+          "answer": "Bacchus",
+          "alternates": [],
+          "explanation": "Dionysus (Greek) = Bacchus (Roman); god of wine, ecstasy, theater, and ritual madness\nBorn of Zeus and the mortal Semele; the only Olympian with a mortal parent\nTwice-born: after Semele was killed, Zeus sewed the infant into his thigh to finish the gestation\nHis followers — the Maenads (frenzied women) and Satyrs — celebrated with wine and ecstatic rituals\nGreek theater — both tragedy and comedy — grew from Dionysian religious festivals in Athens",
+          "cardFront": "Dionysus (Greek)",
+          "cardBack": "Bacchus (Roman)"
+        },
+        {
+          "id": "hades-roman",
+          "prompt": "What is the Roman equivalent of the Greek god Hades, ruler of the underworld?",
+          "answer": "Pluto",
+          "alternates": ["Dis", "Dis Pater"],
+          "explanation": "Hades (Greek) = Pluto (Roman); god and king of the underworld (realm of the dead)\nOne of the three ruling brothers: Zeus (sky), Poseidon (sea), Hades (underworld) — divided after defeating the Titans\nHades is also the name of the realm itself — the Greek afterlife\nKidnapped Persephone to be his queen; her mother Demeter's grief caused the seasons\nThe dwarf planet Pluto (discovered 1930, reclassified 2006) is named for him",
+          "cardFront": "Hades (Greek)",
+          "cardBack": "Pluto (Roman)"
+        },
+        {
+          "id": "persephone-roman",
+          "prompt": "What is the Roman equivalent of Persephone, queen of the underworld and daughter of Demeter?",
+          "answer": "Proserpina",
+          "alternates": ["Proserpine"],
+          "explanation": "Persephone (Greek) = Proserpina (Roman); queen of the underworld; goddess of vegetation and spring\nAbducted by Hades while picking flowers; her mother Demeter caused famine searching for her\nEats six pomegranate seeds in the underworld — bound to spend six months there each year (winter) and six months above (spring/summer)\nThe myth explains the cycle of seasons — Demeter's grief = autumn/winter; Persephone's return = spring/summer\nAlso associated with the Eleusinian Mysteries, the most important secret religious rites of ancient Greece",
+          "cardFront": "Persephone (Greek)",
+          "cardBack": "Proserpina (Roman)"
+        },
+        {
+          "id": "eros-roman",
+          "prompt": "What is the Roman equivalent of the Greek god Eros, god of love and desire?",
+          "answer": "Cupid",
+          "alternates": ["Amor"],
+          "explanation": "Eros (Greek) = Cupid (Roman); god of love, desire, and attraction\nDepicted as a winged archer whose arrows cause irresistible love or aversion in those they strike\nIn earlier Greek tradition, a primordial force; in later myth, son of Aphrodite (and Ares or Hermes)\nHis story with Psyche — the soul — is one of mythology's great love narratives; preserved in Apuleius's *The Golden Ass*\nCupid's image (chubby winged infant with bow and arrow) became a Valentine's Day icon in the West",
+          "cardFront": "Eros (Greek)",
+          "cardBack": "Cupid (Roman)"
+        },
+        {
+          "id": "prometheus-myth",
+          "prompt": "Which Titan stole fire from the gods and gave it to humanity, and was punished by being chained to a rock where an eagle ate his liver each day?",
+          "answer": "Prometheus",
+          "alternates": [],
+          "explanation": "A Titan, not one of the twelve Olympians; his name means 'forethought'\nStole fire from Hephaestus's forge (or from the sun chariot of Helios) and gave it to humans\nPunishment: Zeus chained him to a rock; every day an eagle devoured his liver, which regenerated overnight — eternal torment\nEventually freed by Heracles (Hercules), who killed the eagle\nHis brother Epimetheus ('afterthought') accepted Pandora as a gift from Zeus, unleashing evils into the world\nShelley's *Prometheus Unbound* (1820) reimagined his myth as a symbol of human defiance",
+          "cardFront": "Prometheus",
+          "cardBack": "Stole fire; eagle ate his liver daily"
+        },
+        {
+          "id": "sisyphus-myth",
+          "prompt": "Which Greek hero was condemned for eternity to push a boulder up a hill, only to watch it roll back down each time he neared the top?",
+          "answer": "Sisyphus",
+          "alternates": [],
+          "explanation": "King of Ephyra (later Corinth); punished by Zeus for his craftiness and for cheating death twice\nChained Death (Thanatos) to prevent anyone from dying; tricked Persephone into letting him return to Earth\nHis eternal punishment in Tartarus: pushing a boulder uphill that always rolls back before reaching the top\nAlbert Camus's 1942 essay *The Myth of Sisyphus* — a foundational text of absurdist philosophy — ends: 'One must imagine Sisyphus happy'\n'Sisyphean' — describing a futile, endlessly repeated task — entered the English language from his myth",
+          "cardFront": "Sisyphus",
+          "cardBack": "Condemned to push boulder up hill for eternity"
+        },
+        {
+          "id": "narcissus-myth",
+          "prompt": "Which figure from Greek mythology fell in love with his own reflection in a pool of water and wasted away gazing at it?",
+          "answer": "Narcissus",
+          "alternates": [],
+          "explanation": "A hunter from Thespiae, famous for his beauty; he rejected all who loved him, including the nymph Echo\nSpied his own reflection in a pool, fell in love with the image, and could not leave it — he withered and died\nThe narcissus flower (daffodil) is said to have grown where he died\nThe word 'narcissism' — excessive self-admiration — derives from his myth\nEcho, whom he spurned, could only repeat the last words she heard — her own myth of rejection and loss",
+          "cardFront": "Narcissus",
+          "cardBack": "Fell in love with his own reflection"
+        },
+        {
+          "id": "icarus-myth",
+          "prompt": "Which figure from Greek mythology flew too close to the sun on wings of feathers and wax, causing the wax to melt and him to fall into the sea?",
+          "answer": "Icarus",
+          "alternates": [],
+          "explanation": "Son of the craftsman Daedalus, who built the Labyrinth on Crete for King Minos\nDaedalus made wings of feathers and wax to escape Crete; warned Icarus not to fly too high or too low\nIcarus ignored the warning, flew too close to the sun, the wax melted, and he fell into the Icarian Sea (named for him)\nHis father Daedalus survived and mourned him\nBrueghel's painting *Landscape with the Fall of Icarus* (c. 1560) — and W.H. Auden's poem 'Musée des Beaux Arts' — are among the myth's most famous artistic responses",
+          "cardFront": "Icarus",
+          "cardBack": "Flew too close to the sun; wings melted"
+        },
+        {
+          "id": "midas-myth",
+          "prompt": "Which king of Phrygia was granted a wish by the god Dionysus, and asked that everything he touched be turned to gold?",
+          "answer": "Midas",
+          "alternates": ["King Midas"],
+          "explanation": "King of Phrygia; granted the 'golden touch' by Dionysus as a reward for helping the satyr Silenus return safely\nThe gift became a curse: his food and drink turned to gold; in some versions, so did his daughter\nBegged Dionysus to take back the gift; told to bathe in the river Pactolus — the river's gold-bearing sands reflect his act\n'Midas touch' — the ability to turn everything to commercial success — remains a common English phrase\nA later myth: Midas judged a music contest between Apollo and Pan, chose Pan; Apollo gave him donkey ears as punishment",
+          "cardFront": "Midas",
+          "cardBack": "Golden touch — everything he touched turned to gold"
+        },
+        {
+          "id": "achilles-myth",
+          "prompt": "Which Greek hero of the Trojan War was invulnerable everywhere except his heel, where he was fatally struck by an arrow?",
+          "answer": "Achilles",
+          "alternates": [],
+          "explanation": "The greatest warrior among the Greeks in the Trojan War; central hero of Homer's *Iliad*\nHis mother Thetis dipped him in the River Styx as an infant, making him invulnerable — except the heel by which she held him\nKilled Hector, the greatest Trojan warrior, to avenge his companion Patroclus\nSlain by Paris, whose arrow (guided by Apollo) struck his heel — the only vulnerable point\n'Achilles heel' — a fatal weakness despite overall strength — is one of mythology's most enduring phrases",
+          "cardFront": "Achilles",
+          "cardBack": "Hero of the Trojan War; vulnerable only at his heel"
+        },
+        {
+          "id": "odysseus-roman",
+          "prompt": "What is the Roman name for the Greek hero Odysseus, the cunning king of Ithaca who took ten years to return home after the Trojan War?",
+          "answer": "Ulysses",
+          "alternates": [],
+          "explanation": "Odysseus (Greek) = Ulysses (Roman); king of Ithaca; hero of Homer's *Odyssey*\nThe *Odyssey* recounts his ten-year voyage home after the fall of Troy — epic encounters with the Cyclops Polyphemus, the Sirens, and Circe\nKnown for cunning over brute strength — devised the Trojan Horse that ended the Trojan War\nJoyce's *Ulysses* (1922) maps the *Odyssey* onto a single day in Dublin; Tennyson's 'Ulysses' (1842) imagines him restless in old age\nIn Dante's *Inferno* (Canto XXVI), Ulysses is damned for his deceptive cunning",
+          "cardFront": "Odysseus (Greek)",
+          "cardBack": "Ulysses (Roman)"
+        }
+      ]
+    }
+  ]
+}
