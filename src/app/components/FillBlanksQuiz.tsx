@@ -124,6 +124,20 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 		}
 	}
 
+	// For unordered exercises, reassign revealed answers on empty slots
+	// to show actual unfound items instead of positionally-matched items
+	if (!ordered) {
+		const unfoundItems = items.filter(item => !foundIds.has(item.id));
+		let unfoundIdx = 0;
+		for (const slot of slots) {
+			if (!slot.found && unfoundIdx < unfoundItems.length) {
+				const rev = revealedMap.get(unfoundItems[unfoundIdx].id);
+				slot.revealedAnswer = rev?.answer;
+				unfoundIdx++;
+			}
+		}
+	}
+
 	return (
 		<div className="animate-in">
 			<div className="flex items-center gap-3 mb-4">
