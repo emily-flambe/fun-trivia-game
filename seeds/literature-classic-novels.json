@@ -8,6 +8,7 @@
       "nodeId": "literature/classic-novels",
       "name": "Classic Novels — Author Matching",
       "format": "text-entry",
+      "displayType": "cards",
       "items": [
         {
           "id": "moby-dick",
