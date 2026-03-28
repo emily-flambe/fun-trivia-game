@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "film/iconic-films", "parentId": "film", "name": "Iconic Films", "description": "Culturally defining films beyond the Oscar winners" }
+  ],
+  "exercises": [
+    {
+      "id": "film/iconic-films/culturally-iconic",
+      "nodeId": "film/iconic-films",
+      "name": "Iconic Films",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "citizen-kane",
+          "prompt": "Which 1941 Orson Welles film, structured around a reporter's investigation of a dying tycoon's last word 'Rosebud,' is frequently ranked the greatest film ever made but lost Best Picture to *How Green Was My Valley*?",
+          "answer": "Citizen Kane",
+          "alternates": [],
+          "explanation": "Directed by Orson Welles, 1941; Welles was 25 when he made it\nLost Best Picture to John Ford's *How Green Was My Valley*; won only Best Original Screenplay\nRevolutionary deep-focus cinematography by Gregg Toland allowed foreground and background in simultaneous sharp focus\nLoosely based on newspaper magnate William Randolph Hearst, who tried to suppress the film\nTopped the Sight & Sound critics' poll as the greatest film from 1962 to 2012, when it was displaced by *Vertigo*\nThe 'Rosebud' mystery structure and non-linear flashback format were hugely influential on narrative cinema",
+          "cardFront": "1941 – Orson Welles",
+          "cardBack": "Citizen Kane"
+        },
+        {
+          "id": "sunset-boulevard",
+          "prompt": "Which 1950 Billy Wilder film follows a screenwriter entangled with delusional faded silent star Norma Desmond, famous for the line 'All right, Mr. DeMille, I'm ready for my close-up'?",
+          "answer": "Sunset Boulevard",
+          "alternates": [],
+          "explanation": "Directed by Billy Wilder, 1950; lost Best Picture to *All About Eve* at the same ceremony\nGloria Swanson (a real silent film star) plays Norma Desmond; William Holden plays screenwriter Joe Gillis\nReal silent film stars Buster Keaton, Anna Q. Nilsson, and H.B. Warner appear as Norma's circle ('the waxworks')\nOpens with the narrator already dead, floating in a swimming pool – one of cinema's boldest structural choices\nCecil B. DeMille appears as himself; the film-within-a-film references Wilder's own screenwriting era\nAFI ranked it #12 on its 100 Greatest American Films list",
+          "cardFront": "1950 – Billy Wilder",
+          "cardBack": "Sunset Boulevard"
+        },
+        {
+          "id": "singin-in-the-rain",
+          "prompt": "Which 1952 Gene Kelly and Stanley Donen musical, set during Hollywood's transition from silent to sound films, is widely considered the greatest musical ever made but wasn't even nominated for Best Picture?",
+          "answer": "Singin' in the Rain",
+          "alternates": ["Singing in the Rain", "Singin in the Rain"],
+          "explanation": "Directed by Gene Kelly and Stanley Donen, 1952; the year's Best Picture went to *The Greatest Show on Earth*\nNot nominated for Best Picture; received only two Oscar nominations (Supporting Actress, Score)\nGene Kelly choreographed the iconic title number while running a fever of 103°F\nScreenplay by Betty Comden and Adolph Green; Kelly and Donald O'Connor and Debbie Reynolds star\nDebbie Reynolds was not a trained dancer; Kelly reportedly reduced her to tears during rehearsals\nConsistently tops critics' polls for greatest musical film",
+          "cardFront": "1952 – Gene Kelly & Stanley Donen",
+          "cardBack": "Singin' in the Rain"
+        },
+        {
+          "id": "vertigo",
+          "prompt": "Which 1958 Hitchcock film, starring James Stewart as a detective who becomes obsessed with a woman resembling a dead lover, topped the Sight & Sound greatest films poll in 2012?",
+          "answer": "Vertigo",
+          "alternates": [],
+          "explanation": "Directed by Alfred Hitchcock, 1958; not nominated for Best Picture\nStars James Stewart as Scottie Ferguson and Kim Novak as Madeleine/Judy\nThe 'dolly zoom' (Vertigo effect) – simultaneously zooming and dollying in opposite directions – was invented here by second-unit cameraman Irmin Roberts\nTopped the Sight & Sound critics' poll in 2012 after 50 years of *Citizen Kane* domination\nAbout obsession and the male desire to control and recreate the ideal woman\nHitchcock withheld the film from re-release for years; it was re-released after his death and became a critical landmark",
+          "cardFront": "1958 – Hitchcock",
+          "cardBack": "Vertigo"
+        },
+        {
+          "id": "psycho",
+          "prompt": "Which 1960 Hitchcock thriller killed its apparent lead character in a shocking shower scene midway through, revolutionizing horror and narrative expectations, while being passed over for Best Picture?",
+          "answer": "Psycho",
+          "alternates": [],
+          "explanation": "Directed by Alfred Hitchcock, 1960; not nominated for Best Picture\nAnthony Perkins as Norman Bates; Janet Leigh as Marion Crane, murdered in the first act\nThe shower scene is edited in approximately 70 cuts over 45 seconds; no knife ever visibly penetrates flesh\nBernard Herrmann's screeching string score is among the most imitated in film history\nFirst mainstream American film to show a toilet flushing onscreen\nHitchcock bought the rights to Robert Bloch's source novel for $9,000 to prevent spoiler leaks",
+          "cardFront": "1960 – Hitchcock",
+          "cardBack": "Psycho"
+        },
+        {
+          "id": "dr-strangelove",
+          "prompt": "Which 1964 Kubrick Cold War satire, in which Peter Sellers plays three roles and nuclear deterrence spirals into absurd catastrophe, was nominated for Best Picture but lost to *My Fair Lady*?",
+          "answer": "Dr. Strangelove",
+          "alternates": ["Dr Strangelove", "Doctor Strangelove", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"],
+          "explanation": "Directed by Stanley Kubrick, 1964; lost Best Picture to *My Fair Lady*\nPeter Sellers plays President Merkin Muffley, Group Captain Lionel Mandrake, and Dr. Strangelove himself\nBased on Peter George's serious Cold War thriller *Red Alert*; Kubrick and Terry Southern rewrote it as dark comedy\n'Gentlemen, you can't fight in here – this is the War Room!' is one of cinema's great comic lines\nOriginally featured a pie fight finale in the War Room that was cut; Kubrick deemed it too farcical\nMade at Shepperton Studios, England; Kubrick never returned to the United States after the early 1960s",
+          "cardFront": "1964 – Kubrick",
+          "cardBack": "Dr. Strangelove"
+        },
+        {
+          "id": "2001-a-space-odyssey",
+          "prompt": "Which 1968 Kubrick sci-fi epic, tracing humanity from prehistoric apes to a psychedelic journey beyond Jupiter, features the murderous AI HAL 9000 and contains almost no dialogue for its first and last half-hours?",
+          "answer": "2001: A Space Odyssey",
+          "alternates": ["2001", "2001 A Space Odyssey"],
+          "explanation": "Directed by Stanley Kubrick, 1968; lost Best Picture to *Oliver!*\nThe jump cut from a bone to an orbiting satellite is one of cinema's longest-spanning and most celebrated edits\nHAL 9000 (voiced by Douglas Rain) is cinema's most iconic artificial intelligence\nKubrick destroyed most of the production models after filming to prevent copies and knock-offs\nThe cryptic ending deliberately resists explanation; Kubrick refused to interpret it\nWon only one Oscar: Best Visual Effects; Kubrick designed custom lenses with NASA to achieve realistic space photography",
+          "cardFront": "1968 – Kubrick",
+          "cardBack": "2001: A Space Odyssey"
+        },
+        {
+          "id": "wizard-of-oz",
+          "prompt": "Which 1939 Victor Fleming musical fantasy, starring a 16-year-old Judy Garland, lost Best Picture to *Gone with the Wind* (released the same year) but won Best Original Score and Best Original Song?",
+          "answer": "The Wizard of Oz",
+          "alternates": ["Wizard of Oz"],
+          "explanation": "Directed by Victor Fleming, 1939; lost Best Picture to *Gone with the Wind* at the same ceremony\nJudy Garland was 16; wore tight corsets to make her look younger; the filming was notoriously difficult\n'Over the Rainbow' won Best Original Song; Garland received an Honorary Juvenile Oscar\nFilmed in sepia-toned black and white for Kansas and three-strip Technicolor for Oz – the color contrast was deliberate\n'Toto, I've a feeling we're not in Kansas anymore' – AFI's #4 greatest movie quote\nThe ruby slippers were silver in L. Frank Baum's original novel; changed to red to showcase Technicolor",
+          "cardFront": "1939 – Victor Fleming",
+          "cardBack": "The Wizard of Oz"
+        },
+        {
+          "id": "taxi-driver",
+          "prompt": "Which 1976 Martin Scorsese film, starring Robert De Niro as alienated Vietnam vet Travis Bickle prowling the streets of New York, won the Palme d'Or at Cannes but lost Best Picture to *Rocky*?",
+          "answer": "Taxi Driver",
+          "alternates": [],
+          "explanation": "Directed by Martin Scorsese, 1976; won the Palme d'Or at Cannes; lost Best Picture to *Rocky*\nRobert De Niro as Travis Bickle; Jodie Foster plays 12-year-old prostitute Iris in her breakthrough role\n'You talkin' to me?' was largely improvised by De Niro in front of a mirror\nJohn Hinckley Jr. was obsessed with the film and shot President Reagan in 1981 to impress Jodie Foster\nCinematographer Michael Chapman shot New York at its most squalid; Bernard Herrmann composed his final score before his death\nMartin Scorsese plays a passenger in the cab who describes his murderous fantasies",
+          "cardFront": "1976 – Scorsese",
+          "cardBack": "Taxi Driver"
+        },
+        {
+          "id": "apocalypse-now",
+          "prompt": "Which 1979 Francis Ford Coppola Vietnam War film, based on Conrad's *Heart of Darkness* and starring Martin Sheen and Marlon Brando, lost Best Picture to *Kramer vs. Kramer* but won Best Cinematography?",
+          "answer": "Apocalypse Now",
+          "alternates": [],
+          "explanation": "Directed by Francis Ford Coppola, 1979; lost Best Picture to *Kramer vs. Kramer*\nBased on Joseph Conrad's novella *Heart of Darkness*; stars Martin Sheen as Capt. Willard and Brando as Col. Kurtz\nWon Oscars for Best Cinematography (Vittorio Storaro) and Best Sound\nProduction was catastrophic: typhoon destroyed sets, Sheen had a heart attack, Brando arrived 40+ lbs overweight and refused to read the script\nDocumented in Eleanor Coppola's *Hearts of Darkness: A Filmmaker's Apocalypse* (1991)\n'I love the smell of napalm in the morning' (Robert Duvall as Lt. Col. Kilgore) is among cinema's most quoted lines",
+          "cardFront": "1979 – Coppola",
+          "cardBack": "Apocalypse Now"
+        },
+        {
+          "id": "raging-bull",
+          "prompt": "Which 1980 Martin Scorsese film, shot in black and white, follows boxer Jake LaMotta's self-destructive career, with Robert De Niro winning Best Actor after gaining 60 pounds for the role?",
+          "answer": "Raging Bull",
+          "alternates": [],
+          "explanation": "Directed by Martin Scorsese, 1980; lost Best Picture to *Ordinary People*\nShot in black and white by choice (not budget); Scorsese felt color would make the blood look too operatic\nDe Niro gained approximately 60 lbs to play the older LaMotta; won Best Actor\nBased on Jake LaMotta's 1970 autobiography; LaMotta was still alive and appeared briefly on set\nRoger Ebert later called it the greatest film of the 1980s; it ranked #4 on Sight & Sound's 2022 poll\nScorsese has said he made the film as a form of personal catharsis after his own near-fatal drug overdose in 1978",
+          "cardFront": "1980 – Scorsese",
+          "cardBack": "Raging Bull"
+        },
+        {
+          "id": "blade-runner",
+          "prompt": "Which 1982 Ridley Scott sci-fi film, adapted from Philip K. Dick's *Do Androids Dream of Electric Sheep?*, stars Harrison Ford as a detective hunting rogue androids in a rain-drenched 2019 Los Angeles?",
+          "answer": "Blade Runner",
+          "alternates": [],
+          "explanation": "Directed by Ridley Scott, 1982; not nominated for Best Picture\nHarrison Ford as Rick Deckard; Rutger Hauer as Roy Batty; Sean Young as Rachael\nRutger Hauer largely improvised the 'tears in rain' final monologue the night before it was filmed\nStudio interference produced a narrated theatrical cut; Ridley Scott's 'Final Cut' (2007) is now considered definitive\nSet in Los Angeles, November 2019; the retrofitted future aesthetic influenced virtually all subsequent sci-fi production design\nBased on Philip K. Dick's 1968 novel; Dick died in March 1982, months before the film's release, having seen early footage",
+          "cardFront": "1982 – Ridley Scott",
+          "cardBack": "Blade Runner"
+        },
+        {
+          "id": "et",
+          "prompt": "Which 1982 Steven Spielberg film about a boy who befriends a stranded alien was the highest-grossing film of all time until *Return of the Jedi* (1983), nominated for Best Picture but losing to *Gandhi*?",
+          "answer": "E.T. the Extra-Terrestrial",
+          "alternates": ["E.T.", "ET", "ET the Extra-Terrestrial"],
+          "explanation": "Directed by Steven Spielberg, 1982; nominated for Best Picture, lost to *Gandhi*\nThe highest-grossing film of all time at its release; grossed $792 million worldwide on a $10.5 million budget\nJohn Williams' score is among his most celebrated; the bicycle-against-the-moon silhouette became Amblin Entertainment's logo\n'E.T. phone home' (spoken by the alien) ranked #15 on AFI's 100 greatest movie quotes\nSpielberg later expressed regret about digitally replacing guns with walkie-talkies in the 2002 re-release; the original version is now standard\nHenry Thomas (Elliott) was cast after an improvised audition that moved Spielberg to tears",
+          "cardFront": "1982 – Spielberg",
+          "cardBack": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "id": "goodfellas",
+          "prompt": "Which 1990 Martin Scorsese crime epic, starring Ray Liotta, Robert De Niro, and Joe Pesci, follows Henry Hill's life inside the mob and is frequently cited as the greatest crime film ever made?",
+          "answer": "Goodfellas",
+          "alternates": ["GoodFellas"],
+          "explanation": "Directed by Martin Scorsese, 1990; lost Best Picture to *Dances with Wolves*\nJoe Pesci won Best Supporting Actor; the only Oscar won despite near-universal critical acclaim\nThe five-minute Copacabana tracking shot was filmed in one continuous take and required weeks of preparation\nBased on Henry Hill's real life; Hill became a DEA informant and entered witness protection\nThe 'Funny how?' scene between Pesci and Liotta was largely improvised; it originated from a real incident Pesci experienced\nRanked #2 on the AFI's 100 Greatest American Films (10th anniversary edition)",
+          "cardFront": "1990 – Scorsese",
+          "cardBack": "Goodfellas"
+        },
+        {
+          "id": "pulp-fiction",
+          "prompt": "Which 1994 Quentin Tarantino film, with interlocking non-linear stories featuring hitmen, a boxer, and a gangster's wife, won the Palme d'Or at Cannes but lost Best Picture to *Forrest Gump*?",
+          "answer": "Pulp Fiction",
+          "alternates": [],
+          "explanation": "Directed by Quentin Tarantino, 1994; won the Palme d'Or at Cannes; lost Best Picture to *Forrest Gump*\nWon Best Original Screenplay; grossed $214 million worldwide on an $8 million budget\nRevived John Travolta's career; Samuel L. Jackson's Jules recites a modified version of Ezekiel 25:17\nNon-linear structure: scenes are presented out of chronological order, looping back to the diner robbery from the opening\nHarvey Weinstein and Miramax acquired distribution rights at Sundance for $900,000 – the deal that made both careers\nCast includes Bruce Willis, Harvey Keitel, Uma Thurman, Ving Rhames, and Christopher Walken",
+          "cardFront": "1994 – Tarantino",
+          "cardBack": "Pulp Fiction"
+        },
+        {
+          "id": "shawshank-redemption",
+          "prompt": "Which 1994 Frank Darabont prison drama, starring Tim Robbins and Morgan Freeman, received seven Oscar nominations but won none, grossed only $16 million in theaters, and became the #1 rated film on IMDb?",
+          "answer": "The Shawshank Redemption",
+          "alternates": ["Shawshank Redemption"],
+          "explanation": "Directed by Frank Darabont, 1994; nominated for 7 Oscars, won none; lost Best Picture to *Forrest Gump*\nGrossed only $16 million during its theatrical run – a box-office disappointment\nBecame ubiquitous on cable TV (TNT) and video rental; steadily climbed to #1 on IMDb (rated 9.3/10 by millions of users)\nBased on Stephen King's 1982 novella *Rita Hayworth and Shawshank Redemption*\nTim Robbins as Andy Dufresne, wrongly convicted of murder; Morgan Freeman as Red\nFilmed at the Ohio State Reformatory in Mansfield, Ohio, a real former prison",
+          "cardFront": "1994 – Frank Darabont",
+          "cardBack": "The Shawshank Redemption"
+        },
+        {
+          "id": "fight-club",
+          "prompt": "Which 1999 David Fincher film, starring Brad Pitt and Edward Norton, bombed at the US box office but became a massive cult classic on DVD, with a twist about the true identity of Tyler Durden?",
+          "answer": "Fight Club",
+          "alternates": [],
+          "explanation": "Directed by David Fincher, 1999; not nominated for Best Picture\nGrossed only $37 million domestically on a $63 million budget; critics were divided; became a cultural phenomenon on DVD\nBrad Pitt as Tyler Durden; Edward Norton as the unnamed narrator; Helena Bonham Carter as Marla Singer\nBased on Chuck Palahniuk's 1996 novel\nFincher embedded a single frame of Tyler Durden at four points earlier in the film before his introduction\nThe phrase 'First rule of Fight Club' became one of the most repeated pop-culture catchphrases of the 2000s",
+          "cardFront": "1999 – David Fincher",
+          "cardBack": "Fight Club"
+        },
+        {
+          "id": "the-dark-knight",
+          "prompt": "Which 2008 Christopher Nolan superhero film, featuring Heath Ledger's posthumous Oscar-winning turn as the Joker, was controversially snubbed for Best Picture, helping prompt the Academy to expand nominations to ten?",
+          "answer": "The Dark Knight",
+          "alternates": ["Dark Knight"],
+          "explanation": "Directed by Christopher Nolan, 2008; not nominated for Best Picture despite widespread critical acclaim\nHeath Ledger won Best Supporting Actor posthumously; he died of an accidental drug overdose during post-production in January 2008\nPublic outcry over the snub led the Academy to expand Best Picture nominees from 5 to up to 10 starting the following year\nGrossed $1 billion worldwide; second Batman film in Nolan's trilogy, following *Batman Begins* (2005)\nRobert Downey Jr., Philip Seymour Hoffman, and Josh Brolin were all among actors considered for the Joker role\n'Why so serious?' became one of the most quoted lines of the late 2000s",
+          "cardFront": "2008 – Nolan",
+          "cardBack": "The Dark Knight"
+        },
+        {
+          "id": "mulholland-drive",
+          "prompt": "Which 2001 David Lynch surrealist mystery about an aspiring actress and an amnesiac woman in Hollywood began as a rejected ABC TV pilot and topped multiple 21st-century greatest films polls?",
+          "answer": "Mulholland Drive",
+          "alternates": ["Mulholland Dr."],
+          "explanation": "Directed by David Lynch, 2001; not nominated for Best Picture; Lynch won Best Director at Cannes\nBegan as a TV pilot for ABC, which rejected it; Lynch shot additional footage to expand it into a feature\nNaomi Watts's breakthrough role; Laura Harring plays the amnesiac 'Rita'\nFrequently tops 21st-century film polls: ranked #1 in the BBC's 2016 poll of the greatest films since 2000\nThe blue box and key in the second half remain among cinema's most debated unresolved symbols\nLynch refused all interviews explaining the film's meaning, saying any definitive interpretation would ruin it",
+          "cardFront": "2001 – David Lynch",
+          "cardBack": "Mulholland Drive"
+        },
+        {
+          "id": "eternal-sunshine",
+          "prompt": "Which 2004 Michel Gondry film, written by Charlie Kaufman, stars Jim Carrey and Kate Winslet as a couple who undergo a procedure to erase each other from memory, told in reverse-chronological fragments?",
+          "answer": "Eternal Sunshine of the Spotless Mind",
+          "alternates": ["Eternal Sunshine"],
+          "explanation": "Directed by Michel Gondry, 2004; not nominated for Best Picture; won Best Original Screenplay (Charlie Kaufman)\nJim Carrey as Joel Barish; Kate Winslet as Clementine; Tom Wilkinson, Mark Ruffalo, Elijah Wood in supporting roles\nTitle taken from Alexander Pope's 1717 poem 'Eloisa to Abelard'\nNarrative runs largely backwards through Joel's memories as they are systematically erased\nKaufman wrote the script partly after his own experiences with a bad breakup; considered his most emotionally direct screenplay\nMichel Gondry used in-camera practical effects rather than digital compositing for the memory-erasure sequences",
+          "cardFront": "2004 – Michel Gondry",
+          "cardBack": "Eternal Sunshine of the Spotless Mind"
+        }
+      ]
+    }
+  ]
+}
