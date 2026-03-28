@@ -24,10 +24,11 @@ interface Props {
 	items: PublicItem[];
 	exercisePath: string;
 	mode: string; // 'quiz' or 'random-10'
-	nextExercisePath?: string | null;
+	nextExercisePath: string | null;
+	nextNodePath: string | null;
 }
 
-export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercisePath }: Props) {
+export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercisePath, nextNodePath }: Props) {
 	const auth = useAuth();
 	const [quizItems, setQuizItems] = useState<PublicItem[]>([]);
 	const [current, setCurrent] = useState(0);
@@ -90,6 +91,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 				onRepeat={handleRepeat}
 				onRetryFailed={handleRetryFailed}
 				nextExercisePath={nextExercisePath}
+				nextNodePath={nextNodePath}
 			/>
 		);
 	}

@@ -13,10 +13,11 @@ interface Props {
 	exercise: ExerciseSummary;
 	items: PublicItem[];
 	exercisePath: string;
-	nextExercisePath?: string | null;
+	nextExercisePath: string | null;
+	nextNodePath: string | null;
 }
 
-export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath }: Props) {
+export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath, nextNodePath }: Props) {
 	const auth = useAuth();
 	const [found, setFound] = useState<FoundItem[]>([]);
 	const [input, setInput] = useState('');
@@ -256,11 +257,15 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 									Retake Failed Only
 								</button>
 							)}
-							{nextExercisePath && (
+							{nextExercisePath !== null ? (
 								<a href={`#/exercise/${nextExercisePath}?mode=quiz`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 									Next
 								</a>
-							)}
+							) : nextNodePath !== null ? (
+								<a href={`#/node/${nextNodePath}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+									Next
+								</a>
+							) : null}
 							<a href="#/" className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 								Home
 							</a>

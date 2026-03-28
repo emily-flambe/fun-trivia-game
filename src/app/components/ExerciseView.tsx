@@ -7,21 +7,20 @@ import { FillBlanksQuiz } from './FillBlanksQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
-	const [nodeDetail, setNodeDetail] = useState<NodeDetail | null>(null);
+	const [nodeData, setNodeData] = useState<NodeDetail | null>(null);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(false);
 
 	useEffect(() => {
 		setLoading(true);
 		setError(false);
-		const parentNodeId = path.split('/').slice(0, -1).join('/');
-		Promise.all([
-			getExercise(path),
-			parentNodeId ? getNode(parentNodeId).catch(() => null) : Promise.resolve(null),
-		])
-			.then(([exerciseData, nodeData]) => {
+		const nodePath = path.split('/').slice(0, -1).join('/');
+		getExercise(path)
+			.then((exerciseData) => {
 				setData(exerciseData);
-				setNodeDetail(nodeData);
+				if (nodePath) {
+					getNode(nodePath).then(setNodeData).catch(() => {});
+				}
 			})
 			.catch(() => setError(true))
 			.finally(() => setLoading(false));
@@ -33,13 +32,18 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const { exercise, items } = data;
 	const nodeId = exercise.nodeId;
 
+	// Compute next exercise navigation
 	let nextExercisePath: string | null = null;
-	if (nodeDetail) {
-		const sorted = [...nodeDetail.exercises].sort((a, b) => a.sortOrder - b.sortOrder);
-		const currentIdx = sorted.findIndex((e) => e.id === path);
-		if (currentIdx !== -1 && currentIdx + 1 < sorted.length) {
-			nextExercisePath = sorted[currentIdx + 1].id;
+	let nextNodePath: string | null = null;
+	if (nodeData) {
+		const sortedExercises = [...nodeData.exercises].sort((a, b) => a.sortOrder - b.sortOrder);
+		const currentIdx = sortedExercises.findIndex((e) => e.id === exercise.id);
+		if (currentIdx !== -1 && currentIdx + 1 < sortedExercises.length) {
+			nextExercisePath = sortedExercises[currentIdx + 1].id;
+		} else if (nodeData.node.parentId !== null) {
+			nextNodePath = nodeData.node.parentId;
 		}
+		// If last exercise and no parent, both remain null — Next button will be hidden
 	}
 
 	if (mode === 'learn') {
@@ -66,8 +70,8 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	}
 
 	if (exercise.format === 'fill-blanks') {
-		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} />;
+		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 
-	return <TextEntryQuiz exercise={exercise} items={items} exercisePath={path} mode={mode} nextExercisePath={nextExercisePath} />;
+	return <TextEntryQuiz exercise={exercise} items={items} exercisePath={path} mode={mode} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 }
