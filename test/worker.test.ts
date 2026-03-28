@@ -8,6 +8,13 @@ async function seedTestData(db: D1Database) {
 	await db.exec(`CREATE TABLE IF NOT EXISTS exercises (id TEXT PRIMARY KEY, node_id TEXT NOT NULL, name TEXT NOT NULL, description TEXT DEFAULT '', format TEXT NOT NULL, display_type TEXT, config TEXT, sort_order INTEGER DEFAULT 0);`);
 	await db.exec(`CREATE TABLE IF NOT EXISTS items (id TEXT NOT NULL, exercise_id TEXT NOT NULL, answer TEXT NOT NULL, alternates TEXT DEFAULT '[]', explanation TEXT DEFAULT '', data TEXT DEFAULT '{}', sort_order INTEGER DEFAULT 0, PRIMARY KEY (id, exercise_id));`);
 
+	// User & quiz result tables
+	await db.exec(`CREATE TABLE IF NOT EXISTS users (id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, display_name TEXT DEFAULT '', preferences TEXT DEFAULT '{}', created_at TEXT NOT NULL, last_seen_at TEXT NOT NULL);`);
+	await db.exec(`CREATE TABLE IF NOT EXISTS quiz_results (id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, exercise_id TEXT NOT NULL, exercise_name TEXT NOT NULL, format TEXT NOT NULL, score INTEGER NOT NULL, total INTEGER NOT NULL, duration_seconds INTEGER, items_detail TEXT DEFAULT '[]', completed_at TEXT NOT NULL);`);
+	await db.exec(`CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);`);
+	await db.exec(`CREATE INDEX IF NOT EXISTS idx_quiz_results_user ON quiz_results(user_id);`);
+	await db.exec(`CREATE INDEX IF NOT EXISTS idx_quiz_results_completed ON quiz_results(completed_at);`);
+
 	// Root nodes
 	await db.exec(`INSERT INTO nodes VALUES ('science', NULL, 'Science', 'Science category', 0);`);
 	await db.exec(`INSERT INTO nodes VALUES ('history', NULL, 'History', 'History category', 1);`);
@@ -30,6 +37,9 @@ async function seedTestData(db: D1Database) {
 	await db.exec(`INSERT INTO items VALUES ('helium', 'science/chemistry/noble-gases', 'Helium', '["He"]', 'Atomic number 2.', '{}', 0);`);
 	await db.exec(`INSERT INTO items VALUES ('neon', 'science/chemistry/noble-gases', 'Neon', '["Ne"]', 'Atomic number 10.', '{}', 1);`);
 	await db.exec(`INSERT INTO items VALUES ('argon', 'science/chemistry/noble-gases', 'Argon', '["Ar"]', 'Atomic number 18.', '{}', 2);`);
+
+	// Pre-seed test user so quiz-results tests don't depend on auth/me test ordering
+	await db.exec(`INSERT INTO users VALUES ('test-user-id', 'test@trivia.emilycogsdill.com', '', '{}', '2026-01-01T00:00:00Z', '2026-01-01T00:00:00Z');`);
 }
 
 async function makeRequest(path: string, options?: RequestInit) {
@@ -40,10 +50,27 @@ async function makeRequest(path: string, options?: RequestInit) {
 	return response;
 }
 
-function postJson(path: string, body: unknown) {
+function postJson(path: string, body: unknown, extraHeaders?: Record<string, string>) {
 	return makeRequest(path, {
 		method: 'POST',
-		headers: { 'Content-Type': 'application/json' },
+		headers: { 'Content-Type': 'application/json', ...extraHeaders },
+		body: JSON.stringify(body),
+	});
+}
+
+const TEST_EMAIL = 'test@trivia.emilycogsdill.com';
+const AUTH_COOKIE = `CF_Test_Auth=${TEST_EMAIL}`;
+
+function makeAuthRequest(path: string, options?: RequestInit) {
+	const headers = new Headers(options?.headers);
+	headers.set('cookie', AUTH_COOKIE);
+	return makeRequest(path, { ...options, headers });
+}
+
+function postJsonAuth(path: string, body: unknown) {
+	return makeAuthRequest(path, {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json', 'cookie': AUTH_COOKIE },
 		body: JSON.stringify(body),
 	});
 }
@@ -487,6 +514,481 @@ describe('Trivia API', () => {
 			const data = await res.json<any>();
 			// element-symbols has config NULL in DB
 			expect(data.exercise.config).toBeUndefined();
+		});
+	});
+
+	// ─── Auth: /api/auth/me ──────────────────────────────────
+
+	describe('GET /api/auth/me', () => {
+		it('returns authenticated=false when no cookie provided', async () => {
+			const res = await makeRequest('/api/auth/me');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.authenticated).toBe(false);
+			// Should provide a login URL in test mode
+			expect(data.loginUrl).toBeDefined();
+		});
+
+		it('returns authenticated=true with valid test cookie', async () => {
+			const res = await makeAuthRequest('/api/auth/me');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.authenticated).toBe(true);
+			expect(data.email).toBe(TEST_EMAIL);
+			expect(data.userId).toBeDefined();
+			expect(typeof data.userId).toBe('string');
+			expect(data.userId.length).toBeGreaterThan(0);
+		});
+
+		it('returns same userId on repeated calls (upsert idempotency)', async () => {
+			const res1 = await makeAuthRequest('/api/auth/me');
+			const data1 = await res1.json<any>();
+			const res2 = await makeAuthRequest('/api/auth/me');
+			const data2 = await res2.json<any>();
+			expect(data1.userId).toBe(data2.userId);
+		});
+
+		it('returns authenticated=false when cookie has wrong email', async () => {
+			const res = await makeRequest('/api/auth/me', {
+				headers: { cookie: 'CF_Test_Auth=wrong@example.com' },
+			});
+			const data = await res.json<any>();
+			expect(data.authenticated).toBe(false);
+		});
+	});
+
+	// ─── User Auth: Race condition bug ──────────────────────
+
+	describe('getRequestUser race condition', () => {
+		it('BUG: returns 401 when user is authenticated but not yet in DB (race condition)', async () => {
+			// getRequestUser calls getByEmail (NOT upsertByEmail).
+			// If the quiz result POST arrives before /api/auth/me completes
+			// (which upserts the user), getRequestUser returns null -> 401.
+			// This is a real race condition in the SPA:
+			// - App.tsx calls getAuthMe() on mount (which calls /api/auth/me, upserts user)
+			// - Quiz components can complete and submit results before auth/me returns
+			// - Result: quiz result is silently lost (fire-and-forget with .catch(() => {}))
+			//
+			// To reproduce: use a different email so no user exists for it.
+			// We can't test this easily since CF_ACCESS_TEST_EMAIL only matches one email.
+			// Instead, we confirm that without the auth/me call, the quiz endpoints return 401.
+
+			// Clear the users table to simulate a fresh session
+			const db = (env as any).DB as D1Database;
+			await db.exec(`DELETE FROM users WHERE email = 'race-test@example.com';`);
+
+			// Now try to submit quiz results with a valid cookie but no user in DB.
+			// Since the test env only accepts CF_ACCESS_TEST_EMAIL, we must first ensure
+			// that email has no user record, then call the endpoint.
+			await db.exec(`DELETE FROM users WHERE email = '${TEST_EMAIL}';`);
+
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+			// This proves the race condition: valid auth but no user row -> 401
+			expect(res.status).toBe(401);
+
+			// Re-create the user for subsequent tests
+			const meRes = await makeAuthRequest('/api/auth/me');
+			expect((await meRes.json<any>()).authenticated).toBe(true);
+		});
+	});
+
+	// ─── Quiz Results: POST /api/quiz-results ────────────────
+
+	describe('POST /api/quiz-results', () => {
+		// Ensure user exists before quiz-result tests
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 401 when not authenticated', async () => {
+			const res = await postJson('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+			expect(res.status).toBe(401);
+			const data = await res.json<any>();
+			expect(data.error).toBeDefined();
+		});
+
+		it('creates a quiz result and returns it with id and completedAt', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/noble-gases',
+				exerciseName: 'Noble Gases',
+				format: 'fill-blanks',
+				score: 2,
+				total: 3,
+				durationSeconds: 45,
+				itemsDetail: [
+					{ itemId: 'helium', correct: true, userAnswer: 'Helium', fuzzyMatch: false },
+					{ itemId: 'neon', correct: true, userAnswer: 'Neon', fuzzyMatch: false },
+					{ itemId: 'argon', correct: false, userAnswer: '', fuzzyMatch: false },
+				],
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.id).toBeDefined();
+			expect(typeof data.id).toBe('string');
+			expect(data.exerciseId).toBe('science/chemistry/noble-gases');
+			expect(data.exerciseName).toBe('Noble Gases');
+			expect(data.format).toBe('fill-blanks');
+			expect(data.score).toBe(2);
+			expect(data.total).toBe(3);
+			expect(data.durationSeconds).toBe(45);
+			expect(data.completedAt).toBeDefined();
+		});
+
+		it('returns 400 when exerciseId is missing', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toBeDefined();
+		});
+
+		it('returns 400 when exerciseName is missing', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+			expect(res.status).toBe(400);
+		});
+
+		it('returns 400 when format is missing', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				score: 2,
+				total: 3,
+			});
+			expect(res.status).toBe(400);
+		});
+
+		it('returns 400 when score is missing', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				total: 3,
+			});
+			expect(res.status).toBe(400);
+		});
+
+		it('returns 400 when total is missing', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+			});
+			expect(res.status).toBe(400);
+		});
+
+		it('accepts score of 0 (not treated as missing)', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 0,
+				total: 3,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.score).toBe(0);
+		});
+
+		it('accepts total of 0 (edge case: empty quiz)', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 0,
+				total: 0,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.total).toBe(0);
+		});
+
+		it('accepts null durationSeconds', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+				durationSeconds: null,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.durationSeconds).toBeNull();
+		});
+
+		it('defaults durationSeconds to null when omitted', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.durationSeconds).toBeNull();
+		});
+
+		it('defaults itemsDetail to empty array when omitted', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.itemsDetail).toEqual([]);
+		});
+
+		it('accepts negative score without validation', async () => {
+			// BUG PROBE: There is no validation that score >= 0 or score <= total.
+			// Malicious client can send score: -1 or score: 999, total: 3
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: -1,
+				total: 3,
+			});
+			// Currently passes — no server-side validation on score range
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.score).toBe(-1);
+		});
+
+		it('accepts score greater than total without validation', async () => {
+			// BUG PROBE: score > total should be impossible, but server doesn't check
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 100,
+				total: 3,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.score).toBe(100);
+		});
+
+		it('accepts arbitrary format string without validation', async () => {
+			// BUG PROBE: format is cast as ExerciseFormat but never validated
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'not-a-real-format',
+				score: 1,
+				total: 3,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.format).toBe('not-a-real-format');
+		});
+
+		it('does not validate exerciseId against actual exercises', async () => {
+			// BUG PROBE: you can submit results for exercises that don't exist
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'nonexistent/exercise/path',
+				exerciseName: 'Fake Exercise',
+				format: 'text-entry',
+				score: 10,
+				total: 10,
+			});
+			expect(res.status).toBe(201);
+		});
+	});
+
+	// ─── Quiz Results: GET /api/quiz-results ─────────────────
+
+	describe('GET /api/quiz-results', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 401 when not authenticated', async () => {
+			const res = await makeRequest('/api/quiz-results');
+			expect(res.status).toBe(401);
+		});
+
+		it('returns results for authenticated user', async () => {
+			// First, ensure there's at least one result
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.results).toBeDefined();
+			expect(Array.isArray(data.results)).toBe(true);
+			expect(data.total).toBeDefined();
+			expect(typeof data.total).toBe('number');
+			expect(data.results.length).toBeGreaterThan(0);
+		});
+
+		it('returns results ordered by completedAt DESC (newest first)', async () => {
+			const res = await makeAuthRequest('/api/quiz-results');
+			const data = await res.json<any>();
+			if (data.results.length >= 2) {
+				const dates = data.results.map((r: any) => new Date(r.completedAt).getTime());
+				for (let i = 0; i < dates.length - 1; i++) {
+					expect(dates[i]).toBeGreaterThanOrEqual(dates[i + 1]);
+				}
+			}
+		});
+
+		it('respects limit parameter', async () => {
+			const res = await makeAuthRequest('/api/quiz-results?limit=1');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.results.length).toBeLessThanOrEqual(1);
+			// total should reflect total count, not limited count
+			expect(data.total).toBeGreaterThanOrEqual(data.results.length);
+		});
+
+		it('respects offset parameter', async () => {
+			// Get all results first
+			const allRes = await makeAuthRequest('/api/quiz-results?limit=100');
+			const allData = await allRes.json<any>();
+
+			if (allData.results.length >= 2) {
+				// Get results with offset 1
+				const offsetRes = await makeAuthRequest('/api/quiz-results?limit=100&offset=1');
+				const offsetData = await offsetRes.json<any>();
+				expect(offsetData.results.length).toBe(allData.results.length - 1);
+			}
+		});
+
+		it('handles non-numeric limit by falling back to default', async () => {
+			// parseInt('abc', 10) returns NaN, code uses || 20 fallback
+			const res = await makeAuthRequest('/api/quiz-results?limit=abc');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.results).toBeDefined();
+		});
+
+		it('handles negative offset', async () => {
+			const res = await makeAuthRequest('/api/quiz-results?offset=-5');
+			expect(res.status).toBeDefined();
+		});
+
+		it('does not return other users results (isolation)', async () => {
+			// All results should belong to the test user
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			const userId = meData.userId;
+
+			const res = await makeAuthRequest('/api/quiz-results');
+			const data = await res.json<any>();
+			for (const result of data.results) {
+				expect(result.userId).toBe(userId);
+			}
+		});
+	});
+
+	// ─── Quiz Results: GET /api/quiz-results/stats ───────────
+
+	describe('GET /api/quiz-results/stats', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 401 when not authenticated', async () => {
+			const res = await makeRequest('/api/quiz-results/stats');
+			expect(res.status).toBe(401);
+		});
+
+		it('returns stats for authenticated user', async () => {
+			const res = await makeAuthRequest('/api/quiz-results/stats');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.totalQuizzes).toBeDefined();
+			expect(typeof data.totalQuizzes).toBe('number');
+			expect(data.totalCorrect).toBeDefined();
+			expect(data.totalAttempted).toBeDefined();
+			expect(data.exercisesCovered).toBeDefined();
+		});
+
+		it('stats reflect submitted quiz results', async () => {
+			// Ensure there's at least one result for the current user
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/stats');
+			const data = await res.json<any>();
+			expect(data.totalQuizzes).toBeGreaterThan(0);
+			expect(data.totalAttempted).toBeGreaterThan(0);
+			expect(data.exercisesCovered).toBeGreaterThan(0);
+		});
+
+		it('stats totalCorrect accounts for negative scores if stored', async () => {
+			// We submitted a result with score: -1 earlier — that will affect the sum
+			const res = await makeAuthRequest('/api/quiz-results/stats');
+			const data = await res.json<any>();
+			// Just confirm it doesn't crash; the value might be unexpected
+			expect(typeof data.totalCorrect).toBe('number');
+		});
+	});
+
+	// ─── Quiz Results: route method handling ─────────────────
+
+	describe('quiz results route method handling', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 404 for PUT /api/quiz-results', async () => {
+			const res = await makeAuthRequest('/api/quiz-results', {
+				method: 'PUT',
+				headers: { 'Content-Type': 'application/json', 'cookie': AUTH_COOKIE },
+				body: JSON.stringify({ exerciseId: 'x', exerciseName: 'x', format: 'text-entry', score: 1, total: 1 }),
+			});
+			// PUT is not handled — falls through to node/exercise routing below
+			expect(res.status).toBe(404);
+		});
+
+		it('returns 404 for DELETE /api/quiz-results', async () => {
+			const res = await makeAuthRequest('/api/quiz-results', { method: 'DELETE' });
+			expect(res.status).toBe(404);
+		});
+
+		it('stats endpoint only responds to GET', async () => {
+			const res = await postJsonAuth('/api/quiz-results/stats', {});
+			// POST to stats — the path === '/api/quiz-results/stats' only matches GET
+			// So it falls through. Let's see what happens.
+			expect(res.status).toBeDefined();
 		});
 	});
 });

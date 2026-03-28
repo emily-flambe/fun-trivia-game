@@ -103,6 +103,7 @@ export async function revealAnswers(exercisePath: string): Promise<RevealedItem[
 export interface AuthState {
 	authenticated: boolean;
 	email?: string;
+	userId?: string;
 	loginUrl?: string;
 	logoutUrl?: string;
 }
@@ -110,6 +111,56 @@ export interface AuthState {
 export async function getAuthMe(): Promise<AuthState> {
 	const res = await fetch(`${BASE}/auth/me`);
 	return res.json() as Promise<AuthState>;
+}
+
+// === Quiz Results ===
+
+export interface QuizResultPayload {
+	exerciseId: string;
+	exerciseName: string;
+	format: string;
+	score: number;
+	total: number;
+	durationSeconds?: number;
+	itemsDetail: { itemId: string; correct: boolean; userAnswer: string; fuzzyMatch: boolean }[];
+}
+
+export interface QuizResultResponse {
+	id: string;
+	exerciseId: string;
+	exerciseName: string;
+	format: string;
+	score: number;
+	total: number;
+	durationSeconds: number | null;
+	completedAt: string;
+}
+
+export interface UserStats {
+	totalQuizzes: number;
+	totalCorrect: number;
+	totalAttempted: number;
+	exercisesCovered: number;
+}
+
+export async function submitQuizResult(payload: QuizResultPayload): Promise<void> {
+	await fetch(`${BASE}/quiz-results`, {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify(payload),
+	});
+}
+
+export async function getQuizResults(limit = 20, offset = 0): Promise<{ results: QuizResultResponse[]; total: number }> {
+	const res = await fetch(`${BASE}/quiz-results?limit=${limit}&offset=${offset}`);
+	if (!res.ok) throw new Error('Failed to fetch quiz results');
+	return res.json() as Promise<{ results: QuizResultResponse[]; total: number }>;
+}
+
+export async function getUserStats(): Promise<UserStats> {
+	const res = await fetch(`${BASE}/quiz-results/stats`);
+	if (!res.ok) throw new Error('Failed to fetch stats');
+	return res.json() as Promise<UserStats>;
 }
 
 export async function checkAnswer(

@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react';
 import { getRandomExerciseId, getAuthMe, type AuthState } from './lib/api';
+import { AuthProvider } from './lib/auth-context';
 import { Dashboard } from './components/Dashboard';
 import { NodeView } from './components/NodeView';
 import { ExerciseView } from './components/ExerciseView';
+import { ProfilePage } from './components/ProfilePage';
 
 type Route =
 	| { page: 'dashboard' }
 	| { page: 'node'; path: string }
-	| { page: 'exercise'; path: string; mode: string };
+	| { page: 'exercise'; path: string; mode: string }
+	| { page: 'profile' };
 
 function parseHash(): Route {
 	const hash = window.location.hash.slice(1) || '/';
@@ -22,6 +25,9 @@ function parseHash(): Route {
 		const exercisePath = path.slice('exercise/'.length);
 		const params = new URLSearchParams(query || '');
 		return { page: 'exercise', path: exercisePath, mode: params.get('mode') || 'quiz' };
+	}
+	if (path === 'profile') {
+		return { page: 'profile' };
 	}
 	return { page: 'dashboard' };
 }
@@ -41,6 +47,7 @@ export function App() {
 	}, []);
 
 	return (
+		<AuthProvider value={auth}>
 		<div className="min-h-screen bg-surface text-text-primary font-sans">
 			<nav className="px-4 sm:px-6 py-4 flex items-center justify-between">
 				<a href="#/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
@@ -57,7 +64,12 @@ export function App() {
 					</button>
 					{auth.authenticated ? (
 						<>
-							<span className="text-sm text-text-secondary px-2 hidden sm:inline">{auth.email}</span>
+							<a
+								href="#/profile"
+								className="text-sm text-text-secondary hover:text-accent transition-colors px-2 hidden sm:inline"
+							>
+								{auth.email}
+							</a>
 							<a
 								href={auth.logoutUrl || '/cdn-cgi/access/logout'}
 								className="text-sm font-medium text-text-tertiary hover:text-incorrect transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
@@ -79,7 +91,9 @@ export function App() {
 				{route.page === 'dashboard' && <Dashboard />}
 				{route.page === 'node' && <NodeView path={route.path} />}
 				{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}
+				{route.page === 'profile' && <ProfilePage />}
 			</main>
 		</div>
+		</AuthProvider>
 	);
 }

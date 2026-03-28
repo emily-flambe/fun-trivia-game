@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
-import { checkAnswer, revealAnswers, type ExerciseSummary, type PublicItem, type FillBlanksCheckResult, type RevealedItem } from '../lib/api';
+import { checkAnswer, revealAnswers, submitQuizResult, type ExerciseSummary, type PublicItem, type FillBlanksCheckResult, type RevealedItem } from '../lib/api';
+import { useAuth } from '../lib/auth-context';
 
 interface FoundItem {
 	itemId: string;
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
+	const auth = useAuth();
 	const [found, setFound] = useState<FoundItem[]>([]);
 	const [input, setInput] = useState('');
 	const [checking, setChecking] = useState(false);
@@ -22,6 +24,8 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 	const [gaveUp, setGaveUp] = useState(false);
 	const [revealed, setRevealed] = useState<RevealedItem[]>([]);
 	const inputRef = useRef<HTMLInputElement>(null);
+	const startTimeRef = useRef<number>(Date.now());
+	const submittedRef = useRef(false);
 
 	const nodeId = exercise.nodeId;
 	const ordered = exercise.config?.ordered ?? false;
@@ -32,6 +36,34 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 	useEffect(() => {
 		if (!gaveUp && inputRef.current) inputRef.current.focus();
 	}, [found.length, gaveUp]);
+
+	const allFound = found.length === totalItems;
+	const isComplete = allFound || gaveUp;
+
+	useEffect(() => {
+		if (isComplete && auth.authenticated && !submittedRef.current) {
+			submittedRef.current = true;
+			const durationSeconds = Math.round((Date.now() - startTimeRef.current) / 1000);
+			const foundIds = new Set(found.map((f) => f.itemId));
+			submitQuizResult({
+				exerciseId: exercisePath,
+				exerciseName: exercise.name,
+				format: 'fill-blanks',
+				score: found.length,
+				total: totalItems,
+				durationSeconds,
+				itemsDetail: items.map((item) => {
+					const f = found.find((fi) => fi.itemId === item.id);
+					return {
+						itemId: item.id,
+						correct: foundIds.has(item.id),
+						userAnswer: f?.userAnswer ?? '',
+						fuzzyMatch: f?.fuzzyMatch ?? false,
+					};
+				}),
+			}).catch(() => {});
+		}
+	}, [isComplete]);
 
 	async function handleSubmit(e: React.FormEvent) {
 		e.preventDefault();
@@ -63,9 +95,6 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 		setGaveUp(true);
 		revealAnswers(exercisePath).then(setRevealed).catch(() => {});
 	}
-
-	const allFound = found.length === totalItems;
-	const isComplete = allFound || gaveUp;
 
 	// Build a map of revealed answers by item id
 	const revealedMap = new Map(revealed.map((r) => [r.id, r]));

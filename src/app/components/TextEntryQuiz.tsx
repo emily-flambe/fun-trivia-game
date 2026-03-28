@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
-import { checkAnswer, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
+import { checkAnswer, submitQuizResult, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
+import { useAuth } from '../lib/auth-context';
 import { QuizSummary } from './QuizSummary';
 
 interface AnswerRecord {
@@ -26,6 +27,7 @@ interface Props {
 }
 
 export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
+	const auth = useAuth();
 	const [quizItems, setQuizItems] = useState<PublicItem[]>([]);
 	const [current, setCurrent] = useState(0);
 	const [answers, setAnswers] = useState<AnswerRecord[]>([]);
@@ -34,6 +36,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 	const [checking, setChecking] = useState(false);
 	const [status, setStatus] = useState<'in-progress' | 'showing-result' | 'complete'>('in-progress');
 	const inputRef = useRef<HTMLInputElement>(null);
+	const startTimeRef = useRef<number>(Date.now());
+	const submittedRef = useRef(false);
 
 	useEffect(() => {
 		let prepared = shuffleArray(items);
@@ -44,6 +48,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 		setInput('');
 		setCurrentResult(null);
 		setStatus(prepared.length > 0 ? 'in-progress' : 'complete');
+		startTimeRef.current = Date.now();
+		submittedRef.current = false;
 	}, [items, mode]);
 
 	useEffect(() => {
@@ -51,6 +57,27 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 			inputRef.current.focus();
 		}
 	}, [current, status]);
+
+	useEffect(() => {
+		if (status === 'complete' && auth.authenticated && !submittedRef.current && answers.length > 0) {
+			submittedRef.current = true;
+			const durationSeconds = Math.round((Date.now() - startTimeRef.current) / 1000);
+			submitQuizResult({
+				exerciseId: exercisePath,
+				exerciseName: exercise.name,
+				format: 'text-entry',
+				score: answers.filter((a) => a.correct).length,
+				total: answers.length,
+				durationSeconds,
+				itemsDetail: answers.map((a) => ({
+					itemId: a.itemId,
+					correct: a.correct,
+					userAnswer: a.userAnswer,
+					fuzzyMatch: a.result.fuzzyMatch,
+				})),
+			}).catch(() => {});
+		}
+	}, [status]);
 
 	if (status === 'complete') {
 		return (

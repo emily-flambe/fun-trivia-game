@@ -1,5 +1,7 @@
 import { NodeRepository } from './data/repository';
+import { UserRepository } from './data/user-repository';
 import { checkTextEntry, checkFillBlanks } from './lib/answer-checker';
+import type { User, ExerciseFormat, QuizItemResult } from './data/types';
 
 interface Env {
 	DB: D1Database;
@@ -49,14 +51,36 @@ export default {
 	},
 } satisfies ExportedHandler<Env>;
 
+async function getAuthEmail(request: Request, env: Env): Promise<string | null> {
+	if (env.CF_ACCESS_TEST_EMAIL) {
+		const testCookie = getCookie(request, 'CF_Test_Auth');
+		if (testCookie === env.CF_ACCESS_TEST_EMAIL) return env.CF_ACCESS_TEST_EMAIL;
+		return null;
+	}
+	if (!env.CF_ACCESS_TEAM_DOMAIN || !env.CF_ACCESS_AUD) return null;
+	const { getAuthUser } = await import('./lib/auth');
+	const user = await getAuthUser(request, env.CF_ACCESS_TEAM_DOMAIN, env.CF_ACCESS_AUD);
+	return user?.email ?? null;
+}
+
+async function getRequestUser(request: Request, env: Env): Promise<User | null> {
+	const email = await getAuthEmail(request, env);
+	if (!email) return null;
+	const userRepo = new UserRepository(env.DB);
+	return userRepo.getByEmail(email);
+}
+
 async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Response> {
 	// Local dev bypass: if CF_ACCESS_TEST_EMAIL is set and request has the test cookie, trust it
 	if (env.CF_ACCESS_TEST_EMAIL) {
 		const testCookie = getCookie(request, 'CF_Test_Auth');
 		if (testCookie === env.CF_ACCESS_TEST_EMAIL) {
+			const userRepo = new UserRepository(env.DB);
+			const dbUser = await userRepo.upsertByEmail(env.CF_ACCESS_TEST_EMAIL);
 			return json({
 				authenticated: true,
 				email: env.CF_ACCESS_TEST_EMAIL,
+				userId: dbUser.id,
 				logoutUrl: '/',
 			});
 		}
@@ -74,9 +98,12 @@ async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Respo
 	const user = await getAuthUser(request, env.CF_ACCESS_TEAM_DOMAIN, env.CF_ACCESS_AUD);
 
 	if (user) {
+		const userRepo = new UserRepository(env.DB);
+		const dbUser = await userRepo.upsertByEmail(user.email);
 		return json({
 			authenticated: true,
 			email: user.email,
+			userId: dbUser.id,
 			logoutUrl: `/cdn-cgi/access/logout?returnTo=${encodeURIComponent(url.origin + '/')}`,
 		});
 	}
@@ -90,6 +117,54 @@ async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Respo
 async function handleApi(path: string, url: URL, request: Request, env: Env): Promise<Response> {
 	if (path === '/api/auth/me') {
 		return handleAuthMe(request, url, env);
+	}
+
+	// Quiz results routes (require auth)
+	if (path === '/api/quiz-results/stats' && request.method === 'GET') {
+		const user = await getRequestUser(request, env);
+		if (!user) return json({ error: 'Authentication required' }, 401);
+		const userRepo = new UserRepository(env.DB);
+		const stats = await userRepo.getUserStats(user.id);
+		return json(stats);
+	}
+
+	if (path === '/api/quiz-results' && request.method === 'POST') {
+		const user = await getRequestUser(request, env);
+		if (!user) return json({ error: 'Authentication required' }, 401);
+		const body = await request.json<{
+			exerciseId: string;
+			exerciseName: string;
+			format: string;
+			score: number;
+			total: number;
+			durationSeconds?: number;
+			itemsDetail?: QuizItemResult[];
+		}>();
+		if (!body.exerciseId || !body.exerciseName || !body.format || body.score == null || body.total == null) {
+			return json({ error: 'Missing required fields' }, 400);
+		}
+		const userRepo = new UserRepository(env.DB);
+		const result = await userRepo.recordQuizResult({
+			userId: user.id,
+			exerciseId: body.exerciseId,
+			exerciseName: body.exerciseName,
+			format: body.format as ExerciseFormat,
+			score: body.score,
+			total: body.total,
+			durationSeconds: body.durationSeconds ?? null,
+			itemsDetail: body.itemsDetail ?? [],
+		});
+		return json(result, 201);
+	}
+
+	if (path === '/api/quiz-results' && request.method === 'GET') {
+		const user = await getRequestUser(request, env);
+		if (!user) return json({ error: 'Authentication required' }, 401);
+		const limit = Math.max(0, parseInt(url.searchParams.get('limit') || '20', 10) || 20);
+		const offset = Math.max(0, parseInt(url.searchParams.get('offset') || '0', 10) || 0);
+		const userRepo = new UserRepository(env.DB);
+		const data = await userRepo.getQuizResults(user.id, limit, offset);
+		return json(data);
 	}
 
 	const repo = new NodeRepository(env.DB);
