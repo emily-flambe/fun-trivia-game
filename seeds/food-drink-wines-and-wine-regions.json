@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "food-drink/wines-and-wine-regions", "parentId": "food-drink", "name": "Wines & Wine Regions", "description": "Wine regions, grape varietals, and classification systems" }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/wines-and-wine-regions/wines-and-regions",
+      "nodeId": "food-drink/wines-and-wine-regions",
+      "name": "Wines & Wine Regions",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "champagne",
+          "prompt": "Which French region, northeast of Paris, produces the only wine legally allowed to be called Champagne, made via the traditional method of secondary fermentation in the bottle?",
+          "answer": "Champagne",
+          "alternates": ["Champagne region", "Champagne-Ardenne"],
+          "explanation": "Legally protected AOC region in northeastern France; the name cannot be used for sparkling wine produced elsewhere in the EU\nMéthode champenoise (traditional method): secondary fermentation occurs inside the sealed bottle, producing natural CO2 bubbles\nPrimary grapes: Chardonnay (blanc de blancs), Pinot Noir, and Pinot Meunier\nNon-vintage (NV) Champagne blends multiple years; vintage Champagne declares a single harvest year\nHouses like Moët & Chandon, Veuve Clicquot, and Krug are headquartered in Épernay and Reims\nDom Pérignon, a Benedictine monk, is credited in legend with perfecting sparkling Champagne around 1697 — though the process was likely already known in England\nRosé Champagne can be made by blending still red wine into the base, or by brief skin contact",
+          "cardFront": "Champagne",
+          "cardBack": "France (northeastern region)"
+        },
+        {
+          "id": "bordeaux",
+          "prompt": "Which French wine region, divided by the Gironde estuary into a Left Bank (Cabernet Sauvignon-dominant) and a Right Bank (Merlot-dominant), is home to châteaux classified in the famous 1855 system?",
+          "answer": "Bordeaux",
+          "alternates": [],
+          "explanation": "Located in southwestern France at the mouth of the Garonne and Dordogne rivers\nLeft Bank appellations: Médoc, Pauillac, Saint-Estèphe — Cabernet Sauvignon dominant, gravelly soils\nRight Bank appellations: Saint-Émilion, Pomerol — Merlot dominant, clay and limestone soils\nBordeaux-style blends always mix multiple grapes; single-varietal Bordeaux is rare\nPetrus (Pomerol, Right Bank) is among the world's most expensive wines without being in the 1855 classification\nThe city of Bordeaux has been a major wine trading hub since Roman times\nCold, wet vintages can devastate harvests; 1982 and 2000 are considered legendary years",
+          "cardFront": "Bordeaux",
+          "cardBack": "France (Gironde, Left/Right Bank)"
+        },
+        {
+          "id": "burgundy",
+          "prompt": "Which French region, known as Bourgogne in French, produces Pinot Noir reds and Chardonnay whites, organized into a hierarchy of village, premier cru, and grand cru appellations?",
+          "answer": "Burgundy",
+          "alternates": ["Bourgogne"],
+          "explanation": "Located in east-central France; considered by many the world's greatest terroir for Pinot Noir and Chardonnay\nKey sub-regions: Chablis (northern, steely Chardonnay), Côte de Nuits (reds), Côte de Beaune (whites and reds), Mâconnais\nUnlike Bordeaux, most Burgundy wines are single-varietal: red = Pinot Noir, white = Chardonnay\nRomanée-Conti, in Vosne-Romanée, is the world's most expensive wine per bottle\nBurgundy's system of small vineyard ownership (climat) is a UNESCO World Heritage Site since 2015\nNapoleon's armies are said to have marched through Burgundy and drunk everything they found\nGrand cru wines represent less than 2% of total Burgundy production",
+          "cardFront": "Burgundy / Bourgogne",
+          "cardBack": "France (Pinot Noir, Chardonnay)"
+        },
+        {
+          "id": "barolo",
+          "prompt": "Which DOCG wine from the Langhe hills of Piedmont, Italy, made exclusively from Nebbiolo grapes and aged at least 38 months, is nicknamed the 'wine of kings, king of wines'?",
+          "answer": "Barolo",
+          "alternates": [],
+          "explanation": "DOCG (highest Italian classification) from the Cuneo province of Piedmont, northwest Italy\nMade from 100% Nebbiolo, one of Italy's most tannic and age-worthy grapes\nMinimum aging: 38 months total, at least 18 months in oak; riserva requires 62 months\nFavored by the House of Savoy and Turin's nobility in the 19th century — origin of the royal nickname\nPaired with Barbaresco (also Nebbiolo, Piedmont) as the 'king and queen of Italian wines'\nAromas: roses, tar, leather, cherries, violets — distinctive combination from Nebbiolo\nProduced in 11 communes including Barolo, La Morra, Castiglione Falletto, and Serralunga d'Alba",
+          "cardFront": "Barolo",
+          "cardBack": "Italy (Piedmont, Nebbiolo)"
+        },
+        {
+          "id": "chianti",
+          "prompt": "Which Tuscan Italian wine, made primarily from Sangiovese grapes, comes in the recognizable fiasco (straw-covered bottle) and is produced in the historic zone between Florence and Siena?",
+          "answer": "Chianti",
+          "alternates": ["Chianti Classico"],
+          "explanation": "DOC/DOCG wine from Tuscany, central Italy; Chianti Classico is the historic heartland between Florence and Siena\nMinimum 70–80% Sangiovese; other permitted varieties include Canaiolo, Colorino, and up to 20% international grapes\nThe iconic fiasco (straw-covered flask) bottle is largely nostalgic; modern Chianti uses standard Bordeaux bottles\nChianti Classico earned DOCG status in 1984; marked with the Gallo Nero (Black Rooster) symbol\nGran Selezione tier (introduced 2014) represents single-vineyard, top-quality Chianti Classico\nSangiovese means 'blood of Jupiter' in Italian\nBaron Ricasoli codified the Chianti blend in 1872; later became Italy's second prime minister",
+          "cardFront": "Chianti",
+          "cardBack": "Italy (Tuscany, Sangiovese)"
+        },
+        {
+          "id": "rioja",
+          "prompt": "Which Spanish wine region, located along the Ebro River in northern Spain, produces Tempranillo-based reds classified by aging time as crianza, reserva, or gran reserva?",
+          "answer": "Rioja",
+          "alternates": ["La Rioja"],
+          "explanation": "Spain's most internationally recognized wine region; DOCa (Denominación de Origen Calificada) since 1991\nPrimary grape: Tempranillo, often blended with Garnacha, Mazuelo, and Graciano\nAging classifications: crianza (2 years, 1 in oak), reserva (3 years, 1 in oak), gran reserva (5 years, 2 in oak)\nThree sub-regions: Rioja Alta (cooler, elegant), Rioja Alavesa (Basque Country, limestone), Rioja Oriental (hotter, fuller wines)\nAmerican oak barrels traditionally used, imparting vanilla and coconut notes — now also French oak\nPhylloxera devastated France's vineyards in the 1870s; Bordeaux winemakers fled to Rioja and modernized its techniques\nRioja produces about 90% red wine; whites are mostly Viura (Macabeo) grape",
+          "cardFront": "Rioja",
+          "cardBack": "Spain (Tempranillo, Ebro River)"
+        },
+        {
+          "id": "napa-valley",
+          "prompt": "Which California wine valley, famous for world-class Cabernet Sauvignon, shocked the wine world when its wines beat top French bottles in the 1976 blind tasting organized by Steven Spurrier in Paris?",
+          "answer": "Napa Valley",
+          "alternates": ["Napa"],
+          "explanation": "Located in Napa County, California, about 50 miles northeast of San Francisco\nThe 1976 Judgment of Paris (organized by Steven Spurrier): Napa wines topped both the red and white categories in blind tasting by French judges\nStag's Leap Wine Cellars 1973 Cabernet won the red category; Chateau Montelena 1973 Chardonnay won the white\nAVA (American Viticultural Area) status since 1981; produces some of the world's most expensive Cabernets (Screaming Eagle, Opus One)\nNapa Valley wine tourism contributes billions annually to the California economy\nOver 400 wineries operate in a valley roughly 30 miles long and 5 miles wide\nThe valley's diverse soils and microclimates support over 40 grape varieties",
+          "cardFront": "Napa Valley",
+          "cardBack": "California (1976 Judgment of Paris)"
+        },
+        {
+          "id": "riesling",
+          "prompt": "Which aromatic white grape variety, native to the Rhine region of Germany, produces wines ranging from bone-dry to lusciously sweet and is known for high acidity, longevity, and notes of petrol when aged?",
+          "answer": "Riesling",
+          "alternates": [],
+          "explanation": "Native to the Rhine Valley; major regions include Mosel, Rheingau, and Alsace (France)\nRanges from trocken (dry) to Trockenbeerenauslese (TBA), one of the world's sweetest and rarest wines\nPredikats system (Kabinett → Spätlese → Auslese → Beerenauslese → Eiswein → TBA) denotes ripeness at harvest\nThe 'petrol' note (kerosene aroma) from TDN compound is considered a positive indicator of aging in quality Riesling\nAlsace Riesling is typically drier and fuller-bodied than German counterparts; made from the same grape but different style\nGermany's Mosel produces Riesling on steep slate slopes above the river; slate retains heat and gives mineral character\nRiesling grapes are naturally high in acidity, making them naturally resistant to disease and well-suited for late harvest",
+          "cardFront": "Riesling",
+          "cardBack": "Germany / Alsace (aromatic white)"
+        },
+        {
+          "id": "malbec",
+          "prompt": "Which red grape variety, originally from Cahors in southwest France, became the signature grape of Argentina's Mendoza region and now dominates Argentine wine exports?",
+          "answer": "Malbec",
+          "alternates": [],
+          "explanation": "Originally a minor blending grape in Bordeaux and the dominant red of Cahors (Côt or Auxerrois in France)\nBrought to Argentina in 1853 by French agronomist Michel Pouget, at the request of Domingo Sarmiento\nArgentina's Mendoza, at high altitude (900–1,500 meters), produces intense, fruit-forward Malbecs with softer tannins than French versions\nHigh altitude = more UV radiation, thicker grape skins = deeper color and more tannins\nOval dark-blue grapes with a 'plum, violet, and dark chocolate' flavor profile in New World style\nArgentina now produces far more Malbec than France; the grape nearly disappeared from French vineyards after phylloxera\nArgentine Malbec boom began in the 1990s; by 2000s it was the country's flagship export wine",
+          "cardFront": "Malbec",
+          "cardBack": "Argentina (Mendoza; originally from Cahors, France)"
+        },
+        {
+          "id": "prosecco",
+          "prompt": "Which Italian sparkling wine, made from at least 85% Glera grapes in the Veneto region, is produced by the Charmat method (tank fermentation) and was granted DOCG status in 2009?",
+          "answer": "Prosecco",
+          "alternates": [],
+          "explanation": "Produced in Veneto and Friuli-Venezia Giulia, northeastern Italy; name derives from the village of Prosecco near Trieste\nGlera grape (formerly called Prosecco) must constitute at least 85% of the blend; in 2009, the name 'Prosecco' was restricted to the wine, not the grape\nCharmat method: secondary fermentation in pressurized tanks (autoclave), not individual bottles — faster and cheaper than Champagne method\nTop DOCG appellations: Conegliano Valdobbiadene Prosecco Superiore DOCG and Asolo Prosecco DOCG\nLighter, fruitier, and less yeasty than Champagne; flavors of peach, cream, and pear\nProsecco is the base of the Bellini cocktail (white peach purée + Prosecco, invented at Harry's Bar, Venice, 1948)\nItaly exports over 600 million bottles of Prosecco annually; it outsells Champagne by volume worldwide",
+          "cardFront": "Prosecco",
+          "cardBack": "Italy (Veneto, Glera grape)"
+        },
+        {
+          "id": "sauvignon-blanc",
+          "prompt": "Which crisp, herbaceous white grape variety put New Zealand's Marlborough region on the global wine map and is also a key variety in France's Loire Valley appellations of Sancerre and Pouilly-Fumé?",
+          "answer": "Sauvignon Blanc",
+          "alternates": ["Sauvignon Blanc grape"],
+          "explanation": "Native to the Loire Valley of France; name may derive from sauvage (wild) + blanc (white)\nLoire Valley: Sancerre and Pouilly-Fumé are benchmark appellations — flinty, mineral style\nNew Zealand's Marlborough region (South Island) produces the world's most recognized style: intensely aromatic with passionfruit, cut grass, and grapefruit\nCloudy Bay (1985 vintage) is credited with launching Marlborough Sauvignon Blanc onto the world stage\nIn Bordeaux, blended with Sémillon for both dry whites and sweet Sauternes\nFermentation in stainless steel (not oak) preserves the grape's fresh aromatic profile\nSauvignon Blanc is one of the parents (with Cabernet Franc) of Cabernet Sauvignon",
+          "cardFront": "Sauvignon Blanc",
+          "cardBack": "New Zealand Marlborough / Loire Valley (France)"
+        },
+        {
+          "id": "port",
+          "prompt": "Which fortified wine from Portugal's Douro Valley is made by adding grape brandy mid-fermentation to halt the process, preserving residual sugar, and is aged in lodges in Vila Nova de Gaia?",
+          "answer": "Port",
+          "alternates": ["Port wine", "Porto"],
+          "explanation": "Produced in the Douro Valley, northern Portugal; named after the city of Porto (Oporto)\nFortification: neutral grape brandy (aguardente) added during fermentation, killing yeast and leaving residual sugar at 18–20% ABV\nStyles: ruby (young, fruity), tawny (barrel-aged, nutty), LBV (Late Bottled Vintage), Vintage (single year, rare)\nVintage Port is declared only in exceptional years and can age 20–50+ years\nTraditionally aged in lodges (warehouses) in Vila Nova de Gaia, across the river from Porto\nThe Douro Valley's terraced schist vineyards are a UNESCO World Heritage Site\nThe Methuen Treaty (1703) between Britain and Portugal established favorable trade terms that drove Port's popularity in Britain",
+          "cardFront": "Port",
+          "cardBack": "Portugal (Douro Valley, fortified)"
+        },
+        {
+          "id": "sherry",
+          "prompt": "Which Spanish fortified wine, produced in the 'sherry triangle' of Jerez, Sanlúcar, and El Puerto de Santa María in Andalusia, ranges from bone-dry Fino to sweet Pedro Ximénez?",
+          "answer": "Sherry",
+          "alternates": ["Jerez"],
+          "explanation": "DO Jerez-Xérès-Sherry, Andalusia, southern Spain; 'Sherry' is the English corruption of Jerez\nPrimary grape: Palomino (for Fino, Manzanilla, Amontillado, Oloroso); Pedro Ximénez (PX) for intensely sweet styles\nFino and Manzanilla: fortified to ~15% ABV, protected by a layer of flor (yeast) that prevents oxidation and imparts briny character\nOloroso: oxidatively aged, no flor, ~18% ABV, nutty and richer\nThe solera aging system: blending older and newer wines across barrels in tiers, ensuring consistency across vintages\nSherry was the most popular wine in Elizabethan England; Shakespeare's Falstaff praises 'sack' (an old name for Sherry) repeatedly\nHarvey's Bristol Cream is the world's best-selling Sherry brand",
+          "cardFront": "Sherry",
+          "cardBack": "Spain (Jerez, Andalusia, fortified)"
+        },
+        {
+          "id": "pinot-grigio",
+          "prompt": "Which gray-skinned grape, known as Pinot Grigio in Italy and Pinot Gris in Alsace, produces light, crisp wines in the Veneto style and rich, spicy, full-bodied wines in the Alsatian style?",
+          "answer": "Pinot Grigio / Pinot Gris",
+          "alternates": ["Pinot Grigio", "Pinot Gris"],
+          "explanation": "The same gray-skinned grape mutation of Pinot Noir; name reflects the grayish-pink skin color\nItalian Pinot Grigio (Veneto, Alto Adige, Friuli): pale gold, light, crisp, neutral — designed for mass-market freshness\nAlsatian Pinot Gris (France): full-bodied, spicy, rich, sometimes with noticeable residual sugar — one of Alsace's four noble grapes\nOregon Pinot Gris (USA) typically falls between the two styles in weight and aromatics\nItaly is the world's largest producer of Pinot Grigio by volume\nThe grape originated in Burgundy and is a natural mutation of Pinot Noir; same family as Pinot Blanc and Pinot Noir\nAlsace can label wines Pinot Gris regardless of residual sugar, making sweetness level hard to predict from the label",
+          "cardFront": "Pinot Grigio / Pinot Gris",
+          "cardBack": "Italy (crisp) / Alsace France (rich, spicy)"
+        },
+        {
+          "id": "1855-classification",
+          "prompt": "Which hierarchical ranking of Bordeaux châteaux, commissioned by Napoleon III for the 1855 Paris Exposition Universelle, divided the region's top estates into five tiers of 'growths' (crus) based on price and reputation?",
+          "answer": "1855 Classification",
+          "alternates": ["Bordeaux Classification of 1855", "Grand Cru Classé system"],
+          "explanation": "Commissioned by Emperor Napoleon III to showcase France's best wines to visitors at the 1855 Paris World's Fair\nBordeaux wine brokers ranked châteaux in five growths (premier to cinquième cru), based on market price — a proxy for quality\nOriginal First Growths: Châteaux Lafite Rothschild, Latour, Margaux, and Haut-Brion (only non-Médoc estate)\nOnly one revision in history: 1973, when Mouton Rothschild was elevated from second to first growth after a decades-long campaign by Baron Philippe de Rothschild\nThe classification covers 61 châteaux total; all are in the Médoc (Left Bank) except Haut-Brion (Graves)\nSauternes (sweet whites) were classified separately in 1855 with Château d'Yquem as the sole 'Premier Cru Supérieur'\nRivals Pomerol and Saint-Émilion have their own, later classification systems; Pétrus is not classified at all",
+          "cardFront": "1855 Classification",
+          "cardBack": "Bordeaux, France (5 growths, Napoleon III)"
+        }
+      ]
+    }
+  ]
+}

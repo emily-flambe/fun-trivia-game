@@ -108,6 +108,13 @@ export function PeriodicTable({ items }: Props) {
 								<span className="text-text-tertiary text-sm">#{SYMBOL_TO_Z[selectedItem.data.cardFront]}</span>
 							)}
 						</div>
+						{selectedItem.explanation && (
+							<ul className="text-sm text-text-secondary leading-relaxed space-y-1 list-disc list-outside ml-4">
+								{selectedItem.explanation.split('\\n').map((line, i) => (
+									<li key={i}>{line}</li>
+								))}
+							</ul>
+						)}
 					</div>
 				) : (
 					<div className="text-text-tertiary text-sm">Click an element to see details</div>

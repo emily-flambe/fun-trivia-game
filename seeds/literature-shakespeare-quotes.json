@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "literature/shakespeare", "parentId": "literature", "name": "Shakespeare", "description": "Shakespeare's plays, characters, and quotes" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/shakespeare/quotes",
+      "nodeId": "literature/shakespeare",
+      "name": "Shakespeare's Quotes — Play Matching",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "all-the-world",
+          "prompt": "Which Shakespeare play contains the speech beginning 'All the world's a stage, / And all the men and women merely players'?",
+          "answer": "As You Like It",
+          "alternates": [],
+          "explanation": "Act 2, Scene 7; spoken by the melancholy Jacques (pronounced 'JAY-kwiz') in the Forest of Arden\nThe 'Seven Ages of Man' speech catalogues life from infant to second childhood: 'all the men and women merely players'\nJaques is a minor character whose cynicism provides counterpoint to the play's romantic optimism\nThe Globe Theatre's name may be an allusion to this very line",
+          "cardFront": "\"All the world's a stage\"",
+          "cardBack": "*As You Like It*"
+        },
+        {
+          "id": "friends-romans",
+          "prompt": "Which Shakespeare play contains the speech beginning 'Friends, Romans, countrymen, lend me your ears'?",
+          "answer": "Julius Caesar",
+          "alternates": [],
+          "explanation": "Act 3, Scene 2; Mark Antony's funeral oration, delivered immediately after Brutus's cold, logical speech\nAntony uses devastating irony — 'Brutus is an honorable man' — to turn the Roman crowd against the conspirators\nThe speech is a textbook example of rhetorical technique: ethos, pathos, and logos deployed in sequence\nAntony wins the crowd by showing Caesar's wounds and reading his will, which leaves money to every Roman citizen",
+          "cardFront": "\"Friends, Romans, countrymen, lend me your ears\"",
+          "cardBack": "*Julius Caesar*"
+        },
+        {
+          "id": "et-tu-brute",
+          "prompt": "Which Shakespeare play contains the line 'Et tu, Brute?'",
+          "answer": "Julius Caesar",
+          "alternates": [],
+          "explanation": "Act 3, Scene 1; Caesar's last words as Brutus delivers the final stab\nThe phrase has become the ultimate byword for betrayal by a trusted friend\nHistorical sources (Suetonius) give Caesar's actual dying words in Greek: 'καὶ σύ, τέκνον' ('You too, child') — possibly addressed to Brutus as a rumored illegitimate son\nBrutus's betrayal is the crux: Caesar covered his face with his toga when he saw Brutus raise his dagger",
+          "cardFront": "\"Et tu, Brute?\"",
+          "cardBack": "*Julius Caesar*"
+        },
+        {
+          "id": "winter-of-our-discontent",
+          "prompt": "Which Shakespeare play opens with the line 'Now is the winter of our discontent / Made glorious summer by this sun of York'?",
+          "answer": "Richard III",
+          "alternates": [],
+          "explanation": "Act 1, Scene 1; Richard's opening soliloquy, immediately establishing him as gleeful schemer\nThe line is often misquoted in isolation — the complete sentence is actually celebratory: 'our discontent' has ended\n'Sun of York' is a pun: the sun was Edward IV's heraldic emblem; Richard resents living in his brother's shadow\nShakespeare's Richard III is largely Tudor propaganda — portraying him as a deformed monster; historians debate the historical Richard's character",
+          "cardFront": "\"Now is the winter of our discontent\"",
+          "cardBack": "*Richard III*"
+        },
+        {
+          "id": "whats-in-a-name",
+          "prompt": "Which Shakespeare play contains the lines 'What's in a name? That which we call a rose / By any other name would smell as sweet'?",
+          "answer": "Romeo and Juliet",
+          "alternates": [],
+          "explanation": "Act 2, Scene 2 (the balcony scene); Juliet argues that Romeo's family name is irrelevant to his worth as a person\nCentral to the play's theme: names and social identity (Montague vs. Capulet) vs. personal identity and love\n'Romeo' has become generic English for any passionate young male lover\nBased on Arthur Brooke's 1562 poem *The Tragicall Historye of Romeus and Juliet*, itself derived from Italian sources",
+          "cardFront": "\"What's in a name? That which we call a rose...\"",
+          "cardBack": "*Romeo and Juliet*"
+        },
+        {
+          "id": "all-that-glitters",
+          "prompt": "Which Shakespeare play contains the line 'All that glitters is not gold'?",
+          "answer": "The Merchant of Venice",
+          "alternates": ["Merchant of Venice"],
+          "explanation": "Act 2, Scene 7; the line appears on a scroll inside the gold casket opened by the Prince of Morocco\nOriginal First Folio text: 'All that glisters is not gold' — 'glisters' was later modernized to 'glitters'\nMorocco chose the gold casket based on surface appearance; the scroll mocks his superficiality\nThe casket test (gold, silver, lead) is a central plot device of the Portia subplot",
+          "cardFront": "\"All that glitters is not gold\"",
+          "cardBack": "*The Merchant of Venice*"
+        },
+        {
+          "id": "quality-of-mercy",
+          "prompt": "Which Shakespeare play contains the speech beginning 'The quality of mercy is not strained, / It droppeth as the gentle rain from heaven'?",
+          "answer": "The Merchant of Venice",
+          "alternates": ["Merchant of Venice"],
+          "explanation": "Act 4, Scene 1; spoken by Portia, disguised as a young lawyer named Balthasar, urging Shylock to show mercy\nPortia goes on to defeat Shylock on a technicality: his bond specifies flesh but not blood\nThe speech articulates a Christian theology of mercy over strict legal justice\nShakespeare's longest female speaking role; Portia also solves the 'ring test' subplot",
+          "cardFront": "\"The quality of mercy is not strained\"",
+          "cardBack": "*The Merchant of Venice*"
+        },
+        {
+          "id": "to-thine-own-self",
+          "prompt": "Which Shakespeare play contains the advice 'This above all: to thine own self be true'?",
+          "answer": "Hamlet",
+          "alternates": [],
+          "explanation": "Act 1, Scene 3; Polonius's parting advice to his son Laertes departing for France\nIronically, Polonius is one of Shakespeare's most hypocritical and meddlesome characters — the advice is given without self-awareness\nContinues: 'And it must follow, as the night the day, / Thou canst not then be false to any man'\nFrequently quoted out of context as universal wisdom; within the play it is undermined by its speaker's own conduct",
+          "cardFront": "\"This above all: to thine own self be true\"",
+          "cardBack": "*Hamlet*"
+        },
+        {
+          "id": "something-is-rotten",
+          "prompt": "Which Shakespeare play contains the line 'Something is rotten in the state of Denmark'?",
+          "answer": "Hamlet",
+          "alternates": [],
+          "explanation": "Act 1, Scene 4; spoken by Marcellus the guard — NOT by Hamlet (a common misattribution)\nSaid after the ghost of King Hamlet appears and beckons Hamlet away from the guards into the darkness\nCaptures the play's central theme: Denmark's court is corrupted by Claudius's fratricide\n'The state of Denmark' has become shorthand in English for political or institutional corruption",
+          "cardFront": "\"Something is rotten in the state of Denmark\"",
+          "cardBack": "*Hamlet*"
+        },
+        {
+          "id": "if-music-be",
+          "prompt": "Which Shakespeare play opens with the line 'If music be the food of love, play on'?",
+          "answer": "Twelfth Night",
+          "alternates": [],
+          "explanation": "Act 1, Scene 1; spoken by Duke Orsino, pining self-indulgently for the Countess Olivia\nContinues: 'Give me excess of it, that, surfeiting, / The appetite may sicken, and so die'\nOrsino is in love with the idea of love; he eventually falls for Viola (disguised as Cesario)\nThe play's title refers to Twelfth Night (Epiphany, January 6) — a holiday associated with misrule, disguise, and revelry",
+          "cardFront": "\"If music be the food of love, play on\"",
+          "cardBack": "*Twelfth Night*"
+        },
+        {
+          "id": "such-stuff-as-dreams",
+          "prompt": "Which Shakespeare play contains the lines 'We are such stuff / As dreams are made on, and our little life / Is rounded with a sleep'?",
+          "answer": "The Tempest",
+          "alternates": [],
+          "explanation": "Act 4, Scene 1; Prospero, after abruptly dismissing a masque of spirits, meditates on the insubstantiality of life\nNot 'made of' but 'made on' — the preposition is frequently misquoted\nWidely read as Shakespeare's own theatrical farewell — *The Tempest* was likely his last solo-authored play\nIn *The Maltese Falcon* (1941), Sam Spade paraphrases it: 'the stuff that dreams are made of'",
+          "cardFront": "\"We are such stuff as dreams are made on\"",
+          "cardBack": "*The Tempest*"
+        },
+        {
+          "id": "once-more-unto-the-breach",
+          "prompt": "Which Shakespeare play contains the rallying cry 'Once more unto the breach, dear friends, once more'?",
+          "answer": "Henry V",
+          "alternates": [],
+          "explanation": "Act 3, Scene 1; Henry's speech before the assault on the walls of Harfleur\n'Breach' refers to a gap in the city walls; 'close the wall up with our English dead' follows\nThe play also contains the 'St. Crispin's Day' speech ('We few, we happy few, we band of brothers') before Agincourt\nKenneth Branagh delivered the speech memorably in his celebrated 1989 film adaptation",
+          "cardFront": "\"Once more unto the breach, dear friends\"",
+          "cardBack": "*Henry V*"
+        },
+        {
+          "id": "lady-doth-protest",
+          "prompt": "Which Shakespeare play contains the line 'The lady doth protest too much, methinks'?",
+          "answer": "Hamlet",
+          "alternates": [],
+          "explanation": "Act 3, Scene 2; spoken by Gertrude, Hamlet's mother, watching the Player Queen in the play-within-a-play\n'Protest' in Elizabethan English means 'to solemnly declare' — the line means the queen is making her vows too emphatically, not objecting too loudly\nOften misquoted as 'protests too much' — the original has 'doth'\nIronically, Gertrude herself is the woman who remarried with suspicious haste; Hamlet staged the play to expose Claudius",
+          "cardFront": "\"The lady doth protest too much, methinks\"",
+          "cardBack": "*Hamlet*"
+        },
+        {
+          "id": "out-damned-spot",
+          "prompt": "Which Shakespeare play contains the sleepwalking scene in which a character cries 'Out, damned spot! out, I say!'?",
+          "answer": "Macbeth",
+          "alternates": [],
+          "explanation": "Act 5, Scene 1; Lady Macbeth sleepwalking, tormented by guilt over Duncan's murder\nShe imagines blood on her hands that cannot be washed away — reversing her earlier boast 'A little water clears us of this deed'\nA doctor and gentlewoman observe the scene; her ravings inadvertently confess the murders\nAmong Shakespeare's most powerful portrayals of guilt consuming a once-ruthless character",
+          "cardFront": "\"Out, damned spot!\"",
+          "cardBack": "*Macbeth*"
+        },
+        {
+          "id": "my-kingdom-for-a-horse",
+          "prompt": "Which Shakespeare play contains the line 'A horse! A horse! My kingdom for a horse!'?",
+          "answer": "Richard III",
+          "alternates": [],
+          "explanation": "Act 5, Scene 4; Richard at the Battle of Bosworth Field (1485), after his horse is killed in combat\nRichard is killed moments later by Henry Tudor's forces — the last English king to die in battle\nThe Battle of Bosworth ended the Wars of the Roses; Richard III was the last Plantagenet king\nIn 2012, Richard III's skeleton was discovered beneath a Leicester car park; DNA confirmed the identification in 2013",
+          "cardFront": "\"A horse! A horse! My kingdom for a horse!\"",
+          "cardBack": "*Richard III*"
+        }
+      ]
+    }
+  ]
+}
