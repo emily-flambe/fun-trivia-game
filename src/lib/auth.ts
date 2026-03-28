@@ -2,6 +2,7 @@ import { createRemoteJWKSet, jwtVerify } from 'jose';
 
 export interface AuthUser {
 	email: string;
+	isServiceToken: boolean;
 }
 
 export async function getAuthUser(
@@ -9,7 +10,11 @@ export async function getAuthUser(
 	teamDomain: string,
 	aud: string,
 ): Promise<AuthUser | null> {
-	const token = getCookie(request, 'CF_Authorization');
+	// Service token requests get Cf-Access-Jwt-Assertion header from Cloudflare edge.
+	// Cookie-based auth (user login via IdP) uses CF_Authorization cookie.
+	const token =
+		request.headers.get('cf-access-jwt-assertion') ||
+		getCookie(request, 'CF_Authorization');
 	if (!token) return null;
 
 	try {
@@ -20,8 +25,15 @@ export async function getAuthUser(
 			issuer: teamDomain,
 			audience: aud,
 		});
-		if (typeof payload.email !== 'string') return null;
-		return { email: payload.email };
+
+		// IdP-authenticated users have email; service tokens have common_name
+		if (typeof payload.email === 'string') {
+			return { email: payload.email, isServiceToken: false };
+		}
+		if (typeof payload.common_name === 'string') {
+			return { email: payload.common_name, isServiceToken: true };
+		}
+		return null;
 	} catch {
 		return null;
 	}
