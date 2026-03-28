@@ -13,9 +13,10 @@ interface Props {
 	exercise: ExerciseSummary;
 	items: PublicItem[];
 	exercisePath: string;
+	nextExercisePath?: string | null;
 }
 
-export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
+export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath }: Props) {
 	const auth = useAuth();
 	const [found, setFound] = useState<FoundItem[]>([]);
 	const [input, setInput] = useState('');
@@ -248,16 +249,18 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 						</div>
 						<div className="flex flex-wrap gap-3">
 							<button onClick={handleRepeat} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-								Repeat
+								Retake
 							</button>
 							{!allFound && (
 								<button onClick={handleRetryFailed} className="bg-surface-bright hover:bg-surface-hover text-accent border border-accent/30 px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-									Retry Failed
+									Retake Failed Only
 								</button>
 							)}
-							<a href={`#/exercise/${exercisePath}?mode=learn`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-								Study
-							</a>
+							{nextExercisePath && (
+								<a href={`#/exercise/${nextExercisePath}?mode=quiz`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+									Next
+								</a>
+							)}
 							<a href="#/" className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 								Home
 							</a>

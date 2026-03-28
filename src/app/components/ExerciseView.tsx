@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getExercise, type ExerciseDetail } from '../lib/api';
+import { getExercise, getNode, type ExerciseDetail, type NodeDetail } from '../lib/api';
 import { LearnGrid } from './LearnGrid';
 import { PeriodicTable } from './PeriodicTable';
 import { TextEntryQuiz } from './TextEntryQuiz';
@@ -7,14 +7,22 @@ import { FillBlanksQuiz } from './FillBlanksQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
+	const [nodeDetail, setNodeDetail] = useState<NodeDetail | null>(null);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(false);
 
 	useEffect(() => {
 		setLoading(true);
 		setError(false);
-		getExercise(path)
-			.then(setData)
+		const parentNodeId = path.split('/').slice(0, -1).join('/');
+		Promise.all([
+			getExercise(path),
+			parentNodeId ? getNode(parentNodeId).catch(() => null) : Promise.resolve(null),
+		])
+			.then(([exerciseData, nodeData]) => {
+				setData(exerciseData);
+				setNodeDetail(nodeData);
+			})
 			.catch(() => setError(true))
 			.finally(() => setLoading(false));
 	}, [path]);
@@ -24,6 +32,15 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 
 	const { exercise, items } = data;
 	const nodeId = exercise.nodeId;
+
+	let nextExercisePath: string | null = null;
+	if (nodeDetail) {
+		const sorted = [...nodeDetail.exercises].sort((a, b) => a.sortOrder - b.sortOrder);
+		const currentIdx = sorted.findIndex((e) => e.id === path);
+		if (currentIdx !== -1 && currentIdx + 1 < sorted.length) {
+			nextExercisePath = sorted[currentIdx + 1].id;
+		}
+	}
 
 	if (mode === 'learn') {
 		if (exercise.displayType === 'periodic-table') {
@@ -49,8 +66,8 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	}
 
 	if (exercise.format === 'fill-blanks') {
-		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} />;
+		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} />;
 	}
 
-	return <TextEntryQuiz exercise={exercise} items={items} exercisePath={path} mode={mode} />;
+	return <TextEntryQuiz exercise={exercise} items={items} exercisePath={path} mode={mode} nextExercisePath={nextExercisePath} />;
 }
