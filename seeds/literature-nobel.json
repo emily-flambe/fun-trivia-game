@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    { "id": "literature/nobel", "parentId": "literature", "name": "Nobel Prize in Literature", "description": "Nobel Prize in Literature winners and laureates" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/nobel/winners-by-year",
+      "nodeId": "literature/nobel",
+      "name": "Nobel Prize in Literature \u2014 Winners by Year",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "nobel-2025",
+          "prompt": "Who won the Nobel Prize in Literature in 2025, a Hungarian novelist known for dense, apocalyptic prose works including *Satantango*?",
+          "answer": "L\u00e1szl\u00f3 Krasznahorkai",
+          "alternates": ["Krasznahorkai", "Laszlo Krasznahorkai"],
+          "explanation": "2025 Nobel Prize in Literature; born 1954 in Gy\u0151r, Hungary\nCited 'for his compelling and visionary oeuvre that, in the midst of apocalyptic terror, reaffirms the power of art'\nKey works: *Satantango* (1985), *The Melancholy of Resistance* (1989), *War and War* (1999), *Seiobo There Below* (2008)\n*Satantango* was adapted into a 7.5-hour film by B\u00e9la Tarr (1994) \u2014 one of the great works of European cinema\nThe second Hungarian Nobel laureate in Literature after Imre Kert\u00e9sz (2002)\nKnown for extremely long sentences and paragraphs that can run for pages; his prose mirrors the relentlessness of the forces he describes",
+          "cardFront": "2025",
+          "cardBack": "L\u00e1szl\u00f3 Krasznahorkai"
+        },
+        {
+          "id": "nobel-2024",
+          "prompt": "Who won the Nobel Prize in Literature in 2024, a South Korean author known for *The Vegetarian* and *Human Acts*?",
+          "answer": "Han Kang",
+          "alternates": ["Kang"],
+          "explanation": "2024 Nobel Prize in Literature; born 1970 in Gwangju, South Korea\nCited 'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life'\n*The Vegetarian* (2007; English translation 2015) \u2014 a woman's refusal to eat meat becomes a form of resistance and madness; won the International Booker Prize (2016)\n*Human Acts* (2014) depicts the 1980 Gwangju Uprising and its aftermath\nFirst South Korean writer to win the Nobel Prize in Literature; the first Asian woman to receive it\nHer father is the novelist Han Seung-won; she began writing poetry before fiction",
+          "cardFront": "2024",
+          "cardBack": "Han Kang"
+        },
+        {
+          "id": "nobel-2023",
+          "prompt": "Who won the Nobel Prize in Literature in 2023, a Norwegian playwright and novelist known for the seven-volume *Septology*?",
+          "answer": "Jon Fosse",
+          "alternates": ["Fosse"],
+          "explanation": "2023 Nobel Prize in Literature; born 1959 in Haugesund, Norway\nCited 'for his innovative plays and prose which give voice to the unsayable'\n*Septology* (2019\u20132021) is a seven-volume novel written in a single, unending sentence with no full stops; follows an elderly Christian painter\nOne of the most performed playwrights in the world; plays include *Someone Is Always Near*, *Winter*, and *And We'll Never Be Parted'\nConverted to Catholicism in 2012; his work is deeply infused with spiritual themes\nWrites in Nynorsk, one of two official written standards of Norwegian",
+          "cardFront": "2023",
+          "cardBack": "Jon Fosse"
+        },
+        {
+          "id": "nobel-2022",
+          "prompt": "Who won the Nobel Prize in Literature in 2022, a French author known for *The Years* and *Happening*, who mines her own working-class autobiography?",
+          "answer": "Annie Ernaux",
+          "alternates": ["Ernaux"],
+          "explanation": "2022 Nobel Prize in Literature; born 1940 in Lillebonne, Normandy, France\nCited 'for the courage and clinical acuity with which she uncovers the roots and collective constraints of personal memory'\n*The Years* (2008) \u2014 a collective autobiographical account of French society from 1941 to 2006, written entirely in the third person\n*Happening* (2000) \u2014 an account of her illegal abortion in 1963 France; adapted into an award-winning film in 2021\nHer work consistently explores class: she grew up the daughter of shopkeepers in a working-class Norman town\nFirst French woman to win the Nobel Prize in Literature",
+          "cardFront": "2022",
+          "cardBack": "Annie Ernaux"
+        },
+        {
+          "id": "nobel-2021",
+          "prompt": "Who won the Nobel Prize in Literature in 2021, a Tanzanian-British author known for *Paradise* and *By the Sea*, whose work focuses on colonialism's aftermath in East Africa?",
+          "answer": "Abdulrazak Gurnah",
+          "alternates": ["Gurnah"],
+          "explanation": "2021 Nobel Prize in Literature; born 1948 in Zanzibar (now Tanzania)\nCited 'for his uncompromising and compassionate penetration of the effects of colonialism and the fate of the refugee'\n*Paradise* (1994) \u2014 set in colonial East Africa during WWI; nominated for the Booker Prize\n*By the Sea* (2001) \u2014 follows an asylum seeker arriving in England\nLeft Zanzibar in 1968 after the 1964 revolution's aftermath targeted Arab communities; settled in England\nRetired professor of English and postcolonial literatures at the University of Kent\nVirtually unknown to a wide audience when he won; his publisher immediately reprinted all his books",
+          "cardFront": "2021",
+          "cardBack": "Abdulrazak Gurnah"
+        },
+        {
+          "id": "nobel-2020",
+          "prompt": "Who won the Nobel Prize in Literature in 2020, an American poet known for *The Wild Iris* and *Ararat*?",
+          "answer": "Louise Gl\u00fcck",
+          "alternates": ["Gl\u00fcck", "Gluck", "Louise Gluck"],
+          "explanation": "2020 Nobel Prize in Literature; born 1943 in New York City\nCited 'for her unmistakable poetic voice that with austere beauty makes individual existence universal'\n*The Wild Iris* (1992) won the Pulitzer Prize for Poetry; dramatic monologues spoken by garden flowers, gods, and a gardener\n*Ararat* (1990) meditates on her sister's death and family grief\nU.S. Poet Laureate (2003\u20132004); former professor at Yale and Williams College\nKnown for her spare, psychologically penetrating style; influenced by classical mythology and the Psalms\nThe first American woman to win the Nobel Prize in Literature since Toni Morrison (1993)",
+          "cardFront": "2020",
+          "cardBack": "Louise Gl\u00fcck"
+        },
+        {
+          "id": "nobel-2018",
+          "prompt": "Who won the Nobel Prize in Literature for 2018 (awarded in 2019), a Polish author known for *Flights* and *The Books of Jacob*?",
+          "answer": "Olga Tokarczuk",
+          "alternates": ["Tokarczuk"],
+          "explanation": "2018 Nobel Prize in Literature (the 2018 prize was delayed and awarded in 2019 due to a scandal at the Swedish Academy); born 1962 in K\u0119szyce Wielkie, Poland\nCited 'for a narrative imagination that represents the crossing of boundaries as a form of life'\n*Flights* (2007; English translation 2017) \u2014 a mosaic novel about travel, the body, and movement; won the International Booker Prize (2018)\n*The Books of Jacob* (2014; English translation 2021) \u2014 a vast historical novel about a messianic Jewish sect in 18th-century Poland\nFirst Polish woman to win the Nobel Prize in Literature\nHer novel *Drive Your Plow Over the Bones of the Dead* (2009) was adapted into the Polish film *Spoor* (2017) by Agnieszka Holland",
+          "cardFront": "2018",
+          "cardBack": "Olga Tokarczuk"
+        },
+        {
+          "id": "nobel-2017",
+          "prompt": "Who won the Nobel Prize in Literature in 2017, a British author of Japanese origin known for *The Remains of the Day* and *Never Let Me Go*?",
+          "answer": "Kazuo Ishiguro",
+          "alternates": ["Ishiguro"],
+          "explanation": "2017 Nobel Prize in Literature; born 1954 in Nagasaki, Japan; moved to England with his family at age 5\nCited 'who, in novels of great emotional force, has uncovered the abyss beneath our illusory sense of connection with the world'\n*The Remains of the Day* (1989) \u2014 a repressed English butler reflects on his service to a Nazi sympathizer; won the Booker Prize\n*Never Let Me Go* (2005) \u2014 a dystopian novel about cloned humans raised as organ donors; narrated with the same calm repression\n*The Buried Giant* (2015) \u2014 set in post-Arthurian Britain with a collective amnesia about atrocities\nGrew up in Guildford, Surrey; has written about how his 'Japanese memory' of a Japan he barely knew shaped his imagination",
+          "cardFront": "2017",
+          "cardBack": "Kazuo Ishiguro"
+        },
+        {
+          "id": "nobel-2016",
+          "prompt": "Who won the Nobel Prize in Literature in 2016 \u2014 controversially, for a musician rather than a traditional author \u2014 with a citation for 'having created new poetic expressions within the great American song tradition'?",
+          "answer": "Bob Dylan",
+          "alternates": ["Dylan", "Robert Zimmerman", "Robert Allen Zimmerman"],
+          "explanation": "2016 Nobel Prize in Literature; born 1941 as Robert Allen Zimmerman in Duluth, Minnesota\nFirst musician to win the Nobel Prize in Literature; the decision was controversial among the literary establishment\nDylan initially did not respond to the Nobel Committee for weeks; eventually accepted the prize\nKey albums: *The Freewheelin' Bob Dylan* (1963), *Highway 61 Revisited* (1965), *Blonde on Blonde* (1966), *Blood on the Tracks* (1975)\nCivil rights era anthems: 'Blowin' in the Wind' (1962), 'The Times They Are a-Changin'' (1964)\nAlso a Nobel citation unusual for singling out an artist's 'tradition' rather than a body of literary work",
+          "cardFront": "2016",
+          "cardBack": "Bob Dylan"
+        },
+        {
+          "id": "nobel-2015",
+          "prompt": "Who won the Nobel Prize in Literature in 2015, a Belarusian journalist and oral historian known for *Voices from Chernobyl* and *The Unwomanly Face of War*?",
+          "answer": "Svetlana Alexievich",
+          "alternates": ["Alexievich"],
+          "explanation": "2015 Nobel Prize in Literature; born 1948 in Ivano-Frankivsk (now Ukraine); has lived in Minsk, Belarus for most of her life\nCited 'for her polyphonic writings, a monument to suffering and courage in our time'\n*The Unwomanly Face of War* (1985) \u2014 oral testimonies of Soviet women who fought in WWII; suppressed for years by Soviet censors\n*Voices from Chernobyl* (1997) \u2014 testimonies of survivors, workers, and widows from the 1986 nuclear disaster\nHer 'documentary prose' is composed entirely of recorded testimonies, edited into polyphonic narratives\nWrote *Boys in Zinc* (1989) about Soviet soldiers in Afghanistan; and *Secondhand Time* (2013) about the Soviet Union's collapse\nHas lived in exile since 2020 after the crackdown following the disputed Belarusian presidential election",
+          "cardFront": "2015",
+          "cardBack": "Svetlana Alexievich"
+        },
+        {
+          "id": "nobel-2013",
+          "prompt": "Who won the Nobel Prize in Literature in 2013, a Canadian short story writer known as 'the master of the contemporary short story'?",
+          "answer": "Alice Munro",
+          "alternates": ["Munro"],
+          "explanation": "2013 Nobel Prize in Literature; born 1931 in Wingham, Ontario; announced retirement from writing after the award\nCited as 'master of the contemporary short story'; one of the few Nobel laureates recognized primarily for short fiction\nMajor collections: *Lives of Girls and Women* (1971), *Who Do You Think You Are?* (1978), *Runaway* (2004), *Dear Life* (2012)\nHer stories are set predominantly in rural southwestern Ontario and explore the lives of women across generations\nThree-time winner of Canada's Governor General's Award\nInfluenced by Chekhov; her stories often span decades and resist conventional plot structure",
+          "cardFront": "2013",
+          "cardBack": "Alice Munro"
+        },
+        {
+          "id": "nobel-2010",
+          "prompt": "Who won the Nobel Prize in Literature in 2010, a Peruvian novelist and politician known for *The Green House*, *Conversation in the Cathedral*, and *The Feast of the Goat*?",
+          "answer": "Mario Vargas Llosa",
+          "alternates": ["Vargas Llosa"],
+          "explanation": "2010 Nobel Prize in Literature; born 1936 in Arequipa, Peru; full name Jorge Mario Pedro Vargas Llosa\nCited 'for his cartography of structures of power and his trenchant images of the individual's resistance, revolt, and defeat'\n*The Green House* (1966) \u2014 interweaves five storylines across Peru's jungle and coast; launched his international reputation\n*The Feast of the Goat* (2000) \u2014 about the final days of Dominican dictator Trujillo\nRan for the presidency of Peru in 1990; lost to Alberto Fujimori in a runoff\nEarly ally and later fierce critic of the Cuban Revolution and Fidel Castro; became a liberal-conservative\nHis memoir *A Fish in the Water* (1993) describes his political campaigns and literary origins",
+          "cardFront": "2010",
+          "cardBack": "Mario Vargas Llosa"
+        },
+        {
+          "id": "nobel-2006",
+          "prompt": "Who won the Nobel Prize in Literature in 2006, a Turkish novelist known for *My Name Is Red* and *Snow*, and the first Turk to win the prize?",
+          "answer": "Orhan Pamuk",
+          "alternates": ["Pamuk"],
+          "explanation": "2006 Nobel Prize in Literature; born 1952 in Istanbul, Turkey\nCited 'who in the quest for the melancholic soul of his native city has discovered new symbols for the clash and interlacing of cultures'\n*My Name Is Red* (1998) \u2014 a murder mystery set in 16th-century Ottoman Istanbul, exploring the conflict between Eastern and Western artistic traditions\n*Snow* (2002) \u2014 a political novel set in the eastern Turkish city of Kars, exploring Islamism and secularism\nProsecuted in 2005 for 'insulting Turkishness' after telling a Swiss newspaper about the killing of 30,000 Kurds in Turkey\nFounded the Museum of Innocence in Istanbul (2012), inspired by his novel of the same name",
+          "cardFront": "2006",
+          "cardBack": "Orhan Pamuk"
+        },
+        {
+          "id": "nobel-2003",
+          "prompt": "Who won the Nobel Prize in Literature in 2003, a South African author known for *Disgrace* and *Waiting for the Barbarians*?",
+          "answer": "J.M. Coetzee",
+          "alternates": ["Coetzee", "John Coetzee", "John Maxwell Coetzee"],
+          "explanation": "2003 Nobel Prize in Literature; born 1940 in Cape Town, South Africa; moved to Australia in 2002\nCited 'who in innumerable guises portrays the surprising involvement of the outsider'\n*Waiting for the Barbarians* (1980) \u2014 an allegory of colonialism and complicity in oppression\n*Disgrace* (1999) \u2014 set in post-apartheid South Africa; a professor is fired for an affair with a student and his daughter is assaulted; won the Booker Prize\nThe first author to win the Booker Prize twice (*Life & Times of Michael K*, 1983, and *Disgrace*, 1999)\nAlso wrote the experimental *Boyhood* (1997), *Youth* (2002), and *Summertime* (2009) \u2014 fictionalized memoirs in the third person",
+          "cardFront": "2003",
+          "cardBack": "J.M. Coetzee"
+        },
+        {
+          "id": "nobel-1999",
+          "prompt": "Who won the Nobel Prize in Literature in 1999, a German author known for *The Tin Drum*, whose protagonist Oskar Matzerath refuses to grow up?",
+          "answer": "G\u00fcnter Grass",
+          "alternates": ["Grass", "Gunter Grass"],
+          "explanation": "1999 Nobel Prize in Literature; born 1927 in Danzig (now Gda\u0144sk, Poland); died 2015\nCited 'whose frolicsome black fables portray the forgotten face of history'\n*The Tin Drum* (1959) \u2014 Oskar Matzerath, who stopped growing at age three by throwing himself down cellar stairs, narrates the rise of Nazism and WWII in Danzig\nThe novel was adapted into an Oscar-winning film by Volker Schl\u00f6ndorff (1979, Best Foreign Language Film)\nPart of the 'Danzig Trilogy' with *Cat and Mouse* (1961) and *Dog Years* (1963)\nIn 2006, Grass revealed he had served as an SS soldier as a teenager \u2014 a disclosure that shocked his admirers and complicated his long moral authority on Germany's WWII guilt\nAlso wrote *Too Far Afield* (1995), a controversial novel about German reunification",
+          "cardFront": "1999",
+          "cardBack": "G\u00fcnter Grass"
+        }
+      ]
+    },
+    {
+      "id": "literature/nobel/nobel-literature",
+      "nodeId": "literature/nobel",
+      "name": "Nobel Prize in Literature",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "william-faulkner",
+          "prompt": "This American Southern Gothic writer, who set most of his work in the fictional Yoknapatawpha County, Mississippi, won the Nobel Prize in Literature in 1949. Name this author.",
+          "answer": "William Faulkner",
+          "alternates": ["Faulkner"],
+          "explanation": "Nobel 1949; awarded 'for his powerful and artistically unique contribution to the modern American novel'\nMajor works: *The Sound and the Fury* (1929), *As I Lay Dying* (1930), *Absalom, Absalom!* (1936)\nYoknapatawpha County \u2014 a fictional Mississippi county modeled on Lafayette County \u2014 is the setting for most of his fiction\nFaulkner's Nobel speech (delivered 1950) is among the greatest ever: 'I decline to accept the end of man'\nAlso wrote screenplays in Hollywood; received screen credit on *To Have and Have Not* (1944) and *The Big Sleep* (1946)\nDied 1962 in Mississippi; his stream-of-consciousness technique influenced Garc\u00eda M\u00e1rquez and Toni Morrison",
+          "cardFront": "William Faulkner",
+          "cardBack": "Nobel 1949 \u2014 USA"
+        },
+        {
+          "id": "ernest-hemingway",
+          "prompt": "This American author, known for his spare 'iceberg theory' prose style, won the Nobel Prize in Literature in 1954. His novels include *The Sun Also Rises* and *A Farewell to Arms*. Name this author.",
+          "answer": "Ernest Hemingway",
+          "alternates": ["Hemingway"],
+          "explanation": "Nobel 1954; cited in part for *The Old Man and the Sea* (1952), which also won the Pulitzer Prize that year\nMajor works: *The Sun Also Rises* (1926), *A Farewell to Arms* (1929), *For Whom the Bell Tolls* (1940)\nThe 'iceberg theory' (or theory of omission): only show 1/8 of the story; emotional weight lies in what is left out\nWar correspondent in WWII; survived two consecutive plane crashes in Africa in January 1954, months before the Nobel announcement\nDied by suicide in Ketchum, Idaho, in 1961 \u2014 part of a family history of depression and suicide spanning generations\nHis Nobel speech was read by the U.S. Ambassador; Hemingway was too ill to attend in Stockholm",
+          "cardFront": "Ernest Hemingway",
+          "cardBack": "Nobel 1954 \u2014 USA"
+        },
+        {
+          "id": "albert-camus",
+          "prompt": "This French-Algerian writer and philosopher, best known for *The Stranger* and *The Plague*, won the Nobel Prize in Literature in 1957. Name this author.",
+          "answer": "Albert Camus",
+          "alternates": ["Camus"],
+          "explanation": "Nobel 1957; awarded 'for his important literary production, which with clear-sighted earnestness illuminates the problems of the human conscience'\nMajor works: *The Stranger* (*L'\u00c9tranger*, 1942), *The Plague* (*La Peste*, 1947), *The Myth of Sisyphus* (1942)\nCentral philosophy: absurdism \u2014 humans seek meaning in an indifferent universe; 'One must imagine Sisyphus happy'\nDied in a car crash in January 1960 at age 46 \u2014 an unused train ticket was found in his coat pocket\nHis intellectual rivalry with Sartre was one of postwar France's defining public debates\nIn *The Stranger*, Meursault shoots an Arab on a beach partly 'because of the sun' \u2014 one of literature's most analyzed motivations",
+          "cardFront": "Albert Camus",
+          "cardBack": "Nobel 1957 \u2014 France/Algeria"
+        },
+        {
+          "id": "samuel-beckett",
+          "prompt": "This Irish playwright and novelist, best known for *Waiting for Godot*, won the Nobel Prize in Literature in 1969. Name this author.",
+          "answer": "Samuel Beckett",
+          "alternates": ["Beckett"],
+          "explanation": "Nobel 1969; awarded 'for his writing, which \u2014 in new forms for the novel and drama \u2014 in the destitution of modern man acquires its elevation'\nMajor works: *Waiting for Godot* (1953), *Endgame* (1957), *Molloy* (1951), *Happy Days* (1961)\n*Waiting for Godot*: two tramps wait for a figure who never arrives \u2014 the defining play of Theater of the Absurd\nBeckett wrote primarily in French, then translated his own works into English \u2014 an unusual bilingual literary practice\nLived in Paris; worked for the French Resistance in WWII, earning the Croix de Guerre and Medal of the R\u00e9sistance\nDid not attend the Nobel ceremony; called the news 'a catastrophe' for the disruption to his private life",
+          "cardFront": "Samuel Beckett",
+          "cardBack": "Nobel 1969 \u2014 Ireland"
+        },
+        {
+          "id": "pablo-neruda",
+          "prompt": "This Chilean poet and diplomat, celebrated for his love sonnets and politically engaged verse, won the Nobel Prize in Literature in 1971. Name this author.",
+          "answer": "Pablo Neruda",
+          "alternates": ["Neruda", "Ricardo Reyes"],
+          "explanation": "Nobel 1971; real name Ricardo Eli\u00e9cer Neftal\u00ed Reyes Basoalto \u2014 adopted pseudonym 'Pablo Neruda' at age 16\nMajor works: *Veinte poemas de amor* (1924), *Canto General* (1950), *Odes to Common Things*\nChilean ambassador to France and senator; lifelong member of the Communist Party of Chile\nDied September 23, 1973 \u2014 just 12 days after the U.S.-backed Pinochet coup that killed his ally Salvador Allende\nOngoing investigations suggest he may have been murdered via lethal injection by the Pinochet regime\n*Il Postino* (1994 Italian film) fictionalized his friendship with a local postman on Capri",
+          "cardFront": "Pablo Neruda",
+          "cardBack": "Nobel 1971 \u2014 Chile"
+        },
+        {
+          "id": "gabriel-garcia-marquez",
+          "prompt": "This Colombian novelist, the defining voice of magical realism and author of *One Hundred Years of Solitude*, won the Nobel Prize in Literature in 1982. Name this author.",
+          "answer": "Gabriel Garc\u00eda M\u00e1rquez",
+          "alternates": ["Garc\u00eda M\u00e1rquez", "Garcia Marquez", "Gabriel Garcia Marquez", "Gabo"],
+          "explanation": "Nobel 1982; first Colombian Nobel laureate; awarded 'for his novels and short stories in which the fantastic and the realistic are combined'\nMajor works: *One Hundred Years of Solitude* (1967), *Love in the Time of Cholera* (1985), *The Autumn of the Patriarch* (1975)\nMagical realism: fantastical elements presented matter-of-factly within realistic narrative \u2014 his approach defined the style\nSold his car to feed his family while writing *One Hundred Years of Solitude*; publisher advance paid off the debt\nClose friend of Fidel Castro; also friends with Bill Clinton, who visited him in Colombia\nNobel lecture 'The Solitude of Latin America' \u2014 a political speech about violence and isolation in the region",
+          "cardFront": "Gabriel Garc\u00eda M\u00e1rquez",
+          "cardBack": "Nobel 1982 \u2014 Colombia"
+        },
+        {
+          "id": "toni-morrison",
+          "prompt": "This American novelist, the first African American woman to win the Nobel Prize in Literature, received it in 1993. Her works include *Beloved* and *Song of Solomon*. Name this author.",
+          "answer": "Toni Morrison",
+          "alternates": ["Morrison", "Chloe Wofford"],
+          "explanation": "Nobel 1993; first African American woman to win; awarded 'for novels characterized by visionary force and poetic import'\nMajor works: *Beloved* (1987), *Song of Solomon* (1977), *The Bluest Eye* (1970), *Sula* (1973)\nWorked as a senior editor at Random House before her fiction career; championed Black authors including Angela Davis and Gayl Jones\nHer Nobel lecture on language's power and responsibility is considered one of the finest acceptance speeches ever delivered\nPresidential Medal of Freedom recipient (2012) \u2014 Obama called her 'one of the best writers in the world'\nBorn Chloe Ardelia Woffard in Lorain, Ohio; 'Toni' was a college nickname from her baptismal name Anthony",
+          "cardFront": "Toni Morrison",
+          "cardBack": "Nobel 1993 \u2014 USA"
+        },
+        {
+          "id": "harold-pinter",
+          "prompt": "This British playwright, known for menacing pauses and power dynamics in plays like *The Birthday Party* and *The Caretaker*, won the Nobel Prize in Literature in 2005. Name this author.",
+          "answer": "Harold Pinter",
+          "alternates": ["Pinter"],
+          "explanation": "Nobel 2005; awarded for plays that 'uncover the precipice under everyday prattle and force entry into oppression's closed rooms'\n'Pinteresque' \u2014 describing dialogue with ominous pauses, non-sequiturs, and implied menace \u2014 entered the English language\nMajor works: *The Birthday Party* (1957), *The Caretaker* (1960), *The Homecoming* (1964), *Betrayal* (1978)\nHis Nobel lecture 'Art, Truth & Politics' was a passionate indictment of U.S. and British foreign policy in Iraq\nAlso an award-winning screenwriter: *The French Lieutenant's Woman*, *The Go-Between*, *The Servant*\nThe concept of 'comedy of menace' \u2014 comedy through threat, silence, and power struggles \u2014 was born with his early plays",
+          "cardFront": "Harold Pinter",
+          "cardBack": "Nobel 2005 \u2014 UK"
+        },
+        {
+          "id": "doris-lessing",
+          "prompt": "This British-Zimbabwean novelist, whose *The Golden Notebook* is a landmark of feminist fiction, won the Nobel Prize in Literature in 2007 at age 87, making her the oldest laureate at the time. Name this author.",
+          "answer": "Doris Lessing",
+          "alternates": ["Lessing"],
+          "explanation": "Nobel 2007; oldest person (87) to receive the Nobel Prize in Literature\n*The Golden Notebook* (1962): five notebooks used to explore a woman's fragmented identity \u2014 a landmark of feminist fiction\nGrew up in Southern Rhodesia (now Zimbabwe) \u2014 her early novels are rooted in Africa's racial politics\nFilmed on her doorstep receiving the Nobel announcement; her matter-of-fact reaction ('Oh Christ... I couldn't care less') became famous\nAlso wrote the *Canopus in Argos* science fiction series\nExpelled from both Southern Rhodesia and South Africa for opposing apartheid; spent most of her adult life in London",
+          "cardFront": "Doris Lessing",
+          "cardBack": "Nobel 2007 \u2014 UK"
+        },
+        {
+          "id": "bob-dylan",
+          "prompt": "This American singer-songwriter, whose lyrics are celebrated as poetry, controversially won the Nobel Prize in Literature in 2016. Name this artist.",
+          "answer": "Bob Dylan",
+          "alternates": ["Dylan", "Robert Zimmerman", "Robert Allen Zimmerman"],
+          "explanation": "Nobel 2016; first musician to win the Nobel Prize in Literature; awarded 'for having created new poetic expressions within the great American song tradition'\nMost controversial Nobel choice in the prize's history \u2014 many critics argued music lyrics are not 'literature'\nDid not acknowledge the award for weeks; delivered his Nobel lecture months later, largely discussing *Moby-Dick*\nBorn Robert Allen Zimmerman in 1941 in Duluth, Minnesota; took his name from the poet Dylan Thomas\nMajor works: 'Blowin' in the Wind' (1963), *Highway 61 Revisited* (1965), *Blood on the Tracks* (1975), *Rough and Rowdy Ways* (2020)\nAlso an Academy Award winner for 'Things Have Changed' (2001) and Presidential Medal of Freedom recipient (2012)",
+          "cardFront": "Bob Dylan",
+          "cardBack": "Nobel 2016 \u2014 USA"
+        },
+        {
+          "id": "kazuo-ishiguro",
+          "prompt": "This British-Japanese novelist, best known for *The Remains of the Day* and *Never Let Me Go*, won the Nobel Prize in Literature in 2017. Name this author.",
+          "answer": "Kazuo Ishiguro",
+          "alternates": ["Ishiguro"],
+          "explanation": "Nobel 2017; awarded 'for novels of great emotional force that have uncovered the abyss beneath our illusory sense of connection with the world'\nMajor works: *The Remains of the Day* (1989, Booker Prize), *Never Let Me Go* (2005), *Klara and the Sun* (2021)\nBorn in Nagasaki, Japan in 1954; moved to England at age 5 \u2014 his fiction explores memory, duty, and self-deception\n*The Remains of the Day*: a repressed English butler recounts a life of misplaced loyalty and missed love\nAdapted in multiple films; Anthony Hopkins and Emma Thompson starred in the 1993 film of *The Remains of the Day*\nKnighted in 2018, a year after the Nobel",
+          "cardFront": "Kazuo Ishiguro",
+          "cardBack": "Nobel 2017 \u2014 UK/Japan"
+        },
+        {
+          "id": "olga-tokarczuk",
+          "prompt": "This Polish novelist, best known for *Flights* and *The Books of Jacob*, won the Nobel Prize in Literature for 2018 (announced 2019). Name this author.",
+          "answer": "Olga Tokarczuk",
+          "alternates": ["Tokarczuk"],
+          "explanation": "Nobel 2018 (announced October 2019 \u2014 delayed one year due to a Swedish Academy scandal)\nAwarded 'for a narrative imagination that represents the crossing of boundaries as a form of life'\nMajor works: *Flights* (*Bieguni*, 2007; International Booker Prize 2018), *The Books of Jacob* (2014, Polish Nike Award)\nAlso wrote *Drive Your Plow over the Bones of the Dead* (2009), adapted into the film *Spoor* (2017, Silver Bear at Berlin)\nFirst Polish woman to win the Nobel Prize in Literature\nVocal critic of Polish right-wing nationalism and government; named a goodwill ambassador by the city of Wroc\u0142aw",
+          "cardFront": "Olga Tokarczuk",
+          "cardBack": "Nobel 2018 \u2014 Poland"
+        },
+        {
+          "id": "jon-fosse",
+          "prompt": "This Norwegian playwright and novelist, whose sprawling *Septology* heptology is regarded as a major contemporary work, won the Nobel Prize in Literature in 2023. Name this author.",
+          "answer": "Jon Fosse",
+          "alternates": ["Fosse"],
+          "explanation": "Nobel 2023; awarded 'for his innovative plays and prose which give voice to the unsayable'\nOne of the most performed contemporary playwrights in Europe \u2014 over 1,000 productions worldwide of his plays\nMajor works: *Septology* (7-volume novel series, 2019\u20132021), plays including *Someone Is Going to Come*, *I Am the Wind*, and *A Summer's Day*\nWrites in Nynorsk \u2014 a minority written form of Norwegian \u2014 making his work a statement of linguistic and cultural identity\nHis prose style: long, rhythmic, minimally punctuated sentences; strongly influenced by Samuel Beckett\nConverted to Catholicism in 2012; spiritual and mystical concerns infuse his late work",
+          "cardFront": "Jon Fosse",
+          "cardBack": "Nobel 2023 \u2014 Norway"
+        },
+        {
+          "id": "han-kang",
+          "prompt": "This South Korean novelist, best known for *The Vegetarian* and *Human Acts*, became the first South Korean to win the Nobel Prize in Literature in 2024. Name this author.",
+          "answer": "Han Kang",
+          "alternates": ["Kang"],
+          "explanation": "Nobel 2024; first South Korean writer and first Asian woman to win the Nobel Prize in Literature\nAwarded 'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life'\nMajor works: *The Vegetarian* (2007; International Booker Prize 2016), *Human Acts* (2014), *The White Book* (2016), *The Impossible Farewell* (2021)\n*The Vegetarian*: a woman's refusal to eat meat spirals into an exploration of bodily autonomy, family violence, and artistic obsession\n*Human Acts* depicts the 1980 Gwangju Uprising massacre in South Korea \u2014 unflinching in its documentation of state violence\nHer Nobel lecture focused on the relationship between literature, historical memory, and the act of mourning",
+          "cardFront": "Han Kang",
+          "cardBack": "Nobel 2024 \u2014 South Korea"
+        },
+        {
+          "id": "laszlo-krasznahorkai",
+          "prompt": "This Hungarian novelist, known for his apocalyptic prose and novels like *Satantango* and *The Melancholy of Resistance*, won the Nobel Prize in Literature in 2025. Name this author.",
+          "answer": "L\u00e1szl\u00f3 Krasznahorkai",
+          "alternates": ["Krasznahorkai", "Laszlo Krasznahorkai"],
+          "explanation": "Nobel 2025; second Hungarian Nobel in Literature after Imre Kert\u00e9sz (2002)\nAwarded 'for his compelling and visionary oeuvre that, in the midst of apocalyptic terror, reaffirms the power of art'\nMajor works: *Satantango* (1985), *The Melancholy of Resistance* (1989), *War and War* (1999), *Seiobo There Below* (2008)\nLong-term collaborator with Hungarian filmmaker B\u00e9la Tarr \u2014 *Satantango* was adapted into a monumental 7.5-hour film (1994)\nHis prose style: extremely long sentences (sometimes spanning entire chapters), circular structure, dark worldview\n*Seiobo There Below* won the Best Translated Book Award in 2013 \u2014 helped introduce him to English-language readers",
+          "cardFront": "L\u00e1szl\u00f3 Krasznahorkai",
+          "cardBack": "Nobel 2025 \u2014 Hungary"
+        }
+      ]
+    }
+  ]
+}

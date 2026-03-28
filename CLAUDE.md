@@ -184,16 +184,39 @@ git worktree remove ../fun-trivia-game-my-feature
 
 **Always deploy after merging a PR.** Don't wait to be asked.
 
+### Deploy Steps (follow this exact sequence)
+
 ```bash
-npm run test:all           # verify tests pass
-npm run deploy             # builds SPA + deploys worker
-node scripts/seed.mjs --remote  # if seed data changed
+# 1. Run tests
+npm run test:all
+
+# 2. If migrations were added, run them FIRST
+npx wrangler d1 execute trivia-trainer --remote --file=migrations/XXXX.sql
+
+# 3. CRITICAL: Clean old build artifacts before deploying
+#    Wrangler compares content hashes against its cache. Stale bundles in dist/
+#    cause "No updated asset files to upload" even when code has changed.
+rm -rf dist/assets
+
+# 4. Build and deploy
+npm run deploy             # runs: vite build && wrangler deploy
+
+# 5. If seed data changed
+node scripts/seed.mjs --remote
 ```
 
-If migrations were added, run them on remote BEFORE seeding:
+### Verifying Deploys (MANDATORY after every deploy)
+
 ```bash
-npx wrangler d1 execute trivia-trainer --remote --file=migrations/XXXX.sql
+# Check what bundle production is serving vs what was just built
+PROD=$(curl -s https://trivia.emilycogsdill.com/ | grep -o 'index-[^"]*\.js')
+LOCAL=$(grep -o 'index-[^"]*\.js' dist/index.html)
+echo "Production: $PROD"
+echo "Local:      $LOCAL"
+# These MUST match. If they don't, run: rm -rf dist/assets && npm run deploy
 ```
+
+For UI changes, also take a Playwright screenshot to visually confirm.
 
 ## Docs
 
