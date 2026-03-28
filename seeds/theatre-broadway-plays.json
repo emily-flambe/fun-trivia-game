@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "theatre/plays", "parentId": "theatre", "name": "Plays & Playwrights", "description": "Dramatic works and the writers who created them" }
+  ],
+  "exercises": [
+    {
+      "id": "theatre/plays/broadway-plays",
+      "nodeId": "theatre/plays",
+      "name": "Broadway Plays (Non-Musical)",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "death-of-a-salesman",
+          "prompt": "Which 1949 Arthur Miller play follows aging Brooklyn salesman Willy Loman as he unravels under the weight of failed ambitions for himself and his sons, Biff and Happy?",
+          "answer": "Death of a Salesman",
+          "alternates": ["The Death of a Salesman"],
+          "explanation": "Opened February 10, 1949 at the Morosco Theatre; written by Arthur Miller, directed by Elia Kazan\nWon the 1949 Pulitzer Prize for Drama, the Tony Award for Best Play, and the New York Drama Critics' Circle Award\nOriginal production ran 742 performances; Lee J. Cobb originated the role of Willy Loman\nWilly Loman is a traveling salesman whose delusions about success and the American Dream drive him to suicide\nMiller wrote the first act in a single day at a Connecticut cabin he had just built\nThe 1951 film starred Fredric March; later revivals starred Dustin Hoffman (1984) and Denzel Washington (2012)\nOften cited alongside *The Crucible* as Miller's greatest work; it remains one of the most-produced American plays worldwide",
+          "cardFront": "Arthur Miller, 1949 \u2014 Brooklyn salesman, failed American Dream",
+          "cardBack": "Death of a Salesman"
+        },
+        {
+          "id": "streetcar-named-desire",
+          "prompt": "Which 1947 Tennessee Williams play depicts a fading Southern belle who moves in with her sister Stella and brutish brother-in-law Stanley Kowalski in the French Quarter of New Orleans?",
+          "answer": "A Streetcar Named Desire",
+          "alternates": ["Streetcar Named Desire", "Streetcar"],
+          "explanation": "Opened December 3, 1947 at the Ethel Barrymore Theatre; directed by Elia Kazan\nWon the 1948 Pulitzer Prize for Drama; original run of 855 performances\nMarlon Brando starred as Stanley Kowalski at age 23, launching him to stardom; Jessica Tandy played Blanche DuBois and won the Tony for Best Actress\nThe 1951 film retained Brando, Kim Hunter, and Karl Malden but replaced Tandy with Vivien Leigh, who won the Oscar\nBlanche's line \"I have always depended on the kindness of strangers\" is one of the most quoted in American drama\nBrando's raw, animalistic performance as Stanley redefined stage acting and influenced Method acting's rise in Hollywood\nThe opening-night curtain call lasted 30 minutes; the audience sat in stunned silence before erupting",
+          "cardFront": "Tennessee Williams, 1947 \u2014 Blanche DuBois, New Orleans, Stanley Kowalski",
+          "cardBack": "A Streetcar Named Desire"
+        },
+        {
+          "id": "the-crucible",
+          "prompt": "Which 1953 Arthur Miller play dramatizes the 1692 Salem witch trials as an allegory for McCarthyism, centering on farmer John Proctor's refusal to make a false confession?",
+          "answer": "The Crucible",
+          "alternates": ["Crucible"],
+          "explanation": "Opened January 22, 1953 at the Martin Beck Theatre; directed by Jed Harris\nWon the 1953 Tony Award for Best Play despite mixed initial reviews\nMiller wrote it as a direct allegory for the anti-Communist hysteria of Senator Joseph McCarthy's congressional hearings\nMiller himself was called before the House Un-American Activities Committee in 1956 and refused to name names\nOriginal run was only 197 performances; the play gained stature over time and is now one of the most-performed American plays\nThe 1996 film starred Daniel Day-Lewis as Proctor and Winona Ryder as Abigail Williams, with a screenplay by Miller\nBased on actual court records from Salem, though Miller altered ages and combined characters for dramatic effect",
+          "cardFront": "Arthur Miller, 1953 \u2014 Salem witch trials, McCarthyism allegory",
+          "cardBack": "The Crucible"
+        },
+        {
+          "id": "waiting-for-godot",
+          "prompt": "Which absurdist tragicomedy by Samuel Beckett features two tramps, Vladimir and Estragon, who spend the entire play on a country road expecting someone who never arrives?",
+          "answer": "Waiting for Godot",
+          "alternates": ["En attendant Godot"],
+          "explanation": "World premiere January 5, 1953 at the Th\u00e9\u00e2tre de Babylone in Paris; Broadway premiere April 19, 1956 with Bert Lahr and E.G. Marshall\nOriginally written in French as *En attendant Godot* (1948\u20131949); Beckett translated it into English himself\nThe definitive work of the Theatre of the Absurd; nothing happens\u2014twice (one critic's famous summary of its two acts)\nBeckett won the 1969 Nobel Prize in Literature; he called his work a \"tragicomedy in two acts\"\nBeckett never confirmed who or what Godot represents; he reportedly said, \"If I knew, I would have said so in the play\"\nThe first American production (1956) starred Bert Lahr, best known as the Cowardly Lion in *The Wizard of Oz*\nSome audience members walked out at the Paris premiere; the play divided critics but became one of the most influential works of 20th-century theatre",
+          "cardFront": "Samuel Beckett, 1953 \u2014 Vladimir and Estragon, Theatre of the Absurd",
+          "cardBack": "Waiting for Godot"
+        },
+        {
+          "id": "long-days-journey",
+          "prompt": "Which autobiographical Eugene O'Neill play, set over a single day in a Connecticut summer home, follows the morphine-addicted mother and alcoholic father of the Tyrone family as they confront guilt, blame, and fog?",
+          "answer": "Long Day's Journey Into Night",
+          "alternates": ["Long Day's Journey into Night", "Long Days Journey Into Night", "Long Day's Journey"],
+          "explanation": "Written 1939\u20131941; premiered February 2, 1956 at the Royal Dramatic Theatre in Stockholm, then Broadway in November 1956\nAwarded the 1957 Pulitzer Prize for Drama posthumously\u2014O'Neill had died in 1953\nO'Neill forbade publication or production during his lifetime; his widow Carlotta overrode his wishes and gave it to Yale University Press in 1956\nOpenly autobiographical: the Tyrone family maps to O'Neill's own\u2014James Sr. (his actor father), Mary (morphine-addicted mother), Jamie and Edmund (his brother and himself)\nO'Neill dedicated the manuscript to Carlotta: \"with tears and blood... this play of old sorrow, written in tears and blood\"\nBroadway production starred Fredric March and Florence Eldridge; won the Tony Award for Best Play\nWidely considered O'Neill's masterpiece and one of the greatest American plays ever written",
+          "cardFront": "Eugene O'Neill, written 1941/premiered 1956 \u2014 autobiographical, Tyrone family",
+          "cardBack": "Long Day's Journey Into Night"
+        },
+        {
+          "id": "whos-afraid-of-virginia-woolf",
+          "prompt": "Which 1962 Edward Albee play unfolds over one alcohol-fueled night as a middle-aged history professor and his wife psychologically destroy a younger couple they have invited over after a faculty party?",
+          "answer": "Who's Afraid of Virginia Woolf?",
+          "alternates": ["Whos Afraid of Virginia Woolf", "Who's Afraid of Virginia Woolf"],
+          "explanation": "Opened October 13, 1962 at the Billy Rose Theatre; original cast led by Uta Hagen (Martha) and Arthur Hill (George)\nWon the 1963 Tony Award for Best Play and the New York Drama Critics' Circle Award\nThe Pulitzer Prize drama jury selected it for the 1963 prize, but Columbia University trustees vetoed the choice due to profanity and sexual content\u2014no Pulitzer for Drama was awarded that year\nThe 1966 film starred Elizabeth Taylor and Richard Burton; Taylor won the Oscar for Best Actress\nAlbee's title is a pun on \"Who's Afraid of the Big Bad Wolf?\"\u2014it was scrawled on a bar's mirror, which inspired him\nThe play's structure follows three \"games\" the couple plays: \"Humiliate the Host,\" \"Get the Guests,\" and \"Bringing Up Baby\"\nAlbee went on to win Pulitzer Prizes for *A Delicate Balance* (1967), *Seascape* (1975), and *Three Tall Women* (1994)",
+          "cardFront": "Edward Albee, 1962 \u2014 George and Martha, faculty party, psychological warfare",
+          "cardBack": "Who's Afraid of Virginia Woolf?"
+        },
+        {
+          "id": "angels-in-america",
+          "prompt": "Which two-part Tony Kushner epic, subtitled 'A Gay Fantasia on National Themes,' interweaves the AIDS crisis, Mormonism, McCarthyism, and Roy Cohn's closeted life in 1980s New York?",
+          "answer": "Angels in America",
+          "alternates": ["Angels in America: Millennium Approaches", "Millennium Approaches"],
+          "explanation": "Part One (*Millennium Approaches*) premiered on Broadway May 4, 1993; Part Two (*Perestroika*) followed November 23, 1993\nWorld premiere of Part One: Eureka Theatre Company, San Francisco, May 1991\nBoth parts won the Tony Award for Best Play (1993 and 1994)\u2014the only work to win the award twice\n*Millennium Approaches* won the 1993 Pulitzer Prize for Drama\nSubtitled \"A Gay Fantasia on National Themes\"; combines realism, fantasy, and political satire across seven hours of theatre\nHBO adapted both parts as a 2003 miniseries starring Al Pacino as Roy Cohn and Meryl Streep in multiple roles; it won 11 Emmy Awards\nRoy Cohn, the real-life McCarthy-era lawyer who died of AIDS in 1986 while denying his homosexuality, is the play's central antagonist",
+          "cardFront": "Tony Kushner, 1991/1993 \u2014 AIDS crisis, Roy Cohn, two-part epic",
+          "cardBack": "Angels in America"
+        },
+        {
+          "id": "fences",
+          "prompt": "Which 1987 August Wilson play, set in 1950s Pittsburgh, follows a former Negro Leagues baseball player now working as a garbage collector who builds barriers\u2014literal and figurative\u2014around his family?",
+          "answer": "Fences",
+          "alternates": [],
+          "explanation": "Opened March 26, 1987 at the 46th Street Theatre; directed by Lloyd Richards, starring James Earl Jones as Troy Maxson\nWon the 1987 Pulitzer Prize for Drama and the Tony Award for Best Play; Jones won Best Actor, Mary Alice won Best Featured Actress\nSixth play in Wilson's ten-play Pittsburgh Cycle, which chronicles the African-American experience in each decade of the 20th century\nTroy Maxson was too old for Major League Baseball when it integrated in 1947; his bitterness poisons his relationship with son Cory\nDenzel Washington directed and starred in the 2016 film adaptation; Viola Davis won the Oscar for Best Supporting Actress, reprising her Tony-winning role as Rose\nWilson wrote all ten Pittsburgh Cycle plays before his death from liver cancer in 2005 at age 60\nThe title refers both to the fence Troy builds in his backyard and the metaphorical barriers of race, family, and ambition",
+          "cardFront": "August Wilson, 1987 \u2014 Pittsburgh Cycle, former Negro Leagues player",
+          "cardBack": "Fences"
+        },
+        {
+          "id": "raisin-in-the-sun",
+          "prompt": "Which 1959 play by Lorraine Hansberry follows the Younger family on Chicago's South Side as they debate how to spend a $10,000 life-insurance check, with its title drawn from a Langston Hughes poem?",
+          "answer": "A Raisin in the Sun",
+          "alternates": ["Raisin in the Sun"],
+          "explanation": "Opened March 11, 1959 at the Ethel Barrymore Theatre; directed by Lloyd Richards, starring Sidney Poitier as Walter Lee Younger\nFirst play by a Black woman produced on Broadway; Hansberry was 29 years old at the premiere\nLloyd Richards was also the first Black director of a Broadway play\nTitle comes from Langston Hughes's poem \"Harlem\" (1951): \"What happens to a dream deferred? / Does it dry up / like a raisin in the sun?\"\nWon the New York Drama Critics' Circle Award for Best Play, beating out works by Tennessee Williams and Eugene O'Neill\nOriginal run of 530 performances; the cast included Ruby Dee, Claudia McNeil, and a young Louis Gossett Jr.\nHansberry died of pancreatic cancer in 1965 at age 34; her ex-husband Robert Nemiroff managed her literary estate and adapted her writings into the musical *Raisin* (1973)",
+          "cardFront": "Lorraine Hansberry, 1959 \u2014 Younger family, Chicago South Side, Langston Hughes poem",
+          "cardBack": "A Raisin in the Sun"
+        },
+        {
+          "id": "our-town",
+          "prompt": "Which 1938 Thornton Wilder play, performed with almost no scenery or props, uses a Stage Manager narrator to guide the audience through daily life, love, and death in the fictional New Hampshire village of Grover's Corners?",
+          "answer": "Our Town",
+          "alternates": [],
+          "explanation": "Opened February 4, 1938 at Henry Miller's Theatre in New York; directed and produced by Jed Harris\nWon the 1938 Pulitzer Prize for Drama; ran over 300 performances at the Morosco Theatre\nRevolutionized American theatre with its bare-stage approach: no scenery, minimal props, actors mime daily activities\nThe Stage Manager breaks the fourth wall, narrating directly to the audience and even playing minor roles\nAct III depicts Emily Webb returning from the dead to relive her 12th birthday\u2014one of the most emotionally devastating scenes in American drama\nWilder himself played the Stage Manager for two weeks during the original Broadway run\nSecond of Wilder's three Pulitzer Prizes (the others: the novel *The Bridge of San Luis Rey* in 1928, and the play *The Skin of Our Teeth* in 1943)",
+          "cardFront": "Thornton Wilder, 1938 \u2014 Grover's Corners, bare stage, Stage Manager narrator",
+          "cardBack": "Our Town"
+        },
+        {
+          "id": "glass-menagerie",
+          "prompt": "Which Tennessee Williams 'memory play,' set in a cramped St. Louis apartment, follows a domineering mother's faded Southern hopes, her painfully shy daughter's collection of tiny animal figurines, and a son who longs to escape?",
+          "answer": "The Glass Menagerie",
+          "alternates": ["Glass Menagerie"],
+          "explanation": "Premiered in Chicago December 26, 1944; opened on Broadway March 31, 1945 at the Playhouse Theatre\nWilliams's first major success; won the New York Drama Critics' Circle Award for Best American Play\nLaurette Taylor's performance as Amanda Wingfield is considered one of the greatest in Broadway history; she died the following year\nWilliams called it a \"memory play\"\u2014the narrator Tom recounts events from his past, and the staging is deliberately non-realistic\nOpenly autobiographical: Tom is Williams himself, Laura is modeled on his sister Rose (who was lobotomized in 1943), and Amanda on their mother\nThe play nearly closed in Chicago after poor ticket sales; critics Claudia Cassidy and Ashton Stevens championed it and saved the run\nThe fragile glass unicorn that Laura treasures is the play's central symbol\u2014when the Gentleman Caller accidentally breaks its horn, it becomes \"just like all the other horses\"",
+          "cardFront": "Tennessee Williams, 1944 \u2014 memory play, St. Louis, glass figurines",
+          "cardBack": "The Glass Menagerie"
+        },
+        {
+          "id": "glengarry-glen-ross",
+          "prompt": "Which 1984 David Mamet play depicts a group of desperate Chicago real-estate salesmen resorting to manipulation, bribery, and theft to avoid being fired in a ruthless sales competition?",
+          "answer": "Glengarry Glen Ross",
+          "alternates": [],
+          "explanation": "World premiere September 21, 1983 at the National Theatre in London; Broadway premiere March 25, 1984 at the John Golden Theatre\nWon the 1984 Pulitzer Prize for Drama; Joe Mantegna won the Tony for Best Featured Actor\nThe title combines the names of fictional real-estate developments the salesmen are hawking\nThe 1992 film added Alec Baldwin's character Blake and his iconic \"Always Be Closing\" speech\u2014which is not in the original play\nFilm cast included Al Pacino, Jack Lemmon, Ed Harris, Alan Arkin, and Kevin Spacey; the cast jokingly nicknamed it \"Death of a F***in' Salesman\"\nMamet based the play on his own experience working briefly at a Chicago real-estate office\nThe play's staccato, profanity-laden dialogue became Mamet's signature style, often called \"Mamet-speak\"",
+          "cardFront": "David Mamet, 1984 \u2014 desperate real-estate salesmen, Chicago",
+          "cardBack": "Glengarry Glen Ross"
+        },
+        {
+          "id": "cat-on-a-hot-tin-roof",
+          "prompt": "Which 1955 Tennessee Williams play, set on a Mississippi Delta plantation during a birthday celebration, explores a former football hero's alcoholism, his wife Maggie's frustrated desires, and a dying patriarch called Big Daddy?",
+          "answer": "Cat on a Hot Tin Roof",
+          "alternates": [],
+          "explanation": "Opened March 24, 1955 at the Morosco Theatre; directed by Elia Kazan, starring Ben Gazzara (Brick), Barbara Bel Geddes (Maggie), and Burl Ives (Big Daddy)\nWon the 1955 Pulitzer Prize for Drama\u2014Williams's second Pulitzer, after *A Streetcar Named Desire*\nOriginal run of 694 performances; lost the Tony for Best Play to *The Diary of Anne Frank*\nKazan persuaded Williams to revise the third act to make Big Daddy return; Williams published both versions, disagreeing with the change\nThe 1958 film starred Elizabeth Taylor and Paul Newman; the Production Code forced removal of the play's homosexual subtext\nBrick's drinking and refusal to sleep with Maggie stem from guilt over the death of his friend Skipper\u2014the nature of their relationship is the play's central ambiguity\nThe title metaphor (Maggie compares herself to a cat on a hot tin roof) captures her desperate, clinging determination to hold on",
+          "cardFront": "Tennessee Williams, 1955 \u2014 Maggie, Brick, Big Daddy, Mississippi plantation",
+          "cardBack": "Cat on a Hot Tin Roof"
+        },
+        {
+          "id": "importance-of-being-earnest",
+          "prompt": "Which 1895 Oscar Wilde comedy of manners follows two Victorian gentlemen who each invent fictional alter egos to escape social obligations, only to discover that being christened with a particular name is essential for marriage?",
+          "answer": "The Importance of Being Earnest",
+          "alternates": ["Importance of Being Earnest"],
+          "explanation": "Premiered February 14, 1895 at the St James's Theatre in London; produced by actor-manager George Alexander\nSubtitled \"A Trivial Comedy for Serious People\"\u2014the inversion is deliberate, as it satirizes every Victorian value it touches\nOriginally written in four acts; cut to three at the theatre's request\nRan only 86 performances; Wilde's arrest for \"gross indecency\" (homosexuality) in April 1895 forced its closure\nThe pun in the title\u2014\"earnest\" meaning both the name Ernest and the quality of sincerity\u2014drives the entire plot\nWilde's last play; he was sentenced to two years' hard labor and never wrote for the stage again\nWidely regarded as the greatest comedy of manners in the English language; its wit has kept it in near-continuous production for over 130 years",
+          "cardFront": "Oscar Wilde, 1895 \u2014 Victorian comedy, fictional alter egos, name pun",
+          "cardBack": "The Importance of Being Earnest"
+        },
+        {
+          "id": "hamlet",
+          "prompt": "Which Shakespeare tragedy, written circa 1600, follows a Danish prince feigning madness to avenge his father's murder by his uncle, and includes the soliloquy 'To be, or not to be'?",
+          "answer": "Hamlet",
+          "alternates": ["The Tragedy of Hamlet, Prince of Denmark", "The Tragedy of Hamlet"],
+          "explanation": "Written c. 1599\u20131601; first performed by the Lord Chamberlain's Men at the Globe Theatre, with Richard Burbage as the Prince\nAt 4,042 lines, it is Shakespeare's longest play; an uncut performance runs over four hours\n\"To be, or not to be\" is the most famous soliloquy in English literature; \"the play's the thing\" and \"brevity is the soul of wit\" also originate here\nThe play-within-a-play (\"The Mousetrap\") that Hamlet stages to catch King Claudius is one of theatre's earliest examples of metadrama\nBased on a Scandinavian legend recorded by Saxo Grammaticus in the 12th century; an earlier version (the \"Ur-Hamlet,\" possibly by Thomas Kyd) is now lost\nIt is the most-produced Shakespeare play and one of the most-performed works in world theatre; nearly every generation's leading actors take on the role\nThe phrase \"shuffle off this mortal coil,\" \"method in the madness,\" and \"to thine own self be true\" all come from this play",
+          "cardFront": "Shakespeare, c. 1600 \u2014 Danish prince, revenge, 'To be, or not to be'",
+          "cardBack": "Hamlet"
+        }
+      ]
+    }
+  ]
+}

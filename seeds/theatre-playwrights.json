@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "theatre/plays", "parentId": "theatre", "name": "Plays & Playwrights", "description": "Dramatic works and the writers who created them" }
+  ],
+  "exercises": [
+    {
+      "id": "theatre/plays/famous-playwrights",
+      "nodeId": "theatre/plays",
+      "name": "Famous Playwrights",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "sophocles",
+          "prompt": "Which ancient Greek tragedian wrote over 120 plays, won 24 of 30 competitions at the Dionysia, and created *Oedipus Rex* and *Antigone*?",
+          "answer": "Sophocles",
+          "alternates": [],
+          "explanation": "Ancient Greek tragedian (c. 496\u2013406 BC), born at Colonus near Athens\nWrote over 120 plays; only 7 survive complete: *Ajax*, *Antigone*, *Women of Trachis*, *Oedipus Rex*, *Electra*, *Philoctetes*, *Oedipus at Colonus*\nCompeted in 30 dramatic competitions, won 24, never placed lower than second\nAristotle used *Oedipus Rex* in his *Poetics* as the model of perfect tragedy\nIntroduced the third speaking actor to Greek drama, expanding dialogue beyond two performers\nServed as a state treasurer (hellenotamias) and as a general alongside Pericles in the campaign against Samos (c. 441 BC)\nDied in 406 BC at roughly age 90; Euripides died the same year",
+          "cardFront": "Ancient Greek \u2014 *Oedipus Rex*, *Antigone*",
+          "cardBack": "Sophocles"
+        },
+        {
+          "id": "euripides",
+          "prompt": "Which ancient Greek tragedian, the last of Athens's three great tragic dramatists, wrote *Medea* and *The Bacchae*, and had 18 surviving plays \u2014 more than any other Greek tragedian?",
+          "answer": "Euripides",
+          "alternates": [],
+          "explanation": "Ancient Greek tragedian (c. 484\u2013406 BC), the youngest of the three great Athenian tragedians after Aeschylus and Sophocles\nWrote roughly 90 plays; 18 survive complete \u2014 more than any other Greek tragedian\n*Medea* (431 BC) depicts a wife's revenge after being abandoned by Jason of Argonauts fame\n*The Bacchae* was produced posthumously; his son staged it after his death in Macedonia\n*Hippolytus* (428 BC) won first prize at the City Dionysia \u2014 one of only four or five first-prize victories in his career\nKnown for psychologically complex characters, especially women, and for questioning traditional mythology and religion\nDied in Macedonia at the court of King Archelaus in 406 BC, the same year Sophocles died in Athens",
+          "cardFront": "Ancient Greek \u2014 *Medea*, *The Bacchae*",
+          "cardBack": "Euripides"
+        },
+        {
+          "id": "ibsen",
+          "prompt": "Which Norwegian playwright, called the 'father of modern drama,' wrote *A Doll's House* and *Hedda Gabler* and was the most performed dramatist in the world after Shakespeare as of 2014?",
+          "answer": "Henrik Ibsen",
+          "alternates": ["Ibsen"],
+          "explanation": "Norwegian playwright and theatre director (1828\u20131906)\nOften called the 'father of modern drama' or 'father of realism' for pioneering realistic prose drama on social themes\n*A Doll's House* (1879) shocked audiences with Nora's decision to leave her husband and children, sparking debate across Europe\n*Hedda Gabler* (1891) features one of theatre's most complex female protagonists\nOther major plays include *Peer Gynt* (1867), *An Enemy of the People* (1882), *The Wild Duck* (1884), and *Ghosts* (1881)\nAs of 2014, the most frequently performed dramatist in the world after Shakespeare\nLived in self-imposed exile from Norway for 27 years (1864\u20131891), writing most of his major works in Italy and Germany",
+          "cardFront": "Norwegian, 19th c. \u2014 *A Doll's House*, *Hedda Gabler*",
+          "cardBack": "Henrik Ibsen"
+        },
+        {
+          "id": "chekhov",
+          "prompt": "Which Russian playwright and short-story master wrote *The Cherry Orchard*, *Three Sisters*, and *Uncle Vanya*, all premiered by the Moscow Art Theatre?",
+          "answer": "Anton Chekhov",
+          "alternates": ["Chekhov"],
+          "explanation": "Russian playwright and short-story writer (1860\u20131904)\nFour major plays \u2014 *The Seagull* (1896), *Uncle Vanya* (1899), *Three Sisters* (1901), *The Cherry Orchard* (1904) \u2014 all staged by Konstantin Stanislavski's Moscow Art Theatre\n*The Seagull* flopped at its 1896 premiere but was revived to acclaim by the Moscow Art Theatre in 1898, saving both the play and the theatre\nAlso a physician; famously said 'Medicine is my lawful wife and literature is my mistress'\nMarried actress Olga Knipper in 1901; they lived mostly apart \u2014 he in Yalta for his health, she in Moscow for her career\nDied of tuberculosis at age 44 in the German spa town of Badenweiler; his last words reportedly were 'I haven't had champagne for a long time'\nPioneered a style of drama where mood, subtext, and inaction replaced traditional plot-driven structure",
+          "cardFront": "Russian, early 1900s \u2014 *The Cherry Orchard*, *Three Sisters*, *Uncle Vanya*",
+          "cardBack": "Anton Chekhov"
+        },
+        {
+          "id": "wilde",
+          "prompt": "Which Irish wit and aesthete wrote the comedies *The Importance of Being Earnest* and *An Ideal Husband*, both premiering in London in 1895 before his imprisonment?",
+          "answer": "Oscar Wilde",
+          "alternates": ["Wilde"],
+          "explanation": "Irish playwright, poet, and author (1854\u20131900)\nFull name: Oscar Fingal O'Fflahertie Wills Wilde\n*The Importance of Being Earnest* (premiered February 14, 1895) is widely considered the greatest comedy of manners in English\n*An Ideal Husband* opened January 3, 1895, at the Haymarket Theatre; the Prince of Wales attended opening night\nAt the peak of his fame in 1895, convicted of 'gross indecency' for homosexual acts and sentenced to two years' hard labor at Reading Gaol\nAlso wrote the novel *The Picture of Dorian Gray* (1890) and the play *Lady Windermere's Fan* (1892)\nDied penniless in Paris at age 46; reportedly said on his deathbed, 'This wallpaper and I are fighting a duel to the death. One of us has got to go'",
+          "cardFront": "Irish, 1890s \u2014 *The Importance of Being Earnest*, *An Ideal Husband*",
+          "cardBack": "Oscar Wilde"
+        },
+        {
+          "id": "shaw",
+          "prompt": "Which Irish playwright wrote over 60 plays including *Pygmalion* and *Saint Joan*, won the 1925 Nobel Prize in Literature, and was the first person to win both a Nobel and an Oscar?",
+          "answer": "George Bernard Shaw",
+          "alternates": ["Shaw", "Bernard Shaw", "G.B. Shaw", "GBS"],
+          "explanation": "Irish playwright, critic, and political activist (1856\u20131950)\nWrote over 60 plays including *Pygmalion* (1913), *Saint Joan* (1923), *Man and Superman* (1902), and *Major Barbara* (1905)\nAwarded the 1925 Nobel Prize in Literature for works 'marked by both idealism and humanity'\nFirst person to win both a Nobel Prize and an Academy Award \u2014 the Oscar was for the 1938 film adaptation of *Pygmalion*\n*Pygmalion* inspired the musical *My Fair Lady* (1956); Shaw had refused musical adaptations during his lifetime\nA committed socialist and prominent member of the Fabian Society, writing many of its pamphlets\nLived to 94; died from complications after falling while pruning a tree in his garden",
+          "cardFront": "Irish \u2014 *Pygmalion*, *Saint Joan*, Nobel 1925",
+          "cardBack": "George Bernard Shaw"
+        },
+        {
+          "id": "arthur-miller",
+          "prompt": "Which American playwright wrote *Death of a Salesman* and *The Crucible*, won a Pulitzer Prize in 1949, and was called before the House Un-American Activities Committee?",
+          "answer": "Arthur Miller",
+          "alternates": ["Miller"],
+          "explanation": "American playwright (1915\u20132005)\n*Death of a Salesman* opened on Broadway February 10, 1949, directed by Elia Kazan; won the Pulitzer Prize for Drama and the Tony Award for Best Play\n*The Crucible* (1953) used the Salem witch trials as an allegory for McCarthyism and the Red Scare\nSubpoenaed by the House Un-American Activities Committee in 1956; refused to name names and was convicted of contempt of Congress (later overturned)\nMarried Marilyn Monroe in 1956; they divorced in 1961\nOther major works include *All My Sons* (1947), *A View from the Bridge* (1955), and *After the Fall* (1964)\nConsidered one of the three foremost American dramatists of the 20th century, alongside Eugene O'Neill and Tennessee Williams",
+          "cardFront": "American, mid-20th c. \u2014 *Death of a Salesman*, *The Crucible*",
+          "cardBack": "Arthur Miller"
+        },
+        {
+          "id": "tennessee-williams",
+          "prompt": "Which American playwright, born Thomas Lanier III in Mississippi, wrote *A Streetcar Named Desire* and *Cat on a Hot Tin Roof*, winning two Pulitzer Prizes for Drama?",
+          "answer": "Tennessee Williams",
+          "alternates": ["Williams"],
+          "explanation": "American playwright (1911\u20131983), born Thomas Lanier Williams III\nWon two Pulitzer Prizes for Drama: *A Streetcar Named Desire* (1948) and *Cat on a Hot Tin Roof* (1955)\n*The Glass Menagerie* (1944) was his breakthrough; it opened in Chicago in December 1944 and transferred to Broadway in March 1945\n*A Streetcar Named Desire* created the iconic role of Stanley Kowalski, which made Marlon Brando a star on stage and screen\nSet most of his plays in the American South, exploring themes of desire, loneliness, and decay\nStruggled with depression, alcohol, and drug dependence for much of his life\nDied in 1983 in a New York hotel room at age 71; reportedly choked on a bottle cap",
+          "cardFront": "American, mid-20th c. \u2014 *A Streetcar Named Desire*, *Cat on a Hot Tin Roof*",
+          "cardBack": "Tennessee Williams"
+        },
+        {
+          "id": "beckett",
+          "prompt": "Which Irish expatriate, living in Paris, wrote *Waiting for Godot* and *Endgame*, won the 1969 Nobel Prize in Literature, and originally composed many of his works in French?",
+          "answer": "Samuel Beckett",
+          "alternates": ["Beckett"],
+          "explanation": "Irish playwright, novelist, and poet (1906\u20131989), based in Paris from the 1930s onward\n*Waiting for Godot* (premiered January 5, 1953, Th\u00e9\u00e2tre de Babylone, Paris) \u2014 originally written in French as *En attendant Godot*; considered the most significant play of the 20th century\nKey figure in the Theatre of the Absurd alongside Eug\u00e8ne Ionesco and Jean Genet\nAwarded the 1969 Nobel Prize in Literature 'for his writing, which\u2014in new forms for the novel and drama\u2014in the destitution of modern man acquires its elevation'\nJoined the French Resistance during World War II; his cell was infiltrated and he fled to Roussillon for the war's duration\nWrote many works first in French, then translated them into English himself\nOther major plays include *Endgame* (1957), *Krapp's Last Tape* (1958), and *Happy Days* (1961)",
+          "cardFront": "Irish/Paris \u2014 *Waiting for Godot*, *Endgame*, Nobel 1969",
+          "cardBack": "Samuel Beckett"
+        },
+        {
+          "id": "albee",
+          "prompt": "Which American playwright wrote *Who's Afraid of Virginia Woolf?* and won three Pulitzer Prizes for Drama \u2014 for *A Delicate Balance*, *Seascape*, and *Three Tall Women*?",
+          "answer": "Edward Albee",
+          "alternates": ["Albee"],
+          "explanation": "American playwright (1928\u20132016)\n*Who's Afraid of Virginia Woolf?* (1962) \u2014 a searing portrait of a bitter academic marriage \u2014 was selected for the 1963 Pulitzer but overruled by the advisory board, which gave no drama prize that year\nWon three Pulitzer Prizes for Drama: *A Delicate Balance* (1967), *Seascape* (1975), and *Three Tall Women* (1994)\n*The Zoo Story* (1958) was his first play, a one-act that premiered in Berlin before New York\nAdopted at two weeks old by Reed and Frances Albee; his adoptive grandfather was vaudeville magnate Edward Franklin Albee II\nKnown for stripping away social pretense to expose raw emotion and marital dysfunction\nThe 1966 film of *Who's Afraid of Virginia Woolf?* starred Elizabeth Taylor and Richard Burton, earning five Academy Awards",
+          "cardFront": "American \u2014 *Who's Afraid of Virginia Woolf?*, three Pulitzers",
+          "cardBack": "Edward Albee"
+        },
+        {
+          "id": "stoppard",
+          "prompt": "Which Czech-born British playwright wrote *Rosencrantz and Guildenstern Are Dead*, won an Oscar for co-writing *Shakespeare in Love*, and was knighted in 1997?",
+          "answer": "Tom Stoppard",
+          "alternates": ["Stoppard"],
+          "explanation": "Czech-born British playwright and screenwriter (1937\u20132025), born Tom\u00e1\u0161 Straussler in Zl\u00edn, Czechoslovakia\n*Rosencrantz and Guildenstern Are Dead* (1966) retells *Hamlet* from the perspective of two minor characters; won the Tony Award for Best Play\n*Arcadia* (1993) interweaves 19th-century and modern timelines in an English country house, exploring chaos theory and Romanticism\nCo-wrote the screenplay for *Shakespeare in Love* (1998) with Marc Norman; won the Academy Award for Best Original Screenplay\n*The Coast of Utopia* trilogy (2002) about 19th-century Russian intellectuals won the Tony for Best Play\nKnighted by Queen Elizabeth II in 1997 for services to literature\nDied November 29, 2025, in Dorset, England, at age 88",
+          "cardFront": "British-Czech \u2014 *Rosencrantz and Guildenstern Are Dead*, *Shakespeare in Love*",
+          "cardBack": "Tom Stoppard"
+        },
+        {
+          "id": "august-wilson",
+          "prompt": "Which American playwright created the Pittsburgh Cycle \u2014 ten plays chronicling the African-American experience across each decade of the 20th century \u2014 including *Fences* and *The Piano Lesson*?",
+          "answer": "August Wilson",
+          "alternates": ["Wilson"],
+          "explanation": "American playwright (1945\u20132005), born in the Hill District of Pittsburgh\nThe Pittsburgh Cycle (also called the Century Cycle) comprises ten plays, one set in each decade of the 20th century, chronicling the African-American experience\nWon two Pulitzer Prizes for Drama: *Fences* (1987) and *The Piano Lesson* (1990)\n*Fences* also won the Tony Award for Best Play; the 2016 film starred Denzel Washington and Viola Davis\n*Ma Rainey's Black Bottom* (1984) was his first Broadway play; adapted as a 2020 Netflix film with Chadwick Boseman's final role\nCompleted the final play, *Radio Golf* (set in the 1990s), shortly before his death in 2005\nThe August Wilson Theatre on Broadway (renamed 2005) is one of the few Broadway houses named for an African-American",
+          "cardFront": "American \u2014 *Fences*, Pittsburgh Cycle (10 plays, one per decade)",
+          "cardBack": "August Wilson"
+        },
+        {
+          "id": "pinter",
+          "prompt": "Which British playwright, known for loaded silences and 'comedy of menace,' wrote *The Birthday Party* and *The Homecoming* and won the 2005 Nobel Prize in Literature?",
+          "answer": "Harold Pinter",
+          "alternates": ["Pinter"],
+          "explanation": "British playwright, screenwriter, director, and actor (1930\u20132008)\nAwarded the 2005 Nobel Prize in Literature for work that 'uncovers the precipice under everyday prattle and forces entry into oppression's closed rooms'\n*The Birthday Party* (1958) flopped on its London premiere but was later recognized as a masterpiece of modern drama\n*The Homecoming* (1965) won the Tony Award for Best Play when it transferred to Broadway in 1967\nCoined the theatrical concept of the 'Pinter pause' \u2014 loaded silences that carry as much meaning as dialogue\nAlso a prolific screenwriter; credits include *The Servant* (1963), *The Go-Between* (1971), and *The French Lieutenant's Woman* (1981)\nBecame an outspoken political activist in later life, vocally opposing the Iraq War and U.S. foreign policy",
+          "cardFront": "British \u2014 *The Birthday Party*, *The Homecoming*, Nobel 2005",
+          "cardBack": "Harold Pinter"
+        },
+        {
+          "id": "oneill",
+          "prompt": "Which American playwright won the 1936 Nobel Prize in Literature and four Pulitzer Prizes for Drama, including one posthumously for *Long Day's Journey Into Night*?",
+          "answer": "Eugene O'Neill",
+          "alternates": ["O'Neill"],
+          "explanation": "American playwright (1888\u20131953), the only dramatist to win four Pulitzer Prizes for Drama\nPulitzer wins: *Beyond the Horizon* (1920), *Anna Christie* (1922), *Strange Interlude* (1928), and *Long Day's Journey Into Night* (1957, posthumous)\nAwarded the 1936 Nobel Prize in Literature \u2014 the first American playwright so honored\n*Long Day's Journey Into Night* is autobiographical, depicting his own family's dysfunction; he stipulated it not be published until 25 years after his death, but his widow Carlotta released it in 1956\n*The Iceman Cometh* (1946) and *Mourning Becomes Electra* (1931) are among his other landmark works\nIntroduced European expressionism and psychological realism to American theatre, elevating it from melodrama to serious art\nDied in a Boston hotel room in 1953; his last words reportedly were 'Born in a hotel room, and \u2014 God damn it \u2014 died in a hotel room'",
+          "cardFront": "American \u2014 *Long Day's Journey Into Night*, Nobel 1936, 4 Pulitzers",
+          "cardBack": "Eugene O'Neill"
+        },
+        {
+          "id": "kushner",
+          "prompt": "Which American playwright wrote *Angels in America: A Gay Fantasia on National Themes*, a two-part epic about the AIDS crisis that won the Pulitzer Prize and consecutive Tony Awards in 1993 and 1994?",
+          "answer": "Tony Kushner",
+          "alternates": ["Kushner"],
+          "explanation": "American playwright and screenwriter (born 1956)\n*Angels in America* is a two-part play: *Millennium Approaches* (1991) and *Perestroika* (1992)\n*Millennium Approaches* won the 1993 Pulitzer Prize for Drama; both parts won consecutive Tony Awards for Best Play (1993 and 1994)\nThe play interweaves the AIDS epidemic, Mormonism, McCarthyism, and the Reagan era through interconnected storylines in 1980s New York\nA 2003 HBO miniseries directed by Mike Nichols starred Al Pacino and Meryl Streep; won 11 Emmy Awards\nAlso co-wrote the screenplays for Steven Spielberg's *Munich* (2005) and *Lincoln* (2012)\nConsidered the most important American play of the late 20th century; frequently revived, including a 2018 Broadway production starring Andrew Garfield",
+          "cardFront": "American \u2014 *Angels in America*, Pulitzer, consecutive Tonys 1993\u20131994",
+          "cardBack": "Tony Kushner"
+        }
+      ]
+    }
+  ]
+}

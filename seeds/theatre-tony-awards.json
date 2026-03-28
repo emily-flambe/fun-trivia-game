@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "theatre/awards", "parentId": "theatre", "name": "Theatre Awards", "description": "Tony Awards, Olivier Awards, and other theatre honors" }
+  ],
+  "exercises": [
+    {
+      "id": "theatre/awards/tony-winners",
+      "nodeId": "theatre/awards",
+      "name": "Tony Award Winners",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "death-of-a-salesman",
+          "prompt": "Which 1949 Arthur Miller play about a failing traveling salesman and his fractured family won six Tony Awards including Best Play and the Pulitzer Prize for Drama?",
+          "answer": "Death of a Salesman",
+          "alternates": [],
+          "explanation": "Won 6 of 6 Tony nominations in 1949: Best Play, Best Author, Best Director (Elia Kazan), Best Producer, Best Featured Actor (Arthur Kennedy), Best Scenic Design (Jo Mielziner)\nAlso won the 1949 Pulitzer Prize for Drama and New York Drama Critics' Circle Award\nLee J. Cobb originated Willy Loman; Mildred Dunnock played Linda, Cameron Mitchell played Happy\nOpened February 10, 1949, at the Morosco Theatre; ran for 742 performances\nThe play follows Willy Loman, a 63-year-old salesman who retreats into memories as his career and family disintegrate\nConsidered one of the greatest American plays; has been revived on Broadway five times, winning three Tony Awards for Best Revival\nMiller wrote the first act in a single day at a Connecticut studio he built himself",
+          "cardFront": "1949 Best Play \u2014 Arthur Miller, failing salesman, 6 Tonys",
+          "cardBack": "Death of a Salesman"
+        },
+        {
+          "id": "the-miracle-worker",
+          "prompt": "Which 1959 William Gibson play about a young teacher breaking through to a deaf and blind child in Alabama won the 1960 Tony Award for Best Play, with Anne Bancroft and Patty Duke in the lead roles?",
+          "answer": "The Miracle Worker",
+          "alternates": ["Miracle Worker"],
+          "explanation": "Won 4 Tony Awards in 1960: Best Play, Best Actress (Anne Bancroft), Best Direction (Arthur Penn), Best Stage Technician\nBased on Helen Keller's autobiography *The Story of My Life*; adapted from Gibson's 1957 Playhouse 90 teleplay\nAnne Bancroft starred as Annie Sullivan; Patty Duke, age 12, played Helen Keller\nOpened October 19, 1959, at the Playhouse Theatre; ran for 719 performances\nThe 1962 film reunited Bancroft and Duke; both won Academy Awards (Best Actress and Best Supporting Actress)\nDuke was one of the youngest performers ever cast in a major Broadway role\nThe famous water pump scene, where Helen connects the word \"water\" to the liquid, is one of the most iconic moments in American theatre",
+          "cardFront": "1960 Best Play \u2014 Gibson, Bancroft & Duke, deaf-blind child",
+          "cardBack": "The Miracle Worker"
+        },
+        {
+          "id": "a-man-for-all-seasons",
+          "prompt": "Which 1961 Robert Bolt play about a Lord Chancellor who refuses to endorse his king's divorce won the 1962 Tony for Best Play, with Paul Scofield in the lead?",
+          "answer": "A Man for All Seasons",
+          "alternates": ["Man for All Seasons"],
+          "explanation": "Won the 1962 Tony Award for Best Play; Paul Scofield won Best Actor for his portrayal of Sir Thomas More\nWritten by Robert Bolt; tells the story of More's refusal to approve Henry VIII's divorce from Catherine of Aragon and remarriage to Anne Boleyn\nScofield originated the role in London at the Globe Theatre (now Gielgud) on July 1, 1960, before transferring to Broadway\nBroadway opened November 22, 1961, at the ANTA Playhouse; ran for 620 performances\nThe 1966 film adaptation won six Oscars including Best Picture; Scofield reprised More and won the Academy Award for Best Actor\nScofield is one of roughly eleven actors to win both a Tony and Oscar for the same role\nMore was executed in 1535 and canonized as a Catholic saint in 1935; Bolt's play uses a narrator figure called the Common Man",
+          "cardFront": "1962 Best Play \u2014 Bolt, Scofield as Thomas More vs. Henry VIII",
+          "cardBack": "A Man for All Seasons"
+        },
+        {
+          "id": "a-chorus-line",
+          "prompt": "Which 1975 concept musical about 17 Broadway dancers auditioning for a chorus spot won 9 Tony Awards including Best Musical and held the record for longest-running Broadway show until 1997?",
+          "answer": "A Chorus Line",
+          "alternates": ["Chorus Line"],
+          "explanation": "Won 9 of 12 Tony nominations in 1976: Best Musical, Best Director/Choreographer (Michael Bennett), Best Book, Best Score (Marvin Hamlisch/Edward Kleban), Best Actress (Donna McKechnie), and others\nAlso won the 1976 Pulitzer Prize for Drama\nConceived, directed, and choreographed by Michael Bennett; built from tape-recorded interviews with real Broadway dancers\nOpened July 25, 1975, at the Shubert Theatre; ran for 6,137 performances\nHeld the record for longest-running Broadway show until surpassed by *Cats* in 1997\nDeveloped at Joseph Papp's Public Theater before transferring to Broadway\nSignature gold-costumed kickline finale to \"One\" is among the most recognizable images in musical theatre",
+          "cardFront": "1976 Best Musical \u2014 Bennett, 9 Tonys, 6,137 performances",
+          "cardBack": "A Chorus Line"
+        },
+        {
+          "id": "angels-in-america",
+          "prompt": "Which 1993 Tony Kushner two-part epic, subtitled 'A Gay Fantasia on National Themes,' won Best Play in both 1993 and 1994 for its two parts and explores AIDS in Reagan-era New York?",
+          "answer": "Angels in America",
+          "alternates": ["Angels in America: Millennium Approaches", "Angels in America Millennium Approaches"],
+          "explanation": "Millennium Approaches won 4 Tonys in 1993 including Best Play; Perestroika won Best Play again in 1994\nMillennium Approaches also won the 1993 Pulitzer Prize for Drama\nWritten by Tony Kushner; subtitled \"A Gay Fantasia on National Themes\"\nOriginal cast: Stephen Spinella as Prior Walter, Ron Leibman as Roy Cohn, Joe Mantello as Louis, Jeffrey Wright as Belize, Marcia Gay Harden as Harper\nOpened May 4, 1993, at the Walter Kerr Theatre; both parts ran in repertory\nSet in 1985 New York; interweaves the stories of a gay man with AIDS, a closeted Mormon lawyer, and the real historical figure Roy Cohn\nHBO produced a 2003 miniseries starring Al Pacino and Meryl Streep, directed by Mike Nichols; it won 11 Emmy Awards",
+          "cardFront": "1993 Best Play \u2014 Kushner, AIDS epic, won Best Play two years running",
+          "cardBack": "Angels in America"
+        },
+        {
+          "id": "the-producers",
+          "prompt": "Which 2001 Mel Brooks musical comedy about two schemers who try to profit from a deliberately terrible Broadway show won a record 12 Tony Awards?",
+          "answer": "The Producers",
+          "alternates": ["Producers"],
+          "explanation": "Won 12 of 15 Tony nominations in 2001, breaking the record of 10 held by *Hello, Dolly!* since 1964\nAwards included Best Musical, Best Book, Best Score (both Mel Brooks), Best Actor (Nathan Lane), Best Featured Actor (Gary Beach), Best Featured Actress (Cady Huffman), Best Director and Choreography (Susan Stroman)\nBased on Brooks's 1967 film; book by Brooks and Thomas Meehan\nNathan Lane starred as Max Bialystock, Matthew Broderick as Leo Bloom; they originated the roles at the St. James Theatre\nOpened April 19, 2001; ran for 2,502 performances\nBroke the single-day box-office record at the time, taking in over $3 million\nBrooks's Tony win for Best Score made him the eighth person to achieve EGOT status (Emmy, Grammy, Oscar, Tony)",
+          "cardFront": "2001 Best Musical \u2014 Brooks, record 12 Tonys, Lane & Broderick",
+          "cardBack": "The Producers"
+        },
+        {
+          "id": "doubt",
+          "prompt": "Which 2005 John Patrick Shanley one-act play set in a 1964 Catholic school in the Bronx explores a nun's suspicion about a priest, winning Best Play and the Pulitzer Prize?",
+          "answer": "Doubt",
+          "alternates": ["Doubt: A Parable", "Doubt A Parable"],
+          "explanation": "Won the 2005 Tony Award for Best Play and the 2005 Pulitzer Prize for Drama\nWritten by John Patrick Shanley; full title is *Doubt: A Parable*\nCherry Jones won Best Actress as Sister Aloysius; Adriane Lenox won Best Featured Actress as Mrs. Muller\nOriginal cast also included Brian F. O'Byrne as Father Flynn and Heather Goldenhersh as Sister James; directed by Doug Hughes\nA 90-minute one-act with only four characters; premiered at Manhattan Theatre Club before transferring to the Walter Kerr Theatre\nThe 2008 film starred Meryl Streep and Philip Seymour Hoffman; earned five Oscar nominations\nShanley deliberately leaves the central question unresolved: the audience never learns whether the priest is guilty",
+          "cardFront": "2005 Best Play \u2014 Shanley, nun vs. priest, 1964 Bronx",
+          "cardBack": "Doubt"
+        },
+        {
+          "id": "the-history-boys",
+          "prompt": "Which 2006 Alan Bennett play about a group of Sheffield grammar school boys preparing for Oxbridge entrance exams won 6 Tony Awards including Best Play, with Richard Griffiths as an eccentric teacher?",
+          "answer": "The History Boys",
+          "alternates": ["History Boys"],
+          "explanation": "Won 6 of 7 Tony nominations in 2006: Best Play, Best Director (Nicholas Hytner), Best Actor (Richard Griffiths), Best Featured Actress (Frances de la Tour), and two design awards\nWritten by Alan Bennett; premiered at the National Theatre (Lyttelton) on May 18, 2004\nAlso won the 2005 Laurence Olivier Award for Best New Play before transferring to Broadway\nSet in a 1980s Sheffield boys' grammar school; follows eight students preparing for Oxford and Cambridge entrance exams under three contrasting teachers\nRichard Griffiths played Hector, a beloved but boundary-crossing English teacher\nOriginal cast included future stars James Corden, Dominic Cooper, Russell Tovey, and Sacha Dhawan\nA 2006 film adaptation retained the entire original cast and director Nicholas Hytner",
+          "cardFront": "2006 Best Play \u2014 Bennett, Sheffield boys, Oxbridge, Griffiths",
+          "cardBack": "The History Boys"
+        },
+        {
+          "id": "august-osage-county",
+          "prompt": "Which 2008 Tracy Letts three-act family drama set in rural Oklahoma, about the explosive reunion of the dysfunctional Weston clan, won 5 Tonys including Best Play and the Pulitzer Prize?",
+          "answer": "August: Osage County",
+          "alternates": ["August Osage County"],
+          "explanation": "Won 5 Tony Awards in 2008: Best Play, Best Actress (Deanna Dunagan), Best Featured Actress (Rondi Reed), Best Director (Anna D. Shapiro), Best Scenic Design\nAlso won the 2008 Pulitzer Prize for Drama\nWritten by Tracy Letts, a member of Chicago's Steppenwolf Theatre Company where the play premiered on June 28, 2007\nSet in a three-story house outside Pawhuska, Oklahoma; the patriarch Beverly Weston disappears, triggering a family reunion that unearths decades of secrets\nA three-and-a-half-hour, 13-character epic blending tragedy with black comedy\nTransferred to Broadway at the Imperial Theatre on December 4, 2007; ran for 648 performances\nThe 2013 film starred Meryl Streep as Violet and Julia Roberts as Barbara; both received Oscar nominations",
+          "cardFront": "2008 Best Play \u2014 Letts, Weston family, Oklahoma, 5 Tonys + Pulitzer",
+          "cardBack": "August: Osage County"
+        },
+        {
+          "id": "billy-elliot",
+          "prompt": "Which 2009 Elton John and Lee Hall musical about a coal miner's son who discovers ballet during the 1984 British miners' strike won 10 Tony Awards including Best Musical?",
+          "answer": "Billy Elliot",
+          "alternates": ["Billy Elliot the Musical", "Billy Elliot The Musical"],
+          "explanation": "Won 10 of 15 Tony nominations in 2009, including Best Musical, Best Book (Lee Hall), Best Direction (Stephen Daldry), Best Choreography (Peter Darling)\nMusic by Elton John, book and lyrics by Lee Hall; based on the 2000 Stephen Daldry film\nThree boys (David Alvarez, Trent Kowalik, Kiril Kulish) shared the Tony for Best Actor, rotating in the title role\nSet in County Durham, England, during the 1984\u201385 miners' strike; Billy's father and brother are striking miners while he secretly takes ballet classes\nGregory Jbara won Best Featured Actor as Billy's father Jackie\nOpened on Broadway at the Imperial Theatre on November 13, 2008; ran until January 8, 2012\nThe London original premiered at the Victoria Palace Theatre in 2005 and ran for 11 years, closing in 2016",
+          "cardFront": "2009 Best Musical \u2014 Elton John, ballet + miners' strike, 10 Tonys",
+          "cardBack": "Billy Elliot"
+        },
+        {
+          "id": "vanya-sonia-masha-spike",
+          "prompt": "Which 2013 Christopher Durang comedy riffs on Chekhov while following three middle-aged siblings and a young boyfriend during a chaotic weekend in Bucks County, Pennsylvania, winning Best Play?",
+          "answer": "Vanya and Sonia and Masha and Spike",
+          "alternates": ["Vanya Sonia Masha and Spike", "Vanya and Sonia and Masha and Spike"],
+          "explanation": "Won the 2013 Tony Award for Best Play from 6 nominations\nWritten by Christopher Durang; character names and themes drawn from Chekhov plays (*Uncle Vanya*, *Three Sisters*, *The Cherry Orchard*, *The Seagull*)\nStarred David Hyde Pierce as Vanya, Sigourney Weaver as Masha, Kristine Nielsen as Sonia, Billy Magnussen as Spike\nSet in present-day Bucks County, Pennsylvania; Vanya and Sonia stayed home to care for aging parents while Masha became a movie star\nOpened March 14, 2013, at the John Golden Theatre; ran for 189 performances\nRecouped its $2.75 million investment in under four months\nDurang's biggest commercial hit; no familiarity with Chekhov required to enjoy the comedy, though every character and plot beat has a Chekhovian source",
+          "cardFront": "2013 Best Play \u2014 Durang, Chekhov homage, Weaver & Hyde Pierce",
+          "cardBack": "Vanya and Sonia and Masha and Spike"
+        },
+        {
+          "id": "curious-incident",
+          "prompt": "Which 2015 Simon Stephens adaptation of a Mark Haddon novel follows a mathematically gifted 15-year-old who investigates a dog's murder, winning 5 Tonys including Best Play?",
+          "answer": "The Curious Incident of the Dog in the Night-Time",
+          "alternates": ["Curious Incident of the Dog in the Night-Time", "Curious Incident", "The Curious Incident"],
+          "explanation": "Won 5 of 6 Tony nominations in 2015: Best Play, Best Actor (Alex Sharp), Best Director (Marianne Elliott), Best Lighting Design, Best Scenic Design\nAdapted by Simon Stephens from Mark Haddon's 2003 novel; directed by Marianne Elliott\nAlex Sharp won Best Actor in his first professional role, playing Christopher Boone, a 15-year-old on the autism spectrum\nPremiere at the National Theatre's Cottesloe Theatre in London on August 2, 2012; tied the record for most Olivier Awards (7) including Best New Play in 2013\nBroadway opened October 5, 2014, at the Ethel Barrymore Theatre; closed September 4, 2016\nThe production is known for its innovative staging using an LED-grid set to visualize Christopher's perception of the world\nThe title references a Sherlock Holmes quote from \"Silver Blaze\" about \"the curious incident of the dog in the night-time\"",
+          "cardFront": "2015 Best Play \u2014 Stephens/Haddon, autistic teen, 5 Tonys",
+          "cardBack": "The Curious Incident of the Dog in the Night-Time"
+        },
+        {
+          "id": "hamilton",
+          "prompt": "Which 2016 Lin-Manuel Miranda hip-hop musical about a Founding Father received a record 16 Tony nominations and won 11, including Best Musical?",
+          "answer": "Hamilton",
+          "alternates": [],
+          "explanation": "Won 11 of a record 16 Tony nominations in 2016, the second-most wins ever after The Producers' 12\nAwards included Best Musical, Best Score, Best Book (both Lin-Manuel Miranda), Best Actor (Leslie Odom Jr. as Aaron Burr), Best Featured Actor (Daveed Diggs as Lafayette/Jefferson)\nAlso won the 2016 Pulitzer Prize for Drama\nWritten by Lin-Manuel Miranda; tells the story of Alexander Hamilton using hip-hop, R&B, and traditional show tunes with a deliberately multiracial cast\nOpened August 6, 2015, at the Richard Rodgers Theatre; Miranda originated the title role\nBased on Ron Chernow's 2004 biography; Miranda conceived the idea while reading it on vacation in 2008\nThe Disney+ filmed version (2020) was captured with the original Broadway cast and became one of the platform's most-watched premieres",
+          "cardFront": "2016 Best Musical \u2014 Miranda, hip-hop Founding Father, record 16 nominations, 11 wins",
+          "cardBack": "Hamilton"
+        },
+        {
+          "id": "dear-evan-hansen",
+          "prompt": "Which 2017 musical about a socially anxious teenager whose fabricated connection to a classmate who died by suicide goes viral on social media won 6 Tonys including Best Musical?",
+          "answer": "Dear Evan Hansen",
+          "alternates": [],
+          "explanation": "Won 6 of 9 Tony nominations in 2017: Best Musical, Best Book, Best Score (Benj Pasek and Justin Paul), Best Actor (Ben Platt), Best Featured Actress (Rachel Bay Jones), Best Orchestrations\nMusic and lyrics by Benj Pasek and Justin Paul; book by Steven Levenson\nBen Platt originated the title role; his performance of \"Waving Through a Window\" became a viral sensation\nOpened at the Music Box Theatre in December 2016; closed September 18, 2022\nThe plot hinges on Evan fabricating a friendship with Connor Murphy after Connor's suicide, then being unable to confess as the lie spirals into a social media movement\nPasek and Paul also wrote the songs for *La La Land* (2016) and *The Greatest Showman* (2017), winning the Oscar for \"City of Stars\"\nA 2021 film starred Platt reprising the role, generating controversy over his age (27) playing a high schooler",
+          "cardFront": "2017 Best Musical \u2014 Pasek & Paul, teen anxiety + social media, Platt",
+          "cardBack": "Dear Evan Hansen"
+        },
+        {
+          "id": "hadestown",
+          "prompt": "Which 2019 Anais Mitchell musical retelling the myth of Orpheus and Eurydice as a New Orleans-inflected folk opera won 8 Tony Awards including Best Musical?",
+          "answer": "Hadestown",
+          "alternates": [],
+          "explanation": "Won 8 of 14 Tony nominations in 2019: Best Musical, Best Original Score (Anais Mitchell), Best Direction (Rachel Chavkin), Best Scenic Design, Best Lighting Design, Best Sound Design, Best Orchestrations, Best Featured Actor\nBook, music, and lyrics all by Anais Mitchell; the first Best Musical winner with book, music, and lyrics by a single woman\nRetells the Greek myth of Orpheus and Eurydice alongside Hades and Persephone, blending folk, jazz, and New Orleans influences\nDeveloped over seven years; started as a concept album (2010), then off-Broadway at New York Theatre Workshop (2016), then Broadway at the Walter Kerr Theatre (2019)\nRachel Chavkin won Best Director; in her acceptance speech she noted she was the only woman nominated in her category\nAlso won the 2020 Grammy Award for Best Musical Theater Album\nThe show's signature staging features a New Orleans speakeasy set with musicians visible onstage throughout",
+          "cardFront": "2019 Best Musical \u2014 Mitchell, Orpheus myth, folk-jazz, 8 Tonys",
+          "cardBack": "Hadestown"
+        }
+      ]
+    }
+  ]
+}

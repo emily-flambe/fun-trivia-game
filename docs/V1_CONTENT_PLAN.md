@@ -319,12 +319,12 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Landmark Musicals | 16 | ✅ | |
-| 2 | Famous Playwrights | 15 | ❌ | TS has "Playwrights." Arthur Miller, Tennessee Williams, August Wilson, etc. |
-| 3 | Tony Award Winners | 15 | ❌ | Best Musical, Best Play winners by year. |
-| 4 | Broadway Plays (Non-Musical) | 15 | ❌ | TS has "Broadway Plays." Death of a Salesman, A Streetcar Named Desire, etc. |
-| 5 | Shakespeare Characters | 15 | ❌ | TS has this. Hamlet, Ophelia, Iago, Prospero — which play + role. |
+| 2 | Famous Playwrights | 15 | ✅ | TS has "Playwrights." Arthur Miller, Tennessee Williams, August Wilson, etc. |
+| 3 | Tony Award Winners | 15 | ✅ | Best Musical, Best Play winners by year. |
+| 4 | Broadway Plays (Non-Musical) | 15 | ✅ | TS has "Broadway Plays." Death of a Salesman, A Streetcar Named Desire, etc. |
+| 5 | Shakespeare Characters | 15 | ✅ | TS has this. Hamlet, Ophelia, Iago, Prospero — which play + role. |
 
-**Coverage**: 1/5 done.
+**Coverage**: 5/5 done. Complete.
 
 ---
 
@@ -379,10 +379,10 @@ Inspired by TrivialStudies' unique study tools:
 | Pop Music | 2 | 10 | 20% |
 | Science | 13 | 20 | 65% |
 | Television | 1 | 10 | 10% |
-| Theatre | 1 | 5 | 20% |
+| Theatre | 5 | 5 | 100% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **85** | **177** | **48%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -391,12 +391,12 @@ Inspired by TrivialStudies' unique study tools:
 3. **Business/Economics** — 1/8 (13%). Regular LL category, barely started.
 4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
 5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
-6. **Theatre** — 1/5 (20%). Small but tested category.
-7. **Language** — 1/5 (20%). Small but distinctive LL category.
-8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
-9. **Art** — 2/5 (40%). Needs the actual artworks.
-10. **Literature** — 16/16 (100%). Complete.
-11. **Film** — 10/10 (100%). Complete.
+6. **Language** — 1/5 (20%). Small but distinctive LL category.
+7. **Classical Music** — 1/4 (25%). Niche but regularly tested.
+8. **Art** — 2/5 (40%). Needs the actual artworks.
+9. **Literature** — 16/16 (100%). Complete.
+10. **Film** — 10/10 (100%). Complete.
+11. **Theatre** — 5/5 (100%). Complete.
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
 14. **Geography** — 10/20 (50%). Most exercises but missing continents.

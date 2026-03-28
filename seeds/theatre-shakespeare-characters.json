@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "theatre/plays", "parentId": "theatre", "name": "Plays & Playwrights", "description": "Dramatic works and the writers who created them" }
+  ],
+  "exercises": [
+    {
+      "id": "theatre/plays/shakespeare-characters",
+      "nodeId": "theatre/plays",
+      "name": "Shakespeare Characters",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "hamlet",
+          "prompt": "This Prince of Denmark feigns madness, delivers the 'To be, or not to be' soliloquy, and avenges his father's murder by killing his uncle Claudius. Name the prince.",
+          "answer": "Hamlet",
+          "alternates": ["Prince Hamlet", "Hamlet Prince of Denmark"],
+          "explanation": "Prince of Denmark; protagonist of Shakespeare's longest play (c. 1600\u20131601)\nHis father's ghost reveals that Claudius murdered him by pouring poison in his ear\nFeigns madness ('antic disposition') to investigate the murder; stages a play-within-a-play ('The Mousetrap') to confirm Claudius's guilt\nDelivers the most famous soliloquy in English literature: 'To be, or not to be'\nAccidentally kills Polonius behind a curtain, setting off a chain of deaths\nDies in the final scene from a poisoned sword; Horatio survives to tell his story\n'Good night, sweet prince, / And flights of angels sing thee to thy rest' \u2014 Horatio's farewell",
+          "cardFront": "*Hamlet* \u2014 Prince of Denmark, avenges his father, 'To be or not to be'",
+          "cardBack": "Hamlet"
+        },
+        {
+          "id": "ophelia",
+          "prompt": "In *Hamlet*, this young noblewoman is the daughter of Polonius and the prince's love interest. After her father is killed, she descends into madness, sings strange songs, and drowns in a brook. Name her.",
+          "answer": "Ophelia",
+          "alternates": [],
+          "explanation": "Daughter of Polonius and sister of Laertes; her relationship with the prince is manipulated by her family and the court\nHer father uses her as bait to spy on the prince, who tells her 'Get thee to a nunnery'\nAfter Polonius's death, she loses her sanity and distributes flowers with symbolic meanings (rosemary for remembrance, rue for regret)\nDrowns in a brook wreathed in flowers; Gertrude describes it in one of Shakespeare's most lyrical passages (Act 4, Scene 7)\nHer death is ambiguous \u2014 the gravediggers debate whether it was suicide or accident\nJohn Everett Millais's painting *Ophelia* (1851\u20131852) is one of the most famous Pre-Raphaelite works\nThe name has become a literary archetype for tragic, doomed innocence",
+          "cardFront": "*Hamlet* \u2014 Polonius's daughter, love interest, drowns amid madness",
+          "cardBack": "Ophelia"
+        },
+        {
+          "id": "lady-macbeth",
+          "prompt": "In *Macbeth*, this ambitious queen goads her husband into murdering King Duncan, then is haunted by guilt and sleepwalks while crying 'Out, damned spot!' Name her.",
+          "answer": "Lady Macbeth",
+          "alternates": ["Lady Mac Beth"],
+          "explanation": "Wife of the Scottish thane who becomes king through murder; she is the driving force behind Duncan's assassination\nPersuades her husband by questioning his manhood: 'When you durst do it, then you were a man'\nInvokes dark spirits: 'Unsex me here, and fill me from the crown to the toe top-full of direst cruelty'\nThe sleepwalking scene (Act 5, Scene 1) \u2014 'Out, damned spot! Out, I say!' \u2014 reveals her psychological collapse\nDies offstage, presumably by suicide; her death prompts the 'Tomorrow and tomorrow and tomorrow' speech\nOne of Shakespeare's most psychologically complex female roles; Sarah Siddons's 18th-century portrayal became legendary\nHas no first name in the play \u2014 historically she may be based on Gruoch of Scotland",
+          "cardFront": "*Macbeth* \u2014 Queen who drives the murder plot, 'Out, damned spot!'",
+          "cardBack": "Lady Macbeth"
+        },
+        {
+          "id": "iago",
+          "prompt": "In *Othello*, this ensign manipulates the Moorish general into believing his wife Desdemona is unfaithful, orchestrating tragedy through lies and a stolen handkerchief. Name the villain.",
+          "answer": "Iago",
+          "alternates": [],
+          "explanation": "Ensign (ancient) to Othello; often called Shakespeare's greatest villain\nMotives are deliberately ambiguous \u2014 claims he was passed over for promotion in favor of Cassio, hints at jealousy and racism\nUses Desdemona's handkerchief as false evidence of her affair with Cassio\nManipulates every character in the play, including his own wife Emilia, who unknowingly delivers the handkerchief\nSamuel Taylor Coleridge described his soliloquies as 'the motive-hunting of motiveless malignity'\nRefuses to explain his actions when caught: 'Demand me nothing. What you know, you know. / From this time forth I never will speak word'\nThe role is considered one of the most demanding villain parts in the canon; actors often play both Othello and the ensign in alternation",
+          "cardFront": "*Othello* \u2014 Ensign, master manipulator, stolen handkerchief plot",
+          "cardBack": "Iago"
+        },
+        {
+          "id": "prospero",
+          "prompt": "In *The Tempest*, this exiled Duke of Milan uses magic to shipwreck his enemies on a remote island, commands the spirit Ariel, and ultimately renounces his sorcery. Name the magician.",
+          "answer": "Prospero",
+          "alternates": [],
+          "explanation": "Rightful Duke of Milan, overthrown by his brother Antonio and set adrift with his infant daughter Miranda\nSpends 12 years on the island mastering magic from his books; commands the airy spirit Ariel and enslaves Caliban\nConjures the tempest that opens the play to bring his enemies within reach\nHis 'Our revels now are ended' speech (Act 4, Scene 1) is among Shakespeare's most quoted passages\nRenounces magic in the final act: 'I'll break my staff... I'll drown my book'\nWidely read as Shakespeare's farewell to the stage \u2014 *The Tempest* (c. 1610\u20131611) was likely his last solo-authored play\nThe name derives from Latin 'prosperus' (fortunate); his opposite, Caliban, is near-anagram of 'cannibal'",
+          "cardFront": "*The Tempest* \u2014 Exiled duke, sorcerer, commands Ariel, renounces magic",
+          "cardBack": "Prospero"
+        },
+        {
+          "id": "puck",
+          "prompt": "In *A Midsummer Night's Dream*, this mischievous fairy servant applies a love potion to the wrong Athenian's eyes, causing romantic chaos, and declares 'Lord, what fools these mortals be!' Name the trickster sprite.",
+          "answer": "Puck",
+          "alternates": ["Robin Goodfellow", "Robin Good Fellow", "Hobgoblin"],
+          "explanation": "Also called Robin Goodfellow; servant to Oberon, King of the Fairies\nA hobgoblin from English folklore long before Shakespeare \u2014 associated with pranks, shape-shifting, and leading travelers astray\nMistakenly applies the love-juice to Lysander's eyes instead of Demetrius's, scrambling the romantic pairings\n'Lord, what fools these mortals be!' (Act 3, Scene 2) \u2014 his most famous line\nSpeaks the play's epilogue: 'If we shadows have offended, / Think but this, and all is mended'\nTransforms Bottom the weaver's head into a donkey's head, causing Titania (under her own love spell) to fall for him\nOne of Shakespeare's most beloved comic characters; the role is often doubled with Philostrate or Oberon in modern productions",
+          "cardFront": "*A Midsummer Night's Dream* \u2014 Trickster fairy, love-potion mix-up, 'What fools these mortals be'",
+          "cardBack": "Puck (Robin Goodfellow)"
+        },
+        {
+          "id": "portia",
+          "prompt": "In *The Merchant of Venice*, this wealthy heiress of Belmont disguises herself as a male lawyer and delivers the 'quality of mercy' speech to defeat the moneylender's claim in court. Name her.",
+          "answer": "Portia",
+          "alternates": [],
+          "explanation": "Heiress of Belmont; bound by her dead father's will to marry whoever chooses the correct casket (lead, silver, or gold)\nBassanio chooses the lead casket ('Who chooseth me must give and hazard all he hath') and wins her hand\nDisguises herself as the lawyer Balthasar to defend Antonio in court against Shylock's bond\nDelivers 'The quality of mercy is not strained' speech (Act 4, Scene 1) \u2014 one of Shakespeare's most famous orations\nDefeats Shylock on a technicality: the bond specifies a pound of flesh but no blood, making it impossible to collect\nSpeaks over 20% of the play's lines \u2014 the largest female role in Shakespeare by word count\nAlso engineers the ring-test subplot, tricking Bassanio into giving away the ring she gave him",
+          "cardFront": "*The Merchant of Venice* \u2014 Heiress, disguised lawyer, 'quality of mercy' speech",
+          "cardBack": "Portia"
+        },
+        {
+          "id": "juliet",
+          "prompt": "This 13-year-old Capulet daughter speaks from her balcony, asking 'Wherefore art thou Romeo?' and takes a sleeping potion to fake her death, leading to double tragedy. Name her.",
+          "answer": "Juliet",
+          "alternates": ["Juliet Capulet"],
+          "explanation": "Daughter of Lord and Lady Capulet; just 13 years old (her father notes she 'hath not seen the change of fourteen years')\n'Wherefore art thou Romeo?' means 'Why are you Romeo?' \u2014 lamenting his Montague name, not asking where he is\nSecretly marries Romeo with Friar Laurence's help; the marriage lasts less than a day before Romeo is banished\nTakes Friar Laurence's sleeping potion to fake her death and escape a forced marriage to Count Paris\nWakes in the Capulet tomb to find Romeo truly dead from poison; kills herself with his dagger\nThe play (c. 1594\u20131596) draws from Arthur Brooke's poem *The Tragicall Historye of Romeus and Juliet* (1562)\nThe balcony scene (Act 2, Scene 2) is the most iconic love scene in Western literature",
+          "cardFront": "*Romeo and Juliet* \u2014 Capulet daughter, balcony scene, 'Wherefore art thou Romeo?'",
+          "cardBack": "Juliet"
+        },
+        {
+          "id": "shylock",
+          "prompt": "In *The Merchant of Venice*, this Jewish moneylender demands a 'pound of flesh' from Antonio as forfeit on a loan, and asks 'If you prick us, do we not bleed?' Name him.",
+          "answer": "Shylock",
+          "alternates": [],
+          "explanation": "Jewish moneylender in Venice; lends 3,000 ducats to Bassanio with Antonio's flesh as bond\n'If you prick us, do we not bleed?' (Act 3, Scene 1) \u2014 his plea for common humanity is one of Shakespeare's most debated speeches\nInsists on his 'pound of flesh' in court but is defeated when Portia (disguised as Balthasar) rules he may take flesh but not shed blood\nForced to convert to Christianity and forfeit half his wealth as punishment \u2014 a resolution modern audiences find deeply troubling\nThe character's portrayal oscillates between antisemitic caricature and sympathetic outsider, depending on production choices\nThe play (c. 1596\u20131599) was written during a period when Jews were officially expelled from England (since 1290)\nAl Pacino played him in the 2004 film; Patrick Stewart in a 2011 production set the play in Las Vegas",
+          "cardFront": "*The Merchant of Venice* \u2014 Moneylender, 'pound of flesh', 'do we not bleed?'",
+          "cardBack": "Shylock"
+        },
+        {
+          "id": "oberon",
+          "prompt": "In *A Midsummer Night's Dream*, this ruler of the fairy realm quarrels with his queen over a changeling boy and orders his servant to use a magic flower's juice to teach her a lesson. Name the fairy king.",
+          "answer": "Oberon",
+          "alternates": [],
+          "explanation": "King of the Fairies in *A Midsummer Night's Dream* (c. 1595\u20131596)\nHis quarrel with Titania over an Indian changeling boy causes storms and disorder in the natural world\nOrders Puck to fetch the flower 'love-in-idleness' (a pansy touched by Cupid's arrow) whose juice causes love at first sight\nUses the juice on Titania so she falls in love with Bottom, who has been given a donkey's head\nAlso orders Puck to apply the juice to the Athenian lovers' eyes, leading to comic mix-ups\nThe name Oberon derives from Auberon in the medieval French romance *Huon of Bordeaux*\nOften doubled with the role of Theseus in modern productions, reflecting the fairy/mortal world parallel",
+          "cardFront": "*A Midsummer Night's Dream* \u2014 Fairy king, quarrels with queen, magic love-juice",
+          "cardBack": "Oberon"
+        },
+        {
+          "id": "titania",
+          "prompt": "In *A Midsummer Night's Dream*, this fairy queen quarrels with her husband over a changeling boy and, enchanted by a love potion, falls in love with a weaver who has been given a donkey's head. Name her.",
+          "answer": "Titania",
+          "alternates": [],
+          "explanation": "Queen of the Fairies; her quarrel with Oberon over an Indian changeling boy drives the play's supernatural plot\nShakespeare took the name from Ovid's *Metamorphoses*, where it is an epithet for Diana (the goddess)\nEnchanted by the love-in-idleness flower, she dotes on Bottom the weaver, who has been transformed with an ass's head\nHer attendant fairies \u2014 Peaseblossom, Cobweb, Moth, and Mustardseed \u2014 minister to Bottom at her command\nThe disruption of nature caused by the fairy quarrel (floods, failed harvests, sick seasons) reflects Elizabethan beliefs about cosmic order\nReconciles with Oberon after he removes the spell; they bless the marriages of the mortals in the final act\nOften doubled with the role of Hippolyta in modern productions",
+          "cardFront": "*A Midsummer Night's Dream* \u2014 Fairy queen, enchanted to love a donkey-headed weaver",
+          "cardBack": "Titania"
+        },
+        {
+          "id": "caliban",
+          "prompt": "In *The Tempest*, this half-human creature is the son of the witch Sycorax and was the island's sole inhabitant before being enslaved by the exiled duke. He plots rebellion and delivers the haunting 'isle is full of noises' speech. Name him.",
+          "answer": "Caliban",
+          "alternates": [],
+          "explanation": "Son of the Algerian witch Sycorax; the island's only native inhabitant before Prospero's arrival\nEnslaved by Prospero after allegedly attempting to assault Miranda; forced to carry wood and do menial labor\nHis name is likely a near-anagram of 'cannibal' \u2014 derived from the Carib people, via Montaigne's essay 'Of Cannibals'\n'Be not afeard; the isle is full of noises, / Sounds and sweet airs, that give delight and hurt not' (Act 3, Scene 2) \u2014 one of the play's most beautiful passages\nPlots to overthrow Prospero with the drunken Stephano and Trinculo, offering to serve Stephano as his new master\nWidely interpreted as a symbol of colonized peoples \u2014 Prospero teaches him language, then uses it to command him\nThe character has been reclaimed in postcolonial literature, notably in Aim\u00e9 C\u00e9saire's *Une Temp\u00eate* (1969)",
+          "cardFront": "*The Tempest* \u2014 Son of Sycorax, enslaved native, 'isle is full of noises'",
+          "cardBack": "Caliban"
+        },
+        {
+          "id": "viola",
+          "prompt": "In *Twelfth Night*, this shipwrecked young woman disguises herself as a male page called Cesario, enters the service of Duke Orsino, and creates a love triangle when her mistress Olivia falls for the disguise. Name her.",
+          "answer": "Viola",
+          "alternates": [],
+          "explanation": "Shipwrecked on the coast of Illyria; believes her twin brother Sebastian is dead (he survived separately)\nDisguises herself as the male page Cesario and enters the service of Duke Orsino, with whom she falls in love\nSent by Orsino to woo the Countess Olivia on his behalf \u2014 but Olivia falls in love with 'Cesario' instead\nThe resulting love triangle (Viola loves Orsino, Orsino loves Olivia, Olivia loves 'Cesario') drives the comedy\nThe confusion doubles when Sebastian arrives \u2014 Olivia mistakes him for Cesario and marries him\nResolved when the twins appear together; Orsino realizes Viola's devotion and proposes to her\nThe cross-dressing role was originally played by a boy actor pretending to be a woman pretending to be a man",
+          "cardFront": "*Twelfth Night* \u2014 Shipwrecked woman, disguised as Cesario, serves Duke Orsino",
+          "cardBack": "Viola"
+        },
+        {
+          "id": "malvolio",
+          "prompt": "In *Twelfth Night*, this pompous steward of Olivia's household is tricked by a forged letter into wearing yellow cross-gartered stockings and smiling foolishly, believing his mistress loves him. Name the steward.",
+          "answer": "Malvolio",
+          "alternates": [],
+          "explanation": "Steward to the Countess Olivia; his name means 'ill will' in Italian\nPuritanical and self-important; clashes with Sir Toby Belch, Sir Andrew Aguecheek, and Maria over their late-night reveling\nMaria forges a letter in Olivia's handwriting containing 'M.O.A.I.' \u2014 he convinces himself the letters refer to him\nThe letter instructs him to wear yellow cross-gartered stockings and smile constantly \u2014 things Olivia despises\nLocked in a dark room as a supposed madman; Feste the Fool visits him disguised as 'Sir Topas' the curate\nHis final line \u2014 'I'll be revenged on the whole pack of you!' \u2014 strikes a discordant note against the play's comic resolution\n'Some are born great, some achieve greatness, and some have greatness thrust upon 'em' \u2014 from the forged letter, often misattributed as Shakespeare's own philosophy",
+          "cardFront": "*Twelfth Night* \u2014 Pompous steward, tricked by forged letter, yellow stockings",
+          "cardBack": "Malvolio"
+        },
+        {
+          "id": "richard-iii",
+          "prompt": "In the history play bearing his name, this hunchbacked Yorkist king schemes his way to the English throne through murder, then loses the Battle of Bosworth Field, crying 'A horse, a horse! My kingdom for a horse!' Name the king.",
+          "answer": "Richard III",
+          "alternates": ["Richard", "Richard the Third", "King Richard III", "King Richard", "Richard 3", "Richard the 3rd"],
+          "explanation": "Last Plantagenet king of England (reigned 1483\u20131485); killed at the Battle of Bosworth Field by Henry Tudor's forces\nShakespeare depicts him as a deformed, Machiavellian schemer \u2014 largely Tudor propaganda to legitimize Henry VII's claim\nOpens the play with the famous soliloquy: 'Now is the winter of our discontent / Made glorious summer by this sun of York'\nOrders the murder of the young princes in the Tower (Edward V and Richard of York) \u2014 one of history's enduring mysteries\n'A horse, a horse! My kingdom for a horse!' (Act 5, Scene 4) \u2014 his desperate cry at Bosworth as his army collapses\nHis skeleton was discovered under a Leicester car park in 2012; reburied at Leicester Cathedral in 2015\nThe role is one of the longest in the Shakespeare canon and a legendary star vehicle \u2014 Laurence Olivier's 1955 film is definitive",
+          "cardFront": "*Richard III* \u2014 Yorkist king, schemes to the throne, 'A horse! My kingdom for a horse!'",
+          "cardBack": "Richard III"
+        }
+      ]
+    }
+  ]
+}
