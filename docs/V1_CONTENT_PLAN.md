@@ -220,15 +220,15 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 7 | Poetry — Poet Matching | 20 | ✅ | |
 | 8 | Shakespeare's Plays | 21 | ✅ | |
 | 9 | Shakespeare's Quotes | 15 | ✅ | |
-| 10 | Pen Names & Pseudonyms | 15 | ❌ | TS has "Pen Names." Mark Twain→Samuel Clemens, George Orwell→Eric Blair. |
-| 11 | Pulitzer Prize Winners (Fiction) | 15 | ❌ | TS has "Pulitzer Prize Winners." Notable winners by year. |
-| 12 | Russian Literature | 15 | ❌ | TS has this. Dostoevsky, Tolstoy, Chekhov, Gogol, Bulgakov. LL favorite. |
-| 13 | Fantasy & Science Fiction | 15 | ❌ | TS has "Fantasy Novels." Tolkien, Asimov, Le Guin, Herbert, etc. |
-| 14 | Fictional Detectives | 12 | ❌ | TS has this. Sherlock Holmes, Poirot, Philip Marlowe, etc. |
-| 15 | Children's & Young Adult Literature | 12 | ❌ | Dr. Seuss, Roald Dahl, Where the Wild Things Are, Harry Potter. |
-| 16 | Comic Books & Graphic Novels | 12 | ❌ | TS has "Comic Book Characters" + "Comic Strips." Omnibus. |
+| 10 | Pen Names & Pseudonyms | 15 | ✅ | TS has "Pen Names." Mark Twain→Samuel Clemens, George Orwell→Eric Blair. |
+| 11 | Pulitzer Prize Winners (Fiction) | 15 | ✅ | TS has "Pulitzer Prize Winners." Notable winners by year. |
+| 12 | Russian Literature | 15 | ✅ | TS has this. Dostoevsky, Tolstoy, Chekhov, Gogol, Bulgakov. LL favorite. |
+| 13 | Fantasy & Science Fiction | 15 | ✅ | TS has "Fantasy Novels." Tolkien, Asimov, Le Guin, Herbert, etc. |
+| 14 | Fictional Detectives | 12 | ✅ | TS has this. Sherlock Holmes, Poirot, Philip Marlowe, etc. |
+| 15 | Children's & Young Adult Literature | 12 | ✅ | Dr. Seuss, Roald Dahl, Where the Wild Things Are, Harry Potter. |
+| 16 | Comic Books & Graphic Novels | 12 | ✅ | TS has "Comic Book Characters" + "Comic Strips." Omnibus. |
 
-**Coverage**: 9/16 done. Best-covered category. Needs niche depth for LL.
+**Coverage**: 16/16 done. Complete.
 
 ---
 
@@ -374,7 +374,7 @@ Inspired by TrivialStudies' unique study tools:
 | Geography | 10 | 20 | 50% |
 | Language | 1 | 5 | 20% |
 | Lifestyle | 1 | 7 | 14% |
-| Literature | 9 | 16 | 56% |
+| Literature | 16 | 16 | 100% |
 | Math | 4 | 6 | 67% |
 | Pop Music | 2 | 10 | 20% |
 | Science | 13 | 20 | 65% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **69** | **177** | **39%** |
+| **TOTAL** | **76** | **177** | **43%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -395,7 +395,7 @@ Inspired by TrivialStudies' unique study tools:
 7. **Language** — 1/5 (20%). Small but distinctive LL category.
 8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
 9. **Art** — 2/5 (40%). Needs the actual artworks.
-10. **Literature** — 9/16 (56%). Best covered, but niche topics missing.
+10. **Literature** — 16/16 (100%). Complete.
 11. **Film** — 5/10 (50%). Good core, needs depth.
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.

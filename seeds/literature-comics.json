@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "literature/comics", "parentId": "literature", "name": "Comics & Graphic Novels", "description": "Notable comics and graphic novels and their creators" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/comics/works-and-creators",
+      "nodeId": "literature/comics",
+      "name": "Comics & Graphic Novels — Works & Creators",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "maus",
+          "prompt": "Who created *Maus* (1980–1991), the graphic memoir depicting the Holocaust with Jews as mice and Nazis as cats, and the author interviewing his father Vladek?",
+          "answer": "Art Spiegelman",
+          "alternates": ["Spiegelman"],
+          "explanation": "Published serially in *Raw* magazine (1980–1991); collected in two volumes: *My Father Bleeds History* and *And Here My Troubles Began*\nWon the Pulitzer Prize Special Award in 1992 — the first comic book to receive a Pulitzer\nThe animal allegory extends: Poles are pigs, Americans are dogs, French are frogs\nSpiegelman depicts both the Holocaust narrative and his strained relationship with his difficult, surviving father Vladek\nBanned in Tennessee schools in 2022, reigniting its prominence; immediately topped bestseller lists",
+          "cardFront": "*Maus*",
+          "cardBack": "Art Spiegelman"
+        },
+        {
+          "id": "watchmen",
+          "prompt": "Who created *Watchmen* (1986–1987), the deconstructionist superhero graphic novel set in an alternate 1985 where costumed heroes are forced into retirement?",
+          "answer": "Alan Moore and Dave Gibbons",
+          "alternates": ["Alan Moore", "Moore and Gibbons", "Moore/Gibbons"],
+          "explanation": "Published as a 12-issue DC Comics limited series; collected in 1987\nTime magazine named it one of the 100 best English-language novels (2005) — the only graphic novel on the list\nThe question 'Who watches the watchmen?' (from Juvenal) runs throughout as a meditation on power and accountability\nMoore (writer) and Gibbons (artist/letterer) retain moral ownership but DC Comics holds the legal copyright — a source of ongoing conflict\nZack Snyder's 2009 film adaptation was praised for visual fidelity; HBO's 2019 sequel series won the Peabody Award",
+          "cardFront": "*Watchmen*",
+          "cardBack": "Alan Moore and Dave Gibbons"
+        },
+        {
+          "id": "v-for-vendetta",
+          "prompt": "Who created *V for Vendetta* (1982–1989), the graphic novel about a masked anarchist fighting a fascist future Britain, whose Guy Fawkes mask became a global protest symbol?",
+          "answer": "Alan Moore and David Lloyd",
+          "alternates": ["Alan Moore", "Moore and Lloyd", "Moore/Lloyd"],
+          "explanation": "Published in *Warrior* magazine (1982–1985) then DC/Vertigo (1988–1989); illustrated by David Lloyd\nMoore conceived it as a reaction against Thatcherism; Lloyd added the Guy Fawkes mask design\nThe Anonymous hacktivist collective adopted the V mask after the 2005 film adaptation starred Hugo Weaving\nMoore refused any association with the film; he removed his name from the credits and donated his share of profits\nSets up a debate between V's anarchism and his protégée Evey's more pragmatic views on freedom vs. order",
+          "cardFront": "*V for Vendetta*",
+          "cardBack": "Alan Moore and David Lloyd"
+        },
+        {
+          "id": "the-dark-knight-returns",
+          "prompt": "Who created *The Dark Knight Returns* (1986), the four-issue story in which a 55-year-old Bruce Wayne comes out of retirement to fight crime in a dystopian Gotham?",
+          "answer": "Frank Miller",
+          "alternates": ["Miller"],
+          "explanation": "Published as a 4-issue DC Comics limited series in 1986; redefined Batman as a dark, obsessive vigilante\nBrought a noir aesthetic, political commentary, and an aging hero's mortality to superhero comics\nThe climactic Batman vs. Superman fight — staged as an ideological clash, not just a brawl — became archetypal\nMiller also created *Sin City* (1991–2000) and wrote *Batman: Year One* (1987)\nDirectly influenced Tim Burton's 1989 *Batman* and the entire 'grim and gritty' era of 1980s–90s comics",
+          "cardFront": "*The Dark Knight Returns*",
+          "cardBack": "Frank Miller"
+        },
+        {
+          "id": "persepolis",
+          "prompt": "Who created *Persepolis* (2000–2003), the autobiographical graphic novel memoir about growing up in Iran during the Islamic Revolution?",
+          "answer": "Marjane Satrapi",
+          "alternates": ["Satrapi"],
+          "explanation": "Published in French in two volumes (2000, 2001); English translation appeared in one volume (2003)\nSatrapi depicts her childhood in Tehran, exile in Vienna, and eventual emigration to France\nBanned in Iran; also challenged in some U.S. schools for depictions of violence, torture, and drug use\nThe 2007 animated film adaptation (co-directed by Satrapi and Vincent Paronnaud) won the Jury Prize at Cannes\nThe title refers to Persepolis, the ancient Persian ceremonial capital — evoking the Iran that existed before the Revolution",
+          "cardFront": "*Persepolis*",
+          "cardBack": "Marjane Satrapi"
+        },
+        {
+          "id": "fun-home",
+          "prompt": "Who created *Fun Home: A Family Tragicomic* (2006), the graphic memoir about growing up with a closeted gay father and the author's own coming-out?",
+          "answer": "Alison Bechdel",
+          "alternates": ["Bechdel"],
+          "explanation": "Published 2006; named best book of the year by *Time* magazine\nThe 'Fun Home' of the title is the family's nickname for the funeral home — ironic counterpoint to the family's hidden tragedies\nBechdel's father died in what she believes was a suicide shortly after she came out to her parents\nBechdel is also the creator of the long-running comic strip *Dykes to Watch Out For* (1983–2008)\nAdapted as a Tony Award-winning Broadway musical in 2015, composed by Jeanine Tesori; first Broadway musical with a lesbian protagonist",
+          "cardFront": "*Fun Home*",
+          "cardBack": "Alison Bechdel"
+        },
+        {
+          "id": "saga",
+          "prompt": "Who created *Saga* (2012–present), the sprawling space opera comic about two soldiers from warring species who have a baby together and go on the run?",
+          "answer": "Brian K. Vaughan and Fiona Staples",
+          "alternates": ["Brian K Vaughan", "Vaughan and Staples", "Vaughan/Staples", "BKV"],
+          "explanation": "Published by Image Comics from 2012; Vaughan (writer) and Staples (artist) share co-creator credit\nDeliberately draws on everything from *Star Wars* to manga to create an epic mixing genres (war, romance, family drama)\nOpening image — a birth shown graphically — immediately signals it is not a conventional superhero comic\nWon the Hugo Award for Best Graphic Story four years in a row (2013–2016)\nGoing on 'hiatus' in 2018 generated enormous anxiety among fans; returned in 2022",
+          "cardFront": "*Saga*",
+          "cardBack": "Brian K. Vaughan and Fiona Staples"
+        },
+        {
+          "id": "sandman",
+          "prompt": "Who created *The Sandman* (1989–1996), the DC/Vertigo series following Dream of the Endless, lord of stories, through mythology, history, and the waking world?",
+          "answer": "Neil Gaiman",
+          "alternates": ["Gaiman"],
+          "explanation": "Published by DC/Vertigo from 1989 to 1996; 75 issues plus special editions\nFirst comic to win the World Fantasy Award for Best Short Story (1991, 'A Midsummer Night's Dream' issue)\nThe rule was subsequently changed to exclude comics after some controversy\nGaiman built a rotating team of artists including Dave McKean, Sam Kieth, Mike Dringenberg, and Jill Thompson\nNetflix adapted the series in 2022 with Tom Sturridge as Dream; Gaiman was showrunner",
+          "cardFront": "*The Sandman*",
+          "cardBack": "Neil Gaiman"
+        },
+        {
+          "id": "calvin-and-hobbes",
+          "prompt": "Who created *Calvin and Hobbes* (1985–1995), the newspaper comic strip about a mischievous 6-year-old boy and his stuffed tiger?",
+          "answer": "Bill Watterson",
+          "alternates": ["Watterson"],
+          "explanation": "Ran from November 18, 1985 to December 31, 1995; Watterson's decision to end it at 10 years was entirely voluntary\nWatterson named Calvin after John Calvin and Hobbes after Thomas Hobbes — the Calvinist predestination/free will debate runs subtly throughout\nFamously refused all merchandising deals, keeping the characters exclusively in the strip\nAt peak syndication, ran in 2,400 newspapers in 23 countries; the final strip ran without advance notice\nWatterson has granted only one major interview since retiring; lives in near-total seclusion in Ohio",
+          "cardFront": "*Calvin and Hobbes*",
+          "cardBack": "Bill Watterson"
+        },
+        {
+          "id": "peanuts",
+          "prompt": "Who created *Peanuts* (1950–2000), the newspaper comic strip featuring Charlie Brown, Snoopy, Lucy, Linus, and the Great Pumpkin?",
+          "answer": "Charles M. Schulz",
+          "alternates": ["Charles Schulz", "Schulz", "Charles Monroe Schulz"],
+          "explanation": "Ran from October 2, 1950 to February 13, 2000 — Schulz died the night before the final strip was published\nSchulz drew every strip himself for 50 years — never used assistants — producing approximately 17,897 strips\nAt peak, ran in 2,600 newspapers in 75 countries; generated $1 billion/year in licensing\n*A Charlie Brown Christmas* (1965) is the longest-running animated holiday special on American TV\nSchulz based Charlie Brown partly on himself — the strip drew heavily on his own childhood loneliness and insecurity",
+          "cardFront": "*Peanuts*",
+          "cardBack": "Charles M. Schulz"
+        },
+        {
+          "id": "doonesbury",
+          "prompt": "Who created *Doonesbury* (1970–present), the long-running political satire comic strip that became the first daily comic to win the Pulitzer Prize for Editorial Cartooning?",
+          "answer": "Garry Trudeau",
+          "alternates": ["Trudeau"],
+          "explanation": "Began in Yale's student newspaper *Yale Daily News* in 1968 as 'Bull Tales'; nationally syndicated from 1970\nWon the Pulitzer Prize for Editorial Cartooning in 1975 — the first daily comic strip to win\nTrudeau has satirized every U.S. president from Nixon through Biden; several newspapers have refused to run it\nWent on hiatus 1983–1984 to give Trudeau time to write *Doonesbury's* first Broadway musical\nTrudeau is married to TV journalist Jane Pauley",
+          "cardFront": "*Doonesbury*",
+          "cardBack": "Garry Trudeau"
+        },
+        {
+          "id": "batman-the-killing-joke",
+          "prompt": "Who created *Batman: The Killing Joke* (1988), the one-shot story exploring the Joker's possible origin and his assault on Commissioner Gordon and Barbara Gordon?",
+          "answer": "Alan Moore and Brian Bolland",
+          "alternates": ["Alan Moore", "Moore and Bolland", "Moore/Bolland"],
+          "explanation": "Published 1988; one of the best-selling graphic novels of all time and the standard for definitive Joker stories\nThe Joker's possible origin: a failed comedian who has 'one bad day' that drives him insane\nBarbara Gordon is shot and paralyzed by the Joker — a controversial plot point that resonated for decades\nThe paralyzed Barbara Gordon was later reimagined as Oracle, a computer expert — a fan-celebrated disability representation\nMoore has since disowned the story, saying he regrets the violence and feels DC used it irresponsibly",
+          "cardFront": "*Batman: The Killing Joke*",
+          "cardBack": "Alan Moore and Brian Bolland"
+        }
+      ]
+    }
+  ]
+}
