@@ -75,6 +75,45 @@
           "cardBack": "Neptune"
         }
       ]
+    },
+    {
+      "id": "science/astronomy/dwarf-planets",
+      "nodeId": "science/astronomy",
+      "name": "Dwarf Planets",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name all 5 officially recognized dwarf planets" },
+      "items": [
+        {
+          "id": "pluto",
+          "answer": "Pluto",
+          "alternates": [],
+          "explanation": "Reclassified from the 9th planet to a dwarf planet by the IAU in August 2006\nLocated in the Kuiper Belt; has 5 moons, the largest being Charon (~half Pluto's diameter)\nNew Horizons flew past in July 2015, revealing water-ice mountains and a heart-shaped nitrogen plain (Tombaugh Regio)\nSmaller than Earth's Moon; diameter ~2,377 km\nDiscovered in 1930 by Clyde Tombaugh at Lowell Observatory in Arizona"
+        },
+        {
+          "id": "eris",
+          "answer": "Eris",
+          "alternates": [],
+          "explanation": "Slightly smaller than Pluto in diameter but ~27% more massive\nLocated in the scattered disc, far beyond the Kuiper Belt\nIts discovery in 2005 by Mike Brown's team directly triggered the debate that led to Pluto's reclassification\nNamed after the Greek goddess of discord and strife \u2014 appropriate given the controversy it caused\nHas one moon, Dysnomia (named after Eris's daughter, goddess of lawlessness)"
+        },
+        {
+          "id": "haumea",
+          "answer": "Haumea",
+          "alternates": [],
+          "explanation": "Fastest-rotating large body in the solar system: one day lasts only ~4 hours\nEgg-shaped (oblate spheroid) due to its rapid spin\nLocated in the Kuiper Belt; has 2 moons (Hi\u02bbaka and Namaka) and a ring system\nNamed after the Hawaiian goddess of fertility and childbirth\nSurface covered in crystalline water ice, giving it an unusually bright white appearance"
+        },
+        {
+          "id": "makemake",
+          "answer": "Makemake",
+          "alternates": [],
+          "explanation": "Second-brightest Kuiper Belt object after Pluto\nReddish-brown surface covered with frozen methane, ethane, and nitrogen\nHas one known moon, provisionally nicknamed MK 2\nNamed after the creator deity of the Rapa Nui people of Easter Island; discovered shortly after Easter 2005\nNo spacecraft has visited Makemake"
+        },
+        {
+          "id": "ceres",
+          "answer": "Ceres",
+          "alternates": [],
+          "explanation": "The only dwarf planet in the inner solar system; located in the Asteroid Belt between Mars and Jupiter\nLargest object in the Asteroid Belt: ~940 km diameter, comprising ~33% of the belt's total mass\nClassified as a planet (1801\u20131850), then as an asteroid, then as a dwarf planet (2006)\nNASA's Dawn spacecraft orbited Ceres 2015\u20132018; discovered bright spots in Occator Crater (salt deposits from subsurface brines)\nNamed after the Roman goddess of grain; the word 'cereal' derives from the same root"
+        }
+      ]
     }
   ]
 }
