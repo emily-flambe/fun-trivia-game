@@ -26,12 +26,14 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 	const inputRef = useRef<HTMLInputElement>(null);
 	const startTimeRef = useRef<number>(Date.now());
 	const submittedRef = useRef(false);
+	const [activeItems, setActiveItems] = useState(items);
 
 	const nodeId = exercise.nodeId;
 	const ordered = exercise.config?.ordered ?? false;
 	const prompt = exercise.config?.prompt || exercise.name;
-	const totalItems = items.length;
+	const totalItems = activeItems.length;
 	const foundIds = new Set(found.map((f) => f.itemId));
+	const activeItemIds = new Set(activeItems.map((i) => i.id));
 
 	useEffect(() => {
 		if (!gaveUp && inputRef.current) inputRef.current.focus();
@@ -52,7 +54,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 				score: found.length,
 				total: totalItems,
 				durationSeconds,
-				itemsDetail: items.map((item) => {
+				itemsDetail: activeItems.map((item) => {
 					const f = found.find((fi) => fi.itemId === item.id);
 					return {
 						itemId: item.id,
@@ -73,7 +75,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 
 		const result = await checkAnswer(exercisePath, { answer: input }) as FillBlanksCheckResult;
 
-		if (result.matched && result.matchedItemId && !foundIds.has(result.matchedItemId)) {
+		if (result.matched && result.matchedItemId && !foundIds.has(result.matchedItemId) && activeItemIds.has(result.matchedItemId)) {
 			setFound((prev) => [...prev, {
 				itemId: result.matchedItemId!,
 				position: result.position ?? 0,
@@ -81,7 +83,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 				fuzzyMatch: result.fuzzyMatch,
 			}]);
 			setLastResult({ text: `Found: ${input}${result.fuzzyMatch ? ' (close enough)' : ''}`, success: true });
-		} else if (result.matched && result.matchedItemId && foundIds.has(result.matchedItemId)) {
+		} else if (result.matched && result.matchedItemId && (foundIds.has(result.matchedItemId) || !activeItemIds.has(result.matchedItemId))) {
 			setLastResult({ text: 'Already found!', success: false });
 		} else {
 			setLastResult({ text: `"${input}" — not a match`, success: false });
@@ -96,13 +98,37 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 		revealAnswers(exercisePath).then(setRevealed).catch(() => {});
 	}
 
+	function handleRepeat() {
+		setActiveItems(items);
+		setFound([]);
+		setInput('');
+		setGaveUp(false);
+		setRevealed([]);
+		setLastResult(null);
+		startTimeRef.current = Date.now();
+		submittedRef.current = false;
+	}
+
+	function handleRetryFailed() {
+		const foundItemIds = new Set(found.map((f) => f.itemId));
+		const missed = items.filter((i) => !foundItemIds.has(i.id));
+		setActiveItems(missed);
+		setFound([]);
+		setInput('');
+		setGaveUp(false);
+		setRevealed([]);
+		setLastResult(null);
+		startTimeRef.current = Date.now();
+		submittedRef.current = false;
+	}
+
 	// Build a map of revealed answers by item id
 	const revealedMap = new Map(revealed.map((r) => [r.id, r]));
 
 	// Build slots for display
 	const slots: { position: number; found: FoundItem | null; revealedAnswer?: string; label?: string }[] = [];
 	for (let i = 0; i < totalItems; i++) {
-		const item = items[i];
+		const item = activeItems[i];
 		const rev = revealedMap.get(item.id);
 		slots.push({ position: i, found: null, revealedAnswer: rev?.answer, label: item.data?.label });
 	}
@@ -127,7 +153,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 	// For unordered exercises, reassign revealed answers on empty slots
 	// to show actual unfound items instead of positionally-matched items
 	if (!ordered) {
-		const unfoundItems = items.filter(item => !foundIds.has(item.id));
+		const unfoundItems = activeItems.filter(item => !foundIds.has(item.id));
 		let unfoundIdx = 0;
 		for (const slot of slots) {
 			if (!slot.found && unfoundIdx < unfoundItems.length) {
@@ -221,14 +247,19 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 							</div>
 						</div>
 						<div className="flex flex-wrap gap-3">
-							<a href={`#/exercise/${exercisePath}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-								Try Again
-							</a>
+							<button onClick={handleRepeat} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+								Repeat
+							</button>
+							{!allFound && (
+								<button onClick={handleRetryFailed} className="bg-surface-bright hover:bg-surface-hover text-accent border border-accent/30 px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+									Retry Failed
+								</button>
+							)}
 							<a href={`#/exercise/${exercisePath}?mode=learn`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 								Study
 							</a>
-							<a href={`#/node/${nodeId}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-								Back
+							<a href="#/" className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+								Home
 							</a>
 						</div>
 					</div>
