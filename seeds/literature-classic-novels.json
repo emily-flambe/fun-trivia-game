@@ -8,6 +8,7 @@
       "nodeId": "literature/classic-novels",
       "name": "Classic Novels — Author Matching",
       "format": "text-entry",
+      "displayType": "cards",
       "items": [
         {
           "id": "moby-dick",
@@ -188,6 +189,141 @@
           "explanation": "Published 1818; subtitled 'The Modern Prometheus' — Shelley was only 18 when she began writing it\nConceived during a ghost story contest at Lord Byron's villa on Lake Geneva in 1816\nConsidered the first science fiction novel — the creature is animated by galvanism, not magic\nPublished anonymously; many assumed her husband Percy Bysshe Shelley wrote it\nHer mother was Mary Wollstonecraft, author of *A Vindication of the Rights of Woman* (1792), a foundational feminist text\nShelley kept her dead husband's calcified heart wrapped in silk until her death in 1851",
           "cardFront": "*Frankenstein*",
           "cardBack": "Mary Shelley"
+        },
+        {
+          "id": "madame-bovary",
+          "prompt": "Who wrote *Madame Bovary* (1857), the novel about a doctor's wife in rural Normandy who has adulterous affairs and accumulates debt pursuing romantic fantasies?",
+          "answer": "Gustave Flaubert",
+          "alternates": ["Flaubert"],
+          "explanation": "Published 1857; Flaubert was prosecuted for 'offense against public morals and religion' — acquitted\nEmma Bovary, trapped in a dull provincial marriage, seeks escape through adulterous affairs and shopping\nFlaubert's obsessive pursuit of 'le mot juste' (the right word) set the standard for prose style in the novel\n'Bovaryism' — romanticizing one's life beyond reality — entered psychological and cultural vocabulary\nWritten over four years (1851–1856); Flaubert once reportedly spent a week on a single page\nConsidered the first great realist novel; influenced Tolstoy, Henry James, and nearly every subsequent novelist",
+          "cardFront": "*Madame Bovary*",
+          "cardBack": "Gustave Flaubert"
+        },
+        {
+          "id": "the-trial",
+          "prompt": "Who wrote *The Trial* (published posthumously 1925), in which Josef K. is arrested without explanation and navigates a nightmarish, incomprehensible legal system?",
+          "answer": "Franz Kafka",
+          "alternates": ["Kafka"],
+          "explanation": "Published 1925, the year after Kafka died of tuberculosis; he asked friend Max Brod to destroy all manuscripts\nMax Brod ignored the request and published *The Trial*, *The Castle*, and other works — an act that saved world literature\n'Kafkaesque' entered English as an adjective for absurd, dehumanizing bureaucratic logic\nKafka was a Czech-speaking Jew from Prague who worked in insurance and wrote only at night\nAlso wrote *The Metamorphosis* (1915) — Gregor Samsa wakes transformed into a giant insect — and *The Castle* (1926)\nNever married; had a fraught relationship with his domineering father, documented in the 100-page 'Letter to His Father'",
+          "cardFront": "*The Trial*",
+          "cardBack": "Franz Kafka"
+        },
+        {
+          "id": "swanns-way",
+          "prompt": "Who wrote *In Search of Lost Time* (also known by its first volume, *Swann's Way*), a seven-volume novel famous for its passage on involuntary memory triggered by a madeleine dipped in tea?",
+          "answer": "Marcel Proust",
+          "alternates": ["Proust"],
+          "explanation": "Published 1913–1927; Proust died in 1922 before completing the final three volumes, which were edited posthumously\nApproximately 1.5 million words — one of the longest novels in Western literature\nThe 'madeleine moment': a bite of a tea-soaked madeleine triggers a flood of childhood memories — the defining passage\nProust's concept of 'involuntary memory' (mémoire involontaire) vs. deliberate recollection\nIn his final years, Proust was a near-recluse in a cork-lined Paris apartment, blocking noise and allergens\nThe title in French is *À la recherche du temps perdu*; an earlier English translation was titled *Remembrance of Things Past*",
+          "cardFront": "*Swann's Way* / *In Search of Lost Time*",
+          "cardBack": "Marcel Proust"
+        },
+        {
+          "id": "anna-karenina",
+          "prompt": "Who wrote *Anna Karenina* (1878), the novel following an aristocrat who leaves her husband for Count Vronsky, which opens with the line 'All happy families are alike; each unhappy family is unhappy in its own way'?",
+          "answer": "Leo Tolstoy",
+          "alternates": ["Tolstoy", "Lev Tolstoy"],
+          "explanation": "Published serially 1875–1878; Tolstoy considered it his first true novel (regarding *War and Peace* as an 'epic poem')\nOpening line is one of the most quoted in world literature — the 'Anna Karenina principle' is used in evolutionary biology\nAnna's fate is foreshadowed early: she witnesses a railway worker killed by a train; she dies under a train\nParallel plot follows Konstantin Levin, widely read as Tolstoy's autobiographical stand-in, seeking spiritual meaning\nTolstoy, a Russian count, later renounced his novels, wealth, and title, embracing Christian anarchism\nAlso wrote *War and Peace* (1869) and *The Death of Ivan Ilyich* (1886)",
+          "cardFront": "*Anna Karenina*",
+          "cardBack": "Leo Tolstoy"
+        },
+        {
+          "id": "brothers-karamazov",
+          "prompt": "Who wrote *The Brothers Karamazov* (1880), his final novel, exploring faith, doubt, and parricide through three brothers — Dmitri, Ivan, and Alyosha?",
+          "answer": "Fyodor Dostoevsky",
+          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+          "explanation": "Published 1880; Dostoevsky's final novel — he died in January 1881, months after completing it\nIvan's 'Grand Inquisitor' chapter is among the most influential philosophical passages in all fiction — a debate about free will, religion, and suffering\nAddresses theodicy: Ivan challenges Alyosha with the suffering of innocent children as proof against God\nFreud wrote 'Dostoevsky and Parricide' (1928) using the novel as a psychoanalytic case study\nAlso wrote *Crime and Punishment* (1866) and *The Idiot* (1869)\nDostoevsky was sentenced to death by firing squad in 1849; reprieved at the last moment and sent to Siberian labor camp",
+          "cardFront": "*The Brothers Karamazov*",
+          "cardBack": "Fyodor Dostoevsky"
+        },
+        {
+          "id": "lolita",
+          "prompt": "Who wrote *Lolita* (1955), the controversial novel narrated by Humbert Humbert, a European scholar obsessed with 12-year-old Dolores Haze?",
+          "answer": "Vladimir Nabokov",
+          "alternates": ["Nabokov"],
+          "explanation": "First published by Olympia Press in Paris (1955) — U.S. publishers refused; American edition appeared in 1958 and became a bestseller\nNabokov was Russian-born and wrote *Lolita* in English, his third language after Russian and French\nThe name 'Lolita' entered the language as a label for a precociously seductive girl, though the novel depicts predatory abuse\nNabokov was also a world-renowned lepidopterist (butterfly expert) who worked at Harvard's Museum of Comparative Zoology\nAlso wrote *Pale Fire* (1962) and *Speak, Memory* (1951), a celebrated autobiography\nAdapted twice for film: by Stanley Kubrick (1962) and Adrian Lyne (1997)",
+          "cardFront": "*Lolita*",
+          "cardBack": "Vladimir Nabokov"
+        },
+        {
+          "id": "the-stranger",
+          "prompt": "Who wrote *The Stranger* (*L'Étranger*, 1942), the existentialist novel in which Meursault, emotionally detached, shoots an Arab man on a beach and is condemned as much for his indifference as the crime?",
+          "answer": "Albert Camus",
+          "alternates": ["Camus"],
+          "explanation": "Published 1942 in French as *L'Étranger*; Camus also published *The Myth of Sisyphus* the same year\nFamous opening line: 'Mother died today. Or maybe yesterday, I don't know.'\nMeursault's indifference to his mother's death becomes as damning in court as the killing itself\nCentral to Camus's philosophy of absurdism: humans seek meaning in an indifferent universe; one must imagine Sisyphus happy\nCamus won the Nobel Prize in Literature in 1957 — second-youngest laureate at the time\nDied in a car crash in January 1960 at age 46; an unused train ticket was found in his coat pocket",
+          "cardFront": "*The Stranger* (*L'Étranger*)",
+          "cardBack": "Albert Camus"
+        },
+        {
+          "id": "mrs-dalloway",
+          "prompt": "Who wrote *Mrs Dalloway* (1925), a pioneering stream-of-consciousness novel following Clarissa Dalloway preparing for a party over a single day in post-WWI London?",
+          "answer": "Virginia Woolf",
+          "alternates": ["Woolf"],
+          "explanation": "Published 1925; set on a single June day in 1923, unfolding through multiple characters' interwoven thoughts\nRuns parallel to the story of Septimus Smith, a WWI veteran with shell shock — he and Clarissa never meet but mirror each other\nAmong the first novels to take shell shock (PTSD) seriously as a subject\nOpening line: 'Mrs Dalloway said she would buy the flowers herself'\nWoolf co-founded the Hogarth Press (1917) and published the first English editions of Freud's works\nDied by suicide in March 1941, weighting her pockets with stones and walking into the River Ouse; left a note to her husband Leonard",
+          "cardFront": "*Mrs Dalloway*",
+          "cardBack": "Virginia Woolf"
+        },
+        {
+          "id": "on-the-road",
+          "prompt": "Who wrote *On the Road* (1957), the Beat Generation novel of cross-country road trips based on the author's real journeys with Neal Cassady?",
+          "answer": "Jack Kerouac",
+          "alternates": ["Kerouac"],
+          "explanation": "Published 1957 after six years of rejection; became the defining manifesto of the Beat Generation\nKerouac reportedly typed the first draft in 1951 in three weeks on a single 120-foot scroll of paper\nThe scroll was sold at auction in 2001 for $2.43 million\nNeal Cassady (Dean Moriarty in the novel) was also the driver of Ken Kesey's Merry Pranksters' bus in the 1960s\nAlso wrote *The Dharma Bums* (1958) and *Big Sur* (1962)\nDied in 1969 at age 47 from an abdominal hemorrhage related to alcoholism",
+          "cardFront": "*On the Road*",
+          "cardBack": "Jack Kerouac"
+        },
+        {
+          "id": "sound-and-the-fury",
+          "prompt": "Who wrote *The Sound and the Fury* (1929), the modernist novel following the decline of the Compson family told through four narrators including the intellectually disabled Benjy?",
+          "answer": "William Faulkner",
+          "alternates": ["Faulkner"],
+          "explanation": "Published 1929; the first section, narrated by Benjy Compson, is one of the most demanding passages in American literature\nThe title is from Macbeth: 'full of sound and fury, signifying nothing'\nSet in Faulkner's fictional Yoknapatawpha County, a detailed fictional world based on Lafayette County, Mississippi\nWon the Nobel Prize in Literature in 1949; also wrote *As I Lay Dying* (1930) and *Absalom, Absalom!* (1936)\nInfluenced Gabriel García Márquez and Toni Morrison, both future Nobel laureates\nWorked as a screenwriter in Hollywood; received credit on *To Have and Have Not* (1944) and *The Big Sleep* (1946)",
+          "cardFront": "*The Sound and the Fury*",
+          "cardBack": "William Faulkner"
+        },
+        {
+          "id": "their-eyes-were-watching-god",
+          "prompt": "Who wrote *Their Eyes Were Watching God* (1937), the novel following Janie Crawford through three marriages in the early 20th-century American South, a cornerstone of African American literature?",
+          "answer": "Zora Neale Hurston",
+          "alternates": ["Hurston"],
+          "explanation": "Published 1937; written in seven weeks while Hurston was on a Guggenheim Fellowship in Haiti\nInitially dismissed by critics including Richard Wright as insufficiently political about racism; rediscovered in the 1970s\nAlice Walker's 1975 essay 'In Search of Zora Neale Hurston' rescued Hurston's reputation; Walker had a headstone placed on her unmarked grave\nHurston was a central figure of the Harlem Renaissance alongside Langston Hughes and Countee Cullen\nTrained as an anthropologist under Franz Boas at Barnard College; collected Black folklore throughout the South\nDied in poverty in 1960, buried in an unmarked grave in Fort Pierce, Florida",
+          "cardFront": "*Their Eyes Were Watching God*",
+          "cardBack": "Zora Neale Hurston"
+        },
+        {
+          "id": "middlemarch",
+          "prompt": "Who wrote *Middlemarch* (1871–1872), the novel set in a fictional English Midlands town, often cited as the greatest novel in the English language, written under a male pseudonym?",
+          "answer": "George Eliot",
+          "alternates": ["Mary Ann Evans", "Mary Anne Evans", "Marian Evans"],
+          "explanation": "Published serially 1871–1872; Virginia Woolf called it 'one of the few English novels written for grown-up people'\n'George Eliot' was the pen name of Mary Ann Evans — she adopted a male pseudonym to ensure her work was taken seriously\nCentral characters: idealistic Dorothea Brooke, who makes a catastrophically misguided marriage, and ambitious doctor Tertius Lydgate\nEliot lived unmarried for 24 years with philosopher George Henry Lewes (married to another woman) in a scandalous arrangement\nIn 1880, seven months before her death, she married John Walter Cross — a man 20 years her junior\nAlso wrote *The Mill on the Floss* (1860) and *Silas Marner* (1861)",
+          "cardFront": "*Middlemarch*",
+          "cardBack": "George Eliot"
+        },
+        {
+          "id": "grapes-of-wrath",
+          "prompt": "Who wrote *The Grapes of Wrath* (1939), the Pulitzer Prize-winning novel following the Joad family's migration from the Oklahoma Dust Bowl to California during the Great Depression?",
+          "answer": "John Steinbeck",
+          "alternates": ["Steinbeck"],
+          "explanation": "Published 1939; won the Pulitzer Prize for Fiction in 1940; Steinbeck cited it in his 1962 Nobel Prize acceptance speech\nBased partly on a series of articles Steinbeck wrote for the San Francisco News in 1936 on migrant farm workers\nBanned and burned in several California counties as 'communist propaganda' and 'immoral'\nTitle is from 'The Battle Hymn of the Republic': 'He is trampling out the vintage where the grapes of wrath are stored'\nJohn Ford directed the 1940 film adaptation starring Henry Fonda — considered a masterpiece of American cinema\nAlso wrote *Of Mice and Men* (1937) and *East of Eden* (1952)",
+          "cardFront": "*The Grapes of Wrath*",
+          "cardBack": "John Steinbeck"
+        },
+        {
+          "id": "slaughterhouse-five",
+          "prompt": "Who wrote *Slaughterhouse-Five* (1969), the anti-war novel in which Billy Pilgrim, 'unstuck in time,' relives his experience as a POW during the 1945 firebombing of Dresden?",
+          "answer": "Kurt Vonnegut",
+          "alternates": ["Vonnegut"],
+          "explanation": "Published 1969, at the height of the Vietnam War; Vonnegut himself survived the February 1945 Dresden firebombing as a POW\nVonnegut and fellow prisoners were sheltered in an underground meat locker — Schlachthof Fünf (Slaughterhouse Five)\nThe phrase 'So it goes' appears 106 times in the novel, always following a death — Vonnegut's fatalistic refrain\nIntroduces the Tralfamadorians, aliens who experience all time simultaneously and see death as just one moment\nAlso wrote *Cat's Cradle* (1963) and *Breakfast of Champions* (1973)\nThe novel was banned in several U.S. school districts; Vonnegut responded with characteristically sardonic humor",
+          "cardFront": "*Slaughterhouse-Five*",
+          "cardBack": "Kurt Vonnegut"
+        },
+        {
+          "id": "things-fall-apart",
+          "prompt": "Who wrote *Things Fall Apart* (1958), the novel following Igbo warrior Okonkwo as British colonialism dismantles his Nigerian village's traditional way of life?",
+          "answer": "Chinua Achebe",
+          "alternates": ["Achebe"],
+          "explanation": "Published 1958; the most widely read and taught novel in modern African literature\nTitle is from W.B. Yeats's poem 'The Second Coming': 'Things fall apart; the centre cannot hold'\nAchebe wrote it partly as a response to European novels like *Heart of Darkness* and *Mister Johnson* that depicted Africa through a colonial lens\nHas sold over 20 million copies and been translated into 57+ languages — the most translated African novel ever\nAchebe is widely called the 'father of modern African literature' and won numerous prizes including the Man Booker International Prize (2007)\nLost the use of his legs in a 1990 car crash in Nigeria; spent his final decades at Bard College in New York",
+          "cardFront": "*Things Fall Apart*",
+          "cardBack": "Chinua Achebe"
         }
       ]
     }
