@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "american-history/wars",
+      "parentId": "american-history",
+      "name": "U.S. Wars",
+      "description": "Major wars involving the United States"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/wars/major-us-wars",
+      "nodeId": "american-history/wars",
+      "name": "Major U.S. Wars",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "revolutionary-war",
+          "prompt": "This 1775–1783 conflict against British rule began at Lexington and Concord and ended with the Treaty of Paris granting American independence. What is this war called?",
+          "answer": "Revolutionary War",
+          "alternates": ["American Revolution", "War of Independence", "American Revolutionary War"],
+          "explanation": "Fought 1775–1783 against British rule; the Declaration of Independence issued July 4, 1776\nOpened with Battles of Lexington and Concord (April 19, 1775) — 'the shot heard round the world'\nFrance's military alliance (1778) proved decisive — the siege of Yorktown (1781) was the last major battle\nTreaty of Paris (1783): Britain recognized U.S. independence and ceded land east of the Mississippi\nWashington's surprise attack at Trenton (December 26, 1776) reinvigorated the colonial cause after defeats\nEstimated ~6,800 killed in battle; ~17,000 died of disease",
+          "cardFront": "1775–1783",
+          "cardBack": "Revolutionary War"
+        },
+        {
+          "id": "war-of-1812",
+          "prompt": "In this war against Britain, the White House was burned, Francis Scott Key wrote 'The Star-Spangled Banner', and the Battle of New Orleans made Andrew Jackson famous — though it was fought after the peace treaty was signed. What is this war called?",
+          "answer": "War of 1812",
+          "alternates": ["The War of 1812"],
+          "explanation": "Fought 1812–1815; declared by the U.S. over British impressment of American sailors and trade interference\nBritish troops burned Washington D.C. (including the White House and Capitol) in August 1814\nFrancis Scott Key wrote 'The Star-Spangled Banner' while watching the bombardment of Fort McHenry (September 1814)\nBattle of New Orleans (January 1815) was fought after the Treaty of Ghent was signed — news traveled slowly\nAndrew Jackson became a national hero at New Orleans, launching his political career\nTreaty of Ghent (December 1814) essentially restored pre-war borders — a stalemate",
+          "cardFront": "1812–1815",
+          "cardBack": "War of 1812"
+        },
+        {
+          "id": "mexican-american-war",
+          "prompt": "This war ended with the Treaty of Guadalupe Hidalgo, which transferred Texas, California, New Mexico, Arizona, Nevada, and Utah to the United States for $15 million. What is this war called?",
+          "answer": "Mexican-American War",
+          "alternates": ["Mexican War", "Mexican American War"],
+          "explanation": "Fought 1846–1848; triggered by disputed Texas annexation and a border skirmish on the Rio Grande\nGeneral Zachary Taylor won at Monterrey and Buena Vista; General Winfield Scott captured Mexico City\nTreaty of Guadalupe Hidalgo (1848): Mexico ceded ~525,000 square miles — roughly half its territory\nCongressman Abraham Lincoln challenged Polk's justification; Ulysses S. Grant later called it 'one of the most unjust wars ever waged'\nReignited sectional conflict over whether new territories would allow slavery, contributing to the Civil War",
+          "cardFront": "1846–1848",
+          "cardBack": "Mexican-American War"
+        },
+        {
+          "id": "civil-war",
+          "prompt": "This 1861–1865 war between the Union and the Confederacy was the deadliest in American history, resulting in over 600,000 military deaths and ending with the abolition of slavery. What is this war called?",
+          "answer": "Civil War",
+          "alternates": ["American Civil War", "War Between the States", "War of the Rebellion"],
+          "explanation": "Fought 1861–1865; precipitated by Southern states' secession following Lincoln's election\nDeadliest American conflict: estimated 620,000–750,000 military deaths; tens of thousands of civilian deaths\nEmancipation Proclamation (January 1, 1863) freed enslaved people in Confederate states\nKey battles: Antietam (bloodiest single day, 1862), Gettysburg (July 1–3, 1863), Sherman's March to the Sea (1864)\nGeneral Ulysses S. Grant accepted Lee's surrender at Appomattox Court House, April 9, 1865\nLincoln assassinated by John Wilkes Booth five days later, April 14, 1865",
+          "cardFront": "1861–1865",
+          "cardBack": "Civil War"
+        },
+        {
+          "id": "spanish-american-war",
+          "prompt": "This 1898 war, sparked by the explosion of the USS Maine and driven by yellow journalism, resulted in the U.S. acquiring Puerto Rico, Guam, and the Philippines from Spain. What is this war called?",
+          "answer": "Spanish-American War",
+          "alternates": ["Spanish American War"],
+          "explanation": "Fought April–August 1898; sparked by the USS Maine explosion in Havana Harbor (February 15, 1898)\nYellow journalism by Hearst and Pulitzer inflamed public opinion against Spain\nTheodore Roosevelt's 'Rough Riders' charged San Juan Hill in Cuba; Roosevelt became a national hero\nTreaty of Paris (1898): Spain ceded Cuba (independent), Puerto Rico, Guam, and Philippines (for $20 million)\nMark Twain was a prominent anti-imperialist critic\nOnly ~380 battle deaths for the U.S. — disease killed far more (~5,000)",
+          "cardFront": "1898",
+          "cardBack": "Spanish-American War"
+        },
+        {
+          "id": "world-war-i",
+          "prompt": "The U.S. entered this 'Great War' in April 1917 following Germany's unrestricted submarine warfare and the revelation of the Zimmermann Telegram. American forces under General Pershing helped break the Western Front stalemate. What is this war called?",
+          "answer": "World War I",
+          "alternates": ["WWI", "World War 1", "The Great War", "First World War"],
+          "explanation": "U.S. declared war on Germany April 6, 1917; Armistice November 11, 1918\nImmediate U.S. triggers: German unrestricted submarine warfare (Lusitania sunk 1915) and Zimmermann Telegram (Germany asked Mexico to attack U.S., 1917)\nAmerican Expeditionary Forces (AEF) led by General John 'Black Jack' Pershing\nU.S. deaths: ~116,000 (53,000 combat; 63,000 from disease, mainly the 1918 flu)\nArmistice: November 11, 1918 at the 11th hour of the 11th day of the 11th month\nWoodrow Wilson's Fourteen Points proposed the League of Nations; Senate rejected U.S. membership",
+          "cardFront": "1917–1918 (U.S.)",
+          "cardBack": "World War I"
+        },
+        {
+          "id": "world-war-ii",
+          "prompt": "The U.S. entered this war after the Japanese attack on Pearl Harbor on December 7, 1941, and fought on both Pacific and European fronts until V-J Day in September 1945, including dropping atomic bombs on Hiroshima and Nagasaki. What is this war called?",
+          "answer": "World War II",
+          "alternates": ["WWII", "World War 2", "Second World War"],
+          "explanation": "U.S. entered December 8, 1941 (day after Pearl Harbor); ended V-J Day September 2, 1945\nTwo-front war: Pacific (Japan) and European/North African (Germany, Italy)\nD-Day invasion of Normandy: June 6, 1944 — largest amphibious assault in history (~156,000 Allied troops)\nU.S. dropped atomic bombs on Hiroshima (August 6) and Nagasaki (August 9), 1945\nU.S. military deaths: ~405,000; total global deaths estimated at 70–85 million\nFDR died April 12, 1945; Truman made the decision to use the atomic bombs",
+          "cardFront": "1941–1945 (U.S.)",
+          "cardBack": "World War II"
+        },
+        {
+          "id": "korean-war",
+          "prompt": "Often called 'The Forgotten War', this 1950–1953 conflict ended in an armistice that left the Korean Peninsula divided near the 38th parallel — almost identical to pre-war borders. President Truman fired General MacArthur during this war for insubordination. What is this war called?",
+          "answer": "Korean War",
+          "alternates": ["The Korean War", "Korean Conflict"],
+          "explanation": "Fought June 1950–July 1953; North Korea (backed by Soviet Union and China) invaded South Korea\nU.S. led a United Nations coalition; General Douglas MacArthur commanded until Truman fired him (April 1951)\nMacArthur wanted to bomb China; Truman fired him for publicly undermining civilian control of the military\nBattle of Chosin Reservoir: Marines fought out of brutal Chinese encirclement in freezing temperatures\nArmistice signed July 27, 1953 — no formal peace treaty; technically still ongoing\nU.S. dead: ~36,000; called 'The Forgotten War' for its low historical profile between WWII and Vietnam",
+          "cardFront": "1950–1953",
+          "cardBack": "Korean War"
+        },
+        {
+          "id": "vietnam-war",
+          "prompt": "U.S. combat troops escalated involvement after the 1964 Gulf of Tonkin Resolution. The last U.S. forces withdrew in 1973, and Saigon fell to North Vietnam in 1975. It was the first war the United States clearly lost. What is this war called?",
+          "answer": "Vietnam War",
+          "alternates": ["Vietnam", "Second Indochina War"],
+          "explanation": "Major U.S. combat involvement 1965–1973; South Vietnam fell April 30, 1975\nGulf of Tonkin Resolution (1964) gave President Johnson authority to escalate — based partly on a fabricated incident\nPeak U.S. forces: ~543,000 troops in 1969 under Nixon's predecessor\nU.S. deaths: ~58,000; more than three million Vietnamese killed total\nMy Lai Massacre (1968) and Pentagon Papers (1971) deepened domestic opposition\nFirst war the U.S. clearly lost — massive anti-war movement transformed American politics and culture",
+          "cardFront": "1965–1973 (U.S.)",
+          "cardBack": "Vietnam War"
+        },
+        {
+          "id": "gulf-war",
+          "prompt": "This 100-hour ground war, code-named Operation Desert Storm, expelled Iraqi forces from Kuwait in 1991 under General Norman Schwarzkopf. The U.S. stopped short of advancing to Baghdad. What is this war called?",
+          "answer": "Gulf War",
+          "alternates": ["Persian Gulf War", "Operation Desert Storm", "First Gulf War"],
+          "explanation": "August 1990–February 1991; Iraq under Saddam Hussein invaded Kuwait (August 2, 1990)\nU.S.-led coalition of 34 nations; Operation Desert Shield built up forces; Desert Storm was the offensive\nGround war lasted 100 hours (February 24–28, 1991) before ceasefire — one of the shortest major conflicts in U.S. history\nGeneral H. Norman Schwarzkopf commanded coalition forces; Colin Powell was Chairman of the Joint Chiefs\nU.S. dead: ~292; Iraqi military dead: ~20,000–35,000\nBush stopped short of Baghdad: UN mandate covered only liberating Kuwait; feared regional destabilization",
+          "cardFront": "1990–1991",
+          "cardBack": "Gulf War"
+        },
+        {
+          "id": "afghanistan-war",
+          "prompt": "Launched in October 2001 in response to the September 11 attacks, this became the longest war in U.S. history. It ended with the Taliban's return to power and a chaotic U.S. withdrawal in August 2021. What is this war called?",
+          "answer": "War in Afghanistan",
+          "alternates": ["Afghanistan War", "Afghan War", "Operation Enduring Freedom"],
+          "explanation": "Launched October 7, 2001; U.S. withdrew August 30, 2021 — 20 years\nResponse to 9/11 attacks attributed to Al-Qaeda, hosted by the Taliban-controlled Afghanistan\nTaliban government collapsed in weeks (November 2001); bin Laden killed by SEAL Team 6 in Pakistan (May 2, 2011)\nLongest war in U.S. history — surpassed Vietnam in 2019\nChaotic U.S. withdrawal in August 2021 as Taliban rapidly retook the country\nU.S. dead: ~2,400 military; total U.S. cost estimated at over $2 trillion",
+          "cardFront": "2001–2021",
+          "cardBack": "War in Afghanistan"
+        },
+        {
+          "id": "iraq-war",
+          "prompt": "This 2003 war, launched on claims of Iraqi weapons of mass destruction that were never found, toppled Saddam Hussein's government. U.S. combat troops withdrew in 2011 after a destructive insurgency. What is this war called?",
+          "answer": "Iraq War",
+          "alternates": ["War in Iraq", "Operation Iraqi Freedom", "Second Gulf War"],
+          "explanation": "Launched March 20, 2003; U.S. combat mission ended December 15, 2011\nJustified by (false) claims about Iraqi WMDs and alleged Al-Qaeda links — no WMDs were found\nSaddam Hussein's regime collapsed in three weeks; Hussein captured December 2003, executed December 2006\n'Mission Accomplished' speech (May 1, 2003) was premature — insurgency and sectarian violence followed for years\nU.S. dead: ~4,500 military; Iraqi civilian deaths estimated at 150,000–600,000+\nUK Chilcot Report (2016) concluded the war was launched on flawed intelligence and inadequate post-war planning",
+          "cardFront": "2003–2011",
+          "cardBack": "Iraq War"
+        }
+      ]
+    }
+  ]
+}
