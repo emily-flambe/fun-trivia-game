@@ -5,3 +5,4 @@ dist/
 .seed-tmp.sql
 .seed-test.sql
 .claude/settings.local.json
+test-results/

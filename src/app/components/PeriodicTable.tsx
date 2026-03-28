@@ -95,6 +95,32 @@ export function PeriodicTable({ items }: Props) {
 
 	const selectedItem = selected ? items.find((i) => i.id === selected) : null;
 
+	function renderCell(z: number | null, key: string) {
+		if (z === null) return <div key={key} />;
+		const item = zToItem.get(z);
+		const cat = getCategory(z);
+		const hasItem = !!item;
+		const isSelected = item ? selected === item.id : false;
+		return (
+			<button
+				key={key}
+				onClick={() => {
+					if (item) setSelected(isSelected ? null : item.id);
+				}}
+				className={`p-0.5 rounded text-center border transition-all duration-150
+					${hasItem ? 'cursor-pointer' : 'cursor-default opacity-30'}
+					${CATEGORY_COLORS[cat] || 'bg-surface-bright border-border-subtle'}
+					${isSelected ? 'ring-2 ring-accent scale-110 z-10' : hasItem ? 'hover:brightness-125' : ''}
+				`}
+				style={{ minWidth: '38px' }}
+				disabled={!hasItem}
+			>
+				<div className="text-[9px] text-text-tertiary leading-none">{z}</div>
+				<div className="text-xs font-bold leading-tight">{item?.data?.cardFront || ''}</div>
+			</button>
+		);
+	}
+
 	return (
 		<div>
 			{/* Detail panel */}
@@ -125,31 +151,7 @@ export function PeriodicTable({ items }: Props) {
 			<div className="overflow-x-auto">
 				<div className="inline-grid gap-[2px]" style={{ gridTemplateColumns: 'repeat(18, minmax(0, 1fr))', minWidth: '720px' }}>
 					{grid.slice(0, 7).flatMap((row, r) =>
-						row.map((z, c) => {
-							if (z === null) return <div key={`${r}-${c}`} />;
-							const item = zToItem.get(z);
-							const cat = getCategory(z);
-							const hasItem = !!item;
-							const isSelected = item ? selected === item.id : false;
-							return (
-								<button
-									key={`${r}-${c}`}
-									onClick={() => {
-										if (item) setSelected(isSelected ? null : item.id);
-									}}
-									className={`p-0.5 rounded text-center border transition-all duration-150
-										${hasItem ? 'cursor-pointer' : 'cursor-default opacity-30'}
-										${CATEGORY_COLORS[cat] || 'bg-surface-bright border-border-subtle'}
-										${isSelected ? 'ring-2 ring-accent scale-110 z-10' : hasItem ? 'hover:brightness-125' : ''}
-									`}
-									style={{ minWidth: '38px' }}
-									disabled={!hasItem}
-								>
-									<div className="text-[9px] text-text-tertiary leading-none">{z}</div>
-									<div className="text-xs font-bold leading-tight">{item?.data?.cardFront || ''}</div>
-								</button>
-							);
-						})
+						row.map((z, c) => renderCell(z, `${r}-${c}`))
 					)}
 				</div>
 
@@ -159,31 +161,7 @@ export function PeriodicTable({ items }: Props) {
 				{/* Lanthanides & Actinides */}
 				<div className="inline-grid gap-[2px] ml-[calc(2*(38px+2px)+2px)]" style={{ gridTemplateColumns: 'repeat(15, minmax(0, 1fr))', minWidth: '600px' }}>
 					{grid.slice(8, 10).flatMap((row, r) =>
-						row.slice(2, 17).map((z, c) => {
-							if (z === null) return <div key={`ln-${r}-${c}`} />;
-							const item = zToItem.get(z);
-							const cat = getCategory(z);
-							const hasItem = !!item;
-							const isSelected = item ? selected === item.id : false;
-							return (
-								<button
-									key={`ln-${r}-${c}`}
-									onClick={() => {
-										if (item) setSelected(isSelected ? null : item.id);
-									}}
-									className={`p-0.5 rounded text-center border transition-all duration-150
-										${hasItem ? 'cursor-pointer' : 'cursor-default opacity-30'}
-										${CATEGORY_COLORS[cat] || 'bg-surface-bright border-border-subtle'}
-										${isSelected ? 'ring-2 ring-accent scale-110 z-10' : hasItem ? 'hover:brightness-125' : ''}
-									`}
-									style={{ minWidth: '38px' }}
-									disabled={!hasItem}
-								>
-									<div className="text-[9px] text-text-tertiary leading-none">{z}</div>
-									<div className="text-xs font-bold leading-tight">{item?.data?.cardFront || ''}</div>
-								</button>
-							);
-						})
+						row.slice(2, 17).map((z, c) => renderCell(z, `ln-${r}-${c}`))
 					)}
 				</div>
 			</div>
