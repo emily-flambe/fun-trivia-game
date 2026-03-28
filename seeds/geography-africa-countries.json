@@ -1,0 +1,340 @@
+{
+  "nodes": [
+    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/countries/africa",
+      "nodeId": "geography/countries",
+      "name": "Countries of Africa",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name all 54 sovereign countries of Africa" },
+      "items": [
+        {
+          "id": "algeria",
+          "answer": "Algeria",
+          "alternates": [],
+          "explanation": "Largest country in Africa by area (~2.38 million km²) and the 10th largest in the world; capital is Algiers\nLocated in North Africa on the Mediterranean; the Sahara Desert covers about 90% of the country's territory\nFrench colony 1830–1962; the Algerian War of Independence (1954–1962) was one of the bloodiest decolonization conflicts, killing an estimated 1 million Algerians"
+        },
+        {
+          "id": "angola",
+          "answer": "Angola",
+          "alternates": [],
+          "explanation": "Located in southwestern Africa on the Atlantic coast; capital is Luanda\nSuffered one of Africa's longest civil wars (1975–2002) immediately following independence from Portugal\nOne of sub-Saharan Africa's largest oil producers; also a major diamond producer — the resources fueled and prolonged the civil war"
+        },
+        {
+          "id": "benin",
+          "answer": "Benin",
+          "alternates": [],
+          "explanation": "Small country in West Africa on the Gulf of Guinea between Nigeria and Togo; capital is Porto-Novo (seat of government: Cotonou)\nThe Kingdom of Dahomey (17th–19th century), centered in modern Benin, was a major participant in the Atlantic slave trade\nConsidered the birthplace of Vodun (Voodoo), which spread to the Americas through the slave trade"
+        },
+        {
+          "id": "botswana",
+          "answer": "Botswana",
+          "alternates": [],
+          "explanation": "Landlocked country in southern Africa; capital is Gaborone\nOne of Africa's most stable democracies; transformed from one of the world's poorest countries at independence (1966) to a middle-income country thanks to diamond mining — it is the world's largest producer of diamonds by value\nThe Okavango Delta, the world's largest inland delta, is entirely within Botswana and is a UNESCO World Heritage Site"
+        },
+        {
+          "id": "burkina-faso",
+          "answer": "Burkina Faso",
+          "alternates": [],
+          "explanation": "Landlocked country in West Africa; capital is Ouagadougou\nRenowned for its vibrant film culture — the FESPACO (Pan-African Film Festival) held in Ouagadougou is Africa's largest film festival\nThe name means 'Land of Upright People' in Mossi and Dioula; the country was renamed from Upper Volta in 1984 by revolutionary leader Thomas Sankara"
+        },
+        {
+          "id": "burundi",
+          "answer": "Burundi",
+          "alternates": [],
+          "explanation": "Small landlocked country in Central/East Africa; capital is Gitega (moved from Bujumbura in 2019)\nOne of the smallest and most densely populated countries in Africa; consistently ranks among the world's poorest nations by GDP per capita\nSuffered cycles of ethnically-driven violence between Hutu and Tutsi groups throughout the post-independence period; Lake Tanganyika forms its western border"
+        },
+        {
+          "id": "cabo-verde",
+          "answer": "Cabo Verde",
+          "alternates": ["Cape Verde"],
+          "explanation": "Archipelago of 10 islands in the Atlantic Ocean ~570 km off the coast of West Africa; capital is Praia\nA Portuguese colony until 1975; the islands were uninhabited when Portuguese sailors arrived in the 15th century\nKnown for morna music — a melancholic genre associated with the late singer Cesária Évora, known as the 'Barefoot Diva'"
+        },
+        {
+          "id": "cameroon",
+          "answer": "Cameroon",
+          "alternates": [],
+          "explanation": "Located in Central/West Africa; capital is Yaoundé; the largest city is Douala\nOften called 'Africa in miniature' for its geographic diversity — beaches, desert, rainforest, mountains, and savanna all within its borders\nPartly Francophone, partly Anglophone — divided between former French and British colonial territories; ongoing Anglophone separatist conflict in the northwest and southwest"
+        },
+        {
+          "id": "central-african-republic",
+          "answer": "Central African Republic",
+          "alternates": ["CAR"],
+          "explanation": "Landlocked country in Central Africa; capital is Bangui\nOne of the world's least developed countries by nearly every measure; rich in natural resources (diamonds, gold, uranium) but plagued by chronic instability and armed conflict\nWas home to the self-proclaimed Emperor Bokassa I, who ruled 1966–1979 in one of Africa's most brutal and bizarre dictatorships"
+        },
+        {
+          "id": "chad",
+          "answer": "Chad",
+          "alternates": [],
+          "explanation": "Landlocked country in north-central Africa; capital is N'Djamena\nHome to Lake Chad, which has shrunk by ~90% since the 1960s due to climate change and water diversion — one of the most dramatic environmental collapses in history\nBordered by 6 countries (Libya, Sudan, Central African Republic, Cameroon, Nigeria, Niger); the Sahara covers the northern third of the country"
+        },
+        {
+          "id": "comoros",
+          "answer": "Comoros",
+          "alternates": [],
+          "explanation": "Archipelago in the Indian Ocean between Madagascar and the East African coast; capital is Moroni\nOne of the world's most politically unstable countries — has experienced more than 20 coups or coup attempts since independence from France in 1975\nThe world's largest producer of ylang-ylang (used in perfumes) and a major producer of vanilla; the island of Mayotte, claimed by Comoros, remains a French territory"
+        },
+        {
+          "id": "democratic-republic-of-congo",
+          "answer": "Democratic Republic of Congo",
+          "alternates": ["DRC", "Congo-Kinshasa", "DR Congo"],
+          "explanation": "Second largest country in Africa by area; capital is Kinshasa\nThe Congo River Basin contains the world's second-largest tropical rainforest; the Congo River is the world's deepest river (220 m) and second largest by discharge\nFormer Belgian colony known as the Belgian Congo and later Zaire (1971–1997) under Mobutu Sese Seko; armed conflict in the east has continued since the 1990s, linked to control of minerals including coltan (used in electronics)"
+        },
+        {
+          "id": "republic-of-congo",
+          "answer": "Republic of Congo",
+          "alternates": ["Congo", "Congo-Brazzaville", "Congo Republic"],
+          "explanation": "Located in Central Africa on the Congo River, directly across from the DRC; capital is Brazzaville\nBrazzaville and Kinshasa (capital of the DRC) are the world's closest pair of capital cities — separated by only ~4 km across the Congo River\nFormer French colony; dominated by oil production; the Congo Basin rainforest spans both Congos"
+        },
+        {
+          "id": "djibouti",
+          "answer": "Djibouti",
+          "alternates": [],
+          "explanation": "Tiny country (~23,000 km²) on the Horn of Africa at the entrance to the Red Sea and Gulf of Aden; capital is also called Djibouti\nStrategically vital chokepoint for global shipping through the Suez Canal; hosts major foreign military bases including the only permanent U.S. base in Africa (Camp Lemonnier)\nBorders Ethiopia, Eritrea, and Somalia; the economy depends heavily on port transit trade for landlocked Ethiopia"
+        },
+        {
+          "id": "egypt",
+          "answer": "Egypt",
+          "alternates": [],
+          "explanation": "Located in North Africa on the Mediterranean and Red Seas; capital is Cairo, the largest city in Africa and the Arab world\nThe Suez Canal, opened in 1869 and nationalized by Nasser in 1956, connects the Mediterranean to the Red Sea and carries ~12% of global trade\nHome to one of the world's oldest civilizations; the Pyramids of Giza (~2560 BCE) are the only surviving Wonder of the Ancient World\nTranscontinental — the Sinai Peninsula is geographically in Asia"
+        },
+        {
+          "id": "equatorial-guinea",
+          "answer": "Equatorial Guinea",
+          "alternates": [],
+          "explanation": "The only Spanish-speaking country in Africa; capital is Malabo, located on the island of Bioko rather than the mainland\nOne of sub-Saharan Africa's largest oil producers per capita; despite oil wealth, most of the population lives in poverty under a long-running dictatorship\nThe mainland portion (Río Muni) borders Cameroon and Gabon; the country is the only African nation whose capital is on an island off the coast"
+        },
+        {
+          "id": "eritrea",
+          "answer": "Eritrea",
+          "alternates": [],
+          "explanation": "Located on the Red Sea coast of the Horn of Africa; capital is Asmara\nFought a 30-year independence war against Ethiopia (1961–1991), finally achieving independence in 1993 after a referendum — one of Africa's longest wars\nAsmara's well-preserved Italian colonial Modernist architecture is a UNESCO World Heritage Site; Eritrea has one of the world's most repressive governments, with mass conscription and virtually no press freedom"
+        },
+        {
+          "id": "eswatini",
+          "answer": "Eswatini",
+          "alternates": ["Swaziland"],
+          "explanation": "Landlocked country entirely surrounded by South Africa and Mozambique; capital is Mbabane (administrative) and Lobamba (royal/legislative)\nFormerly called Swaziland; renamed Eswatini in 2018 by King Mswati III — the name means 'Land of the Swazis'\nAfrica's last absolute monarchy; one of the world's highest HIV/AIDS prevalence rates (~27% of adults)"
+        },
+        {
+          "id": "ethiopia",
+          "answer": "Ethiopia",
+          "alternates": [],
+          "explanation": "Landlocked country in the Horn of Africa; capital is Addis Ababa, headquarters of the African Union\nNever colonized (except for a brief Italian occupation 1936–1941) — one of only two African countries (with Liberia) never formally colonized\nMost populous landlocked country in the world (~125 million); the oldest known human ancestors, including Lucy (3.2 million years old), were found in Ethiopia\nSits at 2,355 m elevation — the third-highest capital in the world"
+        },
+        {
+          "id": "gabon",
+          "answer": "Gabon",
+          "alternates": [],
+          "explanation": "Located in Central Africa on the Atlantic coast near the equator; capital is Libreville\nRelatively wealthy by African standards due to oil production; about 88% of the country is covered by tropical rainforest, including critical gorilla habitat\nThe Gabonese military overthrew President Ali Bongo in August 2023, ending over 50 years of Bongo family rule"
+        },
+        {
+          "id": "gambia",
+          "answer": "Gambia",
+          "alternates": [],
+          "explanation": "Smallest country in mainland Africa; a narrow strip of land along the Gambia River, almost entirely surrounded by Senegal; capital is Banjul\nFormer British colony; Alex Haley's book Roots (1976) traces his ancestry to the Gambia, sparking widespread interest in African-American genealogy\nThe country's unusual shape — a river corridor — results directly from 19th-century British-French colonial competition"
+        },
+        {
+          "id": "ghana",
+          "answer": "Ghana",
+          "alternates": [],
+          "explanation": "Located in West Africa on the Gulf of Guinea; capital is Accra\nThe first sub-Saharan African country to gain independence from European colonial rule (1957), under Kwame Nkrumah — a landmark in the pan-African independence movement\nThe name was taken from the ancient Ghana Empire, though the modern country's territory does not overlap with it; the world's second-largest cocoa producer"
+        },
+        {
+          "id": "guinea",
+          "answer": "Guinea",
+          "alternates": [],
+          "explanation": "Located in West Africa on the Atlantic coast; capital is Conakry\nHolds some of the world's largest bauxite (aluminum ore) reserves — estimated at ~50% of global reserves\nShould not be confused with Guinea-Bissau, Equatorial Guinea, or Papua New Guinea — four countries share 'Guinea' in their name; borders Senegal, Mali, Côte d'Ivoire, Liberia, Sierra Leone, and Guinea-Bissau"
+        },
+        {
+          "id": "guinea-bissau",
+          "answer": "Guinea-Bissau",
+          "alternates": [],
+          "explanation": "Small country in West Africa between Senegal and Guinea; capital is Bissau\nOne of the world's least developed countries; has experienced multiple coups since independence from Portugal in 1974\nThe Bijagós Archipelago offshore is a UNESCO biosphere reserve; the country has become a major transit point for South American cocaine entering Europe"
+        },
+        {
+          "id": "ivory-coast",
+          "answer": "Ivory Coast",
+          "alternates": ["Côte d'Ivoire"],
+          "explanation": "Located in West Africa on the Gulf of Guinea; the official capital is Yamoussoukro, but the economic capital and seat of government is Abidjan\nThe world's largest producer of cocoa (~40% of global supply), which is the key ingredient in chocolate\nYamoussoukro is home to the Basilica of Our Lady of Peace, the largest church in the world by floor area — built by President Félix Houphouët-Boigny in his hometown"
+        },
+        {
+          "id": "kenya",
+          "answer": "Kenya",
+          "alternates": [],
+          "explanation": "Located in East Africa on the Indian Ocean; capital is Nairobi\nNairobi National Park is the only national park within a major capital city — lions roam with the city skyline in the background\nHome to the Great Rift Valley and some of Africa's best-known wildlife reserves (Maasai Mara, Amboseli); the Maasai Mara's wildebeest migration is one of the greatest natural spectacles on Earth\nKenyan long-distance runners have dominated international athletics for decades"
+        },
+        {
+          "id": "lesotho",
+          "answer": "Lesotho",
+          "alternates": [],
+          "explanation": "Landlocked country entirely surrounded by South Africa — one of only three countries completely enclosed within a single other country (with Vatican City and San Marino)\nCapital is Maseru; the entire country sits above 1,400 m elevation — the only country in the world where all land is above 1,000 m\nAlong with Eswatini, one of two countries entirely surrounded by South Africa"
+        },
+        {
+          "id": "liberia",
+          "answer": "Liberia",
+          "alternates": [],
+          "explanation": "Located in West Africa on the Atlantic coast; capital is Monrovia, named after U.S. President James Monroe\nFounded in 1822 by freed American slaves; one of only two African countries never colonized (the other is Ethiopia), though its founding was closely tied to the American Colonization Society\nExperienced devastating civil wars (1989–1997 and 1999–2003); Ellen Johnson Sirleaf, elected president in 2005, was Africa's first female head of state and won the Nobel Peace Prize in 2011"
+        },
+        {
+          "id": "libya",
+          "answer": "Libya",
+          "alternates": [],
+          "explanation": "Located in North Africa on the Mediterranean; capital is Tripoli\nMuammar Gaddafi ruled for 42 years (1969–2011) — one of the longest-running dictatorships in the world; he was killed during the NATO-backed civil war in 2011\nHolds Africa's largest proven oil reserves; the Sahara covers ~90% of the country; split between rival governments since Gaddafi's fall"
+        },
+        {
+          "id": "madagascar",
+          "answer": "Madagascar",
+          "alternates": [],
+          "explanation": "Island nation in the Indian Ocean off the southeastern coast of Africa; capital is Antananarivo\nThe world's fourth-largest island; separated from Africa ~165 million years ago, allowing unique evolution — ~90% of its wildlife is found nowhere else on Earth, including lemurs\nSettled primarily by Austronesian peoples from Southeast Asia (not mainland Africans) ~1,500–2,000 years ago — the Malagasy language is related to languages of Borneo"
+        },
+        {
+          "id": "malawi",
+          "answer": "Malawi",
+          "alternates": [],
+          "explanation": "Landlocked country in southeastern Africa; capital is Lilongwe; formerly called Nyasaland as a British protectorate\nLake Malawi (also called Lake Nyasa) covers about 20% of the country's area and contains more fish species than any other lake in the world\nDavid Livingstone, the Scottish explorer and missionary, explored the lake region in the 1850s–1860s"
+        },
+        {
+          "id": "mali",
+          "answer": "Mali",
+          "alternates": [],
+          "explanation": "Landlocked country in West Africa; capital is Bamako; one of the world's largest countries by area\nTimbuktu, in northern Mali, was a major center of Islamic scholarship and trans-Saharan trade in the 14th–16th centuries; the Mali Empire at its peak (14th century) was one of the wealthiest in the world — Mansa Musa's 1324 pilgrimage to Mecca is considered the wealthiest journey in history\nNorthern Mali has been under threat from Tuareg separatists and jihadist groups since 2012"
+        },
+        {
+          "id": "mauritania",
+          "answer": "Mauritania",
+          "alternates": [],
+          "explanation": "Located in northwestern Africa on the Atlantic coast; capital is Nouakchott\nAbout 90% of the country is covered by the Sahara Desert; one of the last countries in the world to officially abolish slavery — formally in 1981 but not criminalized until 2007\nThe iron-ore railway between Nouadhibou and Zouérat (~704 km) runs some of the world's longest freight trains, exceeding 2 km in length"
+        },
+        {
+          "id": "mauritius",
+          "answer": "Mauritius",
+          "alternates": [],
+          "explanation": "Island nation in the Indian Ocean ~2,000 km off the southeastern coast of Africa; capital is Port Louis\nHome of the dodo, a flightless bird hunted to extinction by the late 17th century after Dutch settlers arrived in 1638\nOne of Africa's wealthiest countries per capita; a culturally diverse mix of African, Indian, European, and Chinese heritage from its colonial and indentured labor history"
+        },
+        {
+          "id": "morocco",
+          "answer": "Morocco",
+          "alternates": [],
+          "explanation": "Located in Northwest Africa on the Mediterranean and Atlantic; capital is Rabat (not Casablanca, a common mistake)\nThe Atlas Mountains run through the country; Morocco is the closest African country to Europe — only 14 km separates it from Spain at the Strait of Gibraltar\nThe medinas of Fez and Marrakesh are UNESCO World Heritage Sites; in 2022, Morocco became the first African country to reach a FIFA World Cup semifinal"
+        },
+        {
+          "id": "mozambique",
+          "answer": "Mozambique",
+          "alternates": [],
+          "explanation": "Located in southeastern Africa on the Indian Ocean; capital is Maputo\nA Portuguese colony until 1975; immediately followed by a brutal civil war (1977–1992) that killed ~1 million people\nThe coastline runs over 2,700 km along the Mozambique Channel; home to Mozambique Island, a UNESCO World Heritage Site that was once the capital of Portuguese East Africa"
+        },
+        {
+          "id": "namibia",
+          "answer": "Namibia",
+          "alternates": [],
+          "explanation": "Located in southwestern Africa on the Atlantic coast; capital is Windhoek\nThe Namib Desert along the coast is the world's oldest desert (~55 million years); the Sossusvlei dunes are among the world's tallest, reaching 325 m\nAdministered by South Africa as South West Africa until independence in 1990; the Herero and Namaqua genocide (1904–1908) by German colonial forces is considered the first genocide of the 20th century"
+        },
+        {
+          "id": "niger",
+          "answer": "Niger",
+          "alternates": [],
+          "explanation": "Landlocked country in West Africa; capital is Niamey; the largest country in West Africa by area\nAbout 80% of the country lies within the Sahara; consistently ranks last or near-last on the UN Human Development Index\nThe world's fifth-largest uranium producer; a military coup in July 2023 ousted President Mohamed Bazoum, triggering international condemnation"
+        },
+        {
+          "id": "nigeria",
+          "answer": "Nigeria",
+          "alternates": [],
+          "explanation": "Most populous country in Africa (~220 million) and the world's sixth most populous nation; capital is Abuja (replaced Lagos in 1991)\nLargest economy in Africa by GDP; a major oil producer in the Niger Delta, but oil wealth has not translated broadly to the population\nHome to over 500 ethnic groups; Nollywood (Nigerian film industry) is the world's second-largest film producer by volume, after Bollywood"
+        },
+        {
+          "id": "rwanda",
+          "answer": "Rwanda",
+          "alternates": [],
+          "explanation": "Small landlocked country in Central/East Africa; capital is Kigali\nThe 1994 Rwandan genocide killed an estimated 500,000–800,000 Tutsi and moderate Hutu in roughly 100 days — one of the fastest genocides in history\nKigali is now considered one of Africa's cleanest and most well-governed cities; Rwanda has the world's highest proportion of women in parliament (~61%)\nKnown for its mountain gorilla conservation in Volcanoes National Park"
+        },
+        {
+          "id": "sao-tome-and-principe",
+          "answer": "São Tomé and Príncipe",
+          "alternates": ["Sao Tome and Principe"],
+          "explanation": "Archipelago of two main islands in the Gulf of Guinea off the coast of Central Africa; capital is São Tomé\nA Portuguese colony until 1975; uninhabited when Portuguese sailors arrived in 1470; one of the world's smallest countries (~1,001 km²)\nSits almost exactly on the equator and the prime meridian — the geographic coordinates (0°, 0°) are in the Gulf of Guinea very near the islands; one of the world's smallest economies, relying on cocoa and tourism"
+        },
+        {
+          "id": "senegal",
+          "answer": "Senegal",
+          "alternates": [],
+          "explanation": "Located in westernmost continental Africa on the Atlantic; capital is Dakar\nThe island of Gorée, off Dakar, was one of the largest slave-trading centers on the African coast; it is now a UNESCO World Heritage Site and museum\nDakar hosted the famous Paris-Dakar Rally until 2008; Senegal is one of West Africa's most stable democracies\nAlmost entirely surrounds The Gambia"
+        },
+        {
+          "id": "seychelles",
+          "answer": "Seychelles",
+          "alternates": [],
+          "explanation": "Archipelago of 115 islands in the Indian Ocean northeast of Madagascar; capital is Victoria, the smallest capital city in Africa\nAfrica's smallest country by population (~100,000) and one of its wealthiest per capita; uninhabited until French settlement in the 18th century\nHome to the coco de mer palm, which produces the world's largest seed (~25 kg); Aldabra Atoll is a UNESCO World Heritage Site with the world's largest population of giant land tortoises"
+        },
+        {
+          "id": "sierra-leone",
+          "answer": "Sierra Leone",
+          "alternates": [],
+          "explanation": "Located in West Africa on the Atlantic coast; capital is Freetown\nFreetown was founded in 1792 as a home for freed slaves; Sierra Leone became a British Crown Colony in 1808 and used as a resettlement base for liberated Africans intercepted from slave ships\nA devastating civil war (1991–2002) killed ~50,000 people and was notorious for rebel use of child soldiers and amputations; the 2003 film Blood Diamond is set during this conflict"
+        },
+        {
+          "id": "somalia",
+          "answer": "Somalia",
+          "alternates": [],
+          "explanation": "Located on the Horn of Africa with the longest coastline in mainland Africa; capital is Mogadishu\nHas been without a stable central government for most of the period since 1991, making it a textbook example of a failed state\nPiracy off the Somali coast became a major international security issue in the 2000s–2010s; Somaliland in the northwest functions as a de facto independent state though unrecognized internationally"
+        },
+        {
+          "id": "south-africa",
+          "answer": "South Africa",
+          "alternates": [],
+          "explanation": "Located at the southern tip of Africa; has three capitals — Pretoria (executive), Cape Town (legislative), Bloemfontein (judicial)\nApartheid, the system of institutionalized racial segregation, lasted 1948–1994; Nelson Mandela was imprisoned for 27 years and became the first Black president in 1994\nThe most industrialized economy in Africa; home to the world's largest reserves of platinum, chromium, and manganese; the Cape Floristic Region is one of the world's six major plant kingdoms"
+        },
+        {
+          "id": "south-sudan",
+          "answer": "South Sudan",
+          "alternates": [],
+          "explanation": "Landlocked country in northeastern Africa; capital is Juba\nThe world's newest internationally recognized country, having gained independence from Sudan on July 9, 2011 following a referendum\nFell into civil war in 2013 shortly after independence, with conflict continuing in various forms; one of the world's poorest and least developed countries despite having oil reserves"
+        },
+        {
+          "id": "sudan",
+          "answer": "Sudan",
+          "alternates": [],
+          "explanation": "Located in northeastern Africa; capital is Khartoum; the third-largest country in Africa after Algeria and the DRC\nOnce the largest country in Africa before South Sudan seceded in 2011 following decades of north-south civil war\nOmar al-Bashir ruled for 30 years (1989–2019) and was indicted by the International Criminal Court for genocide in Darfur; a military coup in 2021 and civil war beginning in 2023 have caused a massive humanitarian crisis"
+        },
+        {
+          "id": "tanzania",
+          "answer": "Tanzania",
+          "alternates": ["United Republic of Tanzania"],
+          "explanation": "Located in East Africa on the Indian Ocean; capital is Dodoma (official), though Dar es Salaam is the largest city and commercial hub\nHome to Mount Kilimanjaro, the highest peak in Africa (5,895 m) and the tallest free-standing volcano in the world\nSerengeti National Park hosts the world's largest land animal migration; the island of Zanzibar, a former slave-trading hub, is a semi-autonomous region\nFormed in 1964 by the union of Tanganyika and Zanzibar — the name is a portmanteau of the two"
+        },
+        {
+          "id": "togo",
+          "answer": "Togo",
+          "alternates": [],
+          "explanation": "Small narrow country in West Africa on the Gulf of Guinea between Benin and Ghana; capital is Lomé\nOne of Africa's narrowest countries; Lomé is one of the few African capitals located directly on a national border (with Ghana)\nGnassingbé Eyadéma ruled Togo from 1967 to 2005 — 38 years — one of Africa's longest dictatorships; his son Faure Gnassingbé has ruled since 2005"
+        },
+        {
+          "id": "tunisia",
+          "answer": "Tunisia",
+          "alternates": [],
+          "explanation": "Located in North Africa on the Mediterranean between Algeria and Libya; capital is Tunis\nThe Arab Spring began in Tunisia in December 2010 when Mohamed Bouazizi set himself on fire; President Zine El Abidine Ben Ali fled within a month, triggering uprisings across the Arab world\nCarthage, near modern Tunis, was the capital of the ancient Carthaginian Empire and a major rival to Rome; Rome destroyed it in 146 BCE"
+        },
+        {
+          "id": "uganda",
+          "answer": "Uganda",
+          "alternates": [],
+          "explanation": "Landlocked country in East Africa; capital is Kampala\nSits on the equator with Lake Victoria (the world's largest tropical lake and second-largest freshwater lake by area) on its southeastern border\nIdi Amin's brutal dictatorship (1971–1979) killed an estimated 100,000–500,000 people; Uganda now has one of the fastest-growing populations in the world\nHome to roughly half the world's remaining mountain gorillas in Bwindi Impenetrable Forest"
+        },
+        {
+          "id": "zambia",
+          "answer": "Zambia",
+          "alternates": [],
+          "explanation": "Landlocked country in southern Africa; capital is Lusaka\nNamed after the Zambezi River, which forms its southern border with Zimbabwe; Victoria Falls (shared with Zimbabwe) is the world's largest waterfall by combined width and height\nOne of the world's largest copper producers; the Copperbelt region in northern Zambia drove the post-independence economy"
+        },
+        {
+          "id": "zimbabwe",
+          "answer": "Zimbabwe",
+          "alternates": [],
+          "explanation": "Landlocked country in southern Africa; capital is Harare\nRobert Mugabe ruled for 37 years (1980–2017); his land reform program beginning in 2000 collapsed the agricultural economy and triggered hyperinflation — in 2008, Zimbabwe printed a 100 trillion dollar note, one of the largest denominations ever issued\nVictoria Falls on the Zambezi River (shared with Zambia) and Great Zimbabwe, the ruins of a medieval stone city, are the country's most famous sites"
+        }
+      ]
+    }
+  ]
+}
