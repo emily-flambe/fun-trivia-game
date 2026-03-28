@@ -119,7 +119,7 @@ export interface QuizResultDetail {
   exerciseId: string;
   exerciseName: string;
   score: number;
-  totalQuestions: number;
+  total: number;
   format: string;
   completedAt: string;
   items: QuizResultDetailItem[];

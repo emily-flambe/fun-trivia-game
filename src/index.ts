@@ -209,9 +209,9 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				itemsDetail.map(async (detail) => {
 					const itemRow = await env.DB
 						.prepare(
-							`SELECT answer, data FROM items WHERE id = ? AND exercise_id = ?`
+							`SELECT answer, data FROM items WHERE id = ? LIMIT 1`
 						)
-						.bind(detail.itemId, row.exercise_id)
+						.bind(detail.itemId)
 						.first<{ answer: string; data: string }>();
 
 					let prompt = detail.itemId;
@@ -242,7 +242,7 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				exerciseId: row.exercise_id,
 				exerciseName: row.exercise_name,
 				score: row.score,
-				totalQuestions: row.total,
+				total: row.total,
 				format: row.format,
 				completedAt: row.completed_at,
 				items: enriched,
