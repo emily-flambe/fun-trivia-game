@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "food-drink/famous-chefs", "parentId": "food-drink", "name": "Famous Chefs & Restaurants", "description": "Influential chefs, landmark restaurants, and culinary milestones" }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/famous-chefs/famous-chefs-and-restaurants",
+      "nodeId": "food-drink/famous-chefs",
+      "name": "Famous Chefs & Restaurants",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "escoffier",
+          "prompt": "Which French chef, working at the Savoy and Ritz hotels in London and Paris, codified classical French cuisine in *Le Guide Culinaire* (1903) and invented the brigade de cuisine kitchen hierarchy?",
+          "answer": "Auguste Escoffier",
+          "alternates": ["Escoffier"],
+          "explanation": "1846–1935; born in Villeneuve-Loubet, France; died in Monte Carlo\n*Le Guide Culinaire* (1903) systematized classical French cooking: 5,000 recipes, the five mother sauces, and the brigade system\nThe brigade de cuisine divided kitchen labor into specialized stations (garde manger, saucier, pâtissier, etc.) — still the model in professional kitchens\nPartnered with hotelier César Ritz at the Savoy (London) and Ritz Hotel (Paris) to define luxury hotel dining\nInvented Peach Melba (for Australian soprano Dame Nellie Melba) and Pêche Cardinal while at the Savoy\nSimplified French cuisine relative to Carême — replaced heavy sauces with cleaner, lighter preparations\nOften called 'the king of chefs and chef of kings'; among his clients were Edward VII and Kaiser Wilhelm II",
+          "cardFront": "Auguste Escoffier",
+          "cardBack": "Le Guide Culinaire, brigade system (classical French)"
+        },
+        {
+          "id": "julia-child",
+          "prompt": "Which American author and television personality, a former OSS officer who trained at Le Cordon Bleu, brought French cooking to American home kitchens with *Mastering the Art of French Cooking* (1961) and *The French Chef* TV show?",
+          "answer": "Julia Child",
+          "alternates": ["Child"],
+          "explanation": "1912–2004; born in Pasadena, California; died in Montecito, California\nWorked for the OSS (precursor to the CIA) in Ceylon and China during World War II — her assignment included developing shark repellent\n*Mastering the Art of French Cooking* (1961, co-authored with Simone Beck and Louisette Bertholle) took a decade to write; Alfred A. Knopf published it after other houses rejected it\n*The French Chef* on WGBH Boston (1963–1973) was one of the first cooking shows on American public television\nKnown for her distinctive high-pitched voice and unfazed attitude — famously recovered from on-air mishaps without embarrassment\nBegan serious cooking training at Le Cordon Bleu, Paris, at age 36; lived in France with diplomat husband Paul Child\nHer kitchen from Cambridge, Massachusetts, is preserved in the Smithsonian's National Museum of American History",
+          "cardFront": "Julia Child",
+          "cardBack": "Mastering the Art of French Cooking (1961), The French Chef"
+        },
+        {
+          "id": "michelin-stars",
+          "prompt": "Which restaurant rating system, published annually by a French tire company since 1900 and introducing its 1–3 star hierarchy in 1931, awards its highest rating to restaurants considered 'worth a special journey'?",
+          "answer": "Michelin stars",
+          "alternates": ["Michelin Guide", "Michelin star system"],
+          "explanation": "Founded 1900 by tire manufacturers André and Édouard Michelin; the first free guide was distributed to encourage driving (and thus tire wear)\nIntroduced the 1–3 star system in 1931; criteria published 1936: 1 star = very good in its category, 2 stars = worth a detour, 3 stars = worth a special journey\nAnonymous inspectors ('mystery diners') visit restaurants multiple times before awarding or adjusting stars\nLosing a star is considered devastating; chefs have famously wept, retired, or sued over downgradings\nThree-star restaurants number about 140 worldwide (as of 2024); Japan has more three-star restaurants than any country outside France\nThe Bib Gourmand (since 1997) recognizes good value restaurants with quality cooking below a price threshold\nThe guide originally covered all of France; expanded internationally starting with Belgium (1904) and has now covered 40+ countries",
+          "cardFront": "Michelin stars",
+          "cardBack": "1–3 stars; 3 = 'worth a special journey' (tire company, since 1900)"
+        },
+        {
+          "id": "elbulli",
+          "prompt": "Which avant-garde Spanish restaurant on the Costa Brava, run by chef Ferran Adrià, pioneered molecular gastronomy techniques like spherification and foams and was named the world's best restaurant five times before closing in 2011?",
+          "answer": "elBulli",
+          "alternates": ["El Bulli"],
+          "explanation": "Located near Roses on the Costa Brava, Catalonia, Spain; operated 1961–2011 under various owners; Ferran Adrià became head chef in 1987\nAdrià (alongside Blumenthal) popularized what critics called 'molecular gastronomy' — a term actually coined by physicist Nicholas Kurti and chemist Hervé This in 1992; Adrià himself rejected the label\nKey techniques: spherification (sodium alginate + calcium bath creates a gel membrane around liquid fillings), agar agar gels, xanthan thickening, edible foams\nNamed 'World's Best Restaurant' by Restaurant magazine five times: 2002, 2006, 2007, 2008, 2009\nThe restaurant accepted only 8,000 of the ~2 million reservation requests per year; a table was effectively a lottery\nClosed in 2011 to transform into the elBulli Foundation, a culinary innovation lab in Roses\nAdrià's influence on modern cuisine is considered comparable to Escoffier's — he essentially created a new culinary language",
+          "cardFront": "elBulli",
+          "cardBack": "Ferran Adrià, molecular gastronomy, Costa Brava Spain"
+        },
+        {
+          "id": "noma",
+          "prompt": "Which Copenhagen restaurant, opened by René Redzepi in 2003, defined New Nordic cuisine through foraged and hyper-local Nordic ingredients, was repeatedly named the world's best restaurant, and ended its regular restaurant service in 2024?",
+          "answer": "Noma",
+          "alternates": [],
+          "explanation": "Opened November 2003 in Copenhagen's Christianshavn district; name: short for 'nordisk mad' (Nordic food)\nFounded by René Redzepi and Claus Meyer; Redzepi became sole visionary chef-owner\nNew Nordic manifesto (2004): prioritize local, seasonal, and foraged Nordic ingredients; reject global supply chains\nSignature approach: sea buckthorn, reindeer moss, live ants, fermented grains, aged fish — ingredients ignored by classical cuisine\nNamed World's Best Restaurant by Restaurant magazine: 2010, 2011, 2012, 2014, 2021 — five times total\nMoved to a rebuilt urban farm compound in Christianshavn in 2018\n2023 workplace abuse allegations and labor complaints led Redzepi to announce the restaurant's closure; regular service ended January 2025\nThe Noma model — obsessive terroir + wild foraging + fermentation — launched a global 'New Nordic' wave",
+          "cardFront": "Noma",
+          "cardBack": "René Redzepi, New Nordic cuisine, Copenhagen (2003)"
+        },
+        {
+          "id": "gordon-ramsay",
+          "prompt": "Which British chef, who trained under Marco Pierre White and Joël Robuchon, holds the most Michelin stars ever awarded to a British-born chef and became a global TV personality through *Hell's Kitchen* and *Kitchen Nightmares*?",
+          "answer": "Gordon Ramsay",
+          "alternates": ["Ramsay"],
+          "explanation": "Born 1966 in Johnstone, Scotland; raised in Stratford-upon-Avon, England\nTrained under Marco Pierre White at Harveys, then under Joël Robuchon in Paris — two of the most demanding chefs of the era\nRestaurant Gordon Ramsay (Chelsea, London) holds 3 Michelin stars since 2001; the restaurant has held stars continuously\nHolds or has held 7+ Michelin stars across his global restaurant group (the count fluctuates with openings and closings)\nHell's Kitchen (Fox, 2005–present) and Kitchen Nightmares (2007–2014) made him the most recognizable chef on television\nGave up a promising career as a professional footballer (trials at Rangers FC) before turning to cooking\nNoted for training and mentoring chefs who went on to earn their own Michelin stars",
+          "cardFront": "Gordon Ramsay",
+          "cardBack": "Most Michelin stars by British-born chef; Hell's Kitchen"
+        },
+        {
+          "id": "thomas-keller",
+          "prompt": "Which American chef owns The French Laundry in Napa Valley and Per Se in New York City, making him the only US chef to simultaneously hold two restaurants with three Michelin stars each?",
+          "answer": "Thomas Keller",
+          "alternates": ["Keller"],
+          "explanation": "Born 1955 in Camp Pendleton, California; largely self-taught, trained in France in the 1980s\nThe French Laundry (Yountville, Napa Valley, California): opened 1994; awarded 3 Michelin stars in 2007; consistently ranked among the world's best restaurants\nPer Se (Columbus Circle, New York City): opened 2004; awarded 3 Michelin stars in 2005\nOnly American chef to hold two simultaneous 3-star Michelin ratings — both restaurants as of 2026\nSignature tasting menu format: 9-course prix fixe, with both a vegetable and a meat tasting menu simultaneously\nKeller popularized the 'tongue-in-cheek' (braised beef cheek) and 'oysters and pearls' (sabayon with Island Creek oysters and tapioca) as modern American luxury dishes\nAlso owns Bouchon Bistro and Bouchon Bakery locations; author of *The French Laundry Cookbook* (1999), a benchmark of American culinary publishing",
+          "cardFront": "The French Laundry / Per Se",
+          "cardBack": "Thomas Keller (only American with two simultaneous 3-star Michelin)"
+        },
+        {
+          "id": "heston-blumenthal",
+          "prompt": "Which British chef, largely self-taught, opened The Fat Duck in Bray, Berkshire and pioneered multisensory dining and molecular gastronomy techniques alongside Ferran Adrià, earning three Michelin stars for dishes like snail porridge and bacon and egg ice cream?",
+          "answer": "Heston Blumenthal",
+          "alternates": ["Blumenthal"],
+          "explanation": "Born 1966 in London; largely self-taught — no formal culinary training\nThe Fat Duck (Bray, Berkshire, England): opened 1995; awarded 3 Michelin stars in 2004; named World's Best Restaurant in 2005\nPioneered multisensory dining: sounds played through headphones while eating seafood courses, edible menus, fog on the table\nSignature dishes: snail porridge, bacon and egg ice cream, 'Sound of the Sea' (seafood dish with iPad playing ocean sounds), mock turtle soup\nWorked alongside Ferran Adrià to develop molecular gastronomy; collaborated with physicist Harold McGee\nThe Fat Duck suffered a 2009 norovirus outbreak affecting 529 diners; Blumenthal temporarily closed and deep-cleaned the restaurant\nAlso operates Dinner by Heston Blumenthal (London, Melbourne) — historically inspired British dishes with modern technique",
+          "cardFront": "Heston Blumenthal",
+          "cardBack": "The Fat Duck, multisensory dining, molecular gastronomy"
+        },
+        {
+          "id": "nobu-matsuhisa",
+          "prompt": "Which Japanese chef, who spent formative years cooking in Peru and developed a Japanese-Peruvian fusion style, built a global restaurant empire and became famous for his signature black cod with miso dish?",
+          "answer": "Nobu Matsuhisa",
+          "alternates": ["Nobuyuki Matsuhisa", "Nobu"],
+          "explanation": "Born 1949 in Saitama, Japan; trained in sushi restaurants in Tokyo before moving to Peru at age 24\nYears in Lima developed his Japanese-Peruvian (Nikkei) fusion style: sashimi with leche de tigre, tiradito (ceviche variation), anticucho-inspired preparations\nOpened Matsuhisa in Beverly Hills in 1987; partnered with Robert De Niro and Drew Nieporent to open the first Nobu in New York City's Tribeca in 1994\nBlack cod with miso: Chilean sea bass marinated in white miso, sake, mirin, and sugar for 2–3 days, then broiled — the restaurant's most iconic dish\nThe Nobu global brand now includes 50+ restaurants and boutique hotels across 40+ cities worldwide\nNobu's collaboration model with celebrity partners (De Niro, Meir Teper) was a template for chef brand expansion\nConsidered one of the founders of Nikkei cuisine — Japanese-Peruvian fusion that has since become Peru's most internationally recognized culinary export",
+          "cardFront": "Nobu Matsuhisa",
+          "cardBack": "Nobu restaurants, black cod with miso, Japanese-Peruvian fusion"
+        },
+        {
+          "id": "paul-bocuse",
+          "prompt": "Which French chef, dubbed 'the pope of French cuisine,' ran L'Auberge du Pont de Collonges near Lyon and held three Michelin stars continuously from 1965 to 2020 — a 55-year record?",
+          "answer": "Paul Bocuse",
+          "alternates": ["Bocuse"],
+          "explanation": "1926–2018; born in Collonges-au-Mont-d'Or, near Lyon, France; died at the same location\nL'Auberge du Pont de Collonges awarded 3 Michelin stars in 1965; held them for 55 consecutive years until 2020 (two years after his death)\nA founding figure of Nouvelle Cuisine alongside Michel Guérard, the Troisgros brothers, Roger Vergé, and Alain Chapel — lighter sauces, fresher ingredients, artistic plating\nNamed 'Chef of the Century' by Gault Millau in 1989\nThe Bocuse d'Or, a biennial international chef competition he founded in 1987, is considered the 'Olympics of cooking'\nServed his VGE truffle soup (a black truffle soup baked under a puff pastry dome) to French President Valéry Giscard d'Estaing in 1975 — the dish became world famous\nTrained under Fernand Point at La Pyramide, the most influential restaurant in post-WWII France",
+          "cardFront": "Paul Bocuse",
+          "cardBack": "3 Michelin stars 1965–2020 (55 years); Bocuse d'Or"
+        },
+        {
+          "id": "alice-waters",
+          "prompt": "Which American chef and food activist opened Chez Panisse in Berkeley, California in 1971, pioneering California cuisine and the farm-to-table movement by sourcing directly from local farmers and serving a single prix-fixe menu based on seasonal ingredients?",
+          "answer": "Alice Waters",
+          "alternates": ["Waters"],
+          "explanation": "Born 1944 in Chatham, New Jersey; educated at UC Berkeley; spent formative time in France discovering market-driven cooking\nChez Panisse (Berkeley, California): opened August 28, 1971; named after a character in Marcel Pagnol's Marseille film trilogy\nSingle prix-fixe menu changes daily based on what's available from local farms — an unusual concept in 1971 America\nPioneered direct chef-farmer relationships; sources from specific named farms in every menu\nFounded the Edible Schoolyard Project (1995) at Martin Luther King Jr. Middle School in Berkeley — garden and kitchen curriculum\nInduction into the Culinary Institute of America's Hall of Fame; awarded the National Humanities Medal (2015) by President Obama\nInspired a generation of American chefs (Judy Rodgers, David Tanis, Christopher Lee) who now lead significant kitchens globally",
+          "cardFront": "Alice Waters",
+          "cardBack": "Chez Panisse, Berkeley; farm-to-table pioneer (1971)"
+        },
+        {
+          "id": "marco-pierre-white",
+          "prompt": "Which British chef, who earned his first two Michelin stars at Harvey's in Wandsworth, became in 1994 the youngest and first British chef to be awarded three Michelin stars (for The Restaurant at the Hyde Park Hotel), before controversially returning all his stars in 1999 upon retiring?",
+          "answer": "Marco Pierre White",
+          "alternates": ["Marco Pierre White", "MPW"],
+          "explanation": "Born 1961 in Leeds, England (to a Yorkshire father and Italian mother who died when he was six)\nThree Michelin stars awarded in 1994 (for The Restaurant at the Hyde Park Hotel) at age 32 — the youngest and first British recipient\nTrained under Albert Roux (Le Gavroche), Raymond Blanc (Le Manoir), and Pierre Koffmann (La Tante Claire)\nMentored Gordon Ramsay, Curtis Stone, and Mario Batali, among others; known for an intensely demanding training environment\nIn 1999, retired from the kitchen at 38 and returned all three Michelin stars — the first chef ever to do so; said he 'no longer wanted to cook for Michelin'\nHis 1990 book *White Heat* (photography by Bob Carlos Clarke) is considered one of the most iconic chef books ever published\nSince retiring from professional cooking, shifted to brand partnerships, TV presenting, and casual restaurant investments",
+          "cardFront": "Marco Pierre White",
+          "cardBack": "First British 3-Michelin-star chef (1994); returned stars 1999"
+        }
+      ]
+    }
+  ]
+}
