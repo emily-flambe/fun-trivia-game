@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "film/afi", "parentId": "film", "name": "AFI Greatest Films", "description": "American Film Institute's 100 greatest American films" }
+  ],
+  "exercises": [
+    {
+      "id": "film/afi/afi-100-greatest",
+      "nodeId": "film/afi",
+      "name": "AFI 100 Greatest Films",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "citizen-kane",
+          "prompt": "Which 1941 Orson Welles film about a newspaper magnate, featuring the dying word \"Rosebud,\" has topped the AFI 100 Greatest Films list since its inception?",
+          "answer": "Citizen Kane",
+          "alternates": ["Kane"],
+          "explanation": "#1 on both the 1998 and 2007 AFI lists\nOrson Welles co-wrote (with Herman J. Mankiewicz), directed, produced, and starred in the film at age 25 \u2014 his feature debut\nWidely believed to be based on William Randolph Hearst, who tried to suppress the film\nWon only one Oscar: Best Original Screenplay (Welles and Herman J. Mankiewicz); lost Best Picture to *How Green Was My Valley*\nInnovations include deep-focus photography, nonlinear narrative, low-angle shots showing ceilings, and long takes\n\"Rosebud\" \u2014 the sled from Kane's childhood \u2014 is one of cinema's most famous plot devices",
+          "cardFront": "#1 on AFI list \u2014 1941, Orson Welles",
+          "cardBack": "Citizen Kane"
+        },
+        {
+          "id": "the-godfather",
+          "prompt": "Which 1972 Francis Ford Coppola crime epic about the Corleone family, starring Marlon Brando, ranks #2 on the AFI 100 Greatest Films list?",
+          "answer": "The Godfather",
+          "alternates": ["Godfather"],
+          "explanation": "#2 on the 2007 AFI list (also #3 on the 1998 list)\nBrando refused his Best Actor Oscar; sent Sacheen Littlefeather to decline it in protest of Hollywood's treatment of Native Americans\nParamount wanted a cheap, contemporary film; Coppola fought for the period setting and three-hour runtime\n\"I'm gonna make him an offer he can't refuse\" \u2014 AFI's #2 greatest movie quote\n*The Godfather Part II* (1974) also won Best Picture \u2014 the only sequel to do so until *The Return of the King* (2003)",
+          "cardFront": "#2 on AFI list \u2014 1972, Coppola",
+          "cardBack": "The Godfather"
+        },
+        {
+          "id": "casablanca",
+          "prompt": "Which 1942 wartime romance set in French Morocco, starring Humphrey Bogart and Ingrid Bergman, ranks #3 on the AFI 100 Greatest Films list?",
+          "answer": "Casablanca",
+          "alternates": [],
+          "explanation": "#3 on the 2007 AFI list (was #2 on the 1998 list)\nDirected by Michael Curtiz; the script was still being written during filming \u2014 actors often did not know the ending\nFamous quotes include \"Here's looking at you, kid,\" \"Of all the gin joints...,\" and \"Play it, Sam\" (often misquoted as \"Play it again, Sam\")\nWon Best Picture, Best Director, and Best Screenplay at the 16th Academy Awards\nReleased weeks after the Allied invasion of North Africa, boosting its topicality and box office",
+          "cardFront": "#3 on AFI list \u2014 1942, Bogart and Bergman",
+          "cardBack": "Casablanca"
+        },
+        {
+          "id": "raging-bull",
+          "prompt": "Which 1980 Martin Scorsese boxing biopic, shot in black and white, stars Robert De Niro as middleweight champion Jake LaMotta and ranks #4 on the AFI list?",
+          "answer": "Raging Bull",
+          "alternates": [],
+          "explanation": "#4 on the 2007 AFI list (was #24 on the 1998 list \u2014 a dramatic jump)\nDe Niro gained 60 pounds to play the older, retired LaMotta \u2014 one of the most famous physical transformations in film history\nWon two Oscars: Best Actor (De Niro) and Best Film Editing (Thelma Schoonmaker)\nScorsese was initially reluctant to make a boxing film; De Niro spent years persuading him\nThe boxing sequences mix varying film speeds, different angles, and sometimes sound effects instead of music to visceral effect\nLaMotta himself served as a technical consultant on the film",
+          "cardFront": "#4 on AFI list \u2014 1980, Scorsese/De Niro",
+          "cardBack": "Raging Bull"
+        },
+        {
+          "id": "singin-in-the-rain",
+          "prompt": "Which 1952 musical comedy about Hollywood's transition from silent films to talkies, featuring a famous lamppost dance in a downpour, ranks #5 on the AFI list?",
+          "answer": "Singin' in the Rain",
+          "alternates": ["Singin in the Rain", "Singing in the Rain"],
+          "explanation": "#5 on the 2007 AFI list (was #10 on the 1998 list)\nCo-directed by Gene Kelly and Stanley Donen; Kelly also starred and choreographed\nKelly performed the title number with a 103\u00b0F fever; the \"rain\" was made visible on camera through careful backlighting (a common myth claims milk was added to the water, but this has been debunked)\nThe film was built around a pre-existing catalog of Arthur Freed songs from the 1920s\u20131930s \u2014 a \"jukebox musical\" decades before the term existed\nDebbie Reynolds was 19 with no dance training; Kelly's demands were so intense that Fred Astaire found her crying under a piano and let her watch one of his rehearsals to show that even professionals struggle",
+          "cardFront": "#5 on AFI list \u2014 1952, Gene Kelly",
+          "cardBack": "Singin' in the Rain"
+        },
+        {
+          "id": "gone-with-the-wind",
+          "prompt": "Which 1939 Civil War epic about Scarlett O'Hara, starring Vivien Leigh and Clark Gable, ranks #6 on the AFI list and remains the highest-grossing film ever adjusted for inflation?",
+          "answer": "Gone with the Wind",
+          "alternates": ["Gone With the Wind", "GWTW"],
+          "explanation": "#6 on the 2007 AFI list (was #4 on the 1998 list)\nWon eight competitive Oscars from 13 nominations; Hattie McDaniel became the first African American Oscar winner\nDirected by Victor Fleming; produced by David O. Selznick\nAdjusted for inflation, remains the highest-grossing film of all time at approximately $3.7 billion in today's dollars\nThe burning of Atlanta scene used old sets from *King Kong* and *The Garden of Allah*\n\"Frankly, my dear, I don't give a damn\" is AFI's #1 greatest movie quote",
+          "cardFront": "#6 on AFI list \u2014 1939, Civil War epic",
+          "cardBack": "Gone with the Wind"
+        },
+        {
+          "id": "lawrence-of-arabia",
+          "prompt": "Which 1962 David Lean epic about a British officer's role in the Arab Revolt during World War I, starring Peter O'Toole, ranks #7 on the AFI list?",
+          "answer": "Lawrence of Arabia",
+          "alternates": [],
+          "explanation": "#7 on the 2007 AFI list (was #5 on the 1998 list)\nDirected by David Lean; Peter O'Toole's breakthrough role as T.E. Lawrence\nWon seven Oscars including Best Picture and Best Director; O'Toole lost Best Actor to Gregory Peck (*To Kill a Mockingbird*)\nShot on location in Jordan, Morocco, and Spain; the vast desert cinematography by Freddie Young is considered among the finest ever\nNearly four hours long; Steven Spielberg has called it the film that inspired him to become a director\nO'Toole was nominated for eight Best Actor Oscars over his career but never won competitively",
+          "cardFront": "#7 on AFI list \u2014 1962, David Lean, Peter O'Toole",
+          "cardBack": "Lawrence of Arabia"
+        },
+        {
+          "id": "schindlers-list",
+          "prompt": "Which 1993 Steven Spielberg film, shot mostly in black and white, about a German industrialist who saved over 1,100 Jews during the Holocaust ranks #8 on the AFI list?",
+          "answer": "Schindler's List",
+          "alternates": ["Schindler's List", "Schindlers List"],
+          "explanation": "#8 on the 2007 AFI list (was #9 on the 1998 list)\nWon seven Oscars including Best Picture and Spielberg's first Best Director\nStars Liam Neeson as Oskar Schindler, Ralph Fiennes as SS officer Amon G\u00f6th, and Ben Kingsley as Itzhak Stern\nThe \"girl in the red coat\" is one of cinema's most memorable uses of selective color in an otherwise black-and-white film\nSpielberg refused a salary, calling it \"blood money,\" and used profits to establish the Shoah Foundation\nJohn Williams composed the score; Itzhak Perlman performed the main violin theme",
+          "cardFront": "#8 on AFI list \u2014 1993, Spielberg, Holocaust",
+          "cardBack": "Schindler's List"
+        },
+        {
+          "id": "vertigo",
+          "prompt": "Which 1958 Alfred Hitchcock psychological thriller about a retired detective with a fear of heights who becomes obsessed with a mysterious woman ranks #9 on the AFI list?",
+          "answer": "Vertigo",
+          "alternates": [],
+          "explanation": "#9 on the 2007 AFI list (rose from #61 on the 1998 list \u2014 one of the biggest jumps in AFI history)\nStars James Stewart and Kim Novak; the \"vertigo effect\" (dolly zoom) was pioneered here and has been copied in hundreds of films since\nIn 2012, *Sight & Sound* magazine's critics' poll named it the greatest film ever made, dethroning *Citizen Kane* for the first time in 50 years\nReceived mixed reviews and modest box office on release; its reputation grew dramatically over decades\nHitchcock considered it his most personal film; themes of obsessive control mirror his own relationships with actresses\nBernard Herrmann's hypnotic score is considered one of the greatest in film history",
+          "cardFront": "#9 on AFI list \u2014 1958, Hitchcock, fear of heights",
+          "cardBack": "Vertigo"
+        },
+        {
+          "id": "wizard-of-oz",
+          "prompt": "Which 1939 Victor Fleming musical fantasy, featuring a Kansas girl transported to a Technicolor world of witches, a yellow brick road, and ruby slippers, ranks #10 on the AFI list?",
+          "answer": "The Wizard of Oz",
+          "alternates": ["Wizard of Oz"],
+          "explanation": "#10 on the 2007 AFI list (was #6 on the 1998 list)\nThe transition from sepia-tone Kansas to Technicolor Oz is one of cinema's most iconic visual moments\nJudy Garland was 16 during filming; \"Over the Rainbow\" almost got cut by the studio but became her signature song and won Best Original Song\nThe ruby slippers were silver in L. Frank Baum's 1900 novel; changed to red to showcase Technicolor\nBudget was $2.8 million and initially lost money at the box office; it became profitable through re-releases and television broadcasts\n\"There's no place like home\" is AFI's #23 greatest movie quote",
+          "cardFront": "#10 on AFI list \u2014 1939, Judy Garland, Oz",
+          "cardBack": "The Wizard of Oz"
+        },
+        {
+          "id": "psycho",
+          "prompt": "Which 1960 Alfred Hitchcock thriller about a secretary who steals money and checks into a remote motel run by a disturbed young man ranks #14 on the AFI list?",
+          "answer": "Psycho",
+          "alternates": [],
+          "explanation": "#14 on the 2007 AFI list (was #18 on the 1998 list)\nThe shower scene used 78 camera setups and 52 cuts in 45 seconds; the \"blood\" was chocolate syrup (the film is in black and white)\nHitchcock demanded theaters not admit latecomers \u2014 a revolutionary policy that changed cinema exhibition forever\nAnthony Perkins as Norman Bates set the template for the modern serial-killer character\nHitchcock financed the film himself after Paramount balked; it became his biggest commercial hit\nBased on Robert Bloch's 1959 novel, itself inspired by Ed Gein, a Wisconsin serial killer",
+          "cardFront": "#14 on AFI list \u2014 1960, Hitchcock, Bates Motel",
+          "cardBack": "Psycho"
+        },
+        {
+          "id": "2001-a-space-odyssey",
+          "prompt": "Which 1968 Stanley Kubrick science fiction film featuring the sentient computer HAL 9000, a mysterious black monolith, and a psychedelic \"Star Gate\" sequence ranks #15 on the AFI list?",
+          "answer": "2001: A Space Odyssey",
+          "alternates": ["2001 A Space Odyssey", "2001"],
+          "explanation": "#15 on the 2007 AFI list (was #22 on the 1998 list)\nKubrick co-wrote the screenplay with Arthur C. Clarke; the novel and film were developed simultaneously\nHAL 9000 is cinema's most iconic artificial intelligence; his calm voice saying \"I'm sorry, Dave. I'm afraid I can't do that\" is deeply unsettling\nThe film contains only about 40 minutes of dialogue in its 139-minute runtime\nKubrick destroyed most of the models after filming to prevent knock-offs and unauthorized use\nRichard Strauss's *Also sprach Zarathustra* and Johann Strauss II's *The Blue Danube* became forever associated with the film",
+          "cardFront": "#15 on AFI list \u2014 1968, Kubrick, HAL 9000",
+          "cardBack": "2001: A Space Odyssey"
+        },
+        {
+          "id": "sunset-boulevard",
+          "prompt": "Which 1950 Billy Wilder film noir about a faded silent-film star who ensnares a struggling screenwriter in her delusional world ranks #16 on the AFI list?",
+          "answer": "Sunset Boulevard",
+          "alternates": ["Sunset Blvd", "Sunset Blvd."],
+          "explanation": "#16 on the 2007 AFI list (was #12 on the 1998 list)\nGloria Swanson plays Norma Desmond, a reclusive former silent-film star; \"I am big. It's the pictures that got small\" is AFI's #24 greatest movie quote\nWilliam Holden narrates as the dead screenwriter floating face-down in a pool \u2014 the film opens with his corpse\nErich von Stroheim plays Max, Norma's butler and former director/husband \u2014 mirroring his real career as a director from the silent era\nLouis B. Mayer reportedly confronted Wilder after a screening, shouting, \"You have disgraced the industry that made and fed you!\"\nNominated for 11 Oscars but won only three: Best Screenplay, Best Art Direction, Best Score",
+          "cardFront": "#16 on AFI list \u2014 1950, Wilder, Norma Desmond",
+          "cardBack": "Sunset Boulevard"
+        },
+        {
+          "id": "the-graduate",
+          "prompt": "Which 1967 Mike Nichols comedy-drama about a directionless young man seduced by an older woman, featuring Simon & Garfunkel's music, ranks #17 on the AFI list?",
+          "answer": "The Graduate",
+          "alternates": ["Graduate"],
+          "explanation": "#17 on the 2007 AFI list (was #7 on the 1998 list)\nDustin Hoffman's breakthrough role as Benjamin Braddock; Anne Bancroft plays Mrs. Robinson, who seduces him\n\"Mrs. Robinson, you're trying to seduce me\" is AFI's #63 greatest movie quote\nSimon & Garfunkel's \"The Sound of Silence\" and \"Mrs. Robinson\" became inseparable from the film\nNichols won Best Director; the film was nominated for seven Oscars but lost Best Picture to *In the Heat of the Night*\nThe ambiguous final scene \u2014 Benjamin and Elaine's smiles fading on the back of a bus \u2014 is one of cinema's most analyzed endings",
+          "cardFront": "#17 on AFI list \u2014 1967, Nichols, Mrs. Robinson",
+          "cardBack": "The Graduate"
+        },
+        {
+          "id": "on-the-waterfront",
+          "prompt": "Which 1954 Elia Kazan film about a dockworker fighting union corruption, starring Marlon Brando and featuring the line \"I coulda been a contender,\" ranks #19 on the AFI list?",
+          "answer": "On the Waterfront",
+          "alternates": [],
+          "explanation": "#19 on the 2007 AFI list (was #8 on the 1998 list)\nWon eight Oscars from 12 nominations: Best Picture, Best Director, Best Actor (Brando), Best Supporting Actress (Eva Marie Saint)\nBrando's taxi scene with Rod Steiger \u2014 \"I coulda been a contender\" \u2014 is one of the most iconic performances in cinema\nWidely read as Kazan's defense of his testimony before the House Un-American Activities Committee in 1952\nShot on location in Hoboken, New Jersey, in the dead of winter; the cold is visible in the actors' breath\nEva Marie Saint's film debut; she later starred in Hitchcock's *North by Northwest* (1959)",
+          "cardFront": "#19 on AFI list \u2014 1954, Kazan, Brando, dockworkers",
+          "cardBack": "On the Waterfront"
+        },
+        {
+          "id": "its-a-wonderful-life",
+          "prompt": "Which 1946 Frank Capra film about a suicidal small-town banker shown what life would be like without him by a guardian angel ranks #20 on the AFI list?",
+          "answer": "It's a Wonderful Life",
+          "alternates": ["Its a Wonderful Life", "It's A Wonderful Life"],
+          "explanation": "#20 on the 2007 AFI list (was #11 on the 1998 list)\nStars James Stewart as George Bailey and Henry Travers as angel Clarence Odbody\nFlopped at the box office on release and was considered a failure; became beloved decades later through repeated television broadcasts\nIts copyright lapsed in 1974, allowing TV stations to air it freely, which transformed it into a Christmas tradition\nCapra called it his favorite film; Stewart said it was the best script he ever read\nFive Oscar nominations but no wins; lost Best Picture to *The Best Years of Our Lives*",
+          "cardFront": "#20 on AFI list \u2014 1946, Capra, guardian angel",
+          "cardBack": "It's a Wonderful Life"
+        },
+        {
+          "id": "chinatown",
+          "prompt": "Which 1974 Roman Polanski neo-noir about a private detective uncovering corruption and a dark family secret in 1930s Los Angeles ranks #21 on the AFI list?",
+          "answer": "Chinatown",
+          "alternates": [],
+          "explanation": "#21 on the 2007 AFI list (was #19 on the 1998 list)\nStars Jack Nicholson as J.J. Gittes and Faye Dunaway as Evelyn Mulwray; written by Robert Towne\nTowne's screenplay is widely considered the greatest original screenplay ever written; won the Oscar for Best Original Screenplay\n\"Forget it, Jake. It's Chinatown\" is the famous closing line, spoken not by the protagonist but by a colleague\nInspired by real Los Angeles water wars of the early 1900s, when William Mulholland diverted water from the Owens Valley\nNominated for 11 Oscars but won only one (Towne's screenplay); lost Best Picture to *The Godfather Part II*",
+          "cardFront": "#21 on AFI list \u2014 1974, Polanski, L.A. water scandal",
+          "cardBack": "Chinatown"
+        },
+        {
+          "id": "some-like-it-hot",
+          "prompt": "Which 1959 Billy Wilder comedy about two musicians who disguise themselves as women to escape gangsters, starring Marilyn Monroe, ranks #22 on the AFI list?",
+          "answer": "Some Like It Hot",
+          "alternates": [],
+          "explanation": "#22 on the 2007 AFI list (was #14 on the 1998 list)\nStars Jack Lemmon and Tony Curtis as the disguised musicians; Marilyn Monroe as Sugar Kane, the band's ukulele-playing singer\nClosing line \u2014 \"Well, nobody's perfect\" \u2014 is AFI's #48 greatest movie quote and one of cinema's greatest final lines\nMonroe required 47 takes for the line \"It's me, Sugar\" and reportedly needed cue cards for simple dialogue\nConsistently tops critics' lists of the greatest comedy ever made\nThe film violated the Production Code by featuring cross-dressing and homosexual implications; released without Code approval",
+          "cardFront": "#22 on AFI list \u2014 1959, Wilder, Monroe",
+          "cardBack": "Some Like It Hot"
+        },
+        {
+          "id": "et",
+          "prompt": "Which 1982 Steven Spielberg film about a boy who befriends a stranded alien and helps him \"phone home\" ranks #24 on the AFI list?",
+          "answer": "E.T. the Extra-Terrestrial",
+          "alternates": ["E.T.", "ET", "ET the Extra-Terrestrial"],
+          "explanation": "#24 on the 2007 AFI list (was #25 on the 1998 list)\nMelissa Mathison wrote the screenplay; Spielberg drew on his childhood feelings of loneliness after his parents' divorce\nThe flying-bicycle-across-the-moon shot became the logo for Spielberg's Amblin Entertainment production company\nGrossed $797 million worldwide, surpassing *Star Wars* as the highest-grossing film of all time (held the record until *Jurassic Park* in 1993)\n\"E.T. phone home\" is AFI's #15 greatest movie quote\nReese's Pieces sales increased 65% after the film; M&M's parent company Mars had turned down the product-placement deal",
+          "cardFront": "#24 on AFI list \u2014 1982, Spielberg, \"phone home\"",
+          "cardBack": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "id": "to-kill-a-mockingbird",
+          "prompt": "Which 1962 Robert Mulligan film about a lawyer defending a Black man falsely accused of rape in Depression-era Alabama, starring Gregory Peck, ranks #25 on the AFI list?",
+          "answer": "To Kill a Mockingbird",
+          "alternates": ["To Kill a Mocking Bird"],
+          "explanation": "#25 on the 2007 AFI list (was #34 on the 1998 list)\nGregory Peck won Best Actor; AFI named Atticus Finch the #1 greatest hero in American film history\nBased on Harper Lee's 1960 Pulitzer Prize-winning novel; adapted by screenwriter Horton Foote\nFilmed in Hollywood but set in the fictional town of Maycomb, Alabama, based on Lee's hometown of Monroeville\nPeck and Lee became lifelong friends; she gave him her father's pocket watch\nAlso features the film debut of Robert Duvall as Boo Radley, in a non-speaking role",
+          "cardFront": "#25 on AFI list \u2014 1962, Mulligan, Atticus Finch",
+          "cardBack": "To Kill a Mockingbird"
+        }
+      ]
+    }
+  ]
+}

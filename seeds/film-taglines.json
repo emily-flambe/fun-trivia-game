@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "film/taglines", "parentId": "film", "name": "Movie Taglines", "description": "Famous promotional taglines and their films" }
+  ],
+  "exercises": [
+    {
+      "id": "film/taglines/movie-taglines",
+      "nodeId": "film/taglines",
+      "name": "Movie Taglines",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "alien",
+          "prompt": "Which 1979 Ridley Scott sci-fi horror film used the tagline \"In space, no one can hear you scream\"?",
+          "answer": "Alien",
+          "alternates": [],
+          "explanation": "Tagline conceived by Barbara Gips at the advertising firm Intralink; considered one of the greatest taglines in film history\nDirected by Ridley Scott; stars Sigourney Weaver as Ripley, one of cinema's first major female action heroes\nThe tagline is scientifically accurate \u2014 sound cannot travel through the vacuum of space\nChestburster scene was partly improvised; the cast's horrified reactions were genuine\nSpawned a franchise of sequels, prequels, and crossovers spanning over 40 years",
+          "cardFront": "\"In space, no one can hear you scream\"",
+          "cardBack": "Alien"
+        },
+        {
+          "id": "jaws-2",
+          "prompt": "Which 1978 sequel used the tagline \"Just when you thought it was safe to go back in the water\"?",
+          "answer": "Jaws 2",
+          "alternates": ["Jaws II", "Jaws Two"],
+          "explanation": "Sequel to Steven Spielberg's *Jaws* (1975); directed by Jeannot Szwarc\nThe tagline plays on the widespread fear of swimming that the original film created in the summer of 1975\nOne of the most parodied taglines in advertising history \u2014 \"Just when you thought it was safe to...\" has become a cultural template\nRoy Scheider returned as Chief Brody; Spielberg did not direct the sequel\nGrossed $208 million worldwide; held the record as the highest-grossing sequel until *The Empire Strikes Back* surpassed it in 1980",
+          "cardFront": "\"Just when you thought it was safe to go back in the water\"",
+          "cardBack": "Jaws 2"
+        },
+        {
+          "id": "the-fly",
+          "prompt": "Which 1986 David Cronenberg body-horror film starring Jeff Goldblum used the tagline \"Be afraid. Be very afraid.\"?",
+          "answer": "The Fly",
+          "alternates": ["Fly"],
+          "explanation": "Directed by David Cronenberg; a remake of the 1958 film of the same name\nThe tagline entered common English as a phrase expressing intense fear or warning\nJeff Goldblum plays Seth Brundle, a scientist who accidentally merges with a housefly during a teleportation experiment\nGeena Davis co-stars; she and Goldblum were a couple off-screen during filming\nWon the Academy Award for Best Makeup; Goldblum's gradual transformation is considered a masterwork of practical effects",
+          "cardFront": "\"Be afraid. Be very afraid.\"",
+          "cardBack": "The Fly"
+        },
+        {
+          "id": "ghostbusters",
+          "prompt": "Which 1984 comedy about paranormal exterminators in New York City used the tagline \"Who you gonna call?\"?",
+          "answer": "Ghostbusters",
+          "alternates": ["Ghost Busters"],
+          "explanation": "Directed by Ivan Reitman; starring Bill Murray, Dan Aykroyd, Harold Ramis, and Ernie Hudson\nThe tagline doubles as the hook of Ray Parker Jr.'s theme song, which hit #1 on the Billboard Hot 100\nHuey Lewis sued Parker for plagiarism, claiming the melody copied \"I Want a New Drug\"; the case was settled out of court\nGrossed approximately $282 million worldwide in its initial run, briefly the highest-grossing comedy ever at the time of its release\nThe Stay Puft Marshmallow Man was a practical effect: a stuntman in a suit on a miniature set",
+          "cardFront": "\"Who you gonna call?\"",
+          "cardBack": "Ghostbusters"
+        },
+        {
+          "id": "star-wars",
+          "prompt": "Which 1977 George Lucas space opera used the tagline \"A long time ago in a galaxy far, far away...\"?",
+          "answer": "Star Wars",
+          "alternates": ["Star Wars: A New Hope", "A New Hope", "Star Wars Episode IV"],
+          "explanation": "The opening text crawl became the franchise's signature, appearing in every mainline *Star Wars* film\nGeorge Lucas drew inspiration from Akira Kurosawa's *The Hidden Fortress* (1958) and Joseph Campbell's *The Hero with a Thousand Faces*\nOriginally just titled *Star Wars*; \"Episode IV \u2014 A New Hope\" was added in the 1981 re-release\nWon six Oscars from ten nominations, including Best Film Editing, Best Score (John Williams), and four technical awards\nGrossed $775 million worldwide and is widely credited with creating the modern blockbuster era alongside *Jaws* (1975)",
+          "cardFront": "\"A long time ago in a galaxy far, far away...\"",
+          "cardBack": "Star Wars"
+        },
+        {
+          "id": "jurassic-park",
+          "prompt": "Which 1993 Steven Spielberg film about cloned dinosaurs escaping on a tropical island used the tagline \"An adventure 65 million years in the making\"?",
+          "answer": "Jurassic Park",
+          "alternates": [],
+          "explanation": "Directed by Steven Spielberg; based on Michael Crichton's 1990 novel\nThe tagline references the 65-million-year gap since the Cretaceous\u2013Paleogene extinction event that killed the non-avian dinosaurs\nRevolutionized visual effects by combining CGI (from Industrial Light & Magic) with Stan Winston's animatronic dinosaurs\nGrossed $914 million worldwide in its original run, becoming the highest-grossing film ever at the time until *Titanic* (1997); a 2013 re-release pushed the total past $1 billion\nSam Neill, Laura Dern, and Jeff Goldblum starred; Goldblum's \"Life finds a way\" became a widely quoted meme",
+          "cardFront": "\"An adventure 65 million years in the making\"",
+          "cardBack": "Jurassic Park"
+        },
+        {
+          "id": "love-story",
+          "prompt": "Which 1970 romance starring Ali MacGraw and Ryan O'Neal used the tagline \"Love means never having to say you're sorry\"?",
+          "answer": "Love Story",
+          "alternates": [],
+          "explanation": "Directed by Arthur Hiller; based on Erich Segal's 1970 novel\nThe tagline is also a line of dialogue \u2014 spoken twice in the film, once by MacGraw's character and once by O'Neal's\nRanked #13 on AFI's 100 Greatest Movie Quotes list\nParodied in *What's Up, Doc?* (1972): Streisand quotes the line, and O'Neal replies, \"That's the dumbest thing I ever heard\"\nGrossed $173 million worldwide on a $2.2 million budget; nominated for seven Oscars, winning only Best Original Score (Francis Lai)",
+          "cardFront": "\"Love means never having to say you're sorry\"",
+          "cardBack": "Love Story"
+        },
+        {
+          "id": "superman",
+          "prompt": "Which 1978 superhero film starring Christopher Reeve used the tagline \"You'll believe a man can fly\"?",
+          "answer": "Superman",
+          "alternates": ["Superman: The Movie"],
+          "explanation": "Directed by Richard Donner; Christopher Reeve's star-making role\nThe tagline promised groundbreaking flying effects at a time when audiences had never seen convincing superhero flight on screen\nMarlon Brando received $3.7 million and a percentage of gross for approximately 12 minutes of screen time as Jor-El\nJohn Williams composed the iconic main theme, one of the most recognizable pieces of film music ever written\nEstablished the template for modern superhero cinema; its earnest, hopeful tone contrasted with later darker interpretations",
+          "cardFront": "\"You'll believe a man can fly\"",
+          "cardBack": "Superman"
+        },
+        {
+          "id": "shawshank-redemption",
+          "prompt": "Which 1994 prison drama starring Tim Robbins and Morgan Freeman used the tagline \"Fear can hold you prisoner. Hope can set you free.\"?",
+          "answer": "The Shawshank Redemption",
+          "alternates": ["Shawshank Redemption", "Shawshank"],
+          "explanation": "Directed by Frank Darabont; based on Stephen King's novella *Rita Hayworth and Shawshank Redemption*\nEarned only $16 million in its initial domestic run on a $25 million budget, but became a massive hit through video rentals and cable TV (total gross reached $73 million with re-releases)\nConsistently ranked #1 on IMDb's user-rated top 250 films list since the early 2000s\nNominated for seven Oscars but won none \u2014 lost Best Picture to *Forrest Gump*\nFilmed at the Ohio State Reformatory in Mansfield, Ohio, which is now a tourist attraction partly because of the film",
+          "cardFront": "\"Fear can hold you prisoner. Hope can set you free.\"",
+          "cardBack": "The Shawshank Redemption"
+        },
+        {
+          "id": "fight-club",
+          "prompt": "Which 1999 David Fincher film about an underground bare-knuckle fighting ring, starring Brad Pitt and Edward Norton, used the tagline \"Mischief. Mayhem. Soap.\"?",
+          "answer": "Fight Club",
+          "alternates": [],
+          "explanation": "Directed by David Fincher; based on Chuck Palahniuk's 1996 novel\nThe tagline's \"Soap\" refers to Tyler Durden's business of making luxury soap from stolen liposuction fat\nFlopped at the U.S. box office ($37 million domestic) but became a cult classic on DVD, one of the first films to benefit massively from home video\nThe twist ending \u2014 that the Narrator and Tyler Durden are the same person \u2014 became one of the most famous plot twists in film\nThe first rule of Fight Club (\"You do not talk about Fight Club\") entered popular culture as a template for rules about secrecy",
+          "cardFront": "\"Mischief. Mayhem. Soap.\"",
+          "cardBack": "Fight Club"
+        },
+        {
+          "id": "schindlers-list",
+          "prompt": "Which 1993 Steven Spielberg film about a German industrialist saving Jews during the Holocaust used the tagline \"The list is life\"?",
+          "answer": "Schindler's List",
+          "alternates": ["Schindler's List", "Schindlers List"],
+          "explanation": "Directed by Steven Spielberg; based on Thomas Keneally's novel *Schindler's Ark* (1982)\nThe tagline echoes the line spoken by Itzhak Stern (Ben Kingsley): \"The list is an absolute good. The list is life.\"\nWon seven Oscars including Best Picture and Best Director \u2014 Spielberg's first Best Director win\nShot almost entirely in black and white; the \"girl in the red coat\" is one of cinema's most memorable uses of selective color\nSpielberg refused a salary, calling it \"blood money,\" and used profits to establish the Shoah Foundation",
+          "cardFront": "\"The list is life\"",
+          "cardBack": "Schindler's List"
+        },
+        {
+          "id": "platoon",
+          "prompt": "Which 1986 Oliver Stone Vietnam War film, winner of Best Picture, used the tagline \"The first casualty of war is innocence\"?",
+          "answer": "Platoon",
+          "alternates": [],
+          "explanation": "Directed by Oliver Stone; the first of his Vietnam War trilogy (followed by *Born on the Fourth of July* and *Heaven & Earth*)\nThe tagline adapts the aphorism \"The first casualty when war comes is truth,\" commonly attributed to Senator Hiram Johnson (c. 1917, though the exact origin is debated)\nStone based the screenplay on his own combat experience as an infantryman in Vietnam (1967\u20131968)\nWon four Oscars: Best Picture, Best Director, Best Film Editing, Best Sound\nStars Charlie Sheen, Tom Berenger, and Willem Dafoe; the Sgt. Elias death scene (arms raised) became an iconic war film image",
+          "cardFront": "\"The first casualty of war is innocence\"",
+          "cardBack": "Platoon"
+        },
+        {
+          "id": "poltergeist",
+          "prompt": "Which 1982 Tobe Hooper horror film about a suburban family's home invaded by malevolent ghosts used the tagline \"They're here.\"?",
+          "answer": "Poltergeist",
+          "alternates": [],
+          "explanation": "Directed by Tobe Hooper, produced and co-written by Steven Spielberg; debate persists over who actually directed most scenes\nThe tagline is spoken by young Carol Anne Freeling (Heather O'Rourke) as she stares at a static-filled television\nThe \"Poltergeist curse\" became a Hollywood legend after several cast members died prematurely, including O'Rourke (age 12) and Dominique Dunne (age 22)\nReal human skeletons were used as props in the pool scene because they were cheaper than plastic replicas \u2014 the cast was reportedly not told\nNominated for three Oscars including Best Visual Effects; grossed $121 million on a $10.7 million budget",
+          "cardFront": "\"They're here.\"",
+          "cardBack": "Poltergeist"
+        },
+        {
+          "id": "saving-private-ryan",
+          "prompt": "Which 1998 Steven Spielberg World War II film about a squad sent to find a paratrooper whose three brothers have been killed used the tagline \"The mission is a man\"?",
+          "answer": "Saving Private Ryan",
+          "alternates": [],
+          "explanation": "Directed by Steven Spielberg; starring Tom Hanks as Captain Miller\nThe tagline encapsulates the film's moral dilemma: risking eight lives to save one\nThe 27-minute Omaha Beach opening sequence is widely considered the most realistic depiction of combat ever filmed\nWon five Oscars including Best Director for Spielberg, but controversially lost Best Picture to *Shakespeare in Love*\nInspired by the real Niland brothers; Frederick \"Fritz\" Niland was pulled from combat after all three of his brothers were believed dead (one, Edward, was later found alive as a POW in Burma)",
+          "cardFront": "\"The mission is a man\"",
+          "cardBack": "Saving Private Ryan"
+        },
+        {
+          "id": "titanic",
+          "prompt": "Which 1997 James Cameron epic about a doomed ocean liner used the tagline \"Nothing on Earth could come between them\"?",
+          "answer": "Titanic",
+          "alternates": [],
+          "explanation": "Directed by James Cameron; starring Leonardo DiCaprio and Kate Winslet\nThe tagline refers to the love story between Jack Dawson and Rose DeWitt Bukater aboard the ill-fated RMS Titanic\nWon 11 Oscars from 14 nominations, tying *Ben-Hur* (1959) for most wins by a single film\nFirst film to gross over $1 billion worldwide; held the record until Cameron's own *Avatar* (2009) surpassed it\nCameron famously shouted \"I'm the king of the world!\" from the Oscar stage, quoting his own film\nC\u00e9line Dion's \"My Heart Will Go On\" won Best Original Song and became a global phenomenon",
+          "cardFront": "\"Nothing on Earth could come between them\"",
+          "cardBack": "Titanic"
+        }
+      ]
+    }
+  ]
+}

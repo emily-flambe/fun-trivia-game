@@ -12,9 +12,11 @@ interface Props {
 	answers: AnswerRecord[];
 	items: PublicItem[];
 	exercisePath: string;
+	onRepeat: () => void;
+	onRetryFailed: () => void;
 }
 
-export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
+export function QuizSummary({ exercise, answers, items, exercisePath, onRepeat, onRetryFailed }: Props) {
 	const nodeId = exercise.nodeId;
 	const correct = answers.filter((a) => a.correct).length;
 	const total = answers.length;
@@ -64,14 +66,19 @@ export function QuizSummary({ exercise, answers, items, exercisePath }: Props) {
 			)}
 
 			<div className="mt-6 flex flex-wrap gap-3">
-				<a href={`#/exercise/${exercisePath}?mode=quiz`} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-					Try Again
-				</a>
+				<button onClick={onRepeat} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+					Repeat
+				</button>
+				{wrong.length > 0 && (
+					<button onClick={onRetryFailed} className="bg-surface-bright hover:bg-surface-hover text-accent border border-accent/30 px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						Retry Failed
+					</button>
+				)}
 				<a href={`#/exercise/${exercisePath}?mode=learn`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-					Study List
+					Study
 				</a>
-				<a href={`#/node/${nodeId}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-					Back
+				<a href="#/" className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+					Home
 				</a>
 			</div>
 		</div>

@@ -86,6 +86,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 				answers={answers}
 				items={quizItems}
 				exercisePath={exercisePath}
+				onRepeat={handleRepeat}
+				onRetryFailed={handleRetryFailed}
 			/>
 		);
 	}
@@ -124,6 +126,32 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 			setCurrentResult(null);
 			setInput('');
 		}
+	}
+
+	function handleRepeat() {
+		let prepared = shuffleArray(items);
+		if (mode === 'random-10') prepared = prepared.slice(0, 10);
+		setQuizItems(prepared);
+		setCurrent(0);
+		setAnswers([]);
+		setInput('');
+		setCurrentResult(null);
+		setStatus(prepared.length > 0 ? 'in-progress' : 'complete');
+		startTimeRef.current = Date.now();
+		submittedRef.current = false;
+	}
+
+	function handleRetryFailed() {
+		const failedIds = new Set(answers.filter((a) => !a.correct).map((a) => a.itemId));
+		const failedItems = shuffleArray(items.filter((i) => failedIds.has(i.id)));
+		setQuizItems(failedItems);
+		setCurrent(0);
+		setAnswers([]);
+		setInput('');
+		setCurrentResult(null);
+		setStatus(failedItems.length > 0 ? 'in-progress' : 'complete');
+		startTimeRef.current = Date.now();
+		submittedRef.current = false;
 	}
 
 	return (

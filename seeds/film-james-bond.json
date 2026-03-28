@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "film/bond", "parentId": "film", "name": "James Bond", "description": "007 films, actors, and iconic moments" }
+  ],
+  "exercises": [
+    {
+      "id": "film/bond/james-bond-films",
+      "nodeId": "film/bond",
+      "name": "James Bond Films",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "connery",
+          "prompt": "Which Scottish actor originated the role of James Bond in *Dr. No* (1962) and played 007 in six official EON films plus the unofficial *Never Say Never Again* (1983)?",
+          "answer": "Sean Connery",
+          "alternates": ["Connery"],
+          "explanation": "Played Bond in *Dr. No* (1962), *From Russia with Love* (1963), *Goldfinger* (1964), *Thunderball* (1965), *You Only Live Twice* (1967), and *Diamonds Are Forever* (1971)\nReturned for the unofficial *Never Say Never Again* (1983), a remake of *Thunderball* produced outside EON\nFirst uttered \"Bond. James Bond\" at a baccarat table in *Dr. No* \u2014 AFI's #22 greatest movie quote\nWon the Academy Award for Best Supporting Actor for *The Untouchables* (1987)\nKnighted in 2000; died in October 2020 at age 90 in the Bahamas",
+          "cardFront": "First Bond \u2014 6 EON films (1962\u20131971)",
+          "cardBack": "Sean Connery"
+        },
+        {
+          "id": "lazenby",
+          "prompt": "Which Australian actor played James Bond only once, in *On Her Majesty's Secret Service* (1969), the only film in which Bond marries?",
+          "answer": "George Lazenby",
+          "alternates": ["Lazenby"],
+          "explanation": "Only actor to play Bond once in the official series; turned down a multi-film contract on advice from his agent\n*On Her Majesty's Secret Service* ends with the murder of Bond's wife Tracy by Blofeld \u2014 the darkest ending in the franchise\nWas a model and car salesman with no prior acting experience before being cast\nThe film was initially considered a commercial disappointment but is now regarded by fans and critics as one of the best Bond films\nConnery returned to the role in *Diamonds Are Forever* (1971) after Lazenby's departure",
+          "cardFront": "One-film Bond \u2014 *On Her Majesty's Secret Service* (1969)",
+          "cardBack": "George Lazenby"
+        },
+        {
+          "id": "moore",
+          "prompt": "Which English actor played James Bond in seven films from 1973 to 1985, the most of any Bond actor, bringing a lighter, more comedic tone to the role?",
+          "answer": "Roger Moore",
+          "alternates": ["Moore"],
+          "explanation": "Seven Bond films: *Live and Let Die* (1973), *The Man with the Golden Gun* (1974), *The Spy Who Loved Me* (1977), *Moonraker* (1979), *For Your Eyes Only* (1981), *Octopussy* (1983), *A View to a Kill* (1985)\nHolds the record for most Bond films by a single actor\nBrought a lighter, more humorous take on the character compared to Connery's intensity\nWas 57 when he filmed *A View to a Kill* \u2014 the oldest actor to play Bond\nAlso famous for playing Simon Templar in the TV series *The Saint* (1962\u20131969); UNICEF Goodwill Ambassador from 1991 until his death in 2017",
+          "cardFront": "Most Bond films (7) \u2014 1973\u20131985",
+          "cardBack": "Roger Moore"
+        },
+        {
+          "id": "dalton",
+          "prompt": "Which Welsh actor played Bond in only two films, *The Living Daylights* (1987) and *Licence to Kill* (1989), bringing a grittier, more faithful-to-Fleming portrayal?",
+          "answer": "Timothy Dalton",
+          "alternates": ["Dalton"],
+          "explanation": "Two Bond films before legal disputes between EON and MGM delayed the franchise for six years\n*Licence to Kill* was the first Bond film to receive a PG-13 rating in the U.S. for its darker violence\nHis portrayal was the closest to Ian Fleming's literary Bond until Daniel Craig\nHad been approached for the role as early as 1968 but felt he was too young at 22\nMade his film debut playing Philip II of France in *The Lion in Winter* (1968) alongside Peter O'Toole and Katharine Hepburn",
+          "cardFront": "Two-film Bond \u2014 grittier, Fleming-faithful (1987\u20131989)",
+          "cardBack": "Timothy Dalton"
+        },
+        {
+          "id": "brosnan",
+          "prompt": "Which Irish actor played Bond in four films starting with *GoldenEye* (1995), reviving the franchise after a six-year hiatus?",
+          "answer": "Pierce Brosnan",
+          "alternates": ["Brosnan"],
+          "explanation": "Four Bond films: *GoldenEye* (1995), *Tomorrow Never Dies* (1997), *The World Is Not Enough* (1999), *Die Another Day* (2002)\n*GoldenEye* revived the franchise after a six-year legal dispute and was a major commercial hit\nOriginally cast as Bond in 1986 but lost the role when NBC renewed his TV series *Remington Steele*\n*Die Another Day* (2002) was the 20th Bond film and featured an invisible car and ice palace, widely criticized for excessive CGI\nBorn in Ireland; became a U.S. citizen in 2004",
+          "cardFront": "Four-film Bond \u2014 revived franchise (1995\u20132002)",
+          "cardBack": "Pierce Brosnan"
+        },
+        {
+          "id": "craig",
+          "prompt": "Which English actor rebooted the Bond franchise with *Casino Royale* (2006) and starred in five films through *No Time to Die* (2021), the first Bond film in which 007 dies?",
+          "answer": "Daniel Craig",
+          "alternates": ["Craig"],
+          "explanation": "Five Bond films: *Casino Royale* (2006), *Quantum of Solace* (2008), *Skyfall* (2012), *Spectre* (2015), *No Time to Die* (2021)\n*Casino Royale* rebooted the franchise with a grittier, more realistic tone inspired by the original Ian Fleming novel\n*Skyfall* became the highest-grossing Bond film at over $1.1 billion worldwide and the first to cross $1 billion\n*No Time to Die* controversially ended with Bond's death \u2014 a franchise first in 59 years\nFaced fan backlash when cast (\"Blond Bond\" controversy) but is now widely considered one of the best Bonds",
+          "cardFront": "Rebooted franchise \u2014 5 films (2006\u20132021)",
+          "cardBack": "Daniel Craig"
+        },
+        {
+          "id": "goldfinger",
+          "prompt": "Which 1964 Bond film features the villain Auric, who plans to irradiate the U.S. gold reserve at Fort Knox, and the famous line \"No, Mr. Bond, I expect you to die\"?",
+          "answer": "Goldfinger",
+          "alternates": [],
+          "explanation": "Third Bond film; directed by Guy Hamilton; starred Sean Connery\nIntroduced many franchise tropes: the pre-title action sequence, the villain's elaborate scheme, and a memorable henchman (Oddjob with his razor-edged bowler hat)\nThe gold-painted woman (Jill Masterson) is one of cinema's most iconic death scenes, though the \"skin suffocation\" premise is medically fictional\nShirley Bassey performed the title song \u2014 the first vocal Bond theme in the opening title sequence (the instrumental James Bond Theme accompanied *Dr. No*'s titles; Matt Monro's \"From Russia with Love\" played over end credits)\nGrossed over $120 million worldwide on a $3 million budget \u2014 the highest-grossing film of 1964",
+          "cardFront": "1964 \u2014 Fort Knox, Oddjob, \"I expect you to die\"",
+          "cardBack": "Goldfinger"
+        },
+        {
+          "id": "from-russia-with-love",
+          "prompt": "Which 1963 Bond film, often cited as the most faithful to Ian Fleming's novels, features a tense train fight with SPECTRE assassin Red Grant and a poisoned-blade shoe?",
+          "answer": "From Russia with Love",
+          "alternates": ["From Russia With Love"],
+          "explanation": "Second Bond film; directed by Terence Young; starred Sean Connery\nPresident John F. Kennedy listed the novel as one of his ten favorite books, boosting both sales and the film's profile\nThe fight between Bond and Red Grant (Robert Shaw) on the Orient Express is considered one of the best fight scenes in cinema\nRosa Klebb's poison-tipped shoe blade became an iconic piece of Bond villain gear\nFeatures the first appearance of the Q branch briefcase with hidden gadgets (tear gas, ammunition, gold coins), establishing Q's role in the franchise",
+          "cardFront": "1963 \u2014 Orient Express, Red Grant, Fleming-faithful",
+          "cardBack": "From Russia with Love"
+        },
+        {
+          "id": "spy-who-loved-me",
+          "prompt": "Which 1977 Bond film features the giant steel-toothed henchman Jaws, a Lotus Esprit submarine car, and Bond teaming with Soviet agent Anya Amasova?",
+          "answer": "The Spy Who Loved Me",
+          "alternates": ["Spy Who Loved Me"],
+          "explanation": "Tenth Bond film; directed by Lewis Gilbert; starred Roger Moore\nIntroduced Jaws (Richard Kiel), the 7'1\u00bd\" steel-toothed henchman who became so popular he returned in *Moonraker* (1979)\nThe Lotus Esprit S1 submarine car (nicknamed \"Wet Nellie\") is one of the most famous Bond vehicles\nOpens with Bond skiing off a cliff and deploying a Union Jack parachute \u2014 often called the greatest pre-title stunt in Bond history\nCarly Simon's \"Nobody Does It Better\" was the first Bond theme song not to share the film's title",
+          "cardFront": "1977 \u2014 Jaws, Lotus submarine, Moore era peak",
+          "cardBack": "The Spy Who Loved Me"
+        },
+        {
+          "id": "casino-royale",
+          "prompt": "Which 2006 Bond film, based on Fleming's first 007 novel, rebooted the franchise with a gritty high-stakes poker game in Montenegro and featured the poisoning scene where Bond uses a defibrillator?",
+          "answer": "Casino Royale",
+          "alternates": [],
+          "explanation": "Daniel Craig's first Bond film; directed by Martin Campbell (who also directed *GoldenEye*)\nBased on Ian Fleming's 1953 debut novel \u2014 the first Bond story ever written\nThe poker game replaced the novel's baccarat to reflect modern gambling tastes; the scene is considered one of the franchise's tensest sequences\nMads Mikkelsen plays Le Chiffre, a banker to terrorists who weeps blood from a damaged tear duct\nFeatured a parkour-influenced foot chase in Madagascar that launched freerunner S\u00e9bastien Foucan into mainstream awareness\nBudget of $150 million; grossed $616 million worldwide",
+          "cardFront": "2006 \u2014 Craig debut, reboot, poker game",
+          "cardBack": "Casino Royale"
+        },
+        {
+          "id": "skyfall",
+          "prompt": "Which 2012 Bond film became the first in the franchise to gross over $1 billion worldwide and featured Javier Bardem as the cyberterrorist villain Silva?",
+          "answer": "Skyfall",
+          "alternates": [],
+          "explanation": "Directed by Sam Mendes; the 23rd Bond film and third starring Daniel Craig\nFirst Bond film to cross $1 billion worldwide \u2014 grossed $1.1 billion, making it the highest-grossing Bond film ever\nJavier Bardem's Raoul Silva is frequently ranked among the best Bond villains\nAdele's title song \"Skyfall\" won the Oscar for Best Original Song \u2014 the first Bond song ever to win the award\nThe film's title refers to Bond's childhood home in Scotland, which is destroyed in the climactic battle\nJudi Dench's final major appearance as M; she appeared briefly via recorded message in *Spectre* (2015) but *Skyfall* was her last substantial role across seven films starting with *GoldenEye* (1995)",
+          "cardFront": "2012 \u2014 first $1B Bond, Bardem as Silva",
+          "cardBack": "Skyfall"
+        },
+        {
+          "id": "dr-no",
+          "prompt": "Which 1962 film was the first official James Bond movie, set in Jamaica with a villain planning to disrupt an American space launch from his island base?",
+          "answer": "Dr. No",
+          "alternates": ["Dr No", "Doctor No"],
+          "explanation": "First official EON Productions Bond film; directed by Terence Young\nBased on Ian Fleming's 1958 novel; the villain Dr. Julius No has metal hands after a radiation accident\nUrsula Andress emerging from the sea as Honey Ryder is one of the most iconic images in film history\nBudget was only $1 million; it grossed $60 million worldwide, launching the franchise\nSean Connery was a relatively unknown Scottish actor when cast; he beat over 200 candidates for the role\nJFK screened it at the White House, one of the last films he watched before his assassination",
+          "cardFront": "1962 \u2014 first official Bond film, Jamaica",
+          "cardBack": "Dr. No"
+        },
+        {
+          "id": "no-time-to-die",
+          "prompt": "Which 2021 Bond film was Daniel Craig's final appearance as 007 and the first in the franchise's history in which the protagonist dies?",
+          "answer": "No Time to Die",
+          "alternates": ["No Time To Die"],
+          "explanation": "25th official Bond film; directed by Cary Joji Fukunaga\nDaniel Craig's fifth and final Bond film \u2014 the first Bond film in which 007 dies, breaking a 59-year taboo\nRami Malek plays the villain Lyutsifer Safin; Lashana Lynch plays Nomi, the first Black female 00 agent\nOriginally set for April 2020 release but delayed repeatedly due to the COVID-19 pandemic, finally releasing in October 2021\nBillie Eilish's title song won the Oscar for Best Original Song \u2014 making her the youngest Bond theme singer at 17 when she recorded it\nGrossed $774 million worldwide despite pandemic conditions",
+          "cardFront": "2021 \u2014 Craig's farewell, Bond dies, COVID-delayed",
+          "cardBack": "No Time to Die"
+        },
+        {
+          "id": "goldeneye",
+          "prompt": "Which 1995 Bond film revived the franchise after a six-year hiatus, introduced a new actor as 007, and featured a plot involving a Soviet satellite weapon?",
+          "answer": "GoldenEye",
+          "alternates": ["Goldeneye", "Golden Eye"],
+          "explanation": "Pierce Brosnan's Bond debut; directed by Martin Campbell\nRevived the franchise after a six-year gap caused by legal disputes between EON, MGM, and Danjaq\nSean Bean plays Alec Trevelyan (006), a former MI6 agent turned villain \u2014 one of the few Bond villains with a personal connection to 007\nJudi Dench debuted as M, the first woman in the role, and called Bond a \"sexist, misogynist dinosaur\" \u2014 a line that signaled the franchise's evolution\nInspired the *GoldenEye 007* Nintendo 64 video game (1997), widely regarded as one of the greatest video games ever made",
+          "cardFront": "1995 \u2014 Brosnan debut, franchise revival",
+          "cardBack": "GoldenEye"
+        },
+        {
+          "id": "thunderball",
+          "prompt": "Which 1965 Bond film involves SPECTRE stealing two NATO atomic bombs and Bond's underwater battle to recover them, and was the highest-grossing Bond film adjusted for inflation for decades?",
+          "answer": "Thunderball",
+          "alternates": [],
+          "explanation": "Fourth Bond film; directed by Terence Young; starred Sean Connery\nSPECTRE hijacks a NATO bomber and demands \u00a3100 million in diamonds as ransom for the two stolen nuclear warheads\nExtended underwater battle sequences were groundbreaking for the era; filmed in the Bahamas\nHighest-grossing Bond film when adjusted for inflation \u2014 approximately $1 billion in today's dollars\nBased on an original screenplay co-written by Fleming, Kevin McClory, and Jack Whittingham; a legal dispute over rights led to the rival production *Never Say Never Again* (1983)\nTom Jones reportedly fainted after singing the final high note of the title song",
+          "cardFront": "1965 \u2014 stolen nukes, underwater battles, highest-grossing (adjusted)",
+          "cardBack": "Thunderball"
+        }
+      ]
+    }
+  ]
+}
