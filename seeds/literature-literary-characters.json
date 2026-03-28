@@ -1,0 +1,232 @@
+{
+  "nodes": [
+    { "id": "literature/literary-characters", "parentId": "literature", "name": "Literary Characters", "description": "Famous characters from classic literature" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/literary-characters/literary-characters",
+      "nodeId": "literature/literary-characters",
+      "name": "Literary Characters",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "atticus-finch",
+          "prompt": "In which novel does the lawyer Atticus Finch defend a Black man falsely accused of rape in a fictional Alabama town during the 1930s?",
+          "answer": "To Kill a Mockingbird",
+          "alternates": ["Mockingbird", "TKAM"],
+          "explanation": "Harper Lee's *To Kill a Mockingbird* (1960); narrated by Atticus's daughter Scout\nAtticus Finch was ranked #1 on the American Film Institute's list of greatest movie heroes (Gregory Peck in the 1962 film)\nModeled partly on Lee's own father, Amasa Coleman Lee, also a lawyer in Monroeville, Alabama\nWon the Pulitzer Prize for Fiction in 1961; sold over 40 million copies\nThe novel was meant to be Lee's only book; a second novel, *Go Set a Watchman* (2015), was written before Mockingbird but published late in Lee's life",
+          "cardFront": "Atticus Finch (lawyer, Alabama, 1930s)",
+          "cardBack": "To Kill a Mockingbird"
+        },
+        {
+          "id": "jay-gatsby",
+          "prompt": "In which novel does the mysterious millionaire Jay Gatsby throw lavish parties at his Long Island mansion while pining for a married woman named Daisy Buchanan?",
+          "answer": "The Great Gatsby",
+          "alternates": ["Great Gatsby", "Gatsby"],
+          "explanation": "F. Scott Fitzgerald's *The Great Gatsby* (1925); set in the fictional West Egg and East Egg on Long Island, 1922\nGatsby's real name is James Gatz; he reinvented himself and made his fortune through bootlegging\nHis obsessive love for Daisy Buchanan \u2014 symbolized by the green light across the bay \u2014 drives the novel\nGatsby is shot dead in his swimming pool by the husband of a woman his car struck; Daisy does not attend the funeral\n'So we beat on, boats against the current, borne back ceaselessly into the past' \u2014 the famous closing line",
+          "cardFront": "Jay Gatsby (millionaire, Long Island parties, Daisy Buchanan)",
+          "cardBack": "The Great Gatsby"
+        },
+        {
+          "id": "holden-caulfield",
+          "prompt": "This cynical, alienated 16-year-old narrator is expelled from his prep school and wanders New York City for three days, railing against the 'phoniness' of the adult world. In what novel does Holden Caulfield appear?",
+          "answer": "The Catcher in the Rye",
+          "alternates": ["Catcher in the Rye"],
+          "explanation": "J.D. Salinger, published 1951\nHolden's narrative is retrospective \u2014 he is narrating from a rest home, after a breakdown, though this is barely acknowledged\nThe 'catcher in the rye' \u2014 Holden's fantasy of saving children from the cliff of adulthood \u2014 misquotes Robert Burns's 'Comin' Thro' the Rye'\nStill sells ~250,000 copies per year; frequently challenged for profanity and sexual content\nFound on Mark David Chapman when he shot John Lennon in 1980; also carried by John Hinckley Jr. at the Reagan assassination attempt\nSalinger's identification with Holden was so intense that he published almost nothing after 1965 and became a famous recluse",
+          "cardFront": "Holden Caulfield (expelled teenager, NYC, 'phonies')",
+          "cardBack": "The Catcher in the Rye"
+        },
+        {
+          "id": "emma-woodhouse",
+          "prompt": "This clever, wealthy, slightly meddlesome young woman in a Surrey village appoints herself matchmaker for everyone around her while remaining blind to her own feelings for her neighbor Mr. Knightley. In what novel does Emma Woodhouse appear?",
+          "answer": "Emma",
+          "alternates": [],
+          "explanation": "Jane Austen, published 1815\nAusten wrote of Emma: 'I am going to take a heroine whom no one but myself will much like' \u2014 she is manipulative and self-deceiving\nMr. Knightley is the only character who criticizes Emma honestly \u2014 making him the moral anchor and eventual husband\nThe novel is a masterclass in free indirect discourse \u2014 the narrative reflects Emma's flawed perceptions as if they were fact\nMr. Woodhouse, Emma's hypochondriac father, is one of Austen's great comic characters\nAdapted as *Clueless* (1995 film), set in a Beverly Hills high school \u2014 a faithful modern retelling",
+          "cardFront": "Emma Woodhouse (matchmaker, Highbury, Austen)",
+          "cardBack": "Emma"
+        },
+        {
+          "id": "raskolnikov",
+          "prompt": "This impoverished Russian student murders a pawnbroker to test his theory that extraordinary people are above conventional morality, then is tormented by guilt. In what novel does Raskolnikov appear?",
+          "answer": "Crime and Punishment",
+          "alternates": [],
+          "explanation": "Fyodor Dostoevsky, published 1866\nRodion Raskolnikov \u2014 his name derives from the Russian word for 'schism' or 'split' (raskol)\nHe divides humanity into 'ordinary' people (who follow the law) and 'extraordinary' people (like Napoleon, who transcend it)\nThe investigating detective Porfiry Petrovich psychologically dismantles Raskolnikov through conversation, not evidence\nSonya Marmeladova \u2014 a prostitute who supports her destitute family \u2014 represents the redemptive power of suffering and faith\nDostoevsky wrote it under crushing debt, partly dictating to a stenographer to beat a contractual deadline",
+          "cardFront": "Raskolnikov (student, Petersburg, murders pawnbroker)",
+          "cardBack": "Crime and Punishment"
+        },
+        {
+          "id": "leopold-bloom",
+          "prompt": "This Dublin advertising canvasser of Hungarian-Jewish descent wanders the city on June 16, 1904, his thoughts following every detail of his day, in a novel structured as a modern *Odyssey*. In what novel does Leopold Bloom appear?",
+          "answer": "Ulysses",
+          "alternates": [],
+          "explanation": "James Joyce, published 1922\nBloom corresponds to Homer's Odysseus \u2014 he is the wanderer, husband, father figure\nHis wife Molly (Penelope) is having an affair with Blazes Boylan; Bloom knows and does nothing\nBloom's stream-of-consciousness is the novel's warmest and most accessible style\nBloom's Jewish identity is central \u2014 Joyce presents an outsider's Dublin with precision and sympathy\n'Bloomsday' (June 16) is celebrated annually in Dublin with readings, re-enactments, and fancy dress",
+          "cardFront": "Leopold Bloom (Dublin canvasser, June 16, 1904)",
+          "cardBack": "Ulysses"
+        },
+        {
+          "id": "heathcliff",
+          "prompt": "This dark-complexioned foundling, raised on the Yorkshire moors, devotes his life to an obsessive love for Catherine Earnshaw and revenge against all who scorned him. In what novel does Heathcliff appear?",
+          "answer": "Wuthering Heights",
+          "alternates": [],
+          "explanation": "Emily Bront\u00eb, published 1847 under the pseudonym 'Ellis Bell' \u2014 Emily's only novel\nHeathcliff's origins are deliberately mysterious \u2014 he may be Romani, Creole, or simply a foundling; his race is never specified\nCatherine's famous declaration: 'I am Heathcliff!' \u2014 expressing a love that feels like identity itself\nKate Bush's 1978 debut single 'Wuthering Heights' hit #1 in the UK \u2014 written and recorded when Bush was 17\nShocked Victorian readers with its raw obsessive passion; initial reviews called it 'wild,' 'confused,' and 'disagreeable'\nNow considered one of the greatest English novels; Heathcliff is often ranked literature's greatest anti-hero",
+          "cardFront": "Heathcliff (foundling, obsessive love, Yorkshire moors)",
+          "cardBack": "Wuthering Heights"
+        },
+        {
+          "id": "edmond-dantes",
+          "prompt": "In which Alexandre Dumas novel does the wrongly imprisoned sailor Edmond Dant\u00e8s escape from the Ch\u00e2teau d'If, discover buried treasure, and take revenge as the mysterious Count of Monte Cristo?",
+          "answer": "The Count of Monte Cristo",
+          "alternates": ["Count of Monte Cristo", "Monte Cristo"],
+          "explanation": "Alexandre Dumas's *The Count of Monte Cristo* (1844\u20131846); published serially in *Le Journal des D\u00e9bats*\nDant\u00e8s is imprisoned on a false charge of Bonapartism; in the Ch\u00e2teau d'If he meets Abb\u00e9 Faria, who teaches him and reveals the location of hidden treasure\nHe adopts multiple disguises and identities to execute elaborate revenge on the three men who betrayed him\nOne of the best-selling novels of all time; Dumas wrote it with collaborator Auguste Maquet, a common 19th-century practice\n'Wait and hope' \u2014 the novel's closing message to its young protagonist Maximilien",
+          "cardFront": "Edmond Dant\u00e8s (wrongfully imprisoned, revenge, Ch\u00e2teau d'If)",
+          "cardBack": "The Count of Monte Cristo"
+        },
+        {
+          "id": "hester-prynne",
+          "prompt": "This Puritan woman in 17th-century Boston is forced to wear the letter 'A' on her gown as punishment for adultery, while her secret lover Reverend Dimmesdale suffers invisible torment. In what novel does Hester Prynne appear?",
+          "answer": "The Scarlet Letter",
+          "alternates": ["Scarlet Letter"],
+          "explanation": "Nathaniel Hawthorne, published 1850\nHester's 'A' (for Adultery) is embroidered elaborately \u2014 a defiant act of artistry that transforms punishment into art\nThe novel's three central symbols: the scarlet letter, the rosebush by the prison door, and the meteor in the sky\nHester eventually becomes a revered community counselor \u2014 the 'A' comes to stand for 'Able' in the town's eyes\nHawthorne (1804\u20131864) was descended from John Hathorne, a judge in the Salem witch trials; he added the 'w' to distance himself\nThe first major American novel; explored guilt, sin, and redemption in Puritan New England",
+          "cardFront": "Hester Prynne (scarlet letter, Puritan Massachusetts, adultery)",
+          "cardBack": "The Scarlet Letter"
+        },
+        {
+          "id": "humbert-humbert",
+          "prompt": "In which Nabokov novel does the European scholar Humbert Humbert narrate his obsessive pursuit of the twelve-year-old 'nymphet' Dolores Haze?",
+          "answer": "Lolita",
+          "alternates": [],
+          "explanation": "Vladimir Nabokov's *Lolita* (1955); one of the most controversial and most discussed novels of the 20th century\nNabokov makes Humbert a brilliantly unreliable narrator; his elegant prose is designed to seduce the reader alongside Lolita\nDolores's nickname 'Lolita' has entered English as a word for a sexually precocious girl \u2014 an interpretation Nabokov rejected as a misreading of his novel\nHumbert marries Dolores's mother Charlotte to gain access to the child; Charlotte is subsequently killed by a car\nThe novel's famous last line: 'And this is the only immortality you and I may share, my Lolita'",
+          "cardFront": "Humbert Humbert (unreliable narrator, Dolores 'Lolita' Haze)",
+          "cardBack": "Lolita"
+        },
+        {
+          "id": "winston-smith",
+          "prompt": "This low-ranking Outer Party member secretly rebels against totalitarian Oceania by keeping a diary and having a forbidden love affair with a woman named Julia. In what novel does Winston Smith appear?",
+          "answer": "1984",
+          "alternates": ["Nineteen Eighty-Four", "Nineteen Eighty Four"],
+          "explanation": "George Orwell, published 1949\nWinston works at the Ministry of Truth, where he rewrites historical records to match the Party's current version of events\nHis diary's opening line: 'April 4th, 1984. Last night to the flicks' \u2014 mundane notation in a monstrous world\n'Room 101' \u2014 the torture chamber containing each prisoner's worst personal fear \u2014 becomes a common cultural reference\nO'Brien, the Party official Winston trusts as a secret rebel, is revealed as his torturer \u2014 betrayal as the ultimate Orwellian act\n'If you want a picture of the future, imagine a boot stamping on a human face \u2014 forever' \u2014 O'Brien explains the Party's goal",
+          "cardFront": "Winston Smith (Ministry of Truth, Big Brother, Party)",
+          "cardBack": "1984"
+        },
+        {
+          "id": "sethe",
+          "prompt": "This formerly enslaved woman in post-Civil War Ohio is haunted by the ghost of the infant daughter she killed to spare her from slavery, and by a mysterious young woman who calls herself Beloved. In what novel does Sethe appear?",
+          "answer": "Beloved",
+          "alternates": [],
+          "explanation": "Toni Morrison, published 1987; Pulitzer Prize 1988\nSethe's act is presented without condemnation \u2014 Morrison asks readers to understand the logic of slavery's devastation\nInspired by the true case of Margaret Garner (1856), an enslaved woman who killed her daughter rather than let her be recaptured\nBeloved's identity is deliberately ambiguous \u2014 ghost, embodied spirit, survivor, or something else\nThe novel opens with a dedication: 'Sixty Million and more' \u2014 those who died in the Middle Passage and slavery\nMorrison said the novel was an act of re-memory: returning the erased to historical consciousness",
+          "cardFront": "Sethe (formerly enslaved, Ohio, haunted by Beloved)",
+          "cardBack": "Beloved"
+        },
+        {
+          "id": "elizabeth-bennet",
+          "prompt": "This witty, independent Regency-era woman from Hertfordshire sparring with the proud Mr. Darcy gradually discovers she has misjudged him as profoundly as he has misjudged her. In what novel does Elizabeth Bennet appear?",
+          "answer": "Pride and Prejudice",
+          "alternates": ["Pride & Prejudice"],
+          "explanation": "Jane Austen, published 1813\nElizabeth is the second of five Bennet daughters; her mother's desperate matchmaking is a constant source of humiliation\nAusten described Elizabeth as 'the most delightful creature as ever appeared in print' in a letter to her sister Cassandra\nDarcy's first (rejected) proposal is the pivot of the novel \u2014 she rejects him; he revisits himself; both are transformed\nColin Firth's portrayal in the 1995 BBC miniseries created a cultural phenomenon (and the famous wet-shirt scene)\nThe novel has been adapted 9+ times for film and TV, plus retellings including *Bridget Jones's Diary* (1996)",
+          "cardFront": "Elizabeth Bennet (witty heroine, Mr. Darcy, five sisters)",
+          "cardBack": "Pride and Prejudice"
+        },
+        {
+          "id": "anna-karenina",
+          "prompt": "This married Russian aristocrat abandons her husband and son for a passionate affair with the dashing Count Vronsky, only to be destroyed by social condemnation and her own jealousy. In what novel does Anna Karenina appear?",
+          "answer": "Anna Karenina",
+          "alternates": [],
+          "explanation": "Leo Tolstoy, published 1878\nAnna's story is tragic; the parallel Levin plot (a landowner seeking meaning through farming and marriage) ends hopefully\nAnna throws herself under a train at a Moscow station \u2014 a death foreshadowed from the novel's opening\nTolstoy reportedly felt deep ambivalence about Anna; she kept going in directions he didn't intend\nShe is condemned by society not for adultery itself, but for openly pursuing what others pursue secretly\n'Vengeance is mine; I will repay' (Romans 12:19) is the novel's epigraph \u2014 whose vengeance? God's? Society's? Anna's own?",
+          "cardFront": "Anna Karenina (aristocrat, Count Vronsky, railway suicide)",
+          "cardBack": "Anna Karenina"
+        },
+        {
+          "id": "gregor-samsa",
+          "prompt": "This traveling salesman wakes one morning to find he has transformed into a monstrous insect, exploring themes of alienation, family burden, and dehumanization. In what novella does Gregor Samsa appear?",
+          "answer": "The Metamorphosis",
+          "alternates": ["Metamorphosis", "Die Verwandlung"],
+          "explanation": "Franz Kafka, published 1915\nThe opening line: 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin'\nThe exact nature of the vermin is deliberately unspecified \u2014 Kafka refused to let the cover illustration show any insect\nGregor's family initially attempts to care for him, then treats him with growing disgust and indifference\nAfter Gregor's death, his family feels relieved \u2014 they take a pleasant tram ride and plan for the future\nKafka's metaphor for how capitalism and family obligation can strip a person of humanity",
+          "cardFront": "Gregor Samsa (transformed into insect, burden to family, Kafka)",
+          "cardBack": "The Metamorphosis"
+        },
+        {
+          "id": "huckleberry-finn",
+          "prompt": "This barefoot Missouri boy runs away from his abusive father and floats down the Mississippi River on a raft with an escaped slave named Jim. In what novel does Huckleberry Finn appear?",
+          "answer": "Adventures of Huckleberry Finn",
+          "alternates": ["Huckleberry Finn", "Huck Finn", "The Adventures of Huckleberry Finn"],
+          "explanation": "Mark Twain, published 1884\u20131885\nHuck's moral journey is the novel's core: he decides to 'go to hell' rather than turn Jim in \u2014 a rejection of society's false morality\nHemingway declared this novel the source of 'all modern American literature'\nThe novel's vernacular voice \u2014 Huck's dialect and perspective \u2014 was revolutionary; previous American fiction used 'literary' language\nFamously banned almost immediately after publication for its use of racial slurs and depictions of violence\nJim is one of American literature's most complex Black characters \u2014 dignified, morally superior to his 'civilized' captors",
+          "cardFront": "Huckleberry Finn (runaway boy, Jim, Mississippi River raft)",
+          "cardBack": "Adventures of Huckleberry Finn"
+        },
+        {
+          "id": "isabel-archer",
+          "prompt": "In which Henry James novel does the independent American heiress Isabel Archer travel to Europe and fall prey to the scheming Gilbert Osmond?",
+          "answer": "The Portrait of a Lady",
+          "alternates": ["Portrait of a Lady"],
+          "explanation": "Henry James's *The Portrait of a Lady* (1881); considered his first major masterpiece\nIsabel is from Albany, New York; she inherits a fortune and goes to Europe, believing she can shape her own destiny\nGilbert Osmond is a cold aesthete living in Florence; his manipulation of Isabel is revealed gradually to the reader\nThe novel ends ambiguously: Isabel chooses to return to Osmond, reasons debated by scholars for over a century\nJames's style \u2014 long sentences, psychological interiority, understated revelation \u2014 defines the 'International Theme' (Americans in Europe)",
+          "cardFront": "Isabel Archer (American heiress, Europe, James)",
+          "cardBack": "The Portrait of a Lady"
+        },
+        {
+          "id": "jean-valjean",
+          "prompt": "In which Hugo novel does the ex-convict Jean Valjean, originally imprisoned for stealing bread, spend decades evading the relentless Inspector Javert while transforming himself into a benefactor?",
+          "answer": "Les Mis\u00e9rables",
+          "alternates": ["Les Miserables", "Les Mis"],
+          "explanation": "Victor Hugo's *Les Mis\u00e9rables* (1862); one of the great novels of French literature\nValjean is imprisoned 19 years (5 for stealing bread, 14 for escape attempts) and becomes a fugitive under the alias Monsieur Madeleine\nThe novel covers the political turmoil of Restoration France (1815\u20131832) and the Paris student uprising of June 1832\nJavert, the police inspector who pursues Valjean, drowns himself when his worldview of absolute law collapses\nFantine, \u00c9ponine, and Cosette are the novel's major female characters; Fantine's story is among its most powerful\nAdapted as a musical by Alain Boublil and Claude-Michel Sch\u00f6nberg (Paris, 1980; London, 1985), one of the longest-running musicals",
+          "cardFront": "Jean Valjean (ex-convict, Inspector Javert, Paris)",
+          "cardBack": "Les Mis\u00e9rables"
+        },
+        {
+          "id": "yossarian",
+          "prompt": "In which Heller novel does the bombardier John Yossarian desperately try to get grounded from WWII missions in Italy, only to be trapped by the rule that if you're sane enough to want out, you're sane enough to fly?",
+          "answer": "Catch-22",
+          "alternates": ["Catch 22"],
+          "explanation": "Joseph Heller's *Catch-22* (1961); set on the fictional island of Pianosa off the Italian coast during WWII\nThe 'catch-22' paradox: a pilot can be grounded for insanity, but requesting to be grounded proves he is sane, so he must fly\nThe term 'catch-22' entered English as a common phrase for an inescapable paradoxical dilemma\nHeller flew 60 actual combat missions as a bombardier in WWII; the bureaucratic absurdities are drawn from experience\nThe novel sold modestly at first but became a cult classic during the Vietnam War as anti-war satire",
+          "cardFront": "Yossarian (WWII bombardier, Italy, trapped by paradox)",
+          "cardBack": "Catch-22"
+        },
+        {
+          "id": "ignatius-reilly",
+          "prompt": "In which Toole novel does the obese, pompous medievalist Ignatius J. Reilly bumble through 1960s New Orleans accompanied by his valve, his Big Chief notebooks, and his disdain for all modernity?",
+          "answer": "A Confederacy of Dunces",
+          "alternates": ["Confederacy of Dunces"],
+          "explanation": "John Kennedy Toole's *A Confederacy of Dunces* (published posthumously 1980); Toole died by suicide in 1969 at age 31\nHis mother Thelma Toole spent 11 years trying to get the novel published; finally succeeded with Louisiana State University Press\nWon the Pulitzer Prize for Fiction in 1981 \u2014 one of only two Pulitzer winners published posthumously\nIgnatius quotes Boethius's *Consolation of Philosophy* constantly; his 'pyloric valve' closes whenever he encounters anything he disapproves of\nConsidered the funniest American novel; set in New Orleans's French Quarter, which Toole knew intimately",
+          "cardFront": "Ignatius J. Reilly (pompous medievalist, New Orleans, big valve)",
+          "cardBack": "A Confederacy of Dunces"
+        },
+        {
+          "id": "captain-ahab",
+          "prompt": "This monomaniacal whaling captain lost his leg to a white sperm whale and leads his crew on a fatal obsessive hunt across the oceans. In what novel does Captain Ahab appear?",
+          "answer": "Moby-Dick",
+          "alternates": ["Moby Dick"],
+          "explanation": "Herman Melville, published 1851\nAhab's peg leg ('ivory leg') is carved from a whale's jaw \u2014 he is physically marked by his obsession\nHe appears only in Act II of the novel; the first part establishes the world of whaling before Ahab commands the stage\n'From hell's heart I stab at thee; for hate's sake I spit my last breath at thee' \u2014 Ahab's final words to the whale\nAhab's name alludes to the biblical King Ahab \u2014 the wicked king of Israel in 1 Kings 16\nAhab's fixed nature contrasts with Ishmael's flexible observation \u2014 Ahab seeks final truth; Ishmael accepts ambiguity",
+          "cardFront": "Captain Ahab (whaling captain, peg leg, white whale)",
+          "cardBack": "Moby-Dick"
+        },
+        {
+          "id": "miss-havisham",
+          "prompt": "This wealthy, jilted woman stopped all the clocks in her mansion at the moment she was stood up on her wedding day, and still wears her rotting bridal gown decades later. In what novel does Miss Havisham appear?",
+          "answer": "Great Expectations",
+          "alternates": [],
+          "explanation": "Charles Dickens, published 1860\u20131861\nHer wedding cake still sits on the table, now a mass of cobwebs and decay \u2014 a stopped-time monument to trauma\nShe adopts Estella and deliberately raises her to break men's hearts, as revenge for her own heartbreak\n'I have sick fancies' \u2014 Miss Havisham's self-awareness of her obsession makes her more tragic than villainous\nEnds the novel having accidentally set herself on fire from the decayed wedding dress; dies of burns and guilt\nFreudian in structure: Miss Havisham is one of the earliest fictional examinations of how trauma arrests development",
+          "cardFront": "Miss Havisham (jilted bride, stopped clocks, rotting gown)",
+          "cardBack": "Great Expectations"
+        },
+        {
+          "id": "dorian-gray",
+          "prompt": "This beautiful young man wishes his portrait would age instead of him, gets his wish, and pursues a life of hedonism and wickedness while remaining forever youthful. In what novel does Dorian Gray appear?",
+          "answer": "The Picture of Dorian Gray",
+          "alternates": ["Picture of Dorian Gray", "Dorian Gray"],
+          "explanation": "Oscar Wilde, published 1890 in *Lippincott's Monthly Magazine*; revised for book publication 1891\nThe portrait is hidden in a locked attic room; Dorian can see his moral corruption accumulating in the painting while his face stays young\nLord Henry Wotton is the witty, amoral influence on Dorian \u2014 often read as a projection of Wilde himself\nThe novel was used against Wilde at his 1895 trial for gross indecency as evidence of 'immoral' tendencies\nWilde (1854\u20131900) died in Paris two years after his release from prison; reportedly said 'I am dying beyond my means'\nThe Faustian bargain (selling the soul for worldly gain) underpins the plot; no devil appears, only aesthetic philosophy",
+          "cardFront": "Dorian Gray (eternal youth, aging portrait, Wilde)",
+          "cardBack": "The Picture of Dorian Gray"
+        },
+        {
+          "id": "don-quixote",
+          "prompt": "This Spanish gentleman reads so many chivalric romances that he loses his mind, dons rusty armor, and sets out as a knight-errant with his squire Sancho Panza, famously tilting at windmills he believes are giants. In what novel does Don Quixote appear?",
+          "answer": "Don Quixote",
+          "alternates": ["Don Quijote", "El Ingenioso Hidalgo Don Quijote de la Mancha"],
+          "explanation": "Miguel de Cervantes, published in two parts (1605 and 1615); often called the first modern novel\nDon Quixote's real name is Alonso Quixano; 'Don Quixote de la Mancha' is his self-invented chivalric identity\nSancho Panza, the earthy peasant squire, grounds Quixote's delusions in comic reality \u2014 the novel's great double act\nThe windmill episode (tilting at giants) became a universal metaphor for idealistic struggle against imaginary enemies\nCervantes lost the use of his left hand at the Battle of Lepanto (1571) against the Ottoman fleet\nThe most translated book in the world after the Bible, by some counts; has sold hundreds of millions of copies",
+          "cardFront": "Don Quixote (knight-errant, Sancho Panza, windmills)",
+          "cardBack": "Don Quixote"
+        }
+      ]
+    }
+  ]
+}

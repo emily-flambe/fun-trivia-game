@@ -135,20 +135,88 @@ Root category nodes are in `seeds/_categories.json` (18 Learned League categorie
 - **Vite config is separate**: `vite.config.app.ts` builds the React SPA. It's distinct from the vitest configs.
 - **nodejs_compat** flag is required in wrangler.toml for the agents SDK.
 
+## Git Workflow (MANDATORY)
+
+**ALL changes to this project MUST go through pull requests.** Direct pushes to `main` are blocked, including for admins. Force pushes are disabled.
+
+### Working on a feature or fix:
+
+```bash
+# 1. Create a worktree (ALWAYS — never work on main directly)
+git fetch origin
+git worktree add ../fun-trivia-game-my-feature -b my-feature origin/main
+cd ../fun-trivia-game-my-feature
+cp ../fun-trivia-game/.dev.vars . 2>/dev/null || true
+npm install
+
+# 2. Make changes, commit, push
+git add <files>
+git commit -m "Description of changes"
+git push -u origin my-feature
+
+# 3. Create PR
+gh pr create --fill
+
+# 4. Wait for CI (all 4 checks must pass: Unit Tests, Worker Integration Tests, Build, E2E Tests)
+gh pr checks
+
+# 5. Merge when green
+gh pr merge --squash
+
+# 6. Clean up worktree
+cd ../fun-trivia-game
+git worktree remove ../fun-trivia-game-my-feature
+```
+
+**Do NOT:**
+- Push directly to `main` (it will be rejected)
+- Force push to `main`
+- Skip the worktree and work on `main` directly
+- Merge PRs with failing CI checks
+
+### Branch protection rules on `main`:
+- 4 required status checks: Unit Tests, Worker Integration Tests, Build, E2E Tests
+- PRs required (no direct pushes)
+- Force pushes disabled
+- Enforced for admins
+
 ## Deploying
 
-**Always deploy after making changes.** Don't wait to be asked.
+**Always deploy after merging a PR.** Don't wait to be asked.
+
+### Deploy Steps (follow this exact sequence)
 
 ```bash
-npm run test:all           # verify tests pass
-npm run deploy             # builds SPA + deploys worker
-node scripts/seed.mjs --remote  # if seed data changed
-```
+# 1. Run tests
+npm run test:all
 
-If migrations were added, run them on remote BEFORE seeding:
-```bash
+# 2. If migrations were added, run them FIRST
 npx wrangler d1 execute trivia-trainer --remote --file=migrations/XXXX.sql
+
+# 3. CRITICAL: Clean old build artifacts before deploying
+#    Wrangler compares content hashes against its cache. Stale bundles in dist/
+#    cause "No updated asset files to upload" even when code has changed.
+rm -rf dist/assets
+
+# 4. Build and deploy
+npm run deploy             # runs: vite build && wrangler deploy
+
+# 5. If seed data changed
+node scripts/seed.mjs --remote
 ```
+
+### Verifying Deploys (MANDATORY after every deploy)
+
+```bash
+# Check what bundle production is serving vs what was just built
+PROD=$(curl -s https://trivia.emilycogsdill.com/ | grep -o 'index-[^"]*\.js')
+LOCAL=$(grep -o 'index-[^"]*\.js' dist/index.html)
+echo "Production: $PROD"
+echo "Local:      $LOCAL"
+# These MUST match. If they don't, run: rm -rf dist/assets && npm run deploy
+```
+
+For UI changes, also take a Playwright screenshot to visually confirm.
 
 ## Docs
 

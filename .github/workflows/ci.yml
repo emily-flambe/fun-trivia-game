@@ -81,10 +81,11 @@ jobs:
       - name: Seed local D1
         run: node scripts/seed.mjs --local
 
+      - name: Create .dev.vars for local auth bypass
+        run: echo 'CF_ACCESS_TEST_EMAIL=test@trivia.emilycogsdill.com' > .dev.vars
+
       - name: Run E2E tests
         run: npx playwright test
-        env:
-          CF_ACCESS_TEST_EMAIL: test@trivia.emilycogsdill.com
 
       - name: Upload Playwright report
         if: failure()
