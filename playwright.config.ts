@@ -7,6 +7,7 @@ export default defineConfig({
 	use: {
 		baseURL: 'http://localhost:8787',
 		headless: true,
+		viewport: { width: 1280, height: 720 },
 	},
 	webServer: {
 		command: 'npx wrangler dev --port 8787',
