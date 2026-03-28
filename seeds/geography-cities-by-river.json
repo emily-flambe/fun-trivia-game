@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "geography/landmarks",
+      "parentId": "geography",
+      "name": "Landmarks & Places",
+      "description": "Notable parks, landmarks, and destinations"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "geography/landmarks/cities-by-river",
+      "nodeId": "geography/landmarks",
+      "name": "Cities by River",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "paris",
+          "prompt": "What major river flows through Paris, France?",
+          "answer": "Seine",
+          "alternates": [
+            "Seine River",
+            "River Seine"
+          ],
+          "explanation": "The Seine flows ~777 km from Burgundy northwest through Paris to the English Channel at Le Havre\nDivides Paris into the Left Bank (Rive Gauche) and Right Bank (Rive Droite)\nIle de la Cite, the island in the Seine, is where Notre-Dame Cathedral stands and where Paris was originally founded\n37 bridges cross the Seine within Paris; the oldest is the Pont Neuf (1607), whose name ironically means 'New Bridge'\nThe river was the site of the 2024 Paris Olympics triathlon and open-water swimming events after a 1.4 billion euro cleanup",
+          "cardFront": "Paris, France",
+          "cardBack": "Seine"
+        },
+        {
+          "id": "london",
+          "prompt": "What major river flows through London, England?",
+          "answer": "Thames",
+          "alternates": [
+            "Thames River",
+            "River Thames"
+          ],
+          "explanation": "The Thames flows ~346 km from the Cotswolds east through London to the North Sea\nOver 200 bridges cross its full length; 33 span the river in Greater London alone\nThe Thames Barrier (1984) near Woolwich protects London from tidal surges\nFroze regularly in the 17th–19th centuries, inspiring 'Frost Fairs' on the ice; the last was held in 1814\nThe 'Great Stink' of 1858, caused by sewage in the Thames, forced Parliament to fund Joseph Bazalgette's modern sewer system",
+          "cardFront": "London, England",
+          "cardBack": "Thames"
+        },
+        {
+          "id": "cairo",
+          "prompt": "What major river flows through Cairo, Egypt?",
+          "answer": "Nile",
+          "alternates": [
+            "Nile River",
+            "River Nile"
+          ],
+          "explanation": "The Nile is the world's longest river at ~6,650 km, flowing northward from East Africa to the Mediterranean\nCairo sits at the apex of the Nile Delta, where the river fans out before reaching the sea\nAnnual Nile floods deposited fertile silt that sustained Ancient Egyptian civilization for millennia\nThe Aswan High Dam (completed 1970) ended the flood cycle; Lake Nasser is the resulting reservoir\nTwo main tributaries: the White Nile (source near Lake Victoria) and the Blue Nile (from Ethiopia's Lake Tana)",
+          "cardFront": "Cairo, Egypt",
+          "cardBack": "Nile"
+        },
+        {
+          "id": "budapest",
+          "prompt": "What major river flows through Budapest, Hungary?",
+          "answer": "Danube",
+          "alternates": [
+            "Danube River",
+            "River Danube"
+          ],
+          "explanation": "The Danube is Europe's second-longest river at ~2,850 km, flowing from Germany's Black Forest to the Black Sea\nPasses through four capital cities: Vienna, Bratislava, Budapest, and Belgrade\nBudapest was formed in 1873 by merging Buda (hilly west bank) and Pest (flat east bank) across the Danube\nThe Chain Bridge (Szechenyi Lanczhid, 1849) was the first permanent bridge linking Buda and Pest\nJohann Strauss II's waltz 'The Blue Danube' (1867) is one of the most recognized pieces of classical music",
+          "cardFront": "Budapest, Hungary",
+          "cardBack": "Danube"
+        },
+        {
+          "id": "rome",
+          "prompt": "What major river flows through Rome, Italy?",
+          "answer": "Tiber",
+          "alternates": [
+            "Tiber River",
+            "River Tiber",
+            "Tevere"
+          ],
+          "explanation": "The Tiber flows ~406 km from the Apennines through Umbria and Lazio to the Tyrrhenian Sea at Ostia\nRome was legendarily founded on the Tiber's east bank in 753 BCE by Romulus and Remus, who were said to have been nursed by a she-wolf on its shores\nVatican City sits on the west bank; the Ponte Sant'Angelo (2nd century CE) leads to Castel Sant'Angelo\nAncient Rome's main port, Ostia Antica, was at the Tiber's mouth\nThe island Isola Tiberina, shaped like a ship, has been a site of healing since a temple to Asclepius was built there in 291 BCE",
+          "cardFront": "Rome, Italy",
+          "cardBack": "Tiber"
+        },
+        {
+          "id": "vienna",
+          "prompt": "What major river flows through Vienna, Austria?",
+          "answer": "Danube",
+          "alternates": [
+            "Danube River",
+            "River Danube"
+          ],
+          "explanation": "Vienna is one of four national capitals on the Danube, along with Bratislava, Budapest, and Belgrade\nThe Danube Canal (Donaukanal), a regulated arm of the river, runs through Vienna's city center\nThe Danube Tower (Donauturm, 1964) stands 252 m tall on the Danube Island, a 21 km artificial island built for flood protection\nVienna's position on the Danube made it a strategic crossroads between Western and Eastern Europe for centuries\nThe 'Blue Danube' waltz premiered in Vienna in 1867; the actual river is more grey-brown than blue",
+          "cardFront": "Vienna, Austria",
+          "cardBack": "Danube"
+        },
+        {
+          "id": "prague",
+          "prompt": "What major river flows through Prague, Czech Republic?",
+          "answer": "Vltava",
+          "alternates": [
+            "Vltava River",
+            "Moldau"
+          ],
+          "explanation": "The Vltava is the Czech Republic's longest river at ~430 km, flowing north through Bohemia to join the Elbe at Melnik\nBedrich Smetana's symphonic poem 'Vltava' (Die Moldau, 1874) musically traces the river from its source to Prague\nThe Charles Bridge (Karluv most, 1402) is Prague's most famous crossing, lined with 30 Baroque statues\n18 bridges span the Vltava within Prague, covering 31 km of the river's course\nThe German name 'Moldau' is widely used in classical music contexts; 'Vltava' is the Czech name",
+          "cardFront": "Prague, Czech Republic",
+          "cardBack": "Vltava"
+        },
+        {
+          "id": "baghdad",
+          "prompt": "What major river flows through Baghdad, Iraq?",
+          "answer": "Tigris",
+          "alternates": [
+            "Tigris River",
+            "River Tigris"
+          ],
+          "explanation": "The Tigris flows ~1,900 km from eastern Turkey through Iraq to the Persian Gulf\nTogether with the Euphrates, it defined Mesopotamia ('land between the rivers'), the cradle of civilization\nBaghdad was founded in 762 CE by Abbasid Caliph al-Mansur as a planned circular city on the Tigris\nThe Tigris and Euphrates merge at al-Qurnah in southern Iraq to form the Shatt al-Arab waterway\nAncient cities of Nineveh and Assur were built along the Tigris; Nineveh (near modern Mosul) was the Assyrian capital",
+          "cardFront": "Baghdad, Iraq",
+          "cardBack": "Tigris"
+        },
+        {
+          "id": "st-petersburg",
+          "prompt": "What major river flows through St. Petersburg, Russia?",
+          "answer": "Neva",
+          "alternates": [
+            "Neva River",
+            "River Neva"
+          ],
+          "explanation": "The Neva is only ~74 km long but carries the outflow of Lake Ladoga, Europe's largest lake, into the Baltic Sea\nPeter the Great founded St. Petersburg on the Neva delta in 1703 as Russia's 'window to Europe'\nThe river is crossed by over 300 bridges; many are drawbridges that open nightly to let ships pass\nThe Winter Palace (now the Hermitage Museum) and the Peter and Paul Fortress face each other across the Neva\nDisastrous floods struck the city repeatedly; the 1824 flood inspired Pushkin's narrative poem 'The Bronze Horseman'",
+          "cardFront": "St. Petersburg, Russia",
+          "cardBack": "Neva"
+        },
+        {
+          "id": "dublin",
+          "prompt": "What major river flows through Dublin, Ireland?",
+          "answer": "Liffey",
+          "alternates": [
+            "River Liffey",
+            "Liffey River"
+          ],
+          "explanation": "The Liffey flows ~125 km from the Wicklow Mountains west then east through Dublin to Dublin Bay\nDivides Dublin into the Northside and Southside, a cultural and socioeconomic divide Dubliners take seriously\nThe Ha'penny Bridge (1816), named for its original toll, is Dublin's most iconic pedestrian crossing\nJames Joyce references the Liffey throughout 'Ulysses' and 'Finnegans Wake'; the character Anna Livia Plurabelle personifies the river\nThe name 'Dublin' derives from the Irish 'Dubh Linn' ('black pool'), referring to a tidal pool where the Liffey met the River Poddle",
+          "cardFront": "Dublin, Ireland",
+          "cardBack": "Liffey"
+        },
+        {
+          "id": "shanghai",
+          "prompt": "What major river flows through central Shanghai, China?",
+          "answer": "Huangpu",
+          "alternates": [
+            "Huangpu River",
+            "Huang Pu",
+            "Whangpoo"
+          ],
+          "explanation": "The Huangpu is ~113 km long and is the last major tributary of the Yangtze before it empties into the East China Sea\nDivides Shanghai into Puxi ('west of Huangpu,' the historic center) and Pudong ('east of Huangpu,' the financial district)\nThe Bund, Shanghai's famous waterfront promenade of colonial-era buildings, lines the Puxi bank\nAcross the river in Pudong, the Oriental Pearl Tower and Shanghai Tower (632 m, China's tallest building) dominate the skyline\nThe river averages ~400 m wide and ~9 m deep through central Shanghai",
+          "cardFront": "Shanghai, China",
+          "cardBack": "Huangpu"
+        },
+        {
+          "id": "warsaw",
+          "prompt": "What major river flows through Warsaw, Poland?",
+          "answer": "Vistula",
+          "alternates": [
+            "Vistula River",
+            "Wisla"
+          ],
+          "explanation": "The Vistula (Wisla) is Poland's longest river at ~1,047 km, flowing from the Carpathians north to the Baltic Sea at Gdansk\n'Kraj nad Wisla' ('Land on the Vistula') is a poetic synonym for Poland itself\nThe Vistula runs ~31 km through Warsaw; the Old Town on the west bank was rebuilt from rubble after WWII (UNESCO World Heritage Site)\nDuring the Warsaw Uprising (1944), the Soviet army halted on the east bank while the Germans crushed the resistance on the west\nAlso flows through Krakow, where Wawel Castle sits on a limestone bluff above the river",
+          "cardFront": "Warsaw, Poland",
+          "cardBack": "Vistula"
+        },
+        {
+          "id": "lisbon",
+          "prompt": "What major river flows through Lisbon, Portugal?",
+          "answer": "Tagus",
+          "alternates": [
+            "Tagus River",
+            "Tejo",
+            "Rio Tejo"
+          ],
+          "explanation": "The Tagus is the longest river on the Iberian Peninsula at ~1,038 km, flowing from eastern Spain west to the Atlantic at Lisbon\nLisbon's harbor on the Tagus estuary made it the launching point for Portugal's Age of Exploration\nThe 25 de Abril Bridge (1966), spanning the Tagus, resembles San Francisco's Golden Gate Bridge and is painted the same red\nVasco da Gama departed from the Tagus in 1497 on his voyage to India, opening the sea route to Asia\nThe Tagus estuary at Lisbon is one of Europe's largest, ~14 km wide at its broadest point",
+          "cardFront": "Lisbon, Portugal",
+          "cardBack": "Tagus"
+        },
+        {
+          "id": "seoul",
+          "prompt": "What major river flows through Seoul, South Korea?",
+          "answer": "Han",
+          "alternates": [
+            "Han River",
+            "Hangang"
+          ],
+          "explanation": "The Han River flows ~514 km from the mountains of Gangwon Province west through Seoul to the Yellow Sea\nWithin Seoul, the river is over 1 km wide, dividing the city into Gangbuk (north) and Gangnam (south)\nThe 'Miracle on the Han River' refers to South Korea's rapid economic transformation from the 1960s–1990s\nGangnam District, south of the Han, became a global pop-culture reference through Psy's 'Gangnam Style' (2012)\nHangang Park, stretching along both banks, is Seoul's most popular recreational space, with 11 waterfront parks",
+          "cardFront": "Seoul, South Korea",
+          "cardBack": "Han"
+        },
+        {
+          "id": "florence",
+          "prompt": "What major river flows through Florence, Italy?",
+          "answer": "Arno",
+          "alternates": [
+            "Arno River",
+            "River Arno"
+          ],
+          "explanation": "The Arno flows ~241 km from the Apennines through Tuscany to the Ligurian Sea\nThe Ponte Vecchio ('Old Bridge,' rebuilt 1345) is lined with jewelers' shops and is Florence's most iconic landmark\nThe catastrophic flood of November 4, 1966 devastated Florence, killing 35 and damaging millions of artworks and rare books\nThe flood destroyed panels from Ghiberti's 'Gates of Paradise' on the Baptistery and left 600,000 tons of mud in the city\nDante, Machiavelli, and the Medici dynasty all lived along the Arno's banks in Florence",
+          "cardFront": "Florence, Italy",
+          "cardBack": "Arno"
+        }
+      ]
+    }
+  ]
+}

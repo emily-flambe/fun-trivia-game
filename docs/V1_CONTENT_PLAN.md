@@ -162,18 +162,18 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 8 | Oceans & Major Seas | 15 | ✅ | |
 | 9 | World Flags | 19 | ✅ | |
 | 10 | U.S. State Capitals | 50 | ✅ | |
-| 11 | Countries of Asia | 50 | ❌ | Fill-blanks. Major gap — no Asian country coverage. |
-| 12 | Countries of South America | 12 | ❌ | Fill-blanks. |
-| 13 | Countries of Central America & Caribbean | 20 | ❌ | TS has "Caribbean Map." |
-| 14 | Country Populations | 20 | ❌ | TS has this. Most populous countries, rank order. |
-| 15 | City Nicknames | 15 | ❌ | TS has this. "Big Apple"→NYC, "Windy City"→Chicago. |
-| 16 | Airport Codes (IATA) | 20 | ❌ | TS has "Airport Codes." LAX, CDG, NRT, etc. |
-| 17 | U.S. National Parks | 15 | ❌ | TS has this. Yellowstone, Yosemite, Grand Canyon, etc. |
-| 18 | U.S. State Nicknames | 50 | ❌ | TS has this. "Golden State"→California, etc. |
-| 19 | Former Country Names | 15 | ❌ | TS has "Former Names." Siam→Thailand, Persia→Iran, etc. |
-| 20 | Cities by River | 15 | ❌ | TS has this. Paris→Seine, London→Thames, Cairo→Nile. |
+| 11 | Countries of Asia | 48 | ✅ | Fill-blanks. |
+| 12 | Countries of South America | 12 | ✅ | Fill-blanks. |
+| 13 | Countries of Central America & Caribbean | 20 | ✅ | Fill-blanks. |
+| 14 | Country Populations | 20 | ✅ | Top 20 by population, ranked. |
+| 15 | City Nicknames | 15 | ✅ | "Big Apple"→NYC, "Windy City"→Chicago, etc. |
+| 16 | Airport Codes (IATA) | 20 | ✅ | LAX, CDG, NRT, JFK, LHR, etc. |
+| 17 | U.S. National Parks | 15 | ✅ | Yellowstone, Yosemite, Grand Canyon, etc. |
+| 18 | U.S. State Nicknames | 50 | ✅ | Fill-blanks. All 50 states. |
+| 19 | Former Country Names | 15 | ✅ | Siam→Thailand, Persia→Iran, etc. |
+| 20 | Cities by River | 15 | ✅ | Paris→Seine, London→Thames, Cairo→Nile, etc. |
 
-**Coverage**: 10/20 done. Strongest category by exercise count, but missing whole continents.
+**Coverage**: 20/20 done. Complete.
 
 ---
 
@@ -371,7 +371,7 @@ Inspired by TrivialStudies' unique study tools:
 | Film | 5 | 10 | 50% |
 | Food/Drink | 5 | 10 | 50% |
 | Games/Sport | 2 | 15 | 13% |
-| Geography | 10 | 20 | 50% |
+| Geography | 20 | 20 | 100% |
 | Language | 1 | 5 | 20% |
 | Lifestyle | 1 | 7 | 14% |
 | Literature | 16 | 16 | 100% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **76** | **177** | **43%** |
+| **TOTAL** | **86** | **177** | **49%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -399,7 +399,7 @@ Inspired by TrivialStudies' unique study tools:
 11. **Film** — 5/10 (50%). Good core, needs depth.
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
-14. **Geography** — 10/20 (50%). Most exercises but missing continents.
+14. **Geography** — 20/20 (100%). Complete.
 15. **World History** — 5/10 (50%). Needs monarchs/exploration.
 16. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.
 17. **Science** — 13/20 (65%). Well covered, needs fun trivia.

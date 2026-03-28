@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/countries/populations",
+      "nodeId": "geography/countries",
+      "name": "Country Populations",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "india",
+          "prompt": "The world's most populous country since 2023 with ~1.44 billion people, having recently surpassed its northern neighbor. Name this South Asian nation.",
+          "answer": "India",
+          "alternates": [],
+          "explanation": "#1 most populous country \u2014 ~1.44 billion (surpassed China in 2023)\nCapital New Delhi; 28 states and 8 union territories\nWorld's largest democracy by population\nProjected to reach ~1.7 billion by 2060 before declining\nHome to 22 officially recognized languages and hundreds more",
+          "cardFront": "#1 \u2014 ~1.44 billion",
+          "cardBack": "India"
+        },
+        {
+          "id": "china",
+          "prompt": "Held the title of world's most populous country for centuries until 2023, still home to ~1.43 billion people. Name this East Asian nation whose population is now declining.",
+          "answer": "China",
+          "alternates": ["People's Republic of China", "PRC"],
+          "explanation": "#2 most populous country \u2014 ~1.43 billion (lost #1 spot to India in 2023)\nPopulation peaked around 2022 and is now shrinking; one-child policy (1980\u20132015) drastically reduced birth rates\nCapital Beijing; world's second-largest economy by nominal GDP\nBorders 14 countries \u2014 tied with Russia for the most land borders of any nation\nHome to the Great Wall, a UNESCO site stretching ~21,000 km across northern regions",
+          "cardFront": "#2 \u2014 ~1.43 billion",
+          "cardBack": "China"
+        },
+        {
+          "id": "united-states",
+          "prompt": "The third most populous country at ~340 million, this North American nation is the most populous in the Western Hemisphere. Name it.",
+          "answer": "United States",
+          "alternates": ["USA", "US", "America", "United States of America"],
+          "explanation": "#3 most populous country \u2014 ~340 million\nCapital Washington, D.C.; 50 states spanning 6 time zones in the contiguous area\nWorld's largest economy by nominal GDP (~$28 trillion)\nPopulation grew largely through immigration; about 14% of residents are foreign-born\nThird-largest country by both area (~9.8 million km\u00b2) and population",
+          "cardFront": "#3 \u2014 ~340 million",
+          "cardBack": "United States"
+        },
+        {
+          "id": "indonesia",
+          "prompt": "The world's fourth most populous country at ~280 million and the largest archipelago nation, spanning over 17,000 islands in Southeast Asia. Name it.",
+          "answer": "Indonesia",
+          "alternates": [],
+          "explanation": "#4 most populous country \u2014 ~280 million\nWorld's largest archipelago: over 17,000 islands, ~6,000 inhabited\nCapital officially moved from Jakarta to Nusantara (new planned city in Borneo) starting 2024\nWorld's most populous Muslim-majority country\nFourth-largest island in the world (Borneo) is shared among three countries including this one",
+          "cardFront": "#4 \u2014 ~280 million",
+          "cardBack": "Indonesia"
+        },
+        {
+          "id": "pakistan",
+          "prompt": "The fifth most populous country at ~240 million, this South Asian nation was created by partition in 1947 and shares a contested border region with its eastern neighbor. Name it.",
+          "answer": "Pakistan",
+          "alternates": [],
+          "explanation": "#5 most populous country \u2014 ~240 million\nCreated by the Partition of British India in 1947; originally included East Pakistan (now Bangladesh)\nCapital Islamabad (purpose-built, replacing Karachi in 1967)\nK2, the world's second-highest mountain (8,611 m), sits on its border with China\nOne of nine countries with nuclear weapons; tested its first device in 1998",
+          "cardFront": "#5 \u2014 ~240 million",
+          "cardBack": "Pakistan"
+        },
+        {
+          "id": "nigeria",
+          "prompt": "Africa's most populous country at ~230 million, this West African nation is named after the river that flows through it and is a major oil producer. Name it.",
+          "answer": "Nigeria",
+          "alternates": [],
+          "explanation": "#6 most populous country \u2014 ~230 million (most populous in Africa by a wide margin)\nNamed after the Niger River; capital Abuja (moved from Lagos in 1991)\nAfrica's largest economy; one of the top oil producers globally (OPEC member)\nOver 250 ethnic groups and 500+ languages; English is the official language\nProjected to become the world's third most populous country by 2050",
+          "cardFront": "#6 \u2014 ~230 million",
+          "cardBack": "Nigeria"
+        },
+        {
+          "id": "brazil",
+          "prompt": "The seventh most populous country at ~216 million and the most populous in South America, this Portuguese-speaking nation contains most of the Amazon rainforest. Name it.",
+          "answer": "Brazil",
+          "alternates": [],
+          "explanation": "#7 most populous country \u2014 ~216 million (most populous in Latin America and the Southern Hemisphere)\nOnly Portuguese-speaking country in the Americas; capital Bras\u00edlia (purpose-built, inaugurated 1960)\nContains about 60% of the Amazon rainforest, the world's largest tropical rainforest\nFifth-largest country by area (~8.5 million km\u00b2)\nRecord five FIFA World Cup titles (1958, 1962, 1970, 1994, 2002)",
+          "cardFront": "#7 \u2014 ~216 million",
+          "cardBack": "Brazil"
+        },
+        {
+          "id": "bangladesh",
+          "prompt": "The eighth most populous country at ~173 million, this South Asian nation was formerly the eastern wing of a neighboring country until gaining independence in 1971. Name it.",
+          "answer": "Bangladesh",
+          "alternates": [],
+          "explanation": "#8 most populous country \u2014 ~173 million in just ~148,000 km\u00b2 (one of the most densely populated countries on Earth)\nFormerly East Pakistan; gained independence in 1971 after a liberation war\nCapital Dhaka; sits on the Ganges\u2013Brahmaputra delta, making it extremely vulnerable to flooding\nWorld's second-largest garment exporter after China\nBengali is the national language \u2014 the same language spoken in India's West Bengal state",
+          "cardFront": "#8 \u2014 ~173 million",
+          "cardBack": "Bangladesh"
+        },
+        {
+          "id": "russia",
+          "prompt": "The ninth most populous country at ~144 million, this transcontinental nation is by far the world's largest by area, spanning 11 time zones. Name it.",
+          "answer": "Russia",
+          "alternates": ["Russian Federation"],
+          "explanation": "#9 most populous country \u2014 ~144 million (modest population for its enormous size)\nWorld's largest country by area at ~17.1 million km\u00b2, spanning 11 time zones\nCapital Moscow; population heavily concentrated west of the Ural Mountains\nPermanent member of the UN Security Council; world's largest nuclear arsenal\nLake Baikal, in Siberia, holds about 20% of the world's unfrozen surface fresh water",
+          "cardFront": "#9 \u2014 ~144 million",
+          "cardBack": "Russia"
+        },
+        {
+          "id": "ethiopia",
+          "prompt": "The tenth most populous country at ~130 million, this landlocked East African nation is the only country on the continent never formally colonized by a European power. Name it.",
+          "answer": "Ethiopia",
+          "alternates": [],
+          "explanation": "#10 most populous country \u2014 ~130 million (second most populous in Africa after Nigeria)\nNever colonized \u2014 repelled Italian invasion at the Battle of Adwa (1896); occupied briefly 1936\u20131941\nCapital Addis Ababa, which serves as headquarters of the African Union\nUses the Ethiopian calendar, which is ~7\u20138 years behind the Gregorian calendar\nBirthplace of coffee; the Coffea arabica plant originated in its highland forests",
+          "cardFront": "#10 \u2014 ~130 million",
+          "cardBack": "Ethiopia"
+        },
+        {
+          "id": "mexico",
+          "prompt": "The eleventh most populous country at ~129 million, this North American nation has the world's largest Spanish-speaking population. Name it.",
+          "answer": "Mexico",
+          "alternates": [],
+          "explanation": "#11 most populous country \u2014 ~129 million\nWorld's largest Spanish-speaking country by population\nCapital Mexico City (~22 million metro), built on the ruins of the Aztec capital Tenochtitl\u00e1n\nThird-largest country in Latin America by area after Brazil and Argentina\nHome to 35 UNESCO World Heritage Sites, among the highest totals worldwide\nChichen Itz\u00e1's El Castillo pyramid is one of the New Seven Wonders of the World",
+          "cardFront": "#11 \u2014 ~129 million",
+          "cardBack": "Mexico"
+        },
+        {
+          "id": "japan",
+          "prompt": "The twelfth most populous country at ~124 million, this East Asian island nation has the world's oldest population by median age. Name it.",
+          "answer": "Japan",
+          "alternates": [],
+          "explanation": "#12 most populous country \u2014 ~124 million (declining; peaked at ~128 million in 2010)\nWorld's highest median age (~49 years) and one of the lowest birth rates globally\nCapital Tokyo (~14 million city, ~37 million metro \u2014 world's largest metropolitan area)\nWorld's fourth-largest economy by nominal GDP\nArchipelago of 6,852 islands; about 73% of the land is mountainous and forested",
+          "cardFront": "#12 \u2014 ~124 million",
+          "cardBack": "Japan"
+        },
+        {
+          "id": "philippines",
+          "prompt": "The thirteenth most populous country at ~117 million, this Southeast Asian archipelago of over 7,000 islands was named after a 16th-century Spanish king. Name it.",
+          "answer": "Philippines",
+          "alternates": ["The Philippines"],
+          "explanation": "#13 most populous country \u2014 ~117 million\nNamed after King Philip II of Spain; Spanish colony for 333 years (1565\u20131898)\nCapital Manila; Metro Manila has ~14 million people\nArchipelago of 7,641 islands; the three main island groups are Luzon, Visayas, and Mindanao\nOnly predominantly Christian nation in Asia (~86% Catholic)\nU.S. territory from 1898 to 1946; gained full independence on July 4, 1946",
+          "cardFront": "#13 \u2014 ~117 million",
+          "cardBack": "Philippines"
+        },
+        {
+          "id": "egypt",
+          "prompt": "The fourteenth most populous country at ~110 million, this North African nation is home to the only surviving Ancient Wonder of the World. Name it.",
+          "answer": "Egypt",
+          "alternates": [],
+          "explanation": "#14 most populous country \u2014 ~110 million (most populous in the Arab world)\nThe Great Pyramid of Giza is the only surviving Wonder of the Ancient World\nCapital Cairo (~22 million metro); virtually all the population lives along the Nile River and its delta\nThe Suez Canal (opened 1869) connects the Mediterranean and Red Seas\nAncient Egyptian civilization lasted ~3,000 years (c. 3100 BCE\u2013332 BCE)",
+          "cardFront": "#14 \u2014 ~110 million",
+          "cardBack": "Egypt"
+        },
+        {
+          "id": "dr-congo",
+          "prompt": "The fifteenth most populous country at ~105 million, this Central African nation is the continent's second-largest by area and shares its name with a neighboring republic. Name it.",
+          "answer": "DR Congo",
+          "alternates": ["Democratic Republic of Congo", "DRC", "Democratic Republic of the Congo", "Congo-Kinshasa"],
+          "explanation": "#15 most populous country \u2014 ~105 million\nSecond-largest country in Africa by area (~2.3 million km\u00b2)\nCapital Kinshasa; distinguished from the Republic of the Congo (capital Brazzaville) across the river\nFormerly Zaire (1971\u20131997) under dictator Mobutu Sese Seko\nContains vast mineral wealth including cobalt (~70% of global supply), crucial for lithium-ion batteries\nThe Congo River is the world's deepest river and second-largest by discharge",
+          "cardFront": "#15 \u2014 ~105 million",
+          "cardBack": "DR Congo"
+        },
+        {
+          "id": "vietnam",
+          "prompt": "The sixteenth most populous country at ~100 million, this Southeast Asian nation stretches along the eastern coast of the Indochinese Peninsula and was reunified in 1975. Name it.",
+          "answer": "Vietnam",
+          "alternates": ["Viet Nam"],
+          "explanation": "#16 most populous country \u2014 ~100 million\nReunified in 1975 after the fall of Saigon ended the Vietnam War (known locally as the American War)\nCapital Hanoi; Ho Chi Minh City (formerly Saigon) is the largest city and economic hub\nOne of five remaining communist one-party states\nHa Long Bay, with ~1,600 limestone islands, is a UNESCO World Heritage Site\nWorld's second-largest coffee exporter (after Brazil), specializing in robusta beans",
+          "cardFront": "#16 \u2014 ~100 million",
+          "cardBack": "Vietnam"
+        },
+        {
+          "id": "iran",
+          "prompt": "The seventeenth most populous country at ~90 million, this West Asian nation was known internationally by a different name until 1935 and became an Islamic republic after a 1979 revolution. Name it.",
+          "answer": "Iran",
+          "alternates": ["Persia"],
+          "explanation": "#17 most populous country \u2014 ~90 million\nFormerly known as Persia internationally; asked to be called Iran in 1935\nBecame an Islamic republic after the 1979 revolution that overthrew Shah Mohammad Reza Pahlavi\nCapital Tehran (~9 million city, ~16 million metro)\nSits on the world's second-largest natural gas reserves and fourth-largest oil reserves\nPersepolis, ceremonial capital of the Achaemenid Empire (c. 515 BCE), is a UNESCO World Heritage Site",
+          "cardFront": "#17 \u2014 ~90 million",
+          "cardBack": "Iran"
+        },
+        {
+          "id": "turkey",
+          "prompt": "The eighteenth most populous country at ~86 million, this transcontinental nation straddles Europe and Asia with its largest city split between two continents by a famous strait. Name it.",
+          "answer": "Turkey",
+          "alternates": ["Turkiye", "T\u00fcrkiye", "Republic of Turkey"],
+          "explanation": "#18 most populous country \u2014 ~86 million\nTranscontinental: ~97% in Asia (Anatolia), ~3% in Europe (Thrace), divided by the Bosphorus\nCapital Ankara (not Istanbul); Istanbul (~16 million) is the largest city and straddles two continents\nSuccessor to the Ottoman Empire (1299\u20131922); republic founded by Mustafa Kemal Atat\u00fcrk in 1923\nHagia Sophia in Istanbul served as a church, mosque, museum, and mosque again\nOfficially changed its international name from Turkey to T\u00fcrkiye in 2022",
+          "cardFront": "#18 \u2014 ~86 million",
+          "cardBack": "Turkey"
+        },
+        {
+          "id": "germany",
+          "prompt": "The nineteenth most populous country at ~84 million, this Western European nation is the continent's most populous and its largest economy. Name it.",
+          "answer": "Germany",
+          "alternates": [],
+          "explanation": "#19 most populous country \u2014 ~84 million (most populous country in Europe, excluding Russia)\nEurope's largest economy and the world's third-largest by nominal GDP\nCapital Berlin; divided into East and West from 1949 to 1990\nReunified on October 3, 1990, after the fall of the Berlin Wall (November 9, 1989)\nFederal republic of 16 states (Bundesl\u00e4nder)\nBirthplace of the Protestant Reformation (Martin Luther, 1517) and the printing press (Gutenberg, c. 1440)",
+          "cardFront": "#19 \u2014 ~84 million",
+          "cardBack": "Germany"
+        },
+        {
+          "id": "thailand",
+          "prompt": "The twentieth most populous country at ~72 million, this Southeast Asian kingdom is the only nation in the region never colonized by a European power. Name it.",
+          "answer": "Thailand",
+          "alternates": ["Siam"],
+          "explanation": "#20 most populous country \u2014 ~72 million\nFormerly known as Siam; renamed Thailand in 1939 (means 'Land of the Free')\nOnly Southeast Asian country never colonized by a European power\nCapital Bangkok; official ceremonial name is 168 characters long, the world's longest place name\nConstitutional monarchy; King Bhumibol Adulyadej (r. 1946\u20132016) was the world's longest-reigning monarch at the time of his death\nWorld's largest exporter of rice for much of the late 20th century",
+          "cardFront": "#20 \u2014 ~72 million",
+          "cardBack": "Thailand"
+        }
+      ]
+    }
+  ]
+}

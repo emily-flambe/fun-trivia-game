@@ -1,0 +1,304 @@
+{
+  "nodes": [
+    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/countries/asia",
+      "nodeId": "geography/countries",
+      "name": "Countries of Asia",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name all 48 sovereign countries of Asia" },
+      "items": [
+        {
+          "id": "afghanistan",
+          "answer": "Afghanistan",
+          "alternates": [],
+          "explanation": "Landlocked country in Central/South Asia; capital is Kabul\nBordered by Pakistan, Iran, Turkmenistan, Uzbekistan, Tajikistan, and China\nSite of prolonged conflict \u2014 Soviet invasion (1979\u20131989), Taliban rule (1996\u20132001, 2021\u2013present), U.S./NATO operations (2001\u20132021)\nThe Khyber Pass, one of the most famous mountain passes in history, connects Afghanistan to Pakistan"
+        },
+        {
+          "id": "armenia",
+          "answer": "Armenia",
+          "alternates": [],
+          "explanation": "Landlocked country in the South Caucasus; capital is Yerevan\nFirst country to adopt Christianity as a state religion (301 CE)\nThe Armenian Genocide (1915\u20131923) killed an estimated 1.5 million Armenians under the Ottoman Empire\nMount Ararat, the traditional resting place of Noah's Ark, is visible from Yerevan but lies across the border in Turkey"
+        },
+        {
+          "id": "azerbaijan",
+          "answer": "Azerbaijan",
+          "alternates": [],
+          "explanation": "Located in the South Caucasus on the Caspian Sea; capital is Baku\nKnown as the 'Land of Fire' due to natural gas vents that have burned for millennia\nBaku sits on massive oil reserves; the city had its first oil boom in the 1870s, predating most Middle Eastern oil development\nFought two wars with Armenia over the Nagorno-Karabakh region (1988\u20131994, 2020)"
+        },
+        {
+          "id": "bahrain",
+          "answer": "Bahrain",
+          "alternates": [],
+          "explanation": "Island nation in the Persian Gulf off the coast of Saudi Arabia; capital is Manama\nSmallest Arab country by area (~780 km\u00b2); connected to Saudi Arabia by the King Fahd Causeway (25 km)\nSite of ancient Dilmun civilization, a major trading hub between Mesopotamia and the Indus Valley (~3000 BCE)\nFirst Gulf state to discover oil (1932), but reserves are now largely depleted; economy shifted to banking and finance"
+        },
+        {
+          "id": "bangladesh",
+          "answer": "Bangladesh",
+          "alternates": [],
+          "explanation": "Located in South Asia on the Bay of Bengal, almost entirely surrounded by India; capital is Dhaka\nOne of the most densely populated countries in the world (~170 million people in an area smaller than Iowa)\nGained independence from Pakistan in 1971 after a brutal war that killed an estimated 300,000\u20133 million people\nThe Ganges\u2013Brahmaputra Delta, the world's largest river delta, makes the country extremely vulnerable to flooding and cyclones"
+        },
+        {
+          "id": "bhutan",
+          "answer": "Bhutan",
+          "alternates": [],
+          "explanation": "Landlocked Himalayan kingdom between China and India; capital is Thimphu\nMeasures national success by Gross National Happiness rather than GDP\nLast country in the world to introduce television (1999); banned tobacco sales entirely\nThe only carbon-negative country in the world \u2014 forests cover over 70% of its territory"
+        },
+        {
+          "id": "brunei",
+          "answer": "Brunei",
+          "alternates": [],
+          "explanation": "Small sultanate on the island of Borneo, bordered by Malaysia; capital is Bandar Seri Begawan\nOne of the wealthiest countries per capita due to oil and gas reserves; citizens pay no income tax\nThe Sultan of Brunei is one of the world's richest monarchs; the Istana Nurul Iman palace has 1,788 rooms \u2014 the largest residential palace in the world\nOnce controlled most of Borneo and parts of the Philippines (15th\u201317th centuries)"
+        },
+        {
+          "id": "cambodia",
+          "answer": "Cambodia",
+          "alternates": [],
+          "explanation": "Located in mainland Southeast Asia; capital is Phnom Penh\nHome to Angkor Wat, the world's largest religious monument, built in the 12th century by the Khmer Empire\nThe Khmer Rouge regime under Pol Pot (1975\u20131979) killed an estimated 1.5\u20132 million people \u2014 roughly a quarter of the population\nThe Tonl\u00e9 Sap lake reverses its flow seasonally, expanding to six times its dry-season size during monsoons"
+        },
+        {
+          "id": "china",
+          "answer": "China",
+          "alternates": ["People's Republic of China", "PRC"],
+          "explanation": "Most populous country in the world until 2023 (surpassed by India); capital is Beijing\nThe Great Wall stretches over 21,000 km; the country invented paper, printing, gunpowder, and the compass\nWorld's second-largest economy by nominal GDP and largest by purchasing power parity\nChinese civilization is one of the oldest continuous civilizations, with written records dating back over 3,000 years"
+        },
+        {
+          "id": "cyprus",
+          "answer": "Cyprus",
+          "alternates": [],
+          "explanation": "Island nation in the eastern Mediterranean; capital is Nicosia\nDivided since 1974 when Turkey invaded the north \u2014 split between the Republic of Cyprus (EU member) and the Turkish Republic of Northern Cyprus (recognized only by Turkey)\nNicosia is the last divided capital city in the world\nIn Greek mythology, the birthplace of Aphrodite, goddess of love"
+        },
+        {
+          "id": "georgia",
+          "answer": "Georgia",
+          "alternates": [],
+          "explanation": "Located in the South Caucasus at the crossroads of Europe and Asia; capital is Tbilisi\nOne of the oldest winemaking regions in the world \u2014 archaeological evidence of wine production dates to ~6000 BCE\nBirthplace of Joseph Stalin (born in Gori, 1878)\nRussia recognized and militarily supports two breakaway regions: Abkhazia and South Ossetia (since the 2008 war)"
+        },
+        {
+          "id": "india",
+          "answer": "India",
+          "alternates": [],
+          "explanation": "Located in South Asia; capital is New Delhi; most populous country in the world as of 2023\nThe world's largest democracy by population; gained independence from Britain in 1947 under the leadership of Mahatma Gandhi\nBirthplace of Hinduism, Buddhism, Jainism, and Sikhism\nHome to the Taj Mahal (built 1632\u20131653), one of the New Seven Wonders of the World"
+        },
+        {
+          "id": "indonesia",
+          "answer": "Indonesia",
+          "alternates": [],
+          "explanation": "World's largest archipelago (~17,000 islands) in Southeast Asia; capital is Jakarta (moving to Nusantara on Borneo)\nFourth most populous country in the world (~275 million) and the most populous Muslim-majority country\nHome to Komodo dragons (the world's largest lizards) and Krakatoa, whose 1883 eruption was one of the deadliest in recorded history\nThe island of Java is the most populous island in the world (~150 million people)"
+        },
+        {
+          "id": "iran",
+          "answer": "Iran",
+          "alternates": ["Persia"],
+          "explanation": "Located in Western Asia; capital is Tehran\nSuccessor state to the Persian Empire, one of the largest empires in ancient history (Achaemenid Empire under Cyrus the Great, ~550\u2013330 BCE)\nThe 1979 Islamic Revolution overthrew Shah Mohammad Reza Pahlavi and established a theocratic republic under Ayatollah Khomeini\nIran\u2013Iraq War (1980\u20131988) was one of the longest conventional wars of the 20th century, killing an estimated 500,000\u20131 million"
+        },
+        {
+          "id": "iraq",
+          "answer": "Iraq",
+          "alternates": [],
+          "explanation": "Located in the Middle East between the Tigris and Euphrates rivers; capital is Baghdad\nAncient Mesopotamia, often called the 'Cradle of Civilization' \u2014 earliest known writing (cuneiform), agriculture, and cities emerged here\nBaghdad was the world's largest city and intellectual capital during the Islamic Golden Age (8th\u201314th centuries)\nInvaded by U.S.-led coalition in 2003 on the basis of alleged weapons of mass destruction, which were never found"
+        },
+        {
+          "id": "israel",
+          "answer": "Israel",
+          "alternates": [],
+          "explanation": "Located on the eastern Mediterranean coast; capital claimed as Jerusalem (disputed; most embassies are in Tel Aviv)\nEstablished in 1948 as a Jewish state; the Israeli\u2013Palestinian conflict has defined the region's geopolitics since\nThe Dead Sea, on its border with Jordan, is the lowest point on Earth's surface (~430 m below sea level)\nLeads the world in per-capita tech startups and R&D spending; compulsory military service for most citizens"
+        },
+        {
+          "id": "japan",
+          "answer": "Japan",
+          "alternates": [],
+          "explanation": "Island nation in East Asia comprising ~6,800 islands; capital is Tokyo\nWorld's third-largest economy by nominal GDP; pioneered post-WWII economic recovery known as the 'Japanese economic miracle'\nOnly country to have been attacked with nuclear weapons (Hiroshima and Nagasaki, August 1945)\nHas the world's oldest continuous monarchy \u2014 the imperial line claims descent from 660 BCE"
+        },
+        {
+          "id": "jordan",
+          "answer": "Jordan",
+          "alternates": [],
+          "explanation": "Located in the Middle East, bordered by Israel, Saudi Arabia, Iraq, and Syria; capital is Amman\nHome to Petra, a Nabataean city carved into rose-red sandstone cliffs (~300 BCE), one of the New Seven Wonders of the World\nOne of the most water-scarce countries in the world; hosts one of the largest refugee populations per capita (Syrian, Palestinian, Iraqi)\nThe Jordan River, forming its western border, is one of the most historically significant rivers in Christianity and Judaism"
+        },
+        {
+          "id": "kazakhstan",
+          "answer": "Kazakhstan",
+          "alternates": [],
+          "explanation": "Largest landlocked country in the world (~2.7 million km\u00b2); capital is Astana (renamed from Nur-Sultan in 2022)\nSpans Central Asia from the Caspian Sea to China; the ninth-largest country in the world by area\nHome to the Baikonur Cosmodrome, the world's first and largest space launch facility \u2014 Yuri Gagarin launched from here in 1961\nThe Kazakh steppe is believed to be the region where horses were first domesticated (~3500 BCE)"
+        },
+        {
+          "id": "kuwait",
+          "answer": "Kuwait",
+          "alternates": [],
+          "explanation": "Small country at the northern tip of the Persian Gulf; capital is Kuwait City\nIraqi invasion of Kuwait in August 1990 triggered the Gulf War (1990\u20131991); liberated by a U.S.-led coalition in Operation Desert Storm\nOne of the wealthiest countries per capita due to enormous oil reserves (~6% of world reserves)\nOne of the hottest countries on Earth \u2014 temperatures regularly exceed 50\u00b0C (122\u00b0F) in summer"
+        },
+        {
+          "id": "kyrgyzstan",
+          "answer": "Kyrgyzstan",
+          "alternates": [],
+          "explanation": "Mountainous, landlocked country in Central Asia; capital is Bishkek\nOver 90% of the country is above 1,500 m elevation; the Tian Shan mountain range dominates its landscape\nIssyk-Kul is the world's second-largest alpine lake (after Titicaca) and never freezes despite being surrounded by mountains\nThe national epic poem, the Epic of Manas, is one of the longest in the world \u2014 roughly 20 times longer than the Iliad and Odyssey combined"
+        },
+        {
+          "id": "laos",
+          "answer": "Laos",
+          "alternates": [],
+          "explanation": "Landlocked country in mainland Southeast Asia; capital is Vientiane\nThe most heavily bombed country per capita in history \u2014 the U.S. dropped over 2 million tons of ordnance during the Secret War (1964\u20131973)\nUnexploded ordnance still contaminates roughly one-third of the country's land area\nOne of the last remaining communist states; the Mekong River forms most of its border with Thailand"
+        },
+        {
+          "id": "lebanon",
+          "answer": "Lebanon",
+          "alternates": [],
+          "explanation": "Small country on the eastern Mediterranean coast; capital is Beirut\nAncient Phoenicia was centered in modern Lebanon \u2014 the Phoenicians invented the alphabet that became the basis for Greek, Latin, and most modern scripts\nCivil war (1975\u20131990) devastated the country; Beirut was once called the 'Paris of the Middle East'\nThe Cedars of Lebanon, referenced extensively in the Bible, appear on the national flag"
+        },
+        {
+          "id": "malaysia",
+          "answer": "Malaysia",
+          "alternates": [],
+          "explanation": "Located in Southeast Asia, split between the Malay Peninsula and northern Borneo; capital is Kuala Lumpur\nThe Petronas Towers in Kuala Lumpur were the world's tallest buildings from 1998 to 2004 (452 m)\nMultiethnic society of Malay, Chinese, and Indian populations; the Malay language uses a Latin alphabet adapted from the earlier Jawi (Arabic) script\nWorld's largest producer of palm oil, a major driver of tropical deforestation"
+        },
+        {
+          "id": "maldives",
+          "answer": "Maldives",
+          "alternates": [],
+          "explanation": "Island nation of ~1,200 coral islands in the Indian Ocean southwest of India; capital is Mal\u00e9\nLowest-lying country in the world \u2014 average elevation is just 1.5 m above sea level; existentially threatened by rising sea levels\nSmallest Asian country by both area (~300 km\u00b2) and population (~500,000)\nBecame the first country to hold a cabinet meeting underwater (2009) to highlight climate change"
+        },
+        {
+          "id": "mongolia",
+          "answer": "Mongolia",
+          "alternates": [],
+          "explanation": "Landlocked country between Russia and China; capital is Ulaanbaatar\nThe Mongol Empire under Genghis Khan (13th century) was the largest contiguous land empire in history, stretching from Korea to Eastern Europe\nMost sparsely populated sovereign country in the world (~2 people per km\u00b2)\nUlaanbaatar is the coldest capital city in the world, with winter temperatures regularly reaching \u221230\u00b0C (\u221222\u00b0F)"
+        },
+        {
+          "id": "myanmar",
+          "answer": "Myanmar",
+          "alternates": ["Burma"],
+          "explanation": "Located in mainland Southeast Asia on the Bay of Bengal; capital is Naypyidaw (moved from Yangon in 2006)\nFormerly known as Burma; renamed by the military government in 1989; both names remain in common use\nMilitary coup in February 2021 overthrew the elected government of Aung San Suu Kyi, who had won the Nobel Peace Prize in 1991\nHome to Shwedagon Pagoda in Yangon, one of the oldest and most sacred Buddhist sites in the world"
+        },
+        {
+          "id": "nepal",
+          "answer": "Nepal",
+          "alternates": [],
+          "explanation": "Landlocked Himalayan country between China and India; capital is Kathmandu\nHome to eight of the world's fourteen peaks over 8,000 m, including Mount Everest (8,849 m) on the China\u2013Nepal border\nThe only country in the world whose flag is not rectangular \u2014 it consists of two stacked triangles\nBirthplace of Siddhartha Gautama (the Buddha) in Lumbini (~563 BCE)"
+        },
+        {
+          "id": "north-korea",
+          "answer": "North Korea",
+          "alternates": ["DPRK", "Democratic People's Republic of Korea"],
+          "explanation": "Located on the northern half of the Korean Peninsula; capital is Pyongyang\nOne of the most isolated and secretive states in the world; ruled by the Kim dynasty since 1948 (Kim Il-sung, Kim Jong-il, Kim Jong-un)\nThe Korean War (1950\u20131953) ended in armistice, not a peace treaty \u2014 the two Koreas are technically still at war\nThe DMZ (Demilitarized Zone) between North and South Korea is the most heavily fortified border in the world"
+        },
+        {
+          "id": "oman",
+          "answer": "Oman",
+          "alternates": [],
+          "explanation": "Located on the southeastern Arabian Peninsula; capital is Muscat\nControls the Strait of Hormuz (with Iran), through which roughly 20\u201330% of the world's oil passes\nThe Omani Empire was a major maritime power in the 18th\u201319th centuries, controlling territories from Zanzibar to Pakistan\nOne of the oldest continuously inhabited regions in the Arabian Peninsula; frankincense from Oman's Dhofar region was prized in the ancient world"
+        },
+        {
+          "id": "pakistan",
+          "answer": "Pakistan",
+          "alternates": [],
+          "explanation": "Located in South Asia; capital is Islamabad; largest city is Karachi\nCreated in 1947 by the Partition of India as a homeland for South Asian Muslims; originally included East Pakistan (now Bangladesh)\nSixth most populous country in the world (~230 million); the only Muslim-majority country with nuclear weapons\nHome to the Indus Valley Civilization (Mohenjo-daro, Harappa), one of the world's earliest urban civilizations (~2500 BCE)"
+        },
+        {
+          "id": "philippines",
+          "answer": "Philippines",
+          "alternates": ["The Philippines"],
+          "explanation": "Archipelago of over 7,600 islands in Southeast Asia; capital is Manila\nNamed after King Philip II of Spain; was a Spanish colony for over 300 years (1565\u20131898), then a U.S. territory until 1946\nThe only predominantly Christian country in Asia (~90% Christian, mostly Catholic)\nSituated in the Pacific Ring of Fire and the typhoon belt \u2014 one of the most disaster-prone countries in the world"
+        },
+        {
+          "id": "qatar",
+          "answer": "Qatar",
+          "alternates": [],
+          "explanation": "Small peninsula jutting into the Persian Gulf from Saudi Arabia; capital is Doha\nHighest GDP per capita in the world (by some measures) due to enormous natural gas reserves \u2014 home to the North Field, the world's largest gas field\nHosted the 2022 FIFA World Cup, the first held in the Middle East and the first held in November\u2013December\nHome to Al Jazeera, one of the most influential Arabic-language news networks, founded in 1996"
+        },
+        {
+          "id": "russia",
+          "answer": "Russia",
+          "alternates": ["Russian Federation"],
+          "explanation": "World's largest country by area (~17.1 million km\u00b2), spanning Eastern Europe and northern Asia; capital is Moscow\nTranscontinental state \u2014 roughly 77% of its territory is in Asia, though the majority of its population lives west of the Urals\nFormer core of the Soviet Union (1922\u20131991), the Cold War superpower; world's largest nuclear arsenal\nLake Baikal in Siberia is the deepest lake in the world (1,642 m) and holds about 20% of the world's unfrozen surface freshwater"
+        },
+        {
+          "id": "saudi-arabia",
+          "answer": "Saudi Arabia",
+          "alternates": [],
+          "explanation": "Largest country in the Middle East, occupying most of the Arabian Peninsula; capital is Riyadh\nGuardian of Islam's two holiest cities: Mecca (birthplace of Muhammad, site of the Kaaba) and Medina\nWorld's largest oil exporter and home to the state oil company Saudi Aramco, the most profitable company in the world\nNamed after the House of Saud, the ruling family that unified the kingdom in 1932"
+        },
+        {
+          "id": "singapore",
+          "answer": "Singapore",
+          "alternates": [],
+          "explanation": "City-state and island country at the southern tip of the Malay Peninsula; capital is Singapore\nOne of the world's wealthiest countries per capita and a major global financial center, despite having almost no natural resources\nExpelled from Malaysia in 1965; transformed from a developing country to a first-world economy in one generation under Lee Kuan Yew\nOne of the most densely populated countries in the world (~8,000 people per km\u00b2); famous for strict laws (chewing gum sales banned since 1992)"
+        },
+        {
+          "id": "south-korea",
+          "answer": "South Korea",
+          "alternates": ["Republic of Korea", "ROK", "Korea"],
+          "explanation": "Located on the southern half of the Korean Peninsula; capital is Seoul\nTransformed from one of the poorest countries in the world in the 1950s to the 10th-largest economy \u2014 the 'Miracle on the Han River'\nGlobal cultural powerhouse: K-pop, Korean cinema (Parasite won Best Picture at the 2020 Oscars), and Korean cuisine have achieved worldwide reach\nSamsung, Hyundai, and LG are among its major chaebols (family-controlled conglomerates)"
+        },
+        {
+          "id": "sri-lanka",
+          "answer": "Sri Lanka",
+          "alternates": ["Ceylon"],
+          "explanation": "Island nation in the Indian Ocean off the southeastern coast of India; capital is Sri Jayawardenepura Kotte (commercial capital: Colombo)\nFormerly known as Ceylon; major producer of tea (Ceylon tea), cinnamon, and gemstones (especially sapphires)\nCivil war between the Sinhalese-majority government and Tamil Tiger separatists lasted 26 years (1983\u20132009)\nOne of the highest literacy rates in South Asia (~92%); Buddhism is the majority religion, with a history spanning over 2,000 years on the island"
+        },
+        {
+          "id": "syria",
+          "answer": "Syria",
+          "alternates": [],
+          "explanation": "Located in the Middle East on the eastern Mediterranean; capital is Damascus\nDamascus is one of the oldest continuously inhabited cities in the world, with evidence of settlement dating to ~10,000 BCE\nCivil war since 2011 has killed over 500,000 people and displaced roughly half the pre-war population\nAncient Syria was a crossroads of empires \u2014 Assyrian, Persian, Greek, Roman, and Ottoman rule all left their mark; Palmyra was a major Greco-Roman city"
+        },
+        {
+          "id": "tajikistan",
+          "answer": "Tajikistan",
+          "alternates": [],
+          "explanation": "Mountainous, landlocked country in Central Asia; capital is Dushanbe\nOver 90% of the country is mountainous; the Pamir Mountains in eastern Tajikistan are known as the 'Roof of the World'\nPoorest of the former Soviet republics; suffered a civil war (1992\u20131997) shortly after independence\nThe Tajik people are ethnically and linguistically Persian, distinct from the Turkic populations of neighboring Central Asian states"
+        },
+        {
+          "id": "thailand",
+          "answer": "Thailand",
+          "alternates": ["Siam"],
+          "explanation": "Located in mainland Southeast Asia; capital is Bangkok (Thai name: Krung Thep Maha Nakhon)\nThe only Southeast Asian country never colonized by a European power; formerly known as Siam until 1939\nThe Thai monarchy is protected by strict l\u00e8se-majest\u00e9 laws \u2014 criticizing the king can carry a prison sentence of up to 15 years\nBangkok's full ceremonial name in Thai is the longest place name in the world (168 characters)"
+        },
+        {
+          "id": "timor-leste",
+          "answer": "Timor-Leste",
+          "alternates": ["East Timor"],
+          "explanation": "Located on the eastern half of the island of Timor in Southeast Asia; capital is Dili\nOne of the newest countries in the world \u2014 gained independence from Indonesia in 2002 after a 1999 referendum\nPortuguese colony from the 16th century until 1975; Indonesia then invaded and occupied it for 24 years, during which an estimated 100,000\u2013180,000 people died\nOne of the poorest countries in Asia; economy heavily dependent on oil and gas from the Timor Sea"
+        },
+        {
+          "id": "turkey",
+          "answer": "Turkey",
+          "alternates": ["Turkiye"],
+          "explanation": "Transcontinental country spanning southeastern Europe and western Asia; capital is Ankara; largest city is Istanbul\nIstanbul (formerly Constantinople/Byzantium) straddles the Bosphorus strait and was capital of the Byzantine and Ottoman Empires\nThe Ottoman Empire (1299\u20131922) was one of the longest-lasting empires in history; modern Turkey was founded by Mustafa Kemal Atat\u00fcrk in 1923\nHagia Sophia, built in 537 CE as a cathedral, is one of the greatest architectural achievements in history \u2014 converted to a mosque, then a museum, then back to a mosque (2020)"
+        },
+        {
+          "id": "turkmenistan",
+          "answer": "Turkmenistan",
+          "alternates": [],
+          "explanation": "Landlocked country in Central Asia; capital is Ashgabat\nHome to the Darvaza gas crater ('Door to Hell'), a natural gas field that has been burning since 1971\nOne of the world's most authoritarian states; former president Saparmurat Niyazov renamed months after himself and his family, banned opera and ballet, and required a golden statue of himself to rotate to face the sun\nOver 70% of the country is covered by the Karakum Desert; holds the world's fourth-largest natural gas reserves"
+        },
+        {
+          "id": "united-arab-emirates",
+          "answer": "United Arab Emirates",
+          "alternates": ["UAE"],
+          "explanation": "Federation of seven emirates on the Arabian Peninsula; capital is Abu Dhabi; largest city is Dubai\nDubai is home to the Burj Khalifa (828 m), the world's tallest building since 2010\nTransformed from a pearling and fishing economy to a global commercial hub in roughly 50 years\nEach emirate (Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, Fujairah) retains significant autonomy; Abu Dhabi holds over 90% of the UAE's oil reserves"
+        },
+        {
+          "id": "uzbekistan",
+          "answer": "Uzbekistan",
+          "alternates": [],
+          "explanation": "Doubly landlocked country in Central Asia (one of only two in the world); capital is Tashkent\nHome to Samarkand and Bukhara, two of the most important cities on the ancient Silk Road, with stunning Islamic architecture\nThe Aral Sea, once the fourth-largest lake in the world, has nearly disappeared due to Soviet-era irrigation diversions \u2014 one of the worst environmental disasters in history\nMost populous country in Central Asia (~35 million)"
+        },
+        {
+          "id": "vietnam",
+          "answer": "Vietnam",
+          "alternates": [],
+          "explanation": "Located in mainland Southeast Asia along the South China Sea; capital is Hanoi; largest city is Ho Chi Minh City (formerly Saigon)\nThe Vietnam War (1955\u20131975) killed an estimated 2\u20133 million Vietnamese and ~58,000 Americans; ended with the fall of Saigon\nOne of the fastest-growing economies in Asia since the \u0110\u1ed5i M\u1edbi (economic renovation) reforms of 1986\nH\u1ea1 Long Bay, with its ~1,600 limestone karst islands, is a UNESCO World Heritage Site and one of the most recognizable landscapes in Southeast Asia"
+        },
+        {
+          "id": "yemen",
+          "answer": "Yemen",
+          "alternates": [],
+          "explanation": "Located on the southern tip of the Arabian Peninsula; capital is Sana'a (contested; Aden serves as temporary capital)\nThe ancient Kingdom of Sheba (Saba) was centered in modern Yemen; Romans called the region 'Arabia Felix' (Fortunate Arabia) for its fertility\nCivil war since 2014 between Houthi rebels and the internationally recognized government has created one of the world's worst humanitarian crises\nSana'a's Old City, with its distinctive multi-story rammed-earth tower houses, is a UNESCO World Heritage Site and one of the oldest continuously inhabited cities in the world"
+        }
+      ]
+    }
+  ]
+}

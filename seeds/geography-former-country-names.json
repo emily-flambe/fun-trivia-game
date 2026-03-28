@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "id": "geography/countries",
+      "parentId": "geography",
+      "name": "Countries of the World",
+      "description": "Country sets by region and category"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "geography/countries/former-names",
+      "nodeId": "geography/countries",
+      "name": "Former Country Names",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "siam",
+          "prompt": "What is the modern name of the Southeast Asian country formerly known as Siam?",
+          "answer": "Thailand",
+          "alternates": [],
+          "explanation": "Siam was renamed Thailand ('Land of the Free') on 23 June 1939 by nationalist PM Plaek Phibunsongkhram\nBriefly reverted to Siam (1945–1949) under Allied pressure after WWII, then permanently restored to Thailand\nThe only Southeast Asian country never colonized by a European power\nPhibunsongkhram was an admirer of Mussolini; the name change was part of a broader nationalist campaign\nBangkok's full ceremonial name in Thai is 168 characters long — the longest place name in the world",
+          "cardFront": "Siam",
+          "cardBack": "Thailand"
+        },
+        {
+          "id": "persia",
+          "prompt": "What is the modern name of the Middle Eastern country historically known as Persia?",
+          "answer": "Iran",
+          "alternates": [],
+          "explanation": "Reza Shah Pahlavi requested foreign governments use 'Iran' instead of 'Persia' on 21 March 1935 (Nowruz)\n'Iran' means 'Land of the Aryans' and had been the endonym used by native Iranians for centuries\nChurchill asked Iran to revert to 'Persia' during WWII to avoid confusion with neighboring Iraq\nIn 1959 Mohammad Reza Shah declared both names officially acceptable, but 'Iran' had already stuck\nHome to one of the world's oldest continuous civilizations, dating back to the Elamite kingdoms c. 3200 BCE",
+          "cardFront": "Persia",
+          "cardBack": "Iran"
+        },
+        {
+          "id": "ceylon",
+          "prompt": "What is the modern name of the island nation south of India formerly known as Ceylon?",
+          "answer": "Sri Lanka",
+          "alternates": [],
+          "explanation": "Became the Republic of Sri Lanka on 22 May 1972 when a new constitution replaced the dominion status granted at independence in 1948\n'Sri Lanka' means 'Resplendent Island' — 'Lanka' is the ancient name, 'Sri' is an honorific\nThe name 'Ceylon' derived from the Portuguese 'Ceilao,' itself from the Sanskrit 'Simhaladvipa' (island of the Sinhalese)\nCeylon tea retains the old name as a globally recognized brand — Sri Lanka is the world's 4th-largest tea producer\nThe island was known to ancient Greeks as Taprobane and to Arab traders as Serendib, the root of 'serendipity'",
+          "cardFront": "Ceylon",
+          "cardBack": "Sri Lanka"
+        },
+        {
+          "id": "rhodesia",
+          "prompt": "What is the modern name of the southern African country formerly known as Rhodesia?",
+          "answer": "Zimbabwe",
+          "alternates": [],
+          "explanation": "Became independent as Zimbabwe on 18 April 1980 following the Lancaster House Agreement (December 1979)\nNamed after the Great Zimbabwe ruins, a medieval stone city that was the capital of the Kingdom of Zimbabwe\nRhodesia was named for Cecil Rhodes, British imperialist and founder of the De Beers diamond company\nRobert Mugabe became the first prime minister after winning the 1980 elections; ruled until ousted in 2017\nThe capital Salisbury was renamed Harare in 1982, two years after independence",
+          "cardFront": "Rhodesia",
+          "cardBack": "Zimbabwe"
+        },
+        {
+          "id": "burma",
+          "prompt": "What is the modern name of the Southeast Asian country formerly known as Burma?",
+          "answer": "Myanmar",
+          "alternates": [],
+          "explanation": "The military junta (SLORC) changed the English name from Burma to Myanmar on 18 June 1989\nThe regime argued 'Burma' was a colonial-era name favoring the Burman ethnic majority; 'Myanmar' was said to be more inclusive\nThe name change followed the brutal suppression of the 8888 Uprising pro-democracy protests in 1988\nThe U.S. and UK officially still use 'Burma' to signal non-recognition of the military government's legitimacy\nBoth names derive from the same Burmese word — 'Myanmar' is the literary form, 'Burma' the colloquial",
+          "cardFront": "Burma",
+          "cardBack": "Myanmar"
+        },
+        {
+          "id": "abyssinia",
+          "prompt": "What is the modern name of the East African country historically known as Abyssinia?",
+          "answer": "Ethiopia",
+          "alternates": [],
+          "explanation": "Not a single formal renaming — 'Abyssinia' was the European exonym; the country always called itself Ethiopia internally\n'Ethiopia' comes from Greek 'Aithiopia' (land of burnt faces); 'Abyssinia' derives from the Arabic 'Habash'\nThe shift to international use of 'Ethiopia' was gradual through the late 19th–early 20th centuries\nOne of only two African countries (with Liberia) never colonized by a European power — defeated Italy at the Battle of Adwa (1896)\nThe Ethiopian calendar is 7–8 years behind the Gregorian calendar and has 13 months",
+          "cardFront": "Abyssinia",
+          "cardBack": "Ethiopia"
+        },
+        {
+          "id": "zaire",
+          "prompt": "What is the modern name of the Central African country formerly known as Zaire?",
+          "answer": "Democratic Republic of the Congo",
+          "alternates": [
+            "Democratic Republic of Congo",
+            "DRC",
+            "DR Congo",
+            "Congo-Kinshasa"
+          ],
+          "explanation": "Mobutu Sese Seko renamed the country Zaire on 27 October 1971 as part of his 'authenticite' campaign to erase colonial names\nReverted to Democratic Republic of the Congo on 21 May 1997 after Laurent-Desire Kabila overthrew Mobutu\nMobutu fled into exile and died of prostate cancer in Morocco four months later\nNot to be confused with the Republic of the Congo (Congo-Brazzaville), its smaller neighbor across the Congo River\nThe DRC is the second-largest country in Africa by area and holds vast mineral wealth including cobalt, coltan, and diamonds",
+          "cardFront": "Zaire",
+          "cardBack": "Democratic Republic of the Congo"
+        },
+        {
+          "id": "formosa",
+          "prompt": "What is the modern name of the East Asian island formerly known as Formosa?",
+          "answer": "Taiwan",
+          "alternates": [],
+          "explanation": "Portuguese sailors named it Ilha Formosa ('Beautiful Island') in 1542 when they sighted it from the sea\nThe name Formosa replaced all others in European maps and literature for nearly 400 years\nRuled by the Dutch (1624–1662), the Qing dynasty (1683–1895), and Japan (1895–1945) before the ROC took control\nChiang Kai-shek's Nationalist government retreated to Taiwan in 1949 after losing the Chinese Civil War\nTaiwan's political status remains one of the most sensitive issues in international diplomacy",
+          "cardFront": "Formosa",
+          "cardBack": "Taiwan"
+        },
+        {
+          "id": "mesopotamia",
+          "prompt": "What is the modern name of the Middle Eastern country occupying the region historically known as Mesopotamia?",
+          "answer": "Iraq",
+          "alternates": [],
+          "explanation": "'Mesopotamia' is Greek for 'land between the rivers' (Tigris and Euphrates) — used since antiquity\nArab geographers had called the region 'al-Iraq' since at least the 8th century; the modern state was named Iraq under the British Mandate in 1921\nFaisal I was installed as king by the British in 1921; Iraq gained full independence on 3 October 1932\nMesopotamia was home to the Sumerians, Akkadians, Babylonians, and Assyrians — often called the 'Cradle of Civilization'\nThe Code of Hammurabi (c. 1750 BCE), one of the oldest written legal codes, originated here",
+          "cardFront": "Mesopotamia",
+          "cardBack": "Iraq"
+        },
+        {
+          "id": "cathay",
+          "prompt": "What is the modern name of the East Asian country known to medieval Europeans as Cathay?",
+          "answer": "China",
+          "alternates": [],
+          "explanation": "'Cathay' derives from 'Khitan,' a nomadic people who ruled the Liao dynasty in northern China (916–1125)\nMarco Polo popularized the term in his 13th-century travel accounts; he used 'Cathay' for the north and 'Mangi' for the south\nThe name persists in 'Cathay Pacific' airline (founded in Hong Kong, 1946) and in the Russian word for China, 'Kitay'\nMedieval European travelers did not realize that Cathay and China (from 'Qin' dynasty) referred to the same country\nMatteo Ricci, the Jesuit missionary, was among the first Europeans to confirm Cathay and China were identical (c. 1600)",
+          "cardFront": "Cathay",
+          "cardBack": "China"
+        },
+        {
+          "id": "kampuchea",
+          "prompt": "What is the modern name of the Southeast Asian country that was internationally known as Kampuchea during the 1970s–80s?",
+          "answer": "Cambodia",
+          "alternates": [],
+          "explanation": "'Kampuchea' is the Khmer-language name for the country; 'Cambodia' is the English form via French 'Cambodge'\nPol Pot's Khmer Rouge renamed the country 'Democratic Kampuchea' on 5 January 1976, pushing the Khmer name into international use\nThe Khmer Rouge regime (1975–1979) killed an estimated 1.5–2 million people — roughly a quarter of the population\nAfter Vietnam's 1979 invasion it became the 'People's Republic of Kampuchea,' then 'State of Cambodia' in 1989\nThe Kingdom of Cambodia was restored in 1993 under a UN-supervised election and constitutional monarchy",
+          "cardFront": "Kampuchea",
+          "cardBack": "Cambodia"
+        },
+        {
+          "id": "upper-volta",
+          "prompt": "What is the modern name of the West African country formerly known as Upper Volta?",
+          "answer": "Burkina Faso",
+          "alternates": [],
+          "explanation": "Renamed Burkina Faso on 4 August 1984 by revolutionary president Thomas Sankara\n'Burkina' (Moore language: 'upright/honest people') + 'Faso' (Dyula: 'fatherland') — combining two major local languages\nSankara, often called 'Africa's Che Guevara,' launched sweeping social reforms including mass vaccination and women's rights campaigns\nSankara was assassinated on 15 October 1987 in a coup led by his former ally Blaise Compaore, who then ruled until 2014\nThe former name 'Upper Volta' referred to the upper course of the Volta River, named by the French colonial administration",
+          "cardFront": "Upper Volta",
+          "cardBack": "Burkina Faso"
+        },
+        {
+          "id": "dahomey",
+          "prompt": "What is the modern name of the West African country formerly known as Dahomey?",
+          "answer": "Benin",
+          "alternates": [],
+          "explanation": "Renamed from Dahomey to the People's Republic of Benin on 30 November 1975 under Marxist president Mathieu Kerekou\n'Benin' was chosen as ethnically neutral — 'Dahomey' referred specifically to the Fon-dominated Kingdom of Dahomey\nThe Kingdom of Dahomey (c. 1600–1900) was famous for its elite female warriors, the Mino (Dahomey Amazons)\nNot to be confused with Benin City in Nigeria, capital of the historic Kingdom of Benin — a completely different entity\nThe 2022 film 'The Woman King' depicted the Dahomey Amazons, starring Viola Davis",
+          "cardFront": "Dahomey",
+          "cardBack": "Benin"
+        },
+        {
+          "id": "bechuanaland",
+          "prompt": "What is the modern name of the southern African country formerly known as Bechuanaland?",
+          "answer": "Botswana",
+          "alternates": [],
+          "explanation": "Gained independence from Britain as the Republic of Botswana on 30 September 1966\n'Bechuanaland' was the British colonial name derived from 'Batswana,' the Tswana-speaking majority population\nAt independence it was one of Africa's poorest countries; diamond mining transformed it into one of the continent's wealthiest per capita\nSeretse Khama, the first president, was previously exiled by Britain for marrying a white Englishwoman (Ruth Williams) in 1948\nHome to the Okavango Delta, the world's largest inland river delta and a UNESCO World Heritage Site",
+          "cardFront": "Bechuanaland",
+          "cardBack": "Botswana"
+        },
+        {
+          "id": "new-hebrides",
+          "prompt": "What is the modern name of the South Pacific island nation formerly known as the New Hebrides?",
+          "answer": "Vanuatu",
+          "alternates": [],
+          "explanation": "Gained independence as Vanuatu on 30 July 1980 from a unique Anglo-French condominium (joint colonial rule since 1906)\n'Vanuatu' means 'Our Land Forever' in several Melanesian languages\nThe condominium created absurd duplication: separate British and French police forces, courts, hospitals, and school systems\nVanuatu has the highest density of languages per capita in the world — over 100 languages for ~300,000 people\nThe name 'New Hebrides' was given by Captain James Cook in 1774 after the Scottish Hebrides islands",
+          "cardFront": "New Hebrides",
+          "cardBack": "Vanuatu"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "geography/transport", "parentId": "geography", "name": "Transportation & Infrastructure", "description": "Airports, ports, and transport networks" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/transport/airport-codes",
+      "nodeId": "geography/transport",
+      "name": "Airport Codes (IATA)",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "jfk",
+          "prompt": "What is the three-letter IATA code for New York's main international airport, named after the 35th U.S. president?",
+          "answer": "JFK",
+          "alternates": [],
+          "explanation": "John F. Kennedy International Airport in Queens, New York\nRenamed from Idlewild Airport in 1963 after President Kennedy's assassination\nOne of the busiest international air gateways to the United States\nOriginally built in 1948 on the site of Idlewild Golf Course\nThe TWA Flight Center (now TWA Hotel), designed by Eero Saarinen, is a landmark of mid-century modern architecture",
+          "cardFront": "New York (main international)",
+          "cardBack": "JFK"
+        },
+        {
+          "id": "lax",
+          "prompt": "What is the three-letter IATA code for the main airport serving Los Angeles, California?",
+          "answer": "LAX",
+          "alternates": [],
+          "explanation": "Los Angeles International Airport in Westchester, Los Angeles\nThe \"X\" was added because early IATA codes expanded two-letter identifiers to three; LA became LAX\nThe iconic Theme Building (1961), a space-age structure resembling a flying saucer, is a designated Los Angeles landmark\nBusiest airport on the U.S. West Coast and a major gateway to the Pacific Rim\nServed over 88 million passengers in 2023, making it the third-busiest airport in the world",
+          "cardFront": "Los Angeles",
+          "cardBack": "LAX"
+        },
+        {
+          "id": "lhr",
+          "prompt": "What is the three-letter IATA code for London's largest airport, located west of the city in the borough of Hillingdon?",
+          "answer": "LHR",
+          "alternates": [],
+          "explanation": "London Heathrow Airport, the busiest airport in Europe by international passenger traffic\nCode derives from the hamlet of Heath Row (two words), absorbed when the airport was built on the site of a military airfield in 1946\nHas four passenger terminals; Terminal 5 is the dedicated British Airways hub\nConnects to central London via the Piccadilly line and the Heathrow Express to Paddington\nA proposed third runway has been debated for decades, remaining one of the most contentious infrastructure projects in British politics",
+          "cardFront": "London (largest)",
+          "cardBack": "LHR"
+        },
+        {
+          "id": "cdg",
+          "prompt": "What is the three-letter IATA code for the main international airport serving Paris, named after the leader of Free France during World War II?",
+          "answer": "CDG",
+          "alternates": [],
+          "explanation": "Paris Charles de Gaulle Airport in Roissy-en-France, 23 km northeast of Paris\nNamed after Charles de Gaulle (1890\u20131970), wartime resistance leader and first president of the Fifth Republic\nOpened in 1974 to relieve Orly Airport; the futuristic Terminal 1 was designed by Paul Andreu\nPrimary hub for Air France and the busiest airport in France\nPart of Terminal 2E collapsed in 2004, just one year after opening, killing four people",
+          "cardFront": "Paris (main international)",
+          "cardBack": "CDG"
+        },
+        {
+          "id": "nrt",
+          "prompt": "What is the three-letter IATA code for Tokyo's primary international airport, located in Chiba Prefecture about 60 km east of central Tokyo?",
+          "answer": "NRT",
+          "alternates": [],
+          "explanation": "Narita International Airport, opened in 1978 after years of violent protests by local farmers and activists opposing land seizure\nCode comes from the city of Narita, where the airport is located in Chiba Prefecture\nOriginally called New Tokyo International Airport; renamed Narita in 2004\nConstruction was delayed nearly a decade by the Sanrizuka struggle, one of the most intense anti-development movements in Japanese history\nHandles most international flights for the Tokyo metropolitan area, while Haneda handles primarily domestic and some international routes",
+          "cardFront": "Tokyo (international, Chiba Prefecture)",
+          "cardBack": "NRT"
+        },
+        {
+          "id": "sin",
+          "prompt": "What is the three-letter IATA code for the main airport of the Southeast Asian city-state consistently ranked among the world's best airports?",
+          "answer": "SIN",
+          "alternates": [],
+          "explanation": "Singapore Changi Airport, repeatedly voted the world's best airport by Skytrax\nCode is derived from the first three letters of Singapore\nThe Jewel Changi complex (2019) features the world's tallest indoor waterfall, the Rain Vortex, at 40 meters\nA critical hub connecting Europe, East Asia, and Oceania, handling over 65 million passengers annually\nLocated on reclaimed land at the eastern tip of Singapore, on the site of the former RAF Changi air base",
+          "cardFront": "Singapore",
+          "cardBack": "SIN"
+        },
+        {
+          "id": "dxb",
+          "prompt": "What is the three-letter IATA code for the main airport of the UAE city that is the busiest airport in the world by international passenger traffic?",
+          "answer": "DXB",
+          "alternates": [],
+          "explanation": "Dubai International Airport, the busiest airport in the world by international passengers since 2014\nCode is an abbreviation of Dubai's transliterated Arabic name\nHome base of Emirates airline, whose Terminal 3 is one of the largest airport buildings in the world by floor space\nHandled over 87 million passengers in 2023\nDubai is also building Al Maktoum International (DWC), planned to eventually become the world's largest airport",
+          "cardFront": "Dubai",
+          "cardBack": "DXB"
+        },
+        {
+          "id": "fra",
+          "prompt": "What is the three-letter IATA code for Germany's busiest airport, a major European hub located in the Hesse region?",
+          "answer": "FRA",
+          "alternates": [],
+          "explanation": "Frankfurt Airport (Flughafen Frankfurt am Main), Germany's largest airport and a major Lufthansa hub\nCode is a straightforward abbreviation of Frankfurt\nThe busiest airport in Germany and typically third-busiest in Europe after Heathrow and CDG\nServes as the primary gateway for transatlantic flights to continental Europe\nLocated adjacent to the Frankfurter Kreuz, the busiest autobahn interchange in Germany",
+          "cardFront": "Frankfurt",
+          "cardBack": "FRA"
+        },
+        {
+          "id": "syd",
+          "prompt": "What is the three-letter IATA code for the main airport of Australia's largest city, located in the suburb of Mascot?",
+          "answer": "SYD",
+          "alternates": [],
+          "explanation": "Sydney Kingsford Smith Airport, named after Sir Charles Kingsford Smith, the first person to fly across the Pacific Ocean (1928)\nCode is a straightforward abbreviation of Sydney\nAustralia's busiest airport, handling over 40 million passengers per year\nOperates under a government-imposed curfew: no flights between 11 PM and 6 AM, unusual for a major international airport\nLocated in Mascot, only 8 km south of the Sydney CBD, making it one of the closest major airports to a city center",
+          "cardFront": "Sydney",
+          "cardBack": "SYD"
+        },
+        {
+          "id": "ord",
+          "prompt": "What is the three-letter IATA code for Chicago's primary airport, a major United Airlines hub on the city's northwest side?",
+          "answer": "ORD",
+          "alternates": [],
+          "explanation": "Chicago O'Hare International Airport, named after Edward \"Butch\" O'Hare, a U.S. Navy aviator and Medal of Honor recipient in World War II\nCode comes from the airport's original name, Orchard Field (ORD), which was a Douglas aircraft factory during WWII\nWas the world's busiest airport from 1963 to 1998 before being surpassed by Atlanta\nA major hub for both United Airlines and American Airlines\nThe underground walkway between terminals B and C features a neon light installation by Michael Hayden called \"Sky's the Limit\"",
+          "cardFront": "Chicago (primary)",
+          "cardBack": "ORD"
+        },
+        {
+          "id": "atl",
+          "prompt": "What is the three-letter IATA code for the airport that has been the world's busiest by total passenger traffic for most years since 1998?",
+          "answer": "ATL",
+          "alternates": [],
+          "explanation": "Hartsfield\u2013Jackson Atlanta International Airport, named after former Atlanta mayors William B. Hartsfield and Maynard Jackson\nThe world's busiest airport by passenger numbers for over two decades, handling over 93 million passengers in 2023\nPrimary hub for Delta Air Lines, the world's largest airline by revenue\nThe Plane Train automated people mover connects the domestic terminal to concourses and the international terminal\nOriginally a racetrack called the Atlanta Speedway, converted to an airfield in 1925",
+          "cardFront": "Atlanta",
+          "cardBack": "ATL"
+        },
+        {
+          "id": "fco",
+          "prompt": "What is the three-letter IATA code for Rome's main international airport, located in the coastal town of Fiumicino?",
+          "answer": "FCO",
+          "alternates": [],
+          "explanation": "Rome Fiumicino Airport, officially Leonardo da Vinci International Airport\nCode comes from Fiumicino, the municipality southwest of Rome where the airport is located\nOpened in 1961 to replace Rome Ciampino as the city's primary airport\nItaly's busiest airport and the main hub for ITA Airways (successor to Alitalia)\nSituated near the ancient Roman port of Ostia and the archaeological site of Portus, the harbor built by Emperor Claudius",
+          "cardFront": "Rome (main international)",
+          "cardBack": "FCO"
+        },
+        {
+          "id": "hnd",
+          "prompt": "What is the three-letter IATA code for the Tokyo airport closer to the city center, originally built in 1931 and expanded for international service?",
+          "answer": "HND",
+          "alternates": [],
+          "explanation": "Tokyo Haneda Airport (officially Tokyo International Airport), located in Ota, Tokyo, just 14 km from Tokyo Station\nCode comes from the neighborhood of Haneda where the airport was first built in 1931\nJapan's busiest airport and the primary domestic hub; international flights returned in 2010 with a new terminal\nWas Japan's sole international gateway until Narita opened in 1978\nThe expansion onto reclaimed land in Tokyo Bay added a fourth runway, dramatically increasing capacity",
+          "cardFront": "Tokyo (city center, domestic hub)",
+          "cardBack": "HND"
+        },
+        {
+          "id": "pek",
+          "prompt": "What is the three-letter IATA code for the older of Beijing's two major airports, which served as the city's main hub until 2019?",
+          "answer": "PEK",
+          "alternates": [],
+          "explanation": "Beijing Capital International Airport, China's busiest airport until the opening of Beijing Daxing in 2019\nCode derives from Peking, the older romanization of Beijing used when IATA codes were assigned\nTerminal 3, designed by Norman Foster for the 2008 Olympics, was the world's largest airport building at the time\nPrimary hub for Air China\nFirst opened in 1958, making it one of the oldest airports in China still in operation",
+          "cardFront": "Beijing (older airport)",
+          "cardBack": "PEK"
+        },
+        {
+          "id": "icn",
+          "prompt": "What is the three-letter IATA code for the main international airport serving Seoul, South Korea, built on reclaimed land between two islands?",
+          "answer": "ICN",
+          "alternates": [],
+          "explanation": "Incheon International Airport, located on Yeongjong Island, 70 km west of Seoul\nCode comes from Incheon, the metropolitan city in whose jurisdiction the airport was built\nOpened in 2001 to replace Gimpo Airport as Seoul's international hub\nConsistently ranked among the world's best airports for service and cleanliness\nBuilt on reclaimed tidal land between Yeongjong and Yongyu islands, connected to Seoul by expressway and the AREX rail line",
+          "cardFront": "Seoul (international)",
+          "cardBack": "ICN"
+        },
+        {
+          "id": "yyz",
+          "prompt": "What is the three-letter IATA code for Canada's busiest airport, located in Mississauga, Ontario, near Toronto?",
+          "answer": "YYZ",
+          "alternates": [],
+          "explanation": "Toronto Pearson International Airport, named after Lester B. Pearson, Canada's 14th Prime Minister and 1957 Nobel Peace Prize laureate\nCode follows the Canadian convention where most major airports start with Y; YZ was the identifier for the Malton, Ontario radio range station near the airport\nCanada's largest and busiest airport, handling over 50 million passengers annually\nPrimary hub for Air Canada\nThe Rush instrumental track \"YYZ\" (1981) uses the airport code's Morse code rhythm (\u2013.\u2013\u2013 \u2013.\u2013\u2013 \u2013\u2013..) as its opening riff",
+          "cardFront": "Toronto",
+          "cardBack": "YYZ"
+        },
+        {
+          "id": "gru",
+          "prompt": "What is the three-letter IATA code for the main international airport serving S\u00e3o Paulo, Brazil, located in a municipality northeast of the city?",
+          "answer": "GRU",
+          "alternates": [],
+          "explanation": "S\u00e3o Paulo\u2013Guarulhos International Airport, officially Aeroporto Internacional de S\u00e3o Paulo/Guarulhos \u2013 Governador Andr\u00e9 Franco Montoro\nCode comes from Guarulhos, the municipality in Greater S\u00e3o Paulo where the airport is located\nThe busiest airport in South America and Brazil's primary international gateway\nOpened in 1985 to supplement the older Congonhas Airport, which still handles domestic shuttle flights\nLocated 25 km northeast of S\u00e3o Paulo's city center in one of the most populous metropolitan areas in the Western Hemisphere",
+          "cardFront": "S\u00e3o Paulo (international)",
+          "cardBack": "GRU"
+        },
+        {
+          "id": "ams",
+          "prompt": "What is the three-letter IATA code for the main Dutch airport, built on the site of a former lake bed that lies below sea level?",
+          "answer": "AMS",
+          "alternates": [],
+          "explanation": "Amsterdam Airport Schiphol, located 9 km southwest of Amsterdam in the Haarlemmermeer polder\nCode is a straightforward abbreviation of Amsterdam\nThe name Schiphol may derive from \"Scheepshol\" (ship grave), referring to shipwrecks on the former Haarlemmermeer lake before it was drained in 1852\nSits approximately 3 meters below sea level, making it one of the lowest-elevation major airports in the world\nA single-terminal design with a central plaza (Schiphol Plaza) connecting rail, road, and air transport, praised as one of Europe's most efficient layouts",
+          "cardFront": "Amsterdam",
+          "cardBack": "AMS"
+        },
+        {
+          "id": "ist",
+          "prompt": "What is the three-letter IATA code for the main airport of Turkey's largest city, opened in 2018 as one of the world's biggest airports?",
+          "answer": "IST",
+          "alternates": [],
+          "explanation": "Istanbul Airport, opened in October 2018 to replace Atat\u00fcrk Airport as the city's main international hub\nCode was transferred from the old Atat\u00fcrk Airport (which used IST) when operations moved to the new facility in April 2019\nDesigned to eventually handle 200 million passengers annually, which would make it the highest-capacity airport ever built\nPrimary hub for Turkish Airlines, the carrier that flies to more countries than any other airline\nLocated on the European side of Istanbul, near the Black Sea coast, about 35 km northwest of the city center",
+          "cardFront": "Istanbul (new, opened 2018)",
+          "cardBack": "IST"
+        },
+        {
+          "id": "mia",
+          "prompt": "What is the three-letter IATA code for the main airport of the southeastern Florida city that serves as the busiest U.S. gateway to Latin America and the Caribbean?",
+          "answer": "MIA",
+          "alternates": [],
+          "explanation": "Miami International Airport, the busiest U.S. airport for international freight and a top gateway for passenger travel to Latin America\nCode is a straightforward abbreviation of Miami\nPrimary hub for American Airlines, which operates roughly 70% of all flights at the airport\nHandles more passengers and cargo to and from Latin America and the Caribbean than any other U.S. airport\nThe airport's North Terminal (designed by Arquitectonica) features a striking curved white roof visible from the Dolphin Expressway",
+          "cardFront": "Miami",
+          "cardBack": "MIA"
+        }
+      ]
+    }
+  ]
+}

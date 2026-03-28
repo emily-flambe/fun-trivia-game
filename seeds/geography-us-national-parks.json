@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "geography/landmarks", "parentId": "geography", "name": "Landmarks & Places", "description": "Notable parks, landmarks, and destinations" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/landmarks/us-national-parks",
+      "nodeId": "geography/landmarks",
+      "name": "U.S. National Parks",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "yellowstone",
+          "prompt": "The world's first national park (1872), located primarily in Wyoming, home to Old Faithful geyser and the largest concentration of geothermal features on Earth. Name this park.",
+          "answer": "Yellowstone",
+          "alternates": ["Yellowstone National Park"],
+          "explanation": "Established 1872 \u2014 world's first national park, signed into law by President Ulysses S. Grant\nSpans Wyoming, Montana, and Idaho; sits atop one of the world's largest active volcanic systems\nHome to ~500 geysers \u2014 more than half of all active geysers on Earth, including Old Faithful\nThe Yellowstone Caldera last erupted ~640,000 years ago; a full eruption would be catastrophic for North America\nMajor wildlife: grizzly bears, wolves (reintroduced 1995), bison (largest free-roaming herd in the U.S.)\n~4.7 million visitors in 2024, making it one of the most visited parks in the system",
+          "cardFront": "Wyoming/Montana/Idaho",
+          "cardBack": "Yellowstone"
+        },
+        {
+          "id": "yosemite",
+          "prompt": "This California park, established in 1890, features granite monoliths including El Capitan and Half Dome, giant sequoia groves, and one of North America's tallest waterfalls. Name this park.",
+          "answer": "Yosemite",
+          "alternates": ["Yosemite National Park"],
+          "explanation": "Established 1890 by President Benjamin Harrison; America's third national park\nEl Capitan: ~3,000-foot granite face, one of the world's premier big-wall climbing destinations (first summited 1958)\nHalf Dome: iconic 8,800-foot quartz monzonite dome at the eastern end of the valley\nJohn Muir championed its protection; his advocacy helped launch the modern conservation movement\nHome to giant sequoia groves, including the Mariposa Grove with ~500 mature trees\nThe park covers ~1,200 square miles \u2014 roughly the size of Rhode Island",
+          "cardFront": "California",
+          "cardBack": "Yosemite"
+        },
+        {
+          "id": "grand-canyon",
+          "prompt": "This Arizona park, carved by the Colorado River, stretches 277 miles long, up to 18 miles wide, and over a mile deep, exposing nearly two billion years of geological history. Name this park.",
+          "answer": "Grand Canyon",
+          "alternates": ["Grand Canyon National Park"],
+          "explanation": "Established 1919 by President Woodrow Wilson; previously a National Monument (1908) under Theodore Roosevelt\n277 miles long, up to 18 miles wide, over a mile deep (6,093 feet at deepest point)\nThe Colorado River carved the canyon over ~5\u20136 million years; exposed rock at the bottom is nearly 2 billion years old\nUNESCO World Heritage Site since 1979\nRoosevelt famously said: \"Leave it as it is. You cannot improve on it.\"\n~6 million visitors per year, making it one of the most visited natural landmarks on Earth",
+          "cardFront": "Arizona",
+          "cardBack": "Grand Canyon"
+        },
+        {
+          "id": "zion",
+          "prompt": "Utah's first national park (1919), known for towering red sandstone cliffs, the Narrows slot canyon, and a chain-assisted trail to a 1,488-foot rock formation. Name this park.",
+          "answer": "Zion",
+          "alternates": ["Zion National Park"],
+          "explanation": "Established 1919 by President Woodrow Wilson; originally Mukuntuweap National Monument (1909)\nAngels Landing: 1,488-foot rock formation with a chain-assisted trail; at least 18 deaths recorded on or near the route\nThe Narrows: a slot canyon hike through the Virgin River where walls tower 1,000+ feet and narrow to 20\u201330 feet\nThe name \"Zion\" was given by Mormon settlers; the Paiute called the canyon Mukuntuweap (\"straight canyon\")\nSandstone cliffs display layers from the Permian through Cretaceous periods (~270\u201380 million years ago)\nUtah's most visited national park, with ~4.7 million visitors annually",
+          "cardFront": "Utah",
+          "cardBack": "Zion"
+        },
+        {
+          "id": "glacier",
+          "prompt": "This Montana park, established in 1910, features the engineered marvel Going-to-the-Sun Road and once had 150 ice masses \u2014 now reduced to about 25 by climate change. Name this park.",
+          "answer": "Glacier",
+          "alternates": ["Glacier National Park"],
+          "explanation": "Established 1910 as America's 10th national park; located in northwestern Montana\nGoing-to-the-Sun Road: 50-mile engineering feat completed in 1932, crossing the Continental Divide at Logan Pass (6,646 ft)\nIn 1850, the area had ~150 glaciers; by 2015, only 26 named glaciers remained large enough to qualify\nGrinnell Glacier has lost ~90% of its mass since the late 19th century\nShares a border with Canada's Waterton Lakes National Park; together they form the Waterton-Glacier International Peace Park (1932)\nOver 700 miles of hiking trails and more than 130 named lakes",
+          "cardFront": "Montana",
+          "cardBack": "Glacier"
+        },
+        {
+          "id": "acadia",
+          "prompt": "The first national park east of the Mississippi, located on Mount Desert Island in Maine, home to Cadillac Mountain \u2014 the tallest peak on the U.S. Atlantic coast. Name this park.",
+          "answer": "Acadia",
+          "alternates": ["Acadia National Park"],
+          "explanation": "First U.S. national park east of the Mississippi River; the only national park in New England\nOriginally Sieur de Monts National Monument (1916), then Lafayette National Park (1919), renamed Acadia in 1929\nCadillac Mountain (1,530 ft): tallest peak on the U.S. Atlantic coast; one of the first places to see sunrise in the U.S. from October through March\nEncompasses ~49,000 acres across Mount Desert Island, Isle au Haut, and the Schoodic Peninsula\nGeorge B. Dorr, the \"Father of Acadia,\" spent decades and his personal fortune acquiring land for the park\nFeatures exposed granite domes, glacial erratics, and cobble beaches shaped by Ice Age glaciation",
+          "cardFront": "Maine",
+          "cardBack": "Acadia"
+        },
+        {
+          "id": "great-smoky-mountains",
+          "prompt": "Straddling Tennessee and North Carolina, this is the most visited national park in the U.S. (~12 million visitors/year), known for its mist-covered peaks and exceptional biodiversity. Name this park.",
+          "answer": "Great Smoky Mountains",
+          "alternates": ["Great Smoky Mountains National Park", "Great Smokies", "Smoky Mountains", "Smokies"],
+          "explanation": "Established 1934; straddles the Tennessee\u2013North Carolina border along the Appalachian Trail\nMost visited national park in the U.S. \u2014 ~12.2 million visitors in 2024; no entrance fee (one of few major parks without one)\nUNESCO World Heritage Site since 1983; one of the most biodiverse temperate areas on Earth\nOver 19,000 documented species, with estimates of 80,000\u2013100,000 total \u2014 earning the nickname \"Salamander Capital of the World\"\nThe \"smoke\" is natural fog produced by vegetation releasing volatile organic compounds\nClingmans Dome (6,643 ft) is the highest point in Tennessee and the highest point on the Appalachian Trail",
+          "cardFront": "Tennessee/North Carolina",
+          "cardBack": "Great Smoky Mountains"
+        },
+        {
+          "id": "rocky-mountain",
+          "prompt": "This Colorado park, established in 1915, contains Trail Ridge Road \u2014 the highest continuous paved road in the U.S. at 12,183 feet \u2014 and over 60 peaks above 12,000 feet. Name this park.",
+          "answer": "Rocky Mountain",
+          "alternates": ["Rocky Mountain National Park", "RMNP"],
+          "explanation": "Established 1915 in north-central Colorado; spans the Continental Divide\nTrail Ridge Road: 50-mile scenic drive reaching 12,183 ft, the highest continuous paved road in the U.S., with 11 miles above 11,000 ft\nOver 60 mountain peaks above 12,000 ft, including Longs Peak (14,259 ft), the park's highest\nOne-third of the park lies above treeline in alpine tundra \u2014 a fragile ecosystem more typical of the Arctic\nElk are the park's most visible large mammal; fall rutting season draws crowds to watch bulls bugle and spar\n~4.5 million visitors annually, making it one of the top 5 most visited national parks",
+          "cardFront": "Colorado",
+          "cardBack": "Rocky Mountain"
+        },
+        {
+          "id": "everglades",
+          "prompt": "This Florida park, established in 1947, is the largest subtropical wilderness in the U.S. and the first national park created primarily to protect biodiversity rather than scenery. Name this park.",
+          "answer": "Everglades",
+          "alternates": ["Everglades National Park"],
+          "explanation": "Established 1947 \u2014 first U.S. national park created to protect a biological ecosystem rather than scenic grandeur\nLargest subtropical wilderness in the U.S., covering 1.5 million acres of wetlands in southern Florida\nOne of only three places in the world on all three lists: UNESCO World Heritage Site, Biosphere Reserve, and Ramsar Wetland\nOnly place on Earth where alligators and crocodiles coexist in the wild\nThe \"River of Grass\" \u2014 Marjory Stoneman Douglas's 1947 book popularized this description of the slow-moving sheet of water\nCritically threatened by water diversion, invasive species (especially Burmese pythons), and sea-level rise",
+          "cardFront": "Florida",
+          "cardBack": "Everglades"
+        },
+        {
+          "id": "grand-teton",
+          "prompt": "Located just south of its more famous neighbor in Wyoming, this park features a dramatic mountain range rising abruptly 7,000 feet above the valley floor of Jackson Hole. Name this park.",
+          "answer": "Grand Teton",
+          "alternates": ["Grand Teton National Park"],
+          "explanation": "Established 1929 by President Calvin Coolidge; expanded in 1950 to include much of Jackson Hole valley\nThe Teton Range rises abruptly ~7,000 ft above the valley floor with no foothills \u2014 one of the most dramatic mountain fronts in North America\nGrand Teton peak reaches 13,775 ft; the name is attributed to French-speaking trappers (\"big teat\")\nJohn D. Rockefeller Jr. secretly purchased 35,000 acres of ranchland in Jackson Hole to donate for park expansion\nSits just 10 miles south of Yellowstone; the John D. Rockefeller Jr. Memorial Parkway connects the two parks\n~3.5 million visitors annually; popular for mountaineering, wildlife viewing (moose, elk, bison, bears), and Snake River float trips",
+          "cardFront": "Wyoming",
+          "cardBack": "Grand Teton"
+        },
+        {
+          "id": "olympic",
+          "prompt": "This Washington state park encompasses three distinct ecosystems: glacier-capped mountains, old-growth temperate rainforest receiving 12+ feet of rain per year, and 73 miles of wild Pacific coastline. Name this park.",
+          "answer": "Olympic",
+          "alternates": ["Olympic National Park"],
+          "explanation": "Established 1938 by President Franklin D. Roosevelt; previously a National Monument (1909)\nThree ecosystems in one park: alpine glaciers, temperate rainforest, and rugged Pacific coastline\nThe Hoh Rainforest receives over 12 feet (144 inches) of rain annually \u2014 among the wettest spots in the contiguous U.S.\nUNESCO World Heritage Site since 1981; designated for its exceptional biodiversity and intact ecosystems\nMount Olympus (7,980 ft) is the park's highest peak and carries several active glaciers\n73 miles of wilderness coastline \u2014 the longest undeveloped stretch on the contiguous U.S. Pacific coast",
+          "cardFront": "Washington",
+          "cardBack": "Olympic"
+        },
+        {
+          "id": "joshua-tree",
+          "prompt": "This California park sits at the convergence of two deserts \u2014 the higher Mojave and lower Colorado \u2014 and is named for a distinctive spiky tree that Mormon settlers thought resembled a biblical figure with arms raised in prayer. Name this park.",
+          "answer": "Joshua Tree",
+          "alternates": ["Joshua Tree National Park"],
+          "explanation": "National Monument 1936 under FDR; upgraded to National Park in 1994 by the Desert Protection Act\nSits where the Mojave Desert (higher, cooler) meets the Colorado Desert (lower, hotter); the namesake trees grow only in the Mojave portion\nMormon settlers named the tree after the biblical Joshua, seeing its branches as arms raised in prayer\nThe Joshua tree (Yucca brevifolia) depends on a single pollinator \u2014 the yucca moth \u2014 for reproduction\nWorld-class rock climbing: over 8,000 climbing routes on monzogranite formations\nA major dark-sky destination; the park's remoteness from Los Angeles light pollution makes it popular for stargazing",
+          "cardFront": "California",
+          "cardBack": "Joshua Tree"
+        },
+        {
+          "id": "denali",
+          "prompt": "This Alaska park is centered on North America's tallest peak at 20,310 feet \u2014 a mountain renamed in 2015 from its former presidential namesake back to its indigenous Koyukon name meaning \"the high one.\" Name this park.",
+          "answer": "Denali",
+          "alternates": ["Denali National Park", "Denali National Park and Preserve"],
+          "explanation": "Established 1917 as Mount McKinley National Park; renamed Denali National Park and Preserve in 1980\nDenali (20,310 ft / 6,190 m): tallest peak in North America; tallest mountain on Earth measured base-to-summit on land (~18,000 ft)\nThe name was officially changed from Mount McKinley to Denali in 2015 by Secretary of the Interior Sally Jewell\n\"Denali\" is Koyukon Athabaskan for \"the high one\"; the McKinley name (1896) honored a presidential candidate who never visited Alaska\nThe park covers 6 million acres \u2014 larger than the state of New Hampshire\nOnly one road (92 miles); private vehicles restricted past Mile 15 to protect wildlife habitat",
+          "cardFront": "Alaska",
+          "cardBack": "Denali"
+        },
+        {
+          "id": "bryce-canyon",
+          "prompt": "This Utah park, established in 1928, contains the world's largest concentration of hoodoos \u2014 tall, thin spires of rock sculpted by frost weathering and erosion into colorful amphitheaters. Name this park.",
+          "answer": "Bryce Canyon",
+          "alternates": ["Bryce Canyon National Park"],
+          "explanation": "Established 1928; originally a National Monument in 1923 under President Harding\nContains the world's largest collection of hoodoos \u2014 colorful rock pillars up to 200 feet tall formed by frost weathering\nNot technically a canyon; it's a series of natural amphitheaters eroded into the edge of the Paunsaugunt Plateau\nBryce Amphitheater is the largest: 12 miles long, 3 miles wide, 800 feet deep\nThe Paiute called the formations Anka-Ku-was-a-wits (\"red painted faces\") \u2014 Legend People turned to stone by Coyote\nElevation ranges from 8,000\u20139,100 ft, making it one of the highest parks in the system; exceptional stargazing due to dry, high-altitude air",
+          "cardFront": "Utah",
+          "cardBack": "Bryce Canyon"
+        },
+        {
+          "id": "arches",
+          "prompt": "Located near Moab, Utah, this park contains over 2,000 natural stone spans \u2014 the densest concentration on Earth \u2014 including one at 306 feet that is among the longest in the world. Name this park.",
+          "answer": "Arches",
+          "alternates": ["Arches National Park"],
+          "explanation": "National Monument 1929; upgraded to National Park in 1971\nOver 2,000 documented natural stone arches \u2014 the highest density of arches anywhere on Earth\nLandscape Arch: 306-foot span, one of the longest natural arches in the world\nDelicate Arch: the park's most iconic formation, featured on Utah license plates and postage stamps\nThe arches formed from an underground salt bed (Paradox Formation) deposited over 300 million years ago; salt movement cracked overlying sandstone into fins, which eroded into arches\nLocated 5 miles north of Moab; covers ~76,679 acres of high desert at 4,000\u20135,600 ft elevation",
+          "cardFront": "Utah",
+          "cardBack": "Arches"
+        }
+      ]
+    }
+  ]
+}

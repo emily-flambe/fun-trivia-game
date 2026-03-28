@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/countries/central-america-caribbean",
+      "nodeId": "geography/countries",
+      "name": "Countries of Central America & Caribbean",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name all 20 sovereign countries of Central America and the Caribbean" },
+      "items": [
+        {
+          "id": "antigua-and-barbuda",
+          "answer": "Antigua and Barbuda",
+          "alternates": [],
+          "explanation": "Twin-island nation in the Lesser Antilles; capital is St. John's on Antigua\nClaims to have 365 beaches \u2014 one for every day of the year\nRenamed its highest peak (402 m) from Boggy Peak to Mount Obama in 2009, in honor of the U.S. president\nHome to the world's rarest snake, the critically endangered Antiguan racer, found only on Bird Island"
+        },
+        {
+          "id": "bahamas",
+          "answer": "Bahamas",
+          "alternates": ["The Bahamas"],
+          "explanation": "Archipelago of ~700 islands and 2,400 cays in the Atlantic, southeast of Florida; capital is Nassau on New Providence\nOnly ~30 of the islands are inhabited; the country stretches over 100,000 mi\u00b2 of ocean but has just ~14,000 km\u00b2 of land\nNassau was a notorious pirate haven during the Golden Age of Piracy \u2014 Blackbeard and Charles Vane operated from its harbor\nSan Salvador Island is one of the leading candidates for Columbus's first New World landfall in 1492"
+        },
+        {
+          "id": "barbados",
+          "answer": "Barbados",
+          "alternates": [],
+          "explanation": "Easternmost Caribbean island, in the Lesser Antilles; capital is Bridgetown\nParliament established in 1639 \u2014 third-oldest continuous parliament in the Commonwealth after Britain's and Bermuda's\nBecame a republic in November 2021, removing Queen Elizabeth II as head of state; Rihanna was declared a National Hero at the inauguration ceremony\nHistoric Bridgetown and its Garrison are a UNESCO World Heritage Site"
+        },
+        {
+          "id": "belize",
+          "answer": "Belize",
+          "alternates": [],
+          "explanation": "Only English-speaking country in Central America; capital is Belmopan\nFormerly British Honduras until independence in 1981\nHome to the Belize Barrier Reef, part of the Mesoamerican Barrier Reef System \u2014 the second-largest coral reef system in the world after Australia's Great Barrier Reef\nThe Great Blue Hole, a giant marine sinkhole ~318 m across and 124 m deep, was made famous by Jacques Cousteau as one of the world's top diving sites"
+        },
+        {
+          "id": "costa-rica",
+          "answer": "Costa Rica",
+          "alternates": [],
+          "explanation": "Located between Nicaragua and Panama; capital is San Jos\u00e9\nConstitutionally abolished its military in 1949 after Jos\u00e9 Figueres broke a wall at the Bellavista Barracks in a symbolic ceremony (December 1, 1948)\nContains ~6% of the world's biodiversity despite covering only 0.03% of Earth's surface\nName means \"Rich Coast\" in Spanish; one of the most politically stable countries in Latin America"
+        },
+        {
+          "id": "cuba",
+          "answer": "Cuba",
+          "alternates": [],
+          "explanation": "Largest island in the Caribbean (~110,000 km\u00b2); capital is Havana\nSite of the 1962 Cuban Missile Crisis, the closest the Cold War came to nuclear conflict\nCubans call the island \"El Cocodrilo\" due to its crocodile shape when viewed from above\nHavana, founded in 1519, became the capital in 1552 and served as the staging point for Spanish expeditions to Mexico, Puerto Rico, and beyond\nOld Havana (La Habana Vieja) is a UNESCO World Heritage Site with one of the best-preserved colonial-era cityscapes in the Americas"
+        },
+        {
+          "id": "dominica",
+          "answer": "Dominica",
+          "alternates": ["Commonwealth of Dominica"],
+          "explanation": "Mountainous volcanic island in the Windward Islands; capital is Roseau \u2014 not to be confused with the Dominican Republic\nKnown as the \"Nature Isle of the Caribbean\" for its dense rainforest and hot springs\nHome to the Boiling Lake, the second-largest thermally active lake in the world (~60\u201375 m across, water at 82\u201392 \u00b0C)\nMorne Trois Pitons National Park is a UNESCO World Heritage Site featuring the Valley of Desolation and Emerald Pool"
+        },
+        {
+          "id": "dominican-republic",
+          "answer": "Dominican Republic",
+          "alternates": [],
+          "explanation": "Occupies the eastern two-thirds of Hispaniola (shared with Haiti); capital is Santo Domingo\nSanto Domingo, founded 1496, is the oldest permanent European settlement in the Americas \u2014 home to the first cathedral, first university (1538), and first castle in the New World\nServed as the launching point for Cort\u00e9s's conquest of Mexico, Ponce de Le\u00f3n's colonization of Puerto Rico, and Balboa's sighting of the Pacific\nThe Colonial City of Santo Domingo is a UNESCO World Heritage Site"
+        },
+        {
+          "id": "el-salvador",
+          "answer": "El Salvador",
+          "alternates": [],
+          "explanation": "Smallest and most densely populated country in Central America; capital is San Salvador\nOnly Central American country without a Caribbean coastline \u2014 borders only the Pacific\nIn 2021 became the first country in the world to adopt Bitcoin as legal tender (later scaled back under IMF pressure in 2025)\nKnown as the \"Land of Volcanoes\" \u2014 has more than 20 volcanoes, several of them active"
+        },
+        {
+          "id": "grenada",
+          "answer": "Grenada",
+          "alternates": [],
+          "explanation": "Southernmost of the Windward Islands; capital is St. George's\nKnown as the \"Island of Spice\" \u2014 one of the world's largest producers of nutmeg and mace\nInvaded by the U.S. in October 1983 (Operation Urgent Fury) after a military coup; the UN General Assembly condemned it 108\u20139 as a violation of international law\nSt. George's horseshoe-shaped harbor is considered one of the most picturesque in the Caribbean"
+        },
+        {
+          "id": "guatemala",
+          "answer": "Guatemala",
+          "alternates": [],
+          "explanation": "Most populous country in Central America; capital is Guatemala City\nHeartland of ancient Maya civilization \u2014 Tikal, a UNESCO World Heritage Site, was one of the largest Maya cities with pyramids rising to 65 m\nThe quetzal, the national bird, gives its name to the currency; resplendent quetzal feathers were prized by Maya royalty\nChichicastenango market is one of the largest indigenous markets in the Americas"
+        },
+        {
+          "id": "haiti",
+          "answer": "Haiti",
+          "alternates": [],
+          "explanation": "Occupies the western third of Hispaniola; capital is Port-au-Prince\nFirst free Black republic in the world and second independent nation in the Western Hemisphere (after the U.S.), gaining independence from France on January 1, 1804\nThe Citadelle Laferri\u00e8re, built 1805\u20131820 by formerly enslaved people, is the largest fortress in the Americas and a UNESCO World Heritage Site\nThe only country where Haitian Creole and French are both official languages"
+        },
+        {
+          "id": "honduras",
+          "answer": "Honduras",
+          "alternates": [],
+          "explanation": "Located between Guatemala, El Salvador, and Nicaragua; capital is Tegucigalpa\nTegucigalpa means \"hill of silver\" in Nahuatl, named for the silver mines that drew Spanish settlers in the 1570s\nOne of the few capital cities in the world without a railroad\nHome to the Cop\u00e1n ruins, a major Maya archaeological site and UNESCO World Heritage Site renowned for its elaborate stelae and hieroglyphic stairway"
+        },
+        {
+          "id": "jamaica",
+          "answer": "Jamaica",
+          "alternates": [],
+          "explanation": "Third-largest Caribbean island; capital is Kingston\nBirthplace of reggae music and Bob Marley, whose \"One Love\" (1977) became an anthem for peace worldwide\nBlue Mountain coffee, grown at elevations above 900 m, is among the most expensive and sought-after coffees in the world\nUsain Bolt, the fastest human ever recorded (9.58 s in the 100 m), hails from Trelawny Parish"
+        },
+        {
+          "id": "nicaragua",
+          "answer": "Nicaragua",
+          "alternates": [],
+          "explanation": "Largest country in Central America by area; capital is Managua\nManagua was chosen as capital in 1852 to settle the rivalry between Le\u00f3n and Granada, two cities that had feuded for centuries\nLake Nicaragua (Cocibolca) is the largest lake in Central America and one of the few freshwater lakes with bull sharks\nDevastated by a major earthquake in 1972 that destroyed most of Managua's city center"
+        },
+        {
+          "id": "panama",
+          "answer": "Panama",
+          "alternates": [],
+          "explanation": "Connects Central and South America; capital is Panama City\nThe Panama Canal (completed 1914) allows ships to cross between the Atlantic and Pacific, saving ~12,600 km vs. sailing around South America; ~13,000\u201314,000 ships transit annually\nThe Dari\u00e9n Gap is a ~100 km break in the Pan-American Highway \u2014 the only place the road from Alaska to Argentina is interrupted\nPanama City's skyline is the most prominent in Central America; the country uses the U.S. dollar alongside the balboa as currency"
+        },
+        {
+          "id": "saint-kitts-and-nevis",
+          "answer": "Saint Kitts and Nevis",
+          "alternates": ["St. Kitts and Nevis", "St Kitts and Nevis"],
+          "explanation": "Two-island federation in the Leeward Islands; capital is Basseterre on Saint Kitts\nSmallest sovereign state in the Western Hemisphere by both area (~261 km\u00b2) and population (~48,000), and the world's smallest sovereign federation\nSaint Kitts was the first Caribbean island colonized by both the English (1623) and the French (1625)\nBrimstone Hill Fortress National Park is a UNESCO World Heritage Site"
+        },
+        {
+          "id": "saint-lucia",
+          "answer": "Saint Lucia",
+          "alternates": ["St. Lucia", "St Lucia"],
+          "explanation": "Volcanic island in the eastern Caribbean; capital is Castries\nThe twin volcanic spires called the Pitons (Gros Piton and Petit Piton) are a UNESCO World Heritage Site and the island's most iconic landmark\nHas produced two Nobel laureates \u2014 economist Sir Arthur Lewis (1979) and poet Derek Walcott (1992) \u2014 both born on January 23, giving it more Nobel Prizes per capita than any other country\nChanged hands between Britain and France 14 times before finally becoming British in 1814"
+        },
+        {
+          "id": "saint-vincent-and-the-grenadines",
+          "answer": "Saint Vincent and the Grenadines",
+          "alternates": ["St. Vincent and the Grenadines", "St Vincent and the Grenadines"],
+          "explanation": "Multi-island nation in the Windward Islands; capital is Kingstown on Saint Vincent\nLa Soufri\u00e8re, the country's highest peak (1,234 m), is an active volcano that erupted explosively in April 2021, displacing ~20,000 people\nWallilabou Bay on Saint Vincent was a primary filming location for Pirates of the Caribbean: The Curse of the Black Pearl (2003)\nThe Grenadines include the exclusive Mustique island, a retreat for celebrities and British royals"
+        },
+        {
+          "id": "trinidad-and-tobago",
+          "answer": "Trinidad and Tobago",
+          "alternates": [],
+          "explanation": "Southernmost Caribbean nation, just ~11 km off the coast of Venezuela; capital is Port of Spain\nBirthplace of the steelpan (steel drum), the only acoustic instrument invented in the 20th century, developed from oil drums in the 1930s\nAlso the birthplace of calypso, soca, and limbo; Trinidad Carnival is one of the largest street festivals in the world\nPitch Lake in southwest Trinidad is the largest natural deposit of asphalt in the world"
+        }
+      ]
+    }
+  ]
+}

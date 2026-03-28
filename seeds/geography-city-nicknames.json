@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "geography/landmarks", "parentId": "geography", "name": "Landmarks & Places", "description": "Notable parks, landmarks, and destinations" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/landmarks/city-nicknames",
+      "nodeId": "geography/landmarks",
+      "name": "City Nicknames",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "big-apple",
+          "prompt": "Which city is known as 'The Big Apple'?",
+          "answer": "New York City",
+          "alternates": ["New York", "NYC"],
+          "explanation": "Popularized in the 1920s by horse racing journalist John J. Fitz Gerald of the New York Morning Telegraph, who heard stable hands in New Orleans refer to NYC racetracks as 'the big apple'\nFaded from use until 1971, when the New York Convention and Visitors Bureau revived it as an official tourism campaign slogan\nMost populous city in the United States (~8.3 million in the city proper, ~20 million in the metro area)\nAlso called 'The City That Never Sleeps' and 'Gotham'\nIn 1997, Mayor Giuliani designated 'Big Apple Corner' at West 54th Street and Broadway, where Fitz Gerald lived from 1934 to 1963",
+          "cardFront": "\"The Big Apple\"",
+          "cardBack": "New York City"
+        },
+        {
+          "id": "windy-city",
+          "prompt": "Which city is known as 'The Windy City'?",
+          "answer": "Chicago",
+          "alternates": [],
+          "explanation": "The nickname originally referred to boastful ('windy') politicians, not weather \u2014 rival newspapers mocked Chicago's lobbying for the 1893 World's Columbian Exposition\nEarliest documented uses date to the 1870s, including an 1876 Cincinnati Enquirer headline about a tornado in the city\nChicago is not actually the windiest major U.S. city \u2014 Dodge City, KS (13.9 mph avg) and Amarillo, TX (13.5 mph) are windier\nThird-most-populous U.S. city, on the southwestern shore of Lake Michigan\nAlso known as 'The Second City' (a nod to being the second-largest U.S. city after NYC, popularized by A.J. Liebling's 1952 New Yorker series) and 'Chi-Town'",
+          "cardFront": "\"The Windy City\"",
+          "cardBack": "Chicago"
+        },
+        {
+          "id": "city-of-light",
+          "prompt": "Which city is known as 'The City of Light'?",
+          "answer": "Paris",
+          "alternates": [],
+          "explanation": "In French: 'La Ville Lumi\u00e8re' \u2014 the nickname has two origins, both from the 17th\u201318th centuries\nIn 1667, Louis XIV appointed Gabriel Nicolas de la Reynie as Lieutenant General of Police, who installed lanterns on nearly every main street, making Paris one of the first European cities with widespread street lighting\nThe name also reflects Paris's role as the intellectual capital of the Enlightenment, attracting thinkers like Voltaire, Rousseau, and Diderot\nMost visited city in the world, with ~30 million international tourists annually\nHome to the Eiffel Tower (built 1889 for the World's Fair), the Louvre (world's most-visited museum), and Notre-Dame Cathedral",
+          "cardFront": "\"The City of Light\"",
+          "cardBack": "Paris"
+        },
+        {
+          "id": "eternal-city",
+          "prompt": "Which city is known as 'The Eternal City'?",
+          "answer": "Rome",
+          "alternates": ["Roma"],
+          "explanation": "First called 'Urbs Aeterna' (Eternal City) by the Roman poet Tibullus in the 1st century BC; later used by Ovid, Virgil, and Livy\nThe name expressed the Roman belief that no matter what empires rose and fell, Rome would endure in perpetuity\nFounded in 753 BC according to legend (Romulus and Remus); continuously inhabited for nearly 2,800 years\nCapital of both the Roman Empire and modern Italy; also contains Vatican City, the world's smallest independent state\nHome to the Colosseum, the Pantheon, and the Roman Forum \u2014 the densest concentration of ancient monuments in any modern city",
+          "cardFront": "\"The Eternal City\"",
+          "cardBack": "Rome"
+        },
+        {
+          "id": "city-of-angels",
+          "prompt": "Which city is known as 'The City of Angels'?",
+          "answer": "Los Angeles",
+          "alternates": ["LA", "L.A."],
+          "explanation": "A direct translation of the city's Spanish name: 'Los \u00c1ngeles' means 'The Angels'\nFounded in 1781 by Spanish governor Felipe de Neve as 'El Pueblo de Nuestra Se\u00f1ora la Reina de los \u00c1ngeles del R\u00edo Porci\u00fancula' (The Town of Our Lady the Queen of the Angels of the Porci\u00fancula River)\nSecond-most-populous U.S. city (~3.9 million in the city proper, ~13 million in the metro area)\nCenter of the American film industry since the early 1900s; Hollywood is a neighborhood within the city\nAlso known as 'La-La Land' and 'Tinseltown'",
+          "cardFront": "\"The City of Angels\"",
+          "cardBack": "Los Angeles"
+        },
+        {
+          "id": "motor-city",
+          "prompt": "Which city is known as 'Motor City'?",
+          "answer": "Detroit",
+          "alternates": [],
+          "explanation": "Earned the nickname in the early 20th century as the hub of the American automobile industry\nHenry Ford founded Ford Motor Company there in 1903; the Big Three automakers (Ford, General Motors, Chrysler) all headquartered in the metro area\nBy 1950, Detroit had ~296,000 auto factory jobs and was producing over half of all U.S. cars\nBerry Gordy founded his record label 'Motown' (a portmanteau of 'motor' and 'town') in 1959, making Detroit synonymous with soul music\nPopulation peaked at ~1.85 million in 1950, then declined sharply due to deindustrialization; filed for the largest municipal bankruptcy in U.S. history in 2013",
+          "cardFront": "\"Motor City\"",
+          "cardBack": "Detroit"
+        },
+        {
+          "id": "big-easy",
+          "prompt": "Which city is known as 'The Big Easy'?",
+          "answer": "New Orleans",
+          "alternates": ["NOLA"],
+          "explanation": "Origin is debated: one theory traces it to the Big Easy Hall, a dance hall in Gretna where cornet player Buddy Bolden performed in the early 1900s\nAnother theory: musicians called it 'the big easy' because the city's vibrant jazz scene made it easy to find paying gigs\nPopularized in the late 1960s\u201370s by Times-Picayune columnist Betty Guillaud, who sought a counterpart to New York's 'Big Apple'\nFounded by the French in 1718; the French Quarter (Vieux Carr\u00e9) is the city's oldest and most famous neighborhood\nAlso called 'The Crescent City' for its location on a bend of the Mississippi River; devastated by Hurricane Katrina in 2005",
+          "cardFront": "\"The Big Easy\"",
+          "cardBack": "New Orleans"
+        },
+        {
+          "id": "sin-city",
+          "prompt": "Which city is known as 'Sin City'?",
+          "answer": "Las Vegas",
+          "alternates": ["Vegas"],
+          "explanation": "Nickname stems from the city's legalized gambling, 24-hour nightlife, and permissive entertainment culture\nNevada legalized gambling in 1931; the first major casino-hotel on the Strip (El Rancho Vegas) opened in 1941\nBugsy Siegel's Flamingo Hotel (1946) is often credited with transforming Las Vegas from a dusty stopover into a glamorous resort destination\nThe Las Vegas Strip is actually in the unincorporated towns of Paradise and Winchester, not within Las Vegas city limits\nAlso known as 'The Entertainment Capital of the World'; hosts ~40 million visitors annually",
+          "cardFront": "\"Sin City\"",
+          "cardBack": "Las Vegas"
+        },
+        {
+          "id": "emerald-city",
+          "prompt": "Which city is known as 'The Emerald City'?",
+          "answer": "Seattle",
+          "alternates": [],
+          "explanation": "Nickname adopted in 1982, replacing the older moniker 'Queen City' (used since 1869)\nCoined by Sarah Sterling-Franklin in a 1981 Convention and Visitors Bureau slogan contest\nRefers to the city's lush, year-round greenery \u2014 Seattle's mild, rainy Pacific Northwest climate keeps parks and forests green through all seasons\nNot named after the Emerald City in L. Frank Baum's The Wizard of Oz (1900), despite the coincidence\nAlso known as the 'Rain City'; headquarters of Amazon, Starbucks, and Microsoft (in nearby Redmond)",
+          "cardFront": "\"The Emerald City\"",
+          "cardBack": "Seattle"
+        },
+        {
+          "id": "steel-city",
+          "prompt": "Which city is known as 'Steel City'?",
+          "answer": "Pittsburgh",
+          "alternates": [],
+          "explanation": "Nickname solidified in the 1870s when Andrew Carnegie introduced the Bessemer process and opened the Edgar Thomson Steel Works in 1872\nBy the early 20th century, Pittsburgh produced nearly half of all steel in the United States\nStrategic location at the confluence of the Allegheny, Monongahela, and Ohio rivers provided access to coal and iron ore\nThe NFL's Pittsburgh Steelers (named 1940) are the most visible legacy of the Steel City identity\nSteel production declined sharply in the 1970s\u201380s; Pittsburgh reinvented itself as a center for healthcare, technology, and higher education (Carnegie Mellon, University of Pittsburgh)",
+          "cardFront": "\"Steel City\"",
+          "cardBack": "Pittsburgh"
+        },
+        {
+          "id": "music-city",
+          "prompt": "Which city is known as 'Music City'?",
+          "answer": "Nashville",
+          "alternates": [],
+          "explanation": "Nickname attributed to Queen Victoria, who reportedly said the Fisk Jubilee Singers (from Nashville's Fisk University) hailed from 'Music City' during their 1873 European tour\nHome to the Grand Ole Opry, the longest-running live radio program in the U.S. (since 1925), and the Country Music Hall of Fame\nMusic Row, a district southwest of downtown, houses the headquarters of major record labels and recording studios\nNashville's music industry generates ~$10 billion annually and supports ~60,000 jobs\nCapital of Tennessee and one of the fastest-growing U.S. cities; also known as 'The Athens of the South' for its many universities and a full-scale replica of the Parthenon",
+          "cardFront": "\"Music City\"",
+          "cardBack": "Nashville"
+        },
+        {
+          "id": "mile-high-city",
+          "prompt": "Which city is known as 'The Mile High City'?",
+          "answer": "Denver",
+          "alternates": [],
+          "explanation": "Official elevation is exactly one mile (5,280 feet / 1,609 m) above sea level, measured at a brass plate on the west steps of the Colorado State Capitol (installed 1909)\nThe nickname gained national recognition in 1908 when Denver hosted the Democratic National Convention and reporters adopted the phrase\nThe altitude noticeably affects sports: baseballs travel ~9% farther at Coors Field, and visiting athletes often struggle with reduced oxygen\nCapital of Colorado and the largest city in the Mountain West region\nOriginally a gold rush settlement founded in 1858; named after Kansas Territorial Governor James W. Denver",
+          "cardFront": "\"The Mile High City\"",
+          "cardBack": "Denver"
+        },
+        {
+          "id": "city-of-brotherly-love",
+          "prompt": "Which city is known as 'The City of Brotherly Love'?",
+          "answer": "Philadelphia",
+          "alternates": ["Philly"],
+          "explanation": "A direct translation of the Greek name: 'philos' (love) + 'adelphos' (brother) = 'brotherly love'\nFounded in 1682 by Quaker William Penn as a haven for religious tolerance and democratic governance\nServed as the de facto capital of the United States from 1790 to 1800; the Declaration of Independence (1776) and Constitution (1787) were both signed there\nHome to Independence Hall, the Liberty Bell, and the oldest continuously operating farmers' market in the U.S. (Reading Terminal Market, 1893)\nSixth-most-populous U.S. city (~1.6 million); also known as 'Philly' and the birthplace of the Philly cheesesteak",
+          "cardFront": "\"The City of Brotherly Love\"",
+          "cardBack": "Philadelphia"
+        },
+        {
+          "id": "charm-city",
+          "prompt": "Which city is known as 'Charm City'?",
+          "answer": "Baltimore",
+          "alternates": [],
+          "explanation": "Originated in 1974 from a tourism ad campaign created by four ad agency leaders hired by Mayor William Donald Schaefer\nCopywriter Bill Evans pitched the 'charm' angle; visitors collected charm bracelet charms at five highlighted attractions\nThe campaign itself flopped commercially, but the nickname stuck and was embraced by residents for decades after\nBaltimore's Inner Harbor, developed in the 1980s, became a model for urban waterfront renewal nationwide\nAlso known as 'B-more' and 'Mob Town' (a reference to frequent riots in the 19th century, including the 1812 Baltimore riot and 1861 Pratt Street Riot)",
+          "cardFront": "\"Charm City\"",
+          "cardBack": "Baltimore"
+        },
+        {
+          "id": "space-city",
+          "prompt": "Which city is known as 'Space City'?",
+          "answer": "Houston",
+          "alternates": [],
+          "explanation": "Home to NASA's Johnson Space Center, Mission Control for human spaceflight since 1965\n'Houston, we've had a problem' (Apollo 13, 1970) is one of the most famous phrases in space history\nFourth-most-populous U.S. city (~2.3 million); most populous in Texas and the American South\nAlso a major energy capital \u2014 home to more Fortune 500 companies than any U.S. city except New York\nThe Astrodome (1965) was the world's first domed stadium, earning the nickname 'Eighth Wonder of the World'",
+          "cardFront": "\"Space City\"",
+          "cardBack": "Houston"
+        }
+      ]
+    }
+  ]
+}

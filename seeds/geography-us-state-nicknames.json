@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "geography/us-states",
+      "parentId": "geography",
+      "name": "U.S. States",
+      "description": "U.S. states, capitals, and geography"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "geography/us-states/state-nicknames",
+      "nodeId": "geography/us-states",
+      "name": "U.S. State Nicknames",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name the U.S. state for each official nickname" },
+      "items": [
+        {
+          "id": "alabama",
+          "answer": "Alabama",
+          "alternates": [],
+          "explanation": "\"Yellowhammer State\" — named for the yellowhammer woodpecker (Northern Flicker), associated with Confederate soldiers from Alabama who wore yellow cloth on their uniforms\nCapital: Montgomery; largest city: Birmingham\n22nd state, admitted 1819\nMontgomery was the first capital of the Confederate States (1861); site of the Montgomery Bus Boycott (1955\u20131956)"
+        },
+        {
+          "id": "alaska",
+          "answer": "Alaska",
+          "alternates": [],
+          "explanation": "\"The Last Frontier\" — reflects Alaska's vast, remote, and largely unsettled wilderness\nCapital: Juneau; largest city: Anchorage\n49th state, admitted 1959\nLargest U.S. state by area (665,384 sq mi) \u2014 more than twice the size of Texas\nPurchased from Russia in 1867 for $7.2 million, initially mocked as \"Seward's Folly\""
+        },
+        {
+          "id": "arizona",
+          "answer": "Arizona",
+          "alternates": [],
+          "explanation": "\"Grand Canyon State\" — named for the Grand Canyon, one of the Seven Natural Wonders of the World\nCapital and largest city: Phoenix\n48th state, admitted 1912 (last of the contiguous states)\nThe Grand Canyon is 277 miles long, up to 18 miles wide, and over a mile deep"
+        },
+        {
+          "id": "arkansas",
+          "answer": "Arkansas",
+          "alternates": [],
+          "explanation": "\"The Natural State\" — adopted in 1995, referring to the state's abundant lakes, rivers, mountains, and forests\nCapital and largest city: Little Rock\n25th state, admitted 1836\nPreviously nicknamed \"The Land of Opportunity\"; also known as \"The Bear State\" in the 19th century"
+        },
+        {
+          "id": "california",
+          "answer": "California",
+          "alternates": [],
+          "explanation": "\"Golden State\" — references the 1849 Gold Rush and the golden poppies that blanket the state's hillsides\nCapital: Sacramento; largest city: Los Angeles\n31st state, admitted 1850\nMost populous U.S. state (~39 million); world's fifth-largest economy if counted as a country"
+        },
+        {
+          "id": "colorado",
+          "answer": "Colorado",
+          "alternates": [],
+          "explanation": "\"Centennial State\" — achieved statehood in 1876, the centennial year of the Declaration of Independence\nCapital and largest city: Denver\n38th state, admitted 1876\nDenver is the \"Mile High City\" \u2014 the State Capitol's west steps sit exactly 5,280 feet above sea level"
+        },
+        {
+          "id": "connecticut",
+          "answer": "Connecticut",
+          "alternates": [],
+          "explanation": "\"Constitution State\" — refers to Connecticut's Fundamental Orders (1639), often called the first written democratic constitution\nCapital: Hartford; largest city: Bridgeport\n5th state, ratified the Constitution in 1788\nAlso known as the \"Nutmeg State,\" from Yankee peddlers allegedly selling fake wooden nutmegs"
+        },
+        {
+          "id": "delaware",
+          "answer": "Delaware",
+          "alternates": [],
+          "explanation": "\"First State\" — Delaware was the first state to ratify the U.S. Constitution, on December 7, 1787\nCapital: Dover; largest city: Wilmington\n1st state, ratified 1787\nSecond-smallest state by area; known for business-friendly incorporation laws \u2014 over 60% of Fortune 500 companies are incorporated here"
+        },
+        {
+          "id": "florida",
+          "answer": "Florida",
+          "alternates": [],
+          "explanation": "\"Sunshine State\" — adopted officially in 1970, reflecting the state's subtropical climate and tourism appeal\nCapital: Tallahassee; largest city: Jacksonville (by area), Miami metro is largest by population\n27th state, admitted 1845\nSpanish explorer Juan Ponce de Le\u00f3n named it \"La Florida\" (Land of Flowers) in 1513"
+        },
+        {
+          "id": "georgia",
+          "answer": "Georgia",
+          "alternates": [],
+          "explanation": "\"Peach State\" — Georgia was once the top U.S. peach producer, though South Carolina now grows more\nCapital and largest city: Atlanta\n4th state, ratified the Constitution in 1788\nNamed for King George II of Great Britain; Atlanta hosted the 1996 Summer Olympics"
+        },
+        {
+          "id": "hawaii",
+          "answer": "Hawaii",
+          "alternates": [],
+          "explanation": "\"Aloha State\" — \"aloha\" is a Hawaiian word meaning love, affection, peace, and compassion\nCapital and largest city: Honolulu (on Oahu)\n50th state, admitted 1959\nOnly U.S. state composed entirely of islands; the only state located outside North America geographically"
+        },
+        {
+          "id": "idaho",
+          "answer": "Idaho",
+          "alternates": [],
+          "explanation": "\"Gem State\" — Idaho produces 72 types of precious and semi-precious gemstones, more varieties than any other state\nCapital and largest city: Boise\n43rd state, admitted 1890\nAlso famous for potatoes \u2014 produces roughly one-third of the nation's potato crop"
+        },
+        {
+          "id": "illinois",
+          "answer": "Illinois",
+          "alternates": [],
+          "explanation": "\"Prairie State\" — the tallgrass prairies that once covered most of the state before large-scale farming\nCapital: Springfield; largest city: Chicago\n21st state, admitted 1818\nAbraham Lincoln lived in Springfield for 25 years; Chicago became a railroad hub and meatpacking center in the 19th century"
+        },
+        {
+          "id": "indiana",
+          "answer": "Indiana",
+          "alternates": [],
+          "explanation": "\"Hoosier State\" — origin of \"Hoosier\" is debated; possibly from \"Who's here?\" called out by frontier settlers\nCapital and largest city: Indianapolis\n19th state, admitted 1816\nIndianapolis hosts the Indy 500 (since 1911), the world's largest single-day sporting event by attendance"
+        },
+        {
+          "id": "iowa",
+          "answer": "Iowa",
+          "alternates": [],
+          "explanation": "\"Hawkeye State\" — likely a tribute to Chief Black Hawk, the Sauk leader, or the fictional character in The Last of the Mohicans\nCapital and largest city: Des Moines\n29th state, admitted 1846\nThe Iowa caucuses have been the first major electoral event in the U.S. presidential nominating process since 1972"
+        },
+        {
+          "id": "kansas",
+          "answer": "Kansas",
+          "alternates": [],
+          "explanation": "\"Sunflower State\" — the wild sunflower is the state flower, and Kansas is a major sunflower-producing state\nCapital: Topeka; largest city: Wichita\n34th state, admitted 1861\nGeographic center of the contiguous U.S. is near Lebanon, Kansas; Dodge City was a legendary cattle town on the Santa Fe Trail"
+        },
+        {
+          "id": "kentucky",
+          "answer": "Kentucky",
+          "alternates": [],
+          "explanation": "\"Bluegrass State\" — named for the bluegrass that grows in the fertile Bluegrass Region, prized for horse pasture\nCapital: Frankfort; largest city: Louisville\n15th state, admitted 1792\nHome of the Kentucky Derby (since 1875), the oldest continuously held horse race in the U.S.; also known for bourbon whiskey"
+        },
+        {
+          "id": "louisiana",
+          "answer": "Louisiana",
+          "alternates": [],
+          "explanation": "\"Pelican State\" — the brown pelican appears on the state flag and seal, symbolizing selfless nurturing\nCapital: Baton Rouge; largest city: New Orleans\n18th state, admitted 1812\nAcquired as part of the Louisiana Purchase (1803); the only U.S. state that uses parishes instead of counties"
+        },
+        {
+          "id": "maine",
+          "answer": "Maine",
+          "alternates": [],
+          "explanation": "\"Pine Tree State\" — roughly 89% of Maine is forested, the highest percentage of any U.S. state\nCapital: Augusta; largest city: Portland\n23rd state, admitted 1820 (separated from Massachusetts via the Missouri Compromise)\nEasternmost state in the U.S.; Cadillac Mountain in Acadia National Park is one of the first places to see sunrise in the country"
+        },
+        {
+          "id": "maryland",
+          "answer": "Maryland",
+          "alternates": [],
+          "explanation": "\"Old Line State\" — a tribute to Maryland's \"troops of the line\" who fought with distinction in the Revolutionary War; George Washington reportedly coined the term\nCapital: Annapolis; largest city: Baltimore\n7th state, ratified the Constitution in 1788\nAnnapolis is home to the U.S. Naval Academy (founded 1845)"
+        },
+        {
+          "id": "massachusetts",
+          "answer": "Massachusetts",
+          "alternates": [],
+          "explanation": "\"Bay State\" — named for the Massachusetts Bay Colony, founded in 1630 by Puritan settlers\nCapital and largest city: Boston\n6th state, ratified the Constitution in 1788\nSite of the opening battles of the American Revolution (Lexington and Concord, 1775); home to Harvard (1636), the oldest U.S. university"
+        },
+        {
+          "id": "michigan",
+          "answer": "Michigan",
+          "alternates": [],
+          "explanation": "\"Great Lakes State\" — Michigan borders four of the five Great Lakes (Superior, Michigan, Huron, Erie)\nCapital: Lansing; largest city: Detroit\n26th state, admitted 1837\nAlso called the \"Wolverine State\"; Detroit became the center of the American auto industry in the early 20th century"
+        },
+        {
+          "id": "minnesota",
+          "answer": "Minnesota",
+          "alternates": [],
+          "explanation": "\"North Star State\" — from the French motto \"L'\u00c9toile du Nord\" (The Star of the North) on the state seal\nCapital: St. Paul; largest city: Minneapolis\n32nd state, admitted 1858\nAlso called \"Land of 10,000 Lakes\" \u2014 actually has 11,842 lakes of 10+ acres; source of the Mississippi River at Lake Itasca"
+        },
+        {
+          "id": "mississippi",
+          "answer": "Mississippi",
+          "alternates": [],
+          "explanation": "\"Magnolia State\" — the magnolia is both the state tree and state flower, abundant throughout the state\nCapital and largest city: Jackson\n20th state, admitted 1817\nNamed for the Mississippi River (from Ojibwe \"misi-ziibi,\" meaning \"great river\"); birthplace of the blues in the Delta region"
+        },
+        {
+          "id": "missouri",
+          "answer": "Missouri",
+          "alternates": [],
+          "explanation": "\"Show-Me State\" — attributed to Congressman Willard Vandiver (1899): \"I come from a state that raises corn and cotton... and I'm from Missouri. You have got to show me.\"\nCapital: Jefferson City; largest city: Kansas City\n24th state, admitted 1821\nSt. Louis was the gateway for westward expansion; the Gateway Arch (630 ft) commemorates this role"
+        },
+        {
+          "id": "montana",
+          "answer": "Montana",
+          "alternates": [],
+          "explanation": "\"Treasure State\" — named for Montana's rich mineral deposits, including gold, silver, copper, and sapphires\nCapital: Helena; largest city: Billings\n41st state, admitted 1889\nSite of the Battle of the Little Bighorn (1876), where Lakota and Cheyenne warriors defeated Custer's 7th Cavalry"
+        },
+        {
+          "id": "nebraska",
+          "answer": "Nebraska",
+          "alternates": [],
+          "explanation": "\"Cornhusker State\" — references the state's massive corn production and the University of Nebraska's athletic teams\nCapital: Lincoln; largest city: Omaha\n37th state, admitted 1867\nOnly U.S. state with a unicameral (single-chamber) legislature; Omaha is home to Berkshire Hathaway (Warren Buffett)"
+        },
+        {
+          "id": "nevada",
+          "answer": "Nevada",
+          "alternates": [],
+          "explanation": "\"Silver State\" — named for the massive silver deposits discovered in the Comstock Lode (1859)\nCapital: Carson City; largest city: Las Vegas\n36th state, admitted 1864 (during the Civil War, to support the Union cause)\nLas Vegas is the entertainment and gambling capital of the U.S.; Nevada is the driest state by average annual rainfall"
+        },
+        {
+          "id": "new-hampshire",
+          "answer": "New Hampshire",
+          "alternates": [],
+          "explanation": "\"Granite State\" — named for the state's extensive granite formations and quarries\nCapital: Concord; largest city: Manchester\n9th state, ratified the Constitution in 1788\nHosts the first-in-the-nation presidential primary; has no state income tax or sales tax"
+        },
+        {
+          "id": "new-jersey",
+          "answer": "New Jersey",
+          "alternates": [],
+          "explanation": "\"Garden State\" — possibly coined by Abraham Browning in 1876, referring to the state's fertile farmland and produce\nCapital: Trenton; largest city: Newark\n3rd state, ratified the Constitution in 1787\nMost densely populated U.S. state; Thomas Edison's laboratory in Menlo Park earned it the nickname \"Invention Factory\""
+        },
+        {
+          "id": "new-mexico",
+          "answer": "New Mexico",
+          "alternates": [],
+          "explanation": "\"Land of Enchantment\" — adopted in 1999, reflecting the state's dramatic landscapes, multicultural heritage, and artistic appeal\nCapital: Santa Fe; largest city: Albuquerque\n47th state, admitted 1912\nSanta Fe is the oldest state capital in the U.S. (founded 1610); site of the first atomic bomb test at Trinity Site (1945)"
+        },
+        {
+          "id": "new-york",
+          "answer": "New York",
+          "alternates": [],
+          "explanation": "\"Empire State\" — George Washington reportedly called New York the \"Seat of the Empire,\" reflecting its wealth and influence\nCapital: Albany; largest city: New York City\n11th state, ratified the Constitution in 1788\nNew York City served as the first U.S. capital (1789\u20131790); Ellis Island processed over 12 million immigrants (1892\u20131954)"
+        },
+        {
+          "id": "north-carolina",
+          "answer": "North Carolina",
+          "alternates": [],
+          "explanation": "\"Tar Heel State\" — from the state's colonial-era production of tar, pitch, and turpentine from its vast pine forests\nCapital: Raleigh; largest city: Charlotte\n12th state, ratified the Constitution in 1789\nSite of the Wright Brothers' first powered flight at Kitty Hawk (1903)"
+        },
+        {
+          "id": "north-dakota",
+          "answer": "North Dakota",
+          "alternates": [],
+          "explanation": "\"Peace Garden State\" — named for the International Peace Garden on the U.S.\u2013Canada border, dedicated in 1932\nCapital: Bismarck; largest city: Fargo\n39th state, admitted 1889\nOne of the least-populated states; the Bakken Formation oil boom transformed its economy in the 2010s"
+        },
+        {
+          "id": "ohio",
+          "answer": "Ohio",
+          "alternates": [],
+          "explanation": "\"Buckeye State\" — named for the Ohio buckeye tree (Aesculus glabra), abundant in the state\nCapital and largest city: Columbus\n17th state, admitted 1803\nBirthplace of seven U.S. presidents (Grant, Hayes, Garfield, B. Harrison, McKinley, Taft, Harding) \u2014 more than any other state except Virginia"
+        },
+        {
+          "id": "oklahoma",
+          "answer": "Oklahoma",
+          "alternates": [],
+          "explanation": "\"Sooner State\" — \"Sooners\" were settlers who entered the Unassigned Lands before the official start of the 1889 Land Run\nCapital and largest city: Oklahoma City\n46th state, admitted 1907\nFormer Indian Territory; home to 39 tribal headquarters, the most of any U.S. state"
+        },
+        {
+          "id": "oregon",
+          "answer": "Oregon",
+          "alternates": [],
+          "explanation": "\"Beaver State\" — the American beaver is the state animal, reflecting Oregon's fur-trading history\nCapital: Salem; largest city: Portland\n33rd state, admitted 1859\nCrater Lake (1,943 ft deep) is the deepest lake in the U.S., formed in the caldera of Mount Mazama"
+        },
+        {
+          "id": "pennsylvania",
+          "answer": "Pennsylvania",
+          "alternates": [],
+          "explanation": "\"Keystone State\" — Pennsylvania was the central (\"keystone\") colony among the original 13, both geographically and politically\nCapital: Harrisburg; largest city: Philadelphia\n2nd state, ratified the Constitution in 1787\nPhiladelphia hosted the Continental Congress and the Constitutional Convention; the Declaration of Independence was signed there (1776)"
+        },
+        {
+          "id": "rhode-island",
+          "answer": "Rhode Island",
+          "alternates": [],
+          "explanation": "\"Ocean State\" — despite being the smallest U.S. state by area, Rhode Island has over 400 miles of coastline\nCapital and largest city: Providence\n13th state, ratified the Constitution in 1790 (last of the original 13)\nFounded by Roger Williams in 1636 as a haven for religious freedom; Newport was a major colonial-era port"
+        },
+        {
+          "id": "south-carolina",
+          "answer": "South Carolina",
+          "alternates": [],
+          "explanation": "\"Palmetto State\" — named for the sabal palmetto tree; a palmetto-log fort on Sullivan's Island repelled a British attack in 1776\nCapital and largest city: Columbia\n8th state, ratified the Constitution in 1788\nFirst state to secede from the Union (December 1860); the Civil War began at Fort Sumter in Charleston Harbor (April 1861)"
+        },
+        {
+          "id": "south-dakota",
+          "answer": "South Dakota",
+          "alternates": [],
+          "explanation": "\"Mount Rushmore State\" — home to Mount Rushmore, featuring the carved faces of Washington, Jefferson, T. Roosevelt, and Lincoln\nCapital: Pierre; largest city: Sioux Falls\n40th state, admitted 1889\nThe Crazy Horse Memorial, still under construction since 1948, will be the world's largest sculpture when completed"
+        },
+        {
+          "id": "tennessee",
+          "answer": "Tennessee",
+          "alternates": [],
+          "explanation": "\"Volunteer State\" — from the large number of Tennessee volunteers who fought in the War of 1812 and the Mexican\u2013American War\nCapital and largest city: Nashville\n16th state, admitted 1796\nNashville is the capital of country music; Memphis is the birthplace of rock and roll (Sun Studio) and home of Beale Street blues"
+        },
+        {
+          "id": "texas",
+          "answer": "Texas",
+          "alternates": [],
+          "explanation": "\"Lone Star State\" — the single star on the Texas flag symbolizes independence, dating from the Republic of Texas (1836\u20131845)\nCapital: Austin; largest city: Houston\n28th state, admitted 1845\nSecond-largest state by both area and population; was an independent republic for nearly 10 years before joining the U.S."
+        },
+        {
+          "id": "utah",
+          "answer": "Utah",
+          "alternates": [],
+          "explanation": "\"Beehive State\" — the beehive symbolizes industry and hard work, values central to the Mormon pioneers who settled the territory\nCapital and largest city: Salt Lake City\n45th state, admitted 1896\nHome to five national parks (the \"Mighty Five\"): Arches, Bryce Canyon, Canyonlands, Capitol Reef, and Zion"
+        },
+        {
+          "id": "vermont",
+          "answer": "Vermont",
+          "alternates": [],
+          "explanation": "\"Green Mountain State\" — \"Vermont\" derives from French \"vert mont\" (green mountain), describing the Green Mountains running north\u2013south through the state\nCapital: Montpelier; largest city: Burlington\n14th state, admitted 1791\nMontpelier is the least-populous state capital (~8,000 people); Vermont produces more maple syrup than any other U.S. state"
+        },
+        {
+          "id": "virginia",
+          "answer": "Virginia",
+          "alternates": [],
+          "explanation": "\"Old Dominion\" — Charles II of England gave Virginia this title for its loyalty to the Crown during the English Civil War\nCapital: Richmond; largest city: Virginia Beach\n10th state, ratified the Constitution in 1788\nBirthplace of eight U.S. presidents, more than any other state; site of the first permanent English settlement at Jamestown (1607)"
+        },
+        {
+          "id": "washington",
+          "answer": "Washington",
+          "alternates": [],
+          "explanation": "\"Evergreen State\" — named for the state's abundant evergreen forests, including Douglas fir, western red cedar, and Sitka spruce\nCapital: Olympia; largest city: Seattle\n42nd state, admitted 1889\nOnly state named after a U.S. president; Mount Rainier (14,411 ft) is the highest peak in the Cascades"
+        },
+        {
+          "id": "west-virginia",
+          "answer": "West Virginia",
+          "alternates": [],
+          "explanation": "\"Mountain State\" — the entire state lies within the Appalachian Mountains, with an average elevation of 1,500 feet\nCapital and largest city: Charleston\n35th state, admitted 1863 (split from Virginia during the Civil War)\nThe only state formed by seceding from a Confederate state; John Brown's raid on Harpers Ferry (1859) was a catalyst for the Civil War"
+        },
+        {
+          "id": "wisconsin",
+          "answer": "Wisconsin",
+          "alternates": [],
+          "explanation": "\"Badger State\" — not from the animal, but from lead miners in the 1830s who dug into hillsides and lived in the tunnels like badgers\nCapital: Madison; largest city: Milwaukee\n30th state, admitted 1848\nAlso called \"America's Dairyland\"; leads the nation in cheese production and is home to the Green Bay Packers, the only community-owned NFL team"
+        },
+        {
+          "id": "wyoming",
+          "answer": "Wyoming",
+          "alternates": [],
+          "explanation": "\"Equality State\" — Wyoming was the first U.S. territory to grant women the right to vote (1869) and the first state to elect a female governor (Nellie Tayloe Ross, 1925)\nCapital and largest city: Cheyenne\n44th state, admitted 1890\nAlso called the \"Cowboy State\"; Yellowstone (1872) was the world's first national park; least-populous U.S. state"
+        }
+      ]
+    }
+  ]
+}

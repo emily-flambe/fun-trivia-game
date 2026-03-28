@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/countries/south-america",
+      "nodeId": "geography/countries",
+      "name": "Countries of South America",
+      "format": "fill-blanks",
+      "config": { "ordered": false, "prompt": "Name all 12 sovereign countries of South America" },
+      "items": [
+        {
+          "id": "argentina",
+          "answer": "Argentina",
+          "alternates": [],
+          "explanation": "Second-largest country in South America; capital is Buenos Aires\nEighth-largest country in the world by area (~2.78 million km\u00b2)\nHome to Patagonia, Tierra del Fuego, and the Andes along its western border\nWon FIFA World Cup in 1978, 1986 (Maradona's 'Hand of God'), and 2022 (Messi)\nTango originated in the working-class neighborhoods of Buenos Aires in the late 19th century"
+        },
+        {
+          "id": "bolivia",
+          "answer": "Bolivia",
+          "alternates": [],
+          "explanation": "Landlocked country in central South America; constitutional capital is Sucre, seat of government is La Paz\nLa Paz sits at ~3,640 m elevation \u2014 the highest de facto capital city in the world\nNamed after Sim\u00f3n Bol\u00edvar, who led independence movements across South America\nLost its Pacific coast to Chile in the War of the Pacific (1879\u20131884) and still claims maritime access\nHome to the Salar de Uyuni, the world's largest salt flat (~10,582 km\u00b2)"
+        },
+        {
+          "id": "brazil",
+          "answer": "Brazil",
+          "alternates": ["Brasil"],
+          "explanation": "Largest country in South America and fifth-largest in the world (~8.5 million km\u00b2); capital is Bras\u00edlia\nOnly Portuguese-speaking country in the Americas; shares a border with every South American country except Chile and Ecuador\nHolds the record for most FIFA World Cup wins (5: 1958, 1962, 1970, 1994, 2002)\nThe Amazon rainforest covers ~60% of its territory and contains roughly 10% of all species on Earth\nBras\u00edlia was purpose-built as the capital in 1960, designed by Oscar Niemeyer and L\u00facio Costa"
+        },
+        {
+          "id": "chile",
+          "answer": "Chile",
+          "alternates": [],
+          "explanation": "Long, narrow country along South America's western coast; capital is Santiago\nStretches ~4,300 km north to south but averages only ~177 km wide \u2014 one of the world's longest and narrowest countries\nHome to the Atacama Desert, the driest nonpolar desert on Earth; some weather stations there have never recorded rain\nEaster Island (Rapa Nui), famous for its moai statues, is Chilean territory ~3,700 km offshore in the Pacific\nGained its northern desert territory from Bolivia and Peru in the War of the Pacific (1879\u20131884)"
+        },
+        {
+          "id": "colombia",
+          "answer": "Colombia",
+          "alternates": [],
+          "explanation": "Located in northwestern South America; capital is Bogot\u00e1\nOnly South American country with coastlines on both the Caribbean Sea and the Pacific Ocean\nNamed after Christopher Columbus, though he never set foot in the country\nProduces more emeralds than any other country \u2014 roughly 70\u201390% of the world's supply\nColombian author Gabriel Garc\u00eda M\u00e1rquez won the Nobel Prize in Literature (1982) for works including *One Hundred Years of Solitude*"
+        },
+        {
+          "id": "ecuador",
+          "answer": "Ecuador",
+          "alternates": [],
+          "explanation": "Located on South America's northwest coast, straddling the equator; capital is Quito\nNamed directly after the equator \u2014 the only country in the world named for a geographic line\nSmallest of the Andean nations (~283,561 km\u00b2)\nThe Gal\u00e1pagos Islands, ~960 km off the coast, inspired Darwin's theory of evolution by natural selection\nQuito's historic center, at ~2,850 m elevation, was one of the first UNESCO World Heritage Sites (1978)"
+        },
+        {
+          "id": "guyana",
+          "answer": "Guyana",
+          "alternates": [],
+          "explanation": "Located on the northern coast of South America; capital is Georgetown\nOnly English-speaking country on the South American mainland\nFormerly British Guiana; gained independence in 1966\nName comes from an indigenous Amerindian word meaning 'Land of Many Waters'\nSite of the Jonestown massacre (1978), in which over 900 members of Jim Jones's Peoples Temple cult died in a mass murder-suicide"
+        },
+        {
+          "id": "paraguay",
+          "answer": "Paraguay",
+          "alternates": [],
+          "explanation": "Landlocked country in central South America; capital is Asunci\u00f3n\nOne of the few officially bilingual countries in the Americas \u2014 both Spanish and Guaran\u00ed are official languages, with ~90% of the population speaking Guaran\u00ed\nLost an estimated 60\u201370% of its population in the War of the Triple Alliance (1864\u20131870) against Brazil, Argentina, and Uruguay\nThe Itaip\u00fa Dam on the Paran\u00e1 River (shared with Brazil) was the world's largest hydroelectric dam by output until China's Three Gorges surpassed it\nAsunci\u00f3n, founded in 1537, is one of the oldest continuously inhabited cities in South America"
+        },
+        {
+          "id": "peru",
+          "answer": "Peru",
+          "alternates": [],
+          "explanation": "Located on South America's western coast; capital is Lima\nHome to Machu Picchu, the 15th-century Inca citadel and one of the New Seven Wonders of the World\nThe Amazon rainforest covers ~60% of Peru's territory, making it the second-largest share of the Amazon after Brazil\nLima was founded by Francisco Pizarro in 1535 and served as the capital of Spain's South American empire\nThe Nazca Lines \u2014 massive geoglyphs etched into the desert floor ~2,000 years ago \u2014 are visible only from the air and remain partly unexplained"
+        },
+        {
+          "id": "suriname",
+          "answer": "Suriname",
+          "alternates": ["Surinam"],
+          "explanation": "Located on the northeast coast of South America; capital is Paramaribo\nSmallest sovereign country in South America by area (~163,820 km\u00b2)\nOnly sovereign state outside Europe where Dutch is the official language\nOver 90% of its territory is covered by tropical rainforest \u2014 the highest proportion of forest cover of any country\nExtremely diverse ethnically: no majority group; has some of the largest Hindu and Muslim populations in the Americas proportionally"
+        },
+        {
+          "id": "uruguay",
+          "answer": "Uruguay",
+          "alternates": [],
+          "explanation": "Located on South America's southeastern coast between Argentina and Brazil; capital is Montevideo\nSmallest Spanish-speaking country in South America (~176,215 km\u00b2)\nHosted and won the first FIFA World Cup in 1930; won again in 1950 (the 'Maracanazo' upset over Brazil)\nOne of the most politically stable and socially progressive countries in Latin America \u2014 first in South America to legalize same-sex marriage (2013)\nAbout half the population (~1.8 million of ~3.5 million) lives in the Montevideo metropolitan area"
+        },
+        {
+          "id": "venezuela",
+          "answer": "Venezuela",
+          "alternates": [],
+          "explanation": "Located on the northern coast of South America on the Caribbean; capital is Caracas\nName means 'Little Venice' \u2014 Spanish explorers saw indigenous stilt houses on Lake Maracaibo and were reminded of Venice\nHome to Angel Falls (Salto \u00c1ngel), the world's highest uninterrupted waterfall at 979 m\nSits atop some of the world's largest proven oil reserves; oil wealth fueled rapid urbanization in the 20th century\nThe Catatumbo lightning phenomenon over Lake Maracaibo produces lightning ~300 nights per year \u2014 the highest lightning density on Earth"
+        }
+      ]
+    }
+  ]
+}
