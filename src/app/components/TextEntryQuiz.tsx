@@ -77,7 +77,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode }: Props) {
 				})),
 			}).catch(() => {});
 		}
-	}, [status]);
+	}, [status, auth.authenticated]);
 
 	if (status === 'complete') {
 		return (

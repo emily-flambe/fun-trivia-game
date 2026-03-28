@@ -63,7 +63,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath }: Props) {
 				}),
 			}).catch(() => {});
 		}
-	}, [isComplete]);
+	}, [isComplete, auth.authenticated]);
 
 	async function handleSubmit(e: React.FormEvent) {
 		e.preventDefault();
