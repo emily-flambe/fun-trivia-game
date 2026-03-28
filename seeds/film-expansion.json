@@ -1,0 +1,649 @@
+{
+  "nodes": [
+    { "id": "film/directors", "parentId": "film", "name": "Directors", "description": "Legendary filmmakers and their signature works" },
+    { "id": "film/iconic-films", "parentId": "film", "name": "Iconic Films", "description": "Culturally defining films beyond the Oscar winners" },
+    { "id": "film/quotes", "parentId": "film", "name": "Movie Quotes", "description": "Famous lines from classic and beloved films" },
+    { "id": "film/oscars", "parentId": "film", "name": "Academy Awards", "description": "Oscar-winning films and landmark moments in Academy history" }
+  ],
+  "exercises": [
+    {
+      "id": "film/directors/famous-directors",
+      "nodeId": "film/directors",
+      "name": "Famous Directors",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "alfred-hitchcock",
+          "prompt": "Which British-American director, known as the 'Master of Suspense,' created *Psycho*, *Rear Window*, and *North by Northwest*, and made cameo appearances in nearly all of his films?",
+          "answer": "Alfred Hitchcock",
+          "alternates": ["Hitchcock"],
+          "explanation": "British, 1899\u20131980; worked in Hollywood from 1939 onward\nMaster of psychological suspense; pioneered techniques like the 'MacGuffin' plot device\nKey films: *Psycho* (1960), *Vertigo* (1958), *Rear Window* (1954), *North by Northwest* (1959), *The Birds* (1963)\nNever won a competitive Oscar for directing despite five nominations\nMade a cameo appearance in nearly all of his 53 feature films\nAnthony Perkins as Norman Bates in *Psycho* set the template for the modern serial-killer character",
+          "cardFront": "*Vertigo*",
+          "cardBack": "Alfred Hitchcock"
+        },
+        {
+          "id": "stanley-kubrick",
+          "prompt": "Which American director's meticulously controlled filmography includes *Dr. Strangelove*, *The Shining*, *A Clockwork Orange*, and *Full Metal Jacket*, and who moved to England in 1961 and never returned to the US?",
+          "answer": "Stanley Kubrick",
+          "alternates": ["Kubrick"],
+          "explanation": "American, 1928\u20131999; lived in England from 1961 until his death\nKnown for obsessive perfectionism \u2013 actors endured dozens to hundreds of takes\nKey films: *2001: A Space Odyssey* (1968), *Dr. Strangelove* (1964), *The Shining* (1980), *A Clockwork Orange* (1971), *Full Metal Jacket* (1987)\nNever won a competitive Oscar for directing despite four nominations\nDestroyed most of the models from *2001: A Space Odyssey* after filming to prevent knock-offs\nHAL 9000 in *2001* is routinely cited as cinema's most iconic artificial intelligence",
+          "cardFront": "*2001: A Space Odyssey*",
+          "cardBack": "Stanley Kubrick"
+        },
+        {
+          "id": "steven-spielberg",
+          "prompt": "Which American director transformed Hollywood with *Jaws* (the first blockbuster), then crafted *E.T.*, *Raiders of the Lost Ark*, and *Saving Private Ryan*, winning Best Director twice?",
+          "answer": "Steven Spielberg",
+          "alternates": ["Spielberg"],
+          "explanation": "American, born 1946; the highest-grossing director in history\n*Jaws* (1975) is widely credited as the first summer blockbuster, reshaping the studio system\nKey films: *Jaws*, *E.T. the Extra-Terrestrial* (1982), *Raiders of the Lost Ark* (1981), *Schindler's List* (1993), *Saving Private Ryan* (1998)\nWon Best Director twice: *Schindler's List* (1994) and *Saving Private Ryan* (1999); *Saving Private Ryan* lost Best Picture to *Shakespeare in Love* despite Spielberg winning Best Director\nCo-founded DreamWorks SKG with Jeffrey Katzenberg and David Geffen in 1994\nEstablished the USC Shoah Foundation to preserve Holocaust survivor testimonies",
+          "cardFront": "*Schindler's List*",
+          "cardBack": "Steven Spielberg"
+        },
+        {
+          "id": "martin-scorsese",
+          "prompt": "Which New York director defined American crime cinema with *Taxi Driver*, *Raging Bull*, *Goodfellas*, and *The Departed*, winning Best Director for *The Departed* (2006)?",
+          "answer": "Martin Scorsese",
+          "alternates": ["Scorsese"],
+          "explanation": "American, born 1942 in Queens, New York; raised in Little Italy, Manhattan\nSignature style: long tracking shots, freeze frames, period rock soundtracks, Catholic guilt themes\nKey films: *Taxi Driver* (1976), *Raging Bull* (1980), *Goodfellas* (1990), *The Departed* (2006), *Killers of the Flower Moon* (2023)\nWon Best Director for *The Departed* at his sixth nomination \u2013 widely seen as a career-achievement recognition\nDeep cinephile; founded the Film Foundation in 1990 to preserve classic cinema\nFrequent collaborator with Robert De Niro (9 films) and later Leonardo DiCaprio (7 films)",
+          "cardFront": "*Goodfellas*",
+          "cardBack": "Martin Scorsese"
+        },
+        {
+          "id": "akira-kurosawa",
+          "prompt": "Which Japanese director's *Rashomon*, *Seven Samurai*, and *Ran* revolutionized world cinema and directly inspired *The Magnificent Seven*, *A Fistful of Dollars*, and *Star Wars*?",
+          "answer": "Akira Kurosawa",
+          "alternates": ["Kurosawa"],
+          "explanation": "Japanese, 1910\u20131998; called 'The Emperor' by Japanese film industry\n*Rashomon* (1950) won the Golden Lion at Venice and introduced Japanese cinema to Western audiences\nKey films: *Rashomon* (1950), *Seven Samurai* (1954), *Ikiru* (1952), *Yojimbo* (1961), *Ran* (1985)\n*Seven Samurai* was directly remade as *The Magnificent Seven* (1960); *Yojimbo* inspired Leone's *A Fistful of Dollars*\nGeorge Lucas credited Kurosawa as a major influence on *Star Wars*, particularly *The Hidden Fortress* (1958)\nReceived an Honorary Oscar in 1990; called himself 'the last samurai' when accepting",
+          "cardFront": "*Seven Samurai*",
+          "cardBack": "Akira Kurosawa"
+        },
+        {
+          "id": "orson-welles",
+          "prompt": "Which American filmmaker made *Citizen Kane* at age 25, widely regarded as the greatest film ever made, and also panicked the nation with a 1938 radio broadcast of *The War of the Worlds*?",
+          "answer": "Orson Welles",
+          "alternates": ["Welles"],
+          "explanation": "American, 1915\u20131985; child prodigy on stage and radio before film\n*Citizen Kane* (1941) written, directed, produced, and starring Welles at 25 \u2013 his feature debut\nKey films: *Citizen Kane* (1941), *The Magnificent Ambersons* (1942), *Touch of Evil* (1958)\nWon only one Oscar: Best Original Screenplay for *Citizen Kane* (with Herman J. Mankiewicz)\nHis 1938 CBS radio broadcast of *War of the Worlds* was reported to have caused widespread panic\nHearst attempted to suppress *Citizen Kane*; RKO gave Welles unprecedented creative control never seen before or since for a debut director",
+          "cardFront": "*Citizen Kane*",
+          "cardBack": "Orson Welles"
+        },
+        {
+          "id": "billy-wilder",
+          "prompt": "Which Austrian-American director behind *Double Indemnity*, *Sunset Boulevard*, and *Some Like It Hot* wrote the screenplay for most of his films and is among the most Oscar-honored writer-directors in history?",
+          "answer": "Billy Wilder",
+          "alternates": ["Wilder"],
+          "explanation": "Austrian-born, 1906\u20132002; fled Nazi Germany in 1933, settled in Hollywood\nMaster of both film noir and screwball comedy \u2013 rare facility across genres\nKey films: *Double Indemnity* (1944), *Sunset Boulevard* (1950), *Stalag 17* (1953), *Some Like It Hot* (1959), *The Apartment* (1960)\nWon six Oscars across directing and writing categories\n*Some Like It Hot* (1959) consistently tops 'greatest comedy' polls; *The Apartment* won Best Picture in 1960\nFrequent writing collaborator was I.A.L. Diamond; together they wrote 13 films",
+          "cardFront": "*Sunset Boulevard*",
+          "cardBack": "Billy Wilder"
+        },
+        {
+          "id": "francis-ford-coppola",
+          "prompt": "Which American director created *The Godfather* trilogy and *Apocalypse Now*, winning Best Director for *The Godfather Part II*, but nearly bankrupted himself financing personal projects like *One from the Heart*?",
+          "answer": "Francis Ford Coppola",
+          "alternates": ["Coppola"],
+          "explanation": "American, born 1939; studied at UCLA Film School\nWon Best Director for *The Godfather Part II* (1975); *The Godfather* (1972) lost Best Director to Bob Fosse's *Cabaret*\nKey films: *The Godfather* (1972), *The Godfather Part II* (1974), *The Conversation* (1974), *Apocalypse Now* (1979)\nFounded American Zoetrope studio in 1969 with George Lucas\n*Apocalypse Now* production was notoriously chaotic \u2013 typhoons, Brando's improvisation, Sheen's heart attack \u2013 documented in *Hearts of Darkness* (1991)\nMortgaged his home and winery to finance *Apocalypse Now* and later *One from the Heart* (1982)",
+          "cardFront": "*The Godfather*",
+          "cardBack": "Francis Ford Coppola"
+        },
+        {
+          "id": "jean-luc-godard",
+          "prompt": "Which French-Swiss director's debut *Breathless* (1960) launched the French New Wave, and who later became increasingly experimental and political, making films until age 91?",
+          "answer": "Jean-Luc Godard",
+          "alternates": ["Godard"],
+          "explanation": "French-Swiss, 1930\u20132022; died by assisted suicide in Switzerland at 91\nCo-founded the French New Wave alongside Truffaut, Chabrol, Rohmer, and Rivette\nKey films: *Breathless* (\u00c0 bout de souffle, 1960), *Band of Outsiders* (1964), *Pierrot le Fou* (1965), *Weekend* (1967)\nSignature style: jump cuts, direct address to camera, intertitles, political digression\n*Breathless* was shot handheld on the streets of Paris with available light \u2013 broke virtually every classical Hollywood rule\nQuentin Tarantino named his production company 'A Band Apart' after Godard's *Band of Outsiders*",
+          "cardFront": "*Breathless*",
+          "cardBack": "Jean-Luc Godard"
+        },
+        {
+          "id": "federico-fellini",
+          "prompt": "Which Italian director's surrealist autobiographical style in *La Dolce Vita* and *8\u00bd* coined the adjective 'Felliniesque' and earned him four Best Foreign Language Film Oscars?",
+          "answer": "Federico Fellini",
+          "alternates": ["Fellini"],
+          "explanation": "Italian, 1920\u20131993; born in Rimini; worked extensively in Rome\nWon four Best Foreign Language Film Oscars \u2013 a record\nKey films: *La Strada* (1954), *La Dolce Vita* (1960), *8\u00bd* (1963), *Amarcord* (1973)\n*La Dolce Vita* coined the term 'paparazzi' (the photographer character Paparazzo gave his name to the profession)\n*8\u00bd* is named for the number of films Fellini had directed at that point (6 features + 3 co-directed segments = 8\u00bd)\nWorked frequently with composer Nino Rota, who also scored *The Godfather*",
+          "cardFront": "*8\u00bd*",
+          "cardBack": "Federico Fellini"
+        },
+        {
+          "id": "ingmar-bergman",
+          "prompt": "Which Swedish director's *The Seventh Seal*, *Wild Strawberries*, and *Persona* established him as the preeminent voice in European art cinema, exploring death, faith, and identity?",
+          "answer": "Ingmar Bergman",
+          "alternates": ["Bergman"],
+          "explanation": "Swedish, 1918\u20132007; worked at the Royal Dramatic Theatre as well as in film\nKey films: *The Seventh Seal* (1957), *Wild Strawberries* (1957), *Persona* (1966), *Cries and Whispers* (1972), *Fanny and Alexander* (1982)\nWon three Best Foreign Language Film Oscars: *The Virgin Spring*, *Through a Glass Darkly*, *Fanny and Alexander*\nThe chess match between a knight and Death in *The Seventh Seal* is among cinema's most iconic images\nWorked almost exclusively with Swedish cinematographer Sven Nykvist from 1960 onward\nWoody Allen called him 'probably the greatest film artist since the invention of the cinema'",
+          "cardFront": "*The Seventh Seal*",
+          "cardBack": "Ingmar Bergman"
+        },
+        {
+          "id": "david-lean",
+          "prompt": "Which British director behind *Brief Encounter*, *The Bridge on the River Kwai*, and *Lawrence of Arabia* was the master of the prestige epic, winning Best Director twice?",
+          "answer": "David Lean",
+          "alternates": ["Lean"],
+          "explanation": "British, 1908\u20131991; began career as a film editor before directing\nWon Best Director for *The Bridge on the River Kwai* (1957) and *Lawrence of Arabia* (1962)\nKey films: *Brief Encounter* (1945), *Great Expectations* (1946), *The Bridge on the River Kwai* (1957), *Lawrence of Arabia* (1962), *Doctor Zhivago* (1965)\n*Lawrence of Arabia* stars Peter O'Toole; shot on location in Jordan and Spain; runs 228 minutes\nCinematographer Freddie Young shot both *Lawrence* and *Doctor Zhivago* \u2013 won Oscars for each\n*Lawrence of Arabia* is consistently ranked among the greatest films ever made by critics polls",
+          "cardFront": "*Lawrence of Arabia*",
+          "cardBack": "David Lean"
+        },
+        {
+          "id": "john-ford",
+          "prompt": "Which Irish-American director won Best Director a record four times, for *The Informer*, *The Grapes of Wrath*, *How Green Was My Valley*, and *The Quiet Man*, and defined the Hollywood Western?",
+          "answer": "John Ford",
+          "alternates": ["Ford"],
+          "explanation": "American (Irish descent), 1894\u20131973; shot many Westerns in Monument Valley, Utah\nHolds the record for most Best Director Oscar wins: four\nKey films: *Stagecoach* (1939), *The Grapes of Wrath* (1940), *How Green Was My Valley* (1941), *The Searchers* (1956), *The Quiet Man* (1952)\n*How Green Was My Valley* notoriously beat *Citizen Kane* for Best Picture in 1941\n*The Searchers* (1956), starring John Wayne, is widely regarded as his masterpiece and influenced Spielberg, Scorsese, and Lucas\nLong-time collaborator with John Wayne, who appeared in 24 of his films",
+          "cardFront": "*The Searchers*",
+          "cardBack": "John Ford"
+        },
+        {
+          "id": "quentin-tarantino",
+          "prompt": "Which American director emerged from video store clerking to write and direct *Reservoir Dogs*, *Pulp Fiction*, and *Inglourious Basterds*, known for nonlinear narratives, cinephile dialogue, and stylized violence?",
+          "answer": "Quentin Tarantino",
+          "alternates": ["Tarantino"],
+          "explanation": "American, born 1963; worked at Video Archives in Manhattan Beach, CA before filmmaking\nWon two Best Original Screenplay Oscars: *Pulp Fiction* (1994) and *Django Unchained* (2012)\nKey films: *Reservoir Dogs* (1992), *Pulp Fiction* (1994), *Kill Bill Vol. 1 & 2* (2003\u20132004), *Inglourious Basterds* (2009), *Django Unchained* (2012)\nHas announced plans to retire after his tenth film, citing a desire to go out on top\nFrequently cast actor Samuel L. Jackson, Harvey Keitel, Michael Madsen, and Uma Thurman\n*Pulp Fiction* revived John Travolta's career after years in Hollywood purgatory",
+          "cardFront": "*Pulp Fiction*",
+          "cardBack": "Quentin Tarantino"
+        },
+        {
+          "id": "ridley-scott",
+          "prompt": "Which British director created two of sci-fi's foundational texts \u2013 *Alien* (1979) and *Blade Runner* (1982) \u2013 before moving into historical epics with *Gladiator* and *Kingdom of Heaven*?",
+          "answer": "Ridley Scott",
+          "alternates": ["Scott"],
+          "explanation": "British, born 1937; came from a television commercial directing background\nKnown for meticulous visual world-building and atmospheric production design\nKey films: *Alien* (1979), *Blade Runner* (1982), *Thelma & Louise* (1991), *Gladiator* (2000), *The Martian* (2015)\n*Blade Runner* flopped on release but became one of cinema's most influential films through home video\nWon Best Picture for *Gladiator* (2000); *Gladiator II* released 2024\nBrother of director Tony Scott (*Top Gun*, *Enemy of the State*)",
+          "cardFront": "*Blade Runner*",
+          "cardBack": "Ridley Scott"
+        },
+        {
+          "id": "christopher-nolan",
+          "prompt": "Which British-American director brought intellectual and formal ambition to blockbusters with *Memento*, *The Dark Knight*, *Inception*, and *Interstellar*, finally winning Best Director for *Oppenheimer*?",
+          "answer": "Christopher Nolan",
+          "alternates": ["Nolan"],
+          "explanation": "British-American, born 1970; studied at Cambridge; first feature *Following* made for \u00a36,000\nKey films: *Memento* (2000), *The Dark Knight* (2008), *Inception* (2010), *Interstellar* (2014), *Dunkirk* (2017), *Oppenheimer* (2023)\nWon Best Director and Best Picture for *Oppenheimer* (2024 ceremony) \u2013 his first directing win\n*The Dark Knight* (2008) is widely regarded as the first superhero film to be treated as serious dramatic art\nCommitted advocate for shooting on film rather than digital; uses practical effects over CGI where possible\n*Oppenheimer* shot portions on black-and-white IMAX film stock for the first time in history",
+          "cardFront": "*The Dark Knight*",
+          "cardBack": "Christopher Nolan"
+        },
+        {
+          "id": "jean-renoir",
+          "prompt": "Which French director, son of painter Pierre-Auguste Renoir, made *Grand Illusion* and *The Rules of the Game*, two of the most celebrated European films of the prewar era?",
+          "answer": "Jean Renoir",
+          "alternates": ["Renoir"],
+          "explanation": "French, 1894\u20131979; son of Impressionist painter Pierre-Auguste Renoir\nKey films: *La Chienne* (1931), *Grand Illusion* (1937), *The Rules of the Game* (1939), *The River* (1951)\n*Grand Illusion* was the first foreign-language film nominated for Best Picture at the Academy Awards\n*The Rules of the Game* was initially a commercial and critical failure; it was cut and partly banned; now considered a masterpiece\nOrson Welles called *The Rules of the Game* the greatest film ever made\nFled to America during WWII; later returned to France and Europe",
+          "cardFront": "*The Rules of the Game*",
+          "cardBack": "Jean Renoir"
+        },
+        {
+          "id": "francois-truffaut",
+          "prompt": "Which French critic-turned-director's semi-autobiographical debut *The 400 Blows* launched the French New Wave, and who later explored childhood, love, and filmmaking itself in *Jules and Jim* and *Day for Night*?",
+          "answer": "Fran\u00e7ois Truffaut",
+          "alternates": ["Truffaut", "Francois Truffaut"],
+          "explanation": "French, 1932\u20131984; wrote criticism for Cahiers du Cin\u00e9ma before directing\nCo-founded the French New Wave alongside Godard, Chabrol, Rohmer, and Rivette\nKey films: *The 400 Blows* (1959), *Shoot the Piano Player* (1960), *Jules and Jim* (1962), *Day for Night* (1973)\n*The 400 Blows* drew heavily on his own troubled childhood; protagonist Antoine Doinel became his on-screen alter ego across five films\n*Day for Night* (1973) won Best Foreign Language Film Oscar \u2013 a film about the making of a film\nActed in front of the camera in Spielberg's *Close Encounters of the Third Kind* (1977)",
+          "cardFront": "*The 400 Blows*",
+          "cardBack": "Fran\u00e7ois Truffaut"
+        },
+        {
+          "id": "luis-bunuel",
+          "prompt": "Which Spanish-Mexican director, who co-wrote the surrealist short *Un Chien Andalou* with Salvador Dal\u00ed, spent decades satirizing the bourgeoisie in films like *Belle de Jour* and *The Discreet Charm of the Bourgeoisie*?",
+          "answer": "Luis Bu\u00f1uel",
+          "alternates": ["Bunuel", "Luis Bunuel", "Bu\u00f1uel"],
+          "explanation": "Spanish, 1900\u20131983; exiled from Spain under Franco; worked in Mexico and France\nKey films: *Un Chien Andalou* (1929, with Dal\u00ed), *Los Olvidados* (1950), *Viri\u00e0ana* (1961), *Belle de Jour* (1967), *The Discreet Charm of the Bourgeoisie* (1972)\n*Un Chien Andalou* (1929) opens with a close-up of an eyeball being sliced \u2013 one of cinema's most shocking images\n*The Discreet Charm of the Bourgeoisie* won the 1972 Best Foreign Language Film Oscar\nWon the Palme d'Or at Cannes for *Viri\u00e0ana* (1961), which was banned in Spain under Franco\nObsessions: Catholicism, bourgeois hypocrisy, surrealism, fetishism, and the irrational",
+          "cardFront": "*The Discreet Charm of the Bourgeoisie*",
+          "cardBack": "Luis Bu\u00f1uel"
+        },
+        {
+          "id": "andrei-tarkovsky",
+          "prompt": "Which Soviet director made slow, spiritually dense films including *Andrei Rublev*, *Solaris*, *Stalker*, and *The Mirror*, and is widely considered the greatest filmmaker of the Soviet era?",
+          "answer": "Andrei Tarkovsky",
+          "alternates": ["Tarkovsky"],
+          "explanation": "Soviet Russian, 1932\u20131986; died of lung cancer in Paris at 54\nKey films: *Ivan's Childhood* (1962), *Andrei Rublev* (1966), *Solaris* (1972), *The Mirror* (1975), *Stalker* (1979)\nSignature style: extremely long takes, water and fire imagery, dreams and memory, spiritual yearning\n*Solaris* is frequently compared to Kubrick's *2001* as a meditative sci-fi masterpiece\nFaced constant censorship battles with Soviet authorities; *Andrei Rublev* was shelved for five years\nDefected to the West in 1984; made *The Sacrifice* (1986) in Sweden before dying",
+          "cardFront": "*Stalker*",
+          "cardBack": "Andrei Tarkovsky"
+        }
+      ]
+    },
+    {
+      "id": "film/iconic-films/culturally-iconic",
+      "nodeId": "film/iconic-films",
+      "name": "Iconic Films",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "citizen-kane",
+          "prompt": "Which 1941 Orson Welles film, structured around a reporter's investigation of a dying tycoon's last word 'Rosebud,' is frequently ranked the greatest film ever made but lost Best Picture to *How Green Was My Valley*?",
+          "answer": "Citizen Kane",
+          "alternates": [],
+          "explanation": "Directed by Orson Welles, 1941; Welles was 25 when he made it\nLost Best Picture to John Ford's *How Green Was My Valley*; won only Best Original Screenplay\nRevolutionary deep-focus cinematography by Gregg Toland allowed foreground and background in simultaneous sharp focus\nLoosely based on newspaper magnate William Randolph Hearst, who tried to suppress the film\nTopped the Sight & Sound critics' poll as the greatest film from 1962 to 2012, when it was displaced by *Vertigo*\nThe 'Rosebud' mystery structure and non-linear flashback format were hugely influential on narrative cinema",
+          "cardFront": "1941 \u2013 Orson Welles",
+          "cardBack": "Citizen Kane"
+        },
+        {
+          "id": "sunset-boulevard",
+          "prompt": "Which 1950 Billy Wilder film follows a screenwriter entangled with delusional faded silent star Norma Desmond, famous for the line 'All right, Mr. DeMille, I'm ready for my close-up'?",
+          "answer": "Sunset Boulevard",
+          "alternates": [],
+          "explanation": "Directed by Billy Wilder, 1950; lost Best Picture to *All About Eve* at the same ceremony\nGloria Swanson (a real silent film star) plays Norma Desmond; William Holden plays screenwriter Joe Gillis\nReal silent film stars Buster Keaton, Anna Q. Nilsson, and H.B. Warner appear as Norma's circle ('the waxworks')\nOpens with the narrator already dead, floating in a swimming pool \u2013 one of cinema's boldest structural choices\nCecil B. DeMille appears as himself; the film-within-a-film references Wilder's own screenwriting era\nAFI ranked it #12 on its 100 Greatest American Films list",
+          "cardFront": "1950 \u2013 Billy Wilder",
+          "cardBack": "Sunset Boulevard"
+        },
+        {
+          "id": "singin-in-the-rain",
+          "prompt": "Which 1952 Gene Kelly and Stanley Donen musical, set during Hollywood's transition from silent to sound films, is widely considered the greatest musical ever made but wasn't even nominated for Best Picture?",
+          "answer": "Singin' in the Rain",
+          "alternates": ["Singin in the Rain", "Singing in the Rain"],
+          "explanation": "Directed by Gene Kelly and Stanley Donen, 1952; the year's Best Picture went to *The Greatest Show on Earth*\nNot nominated for Best Picture; received only two Oscar nominations (Supporting Actress, Score)\nGene Kelly choreographed the iconic title number while running a fever of 103\u00b0F\nScreenplay by Betty Comden and Adolph Green; Kelly and Donald O'Connor and Debbie Reynolds star\nDebbie Reynolds was not a trained dancer; Kelly reportedly reduced her to tears during rehearsals\nConsistently tops critics' polls for greatest musical film",
+          "cardFront": "1952 \u2013 Gene Kelly & Stanley Donen",
+          "cardBack": "Singin' in the Rain"
+        },
+        {
+          "id": "vertigo",
+          "prompt": "Which 1958 Hitchcock film, starring James Stewart as a detective who becomes obsessed with a woman resembling a dead lover, topped the Sight & Sound greatest films poll in 2012?",
+          "answer": "Vertigo",
+          "alternates": [],
+          "explanation": "Directed by Alfred Hitchcock, 1958; not nominated for Best Picture\nStars James Stewart as Scottie Ferguson and Kim Novak as Madeleine/Judy\nThe 'dolly zoom' (Vertigo effect) \u2013 simultaneously zooming and dollying in opposite directions \u2013 was invented here by second-unit cameraman Irmin Roberts\nTopped the Sight & Sound critics' poll in 2012 after 50 years of *Citizen Kane* domination\nAbout obsession and the male desire to control and recreate the ideal woman\nHitchcock withheld the film from re-release for years; it was re-released after his death and became a critical landmark",
+          "cardFront": "1958 \u2013 Hitchcock",
+          "cardBack": "Vertigo"
+        },
+        {
+          "id": "psycho",
+          "prompt": "Which 1960 Hitchcock thriller killed its apparent lead character in a shocking shower scene midway through, revolutionizing horror and narrative expectations, while being passed over for Best Picture?",
+          "answer": "Psycho",
+          "alternates": [],
+          "explanation": "Directed by Alfred Hitchcock, 1960; not nominated for Best Picture\nAnthony Perkins as Norman Bates; Janet Leigh as Marion Crane, murdered in the first act\nThe shower scene is edited in approximately 70 cuts over 45 seconds; no knife ever visibly penetrates flesh\nBernard Herrmann's screeching string score is among the most imitated in film history\nFirst mainstream American film to show a toilet flushing onscreen\nHitchcock bought the rights to Robert Bloch's source novel for $9,000 to prevent spoiler leaks",
+          "cardFront": "1960 \u2013 Hitchcock",
+          "cardBack": "Psycho"
+        },
+        {
+          "id": "dr-strangelove",
+          "prompt": "Which 1964 Kubrick Cold War satire, in which Peter Sellers plays three roles and nuclear deterrence spirals into absurd catastrophe, was nominated for Best Picture but lost to *My Fair Lady*?",
+          "answer": "Dr. Strangelove",
+          "alternates": ["Doctor Strangelove", "Dr Strangelove"],
+          "explanation": "Directed by Stanley Kubrick, 1964; lost Best Picture to *My Fair Lady*\nPeter Sellers plays President Merkin Muffley, Group Captain Lionel Mandrake, and Dr. Strangelove himself\nBased on Peter George's serious Cold War thriller *Red Alert*; Kubrick and Terry Southern rewrote it as dark comedy\n'Gentlemen, you can't fight in here \u2013 this is the War Room!' is one of cinema's great comic lines\nOriginally featured a pie fight finale in the War Room that was cut; Kubrick deemed it too farcical\nMade at Shepperton Studios, England; Kubrick never returned to the United States after the early 1960s",
+          "cardFront": "1964 \u2013 Kubrick",
+          "cardBack": "Dr. Strangelove"
+        },
+        {
+          "id": "2001-a-space-odyssey",
+          "prompt": "Which 1968 Kubrick sci-fi epic, tracing humanity from prehistoric apes to a psychedelic journey beyond Jupiter, features the murderous AI HAL 9000 and contains almost no dialogue for its first and last half-hours?",
+          "answer": "2001: A Space Odyssey",
+          "alternates": ["2001", "2001 A Space Odyssey"],
+          "explanation": "Directed by Stanley Kubrick, 1968; lost Best Picture to *Oliver!*\nThe jump cut from a bone to an orbiting satellite is one of cinema's longest-spanning and most celebrated edits\nHAL 9000 (voiced by Douglas Rain) is cinema's most iconic artificial intelligence\nKubrick destroyed most of the production models after filming to prevent copies and knock-offs\nThe cryptic ending deliberately resists explanation; Kubrick refused to interpret it\nWon only one Oscar: Best Visual Effects; Kubrick designed custom lenses with NASA to achieve realistic space photography",
+          "cardFront": "1968 \u2013 Kubrick",
+          "cardBack": "2001: A Space Odyssey"
+        },
+        {
+          "id": "wizard-of-oz",
+          "prompt": "Which 1939 Victor Fleming musical fantasy, starring a 16-year-old Judy Garland, lost Best Picture to *Gone with the Wind* (released the same year) but won Best Original Score and Best Original Song?",
+          "answer": "The Wizard of Oz",
+          "alternates": ["Wizard of Oz"],
+          "explanation": "Directed by Victor Fleming, 1939; lost Best Picture to *Gone with the Wind* at the same ceremony\nJudy Garland was 16; wore tight corsets to make her look younger; the filming was notoriously difficult\n'Over the Rainbow' won Best Original Song; Garland received an Honorary Juvenile Oscar\nFilmed in sepia-toned black and white for Kansas and three-strip Technicolor for Oz \u2013 the color contrast was deliberate\n'Toto, I've a feeling we're not in Kansas anymore' \u2013 AFI's #4 greatest movie quote\nThe ruby slippers were silver in L. Frank Baum's original novel; changed to red to showcase Technicolor",
+          "cardFront": "1939 \u2013 Victor Fleming",
+          "cardBack": "The Wizard of Oz"
+        },
+        {
+          "id": "taxi-driver",
+          "prompt": "Which 1976 Martin Scorsese film, starring Robert De Niro as alienated Vietnam vet Travis Bickle prowling the streets of New York, won the Palme d'Or at Cannes but lost Best Picture to *Rocky*?",
+          "answer": "Taxi Driver",
+          "alternates": [],
+          "explanation": "Directed by Martin Scorsese, 1976; won the Palme d'Or at Cannes; lost Best Picture to *Rocky*\nRobert De Niro as Travis Bickle; Jodie Foster plays 12-year-old prostitute Iris in her breakthrough role\n'You talkin' to me?' was largely improvised by De Niro in front of a mirror\nJohn Hinckley Jr. was obsessed with the film and shot President Reagan in 1981 to impress Jodie Foster\nCinematographer Michael Chapman shot New York at its most squalid; Bernard Herrmann composed his final score before his death\nMartin Scorsese plays a passenger in the cab who describes his murderous fantasies",
+          "cardFront": "1976 \u2013 Scorsese",
+          "cardBack": "Taxi Driver"
+        },
+        {
+          "id": "apocalypse-now",
+          "prompt": "Which 1979 Francis Ford Coppola Vietnam War film, based on Conrad's *Heart of Darkness* and starring Martin Sheen and Marlon Brando, lost Best Picture to *Kramer vs. Kramer* but won Best Cinematography?",
+          "answer": "Apocalypse Now",
+          "alternates": [],
+          "explanation": "Directed by Francis Ford Coppola, 1979; lost Best Picture to *Kramer vs. Kramer*\nBased on Joseph Conrad's novella *Heart of Darkness*; stars Martin Sheen as Capt. Willard and Brando as Col. Kurtz\nWon Oscars for Best Cinematography (Vittorio Storaro) and Best Sound\nProduction was catastrophic: typhoon destroyed sets, Sheen had a heart attack, Brando arrived 40+ lbs overweight and refused to read the script\nDocumented in Eleanor Coppola's *Hearts of Darkness: A Filmmaker's Apocalypse* (1991)\n'I love the smell of napalm in the morning' (Robert Duvall as Lt. Col. Kilgore) is among cinema's most quoted lines",
+          "cardFront": "1979 \u2013 Coppola",
+          "cardBack": "Apocalypse Now"
+        },
+        {
+          "id": "raging-bull",
+          "prompt": "Which 1980 Martin Scorsese film, shot in black and white, follows boxer Jake LaMotta's self-destructive career, with Robert De Niro winning Best Actor after gaining 60 pounds for the role?",
+          "answer": "Raging Bull",
+          "alternates": [],
+          "explanation": "Directed by Martin Scorsese, 1980; lost Best Picture to *Ordinary People*\nShot in black and white by choice (not budget); Scorsese felt color would make the blood look too operatic\nDe Niro gained approximately 60 lbs to play the older LaMotta; won Best Actor\nBased on Jake LaMotta's 1970 autobiography; LaMotta was still alive and appeared briefly on set\nRoger Ebert later called it the greatest film of the 1980s; it ranked #4 on Sight & Sound's 2022 poll\nScorsese has said he made the film as a form of personal catharsis after his own near-fatal drug overdose in 1978",
+          "cardFront": "1980 \u2013 Scorsese",
+          "cardBack": "Raging Bull"
+        },
+        {
+          "id": "blade-runner",
+          "prompt": "Which 1982 Ridley Scott sci-fi film, adapted from Philip K. Dick's *Do Androids Dream of Electric Sheep?*, stars Harrison Ford as a detective hunting rogue androids in a rain-drenched 2019 Los Angeles?",
+          "answer": "Blade Runner",
+          "alternates": [],
+          "explanation": "Directed by Ridley Scott, 1982; not nominated for Best Picture\nHarrison Ford as Rick Deckard; Rutger Hauer as Roy Batty; Sean Young as Rachael\nRutger Hauer largely improvised the 'tears in rain' final monologue the night before it was filmed\nStudio interference produced a narrated theatrical cut; Ridley Scott's 'Final Cut' (2007) is now considered definitive\nSet in Los Angeles, November 2019; the retrofitted future aesthetic influenced virtually all subsequent sci-fi production design\nBased on Philip K. Dick's 1968 novel; Dick died in March 1982, months before the film's release, having seen early footage",
+          "cardFront": "1982 \u2013 Ridley Scott",
+          "cardBack": "Blade Runner"
+        },
+        {
+          "id": "et",
+          "prompt": "Which 1982 Steven Spielberg film about a boy who befriends a stranded alien was the highest-grossing film of all time until *Return of the Jedi* (1983), nominated for Best Picture but losing to *Gandhi*?",
+          "answer": "E.T. the Extra-Terrestrial",
+          "alternates": ["E.T.", "ET", "E.T. the Extra Terrestrial"],
+          "explanation": "Directed by Steven Spielberg, 1982; nominated for Best Picture, lost to *Gandhi*\nThe highest-grossing film of all time at its release; grossed $792 million worldwide on a $10.5 million budget\nJohn Williams' score is among his most celebrated; the bicycle-against-the-moon silhouette became Amblin Entertainment's logo\n'E.T. phone home' (spoken by the alien) ranked #15 on AFI's 100 greatest movie quotes\nSpielberg later expressed regret about digitally replacing guns with walkie-talkies in the 2002 re-release; the original version is now standard\nHenry Thomas (Elliott) was cast after an improvised audition that moved Spielberg to tears",
+          "cardFront": "1982 \u2013 Spielberg",
+          "cardBack": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "id": "goodfellas",
+          "prompt": "Which 1990 Martin Scorsese crime epic, starring Ray Liotta, Robert De Niro, and Joe Pesci, follows Henry Hill's life inside the mob and is frequently cited as the greatest crime film ever made?",
+          "answer": "Goodfellas",
+          "alternates": [],
+          "explanation": "Directed by Martin Scorsese, 1990; lost Best Picture to *Dances with Wolves*\nJoe Pesci won Best Supporting Actor; the only Oscar won despite near-universal critical acclaim\nThe five-minute Copacabana tracking shot was filmed in one continuous take and required weeks of preparation\nBased on Henry Hill's real life; Hill became a DEA informant and entered witness protection\nThe 'Funny how?' scene between Pesci and Liotta was largely improvised; it originated from a real incident Pesci experienced\nRanked #2 on the AFI's 100 Greatest American Films (10th anniversary edition)",
+          "cardFront": "1990 \u2013 Scorsese",
+          "cardBack": "Goodfellas"
+        },
+        {
+          "id": "pulp-fiction",
+          "prompt": "Which 1994 Quentin Tarantino film, with interlocking non-linear stories featuring hitmen, a boxer, and a gangster's wife, won the Palme d'Or at Cannes but lost Best Picture to *Forrest Gump*?",
+          "answer": "Pulp Fiction",
+          "alternates": [],
+          "explanation": "Directed by Quentin Tarantino, 1994; won the Palme d'Or at Cannes; lost Best Picture to *Forrest Gump*\nWon Best Original Screenplay; grossed $214 million worldwide on an $8 million budget\nRevived John Travolta's career; Samuel L. Jackson's Jules recites a modified version of Ezekiel 25:17\nNon-linear structure: scenes are presented out of chronological order, looping back to the diner robbery from the opening\nHarvey Weinstein and Miramax acquired distribution rights at Sundance for $900,000 \u2013 the deal that made both careers\nCast includes Bruce Willis, Harvey Keitel, Uma Thurman, Ving Rhames, and Christopher Walken",
+          "cardFront": "1994 \u2013 Tarantino",
+          "cardBack": "Pulp Fiction"
+        },
+        {
+          "id": "shawshank-redemption",
+          "prompt": "Which 1994 Frank Darabont prison drama, starring Tim Robbins and Morgan Freeman, received seven Oscar nominations but won none, grossed only $16 million in theaters, and became the #1 rated film on IMDb?",
+          "answer": "The Shawshank Redemption",
+          "alternates": ["Shawshank Redemption"],
+          "explanation": "Directed by Frank Darabont, 1994; nominated for 7 Oscars, won none; lost Best Picture to *Forrest Gump*\nGrossed only $16 million during its theatrical run \u2013 a box-office disappointment\nBecame ubiquitous on cable TV (TNT) and video rental; steadily climbed to #1 on IMDb (rated 9.3/10 by millions of users)\nBased on Stephen King's 1982 novella *Rita Hayworth and Shawshank Redemption*\nTim Robbins as Andy Dufresne, wrongly convicted of murder; Morgan Freeman as Red\nFilmed at the Ohio State Reformatory in Mansfield, Ohio, a real former prison",
+          "cardFront": "1994 \u2013 Frank Darabont",
+          "cardBack": "The Shawshank Redemption"
+        },
+        {
+          "id": "fight-club",
+          "prompt": "Which 1999 David Fincher film, starring Brad Pitt and Edward Norton, bombed at the US box office but became a massive cult classic on DVD, with a twist about the true identity of Tyler Durden?",
+          "answer": "Fight Club",
+          "alternates": [],
+          "explanation": "Directed by David Fincher, 1999; not nominated for Best Picture\nGrossed only $37 million domestically on a $63 million budget; critics were divided; became a cultural phenomenon on DVD\nBrad Pitt as Tyler Durden; Edward Norton as the unnamed narrator; Helena Bonham Carter as Marla Singer\nBased on Chuck Palahniuk's 1996 novel\nFincher embedded a single frame of Tyler Durden at four points earlier in the film before his introduction\nThe phrase 'First rule of Fight Club' became one of the most repeated pop-culture catchphrases of the 2000s",
+          "cardFront": "1999 \u2013 David Fincher",
+          "cardBack": "Fight Club"
+        },
+        {
+          "id": "the-dark-knight",
+          "prompt": "Which 2008 Christopher Nolan superhero film, featuring Heath Ledger's posthumous Oscar-winning turn as the Joker, was controversially snubbed for Best Picture, helping prompt the Academy to expand nominations to ten?",
+          "answer": "The Dark Knight",
+          "alternates": [],
+          "explanation": "Directed by Christopher Nolan, 2008; not nominated for Best Picture despite widespread critical acclaim\nHeath Ledger won Best Supporting Actor posthumously; he died of an accidental drug overdose during post-production in January 2008\nPublic outcry over the snub led the Academy to expand Best Picture nominees from 5 to up to 10 starting the following year\nGrossed $1 billion worldwide; second Batman film in Nolan's trilogy, following *Batman Begins* (2005)\nRobert Downey Jr., Philip Seymour Hoffman, and Josh Brolin were all among actors considered for the Joker role\n'Why so serious?' became one of the most quoted lines of the late 2000s",
+          "cardFront": "2008 \u2013 Nolan",
+          "cardBack": "The Dark Knight"
+        },
+        {
+          "id": "mulholland-drive",
+          "prompt": "Which 2001 David Lynch surrealist mystery about an aspiring actress and an amnesiac woman in Hollywood began as a rejected ABC TV pilot and topped multiple 21st-century greatest films polls?",
+          "answer": "Mulholland Drive",
+          "alternates": ["Mulholland Dr."],
+          "explanation": "Directed by David Lynch, 2001; not nominated for Best Picture; Lynch won Best Director at Cannes\nBegan as a TV pilot for ABC, which rejected it; Lynch shot additional footage to expand it into a feature\nNaomi Watts's breakthrough role; Laura Harring plays the amnesiac 'Rita'\nFrequently tops 21st-century film polls: ranked #1 in the BBC's 2016 poll of the greatest films since 2000\nThe blue box and key in the second half remain among cinema's most debated unresolved symbols\nLynch refused all interviews explaining the film's meaning, saying any definitive interpretation would ruin it",
+          "cardFront": "2001 \u2013 David Lynch",
+          "cardBack": "Mulholland Drive"
+        },
+        {
+          "id": "eternal-sunshine",
+          "prompt": "Which 2004 Michel Gondry film, written by Charlie Kaufman, stars Jim Carrey and Kate Winslet as a couple who undergo a procedure to erase each other from memory, told in reverse-chronological fragments?",
+          "answer": "Eternal Sunshine of the Spotless Mind",
+          "alternates": ["Eternal Sunshine"],
+          "explanation": "Directed by Michel Gondry, 2004; not nominated for Best Picture; won Best Original Screenplay (Charlie Kaufman)\nJim Carrey as Joel Barish; Kate Winslet as Clementine; Tom Wilkinson, Mark Ruffalo, Elijah Wood in supporting roles\nTitle taken from Alexander Pope's 1717 poem 'Eloisa to Abelard'\nNarrative runs largely backwards through Joel's memories as they are systematically erased\nKaufman wrote the script partly after his own experiences with a bad breakup; considered his most emotionally direct screenplay\nMichel Gondry used in-camera practical effects rather than digital compositing for the memory-erasure sequences",
+          "cardFront": "2004 \u2013 Michel Gondry",
+          "cardBack": "Eternal Sunshine of the Spotless Mind"
+        }
+      ]
+    },
+    {
+      "id": "film/quotes/famous-quotes",
+      "nodeId": "film/quotes",
+      "name": "Famous Movie Quotes",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "heres-looking-at-you",
+          "prompt": "Humphrey Bogart's Rick Blaine says 'Here's looking at you, kid' to Ingrid Bergman's Ilsa in which classic 1942 wartime romance?",
+          "answer": "Casablanca",
+          "alternates": [],
+          "explanation": "AFI's #5 greatest movie quote\nOften misremembered as 'Here's looking at you, sweetheart' \u2013 that line is never spoken in the film\nBogart reportedly taught Bergman poker between takes; the phrase began as a playful aside\nDirected by Michael Curtiz; set in French Morocco; Rick owns Caf\u00e9 Americain",
+          "cardFront": "\"Here's looking at you, kid\"",
+          "cardBack": "Casablanca"
+        },
+        {
+          "id": "you-talkin-to-me",
+          "prompt": "Robert De Niro's Travis Bickle speaks to his own reflection in the mirror with 'You talkin' to me?' in which 1976 Scorsese film set in a decaying New York City?",
+          "answer": "Taxi Driver",
+          "alternates": [],
+          "explanation": "AFI's #10 greatest movie quote\nLargely improvised by De Niro; the screenplay only said 'Travis talks to himself in the mirror'\nJohn Hinckley Jr. was obsessed with this film and shot President Reagan in 1981, claiming he did it to impress Jodie Foster\nDirected by Martin Scorsese; screenplay by Paul Schrader",
+          "cardFront": "\"You talkin' to me?\"",
+          "cardBack": "Taxi Driver"
+        },
+        {
+          "id": "ill-be-back",
+          "prompt": "Arnold Schwarzenegger's T-800 Terminator says 'I'll be back' as a threat at a police station in which 1984 James Cameron science fiction film?",
+          "answer": "The Terminator",
+          "alternates": ["Terminator"],
+          "explanation": "AFI's #37 greatest movie quote\nSchwarzenegger reportedly wanted to say 'I will be back' for better diction; Cameron insisted on the contraction\nThe T-800 then drives a car through the police station, fulfilling the threat literally\nJames Cameron's breakthrough directorial feature; budget was approximately $6 million",
+          "cardFront": "\"I'll be back\"",
+          "cardBack": "The Terminator"
+        },
+        {
+          "id": "cant-handle-the-truth",
+          "prompt": "Jack Nicholson's Col. Jessup delivers 'You can't handle the truth!' during a courtroom confrontation with Tom Cruise's Lt. Kaffee in which 1992 Rob Reiner military courtroom drama?",
+          "answer": "A Few Good Men",
+          "alternates": [],
+          "explanation": "Often misquoted with a preceding 'You want the truth?' \u2013 Nicholson never asks that question; he goes straight to the declaration\nScreenplay by Aaron Sorkin, adapting his own Broadway play\nCo-stars Tom Cruise, Demi Moore, Kevin Bacon, and Kevin Pollak\nNicholson received a Best Supporting Actor nomination",
+          "cardFront": "\"You can't handle the truth!\"",
+          "cardBack": "A Few Good Men"
+        },
+        {
+          "id": "bond-james-bond",
+          "prompt": "Sean Connery's spy introduces himself with 'Bond. James Bond.' at a baccarat table in which 1962 spy film, the first in the official EON Productions franchise?",
+          "answer": "Dr. No",
+          "alternates": ["Doctor No"],
+          "explanation": "AFI's #22 greatest movie quote\nFirst line Bond speaks in the official franchise; said while playing chemin de fer against Sylvia Trench\nUsed in every official Bond film since; each actor's delivery is closely watched by fans\nDirected by Terence Young; based on Ian Fleming's 1958 novel; filmed in Jamaica and Pinewood Studios",
+          "cardFront": "\"Bond. James Bond.\"",
+          "cardBack": "Dr. No"
+        },
+        {
+          "id": "no-place-like-home",
+          "prompt": "Judy Garland's Dorothy clicks her ruby slippers and repeats 'There's no place like home' three times in which 1939 Victor Fleming musical fantasy?",
+          "answer": "The Wizard of Oz",
+          "alternates": ["Wizard of Oz"],
+          "explanation": "AFI's #23 greatest movie quote\nIn L. Frank Baum's original 1900 novel, the magical shoes are silver, not ruby; they were changed to red to showcase three-strip Technicolor\nDorothy repeats the phrase exactly three times with eyes closed while Glinda's magic sends her home\nJudy Garland was 16 during filming; the role launched her as a major star",
+          "cardFront": "\"There's no place like home\"",
+          "cardBack": "The Wizard of Oz"
+        },
+        {
+          "id": "may-the-force",
+          "prompt": "'May the Force be with you' is the defining blessing of which 1977 George Lucas space opera, first spoken by General Dodonna before the attack on the Death Star?",
+          "answer": "Star Wars",
+          "alternates": ["Star Wars: A New Hope", "A New Hope"],
+          "explanation": "AFI's #8 greatest movie quote\nFirst spoken by General Dodonna during the briefing before the Battle of Yavin; most associated with Obi-Wan and Han Solo\n'May the 4th Be With You' is now celebrated annually as Star Wars Day\nThe phrase has entered general cultural usage as a farewell or encouragement",
+          "cardFront": "\"May the Force be with you\"",
+          "cardBack": "Star Wars"
+        },
+        {
+          "id": "offer-he-cant-refuse",
+          "prompt": "Marlon Brando's Vito Corleone explains his negotiating philosophy with 'I'm gonna make him an offer he can't refuse' in which 1972 Francis Ford Coppola crime epic?",
+          "answer": "The Godfather",
+          "alternates": ["Godfather"],
+          "explanation": "AFI's #2 greatest movie quote (behind 'Frankly, my dear, I don't give a damn')\nThe offer in question is placing a severed horse's head in a movie producer's bed to persuade him to cast Johnny Fontane\nBrando improvised much of his performance, including stuffing his cheeks with cotton (later a custom dental appliance) to achieve Vito's distinctive voice\nThe line is repeated later in the film by Michael Corleone, showing his transformation",
+          "cardFront": "\"I'm gonna make him an offer he can't refuse\"",
+          "cardBack": "The Godfather"
+        },
+        {
+          "id": "et-phone-home",
+          "prompt": "The alien protagonist speaks 'E.T. phone home' while trying to contact his home planet in which 1982 Steven Spielberg science fiction film?",
+          "answer": "E.T. the Extra-Terrestrial",
+          "alternates": ["E.T.", "ET"],
+          "explanation": "AFI's #15 greatest movie quote\nSpoken by the alien character, not a human \u2013 one of cinema's most recognized lines delivered by a non-human voice\nE.T.'s voice was created by a combination of actress Debra Winger's voice and the voices of elderly women\nDirected by Spielberg; screenplay by Melissa Mathison",
+          "cardFront": "\"E.T. phone home\"",
+          "cardBack": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "id": "heres-johnny",
+          "prompt": "Jack Nicholson's Jack Torrance axes through a bathroom door and leers 'Here's Johnny!' in which 1980 Stanley Kubrick horror film set at the snowbound Overlook Hotel?",
+          "answer": "The Shining",
+          "alternates": [],
+          "explanation": "AFI's #68 greatest movie quote\nImprovised by Nicholson; references Ed McMahon's nightly introduction of Johnny Carson on *The Tonight Show*\nKubrick insisted on 60+ takes of the door-chopping scene; Nicholson, who had worked as a fireman, kept chopping through the door too quickly\nBased on Stephen King's 1977 novel; King has famously expressed dissatisfaction with Kubrick's adaptation",
+          "cardFront": "\"Here's Johnny!\"",
+          "cardBack": "The Shining"
+        },
+        {
+          "id": "bigger-boat",
+          "prompt": "Roy Scheider's Police Chief Brody, upon seeing the shark for the first time, ad-libs 'You're gonna need a bigger boat' in which 1975 Steven Spielberg thriller?",
+          "answer": "Jaws",
+          "alternates": [],
+          "explanation": "AFI's #35 greatest movie quote\nAd-libbed by Roy Scheider on set; not in Peter Benchley's screenplay\nThe mechanical shark ('Bruce') frequently malfunctioned, forcing Spielberg to suggest the shark rather than show it \u2013 which made the film far more frightening\nBecame cultural shorthand for being inadequately prepared for a problem",
+          "cardFront": "\"You're gonna need a bigger boat\"",
+          "cardBack": "Jaws"
+        },
+        {
+          "id": "stinking-paws",
+          "prompt": "Charlton Heston's astronaut Taylor screams 'Get your stinking paws off me, you damned dirty ape!' at his captors in which 1968 science fiction film with a famous Statue of Liberty twist ending?",
+          "answer": "Planet of the Apes",
+          "alternates": [],
+          "explanation": "AFI's #66 greatest movie quote\nDirected by Franklin J. Schaffner, 1968; based on Pierre Boulle's 1963 novel\nThe film's twist ending \u2013 Taylor finding a half-buried Statue of Liberty, revealing he never left Earth \u2013 is among cinema's most famous reveals\nCharlton Heston stars as Capt. Taylor; Roddy McDowall and Kim Hunter play sympathetic apes",
+          "cardFront": "\"Get your stinking paws off me, you damned dirty ape!\"",
+          "cardBack": "Planet of the Apes"
+        },
+        {
+          "id": "i-see-dead-people",
+          "prompt": "Eleven-year-old Haley Joel Osment whispers 'I see dead people' to Bruce Willis's child psychologist in which 1999 M. Night Shyamalan supernatural thriller?",
+          "answer": "The Sixth Sense",
+          "alternates": [],
+          "explanation": "Directed by M. Night Shyamalan, 1999; nominated for six Oscars including Best Picture\nHaley Joel Osment was 11 years old; received a Best Supporting Actor nomination\nThe film's twist \u2013 that Malcolm Crowe (Willis) is himself one of the dead people Cole sees \u2013 is among the most discussed in modern cinema\nGrossed $672 million worldwide on a $40 million budget",
+          "cardFront": "\"I see dead people\"",
+          "cardBack": "The Sixth Sense"
+        },
+        {
+          "id": "to-infinity-and-beyond",
+          "prompt": "Tim Allen voices space ranger Buzz Lightyear declaring 'To infinity and beyond!' in which 1995 Pixar film, the first fully computer-animated feature?",
+          "answer": "Toy Story",
+          "alternates": [],
+          "explanation": "Directed by John Lasseter; Pixar's first feature film and the first fully computer-animated feature released theatrically\nBuzz Lightyear was partly inspired by NASA astronaut Buzz Aldrin; the name is a tribute to Aldrin\nTom Hanks voices Woody alongside Tim Allen's Buzz; the voice casting was central to the film's success\nThe phrase became a ubiquitous cultural catchphrase; Buzz Aldrin has embraced it publicly",
+          "cardFront": "\"To infinity and beyond!\"",
+          "cardBack": "Toy Story"
+        },
+        {
+          "id": "failure-to-communicate",
+          "prompt": "Strother Martin's prison warden drawls 'What we've got here is a failure to communicate' to Paul Newman's rebellious prisoner Luke in which 1967 drama?",
+          "answer": "Cool Hand Luke",
+          "alternates": [],
+          "explanation": "AFI's #11 greatest movie quote\nDirected by Stuart Rosenberg, 1967; Paul Newman plays Luke Jackson, sentenced to a Florida prison camp\nStrother Martin plays the Captain; the line has become a metaphor for institutional indifference to individual expression\nNewman received a Best Actor nomination; George Kennedy won Best Supporting Actor\nThe film is famous for the hard-boiled egg eating contest: Luke eats 50 eggs in an hour",
+          "cardFront": "\"What we've got here is a failure to communicate\"",
+          "cardBack": "Cool Hand Luke"
+        }
+      ]
+    },
+    {
+      "id": "film/oscars/awards-records",
+      "nodeId": "film/oscars",
+      "name": "Film Awards & Records",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "most-oscar-wins-single-film",
+          "prompt": "Three films share the all-time record for most Oscar wins by a single film, each winning 11: *Ben-Hur* (1959), *Titanic* (1997), and which 2003 Peter Jackson epic that swept every category it was nominated in?",
+          "answer": "The Lord of the Rings: The Return of the King",
+          "alternates": ["Return of the King", "The Return of the King", "Lord of the Rings: The Return of the King"],
+          "explanation": "All three films won 11 Oscars: *Ben-Hur* from 12 nominations, *Titanic* from 14 nominations, *Return of the King* from 11 nominations (11 for 11 \u2013 perfect sweep)\n*The Return of the King* is the only film to win every Oscar for which it was nominated\nDirected by Peter Jackson; the third installment of the *Lord of the Rings* trilogy\nAlso the only sequel (with *The Godfather Part II*) to win Best Picture",
+          "cardFront": "Most Oscar wins, single film (tied record)",
+          "cardBack": "The Lord of the Rings: The Return of the King"
+        },
+        {
+          "id": "most-oscar-nominations-single-film",
+          "prompt": "Two films share the all-time record for most Oscar nominations (14): *La La Land* (2016) and which 1950 Joseph L. Mankiewicz backstage drama about Broadway ambition that also won Best Picture?",
+          "answer": "All About Eve",
+          "alternates": ["La La Land"],
+          "explanation": "Both *All About Eve* (1950) and *La La Land* (2016) received 14 nominations \u2013 the most ever for a single film\n*All About Eve* won six Oscars from its 14 nominations including Best Picture; *La La Land* won six from 14 but lost Best Picture to *Moonlight*\n*All About Eve* directed by Joseph L. Mankiewicz; stars Bette Davis as aging actress Margo Channing and Anne Baxter as scheming ingenue Eve Harrington\nAt the same ceremony, *All About Eve* competed against *Sunset Boulevard* \u2013 one of the greatest Best Picture fields ever assembled",
+          "cardFront": "Most Oscar nominations, single film (tied record)",
+          "cardBack": "All About Eve"
+        },
+        {
+          "id": "most-best-actress-wins",
+          "prompt": "Which actress holds the record for most Best Actress Oscar wins with four, for *Morning Glory* (1933), *Guess Who's Coming to Dinner* (1967), *The Lion in Winter* (1968), and *On Golden Pond* (1981)?",
+          "answer": "Katharine Hepburn",
+          "alternates": ["Hepburn"],
+          "explanation": "Won Best Actress four times \u2013 a record no other actor has matched in any category\nHer 1968 win for *The Lion in Winter* was a tie with Barbra Streisand (*Funny Girl*) \u2013 the only tied Best Actress result in Oscar history\nReceived 12 acting nominations over a 48-year span (1933\u20131981)\nKnown for her independent persona and refusal to comply with Hollywood's studio system expectations\nHer fourth win came 48 years after her first \u2013 the longest span between first and last wins",
+          "cardFront": "Most Best Actress Oscar wins",
+          "cardBack": "Katharine Hepburn"
+        },
+        {
+          "id": "most-best-actor-wins",
+          "prompt": "Which actor holds the record for most Best Actor Oscar wins with three, for *My Left Foot* (1989), *There Will Be Blood* (2007), and *Lincoln* (2012)?",
+          "answer": "Daniel Day-Lewis",
+          "alternates": ["Day-Lewis"],
+          "explanation": "Unique record: the only person ever to win Best Actor three times\nKnown for extreme method acting: learned to speak Gaelic and stayed in a wheelchair for *My Left Foot*; refused to break character on *Gangs of New York* or *There Will Be Blood*\nAnnounced retirement from acting in 2017 after *Phantom Thread*\nBorn in London; holds dual British-Irish citizenship; son of Poet Laureate Cecil Day-Lewis",
+          "cardFront": "Most Best Actor Oscar wins",
+          "cardBack": "Daniel Day-Lewis"
+        },
+        {
+          "id": "most-acting-nominations-woman",
+          "prompt": "Which actress holds the record for most Oscar nominations in acting with 21, winning three times for *Kramer vs. Kramer* (1979), *Sophie's Choice* (1982), and *The Iron Lady* (2011)?",
+          "answer": "Meryl Streep",
+          "alternates": ["Streep"],
+          "explanation": "21 acting nominations \u2013 far more than any other performer; also holds the record for most nominations overall among actors\nThree wins: Best Supporting Actress (*Kramer vs. Kramer*), Best Actress (*Sophie's Choice*, *The Iron Lady*)\nFirst nomination in 1978 (*The Deer Hunter*); most recent major nomination in 2023 (*She Said* did not receive one; most recent was *The Post*, 2018)\nWidely regarded as the greatest living actress; fluent in German, Polish, and Italian for various roles\nOnce told at a Universal audition she was 'not pretty enough'; she proved otherwise over a 50-year career",
+          "cardFront": "Most Oscar nominations, actress (acting)",
+          "cardBack": "Meryl Streep"
+        },
+        {
+          "id": "most-best-director-wins",
+          "prompt": "Which director holds the record for most Best Director Oscar wins with four, for *The Informer* (1935), *The Grapes of Wrath* (1940), *How Green Was My Valley* (1941), and *The Quiet Man* (1952)?",
+          "answer": "John Ford",
+          "alternates": ["Ford"],
+          "explanation": "Holds the record for most Best Director wins: four\nBorn Sean Aloysius O'Fearna in Cape Elizabeth, Maine, to Irish immigrant parents\n*How Green Was My Valley* (1941) famously defeated *Citizen Kane* for Best Picture\nDefined the Hollywood Western: Monument Valley, Utah became his visual signature through films like *Stagecoach* and *The Searchers*\nServed in the U.S. Navy during WWII; filmed the Battle of Midway and was wounded; received Navy Cross",
+          "cardFront": "Most Best Director Oscar wins",
+          "cardBack": "John Ford"
+        },
+        {
+          "id": "first-big-five-sweep",
+          "prompt": "Which 1934 Frank Capra romantic comedy starring Clark Gable and Claudette Colbert was the first film to sweep the 'Big Five' Oscars (Picture, Director, Actor, Actress, Screenplay)?",
+          "answer": "It Happened One Night",
+          "alternates": [],
+          "explanation": "Directed by Frank Capra, 1934; starring Clark Gable (a spoiled heiress on the run) and Claudette Colbert\nOnly three films have ever swept the Big Five: *It Happened One Night* (1934), *One Flew Over the Cuckoo's Nest* (1975), and *The Silence of the Lambs* (1991)\nColbert reportedly hated making the film and demanded double her normal fee; the film made her an A-list star\nThe 'walls of Jericho' blanket scene sparked a brief decline in men's undershirt sales after Gable removed his shirt and wore none",
+          "cardFront": "First film to sweep the 'Big Five' Oscars",
+          "cardBack": "It Happened One Night"
+        },
+        {
+          "id": "youngest-supporting-actress",
+          "prompt": "Which actress became the youngest Oscar winner ever when she won Best Supporting Actress at age 10 for *Paper Moon* (1973), co-starring with her father Ryan O'Neal?",
+          "answer": "Tatum O'Neal",
+          "alternates": ["O'Neal"],
+          "explanation": "Won at age 10 years and 148 days \u2013 still the youngest competitive Oscar winner in history\n*Paper Moon* directed by Peter Bogdanovich; Tatum plays Addie Loggins, a Depression-era con artist's companion\nRyan O'Neal, her real father, plays Moses Pray; she outacted him so thoroughly that his nomination never materialized\nLater starred in *The Bad News Bears* (1976) before a troubled personal life overshadowed her career",
+          "cardFront": "Youngest Oscar winner ever",
+          "cardBack": "Tatum O'Neal"
+        },
+        {
+          "id": "most-oscars-without-best-picture",
+          "prompt": "Which 1972 Bob Fosse musical won 8 Oscars including Best Director, Best Actress (Liza Minnelli), and Best Supporting Actor (Joel Grey) but lost Best Picture to *The Godfather*?",
+          "answer": "Cabaret",
+          "alternates": [],
+          "explanation": "Directed by Bob Fosse, 1972; won 8 Oscars from 10 nominations \u2013 the most wins by a film that did not win Best Picture\nLiza Minnelli won Best Actress; Joel Grey won Best Supporting Actor; Fosse won Best Director\n*The Godfather* won Best Picture the same year despite winning only 3 Oscars to *Cabaret*'s 8\nSet in 1931 Weimar Republic Berlin; based on Christopher Isherwood's stories and the 1966 Broadway musical\nFosse's kinetic, stylized choreography and the MC character (Grey) defined the film's decadent aesthetic",
+          "cardFront": "Most Oscars won without winning Best Picture",
+          "cardBack": "Cabaret"
+        },
+        {
+          "id": "first-animated-best-picture-nomination",
+          "prompt": "Which 1991 Disney animated film, directed by Gary Trousdale and Kirk Wise, became the first animated film nominated for Best Picture in the era when only five nominees were selected?",
+          "answer": "Beauty and the Beast",
+          "alternates": [],
+          "explanation": "Directed by Gary Trousdale and Kirk Wise, 1991; produced by Don Hahn\nFirst animated film nominated for Best Picture under the traditional 5-nominee format; lost to *The Silence of the Lambs*\nWon Best Original Score and Best Original Song ('Beauty and the Beast,' performed by Celine Dion and Peabo Bryson)\nComposer Alan Menken and lyricist Howard Ashman collaborated; Ashman died of AIDS-related complications before the film's release\nThe Academy expanded to 10 nominees in 2009; several animated films have been nominated since, but none has won",
+          "cardFront": "First animated film nominated for Best Picture",
+          "cardBack": "Beauty and the Beast"
+        },
+        {
+          "id": "most-nominations-zero-wins",
+          "prompt": "Which 1985 Steven Spielberg drama and which 1977 Herbert Ross film share the record for most Oscar nominations (11 each) without winning a single award?",
+          "answer": "The Color Purple",
+          "alternates": ["The Turning Point"],
+          "explanation": "Both *The Color Purple* (1985) and *The Turning Point* (1977) received 11 nominations and won nothing\n*The Color Purple* directed by Steven Spielberg; stars Whoopi Goldberg, Oprah Winfrey, Danny Glover; based on Alice Walker's 1982 novel\n*The Turning Point* directed by Herbert Ross; starring Anne Bancroft and Shirley MacLaine; a ballet drama\nSpielberg's non-win for *The Color Purple* was widely viewed as an Academy snub; he was not nominated for Best Director",
+          "cardFront": "Most nominations with zero wins (tied record)",
+          "cardBack": "The Color Purple"
+        },
+        {
+          "id": "first-film-gross-billion",
+          "prompt": "Which 1997 James Cameron film was the first in history to gross over $1 billion worldwide, and later the first to gross over $2 billion?",
+          "answer": "Titanic",
+          "alternates": [],
+          "explanation": "Directed by James Cameron, 1997; starring Leonardo DiCaprio and Kate Winslet\nFirst film to cross $1 billion worldwide; later broke $2 billion \u2013 held the all-time box office record for 12 years\nRecord was finally broken by Cameron's own *Avatar* (2009), which crossed $2.7 billion\nMade on a budget of approximately $200 million \u2013 the most expensive film ever made at the time\nWon 11 Oscars including Best Picture and Best Director",
+          "cardFront": "First film to gross $1 billion worldwide",
+          "cardBack": "Titanic"
+        }
+      ]
+    }
+  ]
+}
