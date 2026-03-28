@@ -991,4 +991,36 @@ describe('Trivia API', () => {
 			expect(res.status).toBeDefined();
 		});
 	});
+
+	// ─── Quiz Results: error handling gaps ────────────────────
+
+	describe('quiz results error handling', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 500 for malformed JSON body', async () => {
+			const res = await makeAuthRequest('/api/quiz-results', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json', 'cookie': AUTH_COOKIE },
+				body: 'not valid json',
+			});
+			expect(res.status).toBe(500);
+			const data = await res.json<any>();
+			expect(data.error).toBeDefined();
+		});
+
+		it('quiz-results/stats route with POST falls through to node routing', async () => {
+			// POST to /api/quiz-results/stats doesn't match any quiz-results handler
+			// because stats only checks for GET. It falls through to the node/exercise
+			// routes, which will try to match it as a node path.
+			const res = await postJsonAuth('/api/quiz-results/stats', {});
+			// Falls through to nodeMatch regex: /^\/api\/nodes\/(.+)$/
+			// This path doesn't start with /api/nodes, so it tries exercise routes.
+			// exerciseMatch: /^\/api\/exercises\/(.+)$/ — doesn't match either.
+			// answersMatch: /^\/api\/exercises\/(.+)\/answers$/ — doesn't match.
+			// Returns 404 from the catch-all.
+			expect(res.status).toBe(404);
+		});
+	});
 });

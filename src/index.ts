@@ -119,57 +119,60 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 		return handleAuthMe(request, url, env);
 	}
 
-	// Quiz results routes (require auth)
-	if (path === '/api/quiz-results/stats' && request.method === 'GET') {
-		const user = await getRequestUser(request, env);
-		if (!user) return json({ error: 'Authentication required' }, 401);
-		const userRepo = new UserRepository(env.DB);
-		const stats = await userRepo.getUserStats(user.id);
-		return json(stats);
-	}
-
-	if (path === '/api/quiz-results' && request.method === 'POST') {
-		const user = await getRequestUser(request, env);
-		if (!user) return json({ error: 'Authentication required' }, 401);
-		const body = await request.json<{
-			exerciseId: string;
-			exerciseName: string;
-			format: string;
-			score: number;
-			total: number;
-			durationSeconds?: number;
-			itemsDetail?: QuizItemResult[];
-		}>();
-		if (!body.exerciseId || !body.exerciseName || !body.format || body.score == null || body.total == null) {
-			return json({ error: 'Missing required fields' }, 400);
-		}
-		const userRepo = new UserRepository(env.DB);
-		const result = await userRepo.recordQuizResult({
-			userId: user.id,
-			exerciseId: body.exerciseId,
-			exerciseName: body.exerciseName,
-			format: body.format as ExerciseFormat,
-			score: body.score,
-			total: body.total,
-			durationSeconds: body.durationSeconds ?? null,
-			itemsDetail: body.itemsDetail ?? [],
-		});
-		return json(result, 201);
-	}
-
-	if (path === '/api/quiz-results' && request.method === 'GET') {
-		const user = await getRequestUser(request, env);
-		if (!user) return json({ error: 'Authentication required' }, 401);
-		const limit = Math.max(0, parseInt(url.searchParams.get('limit') || '20', 10) || 20);
-		const offset = Math.max(0, parseInt(url.searchParams.get('offset') || '0', 10) || 0);
-		const userRepo = new UserRepository(env.DB);
-		const data = await userRepo.getQuizResults(user.id, limit, offset);
-		return json(data);
-	}
-
 	const repo = new NodeRepository(env.DB);
 
 	try {
+		// Quiz results routes (require auth)
+		if (path === '/api/quiz-results/stats' && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const userRepo = new UserRepository(env.DB);
+			const stats = await userRepo.getUserStats(user.id);
+			return json(stats);
+		}
+
+		if (path === '/api/quiz-results' && request.method === 'POST') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const body = await request.json<{
+				exerciseId: string;
+				exerciseName: string;
+				format: string;
+				score: number;
+				total: number;
+				durationSeconds?: number;
+				itemsDetail?: QuizItemResult[];
+			}>();
+			if (!body.exerciseId || !body.exerciseName || !body.format || body.score == null || body.total == null) {
+				return json({ error: 'Missing required fields' }, 400);
+			}
+			if (typeof body.score !== 'number' || typeof body.total !== 'number') {
+				return json({ error: 'score and total must be numbers' }, 400);
+			}
+			const userRepo = new UserRepository(env.DB);
+			const result = await userRepo.recordQuizResult({
+				userId: user.id,
+				exerciseId: body.exerciseId,
+				exerciseName: body.exerciseName,
+				format: body.format as ExerciseFormat,
+				score: body.score,
+				total: body.total,
+				durationSeconds: body.durationSeconds ?? null,
+				itemsDetail: body.itemsDetail ?? [],
+			});
+			return json(result, 201);
+		}
+
+		if (path === '/api/quiz-results' && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const limit = Math.min(100, Math.max(1, parseInt(url.searchParams.get('limit') || '20', 10) || 20));
+			const offset = Math.max(0, parseInt(url.searchParams.get('offset') || '0', 10) || 0);
+			const userRepo = new UserRepository(env.DB);
+			const data = await userRepo.getQuizResults(user.id, limit, offset);
+			return json(data);
+		}
+
 		if (path === '/api/health') {
 			return json({ status: 'ok', version: '0.0.1' });
 		}

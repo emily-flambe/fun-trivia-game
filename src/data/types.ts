@@ -70,6 +70,37 @@ export interface FillBlanksCheckResult {
   fuzzyMatch: boolean;
 }
 
+// === User types ===
+
+export interface User {
+  id: string;
+  email: string;
+  displayName: string;
+  preferences: Record<string, unknown>;
+  createdAt: string;
+  lastSeenAt: string;
+}
+
+export interface QuizResult {
+  id: string;
+  userId: string;
+  exerciseId: string;
+  exerciseName: string;
+  format: ExerciseFormat;
+  score: number;
+  total: number;
+  durationSeconds: number | null;
+  itemsDetail: QuizItemResult[];
+  completedAt: string;
+}
+
+export interface QuizItemResult {
+  itemId: string;
+  correct: boolean;
+  userAnswer: string;
+  fuzzyMatch: boolean;
+}
+
 // === Learned League categories ===
 
 export interface LLCategory {
