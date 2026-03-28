@@ -1099,4 +1099,71 @@ describe('Trivia API', () => {
 			expect(res.status).toBe(404);
 		});
 	});
+
+	// ─── Random Items: GET /api/items/random ─────────────────
+
+	describe('GET /api/items/random', () => {
+		it('returns random items with exercise metadata', async () => {
+			const res = await makeRequest('/api/items/random?count=5');
+			expect(res.status).toBe(200);
+			const data = await res.json() as any;
+			expect(data.items).toBeDefined();
+			expect(data.items.length).toBeGreaterThan(0);
+			// Only text-entry items should be returned (3 in test data)
+			expect(data.items.length).toBeLessThanOrEqual(3);
+		});
+
+		it('includes exerciseName and nodeId on each item', async () => {
+			const res = await makeRequest('/api/items/random?count=3');
+			const data = await res.json() as any;
+			for (const item of data.items) {
+				expect(item.exerciseName).toBe('Element Symbols');
+				expect(item.nodeId).toBe('science/chemistry');
+				expect(item.id).toBeDefined();
+				expect(item.exerciseId).toBe('science/chemistry/element-symbols');
+			}
+		});
+
+		it('strips answer and alternates from items', async () => {
+			const res = await makeRequest('/api/items/random?count=3');
+			const data = await res.json() as any;
+			for (const item of data.items) {
+				expect(item.answer).toBeUndefined();
+				expect(item.alternates).toBeUndefined();
+			}
+		});
+
+		it('keeps explanation and data fields', async () => {
+			const res = await makeRequest('/api/items/random?count=3');
+			const data = await res.json() as any;
+			for (const item of data.items) {
+				expect(item.explanation).toBeDefined();
+				expect(item.data).toBeDefined();
+				expect(item.data.prompt).toBeDefined();
+			}
+		});
+
+		it('excludes fill-blanks items', async () => {
+			const res = await makeRequest('/api/items/random?count=50');
+			const data = await res.json() as any;
+			const exerciseIds = new Set(data.items.map((i: any) => i.exerciseId));
+			// noble-gases is fill-blanks, should not appear
+			expect(exerciseIds.has('science/chemistry/noble-gases')).toBe(false);
+		});
+
+		it('defaults count to 20 when not provided', async () => {
+			const res = await makeRequest('/api/items/random');
+			expect(res.status).toBe(200);
+			const data = await res.json() as any;
+			expect(data.items).toBeDefined();
+		});
+
+		it('clamps count to max 50', async () => {
+			const res = await makeRequest('/api/items/random?count=100');
+			expect(res.status).toBe(200);
+			// With only 3 text-entry items in test data, should return at most 3
+			const data = await res.json() as any;
+			expect(data.items.length).toBeLessThanOrEqual(3);
+		});
+	});
 });
