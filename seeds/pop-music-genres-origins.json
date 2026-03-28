@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {"id":"pop-music/genres-origins","parentId":"pop-music","name":"Music Genres & Origins","description":"Musical genres and their geographic and cultural roots"}
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/genres-origins/genres",
+      "nodeId": "pop-music/genres-origins",
+      "name": "Music Genres & Origins",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "blues",
+          "prompt": "Which genre originated in the Mississippi Delta from African American spirituals and work songs, featuring a distinctive 12-bar chord progression?",
+          "answer": "Blues",
+          "alternates": ["The Blues"],
+          "explanation": "Originated in the Mississippi Delta region, late 19th century\nRooted in African American spirituals, work songs, field hollers, and chants\nStandard 12-bar chord progression (I–I–I–I–IV–IV–I–I–V–IV–I–V) became the genre’s harmonic backbone\nRobert Johnson’s 'Devil at the crossroads' legend is one of music’s most enduring myths\nMuddy Waters electrified the sound in Chicago in the 1940s–1950s, bridging acoustic Delta style and rock and roll\nB.B. King’s guitar 'Lucille' became the most famous named instrument in the genre\nDirect ancestor of rock and roll, R&B, and virtually all modern popular music",
+          "cardFront": "Mississippi Delta, late 1800s",
+          "cardBack": "Blues"
+        },
+        {
+          "id": "jazz",
+          "prompt": "Which genre was born in New Orleans in the early 1900s from a blend of ragtime, brass band marches, and field hollers, with improvisation as its defining feature?",
+          "answer": "Jazz",
+          "alternates": [],
+          "explanation": "Born in New Orleans, early 1900s, from a melting pot of African, Caribbean, and European musical traditions\nBlends ragtime syncopation, brass band marches, and vocal traditions into an improvisation-driven form\nLouis Armstrong and King Oliver were early pioneers; Duke Ellington expanded it into orchestral composition\nMiles Davis reshaped the genre at least three times: cool (1950s), modal (*Kind of Blue*, 1959), fusion (1970s)\nSub-genres include bebop (Parker, Gillespie), cool jazz (Chet Baker), free jazz (Ornette Coleman), and fusion\nThe word’s origin is debated — possibly from slang meaning energy or vigor\nFirst major American art form to gain worldwide recognition",
+          "cardFront": "New Orleans, early 1900s",
+          "cardBack": "Jazz"
+        },
+        {
+          "id": "reggae",
+          "prompt": "Which genre originated in Jamaica in the late 1960s, evolved from ska and rocksteady, and is characterized by an off-beat rhythmic pattern called the 'skank'?",
+          "answer": "Reggae",
+          "alternates": [],
+          "explanation": "Originated in Jamaica, late 1960s, evolving from ska (fast) through rocksteady (slower) to a laid-back tempo\nOff-beat rhythm guitar pattern called the 'skank' is the genre’s sonic signature\nBob Marley became the genre’s global ambassador; *Exodus* (1977) named album of the century by *Time* magazine\nDeeply tied to the Rastafari movement — themes of Jah, Zion, and repatriation to Africa\nToots and the Maytals' 'Do the Reggay' (1968) is the first known use of the word in a song title\nLee 'Scratch' Perry and King Tubby pioneered dub, a remix-based offshoot that influenced electronic music worldwide\nUNESCO added Jamaican reggae music to its Intangible Cultural Heritage list in 2018",
+          "cardFront": "Jamaica, late 1960s",
+          "cardBack": "Reggae"
+        },
+        {
+          "id": "punk-rock",
+          "prompt": "Which genre emerged in the mid-1970s from CBGB in New York and the London club scene, defined by short, fast, three-chord songs and a DIY ethic?",
+          "answer": "Punk Rock",
+          "alternates": ["Punk"],
+          "explanation": "Emerged mid-1970s simultaneously in NYC (Ramones, Television, Patti Smith at CBGB) and London (Sex Pistols, The Clash)\nShort, fast, aggressive songs — the Ramones' debut album (1976) had 14 tracks in under 30 minutes\nDIY ethic: anyone can start a band, print a zine, book a show — no gatekeepers needed\nSex Pistols' *Never Mind the Bollocks* (1977) and its single 'God Save the Queen' were banned by the BBC\nThe Clash's *London Calling* (1979) is consistently ranked among the greatest albums ever made\nSpawned sub-genres: hardcore (Black Flag), pop-punk (Green Day), post-punk (Joy Division)\nAnti-establishment stance influenced fashion (safety pins, torn clothing) as much as music",
+          "cardFront": "NYC & London, mid-1970s",
+          "cardBack": "Punk Rock"
+        },
+        {
+          "id": "hip-hop",
+          "prompt": "Which genre was born at a back-to-school party at 1520 Sedgwick Avenue in the South Bronx on August 11, 1973, when a DJ extended drum breaks using two turntables?",
+          "answer": "Hip-Hop",
+          "alternates": ["Hip Hop","Rap","Rap Music"],
+          "explanation": "Born August 11, 1973, at a party hosted by DJ Kool Herc (Clive Campbell) at 1520 Sedgwick Ave, Bronx, NYC\nHerc’s 'merry-go-round' technique — looping drum breaks on two turntables — created the genre’s foundation\nFour elements: DJing, MCing (rapping), breakdancing (b-boying), and graffiti art\nGrandmaster Flash and the Furious Five's 'The Message' (1982) was the first socially conscious hit\n'Rapper's Delight' by the Sugarhill Gang (1979) was the first commercially successful single\nRun-DMC's collaboration with Aerosmith on 'Walk This Way' (1986) broke the genre into MTV mainstream\nBecame the most consumed music genre in the U.S. by streaming volume in the late 2010s",
+          "cardFront": "South Bronx, NYC, 1973",
+          "cardBack": "Hip-Hop"
+        },
+        {
+          "id": "country",
+          "prompt": "Which genre has roots in Appalachian folk music and Southern string bands, with the Carter Family and Jimmie Rodgers as its first recording stars in the 1920s?",
+          "answer": "Country",
+          "alternates": ["Country Music","Country and Western","Country & Western"],
+          "explanation": "Roots in Appalachian folk music, Southern gospel, and Celtic/British Isles ballad traditions\nThe Carter Family and Jimmie Rodgers made the first major commercial recordings in Bristol, TN (1927) — the 'Big Bang of Country Music'\nGrand Ole Opry began broadcasting from Nashville on WSM radio on November 28, 1925; still running weekly\nSignature instruments: steel guitar, fiddle, banjo, and the 'twang' of a nasal vocal style\nHank Williams (1923–1953) defined the honky-tonk sound and died at 29 en route to a concert\nNashville became 'Music City' largely because of the Opry and the recording studios on Music Row\nSub-genres include bluegrass (Bill Monroe), outlaw country (Willie Nelson, Waylon Jennings), and country pop",
+          "cardFront": "Appalachia & the American South, 1920s",
+          "cardBack": "Country"
+        },
+        {
+          "id": "bossa-nova",
+          "prompt": "Which genre blended samba rhythms with cool jazz harmonies in late-1950s Brazil, producing the internationally famous song 'The Girl from Ipanema'?",
+          "answer": "Bossa Nova",
+          "alternates": ["Bossa"],
+          "explanation": "Originated in Rio de Janeiro, Brazil, late 1950s, blending samba’s syncopation with cool jazz harmony\nJoão Gilberto’s whispery vocal style and fingerpicked guitar defined the genre’s intimate sound\nAntonio Carlos Jobim composed many of the genre’s standards, including 'The Girl from Ipanema' and 'Corcovado'\n'The Girl from Ipanema' (composed 1962, famous Getz/Gilberto recording released 1964) became the second-most-recorded song in history after 'Yesterday'\nStan Getz’s saxophone brought the sound to American audiences; Astrud Gilberto sang the English lyrics almost by accident\nName translates roughly to 'new trend' or 'new wave' in Brazilian Portuguese slang\nSoft, syncopated guitar rhythm with understated vocals — the opposite of samba’s carnival energy",
+          "cardFront": "Rio de Janeiro, Brazil, late 1950s",
+          "cardBack": "Bossa Nova"
+        },
+        {
+          "id": "disco",
+          "prompt": "Which genre emerged in early-1970s New York City nightclubs, peaked with the *Saturday Night Fever* soundtrack in 1977, and was symbolically destroyed at a baseball stadium riot in Chicago?",
+          "answer": "Disco",
+          "alternates": [],
+          "explanation": "Emerged in early-1970s NYC clubs, rooted in funk, soul, and Philadelphia International Records' lush orchestral sound\nFour-on-the-floor kick drum pattern at ~120 BPM became the genre’s rhythmic signature\nDonna Summer, the 'Queen of Disco,' scored hits with 'Love to Love You Baby' (1975) and 'I Feel Love' (1977)\n*Saturday Night Fever* soundtrack (1977) sold 40+ million copies; the Bee Gees dominated the era\nDisco Demolition Night (July 12, 1979): DJ Steve Dahl blew up disco records at Comiskey Park in Chicago, causing a riot and a White Sox forfeit\nStudio 54 in Manhattan became the era’s most famous nightclub (1977–1980)\nDirect ancestor of house music — Frankie Knuckles in Chicago carried the sound forward after disco’s commercial collapse",
+          "cardFront": "NYC clubs, early 1970s",
+          "cardBack": "Disco"
+        },
+        {
+          "id": "grunge",
+          "prompt": "Which genre emerged from the Seattle music scene in the late 1980s, fusing punk attitude with heavy guitar distortion, and was closely associated with Sub Pop Records and flannel fashion?",
+          "answer": "Grunge",
+          "alternates": ["Seattle Sound"],
+          "explanation": "Emerged in Seattle, late 1980s, fusing punk rock’s energy and attitude with heavy metal’s distorted guitars\nNirvana’s *Nevermind* (1991) and its single 'Smells Like Teen Spirit' made the genre a global phenomenon overnight\nPearl Jam, Soundgarden, Alice in Chains, and Mudhoney were the other key bands of the movement\nSub Pop Records (founded 1986 in Seattle by Bruce Pavitt and Jonathan Poneman) was the genre’s flagship label\nAnti-fashion aesthetic: flannel shirts, ripped jeans, thrift-store clothing — a rejection of 1980s glam\nKurt Cobain’s death on April 5, 1994, is often cited as the symbolic end of the movement’s peak\nMudhoney vocalist Mark Arm is credited with first using the word 'grunge' to describe the Seattle sound in a 1981 fanzine letter",
+          "cardFront": "Seattle, late 1980s",
+          "cardBack": "Grunge"
+        },
+        {
+          "id": "techno",
+          "prompt": "Which electronic genre originated in Detroit in the early–mid 1980s, created by three high school friends from Belleville, Michigan, and heavily influenced by Kraftwerk?",
+          "answer": "Techno",
+          "alternates": ["Detroit Techno"],
+          "explanation": "Originated in Detroit, early–mid 1980s, combining Kraftwerk’s electronic precision with funk and post-industrial aesthetics\nThe 'Belleville Three' — Juan Atkins ('Godfather'), Derrick May ('Innovator'), Kevin Saunderson ('Elevator') — are the genre’s founders\nJuan Atkins' group Cybotron released 'Techno City' (1984), one of the first uses of the term\nRepetitive 4/4 beat, synthesizers, drum machines (especially the Roland TR-808 and TR-909)\nInfluenced by DJ Charles 'The Electrifying Mojo' Johnson’s eclectic late-night radio show on WGPR in Detroit\nNeil Rushton licensed Detroit tracks for UK release in 1988, branding them 'techno' to distinguish from Chicago house\nBerlin’s Love Parade (1989–2010) became the genre’s largest cultural event, drawing over a million attendees",
+          "cardFront": "Detroit, early–mid 1980s",
+          "cardBack": "Techno"
+        },
+        {
+          "id": "rnb",
+          "prompt": "Which genre’s name was coined in 1947 by Billboard journalist Jerry Wexler to replace the term 'race music,' combining gospel, jazz, and boogie-woogie into a new popular sound?",
+          "answer": "R&B",
+          "alternates": ["Rhythm and Blues","RnB","R and B"],
+          "explanation": "Term coined by Billboard’s Jerry Wexler in 1947 to replace the offensive label 'race music'; appeared in chart name June 1949\nOriginated in African American communities, combining jazz instrumentation, gospel vocals, and boogie-woogie rhythms\nRay Charles blended gospel fervor with secular lyrics, essentially inventing soul music in the process\nSam Cooke, Ruth Brown ('Miss Rhythm'), and Fats Domino were early stars of the 1950s\nEvolved into sub-genres: soul (1960s), funk (1970s), new jack swing (late 1980s), contemporary/modern R&B (1990s–present)\nMotown Records (founded 1959 by Berry Gordy in Detroit) became the genre’s most successful label\nThe term’s meaning has shifted dramatically — 1940s R&B sounds nothing like 2020s R&B, but the label persists",
+          "cardFront": "African American communities, late 1940s",
+          "cardBack": "R&B"
+        },
+        {
+          "id": "heavy-metal",
+          "prompt": "Which genre emerged in the late 1960s–early 1970s in the English Midlands, pioneered by bands using extreme volume and distortion, with a name possibly inspired by a phrase in Steppenwolf’s 'Born to Be Wild'?",
+          "answer": "Heavy Metal",
+          "alternates": ["Metal","Heavy Metal Music"],
+          "explanation": "Emerged late 1960s–early 1970s in the UK, primarily Birmingham and the English Midlands\nBlack Sabbath (formed 1968) are widely considered the genre’s originators — Tony Iommi’s detuned, heavy riffs set the template\nLed Zeppelin and Deep Purple were the other two pillars of the early sound\nSteppenwolf’s 'Born to Be Wild' (1968) contains the lyric 'heavy metal thunder' — the first use of the phrase in rock music\nCharacterized by distorted guitars, powerful drumming, dense bass-heavy sound, and often virtuosic solos\nSub-genres proliferated: thrash (Metallica), death metal (Death), black metal (Mayhem), doom metal (Candlemass)\nThe 'Big Four' of thrash metal: Metallica, Megadeth, Slayer, and Anthrax — all formed in the early 1980s",
+          "cardFront": "English Midlands, late 1960s–early 1970s",
+          "cardBack": "Heavy Metal"
+        }
+      ]
+    }
+  ]
+}

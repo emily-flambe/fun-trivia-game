@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "pop-music/duets-supergroups", "parentId": "pop-music", "name": "Duets & Supergroups", "description": "Iconic musical collaborations and supergroup lineups" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/duets-supergroups/collaborations",
+      "nodeId": "pop-music/duets-supergroups",
+      "name": "Famous Duets & Supergroups",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "cream",
+          "prompt": "Which power trio, formed in London in 1966 and active for only two years, is widely regarded as rock's first supergroup?",
+          "answer": "Cream",
+          "alternates": [],
+          "explanation": "British rock power trio active 1966\u20131968: Eric Clapton (guitar), Jack Bruce (bass/vocals), Ginger Baker (drums)\\nWidely regarded as the first rock supergroup \u2014 all three had achieved fame independently before joining\\nClapton came from the Yardbirds and John Mayall's Bluesbreakers; Bruce and Baker from the Graham Bond Organisation\\nHit songs include 'Sunshine of Your Love' and 'White Room' \u2014 their only two U.S. top-10 singles\\nSold over 15 million records despite a career spanning just over two years\\nBruce and Baker famously despised each other \u2014 their mutual hostility dated back to the Graham Bond Organisation\\nFarewell concerts at the Royal Albert Hall in November 1968; briefly reunited there in 2005",
+          "cardFront": "Clapton, Bruce, Baker (1966\u20131968)",
+          "cardBack": "Cream"
+        },
+        {
+          "id": "traveling-wilburys",
+          "prompt": "Which 1988 supergroup featured a Beatle, a Nobel laureate, and the frontman of the Heartbreakers among its five members?",
+          "answer": "Traveling Wilburys",
+          "alternates": ["The Traveling Wilburys", "Wilburys"],
+          "explanation": "Supergroup formed in Los Angeles in 1988: George Harrison, Bob Dylan, Tom Petty, Roy Orbison, Jeff Lynne (ELO)\\nOriginated when Harrison needed a B-side; the jam session at Dylan's Malibu studio produced 'Handle with Care,' deemed too good for a B-side\\nMembers used pseudonyms and claimed to be half-brothers: Nelson, Otis, Lefty, Charlie T. Jr., and Lucky\\nDebut album *Vol. 1* (October 1988) reached the top 5 and went multi-platinum\\nOrbison died of a heart attack on December 6, 1988, just weeks after the album's release\\nSecond album cheekily titled *Vol. 3* (1990), recorded as a four-piece after Orbison's death\\nDylan won the Nobel Prize in Literature in 2016 \u2014 the only Nobel laureate in a rock supergroup",
+          "cardFront": "Harrison, Dylan, Petty, Orbison, Lynne (1988)",
+          "cardBack": "Traveling Wilburys"
+        },
+        {
+          "id": "csny",
+          "prompt": "Which supergroup played Woodstock in 1969 as only their second live performance, with members drawn from the Byrds, Buffalo Springfield, and the Hollies?",
+          "answer": "Crosby, Stills, Nash & Young",
+          "alternates": ["CSNY", "Crosby Stills Nash and Young", "Crosby Stills Nash & Young", "CSN&Y", "Crosby, Stills & Nash"],
+          "explanation": "David Crosby (Byrds), Stephen Stills (Buffalo Springfield), Graham Nash (Hollies), Neil Young (Buffalo Springfield)\\nWoodstock 1969 was only their second live performance; Stills told the crowd 'We're scared shitless'\\n'Suite: Judy Blue Eyes' \u2014 written by Stills about singer Judy Collins \u2014 was their opening song at Woodstock\\nYoung joined shortly after the debut CSN album; he skipped most of the acoustic set at Woodstock\\n*D\u00e9j\u00e0 Vu* (1970) with Young hit #1 and went quadruple platinum\\n'Ohio' (1970), written by Young, protested the Kent State shootings and was recorded and released within weeks\\nNotorious for internal feuds \u2014 the group split and reformed repeatedly across five decades",
+          "cardFront": "Crosby (Byrds), Stills & Young (Buffalo Springfield), Nash (Hollies)",
+          "cardBack": "Crosby, Stills, Nash & Young"
+        },
+        {
+          "id": "audioslave",
+          "prompt": "Which supergroup combined the vocalist of Soundgarden with the instrumentalists of Rage Against the Machine, active 2001\u20132007?",
+          "answer": "Audioslave",
+          "alternates": [],
+          "explanation": "Chris Cornell (vocals, ex-Soundgarden) with Tom Morello (guitar), Tim Commerford (bass), Brad Wilk (drums) from Rage Against the Machine\\nActive 2001\u20132007; released three studio albums and sold over 8 million records worldwide\\nSelf-titled debut (2002) went triple platinum; 'Like a Stone' became their biggest hit\\nFirst American rock band to perform an open-air concert in Cuba (2005)\\nCornell left in February 2007 citing 'irresolvable personality conflicts and musical differences'\\nBriefly reunited for the Anti-Inaugural Ball on January 20, 2017; Cornell died four months later\\nCornell died by suicide on May 18, 2017, after a Soundgarden concert in Detroit",
+          "cardFront": "Cornell (Soundgarden) + Rage Against the Machine (2001\u20132007)",
+          "cardBack": "Audioslave"
+        },
+        {
+          "id": "highwaymen",
+          "prompt": "Which country supergroup, nicknamed 'the Mount Rushmore of country music,' united four outlaw-country legends from 1985 to 1995?",
+          "answer": "The Highwaymen",
+          "alternates": ["Highwaymen"],
+          "explanation": "Johnny Cash, Willie Nelson, Waylon Jennings, Kris Kristofferson \u2014 active 1985\u20131995\\nFormed after the four were together in Switzerland filming a Johnny Cash Christmas TV special in 1984\\nNamed after their #1 hit 'Highwayman' (1985), written by Jimmy Webb \u2014 a ballad about reincarnation\\nReleased three studio albums: two on Columbia Records, one on Liberty Records\\nStarred together in the 1986 TV movie *Stagecoach*\\nNelson is the sole surviving member; Jennings died 2002, Cash died 2003, Kristofferson died 2024\\nOften called 'the Mount Rushmore of country music' by PBS and the press",
+          "cardFront": "Cash, Nelson, Jennings, Kristofferson (1985\u20131995)",
+          "cardBack": "The Highwaymen"
+        },
+        {
+          "id": "blind-faith",
+          "prompt": "Which 1969 supergroup featuring members of the Yardbirds, Traffic, and a prior supergroup released only one self-titled album before disbanding?",
+          "answer": "Blind Faith",
+          "alternates": [],
+          "explanation": "Eric Clapton (guitar), Steve Winwood (keyboards/vocals, ex-Traffic), Ginger Baker (drums, ex-Cream), Ric Grech (bass, ex-Family)\\nFormed in early 1969; released one self-titled album in August 1969 \u2014 it topped charts on both sides of the Atlantic\\nAlbum sold over 500,000 copies in its first month despite the band lasting only a few months\\nControversial album cover featured a topless 11-year-old girl holding a metallic airplane; later pressings used an alternate photo\\nClapton and Baker had just left their prior supergroup (active 1966\u20131968) months earlier\\nDisbanded in October 1969 after a brief summer tour \u2014 one of the shortest-lived supergroups in rock history\\nWinwood returned to Traffic; Clapton formed Derek and the Dominos",
+          "cardFront": "Clapton, Winwood, Baker, Grech (1969)",
+          "cardBack": "Blind Faith"
+        },
+        {
+          "id": "under-pressure",
+          "prompt": "Which 1981 duet, improvised during a studio session in Montreux, features a bass line later sampled by Vanilla Ice for 'Ice Ice Baby'?",
+          "answer": "Under Pressure",
+          "alternates": ["Under Pressure by Queen and David Bowie", "Queen and David Bowie"],
+          "explanation": "Recorded by Queen and David Bowie at Mountain Studios in Montreux, Switzerland (1981)\\nLargely improvised \u2014 Bowie was visiting the studio while Queen was recording *Hot Space*\\nReached #1 in the UK; Queen's first UK chart-topper since 'Bohemian Rhapsody' (1975)\\nIconic bass line (played by John Deacon) was sampled without credit by Vanilla Ice on 'Ice Ice Baby' (1990)\\nVanilla Ice initially denied sampling, claiming the melodies were different by one note; he later admitted it was a joke\\nQueen and Bowie sued and received songwriting credits on 'Ice Ice Baby' through a private settlement\\nThe bass line was voted the best in popular music history by *Stylus* magazine (2005)",
+          "cardFront": "Queen & Bowie, improvised in Montreux (1981)",
+          "cardBack": "Under Pressure"
+        },
+        {
+          "id": "ebony-and-ivory",
+          "prompt": "Which 1982 duet about racial harmony, pairing an ex-Beatle with a Motown legend, spent seven weeks at #1 on the Billboard Hot 100?",
+          "answer": "Ebony and Ivory",
+          "alternates": ["Ebony & Ivory"],
+          "explanation": "Recorded by Paul McCartney and Stevie Wonder; released March 1982\\nSpent seven weeks at #1 on the Billboard Hot 100 \u2014 the longest chart-topping run of McCartney's post-Beatles career\\nRecorded at George Martin's AIR Studios in Montserrat in early 1981\\nAlso reached #1 in the UK; fourth-biggest hit in the U.S. for 1982\\nMade Wonder the first solo artist with a #1 single in three consecutive decades (1960s, 1970s, 1980s)\\nMcCartney and Wonder filmed their music video parts separately due to conflicting schedules\\nFrequently cited as one of the most critically derided #1 hits despite its massive commercial success",
+          "cardFront": "McCartney & Wonder, racial harmony theme (1982)",
+          "cardBack": "Ebony and Ivory"
+        },
+        {
+          "id": "dont-go-breaking-my-heart",
+          "prompt": "Which 1976 duet, written under the pseudonyms 'Ann Orson' and 'Carte Blanche,' became the first UK #1 for both of its performers?",
+          "answer": "Don't Go Breaking My Heart",
+          "alternates": ["Dont Go Breaking My Heart"],
+          "explanation": "Recorded by Elton John and Kiki Dee; released June 1976\\nFirst #1 in the UK for both artists \u2014 topped the chart for six weeks\\nAlso hit #1 on the Billboard Hot 100 for four weeks, making it Elton John's sixth American chart-topper\\nWritten by John and Bernie Taupin under the pseudonyms 'Ann Orson' and 'Carte Blanche'\\nIntended as an affectionate pastiche of Motown duets, particularly Marvin Gaye and Tammi Terrell\\nRevived in popularity after appearing in a karaoke scene in the 2003 film *Elf*\\nKiki Dee (born Pauline Matthews) was the first British female artist signed to Motown's Tamla label",
+          "cardFront": "Elton John & Kiki Dee (1976)",
+          "cardBack": "Don't Go Breaking My Heart"
+        },
+        {
+          "id": "islands-in-the-stream",
+          "prompt": "Which 1983 country-pop duet, written by the Bee Gees and named after a Hemingway novel, topped the Billboard Hot 100, Country, and Adult Contemporary charts simultaneously?",
+          "answer": "Islands in the Stream",
+          "alternates": ["Islands In The Stream"],
+          "explanation": "Recorded by Kenny Rogers and Dolly Parton; released August 1983\\nWritten by Barry, Robin, and Maurice Gibb (Bee Gees) for Rogers's album *Eyes That See in the Dark*\\nTopped the Billboard Hot 100, Country, and Adult Contemporary charts simultaneously\\nTitle taken from Ernest Hemingway's posthumous 1970 novel of the same name\\nOriginally written in an R&B style that wasn't working; adding Parton's vocals transformed the song\\nRobin Gibb jokingly claimed it was written for Marvin Gaye, but the timeline doesn't support this\\nBecame the signature Rogers\u2013Parton collaboration and a karaoke staple for decades",
+          "cardFront": "Rogers & Parton, written by the Bee Gees (1983)",
+          "cardBack": "Islands in the Stream"
+        },
+        {
+          "id": "endless-love",
+          "prompt": "Which 1981 duet spent nine weeks at #1 on the Billboard Hot 100, making it the most successful duet of the rock era at the time?",
+          "answer": "Endless Love",
+          "alternates": [],
+          "explanation": "Recorded by Diana Ross and Lionel Richie; released in 1981\\nSpent nine weeks at #1 on the Billboard Hot 100 \u2014 the longest-running duet chart-topper of the rock era at the time\\nAlso topped the R&B and Adult Contemporary charts\\nWritten and co-produced by Richie as the theme for the 1981 Franco Zeffirelli film starring Brooke Shields\\nSurpassed the Everly Brothers' 'Wake Up Little Susie' (1957) as the most successful duet on the Hot 100\\nBillboard later named it the greatest duet of all time\\nRichie was still a member of the Commodores when he recorded it; it helped launch his solo career",
+          "cardFront": "Ross & Richie, film theme (1981)",
+          "cardBack": "Endless Love"
+        },
+        {
+          "id": "say-say-say",
+          "prompt": "Which 1983 collaboration between the King of Pop and an ex-Beatle preceded a business deal over a music catalog that ended their friendship?",
+          "answer": "Say Say Say",
+          "alternates": ["Say, Say, Say"],
+          "explanation": "Recorded by Paul McCartney and Michael Jackson; released October 1983\\nHit #1 on the Billboard Hot 100 \u2014 Jackson's sixth American chart-topper\\nProduced by George Martin; recorded during sessions for McCartney's *Tug of War* (1982)\\nTheir second duet after 'The Girl Is Mine' (1982) from Jackson's *Thriller*\\nMcCartney famously showed Jackson a catalog of his publishing holdings and advised him to invest in music rights\\nTwo years later, Jackson outbid McCartney for the ATV Music catalog containing 251 Beatles songs for $47.5 million\\nThe catalog purchase strained their friendship; McCartney called it 'a dodgy thing to do'",
+          "cardFront": "McCartney & Jackson, before the catalog dispute (1983)",
+          "cardBack": "Say Say Say"
+        }
+      ]
+    }
+  ]
+}

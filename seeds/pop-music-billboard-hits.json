@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "pop-music/billboard-hits", "parentId": "pop-music", "name": "Billboard #1 Hits", "description": "The most iconic chart-topping singles in Billboard history" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/billboard-hits/iconic-number-ones",
+      "nodeId": "pop-music/billboard-hits",
+      "name": "Billboard #1 Hits",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "hound-dog",
+          "prompt": "Which 1956 double-sided single spent 11 combined weeks atop the charts, with one side about a lazy canine and the other warning 'don't be mean to me'?",
+          "answer": "Elvis Presley",
+          "alternates": ["Elvis", "Presley"],
+          "explanation": "\"Hound Dog\" / \"Don't Be Cruel\" (1956) topped the pre-Hot 100 charts for a combined 11 weeks\\nBiggest double-sided hit of the 1950s \u2014 one side reached #1, the other peaked at #2\\nFirst record to top all three Billboard singles charts simultaneously: Pop, R&B, and Country\\nOriginally written by Leiber and Stoller for Big Mama Thornton, who recorded it in 1952\\n\"Don't Be Cruel\" written by Otis Blackwell, who also co-wrote \"All Shook Up\" and \"Great Balls of Fire\"\\nPredates the Billboard Hot 100, which launched in August 1958\\nSold over 4 million copies in its first year of release",
+          "cardFront": "1950s \u2014 double-sided #1 about a canine + cruelty (Artist?)",
+          "cardBack": "\"Hound Dog\" / \"Don't Be Cruel\" \u2014 Elvis Presley"
+        },
+        {
+          "id": "i-want-to-hold-your-hand",
+          "prompt": "Which 1964 single spent 7 weeks at #1 on the Hot 100 and is credited with launching a musical 'invasion' from across the Atlantic?",
+          "answer": "The Beatles",
+          "alternates": ["Beatles"],
+          "explanation": "\"I Want to Hold Your Hand\" (1964) spent 7 weeks at #1 on the Billboard Hot 100\\nFirst Hot 100 #1 for the group \u2014 debuted on the chart January 18, 1964, and reached #1 by February 1\\nLaunched the British Invasion of American pop music\\nEd Sullivan Show appearance on February 9, 1964, drew 73 million viewers\\nSong was knocked from #1 by the band's own \"She Loves You\"\\nFirst of 20 #1 singles on the Hot 100 \u2014 still the most by any act\\nWritten by Lennon\u2013McCartney in the basement of the home of Jane Asher (McCartney's girlfriend)",
+          "cardFront": "1964 \u2014 7 weeks at #1, sparked the British Invasion (Artist?)",
+          "cardBack": "\"I Want to Hold Your Hand\" \u2014 The Beatles"
+        },
+        {
+          "id": "bridge-over-troubled-water",
+          "prompt": "Which 1970 gospel-tinged ballad about offering comfort spent 6 weeks at #1 and was the #1 song on the Billboard Year-End chart that year, released by a folk duo on the verge of splitting?",
+          "answer": "Bridge Over Troubled Water",
+          "alternates": ["Bridge over Troubled Water"],
+          "explanation": "Simon & Garfunkel (1970) \u2014 6 weeks at #1 on the Billboard Hot 100 beginning February 28\\n#1 on the Billboard Year-End Hot 100 for 1970\\nAlbum of the same name won Grammy for Album of the Year (1971) and sold over 25 million copies worldwide\\nArt Garfunkel sang lead; Paul Simon later said he regretted giving away his best song\\nReleased just months before Simon & Garfunkel's breakup\\nProduced by Roy Halee at Columbia Studios in New York\\nInspired by a line from a gospel song by the Swan Silvertones: \"I'll be your bridge over deep water\"",
+          "cardFront": "1970 \u2014 gospel-tinged folk ballad, 6 weeks at #1, duo split shortly after (Song?)",
+          "cardBack": "\"Bridge Over Troubled Water\" \u2014 Simon & Garfunkel"
+        },
+        {
+          "id": "stayin-alive",
+          "prompt": "Which 1978 disco anthem from a blockbuster film soundtrack spent 4 weeks at #1 and later became the recommended tempo for performing CPR chest compressions?",
+          "answer": "Stayin' Alive",
+          "alternates": ["Stayin Alive", "Staying Alive"],
+          "explanation": "Bee Gees (1978) \u2014 4 weeks at #1 on the Billboard Hot 100 beginning February 4\\nFrom the *Saturday Night Fever* soundtrack, which sold over 40 million copies worldwide\\nBPM of ~103 matches the recommended rate for CPR chest compressions (100\u2013120 per minute)\\nOne of three consecutive Bee Gees #1 singles from the film (with \"How Deep Is Your Love\" and \"Night Fever\")\\nBrothers Barry, Robin, and Maurice Gibb wrote and performed the song\\nThe *Saturday Night Fever* soundtrack spent 24 weeks at #1 on the Billboard 200\\nBee Gees wrote or produced all six #1 hits from the film soundtrack",
+          "cardFront": "1978 \u2014 disco anthem from a film soundtrack, CPR training staple (Song?)",
+          "cardBack": "\"Stayin' Alive\" \u2014 Bee Gees"
+        },
+        {
+          "id": "hotel-california",
+          "prompt": "Which 1977 single about checking into a mysterious desert lodging spent just 1 week at #1 on the Hot 100 but became one of the most iconic rock songs ever recorded?",
+          "answer": "Hotel California",
+          "alternates": ["The Hotel California"],
+          "explanation": "Eagles (1977) \u2014 peaked at #1 for 1 week on the Billboard Hot 100 (May 7, 1977)\\nKnocked from #1 by Leo Sayer's \"When I Need You\" after a single week\\nTitle track from the Eagles' fifth studio album, which spent 8 non-consecutive weeks at #1 on the Billboard 200\\nDon Felder wrote the music; Don Henley and Glenn Frey wrote the lyrics\\nFamous dual guitar outro solo by Felder and Joe Walsh \u2014 consistently ranked among greatest guitar solos\\nLyrics widely interpreted as a metaphor for hedonism, the dark side of the American Dream, or the music industry\\nSingle released on Asylum Records on February 22, 1977",
+          "cardFront": "1977 \u2014 mysterious desert lodging, only 1 week at #1 but iconic (Song?)",
+          "cardBack": "\"Hotel California\" \u2014 Eagles"
+        },
+        {
+          "id": "every-breath-you-take",
+          "prompt": "Which 1983 hit about obsessive surveillance spent 8 weeks at #1 and was the biggest-selling single of that year, performed by a British trio on their final studio album?",
+          "answer": "Every Breath You Take",
+          "alternates": ["Every Breath You Take by the Police", "Every Breath"],
+          "explanation": "The Police (1983) \u2014 8 weeks at #1 on the Billboard Hot 100 beginning July 9\\nWritten by Sting, who later said the lyrics are about jealousy and surveillance, not romance\\nFrom the album *Synchronicity*, the band's fifth and final studio album\\nBiggest-selling single of 1983 in the United States\\nOnly #1 hit on the Hot 100 for The Police\\nWon the Grammy for Song of the Year in 1984\\nSampled by Puff Daddy in \"I'll Be Missing You\" (1997), a tribute to the Notorious B.I.G. that also hit #1",
+          "cardFront": "1983 \u2014 obsessive surveillance anthem, 8 weeks at #1, British trio's final album (Song?)",
+          "cardBack": "\"Every Breath You Take\" \u2014 The Police"
+        },
+        {
+          "id": "billie-jean",
+          "prompt": "Which artist's 1983 single about a paternity claim spent 7 weeks at #1, and its first televised performance debuted a dance move that became one of pop culture's most recognizable?",
+          "answer": "Michael Jackson",
+          "alternates": ["Jackson", "MJ"],
+          "explanation": "\"Billie Jean\" (1983) \u2014 7 weeks at #1 on the Billboard Hot 100 beginning March 5\\nFrom the album *Thriller*, the best-selling album of all time (70+ million copies)\\nFirst performance of the moonwalk on *Motown 25: Yesterday, Today, Forever* (March 25, 1983)\\nFirst Black artist to have a video in heavy rotation on MTV (\"Billie Jean\" broke the color barrier)\\nProduced by Quincy Jones; distinctive bassline by Louis Johnson\\nFirst Black artist to have a video in heavy rotation on MTV, breaking the network's de facto color barrier\\n#1 song on the Billboard Year-End chart for 1983",
+          "cardFront": "1983 \u2014 paternity claim, moonwalk debut, 7 weeks at #1 (Artist?)",
+          "cardBack": "\"Billie Jean\" \u2014 Michael Jackson"
+        },
+        {
+          "id": "when-doves-cry",
+          "prompt": "Which 1984 single, notable for having no bass line in its final mix, spent 5 weeks at #1 and was the #1 single of the year from the soundtrack of a semi-autobiographical film?",
+          "answer": "Prince",
+          "alternates": ["Prince Rogers Nelson", "The Artist Formerly Known as Prince"],
+          "explanation": "\"When Doves Cry\" (1984) \u2014 5 weeks at #1 on the Billboard Hot 100 beginning July 7\\n#1 single on the Billboard Year-End Hot 100 for 1984\\nFrom the *Purple Rain* soundtrack and film \u2014 album spent 24 weeks at #1 on the Billboard 200\\nFamously has no bass line; the bass track was stripped out during mixing because the artist felt it sounded too conventional\\nFirst #1 single for the Minneapolis-born multi-instrumentalist\\nMusic video featured the artist in a bathtub and incorporated footage from the film\\nWon the American Music Award for Best Black Single in 1985",
+          "cardFront": "1984 \u2014 no bass line, 5 weeks at #1, semi-autobiographical film soundtrack (Artist?)",
+          "cardBack": "\"When Doves Cry\" \u2014 Prince"
+        },
+        {
+          "id": "like-a-virgin",
+          "prompt": "Which 1984 single, famously performed at the inaugural MTV VMAs in a wedding dress, spent 6 weeks at #1 and became the debut chart-topper for the artist later called the 'Queen of Pop'?",
+          "answer": "Like a Virgin",
+          "alternates": ["Like A Virgin"],
+          "explanation": "Madonna (1984\u20131985) \u2014 6 weeks at #1 on the Billboard Hot 100 beginning December 22, 1984\\nFirst #1 hit for the artist who would earn 12 total Hot 100 #1 singles\\nPerformed at the first-ever MTV Video Music Awards (September 14, 1984) in a wedding dress atop a giant cake\\nWritten by Billy Steinberg and Tom Kelly, not by the performer\\nTitle track of the album that established the singer as a global superstar (sold 21+ million copies)\\nProduced by Nile Rodgers of Chic\\nLongest-running #1 single of 1984 on the Hot 100",
+          "cardFront": "1984 \u2014 wedding dress at VMAs, 6 weeks at #1, 'Queen of Pop' (Song?)",
+          "cardBack": "\"Like a Virgin\" \u2014 Madonna"
+        },
+        {
+          "id": "i-will-always-love-you",
+          "prompt": "Which 1992 power ballad, a cover of a 1973 country song written by the original artist for her mentor, spent 14 weeks at #1 and appeared on a blockbuster film soundtrack starring the singer alongside Kevin Costner?",
+          "answer": "Whitney Houston",
+          "alternates": ["Houston", "Whitney"],
+          "explanation": "\"I Will Always Love You\" (1992) \u2014 14 weeks at #1 on the Billboard Hot 100 beginning November 28\\nOriginally written and recorded by Dolly Parton in 1974 as a farewell to her mentor Porter Wagoner\\nFrom *The Bodyguard* soundtrack, which sold over 45 million copies worldwide\\nSet the record for most weeks at #1 by a female artist at the time\\nWon Grammys for Record of the Year and Best Pop Vocal Performance, Female (1994)\\nFastest rise to #1 by a female artist at the time \u2014 reached #1 in its second week on the chart\\nParton earned millions in royalties from the cover and reportedly thanked the singer for her \"house money\"",
+          "cardFront": "1992 \u2014 Dolly Parton cover, 14 weeks at #1, *The Bodyguard* (Artist?)",
+          "cardBack": "\"I Will Always Love You\" \u2014 Whitney Houston"
+        },
+        {
+          "id": "one-sweet-day",
+          "prompt": "Which 1995 collaboration between a diva and a vocal quartet debuted at #1 and held the top spot for 16 weeks, a record that stood for over two decades?",
+          "answer": "One Sweet Day",
+          "alternates": [],
+          "explanation": "Mariah Carey & Boyz II Men (1995\u20131996) \u2014 16 weeks at #1 from December 2, 1995, to March 16, 1996\\nDebuted at #1 on the Hot 100 \u2014 longest-running #1 debut in chart history\\nHeld the record for most weeks at #1 for 23 years until \"Old Town Road\" (19 consecutive weeks) in 2019\\nWritten as a tribute to friends who had died, including AIDS-related deaths\\nCarey's 10th #1 single (of her eventual 19 total); Boyz II Men's 4th\\nProduced by Walter Afanasieff and Carey\\nRecord was eventually surpassed in total (non-consecutive) weeks at #1 by \"All I Want for Christmas Is You\" (22 weeks as of 2025)",
+          "cardFront": "1995 \u2014 diva + vocal quartet, debuted at #1, held 16-week record (Song?)",
+          "cardBack": "\"One Sweet Day\" \u2014 Mariah Carey & Boyz II Men"
+        },
+        {
+          "id": "gangstas-paradise",
+          "prompt": "Which 1995 hip-hop single, built on a Stevie Wonder sample, spent 3 weeks at #1 and was the top-selling single of the year, featured on the soundtrack of a Michelle Pfeiffer school drama?",
+          "answer": "Gangsta's Paradise",
+          "alternates": ["Gangstas Paradise"],
+          "explanation": "Coolio feat. L.V. (1995) \u2014 3 weeks at #1 on the Billboard Hot 100\\n#1 single on the Billboard Year-End Hot 100 for 1995\\nFrom the *Dangerous Minds* soundtrack, starring Michelle Pfeiffer as a teacher in an inner-city school\\nSampled Stevie Wonder's \"Pastime Paradise\" from *Songs in the Key of Life* (1976); Wonder required that no profanity appear in the song\\nSpent 12 weeks in the Hot 100 top two (3 at #1, 9 at #2)\\nWon the Grammy for Best Rap Solo Performance in 1996\\nCoolio (Artis Leon Ivey Jr.) died in 2022 at age 59 from cardiac arrest",
+          "cardFront": "1995 \u2014 Stevie Wonder sample, *Dangerous Minds*, top-selling single of the year (Song?)",
+          "cardBack": "\"Gangsta's Paradise\" \u2014 Coolio feat. L.V."
+        },
+        {
+          "id": "baby-one-more-time",
+          "prompt": "Which 1999 debut single, featuring a now-iconic Catholic schoolgirl outfit in its music video, spent 2 weeks at #1 and launched the career of a 17-year-old pop sensation?",
+          "answer": "Britney Spears",
+          "alternates": ["Spears", "Britney"],
+          "explanation": "\"...Baby One More Time\" (1999) \u2014 2 weeks at #1 on the Billboard Hot 100 beginning January 30\\nDebuted at #1 on both the Hot 100 and the Billboard 200 simultaneously \u2014 rare for any artist\\nLaunched by a 17-year-old former Mickey Mouse Club member from Kentwood, Louisiana\\nMusic video set in a school hallway with a Catholic schoolgirl outfit became a defining pop culture image of the late 1990s\\nWritten and produced by Max Martin, the Swedish hitmaker behind dozens of #1 singles\\nAlbum of the same name sold over 25 million copies worldwide\\nMarked the beginning of the late-1990s teen pop boom alongside *NSYNC and the Backstreet Boys",
+          "cardFront": "1999 \u2014 schoolgirl video, 2 weeks at #1, teen pop debut (Artist?)",
+          "cardBack": "\"...Baby One More Time\" \u2014 Britney Spears"
+        },
+        {
+          "id": "crazy-in-love",
+          "prompt": "Which 2003 single, featuring a horn-driven beat and a rap verse from the performer's future husband, spent 8 weeks at #1 and marked a former girl-group member's solo breakthrough?",
+          "answer": "Crazy in Love",
+          "alternates": ["Crazy In Love"],
+          "explanation": "Beyonc\u00e9 feat. Jay-Z (2003) \u2014 8 weeks at #1 on the Billboard Hot 100 beginning July 12\\nFirst solo #1 for the former Destiny's Child frontwoman (she would earn 10 total)\\nProduced by Rich Harrison; the iconic horn sample comes from the Chi-Lites' \"Are You My Woman (Tell Me So)\" (1970)\\nFrom the debut solo album *Dangerously in Love*, which won 5 Grammys\\nJay-Z and Beyonc\u00e9 married in 2008 and became one of music's most powerful couples\\nWon the Grammy for Best R&B Song and Best Rap/Sung Collaboration (2004)\\nMusic video's opening \u2014 walking toward an exploding car \u2014 became an iconic pop culture moment",
+          "cardFront": "2003 \u2014 horn-driven beat, rap verse from future husband, 8 weeks at #1 (Song?)",
+          "cardBack": "\"Crazy in Love\" \u2014 Beyonc\u00e9 feat. Jay-Z"
+        },
+        {
+          "id": "hey-ya",
+          "prompt": "Which 2003 single spent 9 weeks at #1 and instructed listeners to 'shake it like a Polaroid picture,' released by one half of an Atlanta hip-hop duo as a solo track?",
+          "answer": "Hey Ya!",
+          "alternates": ["Hey Ya", "Hey Ya! by Outkast", "Hey Ya by Outkast"],
+          "explanation": "OutKast / Andr\u00e9 3000 (2003\u20132004) \u2014 9 weeks at #1 on the Billboard Hot 100 beginning December 13\\nTechnically credited to OutKast but performed solely by Andr\u00e9 3000 (Andr\u00e9 Benjamin)\\nFrom the double album *Speakerboxxx/The Love Below* \u2014 each disc by one half of the duo\\n\"Shake it like a Polaroid picture\" became a catchphrase; Polaroid issued a statement saying shaking actually damages their photos\\n*Speakerboxxx/The Love Below* won the Grammy for Album of the Year (2004)\\nBlended pop, funk, punk, and New Wave in a genre-defying package\\nMusic video featured Andr\u00e9 3000 playing all members of a fictional band in a parody of 1960s variety shows",
+          "cardFront": "2003 \u2014 'shake it like a Polaroid picture,' 9 weeks at #1, Atlanta duo (Song?)",
+          "cardBack": "\"Hey Ya!\" \u2014 OutKast"
+        },
+        {
+          "id": "rolling-in-the-deep",
+          "prompt": "Which 2011 single, driven by a stomping beat and soaring vocals about a failed relationship, spent 7 weeks at #1 and became the top-selling single of the year for a British singer's second album?",
+          "answer": "Adele",
+          "alternates": ["Adele Adkins", "Adele Laurie Blue Adkins"],
+          "explanation": "\"Rolling in the Deep\" (2011) \u2014 7 weeks at #1 on the Billboard Hot 100 beginning May 21\\n#1 song on the Billboard Year-End Hot 100 for 2011\\nFrom the album *21*, which sold over 31 million copies worldwide and spent 24 weeks at #1 on the Billboard 200\\nWon three Grammys: Record of the Year, Song of the Year, and Best Short Form Music Video (2012)\\n*21* swept all six of its Grammy categories at the 2012 ceremony, including Album of the Year\\nCo-written with Paul Epworth; inspired by the breakup with the singer's ex-boyfriend\\nFirst single by the British artist to reach #1 in the United States",
+          "cardFront": "2011 \u2014 stomping beat, breakup anthem, 7 weeks at #1, British singer (Artist?)",
+          "cardBack": "\"Rolling in the Deep\" \u2014 Adele"
+        },
+        {
+          "id": "uptown-funk",
+          "prompt": "Which 2015 retro single, channeling James Brown-era grooves, spent 14 weeks at #1, was credited to a British-born producer but performed vocally by a Hawaiian-born singer, and became the #1 song of the year?",
+          "answer": "Uptown Funk",
+          "alternates": ["Uptown Funk!"],
+          "explanation": "Mark Ronson feat. Bruno Mars (2015) \u2014 14 consecutive weeks at #1 on the Billboard Hot 100 beginning January 17\\n#1 song on the Billboard Year-End Hot 100 for 2015\\nOfficially credited to producer Mark Ronson (British, born in London) with Bruno Mars (born Peter Gene Hernandez in Honolulu)\\nInspired by 1980s funk and Minneapolis sound \u2014 nods to The Gap Band, Zapp, and Morris Day and The Time\\nWon the Grammy for Record of the Year (2016)\\nMusic video set in various locations inspired by 1980s Black music culture\\nBecame one of the first songs to surpass 4 billion views on YouTube",
+          "cardFront": "2015 \u2014 retro-funk, British producer + Hawaiian singer, 14 weeks at #1 (Song?)",
+          "cardBack": "\"Uptown Funk\" \u2014 Mark Ronson feat. Bruno Mars"
+        },
+        {
+          "id": "despacito",
+          "prompt": "Which 2017 remix, blending reggaeton with a Canadian pop star's verse, tied the 16-week #1 record and became the first primarily Spanish-language song to top the Hot 100 since 'Macarena'?",
+          "answer": "Despacito",
+          "alternates": ["Despacito Remix"],
+          "explanation": "Luis Fonsi & Daddy Yankee feat. Justin Bieber (2017) \u2014 16 weeks at #1 on the Hot 100 beginning May 27\\nTied \"One Sweet Day\" for the most weeks at #1 at the time (record later broken by \"Old Town Road\")\\nFirst primarily Spanish-language song to reach #1 on the Hot 100 since Los del R\u00edo's \"Macarena\" in 1996\\nOriginal version (without Bieber) was already a massive Latin hit before the English-Spanish remix went global\\nBieber learned his Spanish-language verses phonetically\\nBecame the first video to reach 5 billion views on YouTube (later surpassed)\\nLuis Fonsi is from Puerto Rico; Daddy Yankee is the \"King of Reggaeton\"",
+          "cardFront": "2017 \u2014 reggaeton remix, Canadian pop star verse, tied 16-week #1 record (Song?)",
+          "cardBack": "\"Despacito\" (Remix) \u2014 Fonsi, Daddy Yankee & Bieber"
+        },
+        {
+          "id": "shape-of-you",
+          "prompt": "Which 2017 marimba-driven pop hit spent 12 weeks at #1 and set the record for most weeks in the Hot 100's top 10 (33 weeks), released by a British singer-songwriter known for performing with just a guitar and loop pedal?",
+          "answer": "Ed Sheeran",
+          "alternates": ["Sheeran"],
+          "explanation": "\"Shape of You\" (2017) \u2014 12 non-consecutive weeks at #1 on the Billboard Hot 100 beginning January 28\\nSet the record for most weeks in the Hot 100 top 10 at the time (33 weeks)\\nFrom the album *\u00f7 (Divide)*, which debuted at #1 in virtually every major market\\nCo-written with Steve Mac and Johnny McDaid; originally intended for Rihanna\\nDebuted at #1 on the Hot 100 alongside \"Castle on the Hill\" at #6 \u2014 unprecedented double debut\\nBritish singer-songwriter from Halifax, Suffolk, known for solo live shows using loop pedals\\nBecame Apple Music's most-streamed song of the 2010s decade",
+          "cardFront": "2017 \u2014 marimba-driven pop, 12 weeks at #1, loop-pedal performer (Artist?)",
+          "cardBack": "\"Shape of You\" \u2014 Ed Sheeran"
+        },
+        {
+          "id": "old-town-road",
+          "prompt": "Which 2019 country-rap mashup spent a record 19 consecutive weeks at #1, initially went viral on TikTok, and sparked controversy when it was briefly removed from the Billboard country chart?",
+          "answer": "Old Town Road",
+          "alternates": ["Old Town Road by Lil Nas X"],
+          "explanation": "Lil Nas X feat. Billy Ray Cyrus (2019) \u2014 19 consecutive weeks at #1 on the Billboard Hot 100\\nHeld the record for most total weeks at #1 until surpassed by Mariah Carey's \"All I Want for Christmas Is You\" (22 non-consecutive weeks as of 2025)\\nStill holds the record for most consecutive weeks at #1 (19)\\nOriginally removed from the Billboard Hot Country Songs chart, sparking debate about genre gatekeeping and race\\nBilly Ray Cyrus remix was released April 5, 2019, after the original had already charted\\nLil Nas X (Montero Lamar Hill) was 20 years old and had bought the beat online for $30\\nWent viral on TikTok via the \"Yeehaw Challenge\" before mainstream radio pickup",
+          "cardFront": "2019 \u2014 country-rap TikTok viral hit, 19 consecutive weeks at #1 (Song?)",
+          "cardBack": "\"Old Town Road\" \u2014 Lil Nas X feat. Billy Ray Cyrus"
+        }
+      ]
+    }
+  ]
+}

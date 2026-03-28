@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "pop-music/best-selling-albums", "parentId": "pop-music", "name": "Best-Selling Albums", "description": "The highest-selling albums in music history" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/best-selling-albums/all-time",
+      "nodeId": "pop-music/best-selling-albums",
+      "name": "Best-Selling Albums of All Time",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "thriller",
+          "prompt": "Which 1982 album produced by Quincy Jones yielded seven top-10 singles including 'Billie Jean' and 'Beat It,' becoming the best-selling album of all time?",
+          "answer": "Thriller",
+          "alternates": [],
+          "explanation": "Released November 30, 1982 on Epic Records; produced by Quincy Jones\\nBest-selling album of all time with estimated 70 million copies sold worldwide\\nYielded seven singles, all of which reached the top 10 on the Billboard Hot 100\\n'Billie Jean' music video broke MTV's color barrier \u2014 the channel had rarely played Black artists before\\nWon a record eight Grammy Awards at the 1984 ceremony\\nTitle track's 14-minute music video, directed by John Landis, premiered as a theatrical event\\nSpent 37 weeks at #1 on the Billboard 200; returned to #1 after the artist's death in 2009",
+          "cardFront": "Michael Jackson (1982)",
+          "cardBack": "Thriller"
+        },
+        {
+          "id": "back-in-black",
+          "prompt": "Which 1980 hard rock album was the first release by its Australian band after the death of original singer Bon Scott, going on to sell approximately 50 million copies?",
+          "answer": "Back in Black",
+          "alternates": [],
+          "explanation": "Released July 25, 1980 on Albert/Atlantic Records\\nFirst album after vocalist Bon Scott died of acute alcohol poisoning in February 1980\\nBrian Johnson (from Geordie) replaced Scott; the album title and all-black cover are a tribute to Scott\\nSecond-best-selling album of all time with approximately 50 million copies sold worldwide\\nCertified 25\u00d7 Platinum in the U.S. alone\\nProduced by Robert John 'Mutt' Lange; contains 'Hells Bells,' 'You Shook Me All Night Long,' and the title track\\nRecorded at Compass Point Studios in Nassau, Bahamas in just five weeks",
+          "cardFront": "AC/DC (1980)",
+          "cardBack": "Back in Black"
+        },
+        {
+          "id": "dark-side-of-the-moon",
+          "prompt": "Which 1973 concept album about life's pressures \u2014 featuring a prism-and-rainbow cover by Storm Thorgerson \u2014 spent nearly 1,000 weeks on the Billboard 200?",
+          "answer": "The Dark Side of the Moon",
+          "alternates": ["Dark Side of the Moon"],
+          "explanation": "Released March 1, 1973 on Harvest Records; estimated 45 million copies sold worldwide\\nSpent nearly 1,000 cumulative weeks on the Billboard 200 \u2014 more than any other album in chart history\\nIconic prism cover art designed by Storm Thorgerson and Hipgnosis\\nConcept album exploring themes of conflict, greed, time, death, and mental illness\\nRecorded at Abbey Road Studios; innovative use of synthesizers, tape loops, and multitrack recording\\nContains no singles in the traditional sense, but 'Money' (in 7/4 time) and 'Time' received heavy radio play\\nEngineer Alan Parsons later launched his own career as the Alan Parsons Project",
+          "cardFront": "Pink Floyd (1973)",
+          "cardBack": "The Dark Side of the Moon"
+        },
+        {
+          "id": "the-bodyguard",
+          "prompt": "Which 1992 film soundtrack featured a Dolly Parton cover that became the best-selling physical single of all time, with total album sales reaching approximately 45 million copies?",
+          "answer": "The Bodyguard",
+          "alternates": ["Bodyguard", "The Bodyguard: Original Soundtrack Album"],
+          "explanation": "Soundtrack to the 1992 film starring the lead vocalist and Kevin Costner\\nSold approximately 45 million copies worldwide, making it the best-selling soundtrack album ever\\n'I Will Always Love You' \u2014 originally a 1973 Dolly Parton country hit \u2014 spent 14 weeks at #1\\nThat single became the best-selling physical single by a female artist in history\\nAlbum spent 20 weeks at #1 on the Billboard 200\\nAlso includes 'I'm Every Woman' (Chaka Khan cover), 'I Have Nothing,' and 'Run to You'\\nWon three Grammy Awards including Album of the Year and Record of the Year",
+          "cardFront": "Whitney Houston (1992)",
+          "cardBack": "The Bodyguard"
+        },
+        {
+          "id": "bat-out-of-hell",
+          "prompt": "Which 1977 album, written and produced by Jim Steinman, was rejected by every major label for years before becoming one of the best-selling records of all time at 44 million copies?",
+          "answer": "Bat Out of Hell",
+          "alternates": [],
+          "explanation": "Released October 21, 1977 on Cleveland International/Epic Records\\nWritten and produced by Jim Steinman; estimated 44 million copies sold worldwide\\nRejected by every major label for roughly two and a half years before release\\nTodd Rundgren produced and played guitar on the album after labels refused to fund it\\nBlends Springsteen-style rock with Wagnerian operatics and motorcycle imagery\\nSpent over 500 weeks on the UK Albums Chart \u2014 one of the longest runs in British chart history\\nTitle track runs 9:51; 'Paradise by the Dashboard Light' is a theatrical duet with Ellen Foley",
+          "cardFront": "Meat Loaf (1977)",
+          "cardBack": "Bat Out of Hell"
+        },
+        {
+          "id": "their-greatest-hits",
+          "prompt": "Which 1976 compilation \u2014 the first album ever certified Platinum by the RIAA \u2014 collected hits from its band's first four albums and has sold approximately 44 million copies?",
+          "answer": "Their Greatest Hits (1971\u20131975)",
+          "alternates": ["Their Greatest Hits", "Eagles Greatest Hits", "Eagles Their Greatest Hits"],
+          "explanation": "Released February 17, 1976 on Asylum Records; compiles singles from the band's first four studio albums\\nFirst album ever to receive RIAA Platinum certification (February 24, 1976, one week after release)\\nFirst album certified Quadruple Diamond (40 million U.S. units) in January 2026\\nIncludes 'Take It Easy,' 'Witchy Woman,' 'Desperado,' 'One of These Nights,' and 'Best of My Love'\\nApproximately 44 million copies sold worldwide\\nBriefly held the title of best-selling album in U.S. history, trading the record with 'Thriller'\\nAll five singles on the album reached the top 10 on the Billboard Hot 100",
+          "cardFront": "Eagles (1976)",
+          "cardBack": "Their Greatest Hits (1971\u20131975)"
+        },
+        {
+          "id": "come-on-over",
+          "prompt": "Which 1997 country-pop crossover album \u2014 featuring 'You're Still the One' and 'Man! I Feel Like a Woman!' \u2014 became the best-selling studio album by a female artist?",
+          "answer": "Come On Over",
+          "alternates": [],
+          "explanation": "Released November 4, 1997 on Mercury Nashville; produced by Robert John 'Mutt' Lange\\nBest-selling studio album by a female artist with approximately 40 million copies sold worldwide\\nBest-selling country album of all time\\nProduced 12 singles \u2014 every track except one was released as a single\\nLange (also the artist's then-husband) co-wrote every song on the album\\nDominated both country and pop charts, spending 50 weeks in the top 10 of the Billboard 200\\n'You're Still the One' earned two Grammys; 'Man! I Feel Like a Woman!' won Best Female Country Vocal",
+          "cardFront": "Shania Twain (1997)",
+          "cardBack": "Come On Over"
+        },
+        {
+          "id": "rumours",
+          "prompt": "Which 1977 album was recorded while two couples in the band were splitting up, producing hits like 'Go Your Own Way,' 'Dreams,' and 'The Chain'?",
+          "answer": "Rumours",
+          "alternates": ["Rumors"],
+          "explanation": "Released February 4, 1977 on Warner Bros. Records; approximately 40 million copies sold worldwide\\nRecorded during simultaneous breakups: Lindsey Buckingham and Stevie Nicks, John and Christine McVie\\nPersonal turmoil fueled confessional songwriting \u2014 'Go Your Own Way' was Buckingham's breakup song to Nicks\\n'Dreams' became the band's only #1 single on the Billboard Hot 100\\nWon the Grammy for Album of the Year at the 1978 ceremony\\nSpent 31 weeks at #1 on the Billboard 200\\n'The Chain' \u2014 the only song credited to all five members \u2014 became the BBC's Formula 1 theme from 1978 onward",
+          "cardFront": "Fleetwood Mac (1977)",
+          "cardBack": "Rumours"
+        },
+        {
+          "id": "led-zeppelin-iv",
+          "prompt": "Which 1971 album has no official title, band name, or text on its cover, yet contains a track widely considered the greatest rock song ever recorded?",
+          "answer": "Led Zeppelin IV",
+          "alternates": ["Zoso", "Four Symbols", "Untitled", "Led Zeppelin 4"],
+          "explanation": "Released November 8, 1971 on Atlantic Records; approximately 37 million copies sold worldwide\\nOfficially untitled \u2014 no band name, album title, or text on the cover, only four symbols (one per member)\\nJimmy Page's symbol resembles 'ZoSo,' giving the album one of its common nicknames\\nContains 'Stairway to Heaven,' which was never released as a single but became the most-requested FM radio song of the 1970s\\nAlso includes 'Black Dog,' 'Rock and Roll,' and a reworking of Memphis Minnie's 'When the Levee Breaks'\\nThe cover's front image \u2014 an old man with a bundle of sticks \u2014 was a painting found in an antique shop in Reading\\nCertified 24\u00d7 Platinum in the U.S. by the RIAA",
+          "cardFront": "Led Zeppelin (1971)",
+          "cardBack": "Led Zeppelin IV"
+        },
+        {
+          "id": "saturday-night-fever",
+          "prompt": "Which 1977 film soundtrack spawned 'Stayin' Alive' and 'How Deep Is Your Love,' defining the disco era and selling approximately 40 million copies?",
+          "answer": "Saturday Night Fever",
+          "alternates": ["Saturday Night Fever: The Original Movie Sound Track"],
+          "explanation": "Released November 15, 1977 on RSO Records; approximately 40 million copies sold worldwide\\nSoundtrack to the 1977 film starring John Travolta as Tony Manero\\nDominated by the Bee Gees, who wrote and performed five of the album's biggest hits\\n'Stayin' Alive,' 'How Deep Is Your Love,' and 'Night Fever' each reached #1 on the Billboard Hot 100\\nSpent 24 consecutive weeks at #1 on the Billboard 200\\nBecame both the symbol and the commercial peak of the disco era\\nAlso features tracks by Yvonne Elliman ('If I Can't Have You,' #1) and Tavares",
+          "cardFront": "Bee Gees / Soundtrack (1977)",
+          "cardBack": "Saturday Night Fever"
+        },
+        {
+          "id": "abbey-road",
+          "prompt": "Which 1969 album features a famous crosswalk photograph on its cover, along with tracks like 'Come Together' and 'Here Comes the Sun'?",
+          "answer": "Abbey Road",
+          "alternates": [],
+          "explanation": "Released September 26, 1969 on Apple Records; approximately 35 million copies sold worldwide\\nCover photo \u2014 the four members walking across the zebra crossing outside the studio \u2014 is one of the most imitated images in music\\nThe crossing on Abbey Road in St John's Wood, London, was granted Grade II listed status in 2010\\nSide two features a 16-minute medley of eight songs stitched together, ending with 'The End'\\nGeorge Harrison's 'Something' and 'Here Comes the Sun' are considered his finest contributions to the group\\nLast album recorded by the band (though *Let It Be* was released later in 1970)\\nProduced by George Martin; Geoff Emerick engineered",
+          "cardFront": "The Beatles (1969)",
+          "cardBack": "Abbey Road"
+        },
+        {
+          "id": "appetite-for-destruction",
+          "prompt": "Which 1987 debut album \u2014 featuring 'Welcome to the Jungle' and 'Sweet Child O' Mine' \u2014 became the best-selling debut in U.S. history?",
+          "answer": "Appetite for Destruction",
+          "alternates": [],
+          "explanation": "Released July 21, 1987 on Geffen Records; approximately 35 million copies sold worldwide\\nBest-selling debut album in U.S. history, certified 18\u00d7 Platinum by the RIAA\\nTook over a year to reach #1 on the Billboard 200 (August 1988), propelled by MTV airplay of 'Sweet Child O' Mine'\\nOriginal Robert Williams cover art (a robot assaulting a woman) was replaced after retailers refused to stock it\\n'Welcome to the Jungle,' 'Paradise City,' and 'Sweet Child O' Mine' all reached the top 10\\nRecorded with producer Mike Clink at Rumbo Recorders, Take One, and other studios in Los Angeles\\nBand lineup: Axl Rose, Slash, Izzy Stradlin, Duff McKagan, Steven Adler",
+          "cardFront": "Guns N' Roses (1987)",
+          "cardBack": "Appetite for Destruction"
+        },
+        {
+          "id": "21",
+          "prompt": "Which 2011 album yielded 'Rolling in the Deep' and 'Someone Like You,' sweeping six Grammy Awards including Album of the Year?",
+          "answer": "21",
+          "alternates": ["Twenty-One"],
+          "explanation": "Released January 24, 2011 on XL/Columbia Records; approximately 31 million copies sold worldwide\\nNamed after the artist's age at the time of writing; themes of heartbreak and regret\\nSwept six Grammy Awards at the 2012 ceremony, tying the record for most wins by a female artist in one night\\n'Rolling in the Deep' spent seven weeks at #1 on the Billboard Hot 100; 'Someone Like You' also reached #1\\nSpent 24 non-consecutive weeks at #1 on the Billboard 200\\nBecame the first album to sell 3 million copies in a single year in the UK\\nProduced primarily by Paul Epworth and Rick Rubin; blends soul, pop, and blue-eyed soul",
+          "cardFront": "Adele (2011)",
+          "cardBack": "21"
+        },
+        {
+          "id": "jagged-little-pill",
+          "prompt": "Which 1995 album marked its Canadian artist's pivot from teen dance-pop to alternative rock, featuring 'You Oughta Know' and 'Ironic' and selling 33 million copies?",
+          "answer": "Jagged Little Pill",
+          "alternates": [],
+          "explanation": "Released June 13, 1995 on Maverick/Reprise Records; approximately 33 million copies sold worldwide\\nThe artist had previously released two dance-pop albums in Canada (1991, 1992) that went nowhere internationally\\nCo-written and produced with Glen Ballard in a stripped-down, raw style that defined mid-'90s alt-rock\\n'You Oughta Know' (featuring Flea and Dave Navarro) was the breakthrough single; its frank anger shocked radio\\n'Ironic' became a pop-culture touchstone \u2014 and a perennial debate about whether any of its examples are actually ironic\\nWon five Grammy Awards in 1996 including Album of the Year\\nAdapted into a Tony-winning Broadway musical in 2019",
+          "cardFront": "Alanis Morissette (1995)",
+          "cardBack": "Jagged Little Pill"
+        },
+        {
+          "id": "nevermind",
+          "prompt": "Which 1991 album \u2014 known for its baby-in-a-swimming-pool cover \u2014 knocked *Dangerous* off #1 on the Billboard 200, signaling the mainstream arrival of grunge?",
+          "answer": "Nevermind",
+          "alternates": ["Never Mind"],
+          "explanation": "Released September 24, 1991 on DGG/Sub Pop; approximately 30 million copies sold worldwide\\nKnocked Michael Jackson's *Dangerous* off #1 on the Billboard 200 on January 11, 1992\\nSold only 6,000 copies in its first week; reached #1 within four months, driven by MTV's rotation of 'Smells Like Teen Spirit'\\nBaby-in-pool cover shot by Kirk Weddle; the underwater baby (Spencer Elden) later sued the band over the image\\nProduced by Butch Vig at Sound City Studios in Van Nuys, California\\nWidely credited with killing hair metal and bringing grunge/alternative rock into the mainstream\\nThe band's frontman died in April 1994 at age 27, making this the group's commercial peak",
+          "cardFront": "Nirvana (1991)",
+          "cardBack": "Nevermind"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "pop-music/instruments",
+      "parentId": "pop-music",
+      "name": "Musical Instruments",
+      "description": "Instrument families, orchestral seating, and famous instruments"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/instruments/musical-instruments",
+      "nodeId": "pop-music/instruments",
+      "name": "Musical Instruments",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "violin",
+          "prompt": "Which bowed string instrument, the highest-pitched in its family, sits front-left in the orchestra and has four strings tuned G–D–A–E?",
+          "answer": "Violin",
+          "alternates": [
+            "Fiddle"
+          ],
+          "explanation": "Highest-pitched standard member of the string family; tuned G–D–A–E\nSits front-left in the orchestra, divided into first and second sections\nAntonio Stradivari (1644–1737) of Cremona, Italy, built the most prized examples — surviving Stradivarius instruments sell for $10–23 million\nFour strings, played with a bow made of horsehair stretched across a wooden stick\nThe concertmaster (first-chair first violinist) is the highest-ranked player after the conductor\nModern strings are synthetic or steel; gut strings were standard until the 20th century\nAppeared in its current form in 16th-century Italy; Andrea Amati built the earliest known examples (~1560s)",
+          "cardFront": "Highest-pitched orchestral string, 4 strings (G–D–A–E)",
+          "cardBack": "Violin"
+        },
+        {
+          "id": "cello",
+          "prompt": "Which bowed string instrument has four strings tuned C–G–D–A (one octave below the viola) and is played seated with the instrument between the knees?",
+          "answer": "Cello",
+          "alternates": [
+            "Violoncello"
+          ],
+          "explanation": "Full name violoncello (\"small large viol\"); tuned C–G–D–A, one octave below the viola\nPlayed seated with the instrument supported by an endpin resting on the floor\nSits front-right in most orchestral seating arrangements\nYo-Yo Ma (b. 1955) is the most famous modern player; began performing at age 4\nBach's six Suites for Unaccompanied Cello (c. 1720) are the cornerstone of solo repertoire\nRange spans nearly four octaves, covering tenor and bass registers\nPablo Casals revived the Bach suites in the early 20th century after they had been largely treated as technical exercises",
+          "cardFront": "Bowed string, tuned C–G–D–A, played seated",
+          "cardBack": "Cello"
+        },
+        {
+          "id": "piano",
+          "prompt": "Which keyboard instrument, invented by Bartolomeo Cristofori around 1700, has 88 keys and uses hammers striking strings to produce sound?",
+          "answer": "Piano",
+          "alternates": [
+            "Pianoforte"
+          ],
+          "explanation": "Full name pianoforte (\"soft-loud\"), reflecting its ability to vary dynamics — unlike the harpsichord\nInvented by Bartolomeo Cristofori in Florence, Italy, around 1700; his earliest instruments had ~49 keys\n88 keys (52 white, 36 black) became standard after Steinway adopted it in the 1880s\nClassified as both a string and percussion instrument: felt-covered hammers strike steel strings\nOver 18,000 parts; the cast-iron frame withstands ~20 tons of string tension\nThe sostenuto (middle) pedal sustains only notes held at the moment it is pressed — a distinction from the damper pedal\nMost-recorded instrument in history; central to Western classical, jazz, and popular music",
+          "cardFront": "88-key keyboard, hammers strike strings",
+          "cardBack": "Piano"
+        },
+        {
+          "id": "trumpet",
+          "prompt": "Which valved brass instrument, the highest-pitched in its standard family, has three valves and is associated with Louis Armstrong and Miles Davis?",
+          "answer": "Trumpet",
+          "alternates": [],
+          "explanation": "Highest-pitched standard brass instrument; three piston valves control pitch\nTubing length is about 4.5 feet when uncoiled (in B-flat)\nSits in the back row of the orchestra, typically center-left behind the woodwinds\nLouis Armstrong revolutionized jazz soloing; Miles Davis pioneered cool jazz and jazz fusion\nAncestors date to ~1500 BCE (Egyptian and Mesopotamian cultures); valves added in the early 19th century\nMaynard Ferguson and Arturo Sandoval famous for extreme high-register playing\nThe natural (valveless) trumpet was used in Baroque music; Bach and Handel wrote virtuosic parts for it",
+          "cardFront": "Highest-pitched standard brass, 3 valves",
+          "cardBack": "Trumpet"
+        },
+        {
+          "id": "french-horn",
+          "prompt": "Which coiled brass instrument, actually German in origin, requires the player to place the right hand inside the bell and is considered one of the most difficult orchestral instruments?",
+          "answer": "French Horn",
+          "alternates": [
+            "Horn",
+            "French horn"
+          ],
+          "explanation": "Descended from the German Waldhorn (\"forest horn\") used in hunting; the name \"French horn\" is mainly used in English\nA double horn has about 17–22 feet of coiled tubing combining F and B-flat sides\nRight hand placed inside the bell to control tone, intonation, and muting (\"hand-stopping\")\nNotoriously difficult: narrow harmonic spacing in the upper register makes missed notes (\"cracked\" notes) common\nSits in the middle-rear of the orchestra; typically four horns in a standard symphonic section\nMozart's four horn concertos (K. 412, 417, 447, 495) are core repertoire, written for Joseph Leutgeb\nThe rotary valve system (rather than piston valves) is standard on most orchestral horns",
+          "cardFront": "Coiled brass, right hand in bell, German origin",
+          "cardBack": "French Horn"
+        },
+        {
+          "id": "tuba",
+          "prompt": "Which brass instrument, the lowest-pitched in its family, was patented in 1835 by Wieprecht and Moritz and sits at the back of the orchestra?",
+          "answer": "Tuba",
+          "alternates": [],
+          "explanation": "Lowest-pitched standard brass instrument; plays the bass line in brass sections\nPatented September 12, 1835, by Prussian bandmaster Wilhelm Friedrich Wieprecht and instrument maker Johann Gottfried Moritz\nTubing length ranges from 12 feet (E-flat) to over 18 feet (BB-flat contrabass)\nSits at the back of the orchestra, typically one player in a standard symphonic section\nThe sousaphone (marching band variant) wraps around the player's body; designed for John Philip Sousa's band\nVaughan Williams wrote the only major tuba concerto in the standard repertoire (1954)\nHas 3–6 valves depending on the model; most orchestral tubas use rotary valves",
+          "cardFront": "Lowest-pitched brass, patented 1835",
+          "cardBack": "Tuba"
+        },
+        {
+          "id": "flute",
+          "prompt": "Which woodwind instrument, usually made of metal and held sideways, is among the oldest known instruments, with bone examples dating back over 40,000 years?",
+          "answer": "Flute",
+          "alternates": [],
+          "explanation": "Bone flutes dating to ~40,000–43,000 years ago found in caves in southern Germany (Hohle Fels, Geissenklösterle) — among the oldest known instruments\nClassified as a woodwind despite being made of metal (silver, gold, or platinum) because it evolved from wooden ancestors\nHeld sideways (transverse); sound produced by blowing across the embouchure hole, not through a reed\nTheobald Boehm (1794–1881) redesigned the key system in 1847, creating the modern concert flute\nJames Galway (\"The Man with the Golden Flute\") and Jean-Pierre Rampal were the most famous 20th-century soloists\nThe piccolo is its half-size sibling, sounding one octave higher\nRange of about three octaves; sits front row of the orchestra in the woodwind section",
+          "cardFront": "Transverse woodwind, usually metal, oldest known instruments",
+          "cardBack": "Flute"
+        },
+        {
+          "id": "clarinet",
+          "prompt": "Which single-reed woodwind, invented around 1700 by Johann Christoph Denner, has a range of nearly four octaves and was central to the swing era of jazz?",
+          "answer": "Clarinet",
+          "alternates": [],
+          "explanation": "Single-reed woodwind; the reed vibrates against a mouthpiece to produce sound\nInvented ~1690–1700 by Johann Christoph Denner of Nuremberg, evolving from the earlier chalumeau\nRange of nearly four octaves — the widest of any common woodwind\nBenny Goodman (\"King of Swing\") made it the lead voice of big-band jazz in the 1930s–40s\nMozart's Clarinet Concerto in A major (K. 622, 1791) is the most-performed work for the instrument\nB-flat clarinet is standard in orchestras and bands; A clarinet used for sharp-key orchestral works\nThe \"break\" between the chalumeau and clarion registers is a notorious technical challenge for players",
+          "cardFront": "Single-reed woodwind, nearly 4-octave range",
+          "cardBack": "Clarinet"
+        },
+        {
+          "id": "oboe",
+          "prompt": "Which double-reed woodwind, descended from the shawm, tunes the orchestra by playing the concert A to which all other instruments adjust?",
+          "answer": "Oboe",
+          "alternates": [],
+          "explanation": "Double-reed woodwind; two thin cane reeds vibrate against each other to produce a penetrating, nasal tone\nTunes the orchestra: the oboist plays concert A (440 Hz) before each performance, and all other instruments adjust to match\nChosen for tuning because its pitch is stable and its bright sound cuts through an ensemble\nDescended from the shawm, a loud outdoor instrument; the modern oboe emerged in 17th-century France\nThe cor anglais (English horn) is its lower-pitched sibling, pitched a fifth below in F\nRichard Strauss's Oboe Concerto (1945) and Mozart's Oboe Concerto in C (K. 314) are core solo repertoire\nRequires precise breath control; players make their own reeds by hand, a time-consuming skill",
+          "cardFront": "Double-reed woodwind, tunes the orchestra",
+          "cardBack": "Oboe"
+        },
+        {
+          "id": "saxophone",
+          "prompt": "Which instrument, patented in 1846 by a Belgian inventor and classified as a woodwind despite its brass body, became central to jazz through players like Charlie Parker and John Coltrane?",
+          "answer": "Saxophone",
+          "alternates": [
+            "Sax"
+          ],
+          "explanation": "Invented by Adolphe Sax (Belgium); patented June 28, 1846, after first being demonstrated in 1841\nClassified as a woodwind because it uses a single reed, despite being made entirely of brass\nNot a standard orchestral instrument; found mainly in jazz, concert bands, and military bands\nThe patent covered 14 sizes in two families; alto, tenor, baritone, and soprano are the four common types today\nCharlie Parker (\"Bird\") and John Coltrane transformed jazz on alto and tenor sax, respectively\nAdolphe Sax survived at least seven near-fatal childhood accidents, including falling from a three-story window\nRavel, Debussy, and Prokofiev scored for saxophone in orchestral works, but it never became a permanent orchestral fixture",
+          "cardFront": "Brass-bodied woodwind, patented 1846, central to jazz",
+          "cardBack": "Saxophone"
+        },
+        {
+          "id": "harp",
+          "prompt": "Which 47-string instrument with 7 foot pedals, one of the oldest in human history, sits at the left rear of the orchestra?",
+          "answer": "Harp",
+          "alternates": [
+            "Concert Harp",
+            "Pedal Harp"
+          ],
+          "explanation": "Modern concert (pedal) harp has 47 strings and 7 foot pedals that raise or lower each pitch class\nOne of the oldest instruments: depicted in ancient Mesopotamian art from ~3000 BCE\nSits at the left rear of the orchestra; typically one harpist in a standard symphonic section\nStrings are color-coded: all C strings are red, all F strings are blue or black\nStands about 6 feet tall and weighs roughly 80 pounds\nThe pedals allow fully chromatic playing; each pedal has three positions (flat, natural, sharp)\nDebussy's *Danse sacrée et danse profane* (1904) and Ravel's *Introduction and Allegro* (1905) are landmark solo works",
+          "cardFront": "47 strings, 7 pedals, ancient plucked instrument",
+          "cardBack": "Harp"
+        },
+        {
+          "id": "timpani",
+          "prompt": "Which tunable copper-bowled percussion instruments are the only standard orchestral drums that produce a definite pitch?",
+          "answer": "Timpani",
+          "alternates": [
+            "Kettledrums",
+            "Kettledrum",
+            "Timpano"
+          ],
+          "explanation": "Tunable percussion: copper or fiberglass bowls with calfskin or plastic heads\nThe only standard orchestral drums that produce a definite (determinable) pitch\nTypically 4 drums per set in a modern orchestra, ranging from ~23 to 32 inches in diameter\nPedal mechanism (introduced ~1880s) allows rapid pitch changes by adjusting head tension\nSit at the rear of the orchestra; the timpanist is the principal percussionist\nBeethoven expanded their role from rhythmic punctuation to thematic material (e.g., the solo opening of his Violin Concerto)\nThe name comes from the Latin *tympanum* (drum), itself from Greek *tympanon*",
+          "cardFront": "Tunable copper-bowl drums, definite pitch",
+          "cardBack": "Timpani"
+        },
+        {
+          "id": "stradivarius",
+          "prompt": "What name is given to the stringed instruments made by an Italian luthier in Cremona around 1700, prized as the finest ever crafted and selling for up to $23 million?",
+          "answer": "Stradivarius",
+          "alternates": [
+            "Stradivari",
+            "Strad"
+          ],
+          "explanation": "Instruments made by Antonio Stradivari (1644–1737) in Cremona, Italy\nAbout 650 instruments survive out of over 1,100 made: ~450–512 violins, ~63 cellos, 12 violas, 5 guitars\nThe 1715 \"Baron Knoop\" sold privately for ~$23 million (2023); the \"Lady Blunt\" (1721) holds the public auction record at $15.9 million (2011)\nThe \"golden period\" (~1700–1720) produced the most sought-after instruments\nThe secret of their superior tone remains debated: theories include special varnish, wood treatment, and the density of Alpine spruce during the Little Ice Age\nStradivari's workshop was on Piazza San Domenico in Cremona; the city remains a center of violin making\nModern blind listening tests have produced mixed results on whether players and audiences can distinguish Stradivari from top modern instruments",
+          "cardFront": "Italian-made stringed instruments, Cremona ~1700",
+          "cardBack": "Stradivarius"
+        },
+        {
+          "id": "guitar",
+          "prompt": "Which six-stringed instrument comes in classical (nylon), steel-string acoustic, and electric varieties, with the Stratocaster and Les Paul as iconic electric models?",
+          "answer": "Guitar",
+          "alternates": [],
+          "explanation": "Six strings standard (E–A–D–G–B–E from low to high); twelve-string and seven-string variants also exist\nThree main types: classical (nylon strings), steel-string acoustic, and electric (solid-body with magnetic pickups)\nFender Stratocaster (1954) and Gibson Les Paul (1952) are the two most iconic electric guitar models\nDescended from earlier stringed instruments including the vihuela and the oud; modern form emerged in 19th-century Spain\nAntonio de Torres Jurado (1817–1892) established the modern classical guitar's size, shape, and fan bracing\nMost popular instrument worldwide by number of players; estimated 50+ million players in the U.S. alone\nJimi Hendrix, Eric Clapton, and Andrés Segovia represent electric, blues-rock, and classical guitar mastery, respectively",
+          "cardFront": "6 strings, classical / acoustic / electric varieties",
+          "cardBack": "Guitar"
+        },
+        {
+          "id": "pipe-organ",
+          "prompt": "Which instrument, the largest by physical size, is operated by keyboards (manuals) and pedals, with the world's biggest example containing over 33,000 pipes at a hall in Atlantic City?",
+          "answer": "Pipe Organ",
+          "alternates": [
+            "Organ",
+            "Pipe organ"
+          ],
+          "explanation": "Largest musical instrument by physical size; produces sound by driving pressurized air through pipes\nOperated by keyboards called manuals (played by hands) and a pedalboard (played by feet)\nThe organ at Boardwalk Hall in Atlantic City, NJ, is the world's largest: 33,112 pipes, built 1929–1932 by Midmer-Losh\nHas not been fully functional since the 1944 Great Atlantic Hurricane flooded its subterranean chambers\nJ.S. Bach's organ works (Toccata and Fugue in D minor, Passacaglia in C minor) are the best-known repertoire\nPipes range from pencil-sized to over 32 feet tall; the Atlantic City organ has a rare full-length 64-foot stop\nOften called the \"King of Instruments\" — a phrase attributed to Mozart",
+          "cardFront": "Largest instrument, keyboards + pedals + thousands of pipes",
+          "cardBack": "Pipe Organ"
+        }
+      ]
+    }
+  ]
+}

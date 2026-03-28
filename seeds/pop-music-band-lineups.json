@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "pop-music/band-lineups", "parentId": "pop-music", "name": "Band Lineups", "description": "Famous band members and their roles" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/band-lineups/band-members",
+      "nodeId": "pop-music/band-lineups",
+      "name": "Band Members & Lineups",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "john-lennon",
+          "prompt": "Which rhythm guitarist and vocalist co-founded a Liverpool band in 1960, later writing 'Imagine' as a solo artist before being murdered in New York City in 1980?",
+          "answer": "John Lennon",
+          "alternates": ["Lennon"],
+          "explanation": "Rhythm guitarist and vocalist for The Beatles (1960\u20131970)\\nCo-wrote songs with Paul McCartney under the Lennon\u2013McCartney partnership \u2014 the most successful songwriting duo in history\\nSolo career produced 'Imagine' (1971), consistently ranked among the greatest songs ever written\\nMarried Yoko Ono in 1969; their 'Bed-Ins for Peace' became iconic anti-war protests\\nMurdered by Mark David Chapman outside his apartment at the Dakota, New York City, on December 8, 1980\\nFirst Beatle to release a solo album outside the group (*Unfinished Music No. 1: Two Virgins*, 1968)\\nInducted into the Rock & Roll Hall of Fame twice: with The Beatles (1988) and as a solo artist (1994)",
+          "cardFront": "Beatles rhythm guitar/vocals, 'Imagine'",
+          "cardBack": "John Lennon"
+        },
+        {
+          "id": "paul-mccartney",
+          "prompt": "Which bassist and vocalist from a legendary Liverpool band went on to form Wings in 1971 and holds the Guinness record for most certified #1 hits by a songwriter?",
+          "answer": "Paul McCartney",
+          "alternates": ["McCartney", "James Paul McCartney"],
+          "explanation": "Bassist and vocalist for The Beatles (1960\u20131970)\\nMost successful songwriter in popular music history \u2014 co-wrote 20 Beatles #1 singles plus 9 more solo/Wings #1s on the Billboard Hot 100\\nFormed Wings with wife Linda (1971\u20131981); hits include 'Band on the Run' and 'Live and Let Die'\\nWrote 'Yesterday' (1965), the most covered song in recorded history with 2,200+ versions\\nKnighted in 1997 for services to music\\n'Hey Jude' (1968, Lennon\u2013McCartney) held the record for longest #1 single at 7:11\\nBillionaire and one of the wealthiest musicians in history",
+          "cardFront": "Beatles bass/vocals, Wings",
+          "cardBack": "Paul McCartney"
+        },
+        {
+          "id": "george-harrison",
+          "prompt": "Which lead guitarist of a 1960s Liverpool band released 'My Sweet Lord' as a solo single and organized the Concert for Bangladesh in 1971?",
+          "answer": "George Harrison",
+          "alternates": ["Harrison"],
+          "explanation": "Lead guitarist for The Beatles (1960\u20131970), known as 'the quiet Beatle'\\n'My Sweet Lord' (1970) was the first solo #1 by a Beatle \u2014 later found to have unconsciously plagiarized 'He's So Fine' by The Chiffons\\nOrganized the Concert for Bangladesh (1971), the first major charity concert in rock history\\nIntroduced Indian classical music and the sitar to Western rock, studying under Ravi Shankar\\n*All Things Must Pass* (1970) triple album is regarded as the finest solo Beatles album\\nCo-founded HandMade Films, which produced Monty Python's *Life of Brian* (1979)\\nDied of lung cancer on November 29, 2001, at age 58",
+          "cardFront": "Beatles lead guitar, 'My Sweet Lord'",
+          "cardBack": "George Harrison"
+        },
+        {
+          "id": "ringo-starr",
+          "prompt": "Which drummer replaced Pete Best in a famous Liverpool band in August 1962 and later sang lead on 'Octopus's Garden' and 'Yellow Submarine'?",
+          "answer": "Ringo Starr",
+          "alternates": ["Ringo", "Richard Starkey"],
+          "explanation": "Drummer for The Beatles (1962\u20131970), born Richard Starkey in Liverpool\\nReplaced Pete Best on August 16, 1962, just weeks before 'Love Me Do' was recorded\\nSang lead on 'Yellow Submarine,' 'With a Little Help from My Friends,' and 'Octopus's Garden' (which he wrote)\\nWidely praised for his inventive, left-handed drumming style despite playing a right-handed kit\\nLed Ringo Starr & His All-Starr Band, a rotating supergroup, from 1989 onward\\nAppointed Knight Bachelor in 2018 for services to music \u2014 the second Beatle knighted after McCartney\\nLast surviving Beatle along with McCartney",
+          "cardFront": "Beatles drums, replaced Pete Best",
+          "cardBack": "Ringo Starr"
+        },
+        {
+          "id": "jimmy-page",
+          "prompt": "Which guitarist, who previously played with the Yardbirds, co-founded a hard rock band with vocalist Robert Plant in 1968 and was known for playing a Gibson EDS-1275 double-neck guitar?",
+          "answer": "Jimmy Page",
+          "alternates": ["Page", "James Patrick Page"],
+          "explanation": "Guitarist and founder of Led Zeppelin (1968\u20131980)\\nOne of the most prolific session guitarists of the 1960s before joining the Yardbirds in 1966\\nProduced all Led Zeppelin albums; pioneered layered overdubs and unconventional recording techniques\\nUsed a Gibson EDS-1275 double-neck guitar (6-string and 12-string) for live performances of 'Stairway to Heaven'\\nPlayed with a violin bow on 'Dazed and Confused' \u2014 a signature live technique\\nHis guitar riff on 'Whole Lotta Love' (1969) was voted the greatest guitar riff of all time by Total Guitar readers\\nAppointed OBE in 2005 for charitable services",
+          "cardFront": "Led Zeppelin guitar, ex-Yardbirds",
+          "cardBack": "Jimmy Page"
+        },
+        {
+          "id": "robert-plant",
+          "prompt": "Which vocalist fronted a 1970s hard rock band that recorded 'Stairway to Heaven' and was known for his high-range vocal style and blues-influenced singing?",
+          "answer": "Robert Plant",
+          "alternates": ["Plant"],
+          "explanation": "Lead vocalist of Led Zeppelin (1968\u20131980)\\nVocal range and blues-influenced wail on tracks like 'Whole Lotta Love' and 'Stairway to Heaven' defined hard rock vocals\\nWrote most of Led Zeppelin's lyrics, drawing on J.R.R. Tolkien, Celtic mythology, and the blues\\nSolo career spanned four decades; *Raising Sand* (2007) with Alison Krauss won five Grammys including Album of the Year\\nTurned down multiple reunion offers after Bonham's death; the 2007 O2 Arena reunion was a one-off\\nAppointed CBE in 2009 for services to popular music\\nRanked #1 on Hit Parader's list of Greatest Heavy Metal Vocalists of All Time",
+          "cardFront": "Led Zeppelin vocals, 'Stairway to Heaven'",
+          "cardBack": "Robert Plant"
+        },
+        {
+          "id": "john-bonham",
+          "prompt": "Which Led Zeppelin member, famous for a 26-minute drum solo in 'Moby Dick,' died in 1980 from alcohol-related asphyxiation, prompting the band to disband?",
+          "answer": "John Bonham",
+          "alternates": ["Bonham", "Bonzo"],
+          "explanation": "Drummer for Led Zeppelin (1968\u20131980), nicknamed 'Bonzo'\\nHis powerful, bass-drum-heavy style on 'When the Levee Breaks' (1971) is one of the most sampled drum recordings in history\\nExtended drum solo 'Moby Dick' ran up to 30 minutes in live performances\\nDied on September 25, 1980, at age 32, from aspiration of vomit after drinking 40 measures of vodka\\nLed Zeppelin disbanded on December 4, 1980, stating they could not continue without him\\nConsistently ranked among the greatest drummers of all time by *Rolling Stone*, *Modern Drummer*, and others\\nSelf-taught; began playing drums on pots and containers at age five",
+          "cardFront": "Led Zeppelin drums, died 1980",
+          "cardBack": "John Bonham"
+        },
+        {
+          "id": "stevie-nicks",
+          "prompt": "Which vocalist joined Fleetwood Mac in 1975 alongside guitarist Lindsey Buckingham and later had a solo hit with 'Edge of Seventeen'?",
+          "answer": "Stevie Nicks",
+          "alternates": ["Nicks", "Stephanie Lynn Nicks"],
+          "explanation": "Vocalist for Fleetwood Mac (1975\u2013present), joined with Lindsey Buckingham after Mick Fleetwood heard their duo album *Buckingham Nicks*\\n*Rumours* (1977) sold 40+ million copies; she co-wrote 'Dreams,' the band's only U.S. #1 single\\nSolo career launched with *Bella Donna* (1981) \u2014 hit #1 and went quadruple platinum\\n'Edge of Seventeen' (1981) is her signature solo track, inspired by the death of John Lennon\\nInducted into the Rock & Roll Hall of Fame twice: with Fleetwood Mac (1998) and as a solo artist (2019)\\nOnly woman inducted twice into the Rock & Roll Hall of Fame\\nKnown for her mystical stage persona, shawls, and platform boots",
+          "cardFront": "Fleetwood Mac vocals, 'Edge of Seventeen'",
+          "cardBack": "Stevie Nicks"
+        },
+        {
+          "id": "lindsey-buckingham",
+          "prompt": "Which guitarist and vocalist joined Fleetwood Mac with Stevie Nicks in 1975, shaping the *Rumours* sound, and was fired from the band in 2018?",
+          "answer": "Lindsey Buckingham",
+          "alternates": ["Buckingham"],
+          "explanation": "Guitarist and vocalist for Fleetwood Mac (1975\u20132018)\\nJoined with Stevie Nicks after Mick Fleetwood heard *Buckingham Nicks* (1973); transformed the band from British blues to pop-rock\\nHis fingerpicking guitar style and production shaped *Fleetwood Mac* (1975), *Rumours* (1977), and *Tango in the Night* (1987)\\nWrote and sang 'Go Your Own Way' (1977), written about his breakup with Nicks\\nFired from the band in April 2018 over conflicts with Nicks; replaced by Neil Finn and Mike Campbell\\nChristine McVie's death in November 2022 effectively ended the band\\nBegan working with Mick Fleetwood again in 2025 on Fleetwood's solo material",
+          "cardFront": "Fleetwood Mac guitar/vocals, fired 2018",
+          "cardBack": "Lindsey Buckingham"
+        },
+        {
+          "id": "mick-jagger",
+          "prompt": "Which vocalist has fronted the same rock band since 1962, was knighted in 2003, and is known for his distinctive strutting stage presence?",
+          "answer": "Mick Jagger",
+          "alternates": ["Jagger", "Sir Mick Jagger"],
+          "explanation": "Lead vocalist of The Rolling Stones (1962\u2013present)\\nCo-writes songs with Keith Richards under the Jagger\u2013Richards partnership; together they wrote '(I Can't Get No) Satisfaction,' 'Paint It Black,' and 'Sympathy for the Devil'\\nKnighted in December 2003 for services to popular music \u2014 Keith Richards reportedly called it 'a paltry honor'\\nOne of the most recognizable frontmen in rock history; his lips-and-tongue logo (designed by John Pasche, 1971) is iconic\\nFronted the Stones on tours grossing over $2 billion, making them the highest-grossing touring act of all time\\nFather of eight children by five women, spanning five decades\\nStill performing live past age 80; the Stones' *Hackney Diamonds* (2023) was their first new studio album in 18 years",
+          "cardFront": "Rolling Stones vocals, knighted 2003",
+          "cardBack": "Mick Jagger"
+        },
+        {
+          "id": "keith-richards",
+          "prompt": "Which Rolling Stones guitarist co-wrote '(I Can't Get No) Satisfaction' and pioneered open-G tuning in rock, playing a modified five-string Fender Telecaster?",
+          "answer": "Keith Richards",
+          "alternates": ["Richards", "Keef"],
+          "explanation": "Guitarist for The Rolling Stones (1962\u2013present), co-founder with Brian Jones and Mick Jagger\\nPioneered the use of open-G tuning (removing the low E string from his Fender Telecaster, 'Micawber')\\nCo-wrote most Stones songs with Jagger; the riff from '(I Can't Get No) Satisfaction' (1965) came to him in a dream\\nSurvived decades of heroin addiction; his autobiography *Life* (2010) is considered one of the greatest rock memoirs\\nPlayed rhythm and lead simultaneously using interlocking guitar parts with Ronnie Wood, a style called 'the ancient art of weaving'\\nOriginal guitarist Brian Jones drowned in his swimming pool on July 3, 1969, at age 27\\n*Rolling Stone* ranked him #4 on its list of the 100 Greatest Guitarists",
+          "cardFront": "Rolling Stones guitar, 'Satisfaction' riff",
+          "cardBack": "Keith Richards"
+        },
+        {
+          "id": "freddie-mercury",
+          "prompt": "Which vocalist, born in Zanzibar to a Parsi family, fronted a band known for 'Bohemian Rhapsody' and possessed a range spanning nearly four octaves?",
+          "answer": "Freddie Mercury",
+          "alternates": ["Mercury", "Farrokh Bulsara"],
+          "explanation": "Lead vocalist and pianist for Queen (1970\u20131991), born Farrokh Bulsara in Stone Town, Zanzibar, in 1946\\nVocal range spanned nearly four octaves (from bass low F to soprano high F); studies suggest his vibrato was unusually fast at 7.04 Hz\\n'Bohemian Rhapsody' (1975) fused opera, ballad, and hard rock in a six-minute single \u2014 hit #1 in the UK for nine weeks\\nLive Aid performance at Wembley (July 13, 1985) is widely regarded as the greatest live rock performance ever\\nFamily fled the Zanzibar Revolution in 1964; attended boarding school in Panchgani, India\\nDied of AIDS-related bronchopneumonia on November 24, 1991, one day after publicly confirming his diagnosis\\nDesigned the Queen crest logo, incorporating the zodiac signs of all four band members",
+          "cardFront": "Queen vocals, born in Zanzibar",
+          "cardBack": "Freddie Mercury"
+        },
+        {
+          "id": "brian-may",
+          "prompt": "Which Queen guitarist built his own electric guitar from a fireplace mantel as a teenager and later earned a PhD in astrophysics from Imperial College London?",
+          "answer": "Brian May",
+          "alternates": ["May"],
+          "explanation": "Guitarist for Queen (1970\u2013present)\\nBuilt the Red Special guitar with his father Harold from an 18th-century fireplace mantel, oak table, and motorcycle valve springs \u2014 still his primary instrument\\nCompleted a PhD in astrophysics at Imperial College London in 2007, 36 years after abandoning his thesis to focus on Queen\\nThesis: 'A Survey of Radial Velocities in the Zodiacal Dust Cloud'\\nHis layered multi-track guitar harmonies (using the Red Special and a Vox AC30 amp) defined Queen's sound\\nAppointed CBE in 2005 and knighted in 2023 for services to music and charity\\nCo-wrote 'We Will Rock You' (1977) \u2014 its stomp-stomp-clap rhythm is one of the most recognized in sports arenas worldwide",
+          "cardFront": "Queen guitar, astrophysicist",
+          "cardBack": "Brian May"
+        },
+        {
+          "id": "dave-grohl",
+          "prompt": "Which musician served as drummer for a Seattle grunge trio before founding Foo Fighters in 1994, becoming frontman and guitarist of the new band?",
+          "answer": "Dave Grohl",
+          "alternates": ["Grohl", "David Eric Grohl"],
+          "explanation": "Drummer for Nirvana (1990\u20131994), then founder and frontman of Foo Fighters (1994\u2013present)\\nJoined Nirvana in 1990 after drumming for Scream; his powerful style drove *Nevermind* (1991) and *In Utero* (1993)\\nRecorded the entire first Foo Fighters album (1995) by himself, playing every instrument\\nFoo Fighters have won 16 Grammy Awards and sold 30+ million records worldwide\\nKnown for marathon live performances, often exceeding three hours\\nInducted into the Rock & Roll Hall of Fame twice: with Nirvana (2014) and with Foo Fighters (2021)\\nOnly the third person inducted into the Rock & Roll Hall of Fame as a member of two different bands in the 'Performer' category",
+          "cardFront": "Nirvana drums, then Foo Fighters frontman",
+          "cardBack": "Dave Grohl"
+        },
+        {
+          "id": "kurt-cobain",
+          "prompt": "Which vocalist and guitarist fronted a Seattle grunge band whose 1991 album *Nevermind* dethroned Michael Jackson from #1, before dying at age 27 in April 1994?",
+          "answer": "Kurt Cobain",
+          "alternates": ["Cobain", "Kurt Donald Cobain"],
+          "explanation": "Vocalist and guitarist for Nirvana (1987\u20131994), born in Aberdeen, Washington\\n*Nevermind* (1991) knocked Michael Jackson's *Dangerous* off the Billboard 200 #1 spot in January 1992\\n'Smells Like Teen Spirit' (1991) is widely credited with bringing grunge and alternative rock into the mainstream\\nMarried Courtney Love (lead singer of Hole) in 1992; daughter Frances Bean Cobain born the same year\\nStruggled publicly with heroin addiction, chronic stomach pain, and depression\\nDied by suicide on April 5, 1994, at age 27, joining the '27 Club' alongside Jimi Hendrix, Janis Joplin, and Jim Morrison\\nHis torn jeans, flannel shirts, and anti-corporate stance defined the grunge aesthetic and Generation X disaffection",
+          "cardFront": "Nirvana vocals/guitar, *Nevermind*",
+          "cardBack": "Kurt Cobain"
+        }
+      ]
+    }
+  ]
+}

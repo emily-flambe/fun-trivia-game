@@ -253,16 +253,16 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 |---|----------|--------|--------|-------|
 | 1 | Iconic Artists — Signature Songs | 20 | ✅ | |
 | 2 | Jazz Legends | 12 | ✅ | |
-| 3 | Grammy Award Winners | 20 | ❌ | TS has "Grammy Achievements", "Album of the Year", "Record of the Year." Omnibus of key winners. |
-| 4 | Band Members & Lineups | 15 | ❌ | TS has "Band Lineups." Beatles, Led Zeppelin, Fleetwood Mac, etc. |
-| 5 | Best-Selling Albums of All Time | 15 | ❌ | TS has this. Thriller, Back in Black, Dark Side of the Moon, etc. |
-| 6 | Billboard #1 Hits | 20 | ❌ | TS has by-decade breakdowns. Omnibus of most iconic #1s across decades. |
-| 7 | Musical Instruments | 15 | ❌ | TS has this. Families (brass, woodwind, string, percussion), famous instruments. |
-| 8 | Music Genres & Origins | 12 | ❌ | Blues→Delta Mississippi, Reggae→Jamaica, Punk→NYC/London. |
-| 9 | Famous Duets & Supergroups | 12 | ❌ | TS has both. Iconic collaborations, supergroup lineups. |
-| 10 | Rolling Stone Greatest Albums | 15 | ❌ | TS has this. The definitive "canon" list. |
+| 3 | Grammy Award Winners | 20 | ✅ | TS has "Grammy Achievements", "Album of the Year", "Record of the Year." Omnibus of key winners. |
+| 4 | Band Members & Lineups | 15 | ✅ | TS has "Band Lineups." Beatles, Led Zeppelin, Fleetwood Mac, etc. |
+| 5 | Best-Selling Albums of All Time | 15 | ✅ | TS has this. Thriller, Back in Black, Dark Side of the Moon, etc. |
+| 6 | Billboard #1 Hits | 20 | ✅ | TS has by-decade breakdowns. Omnibus of most iconic #1s across decades. |
+| 7 | Musical Instruments | 15 | ✅ | TS has this. Families (brass, woodwind, string, percussion), famous instruments. |
+| 8 | Music Genres & Origins | 12 | ✅ | Blues→Delta Mississippi, Reggae→Jamaica, Punk→NYC/London. |
+| 9 | Famous Duets & Supergroups | 12 | ✅ | TS has both. Iconic collaborations, supergroup lineups. |
+| 10 | Rolling Stone Greatest Albums | 15 | ✅ | TS has this. The definitive "canon" list. |
 
-**Coverage**: 2/10 done. Major gap — TS shows enormous depth here.
+**Coverage**: 10/10 done. Complete.
 
 ---
 
@@ -376,20 +376,20 @@ Inspired by TrivialStudies' unique study tools:
 | Lifestyle | 1 | 7 | 14% |
 | Literature | 16 | 16 | 100% |
 | Math | 4 | 6 | 67% |
-| Pop Music | 2 | 10 | 20% |
+| Pop Music | 10 | 10 | 100% |
 | Science | 13 | 20 | 65% |
 | Television | 1 | 10 | 10% |
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **76** | **177** | **43%** |
+| **TOTAL** | **84** | **177** | **47%** |
 
 ### Priority Order (by gap size × LL frequency)
 
 1. **Games/Sport** — 2/15 (13%). Sports is huge in LL.
 2. **Television** — 1/10 (10%). Frequently tested, almost empty.
 3. **Business/Economics** — 1/8 (13%). Regular LL category, barely started.
-4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
+4. **Pop Music** — 10/10 (100%). Complete.
 5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
 6. **Theatre** — 1/5 (20%). Small but tested category.
 7. **Language** — 1/5 (20%). Small but distinctive LL category.

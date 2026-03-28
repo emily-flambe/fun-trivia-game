@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "pop-music/rolling-stone-albums", "parentId": "pop-music", "name": "Rolling Stone Greatest Albums", "description": "Highlights from Rolling Stone magazine's definitive album rankings" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/rolling-stone-albums/greatest-albums",
+      "nodeId": "pop-music/rolling-stone-albums",
+      "name": "Rolling Stone Greatest Albums",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "whats-going-on",
+          "prompt": "Which 1971 Motown concept album about Vietnam, poverty, and ecology topped Rolling Stone's 2020 revision of the 500 Greatest Albums list?",
+          "answer": "What's Going On",
+          "alternates": ["Whats Going On"],
+          "explanation": "Marvin Gaye, 1971 \u2014 #1 on Rolling Stone's 2020 list\\nConcept album addressing Vietnam War, poverty, police brutality, and ecology\\nMotown founder Berry Gordy initially refused to release it, calling it uncommercial\\nTitle track inspired by an incident of police brutality witnessed by Renaldo Benson of the Four Tops\\nFirst Motown album where an artist had full creative control\\nDebuted at #6 on the Billboard 200; all three singles reached the top 10\\nRecorded largely with the Funk Brothers, Motown's legendary house band\\nWas #6 on Rolling Stone's 2003 list before rising to #1 in 2020",
+          "cardFront": "Marvin Gaye \u2014 RS #1",
+          "cardBack": "What's Going On"
+        },
+        {
+          "id": "pet-sounds",
+          "prompt": "Which 1966 album, largely conceived by one member of a California surf-rock group, directly inspired the Beatles to create 'Sgt. Pepper's'?",
+          "answer": "Pet Sounds",
+          "alternates": [],
+          "explanation": "The Beach Boys, 1966 \u2014 #2 on Rolling Stone's 2020 list\\nBrian Wilson conceived and produced the album while the rest of the band toured\\nPaul McCartney has cited it as the primary inspiration for Sgt. Pepper's Lonely Hearts Club Band\\nPoor initial U.S. sales (peaked at #10); much bigger success in the UK where it reached #2\\nFeatured session musicians from the Wrecking Crew rather than the full band on many tracks\\n'God Only Knows' \u2014 McCartney called it the greatest song ever written\\n'Wouldn't It Be Nice' and 'Caroline, No' were also singles, though neither reached #1\\nWilson suffered a breakdown during sessions for the intended follow-up, Smile, which went unfinished until 2004",
+          "cardFront": "The Beach Boys \u2014 RS #2",
+          "cardBack": "Pet Sounds"
+        },
+        {
+          "id": "blue",
+          "prompt": "Which confessional 1971 singer-songwriter album \u2014 featuring 'River' and 'A Case of You' \u2014 is ranked #3 on Rolling Stone's 2020 greatest albums list?",
+          "answer": "Blue",
+          "alternates": [],
+          "explanation": "Joni Mitchell, 1971 \u2014 #3 on Rolling Stone's 2020 list\\nWidely considered the benchmark for confessional songwriting\\nRecorded mostly with just voice, piano, guitar, and Appalachian dulcimer\\nSongs reference relationships with Graham Nash ('My Old Man'), James Taylor ('This Flight Tonight'), and Leonard Cohen ('A Case of You')\\n'River' \u2014 opens with a minor-key riff on 'Jingle Bells' \u2014 became a modern holiday standard despite being a breakup song\\nMitchell later said the album made her feel 'completely transparent' and she needed years to recover emotionally\\nDid not chart a hit single upon release; its reputation grew steadily over decades\\nHighest-ranked album by a solo female artist on the 2020 list",
+          "cardFront": "Joni Mitchell \u2014 RS #3",
+          "cardBack": "Blue"
+        },
+        {
+          "id": "songs-in-the-key-of-life",
+          "prompt": "Which 1976 double album \u2014 featuring 'Sir Duke' and 'Isn't She Lovely' \u2014 was the culmination of its blind artist's extraordinary 1970s creative run?",
+          "answer": "Songs in the Key of Life",
+          "alternates": ["Songs In the Key of Life"],
+          "explanation": "Stevie Wonder, 1976 \u2014 #4 on Rolling Stone's 2020 list\\nDouble album plus a bonus 4-song EP \u2014 21 tracks total\\nWon Grammy Album of the Year at the 1977 ceremony\\n'Sir Duke' is a tribute to Duke Ellington; 'Isn't She Lovely' celebrates the birth of Wonder's daughter Aisha\\nDebuted at #1 on the Billboard 200 \u2014 first album to do so by entering at the top in its first week\\nCapped Wonder's extraordinary 'classic period' of five albums in five years (1972\u20131976)\\nOver 130 musicians contributed to the sessions, which lasted two years\\nWonder had threatened to leave Motown for a move to Ghana before signing a landmark $13 million contract",
+          "cardFront": "Stevie Wonder \u2014 RS #4",
+          "cardBack": "Songs in the Key of Life"
+        },
+        {
+          "id": "rs-abbey-road",
+          "prompt": "Which 1969 album \u2014 the last one its band recorded together, famous for a crosswalk cover photo \u2014 sits at #5 on Rolling Stone's 2020 list?",
+          "answer": "Abbey Road",
+          "alternates": [],
+          "explanation": "The Beatles, 1969 \u2014 #5 on Rolling Stone's 2020 list\\nLast album the Beatles recorded together, though Let It Be was released later (1970)\\nIconic cover photo shot on the zebra crossing outside EMI Studios on Abbey Road, St. John's Wood\\nSide two features a 16-minute medley stitching together song fragments \u2014 one of rock's great compositional feats\\n'Come Together' and 'Something' released as a double A-side single; 'Something' was the first Harrison-penned Beatles A-side\\nGeorge Harrison's contributions ('Something,' 'Here Comes the Sun') are considered his finest Beatles work\\nThe studio was renamed Abbey Road Studios in 1970 because of the album's fame\\nPaul McCartney appearing barefoot on the cover fueled the 'Paul is dead' conspiracy theory",
+          "cardFront": "The Beatles \u2014 RS #5",
+          "cardBack": "Abbey Road"
+        },
+        {
+          "id": "rs-nevermind",
+          "prompt": "Which 1991 grunge album's lead single dethroned Michael Jackson from #1 on the Billboard 200, marking the mainstream arrival of alternative rock?",
+          "answer": "Nevermind",
+          "alternates": ["Never Mind", "Nevermind!"],
+          "explanation": "Nirvana, 1991 \u2014 #6 on Rolling Stone's 2020 list\\nKnocked Michael Jackson's Dangerous off #1 on the Billboard 200 in January 1992\\n'Smells Like Teen Spirit' became an anthem that effectively ended the dominance of hair metal\\nProduced by Butch Vig; mixed by Andy Wallace, whose polished sound bothered Kurt Cobain\\nBaby-in-the-pool cover shot cost $200; the baby (Spencer Elden) later sued the band\\nDKC Geffen expected to sell 50,000 copies; it sold 30 million worldwide\\nCobain said he was 'trying to write the ultimate pop song' with 'Teen Spirit,' modeling it on the Pixies' loud-quiet-loud dynamic\\nAlso contains 'Come as You Are,' 'Lithium,' and 'In Bloom'",
+          "cardFront": "Nirvana \u2014 RS #6",
+          "cardBack": "Nevermind"
+        },
+        {
+          "id": "rs-rumours",
+          "prompt": "Which 1977 album was infamously recorded while two couples within the band were breaking up, producing 'Dreams,' 'Go Your Own Way,' and 'The Chain'?",
+          "answer": "Rumours",
+          "alternates": ["Rumors"],
+          "explanation": "Fleetwood Mac, 1977 \u2014 #7 on Rolling Stone's 2020 list\\nRecorded during simultaneous breakups: Lindsey Buckingham/Stevie Nicks and John/Christine McVie\\nPersonal turmoil fueled confessional songwriting \u2014 'Go Your Own Way' was Buckingham's breakup song to Nicks\\n'Dreams' was the band's only #1 single; went viral again in 2020 via a TikTok cranberry-juice skateboarding video\\nWon Grammy Album of the Year at the 1978 ceremony\\nSpent 31 weeks at #1 on the Billboard 200; approximately 40 million copies sold worldwide\\n'The Chain' \u2014 the only song credited to all five members \u2014 became the BBC's Formula 1 theme from 1978 onward\\nRecorded at Record Plant in Sausalito, CA amid heavy cocaine and alcohol use",
+          "cardFront": "Fleetwood Mac \u2014 RS #7",
+          "cardBack": "Rumours"
+        },
+        {
+          "id": "purple-rain",
+          "prompt": "Which 1984 semi-autobiographical film soundtrack spawned 'When Doves Cry' (famously recorded without a bass line) and 'Let's Go Crazy'?",
+          "answer": "Purple Rain",
+          "alternates": [],
+          "explanation": "Prince and the Revolution, 1984 \u2014 #8 on Rolling Stone's 2020 list\\nSoundtrack to the semi-autobiographical 1984 film of the same name\\n'When Doves Cry' hit #1 on the Hot 100 for 5 weeks; famously has no bass line (Prince removed it last-minute)\\nAlbum, film, and single were all #1 simultaneously \u2014 only the third artist to achieve that triple\\nSpent 24 consecutive weeks at #1 on the Billboard 200\\n'Let's Go Crazy,' the title track, and 'I Would Die 4 U' were also top-10 hits\\nRecorded partly at First Avenue nightclub in Minneapolis, which became a landmark because of the film\\nWon the Academy Award for Best Original Song Score",
+          "cardFront": "Prince \u2014 RS #8",
+          "cardBack": "Purple Rain"
+        },
+        {
+          "id": "miseducation-of-lauryn-hill",
+          "prompt": "Which 1998 debut solo album by a former Fugees member became the first rap/hip-hop record to win the Grammy for Album of the Year?",
+          "answer": "The Miseducation of Lauryn Hill",
+          "alternates": ["Miseducation of Lauryn Hill", "Miseducation", "The Miseducation"],
+          "explanation": "Lauryn Hill, 1998 \u2014 #10 on Rolling Stone's 2020 list\\nFirst rap artist to win Grammy Album of the Year (41st ceremony, February 1999)\\nWon five Grammys total that night \u2014 the most by any artist at the ceremony\\nDebuted at #1 on the Billboard 200 with ~423,000 first-week copies, a record for a female artist at the time\\nHill was previously one-third of the Fugees, whose 1996 album The Score sold 22 million copies\\n'Doo Wop (That Thing)' debuted at #1 on the Hot 100 \u2014 the first hip-hop song by a female solo artist to do so\\nTitle references the 1973 Marvin Gaye\u2013influenced film The Education of Sonny Carson\\nHill has never released a second solo studio album despite decades of anticipation",
+          "cardFront": "Lauryn Hill \u2014 RS #10",
+          "cardBack": "The Miseducation of Lauryn Hill"
+        },
+        {
+          "id": "rs-thriller",
+          "prompt": "Which 1982 album \u2014 the best-selling record of all time at ~70 million copies \u2014 placed at #12 rather than #1 on Rolling Stone's 2020 greatest albums list?",
+          "answer": "Thriller",
+          "alternates": [],
+          "explanation": "Michael Jackson, 1982 \u2014 #12 on Rolling Stone's 2020 list\\nBest-selling album of all time with estimated 70 million copies sold worldwide\\nProduced by Quincy Jones; yielded seven top-10 Billboard Hot 100 singles\\n'Billie Jean' music video broke MTV's de facto color barrier \u2014 the channel had rarely played Black artists\\nWon a record eight Grammy Awards at the 1984 ceremony\\nTitle track's 14-minute music video, directed by John Landis, premiered as a theatrical event and transformed music videos into an art form\\nSpent 37 weeks at #1 on the Billboard 200\\nWas #20 on Rolling Stone's 2003 list; rose to #12 in 2020",
+          "cardFront": "Michael Jackson \u2014 RS #12",
+          "cardBack": "Thriller"
+        },
+        {
+          "id": "london-calling",
+          "prompt": "Which 1979 double album by a British punk band spanned punk, reggae, rockabilly, and ska, and featured a bass-smashing cover photo inspired by Elvis Presley's debut?",
+          "answer": "London Calling",
+          "alternates": [],
+          "explanation": "The Clash, 1979 \u2014 #16 on Rolling Stone's 2020 list\\nDouble album sold at a single-album price \u2014 the band insisted to CBS Records\\nSpans punk, reggae, rockabilly, ska, R&B, and jazz in 19 tracks\\nCover photo by Pennie Smith shows Paul Simonos smashing his bass onstage; layout mirrors Elvis Presley's debut album\\nTitle track warns of apocalyptic flooding of the Thames \u2014 'London calling to the faraway towns'\\n'Should I Stay or Should I Go' became a #1 UK hit in 1991 after use in a Levi's ad\\n'Train in Vain' was added last-minute and left off the back cover track listing; became their first U.S. top-30 hit\\nProduced by Guy Stevens, who reportedly threw chairs and ladders around the studio to create energy",
+          "cardFront": "The Clash \u2014 RS #16",
+          "cardBack": "London Calling"
+        },
+        {
+          "id": "sgt-peppers",
+          "prompt": "Which 1967 concept album \u2014 once unanimously considered rock's greatest achievement \u2014 dropped from #1 on Rolling Stone's 2003 list to #24 in the 2020 revision?",
+          "answer": "Sgt. Pepper's Lonely Hearts Club Band",
+          "alternates": ["Sgt Peppers Lonely Hearts Club Band", "Sgt Pepper's Lonely Hearts Club Band", "Sgt. Peppers", "Sgt Peppers", "Sgt. Pepper's"],
+          "explanation": "The Beatles, 1967 \u2014 #24 on Rolling Stone's 2020 list (was #1 in 2003 and 2012)\\nWidely credited as the first true 'concept album' in rock, though the concept is loosely maintained\\nPeter Blake's iconic cover collage features 70+ figures including Mae West, Karl Marx, and Edgar Allan Poe\\nPioneered studio techniques: automatic double tracking, tape loops, a 40-piece orchestra on 'A Day in the Life'\\nThe album took over 700 hours to record \u2014 unprecedented for the era; most albums took days\\nWon four Grammys including Album of the Year (the first rock album to do so)\\n'A Day in the Life' was banned by the BBC for alleged drug references ('I'd love to turn you on')\\nIts dramatic fall from #1 to #24 reflects the 2020 list's shift toward greater diversity of genre and era",
+          "cardFront": "The Beatles \u2014 RS #24",
+          "cardBack": "Sgt. Pepper's Lonely Hearts Club Band"
+        },
+        {
+          "id": "kind-of-blue",
+          "prompt": "Which 1959 modal jazz album \u2014 the best-selling jazz record of all time \u2014 was largely improvised from sketches its trumpeter-bandleader brought to the session?",
+          "answer": "Kind of Blue",
+          "alternates": [],
+          "explanation": "Miles Davis, 1959 \u2014 #31 on Rolling Stone's 2020 list\\nBest-selling jazz album of all time with over 5 million copies sold in the U.S. alone\\nPioneered modal jazz \u2014 improvisation based on scales rather than chord changes\\nDavis brought only skeletal sketches to the sessions; most takes were first or second attempts\\nSextet included John Coltrane, Cannonball Adderley, Bill Evans (piano on most tracks), and Wynton Kelly\\n'So What' opens with a bass figure by Paul Chambers that became one of jazz's most recognizable riffs\\nRecorded in just two sessions at Columbia's 30th Street Studio in New York (March and April 1959)\\nBill Evans's liner notes compared the music to Japanese sumi-e ink painting \u2014 spontaneous and unrepeatable",
+          "cardFront": "Miles Davis \u2014 RS #31",
+          "cardBack": "Kind of Blue"
+        },
+        {
+          "id": "innervisions",
+          "prompt": "Which 1973 album \u2014 featuring 'Higher Ground' and 'Living for the City' \u2014 won Grammy Album of the Year for its blind Motown artist, three years before his double-album magnum opus?",
+          "answer": "Innervisions",
+          "alternates": [],
+          "explanation": "Stevie Wonder, 1973 \u2014 #34 on Rolling Stone's 2020 list\\nWon Grammy Album of the Year at the 1974 ceremony \u2014 the first of three consecutive AOTY wins for Wonder\\n'Living for the City' is a 7-minute narrative about a Black man migrating from the South to New York, with a cinematic spoken-word interlude\\n'Higher Ground' was recorded in a single 3-hour session; later famously covered by Red Hot Chili Peppers\\nThree days after the album's release, Wonder was in a serious car accident that left him in a coma for four days\\nWonder played nearly every instrument on the album using overdubs and early synthesizers (ARP, Moog)\\nPart of his landmark 'classic period' (1972\u20131976) in which he released five critically acclaimed albums\\nWonder had renegotiated his Motown contract at age 21, gaining full creative control \u2014 rare for any Motown artist",
+          "cardFront": "Stevie Wonder \u2014 RS #34",
+          "cardBack": "Innervisions"
+        },
+        {
+          "id": "ok-computer",
+          "prompt": "Which 1997 album by an Oxford band \u2014 featuring 'Paranoid Android' and 'Karma Police' \u2014 anticipated 21st-century anxieties about technology and alienation?",
+          "answer": "OK Computer",
+          "alternates": [],
+          "explanation": "Radiohead, 1997 \u2014 #42 on Rolling Stone's 2020 list\\nDystopian themes of technological alienation, consumerism, and modern anxiety presaged the internet age\\n'Paranoid Android' is a 6.5-minute multi-part suite named after the character Marvin from The Hitchhiker's Guide to the Galaxy\\nTitle derived from the 'OK Computer' catchphrase in Douglas Adams's Hitchhiker's Guide\\nRecorded partly in actress Jane Seymour's 15th-century mansion (St. Catherine's Court) near Bath\\n'Karma Police' became the band's biggest UK single; its music video ends with a car engulfed in flames\\nFollowed up by Kid A (2000), which abandoned guitars for electronics and ranked #20 on the same list\\nNominated for Grammy Album of the Year but lost to Bob Dylan's Time Out of Mind",
+          "cardFront": "Radiohead \u2014 RS #42",
+          "cardBack": "OK Computer"
+        }
+      ]
+    }
+  ]
+}

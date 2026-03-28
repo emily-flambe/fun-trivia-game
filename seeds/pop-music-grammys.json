@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "pop-music/grammys", "parentId": "pop-music", "name": "Grammy Awards", "description": "Album of the Year, Record of the Year, and notable Grammy winners" }
+  ],
+  "exercises": [
+    {
+      "id": "pop-music/grammys/grammy-winners",
+      "nodeId": "pop-music/grammys",
+      "name": "Grammy Award Winners",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "michael-jackson",
+          "prompt": "Which artist won a record 8 Grammy Awards in a single night in 1984, including Album of the Year for the best-selling album of all time?",
+          "answer": "Michael Jackson",
+          "alternates": ["Jackson", "MJ"],
+          "explanation": "Won 8 Grammys at the 1984 ceremony for *Thriller* and its singles -- a single-night record that stood for decades\\n*Thriller* (1982) is the best-selling album of all time with 70+ million copies sold\\nKnown as the 'King of Pop'; started as lead singer of the Jackson 5 at age 11\\nInvented the moonwalk, first performed on *Motown 25* TV special in 1983\\nProduced by Quincy Jones, who also produced *Off the Wall* and *Bad*\\n13 #1 Billboard Hot 100 singles as a solo artist\\nDied at age 50 in 2009 from cardiac arrest caused by propofol overdose",
+          "cardFront": "8 Grammys in one night (1984) / *Thriller*",
+          "cardBack": "Michael Jackson"
+        },
+        {
+          "id": "stevie-wonder",
+          "prompt": "Which Motown artist won Album of the Year three times with three consecutive album releases -- *Innervisions*, *Fulfillingness' First Finale*, and *Songs in the Key of Life*?",
+          "answer": "Stevie Wonder",
+          "alternates": ["Wonder", "Stevland Hardaway Morris", "Little Stevie Wonder"],
+          "explanation": "Won Album of the Year at the 1974, 1975, and 1977 ceremonies -- only artist to win with three consecutive releases\\n25 Grammy Awards total, most by a solo male artist for decades\\nSigned with Motown at age 11; first #1 hit ('Fingertips') at age 13\\nBlind since shortly after birth; plays harmonica, piano, synthesizer, drums, and bass\\nNegotiated unprecedented creative control from Motown at age 21 with *Music of My Mind* (1972)\\nKey campaigner for making Martin Luther King Jr. Day a federal holiday (signed 1983)\\n'Superstition' (1972) hit #1 and features one of the most recognizable clavinet riffs in pop music",
+          "cardFront": "3 consecutive AOTY wins (1974, 1975, 1977)",
+          "cardBack": "Stevie Wonder"
+        },
+        {
+          "id": "frank-sinatra",
+          "prompt": "Which artist won Album of the Year at the 2nd Grammy ceremony (1959) for *Come Dance with Me!*, and won the award three times total over his career?",
+          "answer": "Frank Sinatra",
+          "alternates": ["Sinatra", "Ol' Blue Eyes", "Francis Albert Sinatra"],
+          "explanation": "Won Album of the Year three times: *Come Dance with Me!* (1959), *September of My Years* (1966), *A Man and His Music* (1967)\\n11 Grammy Awards total, plus a Lifetime Achievement Award\\nShared the AOTY three-win record with Stevie Wonder and Paul Simon until Taylor Swift broke it\\nDefined the Great American Songbook era; Capitol and Reprise recordings are landmarks\\nFounded Reprise Records in 1960 for creative independence\\nDied May 14, 1998 at age 82; final words reportedly 'I'm losing'\\nRat Pack member alongside Dean Martin and Sammy Davis Jr.",
+          "cardFront": "3x Album of the Year (1959, 1966, 1967)",
+          "cardBack": "Frank Sinatra"
+        },
+        {
+          "id": "beyonce",
+          "prompt": "Which artist holds the record for most Grammy wins of all time with 35, and finally won Album of the Year for *Cowboy Carter* in 2025 after years of near-misses?",
+          "answer": "Beyonce",
+          "alternates": ["Beyonce Knowles", "Beyonce Knowles-Carter", "Queen Bey"],
+          "explanation": "35 Grammy wins as of 2025 -- most by any artist in history, surpassing Georg Solti's 31\\nWon Album of the Year for *Cowboy Carter* at the 2025 ceremony after four prior AOTY nominations without a win\\nAlso most-nominated artist ever with 99 nominations\\nFirst Black woman to win Best Country Album (*Cowboy Carter*, 2025)\\nFormer lead singer of Destiny's Child; solo debut *Dangerously in Love* (2003) won 5 Grammys\\nMarried to Jay-Z; the couple have won Grammys both separately and together\\n*Lemonade* (2016) lost AOTY to Adele's *25* in a widely debated result",
+          "cardFront": "Most Grammy wins ever (35)",
+          "cardBack": "Beyonce"
+        },
+        {
+          "id": "adele",
+          "prompt": "Which British singer swept all major Grammy categories twice -- for the albums *21* (2012) and *25* (2017) -- winning Album of the Year both times?",
+          "answer": "Adele",
+          "alternates": ["Adele Adkins", "Adele Laurie Blue Adkins"],
+          "explanation": "Won Album of the Year twice: *21* at the 2012 ceremony and *25* at the 2017 ceremony\\nSwept Record, Song, and Album of the Year both times -- one of very few artists to do so twice\\n16 Grammy wins from 18 nominations -- one of the highest win rates in history\\n'Rolling in the Deep' and 'Hello' each won Record of the Year and Song of the Year\\nTied Beyonce's record for most Grammys won by a woman in a single night (6) in 2012\\nIn her 2017 acceptance speech, said Beyonce's *Lemonade* deserved Album of the Year\\nBorn in Tottenham, London; trained at the BRIT School (also attended by Jessie J)",
+          "cardFront": "Swept major categories twice (2012, 2017)",
+          "cardBack": "Adele"
+        },
+        {
+          "id": "taylor-swift",
+          "prompt": "Which artist has won Album of the Year a record four times -- for *Fearless*, *1989*, *Folklore*, and *Midnights* -- spanning country, pop, and indie folk?",
+          "answer": "Taylor Swift",
+          "alternates": ["Swift", "T. Swift"],
+          "explanation": "4 Album of the Year wins: *Fearless* (2010), *1989* (2016), *Folklore* (2021), *Midnights* (2024) -- most ever\\nBroke the three-way tie previously held by Sinatra, Wonder, and Paul Simon\\nYoungest AOTY winner for *Fearless* at age 20 (record broken by Billie Eilish in 2020)\\n14 Grammy wins total across country, pop, and alternative categories\\nRe-recorded her first six albums ('Taylor's Version') to regain control of her masters\\nThe Eras Tour (2023-2024) became the highest-grossing concert tour of all time\\nFirst artist to occupy the entire top 10 of the Billboard Hot 100 simultaneously (*Midnights*, 2022)",
+          "cardFront": "Record 4x Album of the Year winner",
+          "cardBack": "Taylor Swift"
+        },
+        {
+          "id": "paul-simon",
+          "prompt": "Which singer-songwriter won Album of the Year for *Graceland* (1987), an album recorded with South African musicians that was both celebrated and controversial?",
+          "answer": "Paul Simon",
+          "alternates": ["Simon", "Paul Frederic Simon"],
+          "explanation": "Won Album of the Year three times: *Bridge over Troubled Water* (1971), *Still Crazy After All These Years* (1976), *Graceland* (1987)\\n16 Grammy Awards total across solo and Simon & Garfunkel careers\\n*Graceland* blended pop with South African mbaqanga and isicathamia; featured Ladysmith Black Mambazo\\nThe album was controversial for allegedly violating the UN cultural boycott of apartheid-era South Africa\\nSimon & Garfunkel's 'Bridge over Troubled Water' won Record of the Year and Song of the Year (1971)\\nReunited with Art Garfunkel for a 1981 Central Park concert attended by ~500,000 people\\nInducted into the Rock & Roll Hall of Fame twice: as part of Simon & Garfunkel (1990) and as a solo artist (2001)",
+          "cardFront": "*Graceland* / 3x Album of the Year",
+          "cardBack": "Paul Simon"
+        },
+        {
+          "id": "santana",
+          "prompt": "Which guitarist's comeback album *Supernatural* tied the record of 8 Grammy wins in a single night at the 2000 ceremony, including Album of the Year?",
+          "answer": "Santana",
+          "alternates": ["Carlos Santana"],
+          "explanation": "Won 8 Grammys in one night at the 2000 ceremony for *Supernatural* -- tying Michael Jackson's 1984 record\\n*Supernatural* (1999) sold 30 million copies, driven by 'Smooth' featuring Rob Thomas\\n'Smooth' spent 12 weeks at #1 on the Billboard Hot 100 and won Record of the Year and Song of the Year\\nBorn in Autlan de Navarro, Mexico; moved to San Francisco as a teenager\\nWoodstock performance in 1969 launched his career before he had a record deal\\nFuses Latin, rock, blues, and jazz guitar; band named after him since 1966\\n10 Grammy Awards total; inducted into the Rock & Roll Hall of Fame in 1998",
+          "cardFront": "*Supernatural* -- 8 Grammys in one night (2000)",
+          "cardBack": "Santana"
+        },
+        {
+          "id": "u2",
+          "prompt": "Which Irish rock band has won 22 Grammys -- more than any other group -- including Album of the Year for *The Joshua Tree* and *How to Dismantle an Atomic Bomb*?",
+          "answer": "U2",
+          "alternates": [],
+          "explanation": "22 Grammy wins -- most by any group in history\\nOnly group to win Album of the Year twice: *The Joshua Tree* (1988) and *How to Dismantle an Atomic Bomb* (2006)\\nWon 5 Grammys at the 2006 ceremony, their most in a single night\\nFormed in Dublin in 1976: Bono (vocals), The Edge (guitar), Adam Clayton (bass), Larry Mullen Jr. (drums)\\n*The Joshua Tree* (1987) sold 25+ million copies; 'With or Without You' and 'I Still Haven't Found What I'm Looking For' both hit #1\\n'One' (1992) from *Achtung Baby* frequently cited as one of the greatest songs ever recorded\\nBono's humanitarian work includes co-founding ONE and (RED) campaigns against poverty and AIDS",
+          "cardFront": "Most Grammys by a group (22)",
+          "cardBack": "U2"
+        },
+        {
+          "id": "quincy-jones",
+          "prompt": "Which legendary producer and arranger won 28 Grammys, produced the best-selling album of all time, and produced the charity single 'We Are the World'?",
+          "answer": "Quincy Jones",
+          "alternates": ["Quincy", "Q", "Quincy Delight Jones Jr."],
+          "explanation": "28 Grammy Awards from 80 nominations -- third-most wins of all time behind Beyonce (35) and Georg Solti (31)\\nProduced Michael Jackson's *Off the Wall*, *Thriller*, and *Bad*\\nProduced 'We Are the World' (1985), written by Michael Jackson and Lionel Richie; it won Record of the Year\\nArranged and conducted for Frank Sinatra, including *Sinatra at the Sands* (1966)\\nFirst Black vice president of a major record label (Mercury Records, 1964)\\nScored over 30 films including *In the Heat of the Night* (1967) and *The Color Purple* (1985)\\nDied November 3, 2024 at age 91 in Los Angeles",
+          "cardFront": "28 Grammys / Produced *Thriller*",
+          "cardBack": "Quincy Jones"
+        },
+        {
+          "id": "bob-dylan",
+          "prompt": "Which singer-songwriter won Album of the Year for *Time Out of Mind* (1998) -- his artistic comeback album -- and later won the Nobel Prize in Literature?",
+          "answer": "Bob Dylan",
+          "alternates": ["Dylan", "Robert Zimmerman"],
+          "explanation": "Won Album of the Year for *Time Out of Mind* at the 1998 ceremony; won 3 Grammys that night\\n10 Grammy Awards total including a Lifetime Achievement Award (1991)\\nAwarded the Nobel Prize in Literature in 2016 'for having created new poetic expressions within the great American song tradition'\\n*Time Out of Mind* was widely hailed as a comeback after a creative lull in the 1980s\\nAt the 1998 ceremony, his performance of 'Love Sick' was interrupted by 'Soy Bomb' prankster Michael Portnoy\\n'Blowin' in the Wind' and 'The Times They Are a-Changin'' became anthems of the 1960s civil rights and anti-war movements\\nControversially 'went electric' at the 1965 Newport Folk Festival, dividing folk purists",
+          "cardFront": "*Time Out of Mind* AOTY / Nobel Prize",
+          "cardBack": "Bob Dylan"
+        },
+        {
+          "id": "billie-eilish",
+          "prompt": "Which artist became the youngest person to sweep all four major Grammy categories in a single night at the 2020 ceremony, at age 18?",
+          "answer": "Billie Eilish",
+          "alternates": ["Eilish", "Billie Eilish Pirate Baird O'Connell"],
+          "explanation": "Won all four major categories at the 2020 ceremony: Album of the Year, Record of the Year, Song of the Year, and Best New Artist\\nAge 18 years and 39 days at the ceremony -- youngest to win Album and Record of the Year\\nOnly the third artist to sweep all four general field categories in one night, after Christopher Cross (1981) and Adele (2012)\\n*When We All Fall Asleep, Where Do We Go?* (2019) debuted at #1; recorded primarily in her brother Finneas's bedroom\\nFinneas O'Connell co-writes and produces all her music\\n'Bad Guy' knocked 'Old Town Road' off the #1 spot on the Billboard Hot 100\\nVocal style defined by whispered, intimate delivery over minimal, bass-heavy production",
+          "cardFront": "Youngest to sweep all 4 major Grammys (age 18)",
+          "cardBack": "Billie Eilish"
+        },
+        {
+          "id": "whitney-houston",
+          "prompt": "Which singer won Record of the Year at the 1994 ceremony for her cover of a Dolly Parton song from *The Bodyguard* soundtrack?",
+          "answer": "Whitney Houston",
+          "alternates": ["Whitney", "Houston"],
+          "explanation": "'I Will Always Love You' won Record of the Year at the 1994 ceremony; originally written and recorded by Dolly Parton (1973)\\nThe single spent 14 weeks at #1 -- a record at the time -- and sold 25+ million copies worldwide\\n*The Bodyguard* soundtrack won Album of the Year at the same ceremony; one of the best-selling soundtracks ever\\n6 Grammy Awards total; first artist to chart 7 consecutive #1 Billboard Hot 100 singles\\nVoice spanned roughly three and a half octaves with extraordinary power; trained singing gospel in her mother Cissy Houston's church choir\\nDaughter of gospel singer Cissy Houston; cousin of Dionne Warwick; goddaughter of Aretha Franklin\\nDied February 11, 2012 at age 48 in Beverly Hills; drowned in a bathtub with heart disease and cocaine use as factors",
+          "cardFront": "'I Will Always Love You' / Record of the Year (1994)",
+          "cardBack": "Whitney Houston"
+        },
+        {
+          "id": "lauryn-hill",
+          "prompt": "Which artist's debut solo album won 5 Grammys in 1999, becoming the first hip-hop album to win Album of the Year?",
+          "answer": "Lauryn Hill",
+          "alternates": ["Hill", "L-Boogie", "Ms. Lauryn Hill"],
+          "explanation": "*The Miseducation of Lauryn Hill* won Album of the Year at the 1999 ceremony -- first hip-hop album to win\\nWon 5 Grammys that night; first woman to win 5 in a single ceremony\\nAlso won Best New Artist despite prior fame as a member of the Fugees\\nThe Fugees' *The Score* (1996) sold 22 million copies; featured the hit 'Killing Me Softly'\\nReceived 10 nominations that year -- first woman to receive that many in one year\\n*Miseducation* blends hip-hop, neo-soul, R&B, and reggae; recorded partly in Jamaica\\nHas released no second studio album; live album *MTV Unplugged No. 2.0* (2002) was polarizing",
+          "cardFront": "*The Miseducation of Lauryn Hill* / First hip-hop AOTY",
+          "cardBack": "Lauryn Hill"
+        },
+        {
+          "id": "norah-jones",
+          "prompt": "Which jazz-influenced artist's debut album swept 8 Grammys at the 2003 ceremony, including Album of the Year -- a shock upset over Bruce Springsteen and Eminem?",
+          "answer": "Norah Jones",
+          "alternates": ["Jones", "Geethali Norah Jones Shankar"],
+          "explanation": "*Come Away with Me* (2002) won 8 Grammys at the 2003 ceremony including Album of the Year, Record of the Year, and Best New Artist\\nThe debut album sold 27 million copies worldwide -- one of the best-selling albums of the 2000s\\nBeat Bruce Springsteen's *The Rising* and Eminem's *The Eminem Show* for Album of the Year\\nDaughter of sitar virtuoso Ravi Shankar and concert promoter Sue Jones; raised by her mother in Texas\\nBlends jazz, country, folk, and pop; 'Don't Know Why' won Record of the Year and Song of the Year\\n9 Grammy Awards total across her career\\nTrained in jazz piano at the University of North Texas before moving to New York City",
+          "cardFront": "*Come Away with Me* -- 8 Grammys for a debut (2003)",
+          "cardBack": "Norah Jones"
+        },
+        {
+          "id": "amy-winehouse",
+          "prompt": "Which British singer won 5 Grammys at the 2008 ceremony -- including Record of the Year for 'Rehab' -- but was unable to attend due to visa issues?",
+          "answer": "Amy Winehouse",
+          "alternates": ["Winehouse", "Amy Jade Winehouse"],
+          "explanation": "Won 5 Grammys at the 2008 ceremony for *Back to Black*: Record of the Year, Song of the Year, Best New Artist, Best Pop Vocal Album, Best Female Pop Vocal Performance\\nPerformed 'Rehab' via satellite from London because her U.S. visa was denied\\n*Back to Black* (2006) drew on 1960s girl-group and Motown soul; produced by Mark Ronson and Salaam Remi\\nDied July 23, 2011 at age 27 from alcohol poisoning -- a member of the so-called '27 Club'\\nHer beehive hairstyle and heavy eyeliner became an iconic visual signature\\n'Rehab' was based on her real refusal to enter substance abuse treatment\\nVocal style combined jazz, soul, and R&B with raw, confessional lyrics",
+          "cardFront": "5 Grammys for *Back to Black* (2008)",
+          "cardBack": "Amy Winehouse"
+        },
+        {
+          "id": "herbie-hancock",
+          "prompt": "Which jazz pianist's tribute album *River: The Joni Letters* shocked the music world by winning Album of the Year in 2008 -- only the second jazz album to win after *Getz/Gilberto* in 1965?",
+          "answer": "Herbie Hancock",
+          "alternates": ["Hancock", "Herbert Jeffrey Hancock"],
+          "explanation": "*River: The Joni Letters* (2007) won Album of the Year at the 2008 ceremony -- a major upset over Kanye West and Amy Winehouse\\nSecond jazz album to win Album of the Year, after Stan Getz and Joao Gilberto's *Getz/Gilberto* (1965)\\n14 Grammy Awards total across a career spanning jazz, funk, and electronic music\\nPioneered jazz-funk fusion with *Head Hunters* (1973) -- the first jazz album to go platinum\\n'Rockit' (1983) was a groundbreaking hip-hop/electro-funk crossover hit\\nPlayed in Miles Davis's 'Second Great Quintet' in the 1960s\\nChild prodigy who performed a Mozart piano concerto with the Chicago Symphony Orchestra at age 11",
+          "cardFront": "*River: The Joni Letters* -- jazz AOTY upset (2008)",
+          "cardBack": "Herbie Hancock"
+        },
+        {
+          "id": "tina-turner",
+          "prompt": "Which singer won Record of the Year and Song of the Year at the 1985 ceremony for a hit from her comeback album *Private Dancer*, after escaping an abusive marriage?",
+          "answer": "Tina Turner",
+          "alternates": ["Turner", "Anna Mae Bullock"],
+          "explanation": "'What's Love Got to Do with It' won Record of the Year and Song of the Year at the 1985 ceremony\\n8 Grammy Awards total; *Private Dancer* (1984) sold 20 million copies worldwide\\nThe comeback was extraordinary: left Ike Turner in 1976 with 36 cents and a gas station credit card\\n'What's Love Got to Do with It' reached #1 on the Billboard Hot 100; she was 44 years old\\nBorn Anna Mae Bullock in Nutbush, Tennessee; Ike Turner renamed her 'Tina'\\nKnown for explosive live performances; her concert tours were among the highest-grossing of the 1980s\\nDied May 24, 2023 at age 83 in Kusnacht, Switzerland, where she had lived since 1995",
+          "cardFront": "'What's Love Got to Do with It' / Comeback ROTY (1985)",
+          "cardBack": "Tina Turner"
+        },
+        {
+          "id": "aretha-franklin",
+          "prompt": "Which singer won the first 8 Best Female R&B Vocal Performance Grammys ever given (1968-1975), earning the title 'Queen of Soul'?",
+          "answer": "Aretha Franklin",
+          "alternates": ["Aretha", "Franklin"],
+          "explanation": "Won the first 8 consecutive Best Female R&B Vocal Performance Grammys (1968-1975) -- a category created partly because of her dominance\\n18 Grammy Awards total; first woman inducted into the Rock & Roll Hall of Fame (1987)\\n'Respect' (1967) -- originally an Otis Redding song -- became a feminist and civil rights anthem\\nSang at the inaugurations of Jimmy Carter, Bill Clinton, and Barack Obama\\nDaughter of celebrity Baptist minister C.L. Franklin; began singing in his Detroit church as a child\\nRolling Stone ranked her #1 on its 100 Greatest Singers of All Time list (2008, 2023)\\nDied August 16, 2018 at age 76 from pancreatic cancer; her funeral was an 8-hour ceremony attended by heads of state",
+          "cardFront": "8 consecutive R&B Grammys (1968-1975)",
+          "cardBack": "Aretha Franklin"
+        },
+        {
+          "id": "georg-solti",
+          "prompt": "Which Hungarian-British conductor held the record for most Grammy wins of all time (31) for nearly four decades, until it was broken in 2023?",
+          "answer": "Georg Solti",
+          "alternates": ["Solti", "Sir Georg Solti"],
+          "explanation": "31 Grammy Awards from 74 nominations -- held the all-time record from 1997 until Beyonce surpassed it in 2023\\nFirst Grammy win in 1963 for Best Opera Recording (Verdi's *Aida*); final win in 1998 for Wagner's *Die Meistersinger*\\n24 of his 31 Grammys were with the Chicago Symphony Orchestra, where he was music director 1969-1991\\nBorn in Budapest; fled Nazi persecution; worked as a rehearsal pianist at the Salzburg Festival under Toscanini\\nKnown for intense, dramatic interpretations; his complete Decca *Ring Cycle* (1958-1965) was the first studio recording of Wagner's tetralogy\\nKnighted by Queen Elizabeth II in 1972 (honorary, as a Hungarian citizen; became a British citizen in 1972)\\nDied September 5, 1997 in Antibes, France at age 84",
+          "cardFront": "Held all-time Grammy record (31 wins)",
+          "cardBack": "Georg Solti"
+        }
+      ]
+    }
+  ]
+}
