@@ -10,6 +10,7 @@
     "test": "vitest run -c vitest.unit.config.ts",
     "test:worker": "vitest run -c vitest.config.ts",
     "test:all": "vitest run -c vitest.unit.config.ts && vitest run -c vitest.config.ts",
+    "test:e2e": "npm run build && npx playwright test",
     "seed": "node scripts/seed.mjs"
   },
   "devDependencies": {
