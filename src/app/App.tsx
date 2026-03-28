@@ -4,6 +4,7 @@ import { AuthProvider } from './lib/auth-context';
 import { Dashboard } from './components/Dashboard';
 import { NodeView } from './components/NodeView';
 import { ExerciseView } from './components/ExerciseView';
+import { EndlessQuiz } from './components/EndlessQuiz';
 import { ProfilePage } from './components/ProfilePage';
 import { Sidebar } from './components/Sidebar';
 
@@ -11,6 +12,7 @@ type Route =
 	| { page: 'dashboard' }
 	| { page: 'node'; path: string }
 	| { page: 'exercise'; path: string; mode: string }
+	| { page: 'endless' }
 	| { page: 'profile'; tab: string };
 
 function parseHash(): Route {
@@ -26,6 +28,9 @@ function parseHash(): Route {
 		const exercisePath = path.slice('exercise/'.length);
 		const params = new URLSearchParams(query || '');
 		return { page: 'exercise', path: exercisePath, mode: params.get('mode') || 'quiz' };
+	}
+	if (path === 'endless') {
+		return { page: 'endless' };
 	}
 	if (path === 'profile' || path.startsWith('profile/')) {
 		const tab = path.slice('profile'.length).replace(/^\//, '') || 'summary';
@@ -73,13 +78,19 @@ export function App() {
 					Trivia Trainer
 				</a>
 				<div className="flex items-center gap-1 ml-auto">
+					<a
+						href="#/endless"
+						className="text-sm font-medium text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+					>
+						Endless
+					</a>
 					<button
 						onClick={() => getRandomExerciseId().then((id) => {
 							if (id) window.location.hash = `/exercise/${id}?mode=quiz`;
 						}).catch(() => {})}
 						className="text-sm font-medium text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
 					>
-						Random
+						Random Quiz
 					</button>
 					{auth.authenticated ? (
 						<>
@@ -131,6 +142,7 @@ export function App() {
 						{route.page === 'dashboard' && <Dashboard />}
 						{route.page === 'node' && <NodeView path={route.path} />}
 						{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}
+						{route.page === 'endless' && <EndlessQuiz />}
 						{route.page === 'profile' && <ProfilePage tab={route.tab} />}
 					</div>
 				</main>
