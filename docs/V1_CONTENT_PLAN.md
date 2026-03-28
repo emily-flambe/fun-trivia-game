@@ -114,13 +114,13 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 3 | Spirits & Cocktails | 15 | ✅ | |
 | 4 | Cooking Terms & Techniques | 15 | ✅ | |
 | 5 | Famous Chefs & Restaurants | 12 | ✅ | |
-| 6 | Beer & Brewing | 15 | ❌ | TS has "Beer Brand Trivia", "Types of Beer", "Craft Beer." Styles (IPA, stout, lager), famous brands, brewing terms. |
-| 7 | Cheese Varieties | 12 | ❌ | TS has "Cheese Trivia." Brie, cheddar, gruyère, parmigiano — country of origin, milk type, characteristics. |
-| 8 | Pasta Types | 12 | ❌ | TS has "Pasta Trivia." Shapes, names, classic pairings (carbonara→guanciale). |
-| 9 | Coffee & Tea | 12 | ❌ | TS has "Coffee Trivia." Espresso drinks, growing regions, tea varieties. |
-| 10 | Candy, Chocolate & Sweets | 12 | ❌ | TS has "Candy & Chocolate Bars." Iconic brands, origins (Toblerone→Switzerland). |
+| 6 | Beer & Brewing | 15 | ✅ | TS has "Beer Brand Trivia", "Types of Beer", "Craft Beer." Styles (IPA, stout, lager), famous brands, brewing terms. |
+| 7 | Cheese Varieties | 12 | ✅ | TS has "Cheese Trivia." Brie, cheddar, gruyère, parmigiano — country of origin, milk type, characteristics. |
+| 8 | Pasta Types | 12 | ✅ | TS has "Pasta Trivia." Shapes, names, classic pairings (carbonara→guanciale). |
+| 9 | Coffee & Tea | 12 | ✅ | TS has "Coffee Trivia." Espresso drinks, growing regions, tea varieties. |
+| 10 | Candy, Chocolate & Sweets | 12 | ✅ | TS has "Candy & Chocolate Bars." Iconic brands, origins (Toblerone→Switzerland). |
 
-**Coverage**: 5/10 done. Solid foundation, needs more specific food knowledge.
+**Coverage**: 10/10 done. Complete.
 
 ---
 
@@ -369,7 +369,7 @@ Inspired by TrivialStudies' unique study tools:
 | Classical Music | 1 | 4 | 25% |
 | Current Events | 1 | 3 | 33% |
 | Film | 10 | 10 | 100% |
-| Food/Drink | 5 | 10 | 50% |
+| Food/Drink | 10 | 10 | 100% |
 | Games/Sport | 2 | 15 | 13% |
 | Geography | 10 | 20 | 50% |
 | Language | 1 | 5 | 20% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **86** | **177** | **49%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -398,7 +398,7 @@ Inspired by TrivialStudies' unique study tools:
 10. **Literature** — 16/16 (100%). Complete.
 11. **Film** — 10/10 (100%). Complete.
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
-13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
+13. **Food/Drink** — 10/10 (100%). Complete.
 14. **Geography** — 10/20 (50%). Most exercises but missing continents.
 15. **World History** — 5/10 (50%). Needs monarchs/exploration.
 16. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.

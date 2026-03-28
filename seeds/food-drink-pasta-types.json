@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "food-drink/pasta-types",
+      "parentId": "food-drink",
+      "name": "Pasta Types",
+      "description": "Classic Italian pasta shapes, their origins, and traditional pairings"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/pasta-types/pasta-types",
+      "nodeId": "food-drink/pasta-types",
+      "name": "Pasta Types",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "penne",
+          "prompt": "Which tube-shaped pasta, cut diagonally at both ends to resemble a quill pen nib, has ridged ('rigate') and smooth ('lisce') varieties and is classically paired with arrabbiata sauce or alla vodka?",
+          "answer": "Penne",
+          "alternates": [
+            "Penne rigate"
+          ],
+          "explanation": "Name means 'pens' or 'quills' in Italian; the diagonal cut resembles the nib of a quill pen\nPatented in 1865 by Giovanni Battista Capurro in San Martino d'Albaro, Liguria, who designed a machine to cut tubes diagonally without crushing them\nPenne rigate (ridged) holds sauce better; penne lisce (smooth) has a cleaner mouthfeel\nClassic pairings: arrabbiata (tomato, garlic, chili), alla vodka (tomato-cream-vodka), and puttanesca\nOne of the most popular dried pasta shapes globally; the tube traps sauce inside and outside\nTypically made from durum wheat semolina and water (no egg); dried at low temperature for best texture\nSize variants include pennette (small), pennoni (large), and mezze penne (half-length)",
+          "cardFront": "Tube, diagonal cut ('quill pen,' rigate/lisce)",
+          "cardBack": "Penne"
+        },
+        {
+          "id": "fusilli",
+          "prompt": "Which spiral- or corkscrew-shaped pasta, whose name derives from the Italian word for 'spindle,' traps chunky sauces and small ingredients in its twists and is popular in cold pasta salads?",
+          "answer": "Fusilli",
+          "alternates": [],
+          "explanation": "Name derives from 'fuso' (spindle); traditionally made by wrapping fresh dough around a thin rod and rolling it\nThe corkscrew/helical shape catches and holds chunky sauces, vegetables, and meat\nFusilli lunghi: long spirals; fusilli bucati: hollow corkscrew; fusilli col buco: with a hole through the center\nPopular in both hot dishes (with pesto, ragu, or cream sauces) and cold pasta salads where the shape holds dressing\nSouthern Italian origin, particularly Campania; the hand-rolled method using a ferro (thin iron rod) is a traditional artisanal technique\nOften confused with rotini, which has a tighter twist and is technically a different shape\nOne of the most widely available dried pasta shapes worldwide; produced by virtually every major pasta brand",
+          "cardFront": "Spiral/corkscrew ('spindle,' traps chunky sauce)",
+          "cardBack": "Fusilli"
+        },
+        {
+          "id": "rigatoni",
+          "prompt": "Which large, ridged, tube-shaped pasta from central Italy, wider than penne and cut straight (not diagonally), is the traditional choice for Roman dishes like pajata and pairs well with hearty meat ragus?",
+          "answer": "Rigatoni",
+          "alternates": [],
+          "explanation": "Name comes from 'rigato' (ridged/lined); the prominent ridges grip thick sauces\nLarger diameter than penne with straight-cut (not angled) ends; substantial enough for baked dishes\nTraditional in Roman cuisine: rigatoni con la pajata (with veal intestines), rigatoni alla gricia (guanciale and pecorino)\nThe wide tube and ridged exterior make it ideal for heavy meat ragus, sausage sauces, and baked pasta dishes\nRigatoni alla Norma (with eggplant, tomato, ricotta salata, and basil) is a Sicilian classic\nRigatoni pie (pasta al forno): standing tubes packed upright in a pan, filled with sauce, and baked — went viral on social media\nProduced from durum wheat semolina; the bronze die extrusion method gives artisanal rigatoni a rough, porous surface that holds sauce better",
+          "cardFront": "Large ridged tube (straight-cut, Roman cuisine)",
+          "cardBack": "Rigatoni"
+        },
+        {
+          "id": "farfalle",
+          "prompt": "Which pasta shape, pinched in the center to create a distinctive bow-tie or butterfly silhouette, originated in the Emilia-Romagna and Lombardy regions of northern Italy and provides varied texture from chewy center to thin edges?",
+          "answer": "Farfalle",
+          "alternates": [
+            "Bow-tie pasta"
+          ],
+          "explanation": "Name means 'butterflies' in Italian; also called 'bow-tie pasta' in English\nOriginated in the Emilia-Romagna and Lombardy regions of northern Italy in the 16th century\nMade by cutting rectangles or squares of pasta and pinching the center; the pinched middle is thicker and chewier, while the edges are thinner and more delicate\nThis textural contrast (thick center vs. thin wings) is a defining feature; it creates different cooking textures in a single piece\nPairs well with light cream sauces, pesto, primavera (spring vegetables), and salmon\nFarfalline (tiny) and farfalloni (large) are size variants\nOften made with egg dough in fresh versions; dried versions use durum wheat semolina",
+          "cardFront": "Butterfly/bow-tie (pinched center, varied texture)",
+          "cardBack": "Farfalle"
+        },
+        {
+          "id": "orecchiette",
+          "prompt": "Which small, concave pasta from Puglia in southern Italy, whose name means 'little ears,' is made by pressing and dragging small pieces of dough with the thumb, and is traditionally served with broccoli rabe (cime di rapa)?",
+          "answer": "Orecchiette",
+          "alternates": [],
+          "explanation": "Name means 'little ears' in Italian; the concave shape resembles small ear cups roughly 2.5 cm across\nSignature pasta of Puglia (Apulia), particularly the city of Bari; dates to the 12th–13th century\nTraditionally hand-shaped by pressing small pieces of dough with the thumb across a wooden board, creating a rough, textured surface with a thinner center and thicker rim\nClassic dish: orecchiette con cime di rapa (with broccoli rabe, garlic, anchovies, and chili) — Puglia's most iconic pasta preparation\nIn Bari's old quarter (Bari Vecchia), women still make orecchiette by hand on tables set up in the streets, a living culinary tradition and tourist attraction\nThe concave cup shape catches and holds small pieces of vegetable, sausage crumbles, and sauce\nAlso paired with sausage ragu, chickpeas, or simple tomato sauce in Pugliese home cooking",
+          "cardFront": "Little ears (Puglia, thumb-pressed, cime di rapa)",
+          "cardBack": "Orecchiette"
+        },
+        {
+          "id": "spaghetti",
+          "prompt": "Which long, thin, round pasta is the most iconic and best-selling shape in the world, classically paired with carbonara (egg, guanciale, pecorino) and with tomato-meat sauce in the Italian-American tradition, and takes its name from the Italian diminutive of 'string'?",
+          "answer": "Spaghetti",
+          "alternates": [],
+          "explanation": "Name means 'little strings' (diminutive of 'spago,' string); the most recognizable pasta shape worldwide\nTypically 25–30 cm long with a circular cross-section roughly 2 mm in diameter; spaghettini is thinner, spaghettoni is thicker\nClassic Italian pairings: carbonara (egg, guanciale, pecorino Romano), cacio e pepe (pecorino, black pepper), aglio e olio (garlic, olive oil, chili)\nSpaghetti and meatballs is an Italian-American invention; in Italy, meatballs (polpette) are typically served as a separate course\nThe iconic Lady and the Tramp scene (1955 Disney film) features two dogs sharing a strand of spaghetti\nTraditional production: extruded through bronze dies and dried slowly for a rough surface that holds sauce; industrial versions use Teflon dies (smoother, less sauce adhesion)\nDurum wheat semolina and water only; no egg in the standard dried version",
+          "cardFront": "Long round 'little strings' (world's most popular)",
+          "cardBack": "Spaghetti"
+        },
+        {
+          "id": "linguine",
+          "prompt": "Which long, flat pasta from Liguria, narrower than fettuccine but wider than spaghetti, takes its name from the Italian word for 'little tongues' and is the traditional partner for seafood sauces, especially clam sauce?",
+          "answer": "Linguine",
+          "alternates": [],
+          "explanation": "Name means 'little tongues' in Italian; flat, elliptical cross-section about 3–4 mm wide\nOriginates from Liguria (the Italian Riviera), where it is the classic pasta for seafood preparations\nLinguine alle vongole (with clams, white wine, garlic, parsley) is the definitive pairing\nThe flat surface area provides more sauce contact than round spaghetti while remaining delicate enough for lighter sauces\nAlso excellent with pesto alla genovese (Liguria's signature basil-pine nut-garlic sauce) and frutti di mare (mixed seafood)\nBavette and trenette are closely related Ligurian flat pasta shapes; the differences are subtle and regional\nMade from durum wheat semolina; fresh egg versions exist but dried semolina linguine is the standard",
+          "cardFront": "Flat 'little tongues' (Liguria, seafood/clam sauce)",
+          "cardBack": "Linguine"
+        },
+        {
+          "id": "tagliatelle",
+          "prompt": "Which flat, ribbon-shaped egg pasta from Bologna, about 6–8 mm wide, is the traditional partner for ragu alla bolognese (never spaghetti, according to Italians), with its name derived from the Italian verb meaning 'to cut'?",
+          "answer": "Tagliatelle",
+          "alternates": [],
+          "explanation": "Name from 'tagliare' (to cut); traditionally made by rolling egg dough thin, rolling it up, and cutting ribbons by hand\nAbout 6–8 mm wide; the official width was deposited at the Bologna Chamber of Commerce in 1972 as exactly 8 mm when cooked\nMade with egg dough (flour and eggs, no water); the egg gives a richer flavor and silky texture compared to eggless dried pasta\nBolognese ragu (slow-cooked meat sauce with soffritto, tomato, wine, and milk) is the canonical pairing; spaghetti bolognese is considered an inauthentic foreign invention by Bolognesi\nTagliolini/taglierini: narrower versions; pappardelle: wider (2–3 cm); fettuccine: the Roman equivalent at similar width\nLegend attributes tagliatelle's creation to a chef inspired by Lucrezia Borgia's blonde hair at her 1502 wedding in Bologna — almost certainly apocryphal\nFresh tagliatelle cooks in 2–4 minutes; dried versions (less traditional) take 8–10 minutes",
+          "cardFront": "Egg ribbon (Bologna, 8 mm, ragu bolognese)",
+          "cardBack": "Tagliatelle"
+        },
+        {
+          "id": "ravioli",
+          "prompt": "Which filled pasta, consisting of a savory filling sealed between two layers of thin egg dough, first appears in 14th-century Italian manuscripts, and can contain ricotta, meat, pumpkin, or lobster depending on the region?",
+          "answer": "Ravioli",
+          "alternates": [],
+          "explanation": "Filled pasta: two sheets of thin egg dough sealed around a filling; one of the oldest documented pasta types\nFirst written references appear in 14th-century Italian manuscripts, including the letters of a merchant from Prato, Francesco di Marco Datini\nClassic fillings by region: ricotta and spinach (Tuscany/Rome), meat ragu (Emilia-Romagna), pumpkin (Mantua), potato (Sardinia's culurgiones)\nRelated filled pastas: tortellini (ring-shaped, Bologna/Modena), agnolotti (Piedmont), cappelletti ('little hats,' Romagna)\nTraditional sauces: butter and sage (burro e salvia), tomato, or brodo (broth) — the filling should be the star\nThe word's etymology is debated: possibly from 'raviolo' meaning 'turnip' or from 'ravvolgere' (to wrap)\nMass-produced versions (Chef Boyardee, canned) bear little resemblance to fresh handmade ravioli; fresh pasta shops in Italy make them daily with seasonal fillings",
+          "cardFront": "Filled pasta (two sheets of dough, various fillings)",
+          "cardBack": "Ravioli"
+        },
+        {
+          "id": "gnocchi",
+          "prompt": "Which small, soft Italian dumplings, most commonly made from potato, flour, and egg, are not technically a pasta but are treated as a primo (first course), and are traditionally eaten on Thursdays in Rome as part of a weekly menu cycle?",
+          "answer": "Gnocchi",
+          "alternates": [],
+          "explanation": "Soft dumplings most commonly made from potato, flour, and egg; technically not pasta but served as a primo (first course) like pasta\nPotato gnocchi became standard only after potatoes arrived from the Americas in the 16th century; earlier versions used semolina, bread, or ricotta\nGnocchi alla sorrentina: baked with tomato sauce and mozzarella; gnocchi al gorgonzola: with gorgonzola cream sauce; gnocchi al pesto: with basil pesto\n'Giovedi gnocchi' (Thursday gnocchi): a Roman tradition of eating gnocchi on Thursdays, part of a weekly menu cycle\nGnocchi di ricotta (gnudi, meaning 'naked'): lighter, made with ricotta and minimal flour; essentially ravioli filling without the pasta shell\nGnocchi alla Romana: semolina-based discs baked with butter and Parmigiano; a completely different preparation from potato gnocchi\nProper potato gnocchi are light and pillowy; overworking the dough develops gluten, making them heavy and dense — the most common mistake",
+          "cardFront": "Potato dumplings (Italian primo, 'Thursday gnocchi')",
+          "cardBack": "Gnocchi"
+        },
+        {
+          "id": "lasagna",
+          "prompt": "Which broad, flat pasta, layered with meat sauce (ragu), béchamel, and cheese and baked in the oven, may be the oldest known pasta shape — referenced in ancient Roman texts — and has distinct versions in Bologna (ragu, béchamel, Parmigiano) and Naples (ricotta, mozzarella, sausage)?",
+          "answer": "Lasagna",
+          "alternates": [
+            "Lasagne"
+          ],
+          "explanation": "Broad, flat sheets of pasta layered with sauce, cheese, and often meat, then baked (al forno)\nPossibly the oldest pasta shape; the ancient Roman 'laganon' (flat dough sheets) may be an ancestor, though it was likely fried, not boiled\nLasagna alla bolognese: layers of fresh egg pasta (spinach-tinted green sheets are traditional), ragu bolognese, béchamel, and Parmigiano-Reggiano\nLasagna napoletana: uses ricotta, mozzarella, sausage, hard-boiled eggs, and tomato sauce; traditionally served at Carnevale\nFresh lasagna sheets are made with egg dough; dried no-boil sheets are a convenience product that absorbs liquid during baking\nThe singular is 'lasagna' (one sheet or the dish); 'lasagne' is the plural (the sheets themselves) — though usage varies by region and language\nVincisgrassi: a richer version from the Marche region with truffles, prosciutto, and offal; sometimes called 'Marche lasagna'",
+          "cardFront": "Broad flat sheets (layered, baked, oldest pasta shape)",
+          "cardBack": "Lasagna"
+        },
+        {
+          "id": "orzo",
+          "prompt": "Which small, rice-shaped pasta, whose Italian name means 'barley,' is commonly used in soups, pilafs, and salads in both Italian and Greek cuisine, and is often mistaken for a grain rather than a pasta?",
+          "answer": "Orzo",
+          "alternates": [
+            "Risoni",
+            "Kritharaki"
+          ],
+          "explanation": "Name means 'barley' in Italian, referring to its shape resembling grains of barley or rice\nAlso called 'risoni' (little rice) in Italy and 'kritharaki' in Greek cuisine\nMade from durum wheat semolina like other dried pasta; despite its grain-like appearance, it is pasta\nCommon in Italian wedding soup (with meatballs and greens), minestrone, and Greek dishes like giouvetsi (baked with lamb or beef and tomato)\nPopular in cold salads with Mediterranean ingredients (feta, olives, tomatoes, herbs); absorbs dressing well\nCan be cooked pilaf-style (toasted in oil, then simmered in broth) as a rice substitute\nOne of the smallest pasta shapes in common use; cooks in 8–10 minutes and can become mushy if overcooked due to its small size and high surface area",
+          "cardFront": "Rice-shaped pasta ('barley,' soups & salads)",
+          "cardBack": "Orzo"
+        }
+      ]
+    }
+  ]
+}

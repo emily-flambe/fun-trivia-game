@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "food-drink/candy-and-sweets", "parentId": "food-drink", "name": "Candy, Chocolate & Sweets", "description": "Famous candies, chocolate brands, confections, and their origins" }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/candy-and-sweets/candy-and-sweets",
+      "nodeId": "food-drink/candy-and-sweets",
+      "name": "Candy, Chocolate & Sweets",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "toblerone",
+          "prompt": "Which Swiss chocolate bar, created in 1908 in Bern, is instantly recognizable by its series of triangular prisms, and takes its name from a portmanteau of its creator's surname and the Italian word for nougat?",
+          "answer": "Toblerone",
+          "alternates": [],
+          "explanation": "Created in 1908 in Bern, Switzerland, by Theodor Tobler and Emil Baumann (who developed the nougat, almond, and honey recipe)\nName = Tobler + torrone (Italian for nougat)\nDistinctive triangular prism shape inspired by the Matterhorn; the mountain appeared on packaging until 2023\nMatterhorn removed from branding in 2023 after production moved to Bratislava, Slovakia, violating Swiss \"Swissness\" rules requiring 80% domestic production\nTheodor Tobler applied for a patent on the manufacturing process in 1909; Albert Einstein, then a clerk at the Swiss patent office, may have handled the filing\nOriginally independent; merged with Suchard, then Jacobs Suchard, now owned by Mondelez International\nOne of the world's most recognized chocolate bars; sold in over 120 countries in distinctive triangular packaging",
+          "cardFront": "Swiss triangular chocolate bar (1908, Bern)",
+          "cardBack": "Toblerone"
+        },
+        {
+          "id": "kit-kat",
+          "prompt": "Which chocolate-covered wafer bar, launched in 1935 by Rowntree's of York after a factory worker suggested 'a chocolate bar a man could take to work in his pack up,' is now produced globally by Nestle except in the US, where a different company holds the license?",
+          "answer": "Kit Kat",
+          "alternates": ["KitKat", "Kit-Kat"],
+          "explanation": "Launched September 1935 by Rowntree's of York, England, originally as 'Rowntree's Chocolate Crisp'; the Kit Kat name was added in 1937\nInspired by a factory worker's suggestion box note asking for a snack a man could take in his lunch\n\"Have a Break, Have a Kit Kat\" slogan created in 1957 by Donald Gilles at JWT London\nNestle acquired Rowntree's in 1988, gaining global control; Hershey has held the US license since 1970\nJapan has produced over 300 limited-edition flavors including matcha, wasabi, sake, and sweet potato\nTwo-finger bar introduced in 1936; the four-finger bar remains the original format\nOne of the world's best-selling chocolate bars, with over 17 billion fingers produced annually",
+          "cardFront": "Wafer bar (Rowntree's 1935, 'Have a Break')",
+          "cardBack": "Kit Kat"
+        },
+        {
+          "id": "m-and-ms",
+          "prompt": "Which candy-coated chocolate drops, first manufactured in Newark, New Jersey in 1941, were inspired by their creator's observation of soldiers eating hard-shelled chocolate during the Spanish Civil War, and are named for the two businessmen behind the venture?",
+          "answer": "M&M's",
+          "alternates": ["M&Ms", "M and Ms", "M and M's"],
+          "explanation": "Created by Forrest Mars Sr. after seeing soldiers eating Smarties (a British candy with hard candy shells) during the Spanish Civil War, inspiring a melt-resistant chocolate\nThe two M's: Forrest E. Mars Sr. and Bruce Murrie (son of Hershey president William Murrie); Murrie's 20% stake ensured access to rationed Hershey chocolate during WWII\nPatented March 3, 1941; first factory in Clinton Hill, Newark, New Jersey\n\"Melts in your mouth, not in your hand\" slogan introduced in 1954; one of the most recognized advertising taglines in history\nMars bought out Murrie's share after WWII when chocolate rationing ended\nPeanut M&M's introduced in 1954; the black \"m\" imprint was added in 1950 (changed to white in 1954)\nIncluded in US military rations; originally sold exclusively to the military before becoming available to the public",
+          "cardFront": "Candy-coated chocolates (Mars & Murrie, 1941)",
+          "cardBack": "M&M's"
+        },
+        {
+          "id": "cadbury",
+          "prompt": "Which British chocolate company, founded in Birmingham in 1824 by a Quaker who originally sold tea, coffee, and drinking chocolate, introduced its iconic milk chocolate bar in 1905 and built a model village called Bournville for its workers?",
+          "answer": "Cadbury",
+          "alternates": ["Cadbury's"],
+          "explanation": "Founded in 1824 by John Cadbury on Bull Street, Birmingham, England; originally sold tea, coffee, and drinking chocolate\nQuaker family business; John's sons Richard and George expanded it into a major manufacturer\nDairy Milk bar launched in 1905 by George Cadbury Jr., using a higher proportion of milk than competitors; became the company's best-seller by 1914\nBournville model village built in 1893 by George Cadbury near the factory, providing housing, parks, and recreational facilities for workers (no pubs, per Quaker principles)\nCadbury Creme Egg introduced in 1963 (current form from 1971); roughly 500 million produced annually\nAcquired by Kraft Foods in a controversial 2010 hostile takeover for $19.5 billion; now owned by Mondelez International\nCadbury purple (Pantone 2685C) was the subject of a long trademark dispute with Nestle; Cadbury lost exclusive rights in 2013",
+          "cardFront": "Birmingham chocolate maker (1824, Quaker, Dairy Milk)",
+          "cardBack": "Cadbury"
+        },
+        {
+          "id": "hershey",
+          "prompt": "Which American chocolate company, founded in 1894 by a former caramel maker from Pennsylvania, built an entire town for its workers complete with streetlights shaped like its signature wrapped candy, and dominates the US chocolate market?",
+          "answer": "Hershey",
+          "alternates": ["Hershey's", "The Hershey Company"],
+          "explanation": "Founded in 1894 by Milton S. Hershey as a subsidiary of his Lancaster Caramel Company; began mass-producing milk chocolate bars in 1900\nMilton Hershey built the town of Hershey, Pennsylvania, as a model company town with schools, parks, churches, trolleys, and an amusement park\nHershey's Kisses introduced in 1907, originally hand-wrapped in foil; roughly 80 million produced daily\nMilton Hershey transferred the majority of his assets, including control of the company, to the Milton Hershey School Trust in 1918; the school (founded 1909) serves disadvantaged youth\nThe distinctive \"tangy\" flavor of Hershey's chocolate comes from butyric acid, a byproduct of the company's controlled lipolysis process; divisive outside the US\nLargest chocolate manufacturer in North America; US market share roughly 45%\nStreetlights in Hershey, PA are shaped like Hershey's Kisses (wrapped and unwrapped versions on alternating sides of the street)",
+          "cardFront": "Pennsylvania chocolate empire (1894, Kisses, company town)",
+          "cardBack": "Hershey"
+        },
+        {
+          "id": "godiva",
+          "prompt": "Which luxury Belgian chocolatier, named after a legendary English noblewoman who rode naked through Coventry, traces its origins to a Brussels praline workshop started in 1926 and was appointed official chocolatier to the Belgian Royal Court in 1968?",
+          "answer": "Godiva",
+          "alternates": ["Godiva Chocolatier"],
+          "explanation": "Origins trace to 1926 when Pierre Draps began making pralines in a Brussels workshop; the \"Godiva\" brand name was adopted in 1945, suggested by Joseph Draps' wife Gabrielle\nNamed after Lady Godiva of Coventry, the Anglo-Saxon noblewoman who legendarily rode naked through the city to protest her husband Leofric's oppressive taxes\nAppointed official chocolatier to the Royal Court of Belgium in 1968\nFirst shop outside Belgium opened in Paris on Rue Saint-Honore in 1958; entered the US market in 1966\nOwned by the Turkish Yildiz Holding (parent of Ulker) since 2007; previously owned by Campbell Soup Company\nClosed all 128 North American retail stores in 2021, shifting to e-commerce and wholesale distribution\nThe signature gold ballotin (gift box) and the Lady Godiva logo on horseback are globally recognized luxury chocolate symbols",
+          "cardFront": "Belgian luxury chocolatier (Lady Godiva, Brussels)",
+          "cardBack": "Godiva"
+        },
+        {
+          "id": "lindt",
+          "prompt": "Which Swiss chocolate maker revolutionized the industry in 1879 by accidentally leaving a mixing machine running over a weekend, discovering a process called conching that transformed gritty, bitter chocolate into the smooth, melt-in-the-mouth texture known today?",
+          "answer": "Lindt",
+          "alternates": ["Lindt & Sprungli", "Lindt and Sprungli"],
+          "explanation": "Rodolphe Lindt invented the conching process in 1879 in Bern, Switzerland, by accidentally leaving his machine running over a weekend\nConching: prolonged mixing and aerating of heated chocolate, which evaporates bitter volatile acids and develops smooth texture and complex flavor\nBefore conching, chocolate was gritty and bitter; Lindt's invention made smooth, glossy, melt-on-the-tongue chocolate possible for the first time\nSold his factory, the conching secret, and the Lindt name to Rudolf Sprungli in 1899 for 1.5 million gold francs (roughly CHF 100 million today)\nLindt & Sprungli is now one of the world's largest premium chocolate companies; brands include Lindor truffles, Excellence bars, and Gold Bunny\nThe Gold Bunny has been produced since 1952; Lindt produces roughly 150 million annually and has won trademark protection for the shape in multiple countries\nHeadquartered in Kilchberg, near Zurich; operates the world's largest chocolate museum (Lindt Home of Chocolate, opened 2020) with a 9-meter chocolate fountain",
+          "cardFront": "Swiss conching inventor (1879, smooth chocolate revolution)",
+          "cardBack": "Lindt"
+        },
+        {
+          "id": "gummy-bears",
+          "prompt": "Which chewy, animal-shaped gelatin candies were first created in 1922 by a German confectioner in Bonn whose company name is a syllabic abbreviation of his name and city, and whose flagship product line remains one of the world's best-selling confections?",
+          "answer": "Gummy bears",
+          "alternates": ["Gummi bears", "Gummy bear", "Gummi bear", "Haribo"],
+          "explanation": "Created in 1922 by Hans Riegel Sr. in Bonn, Germany; his company was registered in December 1920\nHARIBO = Hans Riegel Bonn (syllabic abbreviation of founder's name and city)\nOriginal bears were larger and softer than today's version, made with gum arabic; modern Goldbaren use gelatin\nRiegel's wife Gertrud was the company's first employee in 1921; startup capital was a sack of sugar, a copper pot, a marble slab, a stool, and a stove\nGoldbaren (Gold Bears) are the flagship product; the line now includes over 100 varieties worldwide\nHans Riegel Sr. died in March 1945; sons Hans Jr. and Paul took over after returning from prisoner-of-war camps in 1946\nHaribo's German advertising slogan \"Haribo macht Kinder froh, und Erwachsene ebenso\" (Haribo makes children happy, and adults too) is one of the most recognized jingles in Germany",
+          "cardFront": "Bear-shaped gelatin candy (Bonn, 1922)",
+          "cardBack": "Gummy bears (Haribo)"
+        },
+        {
+          "id": "jelly-beans",
+          "prompt": "Which small, ovoid candies with a soft center and hard sugar shell, believed to descend from Turkish delight and the French panning technique used for Jordan almonds, became a White House staple when a 20th-century president kept a jar on his Oval Office desk?",
+          "answer": "Jelly beans",
+          "alternates": ["Jelly bean", "Jellybean", "Jellybeans", "Jelly Belly"],
+          "explanation": "Believed to combine two older confections: the soft center from Turkish delight and the hard shell from the panning process used for Jordan almonds since 17th-century France\nBoston confectioner William Schrafft promoted them during the Civil War, encouraging people to send them to Union soldiers\nRonald Reagan's favorite candy; he kept a jar on his Oval Office desk and used them to help quit smoking. His preferred flavor was licorice\nJelly Belly (founded as Goelitz Confectionery) introduced gourmet beans in 1976 with flavors in both the shell and center, unlike traditional beans flavored only in the shell\nGoelitz has the longest continuous history of candy corn and jelly bean production, dating to 1898\nApproximately 16 billion jelly beans are manufactured in the US each year, many for Easter\nThe term \"jelly bean\" appeared in Webster's dictionary by 1905; in 1920s slang, \"jelly bean\" also meant a flashy young man",
+          "cardFront": "Bean-shaped candy (Turkish delight + panning, Reagan)",
+          "cardBack": "Jelly beans"
+        },
+        {
+          "id": "candy-corn",
+          "prompt": "Which tri-colored, kernel-shaped confection, first created in the 1880s by George Renninger and originally marketed as 'Chicken Feed,' is made by depositing three layers of fondant into starch molds and remains one of America's most polarizing Halloween treats?",
+          "answer": "Candy corn",
+          "alternates": ["Candy Corn", "Candycorn"],
+          "explanation": "Invented in the 1880s by George Renninger, an employee of the Wunderle Candy Company; Wunderle was the first to produce it commercially around 1888\nGoelitz Confectionery (now Jelly Belly Candy Company) began producing candy corn in 1898 and has the longest continuous production history\nOriginally marketed as \"Chicken Feed\" because corn was primarily animal feed before WWI and not commonly eaten by Americans\nMade using cornstarch modeling: three layers of fondant (white, orange, yellow) are deposited into cornstarch molds shaped like kernels\nThe tri-color design mimics a real corn kernel; the white tip represents the kernel's pointed end\nRoughly 9 billion kernels (about 35 million pounds) are produced annually in the US, mostly for Halloween\nConsistently ranks among the most divisive American candies in polls; surveys typically show a near-even love/hate split",
+          "cardFront": "Tri-colored Halloween kernel candy (1880s)",
+          "cardBack": "Candy corn"
+        },
+        {
+          "id": "pez",
+          "prompt": "Which candy brand, launched in 1927 in Vienna as an adult peppermint marketed as an alternative to smoking, became a global pop-culture phenomenon when it introduced character-head dispensers in the 1950s, making the dispensers more collectible than the candy itself?",
+          "answer": "PEZ",
+          "alternates": ["Pez"],
+          "explanation": "Created in 1927 in Vienna, Austria, by Eduard Haas III as a compressed peppermint tablet for adults\nName derived from PfEfferminZ (German for peppermint), taking the first, middle, and last letters\nOriginally marketed as an anti-smoking aid and breath freshener; early ads proclaimed \"No smoking, PEZing allowed!\"\nFirst dispensers sold at the Vienna Trade Fair in 1949; the original design resembled a cigarette lighter and held 12 tablets\nCharacter-head dispensers introduced in the 1950s when the brand entered the US market, targeting children; thousands of designs have been produced\nRare vintage dispensers are highly collectible; a 1982 World's Fair astronaut dispenser has sold for over $30,000\nPEZ Visitor Center opened in Orange, Connecticut in 2011; the company moved US headquarters from New York to Connecticut in 1972",
+          "cardFront": "Austrian peppermint with collectible dispensers (1927)",
+          "cardBack": "PEZ"
+        },
+        {
+          "id": "ganache",
+          "prompt": "Which chocolate preparation, an emulsion of chocolate and hot cream used as truffle filling, cake glaze, and pastry component, was according to legend invented accidentally in 1850s Paris when an apprentice spilled cream into a bowl of chocolate and was called an idiot by his master?",
+          "answer": "Ganache",
+          "alternates": [],
+          "explanation": "An emulsion of chocolate and hot cream; the ratio of chocolate to cream determines whether it sets firm (truffles) or pourable (glaze)\nLegend: invented accidentally at the Patisserie Siraudin in Paris around 1850 when an apprentice spilled boiling cream into chocolate\nThe furious chef called the apprentice \"ganache\" (French slang for fool or idiot), and the name stuck for the resulting mixture\nThe cooled mixture, rolled into balls and dusted with cocoa powder, became the first chocolate truffles, named for their resemblance to Perigord black truffles\nBasic formula: equal parts (1:1) chocolate and cream by weight for a standard ganache; higher chocolate ratio for firm truffles, more cream for pourable glaze\nWhipped ganache incorporates air for a lighter, mousse-like texture used in layer cakes and macarons\nSwiss chocolatiers also claim a long tradition of using ganache for truffle centers, disputing the French origin story",
+          "cardFront": "Chocolate + cream emulsion (truffles, glaze)",
+          "cardBack": "Ganache"
+        }
+      ]
+    }
+  ]
+}

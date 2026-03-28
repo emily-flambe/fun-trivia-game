@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "food-drink/coffee-and-tea",
+      "parentId": "food-drink",
+      "name": "Coffee & Tea",
+      "description": "Coffee drinks, growing regions, tea varieties, and preparation methods"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/coffee-and-tea/coffee-and-tea",
+      "nodeId": "food-drink/coffee-and-tea",
+      "name": "Coffee & Tea",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "espresso",
+          "prompt": "Which concentrated coffee preparation, invented in early 20th-century Italy, forces near-boiling water through finely-ground beans at 9 bars of pressure, producing a small, intense shot topped with a layer of golden crema?",
+          "answer": "Espresso",
+          "alternates": [],
+          "explanation": "Italian origin; the first patent for a steam-driven espresso machine was filed by Angelo Moriondo in Turin in 1884; refined by Luigi Bezzera (1901) and Desiderio Pavoni\nThe modern lever espresso machine was invented by Achille Gaggia in 1948, producing the first crema (emulsified oils) on top of the shot\nStandard shot: ~25–30 ml extracted in 25–30 seconds at 9 bars (130 psi) of pressure through finely-ground coffee\nCrema: golden-brown foam of emulsified oils and CO₂; considered a sign of a well-extracted shot\nRistretto: a shorter, more concentrated pull (~15 ml); lungo: a longer pull (~60 ml) with more water\nThe base for virtually all Italian coffee drinks: cappuccino, latte, macchiato, americano\nIn Italy, ordering 'un caffè' at a bar means an espresso by default; it is typically consumed standing at the counter",
+          "cardFront": "Italy (9 bars pressure, crema, base of all drinks)",
+          "cardBack": "Espresso"
+        },
+        {
+          "id": "cappuccino",
+          "prompt": "Which Italian coffee drink of equal thirds espresso, steamed milk, and milk foam takes its name from the brown robes of a Catholic monastic order, and is traditionally consumed only in the morning in Italy — never after lunch?",
+          "answer": "Cappuccino",
+          "alternates": [],
+          "explanation": "Named after the Capuchin friars, whose brown hooded robes (cappuccio = hood) match the drink's color\nTraditional ratio: roughly equal parts espresso, steamed milk, and milk foam (5–6 oz total)\nIn Italy, strictly a morning drink; ordering one after 11 a.m. or after a meal is considered a faux pas (milk is thought to hinder digestion)\nDistinct from a latte (more milk, less foam) and a flat white (less foam, stronger espresso ratio)\nLatte art — free-pouring steamed milk to create patterns (rosetta, heart, tulip) — developed independently in Italy and in Seattle in the 1980s; now a global coffeehouse staple\nThe modern cappuccino evolved with Gaggia's espresso machine (1948); earlier versions used whipped cream rather than steamed milk foam\nDry cappuccino: mostly foam, less liquid milk; wet cappuccino: more steamed milk, less foam",
+          "cardFront": "Espresso + steamed milk + foam (Capuchin friars)",
+          "cardBack": "Cappuccino"
+        },
+        {
+          "id": "americano",
+          "prompt": "Which coffee drink, made by diluting espresso with hot water to approximate the strength of drip coffee, is said to have originated when American soldiers in Italy during World War II found local espresso too strong for their taste?",
+          "answer": "Americano",
+          "alternates": [
+            "Caffè Americano",
+            "Caffe Americano"
+          ],
+          "explanation": "Espresso diluted with hot water; typically 1–2 shots of espresso topped with 6–8 oz of hot water\nPopular origin story: American GIs in Italy during WWII diluted espresso with hot water to approximate the drip coffee they were accustomed to back home\nRetains the flavor complexity of espresso but at a lower concentration; a thin layer of crema often remains on top\nLong black (Australian/New Zealand variant): hot water poured first, then espresso on top, preserving more crema\nNot the same as drip/filter coffee — the extraction method differs; espresso-based drinks have different flavor compounds than percolated or pour-over coffee\nOne of the simplest espresso-bar drinks to prepare; popular in the US and UK as a black coffee option in espresso-centric cafes\nIced Americano: espresso over ice with cold water; one of the most popular cold coffee drinks in South Korea",
+          "cardFront": "Espresso + hot water (WWII GIs in Italy)",
+          "cardBack": "Americano"
+        },
+        {
+          "id": "latte",
+          "prompt": "Which espresso-based drink, consisting of one or two shots topped with a large volume of steamed milk and a thin layer of foam, shares its name with the Italian word for 'milk' and is the best-selling espresso drink in American coffee chains?",
+          "answer": "Latte",
+          "alternates": [
+            "Caffè latte",
+            "Caffe latte"
+          ],
+          "explanation": "'Latte' means 'milk' in Italian; in Italy, ordering a 'latte' gets you a glass of plain milk — the full name is 'caffè latte'\nTypically 1–2 shots espresso with 8–12 oz steamed milk and a thin cap of microfoam\nThe milk-heavy ratio makes it milder and sweeter than a cappuccino; the most popular espresso drink in the US\nFlavored lattes (vanilla, caramel, pumpkin spice) are an American coffee-chain innovation; the Pumpkin Spice Latte (Starbucks, 2003) became a cultural phenomenon\nMatcha latte, chai latte, and turmeric latte are non-coffee variants that use the same steamed-milk format\nLatte art (rosetta, heart, tulip patterns) is poured into lattes because the thin foam layer and large milk surface are ideal for the technique\nThe caffè latte as an American-style large milky coffee drink was popularized by Starbucks in the 1980s–1990s",
+          "cardFront": "Espresso + lots of steamed milk ('milk' in Italian)",
+          "cardBack": "Latte"
+        },
+        {
+          "id": "macchiato",
+          "prompt": "Which espresso drink, whose name means 'stained' or 'marked' in Italian, traditionally consists of a single espresso 'stained' with just a small dollop of foamed milk, though American chains have transformed the name into a large, layered, flavored beverage?",
+          "answer": "Macchiato",
+          "alternates": [
+            "Espresso macchiato",
+            "Caffè macchiato"
+          ],
+          "explanation": "Name means 'stained' or 'marked' in Italian; the espresso is 'marked' with a small amount of milk foam\nTraditional Italian macchiato: a single espresso with 1–2 teaspoons of foamed milk on top; barely larger than a straight espresso\nLatte macchiato (inverted): steamed milk 'stained' with espresso poured on top; a layered drink with milk on the bottom\nStarbucks' Caramel Macchiato (introduced 1996) bears little resemblance to the Italian original — it is essentially a vanilla latte with caramel drizzle\nThe cortado (Spanish origin) is a related drink: espresso 'cut' with roughly equal warm milk, no foam; popular in Spain, Portugal, and Latin America\nIn Italian cafes, a macchiato is the standard way to take espresso with just a touch of milk to soften the bitterness\nMacchiato caldo (hot milk) vs. macchiato freddo (cold milk) are the two traditional variants in Italy",
+          "cardFront": "Espresso 'stained' with milk (tiny, traditional)",
+          "cardBack": "Macchiato"
+        },
+        {
+          "id": "cortado",
+          "prompt": "Which small espresso-based drink of Spanish origin, made with roughly equal parts espresso and warm steamed milk (no foam), takes its name from the Spanish verb meaning 'to cut' and has become a staple of specialty coffee culture worldwide?",
+          "answer": "Cortado",
+          "alternates": [],
+          "explanation": "Name from Spanish 'cortar' (to cut); the milk 'cuts' the espresso's acidity and bitterness\nRoughly equal parts espresso and warm steamed milk, typically 4 oz total; minimal to no foam\nSpanish origin, with variations across the Spanish-speaking world: café cortado (Spain), cortadito (Cuba, with sweetened condensed milk)\nSmaller and stronger than a flat white; less milky than a latte; no foam distinguishes it from a macchiato\nServed in a small glass (often a Gibraltar glass, which is why some US cafes call it a 'Gibraltar')\nPopularized in the US specialty coffee scene in the 2010s; now standard at most third-wave coffee shops\nIn Portugal, the equivalent is a 'galao' (served in a tall glass, slightly more milk) or 'meia de leite' (half coffee, half milk, in a cup)",
+          "cardFront": "Spain (espresso 'cut' with equal warm milk)",
+          "cardBack": "Cortado"
+        },
+        {
+          "id": "ethiopia",
+          "prompt": "Which African country is considered the birthplace of coffee, with a legend about a goat herder named Kaldi whose animals became energetic after eating certain berries, and which today produces distinctive natural-processed beans known for their fruity, wine-like flavor profiles?",
+          "answer": "Ethiopia",
+          "alternates": [],
+          "explanation": "Widely considered the birthplace of Coffea arabica; wild coffee plants still grow in the highland forests of Kaffa and other regions\nThe Kaldi legend: a 9th-century goat herder noticed his goats became energetic after eating red berries from a certain tree; he brought them to a monastery where monks brewed the first coffee\nEthiopian coffee regions (Sidamo, Yirgacheffe, Harrar, Guji, Limu) produce some of the world's most prized specialty beans\nNatural (dry) process: whole coffee cherries are dried in the sun with the fruit still on the bean, producing fruity, berry-like, wine-like flavors distinctive of Ethiopian coffees\nEthiopia's traditional coffee ceremony (buna) involves roasting green beans over charcoal, grinding by mortar, and brewing in a jebena (clay pot); it is an important social ritual\nThe word 'coffee' likely derives from Kaffa, the Ethiopian region where the plant was first discovered\nEthiopia is the 5th largest coffee producer globally but the largest in Africa; coffee accounts for roughly 30% of the country's export earnings",
+          "cardFront": "Birthplace of coffee (Kaldi legend, fruity naturals)",
+          "cardBack": "Ethiopia"
+        },
+        {
+          "id": "colombia",
+          "prompt": "Which South American country, the world's third-largest coffee producer, is famous for its mild, well-balanced arabica beans grown in the Andes, and marketed globally through a fictional mustachioed farmer and his donkey named Conchita?",
+          "answer": "Colombia",
+          "alternates": [],
+          "explanation": "World's third-largest coffee producer (after Brazil and Vietnam); produces exclusively Coffea arabica\nGrown at high altitudes (1,200–2,000 m) in the Andes; the 'Coffee Triangle' (Eje Cafetero) of Caldas, Quindío, and Risaralda is the heartland\nJuan Valdez: fictional coffee farmer created in 1958 by the National Federation of Coffee Growers (FNC) and ad agency Doyle Dane Bernbach; one of the most successful advertising campaigns in history\nJuan Valdez is depicted with a donkey named Conchita and became the face of Colombian coffee worldwide\nColombian coffee is typically washed (wet-processed), producing a clean, bright, well-balanced cup with notes of caramel, nuts, and mild fruit\nThe Colombian Coffee Cultural Landscape was designated a UNESCO World Heritage Site in 2011\nCoffee arrived in Colombia in the early 18th century via Jesuit missionaries; the country became a major exporter by the late 19th century",
+          "cardFront": "Andes arabica (Juan Valdez, 3rd largest producer)",
+          "cardBack": "Colombia"
+        },
+        {
+          "id": "oolong",
+          "prompt": "Which partially oxidized tea from China and Taiwan falls between green (unoxidized) and black (fully oxidized) on the oxidation spectrum, ranging from 8% to 85% oxidized, and includes famous varieties like Tieguanyin (Iron Goddess) and Da Hong Pao (Big Red Robe)?",
+          "answer": "Oolong",
+          "alternates": [
+            "Oolong tea",
+            "Wulong"
+          ],
+          "explanation": "Partially oxidized tea (8–85% oxidation); the wide oxidation range produces enormous diversity of flavor, from light and floral to dark and roasty\nName means 'black dragon' in Chinese (wu long); produced primarily in China's Fujian and Guangdong provinces and in Taiwan\nTieguanyin (Iron Goddess of Mercy): light, floral oolong from Anxi, Fujian; one of China's most famous teas\nDa Hong Pao (Big Red Robe): heavily oxidized, roasted oolong from the Wuyi Mountains; original mother bushes are centuries old and their tea is among the most expensive in the world\nTaiwanese high-mountain oolongs (Ali Shan, Li Shan, Shan Lin Xi) are grown above 1,000 m and prized for their creamy, buttery sweetness\nOolong is the traditional tea for Chinese gongfu tea ceremony, brewed with small amounts of leaf in a gaiwan or yixing clay teapot through multiple short infusions\nThe leaves are typically rolled into balls (Taiwanese style) or twisted into long curls (Wuyi style)",
+          "cardFront": "Partially oxidized (8–85%, Tieguanyin, Da Hong Pao)",
+          "cardBack": "Oolong"
+        },
+        {
+          "id": "matcha",
+          "prompt": "Which finely ground powder of specially grown and shade-covered green tea leaves, central to the Japanese tea ceremony (chanoyu), was introduced to Japan by Zen Buddhist monks in the 12th century and has become a global flavor used in lattes, ice cream, and baking?",
+          "answer": "Matcha",
+          "alternates": [
+            "Matcha tea"
+          ],
+          "explanation": "Finely stone-ground powder of shade-grown green tea leaves (tencha); the entire leaf is consumed, unlike steeped teas where leaves are discarded\nShade-growing (20–30 days before harvest) boosts chlorophyll (vivid green color) and L-theanine (amino acid that provides calm alertness)\nIntroduced to Japan from China by Zen monk Eisai around 1191; became central to the Japanese tea ceremony (chanoyu/sado) codified by Sen no Rikyu in the 16th century\nCeremonial grade: highest quality, vibrant green, smooth, used in tea ceremony; culinary grade: used in lattes, baking, ice cream\nPreparation: sifted powder is whisked with hot water (not boiling, ~175°F/80°C) using a bamboo whisk (chasen) in a bowl (chawan)\nProvides caffeine plus L-theanine, producing sustained energy without the jitters associated with coffee\nUji (Kyoto Prefecture) and Nishio (Aichi Prefecture) are the most prestigious matcha-growing regions in Japan",
+          "cardFront": "Japan (powdered green tea, tea ceremony, shade-grown)",
+          "cardBack": "Matcha"
+        },
+        {
+          "id": "earl-grey",
+          "prompt": "Which flavored tea blend, scented with oil of bergamot (a citrus fruit grown primarily in Calabria, Italy), is named after a 19th-century British Prime Minister who served from 1830 to 1834?",
+          "answer": "Earl Grey",
+          "alternates": [
+            "Earl Grey tea"
+          ],
+          "explanation": "Black tea flavored with oil of bergamot, a citrus fruit (Citrus bergamia) grown almost exclusively in Calabria, southern Italy (90% of world supply)\nNamed after Charles Grey, 2nd Earl Grey, British Prime Minister 1830–1834; he also oversaw the abolition of slavery in the British Empire (1833)\nThe origin story — that a grateful Chinese mandarin gifted the recipe to Lord Grey — is almost certainly apocryphal; Grey never visited China, and bergamot was not used in Chinese tea blending\nThe Grey family claims the blend was designed to offset the lime-heavy water at Howick Hall, their Northumberland estate\nLady Grey: a milder variant with added lemon and orange peel, created by Twinings\nCaptain Jean-Luc Picard's signature drink in Star Trek: The Next Generation ('Tea, Earl Grey, hot')\nThe bergamot oil gives a distinctive floral, citrusy aroma; London Fog is Earl Grey with steamed milk and vanilla",
+          "cardFront": "Bergamot-scented black tea (PM Charles Grey)",
+          "cardBack": "Earl Grey"
+        },
+        {
+          "id": "chai",
+          "prompt": "Which spiced tea preparation, made by boiling black tea with milk and a mixture of aromatic spices (typically cardamom, cinnamon, ginger, cloves, and black pepper), is the most common way tea is consumed across the Indian subcontinent?",
+          "answer": "Chai",
+          "alternates": [
+            "Masala chai",
+            "Chai tea"
+          ],
+          "explanation": "'Chai' simply means 'tea' in Hindi/Urdu (from Chinese 'cha'); 'masala chai' means 'spiced tea'\n'Chai tea' is technically redundant ('tea tea') but is the standard Western term\nTypical spices (masala): cardamom (the dominant flavor), cinnamon, ginger, cloves, and black pepper; recipes vary by region and family\nBlack tea (usually CTC Assam) is boiled with water, milk, sugar, and spices — not steeped; the boiling extracts strong flavor from the robust leaves\nBecame widespread in India in the early 20th century, promoted by the British-owned Indian Tea Association to create a domestic market for surplus tea\nChaiwallahs (tea vendors) are ubiquitous across India, selling small cups from street stalls and railway platforms\nStarbucks' 'Chai Tea Latte' (a concentrate mixed with steamed milk) popularized the drink in the West but differs significantly from traditional preparation",
+          "cardFront": "India (spiced milk tea, cardamom-forward)",
+          "cardBack": "Chai"
+        }
+      ]
+    }
+  ]
+}

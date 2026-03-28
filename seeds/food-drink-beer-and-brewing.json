@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "food-drink/beer-and-brewing",
+      "parentId": "food-drink",
+      "name": "Beer & Brewing",
+      "description": "Beer styles, famous breweries, and brewing terminology"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/beer-and-brewing/beer-and-brewing",
+      "nodeId": "food-drink/beer-and-brewing",
+      "name": "Beer & Brewing",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "ipa",
+          "prompt": "Which heavily hopped beer style, originally brewed in England with extra hops to survive the long sea voyage to British troops stationed in South Asia, has become the flagship style of the American craft beer movement?",
+          "answer": "IPA",
+          "alternates": [
+            "India Pale Ale"
+          ],
+          "explanation": "Stands for India Pale Ale; originated in 18th-century England for export to British India\nExtra hops acted as a preservative for the months-long sea voyage from Britain to the subcontinent\nAmerican craft brewers revived and transformed the style starting in the 1970s–1980s, using bold citrus- and pine-forward American hop varieties\nSubstyles include West Coast (dry, bitter), New England/Hazy (juicy, turbid), Double/Imperial (higher ABV, 7–10%+), and Session (lower ABV, ~4–5%)\nTypical IBU range: 40–70 for standard versions; Double IPAs can exceed 90\nThe most-entered category at the Great American Beer Festival by number of competing beers\nSierra Nevada Pale Ale (1980) and Ballast Point Sculpin helped define the modern American hop-forward style",
+          "cardFront": "India Pale Ale (hop-forward, craft beer staple)",
+          "cardBack": "IPA"
+        },
+        {
+          "id": "stout",
+          "prompt": "Which dark, roasted-malt beer style, ranging from dry Irish versions to sweet milk and imperial Russian variations, takes its name from a word meaning 'strong' and was historically associated with the porters and laborers of 18th-century London?",
+          "answer": "Stout",
+          "alternates": [],
+          "explanation": "Originally called 'stout porter' — a stronger version of porter; the name eventually became its own category\nDry Irish stout (Guinness is the defining example): roasted barley gives coffee-like bitterness with a creamy, nitrogen-poured head\nMilk stout adds lactose (milk sugar) for sweetness and body; oatmeal stout uses oats for a silky mouthfeel\nImperial/Russian Imperial stout: high-ABV (8–12%), originally brewed in Britain for export to the Russian imperial court in the 18th century\nPastry stouts (modern craft trend) add vanilla, chocolate, maple syrup, or other dessert-like adjuncts\nGuinness, founded in Dublin in 1759, signed a 9,000-year lease on its St. James's Gate brewery\nStouts typically use highly kilned or roasted barley/malt, giving them their characteristic dark color and bitter, coffee-chocolate flavor",
+          "cardFront": "Dark, roasted-malt beer (Guinness, imperial, milk)",
+          "cardBack": "Stout"
+        },
+        {
+          "id": "lager",
+          "prompt": "Which broad category of beer, fermented at cold temperatures with bottom-fermenting yeast (Saccharomyces pastorianus), accounts for roughly 90% of global beer production and originated in the caves and cellars of Bavaria?",
+          "answer": "Lager",
+          "alternates": [],
+          "explanation": "Name comes from German 'lagern' (to store); Bavarian brewers stored beer in cold caves for months to condition it\nUses bottom-fermenting yeast (Saccharomyces pastorianus) at 35–50°F (2–10°C), versus ales which use top-fermenting yeast at warmer temperatures\nAccounts for roughly 90% of beer consumed worldwide; most mass-market commercial beers are lagers\nSubcategories include pilsner, helles, bock, dunkel, schwarzbier, Märzen/Oktoberfest, and Vienna lager\nThe Reinheitsgebot (Bavarian Purity Law of 1516) originally permitted only water, barley, and hops — yeast was unknown at the time\nCold fermentation produces a cleaner, crisper flavor profile with fewer fruity esters than ales\nModern refrigeration in the 19th century allowed lager production year-round, fueling its global dominance",
+          "cardFront": "Cold-fermented beer (~90% of world production)",
+          "cardBack": "Lager"
+        },
+        {
+          "id": "pilsner",
+          "prompt": "Which pale, golden, crisp beer style was first brewed in 1842 in a Bohemian city (now in the Czech Republic) using local Saaz hops, and became the model for nearly every mass-market pale beer in the world?",
+          "answer": "Pilsner",
+          "alternates": [
+            "Pils",
+            "Pilsener"
+          ],
+          "explanation": "First brewed in 1842 in Plzeň (Pilsen), Bohemia, by Bavarian brewer Josef Groll at the Burgess Brewery (now Pilsner Urquell)\nUsed pale malt (a recent innovation at the time), soft Bohemian water, and Saaz hops to create the world's first clear golden beer\nPilsner Urquell ('original source pilsner') remains in production; it is the original pilsner\nCzech/Bohemian pilsner: more malty, slightly sweeter; German pilsner: drier, more bitter, crisper\nVirtually every mass-market American and European pale lager (Budweiser, Miller, Heineken) descends from the pilsner style\nSaaz hops (Czech noble hop) provide the floral, spicy aroma characteristic of the original style\nTypical ABV: 4–5.5%; IBU: 25–45; always served cold in a tall, narrow glass to showcase clarity and carbonation",
+          "cardFront": "Bohemian golden lager (1842, Plzeň, Saaz hops)",
+          "cardBack": "Pilsner"
+        },
+        {
+          "id": "porter",
+          "prompt": "Which dark English beer style, first documented in 18th-century London, was so popular among street and river laborers that it became the first beer to be brewed on an industrial scale, and gave rise to a stronger variant that became its own style?",
+          "answer": "Porter",
+          "alternates": [],
+          "explanation": "First documented in London in the 1720s; named for the street and river porters (laborers) who favored it\nMade with brown or chocolate malt; lighter and less roasty than its descendant, the stout\nFirst beer brewed on a large industrial scale — London's massive porter breweries (Whitbread, Barclay Perkins) were among the largest factories in the world by the late 1700s\nThe stronger version, 'stout porter,' eventually became the separate 'stout' category\nNearly extinct by the mid-20th century; revived by craft brewers in the 1970s–1980s\nBaltic porter (fermented with lager yeast, higher ABV) became popular across Scandinavia, Poland, and the Baltic states\nFlavor profile: chocolate, caramel, toffee, mild roast; less bitter and lighter-bodied than most stouts",
+          "cardFront": "Dark English beer (London 1720s, gave rise to stout)",
+          "cardBack": "Porter"
+        },
+        {
+          "id": "wheat-beer",
+          "prompt": "Which style of beer, brewed with a large proportion of wheat (typically 50% or more of the grain bill), has German and Belgian varieties, often exhibiting banana and clove flavors from its distinctive yeast, and is traditionally served unfiltered and hazy?",
+          "answer": "Wheat beer",
+          "alternates": [
+            "Weissbier",
+            "Weizen",
+            "Hefeweizen"
+          ],
+          "explanation": "Brewed with a significant proportion of wheat alongside barley — typically 50–70% wheat in German versions\nGerman Hefeweizen ('yeast wheat'): unfiltered, hazy, with banana (isoamyl acetate) and clove (4-vinylguaiacol) flavors from the yeast strain\nBelgian witbier (white beer): spiced with coriander and orange peel; Hoegaarden is the defining example, revived by Pierre Celis in 1966\nKristallweizen: filtered version of Hefeweizen, clear rather than cloudy\nAmerican wheat ales use neutral yeast strains, producing a cleaner, less yeast-forward flavor\nBerliner Weisse: tart, low-ABV (2.5–3.5%) German sour wheat beer, traditionally served with fruit syrup\nWeihenstephaner (founded 1040, claimed oldest brewery in the world) and Erdinger are benchmark German wheat beer producers",
+          "cardFront": "Wheat-based (Hefeweizen, witbier, banana & clove)",
+          "cardBack": "Wheat beer"
+        },
+        {
+          "id": "pale-ale",
+          "prompt": "Which amber- to copper-colored ale style, first brewed in England using coke-kilned malt that was lighter than traditional brown malt, bridges the gap between mild English bitters and the more aggressively hopped American versions that launched the craft beer revolution?",
+          "answer": "Pale ale",
+          "alternates": [
+            "Pale Ale"
+          ],
+          "explanation": "First brewed in England in the early 1700s using coke-dried malt, which was lighter in color than wood-dried brown malt\nEnglish pale ale: balanced, malty, moderate bitterness; brands like Bass Pale Ale (1777) became globally famous\nAmerican pale ale: more hop-forward, using American hop varieties (Cascade, Centennial) for citrus and pine notes\nSierra Nevada Pale Ale (1980) defined the American pale ale style and remains one of the best-selling craft beers in the US\nHistorically called 'bitter' in English pubs; ESB (Extra Special Bitter) is a stronger substyle\nBridge between traditional English bitters and the more extreme bitterness of American IPAs\nTypical ABV: 4–6%; IBU: 20–50; characterized by a balance of malt sweetness and hop bitterness",
+          "cardFront": "Coke-kilned English origin (Bass, Sierra Nevada)",
+          "cardBack": "Pale ale"
+        },
+        {
+          "id": "lambic",
+          "prompt": "Which Belgian beer style, brewed near Brussels in the Pajottenland region, uses spontaneous fermentation by wild yeasts and bacteria (including Brettanomyces) instead of cultivated brewer's yeast, and must contain at least 30% unmalted wheat?",
+          "answer": "Lambic",
+          "alternates": [],
+          "explanation": "Spontaneously fermented by wild yeasts and bacteria native to the Senne (Zenne) Valley near Brussels\nWort is cooled overnight in large, shallow open vessels called coolships, exposing it to airborne microbes including Brettanomyces bruxellensis and Brettanomyces lambicus\nMust contain at least 30% unmalted wheat and use aged hops (for preservation, not flavor)\nGueuze: a blend of young (1-year) and old (2–3-year) lambics, bottle-conditioned like champagne\nKriek: lambic fermented with sour cherries; framboise uses raspberries\nKey producers: Cantillon (Brussels), 3 Fonteinen (Beersel), Boon, Lindemans, Timmermans\nMust be brewed within roughly 15 km of Brussels; fermentation traditionally occurs only in cooler months (October–April) when wild yeast activity is optimal",
+          "cardFront": "Belgian wild-fermented (Senne Valley, coolship)",
+          "cardBack": "Lambic"
+        },
+        {
+          "id": "guinness",
+          "prompt": "Which Irish brewery, founded in Dublin in 1759 with a famously long lease on its property, produces the world's best-known dry stout, served on nitrogen for its characteristic creamy head and cascading bubble effect?",
+          "answer": "Guinness",
+          "alternates": [],
+          "explanation": "Founded by Arthur Guinness in 1759 at St. James's Gate, Dublin; he signed a 9,000-year lease at £45 per year\nDry Irish stout: roasted unmalted barley gives the signature bitter, coffee-like flavor and dark color\nThe 'surge and settle' cascade effect comes from nitrogen gas mixed with CO₂ (approximately 75% N₂, 25% CO₂) during pouring\nThe 'widget' (plastic ball inside cans) releases nitrogen when the can is opened, replicating draft pour texture\nGuinness World Records book was created in 1955 by the company to settle pub arguments\nAdvertising icon: the toucan (created by artist John Gilroy in the 1930s); 'Guinness is good for you' was the early slogan\nThe brewery at St. James's Gate is the largest stout brewery in the world; Guinness is sold in over 120 countries",
+          "cardFront": "Dublin (1759, dry stout, nitrogen pour)",
+          "cardBack": "Guinness"
+        },
+        {
+          "id": "heineken",
+          "prompt": "Which Dutch brewing company, founded in Amsterdam in 1864, became one of the world's largest beer exporters, recognizable by its green bottle and red star, and was among the first European lagers marketed successfully in the United States after Prohibition?",
+          "answer": "Heineken",
+          "alternates": [],
+          "explanation": "Founded by Gerard Adriaan Heineken in Amsterdam in 1864 when he purchased the De Hooiberg brewery\nThe proprietary 'A-yeast' strain (developed in the 1880s by Dr. Elion, a student of Louis Pasteur) gives the beer its consistent flavor worldwide\nGreen bottle and red star branding are globally recognized; the brand uses a distinctive tilted 'e' in its logo sometimes called 'the smiling e'\nOne of the first European beers widely exported to the US; entered the American market immediately after Prohibition ended in 1933\nNow the world's second-largest brewer by revenue (after AB InBev); owns over 300 brands including Amstel, Tiger, and Birra Moretti\nSponsor of the UEFA Champions League, Formula 1, and the James Bond franchise\nHeadquartered in Amsterdam; the original brewery is now the Heineken Experience museum",
+          "cardFront": "Netherlands (1864, green bottle, red star)",
+          "cardBack": "Heineken"
+        },
+        {
+          "id": "budweiser",
+          "prompt": "Which American lager, first brewed in St. Louis, Missouri in 1876 by Adolphus Busch using a recipe inspired by Bohemian beer, became 'The King of Beers' and the best-selling beer in the US for decades, while fighting a long trademark dispute with a Czech brewery from the city the name references?",
+          "answer": "Budweiser",
+          "alternates": [
+            "Bud"
+          ],
+          "explanation": "First brewed in 1876 by Adolphus Busch and Carl Conrad in St. Louis, Missouri, using a Bohemian-style recipe with rice as an adjunct for a lighter body\nNamed after Budweis (now České Budějovice), a Bohemian city with a centuries-old brewing tradition\nLong trademark dispute with Budweiser Budvar (Budvar/Czechvar), a Czech brewery from the same city; both sell under different names in different markets\nBrewed by Anheuser-Busch, now owned by AB InBev (Belgian-Brazilian conglomerate), the world's largest brewer\nBeechwood aging: lager is conditioned on beechwood chips, which provide surface area for yeast — a process AB touts as distinctive\nThe Clydesdales (Budweiser's draft horse team) became an iconic advertising symbol, introduced in 1933 to celebrate the end of Prohibition\nBud Light (introduced 1982) eventually surpassed the original as America's best-selling beer",
+          "cardFront": "USA (St. Louis 1876, 'King of Beers')",
+          "cardBack": "Budweiser"
+        },
+        {
+          "id": "hops",
+          "prompt": "Which flowering plant of the species Humulus lupulus provides beer with bitterness, aroma, and natural preservative qualities, and is added at different stages of the brewing process to achieve different flavor effects?",
+          "answer": "Hops",
+          "alternates": [
+            "Hop"
+          ],
+          "explanation": "Humulus lupulus, a climbing bine (not vine) in the Cannabaceae family — related to cannabis\nFemale flower cones (strobili) contain lupulin glands that produce alpha acids (bittering) and essential oils (aroma)\nAlpha acids isomerize during the boil to become iso-alpha acids, which provide bitterness measured in IBUs\nEarly additions (60+ minutes in the boil) extract bitterness; late additions and dry-hopping contribute aroma and flavor without significant bitterness\n'Noble hops' are four traditional European varieties: Saaz (Czech), Hallertau, Tettnang, and Spalt (all German)\nAmerican varieties (Cascade, Citra, Mosaic, Simcoe) emphasize citrus, tropical fruit, and pine notes; drove the craft IPA movement\nBefore hops, brewers used 'gruit' (a mixture of herbs including yarrow, bog myrtle, and sweet gale) to flavor and preserve beer",
+          "cardFront": "Humulus lupulus (bitterness, aroma, preservative)",
+          "cardBack": "Hops"
+        },
+        {
+          "id": "malt",
+          "prompt": "Which brewing ingredient, made by soaking cereal grain (usually barley) in water to germinate and then kilning it to halt the process, provides the fermentable sugars that yeast converts to alcohol and CO2, and determines a beer's color and body?",
+          "answer": "Malt",
+          "alternates": [
+            "Malted barley"
+          ],
+          "explanation": "Made by soaking grain (steeping), allowing it to germinate to activate enzymes, then kiln-drying to stop growth and lock in flavor\nBarley is the most common malting grain; wheat, rye, and oats are also used\nDuring mashing, malt enzymes (amylase) convert starches into fermentable sugars (maltose, glucose) to create wort\nKilning temperature determines color and flavor: pale malt (lightly kilned), caramel/crystal malt (stewed), chocolate malt (highly roasted), black patent (almost burnt)\nProvides the sugar (predominantly maltose) that yeast ferments into ethanol and CO₂\nLovibond or SRM (Standard Reference Method) scale measures malt color: pale lager ~2 SRM, porter ~30 SRM, stout ~40+ SRM\nThe Maillard reaction during kilning creates the caramel, toffee, biscuit, and roasty flavors found in different beer styles",
+          "cardFront": "Germinated & kilned grain (sugars, color, body)",
+          "cardBack": "Malt"
+        },
+        {
+          "id": "wort",
+          "prompt": "What is the sweet, sugary liquid extracted from mashing malted grain in hot water called, which becomes beer only after boiling with hops and fermenting with yeast?",
+          "answer": "Wort",
+          "alternates": [],
+          "explanation": "Pronounced 'wert'; the unfermented liquid extracted during the mashing process\nCreated by steeping crushed malt in hot water (typically 148–158°F / 64–70°C) to activate enzymes that convert starch to sugar\nLautering separates the liquid wort from the spent grain; sparging rinses remaining sugars from the grain bed\nThe wort is then boiled for 60–90 minutes; hops are added during the boil for bitterness, flavor, and aroma\nOriginal gravity (OG) measures the sugar concentration in wort before fermentation; higher OG = more potential alcohol\nAfter boiling, wort is rapidly cooled and transferred to a fermenter where yeast is pitched (added)\nThe word derives from Old English 'wyrt' meaning plant or herb; cognate with German 'Würze' (spice/seasoning)",
+          "cardFront": "Unfermented sweet liquid (pre-beer)",
+          "cardBack": "Wort"
+        },
+        {
+          "id": "ibu",
+          "prompt": "Which unit of measurement, developed by the American Society of Brewing Chemists, quantifies the bitterness in beer by measuring isomerized alpha acid concentration, with most beers falling between 5 and 100 on its scale?",
+          "answer": "IBU",
+          "alternates": [
+            "International Bitterness Units",
+            "International Bitterness Unit"
+          ],
+          "explanation": "Stands for International Bitterness Units; standardized by the American Society of Brewing Chemists\nMeasures concentration of isomerized alpha acids (from hops) in parts per million via spectrophotometry\nTypical ranges: light lager 5–15, wheat beer 10―20, pale ale 30–50, IPA 40–70, Double IPA 60–100+\nHuman taste threshold for detecting bitterness is roughly 4–9 IBU; above ~100 IBU, most palates cannot perceive additional bitterness\nPerceived bitterness depends on malt sweetness, alcohol content, and residual sugar — a 70 IBU barleywine may taste less bitter than a 50 IBU pale ale\nMeasured by extracting hop compounds with organic solvent and measuring UV light absorption at 275 nm\nSome craft brewers abandoned IBU labeling because the number alone does not predict how bitter a beer tastes",
+          "cardFront": "International Bitterness Units (hop bitterness scale)",
+          "cardBack": "IBU"
+        }
+      ]
+    }
+  ]
+}

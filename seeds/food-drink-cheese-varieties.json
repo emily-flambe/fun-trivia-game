@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "food-drink/cheese-varieties",
+      "parentId": "food-drink",
+      "name": "Cheese Varieties",
+      "description": "Famous cheeses, their origins, milk types, and characteristics"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "food-drink/cheese-varieties/cheese-varieties",
+      "nodeId": "food-drink/cheese-varieties",
+      "name": "Cheese Varieties",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "brie",
+          "prompt": "Which soft, creamy French cheese with an edible white rind of Penicillium mold, named after a region east of Paris, was called 'the king of cheeses' at the Congress of Vienna in 1815?",
+          "answer": "Brie",
+          "alternates": [
+            "Brie de Meaux"
+          ],
+          "explanation": "Soft-ripened cow's milk cheese from the Brie region of Île-de-France, east of Paris\nEdible white rind formed by Penicillium camemberti or Penicillium candidum mold\nBrie de Meaux (AOC) is considered the original; Brie de Melun is smaller and more pungent\nCalled 'le roi des fromages' (king of cheeses) at the 1814–1815 Congress of Vienna during a cheese competition among European diplomats\nRipens from the outside in; properly ripe Brie should be soft and oozy throughout, not chalky in the center\nTraditionally made from raw cow's milk; most exported versions use pasteurized milk due to food safety regulations\nBest served at room temperature; pairs with Champagne, baguette, and fruit",
+          "cardFront": "France (soft, white rind, 'king of cheeses')",
+          "cardBack": "Brie"
+        },
+        {
+          "id": "cheddar",
+          "prompt": "Which firm, sharp English cheese, originating from a village in Somerset, is the world's most widely produced and consumed cheese variety, traditionally matured in cloth-wrapped cylinders and sometimes colored orange with annatto?",
+          "answer": "Cheddar",
+          "alternates": [],
+          "explanation": "Originated in the village of Cheddar, Somerset, England, at least as early as the 12th century\nThe world's most popular cheese by production volume; produced in countries from the US to Australia to Ireland\n'Cheddaring' is a specific process: curds are stacked, flipped, and pressed to expel whey, creating a dense, layered texture\nOrange color comes from annatto (a natural seed dye); originally added to mimic the deeper color of summer milk from grass-fed cows\nAges from mild (2–3 months) to extra sharp (2+ years); flavor intensifies and becomes more crumbly with age\nWest Country Farmhouse Cheddar has PDO protection in the EU; must be made in Somerset, Devon, Dorset, or Cornwall from local milk\nJoseph Harding (1805–1876), a Somerset dairyman, standardized the cheddaring process and is called 'the father of Cheddar cheese'",
+          "cardFront": "England (Somerset, sharp, world's most produced)",
+          "cardBack": "Cheddar"
+        },
+        {
+          "id": "gruyere",
+          "prompt": "Which hard Swiss cheese, granted AOC protection in 2001, is made from raw cow's milk in the cantons of Fribourg, Vaud, and Neuchâtel, and is essential in fondue and French onion soup, with a nutty, slightly sweet flavor that intensifies with aging?",
+          "answer": "Gruyère",
+          "alternates": [
+            "Gruyere"
+          ],
+          "explanation": "Named after the town of Gruyères in the canton of Fribourg, Switzerland\nAOC since 2001, upgraded to AOP (Appellation d'Origine Protégée) in 2013; must be produced in designated Swiss cantons\nMade from raw (unpasteurized) cow's milk; no additives permitted under AOP rules\nYoung (5–6 months): creamy, mild, nutty; aged/Réserve (10+ months): more assertive, earthy, with small crystalline cracks\nEssential melting cheese: used in fondue (often blended with Emmental), croque monsieur, French onion soup, and quiche\nWheels weigh approximately 35 kg (77 lbs) and are aged on spruce boards in humid cellars, washed regularly with brine\nA 2021 US court ruling held that 'Gruyère' is a generic term in the US and not limited to Swiss production — controversial in Switzerland",
+          "cardFront": "Switzerland (hard, nutty, fondue essential)",
+          "cardBack": "Gruyère"
+        },
+        {
+          "id": "parmigiano-reggiano",
+          "prompt": "Which Italian hard cheese, produced exclusively in five provinces of Emilia-Romagna, is aged a minimum of 12 months, often called the 'King of Cheeses' in Italy, and has its production date and dairy number stamped into each wheel's rind?",
+          "answer": "Parmigiano-Reggiano",
+          "alternates": [
+            "Parmesan",
+            "Parmigiano"
+          ],
+          "explanation": "DOP (Denominazione di Origine Protetta) cheese; production limited to Parma, Reggio Emilia, Modena, and parts of Mantua and Bologna in Emilia-Romagna\nMinimum aging: 12 months; most commonly sold at 24–36 months; 'stravecchio' aged 24–36 months\nMade from partially skimmed raw cow's milk (evening milk is skimmed, then mixed with whole morning milk)\nEach wheel weighs 38–40 kg (84–88 lbs); rind is stamped with production date and dairy number by the Consorzio\nDistinct from generic 'Parmesan' — in the EU, only DOP wheels can use the name; in the US, 'Parmesan' is unregulated\nGranular, crystalline texture from tyrosine amino acid clusters that form during long aging\nItalian banks (notably Credito Emiliano) accept whole wheels as collateral for loans, storing them in climate-controlled vaults",
+          "cardFront": "Italy (Emilia-Romagna, hard, 12-month minimum)",
+          "cardBack": "Parmigiano-Reggiano"
+        },
+        {
+          "id": "gouda",
+          "prompt": "Which Dutch cheese, named after a city in South Holland where it was historically traded (though not necessarily produced), is the most popular cheese in the Netherlands, ranging from young and mild to aged versions with caramel-like crystals?",
+          "answer": "Gouda",
+          "alternates": [],
+          "explanation": "Named after the city of Gouda in South Holland, which held a famous cheese market (active since the Middle Ages, still held weekly in summer)\nThe most popular cheese in the Netherlands, accounting for roughly 50–60% of Dutch cheese production\nMade from cow's milk; the curd-washing technique (replacing whey with warm water) gives young Gouda its characteristic mild, slightly sweet flavor\nYoung (jong, 4 weeks): mild, creamy, supple; aged (oud, 10–12+ months): deep amber, caramel-butterscotch notes, crunchy tyrosine crystals\nBoerenkaas ('farmer's cheese') is a raw-milk farmstead version with more complex flavors\nSmoked Gouda is popular worldwide; the rind is often coated with colored wax (yellow, red, or black for aged)\nGouda-style cheeses are produced globally; only 'Noord-Hollandse Gouda' has EU PGI protection",
+          "cardFront": "Netherlands (mild to aged, curd-washed)",
+          "cardBack": "Gouda"
+        },
+        {
+          "id": "roquefort",
+          "prompt": "Which blue-veined French cheese, made exclusively from raw sheep's milk and aged in the natural limestone caves of Combalou near a village in southern France, was the first cheese to receive an AOC designation in 1925?",
+          "answer": "Roquefort",
+          "alternates": [],
+          "explanation": "Made from raw milk of the Lacaune breed of sheep; veined with Penicillium roqueforti mold\nAged in the natural limestone caves of Combalou in Roquefort-sur-Soulzon, Aveyron, southern France\nFirst French cheese to receive Appellation d'Origine Contrôlée (AOC) status, in 1925\nThe caves have natural ventilation channels called 'fleurines' that maintain constant temperature (~10°C) and humidity (~95%) ideal for mold development\nLegend: a young shepherd left his bread and sheep's-milk cheese in a cave to pursue a girl; when he returned months later, the mold had transformed the cheese\nIntense, tangy, salty, and creamy with a crumbly texture; one of the world's most famous blue cheeses\nSeven producers (including Société, the largest) are authorized to make Roquefort; all must age wheels in the Combalou caves",
+          "cardFront": "France (blue, sheep's milk, Combalou caves)",
+          "cardBack": "Roquefort"
+        },
+        {
+          "id": "manchego",
+          "prompt": "Which Spanish cheese from the La Mancha region, made exclusively from a local breed of sheep's milk, has a distinctive zigzag-patterned rind from traditional esparto grass molds and is the most famous and widely exported cheese from its country?",
+          "answer": "Manchego",
+          "alternates": [],
+          "explanation": "DOP cheese from the La Mancha region of central Spain; made exclusively from whole milk of the Manchega sheep breed\nThe same region as Don Quixote — Cervantes mentioned La Mancha's cheese in the novel\nDistinctive herringbone (zigzag) pattern on the rind, imprinted by traditional esparto grass molds (pleita); modern molds replicate this pattern in plastic\nAges from fresco (2 weeks) to curado (3–6 months) to viejo (1+ year); flavor progresses from mild and buttery to sharp, peppery, and crumbly\nSpain's most exported cheese and one of its most internationally recognized food products\nPaired traditionally with quince paste (membrillo), Marcona almonds, and Spanish wine (Tempranillo, Manchuela)\nOnly sheep's-milk cheese made in the DOP zone from Manchega sheep qualifies; generic 'Manchego-style' cheese is not protected outside the EU",
+          "cardFront": "Spain (La Mancha, sheep's milk, zigzag rind)",
+          "cardBack": "Manchego"
+        },
+        {
+          "id": "mozzarella",
+          "prompt": "Which soft Italian cheese, traditionally made from water buffalo milk in the Campania region, gets its name from the Italian word for 'to cut off' (describing how the curd is pulled and torn), and is essential to Neapolitan pizza and caprese salad?",
+          "answer": "Mozzarella",
+          "alternates": [
+            "Mozzarella di Bufala"
+          ],
+          "explanation": "Name derives from 'mozzare' (to cut off), describing the hand-pulling technique where curds are stretched in hot water and torn into balls\nMozzarella di Bufala Campana DOP: made from water buffalo milk in Campania and parts of Lazio; richer, tangier, and more prized than cow's milk versions\nFior di latte: cow's milk mozzarella, widely produced and used on most commercial pizza\nA 'pasta filata' (stretched curd) cheese — the same family as provolone, scamorza, and burrata\nBurrata is mozzarella formed into a pouch and filled with stracciatella (shredded mozzarella) and cream\nEssential to Neapolitan pizza (DOP Margherita requires Mozzarella di Bufala or Fior di Latte), caprese salad, and lasagna\nFresh mozzarella should be consumed within days of production; mass-produced low-moisture mozzarella (American style) is drier and designed for melting and long shelf life",
+          "cardFront": "Italy (stretched curd, buffalo or cow, pizza essential)",
+          "cardBack": "Mozzarella"
+        },
+        {
+          "id": "camembert",
+          "prompt": "Which soft French cheese from Normandy, similar to but smaller and more intensely flavored than its Ile-de-France cousin, was popularized during World War I when it was distributed to French troops and is traditionally sold in a distinctive round wooden box?",
+          "answer": "Camembert",
+          "alternates": [
+            "Camembert de Normandie"
+          ],
+          "explanation": "Soft, creamy, surface-ripened cheese from Normandy, France; similar to Brie but smaller (about 250g), thicker, and more intensely flavored\nTraditionally attributed to Marie Harel, a farmer in the village of Camembert, around 1791 — though this origin story is debated\nCamembert de Normandie AOP: must be made from raw cow's milk in Normandy using traditional ladle-molding; most commercial Camembert is not AOP\nThe round wooden box (invented by engineer M. Ridel around 1890) made long-distance shipping possible and became iconic\nDistributed to French soldiers in World War I, spreading its popularity across France and beyond\nRipens from outside in (like Brie); properly ripe Camembert should be soft and slightly runny under the white Penicillium rind\nDeep-fried Camembert is a popular dish in Europe; baked Camembert with garlic and herbs is a common appetizer",
+          "cardFront": "France (Normandy, soft, round wooden box)",
+          "cardBack": "Camembert"
+        },
+        {
+          "id": "stilton",
+          "prompt": "Which English blue cheese, produced only in the counties of Derbyshire, Leicestershire, and Nottinghamshire, holds a PDO that paradoxically excludes the village in Cambridgeshire for which it is named?",
+          "answer": "Stilton",
+          "alternates": [
+            "Blue Stilton"
+          ],
+          "explanation": "PDO (Protected Designation of Origin) blue cheese; can only be produced in Derbyshire, Leicestershire, and Nottinghamshire from locally produced pasteurized cow's milk\nThe village of Stilton in Cambridgeshire, where the cheese was historically sold at the Bell Inn coaching house, is outside the PDO production zone and cannot legally make 'Stilton'\nBlue Stilton: crumbly, rich, tangy, with blue-green Penicillium roqueforti veins; White Stilton (no blue mold) also exists\nTraditionally served with port wine at Christmas; also paired with walnuts, pears, and celery\nOften called the 'King of English cheeses'; one of only a handful of British cheeses with name protection\nSix licensed dairies currently produce Stilton; Colston Bassett and Cropwell Bishop are highly regarded\nMust be cylindrical, with a natural rind, and never pressed — the curds are allowed to drain naturally, creating the open texture that allows blue mold to develop",
+          "cardFront": "England (blue, PDO excludes its namesake village)",
+          "cardBack": "Stilton"
+        },
+        {
+          "id": "feta",
+          "prompt": "Which brined white cheese, made from sheep's milk (or a blend with up to 30% goat's milk), has been produced in Greece for thousands of years and won a landmark EU ruling in 2005 restricting the name exclusively to Greek production?",
+          "answer": "Feta",
+          "alternates": [],
+          "explanation": "Brined curd cheese made from sheep's milk or a sheep/goat blend (up to 30% goat's milk permitted under PDO rules)\nPDO since 2002; a 2005 EU ruling confirmed that only cheese produced in mainland Greece and Lesbos using traditional methods can be called 'feta'\nThe word 'feta' comes from Italian 'fetta' (slice), entering Greek in the 19th century\nProduction traces back thousands of years; Homer's Odyssey describes Polyphemus making a cheese from sheep's milk that scholars identify as a feta ancestor\nCured and stored in brine (saltwater), giving it a salty, tangy flavor and crumbly-creamy texture\nEssential to Greek cuisine: horiatiki (village salad), spanakopita, baked feta pasta (viral TikTok recipe, 2021)\nDenmark, France, and Germany contested the PDO ruling, arguing 'feta' had become generic; the European Court of Justice ruled in Greece's favor",
+          "cardFront": "Greece (brined, sheep's milk, PDO since 2002)",
+          "cardBack": "Feta"
+        },
+        {
+          "id": "emmental",
+          "prompt": "Which Swiss cheese from the canton of Bern is characterized by its large, walnut-sized holes (formed by CO2 from Propionibacterium), massive wheels weighing up to 120 kg, and is often used as the generic image of 'Swiss cheese' worldwide?",
+          "answer": "Emmental",
+          "alternates": [
+            "Emmentaler",
+            "Emmenthaler",
+            "Swiss cheese"
+          ],
+          "explanation": "Named after the Emme Valley (Emmental) in the canton of Bern, Switzerland; first documented in the 13th century\nThe characteristic large holes ('eyes') are formed by CO₂ gas released by Propionibacterium freudenreichii during the warm aging phase\nWheels are massive: typically 75–120 kg (165–265 lbs), among the largest of any cheese\nMild, slightly sweet, nutty flavor; melts well and is used in fondue (often blended with Gruyère)\nEmmentaler AOP Switzerland is the protected version; generic 'Emmental' is widely produced in France, Germany, and elsewhere\nThe archetypal 'Swiss cheese' with holes in cartoons and popular culture worldwide\nThe number and size of holes depend on aging conditions: warmer temperatures and longer warm-phase aging produce larger eyes; a 2015 Swiss study found that the disappearance of traditional open-bucket milking (which introduced tiny hay particles as nucleation sites) was causing modern Emmental to have fewer holes",
+          "cardFront": "Switzerland (big holes, Emme Valley, 'Swiss cheese')",
+          "cardBack": "Emmental"
+        }
+      ]
+    }
+  ]
+}
