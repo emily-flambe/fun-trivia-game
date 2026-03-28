@@ -17,7 +17,8 @@
     { "id": "science", "parentId": null, "name": "Science", "description": "Physical sciences, biology, chemistry, physics, astronomy", "sortOrder": 14 },
     { "id": "television", "parentId": null, "name": "Television", "description": "TV shows, personalities, and broadcasting history", "sortOrder": 15 },
     { "id": "theatre", "parentId": null, "name": "Theatre", "description": "Stage plays, musicals, playwrights, Broadway and West End", "sortOrder": 16 },
-    { "id": "world-history", "parentId": null, "name": "World History", "description": "Global history, civilizations, and world events", "sortOrder": 17 }
+    { "id": "world-history", "parentId": null, "name": "World History", "description": "Global history, civilizations, and world events", "sortOrder": 17 },
+    { "id": "cross-category", "parentId": null, "name": "Cross-Category", "description": "Exercises that span multiple trivia categories — misconceptions, confused pairs, and more", "sortOrder": 18 }
   ],
   "exercises": []
 }

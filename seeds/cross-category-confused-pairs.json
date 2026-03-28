@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    { "id": "cross-category/confused-pairs", "parentId": "cross-category", "name": "Confused Pairs", "description": "Pairs that get mixed up in trivia \u2014 learn the distinguishing facts" }
+  ],
+  "exercises": [
+    {
+      "id": "cross-category/confused-pairs/often-confused",
+      "nodeId": "cross-category/confused-pairs",
+      "name": "Often Confused Pairs",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "monet",
+          "prompt": "Which French painter \u2014 often confused with a contemporary of similar name \u2014 founded Impressionism with *Impression, Sunrise* (1872) and is famous for his Water Lilies series painted at Giverny?",
+          "answer": "Claude Monet",
+          "alternates": ["Monet"],
+          "explanation": "Born 1840, died 1926 \u2014 the YOUNGER of the two commonly confused painters\n*Impression, Sunrise* (1872) gave the Impressionist movement its name when a critic used it mockingly\nPainted roughly 250 Water Lilies canvases in the garden he designed at his home in Giverny\nPioneered en plein air (outdoor) painting, obsessed with capturing light and atmosphere\nOther major series: Haystacks, Rouen Cathedral, Japanese Bridge\nNearly blind from cataracts in his later years but continued painting until his death at 86",
+          "cardFront": "Water Lilies, *Impression, Sunrise*, Giverny",
+          "cardBack": "Claude Monet"
+        },
+        {
+          "id": "manet",
+          "prompt": "Which French painter \u2014 often confused with a younger Impressionist of similar name \u2014 scandalized Paris with *Olympia* (1863) and *Le D\u00e9jeuner sur l'herbe*?",
+          "answer": "\u00c9douard Manet",
+          "alternates": ["Manet", "Edouard Manet"],
+          "explanation": "Born 1832, died 1883 \u2014 the OLDER of the two commonly confused painters\nConsidered a bridge between Realism and Impressionism; never fully identified as an Impressionist\n*Olympia* (painted 1863, exhibited at the 1865 Salon) shocked audiences with a nude woman's confrontational gaze and modern setting\n*Le D\u00e9jeuner sur l'herbe* (1863) rejected by the Salon, shown at the Salon des Refus\u00e9s\nInfluenced the Impressionists but exhibited at the official Salon rather than their independent shows\nDied at 51 of syphilis and rheumatism; his left foot was amputated shortly before death",
+          "cardFront": "*Olympia*, *Le D\u00e9jeuner sur l'herbe*, older of the pair",
+          "cardBack": "\u00c9douard Manet"
+        },
+        {
+          "id": "stalactite",
+          "prompt": "In a cave, which mineral formation hangs down from the ceiling \u2014 the one whose name contains a 'c' or the one whose name contains a 'g'?",
+          "answer": "Stalactite",
+          "alternates": ["stalactites"],
+          "explanation": "Hangs from the ceiling like an icicle \u2014 mnemonic: stalac*t*ite has a T for \"top\"\nFormed by mineral-rich water dripping from the ceiling; calcium carbonate deposits build up over time\nCan take thousands of years to grow a single inch\nWhen a stalactite and stalagmite meet, they form a column (or pillar)\nFrom Greek stalaktos (\"dripping\"), from stalassein (\"to drip\")\nThe longest known stalactite is in Jeita Grotto, Lebanon \u2014 over 8 meters (27 feet)",
+          "cardFront": "Hangs from ceiling (has a 'c')",
+          "cardBack": "Stalactite"
+        },
+        {
+          "id": "stalagmite",
+          "prompt": "In a cave, which mineral formation rises up from the floor \u2014 the one whose name contains a 'c' or the one whose name contains a 'g'?",
+          "answer": "Stalagmite",
+          "alternates": ["stalagmites"],
+          "explanation": "Grows upward from the floor \u2014 mnemonic: stalag*m*ite has an M for \"mound\" or \"ground\"\nFormed by mineral deposits from water dripping onto the cave floor and accumulating\nGenerally thicker and more rounded at the base than stalactites\nFrom Greek stalagma (\"a drop\"), related to stalassein (\"to drip\")\nThe tallest known stalagmite is in Zhijin Cave, China \u2014 over 70 meters (230 feet)\nWhen stalactites and stalagmites merge, the resulting formation is called a column or pillar",
+          "cardFront": "Rises from floor (has a 'g')",
+          "cardBack": "Stalagmite"
+        },
+        {
+          "id": "affect",
+          "prompt": "Which commonly confused English word is typically a VERB meaning 'to influence or produce a change in'?",
+          "answer": "Affect",
+          "alternates": [],
+          "explanation": "Usually a verb: \"The weather *affected* the turnout\"\nRare noun form exists in psychology: \"flat affect\" (emotional expression), pronounced with stress on the first syllable\nFrom Latin afficere (\"to do something to, to influence\")\nMnemonic: A for Action \u2014 Affect is the Action word (verb)\nThe RAVEN mnemonic: Remember, Affect = Verb, Effect = Noun\nMost common confusion in English alongside its noun counterpart",
+          "cardFront": "Verb: to influence",
+          "cardBack": "Affect"
+        },
+        {
+          "id": "effect",
+          "prompt": "Which commonly confused English word is typically a NOUN meaning 'a result or outcome'?",
+          "answer": "Effect",
+          "alternates": [],
+          "explanation": "Usually a noun: \"The *effect* of the law was immediate\"\nRare verb form means \"to bring about\": \"to *effect* change\" (different from \"to affect change\")\nFrom Latin effectus (\"accomplishment, result\"), from efficere (\"to bring about\")\nMnemonic: E for End result \u2014 Effect is the End result (noun)\nThe RAVEN mnemonic: Remember, Affect = Verb, Effect = Noun\n\"Special effects\" and \"side effects\" are good anchors \u2014 both are nouns",
+          "cardFront": "Noun: a result",
+          "cardBack": "Effect"
+        },
+        {
+          "id": "austria",
+          "prompt": "Which country \u2014 frequently confused in mail delivery with a much larger nation \u2014 is a landlocked Central European state with Vienna as its capital?",
+          "answer": "Austria",
+          "alternates": ["Republic of Austria", "\u00d6sterreich"],
+          "explanation": "Landlocked, ~9 million people, borders Germany, Switzerland, Italy, and five other countries\nFamous for: Mozart, Strauss, the Habsburg Empire, the Vienna Philharmonic, *The Sound of Music*\nOfficial language: German; capital: Vienna (Wien)\nT-shirts reading \"No kangaroos in Austria\" are a popular souvenir playing on the confusion\nSeat of the Habsburg dynasty, which ruled much of Europe for centuries (1282\u20131918)\nHosted the 1955 Austrian State Treaty restoring sovereignty after WWII occupation",
+          "cardFront": "Landlocked, Vienna, Mozart, Central Europe",
+          "cardBack": "Austria"
+        },
+        {
+          "id": "australia",
+          "prompt": "Which country \u2014 frequently confused in mail delivery with a much smaller European nation \u2014 is a continent-sized island nation in the Southern Hemisphere?",
+          "answer": "Australia",
+          "alternates": ["Commonwealth of Australia"],
+          "explanation": "Both a continent and a country \u2014 the only nation that is also a continent\n~26 million people; capital is Canberra (NOT Sydney or Melbourne)\nFamous for: kangaroos, Great Barrier Reef, Sydney Opera House, the Outback\nBritish colony from 1788 (arrived as a penal colony); federated as the Commonwealth of Australia in 1901\nWorld's sixth-largest country by area (~7.7 million km\u00b2) but one of the least densely populated\nHome to many of the world's most dangerous creatures: box jellyfish, inland taipan, funnel-web spider",
+          "cardFront": "Continent, Canberra, kangaroos, Southern Hemisphere",
+          "cardBack": "Australia"
+        },
+        {
+          "id": "celsius-fahrenheit",
+          "prompt": "At what temperature do the Celsius and Fahrenheit scales read exactly the same number?",
+          "answer": "\u221240 degrees",
+          "alternates": ["-40", "minus 40", "negative 40", "-40 degrees"],
+          "explanation": "\u221240\u00b0C = \u221240\u00b0F \u2014 the only point where the two scales intersect\nWater freezes at 0\u00b0C / 32\u00b0F and boils at 100\u00b0C / 212\u00b0F\nFahrenheit: proposed by Daniel Gabriel Fahrenheit in 1724; 0\u00b0F based on the freezing point of a brine solution\nCelsius: proposed by Anders Celsius in 1742; originally had 0 as boiling and 100 as freezing\nThe scale was inverted by Jean-Pierre Christin (1743) and Carl Linnaeus (c. 1744\u20131745)\nConversion: \u00b0F = (\u00b0C \u00d7 9/5) + 32; setting \u00b0F = \u00b0C and solving gives \u221240",
+          "cardFront": "Where Celsius = Fahrenheit",
+          "cardBack": "\u221240\u00b0"
+        },
+        {
+          "id": "alligator",
+          "prompt": "Which large reptile has a wide, U-shaped snout and is found primarily in the southeastern United States and China?",
+          "answer": "Alligator",
+          "alternates": ["alligators"],
+          "explanation": "Wide, U-shaped (rounded) snout; only upper teeth visible when mouth is closed\nTwo living species: American alligator and Chinese alligator (critically endangered)\nPrefer freshwater habitats: swamps, marshes, rivers, lakes\nGenerally less aggressive toward humans than their V-snouted relatives\nAmerican alligators can reach 4\u20135 meters (13\u201316 feet) in length\nName comes from Spanish el lagarto (\"the lizard\"), used by early explorers in Florida",
+          "cardFront": "U-shaped snout, freshwater, USA + China",
+          "cardBack": "Alligator"
+        },
+        {
+          "id": "crocodile",
+          "prompt": "Which large reptile has a narrow, V-shaped snout and has species found across Africa, Asia, the Americas, and Oceania?",
+          "answer": "Crocodile",
+          "alternates": ["crocodiles"],
+          "explanation": "Narrow, V-shaped (pointed) snout; teeth on both upper and lower jaws visible when mouth is closed\nSaltwater crocodile is the largest living reptile \u2014 up to 6+ meters (20+ feet) and over 1,000 kg\nMore aggressive and far more widespread globally than their U-snouted relatives\nHave functional salt glands on the tongue, allowing them to tolerate saltwater environments\nSome species found in brackish and saltwater habitats as well as freshwater\nLargely unchanged for ~95 million years \u2014 often called \"living fossils\"",
+          "cardFront": "V-shaped snout, saltwater tolerant, global range",
+          "cardBack": "Crocodile"
+        },
+        {
+          "id": "porpoise-vs-dolphin",
+          "prompt": "Porpoises and dolphins are often confused. What shape are a porpoise's teeth, compared to a dolphin's conical (pointed) ones?",
+          "answer": "Flat / spade-shaped",
+          "alternates": ["spade-shaped", "flat", "spade shaped", "spatulate", "spade"],
+          "explanation": "Porpoises: flat, spade-shaped teeth; shorter, rounder snout; stockier body\nDolphins: conical (pointed) teeth; longer, beak-like snout; leaner, more streamlined body\nPorpoises are generally smaller (under 2.5 m) and less social than dolphins\nBoth are toothed whales (order Odontoceti) but belong to different families\nPorpoises: family Phocoenidae (6\u20138 species depending on taxonomy); dolphins: family Delphinidae (~37 species)\nThe harbour porpoise is the most common cetacean in Northern European waters",
+          "cardFront": "Porpoise teeth vs dolphin teeth",
+          "cardBack": "Flat / spade-shaped"
+        },
+        {
+          "id": "tortoise-vs-turtle",
+          "prompt": "In biological terms, what is the key habitat difference between a tortoise and other members of the order Testudines?",
+          "answer": "Tortoises live on land",
+          "alternates": ["land", "they live on land", "terrestrial"],
+          "explanation": "Tortoises are exclusively terrestrial; their feet are stumpy and club-like, built for walking on land\nAquatic turtles have webbed feet or flippers adapted for swimming\nAll tortoises are turtles (order Testudines), but not all turtles are tortoises\nTortoises tend to be herbivorous; many aquatic turtles are omnivorous\nTortoises generally live longer \u2014 Gal\u00e1pagos giant tortoises can exceed 175 years\nThe word \"turtle\" usage varies: in American English it covers all Testudines; in British English it usually means aquatic species only",
+          "cardFront": "Tortoise vs turtle habitat",
+          "cardBack": "Tortoises live on land"
+        },
+        {
+          "id": "ceylon",
+          "prompt": "The island nation south of India, famous for tea production, was formerly known by what colonial-era name until 1972?",
+          "answer": "Ceylon",
+          "alternates": ["ceylon"],
+          "explanation": "Sri Lanka changed its name from Ceylon on 22 May 1972 when it adopted a new republican constitution\n\"Ceylon tea\" brand name persists globally; still one of the world's largest tea exporters\nLocated in the Indian Ocean, off the southeastern tip of India\nCapitals: Sri Jayawardenepura Kotte (legislative) and Colombo (commercial)\nThe name \"Ceylon\" derives from Portuguese Ceil\u00e3o, itself from the Pali S\u012bhala (\"land of lions\")\nThe country became the Democratic Socialist Republic of Sri Lanka in 1978 under a further constitutional change",
+          "cardFront": "Sri Lanka's former name",
+          "cardBack": "Ceylon"
+        },
+        {
+          "id": "malagasy-republic",
+          "prompt": "The large island nation off the southeastern coast of Africa was briefly known by what official name between 1958 and 1975?",
+          "answer": "Malagasy Republic",
+          "alternates": ["the Malagasy Republic", "Republic of Malagasy"],
+          "explanation": "Madagascar was the Malagasy Republic from 14 October 1958 to December 1975\nFourth-largest island in the world (~587,000 km\u00b2)\nAbout 90% of its wildlife is found nowhere else on Earth \u2014 lemurs, baobabs, chameleons, fossas\nThe people and language are also called Malagasy\nBecame the Democratic Republic of Madagascar in 1975 under Didier Ratsiraka\nSeparated from the Indian subcontinent ~88 million years ago, allowing unique species to evolve in isolation",
+          "cardFront": "Madagascar's former official name (1958\u20131975)",
+          "cardBack": "Malagasy Republic"
+        },
+        {
+          "id": "envy-vs-jealousy",
+          "prompt": "Which emotion involves wanting what someone ELSE has, as opposed to fearing you'll lose what you already possess?",
+          "answer": "Envy",
+          "alternates": ["envy"],
+          "explanation": "Envy: wanting what someone else has \u2014 a two-person dynamic (you + the person who has the thing)\nJealousy: fearing you'll lose something you already have \u2014 a three-person dynamic (you + what's yours + the threat)\nExample: envious of someone's promotion; jealous of a rival flirting with your partner\nCommon usage blurs the two, but the distinction is real and useful for trivia\nFrom Latin invidia (\"ill will, spite\"), from invidere (\"to look upon with envy\")\nDante placed the envious on the second terrace of Purgatory, their eyes sewn shut with iron wire",
+          "cardFront": "Wanting what others have (not jealousy)",
+          "cardBack": "Envy"
+        },
+        {
+          "id": "farther",
+          "prompt": "Which English word \u2014 often confused with a similar word meaning 'additional' \u2014 refers specifically to greater physical distance?",
+          "answer": "Farther",
+          "alternates": [],
+          "explanation": "\"The store is *farther* down the road\" \u2014 refers to measurable, physical distance\nContains the word \"far\" \u2014 a built-in mnemonic for physical distance\nComparative form of \"far\" when used for literal distance\nSome style guides accept \"further\" for all uses, but \"farther\" for physical distance is never wrong\nThe distinction is primarily observed in American English; British English uses \"further\" for both\nAssociated Press (AP) style enforces the farther/further distinction",
+          "cardFront": "Physical distance",
+          "cardBack": "Farther"
+        },
+        {
+          "id": "further",
+          "prompt": "Which English word \u2014 often confused with a similar word for physical distance \u2014 means 'to a greater degree' or 'additional' in an abstract sense?",
+          "answer": "Further",
+          "alternates": [],
+          "explanation": "\"Let's discuss this *further*\" / \"Further investigation is needed\" \u2014 abstract, non-physical sense\nAlso works as a verb: \"to *further* one's career\" (\"farther\" cannot be used as a verb)\nSome style guides treat \"further\" as acceptable for both physical and abstract distance\nEtymologically, \"farther\" is a Middle English variant of \"further,\" later associated with \"far\" by folk etymology\nThe verb usage (\"to further a cause\") is never interchangeable with \"farther\"\nMnemonic: \"further\" for figurative, \"farther\" for feet (physical distance)",
+          "cardFront": "Greater degree / additional (abstract)",
+          "cardBack": "Further"
+        },
+        {
+          "id": "meteor",
+          "prompt": "A space rock enters Earth's atmosphere and creates a bright streak of light as it burns up. What is it called during this phase \u2014 before it reaches the ground?",
+          "answer": "Meteor",
+          "alternates": ["a meteor"],
+          "explanation": "Meteoroid: a small rocky or metallic body in space (before entering the atmosphere)\nMeteor: the streak of light when a meteoroid burns up in the atmosphere \u2014 a \"shooting star\"\nMeteorite: the fragment that survives atmospheric entry and reaches the ground\nMnemonic: meteor*ite* = it landed on a s*ite*; meteor*oid* = floating in the v*oid* of space\nMost meteors burn up at altitudes of 75\u2013120 km, lasting only seconds\nA meteor shower occurs when Earth passes through debris left by a comet's orbit",
+          "cardFront": "Burning in atmosphere (not meteorite, not meteoroid)",
+          "cardBack": "Meteor"
+        },
+        {
+          "id": "flotsam",
+          "prompt": "In maritime law, which term refers to wreckage found floating after a ship sinks \u2014 goods that were NOT deliberately thrown overboard?",
+          "answer": "Flotsam",
+          "alternates": [],
+          "explanation": "Wreckage that floats after an accidental sinking \u2014 think: flotsam *floats*\nLegally, flotsam belongs to the original owner (or their insurer)\nFrom Anglo-Norman floteson, from Old French floter (\"to float\")\nDistinguished from its partner term, which refers to goods deliberately thrown overboard\nThe pair is often used together as a metaphor for scattered remnants or displaced people\nA third term, \"lagan,\" refers to goods sunk but marked with a buoy for later retrieval",
+          "cardFront": "Floating wreckage (accidental)",
+          "cardBack": "Flotsam"
+        },
+        {
+          "id": "jetsam",
+          "prompt": "In maritime law, which term refers to goods deliberately thrown overboard to lighten a ship in distress?",
+          "answer": "Jetsam",
+          "alternates": [],
+          "explanation": "Goods deliberately jettisoned (thrown overboard) to lighten a ship \u2014 think: jetsam = *jettisoned*\nLegally, jetsam that sinks and is unclaimed may become the property of whoever finds it\nFrom the verb \"to jettison,\" from Old French getaison (\"a throwing\")\nDistinguished from its partner term, which refers to accidental floating wreckage\nThe deliberate act of jettisoning cargo to save a vessel is called \"general average\" in maritime law\nThe phrase combining both terms has been used metaphorically since at least the 19th century",
+          "cardFront": "Deliberately thrown overboard",
+          "cardBack": "Jetsam"
+        },
+        {
+          "id": "venomous",
+          "prompt": "If an organism delivers its toxin by biting or stinging (injection), is the organism described by the word associated with 'injection' or the word associated with 'ingestion'?",
+          "answer": "Venomous",
+          "alternates": ["venomous"],
+          "explanation": "Toxin is injected via bite, sting, or barb \u2014 snakes, spiders, scorpions, bees, jellyfish\nThe other term (poisonous) means the toxin causes harm when ingested, inhaled, or absorbed \u2014 poison dart frogs, certain mushrooms, pufferfish\nMemory aid: \"If it bites you and you die, it's venomous; if you bite it and you die, it's poisonous\"\nSome animals are both: the blue-ringed octopus delivers toxin by bite and its flesh is toxic if eaten\nVenom is produced in specialized glands and delivered through fangs, stingers, or spines\nFrom Latin venenum (\"poison, drug\"), which originally could mean any potion \u2014 harmful or beneficial",
+          "cardFront": "Injected toxin (bite/sting)",
+          "cardBack": "Venomous"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "cross-category/celebrity-names",
+      "parentId": "cross-category",
+      "name": "Celebrity Names",
+      "description": "Stage names and the birth names behind them"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cross-category/celebrity-names/real-names",
+      "nodeId": "cross-category/celebrity-names",
+      "name": "Celebrities' Real Names",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "elton-john",
+          "prompt": "What was the birth name of the British pop-rock pianist behind \"Rocket Man,\" \"Tiny Dancer,\" and \"Crocodile Rock,\" who was knighted in 1998?",
+          "answer": "Reginald Kenneth Dwight",
+          "alternates": ["Reginald Dwight", "Reg Dwight"],
+          "explanation": "Born March 25, 1947, in Pinner, Middlesex, England\nLegally changed his name in 1972 \u2013 took 'Elton' from saxophonist Elton Dean and 'John' from Long John Baldry\nHits include \"Your Song,\" \"Goodbye Yellow Brick Road,\" \"Bennie and the Jets,\" and \"Crocodile Rock\"\nOver 300 million records sold worldwide \u2013 one of the best-selling music artists of all time\nLong-term songwriting partnership with lyricist Bernie Taupin since 1967; Taupin writes the words, he writes the music\nKnighted by Queen Elizabeth II in 1998 for services to music and charitable work, particularly AIDS research\nEGOT winner: Oscar (\"Can You Feel the Love Tonight,\" 1995; \"(I'm Gonna) Love Me Again,\" 2020), Emmy, Grammy, Tony",
+          "cardFront": "Elton John",
+          "cardBack": "Reginald Kenneth Dwight"
+        },
+        {
+          "id": "lady-gaga",
+          "prompt": "What was the birth name of the pop star known for \"Poker Face\" and \"Bad Romance\" who won an Academy Award for the song \"Shallow\" from *A Star Is Born*?",
+          "answer": "Stefani Joanne Angelina Germanotta",
+          "alternates": ["Stefani Germanotta", "Stefani Joanne Germanotta"],
+          "explanation": "Born March 28, 1986, in New York City\nStage name inspired by Queen's 1984 hit \"Radio Ga Ga\"\n\"Poker Face\" (2008) and \"Bad Romance\" (2009) established her as a global pop phenomenon\nWon Academy Award for Best Original Song for \"Shallow\" (2019) from *A Star Is Born*\nAcclaimed actress: *A Star Is Born* (2018), *House of Gucci* (2021), Harley Quinn in *Joker: Folie \u00e0 Deux* (2024)\nDebut album *The Fame* (2008) sold over 15 million copies worldwide\nKnown for outrageous fashion \u2013 the raw meat dress at the 2010 MTV Video Music Awards became iconic",
+          "cardFront": "Lady Gaga",
+          "cardBack": "Stefani Joanne Angelina Germanotta"
+        },
+        {
+          "id": "cary-grant",
+          "prompt": "What was the birth name of the debonair Hollywood leading man of *North by Northwest*, *Charade*, and *The Philadelphia Story* who never won a competitive Oscar?",
+          "answer": "Archibald Alec Leach",
+          "alternates": ["Archibald Leach", "Archie Leach"],
+          "explanation": "Born January 18, 1904, in Horfield, Bristol, England; died November 29, 1986\nChanged name when signed by Paramount \u2013 'Cary' from a character he played on stage, 'Grant' from a studio-provided list\n*North by Northwest* (1959), *Charade* (1963), *An Affair to Remember* (1957), *The Philadelphia Story* (1940)\nNever won a competitive Academy Award despite being one of Hollywood's defining leading men\nBecame a U.S. citizen in 1942; received an Honorary Oscar in 1970\nMarried five times; ran away from home at 14 to join an acrobatic troupe, arriving in New York at 16\nReportedly experimented with LSD therapy in the late 1950s and credited it with personal breakthroughs",
+          "cardFront": "Cary Grant",
+          "cardBack": "Archibald Alec Leach"
+        },
+        {
+          "id": "marilyn-monroe",
+          "prompt": "What was the birth name of the iconic blonde actress of *Some Like It Hot* and *Gentlemen Prefer Blondes* who sang \"Happy Birthday\" to President Kennedy in 1962?",
+          "answer": "Norma Jeane Mortenson",
+          "alternates": ["Norma Jeane Mortenson", "Norma Jean Mortenson", "Norma Jeane Baker", "Norma Jean Baker", "Norma Jeane"],
+          "explanation": "Born June 1, 1926, in Los Angeles; died August 4, 1962, at age 36\nBaptized Norma Jeane Baker (mother's ex-husband's surname); 'Marilyn' from actress Marilyn Miller, 'Monroe' was her mother's maiden name\n*Some Like It Hot* (1959), *Gentlemen Prefer Blondes* (1953), *The Seven Year Itch* (1955)\nMarried baseball legend Joe DiMaggio (1954, lasted nine months) and playwright Arthur Miller (1956\u20131961)\nSang \"Happy Birthday, Mr. President\" to JFK at Madison Square Garden on May 19, 1962\nSpent much of her childhood in foster homes and an orphanage; married for the first time at 16\nDied of acute barbiturate overdose; her death was ruled probable suicide but conspiracy theories persist",
+          "cardFront": "Marilyn Monroe",
+          "cardBack": "Norma Jeane Mortenson"
+        },
+        {
+          "id": "bob-dylan",
+          "prompt": "What was the birth name of the folk-rock singer-songwriter behind \"Blowin' in the Wind\" and \"Like a Rolling Stone\" who won the 2016 Nobel Prize in Literature?",
+          "answer": "Robert Allen Zimmerman",
+          "alternates": ["Robert Zimmerman", "Bob Zimmerman"],
+          "explanation": "Born May 24, 1941, in Duluth, Minnesota; grew up in Hibbing on the Iron Range\nLegally changed name in 1962; widely assumed to be inspired by Welsh poet Dylan Thomas, though he has denied it\n\"Blowin' in the Wind\" (1963), \"The Times They Are a-Changin'\" (1964), \"Like a Rolling Stone\" (1965)\nWon the Nobel Prize in Literature in 2016 \u2013 first songwriter to receive the award; took weeks to acknowledge it\nControversial switch from acoustic folk to electric guitar at the Newport Folk Festival (1965) provoked audience boos\nHas released over 40 studio albums across six decades; inducted into the Rock and Roll Hall of Fame in 1988\nSold his entire songwriting catalog to Universal Music in 2020 for an estimated $300 million",
+          "cardFront": "Bob Dylan",
+          "cardBack": "Robert Allen Zimmerman"
+        },
+        {
+          "id": "freddie-mercury",
+          "prompt": "What was the birth name of the Queen frontman known for \"Bohemian Rhapsody\" and a four-octave vocal range, who was born in Zanzibar and died of AIDS-related illness in 1991?",
+          "answer": "Farrokh Bulsara",
+          "alternates": ["Farrokh Bulsara", "Faroukh Bulsara"],
+          "explanation": "Born September 5, 1946, in Stone Town, Zanzibar (now Tanzania); died November 24, 1991, in London\nParsi family from Gujarat, India; attended boarding school in Panchgani, India, where he first went by 'Freddie'\nAdopted 'Mercury' after the song \"My Fairy King\" from Queen's debut album, which references Mother Mercury\n\"Bohemian Rhapsody\" (1975) \u2013 six-minute operatic rock suite \u2013 is one of the best-selling singles of all time\nKnown for extraordinary vocal range and commanding live performances, especially at Live Aid (July 13, 1985)\nDied of bronchopneumonia complicated by AIDS, one day after publicly confirming his diagnosis\nAsteroid 17473 Freddiemercury was named in his honor in 2016",
+          "cardFront": "Freddie Mercury",
+          "cardBack": "Farrokh Bulsara"
+        },
+        {
+          "id": "woody-allen",
+          "prompt": "What was the birth name of the Brooklyn-born filmmaker who directed *Annie Hall*, *Manhattan*, and *Midnight in Paris* and won four Academy Awards?",
+          "answer": "Allan Stewart Konigsberg",
+          "alternates": ["Allan Konigsberg", "Heywood Allen"],
+          "explanation": "Born December 1, 1935, in the Bronx, New York City; raised in Brooklyn\nChanged name at age 17 to Heywood Allen, later shortened to Woody Allen; began selling jokes to newspapers as a teenager\n*Annie Hall* (1977) won Best Picture, Director, Screenplay, and Actress \u2013 he famously skipped the ceremony\n*Manhattan* (1979), *Hannah and Her Sisters* (1986), *Midnight in Paris* (2011) \u2013 over 50 films directed\nFour Academy Awards total: three for screenwriting, one for directing (*Annie Hall*)\nAlso a jazz clarinetist who performed weekly at Manhattan's Carlyle Hotel for decades\nOne of the most prolific filmmakers in history \u2013 averaged roughly one film per year from 1969 onward",
+          "cardFront": "Woody Allen",
+          "cardBack": "Allan Stewart Konigsberg"
+        },
+        {
+          "id": "audrey-hepburn",
+          "prompt": "What was the birth name of the Belgian-born actress of *Breakfast at Tiffany's* and *Roman Holiday* who became a UNICEF Goodwill Ambassador and is one of few EGOT winners?",
+          "answer": "Audrey Kathleen Ruston",
+          "alternates": ["Audrey Kathleen Ruston", "Audrey Ruston"],
+          "explanation": "Born May 4, 1929, in Ixelles, Brussels, Belgium; died January 20, 1993\nMother was Dutch Baroness Ella van Heemstra; father was British \u2013 surname later changed to van Heemstra Ruston\n*Roman Holiday* (1953, Best Actress Oscar), *Breakfast at Tiffany's* (1961), *My Fair Lady* (1964)\nEGOT winner \u2013 one of the few people to win an Emmy, Grammy, Oscar, and Tony\nSurvived Nazi-occupied Netherlands during WWII as a child; suffered malnutrition and witnessed family members' arrests\nServed as UNICEF Goodwill Ambassador from 1988 until her death, visiting famine and conflict zones\nTrained as a ballet dancer before turning to acting; her Holly Golightly look in *Breakfast at Tiffany's* defined 1960s style",
+          "cardFront": "Audrey Hepburn",
+          "cardBack": "Audrey Kathleen Ruston"
+        },
+        {
+          "id": "vin-diesel",
+          "prompt": "What was the birth name of the action star who plays Dominic Toretto in the *Fast & Furious* franchise and voices Groot in the Marvel Cinematic Universe?",
+          "answer": "Mark Sinclair",
+          "alternates": ["Mark Sinclair", "Mark Sinclair Vincent"],
+          "explanation": "Born July 18, 1967, in Alameda County, California\nNever knew his biological father; stepfather Irving Vincent was a theater manager and acting instructor\nAdopted 'Vin' as a nickname and 'Diesel' from friends who joked he ran on diesel fuel\n*Fast & Furious* franchise (2001\u2013present) has grossed over $7 billion worldwide\nVoiced Groot in Marvel's *Guardians of the Galaxy* films and *Avengers* crossovers using only the phrase 'I am Groot'\nDirected the short film *Multi-Facial* (1995), which caught Steven Spielberg's attention and led to a role in *Saving Private Ryan*\nAlso a producer, screenwriter, and avid Dungeons & Dragons player",
+          "cardFront": "Vin Diesel",
+          "cardBack": "Mark Sinclair"
+        },
+        {
+          "id": "michael-caine",
+          "prompt": "What was the birth name of the London-born actor who won two Best Supporting Actor Oscars for *Hannah and Her Sisters* and *The Cider House Rules* and appeared in *The Dark Knight* trilogy?",
+          "answer": "Maurice Joseph Micklewhite",
+          "alternates": ["Maurice Micklewhite", "Maurice Joseph Micklewhite"],
+          "explanation": "Born March 14, 1933, in Rotherhithe, London, England\nTook 'Caine' from a marquee poster for *The Caine Mutiny* (1954) while searching for a stage name in a phone booth\n*The Italian Job* (1969), *Alfie* (1966), *The Dark Knight* trilogy (2005\u20132012), *Hannah and Her Sisters* (1986)\nTwo Academy Awards for Best Supporting Actor: *Hannah and Her Sisters* (1986) and *The Cider House Rules* (1999)\nLegally changed his name to Michael Caine in 2016 \u2013 reportedly because airport passport e-gates couldn't handle his birth name\nAppeared in over 160 films across seven decades; one of only a few actors nominated for an Oscar in every decade from the 1960s to the 2000s\nKnighted in 2000 for contributions to cinema",
+          "cardFront": "Michael Caine",
+          "cardBack": "Maurice Joseph Micklewhite"
+        },
+        {
+          "id": "whoopi-goldberg",
+          "prompt": "What was the birth name of the comedian and actress who won an Oscar for *Ghost*, is an EGOT winner, and has co-hosted *The View* since 2007?",
+          "answer": "Caryn Elaine Johnson",
+          "alternates": ["Caryn Johnson", "Caryn Elaine Johnson"],
+          "explanation": "Born November 13, 1955, in New York City\n'Whoopi' reportedly from whoopee cushion; 'Goldberg' chosen because her mother said the family had Jewish ancestry\nEGOT winner: Oscar (*Ghost*, 1991), Grammy, Emmy (multiple for *The View*), Tony (as a producer)\nHosted the Academy Awards four times (1994, 1996, 1999, 2002) \u2013 only woman to host solo until 2022\n*Sister Act* (1992), *The Color Purple* (1985), voice of Shenzi in *The Lion King* (1994)\nCo-host of ABC's *The View* since 2007; the show's moderator for most of her tenure\nOne of only 19 people ever to achieve EGOT status at the time of her completion",
+          "cardFront": "Whoopi Goldberg",
+          "cardBack": "Caryn Elaine Johnson"
+        },
+        {
+          "id": "bruno-mars",
+          "prompt": "What was the birth name of the Hawaiian-born pop singer behind \"Uptown Funk,\" \"24K Magic,\" and \"Just the Way You Are\" who has won 15 Grammy Awards?",
+          "answer": "Peter Gene Hernandez",
+          "alternates": ["Peter Hernandez", "Peter Gene Hernandez"],
+          "explanation": "Born October 8, 1985, in Honolulu, Hawaii\nNicknamed 'Bruno' as a baby after wrestler Bruno Sammartino because he was chubby; added 'Mars' because girls said he was 'out of this world'\n\"Just the Way You Are\" (2010), \"Grenade\" (2010), \"Uptown Funk\" (2014), \"24K Magic\" (2016)\n15 Grammy Awards; performed at two Super Bowl halftime shows (2014, 2016)\nFilipino and Puerto Rican heritage; grew up in a family of musicians performing in a Waikiki revue show\nAlso a prolific songwriter and producer for other artists \u2013 co-wrote \"Right Round\" for Flo Rida and \"F**k You\" for CeeLo Green\nFormed the duo Silk Sonic with Anderson .Paak in 2021; their album *An Evening with Silk Sonic* won four Grammys",
+          "cardFront": "Bruno Mars",
+          "cardBack": "Peter Gene Hernandez"
+        },
+        {
+          "id": "mel-brooks",
+          "prompt": "What was the birth name of the Brooklyn-born comedian who directed *Blazing Saddles*, *Young Frankenstein*, and *The Producers* and is one of few EGOT winners?",
+          "answer": "Melvin James Kaminsky",
+          "alternates": ["Melvin Kaminsky", "Melvin James Kaminsky", "Mel Kaminsky"],
+          "explanation": "Born June 28, 1926, in Brooklyn, New York\nShortened 'Kaminsky' to 'Brooks' (from his mother's maiden name Brookman) to avoid confusion with trumpeter Max Kaminsky\n*The Producers* (1967), *Blazing Saddles* (1974), *Young Frankenstein* (1974), *Spaceballs* (1987)\nEGOT winner \u2013 one of the rare entertainers to win Emmy, Grammy, Oscar, and Tony\nWon Academy Award for Best Original Screenplay for *The Producers* (1967)\nMarried to actress Anne Bancroft from 1964 until her death in 2005 \u2013 41 years\nCo-created the TV spy spoof *Get Smart* (1965\u20131970) with Buck Henry",
+          "cardFront": "Mel Brooks",
+          "cardBack": "Melvin James Kaminsky"
+        },
+        {
+          "id": "tina-turner",
+          "prompt": "What was the birth name of the \"Queen of Rock 'n' Roll\" who staged a legendary comeback with \"What's Love Got to Do with It\" and was inducted into the Rock and Roll Hall of Fame twice?",
+          "answer": "Anna Mae Bullock",
+          "alternates": ["Anna Mae Bullock", "Anna Bullock"],
+          "explanation": "Born November 26, 1939, in Brownsville, Tennessee; died May 24, 2023, in K\u00fcsnacht, Switzerland\nIke Turner gave her the stage name 'Tina' inspired by the TV character Sheena, Queen of the Jungle\n\"What's Love Got to Do with It\" (1984), \"Proud Mary,\" \"Private Dancer,\" \"Simply the Best\"\nComeback after abusive marriage to Ike Turner is one of rock music's greatest redemption stories\n12 Grammy Awards; inducted into Rock and Roll Hall of Fame twice \u2013 with Ike (1991) and as a solo artist (2021)\nBecame a Swiss citizen in 2013 and renounced her U.S. citizenship\nHer 1993 biopic *What's Love Got to Do with It* starred Angela Bassett and Laurence Fishburne",
+          "cardFront": "Tina Turner",
+          "cardBack": "Anna Mae Bullock"
+        },
+        {
+          "id": "ringo-starr",
+          "prompt": "What was the birth name of the Beatles drummer who sang lead on \"Yellow Submarine\" and \"Octopus's Garden\" and was knighted in 2018?",
+          "answer": "Richard Starkey",
+          "alternates": ["Richard Starkey", "Richard Starkey Jr"],
+          "explanation": "Born July 7, 1940, in Dingle, Liverpool, England\n'Ringo' from his habit of wearing multiple rings; 'Starr' adapted from his surname Starkey\nJoined the Beatles in August 1962, replacing Pete Best; played on every album from *Please Please Me* through *Let It Be*\nSang lead on \"Yellow Submarine\" (1966), \"Octopus's Garden\" (1969), and \"With a Little Help from My Friends\" (1967)\nSolo career highlight: \"Photograph\" (1973, co-written with George Harrison) reached #1 in the US\nKnighted in 2018 for services to music \u2013 the second Beatle knighted after Paul McCartney (1997)\nSurvived serious childhood illnesses including peritonitis and tuberculosis, missing years of school",
+          "cardFront": "Ringo Starr",
+          "cardBack": "Richard Starkey"
+        }
+      ]
+    }
+  ]
+}

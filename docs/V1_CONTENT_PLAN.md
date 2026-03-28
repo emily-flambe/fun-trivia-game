@@ -353,9 +353,9 @@ Inspired by TrivialStudies' unique study tools:
 
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
-| 1 | Common Trivia Pavlovs | 25 | ❌ | TS special section. "Knee-jerk" wrong answers — the thing everyone says that's actually wrong. E.g., "Who invented the lightbulb?"→not simply Edison. |
-| 2 | Often Confused Pairs | 25 | ❌ | TS special section. Monet/Manet, Austria/Australia, stalactite/stalagmite, etc. |
-| 3 | Celebrities' Real Names | 15 | ❌ | TS has this across Movies/Music/TV. Stage name→birth name. |
+| 1 | Common Trivia Pavlovs | 25 | ✅ | TS special section. "Knee-jerk" wrong answers — the thing everyone says that's actually wrong. E.g., "Who invented the lightbulb?"→not simply Edison. |
+| 2 | Often Confused Pairs | 22 | ✅ | TS special section. Monet/Manet, Austria/Australia, stalactite/stalagmite, etc. |
+| 3 | Celebrities' Real Names | 15 | ✅ | TS has this across Movies/Music/TV. Stage name→birth name. |
 
 ---
 
@@ -381,8 +381,8 @@ Inspired by TrivialStudies' unique study tools:
 | Television | 1 | 10 | 10% |
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
-| **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **Cross-Category** | 3 | 3 | 100% |
+| **TOTAL** | **84** | **177** | **47%** |
 
 ### Priority Order (by gap size × LL frequency)
 

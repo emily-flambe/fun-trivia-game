@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    { "id": "cross-category/trivia-pavlovs", "parentId": "cross-category", "name": "Trivia Pavlovs", "description": "Common misconceptions and knee-jerk wrong answers \u2014 learn to second-guess your first instinct" }
+  ],
+  "exercises": [
+    {
+      "id": "cross-category/trivia-pavlovs/common-pavlovs",
+      "nodeId": "cross-category/trivia-pavlovs",
+      "name": "Common Trivia Pavlovs",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "largest-desert",
+          "prompt": "The Sahara is the largest hot desert, but which landmass is the largest desert on Earth by total area?",
+          "answer": "Antarctica",
+          "alternates": ["the Antarctic", "Antarctic"],
+          "explanation": "~14.2 million km\u00b2 \u2014 nearly twice the Sahara's ~9.4 million km\u00b2\nA desert is defined by precipitation (<250 mm/year), not temperature\nThe Arctic is the second-largest desert overall (~13.9 million km\u00b2)\nAntarctica's coast receives only ~166 mm of precipitation per year; the interior gets far less\nContains ~70% of Earth's fresh water, locked in its ice sheet\nThe Sahara is third-largest overall, though first among hot deserts",
+          "cardFront": "Largest desert on Earth by area?",
+          "cardBack": "Antarctica"
+        },
+        {
+          "id": "capital-of-australia",
+          "prompt": "Sydney is the largest city in Australia, but what is the actual national capital?",
+          "answer": "Canberra",
+          "alternates": [],
+          "explanation": "Purpose-built as a compromise between rival cities Sydney and Melbourne\nConstitution required the capital to be in New South Wales but at least 100 miles from Sydney\nSelected in 1908, formally founded 1913; Parliament moved from Melbourne in 1927\nPopulation ~450,000 \u2014 much smaller than Sydney (~5.3 million) or Melbourne (~5 million)\nDesigned by American architects Walter Burley Griffin and Marion Mahony Griffin, who won an international competition\nName likely derived from a local Ngunnawal word meaning 'meeting place'",
+          "cardFront": "Capital of Australia?",
+          "cardBack": "Canberra"
+        },
+        {
+          "id": "telephone-inventor",
+          "prompt": "Alexander Graham Bell patented the telephone, but which Italian-American inventor demonstrated a voice-communication device years earlier and was later recognized by the U.S. House of Representatives?",
+          "answer": "Antonio Meucci",
+          "alternates": ["Meucci"],
+          "explanation": "Demonstrated a voice-communication device ('telettrofono') as early as 1860\nFiled a patent caveat in 1871 but couldn't afford the $10 renewal fee after 1874\nU.S. House passed H.Res.269 on June 11, 2002, acknowledging his work in the invention of the telephone\nElisha Gray also filed a caveat the same day as Bell's patent (February 14, 1876)\nMeucci was a Florentine immigrant who lived on Staten Island; he was impoverished for most of his American life\nBell's patent (No. 174,465) is sometimes called the most valuable patent ever issued",
+          "cardFront": "Who demonstrated a telephone before Bell?",
+          "cardBack": "Antonio Meucci"
+        },
+        {
+          "id": "lightbulb-inventor",
+          "prompt": "Thomas Edison patented the commercially practical incandescent bulb, but which English inventor demonstrated a working incandescent lamp before him?",
+          "answer": "Joseph Swan",
+          "alternates": ["Swan", "Sir Joseph Swan"],
+          "explanation": "Demonstrated a working incandescent bulb in late 1878, before Edison's 1879 patent\nHumphry Davy demonstrated an incandescent light using a platinum strip in 1802, decades earlier than either\nEdison's key contribution was making the bulb commercially viable (better vacuum pump, longer-lasting carbonized filament)\nSwan sued Edison in the UK for patent infringement and won; they merged their companies into 'Ediswan'\nSwan's house in Gateshead was the first in the world lit by incandescent light (1880)\nSwan also invented the dry photographic plate and an early synthetic fiber",
+          "cardFront": "Who demonstrated an incandescent bulb before Edison?",
+          "cardBack": "Joseph Swan"
+        },
+        {
+          "id": "columbus-discovery",
+          "prompt": "Christopher Columbus reached the Caribbean in 1492, but which Norse explorer reached North America roughly 500 years earlier?",
+          "answer": "Leif Erikson",
+          "alternates": ["Leif Eriksson", "Leif Ericson", "Erikson", "Leif Ericsson"],
+          "explanation": "Norse explorer who reached North America around 1000 CE\nArchaeological site at L'Anse aux Meadows in Newfoundland confirms Norse presence (tree-ring dating to 1021 CE)\nCalled the land 'Vinland' \u2014 likely Newfoundland or the Gulf of St. Lawrence region\nColumbus reached Central America (Honduras, 1502) but never reached what is now the United States or Canada\nIndigenous peoples had lived in the Americas for at least 15,000 years before either European arrival\nLeif Erikson Day is observed in the U.S. on October 9",
+          "cardFront": "Who reached North America ~500 years before Columbus?",
+          "cardBack": "Leif Erikson"
+        },
+        {
+          "id": "closest-planet",
+          "prompt": "Venus has the closest minimum approach to Earth, but which planet is closest to Earth on average over time?",
+          "answer": "Mercury",
+          "alternates": [],
+          "explanation": "Mercury's tight orbit around the Sun means it is never very far from any planet\nVenus has the closest minimum approach to Earth (~38 million km) but spends much of its orbit on the far side of the Sun\nMercury is the closest planet on average to every other planet in the solar system\nDemonstrated in a 2019 Physics Today article using point-circle method calculations\nAverage Earth\u2013Mercury distance: ~1.04 AU; average Earth\u2013Venus distance: ~1.14 AU\nCounterintuitive because 'closest orbit' and 'closest on average' are different questions",
+          "cardFront": "Which planet is closest to Earth on average?",
+          "cardBack": "Mercury"
+        },
+        {
+          "id": "seasons-cause",
+          "prompt": "Many people believe Earth's distance from the Sun causes the seasons. What is the actual primary cause?",
+          "answer": "Axial tilt",
+          "alternates": ["tilt", "Earth's axial tilt", "tilt of Earth's axis", "obliquity"],
+          "explanation": "Earth's 23.5-degree axial tilt causes seasons, not distance from the Sun\nEarth is actually closest to the Sun (perihelion) in January, during Northern Hemisphere winter\nTilt affects both hours of sunlight per day and the angle at which sunlight strikes the surface\nDistance from the Sun varies only ~3.4% between perihelion and aphelion \u2014 negligible effect\nA planet with zero tilt (like Mercury) would have no seasons regardless of orbit shape\nUranus, with ~98\u00b0 tilt, has the most extreme seasons in the solar system",
+          "cardFront": "What actually causes Earth's seasons?",
+          "cardBack": "Axial tilt"
+        },
+        {
+          "id": "human-senses",
+          "prompt": "Aristotle listed five senses, but modern neurologists recognize many more. How many distinct senses do researchers routinely identify beyond the traditional five?",
+          "answer": "At least nine",
+          "alternates": ["nine", "9", "at least 9", "more than five"],
+          "explanation": "Beyond sight, hearing, touch, taste, and smell: proprioception (body position), vestibular sense (balance), thermoception (temperature), nociception (pain)\nSome researchers count 21\u201333 depending on classification criteria\nThe 'five senses' model comes from Aristotle's De Anima (~350 BCE)\nProprioception is sometimes called the 'sixth sense' \u2014 it lets you touch your nose with eyes closed\nThe brain consumes ~20% of the body's energy processing all sensory inputs\nInteroception (awareness of internal states like hunger, thirst, heartbeat) is increasingly recognized as distinct",
+          "cardFront": "How many senses do humans actually have?",
+          "cardBack": "At least nine"
+        },
+        {
+          "id": "marie-antoinette-cake",
+          "prompt": "The phrase 'Let them eat cake' is attributed to Marie Antoinette, but which philosopher actually wrote it decades before she arrived in France?",
+          "answer": "Jean-Jacques Rousseau",
+          "alternates": ["Rousseau"],
+          "explanation": "Wrote 'Qu'ils mangent de la brioche' in his Confessions (Book 6, written c. 1765\u20131767) about 'a great princess'\nMarie Antoinette was only about 10 years old at the time and had never been to France\n'Brioche' is enriched bread, not cake \u2014 the English translation itself is misleading\nThe quote was first attributed to Marie Antoinette more than 50 years after the Revolution\nHistorian Antonia Fraser traces similar stories back to Maria Theresa, wife of Louis XIV\nRousseau's Confessions were published posthumously in 1782; the princess was never identified",
+          "cardFront": "Who actually wrote 'Let them eat cake'?",
+          "cardBack": "Jean-Jacques Rousseau"
+        },
+        {
+          "id": "black-box-color",
+          "prompt": "Flight data recorders are universally called 'black boxes.' What color are they actually painted?",
+          "answer": "Orange",
+          "alternates": ["fluorescent orange", "bright orange", "international orange"],
+          "explanation": "Painted bright fluorescent orange (officially 'international orange') for visibility in wreckage\nThe name 'black box' likely originated from WWII-era RAF terminology for opaque electronic devices\nSome theories trace the name to early fire-blackened prototypes after crash testing\nModern units contain both a flight data recorder and a cockpit voice recorder\nDesigned to withstand 3,400 g of impact force, 1,100\u00b0C for 60 minutes, and deep ocean pressure\nEquipped with an underwater locator beacon ('pinger') that transmits for at least 30 days",
+          "cardFront": "What color are aircraft 'black boxes'?",
+          "cardBack": "Orange"
+        },
+        {
+          "id": "einstein-math",
+          "prompt": "A popular myth claims Einstein failed math. What was his actual performance in math as a student?",
+          "answer": "Top of his class",
+          "alternates": ["top of class", "excellent", "he excelled"],
+          "explanation": "Einstein excelled at math \u2014 consistently top of his class in math and physics throughout primary school\nMastered differential and integral calculus before age 15\nHe failed the ETH Zurich entrance exam overall at age 16, but scored highest in math and physics; he failed only non-scientific subjects\nHe was two years younger than typical applicants for that exam\nThe myth may stem from confusion between grading systems: in Switzerland 6 is the best grade, but in Germany 1 is the best and 6 is the worst\nLater collaborated with mathematician Marcel Grossmann on the tensor calculus underlying general relativity",
+          "cardFront": "Did Einstein fail math?",
+          "cardBack": "Top of his class"
+        },
+        {
+          "id": "chameleon-color",
+          "prompt": "Chameleons are famous for changing color, but their primary reason is not camouflage. What is the main reason they change color?",
+          "answer": "Communication",
+          "alternates": ["social signaling", "signaling", "social communication"],
+          "explanation": "Primary reasons: dominance displays, mating signals, aggression, and thermoregulation\nMales achieving brighter coloration are more likely to win territorial contests without physical fighting\nAs ectotherms, they darken to absorb heat and lighten to cool down\nColor change uses tunable nanocrystal lattices in iridophore cells, not pigment redistribution\nCamouflage is a secondary benefit, not the primary driver of color change\nA 2015 Nature Communications paper revealed the nanocrystal mechanism, overturning the pigment theory",
+          "cardFront": "Why do chameleons actually change color?",
+          "cardBack": "Communication"
+        },
+        {
+          "id": "glass-flow",
+          "prompt": "Medieval cathedral windows are often thicker at the bottom. What manufacturing technique actually caused this uneven thickness?",
+          "answer": "Crown glass process",
+          "alternates": ["crown glass", "crown glass manufacturing", "the crown glass method"],
+          "explanation": "Glass is an amorphous solid, not a supercooled liquid \u2014 it does not flow at room temperature\nAt room temperature, glass would take ~10\u00b3\u00b2 years to flow a measurable amount\nIn the crown glass method, molten glass was blown into a bubble, then spun into a flat disc\nPanes cut from the disc were naturally thicker near the edges and thinner toward the center\nGlaziers typically installed the heavier edge at the bottom for stability\nThe 'glass is a liquid' myth persists in many textbooks despite being thoroughly debunked",
+          "cardFront": "Why are medieval windows thicker at the bottom?",
+          "cardBack": "Crown glass process"
+        },
+        {
+          "id": "bulls-and-red",
+          "prompt": "Bulls charge at a matador's cape, but they cannot actually see the color red. What are they reacting to instead?",
+          "answer": "The movement",
+          "alternates": ["movement", "motion", "the motion", "the cape's movement"],
+          "explanation": "Bulls are dichromats \u2014 they see blues and yellows but cannot perceive red\nMythBusters tested: stationary flags of any color got weak reactions; waving flags triggered charges regardless of color\nThe muleta (cape) is red to mask bloodstains for the audience's benefit, not to provoke the bull\nBulls are also agitated by the overall stressful situation (crowds, noise, picadors wounding them)\nThe smaller red muleta is used only in the final third of the fight; earlier passes use a larger magenta-and-yellow capote\nCalves raised in complete isolation still charge at moving objects, confirming the instinct is motion-based",
+          "cardFront": "What makes bulls charge at the cape?",
+          "cardBack": "The movement"
+        },
+        {
+          "id": "viking-helmets",
+          "prompt": "The only complete Viking-era helmet ever found is the Gjermundbu helmet from 10th-century Norway. What does it look like?",
+          "answer": "Plain iron cap",
+          "alternates": ["iron cap", "rounded iron cap", "no horns", "plain helmet"],
+          "explanation": "The Gjermundbu helmet is a rounded iron cap with a spectacle-shaped eye and nose guard \u2014 no horns\nThe famous Viks\u00f8 horned helmets are from the Nordic Bronze Age (~900 BCE), over 1,000 years before the Vikings\nThe horned-helmet myth was popularized by 19th-century Romantic artists and Wagner's Ring Cycle opera costumes (1876)\nHorns would have been impractical in combat \u2014 they catch on shields, branches, and ship rigging\nNorse sagas never describe horned helmets; they mention plain metal or leather headgear\nThe image became cemented by Swedish artist August Malmstr\u00f6m's illustrations for Frithiof's Saga in the 1880s",
+          "cardFront": "What did Viking helmets actually look like?",
+          "cardBack": "Plain iron cap"
+        },
+        {
+          "id": "ten-percent-brain",
+          "prompt": "A common myth says humans use only 10% of their brain. What percentage do brain imaging studies show is actually active?",
+          "answer": "100%",
+          "alternates": ["all of it", "virtually all", "100 percent", "one hundred percent"],
+          "explanation": "Brain imaging (fMRI, PET) shows all regions are active to some degree, even during sleep\nThe brain consumes ~20% of the body's energy despite being only ~2% of body mass\nDamage to almost any brain area causes measurable deficits \u2014 no region is expendable\nThe myth may trace to William James's 1907 statement about untapped human 'potential' (not anatomy)\nPopularized by films like Lucy (2014) and Limitless (2011), which treat it as scientific fact\nNeurologist Barry Gordon called the myth 'so wrong it is almost laughable'",
+          "cardFront": "What percentage of the brain do we use?",
+          "cardBack": "100%"
+        },
+        {
+          "id": "goldfish-memory",
+          "prompt": "Goldfish are said to have a 3-second memory. Research shows they can actually retain learned behaviors for how long?",
+          "answer": "Months",
+          "alternates": ["several months", "five months", "at least five months"],
+          "explanation": "Research dating to the 1960s shows goldfish can remember things for at least five months\nThey can learn to associate specific times of day with feeding and anticipate it\nThey can be trained to push colored paddles for food and retain that skill weeks later\nA 15-year-old Australian student's 2008 science project replicated the result and made international news\nGoldfish can also navigate mazes and recognize their owners\nThe 3-second myth has no known scientific origin and may come from a 1990s advertising campaign",
+          "cardFront": "How long is a goldfish's memory?",
+          "cardBack": "Months"
+        },
+        {
+          "id": "salem-burning",
+          "prompt": "During the 1692 Salem witch trials, how were the convicted 'witches' actually executed?",
+          "answer": "Hanging",
+          "alternates": ["hanged", "by hanging", "they were hanged"],
+          "explanation": "19 people were hanged (14 women, 5 men) between June and September 1692\nGiles Corey was pressed to death with heavy stones for refusing to enter a plea \u2014 the only such death in Massachusetts history\nAt least five more accused died in jail while awaiting trial\nEnglish common law only permitted burning for high treason or heresy, not witchcraft\nThe confusion comes from Continental European witch trials, where burning at the stake was common\nGovernor William Phips dissolved the special court in October 1692 after his own wife was accused",
+          "cardFront": "How were Salem 'witches' executed?",
+          "cardBack": "Hanging"
+        },
+        {
+          "id": "sugar-hyperactivity",
+          "prompt": "Parents often blame sugar for making children hyperactive. What have controlled scientific studies consistently found?",
+          "answer": "No causal link",
+          "alternates": ["no link", "no connection", "no effect", "none"],
+          "explanation": "Multiple double-blind studies and a major 1995 JAMA meta-analysis found no causal connection between sugar and hyperactivity\nThe NIH stated as early as 1982 that no connection had been scientifically proven\nParents who believe their child consumed sugar rate the child as more hyperactive regardless \u2014 textbook expectation bias\nThe myth traces to allergist Benjamin Feingold's 1973 AMA conference presentation about food additives (not sugar) and behavior\nThe context where sugar is consumed (parties, holidays, excitement) explains the perceived effect\nSugar does cause a brief blood glucose spike, but this does not translate to behavioral changes in controlled settings",
+          "cardFront": "Does sugar cause hyperactivity in children?",
+          "cardBack": "No causal link"
+        },
+        {
+          "id": "napoleon-height",
+          "prompt": "Napoleon is famously described as very short. What was his actual height in modern measurements?",
+          "answer": "About 5'7\"",
+          "alternates": ["5'7\"", "5 foot 7", "170 cm", "five seven", "about 5'7\"", "average height", "5'7"],
+          "explanation": "~170 cm (5'7\") \u2014 average or slightly above average for a Frenchman of his era (average ~5'5\")\nHis French measurement of '5 pieds 2 pouces' was misread using English inches instead of French pouces\nFrench pouces were longer than English inches (2.7 cm vs. 2.54 cm), inflating the conversion error\nBritish propaganda cartoonist James Gillray deliberately depicted him as tiny starting in 1803\nHis nickname 'le petit caporal' was a term of affection, not a comment on his height\nHis tall Imperial Guard (minimum height ~5'10\") may have made him appear shorter by comparison",
+          "cardFront": "How tall was Napoleon actually?",
+          "cardBack": "About 5'7\" (170 cm)"
+        },
+        {
+          "id": "elementary-watson",
+          "prompt": "Sherlock Holmes is famous for saying 'Elementary, my dear Watson.' In which Arthur Conan Doyle story does he actually say this exact phrase?",
+          "answer": "None",
+          "alternates": ["none of them", "it doesn't appear", "he never says it", "no story"],
+          "explanation": "The exact phrase never appears in any of the 60 Sherlock Holmes stories by Conan Doyle\nHolmes says 'Elementary' and 'my dear Watson' separately at various points but never combined\nThe combined quote first appeared in P.G. Wodehouse's Psmith, Journalist (1915)\nCemented in popular culture by the Basil Rathbone/Nigel Bruce film series (1939\u20131946)\nSimilar misquotes: 'Play it again, Sam' (never said in Casablanca), 'Beam me up, Scotty' (never said in Star Trek)\nThe closest Doyle gets is in 'The Crooked Man' (1893): Watson says 'Excellent!' and Holmes replies 'Elementary'",
+          "cardFront": "In which story does Holmes say this exact phrase?",
+          "cardBack": "None"
+        },
+        {
+          "id": "sistine-chapel-position",
+          "prompt": "Michelangelo spent four years painting the Sistine Chapel ceiling. In what position did he actually work?",
+          "answer": "Standing upright",
+          "alternates": ["standing", "he stood", "standing up", "upright"],
+          "explanation": "Stood on specially designed scaffolding, craning his neck upward with arms raised overhead\nDrew a self-portrait sketch showing himself painting in this standing position with a humorous poem about the pain\nScaffolding projected from brackets set high in the wall, about 20 meters above the floor\nThe 'lying on his back' myth was popularized by the 1965 film The Agony and the Ecstasy starring Charlton Heston\nMichelangelo suffered severe back and neck pain and chronic eye strain from paint dripping into his eyes\nThe project took 1508\u20131512; he painted ~465 m\u00b2 of ceiling, mostly without assistants for the figures",
+          "cardFront": "How did Michelangelo paint the Sistine ceiling?",
+          "cardBack": "Standing upright"
+        },
+        {
+          "id": "auld-lang-syne",
+          "prompt": "Robert Burns is credited with writing 'Auld Lang Syne,' but what did he actually do with the song?",
+          "answer": "Collected and adapted it",
+          "alternates": ["collected it", "adapted it", "transcribed it", "collected and adapted"],
+          "explanation": "Burns sent the lyrics to Mrs. Frances Dunlop in a 1788 letter, describing them as transcribed 'from an old man's singing'\nSir Robert Ayton published 'Old Long Syne' in 1711; Allan Ramsay published a version in 1720\nBurns likely wrote at least two verses himself but adapted the rest from folk tradition\nThe melody commonly used today comes from a tune in William Shield's 1782 opera Rosina\nBurns's version was published posthumously in 1796 in James Johnson's Scots Musical Museum\nThe song became a New Year's Eve tradition largely through Guy Lombardo's annual broadcasts starting in 1929",
+          "cardFront": "What did Burns actually do with 'Auld Lang Syne'?",
+          "cardBack": "Collected and adapted it"
+        },
+        {
+          "id": "penicillin-developers",
+          "prompt": "Alexander Fleming discovered penicillin mould in 1928, but which two scientists developed it into a usable medicine?",
+          "answer": "Howard Florey and Ernst Chain",
+          "alternates": ["Florey and Chain", "Ernst Chain and Howard Florey", "Chain and Florey"],
+          "explanation": "Fleming lacked the chemistry expertise and resources to turn mould observation into a drug\nFlorey and Chain at Oxford developed methods for cultivating, extracting, purifying, and mass-producing penicillin starting in 1939\nAll three shared the 1945 Nobel Prize in Physiology or Medicine\nFleming himself described his sole-credit fame as the 'Fleming Myth'\nU.S. pharmaceutical companies (Pfizer, Merck, Squibb) scaled production for WWII using deep-tank fermentation\nFirst clinical use was on Albert Alexander in 1941; he initially improved but died when the supply ran out",
+          "cardFront": "Who turned penicillin into a usable drug?",
+          "cardBack": "Howard Florey and Ernst Chain"
+        },
+        {
+          "id": "great-wall-space",
+          "prompt": "A common claim says the Great Wall of China is visible from space. China's first astronaut Yang Liwei looked for it in 2003. What did he report?",
+          "answer": "He could not see it",
+          "alternates": ["not visible", "he couldn't see it", "no", "invisible", "cannot be seen"],
+          "explanation": "Yang Liwei confirmed in 2003 he could not see the Great Wall from orbit\nThe wall is long (~21,000 km including branches) but only ~10 meters wide, with low contrast against surrounding terrain\nOther man-made structures (highways, airports, cities at night) are far more visible from orbit\nThe myth dates to at least a 1932 Ripley's Believe It or Not cartoon\nOne ambiguous photo was taken from the ISS by astronaut Leroy Chiao in 2004, but even he was not sure what he saw\nNASA has stated the wall is generally not visible to the unaided eye from low Earth orbit",
+          "cardFront": "Can you see the Great Wall from space?",
+          "cardBack": "He could not see it"
+        }
+      ]
+    }
+  ]
+}
