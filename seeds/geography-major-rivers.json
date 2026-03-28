@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "geography/major-rivers", "parentId": "geography", "name": "Major Rivers", "description": "The world's most important rivers and their key facts" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/major-rivers/world-rivers",
+      "nodeId": "geography/major-rivers",
+      "name": "World's Major Rivers",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "nile",
+          "prompt": "Which river, traditionally considered the world's longest at ~6,650 km, flows through 11 African countries and empties into the Mediterranean Sea?",
+          "answer": "Nile",
+          "alternates": ["The Nile", "Nile River", "River Nile"],
+          "explanation": "Traditionally ranked as the world's longest river at ~6,650 km (4,130 mi), though the Amazon may rival it depending on measurement methods\nFlows through 11 countries: Tanzania, Uganda, DRC, Rwanda, Burundi, Ethiopia, Kenya, Eritrea, South Sudan, Sudan, Egypt\nFormed by the confluence of the White Nile and Blue Nile at Khartoum, Sudan; the Blue Nile contributes over twice the volume\nThe White Nile's source is near Lake Victoria; the Blue Nile originates at Lake Tana in Ethiopia\nThe Aswan High Dam (completed 1970) created Lake Nasser, one of the world's largest artificial lakes at 500 km long\nAncient Egyptian civilization depended entirely on the Nile's annual floods to fertilize cropland\nThe Nile Delta near Cairo is one of the world's largest river deltas",
+          "cardFront": "Longest river (traditional), 11 countries, Mediterranean",
+          "cardBack": "Nile"
+        },
+        {
+          "id": "amazon",
+          "prompt": "Which river is the largest in the world by discharge volume, carrying roughly one-fifth of all river water on Earth?",
+          "answer": "Amazon",
+          "alternates": ["The Amazon", "Amazon River", "Rio Amazonas"],
+          "explanation": "Largest river by discharge volume at ~209,000 cubic meters per second \u2014 more than the next seven largest rivers combined\nLength is debated: 6,275\u20136,992 km depending on measurement; some studies make it longer than the Nile\nDrains through 9 countries: Brazil, Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, French Guiana\nThe 'Meeting of the Waters' near Manaus where the dark Rio Negro and sandy Solimoes flow side by side for 6 km without mixing\nThe Pororoca is a tidal bore with waves up to 4 m high that can travel 800 km upstream\nManaus (population ~2 million) is the largest city on the river; Belem sits near the mouth\nHas no bridges crossing it along its entire length \u2014 mostly because the surrounding areas are sparsely populated rainforest",
+          "cardFront": "Largest by volume, South America, 9 countries",
+          "cardBack": "Amazon"
+        },
+        {
+          "id": "mississippi",
+          "prompt": "Which river system, combined with its longest tributary, forms the 4th-longest river system in the world at ~6,000 km and drains 31 U.S. states?",
+          "answer": "Mississippi",
+          "alternates": ["The Mississippi", "Mississippi River", "Mississippi-Missouri", "Mississippi Missouri"],
+          "explanation": "Proper length is 3,766 km (2,340 mi); combined with the Missouri River (its longest tributary at 4,059 km), the system totals ~5,971 km\nRises at Lake Itasca in Minnesota and flows south to the Gulf of Mexico in Louisiana\nDrains all or part of 31 U.S. states and 2 Canadian provinces \u2014 about 40% of the continental U.S.\nMajor cities along its banks include Minneapolis, St. Louis, Memphis, and New Orleans\nThe river's flow is controlled by 43 dams from source to St. Louis; 29 contain navigation locks\nMark Twain's pen name comes from a Mississippi riverboat term meaning 'two fathoms deep' (safe water)\nThe Port of South Louisiana near the mouth is the largest U.S. port by tonnage",
+          "cardFront": "4th-longest system (with Missouri), 31 U.S. states, Gulf of Mexico",
+          "cardBack": "Mississippi"
+        },
+        {
+          "id": "yangtze",
+          "prompt": "Which river, the longest in Asia at ~6,300 km, is home to the Three Gorges Dam and flows past Shanghai, Nanjing, and Wuhan?",
+          "answer": "Yangtze",
+          "alternates": ["Chang Jiang", "Yangtze River", "The Yangtze", "Changjiang"],
+          "explanation": "Longest river in Asia and 3rd longest in the world at ~6,300 km (3,915 mi)\nRises in the Tanggula Mountains of the Tibetan Plateau and flows east to the East China Sea\nIts basin covers one-fifth of China's land area and is home to nearly one-third of China's population\nThe Three Gorges Dam (completed 2006) is the world's largest hydroelectric power station; 2,335 m long and 185 m high\nThe dam created a reservoir allowing ocean-going freighters to navigate 2,250 km inland from Shanghai to Chongqing\nMajor cities: Shanghai, Nanjing, Wuhan, Chongqing, Yichang\nChinese name Chang Jiang means 'Long River'; 'Yangtze' comes from an old local name for the lower section",
+          "cardFront": "Longest in Asia, Three Gorges Dam, China",
+          "cardBack": "Yangtze"
+        },
+        {
+          "id": "danube",
+          "prompt": "Which European river passes through more national capitals than any other river in the world, including Vienna, Bratislava, Budapest, and Belgrade?",
+          "answer": "Danube",
+          "alternates": ["The Danube", "Danube River", "Donau"],
+          "explanation": "Second-longest river in Europe at ~2,850 km (1,770 mi), after the Volga\nPasses through 4 capital cities \u2014 more than any other river: Vienna (Austria), Bratislava (Slovakia), Budapest (Hungary), Belgrade (Serbia)\nFlows through or borders 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, Ukraine\nRises in the Black Forest of Germany and empties into the Black Sea via the Danube Delta in Romania/Ukraine\nMore than 700 dams and weirs regulate the river and its tributaries\nJohann Strauss II composed 'The Blue Danube' waltz (1867), one of the most famous pieces of classical music\nThe Danube Delta is one of Europe's largest wetlands and a UNESCO World Heritage Site",
+          "cardFront": "4 capitals, 10 countries, Europe's 2nd longest",
+          "cardBack": "Danube"
+        },
+        {
+          "id": "rhine",
+          "prompt": "Which major European river flows through Switzerland, Germany, France, and the Netherlands, forming the historical northern frontier of the Roman Empire?",
+          "answer": "Rhine",
+          "alternates": ["The Rhine", "Rhine River", "Rhein", "Rijn"],
+          "explanation": "Approximately 1,230 km (765 mi) long, flowing through 6 countries: Switzerland, Austria, Liechtenstein, Germany, France, Netherlands\nWith the Danube, formed the northern inland frontier of the Roman Empire\nMajor cities along its course: Basel, Strasbourg, Cologne, Bonn, Duisburg, Rotterdam\nOne of the busiest commercial waterways in the world: over 1,600 barges traverse it daily carrying 500+ million tonnes annually\nThe Rhine Gorge in Germany is a UNESCO World Heritage Site, famous for its castles and the Lorelei rock\nAbout 20% of the world's chemical industry is located along its banks\nProvides drinking water for approximately 20 million people",
+          "cardFront": "6 countries, Roman frontier, busiest waterway",
+          "cardBack": "Rhine"
+        },
+        {
+          "id": "ganges",
+          "prompt": "Which river, sacred to Hinduism and personified as a goddess, flows from the Himalayas through India and Bangladesh to the Bay of Bengal?",
+          "answer": "Ganges",
+          "alternates": ["The Ganges", "Ganges River", "Ganga", "River Ganges"],
+          "explanation": "Length ~2,525\u20132,700 km (1,569\u20131,680 mi), flowing from the Himalayas to the Bay of Bengal\nConsidered the holiest river in Hinduism; personified as the goddess Ganga\nVaranasi (Benares), one of the world's oldest continuously inhabited cities, sits on its banks with 80+ ghats (stone steps)\nHindus believe cremation at Varanasi's Manikarnika Ghat and immersion of ashes in the Ganges grants moksha (liberation from rebirth)\nThe Gangotri Glacier at 7,756 m elevation is the traditional source; the river proper begins at Devprayag where tributaries merge\nMajor cities: Varanasi, Allahabad (Prayagraj), Kanpur, Kolkata, Patna\nThe Kumbh Mela pilgrimage at the confluence of the Ganges and Yamuna in Prayagraj is the largest peaceful human gathering on Earth",
+          "cardFront": "Sacred to Hinduism, India/Bangladesh, Bay of Bengal",
+          "cardBack": "Ganges"
+        },
+        {
+          "id": "mekong",
+          "prompt": "Which river, the 3rd longest in Asia, flows through six countries from the Tibetan Plateau to the South China Sea, supporting the world's largest inland fishery?",
+          "answer": "Mekong",
+          "alternates": ["The Mekong", "Mekong River", "Lancang"],
+          "explanation": "12th-longest river in the world and 3rd-longest in Asia at ~4,909 km (3,050 mi)\nFlows through 6 countries: China (where it is called the Lancang), Myanmar, Laos, Thailand, Cambodia, Vietnam\nTwo national capitals sit on its banks: Vientiane (Laos) and Phnom Penh (Cambodia)\nSupports the world's largest inland fishery \u2014 25% of the global freshwater catch comes from its waters\n~65 million people in the Lower Mekong Basin depend on the river for their livelihoods\nChina has built 7+ major dams on the Upper Mekong, causing significant ecological and geopolitical tension downstream\nThe Mekong Delta in Vietnam is one of the world's most productive agricultural regions, known for rice and floating markets",
+          "cardFront": "6 countries, Tibet to South China Sea, largest inland fishery",
+          "cardBack": "Mekong"
+        },
+        {
+          "id": "congo",
+          "prompt": "Which river is the world's deepest (measured at 220 m) and the only major river to cross the equator twice?",
+          "answer": "Congo",
+          "alternates": ["The Congo", "Congo River", "Zaire River", "Zaire"],
+          "explanation": "World's deepest recorded river at ~220 m (720 ft) and the only major river to cross the equator twice\nSecond-longest river in Africa and 9th-longest in the world at ~4,700 km (2,900 mi) including tributaries\nSecond-largest river by discharge volume after the Amazon; ahead of the Ganges-Brahmaputra system\nKinshasa (DRC) and Brazzaville (Republic of Congo) sit on opposite banks of Malebo Pool \u2014 the closest two national capitals in the world\nThe Livingstone Falls are a series of 32 cataracts spanning 354 km with a 270 m drop, making the lower river unnavigable\nBecause its basin spans both sides of the equator, it has stable year-round flow (always rainy season somewhere)\nIts basin covers ~4 million km\u00b2, about 13% of Africa's entire landmass",
+          "cardFront": "Deepest river, crosses equator twice, Africa",
+          "cardBack": "Congo"
+        },
+        {
+          "id": "volga",
+          "prompt": "Which river is the longest in Europe at ~3,530 km, flowing entirely within Russia and emptying into the Caspian Sea?",
+          "answer": "Volga",
+          "alternates": ["The Volga", "Volga River"],
+          "explanation": "Longest river in Europe at ~3,531 km (2,194 mi) and the longest endorheic (internally draining) river in the world\nRises in the Valdai Hills northwest of Moscow and empties into the Caspian Sea below Astrakhan at 28 m below sea level\nFlows entirely within Russia, passing through major cities: Tver, Nizhny Novgorod, Kazan, Samara, Volgograd, Astrakhan\nEight massive Soviet-era dams created the world's largest chain of artificial reservoirs along its course\nThe Battle of Stalingrad (1942\u201343) was fought on the Volga at modern-day Volgograd \u2014 the war's major turning point\nOften called 'Mother Volga' (Volga-matushka) in Russian culture and literature\nEurope's largest river by discharge volume and by drainage basin area",
+          "cardFront": "Longest in Europe, Russia, Caspian Sea",
+          "cardBack": "Volga"
+        },
+        {
+          "id": "thames",
+          "prompt": "Which 346 km river flows through London and is the longest river entirely within England?",
+          "answer": "Thames",
+          "alternates": ["The Thames", "Thames River", "River Thames"],
+          "explanation": "346 km (215 mi) long \u2014 longest river entirely in England, second-longest in the UK after the River Severn\nSource at Thames Head near Kemble in the Cotswolds, Gloucestershire; empties into the North Sea via the Thames Estuary\nFlows past many of London's iconic landmarks: Big Ben, Houses of Parliament, Tower of London, Tower Bridge, the Globe Theatre\nThe Thames Barrier (opened 1984) protects London from tidal flooding; it has been closed 200+ times\nThe river froze regularly in the 17th\u201318th centuries, hosting 'Frost Fairs' on the ice; the last was in 1814\nProvides about two-thirds of London's drinking water supply\nThe Oxford-Cambridge Boat Race, held annually since 1829, is rowed on the Thames in London",
+          "cardFront": "London, longest in England, North Sea",
+          "cardBack": "Thames"
+        },
+        {
+          "id": "seine",
+          "prompt": "Which 777 km river flows through Paris and empties into the English Channel at Le Havre, named after a Celtic goddess?",
+          "answer": "Seine",
+          "alternates": ["The Seine", "Seine River", "River Seine"],
+          "explanation": "777 km (483 mi) long \u2014 the second-longest river in France after the Loire\nRises at Source-Seine in Burgundy, 30 km northwest of Dijon; empties into the English Channel at Le Havre\nNamed after the Celtic goddess Sequana, worshipped by the 3rd-century-BC tribe that settled along its banks\nParis was founded on the Ile de la Cite, an island in the Seine; the city's Latin motto references the river\nThe Seine has 37 bridges within Paris, including the Pont Neuf (1607), the oldest standing bridge in the city\nMajor cities along its course: Paris, Rouen, Le Havre\nThe river and its canals carry most of France's inland waterway traffic",
+          "cardFront": "Paris, Celtic goddess, English Channel",
+          "cardBack": "Seine"
+        },
+        {
+          "id": "tigris",
+          "prompt": "Which river flows through Baghdad, Mosul, and Tikrit and joins the Euphrates to form the Shatt al-Arab before reaching the Persian Gulf?",
+          "answer": "Tigris",
+          "alternates": ["The Tigris", "Tigris River", "Dicle"],
+          "explanation": "~1,900 km (1,180 mi) long, rising in eastern Turkey and flowing southeast through Iraq to the Persian Gulf\nTogether with the Euphrates, defines Mesopotamia ('land between the rivers') \u2014 the 'Cradle of Civilization'\nThe two rivers merge at Al-Qurnah in southern Iraq to form the Shatt al-Arab waterway\nMajor cities on the Tigris: Baghdad (Iraq's capital), Mosul, Tikrit, Samarra\nThe ancient Assyrian capital of Nineveh (near modern Mosul) stood on the Tigris\nBaghdad, founded in 762 CE by the Abbasid Caliphate, became the center of the Islamic Golden Age on the Tigris\nThe earliest known writing systems (cuneiform) and the first cities (Ur, Uruk) arose in the Tigris-Euphrates valley",
+          "cardFront": "Baghdad, Mesopotamia, joins Euphrates",
+          "cardBack": "Tigris"
+        },
+        {
+          "id": "euphrates",
+          "prompt": "Which river, at ~2,800 km the longest in Western Asia, flows through Turkey, Syria, and Iraq and defined the western boundary of ancient Mesopotamia?",
+          "answer": "Euphrates",
+          "alternates": ["The Euphrates", "Euphrates River", "Firat", "Al-Furat"],
+          "explanation": "~2,800 km (1,740 mi) long \u2014 the longest and most historically important river of Western Asia\nRises in the Armenian Highlands of eastern Turkey; flows through Syria and Iraq before joining the Tigris\nForms the western boundary of Mesopotamia; the Tigris-Euphrates system is where agriculture, writing, and urban civilization first emerged\nMajor cities: Raqqa and Deir ez-Zor (Syria), Hit and Nasiriyah (Iraq)\nThe ancient cities of Babylon and Ur stood near the Euphrates; Babylon's Hanging Gardens (if they existed) overlooked it\nThe Ataturk Dam in Turkey (completed 1990) is one of the largest dams in the world, causing water disputes with downstream Syria and Iraq\nMentioned prominently in the Bible as one of the four rivers flowing from the Garden of Eden",
+          "cardFront": "Longest in Western Asia, Turkey/Syria/Iraq, Mesopotamia",
+          "cardBack": "Euphrates"
+        },
+        {
+          "id": "zambezi",
+          "prompt": "Which African river is home to Victoria Falls, the world's largest sheet of falling water, and flows through six countries to the Indian Ocean?",
+          "answer": "Zambezi",
+          "alternates": ["The Zambezi", "Zambezi River"],
+          "explanation": "2,574 km (1,599 mi) long \u2014 the fourth-longest river in Africa and the largest east-flowing river on the continent\nRises in northwestern Zambia and flows through Angola, Namibia, Botswana, Zambia, Zimbabwe, and Mozambique\nVictoria Falls (on the Zambia-Zimbabwe border) is 1,708 m wide and 108 m high \u2014 the world's largest sheet of falling water\nDavid Livingstone was the first European to see the falls (1855); he named them for Queen Victoria\nThe local name for Victoria Falls is Mosi-oa-Tunya, meaning 'The Smoke That Thunders'\nThe Kariba Dam (completed 1959) on the Zambia-Zimbabwe border created Lake Kariba, one of the world's largest artificial lakes\nEmpties into the Indian Ocean in Mozambique through a wide delta",
+          "cardFront": "Victoria Falls, 6 countries, Indian Ocean",
+          "cardBack": "Zambezi"
+        },
+        {
+          "id": "colorado",
+          "prompt": "Which river carved the Grand Canyon over millions of years and supplies water to 7 U.S. states despite often running dry before reaching the sea?",
+          "answer": "Colorado",
+          "alternates": ["The Colorado", "Colorado River"],
+          "explanation": "2,330 km (1,450 mi) long \u2014 5th-longest river in the United States\nRises at La Poudre Pass in the Rocky Mountains of Colorado; historically emptied into the Gulf of California in Mexico\nCarved the Grand Canyon over ~5\u20136 million years; the canyon stretches 277 miles through the river's course\nHoover Dam (completed 1935) created Lake Mead, the largest reservoir in the continental U.S. (when full)\nThe river's water is divided among 7 U.S. states (Wyoming, Colorado, Utah, New Mexico, Nevada, Arizona, California) and Mexico\nSo heavily dammed and diverted that it often runs dry before reaching the Gulf of California\nThe 1922 Colorado River Compact dividing its water is one of the most consequential water agreements in history",
+          "cardFront": "Grand Canyon, Hoover Dam, 7 U.S. states",
+          "cardBack": "Colorado"
+        },
+        {
+          "id": "rio-grande",
+          "prompt": "Which river forms roughly two-thirds of the U.S.-Mexico border, stretching ~3,060 km from the Rocky Mountains to the Gulf of Mexico?",
+          "answer": "Rio Grande",
+          "alternates": ["The Rio Grande", "Rio Grande River", "Rio Bravo", "Rio Bravo del Norte"],
+          "explanation": "~3,060 km (1,900 mi) long \u2014 5th-longest river in North America and 20th-longest in the world\nRises at 3,900 m elevation in Colorado's San Juan Mountains; empties into the Gulf of Mexico at Boca Chica\nForms 1,254 miles (2,018 km) of the 1,950-mile U.S.-Mexico border \u2014 roughly two-thirds of the total\nCalled 'Rio Bravo del Norte' in Mexico ('Bold River of the North')\nMajor cities: Albuquerque, El Paso/Ciudad Juarez, Laredo, Brownsville/Matamoros\nRegulated by multiple dams including Elephant Butte Dam (1916, once the world's largest artificial lake) and Falcon Dam\nFlows through 3 U.S. states (Colorado, New Mexico, Texas) and 5 Mexican states",
+          "cardFront": "U.S.-Mexico border, Rocky Mountains to Gulf",
+          "cardBack": "Rio Grande"
+        },
+        {
+          "id": "indus",
+          "prompt": "Which river, originating near Mount Kailash in Tibet, gave its name to both a country and the ancient civilization that built Harappa and Mohenjo-daro?",
+          "answer": "Indus",
+          "alternates": ["The Indus", "Indus River", "Sindhu"],
+          "explanation": "~3,200 km (2,000 mi) long, flowing through China (Tibet), India, and Pakistan to the Arabian Sea near Karachi\nThe word 'India' derives from 'Indus,' which comes from the Sanskrit 'Sindhu'\nThe Indus Valley Civilization (~3300\u20131300 BCE) arose along its banks with major cities Harappa and Mohenjo-daro\nMohenjo-daro had advanced urban planning with grid streets, public baths, and sophisticated drainage \u2014 among the world's first\nTarbela Dam on the Indus in Pakistan is one of the largest earth-fill dams in the world\nThe traditional source is near Mount Kailash in Tibet, sacred in Hinduism, Buddhism, Jainism, and Bon\nAlexander the Great reached the Indus in 326 BCE; the Battle of the Hydaspes on its tributary was his last major battle",
+          "cardFront": "Named India, Indus Valley Civilization, Tibet to Arabian Sea",
+          "cardBack": "Indus"
+        },
+        {
+          "id": "yellow-river",
+          "prompt": "Which river, nicknamed 'China's Sorrow,' has caused some of the deadliest floods in human history due to heavy silt from the Loess Plateau?",
+          "answer": "Yellow River",
+          "alternates": ["Huang He", "The Yellow River", "Yellow", "Huang Ho"],
+          "explanation": "China's second-longest river at ~5,464 km (3,395 mi), also called Huang He\nNicknamed 'China's Sorrow' for its devastating floods \u2014 it has flooded ~1,593 times since 595 BCE and shifted course 26 times\nThe 1887 flood killed an estimated 900,000\u20132,000,000 people, one of the deadliest natural disasters in recorded history\nGets its name and yellow color from the massive load of loess (fine silt) it picks up crossing the Loess Plateau\nRises in the Kunlun Mountains of Qinghai province; empties into the Bohai Sea (a gulf of the Yellow Sea)\nMajor cities along its course: Lanzhou, Baotou, Zhengzhou, Kaifeng, Jinan, Luoyang, Xi'an (nearby)\nOften called the 'Cradle of Chinese Civilization' \u2014 the earliest Chinese dynasties arose in its valley",
+          "cardFront": "China's Sorrow, Huang He, deadliest floods",
+          "cardBack": "Yellow River"
+        },
+        {
+          "id": "niger",
+          "prompt": "Which West African river flows in an unusual crescent shape through 5 countries, including past the historic city of Timbuktu?",
+          "answer": "Niger",
+          "alternates": ["The Niger", "Niger River", "River Niger"],
+          "explanation": "~4,180 km (2,600 mi) long \u2014 3rd-longest river in Africa, 14th-longest in the world\nFlows in an unusual crescent (boomerang) shape through Guinea, Mali, Niger, Benin, and Nigeria\nRises in the Guinea Highlands near the Sierra Leone border; empties into the Gulf of Guinea via the Niger Delta in Nigeria\nThe Inner Niger Delta in Mali is the largest wetland in West Africa, expanding from 3,900 km\u00b2 to 30,000 km\u00b2 seasonally\nThe river loses nearly two-thirds of its flow between Segou and Timbuktu to seepage and evaporation\nMajor cities: Bamako (Mali's capital), Timbuktu, Niamey (Niger's capital), Onitsha (Nigeria)\nThe Niger Delta in Nigeria is one of the world's largest river deltas and a major petroleum-producing region",
+          "cardFront": "Crescent-shaped, Timbuktu, 5 countries, West Africa",
+          "cardBack": "Niger"
+        }
+      ]
+    }
+  ]
+}
