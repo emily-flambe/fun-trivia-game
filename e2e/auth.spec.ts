@@ -30,8 +30,8 @@ test.describe('Authentication', () => {
 		await page.goto('/auth/test-login');
 		await page.waitForTimeout(1500);
 
-		// Click email link to navigate to profile
-		await page.locator('nav a[href="#/profile"]').click();
+		// Click email link to navigate to profile (use visible link to avoid strict mode with mobile icon)
+		await page.locator('nav a[href="#/profile"]').filter({ hasText: /@/ }).click();
 		await page.waitForTimeout(500);
 
 		expect(page.url()).toContain('#/profile');

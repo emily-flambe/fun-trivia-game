@@ -131,4 +131,58 @@ test.describe('Profile Page', () => {
 			expect(page.url()).toContain('#/node/science');
 		});
 	});
+
+	test.describe('mobile navigation', () => {
+		test.beforeEach(async ({ page }) => {
+			await page.goto('/auth/test-login');
+			await page.waitForTimeout(1500);
+		});
+
+		test('mobile: profile icon is visible and navigates to profile', async ({ page }) => {
+			await page.setViewportSize({ width: 375, height: 667 });
+			await page.goto('/');
+			await page.waitForTimeout(1000);
+
+			// Mobile profile icon (sm:hidden) should be visible
+			const profileIcon = page.locator('a[aria-label="Profile"]');
+			await expect(profileIcon).toBeVisible();
+
+			// Email text link (hidden sm:inline) should be hidden on mobile
+			const emailLink = page.locator('nav a[href="#/profile"]:not([aria-label="Profile"])');
+			await expect(emailLink).toBeHidden();
+
+			// Click icon and verify navigation to profile
+			await profileIcon.click();
+			await page.waitForTimeout(1000);
+
+			expect(page.url()).toContain('#/profile');
+			await expect(page.getByRole('heading', { name: 'Profile' })).toBeVisible();
+		});
+
+		test('mobile: all 4 tabs visible on narrow viewport', async ({ page }) => {
+			await page.setViewportSize({ width: 320, height: 568 });
+			await page.goto('/#/profile');
+			await page.waitForTimeout(1000);
+
+			await expect(page.getByRole('tab', { name: 'Summary' })).toBeVisible();
+			await expect(page.getByRole('tab', { name: 'Categories' })).toBeVisible();
+			await expect(page.getByRole('tab', { name: 'Activity' })).toBeVisible();
+			await expect(page.getByRole('tab', { name: 'Preferences' })).toBeVisible();
+		});
+
+		test('desktop: email link visible, icon hidden', async ({ page }) => {
+			await page.setViewportSize({ width: 1024, height: 768 });
+			await page.goto('/');
+			await page.waitForTimeout(1000);
+
+			// Email text link should be visible on desktop
+			const emailLink = page.locator('nav a[href="#/profile"]:not([aria-label="Profile"])');
+			await expect(emailLink).toBeVisible();
+
+			// Mobile profile icon should be hidden on desktop
+			const profileIcon = page.locator('a[aria-label="Profile"]');
+			await expect(profileIcon).toHaveCount(1);
+			await expect(profileIcon).toBeHidden();
+		});
+	});
 });

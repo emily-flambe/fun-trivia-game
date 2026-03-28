@@ -44,7 +44,7 @@ export function ProfilePage({ tab }: { tab: string }) {
 				<p className="text-text-secondary">{auth.email}</p>
 			</div>
 
-			<nav role="tablist" aria-label="Profile sections" className="flex gap-1 mb-8 border-b border-border-subtle -mx-1 px-1">
+			<nav role="tablist" aria-label="Profile sections" className="flex gap-1 mb-8 border-b border-border-subtle -mx-1 px-1 overflow-x-auto">
 				{TABS.map((t) => (
 					<a
 						key={t.id}
@@ -52,7 +52,7 @@ export function ProfilePage({ tab }: { tab: string }) {
 						aria-selected={activeTab === t.id}
 						aria-controls={`tabpanel-${t.id}`}
 						href={`#/profile/${t.id}`}
-						className={`px-4 py-2.5 text-sm font-medium transition-all duration-200 border-b-2 -mb-px ${
+						className={`shrink-0 whitespace-nowrap px-4 py-2.5 text-sm font-medium transition-all duration-200 border-b-2 -mb-px ${
 							activeTab === t.id
 								? 'border-accent text-accent'
 								: 'border-transparent text-text-tertiary hover:text-text-primary hover:border-border-default'
