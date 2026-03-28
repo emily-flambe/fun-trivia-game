@@ -66,11 +66,11 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Great Composers | 15 | ✅ | |
-| 2 | Famous Classical Works | 20 | 📋 EMI-392 | TS has "Classical Music." Four Seasons→Vivaldi, Ride of Valkyries→Wagner, etc. |
-| 3 | Opera Essentials | 15 | 📋 EMI-392 | TS has "Opera." La Bohème, Carmen, The Magic Flute. Composer + plot + famous arias. |
-| 4 | Musical Terms & Notation | 12 | 📋 EMI-392 | Allegro, fortissimo, crescendo, sonata vs symphony vs concerto. |
+| 2 | Famous Classical Works | 20 | ✅ | TS has "Classical Music." Four Seasons→Vivaldi, Ride of Valkyries→Wagner, etc. |
+| 3 | Opera Essentials | 15 | ✅ | TS has "Opera." La Bohème, Carmen, The Magic Flute. Composer + plot + famous arias. |
+| 4 | Musical Terms & Notation | 12 | ✅ | Allegro, fortissimo, crescendo, sonata vs symphony vs concerto. |
 
-**Coverage**: 1/4 done.
+**Coverage**: 4/4 done. Complete.
 
 ---
 
@@ -366,7 +366,7 @@ Inspired by TrivialStudies' unique study tools:
 | American History | 5 | 10 | 50% |
 | Art | 2 | 5 | 40% |
 | Business/Economics | 1 | 8 | 13% |
-| Classical Music | 1 | 4 | 25% |
+| Classical Music | 4 | 4 | 100% |
 | Current Events | 1 | 3 | 33% |
 | Film | 10 | 10 | 100% |
 | Food/Drink | 5 | 10 | 50% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **84** | **177** | **47%** |
 
 ### Priority Order (by gap size × LL frequency)
 

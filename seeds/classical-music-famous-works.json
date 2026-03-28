@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "classical-music/famous-works", "parentId": "classical-music", "name": "Famous Classical Works", "description": "Iconic works of classical music and the composers who wrote them" }
+  ],
+  "exercises": [
+    {
+      "id": "classical-music/famous-works/famous-classical-works",
+      "nodeId": "classical-music/famous-works",
+      "name": "Famous Classical Works",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "four-seasons",
+          "prompt": "Which Baroque composer wrote a set of four violin concertos (1725) depicting spring, summer, autumn, and winter, among the most recorded works in classical music?",
+          "answer": "Antonio Vivaldi",
+          "alternates": ["Vivaldi"],
+          "explanation": "Four violin concertos published in 1725 as part of *Il cimento dell'armonia e dell'inventione*\nEach concerto is accompanied by a sonnet (possibly by the composer himself) describing the season\nAmong the most recorded classical works in history\nThe composer was long associated with the all-female orchestra at the Ospedale della Piet\u00e0, a Venetian orphanage, though these concertos were dedicated to Count Wenzel von Morzin\nPart of a larger set of twelve concertos (Op. 8); only the first four became famous\nRediscovered in the early 20th century along with most of the composer's output",
+          "cardFront": "The Four Seasons",
+          "cardBack": "Antonio Vivaldi"
+        },
+        {
+          "id": "ride-of-the-valkyries",
+          "prompt": "Which German composer wrote the orchestral prelude to Act III of *Die Walk\u00fcre* (1870), depicting warrior maidens carrying fallen heroes to Valhalla?",
+          "answer": "Richard Wagner",
+          "alternates": ["Wagner"],
+          "explanation": "Orchestral prelude to Act III of *Die Walk\u00fcre*, the second opera in the *Ring* cycle\nFirst performed in 1870 at the Munich Court Theatre\nDepicts the Valkyries \u2014 Odin's warrior maidens \u2014 carrying slain heroes to Valhalla\nFamously used in Francis Ford Coppola's *Apocalypse Now* (1979) during the helicopter attack scene\nOne of the most recognized pieces in classical music, frequently used in film, TV, and advertising\nThe full *Ring* cycle (*Das Rheingold*, *Die Walk\u00fcre*, *Siegfried*, *G\u00f6tterd\u00e4mmerung*) totals roughly 15 hours",
+          "cardFront": "Ride of the Valkyries",
+          "cardBack": "Richard Wagner"
+        },
+        {
+          "id": "fur-elise",
+          "prompt": "Which composer wrote the Bagatelle No. 25 in A minor (1810), a beloved piano piece whose dedicatee is still debated \u2014 possibly Therese Malfatti or Elisabeth R\u00f6ckel?",
+          "answer": "Ludwig van Beethoven",
+          "alternates": ["Beethoven"],
+          "explanation": "Bagatelle No. 25 in A minor, WoO 59, composed around 1810\nNot published during the composer's lifetime \u2014 discovered and published in 1867 by Ludwig Nohl\nDedicatee debated: the manuscript's illegible inscription may read 'Therese' (Malfatti) or 'Elisabeth' (R\u00f6ckel)\nOne of the most recognizable piano pieces ever written, often among the first works students learn\nTechnically modest compared to the composer's sonatas and concertos, yet far more famous than most\nThe original manuscript has been lost; only Nohl's transcription survives",
+          "cardFront": "F\u00fcr Elise",
+          "cardBack": "Ludwig van Beethoven"
+        },
+        {
+          "id": "1812-overture",
+          "prompt": "Which Russian composer wrote the overture (1880) commemorating Russia's defense against Napoleon, scored for real cannon fire and now a staple of July 4th concerts in the U.S.?",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "alternates": ["Tchaikovsky", "Chaikovsky", "Peter Tchaikovsky"],
+          "explanation": "Festival overture composed in 1880 to commemorate Russia's successful defense against Napoleon's 1812 invasion\nScored for orchestra, cannon fire, and church bells \u2014 intended to be performed outdoors\nIronically a staple of American July 4th celebrations despite having nothing to do with the American Revolution\nThe composer himself disliked the piece, calling it 'very loud and noisy' with 'no great artistic merit'\nQuotes 'La Marseillaise' (representing France) and the Russian imperial anthem\nPremiered in Moscow in 1882 near the Cathedral of Christ the Saviour",
+          "cardFront": "1812 Overture",
+          "cardBack": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "clair-de-lune",
+          "prompt": "Which French Impressionist composer wrote the third movement of *Suite bergamasque* (1890/1905), a piano piece inspired by a Verlaine poem about moonlight?",
+          "answer": "Claude Debussy",
+          "alternates": ["Debussy"],
+          "explanation": "Third movement of *Suite bergamasque*, composed c. 1890 and revised before publication in 1905\nTitle taken from Paul Verlaine's poem of the same name ('moonlight' in French)\nOne of the most performed and recorded solo piano pieces in the repertoire\nThe suite's title references the 'masques bergamasques' from Verlaine's poem, itself an allusion to commedia dell'arte\nOften mistakenly attributed to the Romantic era, but its harmonic language is distinctly Impressionist\nFrequently appears in film soundtracks, including *Ocean's Eleven* (2001) and *Twilight* (2008)",
+          "cardFront": "Clair de Lune",
+          "cardBack": "Claude Debussy"
+        },
+        {
+          "id": "nutcracker",
+          "prompt": "Which Russian composer wrote the ballet (1892) based on an E.T.A. Hoffmann story, featuring the 'Dance of the Sugar Plum Fairy' played on the celesta?",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "alternates": ["Tchaikovsky", "Chaikovsky", "Peter Tchaikovsky"],
+          "explanation": "Two-act ballet composed in 1892, based on Alexandre Dumas p\u00e8re's adaptation of E.T.A. Hoffmann's *The Nutcracker and the Mouse King*\nPremiered at the Mariinsky Theatre in St. Petersburg on December 18, 1892\n'Dance of the Sugar Plum Fairy' showcases the celesta, an instrument the composer specifically imported from Paris and kept secret during composition\nNow the most frequently performed ballet in the world, generating significant revenue for ballet companies during the Christmas season\nThe composer extracted an eight-movement orchestral suite that became popular before the full ballet did\nInitially received mixed reviews; did not become a Christmas tradition until George Balanchine's 1954 New York City Ballet production",
+          "cardFront": "The Nutcracker",
+          "cardBack": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "id": "messiah",
+          "prompt": "Which German-born, British-naturalized Baroque composer wrote the oratorio (1741) that includes the famous 'Hallelujah' chorus and was composed in roughly 24 days?",
+          "answer": "George Frideric Handel",
+          "alternates": ["Handel", "Georg Friedrich H\u00e4ndel", "Haendel"],
+          "explanation": "English-language oratorio composed in 1741 in approximately 24 days\nPremiered in Dublin on April 13, 1742, as a charity benefit, not in London\nThe 'Hallelujah' chorus is the most famous passage; legend says King George II stood during it, starting a tradition\nLibretto by Charles Jennens, drawn entirely from the King James Bible and the Book of Common Prayer\nCovers the life of Christ in three parts: prophecy and birth, passion and resurrection, redemption\nAn annual Christmas tradition in many countries, though originally intended for Lent and Easter performances",
+          "cardFront": "Messiah",
+          "cardBack": "George Frideric Handel"
+        },
+        {
+          "id": "canon-in-d",
+          "prompt": "Which Baroque composer wrote a canon and gigue for three violins and basso continuo (c. 1680) that was obscure for centuries until a 1968 recording made it ubiquitous at weddings?",
+          "answer": "Johann Pachelbel",
+          "alternates": ["Pachelbel"],
+          "explanation": "Composed c. 1680 for three violins and basso continuo, paired with a gigue in the same key\nVirtually unknown for nearly 300 years until a 1968 recording by Jean-Fran\u00e7ois Paillard's chamber orchestra revived it\nBuilt on a repeating two-bar bass line (ground bass/basso ostinato) with eight notes descending and then rising in D major\nNow one of the most frequently played pieces at weddings worldwide\nIts chord progression (I\u2013V\u2013vi\u2013iii\u2013IV\u2013I\u2013IV\u2013V) underlies countless pop songs, from 'Let It Be' to 'No Woman, No Cry'\nThe comedian Rob Paravonian's 2006 'Pachelbel Rant' video went viral mocking the progression's omnipresence",
+          "cardFront": "Canon in D",
+          "cardBack": "Johann Pachelbel"
+        },
+        {
+          "id": "bolero",
+          "prompt": "Which French composer wrote a 1928 ballet piece consisting of a single melody repeated with gradually building orchestration over roughly 15 minutes, originally composed for dancer Ida Rubinstein?",
+          "answer": "Maurice Ravel",
+          "alternates": ["Ravel"],
+          "explanation": "One-movement orchestral piece composed in 1928 as a ballet for dancer Ida Rubinstein\nPremiered at the Paris Op\u00e9ra on November 22, 1928\nA single melody in C major repeated over a two-bar ostinato rhythm, with a gradual crescendo achieved by layering instruments\nThe composer described it as 'orchestral tissue without music' and considered it an experiment, not a masterpiece\nOne of the most performed orchestral works in the world despite (or because of) its radical simplicity\nBecame part of a major French intellectual property dispute; entered the public domain in 2016",
+          "cardFront": "Bol\u00e9ro",
+          "cardBack": "Maurice Ravel"
+        },
+        {
+          "id": "the-planets",
+          "prompt": "Which English composer wrote a seven-movement orchestral suite (1914\u20131917) with movements for Mars, Venus, Mercury, Jupiter, Saturn, Uranus, and Neptune \u2014 but not Earth or Pluto?",
+          "answer": "Gustav Holst",
+          "alternates": ["Holst"],
+          "explanation": "Orchestral suite in seven movements composed 1914\u20131917, each depicting a planet's astrological character\nNo movement for Earth (the observer's vantage) or Pluto (not discovered until 1930)\n'Mars, the Bringer of War' heavily influenced John Williams' *Star Wars* score and film music generally\n'Jupiter, the Bringer of Jollity' contains a hymn tune later adapted as 'I Vow to Thee, My Country'\nThe final movement, 'Neptune, the Mystic,' ends with an offstage women's chorus fading into silence \u2014 an effect unprecedented at the time\nFirst performed in full on November 15, 1920, at the Queen's Hall in London",
+          "cardFront": "The Planets",
+          "cardBack": "Gustav Holst"
+        },
+        {
+          "id": "carmina-burana",
+          "prompt": "Which German composer created a scenic cantata (1937) based on medieval poems found at Benediktbeuern Abbey in Bavaria, whose 'O Fortuna' opening is one of the most recognizable pieces in all music?",
+          "answer": "Carl Orff",
+          "alternates": ["Orff"],
+          "explanation": "Scenic cantata premiered on June 8, 1937, at the Frankfurt Opera\nBased on 24 poems from a medieval manuscript discovered in 1803 at the Benedictine abbey of Benediktbeuern, Bavaria\n'O Fortuna' \u2014 a lament about the wheel of fortune \u2014 is one of the most frequently licensed classical pieces in film and advertising\nThe medieval poems (11th\u201313th century) deal with fate, drinking, love, and gambling in a mix of Latin, Middle High German, and Old French\nPart of a trilogy called *Trionfi*, along with *Catulli Carmina* (1943) and *Trionfo di Afrodite* (1953)\nThe composer was also famous as a music educator; the Orff Schulwerk method is used in schools worldwide",
+          "cardFront": "Carmina Burana",
+          "cardBack": "Carl Orff"
+        },
+        {
+          "id": "also-sprach-zarathustra",
+          "prompt": "Which German composer wrote a tone poem (1896) inspired by Nietzsche, whose opening 'Sunrise' fanfare became iconic through Stanley Kubrick's *2001: A Space Odyssey* (1968)?",
+          "answer": "Richard Strauss",
+          "alternates": ["Strauss", "R. Strauss"],
+          "explanation": "Tone poem composed in 1896, freely inspired by Friedrich Nietzsche's philosophical novel of the same name\nThe opening 'Sunrise' fanfare (C\u2013G\u2013C with timpani and organ) is one of the most recognizable passages in classical music\nMade famous by Stanley Kubrick's *2001: A Space Odyssey* (1968); now synonymous with grand, cosmic imagery\nNot a musical retelling of Nietzsche \u2014 the composer described it as 'freely after Nietzsche' and said it depicted 'the human race from its origin'\nFirst performed in Frankfurt on November 27, 1896\nNot to be confused with Johann Strauss II (the 'Waltz King') \u2014 Richard Strauss was a tone poet and opera composer, unrelated to the Strauss waltz dynasty",
+          "cardFront": "Also sprach Zarathustra",
+          "cardBack": "Richard Strauss"
+        },
+        {
+          "id": "blue-danube",
+          "prompt": "Which Viennese 'Waltz King' composed the waltz (1867) considered Austria's unofficial national anthem, performed every year at the Vienna New Year's Concert?",
+          "answer": "Johann Strauss II",
+          "alternates": ["Strauss II", "Johann Strauss", "Strauss Jr"],
+          "explanation": "Waltz composed in 1867, originally with choral parts for the Vienna Men's Choral Association; the orchestral version became the standard\nFull title: *An der sch\u00f6nen blauen Donau* ('On the Beautiful Blue Danube')\nOften called Austria's unofficial national anthem\nPlayed every year as the encore at the Vienna Philharmonic's New Year's Concert\nThe composer, known as the 'Waltz King,' wrote over 500 waltzes, polkas, and other dance works\nUsed memorably in Stanley Kubrick's *2001: A Space Odyssey* (1968) during the space station docking sequence",
+          "cardFront": "The Blue Danube",
+          "cardBack": "Johann Strauss II"
+        },
+        {
+          "id": "william-tell-overture",
+          "prompt": "Which Italian composer wrote the overture to his final opera (1829), whose finale section became the theme for *The Lone Ranger* and depicts the Swiss struggle against Austrian rule?",
+          "answer": "Gioachino Rossini",
+          "alternates": ["Rossini"],
+          "explanation": "Overture to the opera *Guillaume Tell* (1829), the composer's final opera\nThe finale section ('March of the Swiss Soldiers') became the *Lone Ranger* radio and TV theme in the 1930s\u20131950s\nThe opera depicts the Swiss folk hero Wilhelm Tell and the struggle for independence from Habsburg Austria\nAfter completing *Guillaume Tell* at age 37, the composer retired from opera at age 37 and never wrote another, though he later composed the *Stabat Mater* (1841), *Petite messe solennelle* (1863), and roughly 150 short pieces collected as *Péchés de vieillesse*\nThe overture has four distinct sections: dawn, storm, pastoral, and the famous galloping finale\nOne of the most frequently excerpted orchestral passages in popular culture",
+          "cardFront": "William Tell Overture",
+          "cardBack": "Gioachino Rossini"
+        },
+        {
+          "id": "moonlight-sonata",
+          "prompt": "Which composer wrote Piano Sonata No. 14 in C-sharp minor (1801), nicknamed after a critic compared its first movement to moonlight on Lake Lucerne?",
+          "answer": "Ludwig van Beethoven",
+          "alternates": ["Beethoven"],
+          "explanation": "Piano Sonata No. 14 in C-sharp minor, Op. 27, No. 2, composed in 1801\nNickname coined by critic Ludwig Rellstab in 1832, who compared the first movement to moonlight on Lake Lucerne \u2014 five years after the composer's death\nDedicated to Countess Giulietta Guicciardi, a 17-year-old piano student with whom the composer was infatuated\nThe serene first movement is the famous one, but the explosive third movement (Presto agitato) is far more technically demanding\nSubtitled 'Sonata quasi una fantasia' ('Sonata in the manner of a fantasy'), breaking conventional sonata structure\nAmong the most performed and recorded piano works in the repertoire",
+          "cardFront": "Moonlight Sonata",
+          "cardBack": "Ludwig van Beethoven"
+        },
+        {
+          "id": "peer-gynt",
+          "prompt": "Which Norwegian composer wrote incidental music (1875) for an Ibsen play, including 'In the Hall of the Mountain King,' a piece the composer himself disliked?",
+          "answer": "Edvard Grieg",
+          "alternates": ["Grieg"],
+          "explanation": "Incidental music composed in 1875 for Henrik Ibsen's five-act play of the same name\n'In the Hall of the Mountain King' \u2014 a gradually accelerating march \u2014 is one of the most recognizable classical melodies\nThe composer wrote to a friend that the piece 'literally stinks of cow dung' and 'reeks of Norwegianism' \u2014 he found it too crude\n'Morning Mood' is another widely known excerpt, though it depicts a Moroccan sunrise, not a Scandinavian one\nLater arranged two orchestral suites (Op. 46 and Op. 55) that became far more famous than the play itself\nThe composer is Norway's most celebrated musician, also known for his Piano Concerto in A minor (1868)",
+          "cardFront": "Peer Gynt",
+          "cardBack": "Edvard Grieg"
+        },
+        {
+          "id": "pictures-at-an-exhibition",
+          "prompt": "Which Russian composer wrote a piano suite (1874) inspired by a memorial exhibition of Viktor Hartmann's artwork, later famously orchestrated by Ravel in 1922?",
+          "answer": "Modest Mussorgsky",
+          "alternates": ["Mussorgsky", "Musorgsky", "Moussorgsky"],
+          "explanation": "Piano suite composed in 1874 after visiting a memorial exhibition of paintings and drawings by architect Viktor Hartmann, who had died the previous year\nTen movements depict individual artworks, linked by a recurring 'Promenade' theme representing the viewer walking between pictures\nMost famous in Maurice Ravel's 1922 orchestration, though many other orchestrators have arranged it\n'The Great Gate of Kiev' finale is the most monumental movement, depicting Hartmann's design for a ceremonial gate\nThe original piano score was not published until 1886, five years after the composer's death\nA member of 'The Five' (Mighty Handful) \u2014 the group of Russian nationalist composers including Rimsky-Korsakov and Borodin",
+          "cardFront": "Pictures at an Exhibition",
+          "cardBack": "Modest Mussorgsky"
+        },
+        {
+          "id": "new-world-symphony",
+          "prompt": "Which Czech composer wrote his ninth symphony (1893) while directing the National Conservatory of Music in New York, drawing on African American and Native American musical idioms?",
+          "answer": "Anton\u00edn Dvo\u0159\u00e1k",
+          "alternates": ["Dvorak", "Dvo\u0159\u00e1k", "Antonin Dvorak"],
+          "explanation": "Symphony No. 9 in E minor, Op. 95, composed in 1893 during the composer's tenure in New York (1892\u20131895)\nSubtitled 'From the New World' \u2014 the 'New World' is America, as seen by a European visitor\nThe second movement (Largo) inspired the spiritual-like song 'Goin' Home,' often mistaken for a genuine folk melody\nThe composer advocated that American classical music should draw on African American spirituals and Native American melodies\nPremiere at Carnegie Hall on December 16, 1893, was a sensation \u2014 the audience demanded encores of the second and third movements\nNeil Armstrong carried a recording of it to the Moon on Apollo 11 in 1969",
+          "cardFront": "Symphony No. 9 'From the New World'",
+          "cardBack": "Anton\u00edn Dvo\u0159\u00e1k"
+        },
+        {
+          "id": "rhapsody-in-blue",
+          "prompt": "Which American composer premiered a work (1924) at the 'An Experiment in Modern Music' concert, opening with an iconic clarinet glissando and fusing jazz with classical forms?",
+          "answer": "George Gershwin",
+          "alternates": ["Gershwin"],
+          "explanation": "Premiered on February 12, 1924, at Aeolian Hall in New York at Paul Whiteman's 'An Experiment in Modern Music' concert\nThe iconic opening clarinet glissando was improvised by clarinetist Ross Gorman during rehearsal and kept in the score\nOriginally scored for jazz band and piano; Ferde Grof\u00e9 later created the standard symphonic orchestration (1942)\nFuses jazz harmonies, blues scales, and rhythmic syncopation with the structure of a classical concerto\nComposed in just a few weeks after the composer learned from a newspaper that he was writing it \u2014 Whiteman had announced it without asking\nNow used as the musical signature of United Airlines and featured prominently in Woody Allen's *Manhattan* (1979)",
+          "cardFront": "Rhapsody in Blue",
+          "cardBack": "George Gershwin"
+        },
+        {
+          "id": "peter-and-the-wolf",
+          "prompt": "Which Soviet composer wrote a symphonic fairy tale (1936) in which each character is represented by a different instrument \u2014 bird by flute, cat by clarinet, wolf by French horns, and the boy hero by strings?",
+          "answer": "Sergei Prokofiev",
+          "alternates": ["Prokofiev", "Prokofieff"],
+          "explanation": "Symphonic fairy tale for narrator and orchestra, composed in 1936 for the Central Children's Theatre in Moscow\nEach character has a signature instrument: bird = flute, duck = oboe, cat = clarinet, grandfather = bassoon, wolf = French horns, hunters = timpani and bass drum, the boy hero = string quartet\nWritten to introduce children to the instruments of the orchestra\nPremiered on May 2, 1936; the composer was reportedly disappointed by the small, inattentive audience of children\nNarrated versions have been recorded by celebrities including David Bowie, Patrick Stewart, and Sophia Loren\nOne of the most frequently performed works for young audiences, now a gateway piece for music education worldwide",
+          "cardFront": "Peter and the Wolf",
+          "cardBack": "Sergei Prokofiev"
+        }
+      ]
+    }
+  ]
+}

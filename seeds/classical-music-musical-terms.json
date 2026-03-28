@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "classical-music/musical-terms", "parentId": "classical-music", "name": "Musical Terms & Notation", "description": "Essential musical vocabulary for tempo, dynamics, form, and performance" }
+  ],
+  "exercises": [
+    {
+      "id": "classical-music/musical-terms/musical-terms-and-notation",
+      "nodeId": "classical-music/musical-terms",
+      "name": "Musical Terms & Notation",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "forte",
+          "prompt": "What Italian musical term meaning 'strong' or 'loud' is one of the standard dynamic markings, written as *f*, and is the opposite of piano?",
+          "answer": "Forte",
+          "alternates": ["forte"],
+          "explanation": "Italian for 'strong' or 'loud'; one of the fundamental dynamic markings in Western music\nWritten as *f* in musical notation; part of a spectrum from *pp* (pianissimo) to *ff* (fortissimo) and beyond\nThe opposite of piano (*p*, meaning soft) \u2014 together they give the pianoforte (piano) its full name\nDynamic markings were not standardized until the Baroque era; earlier music left volume to the performer's discretion\nUsed as a relative instruction, not an absolute volume \u2014 forte in a string quartet is quieter than forte in a full orchestra\nThe term entered English as an everyday word meaning 'a person's strong suit' (e.g., 'cooking is not my forte')",
+          "cardFront": "Dynamic marking meaning 'loud,' written as *f*",
+          "cardBack": "Forte"
+        },
+        {
+          "id": "allegro",
+          "prompt": "What Italian tempo marking meaning 'fast and lively,' typically 120\u2013156 BPM, is one of the most common tempo indications in classical music?",
+          "answer": "Allegro",
+          "alternates": ["allegro"],
+          "explanation": "Italian for 'cheerful' or 'lively'; in practice, indicates a fast tempo, typically 120\u2013156 BPM\nOne of the most common tempo markings; the standard first-movement tempo of Classical-era symphonies and sonatas\nFaster than andante and moderato, slower than vivace and presto\nVariants include allegretto (slightly slower), allegro vivace (slightly faster), and allegro ma non troppo ('fast but not too much')\nThe literal meaning is 'cheerful,' reflecting the Italian origins of musical terminology\nVirtually every major symphony includes at least one allegro movement",
+          "cardFront": "Tempo marking meaning 'fast, lively,' typically 120\u2013156 BPM",
+          "cardBack": "Allegro"
+        },
+        {
+          "id": "crescendo",
+          "prompt": "What musical term describes a gradual increase in volume, notated with a hairpin symbol (<) opening outward, with its opposite being diminuendo?",
+          "answer": "Crescendo",
+          "alternates": ["crescendo"],
+          "explanation": "Italian for 'growing'; indicates a gradual increase in loudness\nNotated either with the abbreviation 'cresc.' or with a hairpin symbol (<) opening to the right\nThe opposite is diminuendo (or decrescendo), notated with a closing hairpin (>)\nRavel's *Bol\u00e9ro* is essentially one long crescendo spanning the entire piece\nOften misused in everyday English to mean 'a climax' ('reached a crescendo'), but it actually refers to the process of getting louder, not the loud point itself\nRossini was nicknamed 'Monsieur Crescendo' for his signature technique of building orchestral excitement through extended passages of increasing volume",
+          "cardFront": "Gradual increase in volume, notated with hairpin (<)",
+          "cardBack": "Crescendo"
+        },
+        {
+          "id": "libretto",
+          "prompt": "What Italian term, literally meaning 'little book,' refers to the text or words of an opera, oratorio, or musical?",
+          "answer": "Libretto",
+          "alternates": ["libretto"],
+          "explanation": "Italian diminutive of 'libro' (book); the complete text of an opera, oratorio, or musical, including all sung and spoken words\nThe author of a libretto is called a librettist\nLorenzo Da Ponte wrote the libretti for three of Mozart's greatest operas: *The Marriage of Figaro*, *Don Giovanni*, and *Cos\u00ec fan tutte*\nW.S. Gilbert wrote the libretti for the Gilbert and Sullivan operettas, including *The Mikado* and *H.M.S. Pinafore*\nSome composers wrote their own libretti, most notably Richard Wagner, who insisted on total artistic control\nThe plural is 'libretti' (Italian) or 'librettos' (English); both are accepted",
+          "cardFront": "The text/words of an opera or musical (literally 'little book')",
+          "cardBack": "Libretto"
+        },
+        {
+          "id": "aria",
+          "prompt": "What Italian term for 'air' describes a self-contained solo vocal piece within an opera, oratorio, or cantata that showcases a singer's vocal ability?",
+          "answer": "Aria",
+          "alternates": ["aria"],
+          "explanation": "Italian for 'air'; a self-contained piece for solo voice, typically within an opera, oratorio, or cantata\nDesigned to showcase the singer's vocal technique, emotional expression, and range\nDistinguished from recitative (speech-like singing that advances the plot) \u2014 arias pause the action for emotional reflection\nFamous examples include 'Nessun dorma' from *Turandot*, 'La donna \u00e8 mobile' from *Rigoletto*, and the Queen of the Night's aria from *The Magic Flute*\nDa capo aria (ABA form) dominated Baroque opera; the singer was expected to improvise ornamentation on the repeat\nThe term is sometimes used loosely for any prominent vocal melody, even instrumental ones (e.g., the 'Goldberg' Aria by Bach)",
+          "cardFront": "Self-contained solo vocal piece in an opera or oratorio",
+          "cardBack": "Aria"
+        },
+        {
+          "id": "overture",
+          "prompt": "What musical term describes the orchestral introduction to an opera, ballet, or musical that often previews the main themes of the work?",
+          "answer": "Overture",
+          "alternates": ["overture"],
+          "explanation": "An orchestral piece played before the curtain rises on an opera, ballet, or musical\nOften previews the main melodies and themes the audience will hear in the full work\nFamous operatic examples include the overtures to *William Tell*, *The Barber of Seville*, and *The Marriage of Figaro*\nA 'concert overture' is a standalone orchestral work not attached to a larger stage piece (e.g., Brahms's *Academic Festival Overture*)\nThe French overture (slow\u2013fast) and Italian overture (fast\u2013slow\u2013fast) were the two main Baroque forms\nThe term entered everyday English to mean an opening approach or proposal ('made overtures of peace')",
+          "cardFront": "Orchestral introduction to an opera, ballet, or musical",
+          "cardBack": "Overture"
+        },
+        {
+          "id": "sonata",
+          "prompt": "What musical term describes a multi-movement composition typically for a solo instrument or instrument with piano, whose associated 'form' (exposition-development-recapitulation) is the fundamental structure of Classical-era first movements?",
+          "answer": "Sonata",
+          "alternates": ["sonata"],
+          "explanation": "A multi-movement composition, typically for solo instrument or instrument with piano accompaniment\nSonata form (exposition\u2013development\u2013recapitulation) is the structural backbone of first movements in Classical-era symphonies, concertos, and string quartets\nThe word comes from the Italian 'sonare' ('to sound'), as opposed to 'cantata' ('to sing')\nBeethoven's 32 piano sonatas are the cornerstone of the piano repertoire, including the 'Moonlight,' 'Path\u00e9tique,' and 'Waldstein'\nTypically three or four movements: fast\u2013slow\u2013[minuet/scherzo]\u2013fast\nThe term evolved over centuries; a Baroque sonata (e.g., Corelli) is structurally very different from a Classical-era sonata (e.g., Mozart)",
+          "cardFront": "Multi-movement work for solo instrument; its 'form' has exposition-development-recapitulation",
+          "cardBack": "Sonata"
+        },
+        {
+          "id": "adagio",
+          "prompt": "What Italian tempo marking meaning 'slow, at ease,' typically 66\u201376 BPM, is often used for lyrical slow movements \u2014 as in Barber's famous work for strings?",
+          "answer": "Adagio",
+          "alternates": ["adagio"],
+          "explanation": "Italian for 'at ease'; a slow tempo, typically 66\u201376 BPM\nOne of the standard slow tempo markings, between andante (walking pace) and largo (very slow)\nSamuel Barber's *Adagio for Strings* (1936) is perhaps the most famous piece bearing this name, broadcast on radio upon FDR's death in 1945 and played at JFK's funeral in 1963\nSlow movements in symphonies and concertos are often marked adagio, providing lyrical contrast to fast outer movements\nThe term is also used as a noun for the slow section of a ballet pas de deux\nVariants include adagietto (slightly faster) and adagissimo (extremely slow)",
+          "cardFront": "Tempo marking meaning 'slow, at ease,' typically 66\u201376 BPM",
+          "cardBack": "Adagio"
+        },
+        {
+          "id": "pianissimo",
+          "prompt": "What dynamic marking, written as *pp*, indicates 'very soft' \u2014 one level quieter than piano (*p*), with ranges extending to *ppp* and even *pppp*?",
+          "answer": "Pianissimo",
+          "alternates": ["pianissimo"],
+          "explanation": "Italian superlative of 'piano' (soft); indicates 'very soft' in musical dynamics\nWritten as *pp* in notation; softer than piano (*p*) and the opposite end of the spectrum from fortissimo (*ff*)\nExtreme dynamics (*ppp*, *pppp*) appear in works by Tchaikovsky, Mahler, and others seeking the quietest possible sounds\nThe opening of Beethoven's *Ninth Symphony* begins *pp* with a shimmering open fifth, gradually building to the famous theme\nRequires exceptional control from performers \u2014 playing very softly while maintaining tone quality is harder than playing loudly\nThe word 'piano' in the instrument's name (pianoforte) originally meant 'soft-loud,' referring to its ability to vary dynamics, unlike the harpsichord",
+          "cardFront": "Very soft dynamic, written as *pp*",
+          "cardBack": "Pianissimo"
+        },
+        {
+          "id": "staccato",
+          "prompt": "What performance technique, notated with a dot above or below the note, means notes should be played short and detached, as opposed to legato?",
+          "answer": "Staccato",
+          "alternates": ["staccato"],
+          "explanation": "Italian for 'detached'; notes are played short, separated, and crisp\nNotated with a small dot placed above or below the notehead\nThe opposite of legato ('tied' or 'smooth'), where notes flow connectedly into one another\nStaccatissimo (indicated by a wedge or triangle) means even shorter and sharper than staccato\nA fundamental articulation marking used across all instruments and all periods of Western music\nThe term is used figuratively in English to describe speech or action that is abrupt and clipped ('spoke in staccato bursts')",
+          "cardFront": "Short, detached notes, notated with a dot above/below the note",
+          "cardBack": "Staccato"
+        },
+        {
+          "id": "fortissimo",
+          "prompt": "What dynamic marking, written as *ff*, indicates 'very loud' \u2014 one level louder than forte (*f*), with composers like Tchaikovsky and Mahler pushing to *fff* and beyond?",
+          "answer": "Fortissimo",
+          "alternates": ["fortissimo"],
+          "explanation": "Italian superlative of 'forte' (loud); indicates 'very loud' in musical dynamics\nWritten as *ff* in notation; louder than forte (*f*) and the opposite of pianissimo (*pp*)\nExtreme markings (*fff*, *ffff*) appear in orchestral works by late Romantic composers seeking maximum sonic impact\nTchaikovsky's *1812 Overture* finale (with cannon fire) and Mahler's symphonies are famous for pushing dynamic extremes\nThe full dynamic spectrum from *pppp* to *ffff* spans roughly 40\u201350 decibels in a concert hall\nEffective fortissimo requires not just volume but balance \u2014 an orchestra playing *ff* must ensure no single section drowns out the others",
+          "cardFront": "Very loud dynamic, written as *ff*",
+          "cardBack": "Fortissimo"
+        },
+        {
+          "id": "concerto",
+          "prompt": "What musical form features a solo instrument accompanied by an orchestra, typically in three movements (fast-slow-fast), with an unaccompanied showcase passage called a cadenza?",
+          "answer": "Concerto",
+          "alternates": ["concerto"],
+          "explanation": "A composition for solo instrument (or small group) with orchestral accompaniment, typically in three movements: fast\u2013slow\u2013fast\nThe cadenza is an unaccompanied passage where the soloist displays virtuosity; in earlier eras, soloists improvised cadenzas\nThe concerto grosso (Baroque) featured a small group of soloists versus the full orchestra; the solo concerto (Classical onward) features one soloist\nFamous examples include Tchaikovsky's *Piano Concerto No. 1*, Mendelssohn's *Violin Concerto*, and Dvo\u0159\u00e1k's *Cello Concerto*\nMozart wrote 27 piano concertos, the largest body of concertos by a single composer for one instrument\nThe word derives from the Latin 'concertare' \u2014 debated whether it means 'to compete' or 'to cooperate,' both of which describe the soloist-orchestra relationship",
+          "cardFront": "Solo instrument with orchestra; typically three movements with a cadenza",
+          "cardBack": "Concerto"
+        }
+      ]
+    }
+  ]
+}

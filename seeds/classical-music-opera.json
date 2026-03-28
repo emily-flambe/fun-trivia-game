@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "classical-music/opera", "parentId": "classical-music", "name": "Opera Essentials", "description": "Famous operas and the composers who wrote them" }
+  ],
+  "exercises": [
+    {
+      "id": "classical-music/opera/opera-essentials",
+      "nodeId": "classical-music/opera",
+      "name": "Opera Essentials",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "la-boheme",
+          "prompt": "Which Italian composer wrote the opera (1896) set in 1830s Paris about the love story of seamstress Mim\u00ec and poet Rodolfo, later the basis for the musical *Rent*?",
+          "answer": "Giacomo Puccini",
+          "alternates": ["Puccini"],
+          "explanation": "Opera in four acts, premiered at the Teatro Regio in Turin on February 1, 1896, conducted by a 28-year-old Arturo Toscanini\nSet in the Latin Quarter of 1830s Paris among struggling bohemian artists\nFamous arias include 'Che gelida manina' (Rodolfo) and 'S\u00ec, mi chiamano Mim\u00ec' (Mim\u00ec)\nJonathan Larson's musical *Rent* (1996) transposed the story to 1990s New York City's East Village\nMim\u00ec dies of tuberculosis in the final act \u2014 one of opera's most famous death scenes\nCompeted directly with Ruggero Leoncavallo's opera of the same name; the rival version is now forgotten",
+          "cardFront": "La Boh\u00e8me",
+          "cardBack": "Giacomo Puccini"
+        },
+        {
+          "id": "carmen",
+          "prompt": "Which French composer wrote the opera (1875) set in Seville about a free-spirited gypsy who seduces soldier Don Jos\u00e9, featuring the 'Habanera' and 'Toreador Song'?",
+          "answer": "Georges Bizet",
+          "alternates": ["Bizet"],
+          "explanation": "Op\u00e9ra comique in four acts, premiered at the Op\u00e9ra-Comique in Paris on March 3, 1875\nSet in and around Seville, Spain; the title character is a Roma cigarette factory worker who seduces the soldier Don Jos\u00e9\nThe 'Habanera' ('L'amour est un oiseau rebelle') and 'Toreador Song' are among the most recognized melodies in all opera\nInitially shocked audiences with its themes of seduction, jealousy, and murder on the operatic stage\nThe composer died on June 3, 1875 \u2014 exactly three months after the premiere \u2014 believing the work was a failure\nNow the fourth most-performed opera worldwide and a staple of every major opera house",
+          "cardFront": "Carmen",
+          "cardBack": "Georges Bizet"
+        },
+        {
+          "id": "magic-flute",
+          "prompt": "Which Austrian composer wrote the Singspiel (1791) featuring the Queen of the Night's aria with its famous high F6, his last completed opera, premiered two months before his death?",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": ["Mozart", "W.A. Mozart"],
+          "explanation": "Singspiel (German-language opera with spoken dialogue) in two acts, premiered September 30, 1791, at the Theater auf der Wieden in Vienna\nThe Queen of the Night's aria 'Der H\u00f6lle Rache' reaches high F6 multiple times, making it one of the most technically demanding soprano arias\nLibretto by Emanuel Schikaneder, who also played Papageno in the premiere\nBlends Masonic symbolism, fairy-tale elements, and Enlightenment ideals\nThe composer died on December 5, 1791, roughly two months after the premiere\nRemains one of the most frequently performed operas in the world, popular with both newcomers and aficionados",
+          "cardFront": "The Magic Flute (Die Zauberfl\u00f6te)",
+          "cardBack": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "madama-butterfly",
+          "prompt": "Which Italian composer wrote the opera (1904) set in Nagasaki about a geisha abandoned by an American naval officer, featuring the aria 'Un bel d\u00ec vedremo'?",
+          "answer": "Giacomo Puccini",
+          "alternates": ["Puccini"],
+          "explanation": "Opera originally in two acts; after the disastrous La Scala premiere, revised into three acts (the standard version today), set in Nagasaki, Japan, around 1900\nGeisha Cio-Cio-San (Butterfly) marries American naval lieutenant Pinkerton, who abandons her; she waits three years for his return\n'Un bel d\u00ec vedremo' ('One fine day') is one of the most beloved soprano arias in the repertoire\nDisastrously flopped at its La Scala premiere on February 17, 1904; the composer revised it to great success three months later at Brescia\nBased on a short story by John Luther Long and a play by David Belasco\nEnds with Butterfly's suicide by her father's dagger upon learning Pinkerton has returned with an American wife",
+          "cardFront": "Madama Butterfly",
+          "cardBack": "Giacomo Puccini"
+        },
+        {
+          "id": "aida",
+          "prompt": "Which Italian composer wrote the opera (1871) set in ancient Egypt, commissioned for the Khedivial Opera House in Cairo, featuring a famous triumphal march?",
+          "answer": "Giuseppe Verdi",
+          "alternates": ["Verdi"],
+          "explanation": "Opera in four acts, commissioned by Khedive Ismail for the Khedivial Opera House in Cairo (the house had opened in 1869 with *Rigoletto*; *Aida* premiered two years later)\nPremiered in Cairo on December 24, 1871; the composer refused to attend, disliking sea voyages\nSet in ancient Egypt during a war between Egypt and Ethiopia; the title character is an Ethiopian princess enslaved in Egypt\nThe Act II triumphal march ('Gloria all'Egitto') is one of the most spectacular scenes in opera\nLove triangle between the Egyptian princess Amneris, the enslaved Aida, and the Egyptian military commander Radames\nAida and Radames are entombed alive together in the final scene while Amneris prays above",
+          "cardFront": "Aida",
+          "cardBack": "Giuseppe Verdi"
+        },
+        {
+          "id": "ring-cycle",
+          "prompt": "Which German composer created a cycle of four operas totaling roughly 15 hours (1869\u20131876), based on Norse mythology, for which he built a custom theater at Bayreuth?",
+          "answer": "Richard Wagner",
+          "alternates": ["Wagner"],
+          "explanation": "Four interconnected operas: *Das Rheingold*, *Die Walk\u00fcre*, *Siegfried*, and *G\u00f6tterd\u00e4mmerung*\nTotals approximately 15 hours of music; took 26 years to complete (1848\u20131874)\nThe Bayreuth Festspielhaus was purpose-built in 1876 for the complete cycle's premiere and still hosts an annual festival exclusively devoted to this composer's works\nDraws on Norse/Germanic mythology: the Nibelungs, Valkyries, the cursed ring of the Rhinegold, and the twilight of the gods\nPioneered the use of leitmotifs \u2014 recurring musical themes associated with specific characters, objects, or ideas\nPerforming the complete cycle is a prestige event for opera companies; audiences attend over four consecutive evenings",
+          "cardFront": "Der Ring des Nibelungen (The Ring Cycle)",
+          "cardBack": "Richard Wagner"
+        },
+        {
+          "id": "barber-of-seville",
+          "prompt": "Which Italian composer wrote the opera buffa (1816) in which the barber Figaro helps Count Almaviva woo Rosina, featuring Figaro's famous rapid-fire entrance aria?",
+          "answer": "Gioachino Rossini",
+          "alternates": ["Rossini"],
+          "explanation": "Opera buffa (comic opera) in two acts, premiered at the Teatro Argentina in Rome on February 20, 1816\n'Largo al factotum' (Figaro's entrance aria, with its repeated 'Figaro! Figaro! Figaro!') is one of the most recognized arias in opera\nFlopped spectacularly on opening night due to sabotage by fans of Giovanni Paisiello's older version of the same story; recovered within days\nBased on the first play in Pierre Beaumarchais's Figaro trilogy; the second play became the basis for a different composer's *The Marriage of Figaro*\nComposed in just two to three weeks, typical of the composer's legendary speed\nThe character of Figaro \u2014 a clever, scheming barber \u2014 has become an archetype in Western culture",
+          "cardFront": "The Barber of Seville",
+          "cardBack": "Gioachino Rossini"
+        },
+        {
+          "id": "la-traviata",
+          "prompt": "Which Italian composer wrote the opera (1853) about a Parisian courtesan who renounces love, based on Dumas' *La Dame aux cam\u00e9lias* and featuring the famous 'Brindisi' drinking song?",
+          "answer": "Giuseppe Verdi",
+          "alternates": ["Verdi"],
+          "explanation": "Opera in three acts, premiered at La Fenice in Venice on March 6, 1853\nTitle means 'The Fallen Woman'; based on Alexandre Dumas fils' novel and play *La Dame aux cam\u00e9lias*\nThe courtesan Violetta renounces her lover Alfredo at his father's insistence, then dies of tuberculosis\nThe 'Brindisi' ('Libiamo ne' lieti calici') is one of the most famous drinking songs in opera\nThe premiere was a fiasco \u2014 the audience laughed at the overweight soprano dying of consumption; revised productions triumphed\nConsistently among the top three most-performed operas worldwide alongside *La Boh\u00e8me* and *Carmen*",
+          "cardFront": "La traviata",
+          "cardBack": "Giuseppe Verdi"
+        },
+        {
+          "id": "tosca",
+          "prompt": "Which Italian composer wrote the opera (1900) set during Napoleon's 1800 Italian campaign, ending with the heroine leaping from the Castel Sant'Angelo after stabbing the villain Baron Scarpia?",
+          "answer": "Giacomo Puccini",
+          "alternates": ["Puccini"],
+          "explanation": "Opera in three acts, premiered at the Teatro Costanzi in Rome on January 14, 1900\nSet in Rome on June 17\u201318, 1800, during the Napoleonic Wars; action spans less than 24 hours\nThree principal characters: the singer Tosca, her lover the painter Cavaradossi, and the corrupt police chief Baron Scarpia\n'Vissi d'arte' ('I lived for art') is Tosca's famous aria lamenting her fate\nEnds with Tosca stabbing Scarpia, Cavaradossi's execution by firing squad, and Tosca leaping to her death from the battlements of the Castel Sant'Angelo\nSometimes called a 'shabby little shocker' (a phrase attributed to musicologist Joseph Kerman), yet it remains one of the most gripping works in the repertoire",
+          "cardFront": "Tosca",
+          "cardBack": "Giacomo Puccini"
+        },
+        {
+          "id": "don-giovanni",
+          "prompt": "Which Austrian composer wrote the 'dramma giocoso' (1787) about a legendary seducer who is ultimately dragged to hell by the stone statue of a man he murdered?",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": ["Mozart", "W.A. Mozart"],
+          "explanation": "Dramma giocoso (a blend of comic and serious opera) in two acts, premiered in Prague on October 29, 1787\nBased on the legend of Don Juan, the compulsive seducer; Leporello's 'Catalogue Aria' lists 2,065 conquests across Europe\nThe stone statue of the murdered Commendatore comes to dinner and drags Don Giovanni to hell in the finale\nLibretto by Lorenzo Da Ponte, who also wrote *The Marriage of Figaro* and *Cos\u00ec fan tutte* for the same composer\nOften considered the greatest opera ever written, blending comedy, tragedy, and the supernatural\nS\u00f8ren Kierkegaard devoted a major section of *Either/Or* (1843) to analyzing this work as the supreme expression of the aesthetic life",
+          "cardFront": "Don Giovanni",
+          "cardBack": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "rigoletto",
+          "prompt": "Which Italian composer wrote the opera (1851) about a hunchback court jester whose daughter is seduced by a Duke, featuring the tenor aria 'La donna \u00e8 mobile'?",
+          "answer": "Giuseppe Verdi",
+          "alternates": ["Verdi"],
+          "explanation": "Opera in three acts, premiered at La Fenice in Venice on March 11, 1851\nBased on Victor Hugo's play *Le roi s'amuse*; Austrian censors forced changes to the setting (from the French court to Mantua)\nThe hunchback jester Rigoletto tries to protect his daughter Gilda from the lecherous Duke of Mantua\n'La donna \u00e8 mobile' ('Woman is fickle') is one of the most famous tenor arias; the composer kept it secret until opening night to prevent it from leaking\nEnds tragically with Rigoletto discovering that the body in the sack he ordered killed is his own daughter, not the Duke\nPart of the composer's 'popular trilogy' along with *Il trovatore* (1853) and *La traviata* (1853)",
+          "cardFront": "Rigoletto",
+          "cardBack": "Giuseppe Verdi"
+        },
+        {
+          "id": "marriage-of-figaro",
+          "prompt": "Which Austrian composer wrote the opera (1786) in which a clever servant prevents his master from exercising 'droit du seigneur,' with a libretto by Lorenzo Da Ponte?",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": ["Mozart", "W.A. Mozart"],
+          "explanation": "Opera buffa in four acts, premiered at the Burgtheater in Vienna on May 1, 1786\nBased on the second play in Beaumarchais's Figaro trilogy, following the story continued from *The Barber of Seville*\nFigaro outmaneuvers Count Almaviva, who is trying to exercise the feudal 'droit du seigneur' with Figaro's bride Susanna\nLibretto by Lorenzo Da Ponte; Beaumarchais's play was banned in Vienna for its anti-aristocratic themes, requiring careful adaptation\nThe Act III sextet and Act IV finale are considered among the greatest ensemble scenes in opera history\nA modest success in Vienna but a sensation in Prague, where it ran for months and led to the commission for *Don Giovanni*",
+          "cardFront": "The Marriage of Figaro (Le nozze di Figaro)",
+          "cardBack": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "turandot",
+          "prompt": "Which Italian composer left his final opera unfinished at his death in 1924, a work set in China whose aria 'Nessun dorma' was popularized by Luciano Pavarotti?",
+          "answer": "Giacomo Puccini",
+          "alternates": ["Puccini"],
+          "explanation": "Opera in three acts, left unfinished at the composer's death on November 29, 1924; completed by Franco Alfano\nSet in legendary Peking (Beijing); Princess Turandot poses three riddles to suitors \u2014 failure means death\n'Nessun dorma' ('None shall sleep') became globally famous when Luciano Pavarotti performed it at the 1990 FIFA World Cup\nAt the premiere on April 25, 1926, conductor Arturo Toscanini stopped at the point where the composer's manuscript ended and told the audience, 'Here the opera finishes, because at this point the Maestro died'\nThe slave girl Li\u00f9's self-sacrifice is the emotional heart of the opera; it was the last music the composer completed\nThe three riddles (Hope, Blood, Turandot) and the answer to the final riddle (the prince's name, Calaf) are central to the plot",
+          "cardFront": "Turandot",
+          "cardBack": "Giacomo Puccini"
+        },
+        {
+          "id": "norma",
+          "prompt": "Which Italian composer wrote the opera (1831) about a Druid priestess torn between sacred duty and love for a Roman proconsul, featuring the demanding soprano aria 'Casta diva'?",
+          "answer": "Vincenzo Bellini",
+          "alternates": ["Bellini"],
+          "explanation": "Opera in two acts, premiered at La Scala in Milan on December 26, 1831\nThe Druid high priestess Norma secretly loves the Roman proconsul Pollione, by whom she has two children, violating her vows\n'Casta diva' ('Chaste goddess'), a prayer to the moon, is one of the most technically demanding and celebrated soprano arias\nMaria Callas made this her signature role, performing it 89 times and defining the modern standard\nThe bel canto style demands extreme vocal control: long legato lines, ornamentation, and a range spanning over two octaves\nEnds with Norma confessing her violation and walking into a sacrificial pyre; Pollione, moved by her courage, joins her",
+          "cardFront": "Norma",
+          "cardBack": "Vincenzo Bellini"
+        },
+        {
+          "id": "flying-dutchman",
+          "prompt": "Which German composer wrote the opera (1843) about a ghost ship captain cursed to sail forever unless redeemed by a faithful woman, based on a maritime legend?",
+          "answer": "Richard Wagner",
+          "alternates": ["Wagner"],
+          "explanation": "Opera in three acts, premiered at the Royal Court Theatre in Dresden on January 2, 1843\nBased on the legend of a spectral ship doomed to sail the seas eternally; the captain can come ashore once every seven years to seek a faithful wife\nSenta, a Norwegian woman obsessed with the legend, pledges her faithfulness and ultimately leaps into the sea to redeem him\nOne of the composer's earliest major operas, marking the transition from conventional opera toward his mature style\nThe overture depicts the storm-tossed sea and the Dutchman's curse through dramatic orchestration\nOriginally conceived as a one-act opera but expanded to three acts for the 1843 premiere",
+          "cardFront": "The Flying Dutchman (Der fliegende Holl\u00e4nder)",
+          "cardBack": "Richard Wagner"
+        }
+      ]
+    }
+  ]
+}
