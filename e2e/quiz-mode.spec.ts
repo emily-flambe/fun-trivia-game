@@ -58,7 +58,7 @@ test.describe('Quiz completion actions', () => {
 	test('shows Retake, Retake Failed Only, Next, and Home buttons', async ({ page }) => {
 		await completeQuizBySkipping(page);
 
-		await expect(page.getByRole('button', { name: 'Retake' })).toBeVisible();
+		await expect(page.getByRole('button', { name: 'Retake', exact: true })).toBeVisible();
 		await expect(page.getByRole('button', { name: 'Retake Failed Only' })).toBeVisible();
 		await expect(page.getByRole('main').getByRole('link', { name: 'Next' })).toBeVisible();
 		await expect(page.getByRole('main').getByRole('link', { name: 'Home' })).toBeVisible();
@@ -66,7 +66,7 @@ test.describe('Quiz completion actions', () => {
 
 	test('Retake restarts the quiz', async ({ page }) => {
 		await completeQuizBySkipping(page);
-		await page.getByRole('button', { name: 'Retake' }).click();
+		await page.getByRole('button', { name: 'Retake', exact: true }).click();
 
 		// Should be back in quiz mode with input visible
 		await expect(page.locator('input')).toBeVisible({ timeout: 3000 });
