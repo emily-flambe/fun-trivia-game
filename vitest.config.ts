@@ -6,6 +6,11 @@ export default defineWorkersConfig({
 		poolOptions: {
 			workers: {
 				wrangler: { configPath: './wrangler.toml' },
+				miniflare: {
+					bindings: {
+						CF_ACCESS_TEST_EMAIL: 'test@trivia.emilycogsdill.com',
+					},
+				},
 			},
 		},
 	},
