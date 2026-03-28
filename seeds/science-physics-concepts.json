@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "science/physics", "parentId": "science", "name": "Physics", "description": "Fundamental laws, theories, and phenomena of physics" }
+  ],
+  "exercises": [
+    {
+      "id": "science/physics/key-concepts",
+      "nodeId": "science/physics",
+      "name": "Famous Physics Concepts",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "mass-energy-equivalence",
+          "prompt": "What equation, derived by Einstein in his 1905 'miracle year' paper on special relativity, expresses that mass and energy are interconvertible and equivalent — where E is energy, m is mass, and c is the speed of light?",
+          "answer": "E=mc²",
+          "alternates": ["E = mc squared", "E equals mc squared", "mass-energy equivalence"],
+          "explanation": "Published in Einstein's September 1905 paper, the fourth of his four 'miracle year' papers.\nc² ≈ 9 × 10¹⁶ m²/s²; a tiny amount of mass converts to an enormous amount of energy.\nThe basis for nuclear energy: in fission, the mass of products is slightly less than the original nucleus — the 'missing' mass becomes energy.\nNuclear bombs and reactors release energy by converting a fraction of nuclear mass to energy via this equation.",
+          "cardFront": "Mass-energy equivalence",
+          "cardBack": "E=mc²"
+        },
+        {
+          "id": "speed-of-light",
+          "prompt": "What universal constant, denoted c, equals exactly 299,792,458 meters per second in a vacuum, represents the maximum speed at which any matter or information can travel, and appears in Einstein's mass-energy equation?",
+          "answer": "Speed of light",
+          "alternates": ["c", "the speed of light", "speed of light in a vacuum"],
+          "explanation": "c = 299,792,458 m/s exactly — this is now the defined value used to fix the meter.\nFirst accurately measured by Ole Rømer in 1676 by observing eclipse timing variations of Jupiter's moon Io.\nAlbert Michelson won the 1907 Nobel Prize for his precise measurements of the speed of light.\nAt c, time dilation and length contraction in special relativity become infinite; no massive object can reach c.",
+          "cardFront": "c = 299,792,458 m/s; cosmic speed limit",
+          "cardBack": "Speed of light"
+        },
+        {
+          "id": "uncertainty-principle",
+          "prompt": "Which principle of quantum mechanics, formulated by Werner Heisenberg in 1927, states that the more precisely a particle's position is known, the less precisely its momentum can be known — and vice versa — setting a fundamental limit on measurement?",
+          "answer": "Heisenberg's uncertainty principle",
+          "alternates": ["Uncertainty principle", "Heisenberg uncertainty principle"],
+          "explanation": "The uncertainty principle: Δx · Δp ≥ ℏ/2, where ℏ is the reduced Planck constant.\nThis is not a limitation of instruments — it is a fundamental property of quantum systems.\nArises because measuring a particle (e.g., hitting it with a photon) disturbs it — position and momentum cannot both be sharp simultaneously.\nAlso applies to energy and time: a particle's energy cannot be precisely defined over a very short time interval.",
+          "cardFront": "Position and momentum cannot both be precisely known",
+          "cardBack": "Heisenberg's uncertainty principle"
+        },
+        {
+          "id": "schrodingers-cat",
+          "prompt": "What 1935 thought experiment, devised by Erwin Schrödinger to expose the apparent absurdity of quantum superposition when applied to everyday objects, involves a cat in a sealed box that is simultaneously alive and dead until an observer opens the box?",
+          "answer": "Schrödinger's cat",
+          "alternates": ["Schrodinger's cat", "Schrödinger's cat thought experiment"],
+          "explanation": "Schrödinger designed the gedankenexperiment to critique the Copenhagen interpretation's claim that a quantum system exists in superposition until observed.\nThe cat's fate is linked to a radioactive atom: if it decays, a mechanism kills the cat — but until observed, the atom is both decayed and not decayed.\nSchrödinger intended it as a reductio ad absurdum, not an endorsement of the superposition idea.\nThe thought experiment spawned the 'many-worlds' interpretation: both outcomes occur in branching universes.",
+          "cardFront": "Quantum superposition applied to a macroscopic object",
+          "cardBack": "Schrödinger's cat"
+        },
+        {
+          "id": "wave-particle-duality",
+          "prompt": "What principle of quantum mechanics, demonstrated by the double-slit experiment and proposed by Louis de Broglie in 1924, holds that all matter and radiation exhibit both wave-like and particle-like properties?",
+          "answer": "Wave-particle duality",
+          "alternates": ["wave-particle duality", "particle-wave duality"],
+          "explanation": "The double-slit experiment: electrons fired one at a time through two slits produce an interference pattern — as if each electron passes through both slits simultaneously as a wave.\nWhen a detector measures which slit the electron passes through, the interference pattern disappears — the act of observation collapses the wave.\nLouis de Broglie proposed that all matter has an associated wavelength: λ = h/p (momentum).\nConfirmed experimentally by Davisson and Germer (1927) who observed electron diffraction.",
+          "cardFront": "Double-slit experiment; matter behaves as both wave and particle",
+          "cardBack": "Wave-particle duality"
+        },
+        {
+          "id": "photoelectric-effect",
+          "prompt": "What phenomenon, explained by Einstein in 1905 in the paper that won him the 1921 Nobel Prize in Physics, occurs when light above a threshold frequency strikes a metal surface and ejects electrons — demonstrating that light consists of discrete energy packets?",
+          "answer": "Photoelectric effect",
+          "alternates": [],
+          "explanation": "Einstein proposed that light consists of quanta (photons), each with energy E = hf (h = Planck's constant, f = frequency).\nExplains why increasing light intensity (but not frequency) below the threshold never ejects electrons — only photon energy (frequency) matters.\nThis was the paper for which Einstein won the Nobel Prize — not his theories of relativity, which the committee considered too speculative.\nThe photoelectric effect is the basis for solar cells, photodiodes, and digital cameras (CCDs).",
+          "cardFront": "Light ejects electrons; Einstein's 1921 Nobel",
+          "cardBack": "Photoelectric effect"
+        },
+        {
+          "id": "general-relativity",
+          "prompt": "What theory, published by Einstein in November 1915, describes gravity not as a force but as the curvature of spacetime caused by mass and energy — and was first confirmed in 1919 when starlight was observed to bend around the Sun during a solar eclipse?",
+          "answer": "General relativity",
+          "alternates": ["General theory of relativity"],
+          "explanation": "Replaces Newton's gravity: mass curves spacetime, and objects follow the straightest possible paths (geodesics) through curved spacetime.\nPredicted phenomena confirmed since 1915: light bending around mass (gravitational lensing), gravitational redshift, black holes, gravitational waves, expanding universe.\nArthur Eddington's 1919 solar eclipse expedition confirmed light deflection by the Sun, making Einstein world-famous overnight.\nGPS satellites require corrections for both special and general relativistic effects to remain accurate.",
+          "cardFront": "Gravity as spacetime curvature; confirmed in 1919 eclipse",
+          "cardBack": "General relativity"
+        },
+        {
+          "id": "big-bang",
+          "prompt": "What cosmological model, supported by Edwin Hubble's 1929 observation of galaxy recession and the 1965 discovery of cosmic microwave background radiation by Penzias and Wilson, describes the universe beginning ~13.8 billion years ago from an extremely hot, dense state?",
+          "answer": "Big Bang theory",
+          "alternates": ["Big Bang", "the Big Bang"],
+          "explanation": "The CMB — discovered accidentally by Penzias and Wilson at Bell Labs, who won the 1978 Nobel Prize — is the 'afterglow' of the early universe, ~380,000 years after the Big Bang.\nHubble's law: galaxies recede from us at speeds proportional to their distance — the universe is expanding.\nThe term 'Big Bang' was coined dismissively by astronomer Fred Hoyle, a rival who favored the Steady State model.\nThe Big Bang does not describe an explosion into pre-existing space; it describes the expansion of space itself.",
+          "cardFront": "Universe began ~13.8 billion years ago; CMB evidence",
+          "cardBack": "Big Bang theory"
+        },
+        {
+          "id": "absolute-zero",
+          "prompt": "What temperature, equal to exactly −273.15°C or 0 on the Kelvin scale, represents the theoretical lower limit of temperature at which a system has minimum possible thermal energy and all classical atomic motion ceases?",
+          "answer": "Absolute zero",
+          "alternates": ["0 Kelvin", "0 K", "−273.15°C", "-273.15 degrees Celsius"],
+          "explanation": "Absolute zero (0 K = −273.15°C = −459.67°F) was predicted by extrapolating gas behavior (Charles's and Gay-Lussac's laws).\nNever achievable in practice — the Third Law of Thermodynamics states you cannot reach absolute zero in a finite number of steps.\nAt temperatures near absolute zero, quantum effects dominate: Bose-Einstein condensates and superconductivity occur.\nThe coldest recorded temperature in a lab is ~100 picokelvins, achieved at MIT in 2003.",
+          "cardFront": "0 K = −273.15°C; minimum possible temperature",
+          "cardBack": "Absolute zero"
+        },
+        {
+          "id": "first-law-thermodynamics",
+          "prompt": "What law of thermodynamics, equivalent to the principle of conservation of energy, states that the total energy of an isolated system remains constant — energy may change form (heat, work, kinetic, potential) but cannot be created or destroyed?",
+          "answer": "First law of thermodynamics",
+          "alternates": ["1st law of thermodynamics", "law of conservation of energy"],
+          "explanation": "Mathematically: ΔU = Q − W, where U is internal energy, Q is heat added to the system, and W is work done by the system.\nImplication: a perpetual motion machine of the first kind (one that creates energy from nothing) is impossible.\nDeveloped in the 1840s by Joule, Mayer, and Helmholtz, who established the mechanical equivalence of heat.\nForms the basis for analyzing engines, refrigerators, and all thermodynamic processes.",
+          "cardFront": "Energy cannot be created or destroyed",
+          "cardBack": "First law of thermodynamics"
+        },
+        {
+          "id": "second-law-thermodynamics",
+          "prompt": "What law of thermodynamics states that the total entropy of a closed system always increases over time in any irreversible process — meaning heat flows spontaneously only from hot to cold, and disorder tends to increase?",
+          "answer": "Second law of thermodynamics",
+          "alternates": ["2nd law of thermodynamics"],
+          "explanation": "Entropy (S) is a measure of disorder or the number of microstates available to a system; ΔS_universe ≥ 0.\nNo engine is 100% efficient — some energy is always lost as waste heat (Carnot's theorem).\nImplication: a perpetual motion machine of the second kind (converting heat entirely to work) is impossible.\nArrow of time: the Second Law gives time a direction — processes naturally go from low to high entropy.",
+          "cardFront": "Total entropy of a closed system always increases",
+          "cardBack": "Second law of thermodynamics"
+        },
+        {
+          "id": "doppler-effect",
+          "prompt": "What effect, named after Austrian physicist Christian Doppler who described it in 1842, describes the apparent change in frequency or wavelength of a wave when the source and observer are moving relative to each other — explaining why a siren sounds higher-pitched as it approaches?",
+          "answer": "Doppler effect",
+          "alternates": ["Doppler shift"],
+          "explanation": "For sound: approaching sources compress wavefronts (higher pitch); receding sources stretch them (lower pitch).\nFor light: approaching sources are blue-shifted (shorter wavelength); receding sources are red-shifted (longer wavelength).\nRedshift of galaxies was Hubble's evidence that the universe is expanding.\nUsed in weather radar (tracking storm velocity), medical ultrasound (measuring blood flow), and speed guns.",
+          "cardFront": "Frequency shift from relative motion of source and observer",
+          "cardBack": "Doppler effect"
+        },
+        {
+          "id": "hawking-radiation",
+          "prompt": "What theoretical radiation, predicted by Stephen Hawking in 1974, is emitted by black holes due to quantum vacuum fluctuations near the event horizon — implying that black holes very slowly lose mass and will eventually evaporate entirely?",
+          "answer": "Hawking radiation",
+          "alternates": ["Hawking effect"],
+          "explanation": "Near the event horizon, quantum mechanics allows particle-antiparticle pairs to form; if one falls in and one escapes, the black hole loses net energy.\nThe radiation is thermal: smaller black holes are hotter and evaporate faster (a stellar-mass black hole's temperature is ~60 nanokelvins — colder than the CMB).\nNever directly observed — too faint to detect with current instruments — but widely accepted theoretically.\nHawking's paper 'Black hole explosions?' (1974) is considered one of the most important in theoretical physics.",
+          "cardFront": "Black holes slowly evaporate via quantum effects",
+          "cardBack": "Hawking radiation"
+        },
+        {
+          "id": "higgs-boson",
+          "prompt": "What subatomic particle, nicknamed the 'God particle' by Leon Lederman (a label Peter Higgs reportedly disliked), was detected at CERN's Large Hadron Collider on July 4, 2012 — confirming the mechanism by which fundamental particles acquire mass?",
+          "answer": "Higgs boson",
+          "alternates": ["Higgs particle", "God particle"],
+          "explanation": "The Higgs field permeates all of space; particles that interact with it acquire mass — those that don't interact (like photons) are massless.\nPredicted in 1964 independently by Peter Higgs, François Englert, and Robert Brout.\nDetected by both the ATLAS and CMS experiments at the LHC; Peter Higgs and Englert won the 2013 Nobel Prize in Physics.\nBrout died in 2011 and could not receive the Nobel Prize, which is not awarded posthumously.",
+          "cardFront": "'God particle'; detected at CERN LHC, July 4, 2012",
+          "cardBack": "Higgs boson"
+        },
+        {
+          "id": "gravitational-waves",
+          "prompt": "What phenomenon, predicted by Einstein's general relativity in 1916 and first directly detected on September 14, 2015, by the LIGO detectors, are ripples in the fabric of spacetime produced by accelerating masses — in this case, two merging black holes 1.3 billion light-years away?",
+          "answer": "Gravitational waves",
+          "alternates": ["gravitational wave", "gravity waves"],
+          "explanation": "The LIGO detectors measured a displacement of ~10⁻¹⁸ meters — one-thousandth the diameter of a proton — after traveling 1.3 billion light-years.\nThe discovery was announced February 11, 2016; Rainer Weiss, Barry Barish, and Kip Thorne won the 2017 Nobel Prize in Physics.\nOpened a new era of 'multi-messenger astronomy': the 2017 neutron star merger (GW170817) was observed in gravitational waves AND light simultaneously.\nEinstein himself doubted gravitational waves could ever be detected, given their extreme weakness.",
+          "cardFront": "Spacetime ripples; first detected by LIGO, September 14, 2015",
+          "cardBack": "Gravitational waves"
+        }
+      ]
+    }
+  ]
+}

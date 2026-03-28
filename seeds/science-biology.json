@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "science/biology", "parentId": "science", "name": "Biology", "description": "Life science, taxonomy, genetics, and cell biology" }
+  ],
+  "exercises": [
+    {
+      "id": "science/biology/taxonomy-and-genetics",
+      "nodeId": "science/biology",
+      "name": "Biology & Taxonomy",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "linnaeus",
+          "prompt": "Which 18th-century Swedish botanist, known as the 'father of taxonomy,' developed binomial nomenclature — the system of naming organisms with two Latin words for genus and species — and established the taxonomic hierarchy still used today?",
+          "answer": "Carl Linnaeus",
+          "alternates": ["Linnaeus", "Carolus Linnaeus", "Carl von Linné"],
+          "explanation": "Born 1707 in Råshult, Sweden; died 1778 in Uppsala.\nPublished *Systema Naturae* (first edition 1735), which classified plants, animals, and minerals.\nBinomial nomenclature: two-part Latin name — genus (capitalized) + specific epithet (lowercase), e.g., *Homo sapiens*.\nAlso classified himself: *Homo sapiens* ('wise man') appears in his 1758 10th edition — the first formal scientific name for humans.",
+          "cardFront": "Father of taxonomy; binomial nomenclature",
+          "cardBack": "Carl Linnaeus"
+        },
+        {
+          "id": "homo-sapiens",
+          "prompt": "What is the binomial scientific name for modern humans, meaning 'wise man' in Latin, coined by Linnaeus in his *Systema Naturae* (1758) and belonging to the genus that also includes extinct species such as *Homo neanderthalensis*?",
+          "answer": "Homo sapiens",
+          "alternates": ["Homo sapiens sapiens"],
+          "explanation": "Taxonomic classification: Domain Eukarya → Kingdom Animalia → Phylum Chordata → Class Mammalia → Order Primates → Family Hominidae → Genus *Homo* → Species *H. sapiens*.\n*Homo* is Latin for 'human' or 'man'; *sapiens* means 'knowing' or 'wise.'\nModern humans (*H. sapiens*) emerged in Africa ~300,000 years ago and spread globally.\nNeanderthals (*H. neanderthalensis*) coexisted with modern humans and interbred — most non-African humans carry ~1–4% Neanderthal DNA.",
+          "cardFront": "Scientific name for modern humans",
+          "cardBack": "Homo sapiens"
+        },
+        {
+          "id": "three-domains",
+          "prompt": "What three-domain system of classifying all life, proposed by Carl Woese and George Fox in 1977 based on ribosomal RNA sequences, replaced the traditional five-kingdom system and reorganized all organisms into what three top-level groups?",
+          "answer": "Bacteria, Archaea, and Eukarya",
+          "alternates": ["Bacteria, Archaea, Eukaryota", "Bacteria Archaea Eukarya", "Archaea, Bacteria, and Eukarya"],
+          "explanation": "Woese and Fox's rRNA analysis revealed that Archaea are as genetically distinct from Bacteria as they are from Eukarya — they are not just 'extreme bacteria.'\nBacteria: prokaryotes; include most familiar bacteria (E. coli, Streptococcus).\nArchaea: prokaryotes found in extreme environments (hot springs, salt lakes, deep sea) and in the human gut.\nEukarya: all organisms with membrane-bound nuclei — protists, fungi, plants, and animals.",
+          "cardFront": "Three-domain system (Woese, 1977)",
+          "cardBack": "Bacteria, Archaea, Eukarya"
+        },
+        {
+          "id": "mitochondria",
+          "prompt": "What organelle, present in virtually all eukaryotic cells and colloquially called the 'powerhouse of the cell,' produces the majority of a cell's ATP through aerobic cellular respiration, and contains its own circular DNA as evidence of its ancient bacterial origin?",
+          "answer": "Mitochondria",
+          "alternates": ["Mitochondrion"],
+          "explanation": "Mitochondria produce ATP via the electron transport chain and oxidative phosphorylation — the final stage of aerobic respiration.\nEach mitochondrion has its own DNA (mtDNA), separate from nuclear DNA — a vestige of its bacterial ancestor.\nThe endosymbiotic theory (championed by Lynn Margulis, 1966) proposes mitochondria evolved from alpha-proteobacteria engulfed by ancient eukaryotic host cells.\nmtDNA is maternally inherited (no recombination), making it useful for tracing maternal lineages and human migration history.",
+          "cardFront": "'Powerhouse of the cell'; produces ATP; has own DNA",
+          "cardBack": "Mitochondria"
+        },
+        {
+          "id": "central-dogma",
+          "prompt": "What principle of molecular biology, articulated by Francis Crick in 1958, describes the directional flow of genetic information: DNA is transcribed into RNA, which is translated into protein — establishing the fundamental framework for how genes are expressed?",
+          "answer": "Central dogma of molecular biology",
+          "alternates": ["Central dogma", "the central dogma"],
+          "explanation": "Transcription (nucleus): DNA → messenger RNA (mRNA), catalyzed by RNA polymerase.\nTranslation (ribosomes): mRNA → protein, with transfer RNA (tRNA) matching codons to amino acids.\nThe 'central dogma' name is a slight misnomer — Crick acknowledged 'dogma' was the wrong word; he meant 'hypothesis.'\nExceptions exist: retroviruses (like HIV) use reverse transcriptase to copy RNA back into DNA — reverse transcription.",
+          "cardFront": "DNA → RNA → Protein (Crick, 1958)",
+          "cardBack": "Central dogma of molecular biology"
+        },
+        {
+          "id": "photosynthesis",
+          "prompt": "What biochemical process, occurring primarily in the chloroplasts of plants, algae, and cyanobacteria, converts carbon dioxide and water into glucose and oxygen using light energy — summarized by: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂?",
+          "answer": "Photosynthesis",
+          "alternates": [],
+          "explanation": "Two stages: the light-dependent reactions (in thylakoid membranes, produce ATP and NADPH) and the Calvin cycle (in the stroma, uses ATP and NADPH to fix CO2 into glucose).\nChlorophyll is the primary pigment; it absorbs red and blue light and reflects green — hence plants appear green.\nProduces virtually all the oxygen in Earth's atmosphere — cyanobacteria were the first to release oxygen ~2.4 billion years ago (Great Oxidation Event).\nAbout half of all photosynthesis on Earth occurs in the ocean, performed by phytoplankton.",
+          "cardFront": "CO₂ + H₂O + light → glucose + O₂; occurs in chloroplasts",
+          "cardBack": "Photosynthesis"
+        },
+        {
+          "id": "crispr",
+          "prompt": "What gene-editing technology, based on a bacterial immune defense mechanism, uses a guide RNA and the Cas9 enzyme to cut DNA at a precise location — enabling targeted genetic modifications — and earned Jennifer Doudna and Emmanuelle Charpentier the 2020 Nobel Prize in Chemistry?",
+          "answer": "CRISPR",
+          "alternates": ["CRISPR-Cas9", "CRISPR/Cas9"],
+          "explanation": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats — sequences bacteria use to 'remember' viral DNA and cut it if the virus returns.\nThe guide RNA directs Cas9 (the 'molecular scissors') to the exact DNA sequence to be edited.\nDoudna (UC Berkeley) and Charpentier (Max Planck) published the foundational paper in *Science* in June 2012.\nApplications include treating sickle-cell disease, developing disease-resistant crops, and research into cancer and HIV.",
+          "cardFront": "Precise gene editing; Doudna & Charpentier, Nobel 2020",
+          "cardBack": "CRISPR"
+        },
+        {
+          "id": "dna",
+          "prompt": "What is the full name of the double-helical molecule that carries genetic instructions in all known living organisms and many viruses, consisting of four nucleotide bases (adenine, thymine, guanine, cytosine) that pair across two complementary strands?",
+          "answer": "Deoxyribonucleic acid",
+          "alternates": ["DNA"],
+          "explanation": "The double helix structure was determined by Watson and Crick in 1953, using X-ray data from Rosalind Franklin.\nThe sugar in DNA's backbone is deoxyribose (missing one oxygen vs. ribose in RNA); this accounts for its name.\nBase pairing rules: A pairs with T (2 hydrogen bonds), G pairs with C (3 hydrogen bonds).\nThe human genome contains ~3.2 billion base pairs encoding ~20,000–25,000 protein-coding genes.",
+          "cardFront": "Double helix; carries genetic information in all living organisms",
+          "cardBack": "Deoxyribonucleic acid (DNA)"
+        },
+        {
+          "id": "cell-theory",
+          "prompt": "What foundational principle of biology, developed in the 1830s–1850s by Matthias Schleiden, Theodor Schwann, and Rudolf Virchow, holds that all living organisms are composed of cells, the cell is the basic unit of life, and all cells arise from pre-existing cells?",
+          "answer": "Cell theory",
+          "alternates": ["The cell theory"],
+          "explanation": "Schleiden (1838) proposed all plants are made of cells; Schwann (1839) extended this to animals.\nVirchow (1855) added the third tenet: 'Omnis cellula e cellula' — all cells come from pre-existing cells, refuting spontaneous generation.\nThe first person to observe cells was Robert Hooke (1665), who named them 'cells' for their resemblance to monks' small rooms.\nCell theory is one of biology's unifying principles, alongside evolution by natural selection and the gene theory of inheritance.",
+          "cardFront": "All organisms are made of cells; cells come from pre-existing cells",
+          "cardBack": "Cell theory"
+        },
+        {
+          "id": "meiosis",
+          "prompt": "What type of cell division, occurring in reproductive organs (gonads), produces gametes (sperm and egg cells) with half the normal chromosome count (haploid) — enabling sexual reproduction and introducing genetic variation through crossing over between homologous chromosomes?",
+          "answer": "Meiosis",
+          "alternates": [],
+          "explanation": "Meiosis consists of two sequential divisions (meiosis I and II) that reduce chromosome number from 46 (diploid) to 23 (haploid) in humans.\nCrossing over (recombination) during meiosis I shuffles genetic material between homologous chromosomes, generating genetic diversity.\nDistinguished from mitosis: mitosis produces two identical diploid daughter cells (for growth and repair); meiosis produces four non-identical haploid cells.\nErrors in meiosis (non-disjunction) cause chromosomal abnormalities such as trisomy 21 (Down syndrome).",
+          "cardFront": "Cell division producing gametes; halves chromosome count",
+          "cardBack": "Meiosis"
+        },
+        {
+          "id": "natural-selection",
+          "prompt": "What evolutionary mechanism, independently proposed by Charles Darwin and Alfred Russel Wallace in 1858 and elaborated in *On the Origin of Species* (1859), holds that organisms with heritable traits better suited to their environment tend to survive and reproduce more successfully, changing population traits over generations?",
+          "answer": "Natural selection",
+          "alternates": ["Darwinian natural selection", "survival of the fittest"],
+          "explanation": "'Survival of the fittest' was coined by Herbert Spencer (not Darwin) after reading *On the Origin of Species*; Darwin later used the phrase in the 5th edition.\nFour conditions required: variation in traits, heritability of traits, differential survival/reproduction, and sufficient time.\nDarwin developed the theory over ~20 years but delayed publication; Wallace's independent discovery prompted him to publish.\nNatural selection is the primary (but not only) mechanism of evolution; others include genetic drift, gene flow, and mutation.",
+          "cardFront": "Heritable traits better suited to environment spread through populations",
+          "cardBack": "Natural selection"
+        },
+        {
+          "id": "endosymbiotic-theory",
+          "prompt": "What theory, developed by Lynn Margulis in 1966 and initially rejected by most journals, proposes that mitochondria and chloroplasts in eukaryotic cells evolved from free-living bacteria that were engulfed by ancestral host cells and became permanent, mutually beneficial residents?",
+          "answer": "Endosymbiotic theory",
+          "alternates": ["Endosymbiosis", "endosymbiont theory", "serial endosymbiosis theory"],
+          "explanation": "Evidence: mitochondria and chloroplasts have their own circular DNA, divide by binary fission (like bacteria), have double membranes, and have bacterial-sized ribosomes (70S, not 80S).\nMitochondria are descended from alpha-proteobacteria; chloroplasts from cyanobacteria.\nMargulis's paper was rejected by ~15 journals before being accepted in 1967; now the theory is universally accepted.\nMargulis also proposed that eukaryotic flagella evolved from spirochete bacteria — this part remains controversial.",
+          "cardFront": "Mitochondria & chloroplasts evolved from engulfed bacteria",
+          "cardBack": "Endosymbiotic theory"
+        }
+      ]
+    }
+  ]
+}

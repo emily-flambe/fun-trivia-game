@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "science/human-body", "parentId": "science", "name": "Human Body", "description": "Anatomy, physiology, and organ systems" }
+  ],
+  "exercises": [
+    {
+      "id": "science/human-body/anatomy-facts",
+      "nodeId": "science/human-body",
+      "name": "Human Body Anatomy",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "largest-organ",
+          "prompt": "What is the largest organ of the human body by surface area (~2 m²), accounting for about 15–20% of total body weight, that serves as a protective barrier against pathogens, regulates temperature, and prevents water loss?",
+          "answer": "Skin",
+          "alternates": ["The skin", "Integument"],
+          "explanation": "The skin (integumentary system) is the body's largest organ by surface area (~2 m²) and by weight (~4 kg).\nThree layers: epidermis (outer), dermis (middle), hypodermis (subcutaneous fat).\nContains sweat glands, hair follicles, sebaceous glands, and sensory nerve endings.\nProduces vitamin D when exposed to ultraviolet radiation.",
+          "cardFront": "Largest organ by surface area",
+          "cardBack": "Skin"
+        },
+        {
+          "id": "largest-internal-organ",
+          "prompt": "What is the largest internal organ of the human body (weighing ~1.5 kg), responsible for metabolizing nutrients, detoxifying the blood, producing bile, synthesizing clotting factors, and performing over 500 functions?",
+          "answer": "Liver",
+          "alternates": ["The liver"],
+          "explanation": "The liver (~1.5 kg) is the largest internal organ and the largest gland.\nProduces bile (for fat digestion), synthesizes blood clotting factors, and metabolizes drugs and alcohol.\nOnly organ with significant regenerative capacity — can regrow from as little as 25% of its original mass.\nReceives blood from two sources: the hepatic artery and the portal vein (carrying nutrients from the intestines).",
+          "cardFront": "Largest internal organ",
+          "cardBack": "Liver"
+        },
+        {
+          "id": "longest-bone",
+          "prompt": "What is the longest and strongest bone in the human body, running from the hip socket to the knee and making up roughly one-quarter of a person's total height?",
+          "answer": "Femur",
+          "alternates": ["Thighbone", "Thigh bone"],
+          "explanation": "The femur (thighbone) is the longest bone, averaging 45–48 cm in adults.\nConnects the hip socket (acetabulum) to the knee joint (patella and tibia).\nContains the largest amount of red bone marrow — a major site of blood cell production.\nFemoral neck fractures are a leading cause of disability in the elderly.",
+          "cardFront": "Longest bone in the body",
+          "cardBack": "Femur"
+        },
+        {
+          "id": "smallest-bone",
+          "prompt": "What is the smallest bone in the human body, measuring about 3 mm, located in the middle ear, and named for its resemblance to a stirrup?",
+          "answer": "Stapes",
+          "alternates": ["Stirrup"],
+          "explanation": "The stapes (stirrup) is the smallest bone at ~3 mm and ~3 mg.\nOne of three ossicles in the middle ear: malleus (hammer), incus (anvil), stapes (stirrup).\nTransmits vibrations from the incus to the oval window of the cochlea (inner ear).\nThe three ossicles together amplify sound pressure by roughly 20-fold.",
+          "cardFront": "Smallest bone in the body",
+          "cardBack": "Stapes (stirrup)"
+        },
+        {
+          "id": "bones-count",
+          "prompt": "How many bones does an adult human skeleton typically contain? (Infants are born with significantly more, which fuse over time.)",
+          "answer": "206",
+          "alternates": [],
+          "explanation": "Adults have 206 bones; infants are born with ~270–300, which fuse during childhood and adolescence.\nDivided into axial skeleton (80 bones: skull, vertebral column, ribs) and appendicular skeleton (126 bones: limbs, pelvis, shoulders).\nBone is the second hardest substance in the body after tooth enamel.\nBone is living tissue constantly remodeled by osteoblasts (builders) and osteoclasts (breakers).",
+          "cardFront": "Bones in the adult human skeleton",
+          "cardBack": "206"
+        },
+        {
+          "id": "heart-chambers",
+          "prompt": "How many chambers does the human heart have? (The upper receiving chambers are called atria; the lower pumping chambers are called ventricles.)",
+          "answer": "Four",
+          "alternates": ["4", "4 chambers", "four chambers"],
+          "explanation": "The heart has 4 chambers: right atrium, right ventricle, left atrium, left ventricle.\nRight side receives deoxygenated blood from the body and pumps it to the lungs.\nLeft side receives oxygenated blood from the lungs and pumps it to the entire body.\nThe heart beats ~100,000 times per day, pumping about 7,600 liters of blood.",
+          "cardFront": "Chambers in the human heart",
+          "cardBack": "Four (2 atria + 2 ventricles)"
+        },
+        {
+          "id": "brain",
+          "prompt": "What organ makes up only ~2% of body weight but consumes ~20% of the body's total energy, contains approximately 86 billion neurons, and controls thought, memory, movement, and sensation?",
+          "answer": "Brain",
+          "alternates": ["The brain", "Human brain"],
+          "explanation": "The human brain weighs ~1.4 kg (~3 lbs) but uses ~20% of the body's energy and oxygen supply.\nContains ~86 billion neurons connected by an estimated 100 trillion synaptic connections.\nDivided into the cerebrum (cognition, senses), cerebellum (balance, coordination), and brainstem (breathing, heartbeat).\nThe blood-brain barrier selectively restricts passage of substances from the bloodstream into the brain.",
+          "cardFront": "20% of body's energy; ~86 billion neurons",
+          "cardBack": "Brain"
+        },
+        {
+          "id": "pancreas",
+          "prompt": "Which abdominal organ serves a dual function — producing digestive enzymes for the small intestine (exocrine) and secreting the hormones insulin and glucagon into the bloodstream to regulate blood sugar (endocrine)?",
+          "answer": "Pancreas",
+          "alternates": ["The pancreas"],
+          "explanation": "The pancreas is both an exocrine gland (secretes amylase, lipase, and protease into the duodenum) and an endocrine gland.\nInsulin (from beta cells) lowers blood glucose; glucagon (from alpha cells) raises it.\nFailure of insulin production or insulin resistance leads to diabetes mellitus.\nBanting and Best isolated insulin from the pancreas in 1921, winning the 1923 Nobel Prize.",
+          "cardFront": "Produces insulin and digestive enzymes",
+          "cardBack": "Pancreas"
+        },
+        {
+          "id": "kidneys",
+          "prompt": "What pair of bean-shaped organs, each roughly the size of a fist, filter approximately 200 liters of blood per day, remove metabolic waste as urine, and regulate blood pressure and electrolyte balance?",
+          "answer": "Kidneys",
+          "alternates": ["The kidneys"],
+          "explanation": "Each kidney contains ~1 million nephrons — the microscopic filtering units that concentrate waste into urine.\nFilter the entire blood supply approximately 30 times per day, producing 1–2 liters of urine.\nSecrete erythropoietin (stimulates red blood cell production) and renin (regulates blood pressure).\nThe most commonly transplanted organ; one functioning kidney is sufficient for survival.",
+          "cardFront": "Filter blood; produce urine; regulate blood pressure",
+          "cardBack": "Kidneys"
+        },
+        {
+          "id": "pituitary-gland",
+          "prompt": "Which pea-sized gland at the base of the brain is called the 'master gland' because it controls most other endocrine glands by secreting hormones that regulate growth, reproduction, thyroid function, and stress responses?",
+          "answer": "Pituitary gland",
+          "alternates": ["Pituitary", "Hypophysis"],
+          "explanation": "The pituitary (~0.5 g, roughly pea-sized) sits at the base of the brain in a bony hollow called the sella turcica.\nAnterior lobe secretes: growth hormone (GH), TSH, ACTH, FSH, LH, and prolactin.\nPosterior lobe releases ADH (vasopressin) and oxytocin, both produced by the hypothalamus.\nControlled by the hypothalamus via releasing and inhibiting hormones.",
+          "cardFront": "'Master gland' of the endocrine system",
+          "cardBack": "Pituitary gland"
+        },
+        {
+          "id": "chromosomes",
+          "prompt": "How many chromosomes does a typical human body (somatic) cell contain, and how are they arranged? (Hint: gametes, such as sperm and egg, contain half this number.)",
+          "answer": "46",
+          "alternates": ["46 chromosomes", "forty-six"],
+          "explanation": "Typical human somatic cells contain 46 chromosomes — 23 pairs (diploid).\n22 pairs are autosomes; the 23rd pair are the sex chromosomes: XX (female) or XY (male).\nGametes (sperm and egg) each contain 23 chromosomes (haploid) and combine to restore 46 at fertilization.\nDown syndrome results from trisomy 21: three copies of chromosome 21 instead of two.",
+          "cardFront": "Chromosomes in a human body cell",
+          "cardBack": "46 (23 pairs)"
+        },
+        {
+          "id": "abo-blood-type",
+          "prompt": "What blood classification system, developed by Austrian physician Karl Landsteiner in 1901, groups human blood into types based on the presence or absence of A and B antigens on red blood cells — earning him the 1930 Nobel Prize in Physiology or Medicine?",
+          "answer": "ABO blood group system",
+          "alternates": ["ABO blood type system", "ABO system", "blood type system", "ABO"],
+          "explanation": "The ABO system has four types: A (A antigen), B (B antigen), AB (both antigens), and O (neither).\nType O is the universal donor; type AB is the universal recipient for red blood cell transfusions.\nThe Rh factor (+/−) was also discovered by Landsteiner (with Alexander Wiener) in 1940.\nMismatched transfusions cause fatal hemolytic reactions — hence blood typing before surgery or transfusion.",
+          "cardFront": "A, B, AB, O — Landsteiner (1901)",
+          "cardBack": "ABO blood group system"
+        }
+      ]
+    }
+  ]
+}
