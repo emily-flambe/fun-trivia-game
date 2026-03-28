@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { PublicItem } from '../lib/api';
+import { WikiLinks } from './WikiLinks';
 
 // Standard periodic table layout: [row, col] for each atomic number (1-indexed)
 const LAYOUT: [number, number][] = [
@@ -141,6 +142,7 @@ export function PeriodicTable({ items }: Props) {
 								))}
 							</ul>
 						)}
+						<WikiLinks links={selectedItem.data?.links} />
 					</div>
 				) : (
 					<div className="text-text-tertiary text-sm">Click an element to see details</div>

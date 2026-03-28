@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { getRandomItems, checkAnswer, submitQuizResult, type RandomItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
+import { WikiLinks } from './WikiLinks';
 
 interface AnswerRecord {
 	itemId: string;
@@ -237,6 +238,7 @@ export function EndlessQuiz() {
 									<li key={i}>{line}</li>
 								))}
 							</ul>
+							<WikiLinks links={item.data?.links} />
 						</div>
 						<button ref={nextButtonRef} onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							Next
