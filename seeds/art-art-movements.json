@@ -1,6 +1,6 @@
 {
   "nodes": [
-    { "id": "art/art-movements", "parentId": "lifestyle", "name": "Art Movements", "description": "Major Western art movements from the Renaissance to the 20th century" }
+    { "id": "art/art-movements", "parentId": "art", "name": "Art Movements", "description": "Major Western art movements from the Renaissance to the 20th century" }
   ],
   "exercises": [
     {
