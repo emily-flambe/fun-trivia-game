@@ -1,0 +1,604 @@
+{
+  "nodes": [
+    { "id": "world-history/wars-conflicts", "parentId": "world-history", "name": "Wars & Conflicts", "description": "Major wars and military conflicts throughout world history" },
+    { "id": "world-history/historical-empires", "parentId": "world-history", "name": "Historical Empires", "description": "Great empires that shaped world history" },
+    { "id": "world-history/revolutions", "parentId": "world-history", "name": "Major Revolutions", "description": "Political, social, and industrial revolutions that transformed societies" },
+    { "id": "world-history/20th-century", "parentId": "world-history", "name": "20th Century World Events", "description": "Defining events of the 20th century and early 21st century" }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/wars-conflicts/major-wars",
+      "nodeId": "world-history/wars-conflicts",
+      "name": "Major Wars & Conflicts",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "peloponnesian-war",
+          "prompt": "Which war (431–404 BCE) pitted Athens against Sparta and ended with the defeat of the Athenian Empire, described in detail by historian Thucydides?",
+          "answer": "Peloponnesian War",
+          "alternates": [],
+          "explanation": "Athens (Delian League) vs. Sparta (Peloponnesian League), 431–404 BCE\nThucydides wrote *History of the Peloponnesian War* — the definitive ancient account, a model of historical methodology\nA plague struck Athens in 430 BCE, killing ~25% of the population including the statesman Pericles\nSparta won with Persian financial support; Athens was forced to demolish its Long Walls and disband its fleet\nVictory weakened all Greek city-states, enabling Macedonian domination under Philip II and Alexander the Great\nThucydides identified Spartan fear of growing Athenian power as the true cause — a dynamic later scholars call the 'Thucydides Trap'",
+          "cardFront": "Athens vs. Sparta, 431–404 BCE",
+          "cardBack": "Peloponnesian War"
+        },
+        {
+          "id": "crusades",
+          "prompt": "What name is given to the series of religious wars (1096–1291) launched by European Christians to recapture the Holy Land from Muslim rule, resulting in the sack of Constantinople in 1204?",
+          "answer": "The Crusades",
+          "alternates": ["Crusades"],
+          "explanation": "Nine major Crusades launched 1096–1272; broader Christian-Muslim conflict in the Holy Land continued until 1291\nFirst Crusade (1096–1099) succeeded in capturing Jerusalem; other crusades largely failed or were diverted\nThird Crusade (1189–1192): Richard I of England vs. Saladin; ended in stalemate with Saladin retaining Jerusalem\nFourth Crusade (1202–1204) infamously sacked Christian Constantinople — diverted by Venetian commercial interests\nKnight orders founded during the Crusades: Knights Templar, Knights Hospitaller, Teutonic Knights\nCrusades fostered the transfer of Islamic science, mathematics, and philosophy to medieval Europe",
+          "cardFront": "Holy Land, European Christians vs. Muslims, 1096–1291",
+          "cardBack": "The Crusades"
+        },
+        {
+          "id": "hundred-years-war",
+          "prompt": "Which conflict (1337–1453) was fought between England and France over the French throne, famously turned by a teenage French peasant girl who claimed to hear divine voices?",
+          "answer": "Hundred Years' War",
+          "alternates": [],
+          "explanation": "England vs. France, 1337–1453 (actually 116 years, fought intermittently)\nTrigger: English king Edward III claimed the French throne via his French mother, Isabella\nJoan of Arc (1412–1431) led French forces to key victories before being captured and burned at the stake as a heretic by the English-allied Burgundians\nEnded with France expelling England from all continental territory except Calais\nEnglish longbow dominated early battles: Crécy (1346) and Agincourt (1415), where Henry V defeated a far larger French army\nAftermath in England: the dynastic instability sparked the Wars of the Roses (1455–1487) between Lancaster and York",
+          "cardFront": "England vs. France, Joan of Arc, 1337–1453",
+          "cardBack": "Hundred Years' War"
+        },
+        {
+          "id": "thirty-years-war",
+          "prompt": "Which devastating Central European conflict (1618–1648), begun by the Defenestration of Prague, transformed from a religious war into a broader power struggle and ended with the Peace of Westphalia?",
+          "answer": "Thirty Years' War",
+          "alternates": [],
+          "explanation": "1618–1648 in the Holy Roman Empire; began as Catholic vs. Protestant conflict before drawing in all major European powers\nTriggered by the Defenestration of Prague (1618): Protestant Bohemian nobles threw Catholic Habsburg officials from a castle window\nFrance (Catholic) backed the Protestant side to weaken the Habsburgs — demonstrating the war's shift from religion to power politics\nPeace of Westphalia (1648) established the principle of state sovereignty and religious tolerance — foundation of the modern nation-state system\nKilled ~8 million people, mainly through famine and disease; Central European population declined 25–40%\nSweden emerged as a major power; France under Richelieu weakened the Habsburgs and became Europe's dominant land power",
+          "cardFront": "1618–1648, Defenestration of Prague, Peace of Westphalia",
+          "cardBack": "Thirty Years' War"
+        },
+        {
+          "id": "seven-years-war",
+          "prompt": "Which conflict (1756–1763), sometimes called 'the first world war,' saw Britain and Prussia defeat France, Austria, and Russia, with Britain gaining Canada and dominance in India?",
+          "answer": "Seven Years' War",
+          "alternates": [],
+          "explanation": "1756–1763; fought in Europe, North America, South America, West Africa, India, and the Philippines\nAlliances: Britain + Prussia vs. France + Austria + Russia + Spain + Sweden\nIn North America called the French and Indian War; Britain gained Canada from France\nBritish victory made it the world's dominant colonial power; France lost most of its overseas empire\nFrederick the Great of Prussia survived against three great powers — cemented Prussia as a major European force\nBritain's war debts led it to tax American colonists — a proximate cause of the American Revolution",
+          "cardFront": "1756–1763, Britain gains Canada, 'first world war'",
+          "cardBack": "Seven Years' War"
+        },
+        {
+          "id": "napoleonic-wars",
+          "prompt": "Which series of conflicts (1803–1815) saw France under its emperor conquer most of continental Europe, ending in defeat at a famous battle in Belgium?",
+          "answer": "Napoleonic Wars",
+          "alternates": [],
+          "explanation": "France under Napoleon Bonaparte vs. shifting coalitions of European powers, 1803–1815\nNapoleon conquered most of continental Europe and installed family members as rulers across Europe\nDisastrous Russia campaign (1812): Grande Armée of ~600,000 entered Russia; fewer than 100,000 returned\nNapoleon exiled to Elba (1814); escaped, raised a new army; defeated at Waterloo (June 18, 1815) by Wellington (Britain) and Blücher (Prussia)\nExiled to Saint Helena in the South Atlantic; died there in 1821, age 51\nCongress of Vienna (1815) redrew the map of Europe and established a conservative balance of power lasting until WWI",
+          "cardFront": "Napoleon Bonaparte, 1803–1815, Waterloo",
+          "cardBack": "Napoleonic Wars"
+        },
+        {
+          "id": "crimean-war",
+          "prompt": "Which conflict (1853–1856), fought primarily in the Black Sea region, saw Britain, France, and the Ottoman Empire defeat Russia, and is also famous for Florence Nightingale's nursing reforms?",
+          "answer": "Crimean War",
+          "alternates": [],
+          "explanation": "Britain, France, Sardinia, Ottoman Empire vs. Russia, 1853–1856; contested Russia's expansion at Ottoman expense\nFlorence Nightingale reformed military nursing at Scutari hospital, reducing mortality from ~42% to ~2% through sanitation\nCharge of the Light Brigade (1854): disastrous British cavalry charge immortalized by Tennyson's poem\nRussia lost; Treaty of Paris (1856) checked Russian expansion into the Black Sea region\nFirst war with battlefield photography (Roger Fenton) and live telegraph reporting\nAnesthetics and triage protocols developed during this war shaped modern military medicine",
+          "cardFront": "1853–1856, Crimean Peninsula, Florence Nightingale, Russia vs. Western Allies",
+          "cardBack": "Crimean War"
+        },
+        {
+          "id": "franco-prussian-war",
+          "prompt": "Which war (1870–1871), triggered by Bismarck's manipulation of a diplomatic telegram, led to German unification under Prussian leadership and France losing Alsace-Lorraine?",
+          "answer": "Franco-Prussian War",
+          "alternates": ["Franco-German War"],
+          "explanation": "Prussia and German states vs. France, 1870–1871\nBismarck edited the Ems Dispatch to make it seem France had been insulted, provoking France into declaring war\nNapoleon III captured at Sedan — humiliating French defeat; Paris besieged and fell\nGerman Empire (Second Reich) proclaimed in Versailles' Hall of Mirrors (January 18, 1871) — deliberately staged inside France to humiliate it\nFrance ceded Alsace-Lorraine to Germany; resentment fueled French nationalism until WWI\nParis Commune (March–May 1871): workers briefly seized control of Paris after France's surrender; suppressed with ~10,000 killed",
+          "cardFront": "Prussia vs. France, 1870–1871, German unification, Bismarck",
+          "cardBack": "Franco-Prussian War"
+        },
+        {
+          "id": "russo-japanese-war",
+          "prompt": "Which conflict (1904–1905), the first time a non-European power defeated a major European one in modern warfare, ended with a treaty mediated by U.S. President Theodore Roosevelt?",
+          "answer": "Russo-Japanese War",
+          "alternates": [],
+          "explanation": "Japan vs. Russia over Manchuria and Korea, 1904–1905\nFirst major military victory by an Asian power over a European power in modern history\nJapan destroyed Russia's Pacific Fleet at Port Arthur; then annihilated the Baltic Fleet after its 18,000-mile voyage at the Battle of Tsushima (1905)\nTreaty of Portsmouth (1905) mediated by Theodore Roosevelt, who won the Nobel Peace Prize for it\nRussia's humiliation contributed to the 1905 Russian Revolution and eroded Tsar Nicholas II's authority\nJapan gained dominance over Korea, annexing it outright in 1910",
+          "cardFront": "Japan defeats Russia, 1904–1905, Treaty of Portsmouth",
+          "cardBack": "Russo-Japanese War"
+        },
+        {
+          "id": "world-war-i",
+          "prompt": "Which global conflict (1914–1918), triggered by the assassination of Archduke Franz Ferdinand in Sarajevo, killed approximately 20 million people and ended four major empires?",
+          "answer": "World War I",
+          "alternates": ["WWI", "First World War", "The Great War", "World War 1"],
+          "explanation": "Allied Powers (UK, France, Russia, Italy, USA) vs. Central Powers (Germany, Austria-Hungary, Ottoman Empire, Bulgaria), 1914–1918\nSparked by assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo, June 28, 1914\nFirst large-scale use of chemical weapons (chlorine/mustard gas), tanks (British invention, 1916), and aircraft in warfare\nGallipoli campaign (1915): failed Allied attempt to knock out the Ottoman Empire; ~130,000 Allied deaths\nTreaty of Versailles (1919) imposed crushing reparations on Germany, sowing the seeds of WWII\nFour empires fell: German, Austro-Hungarian, Ottoman, and Russian",
+          "cardFront": "1914–1918, Franz Ferdinand assassinated, four empires fell",
+          "cardBack": "World War I"
+        },
+        {
+          "id": "spanish-civil-war",
+          "prompt": "Which conflict (1936–1939), won by Francisco Franco's Nationalists with Nazi and Fascist support, is commemorated in Picasso's painting *Guernica* and George Orwell's memoir *Homage to Catalonia*?",
+          "answer": "Spanish Civil War",
+          "alternates": [],
+          "explanation": "Spanish Republic (Loyalists) vs. Nationalists under General Francisco Franco, 1936–1939\nNazi Germany and Fascist Italy aided Franco with troops and air power; USSR aided the Republic; International Brigades of foreign volunteers fought for the Republic\nGuernica (April 26, 1937): Nazi Condor Legion bombed the Basque town; Picasso's painting became an enduring anti-war icon\nGeorge Orwell fought for the POUM militia and wrote *Homage to Catalonia* (1938) about the experience\nFranco won; Spain officially remained neutral in WWII though Franco aided the Axis\nFranco's regime lasted until his death in 1975 — making Spain one of Europe's last fascist dictatorships",
+          "cardFront": "1936–1939, Franco wins, Guernica, Orwell",
+          "cardBack": "Spanish Civil War"
+        },
+        {
+          "id": "world-war-ii",
+          "prompt": "Which global conflict (1939–1945), the deadliest in history with 70–85 million deaths, ended with the only wartime use of atomic weapons, dropped on two Japanese cities?",
+          "answer": "World War II",
+          "alternates": ["WWII", "Second World War", "World War 2"],
+          "explanation": "Allied Powers (USA, UK, USSR, France, China) vs. Axis (Germany, Italy, Japan), 1939–1945\nDeadliest conflict in history: ~70–85 million deaths, more than half of them civilians\nHolocaust: Nazi Germany systematically murdered 6 million Jews and 5–6 million others (Roma, disabled, political prisoners, Soviet POWs)\nD-Day (June 6, 1944): Allied landings at Normandy — the largest seaborne invasion in history\nGermany surrendered May 8, 1945 (VE Day); Japan surrendered August 15, 1945 after atomic bombs on Hiroshima (Aug. 6) and Nagasaki (Aug. 9)\nNuremberg Trials (1945–1946) established the modern concept of crimes against humanity in international law",
+          "cardFront": "1939–1945, Holocaust, D-Day, Hiroshima/Nagasaki",
+          "cardBack": "World War II"
+        },
+        {
+          "id": "korean-war",
+          "prompt": "Which conflict (1950–1953), known as 'the Forgotten War,' ended with an armistice leaving Korea divided near the same 38th parallel where it began?",
+          "answer": "Korean War",
+          "alternates": ["Korean Conflict"],
+          "explanation": "UN forces (mainly USA) and South Korea vs. North Korea and China, 1950–1953\nNorth Korea invaded the South on June 25, 1950; UN forces under MacArthur drove them back to the Chinese border\nChina entered the war in October 1950, pushing UN forces back; war stabilized near the 38th parallel\nPresident Truman fired General MacArthur in April 1951 for publicly advocating escalation against China\nArmistice signed July 27, 1953; no formal peace treaty was ever signed — the Korean War is technically ongoing\nCalled 'the Forgotten War' — overshadowed by WWII and later Vietnam; ~36,000 American military deaths",
+          "cardFront": "1950–1953, North vs. South Korea, 38th parallel, 'Forgotten War'",
+          "cardBack": "Korean War"
+        },
+        {
+          "id": "vietnam-war",
+          "prompt": "Which conflict (1955–1975), in which the U.S. backed South Vietnam against Communist North Vietnam and the Viet Cong, ended with the fall of Saigon on April 30, 1975?",
+          "answer": "Vietnam War",
+          "alternates": ["Vietnam Conflict"],
+          "explanation": "North Vietnam (Communist) and Viet Cong vs. South Vietnam and USA, 1955–1975\nGulf of Tonkin incident (1964): alleged attack on USS Maddox used to justify large-scale U.S. escalation\nTet Offensive (January 1968): surprise coordinated attacks across South Vietnam during the Vietnamese New Year; turned American public opinion against the war\nMy Lai Massacre (March 1968): U.S. soldiers killed 300–500 unarmed South Vietnamese civilians\nU.S. signed Paris Peace Accords (1973) and withdrew; Saigon fell April 30, 1975\n~58,000 U.S. military deaths; 2–3 million Vietnamese deaths total, North and South",
+          "cardFront": "1955–1975, Tet Offensive, Fall of Saigon, Gulf of Tonkin",
+          "cardBack": "Vietnam War"
+        },
+        {
+          "id": "six-day-war",
+          "prompt": "Which 1967 war saw Israel defeat Egypt, Jordan, and Syria in just six days, capturing the Sinai Peninsula, Gaza Strip, West Bank, East Jerusalem, and Golan Heights?",
+          "answer": "Six-Day War",
+          "alternates": ["1967 Arab-Israeli War", "Third Arab-Israeli War"],
+          "explanation": "Israel vs. Egypt, Jordan, Syria (plus Iraq, Saudi Arabia), June 5–10, 1967\nIsrael launched a preemptive air strike on June 5, destroying the Egyptian Air Force largely on the ground\nIn six days, Israel captured: Sinai and Gaza (from Egypt), West Bank and East Jerusalem (from Jordan), Golan Heights (from Syria)\nIsrael tripled its territory; the West Bank and Gaza remain occupied and contested today\nHumiliating Arab defeat led to the Khartoum Declaration: 'no peace, no recognition, no negotiation'\nEgyptian President Nasser resigned after the defeat, then retracted his resignation after public demonstrations",
+          "cardFront": "Israel defeats Egypt/Jordan/Syria, June 5–10, 1967",
+          "cardBack": "Six-Day War"
+        },
+        {
+          "id": "yom-kippur-war",
+          "prompt": "Which 1973 conflict began with a surprise attack by Egypt and Syria on Israel on Judaism's holiest day, and led to a global oil embargo by Arab OPEC members against the United States?",
+          "answer": "Yom Kippur War",
+          "alternates": ["October War", "Ramadan War", "1973 Arab-Israeli War"],
+          "explanation": "Egypt and Syria vs. Israel, October 6–25, 1973; launched on Yom Kippur, the holiest day of the Jewish calendar\nEgypt successfully crossed the Suez Canal in force; Syria recaptured parts of the Golan Heights\nIsrael pushed back to near pre-war lines after massive U.S. emergency military resupply\nArab OPEC members imposed an oil embargo on the USA and its allies; oil prices quadrupled, triggering a global recession\nLed to the Camp David Accords (1978) and Egypt–Israel peace treaty (1979) — the first Arab–Israeli peace deal\nSadat and Begin shared the 1978 Nobel Peace Prize; Sadat was assassinated by Egyptian Islamists in 1981",
+          "cardFront": "Egypt/Syria surprise attack on Yom Kippur, 1973, oil embargo",
+          "cardBack": "Yom Kippur War"
+        },
+        {
+          "id": "falklands-war",
+          "prompt": "Which 1982 conflict saw Britain send a naval task force 8,000 miles to recapture islands from Argentina, ending in British victory after 74 days of fighting?",
+          "answer": "Falklands War",
+          "alternates": ["Falklands Conflict", "Guerra de las Malvinas"],
+          "explanation": "Britain vs. Argentina, April 2 – June 14, 1982\nArgentina invaded and occupied the British-held Falkland Islands (called Islas Malvinas in Argentina)\nPrime Minister Margaret Thatcher assembled a naval task force and sent it 8,000 miles south\n~900 total deaths: 255 British, 649 Argentine, 3 Falkland Island civilians\nSinking of ARA General Belgrano (Argentine cruiser) remains controversial — it was outside the British exclusion zone\nBritish victory boosted Thatcher's poll numbers; Argentina's defeat discredited its military junta, leading to a return to democracy in 1983",
+          "cardFront": "Britain vs. Argentina, 1982, Falkland Islands, 74 days",
+          "cardBack": "Falklands War"
+        },
+        {
+          "id": "gulf-war",
+          "prompt": "Which 1990–1991 conflict saw a U.S.-led coalition of 35 nations liberate Kuwait from Iraqi occupation in Operation Desert Storm, with the ground campaign lasting just 100 hours?",
+          "answer": "Gulf War",
+          "alternates": ["First Gulf War", "Persian Gulf War", "Operation Desert Storm"],
+          "explanation": "Coalition of 35 nations (led by USA) vs. Iraq under Saddam Hussein, August 1990 – February 1991\nIraq invaded Kuwait on August 2, 1990, claiming it was stealing oil via directional drilling and was historically Iraqi territory\nOperation Desert Storm began January 17, 1991 with 5 weeks of aerial bombardment\nGround campaign (Operation Desert Sabre) lasted 100 hours; Kuwait liberated February 27, 1991\nIraq set fire to ~700 Kuwaiti oil wells on retreat, creating a months-long environmental disaster\nFirst war extensively televised live (CNN); introduced the public to precision-guided 'smart bombs'",
+          "cardFront": "Iraq invades Kuwait, 1990–1991, Operation Desert Storm, 100-hour ground war",
+          "cardBack": "Gulf War"
+        },
+        {
+          "id": "bosnian-war",
+          "prompt": "Which 1992–1995 war in the former Yugoslavia included the Srebrenica massacre — the worst atrocity in Europe since World War II — and ended with the U.S.-brokered Dayton Agreement?",
+          "answer": "Bosnian War",
+          "alternates": ["Bosnian Conflict", "War in Bosnia"],
+          "explanation": "Bosnia and Herzegovina vs. Republika Srpska (Bosnian Serbs, backed by Serbia), 1992–1995\nFollowed Bosnia's declaration of independence from Yugoslavia; Bosnian Serbs sought to create ethnically homogeneous territory\nSiege of Sarajevo (1992–1996): 1,425 days — the longest siege of a capital city in modern warfare\nSrebrenica massacre (July 1995): Bosnian Serb forces under Ratko Mladić killed ~8,000 Bosniak men and boys — ruled genocide by international courts\nNATO air strikes broke the siege; Dayton Agreement (November 1995) ended the war\n~100,000 people killed; 2.2 million displaced; first European genocide since the Holocaust",
+          "cardFront": "1992–1995, Yugoslavia, Srebrenica massacre, Dayton Agreement",
+          "cardBack": "Bosnian War"
+        },
+        {
+          "id": "iran-iraq-war",
+          "prompt": "Which 1980–1988 conflict, the longest conventional war of the 20th century, ended with no territorial changes and an estimated 500,000–1 million deaths after Iraq's invasion of its neighbor?",
+          "answer": "Iran-Iraq War",
+          "alternates": ["First Persian Gulf War"],
+          "explanation": "Iraq (Saddam Hussein) vs. Iran (post-revolution Islamic Republic), September 1980 – August 1988\nIraq invaded Iran on September 22, 1980, hoping to exploit revolutionary chaos and seize oil-rich Khuzestan province\nIran repulsed Iraq's initial invasion; the war settled into trench warfare and use of human wave attacks\nIraq used chemical weapons against Iranian forces and Kurdish civilians; Halabja massacre (March 1988) killed ~5,000 Kurds\nUSA covertly supported both sides at different points; the Reagan administration provided Iraq with intelligence\nCeasefire August 1988; no territorial changes; ~500,000–1 million total deaths",
+          "cardFront": "Iraq vs. Iran, 1980–1988, no territorial changes, chemical weapons",
+          "cardBack": "Iran-Iraq War"
+        }
+      ]
+    },
+    {
+      "id": "world-history/historical-empires/empires",
+      "nodeId": "world-history/historical-empires",
+      "name": "Historical Empires",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "byzantine",
+          "prompt": "Which empire, the eastern successor to Rome lasting over 1,000 years, fell in 1453 when Ottoman Sultan Mehmed II captured its capital Constantinople?",
+          "answer": "Byzantine Empire",
+          "alternates": ["Eastern Roman Empire", "Byzantium"],
+          "explanation": "Eastern Roman Empire, 330–1453 CE; 'Byzantine' is a modern scholarly term — the empire called itself Roman throughout\nFounded when Constantine I moved the imperial capital to Constantinople (ancient Byzantium) in 330 CE\nPreserved Roman law, Greek culture, and Orthodox Christianity through the medieval period\nJustinian I (r. 527–565) briefly reconquered much of the western Mediterranean and codified Roman law (Corpus Juris Civilis)\nFell May 29, 1453 when Mehmed II breached the walls with cannon; last emperor Constantine XI died fighting\nGreek scholars fleeing to Italy after its fall are credited with helping ignite the Italian Renaissance",
+          "cardFront": "Eastern Roman Empire, Constantinople, 330–1453 CE",
+          "cardBack": "Byzantine Empire"
+        },
+        {
+          "id": "umayyad",
+          "prompt": "Which Arab caliphate, ruling from Damascus, became the first great Islamic empire and at its early 8th-century peak extended from Spain and Portugal to Central Asia?",
+          "answer": "Umayyad Caliphate",
+          "alternates": ["Umayyad Dynasty", "Umayyads"],
+          "explanation": "661–750 CE; founded by Muawiya I after the first Islamic civil war; capital at Damascus\nAt its peak, one of the largest empires the world had yet seen: from Al-Andalus (Iberian Peninsula) to the Indus Valley\nDefeated at the Battle of Tours/Poitiers (732) by Charles Martel, halting Muslim expansion into Western Europe\nInstituted Arabic as the official administrative language; spread Islam across conquered territories\nOverthrown by the Abbasid Revolution in 750 CE; surviving Umayyads fled to Spain and founded the Emirate of Córdoba\nThe Dome of the Rock in Jerusalem (completed 691 CE) is the oldest surviving Islamic monument, built under Umayyad rule",
+          "cardFront": "First great Islamic empire, Damascus, 661–750 CE",
+          "cardBack": "Umayyad Caliphate"
+        },
+        {
+          "id": "abbasid",
+          "prompt": "Which Islamic caliphate, ruling from Baghdad, presided over the Islamic Golden Age of science and philosophy until the Mongols destroyed its capital in 1258?",
+          "answer": "Abbasid Caliphate",
+          "alternates": ["Abbasid Dynasty", "Abbasids"],
+          "explanation": "750–1258 CE; overthrew the Umayyads; founded Baghdad in 762 CE as the new capital\nPresided over the Islamic Golden Age (8th–13th centuries): al-Khwarizmi invented algebra; Avicenna wrote the *Canon of Medicine*; al-Biruni measured the Earth's circumference\nHouse of Wisdom (Bayt al-Hikma) in Baghdad: translated Greek, Persian, and Indian texts; preserved knowledge that reached medieval Europe via the Crusades\nHarun al-Rashid (r. 786–809) corresponded with Charlemagne; his court inspired *One Thousand and One Nights*\nHulagu Khan (Genghis's grandson) sacked Baghdad in 1258; the caliph was executed; the House of Wisdom destroyed\nCaliphate survived in exile in Cairo under Mamluk protection until the Ottoman conquest in 1517",
+          "cardFront": "Baghdad, Islamic Golden Age, 750–1258 CE",
+          "cardBack": "Abbasid Caliphate"
+        },
+        {
+          "id": "mongol",
+          "prompt": "Which empire, founded by Genghis Khan in 1206, became the largest contiguous land empire in history, stretching from the Pacific Ocean to Eastern Europe?",
+          "answer": "Mongol Empire",
+          "alternates": ["Mongols"],
+          "explanation": "Founded by Temüjin (Genghis Khan) in 1206 after unifying Mongolian tribes\nLargest contiguous land empire in history: ~24 million km² at its peak — roughly the size of Africa\nGenghis Khan's conquests killed an estimated 40 million people, possibly reducing world population by 10%\nPax Mongolica: once conquered, the empire enabled relatively safe trade and communication along the Silk Road\nDivided among Genghis's successors into four khanates; Kublai Khan (grandson) founded the Yuan Dynasty in China\nThe Black Death (1347–1351) may have spread west along Mongol trade routes, killing ~1/3 of Europe's population",
+          "cardFront": "Genghis Khan, founded 1206, largest contiguous land empire",
+          "cardBack": "Mongol Empire"
+        },
+        {
+          "id": "mali",
+          "prompt": "Which West African empire controlled the gold and salt trade routes across the Sahara, and whose ruler Mansa Musa's 1324–1325 pilgrimage to Mecca reportedly crashed gold prices across the Mediterranean?",
+          "answer": "Mali Empire",
+          "alternates": ["Mali", "Malian Empire"],
+          "explanation": "West African empire c. 1235–1600; founded by Sundiata Keita after defeating the Sosso king at the Battle of Kirina\nControlled the gold and salt trade routes across the Sahara; one of the wealthiest civilizations of the medieval world\nMansa Musa (r. 1312–1337): his 1324–25 pilgrimage to Mecca with ~60,000 attendants and 12 tons of gold reportedly depressed gold prices across North Africa and the Middle East for a decade\nTimbuktu: a major Islamic scholarly center; the Sankore Madrasah attracted scholars from across the Islamic world\nDeclined in the 15th century due to succession disputes and the rise of the Songhai Empire\nMansa Musa is frequently cited as the wealthiest person in recorded history in inflation-adjusted terms",
+          "cardFront": "West Africa, Mansa Musa, gold and salt trade, Timbuktu",
+          "cardBack": "Mali Empire"
+        },
+        {
+          "id": "ottoman",
+          "prompt": "Which empire, founded by Osman I and centered on Constantinople/Istanbul, controlled much of Southeast Europe, West Asia, and North Africa for over six centuries before dissolving after World War I?",
+          "answer": "Ottoman Empire",
+          "alternates": ["Ottomans", "Ottoman"],
+          "explanation": "Founded c. 1299 by Osman I in Anatolia; lasted until 1922 — over 600 years\nCaptured Constantinople in 1453 under Mehmed II; renamed Istanbul and made it the imperial capital\nAt its peak under Suleiman the Magnificent (r. 1520–1566), controlled three continents and 15–25 million people\nFailed to capture Vienna twice: 1529 (Suleiman) and 1683 (Kara Mustafa) — the 1683 defeat marked the beginning of Ottoman retreat from Europe\nArmenian Genocide (1915–1923): systematic killing of 600,000–1.5 million Armenians during WWI\nDissolved after WWI; Republic of Turkey proclaimed by Mustafa Kemal Atatürk in 1923",
+          "cardFront": "1299–1922, Istanbul, Suleiman the Magnificent, three continents",
+          "cardBack": "Ottoman Empire"
+        },
+        {
+          "id": "holy-roman",
+          "prompt": "Which complex federation of Central European territories, lasting from 962 to 1806, prompted Voltaire's quip that it was 'neither holy, nor Roman, nor an empire'?",
+          "answer": "Holy Roman Empire",
+          "alternates": ["HRE"],
+          "explanation": "962–1806 CE; a loose federation of kingdoms, principalities, and free cities in Central Europe, mostly German-speaking\nOtto I crowned by Pope John XII in 962; modeled on Charlemagne's earlier Carolingian Empire\nThe emperor was an elected position — seven princes (Electors) chose the emperor, making it a constitutional monarchy of sorts\nVoltaire quipped it was 'neither holy, nor Roman, nor an empire'\nPeace of Westphalia (1648) ended the Thirty Years' War and fragmented the Empire into hundreds of autonomous states\nDissolved August 6, 1806 when Francis II abdicated after Napoleon's military victories; replaced by the Confederation of the Rhine",
+          "cardFront": "Central Europe, 962–1806, Voltaire's 'neither holy, nor Roman, nor an empire'",
+          "cardBack": "Holy Roman Empire"
+        },
+        {
+          "id": "spanish",
+          "prompt": "Which empire, founded in 1492 with Columbus's voyage, became the first truly global empire controlling territory on five continents simultaneously, including most of the Americas and the Philippines?",
+          "answer": "Spanish Empire",
+          "alternates": ["Spain", "Spanish colonial empire"],
+          "explanation": "c. 1492–1898; began with Columbus's 1492 voyage sponsored by Ferdinand and Isabella\nFirst truly global empire: controlled territory on five continents simultaneously at its peak\nAt its 16th-century peak under Philip II, included most of the Americas, the Philippines, parts of Africa and Italy\nSilver from Potosí (Bolivia) fueled the Spanish economy and caused European-wide inflation ('Price Revolution')\nSpanish Armada (1588): Philip II's 130-ship invasion fleet defeated by England and storms — signaled Spain's naval decline\nEnded with the Spanish-American War (1898): Spain ceded Cuba, Puerto Rico, Guam, and the Philippines to the USA",
+          "cardFront": "First global empire, Columbus 1492, Americas and Philippines",
+          "cardBack": "Spanish Empire"
+        },
+        {
+          "id": "mughal",
+          "prompt": "Which Muslim empire ruling most of the Indian subcontinent from 1526 to 1857 is best known for the Taj Mahal, built by Emperor Shah Jahan as a mausoleum for his wife Mumtaz Mahal?",
+          "answer": "Mughal Empire",
+          "alternates": ["Mughals", "Mughal", "Mogul Empire"],
+          "explanation": "1526–1857; founded by Babur after the First Battle of Panipat; Babur was a descendant of both Timur and Genghis Khan\nAt its peak under Aurangzeb (d. 1707), controlled most of the Indian subcontinent — ~150 million people and ~25% of world GDP\nAkbar the Great (r. 1556–1605): known for religious tolerance, administrative reforms, and cultural patronage; abolished the jizya tax on non-Muslims\nTaj Mahal (1632–1653): built in Agra by Shah Jahan as a mausoleum for his wife Mumtaz Mahal; ~20,000 workers; designated a UNESCO World Heritage Site\nBritish East India Company steadily encroached on Mughal territory; the Indian Rebellion of 1857 ended the empire\nLast Mughal emperor Bahadur Shah Zafar II exiled to Rangoon (Yangon) by the British in 1858",
+          "cardFront": "1526–1857, Taj Mahal, India, Akbar the Great",
+          "cardBack": "Mughal Empire"
+        },
+        {
+          "id": "safavid",
+          "prompt": "Which Persian empire (1501–1736) converted Iran to Twelver Shia Islam, fundamentally shaping modern Iranian identity and creating the Sunni-Shia fault line that still defines Middle Eastern geopolitics?",
+          "answer": "Safavid Empire",
+          "alternates": ["Safavid Dynasty", "Safavids", "Safavid Persia"],
+          "explanation": "1501–1736; founded by Shah Ismail I, who conquered Persia and declared Twelver Shia Islam the state religion\nConversion of Iran to Shia Islam created the Sunni-Shia divide still central to Middle Eastern geopolitics today\nConstant warfare with the Sunni Ottoman Empire (Ottoman–Safavid Wars, 1514–1639)\nShah Abbas I (r. 1588–1629): height of Safavid power; reformed the military, moved capital to Isfahan\nIsfahan called 'half the world' (nesf-e jahan); its Naqsh-e Jahan Square is a UNESCO World Heritage Site\nFell to Afghan invasion in 1722; formally ended in 1736 when Nader Shah deposed the last Safavid",
+          "cardFront": "Persia, 1501–1736, Shia Islam, rival of the Ottomans",
+          "cardBack": "Safavid Empire"
+        },
+        {
+          "id": "qing",
+          "prompt": "Which last imperial dynasty of China (1644–1912), founded by the Manchu Aisin Gioro clan, reached its greatest territorial extent before declining under Western pressure and falling in the Xinhai Revolution?",
+          "answer": "Qing Dynasty",
+          "alternates": ["Qing", "Manchu Dynasty", "Ch'ing Dynasty"],
+          "explanation": "1644–1912; founded by the Manchu Aisin Gioro clan — ethnically distinct from the Han Chinese majority\nAt its 18th-century peak, controlled China, Mongolia, Tibet, Xinjiang, Taiwan, and parts of Central Asia\nOpium Wars (1839–1860): Britain forced China to legalize opium imports; China ceded Hong Kong to Britain (1842) — inaugurating the 'century of humiliation'\nTaiping Rebellion (1850–1864): internal civil war killed an estimated 20–30 million people — one of the deadliest conflicts in history\nBoxer Rebellion (1900): anti-foreign uprising suppressed by a coalition of eight foreign nations\nEnded with the Xinhai Revolution; last emperor Puyi (age 6) abdicated February 12, 1912",
+          "cardFront": "Last Chinese dynasty, 1644–1912, Manchu rulers, Opium Wars",
+          "cardBack": "Qing Dynasty"
+        },
+        {
+          "id": "british",
+          "prompt": "Which empire, at its early 20th-century peak controlling 24% of Earth's land area and 412 million people, was famously described as 'the empire on which the sun never sets'?",
+          "answer": "British Empire",
+          "alternates": ["British Colonial Empire"],
+          "explanation": "c. 1583–1997; at its 1920s peak, the largest empire in history by area: ~24% of Earth's land surface\n'The empire on which the sun never sets' — at any given moment, it was daytime somewhere in the empire\nBegan with Elizabethan privateers and the East India Company (founded 1600)\nAbolished the transatlantic slave trade in 1807 (Slavery Abolition Act 1833 freed enslaved people throughout the empire)\nIndian independence (1947) and the decolonization of Africa (1950s–1970s) dismantled the empire\nFormal end: Hong Kong returned to China on July 1, 1997 — the last major colony",
+          "cardFront": "Largest empire in history, 'sun never sets,' 1920s peak",
+          "cardBack": "British Empire"
+        },
+        {
+          "id": "russian-empire",
+          "prompt": "Which empire, proclaimed by Peter the Great in 1721, grew into the world's largest country and a major European power before collapsing in the Russian Revolution of 1917?",
+          "answer": "Russian Empire",
+          "alternates": ["Imperial Russia", "Tsarist Russia"],
+          "explanation": "1721–1917; proclaimed by Peter the Great after victories in the Great Northern War against Sweden\nAt its peak, the world's largest country by area: 22.8 million km² (about 1/6 of Earth's land surface)\nPeter the Great (r. 1682–1725): Westernized Russia, founded St. Petersburg as the new capital, built the first Russian navy\nCatherine the Great (r. 1762–1796): expanded into Ukraine, Crimea, and Poland; corresponded with Voltaire and Diderot\nAlexander II emancipated the serfs in 1861; was assassinated by revolutionary populists in 1881\nNicholas II abdicated March 2, 1917 after catastrophic WWI losses and the February Revolution; executed by Bolsheviks July 17, 1918",
+          "cardFront": "Peter the Great, 1721–1917, world's largest country",
+          "cardBack": "Russian Empire"
+        },
+        {
+          "id": "german-empire",
+          "prompt": "Which empire, proclaimed in the Hall of Mirrors at Versailles in 1871 after Prussia's defeat of France, rapidly industrialized to become Europe's most powerful nation before collapsing after World War I?",
+          "answer": "German Empire",
+          "alternates": ["Second Reich", "Wilhelmine Germany", "Imperial Germany"],
+          "explanation": "1871–1918; proclaimed January 18, 1871 in Versailles' Hall of Mirrors — deliberately staged inside France after its defeat\nUnified under Prussian leadership by Otto von Bismarck, 'the Iron Chancellor'\nRapidly industrialized to surpass Britain in steel production and chemical industry by 1914\nWilhelm II dismissed Bismarck in 1890 and pursued aggressive naval and colonial expansion, stoking European tensions\nTriple Alliance (Germany, Austria-Hungary, Italy) vs. Triple Entente (Britain, France, Russia) — the alliance structure that made WWI a world war\nKaiser Wilhelm II abdicated November 9, 1918; armistice signed November 11, 1918 (the 11th hour of the 11th day of the 11th month)",
+          "cardFront": "1871–1918, Bismarck, unified Prussia, Hall of Mirrors",
+          "cardBack": "German Empire"
+        },
+        {
+          "id": "austro-hungarian",
+          "prompt": "Which 'dual monarchy' empire, formed in 1867 and ruled by the Habsburg dynasty, collapsed after World War I — the very war its assassination of Archduke Franz Ferdinand had helped trigger?",
+          "answer": "Austro-Hungarian Empire",
+          "alternates": ["Austria-Hungary", "Habsburg Empire", "Austro-Hungarian Monarchy", "Dual Monarchy"],
+          "explanation": "1867–1918; formed by the Austro-Hungarian Compromise (Ausgleich) uniting Austria and Hungary under Habsburg rule\nMultiethnic empire of ~50 million people speaking 11+ languages: Germans, Hungarians, Czechs, Poles, Croats, Slovaks, Serbs, and others\nEmperor Franz Joseph I ruled 1848–1916 — nearly 68 years, one of history's longest reigns\nArchduke Franz Ferdinand (heir to the throne) assassinated in Sarajevo on June 28, 1914, triggering WWI\nFought WWI as part of the Central Powers; defeated on multiple fronts\nDissolved November 1918; successor states included Austria, Hungary, Czechoslovakia, Yugoslavia, and parts of Poland, Romania, and Italy",
+          "cardFront": "Habsburg dynasty, 1867–1918, multiethnic, Franz Joseph",
+          "cardBack": "Austro-Hungarian Empire"
+        }
+      ]
+    },
+    {
+      "id": "world-history/revolutions/major-revolutions",
+      "nodeId": "world-history/revolutions",
+      "name": "Major Revolutions",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "glorious-revolution",
+          "prompt": "Which nearly bloodless 1688 revolution in England overthrew the Catholic King James II and installed William of Orange and Mary II to rule under parliamentary constraints, establishing constitutional monarchy?",
+          "answer": "Glorious Revolution",
+          "alternates": ["Revolution of 1688", "English Glorious Revolution"],
+          "explanation": "1688; Parliament invited William III of Orange (Netherlands) and his wife Mary II to replace James II\nJames II was Catholic; Parliament feared a Catholic succession and the restoration of royal absolutism\n'Glorious' because nearly bloodless — James fled to France without a major battle\nEnglish Bill of Rights (1689): codified Parliament's supremacy over the monarchy; barred Catholics from the throne\nEstablished constitutional monarchy and parliamentary sovereignty as England's governing model\nLocke's *Two Treatises of Government* (1689) provided the philosophical justification; directly influenced the American and French Revolutions",
+          "cardFront": "1688, William of Orange, bloodless, Bill of Rights",
+          "cardBack": "Glorious Revolution"
+        },
+        {
+          "id": "american-revolution",
+          "prompt": "Which revolution (1775–1783), sparked by taxation without representation, produced the Declaration of Independence and created the world's first modern constitutional republic?",
+          "answer": "American Revolution",
+          "alternates": ["American Revolutionary War", "American War of Independence"],
+          "explanation": "Thirteen British colonies rebelled against British rule, 1775–1783\nDeclaration of Independence (July 4, 1776) drafted primarily by Thomas Jefferson, articulating Enlightenment natural rights theory\nBattle of Saratoga (1777): turning point — convinced France to ally with the Americans, transforming a colonial revolt into a world war\nGeorge Washington commanded the Continental Army; Valley Forge (winter 1777–78) was the low point; soldiers starved and froze\nTreaty of Paris (1783): Britain recognized American independence; USA gained all territory east of the Mississippi\nU.S. Constitution (1789) and Bill of Rights (1791) created the template for modern constitutional democracy",
+          "cardFront": "1775–1783, Declaration of Independence, first modern republic",
+          "cardBack": "American Revolution"
+        },
+        {
+          "id": "french-revolution",
+          "prompt": "Which revolution (1789–1799), sparked by financial crisis and feudal inequality, produced the Declaration of the Rights of Man, guillotined a king, and culminated in Napoleon's rise to power?",
+          "answer": "French Revolution",
+          "alternates": [],
+          "explanation": "1789–1799; began with the storming of the Bastille on July 14, 1789 — still celebrated as Bastille Day\nDeclaration of the Rights of Man and of the Citizen (1789): foundational document of human rights; directly inspired by the American Declaration\nReign of Terror (1793–1794) under Robespierre: 16,000+ officially executed by guillotine; Robespierre himself guillotined in the Thermidorian Reaction\nKing Louis XVI guillotined January 21, 1793; Marie Antoinette guillotined October 16, 1793\nRevolutionary ideals ('Liberté, Égalité, Fraternité') and the Napoleonic Code spread across Europe\nCaused in part by France's near-bankruptcy from financing the American Revolution",
+          "cardFront": "1789–1799, Bastille, guillotine, Robespierre, Napoleon",
+          "cardBack": "French Revolution"
+        },
+        {
+          "id": "haitian-revolution",
+          "prompt": "Which revolution (1791–1804) produced the only successful slave revolt in history to found an independent nation, creating the world's first Black republic?",
+          "answer": "Haitian Revolution",
+          "alternates": ["Saint-Domingue Revolution"],
+          "explanation": "1791–1804; enslaved people and free people of color in the French colony of Saint-Domingue (modern Haiti) rose up\nOnly successful slave revolt in history to result in a permanent independent nation\nToussaint Louverture led the revolution's military campaigns; captured by Napoleon's forces through treachery and died in a French prison in 1803\nJean-Jacques Dessalines proclaimed Haitian independence on January 1, 1804 — the world's first Black republic\nNamed Haiti from the indigenous Taíno word for 'land of high mountains'; second-oldest republic in the Western Hemisphere\nFrance demanded 150 million gold francs (later reduced to 90 million) in reparations to compensate former slave-owners — payments continued until 1947, impoverishing Haiti for generations",
+          "cardFront": "1791–1804, only successful slave revolt, first Black republic, Toussaint Louverture",
+          "cardBack": "Haitian Revolution"
+        },
+        {
+          "id": "industrial-revolution",
+          "prompt": "Which transformation (c. 1760–1840), beginning in Britain with the mechanization of textile production and James Watt's improvements to the steam engine, fundamentally changed how goods were made and how people lived?",
+          "answer": "Industrial Revolution",
+          "alternates": [],
+          "explanation": "c. 1760–1840 in Britain; the first Industrial Revolution; a second phase occurred 1870–1914 globally\nJames Watt's improved steam engine (patented 1769) was applied first to factories, then to railways (Stephenson's Rocket, 1829) and ships\nMechanized textile production — spinning jenny, power loom, water frame — transformed Britain's cotton industry from cottage craft to factory system\nMigration from rural to urban; child labor in mines and factories; coal became the dominant fuel\nBritain's head start gave it global industrial dominance; by 1870 it produced ~20% of world manufacturing output\nSparked labor movements, trade unionism, and Marxism as responses to industrial working conditions",
+          "cardFront": "c. 1760–1840, Britain, steam engine, mechanized production",
+          "cardBack": "Industrial Revolution"
+        },
+        {
+          "id": "revolutions-of-1848",
+          "prompt": "Which wave of liberal and nationalist uprisings swept France, Austria-Hungary, the German states, and Italy in 1848 — the largest revolutionary wave in European history — and were commemorated in the nickname 'Springtime of Nations'?",
+          "answer": "Revolutions of 1848",
+          "alternates": ["Springtime of Nations", "Year of Revolution", "Spring of Nations", "1848 Revolutions"],
+          "explanation": "1848: simultaneous revolutions in France, German states, Austrian Empire, Italian states, Denmark, and more\nFrance: February Revolution ousted Louis-Philippe; Second Republic proclaimed; Louis-Napoleon elected president, then made himself Emperor Napoleon III\nKarl Marx and Friedrich Engels published *The Communist Manifesto* in February 1848, days before the revolutions\nMost revolutions failed by 1849, crushed by conservative armies; but serfdom was abolished in Austria and Hungary\nNationalist movements failed but planted seeds: German and Italian unification achieved within 20 years\nRevolutions of 1848 demonstrated the power of nationalist sentiment and liberal constitutionalism across Europe",
+          "cardFront": "1848, pan-European uprisings, 'Springtime of Nations', Communist Manifesto",
+          "cardBack": "Revolutions of 1848"
+        },
+        {
+          "id": "russian-revolution",
+          "prompt": "Which twin revolutions of 1917 ended the Romanov dynasty with Tsar Nicholas II's abdication and then brought the Bolsheviks under Lenin to power, establishing the world's first communist state?",
+          "answer": "Russian Revolution",
+          "alternates": ["October Revolution", "Bolshevik Revolution", "Russian Revolutions of 1917"],
+          "explanation": "Two revolutions in 1917: February Revolution (March by Gregorian calendar) and October Revolution (November by Gregorian calendar)\nFebruary Revolution: mass protests and military mutinies forced Nicholas II to abdicate March 2; Provisional Government under Kerensky took power\nLenin returned from Swiss exile in the 'Sealed Train' arranged by Germany, which hoped to destabilize Russia\nOctober Revolution (November 7, 1917): Bolsheviks overthrew the Provisional Government in a near-bloodless coup; seized the Winter Palace in Petrograd\nRussian Civil War followed (1918–1922): Reds (Bolsheviks) defeated Whites (anti-Bolshevik forces backed by Western powers)\nNicholas II and his entire family shot by Bolsheviks on July 17, 1918 in Yekaterinburg; remains identified by DNA in the 1990s",
+          "cardFront": "1917, Lenin/Bolsheviks, end of Romanov dynasty",
+          "cardBack": "Russian Revolution"
+        },
+        {
+          "id": "chinese-communist-revolution",
+          "prompt": "Which revolution concluded on October 1, 1949 when Mao Zedong proclaimed the People's Republic of China from Tiananmen Gate, after defeating Chiang Kai-shek's Nationalist forces in a civil war?",
+          "answer": "Chinese Communist Revolution",
+          "alternates": ["Chinese Revolution", "Communist Revolution in China", "Chinese Civil War"],
+          "explanation": "Chinese Civil War between Communists (CPC under Mao Zedong) and Nationalists (KMT under Chiang Kai-shek), 1927–1949\nLong March (1934–1935): Mao's forces marched ~5,600 miles to escape Nationalist encirclement — Mao emerged as undisputed leader\nJapanese invasion (1937–1945) temporarily united the two sides; Civil War resumed immediately after Japan's surrender\nMao proclaimed the People's Republic of China from Tiananmen Gate on October 1, 1949\nChiang Kai-shek and the Nationalist government retreated to Taiwan (still the Republic of China government today)\nEstablished the most populous nation on Earth as Communist; led directly to U.S. involvement in Korea",
+          "cardFront": "Mao Zedong, October 1, 1949, People's Republic of China",
+          "cardBack": "Chinese Communist Revolution"
+        },
+        {
+          "id": "cuban-revolution",
+          "prompt": "Which revolution succeeded on January 1, 1959 when Fidel Castro's guerrilla movement overthrew the U.S.-backed dictator Fulgencio Batista, establishing a Communist government 90 miles from Florida?",
+          "answer": "Cuban Revolution",
+          "alternates": [],
+          "explanation": "Fidel Castro, Che Guevara, and Raúl Castro led a guerrilla war against Batista's dictatorship, 1953–1959\nBegan with the failed Moncada Barracks attack (July 26, 1953); survivors formed the 26th of July Movement\nCastro led 82 rebels aboard the yacht *Granma* from Mexico to Cuba (December 1956); most were killed; survivors fled to the Sierra Maestra mountains\nBatista fled on January 1, 1959; Castro's forces marched into Havana\nBay of Pigs invasion (April 1961): CIA-trained Cuban exiles failed to overthrow Castro — an embarrassment for the Kennedy administration\nCuba became a Communist state; Castro ruled until 2008; the revolution led directly to the Cuban Missile Crisis (1962)",
+          "cardFront": "Fidel Castro, January 1, 1959, Communist Cuba",
+          "cardBack": "Cuban Revolution"
+        },
+        {
+          "id": "iranian-revolution",
+          "prompt": "Which revolution in 1979 overthrew Shah Mohammad Reza Pahlavi, replacing Iran's pro-Western monarchy with an Islamic Republic under Ayatollah Khomeini and reshaping Middle Eastern geopolitics?",
+          "answer": "Iranian Revolution",
+          "alternates": ["Islamic Revolution", "1979 Iranian Revolution"],
+          "explanation": "Mass protests and strikes overthrew Shah Mohammad Reza Pahlavi in January–February 1979\nAyatollah Ruhollah Khomeini returned from exile in Paris on February 1, 1979 and established the Islamic Republic\nConstitution created a Supreme Leader (Khomeini) with ultimate authority above elected institutions\nIran hostage crisis (1979–1981): 52 American diplomats held 444 days after students seized the U.S. Embassy in Tehran; freed moments after Reagan's inauguration\nIran went from a secular pro-Western monarchy to a Shia theocracy hostile to the USA and Israel overnight\nIran–Iraq War (1980–1988) followed immediately: Iraq invaded, fearing the revolution would spread to its Shia population",
+          "cardFront": "1979, Ayatollah Khomeini, overthrew the Shah, Islamic Republic",
+          "cardBack": "Iranian Revolution"
+        },
+        {
+          "id": "velvet-revolution",
+          "prompt": "Which largely peaceful revolution in November 1989 ended Communist rule in Czechoslovakia, led by dissident playwright Václav Havel, who became the country's first post-Communist president?",
+          "answer": "Velvet Revolution",
+          "alternates": ["Gentle Revolution"],
+          "explanation": "November 17 – December 29, 1989; peaceful transition from Communist to democratic rule in Czechoslovakia\nBegan with a student demonstration in Prague on November 17 violently suppressed by police; triggered mass national protests\n'Velvet' because of its non-violent character — strikes and demonstrations alone brought down a regime of 40+ years\nVáclav Havel: playwright and dissident imprisoned under Communist rule; became Czechoslovakia's first post-Communist president on December 29, 1989\nPart of the wider 1989 Revolutions: Poland, Hungary, East Germany, Bulgaria, and Romania all shed Communist rule that year\nCzechoslovakia peacefully split into the Czech Republic and Slovakia on January 1, 1993 — the 'Velvet Divorce'",
+          "cardFront": "1989, Czechoslovakia, Václav Havel, peaceful end of Communism",
+          "cardBack": "Velvet Revolution"
+        },
+        {
+          "id": "arab-spring",
+          "prompt": "Which wave of pro-democracy uprisings (2010–2012) swept the Arab world, sparked by a Tunisian street vendor's self-immolation, and toppled governments in Tunisia, Egypt, Libya, and Yemen?",
+          "answer": "Arab Spring",
+          "alternates": [],
+          "explanation": "December 2010 – 2012; pro-democracy and anti-government protests across the Arab world\nSparked by Mohamed Bouazizi, a Tunisian fruit vendor who set himself on fire on December 17, 2010 after police confiscated his cart\nTunisia: President Ben Ali fled after 23 years; the only Arab Spring country to achieve lasting democratic transition\nEgypt: President Mubarak resigned February 11, 2011 after 18 days of Tahrir Square protests; military eventually took power (al-Sisi)\nLibya: Gaddafi captured and killed on October 20, 2011 after NATO-backed civil war; descended into prolonged instability\nSyria: Assad refused to step down; civil war erupted in 2011, killing 400,000+ and displacing 13 million",
+          "cardFront": "2010–2012, pro-democracy uprisings, Arab world, Tunisia to Syria",
+          "cardBack": "Arab Spring"
+        }
+      ]
+    },
+    {
+      "id": "world-history/20th-century/world-events",
+      "nodeId": "world-history/20th-century",
+      "name": "20th Century World Events",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "great-depression",
+          "prompt": "Which economic catastrophe, triggered by the U.S. stock market crash of October 1929, spread globally to cause 25% unemployment in the USA, democratic backsliding across Europe, and is considered a contributing cause of World War II?",
+          "answer": "Great Depression",
+          "alternates": ["The Great Depression"],
+          "explanation": "1929–1939; the worst economic downturn of the 20th century\nBlack Tuesday (October 29, 1929): U.S. stock market crashed, erasing billions in paper wealth\nU.S. unemployment reached 25% by 1933; GDP fell ~30%; 9,000 banks failed; millions of families lost homes and farms\nSmoot-Hawley Tariff (1930): U.S. raised import tariffs; other nations retaliated; global trade collapsed by ~65%\nFDR's New Deal (1933–1939): relief, recovery, and reform programs; created Social Security, the SEC, and the FDIC\nHitler exploited German economic desperation (unemployment ~30%) to rise to power — the Depression helped produce WWII",
+          "cardFront": "1929–1939, stock market crash, 25% unemployment, FDR's New Deal",
+          "cardBack": "Great Depression"
+        },
+        {
+          "id": "holocaust",
+          "prompt": "What name is given to Nazi Germany's systematic, state-sponsored murder of six million Jews and millions of others during World War II, carried out in concentration and extermination camps?",
+          "answer": "Holocaust",
+          "alternates": ["Shoah", "The Holocaust"],
+          "explanation": "1941–1945; Nazi Germany and collaborators murdered ~6 million Jews — two-thirds of European Jewry\nAlso killed: ~5–6 million others — Roma, disabled people, Soviet POWs, political prisoners, homosexuals, Jehovah's Witnesses\nNuremberg Laws (1935) stripped Jews of German citizenship; Kristallnacht (November 9–10, 1938) was a nationwide pogrom\nWannsee Conference (January 1942): senior Nazi officials coordinated the 'Final Solution to the Jewish Question'\nMajor extermination camps: Auschwitz-Birkenau, Treblinka, Sobibór, Belzec, Chelmno, Majdanek — all in occupied Poland\nNuremberg Trials (1945–1946) prosecuted Nazi leaders; established 'crimes against humanity' as a concept in international law",
+          "cardFront": "Nazi Germany, 1941–1945, 6 million Jews, systematic genocide",
+          "cardBack": "Holocaust"
+        },
+        {
+          "id": "united-nations",
+          "prompt": "Which international organization, founded on October 24, 1945 with 51 original member states to replace the failed League of Nations, now has 193 members and is headquartered in New York City?",
+          "answer": "United Nations",
+          "alternates": ["UN", "U.N."],
+          "explanation": "Founded October 24, 1945; 51 original members; 193 members today\nSucceded the League of Nations (1920–1946), which failed to prevent WWII — notably the USA never joined the League\nFour principal organs: General Assembly, Security Council (5 permanent members with veto power: USA, UK, France, Russia, China), Secretariat, International Court of Justice\nUN Charter drafted at the San Francisco Conference (April–June 1945)\nHeadquarters on the East River in Manhattan, on land donated by John D. Rockefeller Jr.\nSpecialized agencies include UNESCO, WHO, UNICEF, FAO, and the World Bank; peacekeeping forces deployed globally",
+          "cardFront": "Founded 1945, 193 members, New York City headquarters",
+          "cardBack": "United Nations"
+        },
+        {
+          "id": "cold-war",
+          "prompt": "Which ideological and geopolitical rivalry between the USA and the Soviet Union (1947–1991), fought through proxy wars, the space race, and nuclear standoffs, ended with the dissolution of the USSR?",
+          "answer": "Cold War",
+          "alternates": [],
+          "explanation": "1947–1991; USA (and NATO allies) vs. USSR (and Warsaw Pact) — the defining geopolitical conflict of the 20th century\nMutually Assured Destruction (MAD): both sides had enough nuclear weapons to destroy each other many times over; this deterred direct military conflict\nProxy wars fought on behalf of each side: Korea, Vietnam, Angola, Afghanistan, and across Latin America\nSpace Race: Sputnik (1957), Gagarin first in space (1961), Armstrong on the Moon (1969 — the American victory)\nBerlin Wall (1961–1989): physical symbol of the Iron Curtain; at least 140 people killed attempting to cross\nEnded with the dissolution of the Soviet Union on December 25, 1991",
+          "cardFront": "USA vs. USSR, 1947–1991, nuclear deterrence, proxy wars",
+          "cardBack": "Cold War"
+        },
+        {
+          "id": "partition-of-india",
+          "prompt": "Which 1947 division of British India into independent India and Pakistan, drawn along religious lines, triggered one of the largest mass migrations in history and communal violence killing hundreds of thousands?",
+          "answer": "Partition of India",
+          "alternates": ["Indian Partition", "Independence and Partition of India"],
+          "explanation": "August 14–15, 1947; British India split into two independent nations: Pakistan (Muslim majority) and India (Hindu/Sikh majority)\nCyril Radcliffe drew the border in just 5 weeks with limited local knowledge; his Radcliffe Line split Punjab and Bengal\n10–20 million people displaced as Hindus, Sikhs, and Muslims fled to the 'right' side of the new borders\nEstimated 200,000–2 million killed in communal massacres and revenge attacks during the migration\nMahatma Gandhi, who had campaigned for Hindu-Muslim unity, was assassinated on January 30, 1948 by a Hindu nationalist\nKashmir remains disputed between India, Pakistan, and China to this day; the partition's violence still shapes South Asian politics",
+          "cardFront": "1947, British India divided into India and Pakistan, mass migration, communal violence",
+          "cardBack": "Partition of India"
+        },
+        {
+          "id": "apartheid",
+          "prompt": "Which system of institutionalized racial segregation enforced in South Africa from 1948 to 1994 was dismantled when Nelson Mandela, released after 27 years in prison, won the country's first multiracial election?",
+          "answer": "Apartheid",
+          "alternates": ["South African apartheid"],
+          "explanation": "'Apartheid' means 'separateness' in Afrikaans; enacted by the National Party government in 1948\nLaws classified all South Africans as White, Coloured, Indian, or Black; dictated where each could live, work, and travel\nANC (African National Congress) led the resistance; Nelson Mandela imprisoned on Robben Island 1964–1990 (27 years)\nInternational sanctions, cultural boycotts, and sporting bans isolated South Africa economically and diplomatically\nF.W. de Klerk unbanned the ANC and released Mandela on February 11, 1990\nMandela and de Klerk shared the Nobel Peace Prize in 1993; Mandela elected South Africa's first Black president April 1994",
+          "cardFront": "South Africa, 1948–1994, racial segregation, Nelson Mandela",
+          "cardBack": "Apartheid"
+        },
+        {
+          "id": "israel-independence",
+          "prompt": "Which state was established on May 14, 1948 when David Ben-Gurion read its Declaration of Independence, prompting the USA to extend recognition within 11 minutes and five Arab armies to invade the next day?",
+          "answer": "Israel",
+          "alternates": ["State of Israel"],
+          "explanation": "David Ben-Gurion proclaimed the State of Israel in Tel Aviv on May 14, 1948 as the British Mandate for Palestine expired\nPresident Truman extended U.S. de facto recognition within 11 minutes of the declaration\nFive Arab armies (Egypt, Jordan, Syria, Iraq, Lebanon) invaded the next day; 1948 Arab-Israeli War ('Israeli War of Independence')\nIsrael survived and in armistice agreements (1949) held more territory than the 1947 UN partition plan had allocated\nPalestinian refugee crisis: ~700,000 Palestinian Arabs fled or were expelled — called the Nakba ('catastrophe')\nZionist movement founded by Theodor Herzl in 1897; the Holocaust gave the cause international momentum",
+          "cardFront": "David Ben-Gurion, May 14, 1948, declared in Palestine",
+          "cardBack": "Israel"
+        },
+        {
+          "id": "cuban-missile-crisis",
+          "prompt": "Which 13-day confrontation in October 1962, when the USA discovered Soviet nuclear missiles in Cuba, brought the world closer to nuclear war than at any other point during the Cold War?",
+          "answer": "Cuban Missile Crisis",
+          "alternates": [],
+          "explanation": "October 16–28, 1962; 13-day standoff between the USA and USSR — the closest the Cold War came to nuclear exchange\nU-2 spy plane photographs revealed Soviet missile sites under construction in Cuba\nPresident Kennedy imposed a naval blockade ('quarantine') around Cuba; demanded removal of the missiles\nSoviet ships carrying more missiles turned back from the quarantine line; Khrushchev agreed to remove the missiles\nSecret deal: USSR removed Cuban missiles; USA secretly removed Jupiter missiles from Turkey and pledged not to invade Cuba\nHotline (direct telephone link) between Washington and Moscow established afterwards to prevent future miscommunication",
+          "cardFront": "October 1962, Soviet missiles in Cuba, Kennedy vs. Khrushchev, 13 days",
+          "cardBack": "Cuban Missile Crisis"
+        },
+        {
+          "id": "cultural-revolution",
+          "prompt": "Which political campaign (1966–1976) launched by Mao Zedong mobilized Red Guards to purge 'counter-revolutionary' elements in China, closing universities, destroying cultural heritage, and killing hundreds of thousands?",
+          "answer": "Cultural Revolution",
+          "alternates": ["Chinese Cultural Revolution", "Great Proletarian Cultural Revolution"],
+          "explanation": "1966–1976; officially the 'Great Proletarian Cultural Revolution'; launched by Mao Zedong to reassert his authority within the Communist Party\nMao mobilized millions of young 'Red Guards' to attack the 'Four Olds': old customs, culture, habits, and ideas\nIntellectuals, teachers, artists, and party officials were publicly humiliated, imprisoned, tortured, or killed; universities closed for years\nDeng Xiaoping (future paramount leader) was purged twice; Lin Biao (Mao's chosen successor) died fleeing to the USSR after a failed coup attempt in 1971\nHistorical sites, temples, books, and artworks destroyed across China\nEnded with Mao's death (September 9, 1976) and the arrest of the 'Gang of Four'; estimated 500,000–2 million deaths",
+          "cardFront": "1966–1976, Mao Zedong, Red Guards, destroyed Chinese cultural heritage",
+          "cardBack": "Cultural Revolution"
+        },
+        {
+          "id": "moon-landing",
+          "prompt": "What historic event occurred on July 20, 1969 when Apollo 11 astronauts Neil Armstrong and Buzz Aldrin became the first humans to walk on the Moon, with Armstrong declaring it 'one small step for man'?",
+          "answer": "Moon landing",
+          "alternates": ["Apollo 11 moon landing", "first moon landing", "Apollo 11"],
+          "explanation": "July 20, 1969; Apollo 11 mission; lunar module *Eagle* landed in the Sea of Tranquility\nNeil Armstrong: first human to walk on the Moon; said 'That's one small step for man, one giant leap for mankind' (he later stated he intended 'for a man')\nBuzz Aldrin joined Armstrong on the surface; Michael Collins orbited in the command module *Columbia*\nFulfilled JFK's 1961 challenge to land on the Moon 'before this decade is out,' announced less than three weeks after Yuri Gagarin's first human spaceflight\nSoviet Luna program had been racing to get there first; the USSR never landed humans on the Moon\nSix Apollo missions successfully landed on the Moon (11, 12, 14, 15, 16, 17); last crewed mission was Apollo 17 (December 1972)",
+          "cardFront": "July 20, 1969, Neil Armstrong, Apollo 11, Sea of Tranquility",
+          "cardBack": "Moon landing"
+        },
+        {
+          "id": "tiananmen-square",
+          "prompt": "Which event on June 4, 1989 saw Chinese military crush pro-democracy demonstrators in Beijing, killing hundreds to thousands, and is symbolized by an unidentified man standing alone before a column of tanks?",
+          "answer": "Tiananmen Square massacre",
+          "alternates": ["Tiananmen Square crackdown", "June Fourth Incident", "Tiananmen Square"],
+          "explanation": "June 3–4, 1989; the People's Liberation Army crushed student-led pro-democracy protests in Beijing\nProtests began April 15 after the death of reformist leader Hu Yaobang; grew to ~1 million people in Beijing and spread to 400+ cities\nMartial law declared May 20; the army ordered in on the night of June 3–4\nDeath toll disputed: Chinese Red Cross initially estimated 2,600; Chinese government claimed 241; leaked documents suggest the true figure is in the hundreds to thousands\n'Tank Man' (June 5): an unidentified man stood in the path of a column of tanks — one of the 20th century's most iconic photographs\nHeavily censored in China to this day; Western governments imposed sanctions, normalized within years",
+          "cardFront": "June 4, 1989, Beijing, pro-democracy crackdown, Tank Man",
+          "cardBack": "Tiananmen Square massacre"
+        },
+        {
+          "id": "berlin-wall",
+          "prompt": "Which event on November 9, 1989 ended the 28-year physical division of Berlin, as crowds spontaneously demolished sections of a barrier that had symbolized the Iron Curtain since 1961?",
+          "answer": "Fall of the Berlin Wall",
+          "alternates": ["Berlin Wall falls", "Mauerfall", "fall of the Berlin Wall"],
+          "explanation": "November 9, 1989; East Germany announced citizens could cross freely; crowds spontaneously demolished sections of the wall\nBerlin Wall built beginning August 13, 1961 to stop the mass exodus of East Germans to West Berlin (3.5 million had fled since 1945)\nAt least 140 people killed attempting to cross (official estimate; actual number may be higher); East German guards had shoot-to-kill orders\nA miscommunication at a press conference — Günter Schabowski said citizens could travel 'immediately, without delay' — caused crowds to rush the checkpoints\nGerman reunification followed on October 3, 1990\nPart of the 1989 Revolutions that ended Communist rule across Eastern Europe in rapid succession",
+          "cardFront": "November 9, 1989, end of 28-year division of Berlin",
+          "cardBack": "Fall of the Berlin Wall"
+        },
+        {
+          "id": "soviet-dissolution",
+          "prompt": "What occurred on December 25, 1991 when Mikhail Gorbachev resigned as president, the Soviet flag was lowered over the Kremlin, and the USSR formally ceased to exist after 69 years?",
+          "answer": "Dissolution of the Soviet Union",
+          "alternates": ["Collapse of the Soviet Union", "end of the Soviet Union", "Soviet dissolution", "fall of the Soviet Union"],
+          "explanation": "December 25–26, 1991; Gorbachev resigned; Soviet flag replaced by the Russian tricolor over the Kremlin\nGorbachev's reforms — glasnost (openness) and perestroika (restructuring) — had loosened Communist Party control without saving it\nBaltic states (Estonia, Latvia, Lithuania) declared independence in 1990; other republics followed through 1991\nFailed coup attempt by Communist hardliners (August 19–22, 1991) backfired and accelerated dissolution\nBelavezha Accords (December 8, 1991): Russia, Ukraine, Belarus declared the USSR dissolved; Commonwealth of Independent States formed\n15 independent nations emerged; Russia inherited the USSR's UN Security Council seat, nuclear arsenal, and most international obligations",
+          "cardFront": "December 25, 1991, Gorbachev resigns, USSR dissolves",
+          "cardBack": "Dissolution of the Soviet Union"
+        },
+        {
+          "id": "rwandan-genocide",
+          "prompt": "Which genocide in 1994 saw Hutu extremists massacre approximately 800,000 Tutsi and moderate Hutu people in Rwanda over 100 days while the international community, including the UN, failed to intervene?",
+          "answer": "Rwandan Genocide",
+          "alternates": ["Rwanda genocide", "Rwandan Genocide of 1994"],
+          "explanation": "April 7 – July 15, 1994; ~800,000 Tutsi and moderate Hutu killed in approximately 100 days\nTriggered by the assassination of Hutu President Juvénal Habyarimana (plane shot down April 6, 1994)\nHutu extremist militias (Interahamwe) used machetes; Radio Mille Collines broadcast names of Tutsi targets\nUN force commander General Roméo Dallaire warned the UN of the impending genocide weeks in advance; his requests for permission to act were denied\nUSA and Western powers deliberately avoided the word 'genocide' to sidestep legal obligation to intervene under the Genocide Convention\nRPF (Rwandan Patriotic Front) under Paul Kagame stopped the genocide by July 1994; 2 million Hutus fled to Congo; Clinton later called inaction one of his greatest regrets",
+          "cardFront": "1994, Rwanda, ~800,000 Tutsi killed in 100 days",
+          "cardBack": "Rwandan Genocide"
+        },
+        {
+          "id": "september-11",
+          "prompt": "Which terrorist attacks on September 11, 2001, carried out by 19 al-Qaeda hijackers who crashed planes into the World Trade Center and the Pentagon, killed nearly 3,000 people and launched the U.S. 'War on Terror'?",
+          "answer": "September 11 attacks",
+          "alternates": ["9/11", "9/11 attacks", "September 11", "September 11, 2001"],
+          "explanation": "September 11, 2001; 19 al-Qaeda operatives hijacked four commercial aircraft\nTwo planes struck the World Trade Center in New York; both 110-story towers collapsed within 2 hours; ~2,600 killed\nOne plane hit the Pentagon in Arlington, Virginia; 184 killed\nUnited 93 crashed in Shanksville, Pennsylvania after passengers revolted; 40 killed; intended target believed to be the Capitol or White House\nOsama bin Laden of al-Qaeda claimed responsibility; killed by U.S. Navy SEALs in Abbottabad, Pakistan on May 2, 2011\nLed directly to the invasion of Afghanistan (October 2001), the Iraq War (2003), the Department of Homeland Security, and the USA PATRIOT Act",
+          "cardFront": "September 11, 2001, al-Qaeda, hijacked 4 planes, ~3,000 deaths",
+          "cardBack": "September 11 attacks"
+        }
+      ]
+    }
+  ]
+}
