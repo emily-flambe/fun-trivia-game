@@ -24,6 +24,7 @@ export function EndlessQuiz() {
 	const [status, setStatus] = useState<'loading' | 'in-progress' | 'showing-result' | 'stopped'>('loading');
 	const [fetchingMore, setFetchingMore] = useState(false);
 	const inputRef = useRef<HTMLInputElement>(null);
+	const nextButtonRef = useRef<HTMLButtonElement>(null);
 	const startTimeRef = useRef<number>(Date.now());
 	const submittedRef = useRef(false);
 	const answersRef = useRef<AnswerRecord[]>([]);
@@ -93,10 +94,12 @@ export function EndlessQuiz() {
 		}
 	}, [current, queue.length, fetchingMore, status]);
 
-	// Focus input
+	// Focus input or next button
 	useEffect(() => {
 		if (status === 'in-progress' && inputRef.current) {
 			inputRef.current.focus();
+		} else if (status === 'showing-result' && nextButtonRef.current) {
+			nextButtonRef.current.focus();
 		}
 	}, [current, status]);
 
@@ -235,7 +238,7 @@ export function EndlessQuiz() {
 								))}
 							</ul>
 						</div>
-						<button onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						<button ref={nextButtonRef} onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							Next
 						</button>
 					</div>

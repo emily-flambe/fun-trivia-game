@@ -38,6 +38,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 	const [checking, setChecking] = useState(false);
 	const [status, setStatus] = useState<'in-progress' | 'showing-result' | 'complete'>('in-progress');
 	const inputRef = useRef<HTMLInputElement>(null);
+	const nextButtonRef = useRef<HTMLButtonElement>(null);
 	const startTimeRef = useRef<number>(Date.now());
 	const submittedRef = useRef(false);
 
@@ -57,6 +58,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 	useEffect(() => {
 		if (status === 'in-progress' && inputRef.current) {
 			inputRef.current.focus();
+		} else if (status === 'showing-result' && nextButtonRef.current) {
+			nextButtonRef.current.focus();
 		}
 	}, [current, status]);
 
@@ -197,7 +200,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 								))}
 							</ul>
 						</div>
-						<button onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+						<button ref={nextButtonRef} onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							{current + 1 >= quizItems.length ? 'See Results' : 'Next'}
 						</button>
 					</div>
