@@ -1,0 +1,1185 @@
+{
+  "nodes": [
+    {
+      "id": "american-history/amendments",
+      "parentId": "american-history",
+      "name": "Constitutional Amendments",
+      "description": "All 27 amendments to the U.S. Constitution"
+    },
+    {
+      "id": "american-history/wars",
+      "parentId": "american-history",
+      "name": "Major U.S. Wars",
+      "description": "American military conflicts from the Revolution to the present"
+    },
+    {
+      "id": "american-history/supreme-court",
+      "parentId": "american-history",
+      "name": "Supreme Court",
+      "description": "Landmark Supreme Court decisions"
+    },
+    {
+      "id": "american-history/state-capitals",
+      "parentId": "american-history",
+      "name": "State Capitals",
+      "description": "Capitals of all 50 U.S. states"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/amendments/constitutional-amendments",
+      "nodeId": "american-history/amendments",
+      "name": "All 27 Constitutional Amendments",
+      "format": "fill-blanks",
+      "config": {
+        "ordered": true,
+        "prompt": "Name all 27 Constitutional Amendments by their primary subject, in order"
+      },
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "amendment-1",
+          "answer": "Freedom of religion, speech, press, assembly, and petition",
+          "alternates": [
+            "Freedom of speech",
+            "Freedom of religion",
+            "Free speech",
+            "First Amendment rights",
+            "Religion, speech, press, assembly, petition"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights (Amendments 1–10)\nProhibits Congress from making laws respecting an establishment of religion, or abridging freedom of speech, press, assembly, or petition\nOne of the most litigated amendments; key cases include Brandenburg v. Ohio, Tinker v. Des Moines, and New York Times v. Sullivan\nThe Establishment Clause and Free Exercise Clause together govern church-state separation",
+          "cardFront": "1st Amendment (1791)",
+          "cardBack": "Freedom of religion, speech, press, assembly, and petition"
+        },
+        {
+          "id": "amendment-2",
+          "answer": "Right to bear arms",
+          "alternates": [
+            "Right to keep and bear arms",
+            "Bear arms",
+            "Gun rights"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\n'A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed'\nDistrict of Columbia v. Heller (2008) established the individual right to bear arms, independent of militia service\nMcDonald v. City of Chicago (2010) extended this right against state and local governments",
+          "cardFront": "2nd Amendment (1791)",
+          "cardBack": "Right to bear arms"
+        },
+        {
+          "id": "amendment-3",
+          "answer": "No quartering of soldiers",
+          "alternates": [
+            "Quartering of soldiers",
+            "No quartering",
+            "Soldiers in private homes"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nProhibits the government from forcing citizens to house soldiers in peacetime without consent, or in wartime except as prescribed by law\nDirect response to the British Quartering Acts of 1765 and 1774, which forced colonists to house British troops\nLeast litigated of all amendments; has never been the primary basis for a Supreme Court ruling",
+          "cardFront": "3rd Amendment (1791)",
+          "cardBack": "No quartering of soldiers"
+        },
+        {
+          "id": "amendment-4",
+          "answer": "No unreasonable search and seizure",
+          "alternates": [
+            "Unreasonable search and seizure",
+            "Search and seizure",
+            "No warrantless searches"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nProtects against unreasonable searches and seizures; requires warrants to be issued only upon probable cause\nMapp v. Ohio (1961) applied the exclusionary rule to states — evidence from illegal searches is inadmissible\nResponse to British use of 'writs of assistance,' allowing officials to search homes without cause",
+          "cardFront": "4th Amendment (1791)",
+          "cardBack": "No unreasonable search and seizure"
+        },
+        {
+          "id": "amendment-5",
+          "answer": "Due process; no self-incrimination or double jeopardy",
+          "alternates": [
+            "Self-incrimination",
+            "No self-incrimination",
+            "Double jeopardy",
+            "Due process",
+            "Taking the Fifth"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nGuarantees grand jury indictment for serious crimes, prohibits double jeopardy and self-incrimination, requires due process, and restricts government taking of private property\n'Taking the Fifth' refers to invoking the right against self-incrimination\nThe 'Takings Clause' requires 'just compensation' when the government seizes private property",
+          "cardFront": "5th Amendment (1791)",
+          "cardBack": "Due process; no self-incrimination or double jeopardy"
+        },
+        {
+          "id": "amendment-6",
+          "answer": "Right to speedy trial, jury, and legal counsel",
+          "alternates": [
+            "Speedy trial",
+            "Right to counsel",
+            "Right to a lawyer",
+            "Speedy trial and legal counsel"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nGuarantees the right to a speedy and public trial by an impartial jury, to be informed of charges, to confront witnesses, and to have an attorney\nGideon v. Wainwright (1963) held that states must provide counsel to defendants who cannot afford it\nMiranda v. Arizona (1966) built on this, requiring police to inform suspects of their right to an attorney",
+          "cardFront": "6th Amendment (1791)",
+          "cardBack": "Right to speedy trial, jury, and legal counsel"
+        },
+        {
+          "id": "amendment-7",
+          "answer": "Right to jury trial in civil cases",
+          "alternates": [
+            "Civil jury trial",
+            "Jury trial in civil cases",
+            "Right to jury in civil cases"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nGuarantees the right to a jury trial in federal civil cases where the value in controversy exceeds twenty dollars\nThe twenty-dollar threshold was set in 1791 and has never been adjusted for inflation\nOne of the least-changed amendments; applies only to federal courts, not state courts",
+          "cardFront": "7th Amendment (1791)",
+          "cardBack": "Right to jury trial in civil cases"
+        },
+        {
+          "id": "amendment-8",
+          "answer": "No cruel and unusual punishment or excessive bail",
+          "alternates": [
+            "Cruel and unusual punishment",
+            "No cruel and unusual punishment",
+            "Excessive bail",
+            "No excessive bail"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nProhibits excessive bail, excessive fines, and cruel and unusual punishment\nDerived almost verbatim from the English Bill of Rights (1689)\nThe Supreme Court has ruled the death penalty is not per se cruel and unusual, but certain applications (e.g., for juveniles, Roper v. Simmons, 2005) violate it\nStandard evolves with 'evolving standards of decency' — what was acceptable in 1791 may not be today",
+          "cardFront": "8th Amendment (1791)",
+          "cardBack": "No cruel and unusual punishment or excessive bail"
+        },
+        {
+          "id": "amendment-9",
+          "answer": "Rights retained by the people",
+          "alternates": [
+            "Unenumerated rights",
+            "People retain rights",
+            "Rights not listed"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nStates that the enumeration of certain rights in the Constitution shall not be construed to deny or disparage other rights retained by the people\nAddresses the fear that listing specific rights would imply the government could violate any rights not listed\nJustice Goldberg invoked it in Griswold v. Connecticut (1965) to recognize a right to privacy\nThe least-cited of the Bill of Rights amendments in Supreme Court majorities",
+          "cardFront": "9th Amendment (1791)",
+          "cardBack": "Rights retained by the people"
+        },
+        {
+          "id": "amendment-10",
+          "answer": "Powers reserved to states and the people",
+          "alternates": [
+            "States' rights",
+            "Reserved powers",
+            "Powers reserved to states",
+            "Federalism"
+          ],
+          "explanation": "Ratified December 15, 1791 — part of the Bill of Rights\nStates that powers not delegated to the federal government, nor prohibited to the states, are reserved to the states or the people\nFoundation of federalism; frequently invoked in disputes between federal and state authority\nInterpretation has shifted throughout history — narrowly construed during New Deal expansion; invoked by states challenging federal mandates\nCompletes the Bill of Rights (Amendments 1–10), all ratified together December 15, 1791",
+          "cardFront": "10th Amendment (1791)",
+          "cardBack": "Powers reserved to states and the people"
+        },
+        {
+          "id": "amendment-11",
+          "answer": "Sovereign immunity; states cannot be sued by citizens of other states",
+          "alternates": [
+            "Sovereign immunity",
+            "Federal courts cannot hear suits against states",
+            "States cannot be sued by citizens of other states",
+            "State immunity from lawsuits"
+          ],
+          "explanation": "Ratified February 7, 1795\nProhibits federal courts from hearing lawsuits brought by citizens of one state against another state\nPassed in direct response to Chisholm v. Georgia (1793), where the Supreme Court held Georgia could be sued by a South Carolina citizen\nConstitutional amendment overriding a Supreme Court decision — a rare occurrence\nDoes not prevent states from suing each other or the federal government from suing a state",
+          "cardFront": "11th Amendment (1795)",
+          "cardBack": "Sovereign immunity; states cannot be sued by citizens of other states"
+        },
+        {
+          "id": "amendment-12",
+          "answer": "Separate Electoral College ballots for President and Vice President",
+          "alternates": [
+            "Separate ballots for president and vice president",
+            "Electoral College reform",
+            "Presidential election reform"
+          ],
+          "explanation": "Ratified June 15, 1804\nRequires electors to cast separate ballots for President and Vice President\nPassed after the election of 1800, when Jefferson and his running mate Burr tied in the Electoral College (both received 73 votes), throwing the election to the House\nThe original system had electors cast two votes for president; the runner-up became VP — leading to politically mismatched administrations\nAlso addresses what happens if no candidate wins a majority: the House chooses the President, the Senate chooses the VP",
+          "cardFront": "12th Amendment (1804)",
+          "cardBack": "Separate Electoral College ballots for President and Vice President"
+        },
+        {
+          "id": "amendment-13",
+          "answer": "Abolition of slavery",
+          "alternates": [
+            "Abolition of slavery and involuntary servitude",
+            "End of slavery",
+            "Slavery abolished"
+          ],
+          "explanation": "Ratified December 6, 1865\nAbolishes slavery and involuntary servitude, except as punishment for a crime\nFirst of the three Reconstruction Amendments (13th, 14th, 15th), passed after the Civil War\nLincoln's Emancipation Proclamation (1863) only freed enslaved people in Confederate states; the 13th Amendment abolished slavery nationwide\nGeorgia was the 27th state to ratify, providing the required three-fourths majority\nMississippi didn't formally ratify until 1995 (and didn't file the paperwork until 2013)",
+          "cardFront": "13th Amendment (1865)",
+          "cardBack": "Abolition of slavery"
+        },
+        {
+          "id": "amendment-14",
+          "answer": "Citizenship, equal protection, and due process applies to states",
+          "alternates": [
+            "Equal protection",
+            "Birthright citizenship",
+            "Due process for states",
+            "Citizenship and equal protection",
+            "Equal protection clause"
+          ],
+          "explanation": "Ratified July 9, 1868\nGrants citizenship to all persons born or naturalized in the U.S. (birthright citizenship); prohibits states from denying due process or equal protection\nSecond of the three Reconstruction Amendments; directly overturned Dred Scott v. Sandford (1857)\nThe Equal Protection Clause is the basis for landmark civil rights rulings: Brown v. Board (1954), Loving v. Virginia (1967), Obergefell v. Hodges (2015)\nThe Due Process Clause has been used to incorporate most Bill of Rights protections against state governments\nSection 3 disqualifies from office anyone who engaged in insurrection against the Constitution",
+          "cardFront": "14th Amendment (1868)",
+          "cardBack": "Citizenship, equal protection, and due process applies to states"
+        },
+        {
+          "id": "amendment-15",
+          "answer": "Voting rights cannot be denied on account of race",
+          "alternates": [
+            "Racial voting rights",
+            "Right to vote regardless of race",
+            "No racial barriers to voting",
+            "Black voting rights"
+          ],
+          "explanation": "Ratified February 3, 1870\nProhibits denying or abridging the right to vote on account of race, color, or previous condition of servitude\nThird of the three Reconstruction Amendments; intended to secure voting rights for formerly enslaved men\nIn practice, Southern states used poll taxes, literacy tests, grandfather clauses, and violence to disenfranchise Black voters for nearly a century\nThe Voting Rights Act of 1965 was needed to enforce these protections in practice\nWomen were not included; women's suffrage came 50 years later with the 19th Amendment (1920)",
+          "cardFront": "15th Amendment (1870)",
+          "cardBack": "Voting rights cannot be denied on account of race"
+        },
+        {
+          "id": "amendment-16",
+          "answer": "Federal income tax",
+          "alternates": [
+            "Income tax",
+            "Congress may levy income tax",
+            "Federal income tax authorized"
+          ],
+          "explanation": "Ratified February 3, 1913\nGives Congress the power to levy and collect an income tax without apportioning it among the states\nPassed after the Supreme Court struck down the Income Tax Act of 1894 in Pollock v. Farmers' Loan (1895)\nFirst of four amendments ratified during the Progressive Era (1913–1920)\nThe modern federal income tax system flows directly from this amendment",
+          "cardFront": "16th Amendment (1913)",
+          "cardBack": "Federal income tax"
+        },
+        {
+          "id": "amendment-17",
+          "answer": "Direct popular election of U.S. senators",
+          "alternates": [
+            "Direct election of senators",
+            "Popular election of senators",
+            "Senators elected by popular vote"
+          ],
+          "explanation": "Ratified April 8, 1913\nRequires U.S. senators to be elected by popular vote rather than chosen by state legislatures\nOriginal Constitution (Article I, Section 3) had state legislatures choose senators — this led to corruption and frequent deadlocks\nSecond of four Progressive Era amendments\nSome conservatives have advocated repealing this amendment to restore states' power over Senate composition",
+          "cardFront": "17th Amendment (1913)",
+          "cardBack": "Direct popular election of U.S. senators"
+        },
+        {
+          "id": "amendment-18",
+          "answer": "Prohibition of alcohol",
+          "alternates": [
+            "Prohibition",
+            "Alcohol prohibition",
+            "Ban on alcohol",
+            "No alcohol"
+          ],
+          "explanation": "Ratified January 16, 1919\nProhibited the manufacture, sale, and transportation of intoxicating liquors\nThird of four Progressive Era amendments; championed by the temperance movement (WCTU, Anti-Saloon League)\nThe only amendment to restrict individual rights — all others expand or protect them\nLed to organized crime (Al Capone), speakeasies, and widespread flouting of the law\nRepealed by the 21st Amendment (1933) — the only amendment to repeal another amendment\nProhibition lasted 13 years, 10 months, and 19 days",
+          "cardFront": "18th Amendment (1919)",
+          "cardBack": "Prohibition of alcohol"
+        },
+        {
+          "id": "amendment-19",
+          "answer": "Women's suffrage",
+          "alternates": [
+            "Women's right to vote",
+            "Voting rights for women",
+            "Women can vote",
+            "Suffrage for women"
+          ],
+          "explanation": "Ratified August 18, 1920\nProhibits denying the right to vote on account of sex\nFourth and final Progressive Era amendment; the women's suffrage movement had been active since the Seneca Falls Convention (1848)\nThe pivotal vote was cast by Harry Burn of Tennessee — the 36th state needed — persuaded by a note from his mother urging him to 'be a good boy'\nSusan B. Anthony and Elizabeth Cady Stanton are the most famous suffragists; Anthony died 14 years before ratification\nAugust 26 is Women's Equality Day, commemorating the certification of the 19th Amendment",
+          "cardFront": "19th Amendment (1920)",
+          "cardBack": "Women's suffrage"
+        },
+        {
+          "id": "amendment-20",
+          "answer": "Lame Duck Amendment; presidential and congressional term start dates",
+          "alternates": [
+            "Lame Duck Amendment",
+            "Presidential terms begin January 20",
+            "January 20 inauguration",
+            "Term start dates"
+          ],
+          "explanation": "Ratified January 23, 1933\nMoved presidential inauguration from March 4 to January 20; moved congressional sessions to begin January 3\nKnown as the 'Lame Duck Amendment' because it reduced the time between election and inauguration\nBefore this, 'lame duck' presidents and congressmen held power for four months after losing elections\nAlso addresses presidential succession if the president-elect dies before taking office",
+          "cardFront": "20th Amendment (1933)",
+          "cardBack": "Lame Duck Amendment; presidential and congressional term start dates"
+        },
+        {
+          "id": "amendment-21",
+          "answer": "Repeal of Prohibition",
+          "alternates": [
+            "Repeal of the 18th Amendment",
+            "End of Prohibition",
+            "Prohibition repealed"
+          ],
+          "explanation": "Ratified December 5, 1933\nRepeals the 18th Amendment, ending Prohibition\nThe only amendment to repeal another amendment in U.S. history\nUniquely ratified by state conventions rather than state legislatures — the only amendment to use this method\nRoosevelt's election in 1932 signaled the end of Prohibition; the 21st Amendment was ratified less than a year into his presidency\nAlcohol was legal again after nearly 14 years; however, many counties and municipalities remained 'dry' under local laws",
+          "cardFront": "21st Amendment (1933)",
+          "cardBack": "Repeal of Prohibition"
+        },
+        {
+          "id": "amendment-22",
+          "answer": "Presidential two-term limit",
+          "alternates": [
+            "Two-term limit",
+            "President limited to two terms",
+            "Two term limit for presidents"
+          ],
+          "explanation": "Ratified February 27, 1951\nLimits the president to two elected terms, or ten years total if completing more than two years of a predecessor's term\nPassed after FDR won four consecutive terms (1932, 1936, 1940, 1944), breaking Washington's two-term precedent\nApplies to all subsequent presidents; Eisenhower was the first president it applied to\nIrony: passed by a Republican Congress but applies most notably to popular presidents like Eisenhower and Reagan, both Republicans\nDoes not prevent a former two-term president from serving as vice president",
+          "cardFront": "22nd Amendment (1951)",
+          "cardBack": "Presidential two-term limit"
+        },
+        {
+          "id": "amendment-23",
+          "answer": "Washington D.C. electoral votes",
+          "alternates": [
+            "D.C. electoral votes",
+            "DC gets electoral votes",
+            "District of Columbia electoral votes",
+            "D.C. residents can vote for president"
+          ],
+          "explanation": "Ratified March 29, 1961\nGrants Washington D.C. the same number of electoral votes as the least-populous state (currently 3)\nD.C. residents had been unable to vote in presidential elections since the capital was established in 1800\nD.C. still has no voting representation in Congress (only a non-voting delegate in the House)\nD.C. residents have voted overwhelmingly Democratic in every election since 1964; the margin is often 80–90%",
+          "cardFront": "23rd Amendment (1961)",
+          "cardBack": "Washington D.C. electoral votes"
+        },
+        {
+          "id": "amendment-24",
+          "answer": "No poll taxes in federal elections",
+          "alternates": [
+            "Poll taxes banned",
+            "No poll taxes",
+            "Poll tax abolished",
+            "End of poll taxes"
+          ],
+          "explanation": "Ratified January 23, 1964\nProhibits conditioning the right to vote in federal elections on payment of a poll tax or any other tax\nPoll taxes were a key tool of Jim Crow disenfranchisement, particularly in Southern states\nHarper v. Virginia (1966) extended this to state elections via the 14th Amendment's Equal Protection Clause\nPart of the broader civil rights movement of the early 1960s; the Civil Rights Act of 1964 was passed the same year",
+          "cardFront": "24th Amendment (1964)",
+          "cardBack": "No poll taxes in federal elections"
+        },
+        {
+          "id": "amendment-25",
+          "answer": "Presidential succession and disability",
+          "alternates": [
+            "Presidential succession",
+            "Presidential disability",
+            "VP becomes president if president incapacitated",
+            "Succession and disability"
+          ],
+          "explanation": "Ratified February 10, 1967\nClarifies presidential succession: the VP becomes president if the president dies, resigns, or is removed; establishes procedures for presidential disability\nPassed after Kennedy's assassination (1963) revealed gaps in succession law\nSection 4 allows the VP and Cabinet to declare the president unable to discharge his duties — never invoked for its full purpose, though temporarily used during Reagan's surgery\nInvoked twice under Nixon: when Ford was appointed VP (1973) and when Ford assumed the presidency (1974)\nSection 2 filled the first peacetime VP vacancy (Nixon appointed Ford; Ford then appointed Rockefeller)",
+          "cardFront": "25th Amendment (1967)",
+          "cardBack": "Presidential succession and disability"
+        },
+        {
+          "id": "amendment-26",
+          "answer": "Voting age lowered to 18",
+          "alternates": [
+            "Voting age 18",
+            "18-year-olds can vote",
+            "Voting rights at 18",
+            "Lowered voting age"
+          ],
+          "explanation": "Ratified July 1, 1971\nLowers the voting age from 21 to 18 in all federal, state, and local elections\nPassed largely in response to the Vietnam War — the argument was that if 18-year-olds could be drafted and die for their country, they should be able to vote\nOregon v. Mitchell (1970) had split the Court on whether Congress could lower the voting age for state elections, requiring a constitutional amendment\nAdded ~11 million new eligible voters when ratified; ratified in just 100 days — the fastest ratification of any amendment",
+          "cardFront": "26th Amendment (1971)",
+          "cardBack": "Voting age lowered to 18"
+        },
+        {
+          "id": "amendment-27",
+          "answer": "Congressional pay raises delayed until after an election",
+          "alternates": [
+            "Congressional pay raises",
+            "Pay raises for Congress delayed",
+            "Congressional salary amendment",
+            "No immediate pay raises for Congress"
+          ],
+          "explanation": "Ratified May 7, 1992\nProvides that no law changing congressional compensation can take effect until after an intervening election\nOriginally proposed by James Madison in 1789 as part of the original Bill of Rights, but only 6 of the required 11 states ratified it at the time\nLaid dormant for nearly 200 years until Gregory Watson, a University of Texas student, discovered it in 1982 and launched a ratification campaign\nThe 203-year gap between proposal (1789) and ratification (1992) is the longest in U.S. history\nWatson received a C on his paper arguing the amendment could still be ratified; his professor later changed the grade to an A",
+          "cardFront": "27th Amendment (1992)",
+          "cardBack": "Congressional pay raises delayed until after an election"
+        }
+      ]
+    },
+    {
+      "id": "american-history/wars/major-us-wars",
+      "nodeId": "american-history/wars",
+      "name": "Major U.S. Wars",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "revolutionary-war",
+          "prompt": "This war, fought 1775–1783, began with shots at Lexington and Concord, turned in America's favor at Saratoga when France entered as an ally, and ended with a British surrender at Yorktown. What war was this?",
+          "answer": "Revolutionary War",
+          "alternates": [
+            "American Revolution",
+            "American Revolutionary War",
+            "War of Independence",
+            "American War of Independence"
+          ],
+          "explanation": "Fought 1775–1783 between 13 American colonies and Great Britain\nFirst shots fired at Lexington and Concord on April 19, 1775 — 'the shot heard round the world'\nBattle of Saratoga (1777) was the turning point — France entered as an American ally, providing crucial naval support\nGeorge Washington crossed the Delaware River on Christmas night 1776 and won at Trenton\nBritish surrendered at Yorktown, Virginia, on October 19, 1781\nEnded with the Treaty of Paris (September 3, 1783) — Britain recognized American independence\nDeclaration of Independence issued July 4, 1776, during the conflict; inspired the French Revolution (1789)",
+          "cardFront": "1775–1783",
+          "cardBack": "Revolutionary War"
+        },
+        {
+          "id": "war-of-1812",
+          "prompt": "During this conflict fought 1812–1815, British forces burned Washington D.C. and the White House, Francis Scott Key wrote 'The Star-Spangled Banner,' and Andrew Jackson became a hero at a battle fought after the peace treaty was already signed. What war was this?",
+          "answer": "War of 1812",
+          "alternates": [
+            "The War of 1812",
+            "America's Second War of Independence"
+          ],
+          "explanation": "Fought 1812–1815 between the U.S. and Great Britain (and British Canada)\nCauses included British impressment of American sailors, trade interference, and British support for Native American resistance\nBritish burned Washington D.C., including the White House and Capitol, in August 1814\n'The Star-Spangled Banner' written by Francis Scott Key during the bombardment of Fort McHenry, September 13–14, 1814\nBattle of New Orleans (January 8, 1815) was fought after the Treaty of Ghent ended the war — news hadn't arrived; made Andrew Jackson a national hero\nEnded with the Treaty of Ghent (December 24, 1814), restoring pre-war boundaries — effectively a draw\nSometimes called 'America's Second War of Independence'",
+          "cardFront": "1812–1815",
+          "cardBack": "War of 1812"
+        },
+        {
+          "id": "mexican-american-war",
+          "prompt": "This war fought 1846–1848 resulted in Mexico ceding roughly 525,000 square miles to the U.S. — including California, New Mexico, and Arizona — via the Treaty of Guadalupe Hidalgo. Ulysses S. Grant and Robert E. Lee both served as officers. What war was this?",
+          "answer": "Mexican-American War",
+          "alternates": [
+            "Mexican American War",
+            "The Mexican-American War",
+            "Mexican War",
+            "The Mexican War"
+          ],
+          "explanation": "Fought 1846–1848; triggered by U.S. annexation of Texas (1845) and a disputed border at the Rio Grande\nU.S. forces under Generals Zachary Taylor and Winfield Scott captured Mexico City in September 1847\nEnded with the Treaty of Guadalupe Hidalgo (February 2, 1848): Mexico ceded ~525,000 sq miles including California, Nevada, Utah, Arizona, New Mexico, and parts of Colorado and Wyoming\nU.S. paid Mexico $15 million in compensation for the ceded territory\nBoth Ulysses S. Grant and Robert E. Lee served as officers — future Civil War commanders on opposing sides\nLed to fierce debate over slavery in new territories, catalyzing the sectional crisis that led to the Civil War\nFirst U.S. war fought primarily on foreign soil; first American war to be photographed",
+          "cardFront": "1846–1848",
+          "cardBack": "Mexican-American War"
+        },
+        {
+          "id": "civil-war",
+          "prompt": "This war fought 1861–1865 saw the bloodiest single day in American history at Antietam, the Emancipation Proclamation in 1863, and ended when Robert E. Lee surrendered to Ulysses S. Grant at Appomattox Court House. What war was this?",
+          "answer": "Civil War",
+          "alternates": [
+            "American Civil War",
+            "The Civil War",
+            "War Between the States",
+            "War of Northern Aggression"
+          ],
+          "explanation": "Fought 1861–1865 between the Union (North) and the Confederate States of America (South)\nAntietam (September 17, 1862) was the bloodiest single day in American history — ~23,000 casualties\nEmancipation Proclamation issued January 1, 1863, freeing enslaved people in Confederate states\nBattle of Gettysburg (July 1–3, 1863) was the turning point; Lincoln delivered the Gettysburg Address at its dedication\nLee surrendered to Grant at Appomattox Court House, Virginia, April 9, 1865\n~620,000–750,000 soldiers died — more American deaths than in any other war; roughly 2–3% of the U.S. population\nLincoln was assassinated by John Wilkes Booth five days after Lee's surrender; Reconstruction Amendments (13th, 14th, 15th) followed",
+          "cardFront": "1861–1865",
+          "cardBack": "Civil War"
+        },
+        {
+          "id": "spanish-american-war",
+          "prompt": "This 10-week war in 1898 began after the explosion of the USS Maine in Havana Harbor, saw Theodore Roosevelt charge up San Juan Hill with the Rough Riders, and resulted in the U.S. acquiring Puerto Rico, Guam, and the Philippines. What war was this?",
+          "answer": "Spanish-American War",
+          "alternates": [
+            "Spanish American War",
+            "The Spanish-American War"
+          ],
+          "explanation": "Lasted ~10 weeks (April–August 1898); Secretary of State John Hay called it 'a splendid little war'\nPrecipitated by the explosion of USS Maine in Havana Harbor (February 15, 1898) — 'Remember the Maine!'\nTheodore Roosevelt led the Rough Riders cavalry charge at San Juan Hill and Kettle Hill in Cuba\nU.S. won decisively: Spain ceded Cuba (independence), Puerto Rico, Guam, and the Philippines\nPhilippines acquired for $20 million; sparked the Philippine-American War (1899–1902) against Filipino independence fighters\nMarked U.S. emergence as a global power with overseas territories; sometimes called the start of 'the American century'\nWilliam Randolph Hearst's 'yellow journalism' helped inflame public opinion toward war",
+          "cardFront": "1898",
+          "cardBack": "Spanish-American War"
+        },
+        {
+          "id": "world-war-i",
+          "prompt": "The U.S. entered this war in April 1917 after the Zimmermann Telegram and unrestricted submarine warfare pushed Woodrow Wilson to act; the armistice was signed on the eleventh hour of the eleventh day of the eleventh month, 1918. What war was this?",
+          "answer": "World War I",
+          "alternates": [
+            "WWI",
+            "WW1",
+            "World War 1",
+            "The Great War",
+            "First World War"
+          ],
+          "explanation": "U.S. entered April 6, 1917 under President Woodrow Wilson; the overall war ran 1914–1918\nU.S. entry triggered by German unrestricted submarine warfare (sinking of RMS Lusitania, 1915) and the Zimmermann Telegram\nAmerican Expeditionary Forces commanded by General John 'Black Jack' Pershing\nArmistice signed November 11, 1918 at 11:00 AM — 'the eleventh hour of the eleventh day of the eleventh month'\n~116,000 American deaths; ~20 million worldwide, plus ~50 million from the 1918 influenza pandemic\nTreaty of Versailles (1919): harsh reparations on Germany; U.S. Senate rejected it and the League of Nations\nWilson's Fourteen Points and failure to ratify the Versailles Treaty foreshadowed the conditions leading to World War II",
+          "cardFront": "1917–1918 (U.S.)",
+          "cardBack": "World War I"
+        },
+        {
+          "id": "world-war-ii",
+          "prompt": "The U.S. entered this war after Japan attacked Pearl Harbor on December 7, 1941 — 'a date which will live in infamy'; it ended in Europe on V-E Day (May 8, 1945) and in the Pacific after atomic bombs were dropped on Hiroshima and Nagasaki. What war was this?",
+          "answer": "World War II",
+          "alternates": [
+            "WWII",
+            "WW2",
+            "World War 2",
+            "Second World War"
+          ],
+          "explanation": "U.S. entered after Japan attacked Pearl Harbor, Hawaii, December 7, 1941 — 'a date which will live in infamy' (FDR)\nAllied strategy: 'Europe First' — defeat Nazi Germany before focusing on Japan\nD-Day (June 6, 1944): Allied invasion at Normandy beaches — largest amphibious operation in history; ~156,000 troops landed\nV-E Day (Victory in Europe): May 8, 1945 — Germany's unconditional surrender\nAtomic bombs dropped on Hiroshima (August 6) and Nagasaki (August 9), 1945; Japan surrendered September 2, 1945 (V-J Day)\n~405,000 American deaths; ~70–85 million total worldwide — the deadliest conflict in human history\nPostwar: the United Nations (1945), Marshall Plan, NATO (1949), and the beginning of the Cold War",
+          "cardFront": "1941–1945 (U.S.)",
+          "cardBack": "World War II"
+        },
+        {
+          "id": "korean-war",
+          "prompt": "This conflict began when North Korea invaded South Korea on June 25, 1950; General MacArthur was fired by President Truman for publicly challenging civilian authority; it ended in a 1953 armistice restoring the boundary near the 38th parallel. What war was this?",
+          "answer": "Korean War",
+          "alternates": [
+            "The Korean War",
+            "The Forgotten War"
+          ],
+          "explanation": "North Korea invaded South Korea on June 25, 1950; UN Security Council (with USSR absent) authorized intervention\nGeneral MacArthur's Inchon Landing (September 1950) recaptured Seoul in a bold amphibious operation\nChina entered October 1950 after UN forces pushed toward the Chinese border\nMacArthur fired by Truman for publicly challenging civilian authority — a landmark moment for civil-military relations\nEnded with the Korean Armistice Agreement (July 27, 1953) — boundary restored near the 38th parallel\n~36,000 American deaths; ~3 million total Korean civilian and military deaths\nCalled 'The Forgotten War' — no formal peace treaty was ever signed; North and South Korea remain technically at war",
+          "cardFront": "1950–1953",
+          "cardBack": "Korean War"
+        },
+        {
+          "id": "vietnam-war",
+          "prompt": "This conflict escalated after the Gulf of Tonkin Resolution in 1964; at its peak in 1968, over 536,000 U.S. troops were deployed; the Tet Offensive devastated American public support; Saigon fell April 30, 1975. What war was this?",
+          "answer": "Vietnam War",
+          "alternates": [
+            "The Vietnam War",
+            "Vietnam"
+          ],
+          "explanation": "Communist North Vietnam vs. U.S.-backed South Vietnam; Ho Chi Minh led the North\nGulf of Tonkin Resolution (August 1964) gave President Johnson broad war powers without a formal declaration\nAt peak (1968), ~536,000 U.S. troops deployed; 58,220 American deaths are listed on the Vietnam Veterans Memorial\nTet Offensive (January 1968): military failure for the North but devastated American public support for the war\nMy Lai Massacre (1968) and Pentagon Papers (1971) further eroded public trust; massive anti-war movement at home\nU.S. withdrew under the Paris Peace Accords (January 27, 1973); Saigon fell April 30, 1975\nFirst war the U.S. clearly lost; led to the War Powers Resolution (1973) limiting presidential war powers",
+          "cardFront": "1965–1973 (U.S.)",
+          "cardBack": "Vietnam War"
+        },
+        {
+          "id": "gulf-war",
+          "prompt": "This 1990–1991 conflict began when Saddam Hussein invaded Kuwait; Operation Desert Storm's 42-day air campaign was followed by a 100-hour ground war that liberated Kuwait but did not advance to Baghdad. What war was this?",
+          "answer": "Gulf War",
+          "alternates": [
+            "The Gulf War",
+            "Persian Gulf War",
+            "Operation Desert Storm",
+            "First Gulf War"
+          ],
+          "explanation": "Iraq under Saddam Hussein invaded and annexed Kuwait on August 2, 1990\nU.S.-led coalition of 34 nations, authorized by UN Security Council Resolution 678\nOperation Desert Shield (August 1990–January 1991): buildup of ~700,000 coalition troops\nOperation Desert Storm launched January 17, 1991: 42-day air campaign, then 100-hour ground war (February 24–28, 1991)\nKuwait liberated; President George H.W. Bush declared ceasefire; coalition did not advance to Baghdad or remove Saddam Hussein\n~383 American combat deaths — remarkably low due to air superiority and swift ground campaign\nFirst war covered live on television (CNN); Colin Powell and Norman Schwarzkopf became household names",
+          "cardFront": "1990–1991",
+          "cardBack": "Gulf War"
+        },
+        {
+          "id": "war-in-afghanistan",
+          "prompt": "Launched October 7, 2001, after the September 11 attacks; became the longest war in American history at 20 years; Osama bin Laden was killed by Navy SEALs in 2011; the Taliban retook Kabul in August 2021. What war was this?",
+          "answer": "War in Afghanistan",
+          "alternates": [
+            "Afghanistan War",
+            "Afghan War",
+            "The Afghanistan War",
+            "Operation Enduring Freedom"
+          ],
+          "explanation": "Launched October 7, 2001, after September 11 attacks; Taliban government had sheltered al-Qaeda leader Osama bin Laden\nTaliban government fell quickly in November 2001; bin Laden escaped to Pakistan\nOsama bin Laden killed by U.S. Navy SEALs in Abbottabad, Pakistan, on May 2, 2011\nLongest war in American history: 20 years, spanning four presidencies (Bush, Obama, Trump, Biden)\nTaliban retook Kabul on August 15, 2021, after U.S. withdrawal under agreements negotiated by the Trump administration\nChaotic final evacuation completed August 30, 2021; ISIS-K suicide bombing killed 13 U.S. service members at Kabul airport\n~2,400 American military deaths; estimated total cost of $2.3 trillion",
+          "cardFront": "2001–2021",
+          "cardBack": "War in Afghanistan"
+        },
+        {
+          "id": "iraq-war",
+          "prompt": "This war launched March 20, 2003, citing Iraqi weapons of mass destruction that were never found; Saddam Hussein was captured in a spider hole in December 2003; 'The Surge' in 2007 reduced violence; U.S. troops withdrew in 2011. What war was this?",
+          "answer": "Iraq War",
+          "alternates": [
+            "The Iraq War",
+            "Operation Iraqi Freedom",
+            "Second Gulf War",
+            "Second Iraq War"
+          ],
+          "explanation": "Launched March 20, 2003, by a U.S.-led coalition citing Iraqi WMDs and links to terrorism — no WMDs were found\nBaghdad fell April 9, 2003; iconic image: Saddam Hussein's statue toppled in Firdos Square\nSaddam Hussein captured in a spider hole near Tikrit on December 13, 2003; executed by hanging December 30, 2006\nAbu Ghraib prisoner abuse scandal (2004) severely damaged U.S. credibility\n'The Surge' (2007): 20,000 additional troops under General David Petraeus significantly reduced violence\nU.S. combat troops withdrew December 18, 2011 under President Obama\n~4,500 American deaths; 100,000–200,000+ Iraqi civilian deaths estimated; destabilization contributed to the rise of ISIS",
+          "cardFront": "2003–2011",
+          "cardBack": "Iraq War"
+        }
+      ]
+    },
+    {
+      "id": "american-history/supreme-court/landmark-cases",
+      "nodeId": "american-history/supreme-court",
+      "name": "Supreme Court Landmark Cases",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "marbury",
+          "prompt": "In this 1803 case, Chief Justice John Marshall ruled that a law Marbury relied on was unconstitutional, establishing for the first time that the Supreme Court has authority to strike down laws that violate the Constitution. What case was this?",
+          "answer": "Marbury v. Madison",
+          "alternates": [
+            "Marbury v Madison",
+            "Marbury vs Madison",
+            "Marbury vs. Madison"
+          ],
+          "explanation": "Decided 1803 by Chief Justice John Marshall; arose from 'midnight appointments' by outgoing President Adams\nWilliam Marbury sued Secretary of State James Madison for withholding his commission as a justice of the peace\nMarshall ruled the relevant section of the Judiciary Act of 1789 was unconstitutional\nEstablished judicial review — the Supreme Court's authority to strike down laws that violate the Constitution\nMarshall's masterstroke: ruled against Marbury on the immediate matter while vastly expanding the Court's power\nFoundation of all subsequent constitutional law; has never been overturned",
+          "cardFront": "1803",
+          "cardBack": "Marbury v. Madison"
+        },
+        {
+          "id": "mcculloch",
+          "prompt": "In this 1819 case, Chief Justice John Marshall held that Congress has 'implied powers' beyond its enumerated powers and that federal law is supreme over conflicting state law — specifically ruling Maryland could not tax the Second Bank of the United States. What case was this?",
+          "answer": "McCulloch v. Maryland",
+          "alternates": [
+            "McCulloch v Maryland",
+            "McCulloch vs Maryland",
+            "McCulloch vs. Maryland"
+          ],
+          "explanation": "Decided 1819 by Chief Justice John Marshall; Maryland taxed the Second Bank of the United States\nEstablished 'implied powers': Congress may use any reasonable means to carry out its enumerated powers ('necessary and proper' clause)\n'The power to tax is the power to destroy' — Marshall's famous phrase\nEstablished federal supremacy over conflicting state laws under the Supremacy Clause\nFoundation of modern federal regulatory power; cited in cases involving federal programs for centuries",
+          "cardFront": "1819",
+          "cardBack": "McCulloch v. Maryland"
+        },
+        {
+          "id": "dred-scott",
+          "prompt": "In this 1857 case, Chief Justice Roger Taney ruled that Black Americans — enslaved or free — were not citizens, had no right to sue in federal court, and that Congress could not prohibit slavery in territories, declaring the Missouri Compromise unconstitutional. What case was this?",
+          "answer": "Dred Scott v. Sandford",
+          "alternates": [
+            "Dred Scott v Sandford",
+            "Dred Scott vs Sandford",
+            "Dred Scott vs. Sandford",
+            "Dred Scott"
+          ],
+          "explanation": "Decided 1857 by Chief Justice Roger Taney; Dred Scott sought freedom after living in free states with his owner\nTaney ruled Black Americans (enslaved or free) were not citizens and had no right to sue in federal court\nDeclared the Missouri Compromise of 1820 unconstitutional; Congress could not prohibit slavery in territories\nTaney wrote Black people 'had no rights which the white man was bound to respect'\nWidely considered the worst decision in Supreme Court history; accelerated tensions leading to the Civil War\nEffectively overturned by the 13th Amendment (1865) and 14th Amendment (1868)",
+          "cardFront": "1857",
+          "cardBack": "Dred Scott v. Sandford"
+        },
+        {
+          "id": "plessy",
+          "prompt": "In this 1896 case, the Supreme Court upheld Louisiana's racial segregation of railway cars, establishing the 'separate but equal' doctrine that would provide constitutional cover for Jim Crow laws for nearly 60 years. Only Justice John Marshall Harlan dissented. What case was this?",
+          "answer": "Plessy v. Ferguson",
+          "alternates": [
+            "Plessy v Ferguson",
+            "Plessy vs Ferguson",
+            "Plessy vs. Ferguson"
+          ],
+          "explanation": "Decided 1896, 7–1; the lone dissent was by Justice John Marshall Harlan: 'our Constitution is color-blind'\nHomer Plessy, a man of mixed race, deliberately challenged Louisiana's Separate Car Act to test the law\nEstablished 'separate but equal' doctrine legalizing racial segregation in public facilities\nProvided constitutional cover for Jim Crow laws throughout the South for nearly 60 years\nOverturned by Brown v. Board of Education (1954)\nHarlan's dissent predicted the ruling would be 'quite as pernicious' as Dred Scott",
+          "cardFront": "1896",
+          "cardBack": "Plessy v. Ferguson"
+        },
+        {
+          "id": "brown",
+          "prompt": "In this unanimous 1954 decision, Chief Justice Earl Warren declared that 'separate educational facilities are inherently unequal,' overturning Plessy v. Ferguson and ending the legal basis for school segregation. Thurgood Marshall argued for the NAACP. What case was this?",
+          "answer": "Brown v. Board of Education",
+          "alternates": [
+            "Brown v Board of Education",
+            "Brown vs Board of Education",
+            "Brown vs. Board of Education",
+            "Brown v. Board"
+          ],
+          "explanation": "Unanimous 1954 decision by Chief Justice Earl Warren; Thurgood Marshall argued for the NAACP\nConsolidated five cases from Kansas, South Carolina, Virginia, Delaware, and Washington D.C.\n'Separate educational facilities are inherently unequal' — Warren's opinion\nOverturned Plessy v. Ferguson (1896), ending the legal basis for school segregation\nSouthern 'Massive Resistance': Arkansas Gov. Faubus blocked Little Rock's Central High (1957); Eisenhower sent federal troops\nThurgood Marshall later became the first Black Supreme Court Justice (1967)\nBrown II (1955) ordered desegregation 'with all deliberate speed'",
+          "cardFront": "1954",
+          "cardBack": "Brown v. Board of Education"
+        },
+        {
+          "id": "mapp",
+          "prompt": "In this 1961 case, the Supreme Court applied the 4th Amendment's exclusionary rule to state courts, ruling that evidence obtained through unconstitutional searches is inadmissible — after Cleveland police searched Dollree Mapp's home without a warrant. What case was this?",
+          "answer": "Mapp v. Ohio",
+          "alternates": [
+            "Mapp v Ohio",
+            "Mapp vs Ohio",
+            "Mapp vs. Ohio"
+          ],
+          "explanation": "Decided 1961; Cleveland police searched Dollree Mapp's home without a warrant and found obscene materials\nApplied the 4th Amendment's exclusionary rule to state courts via the 14th Amendment\n'Fruit of the poisonous tree' — evidence obtained through illegal searches is inadmissible\nPreviously, the exclusionary rule only applied to federal courts (Weeks v. United States, 1914)\nPart of the Warren Court's landmark expansion of defendants' rights in the 1960s",
+          "cardFront": "1961",
+          "cardBack": "Mapp v. Ohio"
+        },
+        {
+          "id": "engel",
+          "prompt": "In this 1962 case, the Supreme Court ruled that a brief nondenominational prayer written by New York's Board of Regents for public schools violated the Establishment Clause, even though the prayer was voluntary. What case was this?",
+          "answer": "Engel v. Vitale",
+          "alternates": [
+            "Engel v Vitale",
+            "Engel vs Vitale",
+            "Engel vs. Vitale"
+          ],
+          "explanation": "Decided 1962; New York's Board of Regents had written a brief nondenominational prayer for public schools\nRuled that official state-sponsored prayer in public schools violates the Establishment Clause, even if voluntary\nJustice Potter Stewart's lone dissent argued the ruling 'denies the existence of God'\nOne of the most controversial Warren Court decisions among religious Americans\nExtended by *Abington School District v. Schempp* (1963), which banned Bible readings in public schools",
+          "cardFront": "1962",
+          "cardBack": "Engel v. Vitale"
+        },
+        {
+          "id": "miranda",
+          "prompt": "In this 1966 case, the Supreme Court ruled that suspects must be informed of their right to remain silent and their right to an attorney before police interrogation, after Ernesto Miranda confessed to kidnapping and rape without being told of his rights. What case was this?",
+          "answer": "Miranda v. Arizona",
+          "alternates": [
+            "Miranda v Arizona",
+            "Miranda vs Arizona",
+            "Miranda vs. Arizona"
+          ],
+          "explanation": "Decided 1966, 5–4 by Chief Justice Earl Warren; Ernesto Miranda arrested in Phoenix, confessed without being informed of his rights\nEstablished the 'Miranda warning': right to remain silent, right to an attorney, warning that statements can be used against you\nCongress tried to overrule it (18 U.S.C. § 3501, 1968); the Court reaffirmed Miranda in Dickerson v. United States (2000)\nMiranda himself was retried and convicted without his confession; he was stabbed to death in 1976\nThe phrase 'you have the right to remain silent' is now ubiquitous in American culture and television",
+          "cardFront": "1966",
+          "cardBack": "Miranda v. Arizona"
+        },
+        {
+          "id": "loving",
+          "prompt": "In this unanimous 1967 case, Chief Justice Earl Warren struck down Virginia's law making interracial marriage a crime, ruling that 'marriage is one of the basic civil rights of man' and that anti-miscegenation laws violated the 14th Amendment. What case was this?",
+          "answer": "Loving v. Virginia",
+          "alternates": [
+            "Loving v Virginia",
+            "Loving vs Virginia",
+            "Loving vs. Virginia"
+          ],
+          "explanation": "Unanimous 1967 decision by Chief Justice Earl Warren\nRichard Loving (white) and Mildred Jeter (Black and Native American) married in D.C. in 1958; Virginia sentenced them to 1 year, suspended if they left the state for 25 years\n'Marriage is one of the basic civil rights of man' — Warren's opinion\nViolated both the Equal Protection and Due Process Clauses of the 14th Amendment\nJune 12 is celebrated annually as 'Loving Day'\nCited as precedent in Obergefell v. Hodges (2015) legalizing same-sex marriage",
+          "cardFront": "1967",
+          "cardBack": "Loving v. Virginia"
+        },
+        {
+          "id": "roe",
+          "prompt": "In this 7–2 decision from 1973, Justice Harry Blackmun established a trimester framework for abortion rights, finding that Texas laws criminalizing abortion violated a constitutional right to privacy. It was overturned 49 years later in Dobbs v. Jackson. What case was this?",
+          "answer": "Roe v. Wade",
+          "alternates": [
+            "Roe v Wade",
+            "Roe vs Wade",
+            "Roe vs. Wade"
+          ],
+          "explanation": "7–2 decision in 1973, written by Justice Harry Blackmun; 'Jane Roe' (Norma McCorvey) challenged Texas laws criminalizing abortion\nEstablished a trimester framework: no restrictions in 1st trimester; health regulations in 2nd; bans permitted in 3rd\nBecame one of the most contested decisions in American history; reshaped U.S. politics for 50 years\nReaffirmed by *Planned Parenthood v. Casey* (1992), which replaced the trimester framework with an 'undue burden' standard\nOverturned by Dobbs v. Jackson Women's Health Organization on June 24, 2022 (6–3), returning abortion regulation to states\nNorma McCorvey never had an abortion — the case took too long; she later became an anti-abortion activist",
+          "cardFront": "1973",
+          "cardBack": "Roe v. Wade"
+        },
+        {
+          "id": "nixon",
+          "prompt": "In this unanimous 1974 decision, the Supreme Court ruled that President Nixon could not withhold 64 Watergate tape recordings by claiming absolute executive privilege — leading directly to Nixon's resignation. What case was this?",
+          "answer": "United States v. Nixon",
+          "alternates": [
+            "United States v Nixon",
+            "US v Nixon",
+            "U.S. v. Nixon",
+            "United States vs Nixon",
+            "United States vs. Nixon"
+          ],
+          "explanation": "Unanimous 8–0 decision in 1974 (Rehnquist recused himself)\nNixon claimed absolute executive privilege to withhold 64 tape recordings subpoenaed by Watergate special prosecutor Leon Jaworski\nRuled executive privilege is not absolute when it conflicts with the judicial process in a criminal trial\nNixon released the tapes; the 'smoking gun' tape proved he directed the Watergate cover-up\nNixon announced his resignation August 8, 1974 — the only presidential resignation in U.S. history\nEstablished that the President is not above the law",
+          "cardFront": "1974",
+          "cardBack": "United States v. Nixon"
+        },
+        {
+          "id": "bush-gore",
+          "prompt": "In this 5–4 decision issued December 12, 2000, the Supreme Court halted Florida's presidential recount, effectively awarding the state's 25 electoral votes — and the presidency — to George W. Bush over Al Gore. What case was this?",
+          "answer": "Bush v. Gore",
+          "alternates": [
+            "Bush v Gore",
+            "Bush vs Gore",
+            "Bush vs. Gore"
+          ],
+          "explanation": "5–4 per curiam decision, December 12, 2000; decided along partisan lines\nHalted Florida's presidential recount, effectively giving George W. Bush Florida's 25 electoral votes\nHeld that varying recount standards across Florida counties violated the Equal Protection Clause\nThe majority opinion stated the ruling was limited to 'the present circumstances' — no precedential value\nBush won Florida by 537 votes out of ~6 million cast; he lost the national popular vote by ~543,000\nJustice Stevens's dissent: 'the identity of the loser is perfectly clear. It is the Nation's confidence in the judge as an impartial guardian of the rule of law'\nMost politically controversial Supreme Court decision of the modern era",
+          "cardFront": "2000",
+          "cardBack": "Bush v. Gore"
+        },
+        {
+          "id": "heller",
+          "prompt": "In this 5–4 decision from 2008, Justice Antonin Scalia wrote the first Supreme Court opinion to directly hold that the 2nd Amendment protects an individual's right to keep a handgun at home for self-defense, striking down Washington D.C.'s handgun ban. What case was this?",
+          "answer": "District of Columbia v. Heller",
+          "alternates": [
+            "DC v Heller",
+            "D.C. v. Heller",
+            "Heller",
+            "District of Columbia v Heller"
+          ],
+          "explanation": "5–4 decision in 2008, written by Justice Antonin Scalia\nDick Heller challenged D.C.'s handgun ban and requirement that lawfully owned firearms be kept disassembled\nFirst Supreme Court case to directly address whether the 2nd Amendment protects an individual (not just militia) right\nRuling was limited: upheld prohibitions on felons and mentally ill possessing firearms; did not address all gun regulations\nMcDonald v. City of Chicago (2010) extended Heller to state and local governments via the 14th Amendment",
+          "cardFront": "2008",
+          "cardBack": "District of Columbia v. Heller"
+        },
+        {
+          "id": "citizens-united",
+          "prompt": "In this 5–4 ruling from 2010, the Supreme Court held that political spending by corporations, associations, and labor unions is protected First Amendment speech, overturning parts of the McCain-Feingold Act and leading to the rise of Super PACs. What case was this?",
+          "answer": "Citizens United v. FEC",
+          "alternates": [
+            "Citizens United v FEC",
+            "Citizens United vs FEC",
+            "Citizens United vs. FEC",
+            "Citizens United"
+          ],
+          "explanation": "5–4 decision in 2010, written by Justice Anthony Kennedy\nCitizens United, a conservative nonprofit, wanted to air a film critical of Hillary Clinton near the 2008 primary\nHeld that political spending by corporations, associations, and labor unions is protected First Amendment speech\nOverturned parts of the McCain-Feingold Act; led to the rise of 'Super PACs'\nIn his 2010 State of the Union, President Obama criticized the ruling in front of the seated Justices; Justice Alito mouthed 'not true'\nJustice Stevens's 90-page dissent called the ruling 'a threat to democracy'",
+          "cardFront": "2010",
+          "cardBack": "Citizens United v. FEC"
+        },
+        {
+          "id": "obergefell",
+          "prompt": "In this 5–4 decision from 2015, Justice Anthony Kennedy wrote that the 14th Amendment requires states to license and recognize same-sex marriages, with the famous line 'No union is more profound than marriage.' Jim Obergefell had fought to have his late husband's name on his death certificate. What case was this?",
+          "answer": "Obergefell v. Hodges",
+          "alternates": [
+            "Obergefell v Hodges",
+            "Obergefell vs Hodges",
+            "Obergefell vs. Hodges",
+            "Obergefell"
+          ],
+          "explanation": "5–4 decision in 2015, written by Justice Anthony Kennedy\nJim Obergefell challenged Ohio's refusal to recognize his same-sex marriage to John Arthur, who died of ALS before the ruling\nHeld that the 14th Amendment requires states to license and recognize same-sex marriages\nKennedy: 'No union is more profound than marriage' — widely read aloud at weddings\nChief Justice Roberts's dissent: 'Just who do we think we are?'\nBuilt on Loving v. Virginia (1967) and United States v. Windsor (2013)\nAll four major LGBT rights rulings were decided on June 26: Romer (1996), Lawrence (2003), Windsor (2013), Obergefell (2015)",
+          "cardFront": "2015",
+          "cardBack": "Obergefell v. Hodges"
+        }
+      ]
+    },
+    {
+      "id": "american-history/state-capitals/all-state-capitals",
+      "nodeId": "american-history/state-capitals",
+      "name": "All 50 State Capitals",
+      "format": "fill-blanks",
+      "config": {
+        "ordered": false,
+        "prompt": "Name the capitals of all 50 U.S. states"
+      },
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "alabama",
+          "answer": "Montgomery",
+          "alternates": [],
+          "explanation": "Capital of Alabama since statehood in 1819\nKnown as the 'Cradle of the Confederacy' — Jefferson Davis was inaugurated as Confederate President here in 1861\nRosa Parks refused to give up her seat on a Montgomery bus in 1955, sparking the Montgomery Bus Boycott",
+          "cardFront": "Alabama",
+          "cardBack": "Montgomery"
+        },
+        {
+          "id": "alaska",
+          "answer": "Juneau",
+          "alternates": [],
+          "explanation": "Capital of Alaska; unique distinction of being accessible only by boat or plane — no roads connect it to the rest of Alaska or to the lower 48\nNamed after gold prospector Joe Juneau, who discovered gold there in 1880\nSits at the base of the Juneau Icefield, one of the largest icefields in North America",
+          "cardFront": "Alaska",
+          "cardBack": "Juneau"
+        },
+        {
+          "id": "arizona",
+          "answer": "Phoenix",
+          "alternates": [],
+          "explanation": "Capital of Arizona; the most populous state capital in the U.S. with over 1.6 million people\nNamed after the mythological phoenix bird — built on the ruins of a former Hohokam settlement\nLocated in the Sonoran Desert; one of the hottest large cities in the world",
+          "cardFront": "Arizona",
+          "cardBack": "Phoenix"
+        },
+        {
+          "id": "arkansas",
+          "answer": "Little Rock",
+          "alternates": [],
+          "explanation": "Capital of Arkansas; named for a small rocky outcrop on the Arkansas River used as a navigation landmark\nSite of the Little Rock Central High School crisis (1957): nine Black students integrated the school over the governor's objections; Eisenhower sent federal troops\nBill Clinton was governor here before becoming president",
+          "cardFront": "Arkansas",
+          "cardBack": "Little Rock"
+        },
+        {
+          "id": "california",
+          "answer": "Sacramento",
+          "alternates": [],
+          "explanation": "Capital of California, not Los Angeles or San Francisco — a common misconception\nBecame the capital in 1854; situated at the confluence of the Sacramento and American Rivers\nHub of the California Gold Rush (1848–1855); terminus of the First Transcontinental Railroad (1869)",
+          "cardFront": "California",
+          "cardBack": "Sacramento"
+        },
+        {
+          "id": "colorado",
+          "answer": "Denver",
+          "alternates": [],
+          "explanation": "Capital of Colorado; called the 'Mile High City' because its official elevation is exactly 5,280 feet (one mile) above sea level\nFounded in 1858 during the Pike's Peak Gold Rush\nThe step on the 13th step of the State Capitol building is exactly one mile above sea level",
+          "cardFront": "Colorado",
+          "cardBack": "Denver"
+        },
+        {
+          "id": "connecticut",
+          "answer": "Hartford",
+          "alternates": [],
+          "explanation": "Capital of Connecticut; one of the oldest cities in the U.S., founded in 1635\nKnown as the 'Insurance Capital of the World' — the insurance industry has been centered here since the early 19th century\nMark Twain lived in Hartford and wrote *The Adventures of Tom Sawyer* and *Adventures of Huckleberry Finn* there",
+          "cardFront": "Connecticut",
+          "cardBack": "Hartford"
+        },
+        {
+          "id": "delaware",
+          "answer": "Dover",
+          "alternates": [],
+          "explanation": "Capital of Delaware; located in the center of the state, chosen as capital in 1777 to replace the coastal city of New Castle\nDelaware was the first state to ratify the U.S. Constitution (December 7, 1787), earning the nickname 'The First State'\nDover Air Force Base is one of the largest military airlift facilities in the country",
+          "cardFront": "Delaware",
+          "cardBack": "Dover"
+        },
+        {
+          "id": "florida",
+          "answer": "Tallahassee",
+          "alternates": [],
+          "explanation": "Capital of Florida; chosen in 1824 as a midpoint between the existing capitals of Pensacola and St. Augustine\nNot Miami, Jacksonville, or Orlando — Tallahassee is far north in the Florida panhandle\nFlorida State University and Florida A&M University are both located there",
+          "cardFront": "Florida",
+          "cardBack": "Tallahassee"
+        },
+        {
+          "id": "georgia",
+          "answer": "Atlanta",
+          "alternates": [],
+          "explanation": "Capital of Georgia; one of the few U.S. state capitals that is also the state's largest city\nBurned by General Sherman during his 'March to the Sea' in 1864; rebuilt and became a major hub of the New South\nBirthplace of Martin Luther King Jr. and headquarters of Coca-Cola and CNN",
+          "cardFront": "Georgia",
+          "cardBack": "Atlanta"
+        },
+        {
+          "id": "hawaii",
+          "answer": "Honolulu",
+          "alternates": [],
+          "explanation": "Capital of Hawaii; located on the island of Oahu\nHome to Pearl Harbor, site of the Japanese surprise attack on December 7, 1941, that brought the U.S. into World War II\nBirthplace of President Barack Obama (1961); the only U.S. state capital in the Pacific Ocean",
+          "cardFront": "Hawaii",
+          "cardBack": "Honolulu"
+        },
+        {
+          "id": "idaho",
+          "answer": "Boise",
+          "alternates": [],
+          "explanation": "Capital of Idaho; the name is thought to derive from a French or Shoshone word meaning 'wooded' or 'good river'\nLocated in the Treasure Valley along the Boise River; one of the fastest-growing cities in the U.S.\nNicknamed the 'City of Trees' for its extensive urban forest",
+          "cardFront": "Idaho",
+          "cardBack": "Boise"
+        },
+        {
+          "id": "illinois",
+          "answer": "Springfield",
+          "alternates": [],
+          "explanation": "Capital of Illinois, not Chicago — a very common misconception\nHome of Abraham Lincoln, who practiced law and served in the state legislature here before the presidency\nLincoln's presidential library, museum, and tomb are all in Springfield",
+          "cardFront": "Illinois",
+          "cardBack": "Springfield"
+        },
+        {
+          "id": "indiana",
+          "answer": "Indianapolis",
+          "alternates": [],
+          "explanation": "Capital of Indiana; one of the few U.S. state capitals that is also the state's largest city\nHome of the Indianapolis 500, the world's largest single-day sporting event by attendance, held every Memorial Day weekend since 1911\nNicknamed 'the Crossroads of America' — eight U.S. highways converge there",
+          "cardFront": "Indiana",
+          "cardBack": "Indianapolis"
+        },
+        {
+          "id": "iowa",
+          "answer": "Des Moines",
+          "alternates": [],
+          "explanation": "Capital of Iowa; name derived from a French term, possibly meaning 'of the monks' after a Trappist settlement\nHosts the Iowa caucuses, traditionally the first major electoral event in presidential primary season\nMajor center for insurance companies; sometimes called the 'Hartford of the West'",
+          "cardFront": "Iowa",
+          "cardBack": "Des Moines"
+        },
+        {
+          "id": "kansas",
+          "answer": "Topeka",
+          "alternates": [],
+          "explanation": "Capital of Kansas, not Kansas City (which is actually in Missouri, and also straddles the Kansas border)\nHome of the landmark *Brown v. Board of Education* (1954) case — the plaintiff Oliver Brown was from Topeka\nTopeka and Kansas City are the largest cities in Kansas, but Kansas City KS is much smaller than Kansas City MO",
+          "cardFront": "Kansas",
+          "cardBack": "Topeka"
+        },
+        {
+          "id": "kentucky",
+          "answer": "Frankfort",
+          "alternates": [],
+          "explanation": "Capital of Kentucky, not Louisville or Lexington — both of which are much larger cities\nChosen as the capital in 1792 because of its central location in a river valley\nKentucky's bourbon distilleries are concentrated near Frankfort along the Kentucky Bourbon Trail",
+          "cardFront": "Kentucky",
+          "cardBack": "Frankfort"
+        },
+        {
+          "id": "louisiana",
+          "answer": "Baton Rouge",
+          "alternates": [],
+          "explanation": "Capital of Louisiana; name means 'red stick' in French, referring to a blood-red cypress post that marked a tribal boundary\nHome of Louisiana State University (LSU)\nHuey Long, the populist governor and senator, built the current State Capitol (1932) — the tallest in the U.S. at 450 feet — and was assassinated in it in 1935",
+          "cardFront": "Louisiana",
+          "cardBack": "Baton Rouge"
+        },
+        {
+          "id": "maine",
+          "answer": "Augusta",
+          "alternates": [],
+          "explanation": "Capital of Maine, not Portland (the state's largest city)\nOne of the smallest state capitals by population; located on the Kennebec River\nMaine is the only state whose name is a single syllable",
+          "cardFront": "Maine",
+          "cardBack": "Augusta"
+        },
+        {
+          "id": "maryland",
+          "answer": "Annapolis",
+          "alternates": [],
+          "explanation": "Capital of Maryland, not Baltimore (the state's largest city)\nKnown as the 'Sailing Capital of the U.S.' — home to the U.S. Naval Academy (founded 1845)\nWas briefly the U.S. capital (1783–1784); Washington resigned his commission here and the Treaty of Paris was ratified here",
+          "cardFront": "Maryland",
+          "cardBack": "Annapolis"
+        },
+        {
+          "id": "massachusetts",
+          "answer": "Boston",
+          "alternates": [],
+          "explanation": "Capital of Massachusetts and its largest city; one of the oldest cities in the U.S., founded in 1630\nCradle of the American Revolution: site of the Boston Massacre (1770), Boston Tea Party (1773), and the first battles at Lexington and Concord (1775)\nHome of Harvard University (1636) — the oldest university in the U.S.",
+          "cardFront": "Massachusetts",
+          "cardBack": "Boston"
+        },
+        {
+          "id": "michigan",
+          "answer": "Lansing",
+          "alternates": [],
+          "explanation": "Capital of Michigan, not Detroit (the state's largest city and far more famous city)\nBecame the capital in 1847; chosen partly because Detroit was considered too exposed to Canadian attack\nMichigan State University is located in neighboring East Lansing",
+          "cardFront": "Michigan",
+          "cardBack": "Lansing"
+        },
+        {
+          "id": "minnesota",
+          "answer": "Saint Paul",
+          "alternates": [
+            "St. Paul",
+            "St Paul"
+          ],
+          "explanation": "Capital of Minnesota; forms the 'Twin Cities' metropolitan area with Minneapolis\nMinneapolis and Saint Paul are often confused — Minneapolis is larger; Saint Paul is the capital\nSaint Paul has one of the largest Hmong communities in the United States",
+          "cardFront": "Minnesota",
+          "cardBack": "Saint Paul"
+        },
+        {
+          "id": "mississippi",
+          "answer": "Jackson",
+          "alternates": [],
+          "explanation": "Capital of Mississippi; named after President Andrew Jackson\nBecame the capital in 1822; was partially burned by Union General Sherman in 1863\nSite of significant civil rights history — Medgar Evers, NAACP field secretary, was assassinated here in 1963",
+          "cardFront": "Mississippi",
+          "cardBack": "Jackson"
+        },
+        {
+          "id": "missouri",
+          "answer": "Jefferson City",
+          "alternates": [],
+          "explanation": "Capital of Missouri; named after Thomas Jefferson\nChosen as the capital in 1821 to be centrally located between the state's population centers\nSt. Louis and Kansas City are both far larger; Jefferson City is one of the smaller state capitals",
+          "cardFront": "Missouri",
+          "cardBack": "Jefferson City"
+        },
+        {
+          "id": "montana",
+          "answer": "Helena",
+          "alternates": [],
+          "explanation": "Capital of Montana; founded in 1864 as 'Last Chance Gulch' during a gold rush\nBy the 1880s it was said to have more millionaires per capita than any other U.S. city, due to gold and silver mining\nRenamed Helena after Last Chance Gulch was deemed insufficiently dignified for a city",
+          "cardFront": "Montana",
+          "cardBack": "Helena"
+        },
+        {
+          "id": "nebraska",
+          "answer": "Lincoln",
+          "alternates": [],
+          "explanation": "Capital of Nebraska; named after President Abraham Lincoln when Nebraska became a state in 1867\nHome of the University of Nebraska Cornhuskers; the football stadium's capacity on game day makes it the third-largest 'city' in Nebraska\nOmaha is larger but is not the capital",
+          "cardFront": "Nebraska",
+          "cardBack": "Lincoln"
+        },
+        {
+          "id": "nevada",
+          "answer": "Carson City",
+          "alternates": [],
+          "explanation": "Capital of Nevada; one of the least populous state capitals in the U.S.\nNamed after frontiersman Kit Carson; became the capital when Nevada was admitted to the Union in 1864\nLas Vegas and Reno are far larger — Carson City's small population makes it a classic 'not the biggest city is the capital' example",
+          "cardFront": "Nevada",
+          "cardBack": "Carson City"
+        },
+        {
+          "id": "new-hampshire",
+          "answer": "Concord",
+          "alternates": [],
+          "explanation": "Capital of New Hampshire, not Manchester (the state's largest city)\nHome of the New Hampshire primary, historically the first primary election in the U.S. presidential race\nFranklin Pierce, the 14th president, was born in New Hampshire; the state has sent disproportionate political influence through its early primary",
+          "cardFront": "New Hampshire",
+          "cardBack": "Concord"
+        },
+        {
+          "id": "new-jersey",
+          "answer": "Trenton",
+          "alternates": [],
+          "explanation": "Capital of New Jersey, not Newark or Jersey City (both of which are much larger)\nSite of the pivotal Battle of Trenton (December 26, 1776) — Washington crossed the Delaware and surprised the Hessian garrison\nTrenton's motto: 'Trenton Makes, The World Takes,' referencing its industrial history",
+          "cardFront": "New Jersey",
+          "cardBack": "Trenton"
+        },
+        {
+          "id": "new-mexico",
+          "answer": "Santa Fe",
+          "alternates": [],
+          "explanation": "Capital of New Mexico; the oldest state capital in the U.S., founded by the Spanish in 1610 — predating the Pilgrims by a decade\nAt 7,000 feet elevation, it is the highest-altitude state capital in the U.S.\nAlbuquerque is much larger but is not the capital; Santa Fe is world-renowned for its art scene and adobe architecture",
+          "cardFront": "New Mexico",
+          "cardBack": "Santa Fe"
+        },
+        {
+          "id": "new-york",
+          "answer": "Albany",
+          "alternates": [],
+          "explanation": "Capital of New York, not New York City — one of the most common 'not the biggest city' capital misconceptions\nOne of the oldest continuously chartered cities in the U.S. (1686); settled by the Dutch as Fort Nassau/Fort Orange\nLocated on the Hudson River, 150 miles north of New York City",
+          "cardFront": "New York",
+          "cardBack": "Albany"
+        },
+        {
+          "id": "north-carolina",
+          "answer": "Raleigh",
+          "alternates": [],
+          "explanation": "Capital of North Carolina; named after Sir Walter Raleigh, who sponsored the failed Roanoke Colony\nPart of the 'Research Triangle' with Durham and Chapel Hill — home to NC State, Duke, and UNC\nCharlotte is the state's largest city but is not the capital",
+          "cardFront": "North Carolina",
+          "cardBack": "Raleigh"
+        },
+        {
+          "id": "north-dakota",
+          "answer": "Bismarck",
+          "alternates": [],
+          "explanation": "Capital of North Dakota; named after German Chancellor Otto von Bismarck to attract German investment in the Northern Pacific Railroad\nFargo is larger and better known, but Bismarck is the capital\nSitting Bull was killed near Bismarck in 1890, and Fort Abraham Lincoln — where Custer departed on his final campaign — is nearby",
+          "cardFront": "North Dakota",
+          "cardBack": "Bismarck"
+        },
+        {
+          "id": "ohio",
+          "answer": "Columbus",
+          "alternates": [],
+          "explanation": "Capital of Ohio and its largest city; named after Christopher Columbus\nHome of Ohio State University, one of the largest universities in the U.S. by enrollment\nPlanned as a new capital city in 1812; Cleveland and Cincinnati are older but smaller in the modern era",
+          "cardFront": "Ohio",
+          "cardBack": "Columbus"
+        },
+        {
+          "id": "oklahoma",
+          "answer": "Oklahoma City",
+          "alternates": [],
+          "explanation": "Capital of Oklahoma; one of the rare state capitals that is also the state's largest city\nFounded in a single day — April 22, 1889 — during the Land Rush, when 50,000 settlers staked claims simultaneously\nSite of the Oklahoma City bombing (April 19, 1995) — the deadliest domestic terrorist attack in U.S. history at the time",
+          "cardFront": "Oklahoma",
+          "cardBack": "Oklahoma City"
+        },
+        {
+          "id": "oregon",
+          "answer": "Salem",
+          "alternates": [],
+          "explanation": "Capital of Oregon, not Portland (the state's largest city)\nLocated in the Willamette Valley, historically the terminus of the Oregon Trail\nPortland often overshadows Salem in name recognition, making this a classic trivia answer",
+          "cardFront": "Oregon",
+          "cardBack": "Salem"
+        },
+        {
+          "id": "pennsylvania",
+          "answer": "Harrisburg",
+          "alternates": [],
+          "explanation": "Capital of Pennsylvania, not Philadelphia or Pittsburgh\nSite of the Three Mile Island nuclear accident (March 28, 1979) — the worst nuclear accident in U.S. history, at a plant on an island in the Susquehanna River nearby\nNamed after John Harris Sr., who established a trading post there in the early 18th century",
+          "cardFront": "Pennsylvania",
+          "cardBack": "Harrisburg"
+        },
+        {
+          "id": "rhode-island",
+          "answer": "Providence",
+          "alternates": [],
+          "explanation": "Capital of Rhode Island; founded by Roger Williams in 1636 after he was banished from Massachusetts Bay Colony for religious dissent\nOne of the first places in the Americas to guarantee freedom of religion\nHome of Brown University (Ivy League) and the Rhode Island School of Design (RISD)",
+          "cardFront": "Rhode Island",
+          "cardBack": "Providence"
+        },
+        {
+          "id": "south-carolina",
+          "answer": "Columbia",
+          "alternates": [],
+          "explanation": "Capital of South Carolina; chosen in 1786 as a compromise between coastal and inland populations\nBurned by General Sherman's Union forces in February 1865 during the Carolina Campaign\nHome of the University of South Carolina; Charleston is the state's oldest and most historically significant city but is not the capital",
+          "cardFront": "South Carolina",
+          "cardBack": "Columbia"
+        },
+        {
+          "id": "south-dakota",
+          "answer": "Pierre",
+          "alternates": [],
+          "explanation": "Capital of South Dakota; the only state capital that does not share its name with a Metropolitan Statistical Area\nPronounced 'PEER' (not like the French name); named after Fort Pierre, a fur trading post\nOne of the smallest state capitals by population; Sioux Falls is much larger but is not the capital",
+          "cardFront": "South Dakota",
+          "cardBack": "Pierre"
+        },
+        {
+          "id": "tennessee",
+          "answer": "Nashville",
+          "alternates": [],
+          "explanation": "Capital of Tennessee and its largest city; known as 'Music City' for its central role in country music\nHome of the Grand Ole Opry, Vanderbilt University, and the Country Music Hall of Fame\nPresident Andrew Jackson's plantation, The Hermitage, is located just outside Nashville",
+          "cardFront": "Tennessee",
+          "cardBack": "Nashville"
+        },
+        {
+          "id": "texas",
+          "answer": "Austin",
+          "alternates": [],
+          "explanation": "Capital of Texas; named after Stephen F. Austin, 'Father of Texas,' who colonized the area\nHome of the University of Texas Longhorns; a major tech hub nicknamed 'Silicon Hills'\nHouston and Dallas are far larger, but Austin has been the capital since Texas declared independence from Mexico in 1839",
+          "cardFront": "Texas",
+          "cardBack": "Austin"
+        },
+        {
+          "id": "utah",
+          "answer": "Salt Lake City",
+          "alternates": [
+            "SLC"
+          ],
+          "explanation": "Capital of Utah; founded in 1847 by Mormon (LDS) pioneers led by Brigham Young, who reportedly said 'This is the place'\nHeadquarters of The Church of Jesus Christ of Latter-day Saints\nHosted the 2002 Winter Olympics; situated at the foot of the Wasatch Mountains with world-class ski resorts nearby",
+          "cardFront": "Utah",
+          "cardBack": "Salt Lake City"
+        },
+        {
+          "id": "vermont",
+          "answer": "Montpelier",
+          "alternates": [],
+          "explanation": "Capital of Vermont; the smallest state capital in the U.S. by population — approximately 8,000 people\nThe only state capital without a McDonald's\nSpelled 'Montpelier' (one 'l'), unlike Montpellier, France (two 'l's); named after the French city",
+          "cardFront": "Vermont",
+          "cardBack": "Montpelier"
+        },
+        {
+          "id": "virginia",
+          "answer": "Richmond",
+          "alternates": [],
+          "explanation": "Capital of Virginia; served as the capital of the Confederate States of America during the Civil War (1861–1865)\nFell to Union forces on April 3, 1865, just six days before Lee's surrender at Appomattox\nWas the colonial capital before Washington D.C. was established; Northern Virginia suburbs near D.C. are far more populous",
+          "cardFront": "Virginia",
+          "cardBack": "Richmond"
+        },
+        {
+          "id": "washington",
+          "answer": "Olympia",
+          "alternates": [],
+          "explanation": "Capital of Washington state, not Seattle (the state's largest city by far)\nLocated at the southern tip of Puget Sound; named after the Olympic Mountains visible to the northwest\nEvergreen State College is located in Olympia; the state takes its name from President George Washington",
+          "cardFront": "Washington",
+          "cardBack": "Olympia"
+        },
+        {
+          "id": "west-virginia",
+          "answer": "Charleston",
+          "alternates": [],
+          "explanation": "Capital of West Virginia; not to be confused with Charleston, South Carolina\nWest Virginia separated from Virginia in 1863 and joined the Union during the Civil War\nThe Kanawha River runs through Charleston; the state is the only one formed by seceding from a Confederate state",
+          "cardFront": "West Virginia",
+          "cardBack": "Charleston"
+        },
+        {
+          "id": "wisconsin",
+          "answer": "Madison",
+          "alternates": [],
+          "explanation": "Capital of Wisconsin; named after President James Madison\nHome of the University of Wisconsin–Madison, a major research university; the campus sits on an isthmus between two lakes\nMilwaukee is the state's largest city but is not the capital",
+          "cardFront": "Wisconsin",
+          "cardBack": "Madison"
+        },
+        {
+          "id": "wyoming",
+          "answer": "Cheyenne",
+          "alternates": [],
+          "explanation": "Capital of Wyoming and its largest city; named after the Cheyenne people\nWyoming was the first territory and state to grant women the right to vote (1869), earning the nickname 'The Equality State'\nCheyenne Frontier Days, held every July, is one of the largest outdoor rodeos in the world",
+          "cardFront": "Wyoming",
+          "cardBack": "Cheyenne"
+        }
+      ]
+    }
+  ]
+}
