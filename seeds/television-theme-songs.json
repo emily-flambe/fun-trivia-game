@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "television/theme-songs", "parentId": "television", "name": "TV Theme Songs", "description": "Iconic television theme songs and their shows" }
+  ],
+  "exercises": [
+    {
+      "id": "television/theme-songs/tv-theme-songs",
+      "nodeId": "television/theme-songs",
+      "name": "TV Theme Songs",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "cheers",
+          "prompt": "Gary Portnoy's 'Where Everybody Knows Your Name' served as the theme for which NBC sitcom set in a Boston bar (1982\u20131993)?",
+          "answer": "Cheers",
+          "alternates": [],
+          "explanation": "NBC, 1982\u20131993, 11 seasons, 275 episodes; created by Glen Charles, Les Charles, and James Burrows\\nWritten by Gary Portnoy and Judy Hart Angelo; Portnoy also performed the recording\\nPeaked at #83 on the Billboard Hot 100 in 1983; reached #28 on the Adult Contemporary chart\\nCertified Gold by the RIAA in 1984\\nSet in a bar in Boston where regulars Sam Malone, Cliff Clavin, and Norm Peterson gather\\nNominated for Outstanding Comedy Series all 11 seasons; won 28 Primetime Emmys from a record 117 nominations\\nThe finale on May 20, 1993 drew 80.4 million viewers, the second most-watched finale in TV history at the time",
+          "cardFront": "\"Where Everybody Knows Your Name\" (Gary Portnoy)",
+          "cardBack": "Cheers"
+        },
+        {
+          "id": "friends",
+          "prompt": "The Rembrandts' 'I'll Be There for You' became a #1 airplay hit as the theme for which NBC sitcom about six Manhattan twenty-somethings (1994\u20132004)?",
+          "answer": "Friends",
+          "alternates": [],
+          "explanation": "NBC, 1994\u20132004, 10 seasons, 236 episodes; set in Manhattan's Greenwich Village\\nPerformed by The Rembrandts (Danny Wilde and Phil Solem); topped the Billboard Hot 100 Airplay chart for 8 weeks in 1995\\nReached #17 on the Billboard Hot 100, #3 in the UK, and #1 in Canada for 5 weeks\\nThe full-length version appeared on the band's album L.P. (1995), which went platinum largely on the strength of this single\\nThe six core cast members collectively negotiated salaries of $1 million per episode by the final season\\nFilmed at Warner Bros. Studios in Burbank, not in New York City",
+          "cardFront": "\"I'll Be There for You\" (The Rembrandts)",
+          "cardBack": "Friends"
+        },
+        {
+          "id": "fresh-prince",
+          "prompt": "Which NBC sitcom (1990\u20131996) starring Will Smith opens with a rap about a kid from West Philadelphia whose life 'got flipped turned upside down'?",
+          "answer": "The Fresh Prince of Bel-Air",
+          "alternates": ["Fresh Prince of Bel-Air", "Fresh Prince"],
+          "explanation": "NBC, 1990\u20131996, 6 seasons, 148 episodes; created by Andy Borowitz and Susan Borowitz\\nTheme performed by DJ Jazzy Jeff & The Fresh Prince (Will Smith and Jeff Townes)\\nThe theme was reportedly written and recorded in about 15 minutes\\nDJ Jazzy Jeff & The Fresh Prince won the first-ever rap Grammy in 1989 for 'Parents Just Don't Understand'\\nJeff Townes also appeared on the show as Jazz, Will's friend who is repeatedly thrown out of the house by Uncle Phil\\nSmith's character is a street-smart teen from West Philadelphia sent to live with wealthy relatives in Bel-Air, Los Angeles",
+          "cardFront": "\"Now, this is a story all about how my life got flipped turned upside down...\"",
+          "cardBack": "The Fresh Prince of Bel-Air"
+        },
+        {
+          "id": "greatest-american-hero",
+          "prompt": "Joey Scarbury's 'Believe It or Not' \u2014 peaking at #2 on the Billboard Hot 100 in 1981 \u2014 was the theme for which ABC superhero comedy about a teacher who loses the instruction manual for his alien-given super suit?",
+          "answer": "The Greatest American Hero",
+          "alternates": ["Greatest American Hero"],
+          "explanation": "ABC, 1981\u20131983, 3 seasons; created by Stephen J. Cannell\\nStarring William Katt as Ralph Hinkley, Robert Culp as FBI agent Bill Maxwell, and Connie Sellecca as Pam Davidson\\nComposed by Mike Post with lyrics by Stephen Geyer; sung by Joey Scarbury\\nPeaked at #2 on the Billboard Hot 100 in August 1981, blocked from #1 by Diana Ross and Lionel Richie's 'Endless Love'\\nHit #1 on both the Cashbox and Record World charts; one of the rare TV themes to become a mainstream pop hit\\nRalph Hinkley's surname was temporarily changed to 'Hanley' after the 1981 assassination attempt on Reagan by John Hinckley Jr.",
+          "cardFront": "\"Believe It or Not\" (Joey Scarbury)",
+          "cardBack": "The Greatest American Hero"
+        },
+        {
+          "id": "law-and-order",
+          "prompt": "Mike Post composed the theme \u2014 and the iconic two-note 'dun dun' transition sound \u2014 for which long-running NBC crime drama that premiered in 1990?",
+          "answer": "Law & Order",
+          "alternates": ["Law and Order"],
+          "explanation": "NBC, premiered September 13, 1990; original run of 20 seasons (456 episodes) ended 2010, revived 2022\\nTheme composed by Mike Post, featuring guitar, electric piano, and clarinet\\nThe two-note transition sound, officially called 'The Clang,' was assembled by Post and Danny Lux from samples including a jail door slam and floor stomps\\nBecause 'The Clang' is classified as music rather than a sound effect, Post earns a royalty every time it plays\\nPost initially wanted to hand it off to the sound effects department; creator Dick Wolf insisted it be a musical cue\\nPost also composed themes for Hill Street Blues, The Rockford Files, and other series",
+          "cardFront": "Mike Post instrumental + \"dun dun\" (NBC crime drama)",
+          "cardBack": "Law & Order"
+        },
+        {
+          "id": "jeffersons",
+          "prompt": "'Movin' On Up' \u2014 a gospel-choir-backed anthem about reaching a 'deluxe apartment in the sky' \u2014 was the theme for which CBS sitcom (1975\u20131985) spun off from All in the Family?",
+          "answer": "The Jeffersons",
+          "alternates": ["Jeffersons"],
+          "explanation": "CBS, 1975\u20131985, 11 seasons, 253 episodes; spun off from All in the Family\\nWritten and sung by Ja'net DuBois with songwriter Jeff Barry; backed by a gospel choir\\nJeff Barry also co-wrote 'Chapel of Love,' 'Da Doo Ron Ron,' 'Be My Baby,' and 'River Deep, Mountain High'\\nNever released as a commercial single, yet became one of the most recognizable TV themes of all time\\nThe show follows George and Louise Jefferson, who move from Queens to a luxury Manhattan apartment thanks to George's dry-cleaning chain\\nSherman Hemsley and Isabel Sanford starred; Sanford appeared in 252 of 253 episodes\\nCanceled abruptly in 1985; Hemsley said he learned about the cancellation from a newspaper",
+          "cardFront": "\"Movin' On Up\" (Ja'net DuBois & Jeff Barry)",
+          "cardBack": "The Jeffersons"
+        },
+        {
+          "id": "csi",
+          "prompt": "The Who's 1978 hit 'Who Are You' was adopted as the theme for which CBS forensic crime drama set in Las Vegas (2000\u20132015)?",
+          "answer": "CSI: Crime Scene Investigation",
+          "alternates": ["CSI", "CSI Crime Scene Investigation"],
+          "explanation": "CBS, 2000\u20132015, 15 seasons, 335 episodes; created by Anthony E. Zuiker\\n'Who Are You' is the title track from The Who's 1978 album Who Are You, written by Pete Townshend\\nThe album was the last to feature drummer Keith Moon, who died three weeks after its release\\nRoger Daltrey guest-starred in the show's 150th episode, 'Living Legend' (Season 7)\\nEach CSI franchise spinoff used a different Who song: CSI: Miami ('Won't Get Fooled Again'), CSI: NY ('Baba O'Riley')\\nThe original song peaked at #14 on the Billboard Hot 100 in 1978; piano on the track played by Rod Argent of the Zombies",
+          "cardFront": "\"Who Are You\" (The Who, 1978)",
+          "cardBack": "CSI: Crime Scene Investigation"
+        },
+        {
+          "id": "mash",
+          "prompt": "An instrumental version of 'Suicide Is Painless,' originally from a 1970 Robert Altman film, served as the theme for which CBS military comedy-drama (1972\u20131983)?",
+          "answer": "M*A*S*H",
+          "alternates": ["MASH"],
+          "explanation": "CBS, 1972\u20131983, 11 seasons, 256 episodes; set in a Korean War mobile army surgical hospital\\nMusic by Johnny Mandel, lyrics by Mike Altman \u2014 the 15-year-old son of film director Robert Altman\\nRobert Altman specified the song must be called 'Suicide Is Painless' and be 'the stupidest song ever written'; he couldn't write lyrics dumb enough, so he gave the task to his teenage son\\nMike Altman earned over $1 million in royalties from the song; Robert Altman received $70,000 for directing the film\\nThe TV series used only the instrumental version over its opening credits\\nThe finale, 'Goodbye, Farewell and Amen' (Feb 28, 1983), drew approximately 106 million viewers \u2014 still the most-watched single episode in U.S. TV history",
+          "cardFront": "\"Suicide Is Painless\" (Johnny Mandel, instrumental)",
+          "cardBack": "M*A*S*H"
+        },
+        {
+          "id": "dukes-of-hazzard",
+          "prompt": "Outlaw country legend Waylon Jennings wrote, sang, and narrated which CBS action-comedy series (1979\u20131985) about two cousins outrunning the law in rural Georgia?",
+          "answer": "The Dukes of Hazzard",
+          "alternates": ["Dukes of Hazzard"],
+          "explanation": "CBS, 1979\u20131985, 7 seasons, 147 episodes; created by Gy Waldron\\nJennings wrote and performed 'Good Ol' Boys' and also served as the show's off-screen narrator\\n'Good Ol' Boys' hit #1 on the Billboard Hot Country Singles chart in 1980 and peaked at #21 on the Hot 100\\nCertified Gold by the RIAA for sales over one million copies\\nJennings was tapped as narrator after serving the same role in the 1975 film Moonrunners, which inspired the series\\nStars John Schneider (Bo Duke) and Tom Wopat (Luke Duke) were temporarily replaced in Season 5 over a royalties dispute, causing ratings to plummet",
+          "cardFront": "\"Good Ol' Boys\" (Waylon Jennings)",
+          "cardBack": "The Dukes of Hazzard"
+        },
+        {
+          "id": "frasier",
+          "prompt": "The jazzy closing-credits song 'Tossed Salads and Scrambled Eggs' \u2014 whose lyrics deliberately avoid mentioning psychiatry or radio \u2014 was sung by Kelsey Grammer for which NBC sitcom (1993\u20132004)?",
+          "answer": "Frasier",
+          "alternates": [],
+          "explanation": "NBC, 1993\u20132004, 11 seasons, 264 episodes; spun off from Cheers\\nMusic by Bruce Miller, lyrics by Darryl Phinnessee; sung by Kelsey Grammer\\nThe songwriters were forbidden from referencing psychiatry, radio, or the show's title; 'tossed salads and scrambled eggs' symbolize mixed-up people (Frasier's callers)\\nPlayed over the closing credits rather than the opening \u2014 unusual for a sitcom theme\\nWon a record 37 Emmy Awards including 5 consecutive Outstanding Comedy Series\\nGrammer played Frasier Crane for 20 consecutive years across Cheers (1984\u20131993), a Wings guest spot, and Frasier (1993\u20132004)\\nRanked #58 on Rolling Stone's Top 100 TV Theme Songs of All Time",
+          "cardFront": "\"Tossed Salads and Scrambled Eggs\" (Kelsey Grammer)",
+          "cardBack": "Frasier"
+        },
+        {
+          "id": "south-park",
+          "prompt": "Primus frontman Les Claypool performed the bass-heavy theme song for which animated Comedy Central series, first airing in August 1997, about four foul-mouthed boys in a Colorado town?",
+          "answer": "South Park",
+          "alternates": [],
+          "explanation": "Comedy Central, premiered August 13, 1997; created by Trey Parker and Matt Stone\\nTheme composed and performed by Primus; Les Claypool used a Whamola (single-string percussive bass) for the recording\\nThe original 40-second theme was rejected by Comedy Central for being 'too slow' and was compressed via Pro Tools\\nClaypool re-recorded vocals during Primus's concert tour at Fiddler's Green Amphitheatre\\nThe slower original version plays over the closing credits of each episode\\nParker and Stone chose Primus because it was the one band they could agree on; the band were fans of their 'Spirit of Christmas' animated short",
+          "cardFront": "Primus / Les Claypool bass-heavy theme (animated Comedy Central series)",
+          "cardBack": "South Park"
+        },
+        {
+          "id": "sopranos",
+          "prompt": "Alabama 3's 'Woke Up This Morning,' inspired by a real British murder case, became the opening theme for which HBO crime drama (1999\u20132007) about a New Jersey mob boss in therapy?",
+          "answer": "The Sopranos",
+          "alternates": ["Sopranos"],
+          "explanation": "HBO, 1999\u20132007, 6 seasons, 86 episodes; created by David Chase\\nPerformed by Alabama 3, a British band from Brixton, London (known as A3 in the U.S. to avoid confusion with the country group Alabama)\\nDavid Chase first heard the song while driving on a New Jersey freeway \u2014 the same route shown in the opening credits\\nLyrics inspired by the Sara Thornton case, a woman convicted of killing her abusive husband; the original lyric referenced a knife but was changed to a gun\\nAlabama 3 initially received just $500 from HBO for the song's use; royalties totaled nearly $400,000 by 2019\\nJames Gandolfini starred as Tony Soprano and won three Emmy Awards for the role; he died June 19, 2013, at age 51",
+          "cardFront": "\"Woke Up This Morning\" (Alabama 3)",
+          "cardBack": "The Sopranos"
+        }
+      ]
+    }
+  ]
+}

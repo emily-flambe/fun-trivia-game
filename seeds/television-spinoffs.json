@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "television/spinoffs", "parentId": "television", "name": "TV Spinoffs", "description": "Television shows that spun off from other series" }
+  ],
+  "exercises": [
+    {
+      "id": "television/spinoffs/tv-spinoffs",
+      "nodeId": "television/spinoffs",
+      "name": "TV Spinoffs",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "frasier",
+          "prompt": "The NBC sitcom 'Frasier' (1993\u20132004) followed a psychiatrist who left Boston to host a radio call-in show in Seattle. What show did his character originate on?",
+          "answer": "Cheers",
+          "alternates": [],
+          "explanation": "Frasier Crane (Kelsey Grammer) first appeared on Cheers in Season 3 (1984) as a love interest for Diane Chambers\\nNBC, 1993\u20132004, 11 seasons, 264 episodes; created by David Angell, Peter Casey, and David Lee\\nWon 37 Primetime Emmy Awards, a record for a scripted series at the time\\nWon Outstanding Comedy Series five consecutive years (1994\u20131998)\\nGrammer portrayed Frasier Crane for 20 years total across Cheers, Frasier, and a guest spot on Wings\\nRevived in 2023 on Paramount+ with Grammer returning but an otherwise new cast",
+          "cardFront": "Frasier",
+          "cardBack": "Cheers"
+        },
+        {
+          "id": "better-call-saul",
+          "prompt": "The AMC prequel series 'Better Call Saul' (2015\u20132022) traced the transformation of small-time lawyer Jimmy McGill into a flamboyant criminal attorney in Albuquerque. What show introduced this character?",
+          "answer": "Breaking Bad",
+          "alternates": [],
+          "explanation": "Saul Goodman (Bob Odenkirk) first appeared in Breaking Bad Season 2 as Walter White's sleazy criminal lawyer\\nAMC, 2015\u20132022, 6 seasons, 63 episodes; created by Vince Gilligan and Peter Gould\\nSet primarily in the early 2000s, several years before Breaking Bad's events\\nReceived universal critical acclaim; many critics considered it equal to or better than its parent show\\nOdenkirk suffered a heart attack on set during Season 6 filming in July 2021 and recovered\\nAlso follows Mike Ehrmantraut (Jonathan Banks), reprising his Breaking Bad role as a fixer",
+          "cardFront": "Better Call Saul",
+          "cardBack": "Breaking Bad"
+        },
+        {
+          "id": "the-jeffersons",
+          "prompt": "The CBS sitcom 'The Jeffersons' (1975\u20131985) followed a Black dry-cleaning magnate and his wife who moved to a luxury apartment on Manhattan's East Side. What Norman Lear show did they first appear on?",
+          "answer": "All in the Family",
+          "alternates": ["All In the Family"],
+          "explanation": "George Jefferson (Sherman Hemsley) and Louise \"Weezy\" Jefferson (Isabel Sanford) were the Bunkers' neighbors in Queens\\nCBS, 1975\u20131985, 11 seasons, 253 episodes; created by Norman Lear\\nOutlasted its parent show (All in the Family ran 9 seasons, 205 episodes)\\nAt cancellation, it was the longest-running series with a predominantly African American cast\\nSanford won the Emmy for Outstanding Lead Actress in a Comedy Series in 1981\\nTheme song \"Movin' On Up\" became one of the most recognizable TV themes of the era",
+          "cardFront": "The Jeffersons",
+          "cardBack": "All in the Family"
+        },
+        {
+          "id": "angel",
+          "prompt": "The WB supernatural drama 'Angel' (1999\u20132004) followed a vampire cursed with a soul who relocated to Los Angeles to work as a private detective. What show did he leave?",
+          "answer": "Buffy the Vampire Slayer",
+          "alternates": ["Buffy", "Buffy the Vampire Slayer"],
+          "explanation": "Angel (David Boreanaz) was Buffy Summers' brooding vampire love interest before getting his own series\\nThe WB, 1999\u20132004, 5 seasons, 110 episodes; created by Joss Whedon and David Greenwalt\\nAngel leaves Sunnydale after concluding his doomed romance with Buffy cannot continue\\nBoreanaz appeared in all 110 episodes; the show explored noir and detective genres more than Buffy\\nMultiple crossover episodes with Buffy during the years both shows aired simultaneously\\nCancelled by The WB despite strong ratings; final episode aired May 19, 2004",
+          "cardFront": "Angel",
+          "cardBack": "Buffy the Vampire Slayer"
+        },
+        {
+          "id": "mork-and-mindy",
+          "prompt": "The ABC sitcom 'Mork & Mindy' (1978\u20131982) starred Robin Williams as an alien from the planet Ork living in Boulder, Colorado. His character first appeared on what sitcom set in 1950s Milwaukee?",
+          "answer": "Happy Days",
+          "alternates": [],
+          "explanation": "Mork debuted in the Happy Days Season 5 episode \"My Favorite Orkan\" (February 28, 1978), trying to abduct Richie Cunningham\\nABC, 1978\u20131982, 4 seasons, 95 episodes; Williams' breakout role at age 27\\nWilliams was so funny during his Happy Days guest spot that the audience kept laughing over other actors' lines\\nPam Dawber co-starred as Mindy McConnell; each episode ended with Mork reporting to his superior Orson\\nWilliams' improvisational style made the show a phenomenon; he ad-libbed extensively during tapings\\nOne of three major spinoffs from Happy Days, along with Laverne & Shirley and Joanie Loves Chachi",
+          "cardFront": "Mork & Mindy",
+          "cardBack": "Happy Days"
+        },
+        {
+          "id": "laverne-and-shirley",
+          "prompt": "The ABC sitcom 'Laverne & Shirley' (1976\u20131983) followed two brewery bottlecappers in 1950s Milwaukee who were introduced as friends of the Fonz. What show did they spin off from?",
+          "answer": "Happy Days",
+          "alternates": [],
+          "explanation": "Laverne DeFazio (Penny Marshall) and Shirley Feeney (Cindy Williams) first appeared on Happy Days as dates for Fonzie and Richie\\nABC, 1976\u20131983, 8 seasons, 178 episodes; created by Garry Marshall, Lowell Ganz, and Mark Rothman\\nBecame the #1 rated show in America by its third season (1977\u20131978)\\nPenny Marshall was Garry Marshall's sister; the show was a family affair\\nLater seasons relocated the characters from Milwaukee to Burbank, California\\nOne of the most successful spinoffs in TV history by ratings; consistently in the top 5 during its peak",
+          "cardFront": "Laverne & Shirley",
+          "cardBack": "Happy Days"
+        },
+        {
+          "id": "the-colbert-report",
+          "prompt": "The Comedy Central satirical news program 'The Colbert Report' (2005\u20132014) featured a host playing a bombastic conservative pundit character. He had previously been a correspondent on what show?",
+          "answer": "The Daily Show",
+          "alternates": ["Daily Show", "The Daily Show with Jon Stewart"],
+          "explanation": "Stephen Colbert was a correspondent on The Daily Show with Jon Stewart from 1997 to 2005\\nComedy Central, 2005\u20132014, 1,447 episodes; co-created by Jon Stewart, Colbert, and Ben Karlin\\nParodied cable news personality shows, particularly The O'Reilly Factor\\nColbert coined \"truthiness\" on the first episode; named 2005 Word of the Year by the American Dialect Society\\nHis 2006 White House Correspondents' Dinner speech became a viral cultural moment\\nLeft to host The Late Show on CBS in 2015, succeeding David Letterman",
+          "cardFront": "The Colbert Report",
+          "cardBack": "The Daily Show"
+        },
+        {
+          "id": "ncis",
+          "prompt": "The CBS procedural drama 'NCIS' (2003\u2013present) introduced Special Agent Leroy Jethro Gibbs (Mark Harmon) in a two-part backdoor pilot on what military legal drama?",
+          "answer": "JAG",
+          "alternates": [],
+          "explanation": "Gibbs and the NCIS team were introduced in JAG Season 8 episodes \"Ice Queen\" and \"Meltdown\" (April 2003)\\nCBS, premiered September 23, 2003; one of the longest-running scripted primetime series in U.S. history\\nMark Harmon starred as Gibbs for 19 seasons before departing; appeared in 435 episodes\\nJAG (Judge Advocate General) ran on NBC then CBS from 1995\u20132005, created by Donald P. Bellisario\\nNCIS itself spawned multiple spinoffs: NCIS: Los Angeles, NCIS: New Orleans, NCIS: Hawai'i, NCIS: Origins\\nOne of the most-watched shows globally; reached over 500 episodes",
+          "cardFront": "NCIS",
+          "cardBack": "JAG"
+        },
+        {
+          "id": "daria",
+          "prompt": "The MTV animated series 'Daria' (1997\u20132002) followed a deadpan, intellectually sharp teenager navigating suburban high school life. She originated as a recurring character on what fellow MTV animated show?",
+          "answer": "Beavis and Butt-Head",
+          "alternates": ["Beavis and Butthead", "Beavis & Butt-Head", "Beavis & Butthead"],
+          "explanation": "Daria Morgendorffer appeared on Beavis and Butt-Head as a classmate who served as a sardonic foil to the dim-witted duo\\nMTV, 1997\u20132002, 5 seasons, 65 episodes; created by Glenn Eichler and Susie Lewis\\nBeavis and Butt-Head (created by Mike Judge) ran 1993\u20131997 on MTV before being revived in 2011 and 2022\\nDaria's tone shifted from crude humor to sharp social satire about suburban American life\\nTwo TV movies: Is It Fall Yet? (2000) and Is It College Yet? (2002)\\nBecame a cult favorite and feminist icon; her monotone voice (Tracy Grandstaff) defined 1990s ironic detachment",
+          "cardFront": "Daria",
+          "cardBack": "Beavis and Butt-Head"
+        },
+        {
+          "id": "xena",
+          "prompt": "The syndicated fantasy series 'Xena: Warrior Princess' (1995\u20132001) starred Lucy Lawless as a reformed warlord seeking redemption. Her character was introduced as a villain on what companion fantasy show?",
+          "answer": "Hercules: The Legendary Journeys",
+          "alternates": ["Hercules", "Hercules The Legendary Journeys"],
+          "explanation": "Xena debuted as a villainous warlord in Hercules Season 1 episode \"The Warrior Princess\" (1995)\\nSyndicated, 1995\u20132001, 6 seasons, 134 episodes; produced by Renaissance Pictures (Sam Raimi, Rob Tapert)\\nOriginally intended as a one-off villain, but audience response led to a three-episode arc and then a spinoff\\nFilmed in New Zealand; Lawless got the role after original choice Vanessa Angel fell ill\\nThe Xena/Gabrielle relationship became one of TV's earliest examples of queer subtext driving fandom\\nBoth Hercules (Kevin Sorbo) and Xena ran concurrently with crossover episodes",
+          "cardFront": "Xena: Warrior Princess",
+          "cardBack": "Hercules: The Legendary Journeys"
+        },
+        {
+          "id": "the-simpsons",
+          "prompt": "The animated Fox series 'The Simpsons' (1989\u2013present), the longest-running American scripted primetime series, began as short segments on what Fox variety sketch show?",
+          "answer": "The Tracey Ullman Show",
+          "alternates": ["Tracey Ullman Show", "The Tracy Ullman Show"],
+          "explanation": "The Simpson family first appeared as crudely animated shorts on The Tracey Ullman Show starting April 19, 1987\\n48 shorts aired across three seasons (1987\u20131989) before the family got their own half-hour series\\nThe Simpsons premiered as a standalone series on December 17, 1989, with the Christmas special \"Simpsons Roasting on an Open Fire\"\\nCreated by Matt Groening, who sketched the characters in the lobby before a meeting with James L. Brooks\\nUllman later sued Fox, claiming a share of profits from The Simpsons merchandise; the suit was dismissed\\nThe longest-running American animated program and scripted primetime series in history",
+          "cardFront": "The Simpsons",
+          "cardBack": "The Tracey Ullman Show"
+        },
+        {
+          "id": "a-different-world",
+          "prompt": "The NBC sitcom 'A Different World' (1987\u20131993) was set at the fictional Hillman College, a historically Black university. It originally centered on Denise Huxtable, a character from what mega-hit sitcom?",
+          "answer": "The Cosby Show",
+          "alternates": ["Cosby Show"],
+          "explanation": "Denise Huxtable (Lisa Bonet) left the parent show to attend Hillman College in the spinoff's first season\\nNBC, 1987\u20131993, 6 seasons, 144 episodes; created by Bill Cosby (uncredited) and produced by Marcy Carsey and Tom Werner\\nBonet departed after Season 1; the show shifted focus to Whitley Gilbert (Jasmine Guy) and Dwayne Wayne (Kadeem Hardison)\\nDebbie Allen took over as director and producer in Season 2 and transformed the show's tone and quality\\nTackled issues its parent show avoided: race relations, sexual assault, the AIDS crisis, apartheid\\nInspired a measurable increase in enrollment at historically Black colleges and universities",
+          "cardFront": "A Different World",
+          "cardBack": "The Cosby Show"
+        }
+      ]
+    }
+  ]
+}

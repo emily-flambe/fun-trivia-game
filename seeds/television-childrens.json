@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    { "id": "television/childrens", "parentId": "television", "name": "Children's Television", "description": "Classic and influential children's TV shows and characters" }
+  ],
+  "exercises": [
+    {
+      "id": "television/childrens/childrens-television",
+      "nodeId": "television/childrens",
+      "name": "Children's Television",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "sesame-street",
+          "prompt": "What PBS educational series, debuting in 1969, uses Jim Henson's Muppets alongside a human cast to teach children letters, numbers, and social skills on a neighborhood set modeled after inner-city New York?",
+          "answer": "Sesame Street",
+          "alternates": [],
+          "explanation": "PBS, 1969–present, created by Joan Ganz Cooney and Lloyd Morrisett through the Children's Television Workshop (now Sesame Workshop)\\nPioneered using television to educate preschoolers, especially in underserved communities\\nMost Emmy-winning TV show in history with over 200 Daytime Emmy Awards\\nJim Henson's Muppets—Big Bird, Oscar the Grouch, Elmo, Cookie Monster—became cultural icons\\nReaches viewers in over 150 countries; adapted into dozens of international co-productions\\nCooney was one of the first female executives in American television when she led CTW in 1968\\nAlso won 11 Grammy Awards and multiple Peabody Awards",
+          "cardFront": "PBS, 1969–present, Muppets + urban street education",
+          "cardBack": "Sesame Street"
+        },
+        {
+          "id": "mister-rogers",
+          "prompt": "What PBS preschool series (1968–2001) was hosted by an ordained Presbyterian minister who spoke directly to children about feelings, self-worth, and everyday life from his living room set in Pittsburgh?",
+          "answer": "Mister Rogers' Neighborhood",
+          "alternates": [
+            "Mister Rogers Neighborhood",
+            "Mr Rogers' Neighborhood",
+            "Mr. Rogers' Neighborhood",
+            "Mr Rogers Neighborhood"
+          ],
+          "explanation": "PBS, 1968–2001, 895 episodes, taped at WQED in Pittsburgh\\nCreated and hosted by Fred Rogers, an ordained Presbyterian minister (1963)\\nFocused on children's emotional development—addressed fear, death, divorce, and self-worth directly\\nReceived a Lifetime Achievement Emmy in 1997 and the Presidential Medal of Freedom in 2002\\nThe Neighborhood of Make-Believe segments used puppets to explore complex topics\\nRogers testified before the U.S. Senate in 1969, persuading Senator Pastore to preserve PBS funding\\nDied February 27, 2003; the 2019 film A Beautiful Day in the Neighborhood starred Tom Hanks as Rogers",
+          "cardFront": "PBS, 1968–2001, Fred Rogers, feelings and self-worth",
+          "cardBack": "Mister Rogers' Neighborhood"
+        },
+        {
+          "id": "blues-clues",
+          "prompt": "What Nickelodeon preschool series (1996–2006) featured a live-action host solving puzzles by following pawprint hints left by an animated cartoon puppy?",
+          "answer": "Blue's Clues",
+          "alternates": [
+            "Blues Clues"
+          ],
+          "explanation": "Nickelodeon, 1996–2006, aired on the Nick Jr. programming block\\nOriginal host Steve Burns left in 2002 after nearly 100 episodes; replaced by Donovan Patton as 'Joe'\\nRevolutionized preschool TV by using a research-based curriculum and direct viewer interaction\\nEach episode aired five times in a single week—studies showed comprehension improved with repetition\\nThe 'Thinking Chair' and 'Handy Dandy Notebook' became iconic elements of the show's problem-solving format\\nRebooted as Blue's Clues & You! in 2019 with new host Josh Dela Cruz\\nBurns was selected from 100 auditions because preschool test audiences responded most naturally to him",
+          "cardFront": "Nickelodeon, 1996–2006, animated puppy + pawprint clues",
+          "cardBack": "Blue's Clues"
+        },
+        {
+          "id": "electric-company",
+          "prompt": "What PBS children's series (1971–1977), produced by the Children's Television Workshop as a companion to a younger-skewing show, used sketch comedy to teach reading skills and featured a cast including a future Oscar-winning actor?",
+          "answer": "The Electric Company",
+          "alternates": [
+            "Electric Company"
+          ],
+          "explanation": "PBS, 1971–1977, 780 episodes, produced by the Children's Television Workshop (creators of Sesame Street)\\nTargeted elementary-age children who had 'graduated' from Sesame Street; focused on grammar and reading\\nCast included Morgan Freeman (as Easy Reader), Rita Moreno, and Bill Cosby\\nGuest stars included Mel Brooks, Zero Mostel, Gene Wilder, and Joan Rivers\\nIrene Cara appeared in the first season before becoming a pop star ('Fame,' 'Flashdance')\\nUsed sketch comedy, animation, and music in a more mature style than Sesame Street\\nRevived briefly on PBS in 2009–2011 with an entirely new cast and format",
+          "cardFront": "PBS, 1971–1977, CTW reading show with Morgan Freeman",
+          "cardBack": "The Electric Company"
+        },
+        {
+          "id": "schoolhouse-rock",
+          "prompt": "What series of animated musical educational shorts aired on ABC's Saturday morning block from 1973 to 1985, teaching grammar, math, science, and civics through songs like 'Conjunction Junction' and 'I'm Just a Bill'?",
+          "answer": "Schoolhouse Rock!",
+          "alternates": [
+            "Schoolhouse Rock"
+          ],
+          "explanation": "ABC, 1973–1985 (original run), revived 1993–1996; animated interstitial shorts during Saturday morning cartoons\\nConceived by ad executive David McCall after noticing his son could memorize song lyrics but not multiplication tables\\nBob Dorough composed the first song, 'Three Is a Magic Number,' and many others\\n'Conjunction Junction' and 'I'm Just a Bill' are the two most famous segments\\nWon four Emmy Awards—making McCaffrey and McCall the first ad agency to win an Emmy\\nCovered grammar (Conjunction Junction), civics (I'm Just a Bill), math (Multiplication Rock), science, and history\\nInducted into the Library of Congress National Recording Registry; multiple songs remain in classroom use decades later",
+          "cardFront": "ABC, 1973–1985, animated educational musical shorts",
+          "cardBack": "Schoolhouse Rock!"
+        },
+        {
+          "id": "reading-rainbow",
+          "prompt": "What PBS children's series (1983–2006) was hosted by a Star Trek: The Next Generation actor who championed literacy with the catchphrase 'But you don't have to take my word for it'?",
+          "answer": "Reading Rainbow",
+          "alternates": [],
+          "explanation": "PBS, 1983–2006, 155 episodes over 23 seasons, hosted by LeVar Burton\\nBurton was already known for playing Kunta Kinte in Roots (1977) before hosting; later starred as Geordi La Forge on Star Trek: TNG\\nWon 26 Emmy Awards, including 10 for Outstanding Children's Series, plus a Peabody Award\\nEach episode featured Burton visiting a real-world location, reading a book, and kid-submitted reviews\\n'But you don't have to take my word for it' became one of TV's most recognizable catchphrases\\nA 2014 Kickstarter campaign raised $5.4 million to bring it back as a web series\\nRevived on YouTube in 2025 through Sony's KidZuko brand with a new host",
+          "cardFront": "PBS, 1983–2006, LeVar Burton encourages kids to read",
+          "cardBack": "Reading Rainbow"
+        },
+        {
+          "id": "barney-and-friends",
+          "prompt": "What PBS children's series (1992–2010) featured a large purple T. rex who sang 'I Love You' and taught lessons about sharing and imagination to preschoolers?",
+          "answer": "Barney & Friends",
+          "alternates": [
+            "Barney and Friends",
+            "Barney"
+          ],
+          "explanation": "PBS, 1992–2010, created by Sheryl Leach of Dallas, Texas\\nOriginated as a home video series called Barney & the Backyard Gang (1988) before moving to PBS\\nLeach got the idea when her son outgrew Wee Sing Together videos and she saw no replacement\\nThe character was made a purple T. rex after Leach's son was fascinated by dinosaurs at a Dallas museum\\nBecame a cultural phenomenon and a target of widespread parody and backlash from adults\\nDemi Lovato and Selena Gomez both appeared on the show as child actors (seasons 7–8)\\nThe 'I Love You' closing song (to the tune of 'This Old Man') became inescapably associated with the character",
+          "cardFront": "PBS, 1992–2010, purple dinosaur teaches preschoolers",
+          "cardBack": "Barney & Friends"
+        },
+        {
+          "id": "captain-kangaroo",
+          "prompt": "What CBS weekday morning children's show (1955–1984), hosted by a former Clarabell the Clown actor, was the longest-running network children's program of its era and featured characters like Mr. Green Jeans and Mr. Moose?",
+          "answer": "Captain Kangaroo",
+          "alternates": [],
+          "explanation": "CBS, 1955–1984, approximately 6,090 episodes—still the record for most episodes of any U.S. children's show\\nCreated and hosted by Bob Keeshan, who previously played Clarabell the Clown on Howdy Doody\\nNamed for the large pockets on the Captain's coat; set in the 'Treasure House'\\nLongest-running children's show on a U.S. commercial network until surpassed by Mister Rogers' Neighborhood in 1997\\nRegular characters included Mr. Green Jeans (Hugh Brannum), Mr. Bunny Rabbit, and Dancing Bear\\nKeeshan conceived the show around 'the warm relationship between grandparents and children'\\nKeeshan left when his CBS contract ended in December 1984, nine months before the show's 30th anniversary",
+          "cardFront": "CBS, 1955–1984, Bob Keeshan, longest-running network kids' show",
+          "cardBack": "Captain Kangaroo"
+        },
+        {
+          "id": "dora-the-explorer",
+          "prompt": "What Nickelodeon animated series (2000–2019) followed a young Latina girl and her monkey companion on adventures that taught basic Spanish vocabulary through direct viewer interaction?",
+          "answer": "Dora the Explorer",
+          "alternates": [
+            "Dora"
+          ],
+          "explanation": "Nickelodeon, 2000–2019, 8 seasons, 190 episodes\\nCreated by Chris Gifford, Valerie Walsh Valdes, and Eric Weiner\\nPioneered bilingual education on mainstream American TV, teaching basic Spanish to English-speaking preschoolers\\nPremiered during a politically charged moment—California had just passed Proposition 227 curtailing bilingual education in 1998\\nDora's name comes from 'exploradora,' the Spanish feminine word for explorer\\nWon multiple awards including Emmys, a Peabody, NAACP Image Awards, and Alma Awards\\nSpawned a live-action film in 2019 (Dora and the Lost City of Gold) and a 2024 Paramount+ animated reboot",
+          "cardFront": "Nickelodeon, 2000–2019, bilingual Latina explorer + monkey",
+          "cardBack": "Dora the Explorer"
+        },
+        {
+          "id": "magic-school-bus",
+          "prompt": "What PBS animated series (1994–1997), based on Joanna Cole and Bruce Degen's book series, featured a wild-haired teacher who took her class on impossible field trips inside volcanoes, the human body, and outer space?",
+          "answer": "The Magic School Bus",
+          "alternates": [
+            "Magic School Bus"
+          ],
+          "explanation": "PBS, 1994–1997, 4 seasons, 52 episodes\\nBased on the book series by Joanna Cole (author) and Bruce Degen (illustrator), first published in 1986\\nMs. Frizzle voiced by Lily Tomlin, who won an Outstanding Performer in an Animated Program award in 1995\\nThe books have sold over 93 million copies in 13 countries\\nEach episode featured the class shrinking, flying, or transforming to explore a science topic firsthand\\nJoanna Cole was inspired by her own fifth-grade teacher when creating Ms. Frizzle\\nRebooted on Netflix as The Magic School Bus Rides Again (2017–2020) with Kate McKinnon voicing Ms. Frizzle's sister",
+          "cardFront": "PBS, 1994–1997, Ms. Frizzle's impossible science field trips",
+          "cardBack": "The Magic School Bus"
+        },
+        {
+          "id": "spongebob-squarepants",
+          "prompt": "What Nickelodeon animated comedy, premiering in 1999 and created by a marine biology educator, is set in a pineapple at the bottom of the Pacific Ocean and became the network's most profitable franchise?",
+          "answer": "SpongeBob SquarePants",
+          "alternates": [
+            "Spongebob Squarepants",
+            "SpongeBob",
+            "Spongebob"
+          ],
+          "explanation": "Nickelodeon, 1999–present, created by Stephen Hillenburg, a marine biology educator turned animator\\nWithin its first month, it overtook Pokémon as the highest-rated Saturday morning children's series\\nFranchise has generated over $16 billion in merchandising revenue—Nickelodeon's most profitable property\\nHillenburg developed the concept from his educational comic book The Intertidal Zone (1989)\\nExpanded into four theatrical films, a Broadway musical, video games, and two spin-off series\\nHillenburg died of ALS on November 26, 2018, at age 57\\nFourth longest-running American animated series; won two Emmy Awards for Outstanding Special Class Animated Program",
+          "cardFront": "Nickelodeon, 1999–present, marine-biology-inspired underwater comedy",
+          "cardBack": "SpongeBob SquarePants"
+        },
+        {
+          "id": "teletubbies",
+          "prompt": "What BBC preschool series (1997–2001) featured four brightly colored, antenna-topped characters speaking in babble and living in a futuristic dome, and was designed specifically for toddlers aged one to four?",
+          "answer": "Teletubbies",
+          "alternates": [],
+          "explanation": "BBC, 1997–2001, 365 episodes (one for every day of the year), aired on BBC Two\\nCreated by Anne Wood and Andrew Davenport; produced by Ragdoll Productions\\nFour characters: Tinky Winky (purple), Dipsy (green), Laa-Laa (yellow), Po (red)\\nPioneered programming designed specifically for toddlers aged 1–4, using repetition and babble\\nBroadcast in over 120 countries; won 17 industry awards despite harsh initial critical reviews\\nDrew controversy when Jerry Falwell claimed Tinky Winky was a gay role model due to his purple color and triangular antenna\\nRebooted for CBeebies (2015–2018) with new actors and updated technology",
+          "cardFront": "BBC, 1997–2001, four colorful characters for toddlers",
+          "cardBack": "Teletubbies"
+        }
+      ],
+      "displayType": "cards"
+    }
+  ]
+}

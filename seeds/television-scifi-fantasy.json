@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    { "id": "television/scifi-fantasy", "parentId": "television", "name": "Sci-Fi & Fantasy TV", "description": "Science fiction and fantasy television series" }
+  ],
+  "exercises": [
+    {
+      "id": "television/scifi-fantasy/scifi-fantasy-tv",
+      "nodeId": "television/scifi-fantasy",
+      "name": "Sci-Fi & Fantasy TV",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "the-twilight-zone",
+          "prompt": "What CBS anthology series (1959–1964) created and hosted by Rod Serling explored science fiction, fantasy, and horror through standalone episodes with twist endings?",
+          "answer": "The Twilight Zone",
+          "alternates": [
+            "Twilight Zone"
+          ],
+          "explanation": "CBS, 1959–1964, 5 seasons, 156 episodes\\nCreated, hosted, and narrated by Rod Serling, who wrote 92 of the 156 episodes\\nAnthology format with moral lessons and surprise twist endings, often addressing Cold War anxiety and racism\\nOpening narration (\"You're traveling through another dimension...\") is one of TV's most iconic intros\\nRevived three times: CBS (1985), UPN (2002), and CBS All Access with Jordan Peele (2019)\\nSerling also co-wrote the screenplay for Planet of the Apes (1968)\\nDirectly influenced Black Mirror, The X-Files, and virtually every sci-fi anthology since",
+          "cardFront": "CBS, 1959–1964, Rod Serling anthology",
+          "cardBack": "The Twilight Zone"
+        },
+        {
+          "id": "doctor-who",
+          "prompt": "What BBC science fiction series, first airing in 1963, follows a time-traveling alien who regenerates into new bodies and travels in a blue police box called the TARDIS?",
+          "answer": "Doctor Who",
+          "alternates": [
+            "Dr Who",
+            "Dr. Who"
+          ],
+          "explanation": "BBC, 1963–present (original run 1963–1989, revived 2005)\\nCreated by Sydney Newman, C. E. Webber, and Donald Wilson\\nThe Doctor is a Time Lord from the planet Gallifrey who travels through time and space in the TARDIS (Time and Relative Dimension in Space)\\nRegeneration—the Doctor's body changes into a new form—was introduced in 1966, enabling the show's extraordinary longevity\\nOriginal run: 26 seasons, 709 episodes; the revival has added 14+ series\\nFirst episode aired November 23, 1963—the day after JFK's assassination\\nLongest-running science fiction television series in the world\\nHolds a Guinness World Record for the most successful sci-fi series",
+          "cardFront": "BBC, 1963–present, time-traveling alien in a TARDIS",
+          "cardBack": "Doctor Who"
+        },
+        {
+          "id": "the-outer-limits",
+          "prompt": "What ABC sci-fi anthology series (1963–1965) opened with the warning 'There is nothing wrong with your television set' and 'We control the horizontal, we control the vertical'?",
+          "answer": "The Outer Limits",
+          "alternates": [
+            "Outer Limits"
+          ],
+          "explanation": "ABC, 1963–1965, 2 seasons, 49 episodes\\nCreated by Leslie Stevens; Joseph Stefano (screenwriter of Psycho) produced and wrote many of the first season's episodes\\nOpening narration: \"There is nothing wrong with your television set. Do not attempt to adjust the picture. We are controlling transmission.\"\\nOften compared to The Twilight Zone but leaned harder into science fiction and monster-of-the-week stories\\nCancelled midway through its second season due to low ratings\\nRevived on Showtime/Sci Fi Channel from 1995 to 2002 for a much longer 7-season run\\nInfluenced The X-Files; several episodes were adapted by later sci-fi series",
+          "cardFront": "ABC, 1963–1965, \"We control the horizontal\"",
+          "cardBack": "The Outer Limits"
+        },
+        {
+          "id": "star-trek",
+          "prompt": "What NBC science fiction series (1966–1969) created by Gene Roddenberry followed the crew of the USS Enterprise on a five-year mission to explore strange new worlds?",
+          "answer": "Star Trek",
+          "alternates": [
+            "Star Trek: The Original Series",
+            "Star Trek TOS"
+          ],
+          "explanation": "NBC, 1966–1969, 3 seasons, 79 episodes\\nCreated by Gene Roddenberry, who pitched it as \"Wagon Train to the Stars\"\\nWilliam Shatner as Captain Kirk, Leonard Nimoy as Spock, DeForest Kelley as Dr. McCoy\\nNearly cancelled after season 2; a massive fan letter-writing campaign (led by Bjo Trimble) saved it for a third season\\nFeatured one of TV's first interracial kisses (Kirk and Uhura, 1968)\\nSpawned 11 spin-off series, 13 feature films, and a franchise worth billions\\nOriginal Enterprise model is in the Smithsonian National Air and Space Museum\\nCancelled due to low ratings but became a cultural phenomenon through syndication reruns",
+          "cardFront": "NBC, 1966–1969, Gene Roddenberry, USS Enterprise",
+          "cardBack": "Star Trek"
+        },
+        {
+          "id": "the-x-files",
+          "prompt": "What Fox series (1993–2002) starred David Duchovny and Gillian Anderson as FBI agents investigating unsolved paranormal cases, with the tagline 'The Truth Is Out There'?",
+          "answer": "The X-Files",
+          "alternates": [
+            "X-Files",
+            "X Files"
+          ],
+          "explanation": "Fox, 1993–2002 (original run), revived 2016–2018; 11 seasons, 218 episodes total\\nCreated by Chris Carter; David Duchovny as Fox Mulder, Gillian Anderson as Dana Scully\\nBlended monster-of-the-week episodes with a serialized government conspiracy mythology\\nTagline \"The Truth Is Out There\" became a pop culture catchphrase of the 1990s\\nWon 16 Primetime Emmy Awards including Outstanding Drama Series (1997)\\nScully is credited with inspiring women to enter STEM fields (the \"Scully Effect\")\\nTwo theatrical films: Fight the Future (1998) and I Want to Believe (2008)\\nFilmed in Vancouver for the first five seasons, then relocated to Los Angeles",
+          "cardFront": "Fox, 1993–2002, FBI agents vs. the paranormal",
+          "cardBack": "The X-Files"
+        },
+        {
+          "id": "babylon-5",
+          "prompt": "What syndicated sci-fi series (1994–1998) created by J. Michael Straczynski was set on a five-mile-long space station serving as a diplomatic hub for alien civilizations?",
+          "answer": "Babylon 5",
+          "alternates": [
+            "B5"
+          ],
+          "explanation": "Syndicated (PTEN), 1994–1998, 5 seasons, 110 episodes (plus 1993 pilot movie)\\nCreated, produced, and largely written by J. Michael Straczynski (JMS), who wrote 92 of the 110 episodes\\nSet on space station Babylon 5, a neutral ground for diplomacy among five major civilizations\\nPioneered long-form serialized storytelling on TV—JMS had the full five-year arc planned from the start\\nOne of the first TV series to use CGI extensively for space battles instead of physical models\\nWon two Hugo Awards for Best Dramatic Presentation\\nOften compared to and debated alongside Star Trek: Deep Space Nine, which premiered around the same time\\nStraczynski alleged Paramount copied his concept after he pitched it to them; the dispute was never formally resolved",
+          "cardFront": "Syndicated, 1994–1998, space station diplomacy",
+          "cardBack": "Babylon 5"
+        },
+        {
+          "id": "buffy-the-vampire-slayer",
+          "prompt": "What WB/UPN series (1997–2003) created by Joss Whedon followed a teenage girl chosen by fate to battle vampires, demons, and the forces of darkness in a California town?",
+          "answer": "Buffy the Vampire Slayer",
+          "alternates": [
+            "Buffy"
+          ],
+          "explanation": "WB (1997–2001), UPN (2001–2003), 7 seasons, 144 episodes\\nCreated by Joss Whedon, based on his 1992 film of the same name\\nSarah Michelle Gellar starred as Buffy Summers, a high school student who is the Slayer\\nPioneered the \"Big Bad\" seasonal villain structure now standard in genre TV\\nThe musical episode \"Once More, with Feeling\" (2001) is considered one of the greatest TV episodes ever made\\nSpawned spin-off Angel (1999–2004) and an extensive comic book continuation\\nBlended horror, comedy, and teen drama while using monsters as metaphors for adolescent struggles\\nInfluenced Supernatural, True Blood, The Vampire Diaries, and the broader urban fantasy genre",
+          "cardFront": "WB/UPN, 1997–2003, teenage vampire slayer",
+          "cardBack": "Buffy the Vampire Slayer"
+        },
+        {
+          "id": "firefly",
+          "prompt": "What Fox sci-fi series (2002) created by Joss Whedon blended space opera with Western genre conventions, following a smuggling crew aboard a small transport ship, and was cancelled after one season?",
+          "answer": "Firefly",
+          "alternates": [],
+          "explanation": "Fox, 2002–2003, 1 season, 14 episodes (only 11 aired in the U.S.)\\nCreated by Joss Whedon; set 500 years in the future after humanity has colonized a new star system\\nNathan Fillion starred as Captain Malcolm Reynolds, a former rebel soldier turned smuggler\\nFox aired episodes out of order, placed it on Friday nights, and cancelled it after 11 episodes\\nDespite cancellation, massive DVD sales and fan campaigns led to the theatrical film Serenity (2005)\\nOne of the most famous examples of a cult TV show cancelled too soon\\nBlended Mandarin Chinese into the dialogue as a worldbuilding detail—characters swear in Chinese\\nDesigned as a seven-season arc; Whedon later said he had the full story mapped out",
+          "cardFront": "Fox, 2002, Joss Whedon space western",
+          "cardBack": "Firefly"
+        },
+        {
+          "id": "battlestar-galactica",
+          "prompt": "What Sci Fi Channel reimagined series (2004–2009), developed by Ronald D. Moore, depicted humanity's survival after a devastating attack by sentient machines called Cylons?",
+          "answer": "Battlestar Galactica",
+          "alternates": [
+            "BSG"
+          ],
+          "explanation": "Sci Fi Channel, 2004–2009 (preceded by 2003 miniseries), 4 seasons, 75 episodes\\nDeveloped by Ronald D. Moore as a reimagining of Glen A. Larson's 1978 series\\nEdward James Olmos starred as Commander Adama; Mary McDonnell as President Roslin\\nUsed sci-fi to explore post-9/11 themes: terrorism, torture, civil liberties, religious extremism\\nWon a Peabody Award in 2006 for \"revitalizing sci-fi television\"\\nGender-swapped the character Starbuck from male to female (Katee Sackhoff), initially controversial\\nFamous recurring phrase: \"So say we all\"\\nSpawned prequel series Caprica (2010) and Blood & Chrome (2012)",
+          "cardFront": "Sci Fi Channel, 2004–2009, humans vs. Cylons",
+          "cardBack": "Battlestar Galactica"
+        },
+        {
+          "id": "black-mirror",
+          "prompt": "What British anthology series created by Charlie Brooker, debuting on Channel 4 in 2011 and later moving to Netflix, explores dark consequences of modern technology in near-future settings?",
+          "answer": "Black Mirror",
+          "alternates": [],
+          "explanation": "Channel 4 (2011–2014), Netflix (2016–present), 7 series, 33+ episodes\\nCreated by Charlie Brooker, a former journalist and TV critic\\nEach episode is a standalone story set in a slightly altered present or near future\\nTitle refers to the dark, reflective screens of phones, tablets, and monitors when powered off\\nProduced the interactive film Bandersnatch (2018), where viewers chose the plot's direction\\nOften called the modern successor to The Twilight Zone\\n\"San Junipero\" (2016) won two Primetime Emmy Awards and is the series' most acclaimed episode\\nRenewed for an eighth series in January 2026",
+          "cardFront": "Channel 4/Netflix, 2011–present, technology dystopia anthology",
+          "cardBack": "Black Mirror"
+        },
+        {
+          "id": "westworld",
+          "prompt": "What HBO sci-fi series (2016–2022) created by Jonathan Nolan and Lisa Joy was set in a futuristic theme park populated by lifelike androids who begin to gain consciousness?",
+          "answer": "Westworld",
+          "alternates": [],
+          "explanation": "HBO, 2016–2022, 4 seasons\\nCreated by Jonathan Nolan and Lisa Joy; based on Michael Crichton's 1973 film of the same name\\nSet in a Wild West–themed amusement park where wealthy guests interact with android \"hosts\"\\nFirst season became HBO's highest-rated debut season ever\\nAnthony Hopkins and Evan Rachel Wood starred in the first two seasons\\nCancelled after season 4 despite creators' plan for five seasons; cost and declining viewership cited\\nExplored themes of consciousness, free will, and the ethics of artificial intelligence\\nMichael Crichton also created the Jurassic Park franchise—both involve theme parks with technology run amok",
+          "cardFront": "HBO, 2016–2022, android theme park",
+          "cardBack": "Westworld"
+        },
+        {
+          "id": "the-mandalorian",
+          "prompt": "What Disney+ live-action series debuting in 2019, created by Jon Favreau, follows a lone bounty hunter in the outer reaches of the galaxy who becomes the protector of a mysterious alien child?",
+          "answer": "The Mandalorian",
+          "alternates": [
+            "Mandalorian"
+          ],
+          "explanation": "Disney+, 2019–2023, 3 seasons, 24 episodes\\nCreated by Jon Favreau; set in the Star Wars universe, five years after Return of the Jedi\\nPedro Pascal stars as Din Djarin, the titular Mandalorian bounty hunter\\n\"Baby Yoda\" (Grogu) became a global pop culture sensation and meme within days of the premiere\\nLaunched alongside Disney+ on November 12, 2019, and was key to the platform's early subscriber growth\\nUsed pioneering StageCraft LED virtual production technology (\"The Volume\") instead of green screens\\nA feature film, The Mandalorian & Grogu, is scheduled for release in May 2026\\nFirst live-action Star Wars television series",
+          "cardFront": "Disney+, 2019–2023, Star Wars bounty hunter",
+          "cardBack": "The Mandalorian"
+        }
+      ],
+      "displayType": "cards"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    { "id": "television/awards-records", "parentId": "television", "name": "TV Awards & Records", "description": "Television records, firsts, and notable achievements" }
+  ],
+  "exercises": [
+    {
+      "id": "television/awards-records/tv-awards-records",
+      "nodeId": "television/awards-records",
+      "name": "TV Awards & Records",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "most-watched-finale",
+          "prompt": "Which CBS war comedy-drama holds the record for the most-watched series finale in U.S. television history, drawing 105.9 million viewers on February 28, 1983?",
+          "answer": "M*A*S*H",
+          "alternates": [
+            "MASH",
+            "M.A.S.H.",
+            "M*A*S*H*"
+          ],
+          "explanation": "\"Goodbye, Farewell and Amen\" drew 105.9 million viewers with a 60.3 rating and 77 share\\nPeaked at 121.6 million viewers during the final six minutes of the two-and-a-half-hour episode\\nHeld the record for most-watched U.S. telecast of any kind until Super Bowl XLIV edged it in 2010\\nThe series ran 11 seasons (1972–1983) on CBS—far longer than the three-year Korean War it depicted\\nBased on Robert Altman's 1970 film; created for TV by Larry Gelbart\\nAlan Alda starred as Hawkeye Pierce and directed the finale himself",
+          "cardFront": "Most-watched series finale in U.S. TV history (105.9M viewers, 1983)",
+          "cardBack": "M*A*S*H"
+        },
+        {
+          "id": "longest-running-primetime",
+          "prompt": "Which animated Fox sitcom, on the air since 1989, holds the record as the longest-running American scripted primetime series, surpassing Gunsmoke in its 21st season?",
+          "answer": "The Simpsons",
+          "alternates": [
+            "Simpsons"
+          ],
+          "explanation": "Surpassed Gunsmoke's 20-season record during the 2009–2010 season (season 21)\\nSurpassed Gunsmoke's 635-episode count with the season 29 episode \"Forgive and Regret\" on April 29, 2018\\nAs of early 2026, over 805 episodes have aired across 37 seasons\\nCreated by Matt Groening; began as short segments on The Tracey Ullman Show in 1987\\nHolds Guinness World Records for longest-running animated sitcom (by episode count)\\nSpringfield's state is deliberately never revealed—Groening has said it was inspired by Springfield, Oregon",
+          "cardFront": "Longest-running American scripted primetime series",
+          "cardBack": "The Simpsons"
+        },
+        {
+          "id": "who-shot-jr",
+          "prompt": "The 1980 \"Who Shot J.R.?\" cliffhanger resolution drew 83 million viewers and a then-record 53.3 Nielsen rating, making it the most famous cliffhanger in TV history. What CBS primetime soap opera featured this episode?",
+          "answer": "Dallas",
+          "alternates": [],
+          "explanation": "\"Who Done It\" aired November 21, 1980, revealing Kristin Shepard (Mary Crosby) as the shooter\\nDrew 83 million U.S. viewers with a 53.3 rating—the highest-rated episode in U.S. TV history until the 1983 finale of another series surpassed it\\n350 million viewers worldwide tuned in; odds-makers in the U.S., Canada, and Western Europe set odds on the culprit\\nThe cliffhanger aired on March 21, 1980; viewers waited eight months through the summer for the answer\\nPopularized the season-ending cliffhanger format that became a television staple\\nDallas ran on CBS from 1978 to 1991; revived on TNT from 2012 to 2014",
+          "cardFront": "\"Who Shot J.R.?\" cliffhanger (83M viewers, 1980)",
+          "cardBack": "Dallas"
+        },
+        {
+          "id": "first-interracial-kiss",
+          "prompt": "In the 1968 episode \"Plato's Stepchildren,\" Captain Kirk and Uhura shared what is widely cited as the first scripted interracial kiss on American network television. What series featured this milestone?",
+          "answer": "Star Trek",
+          "alternates": [
+            "Star Trek: The Original Series",
+            "Star Trek TOS"
+          ],
+          "explanation": "Aired November 22, 1968, in Season 3, Episode 10 (\"Plato's Stepchildren\")\\nWilliam Shatner (Kirk) and Nichelle Nichols (Uhura) were forced to kiss by telekinetic aliens in the plot\\nNBC ordered two versions filmed—one with the kiss, one without—but Shatner and Nichols deliberately flubbed the non-kiss take\\nAn earlier unscripted interracial kiss occurred on Movin' with Nancy (1967), but this was the first scripted one\\nAired just one year after the Supreme Court struck down interracial marriage bans in Loving v. Virginia (1967)\\nNichols nearly left the show after Season 1 but stayed after Martin Luther King Jr. personally urged her to continue",
+          "cardFront": "First scripted interracial kiss on U.S. network TV (1968)",
+          "cardBack": "Star Trek"
+        },
+        {
+          "id": "most-watched-cable-series",
+          "prompt": "Which AMC zombie drama became the most-watched series in basic cable history, peaking at 17.3 million viewers for its Season 5 premiere in October 2014?",
+          "answer": "The Walking Dead",
+          "alternates": [
+            "Walking Dead"
+          ],
+          "explanation": "Season 5 premiere (October 2014) drew 17.3 million live viewers and 11 million adults 18–49\\nWith DVR playback, the Season 4 premiere reached 21.1 million total viewers—the highest-rated episode in cable TV history\\nSeries premiered on Halloween 2010 with 5.35 million viewers, already a record for AMC at the time\\nBased on Robert Kirkman's comic book series; ran 11 seasons on AMC (2010–2022)\\nSpawned multiple spinoffs including Fear the Walking Dead, whose premiere (10.1M, 2015) set the cable series premiere record\\nAndrew Lincoln starred as Rick Grimes; the franchise expanded to include films and companion series",
+          "cardFront": "Most-watched series in basic cable history (17.3M peak, 2014)",
+          "cardBack": "The Walking Dead"
+        },
+        {
+          "id": "first-black-lead-actress-drama",
+          "prompt": "Which actress became the first African American woman to win the Primetime Emmy for Outstanding Lead Actress in a Drama Series, winning in 2015 for her role as law professor Annalise Keating?",
+          "answer": "Viola Davis",
+          "alternates": [
+            "Davis"
+          ],
+          "explanation": "Won at the 67th Primetime Emmy Awards (September 2015) for How to Get Away with Murder on ABC\\nAcceptance speech: \"The only thing that separates women of color from everyone else is opportunity\"\\nFirst African American woman to achieve the Triple Crown of Acting: Emmy, Oscar (Fences, 2017), and Tony (Fences, 2010, and King Hedley II, 2001)\\nAlso the first Black actress to receive three Oscar nominations\\nHow to Get Away with Murder ran 6 seasons on ABC (2014–2020), produced by Shonda Rhimes's Shondaland\\nBorn in 1965 in St. Matthews, South Carolina; grew up in Central Falls, Rhode Island",
+          "cardFront": "First African American woman to win Lead Actress Drama Emmy (2015)",
+          "cardBack": "Viola Davis"
+        },
+        {
+          "id": "longest-running-game-show",
+          "prompt": "Which CBS daytime game show, originally hosted by Bob Barker from 1972 to 2007 and now hosted by Drew Carey, holds the record as the longest-running game show in U.S. television history?",
+          "answer": "The Price Is Right",
+          "alternates": [
+            "Price Is Right"
+          ],
+          "explanation": "Current version premiered September 4, 1972, on CBS; an earlier version hosted by Bill Cullen aired 1956–1965 on NBC\\nBob Barker hosted from 1972 to 2007 (35 years); Drew Carey took over in October 2007\\nCelebrated its 50th season in 2021—longest-running game show in TV history\\nBarker's signature sign-off: \"Help control the pet population—have your pets spayed or neutered\"\\nFeatures pricing games (Plinko, Cliff Hangers, Showcase Showdown) where contestants guess retail prices\\nCreated by Bob Stewart for Mark Goodson–Bill Todman Productions",
+          "cardFront": "Longest-running game show in U.S. television history",
+          "cardBack": "The Price Is Right"
+        },
+        {
+          "id": "longest-running-daytime-drama",
+          "prompt": "Which CBS soap opera, which began as a radio serial in 1937 and ran on television from 1952 to 2009, holds the Guinness World Record as the longest-running drama in television history?",
+          "answer": "Guiding Light",
+          "alternates": [
+            "The Guiding Light"
+          ],
+          "explanation": "72 years total: radio from January 19, 1937; television from June 30, 1952, to September 18, 2009\\n57 years on television alone—the longest run of any drama on American TV\\nHolds the Guinness World Record for longest-running drama in television\\nOver 15,700 episodes across its radio and television run\\nCreated by Irna Phillips, who also created As the World Turns and is considered the mother of the soap opera genre\\nOriginally centered on a minister, Rev. John Ruthledge, and his \"guiding light\" (a lamp in his study window)",
+          "cardFront": "Longest-running drama in TV history (1952–2009)",
+          "cardBack": "Guiding Light"
+        },
+        {
+          "id": "first-reality-emmy",
+          "prompt": "Which CBS globe-trotting reality competition won the inaugural Emmy for Outstanding Reality-Competition Program in 2003 and then won it seven consecutive years through 2009?",
+          "answer": "The Amazing Race",
+          "alternates": [
+            "Amazing Race"
+          ],
+          "explanation": "Won the first Outstanding Reality-Competition Program Emmy in 2003; won 7 consecutive years (2003–2009)\\nStreak broken in 2010 by Top Chef; won the award again in 2011, 2012, 2014—totaling 10 wins\\nHolds the Guinness World Record for most wins in the Outstanding Reality-Competition category\\nTeams of two race around the world completing challenges at pit stops across multiple countries\\nCreated by Elise Doganieri and Bertram van Munster; premiered on CBS September 5, 2001\\nHost Phil Keoghan has presided over every season since the show's debut",
+          "cardFront": "First winner of Outstanding Reality-Competition Emmy (7 straight, 2003–2009)",
+          "cardBack": "The Amazing Race"
+        },
+        {
+          "id": "first-streaming-scripted-series",
+          "prompt": "Which political thriller starring Kevin Spacey as a ruthless congressman became the first major original scripted series produced by a streaming service when it debuted on February 1, 2013?",
+          "answer": "House of Cards",
+          "alternates": [],
+          "explanation": "Premiered February 1, 2013, as Netflix's first original scripted series\\nAll 13 episodes of Season 1 released simultaneously—popularizing the binge-release model\\nFirst online-only streaming series to receive major Emmy nominations (9 nominations in 2013)\\nDavid Fincher directed the first two episodes and won the Emmy for Outstanding Directing for a Drama Series\\nBased on Michael Dobbs's 1989 British novel and the 1990 BBC miniseries of the same name\\nRan 6 seasons (2013–2018); 56 total Emmy nominations across its run",
+          "cardFront": "First major original scripted series from a streaming service (2013)",
+          "cardBack": "House of Cards"
+        },
+        {
+          "id": "most-spinoff-franchise",
+          "prompt": "Which science-fiction franchise, originating with a 1966 NBC series created by Gene Roddenberry, holds the record for the most television spinoff series, with over a dozen across six decades?",
+          "answer": "Star Trek",
+          "alternates": [
+            "Star Trek: The Original Series"
+          ],
+          "explanation": "The Original Series (NBC, 1966–1969) spawned more TV spinoffs than any other franchise\\nSpinoffs include: The Animated Series, The Next Generation, Deep Space Nine, Voyager, Enterprise, Discovery, Picard, Lower Decks, Prodigy, Strange New Worlds, Starfleet Academy, and others\\nOver 980 total episodes across all series as of 2026\\nCreated by Gene Roddenberry; The Next Generation (1987–1994) became the highest-rated and longest-running spinoff\\nThe franchise expanded into 13 feature films spanning two timelines\\nStarfleet Academy, the newest series, premiered in January 2026",
+          "cardFront": "TV franchise with the most spinoff series (12+)",
+          "cardBack": "Star Trek"
+        },
+        {
+          "id": "first-animated-comedy-nomination",
+          "prompt": "Which Hanna-Barbera primetime animated series about a Stone Age family became the first animated show nominated for the Emmy for Outstanding Comedy Series, receiving the nomination in 1961?",
+          "answer": "The Flintstones",
+          "alternates": [
+            "Flintstones"
+          ],
+          "explanation": "Nominated for Outstanding Comedy Series at the 13th Primetime Emmy Awards in 1961; lost to The Jack Benny Program\\nFirst animated series ever nominated in a major series category (comedy or drama)\\nNo other animated series matched this feat until Family Guy was nominated in 2009, 48 years later\\nAired on ABC from 1960 to 1966; 6 seasons, 166 episodes\\nCreated by William Hanna and Joseph Barbera; inspired by The Honeymooners\\nFirst primetime animated series to air during a network's evening schedule; proved animation could draw adult audiences",
+          "cardFront": "First animated series nominated for Outstanding Comedy Series Emmy (1961)",
+          "cardBack": "The Flintstones"
+        }
+      ],
+      "displayType": "cards"
+    }
+  ]
+}

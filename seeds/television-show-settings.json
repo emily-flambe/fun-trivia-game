@@ -1,0 +1,199 @@
+{
+  "nodes": [
+    { "id": "television/show-settings", "parentId": "television", "name": "TV Show Settings", "description": "Where famous television shows are set" }
+  ],
+  "exercises": [
+    {
+      "id": "television/show-settings/tv-show-settings",
+      "nodeId": "television/show-settings",
+      "name": "TV Show Settings",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "seinfeld",
+          "prompt": "In what city is the NBC sitcom (1989–1998) created by Larry David and Jerry Seinfeld—often called 'a show about nothing'—primarily set?",
+          "answer": "New York City",
+          "alternates": [
+            "New York",
+            "NYC",
+            "Manhattan"
+          ],
+          "explanation": "Set on the Upper West Side of Manhattan, centered on Jerry's apartment at 129 West 81st Street\\nExterior shots used a real building on West 81st Street near Columbus Avenue\\nTom's Restaurant on Broadway at 112th Street served as the exterior of Monk's Café, the gang's regular diner\\nFilmed mostly at CBS Studio Center in Studio City, California—not in New York\\nThe show's New York feel came from stock footage, establishing shots, and writing steeped in city life\\nCo-creator Larry David later based Curb Your Enthusiasm in Los Angeles\\nPopularized distinctly New York concepts: \"close talkers,\" subway etiquette, apartment envy",
+          "cardFront": "Seinfeld",
+          "cardBack": "New York City (Upper West Side)"
+        },
+        {
+          "id": "breaking-bad",
+          "prompt": "In what Southwestern U.S. city is the AMC drama (2008–2013) about a high school chemistry teacher turned methamphetamine manufacturer primarily set?",
+          "answer": "Albuquerque",
+          "alternates": [
+            "Albuquerque, New Mexico",
+            "Albuquerque NM",
+            "Albuquerque, NM"
+          ],
+          "explanation": "Both set and filmed on location in Albuquerque, New Mexico—one of TV's most authentic location shoots\\nCreator Vince Gilligan originally envisioned Riverside, California, but New Mexico's tax incentives shifted production\\nThe desert landscape became central to the show's visual identity—vast, sun-bleached, isolating\\nReal Albuquerque landmarks appear throughout: Dog House Drive In, Twisters (as Los Pollos Hermanos), the car wash on Menaul Blvd\\nWalter White's house at 3828 Piermont Dr NE became a tourist attraction; owners installed a fence to stop pizza-throwing fans\\nSpawned prequel Better Call Saul (2015–2022), also set and filmed in Albuquerque\\nBoosted Albuquerque tourism significantly—the city now offers official Breaking Bad tours",
+          "cardFront": "Breaking Bad",
+          "cardBack": "Albuquerque, New Mexico"
+        },
+        {
+          "id": "cheers",
+          "prompt": "In what city is the NBC sitcom (1982–1993) set in a bar 'where everybody knows your name,' starring Ted Danson as a former baseball player turned bartender?",
+          "answer": "Boston",
+          "alternates": [
+            "Boston, Massachusetts",
+            "Boston MA"
+          ],
+          "explanation": "Set in a basement bar in the Beacon Hill neighborhood of Boston\\nThe exterior was the real Bull & Finch Pub at 84 Beacon Street, across from the Boston Public Garden\\nBull & Finch accepted just one dollar for rights to use its exterior; it renamed itself \"Cheers\" in 2002\\nInterior scenes filmed entirely at Paramount Studios in Los Angeles—the real pub looks nothing like the TV set\\nSam Malone (Ted Danson) was a former Red Sox relief pitcher, grounding the show in Boston sports culture\\nRan 11 seasons and 275 episodes; spawned the spinoff Frasier (1993–2004)\\nThe pub became one of Boston's top three tourist destinations by 1990",
+          "cardFront": "Cheers",
+          "cardBack": "Boston"
+        },
+        {
+          "id": "frasier",
+          "prompt": "In what Pacific Northwest city does the NBC sitcom (1993–2004) about a radio psychiatrist who moves home after his divorce take place?",
+          "answer": "Seattle",
+          "alternates": [
+            "Seattle, Washington",
+            "Seattle WA"
+          ],
+          "explanation": "Spinoff of Cheers—Frasier Crane moves from Boston to Seattle after his marriage ends\\nFrasier's luxury apartment is in the fictional Elliott Bay Towers, with a panoramic view of the Space Needle\\nThe apartment's view was created from a vantage point where no real building exists\\nFrasier hosts a call-in radio show on KACL 780 AM, a fictional Seattle station\\nFilmed almost entirely in Los Angeles; only one episode (the 100th) was shot on location in Seattle\\nThe show's Seattle identity came through constant references to coffee culture, rain, and the city skyline\\nRevived in 2023 on Paramount+ with Kelsey Grammer, this time set in Boston",
+          "cardFront": "Frasier",
+          "cardBack": "Seattle"
+        },
+        {
+          "id": "the-wire",
+          "prompt": "In what East Coast port city is the HBO drama (2002–2008) created by former journalist David Simon, examining institutions from police to drug trade to schools, set?",
+          "answer": "Baltimore",
+          "alternates": [
+            "Baltimore, Maryland",
+            "Baltimore MD"
+          ],
+          "explanation": "Both set and filmed on location in Baltimore, Maryland\\nCreator David Simon was a former Baltimore Sun reporter; co-creator Ed Burns was a former Baltimore homicide detective\\nEach season focused on a different city institution: street-level drug trade, port workers, city hall, public schools, the media\\nUsed real Baltimore neighborhoods: West Baltimore's housing projects, Fells Point, the Inner Harbor, the Sun newsroom\\nCast included many non-actors from Baltimore, including former drug dealers and police officers\\nOften cited as the most realistic portrayal of an American city ever put on television\\nBarack Obama called it his favorite TV show; it is frequently assigned in university sociology and urban studies courses",
+          "cardFront": "The Wire",
+          "cardBack": "Baltimore"
+        },
+        {
+          "id": "the-sopranos",
+          "prompt": "In what U.S. state is the HBO drama (1999–2007) about a mob boss who sees a therapist while managing his crime family and domestic life set?",
+          "answer": "New Jersey",
+          "alternates": [
+            "NJ",
+            "North Jersey"
+          ],
+          "explanation": "Set in northern New Jersey, primarily in the affluent suburbs of Essex and Bergen counties\\nTony Soprano's house was a real home at 14 Aspen Drive in North Caldwell, New Jersey\\nThe opening credits show Tony driving from New York City through the Lincoln Tunnel into New Jersey on the Turnpike\\nBada Bing! strip club exterior was a real club called Satin Dolls on Route 17 in Lodi, NJ\\nFilmed extensively on location throughout northern New Jersey and parts of New York City\\nThe show deliberately avoided the usual TV depiction of the Mafia as a glamorous New York phenomenon\\nNew Jersey's unglamorous suburban sprawl—strip malls, diners, parking lots—became the show's distinctive visual signature",
+          "cardFront": "The Sopranos",
+          "cardBack": "New Jersey (North Jersey)"
+        },
+        {
+          "id": "downton-abbey",
+          "prompt": "In what English county is the ITV period drama (2010–2015) about an aristocratic family and their servants set, spanning the early 20th century from the Edwardian era through the 1920s?",
+          "answer": "Yorkshire",
+          "alternates": [
+            "Yorkshire, England",
+            "North Yorkshire"
+          ],
+          "explanation": "Set at the fictional Downton Abbey estate in Yorkshire, England, from 1912 through the late 1920s\\nThe exterior and most interiors were filmed at Highclere Castle in Hampshire—not actually in Yorkshire\\nHighclere Castle is a real country house owned by the Earl and Countess of Carnarvon since 1679\\nThe 5th Earl of Carnarvon co-discovered Tutankhamun's tomb with Howard Carter in 1922\\nVillage scenes filmed in Bampton, Oxfordshire, which became a major tourist destination\\nBelow-stairs scenes (kitchen, servants' hall) were shot on purpose-built sets at Ealing Studios in London\\nThe show's success spawned two sequel films (2019, 2022) and a third (2025), all filmed at Highclere",
+          "cardFront": "Downton Abbey",
+          "cardBack": "Yorkshire, England"
+        },
+        {
+          "id": "stranger-things",
+          "prompt": "What is the name of the fictional small town where the Netflix sci-fi series (2016–2025) about kids encountering supernatural forces from the Upside Down is set?",
+          "answer": "Hawkins",
+          "alternates": [
+            "Hawkins, Indiana",
+            "Hawkins Indiana"
+          ],
+          "explanation": "Fictional small town in Indiana, set in the 1980s\\nThe town's Hawkins National Laboratory conducts secret government experiments that open a portal to the Upside Down\\nFilmed primarily in and around Atlanta, Georgia—not Indiana\\nJackson, Georgia, doubled for downtown Hawkins; other Georgia locations filled in for the surrounding countryside\\nThe Duffer Brothers based the town's atmosphere on 1980s Spielberg and Stephen King small-town settings\\nSeason 4 expanded to California and Russia but Hawkins remained the story's center\\nThe show revived interest in 1980s small-town Americana as a horror and sci-fi setting",
+          "cardFront": "Stranger Things",
+          "cardBack": "Hawkins, Indiana (fictional)"
+        },
+        {
+          "id": "twin-peaks",
+          "prompt": "What is the name of the fictional small lumber town in the Pacific Northwest where the ABC mystery series (1990–1991) created by David Lynch and Mark Frost is set?",
+          "answer": "Twin Peaks",
+          "alternates": [
+            "Twin Peaks, Washington"
+          ],
+          "explanation": "Fictional lumber town in Washington state, population 51,201\\nCreated by David Lynch and Mark Frost; the show opens with the murder of homecoming queen Laura Palmer\\nFilmed on location in Snoqualmie, North Bend, and Fall City, Washington—about 30 minutes east of Seattle\\nSnoqualmie Falls appears in the iconic opening credits; the Salish Lodge doubled as the Great Northern Hotel\\nTwede's Cafe in North Bend served as the Double R Diner, famous for its cherry pie and \"damn fine coffee\"\\nRevived as Twin Peaks: The Return on Showtime in 2017 after a 25-year hiatus, also filmed in the Snoqualmie area\\nPioneered the fusion of art-house surrealism with network television; influenced Lost, True Detective, and Fargo",
+          "cardFront": "Twin Peaks",
+          "cardBack": "Twin Peaks, Washington (fictional)"
+        },
+        {
+          "id": "the-office",
+          "prompt": "In what northeastern Pennsylvania city is the NBC mockumentary sitcom (2005–2013) set at a paper company's regional branch?",
+          "answer": "Scranton",
+          "alternates": [
+            "Scranton, Pennsylvania",
+            "Scranton PA"
+          ],
+          "explanation": "Set at the Scranton branch of Dunder Mifflin Paper Company\\nFilmed entirely at Chandler Valley Center Studios in Van Nuys, California—never in Scranton\\nThe show used real Scranton landmarks in dialogue and establishing shots: Steamtown Mall, Lake Wallenpaupack, Poor Richard's bar\\nScranton embraced the show: the city installed a \"Dunder Mifflin\" sign on the Scranton Welcome sign, and a mural of Steve Carell is downtown\\nAdapted from the BBC series by Ricky Gervais, which was set in Slough, England—another unglamorous office town\\nThe choice of Scranton (a declining former coal city) reinforced the show's themes of mundane work life and quiet desperation\\nBecame the most-streamed show on Netflix before moving to Peacock in 2021",
+          "cardFront": "The Office (US)",
+          "cardBack": "Scranton, Pennsylvania"
+        },
+        {
+          "id": "parks-and-recreation",
+          "prompt": "What is the name of the fictional midwestern town where the NBC comedy (2009–2015) about an enthusiastic local government employee in the parks department is set?",
+          "answer": "Pawnee",
+          "alternates": [
+            "Pawnee, Indiana",
+            "Pawnee Indiana"
+          ],
+          "explanation": "Fictional town in Indiana; its map is actually Muncie, Indiana, flipped upside down\\nCreated by Greg Daniels and Michael Schur as a spiritual companion to The Office\\nPawnee's rival city is Eagleton, a wealthy neighboring town separated by a fence\\nThe show built an elaborate fictional history for Pawnee: racist murals in city hall, a raccoon problem, a Li'l Sebastian memorial\\nModeled on the city governments of Muncie and Bloomington, Indiana\\nFilmed in Los Angeles, primarily at CBS Studio Center—the same lot where Seinfeld was made\\nThe fictional Pawnee motto: \"First in Friendship, Fourth in Obesity\"",
+          "cardFront": "Parks and Recreation",
+          "cardBack": "Pawnee, Indiana (fictional)"
+        },
+        {
+          "id": "justified",
+          "prompt": "In what Appalachian county in eastern Kentucky is the FX crime drama (2010–2015) about a U.S. Marshal sent back to his home region primarily set?",
+          "answer": "Harlan County",
+          "alternates": [
+            "Harlan",
+            "Harlan County, Kentucky",
+            "Harlan, Kentucky"
+          ],
+          "explanation": "Set in Harlan County in the coalfields of eastern Kentucky\\nBased on the writing of Elmore Leonard, particularly his short story \"Fire in the Hole\"\\nTimothy Olyphant starred as Deputy U.S. Marshal Raylan Givens, sent back to his Kentucky roots from Miami\\nDespite the setting, the show was never filmed in Harlan County—the pilot shot in Pittsburgh, PA, and subsequent seasons in California\\nKittanning, Pennsylvania, doubled for downtown Harlan; Green Valley, California, stood in for rural Kentucky\\nHarlan County's real history of coal wars, poverty, and clan feuds informed the show's themes of generational violence\\nRevived as Justified: City Primeval (2023) on FX, set in Detroit rather than Kentucky",
+          "cardFront": "Justified",
+          "cardBack": "Harlan County, Kentucky"
+        },
+        {
+          "id": "the-golden-girls",
+          "prompt": "In what southeastern Florida city is the NBC sitcom (1985–1992) about four older women sharing a house set?",
+          "answer": "Miami",
+          "alternates": [
+            "Miami, Florida",
+            "Miami FL"
+          ],
+          "explanation": "Set at the fictional address 6151 Richmond Street in Miami, Florida\\nThe house belongs to Blanche Devereaux (Rue McClanahan), who rents rooms to Dorothy, Rose, and Sophia\\nThe real exterior was a house at 245 North Saltair Avenue in the Brentwood neighborhood of Los Angeles\\nAll interior scenes filmed on a Hollywood soundstage—the show never filmed in Florida\\nThe Miami setting gave the show its distinctive pastel, tropical aesthetic and justified the lanai (covered patio) as a gathering spot\\nRan 7 seasons and 180 episodes; all four leads won Emmy Awards for their roles\\nThe show challenged ageism in television by centering women in their 50s–80s and addressing issues like dating, illness, and mortality",
+          "cardFront": "The Golden Girls",
+          "cardBack": "Miami"
+        },
+        {
+          "id": "greys-anatomy",
+          "prompt": "In what major Pacific Northwest city is the ABC medical drama (2005–present) created by Shonda Rhimes, set at a fictional teaching hospital, primarily located?",
+          "answer": "Seattle",
+          "alternates": [
+            "Seattle, Washington",
+            "Seattle WA"
+          ],
+          "explanation": "Set at the fictional Grey Sloan Memorial Hospital (originally Seattle Grace Hospital) in Seattle\\nMeredith Grey's \"intern house\" is a real home at 303 West Comstock Street in the Queen Anne neighborhood of Seattle\\nFisher Plaza in Seattle served as the hospital exterior in some shots; the building is actually a broadcast facility\\nMostly filmed on soundstages in Los Angeles; fewer Seattle location shoots as the show progressed\\nThe Seattle setting provides recurring visual motifs: ferryboats, the Space Needle skyline, overcast skies, coffee culture\\nLongest-running primetime medical drama in U.S. television history\\nCreated by Shonda Rhimes, whose production company Shondaland also produced Scandal and How to Get Away with Murder",
+          "cardFront": "Grey's Anatomy",
+          "cardBack": "Seattle"
+        },
+        {
+          "id": "wkrp-in-cincinnati",
+          "prompt": "What Ohio city appears in the title of the CBS sitcom (1978–1982) about the staff of a struggling AM radio station?",
+          "answer": "Cincinnati",
+          "alternates": [
+            "Cincinnati, Ohio",
+            "Cincinnati OH"
+          ],
+          "explanation": "Set at the fictional WKRP, a failing AM radio station in Cincinnati, Ohio\\nFilmed at MTM Studios in Studio City, California—not in Cincinnati\\nEstablishing shots used real Cincinnati landmarks: Fountain Square, the Roebling Suspension Bridge, the Brent Spence Bridge\\nThe exterior building was the old Cincinnati Enquirer building at 617 Vine Street (now a Hampton Inn)\\nThe \"Turkey Drop\" Thanksgiving episode is one of the most famous sitcom episodes ever—\"As God is my witness, I thought turkeys could fly\"\\nOnly one episode was actually filmed in Cincinnati, featuring Kings Island amusement park\\nThe show struggled with music licensing for reruns because it used real rock and pop songs, limiting syndication for decades",
+          "cardFront": "WKRP in Cincinnati",
+          "cardBack": "Cincinnati"
+        }
+      ],
+      "displayType": "cards"
+    }
+  ]
+}

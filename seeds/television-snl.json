@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "television/snl", "parentId": "television", "name": "Saturday Night Live", "description": "Notable cast members, characters, and moments from SNL" }
+  ],
+  "exercises": [
+    {
+      "id": "television/snl/saturday-night-live",
+      "nodeId": "television/snl",
+      "name": "Saturday Night Live",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "eddie-murphy",
+          "prompt": "What comedian joined the SNL cast in 1980 at age 19 and became the show's biggest breakout star of the early 1980s, known for characters like Gumby, Buckwheat, and Mr. Robinson?",
+          "answer": "Eddie Murphy",
+          "alternates": ["Murphy"],
+          "explanation": "SNL cast member 1980\u20131984; joined at 19 and is widely credited with saving the show during its weakest period\\nCreated iconic recurring characters: Mr. Robinson's Neighborhood (a parody of Mister Rogers), Buckwheat, Gumby, and Velvet Jones\\nLeft SNL in 1984 already a major film star; 48 Hrs. (1982) and Trading Places (1983) were hits while he was still on the show\\nBeverly Hills Cop (1984) grossed $316 million worldwide and cemented his status as the biggest comedy star of the decade\\nNominated for the Academy Award for Best Supporting Actor for Dreamgirls (2006); lost to Alan Arkin in Little Miss Sunshine in an upset\\nReturned to host SNL in December 2019 after a 35-year absence, reviving all four signature characters\\nBorn April 3, 1961, in Brooklyn, New York; grew up in Roosevelt, Long Island",
+          "cardFront": "SNL 1980\u20131984, Gumby & Mr. Robinson",
+          "cardBack": "Eddie Murphy"
+        },
+        {
+          "id": "tina-fey",
+          "prompt": "Who became SNL's first female head writer in 1999 and later gained national fame for her uncanny impression of a 2008 Republican vice-presidential candidate?",
+          "answer": "Tina Fey",
+          "alternates": ["Fey"],
+          "explanation": "SNL writer from 1997; became the show's first female head writer in 1999 at age 29\\nCo-anchored Weekend Update with Jimmy Fallon (2000\u20132004) and then Amy Poehler (2004\u20132006)\\nHer Sarah Palin impression during the 2008 election became a cultural phenomenon; \"I can see Russia from my house\" entered the lexicon despite being Fey's line, not Palin's\\nCreated and starred in 30 Rock (2006\u20132013), a backstage comedy inspired by her SNL experience; won three consecutive Emmy Awards for Outstanding Comedy Series\\nWrote the screenplay for Mean Girls (2004), later adapted into a Broadway musical (2018)\\nBorn May 18, 1970, in Upper Darby, Pennsylvania; trained at Second City Chicago before joining SNL\\nMark Twain Prize for American Humor recipient (2010), the youngest person to receive it at the time",
+          "cardFront": "First female head writer, Sarah Palin impression",
+          "cardBack": "Tina Fey"
+        },
+        {
+          "id": "will-ferrell",
+          "prompt": "Which SNL cast member (1995\u20132002) became famous for his impression of the 43rd U.S. president, including the fictional word \"strategery,\" and later starred in Elf and Anchorman?",
+          "answer": "Will Ferrell",
+          "alternates": ["Ferrell"],
+          "explanation": "SNL cast member 1995\u20132002 (7 seasons); his George W. Bush impression during the 2000 election became one of the most famous political impressions in SNL history\\nCoined \"strategery\" in a 2000 debate sketch; the word became so ubiquitous that Bush's own staff adopted it as an inside joke\\nRecurring characters included cheerleader Craig, Alex Trebek in Celebrity Jeopardy!, and music teacher Marty Culp\\nPost-SNL film career includes Elf (2003), Anchorman (2004), Talladega Nights (2006), and Step Brothers (2008)\\nCo-founded the comedy website Funny or Die with Adam McKay in 2007\\nBorn July 16, 1967, in Irvine, California; studied sports broadcasting at USC before pivoting to comedy at The Groundlings\\nReturned to host SNL four times and reprised Bush for special political cold opens",
+          "cardFront": "SNL 1995\u20132002, George W. Bush impression",
+          "cardBack": "Will Ferrell"
+        },
+        {
+          "id": "dana-carvey",
+          "prompt": "Which SNL cast member created the Church Lady, a prim, judgmental talk-show host who attributed all misbehavior to Satan, and was also known for his George H.W. Bush impression?",
+          "answer": "Dana Carvey",
+          "alternates": ["Carvey"],
+          "explanation": "SNL cast member 1986\u20131993 (7 seasons); the Church Lady debuted in his first season and became an immediate breakout character\\nThe Church Lady's catchphrase \"Well, isn't that special?\" and her tweaking of \"Could it be... SATAN?\" became pop culture staples\\nHis George H.W. Bush impression (\"Wouldn't be prudent\", \"Na ga da\") defined political comedy in the late 1980s and early 1990s\\nPlayed Garth Algar opposite Mike Myers's Wayne Campbell in the Wayne's World sketches and both films (1992, 1993)\\nAlso known for impressions of Johnny Carson, Ross Perot, and John McLaughlin\\nBorn June 2, 1955, in Missoula, Montana; raised in San Carlos, California\\nUnderwent double bypass heart surgery in 1997; the surgeon accidentally operated on the wrong artery, requiring a second surgery",
+          "cardFront": "Church Lady, George H.W. Bush impression",
+          "cardBack": "Dana Carvey"
+        },
+        {
+          "id": "chevy-chase",
+          "prompt": "Who was the original anchor of Weekend Update when SNL premiered in 1975, opening each segment with \"I'm _____, and you're not,\" and became the first cast member to leave for a Hollywood film career?",
+          "answer": "Chevy Chase",
+          "alternates": ["Chase"],
+          "explanation": "Original SNL cast member (1975\u20131976); left after just one full season, the first cast member to depart for Hollywood\\nOriginated the Weekend Update desk and its opening: \"I'm Chevy Chase, and you're not\"\\nHis physical comedy, especially his Gerald Ford pratfalls, helped define political satire on the show\\nFirst person to utter \"Live from New York, it's Saturday Night!\" on the series premiere, October 11, 1975\\nPost-SNL career included Caddyshack (1980), National Lampoon's Vacation (1983), and Fletch (1985)\\nBorn October 8, 1943, in Lower Manhattan; real name Cornelius Crane Chase\\nHas a famously contentious relationship with SNL and several former castmates, particularly Bill Murray who replaced him",
+          "cardFront": "Original Weekend Update anchor, 1975\u20131976",
+          "cardBack": "Chevy Chase"
+        },
+        {
+          "id": "gilda-radner",
+          "prompt": "Which original SNL cast member (1975\u20131980) created characters like Roseanne Roseannadanna and Emily Litella, and died of ovarian cancer at age 42 in 1989?",
+          "answer": "Gilda Radner",
+          "alternates": ["Radner"],
+          "explanation": "Original \"Not Ready for Prime Time Player\" from SNL's premiere in 1975 through 1980 (5 seasons)\\nCreated beloved characters including Roseanne Roseannadanna, Emily Litella (\"Never mind!\"), and Lisa Loopner\\nWon the Emmy Award for Outstanding Individual Performance in a Variety or Music Program in 1978\\nMarried Gene Wilder in 1984; they met on the set of Hanky Panky (1982)\\nDiagnosed with ovarian cancer in 1986 after months of misdiagnosis; died May 20, 1989, at age 42\\nHer memoir It's Always Something (1989) was published shortly before her death and became a bestseller\\nGilda's Club, a network of cancer support communities, was founded in her memory in 1991",
+          "cardFront": "Original cast 1975\u20131980, Roseanne Roseannadanna",
+          "cardBack": "Gilda Radner"
+        },
+        {
+          "id": "mike-myers",
+          "prompt": "Which SNL cast member created a public-access TV host character alongside Dana Carvey that spawned two hit films in the 1990s, with catchphrases like \"Excellent!\" and \"Party on\"?",
+          "answer": "Mike Myers",
+          "alternates": ["Myers"],
+          "explanation": "SNL cast member 1989\u20131995 (6 seasons); created Wayne Campbell, the heavy-metal-loving public-access host from Aurora, Illinois\\nWayne's World sketches debuted on SNL in 1989; the first film (1992) grossed $183 million and was the first SNL sketch successfully adapted into a major film franchise\\nAlso created Dieter (\"Sprockets\"), the black-turtlenecked German talk-show host, and Linda Richman (\"Coffee Talk\") based on his mother-in-law\\nPost-SNL career defined by the Austin Powers trilogy (1997, 1999, 2002) and voicing Shrek in four films\\nBorn May 25, 1963, in Scarborough, Ontario, Canada; had been performing the Wayne character on Canadian television since 1987\\nWayne's World 2 (1993) was less successful but the original remains one of the highest-grossing SNL-derived films",
+          "cardFront": "Wayne's World creator, SNL 1989\u20131995",
+          "cardBack": "Mike Myers"
+        },
+        {
+          "id": "lorne-michaels",
+          "prompt": "Who created Saturday Night Live in 1975 and has served as its executive producer for all but five seasons (1980\u20131985), making him one of the longest-tenured producers in television history?",
+          "answer": "Lorne Michaels",
+          "alternates": ["Michaels"],
+          "explanation": "Born November 17, 1944, in Toronto, Ontario, Canada; created SNL for NBC with its premiere on October 11, 1975\\nLeft the show in 1980; returned in 1985 and has served as executive producer continuously since\\nAlso produced The Kids in the Hall, Late Night with Conan O'Brien, 30 Rock, and the Wayne's World and Mean Girls films\\nWon numerous Emmy Awards as producer of SNL; the show has received more Emmy nominations than any other program in television history\\nReceived the Mark Twain Prize for American Humor in 2004 and the Kennedy Center Honors in 2021\\nHis office on the 17th floor of 30 Rockefeller Plaza, known as \"17,\" is where the show is produced\\nSNL celebrated its 50th anniversary in 2025 with a special three-hour primetime event",
+          "cardFront": "SNL creator and executive producer since 1975",
+          "cardBack": "Lorne Michaels"
+        },
+        {
+          "id": "chris-farley",
+          "prompt": "Which SNL cast member (1990\u20131995) was known for explosive physical comedy, including a famous Chippendales audition sketch with Patrick Swayze, and a motivational speaker who \"lived in a van down by the river\"?",
+          "answer": "Chris Farley",
+          "alternates": ["Farley"],
+          "explanation": "SNL cast member 1990\u20131995 (5 seasons); his physical, high-energy style made him the show's biggest star of the early 1990s\\nMatt Foley, the motivational speaker who \"lives in a van down by the river,\" debuted May 8, 1993; the character was written by Bob Odenkirk at Second City\\nThe Chippendales audition sketch (1990) with Patrick Swayze became one of the most replayed sketches in SNL history\\nPost-SNL films include Tommy Boy (1995) and Black Sheep (1996), both with fellow cast member David Spade\\nDied December 18, 1997, at age 33 from a speedball overdose (cocaine and heroin); found in his apartment in the John Hancock Center, Chicago\\nTrained at Second City in Chicago alongside Tim Meadows, Chris Rock, and Bob Odenkirk\\nIdolized John Belushi and, tragically, died in a similar manner at a similar age",
+          "cardFront": "SNL 1990\u20131995, Matt Foley & Chippendales",
+          "cardBack": "Chris Farley"
+        },
+        {
+          "id": "kristen-wiig",
+          "prompt": "Which SNL cast member (2005\u20132012) created recurring characters including a compulsive one-upper and an overly enthusiastic discount-store cashier, and later starred in the 2011 comedy Bridesmaids?",
+          "answer": "Kristen Wiig",
+          "alternates": ["Wiig"],
+          "explanation": "SNL cast member 2005\u20132012 (7 seasons); became one of the most prolific character creators in the show's history\\nRecurring characters include Penelope (the compulsive one-upper), Target Lady, Gilly, and Aunt Linda\\nCo-wrote and starred in Bridesmaids (2011), which grossed $288 million and earned her an Oscar nomination for Best Original Screenplay\\nHer emotional farewell in the Season 37 finale (May 2012) featured the cast singing \"Ruby Tuesday\" as she took her final bow\\nPost-SNL career includes Ghostbusters (2016), Wonder Woman 1984 (2020), and voice roles in the Despicable Me franchise\\nBorn August 22, 1973, in Canandaigua, New York; trained at The Groundlings in Los Angeles before joining SNL\\nJoined the SNL Five-Timers Club as a host in 2024",
+          "cardFront": "SNL 2005\u20132012, Penelope & Target Lady",
+          "cardBack": "Kristen Wiig"
+        },
+        {
+          "id": "darrell-hammond",
+          "prompt": "Which SNL cast member served 14 consecutive seasons (1995\u20132009), held the record for longest tenure until Kenan Thompson surpassed him, and was known for his Bill Clinton impression?",
+          "answer": "Darrell Hammond",
+          "alternates": ["Hammond"],
+          "explanation": "SNL cast member 1995\u20132009 (14 seasons); held the record for longest-tenured cast member until Kenan Thompson passed him in 2017\\nHis Bill Clinton impression spanned the entire Clinton presidency and beyond; widely considered the definitive comedic take on Clinton\\nPerformed 107 celebrity impressions on the show, second only to Kenan Thompson's 139\\nOpened the show with \"Live from New York, it's Saturday Night!\" 76 times, more than any other cast member\\nAlso known for impressions of Al Gore, Donald Trump (before Alec Baldwin), Sean Connery, and Dick Cheney\\nBecame SNL's announcer in 2014, replacing Don Pardo who died that year after serving since the show's premiere\\nHis 2011 memoir God, If You're Not Up There, I'm F*cked revealed childhood abuse and struggles with self-harm",
+          "cardFront": "14 seasons (1995\u20132009), Bill Clinton impression",
+          "cardBack": "Darrell Hammond"
+        },
+        {
+          "id": "phil-hartman",
+          "prompt": "Which SNL cast member (1986\u20131994) was nicknamed \"the Glue\" for his ability to hold any sketch together, created Unfrozen Caveman Lawyer, and was tragically murdered at age 49?",
+          "answer": "Phil Hartman",
+          "alternates": ["Hartman"],
+          "explanation": "SNL cast member 1986\u20131994 (8 seasons); called \"the Glue\" by castmates for his versatility and ability to salvage any sketch\\nCreated Unfrozen Caveman Lawyer, a thawed-out caveman who manipulates juries by claiming modern life confuses him while living lavishly\\nAlso known for impressions of Bill Clinton, Frank Sinatra, Ed McMahon, and Ronald Reagan\\nAfter SNL, starred as Bill McNeal on NewsRadio (1995\u20131998) and voiced Troy McClure and Lionel Hutz on The Simpsons\\nShot and killed by his wife Brynn Hartman on May 28, 1998, at age 49, in a murder-suicide at their Encino, California, home\\nBorn September 24, 1948, in Brantford, Ontario, Canada; designed the album cover for Poco's Legend (1978) before his comedy career\\nThe Simpsons retired both Troy McClure and Lionel Hutz after his death rather than recast the roles",
+          "cardFront": "\"The Glue,\" SNL 1986\u20131994",
+          "cardBack": "Phil Hartman"
+        },
+        {
+          "id": "kate-mckinnon",
+          "prompt": "Which SNL cast member (2012\u20132022) won two Emmy Awards for her work on the show, became known for her Hillary Clinton impression, and was the first openly LGBT person to join the cast?",
+          "answer": "Kate McKinnon",
+          "alternates": ["McKinnon"],
+          "explanation": "SNL cast member 2012\u20132022 (11 seasons spanning Seasons 37\u201347); one of the most acclaimed performers in the show's history\\nHer Hillary Clinton impression dominated the 2016 election cycle; her cold open after Clinton's loss, playing Leonard Cohen's \"Hallelujah\" at the piano, became one of SNL's most emotional moments\\nWon two Primetime Emmy Awards for Outstanding Supporting Actress in a Comedy Series (2016, 2017)\\nFirst openly LGBT cast member in SNL history; also known for impressions of Jeff Sessions, Ruth Bader Ginsburg, and Elizabeth Warren\\nOriginal characters include Olya Povlatsky (a bleak Russian villager) and Colleen Rafferty (an alien abductee)\\nBorn January 6, 1984, in Sea Cliff, New York; studied at Columbia University and trained at the Upright Citizens Brigade\\nPost-SNL career includes Barbie (2023) and the Peacock series A Friend of the Family",
+          "cardFront": "SNL 2012\u20132022, Hillary Clinton impression",
+          "cardBack": "Kate McKinnon"
+        },
+        {
+          "id": "andy-samberg",
+          "prompt": "Which SNL cast member (2005\u20132012) pioneered the show's Digital Shorts format, including a 2005 rap parody about going to see The Chronicles of Narnia that became one of YouTube's first viral hits?",
+          "answer": "Andy Samberg",
+          "alternates": ["Samberg"],
+          "explanation": "SNL cast member and writer 2005\u20132012 (7 seasons); brought pre-recorded comedy shorts to the show through his group The Lonely Island\\n\"Lazy Sunday\" (December 17, 2005), a mock rap about seeing The Chronicles of Narnia, was one of YouTube's first viral videos and helped legitimize the platform\\n\"Dick in a Box\" (2006) with Justin Timberlake won the Primetime Emmy for Outstanding Original Music and Lyrics\\nThe Lonely Island (Samberg, Akiva Schaffer, Jorma Taccone) released three studio albums: Incredibad (2009), Turtleneck and Chain (2011), and The Wack Album (2013)\\nPost-SNL, starred as Detective Jake Peralta in Brooklyn Nine-Nine (2013\u20132021) on Fox and then NBC\\nBorn August 18, 1978, in Berkeley, California; he, Schaffer, and Taccone have been friends since middle school\\nHosted the Emmy Awards (2015) and co-hosted the Golden Globe Awards (2019) with Sandra Oh",
+          "cardFront": "Digital Shorts & The Lonely Island, 2005\u20132012",
+          "cardBack": "Andy Samberg"
+        },
+        {
+          "id": "kenan-thompson",
+          "prompt": "Who holds the record as SNL's longest-tenured cast member, joining in 2003 and surpassing 20 seasons, after first gaining fame as a child actor on Nickelodeon in the 1990s?",
+          "answer": "Kenan Thompson",
+          "alternates": ["Kenan", "Thompson"],
+          "explanation": "SNL cast member since 2003; surpassed Darrell Hammond's 14-season record in 2017 and has completed 22 seasons as of Season 50\\nFirst regular SNL cast member born after the show's 1975 premiere (born May 10, 1978)\\nHolds the record for most celebrity impressions performed on the show (139), surpassing Hammond's 107\\nBefore SNL, starred in Nickelodeon's All That (1994\u20131999) and Kenan & Kel (1996\u20132000), and the film Good Burger (1997)\\nCreated recurring SNL characters including What Up with That host Diondre Cole and the judge on \"Black Jeopardy\"\\nStarred in the NBC sitcom Kenan (2021\u20132022), a network vehicle for his talents outside SNL\\nFirst cast member to have been a child actor on another show before joining SNL; began acting professionally at age 15",
+          "cardFront": "Longest-tenured cast member, since 2003",
+          "cardBack": "Kenan Thompson"
+        }
+      ]
+    }
+  ]
+}

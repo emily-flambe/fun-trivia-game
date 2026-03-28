@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "television/catchphrases", "parentId": "television", "name": "TV Catchphrases & Quotes", "description": "Famous lines and catchphrases from television shows" }
+  ],
+  "exercises": [
+    {
+      "id": "television/catchphrases/tv-catchphrases",
+      "nodeId": "television/catchphrases",
+      "name": "TV Catchphrases & Quotes",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "doh",
+          "prompt": "What animated Fox sitcom features a patriarch whose signature exclamation of frustration was added to the Oxford English Dictionary in 2001?",
+          "answer": "The Simpsons",
+          "alternates": ["Simpsons"],
+          "explanation": "Homer Jay Simpson's exasperated \"D'oh!\" became the character's defining verbal tic\\nVoiced by Dan Castellaneta, who based the delivery on Jimmy Finlayson's drawn-out \"D'ohhh\" from Laurel and Hardy films\\nAdded to the Oxford English Dictionary in 2001, defined as an exclamation expressing frustration\\nCreated by Matt Groening; premiered 1989; longest-running American scripted primetime series\\nBegan as shorts on The Tracey Ullman Show (1987) before getting its own series\\nSpringfield's state is intentionally never revealed",
+          "cardFront": "\"D'oh!\"",
+          "cardBack": "The Simpsons"
+        },
+        {
+          "id": "winter-is-coming",
+          "prompt": "The Stark family motto \"Winter is coming\" serves as an ominous warning throughout which HBO fantasy series based on George R.R. Martin's novels?",
+          "answer": "Game of Thrones",
+          "alternates": ["GOT", "GoT"],
+          "explanation": "House Stark's words, spoken most often by patriarch Ned Stark (Sean Bean) in Season 1\\nHBO, 2011\u20132019, 8 seasons, 73 episodes; based on Martin's A Song of Ice and Fire novels\\nThe phrase functions as both a literal weather forecast and a metaphor for looming existential threats\\nBecame a ubiquitous cultural meme applied to any approaching difficulty or deadline\\nThe show held the record for most Emmy Awards won by a drama series (59 total)\\nFilmed across Northern Ireland, Croatia, Iceland, Spain, and Morocco",
+          "cardFront": "\"Winter is coming\"",
+          "cardBack": "Game of Thrones"
+        },
+        {
+          "id": "i-am-the-one-who-knocks",
+          "prompt": "A high school chemistry teacher turned methamphetamine manufacturer declares \"I am the one who knocks\" to his terrified wife in which AMC drama?",
+          "answer": "Breaking Bad",
+          "alternates": [],
+          "explanation": "Spoken by Walter White (Bryan Cranston) to his wife Skyler in Season 4, Episode 6 (\"Cornered\")\\nThe line marks Walter's full transformation from mild-mannered teacher to ruthless drug lord Heisenberg\\nAMC, 2008\u20132013, 5 seasons, 62 episodes; created by Vince Gilligan\\nCranston won four Primetime Emmy Awards for Outstanding Lead Actor in a Drama Series\\nSet and filmed in Albuquerque, New Mexico\\nSpawned the prequel series Better Call Saul (2015\u20132022), also critically acclaimed",
+          "cardFront": "\"I am the one who knocks\"",
+          "cardBack": "Breaking Bad"
+        },
+        {
+          "id": "how-you-doin",
+          "prompt": "Which NBC sitcom (1994\u20132004) about six Manhattan twenty-somethings features a womanizing Italian-American actor whose signature pickup line became a cultural phenomenon?",
+          "answer": "Friends",
+          "alternates": [],
+          "explanation": "Joey Tribbiani's \"How you doin'?\" delivered by Matt LeBlanc as a flirtatious greeting\\nJoey is a struggling actor who lands a role on the fictional soap opera Days of Our Lives\\nNBC, 1994\u20132004, 10 seasons, 236 episodes; set in Manhattan's Greenwich Village\\nThe six core cast members negotiated collectively and each earned $1 million per episode by the final season\\nFilmed at Warner Bros. Studios in Burbank, not New York City\\nThe Reunion special on HBO Max (2021) drew massive viewership 17 years after the finale",
+          "cardFront": "\"How you doin'?\"",
+          "cardBack": "Friends"
+        },
+        {
+          "id": "thats-what-she-said",
+          "prompt": "Regional manager Michael Scott repeatedly delivers the innuendo-laden retort \"That's what she said\" in which NBC mockumentary sitcom set at a paper company in Scranton, Pennsylvania?",
+          "answer": "The Office",
+          "alternates": ["Office"],
+          "explanation": "Michael Scott (Steve Carell) uses the double-entendre punchline as his signature joke throughout the series\\nAdapted from the British phrase \"Said the actress to the bishop,\" used by Ricky Gervais's David Brent in the UK original\\nNBC, 2005\u20132013, 9 seasons, 201 episodes; adapted from the BBC series created by Gervais and Stephen Merchant\\nCarell departed after Season 7; the show continued two more seasons without him\\nPioneered the single-camera mockumentary format for American sitcoms alongside Parks and Recreation\\nThe joke predates the show\u2014Wayne's World on Saturday Night Live popularized the phrase in the 1990s",
+          "cardFront": "\"That's what she said\"",
+          "cardBack": "The Office"
+        },
+        {
+          "id": "bazinga",
+          "prompt": "A theoretical physicist with an eidetic memory shouts \"Bazinga!\" after executing a prank or sarcastic remark in which CBS sitcom about Caltech scientists?",
+          "answer": "The Big Bang Theory",
+          "alternates": ["Big Bang Theory", "TBBT"],
+          "explanation": "Sheldon Cooper's catchphrase, played by Jim Parsons; first used in the Season 2 finale (\"The Monopolar Expedition\")\\nCreated behind the scenes by writer Stephen Engel, who would say \"Bazinga!\" after telling bad jokes in the writers' room\\nCBS, 2007\u20132019, 12 seasons, 279 episodes; created by Chuck Lorre and Bill Prady\\nParsons won four Primetime Emmy Awards for Outstanding Lead Actor in a Comedy Series\\nWarner Bros. trademarked the word \"Bazinga\" in 2012\\nThe show ended because Parsons chose not to renew his contract, not because of cancellation",
+          "cardFront": "\"Bazinga!\"",
+          "cardBack": "The Big Bang Theory"
+        },
+        {
+          "id": "yada-yada-yada",
+          "prompt": "George Costanza's girlfriend uses the filler phrase \"yada yada yada\" to skip over inconvenient details in which NBC sitcom famously described as \"a show about nothing\"?",
+          "answer": "Seinfeld",
+          "alternates": [],
+          "explanation": "From Season 8, Episode 19 (\"The Yada Yada,\" aired April 24, 1997); George discovers his girlfriend uses the phrase to gloss over shoplifting\\nCreated by Larry David and Jerry Seinfeld; NBC, 1989\u20131998, 9 seasons, 180 episodes\\nThe episode was written by Peter Mehlman and Jill Franklyn, earning an Emmy nomination for Outstanding Writing\\nThe phrase existed before the show but became universally popularized by this episode\\nAlso popularized \"double-dipping,\" \"sponge-worthy,\" \"close talker,\" and \"man hands\"\\nFinal episode drew 76 million viewers; 30-second ads reportedly cost $2 million",
+          "cardFront": "\"Yada yada yada\"",
+          "cardBack": "Seinfeld"
+        },
+        {
+          "id": "live-long-and-prosper",
+          "prompt": "The Vulcan greeting \"Live long and prosper,\" accompanied by a split-fingered hand gesture inspired by a Jewish priestly blessing, originated on which 1960s NBC science fiction series?",
+          "answer": "Star Trek",
+          "alternates": ["Star Trek: The Original Series", "Star Trek TOS"],
+          "explanation": "First spoken by Spock (Leonard Nimoy) in the Season 2 premiere \"Amok Time\" (1967); scripted by Theodore Sturgeon\\nThe accompanying Vulcan salute was devised by Nimoy, based on the Priestly Blessing (Birkat Kohanim) he saw as a child at an Orthodox synagogue\\nThe traditional reply is \"Peace and long life\"\\nNBC, 1966\u20131969, 3 seasons, 79 episodes; created by Gene Roddenberry\\nCancelled after three seasons due to low ratings, then became a massive phenomenon through syndication\\nSpawned 13 feature films and multiple spinoff series spanning six decades",
+          "cardFront": "\"Live long and prosper\"",
+          "cardBack": "Star Trek"
+        },
+        {
+          "id": "the-tribe-has-spoken",
+          "prompt": "Host Jeff Probst extinguishes a contestant's torch and declares \"The tribe has spoken\" at each elimination ceremony on which CBS reality competition that premiered in 2000?",
+          "answer": "Survivor",
+          "alternates": [],
+          "explanation": "Spoken by Probst at every Tribal Council after the votes are read and a contestant is eliminated\\nThe phrase was coined accidentally by producer Mark Burnett in conversation two days before filming the first season in Borneo\\nCBS, premiered May 31, 2000; 48+ seasons as of 2025; filmed in locations from Borneo to Fiji\\nThe first season finale drew 51.7 million viewers, making it a cultural phenomenon\\nRanked #35 on TV Land's 100 Greatest TV Quotes and Catch Phrases (2006)\\nConsidered the \"Adam and Eve\" of reality-show elimination catchphrases, inspiring countless imitators",
+          "cardFront": "\"The tribe has spoken\"",
+          "cardBack": "Survivor"
+        },
+        {
+          "id": "ive-made-a-huge-mistake",
+          "prompt": "Incompetent magician G.O.B. Bluth repeatedly mutters \"I've made a huge mistake\" after his schemes backfire in which Fox/Netflix comedy about a wealthy dysfunctional family?",
+          "answer": "Arrested Development",
+          "alternates": [],
+          "explanation": "G.O.B. Bluth (Will Arnett) delivers the line after virtually every failed scheme, though other Bluth family members also say it\\nFox, 2003\u20132006 (3 seasons); revived by Netflix in 2013 and 2018\u20132019 (2 more seasons)\\nCreated by Mitchell Hurwitz; won the Emmy for Outstanding Comedy Series in 2004\\nCancelled by Fox despite critical acclaim due to low ratings; became a cult hit through DVD sales\\nThe show's layered callbacks, recurring gags, and foreshadowing were ahead of their time for sitcom storytelling\\nWill Arnett's G.O.B. is a professional magician (he insists on \"illusionist\") who performs under the stage name \"The Amazing G.O.B.\"",
+          "cardFront": "\"I've made a huge mistake\"",
+          "cardBack": "Arrested Development"
+        },
+        {
+          "id": "suit-up",
+          "prompt": "Womanizing corporate lawyer Barney Stinson commands his friends to \"Suit up!\" before nights out in which CBS sitcom (2005\u20132014) narrated in flashback by Bob Saget?",
+          "answer": "How I Met Your Mother",
+          "alternates": ["HIMYM"],
+          "explanation": "Barney Stinson (Neil Patrick Harris) wears a suit at all times and insists his friends do the same\\nFirst uttered in the pilot episode; Harris has said the phrase originated from Bob Saget in 1991, then was adopted for the show\\nCBS, 2005\u20132014, 9 seasons, 208 episodes; created by Craig Thomas and Carter Bays\\nBarney's other catchphrases include \"Legen\u2014wait for it\u2014dary!\" and \"Challenge accepted\"\\nHarris won multiple awards for the role despite the character being a departure from his earlier clean-cut Doogie Howser image\\nThe divisive series finale remains one of the most debated endings in sitcom history",
+          "cardFront": "\"Suit up!\"",
+          "cardBack": "How I Met Your Mother"
+        },
+        {
+          "id": "clear-eyes-full-hearts",
+          "prompt": "Coach Eric Taylor rallies the Dillon Panthers with \"Clear eyes, full hearts, can't lose\" before every football game in which NBC/DirecTV drama set in small-town Texas?",
+          "answer": "Friday Night Lights",
+          "alternates": ["FNL"],
+          "explanation": "Spoken by Coach Eric Taylor (Kyle Chandler) as a pre-game rallying cry, first used in the pilot episode\\nNBC/DirecTV, 2006\u20132011, 5 seasons, 76 episodes; based on H.G. Bissinger's 1990 nonfiction book and the 2004 film\\nChandler won the Primetime Emmy for Outstanding Lead Actor in a Drama Series in 2011\\nSet in the fictional town of Dillon, Texas; filmed in Austin, Texas\\nBarack Obama adopted the phrase during his 2012 re-election campaign, prompting the show's creator Peter Berg to ask him to stop\\nThe show was saved from cancellation by a co-production deal with DirecTV's 101 Network after Season 2",
+          "cardFront": "\"Clear eyes, full hearts, can't lose\"",
+          "cardBack": "Friday Night Lights"
+        },
+        {
+          "id": "oh-my-god-they-killed-kenny",
+          "prompt": "Stan and Kyle exclaim \"Oh my God, they killed Kenny! You bastards!\" after their hooded friend dies in nearly every episode of which Comedy Central animated series set in a small Colorado town?",
+          "answer": "South Park",
+          "alternates": [],
+          "explanation": "Kenny McCormick dies in almost every episode of the early seasons, only to reappear alive in the next\\nThe line originated in the 1992 animated short The Spirit of Christmas: Jesus vs. Frosty, which predates the series\\nComedy Central, 1997\u2013present; created by Trey Parker and Matt Stone, who voice most characters\\nParker and Stone have said the \"You bastards!\" part is directed at themselves as writers for killing the character\\nRanked #35 on TV Land's 100 Greatest TV Quotes and Catch Phrases\\nKenny's muffled voice (he speaks through his parka hood) is Parker mumbling into his hand",
+          "cardFront": "\"Oh my God, they killed Kenny!\"",
+          "cardBack": "South Park"
+        },
+        {
+          "id": "come-on-down",
+          "prompt": "Announcer Johnny Olson first invited audience members to \"Come on down!\" as contestants on which CBS daytime game show, the longest-running in U.S. television history?",
+          "answer": "The Price Is Right",
+          "alternates": ["Price Is Right"],
+          "explanation": "Johnny Olson coined the phrase at the show's 1972 premiere; his wife estimated he said it 42,000 times before his death in 1985\\nCBS, premiered September 4, 1972; over 10,000 episodes aired; longest-running game show in U.S. history\\nBob Barker hosted from 1972 until his retirement in 2007; Drew Carey has hosted since\\nOlson's successors Rod Roddy, Rich Fields, and George Gray all continued the tradition\\nContestants are called from the studio audience to guess the retail prices of merchandise\\nBarker famously ended each episode with \"Help control the pet population\u2014have your pets spayed or neutered\"",
+          "cardFront": "\"Come on down!\"",
+          "cardBack": "The Price Is Right"
+        },
+        {
+          "id": "is-that-your-final-answer",
+          "prompt": "Host Regis Philbin built suspense by asking contestants \"Is that your final answer?\" on which ABC prime-time game show that became a cultural phenomenon in 1999?",
+          "answer": "Who Wants to Be a Millionaire",
+          "alternates": ["Who Wants to Be a Millionaire?", "Millionaire"],
+          "explanation": "Regis Philbin's tension-building confirmation became inescapable in American pop culture during the show's peak\\nABC, premiered August 16, 1999; adapted from the British original hosted by Chris Tarrant (1998)\\nAt its peak in 1999\u20132000, the show aired multiple nights per week and dominated U.S. ratings\\nLifelines included \"Phone a Friend,\" \"Ask the Audience,\" and \"50:50\"\\nThe first U.S. million-dollar winner was John Carpenter (November 19, 1999), who used his Phone a Friend to tell his father he was about to win\\nRanked on TV Land's 100 Greatest TV Quotes and Catch Phrases (2006)",
+          "cardFront": "\"Is that your final answer?\"",
+          "cardBack": "Who Wants to Be a Millionaire"
+        }
+      ]
+    }
+  ]
+}
