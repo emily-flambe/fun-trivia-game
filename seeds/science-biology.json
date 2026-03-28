@@ -4,6 +4,79 @@
   ],
   "exercises": [
     {
+      "id": "science/biology/taxonomic-ranks",
+      "nodeId": "science/biology",
+      "name": "Taxonomic Ranks",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name the 8 ranks of biological classification in order from broadest to most specific" },
+      "items": [
+        {
+          "id": "domain",
+          "answer": "Domain",
+          "alternates": [],
+          "explanation": "Broadest classification; the three domains are Bacteria, Archaea, and Eukarya\nProposed by Carl Woese based on ribosomal RNA analysis in 1977\u20131990; replaced the older five-kingdom system\nMnemonic for all 8 ranks: \u201cDear King Philip Came Over For Good Soup\u201d",
+          "cardFront": "#1 (broadest)",
+          "cardBack": "Domain"
+        },
+        {
+          "id": "kingdom",
+          "answer": "Kingdom",
+          "alternates": [],
+          "explanation": "Second level; major groupings include Animalia, Plantae, Fungi, Protista, and the two prokaryote kingdoms\nAnimalia contains an estimated 8.7 million known species\nFungi were once classified as plants; now recognized as more closely related to animals",
+          "cardFront": "#2",
+          "cardBack": "Kingdom"
+        },
+        {
+          "id": "phylum",
+          "answer": "Phylum",
+          "alternates": ["Division"],
+          "explanation": "Third level; defines major body plans\nHumans belong to Chordata (animals with a notochord/spinal cord at some stage)\n~35 animal phyla recognized; Arthropoda contains the most species (~80% of all known animals)",
+          "cardFront": "#3",
+          "cardBack": "Phylum"
+        },
+        {
+          "id": "class",
+          "answer": "Class",
+          "alternates": [],
+          "explanation": "Fourth level; e.g., Mammalia within Chordata\nHumans belong to class Mammalia (~5,500 known species)\nInsects belong to class Insecta within phylum Arthropoda \u2014 the largest class by species count",
+          "cardFront": "#4",
+          "cardBack": "Class"
+        },
+        {
+          "id": "order",
+          "answer": "Order",
+          "alternates": [],
+          "explanation": "Fifth level; e.g., Primates within Mammalia\nHumans belong to order Primates\nPrimates include prosimians (lemurs, lorises), monkeys, apes, and humans",
+          "cardFront": "#5",
+          "cardBack": "Order"
+        },
+        {
+          "id": "family",
+          "answer": "Family",
+          "alternates": [],
+          "explanation": "Sixth level; e.g., Hominidae (great apes) within Primates\nHumans belong to family Hominidae\nHominidae includes humans, chimpanzees, gorillas, and orangutans; gibbons are in the separate family Hylobatidae",
+          "cardFront": "#6",
+          "cardBack": "Family"
+        },
+        {
+          "id": "genus",
+          "answer": "Genus",
+          "alternates": [],
+          "explanation": "Seventh level; first word of the binomial name (italicized, capitalized)\nHumans belong to genus *Homo*\nGenus *Homo* includes modern humans (*H. sapiens*) and extinct relatives like *H. erectus* and *H. neanderthalensis*",
+          "cardFront": "#7",
+          "cardBack": "Genus"
+        },
+        {
+          "id": "species",
+          "answer": "Species",
+          "alternates": [],
+          "explanation": "Eighth and most specific level; second word of the binomial name (italicized, lowercase)\nHumans are *Homo sapiens* (\u2018wise man\u2019), named by Linnaeus in 1758\nBiological species concept: organisms that can interbreed and produce fertile offspring",
+          "cardFront": "#8 (most specific)",
+          "cardBack": "Species"
+        }
+      ]
+    },
+    {
       "id": "science/biology/taxonomy-and-genetics",
       "nodeId": "science/biology",
       "name": "Biology & Taxonomy",

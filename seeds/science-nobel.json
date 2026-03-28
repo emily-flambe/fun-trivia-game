@@ -128,6 +128,42 @@
           "cardBack": "John Bardeen"
         },
         {
+          "id": "ramon-y-cajal",
+          "prompt": "Which Spanish pathologist, using silver staining to map the nervous system, proved it consists of discrete individual neurons rather than a continuous network \u2014 sharing the Nobel Prize in Medicine in 1906 with his chief opponent?",
+          "answer": "Santiago Ram\u00f3n y Cajal",
+          "alternates": ["Ram\u00f3n y Cajal", "Ramon y Cajal", "Santiago Ramon y Cajal"],
+          "explanation": "Shared Nobel Medicine 1906 with Camillo Golgi \u2014 who used his own Nobel lecture to argue against the neuron doctrine that Cajal had proved\nEstablished the neuron doctrine: the nervous system is composed of discrete individual cells, not a continuous reticulum\nCreated extraordinarily detailed hand drawings of neural structures, still reproduced in neuroscience textbooks today\nUsed Golgi\u2019s own silver-staining technique to refute Golgi\u2019s reticular theory \u2014 one of science\u2019s great ironies\nCalled the \u2018father of modern neuroscience\u2019; born 1852 in Petilla de Arag\u00f3n, Spain; died 1934",
+          "cardFront": "Medicine, 1906 \u2014 neuron doctrine, father of neuroscience",
+          "cardBack": "Santiago Ram\u00f3n y Cajal"
+        },
+        {
+          "id": "robert-koch",
+          "prompt": "Which German physician identified the bacteria causing tuberculosis (1882) and cholera (1883), established the four postulates for proving a microorganism causes a disease, and won the Nobel Prize in Medicine in 1905?",
+          "answer": "Robert Koch",
+          "alternates": ["Koch"],
+          "explanation": "Nobel Prize in Physiology or Medicine 1905 for tuberculosis research\nIdentified *Mycobacterium tuberculosis* in 1882 \u2014 TB killed roughly 1 in 7 people in Europe at the time\nKoch\u2019s Postulates (1884): four criteria establishing that a specific microbe causes a specific disease; still foundational in infectious disease research\nIdentified the cholera bacillus *Vibrio cholerae* in 1883 during a field investigation in Egypt and India\nRivalry with Louis Pasteur was intense and often nationalistic (Franco-Prussian War era); called the \u2018father of bacteriology\u2019",
+          "cardFront": "Medicine, 1905 \u2014 tuberculosis, Koch\u2019s Postulates",
+          "cardBack": "Robert Koch"
+        },
+        {
+          "id": "frederick-sanger",
+          "prompt": "Which British biochemist is the only person to win the Nobel Prize in Chemistry twice \u2014 in 1958 for sequencing insulin and in 1980 for developing the DNA chain-termination sequencing method?",
+          "answer": "Frederick Sanger",
+          "alternates": ["Sanger"],
+          "explanation": "Nobel Chemistry 1958: determined the complete amino acid sequence of insulin \u2014 the first protein ever fully sequenced; established that proteins have a definite sequence\nNobel Chemistry 1980 (shared with Walter Gilbert and Paul Berg): developed the Sanger dideoxy chain-termination method for reading DNA sequences\nSanger sequencing became the workhorse of the Human Genome Project (1990\u20132003)\nOnly person to win the Nobel Prize in Chemistry twice (Marie Curie won Chemistry and Peace; John Bardeen won Physics twice)\nDeclined a knighthood, preferring to be called \u2018Fred\u2019; retired at 65 to tend his garden",
+          "cardFront": "Chemistry twice: 1958 (insulin) + 1980 (DNA sequencing)",
+          "cardBack": "Frederick Sanger"
+        },
+        {
+          "id": "svante-paabo",
+          "prompt": "Which Swedish paleogeneticist sequenced the Neanderthal genome (2010) and discovered the Denisovans from a single finger bone \u2014 founding the field of ancient DNA research and winning the Nobel Prize in Medicine in 2022?",
+          "answer": "Svante P\u00e4\u00e4bo",
+          "alternates": ["Paabo", "Svante Paabo", "P\u00e4\u00e4bo"],
+          "explanation": "Nobel Physiology or Medicine 2022, sole laureate; founded the field of paleogenetics\nNeanderthal genome (2010): revealed that non-African modern humans carry 1\u20134% Neanderthal DNA, proving interbreeding occurred\nDenisovans discovered entirely from a 40,000-year-old finger bone from Denisova Cave, Siberia \u2014 an entirely new human species identified through DNA alone\nDirector of the Max Planck Institute for Evolutionary Anthropology in Leipzig\nSon of Nobel laureate Sune Bergstr\u00f6m (Medicine 1982) \u2014 making them the only father-son pair to both win the Nobel Prize in Physiology or Medicine",
+          "cardFront": "Medicine, 2022 \u2014 Neanderthal genome, ancient DNA",
+          "cardBack": "Svante P\u00e4\u00e4bo"
+        },
+        {
           "id": "hinton-hopfield",
           "prompt": "Which two scientists won the 2024 Nobel Prize in Physics for foundational work enabling machine learning with artificial neural networks \u2014 surprising many by awarding a Physics prize to computer science research?",
           "answer": "Geoffrey Hinton & John Hopfield",
