@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { ExerciseSummary, PublicItem } from '../lib/api';
+import { WikiLinks } from './WikiLinks';
 
 interface Props {
 	exercise: ExerciseSummary;
@@ -124,6 +125,7 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 								))}
 							</ul>
 						)}
+						<WikiLinks links={selectedItem.data?.links} />
 					</div>
 				) : (
 					<div className="text-text-tertiary text-sm">Click a card to see details</div>

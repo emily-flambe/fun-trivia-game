@@ -1,4 +1,5 @@
 import type { ExerciseSummary, PublicItem, CheckAnswerResult } from '../lib/api';
+import { WikiLinks } from './WikiLinks';
 
 interface AnswerRecord {
 	itemId: string;
@@ -60,6 +61,7 @@ export function QuizSummary({ exercise, answers, items, exercisePath, onRepeat, 
 										<li key={i}>{line}</li>
 									))}
 								</ul>
+								<WikiLinks links={item?.data?.links} />
 								</div>
 							);
 						})}
