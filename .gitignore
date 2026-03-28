@@ -3,3 +3,5 @@ dist/
 .wrangler/
 .dev.vars
 .seed-tmp.sql
+.seed-test.sql
+.claude/settings.local.json
