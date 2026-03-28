@@ -66,7 +66,7 @@
         },
         {
           "id": "zero",
-          "prompt": "What number, denoted by the symbol 0, was developed as a mathematical concept by Indian mathematicians including Brahmagupta around 628 CE and revolutionized arithmetic by enabling positional notation?",
+          "prompt": "Brahmagupta wrote the first known arithmetic rules for what number in 628 CE, enabling positional notation and the distinction between 1, 10, and 100?",
           "answer": "Zero",
           "alternates": ["0"],
           "explanation": "Brahmagupta (628 CE) wrote the first known rules for arithmetic with zero, including that any number times zero equals zero\nThe placeholder concept appeared earlier in Babylonian and Mayan mathematics, but India first treated zero as a number in its own right\nTransmitted to Europe via Arabic mathematicians (the word 'zero' comes from Arabic 'sifr,' meaning empty)\nMade positional notation possible \u2014 without zero, there's no way to distinguish 1, 10, 100 in a place-value system\nDivision by zero remains undefined; it has crashed software systems including a 1997 USS Yorktown engine failure\nThe concept was controversial in medieval Europe; Florence banned Hindu-Arabic numerals (including zero) in 1299",
