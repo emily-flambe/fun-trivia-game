@@ -79,10 +79,10 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Current World Leaders (2025) | 15 | ✅ | |
-| 2 | International Organizations | 15 | ❌ | UN, EU, NATO, WHO, WTO, IMF, OPEC, etc. Headquarters, leaders, founding dates. |
-| 3 | TIME Person of the Year | 20 | ❌ | TS has this under History. Notable honorees by year. |
+| 2 | International Organizations | 15 | ✅ | UN, EU, NATO, WHO, WTO, IMF, OPEC, etc. Headquarters, leaders, founding dates. |
+| 3 | TIME Person of the Year | 20 | ✅ | TS has this under History. Notable honorees by year. |
 
-**Coverage**: 1/3 done. Inherently time-sensitive category; static content is limited.
+**Coverage**: 3/3 done. Complete. Inherently time-sensitive category; static content is limited.
 
 ---
 
@@ -367,7 +367,7 @@ Inspired by TrivialStudies' unique study tools:
 | Art | 2 | 5 | 40% |
 | Business/Economics | 1 | 8 | 13% |
 | Classical Music | 1 | 4 | 25% |
-| Current Events | 1 | 3 | 33% |
+| Current Events | 3 | 3 | 100% |
 | Film | 10 | 10 | 100% |
 | Food/Drink | 5 | 10 | 50% |
 | Games/Sport | 2 | 15 | 13% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **83** | **177** | **47%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -401,6 +401,6 @@ Inspired by TrivialStudies' unique study tools:
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
 14. **Geography** — 10/20 (50%). Most exercises but missing continents.
 15. **World History** — 5/10 (50%). Needs monarchs/exploration.
-16. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.
+16. **Current Events** — 3/3 (100%). Complete.
 17. **Science** — 13/20 (65%). Well covered, needs fun trivia.
 18. **Math** — 4/6 (67%). Niche LL category, already solid.

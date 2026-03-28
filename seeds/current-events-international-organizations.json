@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "current-events/international-organizations", "parentId": "current-events", "name": "International Organizations", "description": "Major international bodies \u2014 founding, headquarters, membership, and purpose" }
+  ],
+  "exercises": [
+    {
+      "id": "current-events/international-organizations/international-organizations",
+      "nodeId": "current-events/international-organizations",
+      "name": "International Organizations",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "un",
+          "prompt": "Which international organization, founded in 1945 to replace the League of Nations, is headquartered in New York and has 193 member states?",
+          "answer": "United Nations",
+          "alternates": ["UN", "The United Nations", "The UN"],
+          "explanation": "Founded October 24, 1945; charter signed by 50 nations in San Francisco on June 26, 1945; Poland signed later as the 51st founding member\\nHeadquartered in New York City on international territory along the East River\\nReplaced the League of Nations (1920\u20131946), which failed to prevent World War II\\nFive permanent Security Council members with veto power (P5): USA, UK, France, Russia, China\\nUniversal Declaration of Human Rights adopted December 10, 1948 \u2014 drafting committee chaired by Eleanor Roosevelt, principally drafted by René Cassin\\nOctober 24 is observed annually as United Nations Day\\nSpecialized agencies include WHO, UNESCO, UNICEF, and the World Bank",
+          "cardFront": "Founded 1945 \u2014 New York",
+          "cardBack": "United Nations"
+        },
+        {
+          "id": "eu",
+          "prompt": "Which 27-member political bloc, formally established by the Maastricht Treaty in 1993, won the Nobel Peace Prize in 2012 and uses the euro as its common currency?",
+          "answer": "European Union",
+          "alternates": ["EU", "The European Union", "The EU"],
+          "explanation": "Formally established November 1, 1993 by the Maastricht Treaty; built on the earlier European Economic Community (EEC, 1957)\\nHeadquartered in Brussels, Belgium; European Parliament sits in Strasbourg, France\\n27 member states after the UK departed in 2020 (Brexit)\\nAwarded the Nobel Peace Prize in 2012 for advancing peace, reconciliation, democracy, and human rights in Europe\\nThe euro (\u20ac) is the common currency of 21 member states (the Eurozone) after Bulgaria joined on January 1, 2025\\nFounding members of the EEC: France, West Germany, Italy, Belgium, Netherlands, Luxembourg\\nSchengen Area allows passport-free travel across 29 European countries",
+          "cardFront": "Founded 1993 (Maastricht) \u2014 Brussels",
+          "cardBack": "European Union"
+        },
+        {
+          "id": "nato",
+          "prompt": "Which military alliance, founded in 1949 and headquartered in Brussels, commits its 32 members to collective defense under Article 5?",
+          "answer": "NATO",
+          "alternates": ["North Atlantic Treaty Organization", "The North Atlantic Treaty Organization"],
+          "explanation": "Founded April 4, 1949 by the North Atlantic Treaty (Washington Treaty); 12 original members\\nHeadquartered in Brussels, Belgium (moved from Paris in 1966 after France withdrew from military command)\\n32 member countries as of 2024 after Sweden joined on March 7, 2024\\nArticle 5: an attack on one member is an attack on all \u2014 invoked only once, after 9/11\\nCreated as a counterweight to the Soviet Union during the Cold War; the Soviet bloc formed the Warsaw Pact (1955) in response\\nFrance withdrew from NATO\u2019s military command in 1966 under de Gaulle; rejoined in 2009\\nName stands for North Atlantic Treaty Organization",
+          "cardFront": "Founded 1949 \u2014 Brussels",
+          "cardBack": "NATO"
+        },
+        {
+          "id": "who",
+          "prompt": "Which specialized agency of the United Nations, founded in 1948 and headquartered in Geneva, led the global campaign that eradicated smallpox in 1980?",
+          "answer": "World Health Organization",
+          "alternates": ["WHO", "The WHO", "The World Health Organization"],
+          "explanation": "Founded April 7, 1948; April 7 is observed annually as World Health Day\\nHeadquartered in Geneva, Switzerland; a specialized agency of the United Nations\\n194 member states \u2014 nearly every country in the world\\nLed the successful global campaign to eradicate smallpox, certified in 1980 \u2014 the only human disease ever fully eradicated\\nDeclared COVID-19 a Public Health Emergency of International Concern on January 30, 2020\\nDirector-General Tedros Adhanom Ghebreyesus (2017\u2013present) is the first African to lead the organization\\nClassifies diseases and publishes the International Classification of Diseases (ICD), used worldwide",
+          "cardFront": "Founded 1948 \u2014 Geneva",
+          "cardBack": "World Health Organization"
+        },
+        {
+          "id": "wto",
+          "prompt": "Which Geneva-based trade body, established in 1995 as the successor to GATT, oversees global trade rules among its 166 member countries?",
+          "answer": "World Trade Organization",
+          "alternates": ["WTO", "The WTO", "The World Trade Organization"],
+          "explanation": "Founded January 1, 1995; replaced the General Agreement on Tariffs and Trade (GATT, 1947)\\nHeadquartered in Geneva, Switzerland; 166 members (including the EU, Hong Kong, Macao, and Taiwan)\\nOversees trade agreements, settles trade disputes, and monitors national trade policies\\nThe Doha Development Round (launched 2001) stalled over disagreements between developed and developing nations\\nChina joined in 2001 after 15 years of negotiations \u2014 a landmark accession\\nRussia joined in 2012, making it one of the last major economies to become a member\\nDispute settlement system often called the \u201cjewel in the crown\u201d of international trade law",
+          "cardFront": "Founded 1995 \u2014 Geneva",
+          "cardBack": "World Trade Organization"
+        },
+        {
+          "id": "imf",
+          "prompt": "Which international financial institution, conceived at the 1944 Bretton Woods conference and headquartered in Washington, D.C., provides emergency loans to countries facing balance-of-payments crises?",
+          "answer": "International Monetary Fund",
+          "alternates": ["IMF", "The IMF", "The International Monetary Fund"],
+          "explanation": "Founded in 1944 at the Bretton Woods Conference in New Hampshire; began operations in 1945\\nHeadquartered in Washington, D.C.; 191 member countries\\nProvides emergency financial assistance and economic policy advice to countries in crisis\\nSpecial Drawing Rights (SDRs) serve as an international reserve asset and unit of account\\nVoting power is weighted by financial contribution \u2014 the U.S. holds the largest share and effective veto power\\nOften paired with the World Bank as a \u201cBretton Woods institution\u201d \u2014 both conceived at the same 1944 conference\\nManaging Director is traditionally a European; current head is Kristalina Georgieva (2019\u2013present)",
+          "cardFront": "Founded 1944 (Bretton Woods) \u2014 Washington, D.C.",
+          "cardBack": "International Monetary Fund"
+        },
+        {
+          "id": "world-bank",
+          "prompt": "Which Bretton Woods institution, headquartered in Washington, D.C., provides loans and grants to developing countries for capital projects aimed at reducing poverty?",
+          "answer": "World Bank",
+          "alternates": ["The World Bank", "IBRD", "International Bank for Reconstruction and Development"],
+          "explanation": "Founded in 1944 at the Bretton Woods Conference alongside the IMF; began operations in 1946\\nHeadquartered in Washington, D.C.; 189 member countries\\nOriginally the International Bank for Reconstruction and Development (IBRD), created to rebuild post-WWII Europe\\nNow focused on poverty reduction and development in low- and middle-income countries\\nThe World Bank Group includes five institutions: IBRD, IDA, IFC, MIGA, and ICSID\\nPresident is traditionally an American (counterpart to the IMF\u2019s European managing director)\\nFunds projects in infrastructure, education, health, and governance worldwide",
+          "cardFront": "Founded 1944 (Bretton Woods) \u2014 Washington, D.C.",
+          "cardBack": "World Bank"
+        },
+        {
+          "id": "opec",
+          "prompt": "Which Vienna-based cartel of oil-producing nations, founded in Baghdad in 1960, coordinates petroleum production quotas to influence global oil prices?",
+          "answer": "OPEC",
+          "alternates": ["Organization of the Petroleum Exporting Countries", "The Organization of the Petroleum Exporting Countries"],
+          "explanation": "Founded September 14, 1960 in Baghdad by five founding members: Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela\\nHeadquartered in Vienna, Austria since 1965 (originally Geneva)\\n12 member countries as of 2025; Saudi Arabia is the dominant producer\\nCoordinates petroleum production quotas among members to stabilize oil markets and prices\\nThe 1973 oil embargo (Arab members) quadrupled oil prices and caused a global energy crisis\\nOPEC+ (formed 2016) includes non-member allies like Russia for broader production coordination\\nControls roughly 30\u201340% of global oil supply and about 80% of proven reserves",
+          "cardFront": "Founded 1960 \u2014 Vienna",
+          "cardBack": "OPEC"
+        },
+        {
+          "id": "african-union",
+          "prompt": "Which continental organization of 55 African member states, headquartered in Addis Ababa, was established in 2002 to replace the Organisation of African Unity?",
+          "answer": "African Union",
+          "alternates": ["AU", "The African Union", "The AU"],
+          "explanation": "Founded July 9, 2002 in Durban, South Africa; replaced the Organisation of African Unity (OAU, 1963\u20132002)\\nHeadquartered in Addis Ababa, Ethiopia; 55 member states \u2014 all African countries\\nModeled partly on the European Union, with a commission, parliament, and court\\nThe AU headquarters building in Addis Ababa was funded and built by China (opened 2012) \u2014 a symbol of Chinese investment in Africa\\nMotto: \u201cA United and Strong Africa\u201d\\nSuspends members after unconstitutional changes of government (coups)\\nMorocco rejoined in 2017 after a 33-year absence over the Western Sahara dispute",
+          "cardFront": "Founded 2002 \u2014 Addis Ababa",
+          "cardBack": "African Union"
+        },
+        {
+          "id": "asean",
+          "prompt": "Which regional bloc of Southeast Asian nations, founded in Bangkok in 1967 and headquartered in Jakarta, now has 11 members after its newest joined in 2025?",
+          "answer": "ASEAN",
+          "alternates": ["Association of Southeast Asian Nations", "The Association of Southeast Asian Nations"],
+          "explanation": "Founded August 8, 1967 by the Bangkok Declaration; five founding members: Indonesia, Malaysia, Philippines, Singapore, Thailand\\nHeadquartered in Jakarta, Indonesia; 11 member states after Timor-Leste joined on October 26, 2025\\nMembers: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor-Leste, Vietnam\\nCombined GDP of roughly $3.6 trillion \u2014 would be the 5th-largest economy if counted as one country\\nOperates by consensus; the \u201cASEAN Way\u201d emphasizes non-interference in members\u2019 internal affairs\\nASEAN Regional Forum (ARF) includes 27 countries for security dialogue, including the U.S., China, and Russia\\nTimor-Leste was approved for membership in 2022 and formally acceded in 2025",
+          "cardFront": "Founded 1967 \u2014 Jakarta",
+          "cardBack": "ASEAN"
+        },
+        {
+          "id": "red-cross",
+          "prompt": "Which humanitarian organization, inspired by the 1859 Battle of Solferino, was co-founded by Henry Dunant in 1863 and has won the Nobel Peace Prize three times?",
+          "answer": "International Red Cross",
+          "alternates": ["Red Cross", "The Red Cross", "ICRC", "International Committee of the Red Cross", "Red Cross and Red Crescent", "Red Crescent"],
+          "explanation": "Founded February 17, 1863 in Geneva by Henry Dunant and four others after Dunant witnessed the Battle of Solferino (1859)\\nHeadquartered in Geneva, Switzerland\\nWon the Nobel Peace Prize three times: 1917, 1944 (during both World Wars), and 1963 (centennial year)\\nHenry Dunant shared the first-ever Nobel Peace Prize in 1901 with Frédéric Passy\\nThe red cross emblem is the Swiss flag with reversed colors \u2014 a tribute to Switzerland\u2019s neutrality\\nThe Red Crescent is used in Muslim-majority countries; the Red Crystal is a religiously neutral alternative\\nInspired the Geneva Conventions (1864, revised 1949), the foundation of international humanitarian law",
+          "cardFront": "Founded 1863 \u2014 Geneva",
+          "cardBack": "International Red Cross"
+        },
+        {
+          "id": "interpol",
+          "prompt": "Which Lyon-based international policing body, with 196 member countries, facilitates cross-border law enforcement cooperation through its system of color-coded notices?",
+          "answer": "Interpol",
+          "alternates": ["INTERPOL", "International Criminal Police Organization", "ICPO"],
+          "explanation": "Founded 1923 in Vienna as the International Criminal Police Commission; reformed in 1956 as INTERPOL\\nHeadquartered in Lyon, France since 1989; 196 member countries \u2014 the largest international police organization\\nNot a police force itself \u2014 has no agents who make arrests; facilitates cooperation between national police forces\\nRed Notices are requests to locate and provisionally arrest a person pending extradition \u2014 often called \u201cinternational arrest warrants\u201d (though technically they are not)\\nIssues color-coded notices: Red (arrest), Blue (locate), Yellow (missing persons), Black (unidentified bodies), and others\\nFull name: International Criminal Police Organization (ICPO-INTERPOL)\\nDuring WWII, the organization was effectively controlled by Nazi Germany (1938\u20131945)",
+          "cardFront": "Founded 1923 \u2014 Lyon",
+          "cardBack": "Interpol"
+        },
+        {
+          "id": "unicef",
+          "prompt": "Which UN agency, originally created in 1946 for post-war child relief in Europe, is known in the U.S. for its Halloween trick-or-treat donation boxes?",
+          "answer": "UNICEF",
+          "alternates": ["United Nations Children's Fund", "United Nations International Children's Emergency Fund"],
+          "explanation": "Founded December 11, 1946 as the United Nations International Children\u2019s Emergency Fund; name shortened but acronym kept\\nHeadquartered in New York City; operates in over 190 countries\\nOriginally created to provide emergency food and healthcare to children in post-WWII Europe and China\\nThe orange trick-or-treat boxes have been a Halloween tradition since 1950 \u2014 one of the most recognized fundraising campaigns in America\\nWon the Nobel Peace Prize in 1965 for its work promoting children\u2019s welfare worldwide\\nGoodwill Ambassadors have included Audrey Hepburn, Danny Kaye, David Beckham, and Shakira\\nProvides vaccines, nutrition, clean water, education, and emergency relief to children globally",
+          "cardFront": "Founded 1946 \u2014 New York",
+          "cardBack": "UNICEF"
+        },
+        {
+          "id": "unesco",
+          "prompt": "Which Paris-based UN agency is responsible for designating World Heritage Sites and promoting international cooperation in education, science, and culture?",
+          "answer": "UNESCO",
+          "alternates": ["United Nations Educational, Scientific and Cultural Organization"],
+          "explanation": "Founded November 16, 1945; constitution came into force in 1946\\nHeadquartered in Paris, France \u2014 one of the few major UN agencies not based in New York or Geneva\\nDesignates World Heritage Sites: over 1,200 cultural and natural sites in 170 countries as of 2025\\nAlso maintains lists of Intangible Cultural Heritage (traditions, performing arts, crafts)\\nThe U.S. withdrew in 1984 (rejoined 2003), withdrew again in 2018 under Trump, and rejoined in 2023\\nIsrael also withdrew in 2018 after UNESCO recognized Palestinian membership\\nPromotes literacy, press freedom (World Press Freedom Day, May 3), and scientific cooperation worldwide",
+          "cardFront": "Founded 1945 \u2014 Paris",
+          "cardBack": "UNESCO"
+        },
+        {
+          "id": "amnesty-international",
+          "prompt": "Which London-based human rights organization, founded in 1961 after a British lawyer read about two Portuguese students imprisoned for raising a toast to freedom, won the Nobel Peace Prize in 1977?",
+          "answer": "Amnesty International",
+          "alternates": ["Amnesty", "AI"],
+          "explanation": "Founded in London in July 1961 by British lawyer Peter Benenson\\nHeadquartered in London, United Kingdom; over 10 million supporters worldwide\\nBegan with Benenson\u2019s article \u201cThe Forgotten Prisoners\u201d in The Observer newspaper (May 28, 1961)\\nAwarded the Nobel Peace Prize in 1977 for its work defending human rights and prisoners of conscience\\nCampaigns against torture, the death penalty, political imprisonment, and extrajudicial killings\\nThe candle wrapped in barbed wire is its iconic logo \u2014 symbolizing hope amid oppression\\nCoined the term \u201cprisoner of conscience\u201d for people jailed solely for their beliefs, ethnicity, or identity",
+          "cardFront": "Founded 1961 \u2014 London",
+          "cardBack": "Amnesty International"
+        }
+      ]
+    }
+  ]
+}

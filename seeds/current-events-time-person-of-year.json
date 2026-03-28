@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    { "id": "current-events/time-person-of-year", "parentId": "current-events", "name": "TIME Person of the Year", "description": "Notable TIME Person of the Year honorees since 1927" }
+  ],
+  "exercises": [
+    {
+      "id": "current-events/time-person-of-year/time-person-of-year",
+      "nodeId": "current-events/time-person-of-year",
+      "name": "TIME Person of the Year",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "lindbergh",
+          "prompt": "Who was the very first TIME Man of the Year in 1927, honored for completing the first solo nonstop transatlantic flight from New York to Paris?",
+          "answer": "Charles Lindbergh",
+          "alternates": ["Lindbergh", "Charles A. Lindbergh", "Charles Augustus Lindbergh"],
+          "explanation": "First-ever TIME Man of the Year, appearing on the January 2, 1928 cover\\nFlew the Spirit of St. Louis solo from New York to Paris on May 20\u201321, 1927 \u2014 3,600 miles in 33.5 hours\\nWas just 25 years old; held the youngest Person of the Year record until Greta Thunberg (age 16) in 2019\\nThe award was created because TIME had no obvious cover subject \u2014 an editor suggested picking a \"Man of the Year\" instead of a \"Man of the Week\"\\nHis infant son was kidnapped and murdered in 1932 \u2014 called the \"Crime of the Century\"\\nBecame controversial for his isolationist stance and acceptance of a medal from Nazi Germany in 1938\\nThe award was originally called \"Man of the Year\" and renamed \"Person of the Year\" in 1999",
+          "cardFront": "1927",
+          "cardBack": "Charles Lindbergh"
+        },
+        {
+          "id": "gandhi",
+          "prompt": "Which Indian independence leader was TIME's Man of the Year in 1930, the year he led a 240-mile march to the sea to protest the British salt tax?",
+          "answer": "Mahatma Gandhi",
+          "alternates": ["Gandhi", "Mohandas Gandhi", "Mohandas K. Gandhi", "Mohandas Karamchand Gandhi", "M.K. Gandhi"],
+          "explanation": "Named Man of the Year in 1930 for the Salt March (March\u2013April 1930); TIME's cover story was titled \"Saint Gandhi\"\\nMarched 240 miles from Sabarmati Ashram to the coastal village of Dandi to make salt in defiance of British law\\nSome 60,000 people were jailed during the subsequent salt satyagraha campaign\\nPioneered nonviolent resistance (satyagraha), influencing Martin Luther King Jr. and Nelson Mandela\\nAssassinated January 30, 1948 by Hindu nationalist Nathuram Godse\\nTrained as a lawyer in London; spent 21 years in South Africa before returning to India\\nNamed TIME's runner-up for Person of the Century in 1999 (behind Albert Einstein)",
+          "cardFront": "1930",
+          "cardBack": "Mahatma Gandhi"
+        },
+        {
+          "id": "fdr",
+          "prompt": "Which American president holds the record as the only person named TIME's Person of the Year three times (1932, 1934, 1941)?",
+          "answer": "Franklin D. Roosevelt",
+          "alternates": ["FDR", "Franklin Roosevelt", "Roosevelt", "Franklin Delano Roosevelt"],
+          "explanation": "Only person ever named TIME Person of the Year three times: 1932 (president-elect), 1934 (New Deal), 1941 (WWII entry)\\n32nd President (1933\u20131945); only president elected four times before the 22nd Amendment imposed term limits\\nFirst selection in 1932 came after his landslide victory over incumbent Herbert Hoover\\n1934 selection recognized the New Deal programs aimed at Depression recovery\\n1941 selection followed Japan's attack on Pearl Harbor and U.S. entry into World War II\\nDied in office on April 12, 1945, just weeks before Germany's surrender\\nServed longer than any other president: 12 years and 39 days",
+          "cardFront": "1932, 1934, 1941",
+          "cardBack": "Franklin D. Roosevelt"
+        },
+        {
+          "id": "wallis-simpson",
+          "prompt": "Which American socialite was TIME's first-ever Woman of the Year in 1936, chosen because a king abdicated his throne to marry her?",
+          "answer": "Wallis Simpson",
+          "alternates": ["Wallis Warfield Simpson", "Duchess of Windsor", "Mrs. Simpson", "Wallis Warfield"],
+          "explanation": "Named Woman of the Year in 1936 \u2014 the first female individual to receive the honor\\nKing Edward VIII abdicated on December 11, 1936, declaring he could not reign \"without the help and support of the woman I love\"\\nThe abdication crisis shook the British Empire; she was a twice-divorced American, unacceptable as queen consort\\nBecame the Duchess of Windsor after their marriage on June 3, 1937\\nThe couple lived in exile, mostly in France, for the rest of their lives\\nEdward's abdication made his brother George VI king \u2014 the father of Queen Elizabeth II\\nBorn Bessie Wallis Warfield in Blue Ridge Summit, Pennsylvania in 1896",
+          "cardFront": "1936",
+          "cardBack": "Wallis Simpson"
+        },
+        {
+          "id": "hitler",
+          "prompt": "Which German dictator, who annexed Austria and dismembered Czechoslovakia through the Munich Agreement, was TIME's most controversial Man of the Year choice in 1938?",
+          "answer": "Adolf Hitler",
+          "alternates": ["Hitler"],
+          "explanation": "Named Man of the Year in 1938 \u2014 widely considered the most controversial selection in the award's history\\nTIME stated he \"became in 1938 the greatest threatening force that the democratic, freedom-loving world faces today\"\\nThe cover depicted him playing a cathedral organ with dead bodies hanging from a wheel overhead \u2014 clearly not an endorsement\\nSelected for annexing Austria (Anschluss, March 1938) and forcing the Munich Agreement (September 1938)\\nThe Munich Conference with Chamberlain, Daladier, and Mussolini ceded the Sudetenland to Germany\\nTIME has repeatedly clarified the award recognizes influence, not approval: \"for better or for worse\"\\nWorld War II began less than a year later with Germany's invasion of Poland on September 1, 1939",
+          "cardFront": "1938",
+          "cardBack": "Adolf Hitler"
+        },
+        {
+          "id": "stalin",
+          "prompt": "Which Soviet dictator was named TIME's Man of the Year twice (1939, 1942) \u2014 first for the Molotov-Ribbentrop Pact, then for leading the defense against Nazi invasion?",
+          "answer": "Joseph Stalin",
+          "alternates": ["Stalin", "Josef Stalin"],
+          "explanation": "Named Man of the Year twice: 1939 (for the Nazi-Soviet pact) and 1942 (for the Soviet war effort)\\n1939 selection followed the Molotov-Ribbentrop Pact with Germany, which shocked the world and enabled the invasion of Poland\\n1942 selection recognized the Soviet Union's defense, particularly the Battle of Stalingrad (1942\u20131943)\\nGeneral Secretary of the Communist Party from 1922 until his death on March 5, 1953\\nHis regime killed millions through forced collectivization, purges, and the Gulag system\\nAttended the Yalta and Potsdam conferences that shaped the post-war world order\\nNikita Khrushchev denounced his \"cult of personality\" in the Secret Speech of 1956",
+          "cardFront": "1939, 1942",
+          "cardBack": "Joseph Stalin"
+        },
+        {
+          "id": "churchill",
+          "prompt": "Which British wartime leader was named TIME's Man of the Year in 1940 and later received the special designation \"Man of the Half-Century\" in 1949?",
+          "answer": "Winston Churchill",
+          "alternates": ["Churchill", "Sir Winston Churchill"],
+          "explanation": "Named Man of the Year for 1940 and Man of the Half-Century for 1949 \u2014 the first special \"Half-Century\" designation\\nBecame Prime Minister on May 10, 1940, the same day Germany invaded France and the Low Countries\\nHis speeches (\"We shall fight on the beaches,\" \"Their finest hour\") rallied British morale during the Blitz\\nServed two non-consecutive terms as PM: 1940\u20131945 and 1951\u20131955\\nWon the Nobel Prize in Literature in 1953 for his historical and biographical writing, not for politics\\nLost the 1945 general election to Clement Attlee despite leading Britain to victory in Europe\\nDied January 24, 1965; his state funeral drew the largest assembly of world leaders to that date",
+          "cardFront": "1940 (+ Half-Century 1949)",
+          "cardBack": "Winston Churchill"
+        },
+        {
+          "id": "queen-elizabeth",
+          "prompt": "Which 25-year-old royal, who ascended to the British throne in February 1952 after her father's death, was named TIME's Woman of the Year that same year?",
+          "answer": "Queen Elizabeth II",
+          "alternates": ["Elizabeth II", "Queen Elizabeth", "Elizabeth"],
+          "explanation": "Named Woman of the Year for 1952, the year she became queen at age 25 after the death of George VI on February 6\\nHer coronation on June 2, 1953 at Westminster Abbey was the first to be televised, watched by an estimated 27 million UK viewers\\nReigned for 70 years and 214 days (1952\u20132022) \u2014 the longest-reigning British monarch in history\\nHer accession was a direct consequence of the 1936 abdication: Edward VIII's departure put her father on the throne\\nDied September 8, 2022 at Balmoral Castle in Scotland at age 96\\nServed alongside 15 British prime ministers, from Churchill to Liz Truss\\nHer Silver (1977), Golden (2002), Diamond (2012), and Platinum (2022) Jubilees were major national celebrations",
+          "cardFront": "1952",
+          "cardBack": "Queen Elizabeth II"
+        },
+        {
+          "id": "mlk",
+          "prompt": "Which Baptist minister and civil rights leader, who delivered the \"I Have a Dream\" speech at the March on Washington, was named TIME's Man of the Year for 1963?",
+          "answer": "Martin Luther King Jr.",
+          "alternates": ["Martin Luther King", "MLK", "Dr. King", "King"],
+          "explanation": "Named Man of the Year for 1963, the year of the March on Washington and his \"I Have a Dream\" speech\\nLed the August 28, 1963 March on Washington, where an estimated 250,000 people gathered at the Lincoln Memorial\\nAwarded the Nobel Peace Prize in 1964 at age 35 \u2014 at the time, the youngest recipient\\nLed the Montgomery Bus Boycott (1955\u20131956), the Birmingham campaign (1963), and the Selma marches (1965)\\nAssassinated April 4, 1968 at the Lorraine Motel in Memphis, Tennessee at age 39\\nHis birthday (January 15) became a federal holiday in 1986 \u2014 the first honoring an African American\\nInspired by Gandhi's philosophy of nonviolent resistance after visiting India in 1959",
+          "cardFront": "1963",
+          "cardBack": "Martin Luther King Jr."
+        },
+        {
+          "id": "deng-xiaoping",
+          "prompt": "Which paramount leader of China, architect of sweeping economic reforms that blended communism with market capitalism, was named TIME's Person of the Year twice (1978, 1985)?",
+          "answer": "Deng Xiaoping",
+          "alternates": ["Deng", "Teng Hsiao-p'ing"],
+          "explanation": "Named Person of the Year twice: 1978 (for launching modernization) and 1985 (for deepening market reforms)\\n1978 selection recognized his \"Four Modernizations\" program for agriculture, industry, science/technology, and defense\\n1985 selection cited his \"sweeping economic reforms that have challenged Marxist orthodoxies\"\\nEffectively led China from 1978 to 1992 despite never holding the title of head of state or head of government\\nOrdered the Tiananmen Square crackdown on June 4, 1989, killing hundreds to thousands of pro-democracy protesters\\nFamous for the pragmatic saying: \"It doesn't matter whether a cat is black or white, as long as it catches mice\"\\nDied February 19, 1997, just months before the handover of Hong Kong from Britain to China",
+          "cardFront": "1978, 1985",
+          "cardBack": "Deng Xiaoping"
+        },
+        {
+          "id": "the-computer",
+          "prompt": "In 1982, TIME broke tradition by naming a non-human as its \"Machine of the Year\" \u2014 what device was it, described as transforming offices, homes, and daily life?",
+          "answer": "The Computer",
+          "alternates": ["Computer", "Personal Computer", "The Personal Computer", "PC"],
+          "explanation": "Named \"Machine of the Year\" for 1982 \u2014 the first non-human entity to receive the designation\\nTIME chose it over any individual, recognizing technology's transformative impact on society\\nThe IBM PC had launched in August 1981, establishing the standard for personal computing\\nThe Commodore 64 also launched in 1982, becoming the best-selling single computer model in history\\nApple had introduced the Apple II in 1977 and would unveil the Macintosh in January 1984\\nThe choice inspired a second non-human selection: \"The Endangered Earth\" was named Planet of the Year in 1988\\nTIME's managing editor said \"no single individual more dominated the year\" than this machine",
+          "cardFront": "1982",
+          "cardBack": "The Computer"
+        },
+        {
+          "id": "gorbachev",
+          "prompt": "Which Soviet leader, known for glasnost and perestroika, was named TIME's Man of the Year twice (1987, 1989) and received the special title \"Man of the Decade\"?",
+          "answer": "Mikhail Gorbachev",
+          "alternates": ["Gorbachev"],
+          "explanation": "Named Man of the Year for 1987 and 1989; his 1989 selection carried the special designation \"Man of the Decade\"\\n1987 selection called him \"a symbol of hope for a new kind of Soviet Union\"\\n1989 selection credited him as \"the force behind the most momentous events of the '80s\"\\nIntroduced glasnost (openness) and perestroika (restructuring), which inadvertently hastened the Soviet Union's collapse\\nAwarded the Nobel Peace Prize in 1990 for his role in ending the Cold War\\nOversaw the fall of the Berlin Wall (November 9, 1989) and German reunification (October 3, 1990)\\nThe Soviet Union dissolved on December 26, 1991; he died on August 30, 2022 at age 91",
+          "cardFront": "1987, 1989",
+          "cardBack": "Mikhail Gorbachev"
+        },
+        {
+          "id": "the-whistleblowers",
+          "prompt": "In 2002, TIME named three women \u2014 Cynthia Cooper, Coleen Rowley, and Sherron Watkins \u2014 as its Persons of the Year for exposing fraud and institutional failures at Enron, WorldCom, and the FBI. What collective title did TIME give them?",
+          "answer": "The Whistleblowers",
+          "alternates": ["Whistleblowers"],
+          "explanation": "Named Persons of the Year for 2002 as \"The Whistleblowers\" \u2014 three women who exposed major institutional failures\\nSherron Watkins warned Enron chairman Kenneth Lay about improper accounting before the company's collapse\\nCynthia Cooper exposed WorldCom's $3.8 billion accounting fraud, the largest corporate fraud at that time\\nColeen Rowley, an FBI staff attorney, revealed that the bureau ignored warnings about Zacarias Moussaoui before 9/11\\nTIME praised them \"for believing \u2014 really believing \u2014 that the truth is one thing that must not be moved off the books\"\\nAll three testified before Congress; their actions helped spur the Sarbanes-Oxley Act of 2002\\nFirst time three women shared the Person of the Year designation",
+          "cardFront": "2002",
+          "cardBack": "The Whistleblowers"
+        },
+        {
+          "id": "you",
+          "prompt": "In 2006, TIME placed a reflective Mylar mirror on its Person of the Year cover, honoring the millions of people creating content on YouTube, Wikipedia, and MySpace. What one-word answer was printed on the cover?",
+          "answer": "You",
+          "alternates": ["you", "Us"],
+          "explanation": "Named Person of the Year for 2006 \u2014 the cover featured a reflective Mylar mirror so readers saw themselves\\nHonored the rise of user-generated content on platforms like YouTube (founded 2005), Wikipedia, MySpace, and Facebook\\nEditor Richard Stengel: the mirror \"literally reflects the idea that you, not us, are transforming the information age\"\\nThe selection was widely mocked as a cop-out; critic Paul Kedrosky called it a \"near-term market top for user-generated content\"\\nYouTube had been acquired by Google for $1.65 billion in October 2006\\nFacebook had opened registration beyond college students in September 2006\\nNow seen as prescient: TIME later acknowledged the choice \"seemed gimmicky at the time but proved visionary\"",
+          "cardFront": "2006",
+          "cardBack": "You"
+        },
+        {
+          "id": "obama",
+          "prompt": "Which U.S. senator from Illinois, who became the first African American elected president, was named TIME's Person of the Year twice (2008, 2012)?",
+          "answer": "Barack Obama",
+          "alternates": ["Obama"],
+          "explanation": "Named Person of the Year twice: 2008 (first election) and 2012 (re-election)\\n44th President (2009\u20132017); first African American to hold the office\\n2008 selection followed his historic victory over John McCain with 365 electoral votes\\n2012 selection followed his re-election over Mitt Romney\\nSigned the Affordable Care Act (2010), ordered the raid that killed Osama bin Laden (2011), and normalized relations with Cuba (2014)\\nWon the Nobel Peace Prize in 2009, controversially, less than a year into his first term\\nOne of several presidents chosen as both president-elect and sitting president, following FDR",
+          "cardFront": "2008, 2012",
+          "cardBack": "Barack Obama"
+        },
+        {
+          "id": "pope-francis",
+          "prompt": "Which Argentine-born Jesuit, elected as the first head of the Catholic Church from the Americas, was named TIME's Person of the Year in 2013?",
+          "answer": "Pope Francis",
+          "alternates": ["Francis", "Jorge Mario Bergoglio", "Jorge Bergoglio"],
+          "explanation": "Named Person of the Year for 2013, praised \"for pulling the papacy out of the palace and into the streets\"\\nFirst Jesuit pope, first pope from the Americas, and first pope from the Southern Hemisphere\\nElected on March 13, 2013, taking the name Francis after St. Francis of Assisi \u2014 the first pope to choose that name\\nThird pope named Person of the Year, after John XXIII (1962) and John Paul II (1994)\\nBorn Jorge Mario Bergoglio in Buenos Aires, Argentina on December 17, 1936 to an Italian immigrant father and Argentine-born mother of Italian descent\\nKnown for a more informal papal style: chose to live in the Vatican guesthouse rather than the Apostolic Palace\\nDied April 21, 2025 at age 88; served as pope for over 12 years",
+          "cardFront": "2013",
+          "cardBack": "Pope Francis"
+        },
+        {
+          "id": "ebola-fighters",
+          "prompt": "In 2014, TIME honored the doctors, nurses, and health workers risking their lives in West Africa to contain a deadly viral epidemic. What collective name did the cover use?",
+          "answer": "Ebola Fighters",
+          "alternates": ["The Ebola Fighters", "Ebola fighters"],
+          "explanation": "Named Person of the Year for 2014 as \"The Ebola Fighters\" \u2014 honoring the health workers combating the West African epidemic\\nThe 2014\u20132016 outbreak killed over 11,000 people across Guinea, Liberia, and Sierra Leone\\nFive individual health workers appeared on the cover, representing thousands who risked their lives on the front lines\\nTIME cited them \"for tireless acts of courage and mercy, for buying the world time to boost its defenses\"\\nThe epidemic spread to Nigeria, Mali, Senegal, Spain, the United Kingdom, and the United States, triggering global panic\\nDr. Kent Brantly and Nancy Writebol became the first Ebola patients treated in the U.S., at Emory University Hospital\\nThe WHO declared the outbreak over on June 9, 2016",
+          "cardFront": "2014",
+          "cardBack": "Ebola Fighters"
+        },
+        {
+          "id": "trump",
+          "prompt": "Which real estate mogul and TV personality, who defeated Hillary Clinton in a surprise 2016 upset, was named TIME's Person of the Year that year and again in 2024 after a historic political comeback?",
+          "answer": "Donald Trump",
+          "alternates": ["Trump"],
+          "explanation": "Named Person of the Year twice: 2016 (first election) and 2024 (second election)\\n45th and 47th President; only president since Grover Cleveland to serve non-consecutive terms\\n2016 cover read \"President of the Divided States of America\"; he won the Electoral College 304\u2013227 while losing the popular vote\\n2024 selection cited his \"comeback of historic proportions\" and \"once-in-a-generation political realignment\"\\nBeat shortlists that included Vladimir Putin (2016) and Kamala Harris (2024)\\nThe only person impeached twice by the House of Representatives (2019 and 2021)\\nHost of The Apprentice (2004\u20132015); his catchphrase \"You're fired\" became a cultural phenomenon",
+          "cardFront": "2016, 2024",
+          "cardBack": "Donald Trump"
+        },
+        {
+          "id": "thunberg",
+          "prompt": "Which 16-year-old Swedish climate activist, who started a solo school strike outside parliament in 2018, became the youngest-ever TIME Person of the Year in 2019?",
+          "answer": "Greta Thunberg",
+          "alternates": ["Thunberg", "Greta"],
+          "explanation": "Named Person of the Year for 2019 at age 16 \u2014 the youngest individual ever to receive the honor\\nBroke the record previously held by Charles Lindbergh, who was 25 when named in 1927\\nBegan her \"Skolstrejk f\u00f6r klimatet\" (School Strike for Climate) alone outside the Swedish parliament in August 2018\\nHer activism sparked the global Fridays for Future movement, with millions of students striking worldwide\\nFamously told world leaders at the UN Climate Action Summit in September 2019: \"How dare you\"\\nDiagnosed with Asperger syndrome, which she has called her \"superpower\"\\nFirst Person of the Year born in the 21st century (born January 3, 2003)",
+          "cardFront": "2019",
+          "cardBack": "Greta Thunberg"
+        },
+        {
+          "id": "zelenskyy",
+          "prompt": "Which former comedian and actor, elected president of his country in 2019, was named TIME's 2022 Person of the Year alongside \"the spirit of\" his nation after it was invaded by Russia?",
+          "answer": "Volodymyr Zelenskyy",
+          "alternates": ["Zelenskyy", "Zelensky", "Volodymyr Zelensky", "Volodymyr Zelenskiy"],
+          "explanation": "Named Person of the Year for 2022 alongside \"the spirit of Ukraine\" after Russia's full-scale invasion on February 24\\nTIME cited him \"for proving that courage can be as contagious as fear\" and \"for reminding the world of the fragility of democracy\"\\nRefused to flee Kyiv, reportedly telling the U.S.: \"I need ammunition, not a ride\"\\nPosted a 40-second Instagram video on February 25, 2022 showing his cabinet intact and in place in Kyiv\\nStarred in the Ukrainian TV series Servant of the People (2015\u20132019), playing a teacher who becomes president\\nElected president of Ukraine in April 2019 with 73% of the vote, defeating incumbent Petro Poroshenko\\nDelivered virtual addresses to dozens of world parliaments, the World Bank, and even the Grammy Awards",
+          "cardFront": "2022",
+          "cardBack": "Volodymyr Zelenskyy"
+        },
+        {
+          "id": "taylor-swift",
+          "prompt": "Which pop megastar, whose record-breaking Eras Tour became the first concert tour to gross over $1 billion, was named TIME's Person of the Year for 2023?",
+          "answer": "Taylor Swift",
+          "alternates": ["Swift", "T. Swift"],
+          "explanation": "Named Person of the Year for 2023 \u2014 the first entertainer to receive the designation solo in the award's 96-year history\\nThe Eras Tour became the first concert tour to gross over $1 billion; average attendee reportedly spent nearly $1,300\\nBecame a billionaire in 2023, driven by tour revenue, re-recorded albums, and streaming dominance\\nThe Eras Tour concert film became the highest-grossing concert movie in history\\nHer Glendale, Arizona tour stop generated more local revenue than the 2023 Super Bowl held in the same stadium\\nBecame Spotify's most-streamed artist globally in 2023, ending Bad Bunny's three-year reign\\nRe-recorded her early albums (\"Taylor's Version\") to reclaim ownership after a publicized dispute over her masters",
+          "cardFront": "2023",
+          "cardBack": "Taylor Swift"
+        }
+      ]
+    }
+  ]
+}
