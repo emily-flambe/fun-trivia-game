@@ -1,16 +1,16 @@
 {
   "nodes": [
     {
-      "id": "american-history/states",
-      "parentId": "american-history",
+      "id": "geography/us-states",
+      "parentId": "geography",
       "name": "U.S. States",
       "description": "U.S. states, capitals, and geography"
     }
   ],
   "exercises": [
     {
-      "id": "american-history/states/state-capitals",
-      "nodeId": "american-history/states",
+      "id": "geography/us-states/state-capitals",
+      "nodeId": "geography/us-states",
       "name": "U.S. State Capitals",
       "format": "fill-blanks",
       "config": {

@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "world-history/wars-and-conflicts",
+      "parentId": "world-history",
+      "name": "Wars & Conflicts",
+      "description": "Major wars and conflicts throughout world history"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/wars-and-conflicts/major-wars",
+      "nodeId": "world-history/wars-and-conflicts",
+      "name": "Major Wars & Conflicts",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "peloponnesian-war",
+          "prompt": "Which war (431–404 BCE) pitted Athens against Sparta and ended with the defeat of the Athenian Empire, described in detail by historian Thucydides?",
+          "answer": "Peloponnesian War",
+          "alternates": [],
+          "explanation": "Athens (Delian League) vs. Sparta (Peloponnesian League), 431–404 BCE\nThucydides wrote *History of the Peloponnesian War* — the definitive ancient account, a model of historical methodology\nA plague struck Athens in 430 BCE, killing ~25% of the population including the statesman Pericles\nSparta won with Persian financial support; Athens was forced to demolish its Long Walls and disband its fleet\nVictory weakened all Greek city-states, enabling Macedonian domination under Philip II and Alexander the Great\nThucydides identified Spartan fear of growing Athenian power as the true cause — a dynamic later scholars call the 'Thucydides Trap'",
+          "cardFront": "Athens vs. Sparta, 431–404 BCE",
+          "cardBack": "Peloponnesian War"
+        },
+        {
+          "id": "punic-wars",
+          "prompt": "What series of three wars between Rome and Carthage, fought from 264 to 146 BCE, featured Hannibal crossing the Alps with war elephants and ended with Rome razing Carthage to the ground?",
+          "answer": "Punic Wars",
+          "alternates": [
+            "Punic War"
+          ],
+          "explanation": "Three wars between Rome and Carthage (264–146 BCE); 'Punic' from Latin 'Poenicus' (Phoenician)\nFirst Punic War (264–241 BCE): Rome built its first navy to contest Sicilian territory and won\nSecond Punic War (218–201 BCE): Hannibal crossed the Alps with war elephants; crushed Rome at Cannae (216 BCE), killing ~50,000 Romans in one day\nScipio Africanus defeated Hannibal at Zama (202 BCE), ending Carthaginian power\nThird Punic War (149–146 BCE): Rome besieged and razed Carthage completely; 50,000 survivors sold into slavery\nSenator Cato the Elder ended every Senate speech with 'Carthago delenda est' ('Carthage must be destroyed')",
+          "cardFront": "Rome vs Carthage, Hannibal, 264–146 BCE",
+          "cardBack": "Punic Wars"
+        },
+        {
+          "id": "battle-of-hastings",
+          "prompt": "Which October 1066 battle saw William the Conqueror defeat King Harold II of England, beginning the Norman conquest?",
+          "answer": "Battle of Hastings",
+          "alternates": [
+            "Hastings"
+          ],
+          "explanation": "Fought October 14, 1066 near Hastings, East Sussex; William, Duke of Normandy vs. King Harold II\nHarold had just defeated another invasion (Harald Hardrada of Norway) at Stamford Bridge three weeks earlier\nHarold reportedly killed by an arrow through the eye — depicted in the Bayeux Tapestry (70-meter embroidered narrative)\nNorman conquest transformed English: French became the language of court, giving English roughly half its vocabulary\nWilliam commissioned the Domesday Book (1086) — a comprehensive census of England's land and resources\nOne of the most consequential battles in English history; Norman feudalism permanently altered English law, society, and architecture",
+          "cardFront": "October 14, 1066, William vs. Harold II",
+          "cardBack": "Battle of Hastings"
+        },
+        {
+          "id": "crusades",
+          "prompt": "What name is given to the series of religious wars (1095–1291) launched by European Christians to capture the Holy Land from Muslim powers?",
+          "answer": "The Crusades",
+          "alternates": [
+            "Crusades"
+          ],
+          "explanation": "Nine major Crusades from 1095 (Pope Urban II's call at Clermont) to 1271–1291\nFirst Crusade (1096–1099) succeeded: Crusaders captured Jerusalem in 1099 and massacred its Muslim and Jewish population\nSaladin (Salah ad-Din) retook Jerusalem in 1187, triggering the Third Crusade led by Richard I 'Lionheart' of England\nFourth Crusade (1202–1204): diverted by Venice and sacked Constantinople — fellow Christian city — in 1204\nFailed strategically: all Crusader states were eventually lost; last stronghold Acre fell in 1291\nLasting legacy: opened Silk Road trade routes to Europe, transmitted classical knowledge, and created deep Christian-Muslim antagonism",
+          "cardFront": "Holy Land, 1095–1291, Pope Urban II",
+          "cardBack": "The Crusades"
+        },
+        {
+          "id": "hundred-years-war",
+          "prompt": "Which conflict (1337–1453) was fought between England and France over the French throne, famously turned by a teenage French peasant girl who claimed to hear divine voices?",
+          "answer": "Hundred Years' War",
+          "alternates": [
+            "Hundred Years War"
+          ],
+          "explanation": "England vs. France, 1337–1453 (actually 116 years, fought intermittently)\nTrigger: English king Edward III claimed the French throne via his French mother, Isabella\nJoan of Arc (1412–1431) led French forces to key victories before being captured and burned at the stake as a heretic by the English-allied Burgundians\nEnded with France expelling England from all continental territory except Calais\nEnglish longbow dominated early battles: Crécy (1346) and Agincourt (1415), where Henry V defeated a far larger French army\nAftermath in England: the dynastic instability sparked the Wars of the Roses (1455–1487) between Lancaster and York",
+          "cardFront": "England vs. France, Joan of Arc, 1337–1453",
+          "cardBack": "Hundred Years' War"
+        },
+        {
+          "id": "thirty-years-war",
+          "prompt": "Which devastating Central European conflict (1618–1648), begun by the Defenestration of Prague, transformed from a religious war into a broader power struggle and ended with the Peace of Westphalia?",
+          "answer": "Thirty Years' War",
+          "alternates": [
+            "Thirty Years War"
+          ],
+          "explanation": "1618–1648 in the Holy Roman Empire; began as Catholic vs. Protestant conflict before drawing in all major European powers\nTriggered by the Defenestration of Prague (1618): Protestant Bohemian nobles threw Catholic Habsburg officials from a castle window\nFrance (Catholic) backed the Protestant side to weaken the Habsburgs — demonstrating the war's shift from religion to power politics\nPeace of Westphalia (1648) established the principle of state sovereignty and religious tolerance — foundation of the modern nation-state system\nKilled ~8 million people, mainly through famine and disease; Central European population declined 25–40%\nSweden emerged as a major power; France under Richelieu weakened the Habsburgs and became Europe's dominant land power",
+          "cardFront": "1618–1648, Defenestration of Prague, Peace of Westphalia",
+          "cardBack": "Thirty Years' War"
+        },
+        {
+          "id": "seven-years-war",
+          "prompt": "Which 1756–1763 conflict — fought across five continents by all major European powers — established Britain as the dominant global empire and is sometimes called the first world war?",
+          "answer": "Seven Years' War",
+          "alternates": [
+            "Seven Years War",
+            "French and Indian War"
+          ],
+          "explanation": "Fought 1756–1763 across Europe, North America, the Caribbean, West Africa, India, and the Philippines\nKnown as the French and Indian War in North America, where Britain defeated France for colonial supremacy\nBritain emerged as the dominant global power, gaining Canada, Florida, and India under the Treaty of Paris (1763)\nPrussian King Frederick the Great's genius allowed Prussia to survive simultaneous war against France, Austria, Russia, and Sweden\nConsidered a true world war: five continents, seven years, every major European power involved\nBritain's war debt led to new taxes on American colonists — the Stamp Act (1765) and others — directly causing the American Revolution",
+          "cardFront": "1756–1763, five continents, first world war",
+          "cardBack": "Seven Years' War"
+        },
+        {
+          "id": "napoleonic-wars",
+          "prompt": "Which series of conflicts (1803–1815) saw Napoleon Bonaparte's France dominate most of Europe before his final defeat at Waterloo?",
+          "answer": "Napoleonic Wars",
+          "alternates": [
+            "Napoleonic War"
+          ],
+          "explanation": "Series of wars 1803–1815 between Napoleonic France and shifting coalitions of European powers (up to six coalitions)\nAt peak, France controlled territory from Spain to the borders of Russia, and Napoleon had installed family members as kings\nDisastrous 1812 Russian campaign: of 600,000 soldiers who entered Russia, fewer than 100,000 returned — Russian winter and scorched-earth tactics proved decisive\nNapoleon defeated at Leipzig (1813, 'Battle of the Nations') and exiled to Elba; escaped and returned for the Hundred Days\nFinal defeat at Waterloo (June 18, 1815) by Wellington (Britain) and Blücher (Prussia)\nCongress of Vienna (1815) redrew Europe's map and created the balance-of-power system that lasted until WWI",
+          "cardFront": "Napoleon, 1803–1815, Waterloo",
+          "cardBack": "Napoleonic Wars"
+        },
+        {
+          "id": "battle-of-waterloo",
+          "prompt": "Which June 1815 battle — Napoleon's final defeat at the hands of Wellington and Blücher — ended the Hundred Days and led to Napoleon's exile to Saint Helena?",
+          "answer": "Battle of Waterloo",
+          "alternates": [
+            "Waterloo"
+          ],
+          "explanation": "Fought June 18, 1815 near Waterloo (modern Belgium); Napoleon vs. Duke of Wellington (Britain) and Field Marshal Blücher (Prussia)\nNapoleon had escaped from Elba in March 1815 and retook power in France for just 100 days before this decisive defeat\nNapoleon delayed his morning attack until 11 am to let the ground dry; Wellington called victory 'the nearest run thing you ever saw'\nPrussian reinforcements arrived in the afternoon and shattered Napoleon's retreating Imperial Guard\nNapoleon exiled to Saint Helena (remote South Atlantic island) where he died in 1821\n'Meeting one's Waterloo' entered the language as an idiom for a final, crushing defeat",
+          "cardFront": "June 18, 1815, Napoleon's final defeat",
+          "cardBack": "Battle of Waterloo"
+        },
+        {
+          "id": "opium-wars",
+          "prompt": "Which two wars (1839–1842 and 1856–1860), fought between Britain (and later France) and Qing China over trade rights, resulted in the cession of Hong Kong and inaugurated China's 'Century of Humiliation'?",
+          "answer": "Opium Wars",
+          "alternates": [
+            "Opium War"
+          ],
+          "explanation": "First Opium War (1839–1842): Britain forced China to open trade after China confiscated and destroyed British opium imports\nTreaty of Nanking (1842): China ceded Hong Kong Island, opened 5 treaty ports (Shanghai, Canton, etc.) — first of China's 'unequal treaties'\nSecond Opium War (1856–1860): Britain and France attacked China over an incident involving a Chinese-registered British ship\nAnglo-French forces burned and looted the Imperial Summer Palace (Yuanmingyuan) in Beijing (1860)\nTreaties of Tientsin legalized the opium trade and opened more ports\nBeginning of China's 'Century of Humiliation' (1839–1949): an era of foreign subjugation that shaped modern Chinese national identity",
+          "cardFront": "1839–1842, 1856–1860 | Britain vs. Qing China | Hong Kong | 'Century of Humiliation'",
+          "cardBack": "Opium Wars"
+        },
+        {
+          "id": "crimean-war",
+          "prompt": "Which 1853–1856 war — fought mainly in the Crimean Peninsula by Russia against an Ottoman-British-French alliance — became famous for Florence Nightingale's nursing reforms and the disastrous Charge of the Light Brigade?",
+          "answer": "Crimean War",
+          "alternates": [],
+          "explanation": "Fought 1853–1856; Russia vs. Ottoman Empire, France, Britain, and Sardinia over Russian ambitions in Ottoman territory\nSiege of Sevastopol (1854–1855): the 11-month siege was the war's central campaign and Russia's most humiliating failure\nFlorence Nightingale organized nursing at Scutari hospital, reducing British mortality from ~40% to ~2% — founding modern nursing\nCharge of the Light Brigade (October 25, 1854): 600 British cavalry charged Russian artillery due to miscommunication; immortalized by Tennyson's poem\nFirst war extensively covered by telegraph dispatches and journalists — public opinion became a military factor for the first time\nRussia's defeat halted its southward expansion and exposed military modernization gaps relative to Western powers",
+          "cardFront": "1853–1856, Crimea, Florence Nightingale",
+          "cardBack": "Crimean War"
+        },
+        {
+          "id": "franco-prussian-war",
+          "prompt": "Which 1870–1871 war, in which Prussia decisively defeated France, led to German unification and the humiliating proclamation of the German Empire in the Hall of Mirrors at Versailles?",
+          "answer": "Franco-Prussian War",
+          "alternates": [],
+          "explanation": "Fought 1870–1871; initiated by Bismarck's manipulation of the Ems Dispatch to provoke France into declaring war\nPrussian forces besieged Paris and captured Emperor Napoleon III at Sedan (September 1870) — the decisive blow\nGerman Empire proclaimed in the Hall of Mirrors at Versailles on January 18, 1871 — deliberately humiliating France\nFrance ceded Alsace-Lorraine to Germany; France's obsession with recovering it was a direct cause of WWI\nParis Commune (1871): France's short-lived socialist government that lasted 72 days before violent suppression by French troops\nBismarck's masterwork of Realpolitik: isolated France diplomatically, provoked it to attack first, and unified Germany in one campaign",
+          "cardFront": "Prussia vs. France, 1870–1871, German unification",
+          "cardBack": "Franco-Prussian War"
+        },
+        {
+          "id": "boer-war",
+          "prompt": "Which 1899–1902 war between the British Empire and two Boer republics in South Africa pioneered the use of concentration camps and ended with British dominance over the region?",
+          "answer": "Boer War",
+          "alternates": [
+            "Second Boer War",
+            "Boer Wars"
+          ],
+          "explanation": "Fought 1899–1902 between Britain and the Transvaal (South African Republic) and Orange Free State (Boer republics)\nBoers were descendants of Dutch settlers; Britain wanted control of the Witwatersrand gold fields discovered in 1886\nBoers used highly effective guerrilla warfare; Britain responded with scorched-earth tactics and concentration camps\n~28,000 Boer civilians (mostly children) and ~20,000 Black Africans died in British concentration camps from disease\nPeace of Vereeniging (1902): Boer republics absorbed into the British Empire\nBrought severe international criticism of British imperialism; future South African PMs Louis Botha and Jan Smuts were former Boer commanders",
+          "cardFront": "Britain vs. Boer republics, 1899–1902, South Africa",
+          "cardBack": "Boer War"
+        },
+        {
+          "id": "russo-japanese-war",
+          "prompt": "Which 1904–1905 war shocked the world when Japan decisively defeated Russia — the first time a modern Asian nation had defeated a major European power?",
+          "answer": "Russo-Japanese War",
+          "alternates": [],
+          "explanation": "Fought 1904–1905 over control of Manchuria and Korea; Japan launched a surprise attack on the Russian fleet at Port Arthur (February 8, 1904) before declaring war\nBattle of Tsushima (May 1905): Japan's navy annihilated Russia's Baltic Fleet after its 18,000-mile voyage from the Baltic Sea\nFirst decisive modern defeat of a European power by an Asian nation — shocked Western assumptions of racial and military superiority\nRussia's humiliation triggered the 1905 Russian Revolution (Bloody Sunday, January 22, 1905)\nSettled by the Treaty of Portsmouth (1905), mediated by President Theodore Roosevelt, who won the Nobel Peace Prize for it\nInspired anti-colonial independence movements across Asia and Africa",
+          "cardFront": "Japan vs. Russia, 1904–1905, first Asian defeat of European power",
+          "cardBack": "Russo-Japanese War"
+        },
+        {
+          "id": "world-war-i",
+          "prompt": "Which global war (1914–1918), triggered by Archduke Franz Ferdinand's assassination, resulted in ~20 million deaths and the collapse of four empires?",
+          "answer": "World War I",
+          "alternates": [
+            "WWI",
+            "WW1",
+            "The Great War",
+            "First World War"
+          ],
+          "explanation": "Fought 1914–1918 between the Allies (Britain, France, Russia, later USA) and Central Powers (Germany, Austria-Hungary, Ottoman Empire)\nArchduke Franz Ferdinand of Austria-Hungary assassinated in Sarajevo on June 28, 1914, by Gavrilo Princip of the Black Hand\nTrench warfare on the Western Front: Battle of the Somme (1916) saw 60,000 British casualties on Day 1 — the bloodiest in British military history\nUS entered April 1917 after Germany's unrestricted submarine warfare and the Zimmermann Telegram (Germany proposed Mexico attack the US)\nArmistice at the 11th hour of the 11th day of the 11th month (November 11, 1918); collapsed the German, Austro-Hungarian, Ottoman, and Russian Empires\nTreaty of Versailles (1919): Article 231 ('war guilt clause') imposed harsh reparations on Germany — widely blamed for creating conditions for WWII",
+          "cardFront": "1914–1918, Western Front, Franz Ferdinand",
+          "cardBack": "World War I"
+        },
+        {
+          "id": "spanish-civil-war",
+          "prompt": "Which 1936–1939 conflict — in which Francisco Franco's Nationalists defeated the Spanish Republic with support from Nazi Germany and Fascist Italy — served as a military testing ground for World War II?",
+          "answer": "Spanish Civil War",
+          "alternates": [],
+          "explanation": "Fought July 1936–April 1939 between Franco's Nationalists (backed by Nazi Germany and Fascist Italy) and the Republic (backed by the Soviet Union)\nOver 500,000 died; ~500,000 fled into exile after Franco's victory\nInternational Brigades: ~32,000 foreign volunteers (including writers like George Orwell and Ernest Hemingway) fought for the Republic\nGuernica (April 26, 1937): Nazi Luftwaffe bombed this Basque market town to test aerial bombing tactics; Picasso painted *Guernica* in response\nFranco ruled Spain as dictator until his death in 1975, one of the longest surviving fascist regimes\nConsidered a 'dress rehearsal' for WWII: Germany and Italy tested weapons, tactics, and coordination that they would use in the coming world war",
+          "cardFront": "1936–1939, Franco, Guernica, Spain",
+          "cardBack": "Spanish Civil War"
+        },
+        {
+          "id": "world-war-ii",
+          "prompt": "Which global war (1939–1945), begun with Germany's invasion of Poland, caused the most deaths in human history — an estimated 70–85 million — and ended with atomic bombs dropped on Japan?",
+          "answer": "World War II",
+          "alternates": [
+            "WWII",
+            "WW2",
+            "Second World War"
+          ],
+          "explanation": "Fought 1939–1945 between the Allies (UK, USA, USSR, France) and Axis (Germany, Italy, Japan)\nGermany invaded Poland on September 1, 1939; France and Britain declared war two days later\nHolocaust: Nazi Germany systematically murdered ~6 million Jews and ~6 million others in concentration and death camps\nD-Day (June 6, 1944): Allied invasion of Normandy — 156,000 troops landed on the first day in the largest amphibious invasion in history\nHiroshima (August 6) and Nagasaki (August 9, 1945): US dropped atomic bombs; Japan surrendered August 15, 1945\nDeadliest conflict in history: ~70–85 million deaths total, including an estimated 50–55 million civilians",
+          "cardFront": "1939–1945, Holocaust, D-Day, Hiroshima",
+          "cardBack": "World War II"
+        },
+        {
+          "id": "korean-war",
+          "prompt": "Which 1950–1953 war — often called 'The Forgotten War' — ended in an armistice (not a peace treaty) that left Korea divided near the 38th parallel?",
+          "answer": "Korean War",
+          "alternates": [
+            "Forgotten War"
+          ],
+          "explanation": "Fought June 1950–July 1953; North Korea (backed by China and USSR) invaded South Korea on June 25, 1950\nUN forces under Gen. Douglas MacArthur pushed North Korea to the Chinese border; China entered with ~300,000 troops in October 1950, driving UN forces south\nMacArthur fired by Truman in April 1951 for publicly advocating use of nuclear weapons against China — a constitutional crisis over civilian control of the military\nArmistice signed July 27, 1953 — technically no peace treaty exists; North and South Korea remain in a legal state of war\nCreated the world's most heavily fortified border: the Demilitarized Zone (DMZ) at roughly the 38th parallel\nUS casualties: 36,574 dead; South Korean casualties: ~137,000 military; estimated 2–3 million total deaths including civilians",
+          "cardFront": "1950–1953, 38th parallel, 'The Forgotten War'",
+          "cardBack": "Korean War"
+        },
+        {
+          "id": "vietnam-war",
+          "prompt": "Which conflict (1955–1975) ended with North Vietnamese forces capturing Saigon, marking the first military defeat for the United States?",
+          "answer": "Vietnam War",
+          "alternates": [
+            "Vietnam"
+          ],
+          "explanation": "Fought 1955–1975 between communist North Vietnam (backed by USSR and China) and South Vietnam (backed by USA)\nUS involvement escalated after the Gulf of Tonkin Resolution (1964) — authorization based on a disputed or fabricated naval incident\nPeak US deployment: 543,000 troops in 1969; 58,220 Americans died in total\nTet Offensive (January 30, 1968): coordinated North Vietnamese attacks on 100+ cities shocked Americans and turned public opinion against the war\nUS withdrew under 'Vietnamization'; Paris Peace Accords signed January 27, 1973\nSaigon fell April 30, 1975; Vietnam reunified under communist rule as the Socialist Republic of Vietnam in 1976",
+          "cardFront": "1955–1975, Saigon fell, first US military defeat",
+          "cardBack": "Vietnam War"
+        },
+        {
+          "id": "six-day-war",
+          "prompt": "Which June 1967 Arab-Israeli conflict — lasting only six days — resulted in Israel capturing the Sinai Peninsula, Gaza Strip, West Bank, and Golan Heights?",
+          "answer": "Six-Day War",
+          "alternates": [
+            "1967 Arab-Israeli War"
+          ],
+          "explanation": "Fought June 5–10, 1967 between Israel and Egypt, Jordan, and Syria\nIsrael launched a preemptive air strike on June 5, destroying most of Egypt's air force on the ground within hours\nIsrael captured Sinai Peninsula and Gaza Strip from Egypt, West Bank from Jordan, and Golan Heights from Syria\nIsrael tripled its territory in six days and reunified Jerusalem under Israeli control, including the Temple Mount and Western Wall\nCreated ~300,000 Palestinian refugees from the West Bank and Gaza — the origins of the modern Palestinian refugee crisis\nTransformed Middle Eastern geopolitics permanently; territories captured remain central to the Israeli-Palestinian conflict today",
+          "cardFront": "Israel vs. Egypt/Jordan/Syria, June 1967",
+          "cardBack": "Six-Day War"
+        },
+        {
+          "id": "yom-kippur-war",
+          "prompt": "Which 1973 war, in which Egypt and Syria launched a surprise attack on Israel on the holiest day of the Jewish calendar, triggered the OPEC oil embargo and a global energy crisis?",
+          "answer": "Yom Kippur War",
+          "alternates": [
+            "October War",
+            "Ramadan War",
+            "1973 Arab-Israeli War"
+          ],
+          "explanation": "October 6–25, 1973; also called the October War or Ramadan War\nEgypt (Anwar Sadat) and Syria coordinated a surprise attack on Israel on Yom Kippur, the holiest day of the Jewish year\nEgyptian forces crossed the Suez Canal; Israel was initially caught off guard, then counterattacked and crossed the Canal itself\nUSA airlifted supplies to Israel; USSR resupplied Egypt and Syria — nuclear alert raised on both sides\nOPEC imposed an oil embargo on the US and Western allies → 1973 oil crisis (gas prices quadrupled within months)\nLed to Camp David Accords (1978) and Egypt-Israel Peace Treaty (1979); Sadat and Begin shared Nobel Peace Prize (1978)",
+          "cardFront": "October 1973 | Egypt + Syria vs. Israel | surprise Yom Kippur attack | OPEC embargo",
+          "cardBack": "Yom Kippur War"
+        },
+        {
+          "id": "falklands-war",
+          "prompt": "Which 1982 conflict between Britain and Argentina, fought over islands in the South Atlantic, ended with British victory and contributed to Argentina's return to democracy?",
+          "answer": "Falklands War",
+          "alternates": [
+            "Falklands",
+            "Malvinas War"
+          ],
+          "explanation": "Fought April–June 1982; Argentina invaded the British-controlled Falkland Islands (Islas Malvinas) on April 2, 1982\nArgentina's military junta under Leopoldo Galtieri ordered the invasion to distract from domestic economic crisis and political unrest\nBritain's Task Force sailed 8,000 miles to retake the islands; 74-day conflict ending with Argentine surrender June 14, 1982\nCasualties: 255 British and 649 Argentine military deaths; 3 Falkland Islands civilians killed\nThe junta's defeat discredited Argentina's military government and accelerated the country's return to democracy in 1983\nMargaret Thatcher's poll numbers surged after victory — the 'Falklands factor' contributed heavily to her 1983 landslide election win",
+          "cardFront": "Britain vs. Argentina, 1982, South Atlantic",
+          "cardBack": "Falklands War"
+        },
+        {
+          "id": "iran-iraq-war",
+          "prompt": "Which war (1980–1988), the longest conventional war of the 20th century, saw Iraq invade Iran under Saddam Hussein, who deployed chemical weapons including against Kurdish civilians at Halabja?",
+          "answer": "Iran-Iraq War",
+          "alternates": [],
+          "explanation": "September 22, 1980 – August 20, 1988; Iraq invaded Iran citing border disputes and fear of Iran's Islamic Revolution spreading\nIraq (Saddam Hussein) used chemical weapons — mustard gas and nerve agents — against Iranian troops and Kurdish civilians\nHalabja massacre (March 16–17, 1988): Iraq killed an estimated 3,200–5,000 Kurdish civilians with chemical weapons\n∼500,000 military deaths on each side; ended in stalemate with borders essentially unchanged\nThe US supported Iraq diplomatically during the war; Iran was still isolated after the 1979-1981 hostage crisis\nUN-brokered ceasefire (Resolution 598) on August 20, 1988; the longest conventional war of the 20th century",
+          "cardFront": "1980–1988 | Iraq vs. Iran | Halabja chemical attack | Saddam Hussein | stalemate",
+          "cardBack": "Iran-Iraq War"
+        },
+        {
+          "id": "gulf-war",
+          "prompt": "Which 1990–1991 war saw a US-led coalition of 35 nations expel Iraqi forces from Kuwait in Operation Desert Storm?",
+          "answer": "Gulf War",
+          "alternates": [
+            "Persian Gulf War",
+            "First Gulf War",
+            "Desert Storm"
+          ],
+          "explanation": "Fought August 1990–February 1991 after Iraq invaded Kuwait on August 2, 1990\nSaddam Hussein annexed Kuwait, claiming it was historically Iraqi and targeting its oil wealth; the UN condemned the invasion\nUS-led coalition of 35 nations authorized by UN Security Council; Operation Desert Shield (defense) became Operation Desert Storm (offensive)\nAir campaign began January 17, 1991; ground war lasted only 100 hours (February 24–28, 1991)\nCoalition drove Iraqi forces from Kuwait with minimal coalition losses (~300 deaths vs. ~25,000+ Iraqi military casualties)\nBush administration stopped short of toppling Saddam Hussein, a decision controversial in retrospect; Saddam remained in power until the 2003 Iraq War",
+          "cardFront": "Iraq vs. Kuwait, 1990–1991, Operation Desert Storm",
+          "cardBack": "Gulf War"
+        },
+        {
+          "id": "bosnian-war",
+          "prompt": "Which 1992–1995 war in the former Yugoslavia included the Srebrenica massacre — the worst atrocity in Europe since World War II — and ended with the U.S.-brokered Dayton Agreement?",
+          "answer": "Bosnian War",
+          "alternates": [
+            "Bosnian Conflict",
+            "Bosnia War"
+          ],
+          "explanation": "Bosnia and Herzegovina vs. Republika Srpska (Bosnian Serbs, backed by Serbia), 1992–1995\nFollowed Bosnia's declaration of independence from Yugoslavia; Bosnian Serbs sought to create ethnically homogeneous territory\nSiege of Sarajevo (1992–1996): 1,425 days — the longest siege of a capital city in modern warfare\nSrebrenica massacre (July 1995): Bosnian Serb forces under Ratko Mladić killed ~8,000 Bosniak men and boys — ruled genocide by international courts\nNATO air strikes broke the siege; Dayton Agreement (November 1995) ended the war\n~100,000 people killed; 2.2 million displaced; first European genocide since the Holocaust",
+          "cardFront": "1992–1995, Yugoslavia, Srebrenica massacre, Dayton Agreement",
+          "cardBack": "Bosnian War"
+        }
+      ]
+    }
+  ]
+}
