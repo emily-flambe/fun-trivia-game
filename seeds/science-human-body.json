@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "science/human-body", "parentId": "science", "name": "Human Body", "description": "Anatomy, physiology, and organ systems" }
+  ],
+  "exercises": [
+    {
+      "id": "science/human-body/systems-and-anatomy",
+      "nodeId": "science/human-body",
+      "name": "Human Body Systems",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "skin",
+          "prompt": "What is the largest organ in the human body by surface area, serving as a protective barrier against pathogens, regulating temperature, and housing sensory receptors?",
+          "answer": "Skin",
+          "alternates": ["The skin", "integument"],
+          "explanation": "Surface area of ~1.5\u20132 m\u00b2 in an adult; accounts for ~15% of body weight\nThree layers: epidermis (outer, barrier), dermis (middle, collagen and hair follicles), hypodermis (deepest, fat)\nFunctions: pathogen barrier, UV radiation protection, temperature regulation (sweating/shivering), sensory reception\nPart of the integumentary system, which also includes hair, nails, and sweat glands\nRenews itself every 2\u20134 weeks; the body sheds ~30,000\u201340,000 dead skin cells per hour",
+          "cardFront": "Largest organ",
+          "cardBack": "Skin"
+        },
+        {
+          "id": "bones-206",
+          "prompt": "How many bones does the adult human skeleton contain?",
+          "answer": "206",
+          "alternates": ["206 bones", "two hundred and six"],
+          "explanation": "Adults have 206 bones; infants are born with ~300 cartilaginous bones that fuse during childhood\nAxial skeleton: skull, spine, and ribcage (80 bones); appendicular skeleton: limbs, shoulder girdle, and pelvis (126 bones)\nLargest bone: femur (thigh bone); smallest: stapes in the middle ear\nBone is living tissue that constantly remodels; the skeleton is completely replaced roughly every 10 years\nFunctions: structural support, organ protection, movement (with muscles), calcium storage, and red blood cell production",
+          "cardFront": "Bones in adult skeleton",
+          "cardBack": "206"
+        },
+        {
+          "id": "stapes",
+          "prompt": "What is the smallest bone in the human body, located in the middle ear, and named for its stirrup shape?",
+          "answer": "Stapes",
+          "alternates": ["stirrup", "stirrup bone"],
+          "explanation": "Measures only ~3 mm long and ~3 mg in weight; one of three ossicles in the middle ear\nThe three ossicles in order: malleus (hammer) \u2192 incus (anvil) \u2192 stapes (stirrup)\nTransmits sound vibrations from the eardrum to the cochlea of the inner ear\nAll three ossicles together are smaller than an orange seed\nThe ossicles amplify sound by a factor of ~22 before it enters the fluid-filled inner ear",
+          "cardFront": "Smallest bone",
+          "cardBack": "Stapes"
+        },
+        {
+          "id": "femur",
+          "prompt": "What is the longest and strongest bone in the human body, forming both the hip and knee joints?",
+          "answer": "Femur",
+          "alternates": ["thigh bone", "thigh"],
+          "explanation": "The femur makes up roughly one-quarter of a person's total height\nForms the hip joint (with the pelvis) and the knee joint (with the tibia and patella)\nStrong enough to withstand compressive forces of over 1,700 lbs under normal conditions\nContains red bone marrow throughout life, continuously producing blood cells\nHip fractures (proximal femur fractures) in the elderly are a leading cause of disability and mortality",
+          "cardFront": "Longest bone",
+          "cardBack": "Femur"
+        },
+        {
+          "id": "pituitary-gland",
+          "prompt": "Which pea-sized gland at the base of the brain, connected to the hypothalamus, is called the 'master gland' because it regulates hormone secretion throughout the endocrine system?",
+          "answer": "Pituitary gland",
+          "alternates": ["pituitary", "hypophysis"],
+          "explanation": "Located at the base of the brain in a bony cavity called the sella turcica\nAnterior pituitary secretes: growth hormone, TSH, ACTH, FSH, LH, and prolactin\nPosterior pituitary releases: ADH (antidiuretic hormone/vasopressin) and oxytocin\nDirectly controlled by hypothalamic releasing and inhibiting hormones via the portal blood system\nTumors of the pituitary are the most common brain tumor type; can cause gigantism (in children) or acromegaly (in adults)",
+          "cardFront": "\"Master gland\" of the endocrine system",
+          "cardBack": "Pituitary gland"
+        },
+        {
+          "id": "liver",
+          "prompt": "Which organ \u2014 the largest internal organ \u2014 produces bile, detoxifies the blood, stores glycogen, and can fully regenerate from as little as 25% of its tissue?",
+          "answer": "Liver",
+          "alternates": [],
+          "explanation": "Over 500 known functions; the most metabolically complex organ in the body\nProduces bile (stored in the gallbladder) to emulsify dietary fats for digestion\nDetoxifies alcohol, drugs, ammonia, and other metabolic waste products\nStores glycogen and releases glucose to maintain blood sugar; synthesizes proteins including clotting factors\nCan regenerate to full size from as little as 25% of its tissue \u2014 the basis of the ancient Greek myth of Prometheus",
+          "cardFront": "Bile-producing, self-regenerating organ",
+          "cardBack": "Liver"
+        },
+        {
+          "id": "medulla-oblongata",
+          "prompt": "What region at the base of the brainstem controls automatic vital functions including heart rate, blood pressure, and breathing?",
+          "answer": "Medulla oblongata",
+          "alternates": ["medulla", "brainstem"],
+          "explanation": "Located at the base of the brainstem, where the brain meets the spinal cord\nControls autonomic (involuntary) functions: heart rate, blood pressure, breathing, swallowing, and vomiting\nContains the cardiac center, respiratory center, and vasomotor center\nDamage to the medulla is rapidly fatal; a blow to the base of the skull can stop breathing and heartbeat\nAlso mediates reflex responses including coughing, sneezing, and the gag reflex",
+          "cardFront": "Controls heart rate, breathing, blood pressure",
+          "cardBack": "Medulla oblongata"
+        },
+        {
+          "id": "hemoglobin",
+          "prompt": "What iron-containing protein, found in red blood cells, binds oxygen in the lungs and releases it to tissues throughout the body, giving blood its red color?",
+          "answer": "Hemoglobin",
+          "alternates": ["haemoglobin"],
+          "explanation": "Each red blood cell contains ~280 million hemoglobin molecules; each molecule has 4 heme groups, each binding one O\u2082\nCarbon monoxide binds to hemoglobin ~200\u00d7 more strongly than oxygen, explaining carbon monoxide poisoning\nOxyhemoglobin (with O\u2082) is bright red; deoxyhemoglobin is dark red \u2014 veins appear blue through skin due to light scattering, not blue blood\nSickle cell anemia results from a single point mutation in the hemoglobin gene, distorting the protein's shape\nFetal hemoglobin (HbF) has higher O\u2082 affinity than adult hemoglobin, allowing the fetus to extract oxygen from maternal blood",
+          "cardFront": "Oxygen-carrying protein in red blood cells",
+          "cardBack": "Hemoglobin"
+        },
+        {
+          "id": "pancreas",
+          "prompt": "Which gland, located behind the stomach, functions as both an exocrine gland (secreting digestive enzymes into the small intestine) and an endocrine gland (secreting insulin and glucagon into the blood)?",
+          "answer": "Pancreas",
+          "alternates": [],
+          "explanation": "Exocrine function (~99% of tissue): acinar cells secrete amylase, lipase, and proteases via pancreatic duct into small intestine\nEndocrine function: islets of Langerhans \u2014 beta cells produce insulin; alpha cells produce glucagon\nInsulin lowers blood glucose (promotes uptake into cells); glucagon raises it (triggers glycogen breakdown in liver)\nType 1 diabetes: autoimmune destruction of beta cells; Type 2: peripheral insulin resistance\nPancreatic cancer has one of the lowest 5-year survival rates (~12%) because it rarely causes symptoms until advanced",
+          "cardFront": "Both endocrine and exocrine; produces insulin",
+          "cardBack": "Pancreas"
+        },
+        {
+          "id": "heart-chambers",
+          "prompt": "How many chambers does the human heart have?",
+          "answer": "Four",
+          "alternates": ["4", "4 chambers", "four chambers"],
+          "explanation": "Right atrium \u2192 right ventricle: pumps deoxygenated blood to the lungs (pulmonary circulation)\nLeft atrium \u2192 left ventricle: pumps oxygenated blood to the body (systemic circulation)\nThe left ventricle has the thickest wall because it pumps blood the greatest distance against the highest pressure\nFish have 2 heart chambers; amphibians have 3; mammals and birds have 4\nThe average resting heart beats 60\u2013100 times per minute, ~100,000 times per day, ~3 billion times in a lifetime",
+          "cardFront": "Number of heart chambers",
+          "cardBack": "Four"
+        },
+        {
+          "id": "neurons-86-billion",
+          "prompt": "Approximately how many neurons does the adult human brain contain?",
+          "answer": "86 billion",
+          "alternates": ["~86 billion", "approximately 86 billion", "100 billion", "~100 billion"],
+          "explanation": "~86 billion neurons, determined more precisely by Suzana Herculano-Houzel in 2009 (replacing the long-cited 100 billion estimate)\nEach neuron can form up to 10,000 synaptic connections, yielding ~100 trillion synapses total\nCerebral cortex has ~16 billion neurons; the cerebellum alone has ~69 billion\nSupported by ~85 billion non-neuronal glial cells (astrocytes, oligodendrocytes, microglia)\nNeurons are among the only cells in the body that cannot replace themselves after birth; limited neurogenesis occurs in the hippocampus",
+          "cardFront": "Neurons in the human brain",
+          "cardBack": "~86 billion"
+        },
+        {
+          "id": "chromosomes-46",
+          "prompt": "How many chromosomes are found in a typical human somatic (non-reproductive) cell?",
+          "answer": "46",
+          "alternates": ["46 chromosomes", "23 pairs", "23 homologous pairs", "forty-six"],
+          "explanation": "46 chromosomes in 23 homologous pairs: 22 autosomal pairs + 1 sex chromosome pair (XX female, XY male)\nGametes (sperm and egg) are haploid with 23 chromosomes; fertilization restores the diploid number of 46\nDown syndrome (Trisomy 21): an extra copy of chromosome 21; most common chromosomal disorder (~1 in 700 births)\nHumans do not have the most chromosomes: dogs have 78, potatoes have 48; chromosome count doesn't correlate with complexity\nSex chromosomes first described by Nettie Stevens in 1905",
+          "cardFront": "Chromosomes in a human somatic cell",
+          "cardBack": "46"
+        }
+      ]
+    }
+  ]
+}
