@@ -97,6 +97,33 @@ Root category nodes are in `seeds/_categories.json` (18 Learned League categorie
 - Tables: `nodes`, `exercises`, `items`
 - Schema: `migrations/0001_schema.sql` through `migrations/0004_redesign.sql`
 
+## Cloudflare Access Auth
+
+- **Team domain**: `https://emilycogsdill.cloudflareaccess.com`
+- **AUD tag**: in `wrangler.toml` `[vars]` as `CF_ACCESS_AUD`
+- **Approach**: Path-scoped Access Application on `/auth/login` with Allow policy. Rest of app is public.
+- **Login**: Sign In button links to `/auth/login`. Cloudflare Access intercepts, shows Google login, sets `CF_Authorization` cookie (domain-wide), redirects back. Worker catches redirect and sends user to `/#/`.
+- **Logout**: `/cdn-cgi/access/logout?returnTo=<origin>` clears the cookie.
+- **JWT validation**: `jose` library in `src/lib/auth.ts` (lazy-imported). Validates against JWKS at `teamDomain/cdn-cgi/access/certs`. Checks both `Cf-Access-Jwt-Assertion` header and `CF_Authorization` cookie.
+- **API endpoint**: `GET /api/auth/me` returns `{ authenticated, email, loginUrl/logoutUrl }`.
+- **Login URL format** (verified from `@cloudflare/pages-plugin-cloudflare-access` source): `${teamDomain}/cdn-cgi/access/login/${appHostname}?kid=${aud}&redirect_url=/`
+
+### Service Token (E2E Testing)
+
+- **Token name**: "Trivia Trainer Service Token" (non-expiring)
+- **Client ID**: `57205ae099f268ed6dae0a78f09e93b6.access`
+- **Client Secret**: in `.dev.vars` as `CF_ACCESS_CLIENT_SECRET` (never committed)
+- **Access policy**: Service Auth policy on the same Access Application
+- **How it works**: Send `CF-Access-Client-Id` + `CF-Access-Client-Secret` headers to `/auth/login`. Cloudflare Access validates, sets `CF_Authorization` cookie, Worker redirects to `/#/`. Cookie is then used for all subsequent requests.
+- **JWT difference**: Service token JWTs have `common_name` (the Client ID) instead of `email`. Worker handles both.
+
+### Local Dev Bypass (E2E Testing)
+
+- **Env var**: `CF_ACCESS_TEST_EMAIL` in `.dev.vars` only (never in `wrangler.toml`)
+- **How it works**: When set, `/api/auth/me` checks for a `CF_Test_Auth` cookie matching the email. Sign In links to `/auth/test-login` which sets this cookie and redirects to `/#/`.
+- **Playwright usage**: Navigate to `/auth/test-login` or set `CF_Test_Auth` cookie directly.
+- **Security**: Only active when `CF_ACCESS_TEST_EMAIL` env var is set. Never set in production.
+
 ## Architecture Notes
 
 - **Three-table schema**: nodes (navigation tree), exercises (interactive content), items (atomic facts). Questions are now items with format-specific `data` JSON.

@@ -5,6 +5,7 @@ interface Env {
 	DB: D1Database;
 	CF_ACCESS_TEAM_DOMAIN: string;
 	CF_ACCESS_AUD: string;
+	CF_ACCESS_TEST_EMAIL?: string; // Set in .dev.vars only — enables local auth bypass
 }
 
 export default {
@@ -18,6 +19,18 @@ export default {
 			const { createTriviaServer } = await import('./mcp');
 			const server = createTriviaServer(env.DB);
 			return createMcpHandler(server, { route: '/mcp' })(request, env, ctx);
+		}
+
+		// Local dev test login — sets a test cookie and redirects to app root
+		if (path === '/auth/test-login' && env.CF_ACCESS_TEST_EMAIL) {
+			const email = url.searchParams.get('email') || env.CF_ACCESS_TEST_EMAIL;
+			return new Response(null, {
+				status: 302,
+				headers: {
+					'Location': url.origin + '/#/',
+					'Set-Cookie': `CF_Test_Auth=${email}; Path=/; SameSite=Lax`,
+				},
+			});
 		}
 
 		// Auth login redirect — after Cloudflare Access authenticates, redirect to app root
@@ -37,6 +50,22 @@ export default {
 } satisfies ExportedHandler<Env>;
 
 async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Response> {
+	// Local dev bypass: if CF_ACCESS_TEST_EMAIL is set and request has the test cookie, trust it
+	if (env.CF_ACCESS_TEST_EMAIL) {
+		const testCookie = getCookie(request, 'CF_Test_Auth');
+		if (testCookie === env.CF_ACCESS_TEST_EMAIL) {
+			return json({
+				authenticated: true,
+				email: env.CF_ACCESS_TEST_EMAIL,
+				logoutUrl: '/',
+			});
+		}
+		return json({
+			authenticated: false,
+			loginUrl: `/auth/test-login?email=${encodeURIComponent(env.CF_ACCESS_TEST_EMAIL)}`,
+		});
+	}
+
 	if (!env.CF_ACCESS_TEAM_DOMAIN || !env.CF_ACCESS_AUD) {
 		return json({ authenticated: false });
 	}
@@ -171,6 +200,13 @@ async function handleCheckAnswer(exercisePath: string, request: Request, repo: N
 function stripItemAnswers(item: any): any {
 	const { answer, alternates, ...safe } = item;
 	return safe;
+}
+
+function getCookie(request: Request, name: string): string | null {
+	const header = request.headers.get('cookie');
+	if (!header) return null;
+	const match = header.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
+	return match ? match[1] : null;
 }
 
 function json(data: any, status = 200): Response {
