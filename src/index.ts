@@ -3,6 +3,8 @@ import { checkTextEntry, checkFillBlanks } from './lib/answer-checker';
 
 interface Env {
 	DB: D1Database;
+	CF_ACCESS_TEAM_DOMAIN: string;
+	CF_ACCESS_AUD: string;
 }
 
 export default {
@@ -18,6 +20,11 @@ export default {
 			return createMcpHandler(server, { route: '/mcp' })(request, env, ctx);
 		}
 
+		// Auth login redirect — after Cloudflare Access authenticates, redirect to app root
+		if (path === '/auth/login') {
+			return Response.redirect(url.origin + '/#/', 302);
+		}
+
 		// REST API
 		if (path.startsWith('/api/')) {
 			return handleApi(path, url, request, env);
@@ -29,7 +36,33 @@ export default {
 	},
 } satisfies ExportedHandler<Env>;
 
+async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Response> {
+	if (!env.CF_ACCESS_TEAM_DOMAIN || !env.CF_ACCESS_AUD) {
+		return json({ authenticated: false });
+	}
+
+	const { getAuthUser } = await import('./lib/auth');
+	const user = await getAuthUser(request, env.CF_ACCESS_TEAM_DOMAIN, env.CF_ACCESS_AUD);
+
+	if (user) {
+		return json({
+			authenticated: true,
+			email: user.email,
+			logoutUrl: `/cdn-cgi/access/logout?returnTo=${encodeURIComponent(url.origin + '/')}`,
+		});
+	}
+
+	return json({
+		authenticated: false,
+		loginUrl: '/auth/login',
+	});
+}
+
 async function handleApi(path: string, url: URL, request: Request, env: Env): Promise<Response> {
+	if (path === '/api/auth/me') {
+		return handleAuthMe(request, url, env);
+	}
+
 	const repo = new NodeRepository(env.DB);
 
 	try {

@@ -98,6 +98,20 @@ export async function revealAnswers(exercisePath: string): Promise<RevealedItem[
 	return data.items;
 }
 
+// === Auth ===
+
+export interface AuthState {
+	authenticated: boolean;
+	email?: string;
+	loginUrl?: string;
+	logoutUrl?: string;
+}
+
+export async function getAuthMe(): Promise<AuthState> {
+	const res = await fetch(`${BASE}/auth/me`);
+	return res.json() as Promise<AuthState>;
+}
+
 export async function checkAnswer(
 	exercisePath: string,
 	body: { itemId?: string; answer: string }
