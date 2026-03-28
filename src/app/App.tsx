@@ -85,6 +85,16 @@ export function App() {
 						<>
 							<a
 								href="#/profile"
+								className="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-surface-hover text-text-secondary hover:text-accent transition-colors sm:hidden"
+								aria-label="Profile"
+							>
+								<svg className="w-5 h-5" viewBox="0 0 20 20" fill="none">
+									<circle cx="10" cy="7" r="3" stroke="currentColor" strokeWidth="1.5" />
+									<path d="M3 18c0-3.87 3.13-7 7-7s7 3.13 7 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+								</svg>
+							</a>
+							<a
+								href="#/profile"
 								className="text-sm text-text-secondary hover:text-accent transition-colors px-2 hidden sm:inline"
 							>
 								{auth.email}
