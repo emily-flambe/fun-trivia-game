@@ -281,22 +281,27 @@ function ActivityTab() {
 
 	return (
 		<div className="animate-in space-y-3">
-			{results.map((r) => (
-				<a
-					key={r.id}
-					href={`#/exercise/${r.exerciseId}?mode=quiz`}
-					className="block bg-surface-raised rounded-xl p-4 hover:bg-surface-hover transition-all duration-200 group"
-				>
-					<div className="flex items-center justify-between mb-1">
-						<span className="font-medium group-hover:text-accent transition-colors">{r.exerciseName}</span>
-						<span className="text-sm font-semibold text-accent">{r.score}/{r.total}</span>
-					</div>
-					<div className="flex items-center justify-between text-sm text-text-tertiary">
-						<span>{r.format === 'fill-blanks' ? 'Fill in the Blanks' : 'Text Entry'}</span>
-						<span>{formatDate(r.completedAt)}</span>
-					</div>
-				</a>
-			))}
+			{results.map((r) => {
+				const isEndless = r.exerciseId === 'endless';
+				const href = isEndless ? '#/endless' : `#/exercise/${r.exerciseId}?mode=quiz`;
+				const formatLabel = isEndless ? 'Endless' : r.format === 'fill-blanks' ? 'Fill in the Blanks' : 'Text Entry';
+				return (
+					<a
+						key={r.id}
+						href={href}
+						className="block bg-surface-raised rounded-xl p-4 hover:bg-surface-hover transition-all duration-200 group"
+					>
+						<div className="flex items-center justify-between mb-1">
+							<span className="font-medium group-hover:text-accent transition-colors">{r.exerciseName}</span>
+							<span className="text-sm font-semibold text-accent">{r.score}/{r.total}</span>
+						</div>
+						<div className="flex items-center justify-between text-sm text-text-tertiary">
+							<span>{formatLabel}</span>
+							<span>{formatDate(r.completedAt)}</span>
+						</div>
+					</a>
+				);
+			})}
 			{results.length < totalResults && (
 				<button
 					onClick={loadMore}

@@ -85,6 +85,22 @@ export async function getRandomExerciseId(): Promise<string> {
 	return data.id;
 }
 
+export interface RandomItem {
+	id: string;
+	exerciseId: string;
+	exerciseName: string;
+	nodeId: string;
+	explanation: string;
+	data: Record<string, any>;
+	sortOrder: number;
+}
+
+export async function getRandomItems(count = 20): Promise<RandomItem[]> {
+	const res = await fetch(`${BASE}/items/random?count=${count}`);
+	const data = await res.json() as { items: RandomItem[] };
+	return data.items;
+}
+
 export interface RevealedItem {
 	id: string;
 	answer: string;

@@ -216,4 +216,24 @@ export class NodeRepository {
 
 		return rows.results.map(mapItem);
 	}
+
+	async getRandomItems(count: number): Promise<Array<Item & { exerciseName: string; nodeId: string }>> {
+		const rows = await this.db
+			.prepare(
+				`SELECT i.*, e.name as exercise_name, e.node_id as ex_node_id
+				 FROM items i
+				 JOIN exercises e ON i.exercise_id = e.id
+				 WHERE e.format = 'text-entry'
+				 ORDER BY RANDOM()
+				 LIMIT ?`
+			)
+			.bind(count)
+			.all<ItemRow & { exercise_name: string; ex_node_id: string }>();
+
+		return rows.results.map((row) => ({
+			...mapItem(row),
+			exerciseName: row.exercise_name,
+			nodeId: row.ex_node_id,
+		}));
+	}
 }

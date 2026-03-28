@@ -204,6 +204,14 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return json({ id });
 		}
 
+		if (path === '/api/items/random') {
+			const count = Math.min(50, Math.max(1, parseInt(url.searchParams.get('count') || '20', 10) || 20));
+			const items = await repo.getRandomItems(count);
+			return json({
+				items: items.map(({ answer, alternates, ...safe }) => safe),
+			});
+		}
+
 		// GET /api/exercises/:path+/answers — reveal all answers (for give-up)
 		const answersMatch = path.match(/^\/api\/exercises\/(.+)\/answers$/);
 		if (answersMatch) {
