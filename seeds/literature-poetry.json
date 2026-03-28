@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "literature/poetry", "parentId": "literature", "name": "Poetry", "description": "Famous poems and their poets" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/poetry/poet-matching",
+      "nodeId": "literature/poetry",
+      "name": "Poetry — Poet Matching",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "charge-of-the-light-brigade",
+          "prompt": "Who wrote 'The Charge of the Light Brigade' (1854), the narrative poem commemorating a disastrous British cavalry charge during the Crimean War, containing the lines 'Into the valley of Death / Rode the six hundred'?",
+          "answer": "Alfred, Lord Tennyson",
+          "alternates": ["Tennyson", "Alfred Tennyson"],
+          "explanation": "Published 1854, weeks after the Battle of Balaclava (October 25, 1854)\nTennyson was Poet Laureate of the UK from 1850 until his death in 1892 — the longest tenure in the role\nBased on a report in *The Times* newspaper; written in a single sitting\nThe charge resulted from a miscommunicated order; 247 of 637 men were killed or wounded",
+          "cardFront": "*The Charge of the Light Brigade*",
+          "cardBack": "Alfred, Lord Tennyson"
+        },
+        {
+          "id": "kubla-khan",
+          "prompt": "Who wrote 'Kubla Khan' (1816), the opium-dream poem describing a pleasure dome and 'caverns measureless to man' that the poet claimed to have composed in a trance?",
+          "answer": "Samuel Taylor Coleridge",
+          "alternates": ["Coleridge"],
+          "explanation": "Composed c. 1797; published 1816 with the subtitle 'A Vision in a Dream: A Fragment'\nColeridge claimed a 'person from Porlock' interrupted his dream and caused him to lose the rest\nAlso wrote *The Rime of the Ancient Mariner* (1798), source of 'water, water, everywhere'\nA major figure of English Romanticism alongside Wordsworth, with whom he co-authored *Lyrical Ballads* (1798)",
+          "cardFront": "*Kubla Khan*",
+          "cardBack": "Samuel Taylor Coleridge"
+        },
+        {
+          "id": "the-tyger",
+          "prompt": "Who wrote 'The Tyger' (1794), the poem opening 'Tyger Tyger, burning bright, / In the forests of the night'?",
+          "answer": "William Blake",
+          "alternates": ["Blake"],
+          "explanation": "Published in *Songs of Experience* (1794); companion volume to *Songs of Innocence* (1789)\nThe Tyger and the Lamb (from *Songs of Innocence*) are contrasting symbols of creation's duality\nBlake was largely unrecognized in his lifetime; rediscovered by the Pre-Raphaelites in the 19th century\nAlso a visual artist; hand-engraved and hand-colored his illuminated books",
+          "cardFront": "*The Tyger*",
+          "cardBack": "William Blake"
+        },
+        {
+          "id": "ozymandias",
+          "prompt": "Who wrote 'Ozymandias' (1818), the sonnet about a ruined statue in the desert inscribed 'Look on my Works, ye Mighty, and despair!'?",
+          "answer": "Percy Bysshe Shelley",
+          "alternates": ["Shelley", "Percy Shelley"],
+          "explanation": "Published January 1818 in *The Examiner*; Shelley wrote it in competition with his friend Horace Smith\nOzymandias is the Greek name for the Egyptian pharaoh Ramesses II\nIrony: the boastful inscription survives only amid ruins — a meditation on the transience of power\nShelley drowned in the Gulf of Spezia, Italy, in 1822 at age 29; married to Mary Shelley (*Frankenstein*)",
+          "cardFront": "*Ozymandias*",
+          "cardBack": "Percy Bysshe Shelley"
+        },
+        {
+          "id": "ode-to-a-nightingale",
+          "prompt": "Who wrote 'Ode to a Nightingale' (1819), the poem lamenting mortality and longing to escape into the bird's immortal song?",
+          "answer": "John Keats",
+          "alternates": ["Keats"],
+          "explanation": "Written May 1819; published in *Annals of the Fine Arts* (1820)\nOne of the 'Great Odes' written in a single extraordinary year of creativity before Keats's illness worsened\nKeats died of tuberculosis in Rome in 1821 at age 25; his gravestone reads 'Here lies one whose name was writ in water'\nAlso wrote 'Ode on a Grecian Urn' (1820), containing 'Beauty is truth, truth beauty'\nTrained as a surgeon before abandoning medicine for poetry",
+          "cardFront": "*Ode to a Nightingale*",
+          "cardBack": "John Keats"
+        },
+        {
+          "id": "annabel-lee",
+          "prompt": "Who wrote 'Annabel Lee' (1849), a poem about eternal love for a woman who dies young, beginning 'It was many and many a year ago, / In a kingdom by the sea'?",
+          "answer": "Edgar Allan Poe",
+          "alternates": ["Poe"],
+          "explanation": "Published posthumously in 1849, two days after Poe's death\nBelieved to be written about his wife Virginia Clemm, who died of tuberculosis in 1847\nPoe's last completed poem; among his most anthologized works\nPoe died in Baltimore on October 7, 1849, under mysterious circumstances — the cause remains disputed",
+          "cardFront": "*Annabel Lee*",
+          "cardBack": "Edgar Allan Poe"
+        },
+        {
+          "id": "the-raven",
+          "prompt": "Who wrote 'The Raven' (1845), the poem in which a grieving man is visited by a bird that can only say 'Nevermore'?",
+          "answer": "Edgar Allan Poe",
+          "alternates": ["Poe"],
+          "explanation": "Published January 29, 1845 in the *New York Evening Mirror*; made Poe famous overnight\nThe narrator mourns his lost love Lenore; the raven's repetition of 'Nevermore' drives him to madness\nPoe later explained his composition method in 'The Philosophy of Composition' (1846)\nThe Baltimore Ravens NFL team takes its name from this poem",
+          "cardFront": "*The Raven*",
+          "cardBack": "Edgar Allan Poe"
+        },
+        {
+          "id": "o-captain-my-captain",
+          "prompt": "Who wrote 'O Captain! My Captain!' (1865), the elegy for Abraham Lincoln using the metaphor of a ship that has safely reached port?",
+          "answer": "Walt Whitman",
+          "alternates": ["Whitman"],
+          "explanation": "Published 1865 in *Drum-Taps*; written immediately after Lincoln's assassination\nOne of Whitman's few rhyming, metered poems — a departure from his characteristic free verse\nWhitman worked as a volunteer nurse during the Civil War, tending wounded soldiers in Washington D.C.\nRecited by Robin Williams's character in the film *Dead Poets Society* (1989)",
+          "cardFront": "*O Captain! My Captain!*",
+          "cardBack": "Walt Whitman"
+        },
+        {
+          "id": "song-of-myself",
+          "prompt": "Who wrote 'Song of Myself' (1855), the sprawling 52-section poem beginning 'I celebrate myself, and sing myself' from the collection *Leaves of Grass*?",
+          "answer": "Walt Whitman",
+          "alternates": ["Whitman"],
+          "explanation": "First published in *Leaves of Grass* (1855); Whitman revised it continuously through the 1891–1892 'deathbed edition'\nSection 51 contains the famous 'Do I contradict myself? / Very well then I contradict myself, / (I am large, I contain multitudes)'\nWhitman self-published the first edition anonymously; Ralph Waldo Emerson called it 'the most extraordinary piece of wit and wisdom that America has yet contributed'\nFoundational to American free verse and later Beat Generation poetry",
+          "cardFront": "*Song of Myself*",
+          "cardBack": "Walt Whitman"
+        },
+        {
+          "id": "invictus",
+          "prompt": "Who wrote 'Invictus' (1875), the defiant poem ending 'I am the master of my fate, / I am the captain of my soul'?",
+          "answer": "William Ernest Henley",
+          "alternates": ["Henley", "W.E. Henley"],
+          "explanation": "Written 1875; published in *Book of Verses* (1888); title ('unconquered' in Latin) was added by editor Arthur Quiller-Couch\nHenley wrote it while recovering from tuberculosis of the bone — his left leg had been amputated below the knee\nNelson Mandela recited it to fellow prisoners on Robben Island; a 2009 film about Mandela took the title *Invictus*\nHenley's friend Robert Louis Stevenson based Long John Silver in *Treasure Island* partly on Henley's personality and disability",
+          "cardFront": "*Invictus*",
+          "cardBack": "William Ernest Henley"
+        },
+        {
+          "id": "the-second-coming",
+          "prompt": "Who wrote 'The Second Coming' (1919), the poem containing 'Things fall apart; the centre cannot hold' and 'What rough beast, its hour come round at last, / Slouches towards Bethlehem to be born'?",
+          "answer": "W.B. Yeats",
+          "alternates": ["Yeats", "William Butler Yeats"],
+          "explanation": "Published 1920 in *Michael Robartes and the Dancer*; written in the aftermath of WWI and the Russian Revolution\nDerives its imagery from Yeats's occult system described in *A Vision* (1925)\n'Things fall apart' became the title of Chinua Achebe's 1958 novel\nYeats won the Nobel Prize in Literature in 1923; first Irishman to do so",
+          "cardFront": "*The Second Coming*",
+          "cardBack": "W.B. Yeats"
+        },
+        {
+          "id": "if-kipling",
+          "prompt": "Who wrote 'If—' (1910), the didactic poem addressed to 'my son' listing the qualities of an ideal man, ending 'you'll be a Man, my son!'?",
+          "answer": "Rudyard Kipling",
+          "alternates": ["Kipling"],
+          "explanation": "Published 1910 in *Rewards and Fairies*; regularly voted Britain's favorite poem in public polls\nInspired partly by Leander Starr Jameson, leader of the failed Jameson Raid (1895–1896) in South Africa\nKipling was the first English-language writer to win the Nobel Prize in Literature (1907) and remains its youngest recipient at age 41\nAlso wrote *The Jungle Book* (1894) and *Kim* (1901)",
+          "cardFront": "*If—*",
+          "cardBack": "Rudyard Kipling"
+        },
+        {
+          "id": "road-not-taken",
+          "prompt": "Who wrote 'The Road Not Taken' (1916), the poem about a traveler choosing between two paths in a wood, ending 'and that has made all the difference'?",
+          "answer": "Robert Frost",
+          "alternates": ["Frost"],
+          "explanation": "Published in *Mountain Interval* (1916); Frost's most famous and most frequently misread poem\nWritten for his friend Edward Thomas, who habitually second-guessed which path he chose on their walks\nWidely (mis)read as a celebration of nonconformity; Frost intended it as a gentle parody of indecision\nFrost read 'The Gift Outright' at John F. Kennedy's 1961 inauguration — the first poet at a presidential inauguration",
+          "cardFront": "*The Road Not Taken*",
+          "cardBack": "Robert Frost"
+        },
+        {
+          "id": "stopping-by-woods",
+          "prompt": "Who wrote 'Stopping by Woods on a Snowy Evening' (1923), the poem ending with the repeated lines 'And miles to go before I sleep'?",
+          "answer": "Robert Frost",
+          "alternates": ["Frost"],
+          "explanation": "Published in *New Hampshire* (1923), which won the Pulitzer Prize\nFrost said he wrote it in a single morning sitting after pulling an all-nighter on a longer poem\nThe final stanza's repetition ('And miles to go before I sleep') is one of poetry's most analyzed closings\nWoods are owned by a man 'in the village' — the speaker pauses illegally, adding tension to the tranquility",
+          "cardFront": "*Stopping by Woods on a Snowy Evening*",
+          "cardBack": "Robert Frost"
+        },
+        {
+          "id": "i-heard-a-fly-buzz",
+          "prompt": "Who wrote 'I Heard a Fly Buzz — When I Died —' (c. 1862), the poem narrating the moment of death from the perspective of the dying speaker?",
+          "answer": "Emily Dickinson",
+          "alternates": ["Dickinson"],
+          "explanation": "Written c. 1862; published posthumously in 1896 (Dickinson published fewer than 12 poems in her lifetime)\nThe fly's interruption of a solemn deathbed scene is darkly comic and deeply ambiguous\nDickinson wrote nearly 1,800 poems, most found in her room after her death in 1886\nKnown for slant rhyme, unconventional capitalization, and extensive use of the em dash",
+          "cardFront": "*I Heard a Fly Buzz — When I Died —*",
+          "cardBack": "Emily Dickinson"
+        },
+        {
+          "id": "because-i-could-not-stop",
+          "prompt": "Who wrote 'Because I could not stop for Death —' (c. 1863), the poem personifying Death as a courtly gentleman driving a carriage?",
+          "answer": "Emily Dickinson",
+          "alternates": ["Dickinson"],
+          "explanation": "Written c. 1863; published posthumously in 1890\nDeath's carriage also carries Immortality — Dickinson treats mortality as an unhurried, even genteel journey\nThe carriage passes a school, fields of grain, and the speaker's grave before reaching 'Eternity'\nConsidered one of the greatest poems in the English language; Thomas H. Johnson called it her 'most perfect poem'",
+          "cardFront": "*Because I could not stop for Death —*",
+          "cardBack": "Emily Dickinson"
+        },
+        {
+          "id": "the-love-song-prufrock",
+          "prompt": "Who wrote 'The Love Song of J. Alfred Prufrock' (1915), the modernist dramatic monologue beginning 'Let us go then, you and I, / When the evening is spread out against the sky / Like a patient etherized upon a table'?",
+          "answer": "T.S. Eliot",
+          "alternates": ["Eliot", "Thomas Stearns Eliot"],
+          "explanation": "Published 1915 in *Poetry* magazine; Eliot's first major published poem, written when he was 22\nPrufrock is a middle-aged man paralyzed by social anxiety and existential dread\nContains the famous refrain: 'In the room the women come and go / Talking of Michelangelo'\nAlso: 'I have measured out my life with coffee spoons' — a defining image of modern alienation",
+          "cardFront": "*The Love Song of J. Alfred Prufrock*",
+          "cardBack": "T.S. Eliot"
+        },
+        {
+          "id": "the-waste-land",
+          "prompt": "Who wrote *The Waste Land* (1922), the landmark modernist poem opening 'April is the cruellest month' that depicts post-WWI cultural despair across five sections?",
+          "answer": "T.S. Eliot",
+          "alternates": ["Eliot", "Thomas Stearns Eliot"],
+          "explanation": "Published October 1922 in *The Criterion*; heavily edited by Ezra Pound, to whom it is dedicated ('il miglior fabbro')\nOriginally titled 'He Do the Police in Different Voices' (a Dickens reference)\n433 lines across five sections; includes passages in German, French, Italian, Sanskrit, and ancient Greek\nEliot won the Nobel Prize in Literature in 1948; born in St. Louis, became a British citizen in 1927",
+          "cardFront": "*The Waste Land*",
+          "cardBack": "T.S. Eliot"
+        },
+        {
+          "id": "howl",
+          "prompt": "Who wrote 'Howl' (1956), the Beat Generation poem opening 'I saw the best minds of my generation destroyed by madness, starving hysterical naked'?",
+          "answer": "Allen Ginsberg",
+          "alternates": ["Ginsberg"],
+          "explanation": "First performed at the Six Gallery in San Francisco on October 7, 1955; published by City Lights Books in 1956\nPublisher Lawrence Ferlinghetti was arrested for obscenity; the 1957 trial ruling in his favor is a First Amendment landmark\nDedicated to Carl Solomon, whom Ginsberg met at a psychiatric institution\nA defining text of the Beat Generation alongside Kerouac's *On the Road* and Burroughs's *Naked Lunch*",
+          "cardFront": "*Howl*",
+          "cardBack": "Allen Ginsberg"
+        },
+        {
+          "id": "do-not-go-gentle",
+          "prompt": "Who wrote 'Do not go gentle into that good night' (1951), the villanelle urging an aging father to fight against death, repeating 'Rage, rage against the dying of the light'?",
+          "answer": "Dylan Thomas",
+          "alternates": ["Thomas"],
+          "explanation": "Published 1951 in *Botteghe Oscure*; written as Thomas's father was going blind and near death\nA villanelle: 19 lines, five tercets plus a quatrain, with two repeating refrains — a technically demanding form\nThomas died in New York in 1953 at age 39, after reportedly drinking 18 straight whiskies (the exact cause was pneumonia)\nQuoted in the film *Interstellar* (2014) by Michael Caine's character",
+          "cardFront": "*Do not go gentle into that good night*",
+          "cardBack": "Dylan Thomas"
+        }
+      ]
+    }
+  ]
+}
