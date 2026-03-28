@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "lifestyle/zodiac", "parentId": "lifestyle", "name": "Zodiac", "description": "Western and Chinese zodiac signs and astrology" }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/zodiac/zodiac-signs",
+      "nodeId": "lifestyle/zodiac",
+      "name": "Zodiac Signs",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "aries",
+          "prompt": "Which zodiac sign spans March 21 to April 19 and is symbolized by the Ram?",
+          "answer": "Aries",
+          "alternates": [],
+          "explanation": "First sign of the zodiac (Mar 21\u2013Apr 19); marks the vernal equinox and the astrological new year\nFire sign, cardinal modality, ruled by Mars\nSymbol is the Ram, from the Greek myth of the Golden Ram whose fleece Jason and the Argonauts sought\nConstellation's brightest star is Hamal (Arabic for 'lamb'), about 66 light-years from Earth\nFamous Aries: Leonardo da Vinci, Lady Gaga, Elton John, Emma Watson, Mariah Carey\nOne of the smaller zodiac constellations despite being first in the cycle",
+          "cardFront": "Mar 21\u2013Apr 19, The Ram",
+          "cardBack": "Aries"
+        },
+        {
+          "id": "taurus",
+          "prompt": "Which zodiac sign spans April 20 to May 20 and is symbolized by the Bull?",
+          "answer": "Taurus",
+          "alternates": [],
+          "explanation": "Second sign of the zodiac (Apr 20\u2013May 20)\nEarth sign, fixed modality, ruled by Venus\nSymbol is the Bull; in Greek myth, Zeus disguised himself as a white bull to abduct the princess Europa\nConstellation contains the Pleiades (Seven Sisters) star cluster and the bright orange star Aldebaran\nThe Pleiades appear in the mythologies of cultures worldwide, from Greek to Maori to Japanese (Subaru)\nFamous Taureans: Shakespeare, Queen Elizabeth II, Adele, Dwayne Johnson, Karl Marx",
+          "cardFront": "Apr 20\u2013May 20, The Bull",
+          "cardBack": "Taurus"
+        },
+        {
+          "id": "gemini",
+          "prompt": "Which zodiac sign spans May 21 to June 20 and is symbolized by the Twins?",
+          "answer": "Gemini",
+          "alternates": [],
+          "explanation": "Third sign of the zodiac (May 21\u2013Jun 20)\nAir sign, mutable modality, ruled by Mercury\nSymbol is the Twins; represents Castor and Pollux (the Dioscuri) from Greek myth\nCastor was mortal and Pollux immortal; when Castor died, Pollux asked Zeus to let them share immortality\nConstellation's two brightest stars are named Castor and Pollux, representing the twins' heads\nFamous Geminis: Marilyn Monroe, John F. Kennedy, Prince, Kanye West, Angelina Jolie",
+          "cardFront": "May 21\u2013Jun 20, The Twins",
+          "cardBack": "Gemini"
+        },
+        {
+          "id": "cancer",
+          "prompt": "Which zodiac sign spans June 21 to July 22 and is symbolized by the Crab?",
+          "answer": "Cancer",
+          "alternates": [],
+          "explanation": "Fourth sign of the zodiac (Jun 21\u2013Jul 22); begins at the summer solstice\nWater sign, cardinal modality, ruled by the Moon\nSymbol is the Crab; in Greek myth, Hera sent a crab to distract Heracles during his fight with the Hydra\nHeracles crushed the crab underfoot, but Hera placed it in the sky as a reward for its loyalty\nFaintest of the zodiac constellations; contains the Beehive Cluster (Praesepe, M44)\nFamous Cancers: Princess Diana, Meryl Streep, Frida Kahlo, Nelson Mandela, Tom Hanks",
+          "cardFront": "Jun 21\u2013Jul 22, The Crab",
+          "cardBack": "Cancer"
+        },
+        {
+          "id": "leo",
+          "prompt": "Which zodiac sign spans July 23 to August 22 and is symbolized by the Lion?",
+          "answer": "Leo",
+          "alternates": [],
+          "explanation": "Fifth sign of the zodiac (Jul 23\u2013Aug 22)\nFire sign, fixed modality, ruled by the Sun\nSymbol is the Lion; represents the Nemean lion slain by Heracles as the first of his twelve labors\nConstellation's brightest star, Regulus ('little king'), marks the lion's heart; about 79 light-years from Earth\nThe only zodiac sign ruled by the Sun rather than a planet\nFamous Leos: Barack Obama, Napoleon Bonaparte, Madonna, Coco Chanel, Alfred Hitchcock",
+          "cardFront": "Jul 23\u2013Aug 22, The Lion",
+          "cardBack": "Leo"
+        },
+        {
+          "id": "virgo",
+          "prompt": "Which zodiac sign spans August 23 to September 22 and is symbolized by the Maiden?",
+          "answer": "Virgo",
+          "alternates": [],
+          "explanation": "Sixth sign of the zodiac (Aug 23\u2013Sep 22)\nEarth sign, mutable modality, ruled by Mercury (shares Mercury with Gemini)\nSymbol is the Maiden; associated with Demeter, goddess of the harvest, or her daughter Persephone\nSecond-largest constellation in the sky (after Hydra); brightest star is Spica, representing a sheaf of grain\nContains the Virgo Cluster, a massive collection of over 1,300 galaxies about 54 million light-years away\nFamous Virgos: Beyonce, Michael Jackson, Mother Teresa, Freddie Mercury, Keanu Reeves",
+          "cardFront": "Aug 23\u2013Sep 22, The Maiden",
+          "cardBack": "Virgo"
+        },
+        {
+          "id": "libra",
+          "prompt": "Which zodiac sign spans September 23 to October 22 and is symbolized by the Scales?",
+          "answer": "Libra",
+          "alternates": [],
+          "explanation": "Seventh sign of the zodiac (Sep 23\u2013Oct 22); begins at the autumnal equinox\nAir sign, cardinal modality, ruled by Venus (shares Venus with Taurus)\nSymbol is the Scales of Justice; the only zodiac sign represented by an inanimate object\nAncient Greeks originally considered these stars part of Scorpio's claws; Romans separated them into Libra\nAssociated with Astraea or Dike, the goddess of justice, who held the scales\nFamous Libras: Mahatma Gandhi, John Lennon, Oscar Wilde, Kim Kardashian, Will Smith",
+          "cardFront": "Sep 23\u2013Oct 22, The Scales",
+          "cardBack": "Libra"
+        },
+        {
+          "id": "scorpio",
+          "prompt": "Which zodiac sign spans October 23 to November 21 and is symbolized by the Scorpion?",
+          "answer": "Scorpio",
+          "alternates": ["Scorpius"],
+          "explanation": "Eighth sign of the zodiac (Oct 23\u2013Nov 21)\nWater sign, fixed modality, ruled by Pluto (modern) and Mars (traditional, before Pluto's 1930 discovery)\nSymbol is the Scorpion; in Greek myth, Gaia sent a scorpion to kill the boastful hunter Orion\nOrion and Scorpius were placed on opposite sides of the sky so they would never appear together\nConstellation's brightest star is Antares ('rival of Mars'), a red supergiant about 550 light-years away\nFamous Scorpios: Leonardo DiCaprio, Marie Curie, Pablo Picasso, Bill Gates, Fyodor Dostoevsky",
+          "cardFront": "Oct 23\u2013Nov 21, The Scorpion",
+          "cardBack": "Scorpio"
+        },
+        {
+          "id": "sagittarius",
+          "prompt": "Which zodiac sign spans November 22 to December 21 and is symbolized by the Archer?",
+          "answer": "Sagittarius",
+          "alternates": ["Sag"],
+          "explanation": "Ninth sign of the zodiac (Nov 22\u2013Dec 21)\nFire sign, mutable modality, ruled by Jupiter\nSymbol is the Archer (centaur); represents Crotus, a satyr skilled in archery, placed among the stars by the Muses\nOften confused with Chiron (represented by Centaurus), but Sagittarius derives from a different mythological figure\nThe center of the Milky Way galaxy lies in the direction of Sagittarius, near the 'Teapot' asterism\nFamous Sagittarians: Winston Churchill, Mark Twain, Beethoven, Walt Disney, Taylor Swift",
+          "cardFront": "Nov 22\u2013Dec 21, The Archer",
+          "cardBack": "Sagittarius"
+        },
+        {
+          "id": "capricorn",
+          "prompt": "Which zodiac sign spans December 22 to January 19 and is symbolized by the Sea-Goat?",
+          "answer": "Capricorn",
+          "alternates": ["Capricornus"],
+          "explanation": "Tenth sign of the zodiac (Dec 22\u2013Jan 19); begins at the winter solstice\nEarth sign, cardinal modality, ruled by Saturn\nSymbol is the Sea-Goat (goat with a fish tail); from the myth of Pan, who leapt into the Nile to escape Typhon and was only half-transformed\nOne of the oldest recognized constellations, documented by Babylonians and Sumerians\nThe Tropic of Capricorn is named for this constellation (the Sun was in Capricorn at the December solstice in antiquity)\nFamous Capricorns: Martin Luther King Jr., Muhammad Ali, Isaac Newton, Dolly Parton, Michelle Obama",
+          "cardFront": "Dec 22\u2013Jan 19, The Sea-Goat",
+          "cardBack": "Capricorn"
+        },
+        {
+          "id": "aquarius",
+          "prompt": "Which zodiac sign spans January 20 to February 18 and is symbolized by the Water-Bearer?",
+          "answer": "Aquarius",
+          "alternates": [],
+          "explanation": "Eleventh sign of the zodiac (Jan 20\u2013Feb 18)\nAir sign (despite the water imagery), fixed modality, ruled by Uranus (modern) and Saturn (traditional)\nSymbol is the Water-Bearer; represents Ganymede, a beautiful youth whom Zeus abducted to serve as cupbearer on Olympus\nDespite the name and symbol, Aquarius is an air sign, not a water sign\nThe 'Age of Aquarius' refers to an astrological epoch popularized by the 1967 musical *Hair*\nFamous Aquarians: Abraham Lincoln, Oprah Winfrey, Mozart, Charles Darwin, Rosa Parks",
+          "cardFront": "Jan 20\u2013Feb 18, The Water-Bearer",
+          "cardBack": "Aquarius"
+        },
+        {
+          "id": "pisces",
+          "prompt": "Which zodiac sign spans February 19 to March 20 and is symbolized by the Fish?",
+          "answer": "Pisces",
+          "alternates": [],
+          "explanation": "Twelfth and final sign of the zodiac (Feb 19\u2013Mar 20)\nWater sign, mutable modality, ruled by Neptune (modern) and Jupiter (traditional)\nSymbol is two Fish swimming in opposite directions, tied together; represents Aphrodite and Eros, who transformed into fish to escape Typhon\nThe vernal equinox point is slowly precessing into Pisces, giving rise to the concept of astrological 'ages'\nConstellation is large but faint, with no stars brighter than fourth magnitude\nFamous Pisces: Albert Einstein, Michelangelo, Rihanna, George Washington, Steve Jobs",
+          "cardFront": "Feb 19\u2013Mar 20, The Fish",
+          "cardBack": "Pisces"
+        }
+      ]
+    }
+  ]
+}

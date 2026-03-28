@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "lifestyle/world-religions", "parentId": "lifestyle", "name": "World Religions", "description": "Major world religions, founders, texts, and beliefs" }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/world-religions/world-religions",
+      "nodeId": "lifestyle/world-religions",
+      "name": "World Religions",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "christianity",
+          "prompt": "Which religion, founded in 1st-century Palestine, is based on the teachings of Jesus of Nazareth and centers on the belief in his resurrection?",
+          "answer": "Christianity",
+          "alternates": [],
+          "explanation": "Founded in 1st century CE in Roman Palestine; world's largest religion with ~2.4 billion adherents\nBased on the life and teachings of Jesus of Nazareth, believed by followers to be the Son of God and Messiah\nSacred text is the Bible (Old Testament + New Testament); the Gospels of Matthew, Mark, Luke, and John narrate Jesus's life\nThree major branches: Roman Catholicism (~1.3B), Protestantism (~900M), and Eastern Orthodoxy (~220M)\nKey holy sites: Church of the Holy Sepulchre (Jerusalem), Vatican City (Rome), Church of the Nativity (Bethlehem)\nThe Nicene Creed (325 CE) established core doctrines including the Trinity — Father, Son, and Holy Spirit\nSplit into East and West in the Great Schism of 1054; Protestantism began with Martin Luther's 95 Theses in 1517\nChristmas and Easter are its two principal holidays; the cross is its universal symbol",
+          "cardFront": "Jesus of Nazareth, Bible, Trinity, ~2.4 billion adherents",
+          "cardBack": "Christianity"
+        },
+        {
+          "id": "islam",
+          "prompt": "Which religion, whose name means 'submission to God,' was founded in 7th-century Arabia by a merchant who received revelations in a cave near Mecca?",
+          "answer": "Islam",
+          "alternates": [],
+          "explanation": "Founded c. 610 CE in Mecca (modern Saudi Arabia); ~1.9 billion adherents, second-largest religion\nFounded by the Prophet Muhammad (c. 570–632 CE), who received revelations from God (Allah) via the angel Gabriel\nSacred text is the Quran (114 chapters called suras); the Hadith records Muhammad's sayings and actions\nFive Pillars: shahada (declaration of faith), salat (five daily prayers), zakat (almsgiving), sawm (Ramadan fasting), hajj (pilgrimage to Mecca)\nTwo major branches: Sunni (~85–90%) and Shia (~10–15%); split originated in a succession dispute after Muhammad's death in 632\nHoly sites: Mecca (the Kaaba), Medina (Prophet's Mosque), and Jerusalem (Al-Aqsa Mosque / Dome of the Rock)\nThe Islamic Golden Age (8th–14th centuries) produced major advances in mathematics, astronomy, medicine, and philosophy\nFastest-growing major religion by birth rate; projected to nearly equal the number of adherents of the largest religion by 2050",
+          "cardFront": "Prophet Muhammad, Quran, Five Pillars, ~1.9 billion adherents",
+          "cardBack": "Islam"
+        },
+        {
+          "id": "hinduism",
+          "prompt": "Which religion, the world's oldest major faith still practiced, has no single founder and centers on concepts like dharma, karma, and moksha?",
+          "answer": "Hinduism",
+          "alternates": [],
+          "explanation": "Originated in the Indus Valley region; roots date to 2000–1500 BCE or earlier; ~1.2 billion adherents (third-largest)\nNo single founder — evolved from Vedic traditions, folk practices, and philosophical schools over millennia\nSacred texts include the Vedas (oldest, c. 1500 BCE), the Upanishads, the Bhagavad Gita, and the epics Mahabharata and Ramayana\nCore concepts: dharma (duty/righteousness), karma (action and consequence), samsara (cycle of rebirth), moksha (liberation)\nMajor deities include Brahma (creator), Vishnu (preserver), and Shiva (destroyer) — the Trimurti\nHoly sites include Varanasi (on the Ganges), Rishikesh, Haridwar, and the Char Dham pilgrimage circuit\nMajor traditions: Vaishnavism (Vishnu), Shaivism (Shiva), Shaktism (Devi/goddess worship)\nThe caste system (varna) and the festival of Diwali (Festival of Lights) are among its most widely known cultural features",
+          "cardFront": "No single founder, Vedas, dharma/karma/moksha, ~1.2 billion adherents",
+          "cardBack": "Hinduism"
+        },
+        {
+          "id": "buddhism",
+          "prompt": "Which religion was founded by a prince who renounced his wealth to seek enlightenment under a Bodhi tree in northeastern India around the 5th century BCE?",
+          "answer": "Buddhism",
+          "alternates": [],
+          "explanation": "Founded c. 5th century BCE in northeastern India by Siddhartha Gautama; ~500 million adherents\nSiddhartha Gautama (c. 563–483 BCE), a prince of the Shakya clan, became the Buddha ('Awakened One') after meditating under the Bodhi tree at Bodh Gaya\nCore teaching: the Four Noble Truths — life involves suffering (dukkha), suffering arises from craving, suffering can end, the path to its end is the Eightfold Path\nThree major branches: Theravada (Southeast Asia), Mahayana (East Asia), and Vajrayana (Tibet, Mongolia)\nSacred texts vary by tradition: Pali Canon (Tipitaka) for Theravada; Mahayana sutras include the Lotus Sutra and Heart Sutra\nKey holy sites: Bodh Gaya (enlightenment), Sarnath (first sermon), Lumbini (birthplace, in modern Nepal), Kushinagar (death)\nThe Dalai Lama is the spiritual leader of Tibetan Vajrayana tradition; the current (14th) Dalai Lama, Tenzin Gyatso, won the Nobel Peace Prize in 1989\nRejected the Hindu caste system and the authority of the Vedas; emphasizes the Middle Way between asceticism and indulgence",
+          "cardFront": "Siddhartha Gautama, Four Noble Truths, Eightfold Path, ~500M adherents",
+          "cardBack": "Buddhism"
+        },
+        {
+          "id": "judaism",
+          "prompt": "Which religion traces its covenant with God to Abraham and Moses, follows 613 commandments in its sacred law, and worships in synagogues?",
+          "answer": "Judaism",
+          "alternates": [],
+          "explanation": "One of the oldest monotheistic religions; origins c. 2000–1500 BCE with the patriarchs Abraham, Isaac, and Jacob; ~15 million adherents\nMoses received the Torah (first five books: Genesis, Exodus, Leviticus, Numbers, Deuteronomy) at Mount Sinai — the foundational narrative\nThe Tanakh (Hebrew Bible) comprises Torah, Nevi'im (Prophets), and Ketuvim (Writings); the Talmud is the central text of rabbinic law and commentary\n613 mitzvot (commandments) govern daily life; the Ten Commandments are the most widely known subset\nThree major branches: Orthodox, Conservative, and Reform; Hasidic movements are a subset of Orthodox\nHoly sites: Western Wall (Kotel) and Temple Mount in Jerusalem; the First Temple was built by Solomon, the Second destroyed by Rome in 70 CE\nShabbat (Friday sunset to Saturday sunset) is the weekly day of rest; major holidays include Passover, Yom Kippur, and Rosh Hashanah\nThe Holocaust (1941–1945) killed approximately 6 million Jews — roughly one-third of the world's Jewish population",
+          "cardFront": "Abraham and Moses, Torah, 613 commandments, ~15M adherents",
+          "cardBack": "Judaism"
+        },
+        {
+          "id": "sikhism",
+          "prompt": "Which monotheistic religion was founded in 15th-century Punjab by Guru Nanak and is organized around a succession of ten gurus?",
+          "answer": "Sikhism",
+          "alternates": [],
+          "explanation": "Founded c. 1499 CE in the Punjab region (modern India/Pakistan) by Guru Nanak (1469–1539); ~25–30 million adherents\nTen human gurus from Guru Nanak (1st) to Guru Gobind Singh (10th, 1666–1708), who declared the scripture as the eternal guru\nSacred text: the Guru Granth Sahib (also called Adi Granth), compiled by Guru Arjan in 1604; treated as a living guru and given a ceremonial resting place each night\nThe Golden Temple (Harmandir Sahib) in Amritsar, Punjab, is the holiest site; its communal kitchen (langar) feeds up to 100,000 people daily for free\nThe Khalsa, founded by Guru Gobind Singh in 1699, requires the Five Ks: kesh (uncut hair), kangha (comb), kara (steel bracelet), kachera (undergarment), kirpan (ceremonial dagger)\nWorld's fifth-largest religion; ~90% of adherents live in India, mostly in Punjab state\nEmphasizes equality, honest work, sharing with others, and meditation on God's name (Naam Japna)\nOperation Blue Star (1984) — Indian Army's controversial assault on the Golden Temple — led to the assassination of Prime Minister Indira Gandhi by her Sikh bodyguards",
+          "cardFront": "Guru Nanak, Guru Granth Sahib, Golden Temple, ~25–30M adherents",
+          "cardBack": "Sikhism"
+        },
+        {
+          "id": "taoism",
+          "prompt": "Which Chinese philosophical and religious tradition, attributed to a sage who reportedly wrote its foundational text before disappearing through a mountain pass, emphasizes living in harmony with 'the Way'?",
+          "answer": "Taoism",
+          "alternates": ["Daoism"],
+          "explanation": "Originated in China, 4th–6th century BCE; attributed to Laozi (Lao Tzu), whose historical existence is debated\nFoundational text: the Tao Te Ching (Daodejing), ~5,000 characters long — one of the most translated books in history after the Bible\nThe Tao ('the Way') is the fundamental, nameless force underlying all of reality; the opening line: 'The Tao that can be told is not the eternal Tao'\nYin and yang — complementary opposites — and wu wei (effortless action / non-interference) are central concepts\nThe Zhuangzi, attributed to the philosopher Zhuang Zhou, is the other major early text; famous for the 'butterfly dream' parable\nReligious Taoism developed later with temples, priests, rituals, and an elaborate pantheon of deities and immortals\nInfluenced Chinese medicine, martial arts (tai chi, qigong), feng shui, and traditional Chinese landscape painting\nEstimated 12 million formal adherents, though Taoist ideas permeate Chinese culture far more broadly",
+          "cardFront": "Laozi, Tao Te Ching, yin and yang, wu wei",
+          "cardBack": "Taoism"
+        },
+        {
+          "id": "shinto",
+          "prompt": "Which indigenous Japanese religion centers on the worship of kami — spirits inhabiting natural phenomena, ancestors, and sacred places?",
+          "answer": "Shinto",
+          "alternates": ["Shintoism"],
+          "explanation": "Indigenous religion of Japan; no single founder; roots in prehistoric Japanese animism and nature worship\nThe word means 'way of the gods' (shin = gods/spirits, to = way); coined to distinguish native beliefs from imported Buddhism\nSacred texts: the Kojiki ('Records of Ancient Matters,' 712 CE) and Nihon Shoki ('Chronicles of Japan,' 720 CE) contain the creation myths\nKami are spirits or gods inhabiting natural features, ancestors, and phenomena; Amaterasu (sun goddess) is the chief kami and mythical ancestor of the imperial family\nThe Grand Shrine at Ise (Ise Jingu), rebuilt every 20 years, is the holiest site; Japan has roughly 80,000 Shinto shrines\nTorii gates (red/orange portal gates) mark the entrance to sacred space; visitors purify with water at temizu basins\nState Shinto was the official ideology of imperial Japan (1868–1945); Emperor Hirohito renounced his divinity in 1946\nMost Japanese practice elements of both Shinto and Buddhism simultaneously — weddings are often Shinto, funerals Buddhist",
+          "cardFront": "Indigenous to Japan, kami worship, Kojiki, torii gates",
+          "cardBack": "Shinto"
+        },
+        {
+          "id": "confucianism",
+          "prompt": "Which ethical and philosophical system, originating from a 6th-century BCE Chinese teacher, emphasizes filial piety, ritual propriety, and the cultivation of virtue through the Five Relationships?",
+          "answer": "Confucianism",
+          "alternates": [],
+          "explanation": "Founded by Confucius (Kong Fuzi, 551–479 BCE) in the state of Lu during China's Spring and Autumn period\nThe Analects (Lunyu), compiled by his disciples, contain his core teachings on ethics, governance, and moral self-cultivation\nCanonical texts: the Four Books (Analects, Mencius, Great Learning, Doctrine of the Mean) and Five Classics (Book of Odes, Book of Documents, Book of Changes, Book of Rites, Spring and Autumn Annals)\nFive Key Relationships: ruler–subject, parent–child, husband–wife, elder–younger sibling, friend–friend; each carries reciprocal duties\nRen (benevolence/humaneness), li (ritual propriety), and xiao (filial piety) are the three core virtues\nBecame China's state philosophy under Emperor Wu of the Han Dynasty (r. 141–87 BCE); remained dominant for over 2,000 years\nThe imperial examination system, based on mastery of Confucian classics, selected Chinese bureaucrats from 605 CE until 1905\nDebated whether it is a religion or philosophy — has no deity worship or afterlife doctrine, but includes ancestor veneration and ritual",
+          "cardFront": "Confucius, Analects, filial piety, Five Relationships",
+          "cardBack": "Confucianism"
+        },
+        {
+          "id": "zoroastrianism",
+          "prompt": "Which ancient Persian religion, founded by a prophet whose name gives it its modern designation, teaches a cosmic struggle between Ahura Mazda and Angra Mainyu?",
+          "answer": "Zoroastrianism",
+          "alternates": ["Zarathustrianism", "Mazdaism"],
+          "explanation": "Founded by the prophet Zoroaster (Zarathustra) in ancient Persia; dating disputed — estimates range from 1500 BCE to 600 BCE\nSacred text: the Avesta, whose oldest portion (the Gathas) are hymns attributed directly to Zoroaster\nCentral theology: cosmic dualism between Ahura Mazda (Wise Lord, good) and Angra Mainyu (Destructive Spirit, evil)\nWas the state religion of three successive Persian empires: Achaemenid, Parthian, and Sasanian (c. 550 BCE–651 CE)\nFire is sacred as a symbol of Asha (truth/righteousness); fire temples maintain an eternal flame; practitioners sometimes called 'fire worshippers'\nParsis — Zoroastrians who fled to India after the Arab conquest of Persia (7th–10th centuries) — are the largest surviving community\nInfluenced Judaism, Christianity, and Islam with concepts of heaven/hell, final judgment, angels/demons, and a messiah figure\nToday roughly 100,000–200,000 adherents remain worldwide, mostly in India (Parsis) and Iran; Freddie Mercury was born into a Parsi family",
+          "cardFront": "Zoroaster, Avesta, Ahura Mazda vs. Angra Mainyu, ancient Persia",
+          "cardBack": "Zoroastrianism"
+        },
+        {
+          "id": "jainism",
+          "prompt": "Which Indian religion, whose adherents practice radical nonviolence (ahimsa) to the extent of sweeping paths to avoid stepping on insects, was shaped by 24 spiritual teachers called tirthankaras?",
+          "answer": "Jainism",
+          "alternates": [],
+          "explanation": "Ancient Indian religion; the last tirthankara, Mahavira (c. 599–527 BCE), is the key historical figure; ~4–5 million adherents, mostly in India\nTwenty-four tirthankaras ('ford-makers') are the spiritual teachers; Mahavira was the 24th, Rishabhadeva the legendary 1st\nAhimsa (nonviolence) is the supreme principle — extends to all living beings; Jain monks may wear mouth coverings to avoid inhaling insects\nSacred texts: the Agamas, compiled from Mahavira's teachings; the Tattvartha Sutra is accepted by all Jain sects\nTwo major sects: Digambara ('sky-clad,' monks practice nudity) and Shvetambara ('white-clad,' monks wear white robes)\nThree core vows (expanded to five for monks): ahimsa (nonviolence), satya (truth), asteya (non-stealing), brahmacharya (chastity), aparigraha (non-attachment)\nJains are disproportionately influential in Indian business and philanthropy despite small numbers; historically prominent in banking and trade\nThe Ranakpur and Dilwara temples in Rajasthan are among the most intricate carved-marble structures in the world",
+          "cardFront": "Mahavira, 24 tirthankaras, ahimsa (nonviolence), Agamas",
+          "cardBack": "Jainism"
+        },
+        {
+          "id": "bahai",
+          "prompt": "Which religion, founded in 19th-century Persia, teaches the unity of all religions and of all humanity, and has its world headquarters on Mount Carmel in Haifa, Israel?",
+          "answer": "Baha'i Faith",
+          "alternates": ["Bahai", "Baha'i", "Bahai Faith"],
+          "explanation": "Founded in 1863 by Baha'u'llah (Mirza Husayn-Ali Nuri, 1817–1892) in Persia (modern Iran); ~5–8 million adherents in over 200 countries\nGrew out of Babism, a movement founded by the Bab (Siyyid Ali Muhammad, 1819–1850), who declared himself a messianic forerunner\nCentral teaching: progressive revelation — God sends messengers (including Abraham, Moses, Jesus, Muhammad, the Bab, Baha'u'llah) suited to each age\nSacred texts: the Kitab-i-Aqdas ('Most Holy Book'), Kitab-i-Iqan ('Book of Certitude'), and the Hidden Words, all by Baha'u'llah\nWorld headquarters: the Baha'i World Centre on Mount Carmel, Haifa, Israel; the Shrine of the Bab with its golden dome is a UNESCO World Heritage Site\nBaha'u'llah spent 40 years in exile and imprisonment (Baghdad, Constantinople, Adrianople, Acre); wrote prolifically throughout\nTeaches the elimination of prejudice, equality of men and women, universal education, harmony of science and religion, and a world federal system\nHeavily persecuted in Iran since the 1979 revolution; Baha'is are the largest non-Muslim religious minority in Iran",
+          "cardFront": "Baha'u'llah, Kitab-i-Aqdas, unity of religions, Mount Carmel (Haifa)",
+          "cardBack": "Baha'i Faith"
+        }
+      ]
+    }
+  ]
+}

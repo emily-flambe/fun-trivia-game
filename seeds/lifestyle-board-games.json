@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "lifestyle/board-games", "parentId": "lifestyle", "name": "Board Games & Card Games", "description": "Classic board games, card games, and tabletop gaming" }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/board-games/board-card-games",
+      "nodeId": "lifestyle/board-games",
+      "name": "Board Games & Card Games",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "chess",
+          "prompt": "Which strategy game, originating in 6th-century India as chaturanga, is played on a 64-square board with pieces including knights, bishops, and rooks?",
+          "answer": "Chess",
+          "alternates": [],
+          "explanation": "Originated in India c. 6th century CE as chaturanga; spread to Persia (shatranj), then to Europe by c. 1000 CE\nPlayed on an 8x8 board with 16 pieces per side; the goal is to checkmate the opponent's king\nFIDE (Fédération Internationale des Échecs) founded in 1924; administers the World Championship since 1948\nGarry Kasparov became youngest undisputed world champion in 1985 at age 22\nIBM's Deep Blue defeated Kasparov in 1997 — first time a computer beat a reigning world champion under standard time controls\nBobby Fischer's 1972 victory over Boris Spassky in Reykjavik ('Match of the Century') was a Cold War cultural event\nThe Lewis Chessmen (c. 12th century), found on Scotland's Isle of Lewis, are among the most famous archaeological artifacts in Europe",
+          "cardFront": "Chaturanga origin, 64 squares, checkmate",
+          "cardBack": "Chess"
+        },
+        {
+          "id": "go",
+          "prompt": "Which ancient strategy game, one of the four cultivated arts of Chinese scholars, is played by placing black and white stones on a 19x19 grid to surround territory?",
+          "answer": "Go",
+          "alternates": ["Weiqi", "Wei qi", "Baduk", "Igo"],
+          "explanation": "Originated in China over 2,500 years ago; earliest textual reference in the Zuo Zhuan (c. 548 BCE)\nKnown as weiqi (Chinese), baduk (Korean), and igo (Japanese)\nOne of the four cultivated arts of the Chinese scholar-gentleman, alongside calligraphy, painting, and guqin\nPlayed on a 19x19 grid (361 intersections); players place stones to surround territory; captured stones are removed\nGoogle DeepMind's AlphaGo defeated world champion Lee Sedol 4\u20131 in Seoul in March 2016 — a landmark moment for AI\nHas more possible board positions than atoms in the observable universe (approximately 2.1 x 10^170)\nOriginal board was 17x17; the 19x19 standard was established during the Tang dynasty (618\u2013907 CE)",
+          "cardFront": "Weiqi/baduk, black and white stones, 19x19 grid, territory",
+          "cardBack": "Go"
+        },
+        {
+          "id": "scrabble",
+          "prompt": "Which word game, invented by an unemployed American architect during the Great Depression, uses letter tiles with point values based on frequency analysis of the New York Times?",
+          "answer": "Scrabble",
+          "alternates": [],
+          "explanation": "Invented by Alfred Mosher Butts in 1938 (evolved from his earlier game Lexiko/Criss-Crosswords)\nButts studied the front page of the New York Times to calculate letter frequency and assign point values\nJames Brunot bought the rights in 1948, simplified the rules, and renamed it Scrabble\nThe blank tile is worth 0 points; Q and Z are worth 10 points each; there are 100 tiles in the English edition\nNew Zealander Nigel Richards is the most dominant competitive player \u2014 five-time World Champion\nRichards also won the French-language World Championship in 2015 despite not speaking French; he memorized the French dictionary\nThe highest possible single-word score is 1,778 points for OXYPHENBUTAZONE (theoretically, across three triple-word squares)",
+          "cardFront": "Letter tiles, crossword-style board, Alfred Mosher Butts",
+          "cardBack": "Scrabble"
+        },
+        {
+          "id": "monopoly",
+          "prompt": "Which real-estate trading game was originally derived from The Landlord's Game, a 1904 creation designed to illustrate the economic theories of Henry George?",
+          "answer": "Monopoly",
+          "alternates": [],
+          "explanation": "Based on The Landlord's Game, patented in 1904 by Elizabeth 'Lizzie' Magie to demonstrate Georgist economics\nCharles Darrow encountered a modified version, redrew it, and sold it to Parker Brothers in 1935 \u2014 marketed as sole inventor\nMagie sold her patent to Parker Brothers for $500 in 1935; received no royalties\nThe standard U.S. board uses Atlantic City street names; Boardwalk and Park Place are the most expensive properties\nRalph Anspach's Anti-Monopoly lawsuit in the 1970s uncovered the true origin story\nOver 275 million games sold worldwide; translated into 47+ languages\nThe game's iron, top hat, and Scottie dog tokens are cultural icons; the thimble was retired in 2017",
+          "cardFront": "Real-estate trading, Lizzie Magie's Landlord's Game, Atlantic City streets",
+          "cardBack": "Monopoly"
+        },
+        {
+          "id": "risk",
+          "prompt": "Which global conquest game, originally called La Conquete du Monde, was invented by the French filmmaker who also directed The Red Balloon?",
+          "answer": "Risk",
+          "alternates": [],
+          "explanation": "Invented in 1957 by Albert Lamorisse, the French filmmaker who directed The Red Balloon (1956, Palme d'Or)\nOriginally titled La Conquete du Monde ('The Conquest of the World'); produced by Miro Company in France\nParker Brothers acquired the rights and published it as Risk in 1959 with revised rules\nPlayers deploy armies across a world map divided into 42 territories and 6 continents\nCombat is resolved by dice rolls; attacking with more dice gives a statistical advantage\nInspired later strategy games including Axis & Allies and Settlers of Catan\nAustralia (Oceania) is famously the easiest continent to defend \u2014 only one entry point from Siam",
+          "cardFront": "La Conquete du Monde, Albert Lamorisse, global conquest, dice combat",
+          "cardBack": "Risk"
+        },
+        {
+          "id": "settlers-of-catan",
+          "prompt": "Which German-style resource-trading game, set on a modular hex-tile island, launched the modern board game renaissance when it won the Spiel des Jahres in 1995?",
+          "answer": "Settlers of Catan",
+          "alternates": ["Catan", "The Settlers of Catan"],
+          "explanation": "Designed by Klaus Teuber; published in 1995 in Germany; won the Spiel des Jahres (Game of the Year) that year\nPlayers collect and trade resources (wood, brick, ore, grain, wool) to build settlements, cities, and roads\nModular hex-tile board means every game has a different map layout\nCredited with launching the 'Eurogame' or modern board game movement in North America\nOver 40 million copies sold worldwide; translated into 40+ languages\nOfficially rebranded from 'The Settlers of Catan' to simply 'Catan' in 2015\nKlaus Teuber died on April 1, 2023, at age 70; he was a former dental technician who became a full-time game designer",
+          "cardFront": "Hex-tile island, resource trading, Spiel des Jahres 1995, Klaus Teuber",
+          "cardBack": "Settlers of Catan"
+        },
+        {
+          "id": "backgammon",
+          "prompt": "Which race game, played with 15 checkers per side on a board of 24 narrow triangles called points, has ancestors dating back approximately 5,000 years to Mesopotamia?",
+          "answer": "Backgammon",
+          "alternates": [],
+          "explanation": "One of the oldest known board games; ancestors trace to approximately 3000 BCE in Mesopotamia (modern Iraq)\nPlayed on a board with 24 triangular 'points'; each player has 15 checkers and moves according to dice rolls\nThe doubling cube, introduced in 1920s New York, revolutionized the gambling and strategic aspects of the game\nEdmund Hoyle published the first standardized rules in 1743\nThe name 'backgammon' first appears in English in 1635 in a letter by James Howell\nA member of the 'tables' family of games, which includes Roman ludus duodecim scriptorum and tabula\nThe World Backgammon Championship has been held annually since 1979",
+          "cardFront": "24 points, 15 checkers, doubling cube, Mesopotamian ancestors",
+          "cardBack": "Backgammon"
+        },
+        {
+          "id": "poker",
+          "prompt": "Which card game, descended from the French game poque, became synonymous with Mississippi riverboat gambling in the 1830s and now features a World Series held annually in Las Vegas?",
+          "answer": "Poker",
+          "alternates": [],
+          "explanation": "Developed in the early 19th-century United States; derives its name from French poque and German pochen ('to knock')\nFirst documented in New Orleans in 1829, initially played with a 20-card deck among four players\nExpanded to a 52-card deck between 1830 and 1850; straights and flushes added during this period\nThe first World Series of Poker (WSOP) was held in 1970 at Binion's Horseshoe in Las Vegas, organized by Benny Binion\nTexas Hold'em is the most popular modern variant; each player gets two hole cards plus five community cards\nThe 'Dead Man's Hand' (black aces and eights) was supposedly held by Wild Bill Hickok when he was shot in 1876\nChris Moneymaker's 2003 WSOP Main Event win (via an $86 online satellite) triggered the modern poker boom",
+          "cardFront": "Poque origin, riverboat gambling, WSOP, Texas Hold'em",
+          "cardBack": "Poker"
+        },
+        {
+          "id": "bridge",
+          "prompt": "Which four-player partnership card game, played with a standard 52-card deck, features a bidding auction, a dummy hand, and a contract to win a certain number of tricks?",
+          "answer": "Bridge",
+          "alternates": ["Contract Bridge", "Contract bridge"],
+          "explanation": "Contract bridge was codified by Harold S. Vanderbilt in 1925, evolving from auction bridge and earlier whist\nPlayed by two partnerships of two; bidding determines the contract (number of tricks to win and trump suit)\nOne hand (the 'dummy') is laid face-up on the table after the opening lead; the declarer plays both hands\nEly Culbertson popularized the game in the 1930s through flamboyant publicity and his Bridge World magazine\nCharles Goren's 4\u20133\u20132\u20131 point-count system (aces=4, kings=3, etc.) became the standard bidding evaluation method\nOmar Sharif, the film star of *Lawrence of Arabia* and *Doctor Zhivago*, was an avid bridge player and columnist\nThe Bermuda Bowl (world team championship) has been held since 1950; Italy's Blue Team won 10 times between 1957\u20131975",
+          "cardFront": "Partnership card game, bidding, dummy hand, contract, tricks",
+          "cardBack": "Bridge"
+        },
+        {
+          "id": "trivial-pursuit",
+          "prompt": "Which trivia-themed board game, invented by two Canadian journalists after a missing piece from their Scrabble set inspired a new idea, uses pie-shaped playing pieces that collect colored wedges?",
+          "answer": "Trivial Pursuit",
+          "alternates": [],
+          "explanation": "Invented on December 15, 1979, in Montreal by Chris Haney (photo editor, The Gazette) and Scott Abbott (sports editor, Canadian Press)\nFirst commercially released in Canada in 1981; 1,100 copies produced for the initial run at $15 each\nLicensed to Selchow & Righter (U.S. publisher of Scrabble) in 1982; became a massive hit\nSix categories in the original Genus edition: Geography, Entertainment, History, Art & Literature, Science & Nature, Sports & Leisure\nPlayers move around a wheel-shaped board collecting colored wedges ('pie pieces') by answering questions correctly\nSold over 100 million copies worldwide; acquired by Hasbro when it bought Selchow & Righter\nFred L. Worth sued the creators in 1984, claiming they used facts from his trivia encyclopedias \u2014 the case was dismissed because facts cannot be copyrighted",
+          "cardFront": "Canadian invention, six categories, colored wedges, pie-shaped tokens",
+          "cardBack": "Trivial Pursuit"
+        },
+        {
+          "id": "clue",
+          "prompt": "Which deduction game, invented during WWII blackouts, challenges players to determine a killer, weapon, and room by making accusations like 'Colonel Mustard in the library with the candlestick'?",
+          "answer": "Clue",
+          "alternates": ["Cluedo"],
+          "explanation": "Invented in 1943 by Anthony E. Pratt, a British solicitor's clerk, during WWII air-raid blackouts\nPatented in 1947; first manufactured by Waddingtons in the UK in 1949 as Cluedo (a portmanteau of 'Clue' and Latin 'ludo,' meaning 'I play')\nSold in North America as Clue by Parker Brothers; the victim is Mr. Boddy (Mr. Black in the UK edition)\nOriginal six suspects: Miss Scarlet, Colonel Mustard, Mrs. White, Reverend Green, Mrs. Peacock, Professor Plum\nSix weapons in the classic edition: candlestick, knife, lead pipe, revolver, rope, wrench\nThe 1985 film *Clue* starring Tim Curry was released with three different endings shown in different theaters\nPlayers use deductive reasoning to identify which suspect, weapon, and room cards are hidden in the envelope",
+          "cardFront": "Whodunit, six suspects, six weapons, nine rooms, deduction",
+          "cardBack": "Clue"
+        },
+        {
+          "id": "mahjong",
+          "prompt": "Which tile-based game, developed in mid-19th-century China, sparked a massive American craze in the 1920s after Abercrombie & Fitch began importing sets?",
+          "answer": "Mahjong",
+          "alternates": ["Mah-jongg", "Mahjongg", "Mah Jongg", "Mah-Jong", "Mah Jong", "Majiang"],
+          "explanation": "Developed in the mid-to-late 1800s in China's Yangtze River Delta region; descended from earlier Chinese draw-and-discard card games\nPlayed with 144 tiles featuring suits (bamboo, circles, characters), winds, dragons, and bonus tiles\nFour players draw and discard tiles to form sets (pungs, kongs, chows) and complete a winning hand\nAbercrombie & Fitch began selling sets in the U.S. in 1920; Joseph Park Babcock published simplified American rules the same year\nBecame a nationwide craze in 1920s America; department stores offered in-store classes\nThe National Mah Jongg League (founded 1937) standardizes American rules and publishes an annual card with new hands\nStrongly associated with Jewish-American culture; became a staple of Jewish women's social gatherings from the mid-20th century onward",
+          "cardFront": "144 tiles, Chinese origin, 1920s American craze, four players",
+          "cardBack": "Mahjong"
+        }
+      ]
+    }
+  ]
+}

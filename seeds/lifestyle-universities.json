@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "lifestyle/universities", "parentId": "lifestyle", "name": "Universities", "description": "Famous universities, their locations, and history" }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/universities/university-locations",
+      "nodeId": "lifestyle/universities",
+      "name": "University Locations",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "harvard",
+          "prompt": "Founded in 1636, this is the oldest institution of higher education in the United States. Its athletic teams are simply known by the school color, and it has the largest academic endowment of any university in the world.",
+          "answer": "Cambridge, Massachusetts",
+          "alternates": ["Cambridge MA", "Cambridge, MA"],
+          "explanation": "Founded in 1636 as the oldest college in the United States, named after clergyman John Harvard who left his library and half his estate to the school\nColors are crimson and white; teams are called the Harvard Crimson — the color was adopted in 1858 when rowers wore crimson scarves so spectators could identify them\nEight U.S. presidents attended Harvard, including John Adams, both Roosevelts, JFK, and Barack Obama\nHarvard's endowment exceeds $50 billion, the largest of any university worldwide\nHarvard Yard is the historic heart of campus; freshmen still live in dormitories surrounding it\nThe statue in Harvard Yard is called the 'Statue of Three Lies' — the inscription gets the founder's name, founding date, and founding claim all wrong\nHome to the Widener Library, one of the world's largest university libraries, with over 17 million volumes in the Harvard Library system",
+          "cardFront": "Harvard University",
+          "cardBack": "Cambridge, MA"
+        },
+        {
+          "id": "mit",
+          "prompt": "Founded in 1861 by William Barton Rogers, this institute moved from Boston to its current location across the river in 1916. Its mascot is a beaver named Tim (the school's initials spelled backward), and it has produced 105 Nobel laureates.",
+          "answer": "Cambridge, Massachusetts",
+          "alternates": ["Cambridge MA", "Cambridge, MA"],
+          "explanation": "Founded in 1861 to advance 'useful knowledge'; first classes held in 1865 after Civil War delays, with just 15 students\nMoved from Boston's Back Bay to its current campus across the Charles River in 1916\nMascot is Tim the Beaver — 'Tim' is MIT spelled backward; chosen in 1914 for the beaver's engineering skills\nColors are cardinal red and silver gray\n105 Nobel laureates, 26 Turing Award winners, and 8 Fields Medalists affiliated as of 2024\nManages Lincoln Laboratory (defense research) and played a key role in developing radar during WWII at the Radiation Laboratory\nThe Harvard Bridge (closest bridge to MIT) is measured in 'Smoots' — a unit based on the height of 1958 pledge Oliver Smoot (5'7\"), who was rolled end-over-end to measure it",
+          "cardFront": "MIT (Massachusetts Institute of Technology)",
+          "cardBack": "Cambridge, MA"
+        },
+        {
+          "id": "stanford",
+          "prompt": "Founded in 1885 by a railroad magnate and his wife in memory of their only child, this university opened in 1891 on a former horse farm. Its teams are named for a color (not an animal), and it has won more NCAA team championships than any other school.",
+          "answer": "Stanford, California",
+          "alternates": ["Stanford", "Palo Alto", "Palo Alto, California", "Palo Alto CA", "Palo Alto, CA", "Stanford CA", "Stanford, CA"],
+          "explanation": "Founded in 1885 by railroad magnate Leland Stanford and his wife Jane in memory of their son Leland Jr., who died of typhoid at 15\nOpened in 1891 on the Stanfords' 8,180-acre Palo Alto Stock Farm; campus is still one of the largest in the U.S.\nTeams are called the Cardinal (the color, singular) — the original Indian mascot was dropped in 1972; the unofficial mascot is the Stanford Tree\nColors are cardinal red and white\nEstablished the first university research park in 1951, seeding what became Silicon Valley; alumni founded Google, HP, Nike, Netflix, and many more\nHas won 137 NCAA team championships, the most of any university, with at least one every year since 1976\nThe motto 'Die Luft der Freiheit weht' ('The wind of freedom blows') is in German, unusual for an American university",
+          "cardFront": "Stanford University",
+          "cardBack": "Stanford, CA"
+        },
+        {
+          "id": "yale",
+          "prompt": "Founded in 1701 as the Collegiate School, this Ivy League university was the first American college to adopt a live animal mascot — a bulldog purchased from a blacksmith for $5 in 1889. Walter Camp, the 'Father of American Football,' developed the modern game here.",
+          "answer": "New Haven, Connecticut",
+          "alternates": ["New Haven", "New Haven CT", "New Haven, CT"],
+          "explanation": "Founded in 1701 as the Collegiate School; renamed in 1718 for Welsh merchant Elihu Yale, who donated goods, books, and a portrait of King George I\nThird-oldest university in the United States\nMascot is Handsome Dan, a bulldog — first purchased in 1889 for $5; the current dog carries the lineage as Handsome Dan XIX\nColors are Yale Blue and white\nFive U.S. presidents attended Yale: William Howard Taft, George H.W. Bush, George W. Bush, Bill Clinton, and Gerald Ford\nEndowment of ~$41 billion, the second-largest among U.S. universities\nEdward Bouchet, Yale Class of 1874, was the first African American to earn a Ph.D. in the United States",
+          "cardFront": "Yale University",
+          "cardBack": "New Haven, CT"
+        },
+        {
+          "id": "princeton",
+          "prompt": "Founded in 1746, this Ivy League school's Nassau Hall served as the temporary U.S. Capitol in 1783. Its colors are orange and black, and the year it was founded was also the Year of the Tiger in the Chinese zodiac.",
+          "answer": "Princeton, New Jersey",
+          "alternates": ["Princeton", "Princeton NJ", "Princeton, NJ"],
+          "explanation": "Founded in 1746 in Elizabeth, New Jersey, as the College of New Jersey; moved to its current location in 1756\nFourth-oldest institution of higher education in the U.S. and one of nine colonial colleges chartered before the American Revolution\nNassau Hall, the oldest building on campus (1756), served as the seat of the Continental Congress in 1783\nMascot is the Tiger; originated in the 1880s when football players wore orange-and-black striped jerseys, prompting sportswriters to call them 'tigers'\nColors are orange and black; 1746, the founding year, was also the Year of the Tiger\nAlbert Einstein spent the last 22 years of his life at the nearby Institute for Advanced Study, closely associated with (but independent of) the university\nNotable alumni include James Madison, F. Scott Fitzgerald, Jeff Bezos, Michelle Obama, and two U.S. presidents (Madison and Woodrow Wilson)",
+          "cardFront": "Princeton University",
+          "cardBack": "Princeton, NJ"
+        },
+        {
+          "id": "oxford",
+          "prompt": "Teaching existed here in some form as early as 1096, making it the oldest university in the English-speaking world. It grew rapidly after 1167 when Henry II banned English students from attending the University of Paris. Its 39 colleges include University, Balliol, and Merton, all founded in the 13th century.",
+          "answer": "Oxford, England",
+          "alternates": ["Oxford", "Oxford, UK", "Oxford England", "Oxford, United Kingdom"],
+          "explanation": "Oldest university in the English-speaking world; teaching existed from at least 1096, with rapid growth from 1167\nNo single founder or founding date; the Chancellor was first named in 1201, and masters were recognized as a corporation in 1231\nComprises 39 semi-autonomous colleges; University College (1249), Balliol (c. 1263), and Merton (1264) are the oldest\nHas educated 28 British Prime Ministers, 30+ world leaders, and over 70 Nobel laureates\nThe Bodleian Library, founded in 1602, is one of the oldest libraries in Europe and holds over 13 million items\nThe annual Oxford-Cambridge Boat Race on the Thames, first held in 1829, is one of the most famous sporting rivalries in the world\nAlumni include Oscar Wilde, J.R.R. Tolkien, Stephen Hawking, Margaret Thatcher, and Malala Yousafzai",
+          "cardFront": "University of Oxford",
+          "cardBack": "Oxford, England"
+        },
+        {
+          "id": "cambridge",
+          "prompt": "Founded in 1209 by scholars who fled a dispute at Oxford, this is the world's third-oldest surviving university. Its alumni have won 126 Nobel Prizes, and its 31 colleges include Trinity, King's, and St John's. Isaac Newton and Charles Darwin both studied here.",
+          "answer": "Cambridge, England",
+          "alternates": ["Cambridge, UK", "Cambridge England", "Cambridge, United Kingdom"],
+          "explanation": "Founded in 1209 by scholars who left Oxford after a dispute with townspeople; received a royal charter from Henry III in 1231\nWorld's third-oldest university in continuous operation\n31 semi-autonomous colleges; Trinity College (founded 1546 by Henry VIII) has produced 34 Nobel laureates alone\n126 Nobel Prize winners affiliated as alumni, faculty, or researchers — more than any other university\nThe Cambridge University Library holds ~16 million books and is a legal deposit library (receives a copy of every book published in the UK)\nAlumni include Newton, Darwin, Hawking, Alan Turing, Byron, Wordsworth, Nabokov, Nehru, and 14 British Prime Ministers\nThe annual May Bumps rowing competition and the Footlights dramatic club (which launched Monty Python members, Emma Thompson, and Stephen Fry) are famous traditions",
+          "cardFront": "University of Cambridge",
+          "cardBack": "Cambridge, England"
+        },
+        {
+          "id": "sorbonne",
+          "prompt": "This university traces its origins to the 13th century, when Robert de Sorbon founded a theology college recognized by King Louis IX in 1257. Marie Curie became its first female professor in 1906. The modern institution was reconstituted in 2018 after the original was broken up following the 1968 student protests.",
+          "answer": "Paris, France",
+          "alternates": ["Paris", "Paris France"],
+          "explanation": "Origins in the early 13th century with the University of Paris; the Sorbonne college was founded by Robert de Sorbon in 1257 under Louis IX\nCardinal Richelieu commissioned architect Jacques Lemercier to renovate the buildings in the 1620s, adding the iconic domed chapel (1635\u20131642)\nMarie Curie became the first female professor at the Sorbonne in 1906, taking over her late husband Pierre's courses\nThe 1968 student protests (Mai 68) led to legislation breaking the University of Paris into 13 autonomous universities\nThe modern Sorbonne University was reconstituted in 2018 by merging Paris-Sorbonne (Paris IV) and Pierre and Marie Curie University (Paris VI)\nLocated in the Latin Quarter on the Left Bank of the Seine, named because students and professors historically spoke Latin there\nNotable alumni and faculty include Simone de Beauvoir, Jean-Paul Sartre, Samuel Beckett, and multiple Nobel laureates",
+          "cardFront": "The Sorbonne (Sorbonne University)",
+          "cardBack": "Paris, France"
+        },
+        {
+          "id": "columbia",
+          "prompt": "Founded as King's College by royal charter of George II in 1754, this Ivy League school is the oldest institution of higher education in its state. Its mascot, a lion, was adopted in 1910, and the university's journalism school administers the Pulitzer Prizes.",
+          "answer": "New York City",
+          "alternates": ["New York", "NYC", "New York, NY", "New York City, NY", "Manhattan"],
+          "explanation": "Founded in 1754 as King's College by royal charter of George II; oldest institution of higher education in New York and fifth-oldest in the U.S.\nRenamed Columbia College after the American Revolution; moved to its current Morningside Heights campus in Upper Manhattan in 1897\nMascot is Roar-ee the Lion, officially adopted in 1910; colors are Columbia blue and white\nAdministers the Pulitzer Prizes through its Graduate School of Journalism, founded by Joseph Pulitzer in 1912\nNotable alumni include Alexander Hamilton, Barack Obama, Warren Buffett, Ruth Bader Ginsburg, and Langston Hughes\nThe university's core curriculum, requiring all undergraduates to study great books and Western thought, has been in place since 1919\nLow Memorial Library, modeled on the Roman Pantheon, is one of the most iconic buildings on campus",
+          "cardFront": "Columbia University",
+          "cardBack": "New York City"
+        },
+        {
+          "id": "uchicago",
+          "prompt": "Founded in 1890 with major funding from John D. Rockefeller, this university's first football coach, Amos Alonzo Stagg, helped found the Big Ten Conference. Its first Heisman Trophy winner, Jay Berwanger (1935), was also the first winner of that award ever.",
+          "answer": "Chicago, Illinois",
+          "alternates": ["Chicago", "Chicago IL", "Chicago, IL"],
+          "explanation": "Founded in 1890 by the American Baptist Education Society with major funding from John D. Rockefeller; first classes held October 1, 1892\nTeams are called the Maroons; mascot is Phil the Phoenix; colors are maroon and white\nCoach Amos Alonzo Stagg coached football from 1892 to 1932 and helped found what became the Big Ten Conference in 1895\nJay Berwanger won the first Heisman Trophy in 1935 — and famously turned down a pro football contract, calling it financially insufficient\nEnrico Fermi's team achieved the first controlled nuclear chain reaction under the university's Stagg Field bleachers on December 2, 1942\nHas produced 100 Nobel laureates, including Michelson (first American Nobel in sciences, 1907), Milton Friedman, and Saul Bellow\nFamous for its rigorous core curriculum and the 'Chicago school' of economics, law, sociology, and literary criticism",
+          "cardFront": "University of Chicago",
+          "cardBack": "Chicago, IL"
+        },
+        {
+          "id": "duke",
+          "prompt": "Originally founded in 1838 as a small schoolhouse in Randolph County, this university was renamed in 1924 when tobacco industrialist James Buchanan Duke established a massive endowment honoring his father. Its Gothic chapel, designed by Julian Abele, has a 210-foot tower.",
+          "answer": "Durham, North Carolina",
+          "alternates": ["Durham", "Durham NC", "Durham, NC"],
+          "explanation": "Originally Brown's Schoolhouse (1838) in Randolph County, NC; moved to its current city in 1892; renamed Duke University in 1924\nJames Buchanan Duke established the Duke Endowment to honor his father Washington Duke, a tobacco and electric power magnate\nMascot is the Blue Devil, chosen in 1922 by the student newspaper as a homage to the Chasseurs Alpins, elite French WWI mountain troops\nColors are Duke blue and white\nDuke Chapel's 210-foot Gothic tower was designed by Julian Abele, one of the first prominent African American architects, who was not allowed to set foot on the campus he designed due to segregation\nThe men's basketball program, coached by Mike Krzyzewski (1980–2022), won five NCAA championships and is one of the most storied programs in the sport\nCampus spans over 8,600 acres, including the 7,000-acre Duke Forest used for ecological research",
+          "cardFront": "Duke University",
+          "cardBack": "Durham, NC"
+        },
+        {
+          "id": "rice",
+          "prompt": "Founded in 1912 on land donated by a cotton magnate and chartered as an institute, this small university charged no tuition until 1965. Its mascot, Sammy the Owl, got that name from a coded detective telegram during a mascot kidnapping.",
+          "answer": "Houston, Texas",
+          "alternates": ["Houston", "Houston TX", "Houston, TX"],
+          "explanation": "Chartered in 1891 as the William Marsh Rice Institute; first classes held in 1912 after founder Rice was murdered by his valet in 1900\nCharged no tuition until 1965, following Rice's wish that the institute be free\nMascot is Sammy the Owl; the name comes from a detective's coded telegram after a rival school kidnapped the owl: 'Sammy is fairly well and would like to see his parents'\nColors are blue ('deeper than Oxford blue') and gray ('Confederate gray, enlivened by a tinge of lavender')\nLocated adjacent to the Texas Medical Center, the largest medical complex in the world\nJFK delivered his famous 'We choose to go to the Moon' speech at Rice Stadium on September 12, 1962\nSmall undergraduate enrollment (~4,000) gives it one of the lowest student-to-faculty ratios among major research universities",
+          "cardFront": "Rice University",
+          "cardBack": "Houston, TX"
+        },
+        {
+          "id": "caltech",
+          "prompt": "Founded in 1891 by Amos G. Throop and formally renamed in 1920, this tiny institute has only about 1,000 undergraduates but has produced 46 Nobel laureates. It manages NASA's Jet Propulsion Laboratory and its mascot is, fittingly, the beaver.",
+          "answer": "Pasadena, California",
+          "alternates": ["Pasadena", "Pasadena CA", "Pasadena, CA"],
+          "explanation": "Founded in 1891 by Amos G. Throop as Throop University; became the California Institute of Technology in 1920\nTiny enrollment: roughly 1,000 undergraduates and 1,300 graduate students\nMascot is the Beaver, chosen for its reputation as 'nature's engineer'; colors are orange and white\nManages NASA's Jet Propulsion Laboratory (JPL), which traces to rocketry experiments by Theodore von Karman's students in the 1930s\n46 Nobel laureates affiliated, including Richard Feynman, Linus Pauling, and Murray Gell-Mann\nMillikan Library was one of the most frequently shaken buildings in the world — seismologists used it to test earthquake instruments\nFamous for elaborate student pranks ('hacks'), including altering the Hollywood Sign to read 'CALTECH' in 1987",
+          "cardFront": "Caltech (California Institute of Technology)",
+          "cardBack": "Pasadena, CA"
+        },
+        {
+          "id": "georgetown",
+          "prompt": "Founded in 1789 by John Carroll, this is the oldest Jesuit and Catholic university in the United States. Its mascot, Jack the Bulldog, presides over a campus overlooking the Potomac River, and its School of Foreign Service is one of the most prestigious in the world.",
+          "answer": "Washington, D.C.",
+          "alternates": ["Washington DC", "Washington", "Washington, DC", "Washington D.C.", "DC", "D.C."],
+          "explanation": "Founded in 1789 by John Carroll, the first Catholic bishop in the U.S.; oldest Jesuit and Catholic university in America\nMascot is Jack the Bulldog, officially introduced in 1962; colors are blue and gray\nThe blue-and-gray colors were chosen in 1876 to symbolize unity: blue for Union uniforms, gray for Confederate, representing students from both sides of the Civil War\nThe School of Foreign Service (SFS), founded in 1919, is one of the most prestigious international affairs programs in the world\nNotable alumni include Bill Clinton, King Abdullah II of Jordan, Antonin Scalia, and numerous CIA directors and foreign ambassadors\nThe Healy Hall clock tower is a campus landmark and a National Historic Landmark\nLocated in the Georgetown neighborhood, the oldest in the city, predating the founding of the capital itself",
+          "cardFront": "Georgetown University",
+          "cardBack": "Washington, D.C."
+        },
+        {
+          "id": "notre-dame",
+          "prompt": "Founded in 1842 by Father Edward Sorin and members of the Congregation of Holy Cross, this Catholic university's golden dome atop the Main Building is one of the most recognizable landmarks in American higher education. Its mascot is a leprechaun, and its football team has the most consensus national championships among independents.",
+          "answer": "Notre Dame, Indiana",
+          "alternates": ["Notre Dame", "South Bend", "South Bend, Indiana", "South Bend IN", "South Bend, IN", "Notre Dame IN", "Notre Dame, IN"],
+          "explanation": "Founded in 1842 by Father Edward Sorin and the Congregation of Holy Cross on land donated by the Bishop of Vincennes\nLocated in Notre Dame, Indiana, adjacent to South Bend; the university's address is technically its own community, not South Bend proper\nMascot is a leprechaun; teams are the Fighting Irish; colors are gold and blue\nThe Golden Dome atop the Main Building, topped by a statue of the Virgin Mary, is the university's most iconic symbol\nKnute Rockne coached football from 1918 to 1930, going 105–12–5 and establishing the program as a powerhouse; he died in a 1931 plane crash at age 43\n'Touchdown Jesus' is the nickname for the Word of Life mural on Hesburgh Library, visible from inside the football stadium with arms raised\nThe 'Four Horsemen' — the 1924 backfield immortalized by sportswriter Grantland Rice — are among the most famous figures in college football history",
+          "cardFront": "University of Notre Dame",
+          "cardBack": "Notre Dame/South Bend, IN"
+        }
+      ]
+    }
+  ]
+}

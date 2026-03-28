@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "id": "lifestyle/fashion",
+      "parentId": "lifestyle",
+      "name": "Fashion",
+      "description": "Fashion designers, brands, and style"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/fashion/fashion-designers",
+      "nodeId": "lifestyle/fashion",
+      "name": "Fashion Designers",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "coco-chanel",
+          "prompt": "Which French designer, born in a poorhouse in 1883, popularized the little black dress, introduced the world’s first designer-name perfume (No. 5), and liberated women from corsets with her jersey knits and cardigan suits?",
+          "answer": "Coco Chanel",
+          "alternates": [
+            "Chanel",
+            "Gabrielle Chanel",
+            "Gabrielle Bonheur Chanel"
+          ],
+          "explanation": "French, 1883–1971, born Gabrielle Bonheur Chanel in Saumur, France\nRaised in an orphanage after her mother died; learned to sew from nuns\nNo. 5 (1921) was the first perfume to bear a designer's name — remains one of the best-selling fragrances ever\nPopularized the little black dress in 1926; *Vogue* called it 'the Ford of fashion'\nIntroduced costume jewelry as mainstream fashion, the Chanel suit with braided trim, and the quilted handbag with chain strap\nClosed her fashion house during WWII; made a controversial comeback at age 71 in 1954\nWartime collaboration with Nazi Germany (Operation Modellhut) tarnished her legacy, though she was never formally charged\nDied at the Ritz Paris, where she had lived for over 30 years",
+          "cardFront": "Little black dress, No. 5 perfume, jersey knits",
+          "cardBack": "Coco Chanel"
+        },
+        {
+          "id": "christian-dior",
+          "prompt": "Which French couturier's 1947 debut collection, featuring cinched waists and full skirts, was dubbed the 'New Look' by *Harper's Bazaar* editor Carmel Snow and redefined postwar women's fashion?",
+          "answer": "Christian Dior",
+          "alternates": [
+            "Dior"
+          ],
+          "explanation": "French, 1905–1957, born in Granville, Normandy\nThe 'New Look' (February 12, 1947): padded hips, nipped waist, calf-length full skirt — a deliberate rejection of wartime austerity\nFounded his house in 1946 with backing from textile magnate Marcel Boussac at 30 Avenue Montaigne, Paris\nBy 1949 the House of Dior accounted for 75% of Paris's fashion exports and 5% of France's total export revenue\nDied suddenly of a heart attack at age 52 in Montecatini Terme, Italy, reportedly after choking on a fishbone\nYves Saint Laurent, aged just 21, succeeded him as head designer\nThe brand later employed Gianfranco Ferré, John Galliano, Raf Simons, and Maria Grazia Chiuri as creative directors",
+          "cardFront": "1947 'New Look,' postwar Paris couture",
+          "cardBack": "Christian Dior"
+        },
+        {
+          "id": "gianni-versace",
+          "prompt": "Which Italian designer, famous for bold Medusa-head branding and provocative use of safety pins and bondage straps, was shot dead outside his Miami Beach mansion in 1997 by spree killer Andrew Cunanan?",
+          "answer": "Gianni Versace",
+          "alternates": [
+            "Versace"
+          ],
+          "explanation": "Italian, 1946–1997, born in Reggio Calabria, Calabria\nFounded the Versace label in 1978; known for vivid prints, Baroque motifs, and the Medusa logo from Greek mythology\nThe safety-pin dress worn by Elizabeth Hurley to the 1994 premiere of *Four Weddings and a Funeral* became one of fashion's most iconic moments\nDressed rock stars and supermodels; close friends with Elton John, Princess Diana, and Naomi Campbell\nShot twice on the steps of Casa Casuarina, his Miami Beach mansion, on July 15, 1997, by Andrew Cunanan\nHis sister Donatella succeeded him as creative director of the house\nThe mansion is now a luxury hotel called The Villa Casa Casuarina",
+          "cardFront": "Medusa logo, Miami Beach murder, Baroque glamour",
+          "cardBack": "Gianni Versace"
+        },
+        {
+          "id": "ralph-lauren",
+          "prompt": "Which Bronx-born American designer, who started by selling neckties in 1967 and later changed his surname from Lifshitz, built a preppy-aspirational empire symbolized by a polo-player logo?",
+          "answer": "Ralph Lauren",
+          "alternates": [
+            "Lauren"
+          ],
+          "explanation": "American, born 1939 in the Bronx, New York, to Ashkenazi Jewish immigrant parents\nBorn Ralph Lifshitz; changed his surname to Lauren at age 16 to avoid teasing\nStarted with wide neckties sold from a drawer in the Empire State Building; launched Polo in 1967\nThe polo-player logo became one of the most recognized brand symbols in the world\nDesigned costumes for the 1974 film *The Great Gatsby* (Robert Redford) and Diane Keaton in *Annie Hall* (1977)\nOnly American designer to control his entire brand: design, manufacturing, retail, and advertising\nAwarded the Honorary Knight Commander of the Order of the British Empire (KBE) in 2019\nNet worth exceeds $6 billion; owns a Colorado ranch, a Jamaica estate, and a car collection including a 1938 Bugatti",
+          "cardFront": "Polo logo, Bronx-born, neckties to empire",
+          "cardBack": "Ralph Lauren"
+        },
+        {
+          "id": "yves-saint-laurent",
+          "prompt": "Which Algerian-born French couturier created 'Le Smoking' tuxedo for women in 1966, became the youngest-ever head of a Paris fashion house at 21, and was the first living designer honored with a solo Met exhibition?",
+          "answer": "Yves Saint Laurent",
+          "alternates": [
+            "YSL",
+            "Saint Laurent"
+          ],
+          "explanation": "French, 1936–2008, born in Oran, French Algeria\nAppointed head of the House of Dior at just 21 after Christian Dior's sudden death in 1957\nDrafted into the French Army during the Algerian War in 1960; suffered a nervous breakdown and was institutionalized\nFounded his own house (YSL) in 1962 with partner Pierre Bergé, who was also his longtime romantic partner\nLe Smoking (1966): the first women's tuxedo suit, a landmark in gender-fluid fashion\nFirst living fashion designer to receive a solo retrospective at the Metropolitan Museum of Art (1983)\nIntroduced the Mondrian dress (1965), inspired by Piet Mondrian's geometric paintings\nStruggled with depression, drugs, and alcohol throughout his career; died of brain cancer at 71",
+          "cardFront": "Le Smoking tuxedo, Mondrian dress, youngest Dior head",
+          "cardBack": "Yves Saint Laurent"
+        },
+        {
+          "id": "alexander-mcqueen",
+          "prompt": "Which British designer, a Savile Row-trained tailor's son from London's East End, was known for theatrically dark runway shows and earned the nickname 'l'enfant terrible' before his death at 40?",
+          "answer": "Alexander McQueen",
+          "alternates": [
+            "McQueen",
+            "Lee McQueen",
+            "Lee Alexander McQueen"
+          ],
+          "explanation": "British, 1969–2010, born Lee Alexander McQueen in Lewisham, London\nSon of a taxi driver; apprenticed on Savile Row at Anderson & Sheppard at age 16\nWon British Designer of the Year four times (1996, 1997, 2001, 2003)\nChief designer at Givenchy from 1996 to 2001 before focusing on his own label\nRunway shows were theatrical spectacles: spray-painting a dress by robots, a holographic Kate Moss, models in a glass box with moths\nThe 'bumster' trouser (ultra-low-rise) and the 'skull scarf' became his signatures\nDied by suicide on February 11, 2010, the day before his mother's funeral\nThe V&A's 2015 retrospective *Savage Beauty* became the museum's most visited exhibition ever",
+          "cardFront": "Savile Row training, theatrical shows, skull scarf",
+          "cardBack": "Alexander McQueen"
+        },
+        {
+          "id": "valentino-garavani",
+          "prompt": "Which Italian couturier, famous for a signature shade of red, dressed Jacqueline Kennedy for her 1968 wedding to Aristotle Onassis and retired in 2008 after nearly five decades atop his eponymous house?",
+          "answer": "Valentino Garavani",
+          "alternates": [
+            "Valentino"
+          ],
+          "explanation": "Italian, 1932–2026, born in Voghera, Lombardy\nFounded the Valentino fashion house in Rome in 1960; served as creative director until retirement in 2008\n'Valentino red' (a specific deep red-orange) became his trademark; he claimed the color came to him at the opera in Barcelona\nDesigned Jacqueline Kennedy's wedding dress for her marriage to Aristotle Onassis (1968) and many of her subsequent outfits\nKnown for haute couture gowns favored by European aristocracy and Hollywood: Julia Roberts wore his gown at the 2001 Oscars\nPartner and business collaborator Giancarlo Giammetti co-managed the house for nearly 50 years\nSold the brand to a private equity group in 1998 but stayed on as designer until his retirement show in Paris, January 2008\nDied January 19, 2026, at age 93",
+          "cardFront": "Signature red, Jackie Kennedy's dress, Roman couture",
+          "cardBack": "Valentino Garavani"
+        },
+        {
+          "id": "giorgio-armani",
+          "prompt": "Which Italian designer, who dropped out of medical school to enter fashion, revolutionized menswear with unstructured blazers and became Hollywood's go-to after dressing Richard Gere in *American Gigolo*?",
+          "answer": "Giorgio Armani",
+          "alternates": [
+            "Armani"
+          ],
+          "explanation": "Italian, 1934–2025, born in Piacenza, Emilia-Romagna\nDropped out of the University of Milan's medical program after two years; worked as a window dresser at La Rinascente department store\nFounded Giorgio Armani S.p.A. in 1975 with partner Sergio Galeotti\nDeconstructed the men's suit: removed padding, lining, and stiffening to create a relaxed, flowing silhouette\nDressing Richard Gere in *American Gigolo* (1980) launched him into global fame; designed costumes for over 100 films\nEmporio Armani, Armani Exchange, Armani Casa, Armani Hotels — one of the most diversified luxury brands in the world\nNever took the company public; maintained sole ownership of an estimated $11 billion empire\nDied September 4, 2025, at age 91",
+          "cardFront": "Unstructured blazer, *American Gigolo*, Milan",
+          "cardBack": "Giorgio Armani"
+        },
+        {
+          "id": "calvin-klein",
+          "prompt": "Which American minimalist designer pioneered branded underwear and provocative jeans ads in the 1980s, launched the unisex fragrance CK One, and built an empire on clean-lined sportswear from his Bronx roots?",
+          "answer": "Calvin Klein",
+          "alternates": [
+            "Klein"
+          ],
+          "explanation": "American, born 1942 in the Bronx, New York\nFounded Calvin Klein Ltd. in 1968 with childhood friend Barry Schwartz handling the business side\nPioneered designer jeans in 1978; the Brooke Shields TV ads (1980) were banned by some networks for suggestiveness\nRevolutionized men's underwear in 1982 with bold-logo boxer briefs; Mark Wahlberg's 1992 ads made them iconic\nCK One (1994) was a groundbreaking unisex fragrance, marketed with androgynous imagery by photographer Steven Meisel\nKnown for minimalist, clean-lined American sportswear — the aesthetic opposite of European maximalism\nSold the brand to Phillips-Van Heusen (now PVH Corp.) in 2003 for approximately $430 million\nThree-time Coty Award winner; CFDA Womenswear Designer of the Year in 1993",
+          "cardFront": "Brooke Shields jeans ad, logo underwear, CK One",
+          "cardBack": "Calvin Klein"
+        },
+        {
+          "id": "donatella-versace",
+          "prompt": "Which Italian designer took over her murdered brother's fashion house in 1997, became known for platinum-blonde hair and ultra-glamorous aesthetic, and sent Jennifer Lopez onto the Grammy stage in a plunging green jungle-print dress in 2000?",
+          "answer": "Donatella Versace",
+          "alternates": [
+            "Donatella"
+          ],
+          "explanation": "Italian, born 1955 in Reggio Calabria, Calabria\nBecame creative director of Versace after her brother Gianni's murder in July 1997\nThe green Versace jungle dress worn by Jennifer Lopez at the 2000 Grammys was so widely searched online that Google created Google Images in response\nHer brother Gianni dyed her hair platinum blonde when she was 11, in tribute to Italian singer Patty Pravo; it became her signature\nSteered the house through near-bankruptcy in the early 2000s back to profitability\nSold 80% of the Versace brand to Michael Kors Holdings (now Capri Holdings) in 2018 for $2.12 billion\nStepped down as creative director in March 2025, transitioning to chief brand ambassador\nAlso a trained model scout — credited with discovering and championing supermodels in the 1990s",
+          "cardFront": "J.Lo's green dress, Gianni's sister, platinum blonde",
+          "cardBack": "Donatella Versace"
+        },
+        {
+          "id": "karl-lagerfeld",
+          "prompt": "Which German-born designer simultaneously headed Chanel, Fendi, and his own label for decades, was rarely seen without dark sunglasses and a powdered ponytail, and owned a pampered Birman cat named Choupette?",
+          "answer": "Karl Lagerfeld",
+          "alternates": [
+            "Lagerfeld"
+          ],
+          "explanation": "German, 1933–2019, born in Hamburg (he often claimed 1935 and kept his age deliberately vague)\nCreative director of Chanel from 1983 until his death — 36 years reviving a house that had been dormant since Coco's death\nSimultaneously creative director of Fendi (from 1965) and his own Karl Lagerfeld label\nRecognizable uniform: high starched collars, dark sunglasses, fingerless gloves, and a white powdered ponytail\nProlific photographer and publisher; shot many of Chanel's own ad campaigns\nLost 92 pounds in 13 months in 2001 on a severe diet he detailed in a book, saying he did it to fit into Hedi Slimane's slim suits\nHis Birman cat Choupette had her own maid, chef, and Instagram; he reportedly wanted to leave her part of his estate\nDied February 19, 2019, in Paris; no public funeral per his wishes — his ashes were scattered with those of his mother and his late partner Jacques de Bascher",
+          "cardFront": "Chanel + Fendi + own label, sunglasses, Choupette the cat",
+          "cardBack": "Karl Lagerfeld"
+        },
+        {
+          "id": "vivienne-westwood",
+          "prompt": "Which British designer, a former primary school teacher, helped invent punk fashion in the 1970s through a King's Road shop she ran with Sex Pistols manager Malcolm McLaren?",
+          "answer": "Vivienne Westwood",
+          "alternates": [
+            "Westwood"
+          ],
+          "explanation": "British, 1941–2022, born Vivienne Isabel Swire in Tintwistle, Derbyshire\nFormer primary school teacher who entered fashion with no formal training\nRan a King's Road boutique with Malcolm McLaren that changed names repeatedly: Let It Rock, Too Fast to Live, SEX, Seditionaries, World's End\nClothed the Sex Pistols and defined the visual language of 1970s British punk: safety pins, tartan, bondage straps, provocative slogans\nLater collections drew on 18th-century tailoring, corsets, and historical British styles — 'punk meets aristocracy'\nNamed British Designer of the Year three times (1990, 1991, 2006) and made a Dame (DBE) in 2006\nFamous for going commando under a skirt while receiving her OBE from the Queen in 1992 — and twirling for photographers\nBecame an outspoken climate activist in her later years; arrived at a 2015 protest in a tank outside David Cameron's home",
+          "cardFront": "Punk fashion, King's Road, Sex Pistols, Dame",
+          "cardBack": "Vivienne Westwood"
+        },
+        {
+          "id": "tom-ford",
+          "prompt": "Which Texan-born American designer rescued a near-bankrupt Italian luxury house in the 1990s, growing it from $230 million to $3 billion in revenue, before launching his own label and directing the film *A Single Man*?",
+          "answer": "Tom Ford",
+          "alternates": [
+            "Ford"
+          ],
+          "explanation": "American, born 1961 in Austin, Texas\nStudied architecture at Parsons School of Design in New York, graduating in 1986\nBecame creative director of Gucci in 1994 and transformed the ailing brand into a $3 billion powerhouse with sleek, sexually charged designs\nAlso oversaw Yves Saint Laurent's ready-to-wear line from 2000 to 2004 under the Gucci Group umbrella\nLaunched the Tom Ford brand in 2005, initially with menswear and fragrances; later expanded into womenswear and cosmetics\nDirected two critically acclaimed films: *A Single Man* (2009, starring Colin Firth) and *Nocturnal Animals* (2016, with Amy Adams)\nServed as chairman of the Council of Fashion Designers of America (CFDA) from 2019 to 2023\nSold the Tom Ford brand to Estée Lauder Companies in 2023 for approximately $2.8 billion",
+          "cardFront": "Gucci revival, *A Single Man*, Parsons-trained",
+          "cardBack": "Tom Ford"
+        },
+        {
+          "id": "vera-wang",
+          "prompt": "Which Chinese-American designer, who failed to make the 1968 U.S. Olympic figure skating team and later became one of *Vogue's* youngest editors at 23, launched a bridal empire after designing her own wedding dress at age 40?",
+          "answer": "Vera Wang",
+          "alternates": [
+            "Wang"
+          ],
+          "explanation": "American, born 1949 in New York City, to Chinese immigrant parents\nCompetitive figure skater who narrowly missed the 1968 U.S. Olympic team; later designed costumes for Nancy Kerrigan, Michelle Kwan, and Nathan Chen\nBecame a senior fashion editor at *Vogue* at age 23, one of the youngest in the magazine's history; stayed 17 years\nWorked for Ralph Lauren before opening her first bridal salon in the Carlyle Hotel, New York, in 1990\nHer wedding gowns have been worn by Ivanka Trump, Kim Kardashian, Mariah Carey, Victoria Beckham, and Ariana Grande\nInducted into the U.S. Figure Skating Hall of Fame in 2009 for her costume design contributions\nExpanded beyond bridal into ready-to-wear, jewelry, shoes, and a White by Vera Wang line for David's Bridal\nWent viral in her 70s for age-defying social media photos, becoming a pop culture icon well beyond fashion circles",
+          "cardFront": "Bridal gowns, figure skating, *Vogue* editor",
+          "cardBack": "Vera Wang"
+        },
+        {
+          "id": "stella-mccartney",
+          "prompt": "Which British designer, the daughter of a Beatle, made her name at Chloe and launched her own luxury label committed to using zero leather, fur, or animal skins?",
+          "answer": "Stella McCartney",
+          "alternates": [
+            "McCartney"
+          ],
+          "explanation": "British, born 1971 in Lambeth, London; daughter of Paul McCartney and Linda McCartney\nLifelong vegetarian raised by animal-rights-activist parents; her brand uses no leather, fur, feathers, or animal skin\nAppointed creative director of Chloé at age 25 in 1997, succeeding Karl Lagerfeld; critics dismissed her as a celebrity hire, but sales soared\nLaunched her own label in 2001 in a joint venture with Kering (Gucci Group); bought back full ownership in 2018\nDesigned Team GB's uniforms for the 2012 London Olympics and the 2016 Rio Olympics\nCollaborated with Adidas on a long-running sportswear line (Adidas by Stella McCartney, launched 2005)\nPioneered sustainability in luxury fashion: uses recycled nylon, organic cotton, and lab-grown materials\nClose friend of Kate Moss and designer of Meghan Markle's second wedding reception dress (2018)",
+          "cardFront": "No leather/fur, Beatle's daughter, Chloé at 25",
+          "cardBack": "Stella McCartney"
+        }
+      ]
+    }
+  ]
+}

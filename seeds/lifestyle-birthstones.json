@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    { "id": "lifestyle/birthstones-anniversaries", "parentId": "lifestyle", "name": "Birthstones & Anniversaries", "description": "Monthly birthstones and wedding anniversary gift traditions" }
+  ],
+  "exercises": [
+    {
+      "id": "lifestyle/birthstones-anniversaries/birthstones",
+      "nodeId": "lifestyle/birthstones-anniversaries",
+      "name": "Birthstones",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "january",
+          "prompt": "Which deep red gemstone, named from the Latin for 'seed' due to its resemblance to pomegranate seeds, is the birthstone for the first month of the year?",
+          "answer": "Garnet",
+          "alternates": [],
+          "explanation": "Birthstone for January; ranges from deep red to orange, green, and even color-changing varieties\nName derives from Latin granatus ('grain' or 'seed'), referencing its resemblance to pomegranate seeds\nMohs hardness 6.5\u20137.5, varying by species; almandine and pyrope are the hardest varieties\nBohemian pyrope garnets from the Czech Republic were hugely popular in Victorian-era jewelry\nTsavorite (green garnet from Kenya/Tanzania) and demantoid are the rarest and most valuable varieties\nSmithsonian holds an antique hairpin set with Bohemian pyrope garnets in its National Gem Collection\n1st wedding anniversary gift is paper; garnet is not a traditional anniversary stone but is given for the 2nd anniversary in some modern lists",
+          "cardFront": "January",
+          "cardBack": "Garnet"
+        },
+        {
+          "id": "february",
+          "prompt": "Which purple variety of quartz, whose Greek name means 'not intoxicated,' is the birthstone for the second month of the year?",
+          "answer": "Amethyst",
+          "alternates": [],
+          "explanation": "Birthstone for February; purple variety of quartz (SiO2), colored by iron impurities and irradiation\nName from Greek amethystos ('not intoxicated') \u2014 ancients believed it prevented drunkenness\nMohs hardness of 7; durable for everyday wear but can fade with prolonged sun exposure\nThe finest grade is called 'Deep Siberian' \u2014 75\u201380% purple with blue and red secondary hues\nOnce as valuable as diamonds until massive Brazilian deposits were found in the 19th century\nCatherine the Great amassed a legendary collection of amethyst jewelry\nThe Duchess of Windsor wore a famous Cartier amethyst bib necklace to a 1953 Versailles gala",
+          "cardFront": "February",
+          "cardBack": "Amethyst"
+        },
+        {
+          "id": "march",
+          "prompt": "Which pale blue member of the beryl family, whose Latin name means 'water of the sea,' is the birthstone for the third month of the year?",
+          "answer": "Aquamarine",
+          "alternates": [],
+          "explanation": "Birthstone for March; a blue to blue-green variety of the mineral beryl (same family as emerald)\nName from Latin aqua marina ('water of the sea'); ancient mariners carried it as a talisman for safe voyages\nMohs hardness of 7.5\u20138; tough and durable for everyday jewelry\nThe Dom Pedro aquamarine at the Smithsonian weighs 10,363 carats (~4.6 lbs) \u2014 largest faceted aquamarine in the world\nBrazil gave Eleanor Roosevelt a 1,298-carat aquamarine in 1936, now at the FDR Presidential Library\nQueen Elizabeth II owned a striking set of aquamarine jewelry including a tiara, necklace, and earrings\n3rd wedding anniversary gift is leather (traditional); crystal or glass in modern lists",
+          "cardFront": "March",
+          "cardBack": "Aquamarine"
+        },
+        {
+          "id": "april",
+          "prompt": "Which gemstone, the hardest natural substance on Earth and whose name comes from the Greek for 'invincible,' is the birthstone for the fourth month of the year?",
+          "answer": "Diamond",
+          "alternates": [],
+          "explanation": "Birthstone for April; pure carbon crystallized under extreme heat and pressure deep in Earth's mantle\nName from Greek adamas ('invincible' or 'unbreakable'), reflecting its supreme hardness\nMohs hardness of 10 \u2014 the hardest natural substance; only scratchable by another diamond\nThe Hope Diamond (45.52 carats, deep blue) is the world's most famous gem, now at the Smithsonian; originally sold to Louis XIV in 1668 as the French Blue\nIndia was the original source of diamonds, trading them as early as the 4th century BCE\nThe 4 Cs (cut, color, clarity, carat) grading system was created by the GIA in 1953\n60th wedding anniversary is the diamond anniversary; 10th is tin/aluminum (traditional)",
+          "cardFront": "April",
+          "cardBack": "Diamond"
+        },
+        {
+          "id": "may",
+          "prompt": "Which vivid green beryl variety, prized by Cleopatra and the Mughal emperors, is the birthstone for the fifth month of the year?",
+          "answer": "Emerald",
+          "alternates": [],
+          "explanation": "Birthstone for May; green variety of beryl, colored by trace amounts of chromium and sometimes vanadium\nName traces through Old French esmeraude to Latin smaragdus to Greek smaragdos ('green gem')\nMohs hardness of 7.5\u20138, but most emeralds have inclusions (called jardin, French for 'garden'), making them brittle\nColombia produces the finest emeralds; the 858-carat Gachala Emerald was found there in 1967\nThe Chalk Emerald (37 carats) and Hooker Emerald (formerly owned by Ottoman Sultan Abdul Hamid II) are both at the Smithsonian\nCleopatra was famously obsessed with emeralds and claimed Egypt's mines as her own\n5th wedding anniversary gift is wood (traditional); 55th is emerald",
+          "cardFront": "May",
+          "cardBack": "Emerald"
+        },
+        {
+          "id": "june",
+          "prompt": "Which organic gemstone, formed inside mollusks and the only birthstone created by a living creature, represents the sixth month of the year?",
+          "answer": "Pearl",
+          "alternates": [],
+          "explanation": "Birthstone for June (along with alexandrite); the only gemstone produced by a living organism\nName from French perle, ultimately from Latin perna ('leg of lamb') \u2014 describing the shape of the mollusk shell\nMohs hardness of only 2.5\u20133.0; one of the softest gems, requiring careful handling\nLa Peregrina ('The Pilgrim'), a 50.56-carat drop-shaped pearl found in Panama in the 1500s, is among the most famous; Richard Burton gave it to Elizabeth Taylor in 1969 and it sold at Christie's for $11.8 million in 2011\nKokichi Mikimoto patented the cultured pearl process in 1893, revolutionizing the pearl industry\nNatural pearls form when an irritant enters a mollusk; the animal coats it in nacre (mother-of-pearl) layer by layer\n30th wedding anniversary is the pearl anniversary",
+          "cardFront": "June",
+          "cardBack": "Pearl"
+        },
+        {
+          "id": "july",
+          "prompt": "Which red variety of corundum, named from the Latin for 'red' and second only to diamond in hardness, is the birthstone for the seventh month of the year?",
+          "answer": "Ruby",
+          "alternates": [],
+          "explanation": "Birthstone for July; the red variety of corundum (aluminum oxide) \u2014 all other colors of corundum are sapphires\nName from Latin ruber ('red'); colored by chromium, the same element that makes emeralds green\nMohs hardness of 9 \u2014 tied with sapphire as the second-hardest natural gemstone after diamond\nThe Sunrise Ruby (25.59 carats, Burmese) sold for $30 million at Sotheby's in 2015 \u2014 over $1 million per carat\nMyanmar (Burma) has historically produced the finest 'pigeon blood' rubies from the Mogok Valley\nIn medieval Europe, rubies were believed to guarantee health, wealth, and success in love\n40th wedding anniversary is the ruby anniversary; 15th is crystal (traditional)",
+          "cardFront": "July",
+          "cardBack": "Ruby"
+        },
+        {
+          "id": "august",
+          "prompt": "Which yellow-green gemstone, found in volcanic basalt and even in meteorites, is the birthstone for the eighth month of the year?",
+          "answer": "Peridot",
+          "alternates": [],
+          "explanation": "Birthstone for August; gem-quality variety of the mineral olivine, one of the few gemstones occurring in only one color (green)\nEtymology disputed: possibly from Arabic faridat ('gem') or Greek peridona ('giving plenty')\nMohs hardness of 6.5\u20137; softer than most gemstones and sensitive to acids\nFound in volcanic basalt, and also in pallasite meteorites \u2014 extraterrestrial peridot has been identified in samples\nThe Smithsonian holds a 310-carat peridot, one of the largest faceted specimens in the world\nCleopatra's famous 'emeralds' may actually have been peridots from the Egyptian island of Zabargad (St. John's Island)\nThe shrine of the Three Kings in Cologne Cathedral is decorated with 200 carats of peridot, long mistaken for emeralds",
+          "cardFront": "August",
+          "cardBack": "Peridot"
+        },
+        {
+          "id": "september",
+          "prompt": "Which blue variety of corundum, whose name derives from the Greek for 'blue stone,' is the birthstone for the ninth month of the year?",
+          "answer": "Sapphire",
+          "alternates": [],
+          "explanation": "Birthstone for September; any color of corundum except red (which is ruby) \u2014 blue is the classic, but pink, yellow, and padparadscha (pink-orange) exist\nName from Greek sappheiros and Latin sapphirus ('blue stone'), possibly tracing to Sanskrit sanipriya ('precious to Saturn')\nMohs hardness of 9; tied with ruby as second-hardest natural mineral after diamond\nThe Star of India (563 carats) at the American Museum of Natural History is one of the world's largest star sapphires; stolen in a 1964 heist and later recovered\nPrincess Diana's 12-carat Ceylon sapphire engagement ring, now worn by Catherine, Princess of Wales, is the most famous sapphire in modern culture\nKashmir sapphires (discovered 1881) are the most prized for their velvety 'cornflower blue' color\n5th wedding anniversary is wood (traditional); 45th is sapphire",
+          "cardFront": "September",
+          "cardBack": "Sapphire"
+        },
+        {
+          "id": "october",
+          "prompt": "Which iridescent gemstone displays a shifting play of color called 'fire' and is the birthstone for the tenth month of the year?",
+          "answer": "Opal",
+          "alternates": [],
+          "explanation": "Birthstone for October (along with tourmaline); a hydrated silica mineraloid, not a true crystal \u2014 contains 3\u201321% water\nName likely from Sanskrit upala ('precious stone') via Greek opallios ('to see a change in color')\nMohs hardness of 5.5\u20136.5; relatively fragile and can crack if it dries out (called 'crazing')\nBlack opal, the rarest variety, is mined almost exclusively at Lightning Ridge, Australia\nThe Olympic Australis, found in Coober Pedy, is the world's largest and most valuable gem opal\nNapoleon gave Josephine 'The Burning of Troy,' a famous fire opal that has since been lost\nThe Andamooka Opal was presented to Queen Elizabeth II in 1954 during her Australian tour\n10th wedding anniversary is tin/aluminum (traditional)",
+          "cardFront": "October",
+          "cardBack": "Opal"
+        },
+        {
+          "id": "november",
+          "prompt": "Which golden gemstone, scoring 8 on the Mohs scale and prized in its 'Imperial' orange-pink variety from Russia, is the birthstone for the eleventh month of the year?",
+          "answer": "Topaz",
+          "alternates": [],
+          "explanation": "Birthstone for November (along with citrine); an aluminum silicate mineral found in pegmatites and high-temperature veins\nEtymology debated: possibly from Greek Topazios (an island in the Red Sea) or Sanskrit tapas ('fire')\nMohs hardness of 8; hard but has perfect basal cleavage, meaning it can chip easily along one plane\nImperial topaz (pinkish-orange) is the most prized variety \u2014 named because Russian tsars reserved the finest Ural Mountain specimens exclusively for royalty\nThe American Golden Topaz at the Smithsonian weighs 22,892.5 carats \u2014 one of the largest faceted gems of any kind\nPure topaz is colorless; blue topaz sold commercially is almost always irradiated and heat-treated\nOften confused with citrine (yellow quartz) historically; many 'topazes' in crown jewels are actually citrine",
+          "cardFront": "November",
+          "cardBack": "Topaz"
+        },
+        {
+          "id": "december",
+          "prompt": "Which violet-blue gemstone, discovered in 1967 and found only in a small area near Mount Kilimanjaro, is the most recent addition to the modern birthstone list?",
+          "answer": "Tanzanite",
+          "alternates": [],
+          "explanation": "Birthstone for December (along with turquoise and zircon); added by the American Gem Trade Association in 2002 \u2014 the first change to the birthstone list since 1912\nA variety of the mineral zoisite; named by Tiffany & Co. after Tanzania, its only source on Earth\nMohs hardness of 6.5\u20137; wearable but significantly softer than the sapphire it sometimes substitutes for\nDiscovered in 1967 near Merelani in northern Tanzania; legend says Masai herders noticed blue stones after a lightning-caused bushfire heated surface zoisite\nNaturally trichroic \u2014 appears blue, violet, or burgundy depending on the viewing angle and lighting\nTiffany & Co. launched tanzanite commercially, making it one of the most successful gem introductions in modern history\n25th wedding anniversary is silver; the December stones have no specific anniversary association, but turquoise has been treasured for over 5,000 years",
+          "cardFront": "December",
+          "cardBack": "Tanzanite"
+        }
+      ]
+    }
+  ]
+}
