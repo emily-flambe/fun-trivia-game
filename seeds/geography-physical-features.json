@@ -1,0 +1,484 @@
+{
+  "nodes": [
+    { "id": "geography/physical-features", "parentId": "geography", "name": "Physical Geography", "description": "Rivers, mountains, oceans, and landforms" }
+  ],
+  "exercises": [
+    {
+      "id": "geography/physical-features/major-rivers",
+      "nodeId": "geography/physical-features",
+      "name": "Major World Rivers",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "nile",
+          "prompt": "The world's longest river at ~6,650 km, flowing northward through Uganda, Sudan, and Egypt before emptying into the Mediterranean Sea — name this river.",
+          "answer": "Nile",
+          "alternates": ["Nile River"],
+          "explanation": "At ~6,650 km, the Nile is the longest river in the world, narrowly ahead of the Amazon\nFlows northward through Uganda, Sudan, and Egypt before emptying into the Mediterranean Sea\nThe annual Nile flood deposited rich silt that made Ancient Egypt's agriculture possible\nTwo main tributaries: the White Nile (source near Lake Victoria) and the Blue Nile (from Lake Tana in Ethiopia)\nThe Aswan High Dam (completed 1970) ended the annual flood cycle; Lake Nasser is the resulting reservoir",
+          "cardFront": "Nile",
+          "cardBack": "Longest river (~6,650 km) • Northeast Africa → Mediterranean"
+        },
+        {
+          "id": "amazon",
+          "prompt": "This South American river carries about 20% of all freshwater entering the world's oceans, making it the largest river by discharge. It empties into the Atlantic in Brazil. Name it.",
+          "answer": "Amazon",
+          "alternates": ["Amazon River"],
+          "explanation": "Largest river by discharge — carries ~20% of all freshwater entering Earth's oceans\nLength ~6,400 km; flows east from the Andes through Brazil into the Atlantic Ocean\nThe Amazon Basin contains the world's largest tropical rainforest, covering ~5.5 million km²\nThe mouth of the Amazon is so wide (~330 km) that early Spanish explorers initially mistook it for an inland sea\nOver 3,000 species of fish have been identified in the Amazon river system",
+          "cardFront": "Amazon",
+          "cardBack": "Largest by discharge • South America → Atlantic"
+        },
+        {
+          "id": "yangtze",
+          "prompt": "Asia's longest river at ~6,300 km, flowing entirely through China and emptying into the East China Sea. The Three Gorges Dam — the world's largest hydroelectric project — is built on it. Name it.",
+          "answer": "Yangtze",
+          "alternates": ["Yangtze River", "Chang Jiang", "Chang River"],
+          "explanation": "Longest river in Asia at ~6,300 km; flows from the Tibetan Plateau east to the East China Sea near Shanghai\nThe Three Gorges Dam (completed 2006) on the Yangtze is the world's largest hydroelectric power station\nAlso called Chang Jiang ('Long River') in Chinese\nDivides China roughly into north and south; historically a major barrier to military campaigns\nThe baiji (Yangtze River dolphin) was declared functionally extinct around 2006 due to habitat loss",
+          "cardFront": "Yangtze",
+          "cardBack": "Longest river in Asia (~6,300 km) • China → East China Sea"
+        },
+        {
+          "id": "mississippi",
+          "prompt": "This ~3,730 km North American river drains most of the central USA and empties into the Gulf of Mexico. Mark Twain set novels along its banks. Name it.",
+          "answer": "Mississippi",
+          "alternates": ["Mississippi River"],
+          "explanation": "~3,730 km long; flows from Lake Itasca in Minnesota south to the Gulf of Mexico at New Orleans\nDrains ~3.2 million km² — about 40% of the contiguous United States\nMark Twain (Samuel Clemens) was a riverboat pilot on the Mississippi; 'Huckleberry Finn' and 'Tom Sawyer' are set along its banks\nThe term 'Mississippi' derives from an Ojibwe word meaning 'great river' or 'gathering of waters'\nThe 1927 Mississippi River flood — one of the most destructive in US history — displaced ~700,000 people",
+          "cardFront": "Mississippi",
+          "cardBack": "Major North American river • Central USA → Gulf of Mexico"
+        },
+        {
+          "id": "congo",
+          "prompt": "The world's deepest river (over 220 m) and second largest by discharge, flowing through Central Africa and emptying into the Atlantic Ocean. Name it.",
+          "answer": "Congo",
+          "alternates": ["Congo River", "Zaire River"],
+          "explanation": "World's deepest river — depths exceed 220 m (720 ft), making it unmeasurable by many sonar devices\nSecond largest by discharge after the Amazon; flows ~4,700 km through the Democratic Republic of Congo\nEmpties into the Atlantic Ocean; the Congo Basin contains the world's second-largest tropical rainforest\nCrosses the equator twice, giving it a uniquely stable year-round flow\nFormerly called the Zaire River during the reign of Mobutu Sese Seko (1971–1997)",
+          "cardFront": "Congo",
+          "cardBack": "Deepest river (220+ m) • Central Africa → Atlantic"
+        },
+        {
+          "id": "niger",
+          "prompt": "West Africa's primary river at ~4,200 km, flowing through Mali, Niger, and Nigeria before emptying into the Gulf of Guinea. It gives its name to two countries. Name it.",
+          "answer": "Niger",
+          "alternates": ["Niger River"],
+          "explanation": "~4,200 km long; West Africa's principal river, draining an area of ~2.1 million km²\nFlows northeast into Mali (past Timbuktu), then bends sharply southeast through Niger and Nigeria\nEmpties into the Gulf of Guinea (Atlantic Ocean) via a large delta in southern Nigeria\nGives its name to both Nigeria and Niger; the etymology is debated but likely from a Tuareg phrase meaning 'river of rivers'\nThe Niger Inland Delta in Mali — a vast flood plain — is a critical wetland and migratory bird habitat",
+          "cardFront": "Niger",
+          "cardBack": "West Africa's primary river (~4,200 km) → Gulf of Guinea"
+        },
+        {
+          "id": "ganges",
+          "prompt": "Hinduism's most sacred river at ~2,525 km, flowing through India and Bangladesh before emptying into the Bay of Bengal. Pilgrims bathe in it at Varanasi. Name it.",
+          "answer": "Ganges",
+          "alternates": ["Ganges River", "Ganga"],
+          "explanation": "~2,525 km long; flows from the Gangotri Glacier in the Himalayas southeast through India into Bangladesh\nEmpties into the Bay of Bengal via the Ganges–Brahmaputra Delta — the world's largest river delta\nHinduism's most sacred river; Varanasi is the holiest city on its banks, a major pilgrimage destination for ~1 million Hindus daily\nMeets the Brahmaputra and Meghna rivers before reaching the Bay of Bengal; the combined delta is shared with Bangladesh\nHeavily polluted by industrial effluent and religious offerings; the Indian government launched the Namami Gange clean-up program in 2014",
+          "cardFront": "Ganges",
+          "cardBack": "Hinduism's sacred river • India/Bangladesh → Bay of Bengal"
+        },
+        {
+          "id": "mekong",
+          "prompt": "This ~4,350 km river flows from China through Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. Name it.",
+          "answer": "Mekong",
+          "alternates": ["Mekong River"],
+          "explanation": "~4,350 km long; flows from the Tibetan Plateau through six countries before reaching the South China Sea\nRuns through China, Myanmar, Laos (forming much of its border with Thailand), Cambodia, and Vietnam\nTonle Sap Lake in Cambodia is fed by the Mekong; its flow reverses direction seasonally — one of few rivers to do so\nOne of the world's most biodiverse rivers; the Greater Mekong Subregion regularly yields newly discovered species\nChina's upstream dams have raised concerns among downstream nations over reduced water flow and fishery disruption",
+          "cardFront": "Mekong",
+          "cardBack": "Southeast Asia • 6 countries → South China Sea"
+        },
+        {
+          "id": "volga",
+          "prompt": "Europe's longest river at ~3,530 km, flowing through Russia and emptying into the Caspian Sea (not an ocean). Historically central to Russian commerce. Name it.",
+          "answer": "Volga",
+          "alternates": ["Volga River"],
+          "explanation": "Longest river in Europe at ~3,530 km; drains about 1.35 million km² of western Russia\nEmpties into the Caspian Sea — a landlocked body of water, not connected to any ocean\nHistorically Russia's most important commercial waterway; connected to Moscow via the Volga–Baltic Waterway\nThe Battle of Stalingrad (1942–43), a turning point of WWII, was fought along its banks at Volgograd (then Stalingrad)\nSometimes called 'Mother Volga' (Матушка-Волга) in Russian culture and folk songs",
+          "cardFront": "Volga",
+          "cardBack": "Longest in Europe (~3,530 km) • Russia → Caspian Sea"
+        },
+        {
+          "id": "danube",
+          "prompt": "Europe's second longest river at ~2,860 km, flowing through 10 countries (more than any other river) from Germany's Black Forest to the Black Sea. Name it.",
+          "answer": "Danube",
+          "alternates": ["Danube River"],
+          "explanation": "~2,860 km long; flows through 10 countries — Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, Ukraine\nEmpties into the Black Sea via a delta shared by Romania and Ukraine\nSource is in the Black Forest of Baden-Württemberg, Germany; passes through Vienna, Budapest, and Belgrade\nThe most international river in the world by number of countries traversed\nJohann Strauss II's 'The Blue Danube' waltz (1866) is one of the most famous pieces of classical music",
+          "cardFront": "Danube",
+          "cardBack": "2nd longest in Europe (~2,860 km) • 10 countries → Black Sea"
+        },
+        {
+          "id": "rhine",
+          "prompt": "This ~1,230 km Western European river flows through Switzerland, Germany, France, and the Netherlands before emptying into the North Sea. The Loreley Rock is a famous landmark on it. Name it.",
+          "answer": "Rhine",
+          "alternates": ["Rhine River"],
+          "explanation": "~1,230 km long; flows from the Swiss Alps north through Germany and the Netherlands to the North Sea\nForms part of the France–Germany border; one of the most commercially important waterways in Europe\nThe Loreley, a 132 m slate rock near St. Goarshausen, Germany, is associated with a legend of a siren who lured sailors to their deaths\nConnected to the Danube via the Rhine–Main–Danube Canal (completed 1992), linking the North Sea to the Black Sea\nHeavily industrialized in the 20th century; a 1986 chemical spill (Sandoz disaster) killed most life in the river; it has since largely recovered",
+          "cardFront": "Rhine",
+          "cardBack": "Western Europe • Switzerland/Germany/Netherlands → North Sea"
+        },
+        {
+          "id": "euphrates",
+          "prompt": "One of the two rivers of ancient Mesopotamia ('land between the rivers'), flowing ~2,800 km through Turkey, Syria, and Iraq to the Persian Gulf. Ancient Babylon stood on its banks. Name it.",
+          "answer": "Euphrates",
+          "alternates": ["Euphrates River"],
+          "explanation": "~2,800 km long; rises in eastern Turkey, flows through Syria and Iraq, then joins the Tigris to form the Shatt al-Arab before emptying into the Persian Gulf\nAlong with the Tigris, defines Mesopotamia ('land between the rivers') — the cradle of Western civilization\nAncient Babylon, one of the greatest cities of antiquity, was built on the Euphrates; its famous Hanging Gardens may have been irrigated by the river\nThe rivers of Mesopotamia (Tigris and Euphrates) appear in the Book of Genesis as two of the four rivers of Eden\nThe Ataturk Dam (1992) in Turkey significantly reduced the river's flow into Syria and Iraq, causing regional water conflicts",
+          "cardFront": "Euphrates",
+          "cardBack": "Ancient Mesopotamia • Turkey/Syria/Iraq → Persian Gulf"
+        },
+        {
+          "id": "tigris",
+          "prompt": "The eastern river of ancient Mesopotamia, ~1,850 km long, flowing through Turkey and Iraq to the Persian Gulf. Baghdad stands on its western bank. Name it.",
+          "answer": "Tigris",
+          "alternates": ["Tigris River"],
+          "explanation": "~1,850 km long; rises in the Taurus Mountains of eastern Turkey and flows southeast through Iraq\nJoins the Euphrates near Basra, Iraq, to form the Shatt al-Arab waterway before emptying into the Persian Gulf\nBaghdad, the capital of Iraq, was founded in 762 CE on the western bank of the Tigris by Caliph Al-Mansur\nAlong with the Euphrates, defines Mesopotamia; Nineveh (capital of the Assyrian Empire) was also on the Tigris\nThe Mosul Dam on the upper Tigris is considered one of the world's most dangerous dams due to compromised foundations",
+          "cardFront": "Tigris",
+          "cardBack": "Ancient Mesopotamia • Turkey/Iraq → Persian Gulf (with Euphrates)"
+        },
+        {
+          "id": "indus",
+          "prompt": "This ~3,180 km river flows from Tibet through Pakistan to the Arabian Sea. The Indus Valley Civilization (~3300–1300 BCE) arose along its banks. Name it.",
+          "answer": "Indus",
+          "alternates": ["Indus River"],
+          "explanation": "~3,180 km long; rises near Mount Kailash in Tibet, flows through the Karakoram and Hindu Kush, then south through Pakistan to the Arabian Sea near Karachi\nThe Indus Valley Civilization (~3300–1300 BCE), one of the world's earliest urban cultures, flourished in its basin; cities include Mohenjo-daro and Harappa\nThe name 'India' and 'Hindu' both derive from the Sanskrit name for the Indus (Sindhu)\nThe 1960 Indus Waters Treaty between India and Pakistan — mediated by the World Bank — divides the river system between the two countries\nThe Indus is one of Asia's longest rivers and the national river of Pakistan",
+          "cardFront": "Indus",
+          "cardBack": "South Asia • Tibet/Pakistan → Arabian Sea"
+        },
+        {
+          "id": "zambezi",
+          "prompt": "Southern Africa's major river, ~2,570 km long, flowing through Zambia, Zimbabwe, and Mozambique to the Indian Ocean. Victoria Falls — the world's largest waterfall by combined width and height — is on it. Name it.",
+          "answer": "Zambezi",
+          "alternates": ["Zambezi River"],
+          "explanation": "~2,570 km long; flows east from northwestern Zambia through Angola, Botswana, Zimbabwe, and Mozambique to the Indian Ocean at the Mozambique Channel\nVictoria Falls (known as Mosi-oa-Tunya, 'the Smoke that Thunders') is on the Zambia–Zimbabwe border; at 1,708 m wide and 108 m tall, it is considered the world's largest waterfall curtain\nFirst seen by David Livingstone in 1855; he named it after Queen Victoria\nKariba Dam (1959), one of the world's largest man-made lakes by volume, is on the Zambezi between Zambia and Zimbabwe\nThe river divides Zambia and Zimbabwe for much of their shared border",
+          "cardFront": "Zambezi",
+          "cardBack": "Southern Africa • Victoria Falls → Indian Ocean"
+        },
+        {
+          "id": "ob",
+          "prompt": "One of Russia's three great Siberian rivers at ~3,650 km, flowing north from the Altai Mountains and emptying into the Arctic Ocean via the Ob Gulf. Name it.",
+          "answer": "Ob",
+          "alternates": ["Ob River"],
+          "explanation": "~3,650 km long (or ~5,410 km including the Irtysh, its main tributary); one of the three great Siberian rivers (with the Yenisei and Lena)\nFlows north from the Altai Mountains through western Siberia to the Ob Gulf (Kara Sea) in the Arctic Ocean\nThe Ob–Irtysh system is the 7th longest river system in the world\nThe city of Novosibirsk — Russia's third-largest city — sits on the Ob; the Ob Sea (reservoir) was created by the Novosibirsk Hydro Power Plant\nFreezes over for 5–6 months each year; its basin is rich in oil and natural gas",
+          "cardFront": "Ob",
+          "cardBack": "Siberia, Russia (~3,650 km) → Arctic Ocean"
+        },
+        {
+          "id": "yenisei",
+          "prompt": "One of the world's longest rivers at ~5,539 km, flowing north through Siberia, Russia, to the Arctic Ocean. Lake Baikal drains ultimately into it via the Angara River. Name it.",
+          "answer": "Yenisei",
+          "alternates": ["Yenisei River", "Yenisey"],
+          "explanation": "~5,539 km long; the longest river system entirely within Russia and the 5th longest in the world\nFlows from the Sayan Mountains in central Russia northward through Siberia to the Kara Sea (Arctic Ocean)\nLake Baikal — the world's deepest lake — drains into the Angara River, which flows into the Yenisei\nForms the geographic boundary between western Siberia (Ob basin) and eastern Siberia (Lena basin)\nKrasnoyarsk, a major Siberian city of ~1 million, sits on the Yenisei; Krasnoyarsk HPP is one of the world's most powerful hydroelectric plants",
+          "cardFront": "Yenisei",
+          "cardBack": "Siberia, Russia (~5,539 km) → Arctic Ocean"
+        },
+        {
+          "id": "lena",
+          "prompt": "This ~4,400 km Siberian river flows through some of the least populated territory on Earth, emptying into the Arctic Ocean's Laptev Sea. Its delta is a UNESCO World Heritage Site. Name it.",
+          "answer": "Lena",
+          "alternates": ["Lena River"],
+          "explanation": "~4,400 km long; flows from the Baikal Mountains in Russia's Irkutsk Oblast northeast to the Laptev Sea (Arctic Ocean)\nForms a vast delta (~32,000 km²) — one of the world's largest — that is a UNESCO World Heritage Site and critical habitat for migratory waterfowl\nThe Lena Pillars, dramatic rock formations along the river's banks, are also a UNESCO Natural World Heritage Site\nFlows through permafrost for most of its length; ice jams during spring thaw can cause catastrophic local flooding\nConnected to Yakutsk — the world's largest city built on continuous permafrost — which relies on the river for supply",
+          "cardFront": "Lena",
+          "cardBack": "Siberia, Russia (~4,400 km) → Arctic Ocean (Laptev Sea)"
+        },
+        {
+          "id": "colorado",
+          "prompt": "This ~2,330 km US river carved the Grand Canyon over millions of years and empties into the Gulf of California. Over-allocation of its water is a major Western US political issue. Name it.",
+          "answer": "Colorado",
+          "alternates": ["Colorado River"],
+          "explanation": "~2,330 km long; rises in the Rocky Mountains of Colorado and flows southwest through Utah, Arizona, Nevada, and California before crossing into Mexico and reaching the Gulf of California\nCarved the Grand Canyon — up to 1,800 m deep and 446 km long — over 5–6 million years of erosion\nThe Hoover Dam (1936) on the Nevada–Arizona border created Lake Mead, the largest reservoir in the US by volume\nThe Colorado is so heavily used for irrigation and municipal water (serving ~40 million people) that it rarely reaches the sea; it went dry at its mouth for decades before limited flows were restored in 2014\nThe Colorado River Compact (1922) divided its water among seven US states; the original allocations were based on an unusually wet period and are now disputed",
+          "cardFront": "Colorado",
+          "cardBack": "Carved Grand Canyon • Western USA → Gulf of California"
+        },
+        {
+          "id": "rio-grande",
+          "prompt": "This ~3,050 km river forms the entire US–Mexico border from El Paso to the Gulf of Mexico. Known as the Río Bravo del Norte in Mexico. Name it.",
+          "answer": "Rio Grande",
+          "alternates": ["Rio Grande River", "Río Bravo", "Río Bravo del Norte"],
+          "explanation": "~3,050 km long; rises in the San Juan Mountains of Colorado and flows southeast through New Mexico, then east along the US–Mexico border to the Gulf of Mexico\nForms the entire international boundary between Texas and the Mexican states of Chihuahua, Coahuila, Nuevo León, and Tamaulipas\nKnown in Mexico as Río Bravo del Norte ('Bold River of the North'); the name 'Rio Grande' ('Big River') is used in the United States\nBig Bend National Park, a remote UNESCO site in Texas, is centered on a large meander of the river\nLike the Colorado, heavily irrigated; it sometimes fails to reach the Gulf of Mexico at its mouth during drought years",
+          "cardFront": "Rio Grande",
+          "cardBack": "US–Mexico border • Colorado → Gulf of Mexico"
+        }
+      ]
+    },
+    {
+      "id": "geography/physical-features/mountains",
+      "nodeId": "geography/physical-features",
+      "name": "Mountain Ranges & Peaks",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "himalayas",
+          "prompt": "This Asian mountain range contains all 14 'eight-thousanders' — peaks over 8,000 m — and stretches across India, Nepal, Bhutan, China, and Pakistan. Name this range.",
+          "answer": "Himalayas",
+          "alternates": ["Himalayan Mountains", "Himalaya"],
+          "explanation": "Stretches ~2,400 km across northern India, Nepal, Bhutan, southern Tibet (China), and northern Pakistan\nContains all 14 peaks above 8,000 m, including the world's highest (Everest) and second highest (K2 is technically in the Karakoram, adjacent)\nFormed by the collision of the Indian subcontinent with Eurasia beginning ~50 million years ago; still rising at ~5 mm per year\nSource of major Asian rivers: Indus, Ganges, Brahmaputra, Mekong, and Yangtze all originate in or near the Himalayas\nThe name comes from Sanskrit: 'hima' (snow) + 'ālaya' (abode) — 'abode of snow'",
+          "cardFront": "Himalayas",
+          "cardBack": "Highest range • India/Nepal/Bhutan/China/Pakistan • 14 eight-thousanders"
+        },
+        {
+          "id": "andes",
+          "prompt": "The world's longest continental mountain range at ~7,000 km, running along the entire western coast of South America through 7 countries. Name this range.",
+          "answer": "Andes",
+          "alternates": ["Andes Mountains", "the Andes"],
+          "explanation": "Longest continental mountain range on Earth at ~7,000 km; runs along the western edge of South America from Venezuela to Tierra del Fuego\nPasses through Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina\nContains Aconcagua (6,961 m) — the highest peak in the Western and Southern Hemispheres\nSource of the Amazon River and many Pacific-draining rivers; the Atacama Desert lies in its rain shadow\nHome to ancient Andean civilizations including the Inca Empire; Machu Picchu sits at ~2,430 m in the Peruvian Andes",
+          "cardFront": "Andes",
+          "cardBack": "Longest continental range (~7,000 km) • Western South America"
+        },
+        {
+          "id": "alps",
+          "prompt": "This ~1,200 km mountain range arcs across Western Europe through Switzerland, Austria, France, Italy, Germany, and four smaller countries. Mont Blanc is its highest peak. Name this range.",
+          "answer": "Alps",
+          "alternates": ["the Alps", "Alpine Mountains"],
+          "explanation": "~1,200 km long; arcs from the Mediterranean near Nice northward then east through France, Monaco, Switzerland, Liechtenstein, Austria, Germany, Italy, and Slovenia\nMont Blanc (4,808 m) on the France–Italy border is the highest peak; the Matterhorn (4,478 m) is the most iconic silhouette\nFeed major European rivers: Rhine, Rhône, Po, and Danube all have headwaters in the Alps\nHannibal famously crossed the Alps with war elephants in 218 BCE during the Second Punic War\nThe Mont Blanc Tunnel (1965, 11.6 km) under the Alps connects France and Italy; the longer Gotthard Base Tunnel (2016, 57 km) runs under the Swiss Alps",
+          "cardFront": "Alps",
+          "cardBack": "Western Europe • ~1,200 km • Mont Blanc (4,808 m)"
+        },
+        {
+          "id": "rocky-mountains",
+          "prompt": "This ~4,800 km mountain system runs from New Mexico to British Columbia through the western USA and Canada. The Continental Divide follows its spine. Name this range.",
+          "answer": "Rocky Mountains",
+          "alternates": ["Rockies", "the Rockies", "the Rocky Mountains"],
+          "explanation": "~4,800 km long; extends from New Mexico and Colorado north through Wyoming, Montana, Idaho, and into British Columbia and Alberta, Canada\nThe Continental Divide runs along the crest — waters west of it drain to the Pacific, east to the Atlantic or Gulf of Mexico\nHighest peak is Mount Elbert (4,401 m) in Colorado; many peaks exceed 4,000 m ('fourteeners' in Colorado)\nHome to Yellowstone (world's first national park, 1872), Rocky Mountain National Park, and Glacier National Park\nThe Rocky Mountain Trench — a major valley paralleling the range in British Columbia — is one of the longest valleys on Earth",
+          "cardFront": "Rocky Mountains",
+          "cardBack": "Western North America • ~4,800 km • Continental Divide"
+        },
+        {
+          "id": "appalachian-mountains",
+          "prompt": "This ~2,400 km mountain system runs along the eastern USA from Alabama to Newfoundland. Among the oldest mountain ranges on Earth, formed ~480 million years ago. Name it.",
+          "answer": "Appalachian Mountains",
+          "alternates": ["Appalachians", "the Appalachians", "Appalachian Range"],
+          "explanation": "~2,400 km long; extends from Alabama northeast through the eastern US and Canada to Newfoundland\nAmong the oldest mountain ranges in the world, formed during the Taconic and Acadian orogenies ~480–300 million years ago; once as tall as the Himalayas\nHighest peak is Mount Mitchell (2,037 m) in North Carolina — highest point east of the Mississippi River\nThe Appalachian Trail (3,540 km) is the world's longest hiking-only trail, running from Georgia to Maine along the range\nThe coal-rich Appalachian coalfields in West Virginia and Kentucky fueled the US Industrial Revolution",
+          "cardFront": "Appalachian Mountains",
+          "cardBack": "Eastern USA • ~2,400 km • ~480 million years old"
+        },
+        {
+          "id": "caucasus",
+          "prompt": "This mountain range on the border of Europe and Asia runs through Russia, Georgia, Armenia, and Azerbaijan. Mount Elbrus — the highest peak in Europe — is located here. Name this range.",
+          "answer": "Caucasus Mountains",
+          "alternates": ["Caucasus", "Greater Caucasus"],
+          "explanation": "~1,100 km long; runs from the Black Sea to the Caspian Sea, straddling Russia, Georgia, Armenia, and Azerbaijan\nMount Elbrus (5,642 m) is the highest peak — classified by most geographers as the highest point in Europe (using the Caucasus as the Europe–Asia boundary)\nThe range is the traditional geographic boundary between Europe and Asia in the east, along with the Ural Mountains\nExtremely diverse — the Caucasus region has over 50 languages; some linguists classify it as the world's most linguistically dense region per km²\nHistorically a corridor between civilizations; Prometheus was legendarily chained to a Caucasian peak in Greek mythology",
+          "cardFront": "Caucasus Mountains",
+          "cardBack": "Europe–Asia border • Mt. Elbrus (5,642 m, highest in Europe)"
+        },
+        {
+          "id": "ural-mountains",
+          "prompt": "This ~2,500 km mountain range in Russia is the traditional geographic boundary between Europe and Asia. Rich in minerals, it gave Russia its early industrial base. Name it.",
+          "answer": "Ural Mountains",
+          "alternates": ["Urals", "the Urals", "the Ural Mountains"],
+          "explanation": "~2,500 km long; runs north–south through Russia from the Arctic Ocean to the Ural River near Kazakhstan\nTraditionally marks the eastern boundary of Europe and the western boundary of Asia\nRelatively low range — highest peak is Mount Narodnaya (1,895 m) — due to great age (~300 million years) and extensive erosion\nExceptionally mineral-rich: iron, copper, gold, platinum, and gemstones have been extracted for centuries; the Ural region was the engine of Peter the Great's industrial reforms\nThe cities of Yekaterinburg and Chelyabinsk are major Ural industrial centers; Yekaterinburg is where Tsar Nicholas II and his family were executed in 1918",
+          "cardFront": "Ural Mountains",
+          "cardBack": "Europe–Asia boundary • Russia • ~2,500 km"
+        },
+        {
+          "id": "atlas-mountains",
+          "prompt": "This mountain range in Northwest Africa runs through Morocco, Algeria, and Tunisia. Its highest peak is Toubkal (4,167 m) in Morocco. Name it.",
+          "answer": "Atlas Mountains",
+          "alternates": ["Atlas", "the Atlas Mountains"],
+          "explanation": "Runs ~2,500 km across Morocco, Algeria, and Tunisia in Northwest Africa\nHighest peak is Jebel Toubkal (4,167 m) in the High Atlas range of Morocco — the highest point in North Africa outside of the Eastern Sahara\nForms a barrier between the Mediterranean and Saharan climates; the Sahara Desert lies immediately to the south\nNamed after the Titan Atlas of Greek mythology, who was said to support the heavens on his shoulders; the ancient Greeks knew of the range\nBerber populations have lived in the Atlas Mountains for millennia; many speak Tamazight languages",
+          "cardFront": "Atlas Mountains",
+          "cardBack": "Northwest Africa • Morocco/Algeria/Tunisia • Toubkal (4,167 m)"
+        },
+        {
+          "id": "mount-everest",
+          "prompt": "At 8,848.86 m, this Himalayan peak on the Nepal–Tibet border is the world's highest point above sea level. First summited on May 29, 1953 by Hillary and Tenzing Norgay. Name it.",
+          "answer": "Mount Everest",
+          "alternates": ["Everest", "Chomolungma", "Sagarmatha"],
+          "explanation": "8,848.86 m (29,031.7 ft) — official height revised upward by China and Nepal in 2020 from the previous 8,848 m figure\nStraddles the Nepal–Tibet (China) border in the Himalayas; Tibetan name is Chomolungma ('Goddess Mother of the World'), Nepali name is Sagarmatha\nFirst summited May 29, 1953 by Edmund Hillary (New Zealand) and Tenzing Norgay (Nepal/India) as part of a British expedition led by John Hunt\nNamed after George Everest, the British Surveyor General of India, though Everest himself objected to the naming\nAs of 2024, over 6,000 people have reached the summit; nearly 300 have died attempting it — many bodies remain on the mountain",
+          "cardFront": "Mount Everest",
+          "cardBack": "8,848.86 m • World's highest • Nepal/Tibet border"
+        },
+        {
+          "id": "k2",
+          "prompt": "At 8,611 m, this peak in the Karakoram range on the Pakistan–China border is the world's second highest. Known as 'the Savage Mountain' for its extreme difficulty. Name it.",
+          "answer": "K2",
+          "alternates": ["K-2", "Chhogori", "Godwin-Austen"],
+          "explanation": "8,611 m (28,251 ft) — world's second highest peak after Everest; located in the Karakoram range on the Pakistan–China border\nNicknamed 'the Savage Mountain' after writer George Bell wrote: 'it's a savage mountain that tries to kill you'; statistically more dangerous than Everest (~1 death per 4 ascents historically)\nFirst summited on July 31, 1954 by Achille Compagnoni and Lino Lacedelli of an Italian expedition\n'K2' stands for Karakoram 2 — the second peak surveyed in the range during the 1856 Great Trigonometric Survey\nThe last of the 14 eight-thousanders to be climbed in winter: first winter ascent was January 16, 2021 by a Nepali team",
+          "cardFront": "K2",
+          "cardBack": "8,611 m • World's 2nd highest • Pakistan/China • 'Savage Mountain'"
+        },
+        {
+          "id": "aconcagua",
+          "prompt": "At 6,961 m, this Andes peak in Mendoza Province, Argentina, is the highest in the Americas and the entire Western and Southern Hemispheres. Name it.",
+          "answer": "Aconcagua",
+          "alternates": [],
+          "explanation": "6,961 m (22,838 ft) — highest peak in the Western Hemisphere, the Southern Hemisphere, and the Americas\nLocated in Mendoza Province, Argentina, near the Chilean border in the Andes; part of Aconcagua Provincial Park\nFirst summited in 1897 by Matthias Zurbriggen of a British-led expedition via the north face\nOne of the Seven Summits (the highest peaks on each continent); relatively accessible by high-altitude mountaineering standards — no technical climbing required via the Normal Route\nThe name likely derives from Quechua: 'Acon Cahuak' ('Stone Sentinel') or possibly Mapuche language",
+          "cardFront": "Aconcagua",
+          "cardBack": "6,961 m • Highest in Americas/Western Hemisphere • Argentina"
+        },
+        {
+          "id": "denali",
+          "prompt": "At 6,190 m, this Alaska peak is the highest in North America. Renamed from 'Mount McKinley' to its original indigenous name in 2015. Name it.",
+          "answer": "Denali",
+          "alternates": ["Mount McKinley", "Mt. McKinley", "Mt McKinley"],
+          "explanation": "6,190 m (20,310 ft) — highest peak in North America; located in Denali National Park, Alaska, USA\nKnown as Mount McKinley from 1917 to 2015, when the Obama administration restored the indigenous Athabascan name 'Denali' ('the High One' or 'the Great One')\nFirst summited in 1913 by a team led by Hudson Stuck, with Walter Harper reaching the summit first\nSits at 63°N latitude — the subarctic location means it has one of the coldest summit environments of any mountain; cold air is denser, making altitude feel higher than in the tropics\nThe vertical rise from base to summit (~5,500 m from the Denali lowlands) is the greatest of any mountain measured from its base on land",
+          "cardFront": "Denali",
+          "cardBack": "6,190 m • Highest in North America • Alaska (formerly Mt. McKinley)"
+        },
+        {
+          "id": "mont-blanc",
+          "prompt": "At 4,808 m, this peak on the France–Italy border near Chamonix is the highest point in the Alps and in Western Europe. Name it.",
+          "answer": "Mont Blanc",
+          "alternates": ["Monte Bianco"],
+          "explanation": "4,808 m (15,774 ft) — highest peak in the Alps and Western Europe (if the Caucasus is considered part of Asia)\nStraddles the border between France (Haute-Savoie) and Italy (Aosta Valley); the town of Chamonix, France, lies at its base\nFirst ascent: August 8, 1786 by Michel-Gabriel Paccard and Jacques Balmat — considered the birth of modern alpinism\nThe Mont Blanc massif also includes several other major peaks: the Grandes Jorasses, the Aiguille Verte, and the Dent du Géant\nThe Mont Blanc Tunnel (11.6 km, opened 1965) links Chamonix, France with Courmayeur, Italy; a 1999 truck fire killed 39 people",
+          "cardFront": "Mont Blanc",
+          "cardBack": "4,808 m • Highest in Alps & Western Europe • France/Italy border"
+        },
+        {
+          "id": "kilimanjaro",
+          "prompt": "At 5,895 m, this dormant stratovolcano in Tanzania is the highest peak in Africa. A freestanding massif, it is not part of any mountain range. Name it.",
+          "answer": "Kilimanjaro",
+          "alternates": ["Mount Kilimanjaro", "Mt. Kilimanjaro"],
+          "explanation": "5,895 m (19,341 ft) — highest peak in Africa; the highest freestanding mountain on Earth (not part of a range)\nA dormant stratovolcano in northeastern Tanzania, near the Kenyan border; has three volcanic cones: Kibo, Mawenzi, and Shira\nFirst summited on October 6, 1889 by Hans Meyer and Ludwig Purtscheller\nErnest Hemingway's 1936 short story 'The Snows of Kilimanjaro' brought the mountain to worldwide literary attention\nThe glaciers on its summit have retreated dramatically — lost ~85% of their ice since 1912; projected to disappear within decades due to climate change",
+          "cardFront": "Kilimanjaro",
+          "cardBack": "5,895 m • Highest in Africa • Dormant volcano, Tanzania"
+        },
+        {
+          "id": "mauna-kea",
+          "prompt": "This Hawaiian peak stands 4,205 m above sea level, but measures ~10,210 m from its base on the ocean floor — making it Earth's tallest mountain from base to peak. Name it.",
+          "answer": "Mauna Kea",
+          "alternates": ["Mauna Kea Observatory"],
+          "explanation": "4,205 m (13,796 ft) above sea level; but its base rests ~6,000 m below the Pacific Ocean surface, giving it a total height of ~10,210 m from base to summit — taller than Everest by this measure\nLocated on the Big Island of Hawaii, USA; a dormant shield volcano\nThe summit hosts the Mauna Kea Observatories — one of the world's premier astronomical sites due to its altitude, dry air, and stable atmosphere; hosts telescopes from 13 countries\nConsidered sacred by Native Hawaiians; the proposed Thirty Meter Telescope has sparked major protests over development on the summit\nMauna Loa, nearby, is the world's largest volcano by volume; the Hawaiian Islands themselves are a chain of shield volcanoes over a hotspot",
+          "cardFront": "Mauna Kea",
+          "cardBack": "~10,210 m from ocean base • Tallest mountain base-to-peak • Hawaii"
+        }
+      ]
+    },
+    {
+      "id": "geography/physical-features/oceans-and-seas",
+      "nodeId": "geography/physical-features",
+      "name": "Oceans & Major Seas",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "pacific-ocean",
+          "prompt": "This ocean, covering ~165 million km², is the largest and deepest on Earth, containing the Mariana Trench (~11,034 m). Named by Magellan for its calm appearance. Which ocean?",
+          "answer": "Pacific Ocean",
+          "alternates": ["Pacific", "the Pacific"],
+          "explanation": "Covers ~165 million km² — larger than all of Earth's landmass combined; the world's largest and deepest ocean\nThe Mariana Trench (Challenger Deep, ~11,034 m) is the deepest point on Earth; located in the western Pacific near Guam\nNamed 'Mar Pacificum' (peaceful sea) by Ferdinand Magellan in 1520, despite being prone to violent typhoons\nThe Ring of Fire surrounds the Pacific: ~90% of the world's earthquakes and ~75% of volcanic eruptions occur along its margins\nSpans from the Arctic to Antarctica and is bordered by Asia, Australia, and the Americas; covers about one-third of Earth's total surface area",
+          "cardFront": "Pacific Ocean",
+          "cardBack": "Largest ocean (~165M km²) • Mariana Trench (deepest point, ~11,034 m)"
+        },
+        {
+          "id": "atlantic-ocean",
+          "prompt": "The world's second largest ocean at ~106 million km², separating the Americas from Europe and Africa. The AMOC circulation system in it strongly influences European climate. Which ocean?",
+          "answer": "Atlantic Ocean",
+          "alternates": ["Atlantic", "the Atlantic"],
+          "explanation": "Covers ~106 million km²; the world's second largest ocean, extending from the Arctic to the Antarctic\nSeparates North and South America from Europe and Africa; the Atlantic Meridional Overturning Circulation (AMOC) is a key driver of European climate\nThe Mid-Atlantic Ridge — a 16,000 km underwater mountain range — runs roughly down its center, marking where the American and Eurasian/African plates diverge\nThe Atlantic is getting wider by ~2.5 cm per year as the plates spread; the Pacific is shrinking correspondingly\nChristopher Columbus crossed the Atlantic in 1492; the first transatlantic telegraph cable was laid in 1858",
+          "cardFront": "Atlantic Ocean",
+          "cardBack": "2nd largest ocean (~106M km²) • Between Americas and Europe/Africa"
+        },
+        {
+          "id": "indian-ocean",
+          "prompt": "The world's third largest ocean at ~70 million km², bounded by Africa, Asia, and Australia. Dominated by monsoon winds. Which ocean?",
+          "answer": "Indian Ocean",
+          "alternates": ["Indian", "the Indian Ocean"],
+          "explanation": "Covers ~70 million km²; the world's third largest ocean, bounded by Africa to the west, Asia to the north, Australia to the east, and the Southern Ocean to the south\nDominated by monsoon-driven seasonal wind reversals; the Indian Ocean monsoon is critical to agriculture across South and Southeast Asia\nThe deepest point is the Diamantina Deep (~8,047 m), in the Perth Basin south of Australia\nThe 2004 Indian Ocean earthquake and tsunami killed ~230,000 people across 14 countries — the deadliest natural disaster of the 21st century\nMajor shipping lanes for Persian Gulf oil pass through the Indian Ocean via the Strait of Hormuz and around the Cape of Good Hope",
+          "cardFront": "Indian Ocean",
+          "cardBack": "3rd largest ocean (~70M km²) • Africa/Asia/Australia"
+        },
+        {
+          "id": "southern-ocean",
+          "prompt": "The ocean surrounding Antarctica, formally recognized as the 5th ocean by National Geographic in 2021 and by the IHO around 2000. Roughly below 60°S latitude. Which ocean?",
+          "answer": "Southern Ocean",
+          "alternates": ["Antarctic Ocean", "the Southern Ocean"],
+          "explanation": "Surrounds Antarctica; formally delineated roughly along the 60°S latitude line, though some definitions vary\nFormally recognized as the 5th ocean by the International Hydrographic Organization (IHO) in 2000; National Geographic began labeling it in 2021\nThe Antarctic Circumpolar Current (ACC) — the world's largest ocean current — flows continuously eastward around Antarctica and is a key driver of global ocean circulation\nContains the Drake Passage (between South America and Antarctica) — the world's most turbulent stretch of ocean\nAntarctica's ice shelves and sea ice formation make the Southern Ocean critical to regulating global sea levels and ocean salinity",
+          "cardFront": "Southern Ocean",
+          "cardBack": "5th ocean • Surrounds Antarctica • Below ~60°S"
+        },
+        {
+          "id": "arctic-ocean",
+          "prompt": "The world's smallest ocean at ~14 million km², centered on the North Pole and largely covered by sea ice. Bordered by Russia, Canada, and Greenland. Which ocean?",
+          "answer": "Arctic Ocean",
+          "alternates": ["Arctic", "the Arctic Ocean"],
+          "explanation": "Covers ~14 million km² — the world's smallest ocean; largely covered by drifting sea ice year-round, with a shrinking permanent ice cap\nBordered by Russia, Canada, USA (Alaska), Norway, and Greenland (Denmark); the North Pole lies within it\nArctic sea ice extent has declined dramatically since the 1980s; the Arctic is warming at ~4× the global average rate (Arctic amplification)\nThe Northwest Passage (through the Canadian Arctic Archipelago) is navigable in summer months and increasingly ice-free due to climate change\nConnects to the Pacific via the Bering Strait and to the Atlantic via the Greenland, Norwegian, and Barents Seas",
+          "cardFront": "Arctic Ocean",
+          "cardBack": "Smallest ocean (~14M km²) • North Pole • Sea ice"
+        },
+        {
+          "id": "mediterranean-sea",
+          "prompt": "This ~2.5 million km² sea lies between Europe, North Africa, and the Middle East, connected to the Atlantic via the Strait of Gibraltar. Often called the cradle of Western civilization. Which sea?",
+          "answer": "Mediterranean Sea",
+          "alternates": ["Mediterranean", "the Mediterranean"],
+          "explanation": "Covers ~2.5 million km²; bounded by Southern Europe, North Africa, and the Middle East\nConnected to the Atlantic Ocean via the narrow Strait of Gibraltar (14 km wide at its narrowest point)\nCradle of Western civilization: ancient Egypt, Greece, Rome, and Carthage all bordered it; the word 'Mediterranean' means 'middle of the earth' in Latin\nAlmost entirely landlocked — its only natural Atlantic connection is Gibraltar; the Suez Canal (1869) created an artificial link to the Red Sea and Indian Ocean\nHigher salinity than the Atlantic due to high evaporation and limited freshwater input; deep water from the Med flows out through the Strait of Gibraltar while surface Atlantic water flows in",
+          "cardFront": "Mediterranean Sea",
+          "cardBack": "Between Europe/Africa/Middle East • ~2.5M km² • Cradle of civilization"
+        },
+        {
+          "id": "caribbean-sea",
+          "prompt": "This ~2.75 million km² sea in the western Atlantic is bounded by Central America, South America, and the Caribbean island chain. Known for warm, tropical waters. Which sea?",
+          "answer": "Caribbean Sea",
+          "alternates": ["Caribbean", "the Caribbean"],
+          "explanation": "Covers ~2.75 million km²; bounded by Central America (west), South America (south), and the island chains of the Greater and Lesser Antilles (north and east)\nConnected to the Atlantic Ocean; the Gulf of Mexico lies to the northwest, separated by Cuba and the Yucatán Peninsula\nNamed after the Caribs, the indigenous people who inhabited the islands at European contact in 1492\nHome to the second-largest barrier reef in the world (the Mesoamerican Reef), spanning Belize, Guatemala, Honduras, and Mexico\nThe Panama Canal (1914) connects the Caribbean Sea (Atlantic side) to the Pacific Ocean at Panama",
+          "cardFront": "Caribbean Sea",
+          "cardBack": "Western Atlantic • ~2.75M km² • Central America/South America/island chain"
+        },
+        {
+          "id": "south-china-sea",
+          "prompt": "The largest marginal sea at ~3.5 million km², bounded by China, Vietnam, the Philippines, and Malaysia. The disputed Spratly and Paracel Islands are located here. Which sea?",
+          "answer": "South China Sea",
+          "alternates": ["the South China Sea"],
+          "explanation": "Covers ~3.5 million km² — the world's largest marginal (partially enclosed) sea\nBounded by China, Vietnam, Cambodia, Thailand, Malaysia, Brunei, and the Philippines\nThe Spratly Islands and Paracel Islands are disputed by multiple nations; China claims ~90% of the sea under the 'nine-dash line,' rejected by a 2016 UN tribunal ruling\nOne of the world's busiest shipping lanes — over $3 trillion in trade passes through annually\nThe South China Sea contains significant oil and gas reserves; fisheries competition among coastal states is a source of constant tension",
+          "cardFront": "South China Sea",
+          "cardBack": "Largest marginal sea (~3.5M km²) • Disputed Spratly/Paracel Islands"
+        },
+        {
+          "id": "bering-sea",
+          "prompt": "This sea between Alaska and Russia's Kamchatka Peninsula was the site of 'Beringia' — the land bridge crossed by early humans migrating from Asia to the Americas. Which sea?",
+          "answer": "Bering Sea",
+          "alternates": ["the Bering Sea"],
+          "explanation": "Located between Alaska (USA) and the Kamchatka Peninsula and Chukotka (Russia); bounded to the north by the Bering Strait\nDuring ice ages, lower sea levels exposed the Bering Land Bridge ('Beringia') — a vast landmass humans and animals crossed from Asia to the Americas ~15,000–20,000 years ago\nNamed after Danish explorer Vitus Bering, who explored the area for Russia in 1728 and 1741\nThe Aleutian Islands arc across the southern Bering Sea; they mark a major segment of the Pacific Ring of Fire\nOne of the world's most productive fishing grounds — major source of Alaskan pollock, king crab, and salmon",
+          "cardFront": "Bering Sea",
+          "cardBack": "Alaska–Russia • 'Beringia' land bridge • Early human migration route"
+        },
+        {
+          "id": "gulf-of-mexico",
+          "prompt": "This semi-enclosed sea is bordered by the USA, Mexico, and Cuba, emptying into the Atlantic via the Florida Straits. Site of the 2010 Deepwater Horizon oil spill. Which body of water?",
+          "answer": "Gulf of Mexico",
+          "alternates": ["the Gulf of Mexico"],
+          "explanation": "Covers ~1.55 million km²; bordered by the southern USA (Texas, Louisiana, Mississippi, Alabama, Florida), Mexico, and Cuba\nEmpties into the Atlantic via the Florida Straits (between Florida and Cuba) and is connected to the Caribbean via the Yucatán Channel\nThe 2010 Deepwater Horizon blowout — the world's largest accidental marine oil spill — released ~4.9 million barrels of oil over 87 days\nThe Gulf Loop Current carries warm Caribbean water northward; it fuels hurricanes that form in the Gulf and intensifies storms entering from the Atlantic\nMajor oil and gas producer: the Gulf of Mexico accounts for ~15% of US domestic crude oil production",
+          "cardFront": "Gulf of Mexico",
+          "cardBack": "USA/Mexico/Cuba • Semi-enclosed • Deepwater Horizon (2010)"
+        },
+        {
+          "id": "red-sea",
+          "prompt": "This narrow sea between Africa and the Arabian Peninsula is connected to the Mediterranean via the Suez Canal and to the Indian Ocean via the Gulf of Aden. One of the world's saltiest seas. Which sea?",
+          "answer": "Red Sea",
+          "alternates": ["the Red Sea"],
+          "explanation": "Covers ~438,000 km²; a long, narrow sea between the African coast (Egypt, Sudan, Eritrea, Djibouti) and the Arabian Peninsula (Saudi Arabia, Yemen)\nConnected to the Mediterranean Sea via the Suez Canal (1869), and to the Indian Ocean via the Gulf of Aden\nOne of the world's saltiest bodies of water (salinity ~4%) due to high evaporation rates, minimal rainfall, and no major rivers flowing into it\nThe Suez Canal, at its northern end, is one of the world's most important shipping chokepoints — ~12% of global trade passes through it\nThe Red Sea Coral Reef — spanning ~2,000 km — is one of the world's most biodiverse marine ecosystems",
+          "cardFront": "Red Sea",
+          "cardBack": "Africa/Arabian Peninsula • Suez Canal → Mediterranean"
+        },
+        {
+          "id": "black-sea",
+          "prompt": "This enclosed sea bordered by Ukraine, Romania, Bulgaria, Turkey, Georgia, and Russia connects to the Mediterranean through the Bosphorus and Dardanelles. Which sea?",
+          "answer": "Black Sea",
+          "alternates": ["the Black Sea"],
+          "explanation": "Covers ~436,000 km²; an almost completely landlocked sea bordered by Ukraine, Romania, Bulgaria, Turkey, Georgia, and Russia\nConnects to the Mediterranean via the Bosphorus (Istanbul), Sea of Marmara, and Dardanelles — a sequence of crucial strategic waterways\nThe Black Sea is meromictic — its bottom waters (~90% of the volume below 200 m) are permanently anoxic (no oxygen), preserving ancient shipwrecks remarkably well\nStrategically critical: Russia's Black Sea Fleet is based at Sevastopol (Crimea); the sea was a flashpoint during the Russo-Ukrainian War beginning 2022\nThe ancient Greeks colonized its shores; the mythological Golden Fleece was sought in Colchis (modern Georgia) on the Black Sea",
+          "cardFront": "Black Sea",
+          "cardBack": "Eastern Europe • Bosphorus → Mediterranean • Anoxic bottom waters"
+        },
+        {
+          "id": "north-sea",
+          "prompt": "This shallow sea between the UK and Denmark, Norway, Germany, and the Netherlands is a major fishing ground and home to significant oil fields discovered in the 1960s. Which sea?",
+          "answer": "North Sea",
+          "alternates": ["the North Sea"],
+          "explanation": "Covers ~575,000 km²; a shallow (average depth ~95 m), semi-enclosed sea between the UK to the west and Denmark, Norway, Germany, the Netherlands, Belgium, and France to the east and south\nNorth Sea oil and gas: fields were discovered in the 1960s–70s; production peaked in the 1990s; Norway and the UK are major producers\nOne of the world's busiest shipping lanes — the English Channel at its southern end is the world's most heavily trafficked shipping corridor\nThe Dogger Bank — a shallow underwater plateau — was above water during the last ice age; 'Doggerland' was a landmass connecting Britain to continental Europe until ~8,000 years ago\nDanish, Norwegian, Dutch, and British herring fisheries have exploited the North Sea for over 1,000 years",
+          "cardFront": "North Sea",
+          "cardBack": "Between UK and Scandinavia/Europe • Oil fields • Major shipping"
+        },
+        {
+          "id": "arabian-sea",
+          "prompt": "This northwest arm of the Indian Ocean, bounded by the Arabian Peninsula, India, and the Horn of Africa, is a major shipping route for Persian Gulf oil. Which sea?",
+          "answer": "Arabian Sea",
+          "alternates": ["the Arabian Sea"],
+          "explanation": "Covers ~3.86 million km²; a northwest arm of the Indian Ocean bounded by the Arabian Peninsula to the west, India to the east, and the Horn of Africa (Somalia) to the southwest\nMajor shipping route for oil from the Persian Gulf through the Strait of Hormuz to the rest of the world\nConnected to the Red Sea via the Gulf of Aden and the Bab-el-Mandeb Strait; connected to the Persian Gulf via the Gulf of Oman and Strait of Hormuz\nMonsoon-driven: seasonal winds dominate the sea, historically enabling Arab dhow trade routes between East Africa, Arabia, and India\nPiracy off the Horn of Somalia became a major problem in the 2000s–2010s, affecting shipping in the western Arabian Sea",
+          "cardFront": "Arabian Sea",
+          "cardBack": "NW Indian Ocean • Arabian Peninsula/India • Persian Gulf oil route"
+        },
+        {
+          "id": "caspian-sea",
+          "prompt": "The world's largest enclosed body of water at ~371,000 km², technically a lake. Borders Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. Name it.",
+          "answer": "Caspian Sea",
+          "alternates": ["the Caspian Sea"],
+          "explanation": "Covers ~371,000 km² — the world's largest enclosed body of water; while called a 'sea,' it is technically a lake with no natural outlet to the ocean\nBordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan; Baku (Azerbaijan) is the largest city on its shores\nThe Caspian has no outflow: water is lost only through evaporation; its level fluctuates significantly — it fell ~3 m between 1978 and 1977 and dramatically more recently\nThe world's largest sturgeon fishery was historically in the Caspian — it produces the prized Beluga caviar; overfishing has collapsed wild sturgeon populations\nSignificant oil reserves: the Caspian region, especially Azerbaijan's Baku, was one of the world's first major oil-producing areas (booming from the 1870s); pipelines carry oil to Turkey and Russia",
+          "cardFront": "Caspian Sea",
+          "cardBack": "World's largest enclosed lake (~371,000 km²) • Russia/Kazakhstan/Iran/Azerbaijan/Turkmenistan"
+        }
+      ]
+    }
+  ]
+}
