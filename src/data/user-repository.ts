@@ -156,6 +156,30 @@ export class UserRepository {
 		};
 	}
 
+	async getCategoryStats(userId: string): Promise<
+		{ category: string; correct: number; attempted: number }[]
+	> {
+		const rows = await this.db
+			.prepare(
+				`SELECT
+					CASE WHEN instr(exercise_id, '/') > 0
+						THEN substr(exercise_id, 1, instr(exercise_id, '/') - 1)
+						ELSE exercise_id
+					END as category,
+					COALESCE(SUM(score), 0) as correct,
+					COALESCE(SUM(total), 0) as attempted
+				 FROM quiz_results
+				 WHERE user_id = ?
+				 GROUP BY category
+				 HAVING category != ''
+				 ORDER BY attempted DESC`
+			)
+			.bind(userId)
+			.all<{ category: string; correct: number; attempted: number }>();
+
+		return rows.results;
+	}
+
 	async getUserStats(userId: string): Promise<{
 		totalQuizzes: number;
 		totalCorrect: number;
