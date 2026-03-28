@@ -4,119 +4,119 @@
   ],
   "exercises": [
     {
-      "id": "science/human-body/anatomy-facts",
+      "id": "science/human-body/systems-and-anatomy",
       "nodeId": "science/human-body",
-      "name": "Human Body Anatomy",
+      "name": "Human Body Systems",
       "format": "text-entry",
       "displayType": "cards",
       "items": [
         {
-          "id": "largest-organ",
-          "prompt": "What is the largest organ of the human body by surface area (~2 m²), accounting for about 15–20% of total body weight, that serves as a protective barrier against pathogens, regulates temperature, and prevents water loss?",
+          "id": "skin",
+          "prompt": "What is the largest organ in the human body by surface area, serving as a protective barrier against pathogens, regulating temperature, and housing sensory receptors?",
           "answer": "Skin",
-          "alternates": ["The skin", "Integument"],
-          "explanation": "The skin (integumentary system) is the body's largest organ by surface area (~2 m²) and by weight (~4 kg).\nThree layers: epidermis (outer), dermis (middle), hypodermis (subcutaneous fat).\nContains sweat glands, hair follicles, sebaceous glands, and sensory nerve endings.\nProduces vitamin D when exposed to ultraviolet radiation.",
-          "cardFront": "Largest organ by surface area",
+          "alternates": ["The skin", "integument"],
+          "explanation": "Surface area of ~1.5\u20132 m\u00b2 in an adult; accounts for ~15% of body weight\nThree layers: epidermis (outer, barrier), dermis (middle, collagen and hair follicles), hypodermis (deepest, fat)\nFunctions: pathogen barrier, UV radiation protection, temperature regulation (sweating/shivering), sensory reception\nPart of the integumentary system, which also includes hair, nails, and sweat glands\nRenews itself every 2\u20134 weeks; the body sheds ~30,000\u201340,000 dead skin cells per hour",
+          "cardFront": "Largest organ",
           "cardBack": "Skin"
         },
         {
-          "id": "largest-internal-organ",
-          "prompt": "What is the largest internal organ of the human body (weighing ~1.5 kg), responsible for metabolizing nutrients, detoxifying the blood, producing bile, synthesizing clotting factors, and performing over 500 functions?",
-          "answer": "Liver",
-          "alternates": ["The liver"],
-          "explanation": "The liver (~1.5 kg) is the largest internal organ and the largest gland.\nProduces bile (for fat digestion), synthesizes blood clotting factors, and metabolizes drugs and alcohol.\nOnly organ with significant regenerative capacity — can regrow from as little as 25% of its original mass.\nReceives blood from two sources: the hepatic artery and the portal vein (carrying nutrients from the intestines).",
-          "cardFront": "Largest internal organ",
-          "cardBack": "Liver"
-        },
-        {
-          "id": "longest-bone",
-          "prompt": "What is the longest and strongest bone in the human body, running from the hip socket to the knee and making up roughly one-quarter of a person's total height?",
-          "answer": "Femur",
-          "alternates": ["Thighbone", "Thigh bone"],
-          "explanation": "The femur (thighbone) is the longest bone, averaging 45–48 cm in adults.\nConnects the hip socket (acetabulum) to the knee joint (patella and tibia).\nContains the largest amount of red bone marrow — a major site of blood cell production.\nFemoral neck fractures are a leading cause of disability in the elderly.",
-          "cardFront": "Longest bone in the body",
-          "cardBack": "Femur"
-        },
-        {
-          "id": "smallest-bone",
-          "prompt": "What is the smallest bone in the human body, measuring about 3 mm, located in the middle ear, and named for its resemblance to a stirrup?",
-          "answer": "Stapes",
-          "alternates": ["Stirrup"],
-          "explanation": "The stapes (stirrup) is the smallest bone at ~3 mm and ~3 mg.\nOne of three ossicles in the middle ear: malleus (hammer), incus (anvil), stapes (stirrup).\nTransmits vibrations from the incus to the oval window of the cochlea (inner ear).\nThe three ossicles together amplify sound pressure by roughly 20-fold.",
-          "cardFront": "Smallest bone in the body",
-          "cardBack": "Stapes (stirrup)"
-        },
-        {
-          "id": "bones-count",
-          "prompt": "How many bones does an adult human skeleton typically contain? (Infants are born with significantly more, which fuse over time.)",
+          "id": "bones-206",
+          "prompt": "How many bones does the adult human skeleton contain?",
           "answer": "206",
-          "alternates": [],
-          "explanation": "Adults have 206 bones; infants are born with ~270–300, which fuse during childhood and adolescence.\nDivided into axial skeleton (80 bones: skull, vertebral column, ribs) and appendicular skeleton (126 bones: limbs, pelvis, shoulders).\nBone is the second hardest substance in the body after tooth enamel.\nBone is living tissue constantly remodeled by osteoblasts (builders) and osteoclasts (breakers).",
-          "cardFront": "Bones in the adult human skeleton",
+          "alternates": ["206 bones", "two hundred and six"],
+          "explanation": "Adults have 206 bones; infants are born with ~300 cartilaginous bones that fuse during childhood\nAxial skeleton: skull, spine, and ribcage (80 bones); appendicular skeleton: limbs, shoulder girdle, and pelvis (126 bones)\nLargest bone: femur (thigh bone); smallest: stapes in the middle ear\nBone is living tissue that constantly remodels; the skeleton is completely replaced roughly every 10 years\nFunctions: structural support, organ protection, movement (with muscles), calcium storage, and red blood cell production",
+          "cardFront": "Bones in adult skeleton",
           "cardBack": "206"
         },
         {
-          "id": "heart-chambers",
-          "prompt": "How many chambers does the human heart have? (The upper receiving chambers are called atria; the lower pumping chambers are called ventricles.)",
-          "answer": "Four",
-          "alternates": ["4", "4 chambers", "four chambers"],
-          "explanation": "The heart has 4 chambers: right atrium, right ventricle, left atrium, left ventricle.\nRight side receives deoxygenated blood from the body and pumps it to the lungs.\nLeft side receives oxygenated blood from the lungs and pumps it to the entire body.\nThe heart beats ~100,000 times per day, pumping about 7,600 liters of blood.",
-          "cardFront": "Chambers in the human heart",
-          "cardBack": "Four (2 atria + 2 ventricles)"
+          "id": "stapes",
+          "prompt": "What is the smallest bone in the human body, located in the middle ear, and named for its stirrup shape?",
+          "answer": "Stapes",
+          "alternates": ["stirrup", "stirrup bone"],
+          "explanation": "Measures only ~3 mm long and ~3 mg in weight; one of three ossicles in the middle ear\nThe three ossicles in order: malleus (hammer) \u2192 incus (anvil) \u2192 stapes (stirrup)\nTransmits sound vibrations from the eardrum to the cochlea of the inner ear\nAll three ossicles together are smaller than an orange seed\nThe ossicles amplify sound by a factor of ~22 before it enters the fluid-filled inner ear",
+          "cardFront": "Smallest bone",
+          "cardBack": "Stapes"
         },
         {
-          "id": "brain",
-          "prompt": "What organ makes up only ~2% of body weight but consumes ~20% of the body's total energy, contains approximately 86 billion neurons, and controls thought, memory, movement, and sensation?",
-          "answer": "Brain",
-          "alternates": ["The brain", "Human brain"],
-          "explanation": "The human brain weighs ~1.4 kg (~3 lbs) but uses ~20% of the body's energy and oxygen supply.\nContains ~86 billion neurons connected by an estimated 100 trillion synaptic connections.\nDivided into the cerebrum (cognition, senses), cerebellum (balance, coordination), and brainstem (breathing, heartbeat).\nThe blood-brain barrier selectively restricts passage of substances from the bloodstream into the brain.",
-          "cardFront": "20% of body's energy; ~86 billion neurons",
-          "cardBack": "Brain"
-        },
-        {
-          "id": "pancreas",
-          "prompt": "Which abdominal organ serves a dual function — producing digestive enzymes for the small intestine (exocrine) and secreting the hormones insulin and glucagon into the bloodstream to regulate blood sugar (endocrine)?",
-          "answer": "Pancreas",
-          "alternates": ["The pancreas"],
-          "explanation": "The pancreas is both an exocrine gland (secretes amylase, lipase, and protease into the duodenum) and an endocrine gland.\nInsulin (from beta cells) lowers blood glucose; glucagon (from alpha cells) raises it.\nFailure of insulin production or insulin resistance leads to diabetes mellitus.\nBanting and Best isolated insulin from the pancreas in 1921, winning the 1923 Nobel Prize.",
-          "cardFront": "Produces insulin and digestive enzymes",
-          "cardBack": "Pancreas"
-        },
-        {
-          "id": "kidneys",
-          "prompt": "What pair of bean-shaped organs, each roughly the size of a fist, filter approximately 200 liters of blood per day, remove metabolic waste as urine, and regulate blood pressure and electrolyte balance?",
-          "answer": "Kidneys",
-          "alternates": ["The kidneys"],
-          "explanation": "Each kidney contains ~1 million nephrons — the microscopic filtering units that concentrate waste into urine.\nFilter the entire blood supply approximately 30 times per day, producing 1–2 liters of urine.\nSecrete erythropoietin (stimulates red blood cell production) and renin (regulates blood pressure).\nThe most commonly transplanted organ; one functioning kidney is sufficient for survival.",
-          "cardFront": "Filter blood; produce urine; regulate blood pressure",
-          "cardBack": "Kidneys"
+          "id": "femur",
+          "prompt": "What is the longest and strongest bone in the human body, forming both the hip and knee joints?",
+          "answer": "Femur",
+          "alternates": ["thigh bone", "thigh"],
+          "explanation": "The femur makes up roughly one-quarter of a person's total height\nForms the hip joint (with the pelvis) and the knee joint (with the tibia and patella)\nStrong enough to withstand compressive forces of over 1,700 lbs under normal conditions\nContains red bone marrow throughout life, continuously producing blood cells\nHip fractures (proximal femur fractures) in the elderly are a leading cause of disability and mortality",
+          "cardFront": "Longest bone",
+          "cardBack": "Femur"
         },
         {
           "id": "pituitary-gland",
-          "prompt": "Which pea-sized gland at the base of the brain is called the 'master gland' because it controls most other endocrine glands by secreting hormones that regulate growth, reproduction, thyroid function, and stress responses?",
+          "prompt": "Which pea-sized gland at the base of the brain, connected to the hypothalamus, is called the 'master gland' because it regulates hormone secretion throughout the endocrine system?",
           "answer": "Pituitary gland",
-          "alternates": ["Pituitary", "Hypophysis"],
-          "explanation": "The pituitary (~0.5 g, roughly pea-sized) sits at the base of the brain in a bony hollow called the sella turcica.\nAnterior lobe secretes: growth hormone (GH), TSH, ACTH, FSH, LH, and prolactin.\nPosterior lobe releases ADH (vasopressin) and oxytocin, both produced by the hypothalamus.\nControlled by the hypothalamus via releasing and inhibiting hormones.",
-          "cardFront": "'Master gland' of the endocrine system",
+          "alternates": ["pituitary", "hypophysis"],
+          "explanation": "Located at the base of the brain in a bony cavity called the sella turcica\nAnterior pituitary secretes: growth hormone, TSH, ACTH, FSH, LH, and prolactin\nPosterior pituitary releases: ADH (antidiuretic hormone/vasopressin) and oxytocin\nDirectly controlled by hypothalamic releasing and inhibiting hormones via the portal blood system\nTumors of the pituitary are the most common brain tumor type; can cause gigantism (in children) or acromegaly (in adults)",
+          "cardFront": "\"Master gland\" of the endocrine system",
           "cardBack": "Pituitary gland"
         },
         {
-          "id": "chromosomes",
-          "prompt": "How many chromosomes does a typical human body (somatic) cell contain, and how are they arranged? (Hint: gametes, such as sperm and egg, contain half this number.)",
-          "answer": "46",
-          "alternates": ["46 chromosomes", "forty-six"],
-          "explanation": "Typical human somatic cells contain 46 chromosomes — 23 pairs (diploid).\n22 pairs are autosomes; the 23rd pair are the sex chromosomes: XX (female) or XY (male).\nGametes (sperm and egg) each contain 23 chromosomes (haploid) and combine to restore 46 at fertilization.\nDown syndrome results from trisomy 21: three copies of chromosome 21 instead of two.",
-          "cardFront": "Chromosomes in a human body cell",
-          "cardBack": "46 (23 pairs)"
+          "id": "liver",
+          "prompt": "Which organ \u2014 the largest internal organ \u2014 produces bile, detoxifies the blood, stores glycogen, and can fully regenerate from as little as 25% of its tissue?",
+          "answer": "Liver",
+          "alternates": [],
+          "explanation": "Over 500 known functions; the most metabolically complex organ in the body\nProduces bile (stored in the gallbladder) to emulsify dietary fats for digestion\nDetoxifies alcohol, drugs, ammonia, and other metabolic waste products\nStores glycogen and releases glucose to maintain blood sugar; synthesizes proteins including clotting factors\nCan regenerate to full size from as little as 25% of its tissue \u2014 the basis of the ancient Greek myth of Prometheus",
+          "cardFront": "Bile-producing, self-regenerating organ",
+          "cardBack": "Liver"
         },
         {
-          "id": "abo-blood-type",
-          "prompt": "What blood classification system, developed by Austrian physician Karl Landsteiner in 1901, groups human blood into types based on the presence or absence of A and B antigens on red blood cells — earning him the 1930 Nobel Prize in Physiology or Medicine?",
-          "answer": "ABO blood group system",
-          "alternates": ["ABO blood type system", "ABO system", "blood type system", "ABO"],
-          "explanation": "The ABO system has four types: A (A antigen), B (B antigen), AB (both antigens), and O (neither).\nType O is the universal donor; type AB is the universal recipient for red blood cell transfusions.\nThe Rh factor (+/−) was also discovered by Landsteiner (with Alexander Wiener) in 1940.\nMismatched transfusions cause fatal hemolytic reactions — hence blood typing before surgery or transfusion.",
-          "cardFront": "A, B, AB, O — Landsteiner (1901)",
-          "cardBack": "ABO blood group system"
+          "id": "medulla-oblongata",
+          "prompt": "What region at the base of the brainstem controls automatic vital functions including heart rate, blood pressure, and breathing?",
+          "answer": "Medulla oblongata",
+          "alternates": ["medulla", "brainstem"],
+          "explanation": "Located at the base of the brainstem, where the brain meets the spinal cord\nControls autonomic (involuntary) functions: heart rate, blood pressure, breathing, swallowing, and vomiting\nContains the cardiac center, respiratory center, and vasomotor center\nDamage to the medulla is rapidly fatal; a blow to the base of the skull can stop breathing and heartbeat\nAlso mediates reflex responses including coughing, sneezing, and the gag reflex",
+          "cardFront": "Controls heart rate, breathing, blood pressure",
+          "cardBack": "Medulla oblongata"
+        },
+        {
+          "id": "hemoglobin",
+          "prompt": "What iron-containing protein, found in red blood cells, binds oxygen in the lungs and releases it to tissues throughout the body, giving blood its red color?",
+          "answer": "Hemoglobin",
+          "alternates": ["haemoglobin"],
+          "explanation": "Each red blood cell contains ~280 million hemoglobin molecules; each molecule has 4 heme groups, each binding one O\u2082\nCarbon monoxide binds to hemoglobin ~200\u00d7 more strongly than oxygen, explaining carbon monoxide poisoning\nOxyhemoglobin (with O\u2082) is bright red; deoxyhemoglobin is dark red \u2014 veins appear blue through skin due to light scattering, not blue blood\nSickle cell anemia results from a single point mutation in the hemoglobin gene, distorting the protein's shape\nFetal hemoglobin (HbF) has higher O\u2082 affinity than adult hemoglobin, allowing the fetus to extract oxygen from maternal blood",
+          "cardFront": "Oxygen-carrying protein in red blood cells",
+          "cardBack": "Hemoglobin"
+        },
+        {
+          "id": "pancreas",
+          "prompt": "Which gland, located behind the stomach, functions as both an exocrine gland (secreting digestive enzymes into the small intestine) and an endocrine gland (secreting insulin and glucagon into the blood)?",
+          "answer": "Pancreas",
+          "alternates": [],
+          "explanation": "Exocrine function (~99% of tissue): acinar cells secrete amylase, lipase, and proteases via pancreatic duct into small intestine\nEndocrine function: islets of Langerhans \u2014 beta cells produce insulin; alpha cells produce glucagon\nInsulin lowers blood glucose (promotes uptake into cells); glucagon raises it (triggers glycogen breakdown in liver)\nType 1 diabetes: autoimmune destruction of beta cells; Type 2: peripheral insulin resistance\nPancreatic cancer has one of the lowest 5-year survival rates (~12%) because it rarely causes symptoms until advanced",
+          "cardFront": "Both endocrine and exocrine; produces insulin",
+          "cardBack": "Pancreas"
+        },
+        {
+          "id": "heart-chambers",
+          "prompt": "How many chambers does the human heart have?",
+          "answer": "Four",
+          "alternates": ["4", "4 chambers", "four chambers"],
+          "explanation": "Right atrium \u2192 right ventricle: pumps deoxygenated blood to the lungs (pulmonary circulation)\nLeft atrium \u2192 left ventricle: pumps oxygenated blood to the body (systemic circulation)\nThe left ventricle has the thickest wall because it pumps blood the greatest distance against the highest pressure\nFish have 2 heart chambers; amphibians have 3; mammals and birds have 4\nThe average resting heart beats 60\u2013100 times per minute, ~100,000 times per day, ~3 billion times in a lifetime",
+          "cardFront": "Number of heart chambers",
+          "cardBack": "Four"
+        },
+        {
+          "id": "neurons-86-billion",
+          "prompt": "Approximately how many neurons does the adult human brain contain?",
+          "answer": "86 billion",
+          "alternates": ["~86 billion", "approximately 86 billion", "100 billion", "~100 billion"],
+          "explanation": "~86 billion neurons, determined more precisely by Suzana Herculano-Houzel in 2009 (replacing the long-cited 100 billion estimate)\nEach neuron can form up to 10,000 synaptic connections, yielding ~100 trillion synapses total\nCerebral cortex has ~16 billion neurons; the cerebellum alone has ~69 billion\nSupported by ~85 billion non-neuronal glial cells (astrocytes, oligodendrocytes, microglia)\nNeurons are among the only cells in the body that cannot replace themselves after birth; limited neurogenesis occurs in the hippocampus",
+          "cardFront": "Neurons in the human brain",
+          "cardBack": "~86 billion"
+        },
+        {
+          "id": "chromosomes-46",
+          "prompt": "How many chromosomes are found in a typical human somatic (non-reproductive) cell?",
+          "answer": "46",
+          "alternates": ["46 chromosomes", "23 pairs", "23 homologous pairs", "forty-six"],
+          "explanation": "46 chromosomes in 23 homologous pairs: 22 autosomal pairs + 1 sex chromosome pair (XX female, XY male)\nGametes (sperm and egg) are haploid with 23 chromosomes; fertilization restores the diploid number of 46\nDown syndrome (Trisomy 21): an extra copy of chromosome 21; most common chromosomal disorder (~1 in 700 births)\nHumans do not have the most chromosomes: dogs have 78, potatoes have 48; chromosome count doesn't correlate with complexity\nSex chromosomes first described by Nettie Stevens in 1905",
+          "cardFront": "Chromosomes in a human somatic cell",
+          "cardBack": "46"
         }
       ]
     }

@@ -1,77 +1,77 @@
 {
   "nodes": [
-    { "id": "science/astronomy", "parentId": "science", "name": "Astronomy", "description": "Solar system, stars, galaxies, and the cosmos" }
+    { "id": "science/astronomy", "parentId": "science", "name": "Astronomy", "description": "Stars, planets, and the cosmos" }
   ],
   "exercises": [
     {
-      "id": "science/astronomy/solar-system-planets",
+      "id": "science/astronomy/planets-solar-system",
       "nodeId": "science/astronomy",
       "name": "Planets of the Solar System",
       "format": "fill-blanks",
-      "config": { "ordered": true, "prompt": "Name the 8 planets of the solar system in order from the Sun" },
+      "config": { "ordered": true, "prompt": "Name all 8 planets of the solar system in order from the Sun" },
       "items": [
         {
           "id": "mercury",
           "answer": "Mercury",
           "alternates": [],
-          "explanation": "Closest planet to the Sun; orbital period: 88 Earth days.\nSmallest planet; no moons; surface swings from 430°C (day) to −180°C (night) — no atmosphere to retain heat.\nNamed for the Roman messenger god.\nExplored by Mariner 10 (1974–75) and MESSENGER (2011–2015).",
-          "cardFront": "#1 from Sun",
+          "explanation": "Closest planet to the Sun (~0.39 AU); orbits in just 88 Earth days — shortest year of any planet\nSmallest planet in the solar system; similar in size to Earth's Moon\nNo significant atmosphere; surface temperatures swing from \u2212180\u00b0C to 430\u00b0C (greatest range of any planet)\nLarge iron core makes it the second-densest planet after Earth\nPluto was reclassified as a dwarf planet in 2006; Mercury is now the solar system's smallest planet",
+          "cardFront": "1st from Sun",
           "cardBack": "Mercury"
         },
         {
           "id": "venus",
           "answer": "Venus",
           "alternates": [],
-          "explanation": "Hottest planet at ~465°C — hotter than Mercury despite being farther from the Sun.\nDense CO2 atmosphere creates a runaway greenhouse effect; atmospheric pressure 92× Earth's.\nRotates retrograde (backward); a day on Venus is longer than its year.\nBrightest natural object in the sky after the Moon.",
-          "cardFront": "#2 from Sun",
+          "explanation": "Hottest planet at ~465\u00b0C surface temperature, despite not being closest to the Sun\nRunaway greenhouse effect: dense CO\u2082 atmosphere traps heat more than any other planet\nRotates retrograde (clockwise viewed from above North Pole), so the Sun rises in the west\nA Venusian day (243 Earth days) is longer than its year (225 Earth days)\nBrightest object in the night sky after the Moon; visible as the 'morning star' or 'evening star'",
+          "cardFront": "2nd from Sun",
           "cardBack": "Venus"
         },
         {
           "id": "earth",
           "answer": "Earth",
           "alternates": [],
-          "explanation": "Third planet; only known planet with life.\nOne natural satellite: the Moon.\nSurface ~71% water; atmosphere ~78% nitrogen, ~21% oxygen.\nOrbital period: 365.25 days (hence leap years every 4 years).",
-          "cardFront": "#3 from Sun",
+          "explanation": "Only known planet with life; ~4.54 billion years old\n71% of the surface is covered by water \u2014 unique among known planets\nOne natural satellite (the Moon), which stabilizes Earth's axial tilt and drives the tides\nPlate tectonics are unique to Earth among solar system planets\nThe astronomical unit (AU) is defined as the Earth\u2013Sun mean distance: ~149.6 million km",
+          "cardFront": "3rd from Sun",
           "cardBack": "Earth"
         },
         {
           "id": "mars",
           "answer": "Mars",
           "alternates": [],
-          "explanation": "The Red Planet — colored by iron oxide (rust) on its surface.\nTwo small moons: Phobos and Deimos.\nHas Olympus Mons, the largest volcano in the solar system (~22 km high, 3× the height of Everest).\nCurrently explored by NASA's Perseverance rover (landed February 2021).",
-          "cardFront": "#4 from Sun",
+          "explanation": "Called the Red Planet because iron oxide (rust) covers its surface\nOlympus Mons is the tallest volcano in the solar system (~22 km; roughly 3\u00d7 Everest's height)\nValles Marineris is the largest canyon system: ~4,000 km long and up to 7 km deep\nTwo tiny moons: Phobos (orbits in under 8 hours, faster than Mars rotates) and Deimos\nMore rovers and landers sent than any other planet; Perseverance rover and Ingenuity helicopter active as of 2024",
+          "cardFront": "4th from Sun",
           "cardBack": "Mars"
         },
         {
           "id": "jupiter",
           "answer": "Jupiter",
           "alternates": [],
-          "explanation": "Largest planet — more than twice the mass of all other planets combined.\n97 confirmed moons (as of 2025), including the four Galilean moons: Io, Europa, Ganymede, Callisto.\nThe Great Red Spot is a storm larger than Earth, raging for centuries.\nA gas giant; no solid surface.",
-          "cardFront": "#5 from Sun",
+          "explanation": "Largest planet \u2014 more than twice as massive as all other planets combined\nThe Great Red Spot is a storm wider than Earth that has raged for at least 350 years\n95 known moons (as of 2023); the four Galilean moons (Io, Europa, Ganymede, Callisto) discovered by Galileo in 1610\nGanymede is the largest moon in the solar system \u2014 bigger than Mercury\nEuropa's subsurface liquid-water ocean makes it a top candidate for extraterrestrial life",
+          "cardFront": "5th from Sun",
           "cardBack": "Jupiter"
         },
         {
           "id": "saturn",
           "answer": "Saturn",
           "alternates": [],
-          "explanation": "Famous for its spectacular ring system of ice and rock particles.\n274 confirmed moons (as of 2025), the most of any planet; Titan has a thick nitrogen atmosphere.\nLeast dense planet — less dense than water; would float if placed in a large enough ocean.\nThe rings are mostly less than 1 km thick but extend up to 282,000 km from the planet.",
-          "cardFront": "#6 from Sun",
+          "explanation": "Spectacular ring system: hundreds of thousands of km wide but only ~100 m thick in most places\nLeast dense planet \u2014 less dense than water; would float in a sufficiently large ocean\n146 known moons (as of 2023, surpassing Jupiter); Titan (largest) has a thick nitrogen atmosphere\nTitan has lakes of liquid methane and ethane at surface temperatures around \u2212179\u00b0C\nThe rings are made mostly of water ice and rocky debris; likely formed within the last 100 million years",
+          "cardFront": "6th from Sun",
           "cardBack": "Saturn"
         },
         {
           "id": "uranus",
           "answer": "Uranus",
           "alternates": [],
-          "explanation": "An ice giant with a faint ring system.\nRotates on its side — axial tilt of ~98°, so it effectively rolls around the Sun.\n27 known moons, all named after characters from Shakespeare and Alexander Pope.\nThe coldest planetary atmosphere in the solar system (−224°C recorded).",
-          "cardFront": "#7 from Sun",
+          "explanation": "Ice giant; rotates on its side with an axial tilt of ~98\u00b0, likely caused by an ancient large impact\nEach pole experiences 42 years of continuous sunlight followed by 42 years of continuous darkness\n27 known moons, all named after characters from Shakespeare and Alexander Pope\nFirst planet discovered with a telescope, by William Herschel on March 13, 1781\nBlue-green color from methane in its atmosphere, which absorbs red light",
+          "cardFront": "7th from Sun",
           "cardBack": "Uranus"
         },
         {
           "id": "neptune",
           "answer": "Neptune",
           "alternates": [],
-          "explanation": "Farthest planet from the Sun; orbital period: 165 Earth years.\n16 known moons; Triton is the largest and orbits backward — likely a captured Kuiper Belt object.\nPredicted mathematically before it was observed (1846), based on perturbations in Uranus's orbit.\nHas the strongest sustained winds in the solar system — up to 2,100 km/h.",
-          "cardFront": "#8 from Sun",
+          "explanation": "Farthest planet from the Sun; one orbit takes ~165 Earth years\nDiscovered in 1846 by mathematical prediction (Urbain Le Verrier and John Couch Adams) before telescopic confirmation\nFastest sustained winds in the solar system: up to ~2,100 km/h\n16 known moons; Triton (largest) orbits retrograde \u2014 likely a captured Kuiper Belt object\nGenerates more heat internally than it receives from the Sun; the heat source is not fully understood",
+          "cardFront": "8th from Sun",
           "cardBack": "Neptune"
         }
       ]
