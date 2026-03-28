@@ -131,7 +131,7 @@ Root category nodes are in `seeds/_categories.json` (18 Learned League categorie
 - **Hierarchical nodes**: Categories -> subcategories -> exercises. Node IDs are slash-separated paths (e.g., `science/chemistry`). Breadcrumbs derived by splitting on `/`.
 - **Display types are exercise-level**: `displayType` on exercises selects the Learn mode renderer (cards, periodic-table, map, timeline). Not hardcoded by exercise ID.
 - **MCP is lazy-imported** in the worker (`await import('agents/mcp')`) to avoid breaking vitest-pool-workers. Don't change this to a static import.
-- **Two vitest configs**: `vitest.unit.config.ts` for pure functions, `vitest.config.ts` for Workers pool integration tests. Don't merge them.
+- **Two vitest configs**: `vitest.unit.config.ts` for pure functions, `vitest.config.mts` for Workers pool integration tests. Don't merge them.
 - **Vite config is separate**: `vite.config.app.ts` builds the React SPA. It's distinct from the vitest configs.
 - **nodejs_compat** flag is required in wrangler.toml for the agents SDK.
 
