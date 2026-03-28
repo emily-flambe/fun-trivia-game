@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    { "id": "language/world-languages", "parentId": "language", "name": "World Languages", "description": "Major languages, language families, and writing systems" }
+  ],
+  "exercises": [
+    {
+      "id": "language/world-languages/world-languages-and-families",
+      "nodeId": "language/world-languages",
+      "name": "World Languages & Families",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "mandarin-chinese",
+          "prompt": "What language has the most native speakers in the world, with over 900 million?",
+          "answer": "Mandarin Chinese",
+          "alternates": ["Mandarin", "Chinese", "Mandarin Chinese"],
+          "explanation": "Over 900 million native speakers, primarily in China, Taiwan, and Singapore\nOfficial language of the People's Republic of China (as P\u01d4t\u014dnghu\u00e0, 'common speech') and Taiwan (as Gu\u00f3y\u01d4, 'national language')\nA tonal language with four main tones plus a neutral tone; the same syllable spoken in different tones has entirely different meanings\nWritten using Chinese characters (hanzi); simplified characters used in mainland China, traditional in Taiwan and Hong Kong\nBelongs to the Sino-Tibetan language family\nOne of the six official languages of the United Nations",
+          "cardFront": "Language with the most native speakers worldwide",
+          "cardBack": "Mandarin Chinese"
+        },
+        {
+          "id": "english",
+          "prompt": "What language is the most widely spoken in the world when counting both native and non-native speakers, with over 1.4 billion total?",
+          "answer": "English",
+          "alternates": [],
+          "explanation": "Approximately 380 million native speakers, but over 1.4 billion total speakers including L2\nOfficial or co-official language in over 60 countries across every inhabited continent\nA West Germanic language heavily influenced by Norman French after the 1066 conquest\nThe global lingua franca for science, aviation, computing, diplomacy, and international business\nHas the largest vocabulary of any language, with over 170,000 words in current use per the Oxford English Dictionary\nThe Great Vowel Shift (1400\u20131700) is why English spelling is so inconsistent with pronunciation",
+          "cardFront": "Most spoken language worldwide (native + non-native)",
+          "cardBack": "English"
+        },
+        {
+          "id": "indo-european",
+          "prompt": "What is the world's largest language family, containing English, Hindi, Spanish, Russian, and most European languages?",
+          "answer": "Indo-European",
+          "alternates": ["Indo European"],
+          "explanation": "Spoken by about 3.2 billion people \u2014 roughly 46% of the world's population\nIncludes branches: Germanic, Romance, Slavic, Indo-Iranian, Celtic, Hellenic, Baltic, Albanian, Armenian\nSir William Jones first proposed the family in 1786, noting similarities between Sanskrit, Latin, and Greek\nThe hypothetical common ancestor, Proto-Indo-European, was likely spoken around 4500\u20132500 BC\nThe Kurgan hypothesis places the homeland in the Pontic\u2013Caspian steppe (modern Ukraine/southern Russia)\nNotable non-Indo-European languages in Europe: Finnish, Hungarian, Estonian (Uralic), and Basque (isolate)",
+          "cardFront": "World's largest language family by number of speakers",
+          "cardBack": "Indo-European"
+        },
+        {
+          "id": "sino-tibetan",
+          "prompt": "What language family, the world's second-largest by number of speakers, contains Chinese, Burmese, and Tibetan?",
+          "answer": "Sino-Tibetan",
+          "alternates": ["Sino Tibetan"],
+          "explanation": "Second-largest language family by number of speakers, after Indo-European\nContains roughly 400\u2013500 languages across East Asia, Southeast Asia, and the Himalayas\nTwo major branches: Sinitic (Chinese languages) and Tibeto-Burman\nMost Sino-Tibetan languages are tonal, using pitch to distinguish word meaning\nChinese varieties alone account for the vast majority of the family's speakers\nThe family's internal classification is still debated; some linguists propose additional branches",
+          "cardFront": "Second-largest language family (contains Chinese and Tibetan)",
+          "cardBack": "Sino-Tibetan"
+        },
+        {
+          "id": "cyrillic",
+          "prompt": "What alphabet, developed in the 9th century for Slavic languages, is used to write Russian, Ukrainian, Bulgarian, and Serbian?",
+          "answer": "Cyrillic",
+          "alternates": ["Cyrillic alphabet", "cyrillic"],
+          "explanation": "Developed in the First Bulgarian Empire in the 9th\u201310th century, based on Greek uncial script\nNamed after Saint Cyril (827\u2013869), though actually created by his disciples; Cyril and his brother Methodius developed the earlier Glagolitic alphabet\nUsed by over 250 million people across roughly 50 languages\nThe modern Russian Cyrillic alphabet has 33 letters; other languages add or remove characters\nPeter the Great reformed the Russian Cyrillic in 1708, creating a more Westernized 'civil script'\nAdopted well beyond Slavic languages: Kazakh, Mongolian, Tajik, and many languages of the former Soviet Union",
+          "cardFront": "Script used for Russian, Bulgarian, and Serbian",
+          "cardBack": "Cyrillic"
+        },
+        {
+          "id": "arabic-script",
+          "prompt": "What writing system, written right-to-left, is the second most widely used alphabet in the world after Latin?",
+          "answer": "Arabic",
+          "alternates": ["Arabic script", "Arabic alphabet"],
+          "explanation": "Written right-to-left; the second most widely used script in the world after Latin\nUsed for Arabic, Persian (Farsi), Urdu, Pashto, Kurdish, and historically for Turkish (until 1928) and Malay (Jawi)\n28 letters in the Arabic alphabet; letters change form depending on position in a word (initial, medial, final, isolated)\nEvolved from the Nabataean alphabet, itself derived from Aramaic\nArabic calligraphy is considered a major art form in Islamic culture; geometric and floral because of aniconism\nThe Quran's status as the literal word of God in Arabic has kept the classical language stable for over 1,400 years",
+          "cardFront": "Second most widely used script worldwide, written right-to-left",
+          "cardBack": "Arabic"
+        },
+        {
+          "id": "devanagari",
+          "prompt": "What script, whose name means 'of the divine city,' is used to write Hindi, Sanskrit, Marathi, and Nepali?",
+          "answer": "Devanagari",
+          "alternates": ["Devanagari script", "devanagari"],
+          "explanation": "Name derives from deva ('deity') + n\u0101gar\u012b ('urban, of the city'), loosely 'script of the divine city'\nAn abugida (alphasyllabary): each consonant carries an inherent vowel that can be modified with diacritical marks\nUsed for Hindi, Sanskrit, Marathi, Nepali, and several other South Asian languages\nWritten left-to-right with a distinctive horizontal line (sh\u012br\u014drekh\u0101) connecting letters along the top\nDeveloped from the Brahmi script (3rd century BC) via the Gupta and N\u0101gar\u012b scripts\nThe Unicode standard encodes Devanagari in the range U+0900 to U+097F",
+          "cardFront": "Script used for Hindi, Sanskrit, and Nepali",
+          "cardBack": "Devanagari"
+        },
+        {
+          "id": "esperanto",
+          "prompt": "What is the most widely spoken constructed language, created in 1887 by L. L. Zamenhof to promote international communication?",
+          "answer": "Esperanto",
+          "alternates": [],
+          "explanation": "Created by L. L. Zamenhof, a Polish-Jewish ophthalmologist, published in 1887 as Lingvo Internacia\nZamenhof published under the pseudonym 'Doktoro Esperanto' ('Doctor Hopeful'), which became the language's name\nEstimated 100,000\u20132,000,000 speakers worldwide; exact numbers are disputed\nDesigned for simplicity: 16 grammar rules, no exceptions, phonetic spelling, regular verb conjugation\nHas a native speaker community (denaskaj esperantistoj) \u2014 children raised with Esperanto as a first language\nThe only constructed language with its own Wikipedia (over 300,000 articles) and Google Translate support",
+          "cardFront": "Most successful constructed language (created 1887)",
+          "cardBack": "Esperanto"
+        },
+        {
+          "id": "latin",
+          "prompt": "What ancient language served as the lingua franca of Western scholarship and the Catholic Church for over a millennium, and is the ancestor of the Romance languages?",
+          "answer": "Latin",
+          "alternates": [],
+          "explanation": "Originally the language of Latium (the region around Rome); spread across Europe with Roman conquest\nClassical Latin (1st century BC\u20132nd century AD) is the literary standard; Vulgar Latin was the everyday spoken form\nVulgar Latin evolved into the Romance languages: Spanish, Portuguese, French, Italian, Romanian\nRemained the language of science, law, medicine, and theology in Europe well into the 18th century\nNewton's Principia Mathematica (1687) and Linnaeus's Systema Naturae (1735) were written in Latin\nStill the official language of the Vatican and the Roman Catholic Church",
+          "cardFront": "Ancestor of the Romance languages; lingua franca of medieval Europe",
+          "cardBack": "Latin"
+        },
+        {
+          "id": "xhosa",
+          "prompt": "What Bantu language of South Africa is famous for its use of click consonants, and was the native language of Nelson Mandela?",
+          "answer": "Xhosa",
+          "alternates": ["isiXhosa"],
+          "explanation": "A Bantu language spoken by about 8 million people, primarily in South Africa's Eastern Cape\nFeatures 18 click consonants, borrowed from the neighboring Khoisan languages through centuries of contact\nClick sounds are represented in writing by the letters c (dental click), q (alveolar click), and x (lateral click)\nNelson Mandela and Desmond Tutu were both native Xhosa speakers\nOne of South Africa's 11 official languages; the second most common home language after Zulu\nMiriam Makeba's 'Click Song' (Qongqothwane) introduced Xhosa clicks to a global audience in the 1960s",
+          "cardFront": "Bantu language with click consonants; Mandela's native tongue",
+          "cardBack": "Xhosa"
+        },
+        {
+          "id": "basque",
+          "prompt": "What language, spoken in parts of Spain and France, is Europe's only surviving language isolate with no known relatives?",
+          "answer": "Basque",
+          "alternates": ["Euskara", "Euskera"],
+          "explanation": "A language isolate: no demonstrated genetic relationship to any other living language\nSpoken by about 750,000 people in the Basque Country spanning northeastern Spain and southwestern France\nPredates the arrival of Indo-European languages in Europe; possibly a remnant of pre-Indo-European languages\nThe Basque name for the language is Euskara; the people call themselves Euskaldunak\nAn ergative\u2013absolutive language, a rare typological feature among European languages\nSurvived Roman, Visigothic, Frankish, and Spanish/French cultural domination for millennia",
+          "cardFront": "Europe's only surviving language isolate",
+          "cardBack": "Basque"
+        },
+        {
+          "id": "sanskrit",
+          "prompt": "What ancient Indo-European language is the classical literary language of Hinduism and the liturgical language of Hindu, Buddhist, and Jain traditions?",
+          "answer": "Sanskrit",
+          "alternates": [],
+          "explanation": "The classical language of ancient India; the oldest attested form is Vedic Sanskrit (c. 1500\u20131200 BC)\nThe Rigveda, composed in Vedic Sanskrit, is one of the oldest surviving texts in any Indo-European language\nP\u0101\u1e47ini's A\u1e63\u1e6d\u0101dhy\u0101y\u012b (c. 4th century BC) is the earliest known formal grammar of any language\nSanskrit's systematic grammar deeply influenced modern linguistics; Noam Chomsky acknowledged P\u0101\u1e47ini's influence\nThe word 'Sanskrit' means 'refined' or 'perfected' (sa\u1e43sk\u1e5bta)\nSource of many English loanwords: avatar, karma, yoga, nirvana, mantra, jungle, guru",
+          "cardFront": "Classical literary and liturgical language of ancient India",
+          "cardBack": "Sanskrit"
+        },
+        {
+          "id": "rosetta-stone",
+          "prompt": "What artifact, discovered in 1799 during Napoleon's Egyptian campaign, was the key to deciphering Egyptian hieroglyphics?",
+          "answer": "Rosetta Stone",
+          "alternates": ["the Rosetta Stone"],
+          "explanation": "Discovered in July 1799 by French soldiers near the town of Rashid (Rosetta) in the Nile Delta\nA granodiorite stele inscribed with the same decree in three scripts: hieroglyphic, Demotic, and Greek\nThe decree (196 BC) was issued by priests at Memphis affirming the royal cult of Ptolemy V Epiphanes\nJean-Fran\u00e7ois Champollion used the stone to crack hieroglyphics in 1822, recognizing that the script was partly phonetic\nBritain acquired it from France under the 1801 Treaty of Alexandria; it has been in the British Museum since 1802\nEgypt has repeatedly requested its return; the phrase 'Rosetta Stone' now means any key to a difficult problem",
+          "cardFront": "Key to deciphering Egyptian hieroglyphics (discovered 1799)",
+          "cardBack": "Rosetta Stone"
+        },
+        {
+          "id": "braille",
+          "prompt": "What tactile writing system, invented by a 15-year-old Frenchman in 1824, uses raised dots to represent letters?",
+          "answer": "Braille",
+          "alternates": [],
+          "explanation": "Invented by Louis Braille (1809\u20131852), who was blinded in an accident at age 3\nBased on a military 'night writing' system by Charles Barbier, designed for soldiers to read in the dark\nUses a 6-dot cell (3 rows \u00d7 2 columns) capable of 64 combinations including blank\nBraille devised the system at age 15 while a student at the Royal Institute for Blind Youth in Paris\nNot widely adopted during his lifetime; France officially adopted it for education in 1854, two years after his death\nAdapted for virtually every language worldwide; also exists for music notation and mathematics",
+          "cardFront": "Tactile writing system using raised dots",
+          "cardBack": "Braille"
+        },
+        {
+          "id": "american-sign-language",
+          "prompt": "What visual language, used by over 500,000 people in the U.S. and parts of Canada, was developed at a Hartford school in the 1810s?",
+          "answer": "American Sign Language",
+          "alternates": ["ASL"],
+          "explanation": "Developed from French Sign Language (LSF), brought to the U.S. by Laurent Clerc and Thomas Hopkins Gallaudet\nThe American School for the Deaf, founded in Hartford, Connecticut, in 1817, was the first permanent school for deaf students in the U.S.\nASL is not a signed version of English \u2014 it has its own grammar, syntax, and idioms entirely distinct from English\nNot mutually intelligible with British Sign Language (BSL), despite both countries speaking English\nGallaudet University in Washington, D.C. (founded 1864) is the world's only university designed for deaf and hard-of-hearing students\nRecognized as a natural language by linguists since William Stokoe's 1960 research at Gallaudet",
+          "cardFront": "Visual language used by deaf communities in the U.S.",
+          "cardBack": "American Sign Language (ASL)"
+        }
+      ]
+    }
+  ]
+}

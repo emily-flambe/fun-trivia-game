@@ -182,12 +182,12 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Word Origins — Etymologies | 15 | ✅ | |
-| 2 | Foreign Phrases in English | 20 | 📋 EMI-394 | TS has "Foreign Phrases" (under Culture). Carpe diem, schadenfreude, c'est la vie, etc. |
-| 3 | World Languages & Families | 15 | 📋 EMI-394 | Most spoken languages, language families, writing systems. |
-| 4 | NATO Phonetic Alphabet | 26 | ❌ | TS has this. Alpha, Bravo, Charlie... Fill-blanks. |
-| 5 | Greek Alphabet | 24 | ❌ | TS has this. Alpha through Omega. Used in math/science/fraternities. |
+| 2 | Foreign Phrases in English | 20 | ✅ EMI-394 | TS has "Foreign Phrases" (under Culture). Carpe diem, schadenfreude, c'est la vie, etc. |
+| 3 | World Languages & Families | 15 | ✅ EMI-394 | Most spoken languages, language families, writing systems. |
+| 4 | NATO Phonetic Alphabet | 26 | ✅ EMI-394 | TS has this. Alpha, Bravo, Charlie... Fill-blanks. |
+| 5 | Greek Alphabet | 24 | ✅ EMI-394 | TS has this. Alpha through Omega. Used in math/science/fraternities. |
 
-**Coverage**: 1/5 done.
+**Coverage**: 5/5 done. Complete.
 
 ---
 
@@ -372,7 +372,7 @@ Inspired by TrivialStudies' unique study tools:
 | Food/Drink | 5 | 10 | 50% |
 | Games/Sport | 2 | 15 | 13% |
 | Geography | 10 | 20 | 50% |
-| Language | 1 | 5 | 20% |
+| Language | 5 | 5 | 100% |
 | Lifestyle | 1 | 7 | 14% |
 | Literature | 16 | 16 | 100% |
 | Math | 4 | 6 | 67% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **85** | **177** | **48%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -392,7 +392,7 @@ Inspired by TrivialStudies' unique study tools:
 4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
 5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
 6. **Theatre** — 1/5 (20%). Small but tested category.
-7. **Language** — 1/5 (20%). Small but distinctive LL category.
+7. **Language** — 5/5 (100%). Complete.
 8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
 9. **Art** — 2/5 (40%). Needs the actual artworks.
 10. **Literature** — 16/16 (100%). Complete.

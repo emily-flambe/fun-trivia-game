@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    { "id": "language/alphabets", "parentId": "language", "name": "Alphabets", "description": "Phonetic alphabets, classical alphabets, and letter systems" }
+  ],
+  "exercises": [
+    {
+      "id": "language/alphabets/greek-alphabet",
+      "nodeId": "language/alphabets",
+      "name": "Greek Alphabet",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name all 24 letters of the Greek alphabet in order" },
+      "items": [
+        {
+          "id": "alpha",
+          "answer": "Alpha",
+          "alternates": [],
+          "explanation": "1st letter; uppercase \u0391, lowercase \u03b1\nFrom Phoenician aleph ('ox'); the Greek letter name has no meaning in Greek itself\nIn science, \u03b1 denotes the first in a series: alpha particle, alpha radiation, alpha male\nThe phrase 'alpha and omega' (first and last) appears in the Book of Revelation to describe God"
+        },
+        {
+          "id": "beta",
+          "answer": "Beta",
+          "alternates": [],
+          "explanation": "2nd letter; uppercase \u0392, lowercase \u03b2\nFrom Phoenician beth ('house'); alpha + beta = 'alphabet'\nIn software, 'beta' denotes a pre-release testing phase, after 'alpha'\nIn finance, beta (\u03b2) measures a stock's volatility relative to the overall market"
+        },
+        {
+          "id": "gamma",
+          "answer": "Gamma",
+          "alternates": [],
+          "explanation": "3rd letter; uppercase \u0393, lowercase \u03b3\nGamma rays are the highest-energy form of electromagnetic radiation, discovered by Paul Villard in 1900\nIn photography and display technology, gamma correction adjusts brightness curves\nThe Gamma function (\u0393) in mathematics generalizes the factorial to non-integer values"
+        },
+        {
+          "id": "delta",
+          "answer": "Delta",
+          "alternates": [],
+          "explanation": "4th letter; uppercase \u0394, lowercase \u03b4\nThe uppercase \u0394 is a triangle, giving its name to river deltas (Herodotus named the Nile Delta for its triangular shape)\nIn math and science, \u0394 means 'change in' a quantity (\u0394x, \u0394T)\nAlso the NATO phonetic word for the letter D"
+        },
+        {
+          "id": "epsilon",
+          "answer": "Epsilon",
+          "alternates": [],
+          "explanation": "5th letter; uppercase \u0395, lowercase \u03b5\nIn calculus and analysis, \u03b5 represents an arbitrarily small positive quantity ('for every \u03b5 > 0')\nThe \u03b5\u2013\u03b4 definition of a limit, formalized by Weierstrass, is foundational to modern analysis\nThe Latin letter E derives directly from epsilon"
+        },
+        {
+          "id": "zeta",
+          "answer": "Zeta",
+          "alternates": [],
+          "explanation": "6th letter; uppercase \u0396, lowercase \u03b6\nThe Riemann zeta function \u03b6(s) is central to number theory; the Riemann Hypothesis about its zeros is one of math's greatest unsolved problems\nCatherine Zeta-Jones's middle name comes from her grandmother\nZeta is used in fluid dynamics for vorticity"
+        },
+        {
+          "id": "eta",
+          "answer": "Eta",
+          "alternates": [],
+          "explanation": "7th letter; uppercase \u0397, lowercase \u03b7\nIn physics, \u03b7 commonly represents efficiency (ratio of useful output to total input)\n'ETA' as an abbreviation for 'estimated time of arrival' is unrelated to the Greek letter\nThe Basque separatist group ETA (Euskadi Ta Askatasuna) is also unrelated"
+        },
+        {
+          "id": "theta",
+          "answer": "Theta",
+          "alternates": [],
+          "explanation": "8th letter; uppercase \u0398, lowercase \u03b8\nThe standard symbol for an angle in trigonometry and geometry\nIn ancient Athens, jurors used \u0398 (for thanatos, 'death') to vote for a death sentence\nTheta waves (4\u20138 Hz) in neuroscience are associated with drowsiness and light sleep"
+        },
+        {
+          "id": "iota",
+          "answer": "Iota",
+          "alternates": [],
+          "explanation": "9th letter; uppercase \u0399, lowercase \u03b9\nThe smallest letter in the Greek alphabet, giving English the phrase 'not one iota' (meaning 'not the slightest bit')\nFrom Jesus's words in Matthew 5:18: 'not one jot or tittle' (jot = iota)\nThe Latin letter I and the English letter J both derive from iota"
+        },
+        {
+          "id": "kappa",
+          "answer": "Kappa",
+          "alternates": [],
+          "explanation": "10th letter; uppercase \u039a, lowercase \u03ba\nIn statistics, Cohen's kappa (\u03ba) measures inter-rater agreement beyond chance\nKappa Kappa Gamma, founded 1870 at Monmouth College, is one of the oldest women's fraternities\nIn internet culture, 'Kappa' is a Twitch emote indicating sarcasm"
+        },
+        {
+          "id": "lambda",
+          "answer": "Lambda",
+          "alternates": [],
+          "explanation": "11th letter; uppercase \u039b, lowercase \u03bb\nIn physics, \u03bb represents wavelength; in linear algebra, eigenvalues\nThe Spartan army used \u039b on their shields, standing for Lacedaemon (Sparta's official name)\nAWS Lambda (2014) popularized 'serverless computing'; the name references lambda calculus"
+        },
+        {
+          "id": "mu",
+          "answer": "Mu",
+          "alternates": [],
+          "explanation": "12th letter; uppercase \u039c, lowercase \u03bc\nThe SI prefix 'micro-' uses \u03bc (one millionth, 10\u207b\u2076)\nIn statistics, \u03bc represents the population mean\nIn physics, \u03bc is the coefficient of friction and also denotes the muon (elementary particle)"
+        },
+        {
+          "id": "nu",
+          "answer": "Nu",
+          "alternates": [],
+          "explanation": "13th letter; uppercase \u039d, lowercase \u03bd\nIn physics, \u03bd (nu) represents frequency of a wave\nEasily confused with the Latin letter 'v' in handwriting \u2014 a frequent source of errors in physics notation\nFrom Phoenician nun ('fish'); the Latin N derives from this letter"
+        },
+        {
+          "id": "xi",
+          "answer": "Xi",
+          "alternates": [],
+          "explanation": "14th letter; uppercase \u039e, lowercase \u03be\nOne of the most difficult Greek letters for English speakers to write and pronounce (English: /za\u026a/ or /ksa\u026a/)\nUsed in particle physics for the Xi baryon (\u039e)\nThe uppercase \u039e resembles a stack of three horizontal lines"
+        },
+        {
+          "id": "omicron",
+          "answer": "Omicron",
+          "alternates": [],
+          "explanation": "15th letter; uppercase \u039f, lowercase \u03bf\nMeans 'small O' (o mikron) as opposed to omega ('big O')\nBecame globally known as the name of a COVID-19 variant designated by the WHO in November 2021\nRarely used as a scientific symbol because it is visually identical to the Latin letter O"
+        },
+        {
+          "id": "pi",
+          "answer": "Pi",
+          "alternates": [],
+          "explanation": "16th letter; uppercase \u03a0, lowercase \u03c0\nThe most famous Greek letter in mathematics: \u03c0 \u2248 3.14159, the ratio of a circle's circumference to its diameter\nFirst used for this constant by Welsh mathematician William Jones in 1706, popularized by Euler\nPi Day is celebrated on March 14 (3/14); in 2015, the date 3/14/15 matched the first five digits"
+        },
+        {
+          "id": "rho",
+          "answer": "Rho",
+          "alternates": [],
+          "explanation": "17th letter; uppercase \u03a1, lowercase \u03c1\nIn physics, \u03c1 represents density; in statistics, it denotes the correlation coefficient\nThe Chi-Rho (\u2627) monogram, combining the first two letters of 'Christ' in Greek (\u03a7\u03a1\u0399\u03a3\u03a4\u039f\u03a3), was an early Christian symbol adopted by Emperor Constantine\nVisually similar to the Latin letter P but represents the 'r' sound"
+        },
+        {
+          "id": "sigma",
+          "answer": "Sigma",
+          "alternates": [],
+          "explanation": "18th letter; uppercase \u03a3, lowercase \u03c3 (or \u03c2 at end of a word)\nIn math, \u03a3 is the summation symbol; in statistics, \u03c3 is standard deviation\n'Six Sigma' is a quality management methodology aiming for fewer than 3.4 defects per million opportunities, developed at Motorola in 1986\nThe word-final form \u03c2 (final sigma) is one of the few positional letter variants in Greek"
+        },
+        {
+          "id": "tau",
+          "answer": "Tau",
+          "alternates": [],
+          "explanation": "19th letter; uppercase \u03a4, lowercase \u03c4\nSome mathematicians advocate \u03c4 = 2\u03c0 as a more natural circle constant (one full turn rather than half)\nIn physics, \u03c4 represents torque, shear stress, and the tau lepton (a heavy electron discovered in 1975)\nThe Tau cross (T-shape) is associated with Saint Anthony and is also called a Saint Anthony's cross"
+        },
+        {
+          "id": "upsilon",
+          "answer": "Upsilon",
+          "alternates": [],
+          "explanation": "20th letter; uppercase \u03a5, lowercase \u03c5\nThe Latin letters U, V, W, and Y all ultimately derive from upsilon\nIn particle physics, the upsilon meson (\u03a5) was discovered at Fermilab in 1977\nThe name means 'simple u' (u psilon), distinguishing it from the diphthong oi which had come to sound the same"
+        },
+        {
+          "id": "phi",
+          "answer": "Phi",
+          "alternates": [],
+          "explanation": "21st letter; uppercase \u03a6, lowercase \u03c6\nThe golden ratio (1.618...) is often denoted by \u03c6 (phi), named after the sculptor Phidias\nIn engineering, \u03c6 represents phase angle; in statistics, the phi coefficient measures association\nPhi Beta Kappa, founded at the College of William & Mary in 1776, is the oldest academic honor society in the U.S."
+        },
+        {
+          "id": "chi",
+          "answer": "Chi",
+          "alternates": [],
+          "explanation": "22nd letter; uppercase \u03a7, lowercase \u03c7\nThe Chi-squared (\u03c7\u00b2) test is one of the most widely used statistical tests\nThe Chi-Rho symbol (\u2627) combines chi and rho, the first two letters of Christ (\u03a7\u03c1\u03b9\u03c3\u03c4\u03cc\u03c2) in Greek\nOften confused with the Latin X; 'Xmas' uses the Greek chi (\u03a7) as an abbreviation for 'Christ'"
+        },
+        {
+          "id": "psi",
+          "answer": "Psi",
+          "alternates": [],
+          "explanation": "23rd letter; uppercase \u03a8, lowercase \u03c8\nIn quantum mechanics, \u03c8 is the wave function describing a particle's quantum state (Schr\u00f6dinger's equation)\nThe trident-shaped uppercase \u03a8 is used as the symbol for psychology (from psyche, 'soul/mind')\nIn parapsychology, 'psi' is a blanket term for psychic phenomena"
+        },
+        {
+          "id": "omega",
+          "answer": "Omega",
+          "alternates": [],
+          "explanation": "24th and final letter; uppercase \u03a9, lowercase \u03c9\nMeans 'great O' (o mega) as opposed to omicron ('small O')\nIn physics, \u03a9 is the unit of electrical resistance (ohm), named after Georg Ohm\nThe phrase 'alpha and omega' means 'the beginning and the end,' from the Book of Revelation\nOmega-3 fatty acids are named because the first double bond is at the 3rd carbon from the omega (terminal) end"
+        }
+      ]
+    }
+  ]
+}

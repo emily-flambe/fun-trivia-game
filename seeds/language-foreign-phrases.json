@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    { "id": "language/foreign-phrases", "parentId": "language", "name": "Foreign Phrases", "description": "Foreign-language expressions commonly used in English" }
+  ],
+  "exercises": [
+    {
+      "id": "language/foreign-phrases/foreign-phrases-in-english",
+      "nodeId": "language/foreign-phrases",
+      "name": "Foreign Phrases in English",
+      "format": "text-entry",
+      "items": [
+        {
+          "id": "carpe-diem",
+          "prompt": "What Latin phrase, popularized by Horace's Odes, means 'seize the day'?",
+          "answer": "Carpe diem",
+          "alternates": ["carpe diem"],
+          "explanation": "From Horace's Odes (23 BC): 'carpe diem, quam minimum credula postero' ('seize the day, trusting as little as possible in tomorrow')\nLiterally 'pluck the day,' as one plucks ripe fruit from a tree\nHorace (65\u20138 BC) was a leading Roman lyric poet during the reign of Augustus\nRevived in modern pop culture by Robin Williams's character in Dead Poets Society (1989): 'Carpe diem. Seize the day, boys.'\nOften paired with memento mori ('remember you will die') as complementary philosophical maxims\nUsed in English since at least the early 19th century as an exhortation to live in the present",
+          "cardFront": "Latin phrase meaning 'seize the day'",
+          "cardBack": "Carpe diem"
+        },
+        {
+          "id": "schadenfreude",
+          "prompt": "What German word describes the pleasure derived from someone else's misfortune?",
+          "answer": "Schadenfreude",
+          "alternates": ["schadenfreude"],
+          "explanation": "From German Schaden ('damage, harm') + Freude ('joy')\nEntered English in the 1890s; no single English word captures the same meaning\nPhilosopher Arthur Schopenhauer called it 'the worst trait in human nature'\nFeatured in the musical Avenue Q (2003) as a comedic song number\nThe opposite concept, feeling pain at another's success, is sometimes called 'gluckschmerz' (though this is a modern coinage)\nStudied in psychology as a social comparison emotion; research links it to envy and in-group/out-group dynamics",
+          "cardFront": "German word for pleasure from another's misfortune",
+          "cardBack": "Schadenfreude"
+        },
+        {
+          "id": "cest-la-vie",
+          "prompt": "What French phrase, meaning 'that's life,' expresses resigned acceptance of circumstances?",
+          "answer": "C'est la vie",
+          "alternates": ["cest la vie", "c'est la vie"],
+          "explanation": "Literally 'that is the life' or 'such is life' in French\nUsed in English to express philosophical acceptance of disappointment or bad luck\nOne of the most recognized French phrases worldwide, even among non-French speakers\nTitle of a 1977 hit single by Emerson, Lake & Palmer and a 1986 debut hit by Robbie Nevil (peaked at #2 on Billboard Hot 100)\nSimilar in spirit to 'Que Sera, Sera' (popularized by Doris Day's 1956 song) or the Arabic 'maktub' ('it is written')\nCommonly used in both casual conversation and literary contexts since the 19th century",
+          "cardFront": "French phrase meaning 'that's life'",
+          "cardBack": "C'est la vie"
+        },
+        {
+          "id": "zeitgeist",
+          "prompt": "What German word means 'the spirit of the age' or the defining mood of a particular era?",
+          "answer": "Zeitgeist",
+          "alternates": ["zeitgeist"],
+          "explanation": "From German Zeit ('time') + Geist ('spirit, mind, ghost')\nPopularized by Hegel in his philosophy of history, where each era has a defining intellectual and cultural climate\nThe concept was central to 18th- and 19th-century German Idealism\nMatthew Arnold used it in English in 1848; the word has been naturalized into English since\nOften used in cultural criticism and journalism to describe prevailing attitudes of a decade or generation\nGoogle's annual 'Year in Search' was originally called 'Google Zeitgeist' (2001\u20132012)",
+          "cardFront": "German word for 'the spirit of the age'",
+          "cardBack": "Zeitgeist"
+        },
+        {
+          "id": "coup-de-grace",
+          "prompt": "What French phrase, literally meaning 'blow of mercy,' refers to a final stroke that ends suffering?",
+          "answer": "Coup de grace",
+          "alternates": ["coup de grace", "coup de gr\u00e2ce"],
+          "explanation": "Literally 'stroke of mercy' \u2014 the death blow given to end a wounded person's suffering\nIn medieval warfare, a knight would deliver the coup de gr\u00e2ce with a misericorde (a narrow dagger)\nExtended figuratively to mean any decisive finishing action: 'the scandal was the coup de gr\u00e2ce for his career'\nOften mispronounced 'coup de GRAH' (as if grâce were gras, 'fat'); the correct pronunciation voices the final 's' as in English 'grace'\nNot to be confused with coup d'\u00e9tat ('blow of state'), a sudden seizure of political power\nEntered English in the late 17th century from French military terminology",
+          "cardFront": "French phrase for a merciful finishing blow",
+          "cardBack": "Coup de gr\u00e2ce"
+        },
+        {
+          "id": "je-ne-sais-quoi",
+          "prompt": "What French phrase, literally 'I don't know what,' describes an indefinable, appealing quality?",
+          "answer": "Je ne sais quoi",
+          "alternates": ["je ne sais quoi"],
+          "explanation": "Literally 'I do not know what' \u2014 used to describe a quality that's attractive but hard to define\nUsed in English since at least the 1650s, often in contexts of personal charm or artistic merit\nAppears in French literature as early as the 17th century; Montesquieu and Marivaux both wrote about the concept\nTypically used as a noun phrase: 'she has a certain je ne sais quoi'\nThe phrase acknowledges that some qualities resist precise description or analysis\nCommon in fashion, art, and food criticism to describe elusive excellence",
+          "cardFront": "French phrase for an indefinable, appealing quality",
+          "cardBack": "Je ne sais quoi"
+        },
+        {
+          "id": "wanderlust",
+          "prompt": "What German word describes a strong, innate desire to travel and explore the world?",
+          "answer": "Wanderlust",
+          "alternates": ["wanderlust"],
+          "explanation": "From German wandern ('to wander, to hike') + Lust ('desire, pleasure')\nRooted in the German Romantic tradition of Wanderschaft, the journeyman's years of travel\nThe Wandervogel youth movement (1896\u20131933) celebrated hiking and nature as spiritual pursuits\nEntered English around 1902, gaining wide usage by the mid-20th century\nGermany's extensive network of hiking trails (over 200,000 km) reflects this cultural value\nNow used globally, especially in travel marketing and social media culture",
+          "cardFront": "German word for a desire to travel",
+          "cardBack": "Wanderlust"
+        },
+        {
+          "id": "ad-hoc",
+          "prompt": "What Latin phrase meaning 'for this' describes something created for a specific, immediate purpose?",
+          "answer": "Ad hoc",
+          "alternates": ["ad hoc"],
+          "explanation": "Literally 'to this' or 'for this' in Latin\nUsed as both an adjective ('an ad hoc committee') and an adverb ('decided ad hoc')\nIn computing, an ad hoc network is a temporary, decentralized wireless connection between devices\nIn logic, an ad hoc hypothesis is one created solely to save a theory from refutation \u2014 generally considered a weakness\nCommon in legal, political, and business contexts: ad hoc committees, ad hoc rulings\nThe opposite concept is 'a priori' (from what comes before) or systematic/standing",
+          "cardFront": "Latin phrase for 'created for a specific purpose'",
+          "cardBack": "Ad hoc"
+        },
+        {
+          "id": "bona-fide",
+          "prompt": "What Latin phrase meaning 'in good faith' describes something genuine or authentic?",
+          "answer": "Bona fide",
+          "alternates": ["bona fide", "bonafide", "bona-fide"],
+          "explanation": "From Latin bona fide, ablative of bona fides ('good faith')\nIn law, a bona fide purchaser is one who buys in good faith without knowledge of defects in title\nUsed as an adjective in English meaning 'genuine, authentic': 'a bona fide expert'\nSometimes misspelled as 'bonafide' as a single word, though the two-word Latin form is standard\nThe opposite is mala fide ('in bad faith')\nFeatured memorably in the Coen Brothers' O Brother, Where Art Thou? (2000): 'I'm a bona fide suitor'",
+          "cardFront": "Latin phrase meaning 'in good faith' or 'genuine'",
+          "cardBack": "Bona fide"
+        },
+        {
+          "id": "fait-accompli",
+          "prompt": "What French phrase describes something already done and beyond reversal, presenting others with a finished fact?",
+          "answer": "Fait accompli",
+          "alternates": ["fait accompli"],
+          "explanation": "Literally 'accomplished fact' in French\nUsed in diplomacy and politics for actions taken unilaterally before others can object or respond\nClassic example: Napoleon's return from Elba in 1815 \u2014 by the time European powers reacted, he had already reclaimed Paris\nIn international law, the concept relates to the legal principle of uti possidetis (possession as a basis for sovereignty)\nEntered English in the early 19th century, frequently used in political and military contexts\nImplies a deliberate strategy of acting first and negotiating later",
+          "cardFront": "French phrase for an accomplished, irreversible fact",
+          "cardBack": "Fait accompli"
+        },
+        {
+          "id": "carte-blanche",
+          "prompt": "What French phrase, literally meaning 'blank card,' signifies complete freedom or unconditional authority?",
+          "answer": "Carte blanche",
+          "alternates": ["carte blanche"],
+          "explanation": "Literally 'white card' or 'blank card' in French\nOriginally a military term: a blank document signed by a commander, to be filled in by the bearer with whatever terms they wished\nIn English since the late 17th century, meaning full discretionary power\nUsed in both formal ('the board gave her carte blanche') and casual ('I have carte blanche on the menu') contexts\nIn fencing, the carte is an inside line of defense \u2014 unrelated to this phrase\nThe concept appears in James Bond's first novel, Casino Royale (1953), and is the title of a Jeffery Deaver Bond novel (2011)",
+          "cardFront": "French phrase for complete freedom or full authority",
+          "cardBack": "Carte blanche"
+        },
+        {
+          "id": "doppelganger",
+          "prompt": "What German word describes an apparition or double of a living person, now used to mean a look-alike?",
+          "answer": "Doppelganger",
+          "alternates": ["doppelganger", "doppelg\u00e4nger", "Doppelg\u00e4nger"],
+          "explanation": "From German doppel ('double') + G\u00e4nger ('goer, walker')\nCoined by novelist Jean Paul Richter in his 1796 novel Siebenk\u00e4s\nIn Germanic folklore, seeing one's doppelg\u00e4nger was an omen of death\nAbraham Lincoln reportedly saw his own doppelg\u00e4nger in a mirror, which his wife interpreted as a sign he would not survive his second term\nIn modern usage, simply means a person who closely resembles another, without supernatural connotations\nA common plot device in literature and film: Dostoevsky's The Double (1846), Jordan Peele's Us (2019)",
+          "cardFront": "German word for a look-alike or ghostly double",
+          "cardBack": "Doppelg\u00e4nger"
+        },
+        {
+          "id": "faux-pas",
+          "prompt": "What French phrase, literally meaning 'false step,' refers to a social blunder or embarrassing mistake?",
+          "answer": "Faux pas",
+          "alternates": ["faux pas"],
+          "explanation": "Literally 'false step' in French, as in a stumble while walking\nUsed in English since the late 17th century to mean a breach of etiquette or social convention\nThe plural is also 'faux pas' (unchanged), though the final 's' is silent in both singular and plural\nIn ballet, a faux pas is an actual misstep used as a transitional movement\nRelated to the broader French influence on English etiquette vocabulary: gauche, gaffe, d\u00e9class\u00e9\nOften used in diplomatic contexts where cultural missteps can cause international incidents",
+          "cardFront": "French phrase for a social blunder",
+          "cardBack": "Faux pas"
+        },
+        {
+          "id": "magnum-opus",
+          "prompt": "What Latin phrase meaning 'great work' refers to the finest achievement of an artist or writer?",
+          "answer": "Magnum opus",
+          "alternates": ["magnum opus"],
+          "explanation": "From Latin magnum ('great') + opus ('work')\nIn alchemy, the Magnum Opus was the process of creating the philosopher's stone \u2014 the ultimate goal of the alchemist\nThe plural can be either magna opera (Latin) or magnum opuses (English)\nUsed broadly for any creator's masterpiece: Beethoven's 9th Symphony, Tolstoy's War and Peace\nRelated Latin terms: opus citatum ('the work cited,' abbreviated op. cit.), opus posthumum (work published after the author's death)\nThe music industry's concept of a 'magnum opus' album differs from the literary tradition but uses the same phrase",
+          "cardFront": "Latin phrase for an artist's greatest work",
+          "cardBack": "Magnum opus"
+        },
+        {
+          "id": "mea-culpa",
+          "prompt": "What Latin phrase meaning 'my fault' is used as an acknowledgment of personal responsibility for an error?",
+          "answer": "Mea culpa",
+          "alternates": ["mea culpa"],
+          "explanation": "From the Latin prayer of confession in Catholic liturgy: 'mea culpa, mea culpa, mea maxima culpa' ('my fault, my fault, my most grievous fault')\nPart of the Confiteor, a prayer recited at the beginning of Mass since at least the 11th century\nTradition holds that the penitent strikes their breast while saying these words\nIn modern English, used as a noun ('issued a mea culpa') meaning a public acknowledgment of error\nCommon in journalism and politics when a public figure admits wrongdoing\nThe intensified form 'mea maxima culpa' ('my most grievous fault') is sometimes used for emphasis",
+          "cardFront": "Latin phrase meaning 'my fault'",
+          "cardBack": "Mea culpa"
+        },
+        {
+          "id": "persona-non-grata",
+          "prompt": "What Latin phrase meaning 'unwelcome person' is used in diplomacy for an expelled or banned foreign official?",
+          "answer": "Persona non grata",
+          "alternates": ["persona non grata"],
+          "explanation": "Literally 'person not pleasing' or 'unwelcome person' in Latin\nIn diplomacy, a formal declaration that a foreign diplomat is no longer welcome, requiring their departure\nCodeified in the 1961 Vienna Convention on Diplomatic Relations, Article 9\nA receiving state can declare any diplomat persona non grata at any time without giving a reason\nAlso used colloquially: 'after the scandal, he was persona non grata at the club'\nThe opposite is persona grata ('welcome person'); the plural is personae non gratae",
+          "cardFront": "Latin phrase for an unwelcome person, especially a diplomat",
+          "cardBack": "Persona non grata"
+        },
+        {
+          "id": "raison-detre",
+          "prompt": "What French phrase meaning 'reason for being' describes the most important purpose of someone or something?",
+          "answer": "Raison d'etre",
+          "alternates": ["raison d'etre", "raison d'\u00eatre"],
+          "explanation": "Literally 'reason for being' or 'reason for existence' in French\nUsed in English since the mid-19th century for the fundamental purpose or justification of something\nIn existentialist philosophy, the search for a raison d'\u00eatre is central to human experience\nThe Japanese concept of ikigai ('reason for living') is often compared to raison d'\u00eatre\nCommon in business: 'customer service is our raison d'\u00eatre'\nRelated to the French verb \u00eatre ('to be'), one of the most fundamental words in Romance languages",
+          "cardFront": "French phrase for a reason for existence",
+          "cardBack": "Raison d'\u00eatre"
+        },
+        {
+          "id": "caveat-emptor",
+          "prompt": "What Latin phrase meaning 'let the buyer beware' warns that purchasers bear responsibility for checking quality?",
+          "answer": "Caveat emptor",
+          "alternates": ["caveat emptor"],
+          "explanation": "From Latin caveat ('let him/her beware') + emptor ('buyer')\nA foundational principle of contract law, especially for real estate transactions\nThe doctrine places the burden on the buyer to perform due diligence before a purchase\nFirst recorded in English in a 1523 treatise on horse-trading\nModern consumer protection laws (warranties, product liability) have significantly eroded the doctrine\nRelated phrase: caveat venditor ('let the seller beware'), the opposing principle\nThe word 'caveat' alone entered English as a noun meaning a warning or proviso",
+          "cardFront": "Latin phrase meaning 'let the buyer beware'",
+          "cardBack": "Caveat emptor"
+        },
+        {
+          "id": "status-quo",
+          "prompt": "What Latin phrase meaning 'the existing state of affairs' is used to describe current conditions as they are?",
+          "answer": "Status quo",
+          "alternates": ["status quo"],
+          "explanation": "Short for status quo ante ('the state in which before'), referring to the existing condition\nIn diplomacy, 'status quo ante bellum' means restoring conditions to what they were before a war\nWidely used in politics: 'maintaining the status quo' versus 'challenging the status quo'\nThe rock band Status Quo (formed 1962) is one of the UK's most successful groups, with over 120 million records sold\nIn game theory and behavioral economics, 'status quo bias' describes the preference for the current state of affairs\nThe phrase entered English in the early 19th century from diplomatic and legal Latin",
+          "cardFront": "Latin phrase for the existing state of affairs",
+          "cardBack": "Status quo"
+        },
+        {
+          "id": "verbatim",
+          "prompt": "What Latin word meaning 'word for word' describes an exact, literal reproduction of speech or text?",
+          "answer": "Verbatim",
+          "alternates": ["verbatim"],
+          "explanation": "From Medieval Latin verbatim, derived from verbum ('word')\nUsed as both an adjective ('a verbatim transcript') and an adverb ('quoted verbatim')\nEssential in legal contexts: court reporters produce verbatim transcripts of proceedings\nThe related phrase 'verbatim et literatim' means 'word for word and letter for letter' \u2014 an exact copy\nThe party game Balderdash (1984) is based on 'Fictionary,' where players invent definitions for obscure words\nCognate with English 'verb,' 'verbal,' 'verbose,' and 'proverb' \u2014 all from Latin verbum",
+          "cardFront": "Latin word meaning 'word for word'",
+          "cardBack": "Verbatim"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    { "id": "language/alphabets", "parentId": "language", "name": "Alphabets", "description": "Phonetic alphabets, classical alphabets, and letter systems" }
+  ],
+  "exercises": [
+    {
+      "id": "language/alphabets/nato-phonetic-alphabet",
+      "nodeId": "language/alphabets",
+      "name": "NATO Phonetic Alphabet",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name all 26 words of the NATO phonetic alphabet in order (A through Z)" },
+      "items": [
+        {
+          "id": "alfa",
+          "answer": "Alfa",
+          "alternates": ["Alpha"],
+          "explanation": "Represents the letter A\nSpelled 'Alfa' in the official NATO/ICAO standard to avoid confusion in languages where 'ph' is not pronounced as 'f'\nAdopted in its current form in 1956 after extensive international testing\nAlso the first letter of the Greek alphabet"
+        },
+        {
+          "id": "bravo",
+          "answer": "Bravo",
+          "alternates": [],
+          "explanation": "Represents the letter B\nAlso an Italian/Spanish exclamation of approval, traditionally shouted at opera performances\nIn military usage, 'Bravo' can designate a second element (Alpha team, Bravo team, etc.)\nReplaced 'Baker' from the earlier Joint Army/Navy Phonetic Alphabet (JANAP)"
+        },
+        {
+          "id": "charlie",
+          "answer": "Charlie",
+          "alternates": [],
+          "explanation": "Represents the letter C\nIn Vietnam War slang, 'Charlie' referred to the Viet Cong (from 'Victor Charlie,' the NATO phonetic for VC)\nRetained from the Joint Army/Navy Phonetic Alphabet (JANAP), which unified the earlier Navy 'Cast' and Army 'Charlie' under 'Charlie' \u2014 one of the few words retained\nIn British slang, 'a right Charlie' means a fool"
+        },
+        {
+          "id": "delta",
+          "answer": "Delta",
+          "alternates": [],
+          "explanation": "Represents the letter D\nShared with the 4th letter of the Greek alphabet (\u0394/\u03b4)\nIn geography, a river delta is named for the triangular shape of the Greek letter\nDelta Air Lines (founded 1924) is named after the Mississippi River Delta region"
+        },
+        {
+          "id": "echo",
+          "answer": "Echo",
+          "alternates": [],
+          "explanation": "Represents the letter E\nIn Greek mythology, Echo was a nymph cursed by Hera to only repeat the last words spoken to her\nIn audio engineering, echo is a distinct repetition of sound caused by reflection off a surface\nAmazon named its smart speaker 'Echo' (2014), using the wake word 'Alexa'"
+        },
+        {
+          "id": "foxtrot",
+          "answer": "Foxtrot",
+          "alternates": [],
+          "explanation": "Represents the letter F\nAlso a ballroom dance in 4/4 time, originating around 1914 and attributed to vaudeville performer Harry Fox\nOne of the standard dances in competitive ballroom dancing\nReplaced 'Fox' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "golf",
+          "answer": "Golf",
+          "alternates": [],
+          "explanation": "Represents the letter G\nThe sport of golf originated in 15th-century Scotland; the word may derive from Scots gouf ('to strike')\nThe folk etymology that 'golf' stands for 'Gentlemen Only, Ladies Forbidden' is false\nReplaced 'George' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "hotel",
+          "answer": "Hotel",
+          "alternates": [],
+          "explanation": "Represents the letter H\nFrom French h\u00f4tel, itself from Old French hostel (which also gives us 'hostel')\nChosen for international recognizability, as the word is used in most European languages\nReplaced 'How' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "india",
+          "answer": "India",
+          "alternates": [],
+          "explanation": "Represents the letter I\nThe country name derives from the Indus River, from Sanskrit sindhu ('river, sea')\nReplaced 'Item' from the Joint Army/Navy Phonetic Alphabet\nNot to be confused with the NATO country code for India (IND)"
+        },
+        {
+          "id": "juliet",
+          "answer": "Juliet",
+          "alternates": ["Juliett"],
+          "explanation": "Represents the letter J\nThe official ICAO spelling is 'Juliett' (with double-t) to indicate the final syllable is pronounced\nNamed evocative of Shakespeare's Juliet from Romeo and Juliet (c. 1597)\nReplaced 'Jig' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "kilo",
+          "answer": "Kilo",
+          "alternates": [],
+          "explanation": "Represents the letter K\nAlso the SI prefix for 1,000, from Greek chilioi ('thousand')\nIn informal usage, 'kilo' is short for kilogram\nReplaced 'King' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "lima",
+          "answer": "Lima",
+          "alternates": [],
+          "explanation": "Represents the letter L\nShares its name with the capital of Peru, founded by Francisco Pizarro in 1535\nPronounced 'LEE-mah' in NATO usage, matching the city's Spanish pronunciation\nReplaced 'Love' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "mike",
+          "answer": "Mike",
+          "alternates": [],
+          "explanation": "Represents the letter M\nIn military communications, 'mike' also informally means 'minute' ('wait one mike')\nRetained from the Joint Army/Navy Phonetic Alphabet\nOne of the most intuitive NATO codewords, as Mike is a common English name"
+        },
+        {
+          "id": "november",
+          "answer": "November",
+          "alternates": [],
+          "explanation": "Represents the letter N\nFrom Latin novem ('nine') \u2014 November was the 9th month in the original Roman calendar before January and February were added\nReplaced 'Nan' from the Joint Army/Navy Phonetic Alphabet\nThe longest NATO phonetic word at 8 letters"
+        },
+        {
+          "id": "oscar",
+          "answer": "Oscar",
+          "alternates": [],
+          "explanation": "Represents the letter O\nIn maritime signal flags, 'Oscar' means 'man overboard'\nShares its name with the Academy Awards nickname; the origin of 'Oscar' for the statuette is disputed\nReplaced 'Oboe' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "papa",
+          "answer": "Papa",
+          "alternates": [],
+          "explanation": "Represents the letter P\nChosen for universal recognizability \u2014 'papa' means 'father' in many languages worldwide\nReplaced 'Peter' from the Joint Army/Navy Phonetic Alphabet\nPronounced 'pah-PAH' with stress on the second syllable in NATO usage"
+        },
+        {
+          "id": "quebec",
+          "answer": "Quebec",
+          "alternates": [],
+          "explanation": "Represents the letter Q\nNamed after the Canadian province; the word is from Algonquin k\u00e9bec ('where the river narrows')\nReplaced 'Queen' from the Joint Army/Navy Phonetic Alphabet\nOne of the few NATO phonetic words derived from a place name in the Americas"
+        },
+        {
+          "id": "romeo",
+          "answer": "Romeo",
+          "alternates": [],
+          "explanation": "Represents the letter R\nEvokes Shakespeare's Romeo from Romeo and Juliet \u2014 paired with Juliet (J) in the same alphabet\nReplaced 'Roger' from the Joint Army/Navy Phonetic Alphabet; 'Roger' was reassigned to mean 'received/understood'\nIn Italian, romeo means 'pilgrim to Rome'"
+        },
+        {
+          "id": "sierra",
+          "answer": "Sierra",
+          "alternates": [],
+          "explanation": "Represents the letter S\nFrom Spanish sierra ('mountain range'), originally from Latin serra ('saw') for the jagged peaks\nReplaced 'Sugar' from the Joint Army/Navy Phonetic Alphabet\nShared with the Sierra Nevada ranges in both California and Spain"
+        },
+        {
+          "id": "tango",
+          "answer": "Tango",
+          "alternates": [],
+          "explanation": "Represents the letter T\nAlso the Argentine partner dance originating in Buenos Aires in the late 19th century\nIn military slang, 'tango' can mean 'target' or 'enemy'\nReplaced 'Tare' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "uniform",
+          "answer": "Uniform",
+          "alternates": [],
+          "explanation": "Represents the letter U\nFrom Latin uniformis ('having one form') \u2014 fitting for a military alphabet standardizing communication\nReplaced 'Uncle' from the Joint Army/Navy Phonetic Alphabet\nThe NATO phonetic alphabet itself is a kind of uniform standard across all allied militaries"
+        },
+        {
+          "id": "victor",
+          "answer": "Victor",
+          "alternates": [],
+          "explanation": "Represents the letter V\n'Victor Charlie' (V-C) became Vietnam War slang for the Viet Cong\nRetained from the Joint Army/Navy Phonetic Alphabet \u2014 one of the few words kept unchanged in the NATO version\nFrom Latin victor ('conqueror'), from vincere ('to conquer')"
+        },
+        {
+          "id": "whiskey",
+          "answer": "Whiskey",
+          "alternates": ["Whisky"],
+          "explanation": "Represents the letter W\nFrom Irish Gaelic uisce beatha or Scottish Gaelic uisge beatha ('water of life')\nThe official ICAO spelling is 'Whiskey' (with an 'e'), following the Irish/American convention rather than Scottish 'whisky'\nReplaced 'William' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "xray",
+          "answer": "X-ray",
+          "alternates": ["X-Ray", "Xray"],
+          "explanation": "Represents the letter X\nX-rays were discovered by Wilhelm R\u00f6ntgen in 1895; he called them 'X' because the radiation was unknown\nRetained from the Joint Army/Navy Phonetic Alphabet, where it also represented X\nOne of the few NATO words written with a hyphen"
+        },
+        {
+          "id": "yankee",
+          "answer": "Yankee",
+          "alternates": [],
+          "explanation": "Represents the letter Y\nOrigin of 'Yankee' is debated: possibly from Dutch Janke (diminutive of Jan) or a Native American pronunciation of 'English'\nIn the American Revolution, British soldiers used 'Yankee' as a pejorative; Americans reclaimed it with 'Yankee Doodle'\nReplaced 'Yoke' from the Joint Army/Navy Phonetic Alphabet"
+        },
+        {
+          "id": "zulu",
+          "answer": "Zulu",
+          "alternates": [],
+          "explanation": "Represents the letter Z\nAlso the name of the Bantu ethnic group in South Africa and their language (isiZulu)\n'Zulu time' is military/aviation slang for UTC (Coordinated Universal Time), because Z = Zulu\nReplaced 'Zebra' from the Joint Army/Navy Phonetic Alphabet"
+        }
+      ]
+    }
+  ]
+}
