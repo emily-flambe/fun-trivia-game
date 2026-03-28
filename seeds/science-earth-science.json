@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    { "id": "science/earth-science", "parentId": "science", "name": "Earth Science", "description": "Geology, plate tectonics, atmosphere, and Earth's structure" }
+  ],
+  "exercises": [
+    {
+      "id": "science/earth-science/layers-of-the-earth",
+      "nodeId": "science/earth-science",
+      "name": "Layers of the Earth",
+      "format": "fill-blanks",
+      "config": { "ordered": true, "prompt": "Name the 4 layers of the Earth from the center to the surface" },
+      "items": [
+        {
+          "id": "inner-core",
+          "answer": "Inner core",
+          "alternates": ["inner core"],
+          "explanation": "Solid iron-nickel sphere at Earth's center; radius ~1,220 km\nTemperature ~5,000\u20136,000\u00b0C \u2014 as hot as the Sun's surface, but solid due to enormous confining pressure\nRotates slightly faster than the rest of Earth (superrotation), discovered from seismic wave timing differences\nDiscovered in 1936 by Danish seismologist Inge Lehmann from anomalous seismic wave paths",
+          "cardFront": "Layer 1 (center)",
+          "cardBack": "Inner core"
+        },
+        {
+          "id": "outer-core",
+          "answer": "Outer core",
+          "alternates": ["outer core"],
+          "explanation": "Liquid iron-nickel layer surrounding the inner core; depth ~2,900\u20135,150 km below surface\nConvection of this electrically conducting liquid generates Earth's magnetic field (the geodynamo)\nThe only liquid layer; seismic S-waves (shear waves) cannot travel through it, revealing its fluid state\nTemperature ~4,000\u20135,000\u00b0C; the liquid state results from lower pressure than the inner core",
+          "cardFront": "Layer 2",
+          "cardBack": "Outer core"
+        },
+        {
+          "id": "mantle",
+          "answer": "Mantle",
+          "alternates": [],
+          "explanation": "Thickest layer, making up ~84% of Earth's volume; extends from ~30 km to ~2,900 km depth\nComposed mostly of silicate rock (peridotite); solid but flows plastically over millions of years\nConvection currents in the mantle are the engine that drives plate tectonics\nThe asthenosphere (upper mantle, ~100\u2013700 km depth) is especially ductile \u2014 the tectonic plates slide over it\nThe boundary between the crust and mantle is the Mohorovi\u010di\u0107 discontinuity (Moho)",
+          "cardFront": "Layer 3",
+          "cardBack": "Mantle"
+        },
+        {
+          "id": "crust",
+          "answer": "Crust",
+          "alternates": [],
+          "explanation": "Thin outermost layer; oceanic crust is ~5\u201310 km thick, continental crust ~30\u201370 km thick\nContinental crust is mostly granite (less dense); oceanic crust is mostly basalt (denser)\nOceanic crust is younger (mostly under 200 million years old); continental crust can exceed 4 billion years old\nThe boundary between crust and mantle is the Mohorovi\u010di\u0107 discontinuity (Moho), typically ~35 km deep under continents",
+          "cardFront": "Layer 4 (surface)",
+          "cardBack": "Crust"
+        }
+      ]
+    },
+    {
+      "id": "science/earth-science/fundamentals",
+      "nodeId": "science/earth-science",
+      "name": "Earth Science Fundamentals",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "continental-drift",
+          "prompt": "Who proposed the theory of continental drift in 1912, arguing that today's continents were once joined as a single landmass?",
+          "answer": "Alfred Wegener",
+          "alternates": ["Wegener"],
+          "explanation": "German meteorologist and geophysicist Alfred Wegener published *The Origin of Continents and Oceans* in 1912\nProposed that the continents were once united as the supercontinent Pangaea (~300 million years ago) and slowly drifted apart\nEvidence: matching coastlines of South America and Africa; identical fossils (Glossopteris fern, Mesosaurus) on continents now separated by oceans\nRejected by most geologists in his lifetime because he could not explain the mechanism; plate tectonics (1960s) provided it\nDied during a Greenland expedition in 1930, aged 50, before his theory was vindicated",
+          "cardFront": "Continental drift (1912)",
+          "cardBack": "Alfred Wegener"
+        },
+        {
+          "id": "rock-types",
+          "prompt": "What are the three main types of rock, formed respectively by cooling magma, accumulated sediment, and heat or pressure on existing rock?",
+          "answer": "Igneous, sedimentary, metamorphic",
+          "alternates": ["igneous sedimentary and metamorphic", "sedimentary igneous metamorphic", "metamorphic igneous sedimentary"],
+          "explanation": "Igneous: formed from cooled magma or lava; examples include granite (intrusive) and basalt (extrusive)\nSedimentary: formed from compressed layers of sediment; examples include limestone, sandstone, shale; ~75% of the surface rock\nMetamorphic: existing rock transformed by heat and/or pressure; marble (from limestone) and slate (from shale) are common examples\nThe rock cycle: rocks continuously transform between types through melting, cooling, erosion, burial, and heat/pressure\nFossils are found almost exclusively in sedimentary rock \u2014 other types destroy organic material through heat or pressure",
+          "cardFront": "Three rock types",
+          "cardBack": "Igneous, sedimentary, metamorphic"
+        },
+        {
+          "id": "richter-scale",
+          "prompt": "What logarithmic scale, devised in 1935 by a seismologist at Caltech, measures the magnitude of earthquakes?",
+          "answer": "Richter scale",
+          "alternates": ["Richter magnitude scale"],
+          "explanation": "Devised by Charles Richter (with Beno Gutenberg) at the California Institute of Technology in 1935\nLogarithmic: each whole-number increase represents ~31.6 times more energy released (not 10\u00d7, which is a common misconception)\nOriginally designed for California earthquakes measured on a specific seismograph type; limited applicability globally\nLargely superseded by the moment magnitude scale (M\u1d07) for large or distant earthquakes, though 'Richter scale' remains in popular use\nThe 1960 Vald\u00edvia, Chile earthquake (M9.5) is the most powerful ever recorded",
+          "cardFront": "Earthquake magnitude scale (1935)",
+          "cardBack": "Richter scale"
+        },
+        {
+          "id": "ring-of-fire",
+          "prompt": "What horseshoe-shaped belt encircling the Pacific Ocean accounts for about 75% of the world's volcanoes and 90% of its earthquakes?",
+          "answer": "Ring of Fire",
+          "alternates": ["Pacific Ring of Fire"],
+          "explanation": "A 40,000 km arc around the Pacific basin where tectonic plates meet; includes the coasts of North and South America, Japan, the Philippines, Indonesia, and New Zealand\nFormed by subduction zones where oceanic plates dive beneath continental or other oceanic plates, generating volcanic activity and earthquakes\nHome to the world's deepest ocean trench (Mariana Trench, ~11 km) and many of the tallest volcanoes\nThe 2011 T\u014dhoku earthquake and tsunami (Japan) and the 1906 San Francisco earthquake both originated within the Ring of Fire\nIncludes the Cascadia Subduction Zone off the U.S. Pacific Northwest, which poses a major earthquake risk",
+          "cardFront": "Pacific volcanic/earthquake belt",
+          "cardBack": "Ring of Fire"
+        },
+        {
+          "id": "mohorovicic-discontinuity",
+          "prompt": "What seismic boundary, named for a Croatian scientist who discovered it in 1909, marks the transition between Earth's crust and mantle?",
+          "answer": "Mohorovi\u010di\u0107 discontinuity",
+          "alternates": ["Moho", "Mohorovicic discontinuity", "Mohorovi\u010di\u0107 discontinuity"],
+          "explanation": "Discovered by Andrija Mohorovi\u010di\u0107 in 1909 by analyzing seismic wave speeds from a Croatian earthquake\nSeismic waves abruptly speed up at this boundary, revealing that the material below (mantle) is denser than the crust above\nDepth varies: ~5\u201310 km beneath ocean floors, ~30\u201370 km beneath continents (deepest under mountain ranges)\nThe 'Moho' is the target of deep-drilling projects; no borehole has ever penetrated through it \u2014 the Kola Superdeep Borehole (Russia) reached 12 km, within the crust\nThe composition change at the Moho: from granite/basalt (crust) to peridotite (mantle)",
+          "cardFront": "Crust\u2013mantle boundary",
+          "cardBack": "Mohorovi\u010di\u0107 discontinuity"
+        },
+        {
+          "id": "half-life",
+          "prompt": "What term describes the time required for half of the radioactive atoms in a sample to undergo decay \u2014 the basis of radiometric dating?",
+          "answer": "Half-life",
+          "alternates": ["half life"],
+          "explanation": "Each radioactive isotope has a fixed, characteristic half-life: after one half-life, 50% of the original atoms remain; after two, 25%; and so on\nRadiometric dating uses known half-lives to calculate the age of rocks and fossils; carbon-14 (half-life ~5,730 years) dates organic material up to ~50,000 years old\nFor older geological samples, uranium-238 (half-life ~4.47 billion years) or potassium-40 (half-life ~1.25 billion years) are used\nThe concept was developed by Ernest Rutherford and Frederick Soddy in 1902\nHalf-life is unaffected by temperature, pressure, or chemical state \u2014 it is a fundamental nuclear property",
+          "cardFront": "Radioactive decay timescale",
+          "cardBack": "Half-life"
+        },
+        {
+          "id": "pangaea",
+          "prompt": "What name, meaning 'all land' in Greek, is given to the supercontinent that encompassed nearly all of Earth's landmass about 300 million years ago?",
+          "answer": "Pangaea",
+          "alternates": ["Pangea"],
+          "explanation": "Name coined by Alfred Wegener from Greek pan ('all') + gaia ('earth')\nExisted ~335\u2013175 million years ago during the late Paleozoic and early Mesozoic eras\nSurrounded by a single global ocean called Panthalassa; the Tethys Sea formed as Pangaea began to rift\nBroke into Laurasia (northern: North America, Europe, Asia) and Gondwana (southern: South America, Africa, Antarctica, Australia, India)\nWas itself assembled from earlier supercontinents; the supercontinent cycle repeats roughly every 500\u2013600 million years",
+          "cardFront": "Supercontinent (~300 Ma)",
+          "cardBack": "Pangaea"
+        },
+        {
+          "id": "mantle-convection",
+          "prompt": "What process, driven by heat from Earth's core and radioactive decay in the mantle, generates the currents that move tectonic plates?",
+          "answer": "Mantle convection",
+          "alternates": ["convection in the mantle", "convection currents"],
+          "explanation": "Hot mantle material rises near mid-ocean ridges, spreads laterally, cools, and sinks at subduction zones \u2014 forming a convection cell\nThe primary mechanism driving seafloor spreading and the movement of tectonic plates (1\u201315 cm per year, depending on plate)\nHeat sources: residual heat from Earth's formation (~4.5 billion years ago) and ongoing radioactive decay of uranium, thorium, and potassium\nMantle flow is extremely slow \u2014 viscosity is roughly 10\u00b2\u00b9 times that of water; the mantle flows like glass over geological time\nHarry Hess proposed seafloor spreading in 1960, linking mantle convection to plate tectonics",
+          "cardFront": "Driver of plate tectonics",
+          "cardBack": "Mantle convection"
+        },
+        {
+          "id": "absolute-zero",
+          "prompt": "What temperature, equal to \u2212273.15\u00b0C or 0 kelvin, represents the theoretical lower limit at which a system has minimum thermal energy?",
+          "answer": "Absolute zero",
+          "alternates": ["-273.15\u00b0C", "0 K", "0 kelvin", "\u2212273.15\u00b0C"],
+          "explanation": "Defined as 0 K (kelvins) or \u2212273.15\u00b0C; the kelvin scale is defined so that 0 K is absolute zero\nThe Third Law of Thermodynamics states that a system's entropy approaches a minimum as temperature approaches absolute zero, and absolute zero itself is unattainable\nAt absolute zero, particles would occupy their lowest quantum energy state (zero-point energy); quantum mechanics prevents complete stillness\nThe coldest known place in the universe is the Boomerang Nebula at ~1 K; laboratory physics has cooled atoms to within billionths of a kelvin of absolute zero\nLord Kelvin (William Thomson) formalized the concept and the absolute temperature scale in 1848",
+          "cardFront": "0 K / \u2212273.15\u00b0C",
+          "cardBack": "Absolute zero"
+        },
+        {
+          "id": "coriolis-effect",
+          "prompt": "What apparent deflection of moving objects \u2014 caused by Earth's rotation \u2014 turns winds and ocean currents to the right in the Northern Hemisphere and to the left in the Southern?",
+          "answer": "Coriolis effect",
+          "alternates": ["Coriolis force", "Coriolis Effect"],
+          "explanation": "Named for French mathematician Gaspard-Gustave de Coriolis, who described it mathematically in 1835\nAn inertial (fictitious) force that appears in rotating reference frames; Earth's eastward rotation causes the deflection\nDrives the formation of cyclones: counterclockwise in the Northern Hemisphere, clockwise in the Southern\nCreates large-scale atmospheric circulation patterns (trade winds, westerlies) and the major ocean gyres\nThe Coriolis effect on household scales (e.g., which way a drain swirls) is negligible \u2014 far too weak to determine drain rotation, which is dominated by the basin's geometry and residual water motion",
+          "cardFront": "Deflection from Earth's rotation",
+          "cardBack": "Coriolis effect"
+        }
+      ]
+    }
+  ]
+}
