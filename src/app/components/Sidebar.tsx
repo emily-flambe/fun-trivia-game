@@ -5,6 +5,7 @@ import { LL_CATEGORIES } from '../../data/types';
 interface SidebarProps {
 	activePath: string | null;
 	activeType: 'node' | 'exercise' | null;
+	activeMode: string | null;
 	isOpen: boolean;
 	onClose: () => void;
 }
@@ -14,7 +15,7 @@ interface CachedNode {
 	exercises: ExerciseSummary[];
 }
 
-export function Sidebar({ activePath, activeType, isOpen, onClose }: SidebarProps) {
+export function Sidebar({ activePath, activeType, activeMode, isOpen, onClose }: SidebarProps) {
 	const [rootNodes, setRootNodes] = useState<NodeSummary[]>([]);
 	const [expanded, setExpanded] = useState<Set<string>>(new Set());
 	const [loadingSet, setLoadingSet] = useState<Set<string>>(new Set());
@@ -168,7 +169,7 @@ export function Sidebar({ activePath, activeType, isOpen, onClose }: SidebarProp
 							</li>
 						)}
 						{cached?.children.map(child => renderNode(child, depth + 1))}
-						{cached?.exercises.map(ex => renderExercise(ex, depth + 1))}
+						{renderExercises(cached?.exercises ?? [], node.name, depth + 1)}
 						{cached && cached.children.length === 0 && cached.exercises.length === 0 && (
 							<li
 								className="text-xs text-text-tertiary italic py-1"
@@ -183,30 +184,58 @@ export function Sidebar({ activePath, activeType, isOpen, onClose }: SidebarProp
 		);
 	}
 
-	function renderExercise(ex: ExerciseSummary, depth: number) {
-		const active = isExactActive(ex.id, 'exercise');
+	function renderExercises(exercises: ExerciseSummary[], parentName: string, depth: number) {
+		return exercises.flatMap(ex => {
+			const showName = exercises.length > 1 || ex.name !== parentName;
+			const modeDepth = showName ? depth + 1 : depth;
+			const items: React.ReactNode[] = [];
+
+			if (showName) {
+				items.push(
+					<li key={`${ex.id}-label`} className="pt-1">
+						<span
+							className="flex items-center gap-2 py-1 text-[12px] font-medium text-text-tertiary"
+							style={{ paddingLeft: `${depth * 12 + 30}px` }}
+						>
+							{ex.name}
+						</span>
+					</li>
+				);
+			}
+
+			items.push(renderModeLink(ex, 'learn', 'Study', modeDepth));
+			items.push(renderModeLink(ex, 'quiz', 'Quiz', modeDepth));
+			return items;
+		});
+	}
+
+	function renderModeLink(ex: ExerciseSummary, mode: string, label: string, depth: number) {
+		const isActive = activePath === ex.id && activeType === 'exercise' && activeMode === mode;
+		const isStudy = mode === 'learn';
 
 		return (
-			<li key={ex.id} role="treeitem">
+			<li key={`${ex.id}-${mode}`} role="treeitem">
 				<a
-					href={`#/exercise/${ex.id}?mode=learn`}
+					href={`#/exercise/${ex.id}?mode=${mode}`}
 					onClick={onClose}
-					className={`flex items-center gap-2 py-1.5 rounded-lg transition-colors duration-150 text-[13px] pr-2 ${
-						active
+					className={`flex items-center gap-2 py-1 rounded-lg transition-colors duration-150 text-[13px] pr-2 ${
+						isActive
 							? 'bg-action-bg text-action font-medium'
 							: 'text-text-tertiary hover:bg-surface-hover hover:text-text-secondary'
 					}`}
 					style={{ paddingLeft: `${depth * 12 + 30}px` }}
 				>
-					<span className={`w-1 h-1 rounded-full shrink-0 ${
-						active ? 'bg-action' : 'bg-current opacity-30'
-					}`} />
-					<span className="truncate">{ex.name}</span>
-					{(ex.itemCount ?? 0) > 0 && (
-						<span className="text-[10px] opacity-40 tabular-nums ml-auto shrink-0">
-							{ex.itemCount}
-						</span>
+					{isStudy ? (
+						<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
+							<path d="M2 3h5l1 1 1-1h5v10h-5l-1 1-1-1H2V3z" stroke="currentColor" strokeWidth="1.2" />
+							<path d="M8 4v10" stroke="currentColor" strokeWidth="1" />
+						</svg>
+					) : (
+						<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
+							<path d="M11.5 2.5l2 2-8 8H3.5v-2l8-8z" stroke="currentColor" strokeWidth="1.2" />
+						</svg>
 					)}
+					<span>{label}</span>
 				</a>
 			</li>
 		);

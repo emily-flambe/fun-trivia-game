@@ -52,6 +52,7 @@ export function App() {
 	const activeType = route.page === 'node' ? 'node' as const
 		: route.page === 'exercise' ? 'exercise' as const
 		: null;
+	const activeMode = route.page === 'exercise' ? route.mode : null;
 
 	return (
 		<AuthProvider value={auth}>
@@ -110,6 +111,7 @@ export function App() {
 				<Sidebar
 					activePath={activePath}
 					activeType={activeType}
+					activeMode={activeMode}
 					isOpen={sidebarOpen}
 					onClose={() => setSidebarOpen(false)}
 				/>
