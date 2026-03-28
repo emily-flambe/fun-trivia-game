@@ -55,18 +55,18 @@ test.describe('Quiz completion actions', () => {
 		await page.locator('text=/\\d+ \\/ \\d+/').first().waitFor({ timeout: 5000 });
 	}
 
-	test('shows Repeat, Retry Failed, Study, and Home buttons', async ({ page }) => {
+	test('shows Retake, Retake Failed Only, Next, and Home buttons', async ({ page }) => {
 		await completeQuizBySkipping(page);
 
-		await expect(page.getByRole('button', { name: 'Repeat' })).toBeVisible();
-		await expect(page.getByRole('button', { name: 'Retry Failed' })).toBeVisible();
-		await expect(page.getByRole('main').getByRole('link', { name: 'Study' })).toBeVisible();
+		await expect(page.getByRole('button', { name: 'Retake', exact: true })).toBeVisible();
+		await expect(page.getByRole('button', { name: 'Retake Failed Only' })).toBeVisible();
+		await expect(page.getByRole('main').getByRole('link', { name: 'Next' })).toBeVisible();
 		await expect(page.getByRole('main').getByRole('link', { name: 'Home' })).toBeVisible();
 	});
 
-	test('Repeat restarts the quiz', async ({ page }) => {
+	test('Retake restarts the quiz', async ({ page }) => {
 		await completeQuizBySkipping(page);
-		await page.getByRole('button', { name: 'Repeat' }).click();
+		await page.getByRole('button', { name: 'Retake', exact: true }).click();
 
 		// Should be back in quiz mode with input visible
 		await expect(page.locator('input')).toBeVisible({ timeout: 3000 });
@@ -74,9 +74,9 @@ test.describe('Quiz completion actions', () => {
 		await expect(page.locator('text=/1 \\/ 10/')).toBeVisible();
 	});
 
-	test('Retry Failed starts quiz with only missed items', async ({ page }) => {
+	test('Retake Failed Only starts quiz with only missed items', async ({ page }) => {
 		await completeQuizBySkipping(page);
-		await page.getByRole('button', { name: 'Retry Failed' }).click();
+		await page.getByRole('button', { name: 'Retake Failed Only' }).click();
 
 		// Should be back in quiz mode
 		await expect(page.locator('input')).toBeVisible({ timeout: 3000 });
@@ -84,12 +84,13 @@ test.describe('Quiz completion actions', () => {
 		await expect(page.locator('text=/1 \\/ 10/')).toBeVisible();
 	});
 
-	test('Study navigates to learn mode', async ({ page }) => {
+	test('Next navigates to the next exercise in the node', async ({ page }) => {
 		await completeQuizBySkipping(page);
-		await page.getByRole('main').getByRole('link', { name: 'Study' }).click();
+		await page.getByRole('main').getByRole('link', { name: 'Next' }).click();
 		await page.waitForTimeout(500);
 
-		expect(page.url()).toContain('mode=learn');
+		// Should navigate away from element-symbols to another exercise or node
+		expect(page.url()).not.toContain('element-symbols');
 	});
 
 	test('Home navigates to dashboard', async ({ page }) => {
