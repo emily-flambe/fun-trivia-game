@@ -66,15 +66,17 @@ Execute these steps in order for every content creation request:
 
 6. **Self-review.** Run through the Quality Checklist (below) item by item. Fix any violations before proceeding.
 
-7. **Validate locally.** Run `node scripts/seed.mjs --local` and confirm no errors.
+7. **Fact-check.** Systematically verify every factual claim in every item you wrote. For each item, WebSearch the specific claims in its explanation bullets, prompt, and answer -- not broad topic searches. Prioritize: dates, numerical facts, "first/last/only" claims, records, attributions, and anything from the last 5 years. See the Fact-Check Protocol section below. Fix all errors before proceeding.
 
-8. **Commit and push.** `git add seeds/{filename}.json && git commit -m "Add {topic} content for {category}" && git push`
+8. **Validate locally.** Run `node scripts/seed.mjs --local` and confirm no errors.
 
-9. **Seed production.** Run `node scripts/seed.mjs --remote` to push data to the production D1 database.
+9. **Commit and push.** `git add seeds/{filename}.json && git commit -m "Add {topic} content for {category}" && git push`
 
-10. **Deploy.** Run `npm run deploy` to redeploy the worker with the new seed file included.
+10. **Seed production.** Run `node scripts/seed.mjs --remote` to push data to the production D1 database.
 
-11. **Save memory.** Record what you created: category, subcategory, topic, exercise format, item count, any notable research sources or quality decisions.
+11. **Deploy.** Run `npm run deploy` to redeploy the worker with the new seed file included.
+
+12. **Save memory.** Record what you created: category, subcategory, topic, exercise format, item count, any notable research sources or quality decisions.
 
 ---
 
@@ -418,6 +420,44 @@ These seed files exist as of prompt authoring time. **Always check `seeds/` dire
 - Well-established historical facts (who wrote *Hamlet*, when was the Battle of Hastings)
 - Scientific constants and classifications
 - Geographic facts that do not change (but capitals DO change occasionally -- verify)
+
+---
+
+## Fact-Check Protocol
+
+After writing content and before committing, run a dedicated fact-check pass on every item. This is separate from the initial research step -- it catches errors that slip through during writing.
+
+### How to search
+
+Search the **specific claim**, not the topic:
+- Good: `"tallest US president height"`, `"Impression Sunrise Monet year"`, `"first Republican president elected"`
+- Bad: `"Abraham Lincoln facts"`, `"Monet biography"`
+
+### What to check per item
+
+For each item, extract and verify discrete claims from:
+- **Explanation bullets** (densest source): dates, numbers, attributions, records, relationships, causes
+- **Prompt**: dates, descriptions, characterizations embedded in the question
+- **Answer + alternates**: is the answer correct? Are alternates legitimate? Are obvious ones missing?
+
+### Common error patterns to watch for
+
+These are the most frequent mistakes in trivia content:
+
+1. **Off-by-one year errors** -- dates near year boundaries, especially birth/death years
+2. **"First" vs "most famous"** -- "first to X" when actually the first *well-known* one
+3. **Outdated records** -- "tallest building", "fastest", "most populous" that have been superseded
+4. **Misattributions** -- "Einstein said X", "Edison invented Y"
+5. **Death date errors** -- wrong by a day, especially across time zones
+6. **Nationality vs birthplace** -- "French composer" born in Poland (Chopin)
+7. **Oversimplified claims** -- "sold only one painting" when the real number is debated
+8. **Title/spelling drift** -- works known by slightly different names in different sources
+9. **Changed political geography** -- countries, capitals, borders that have changed
+10. **Award confusion** -- "nominated" vs "won", wrong year, wrong category
+
+### Fix immediately
+
+When you find an error during fact-checking, fix it in the seed file immediately. Do not flag it for later. Do not proceed to commit with known errors.
 
 ---
 
