@@ -152,6 +152,7 @@ npx wrangler d1 execute trivia-trainer --remote --file=migrations/XXXX.sql
 
 ## Docs
 
+- `docs/DATA_ARCHITECTURE.md` — **schema, content pipeline, how to find/update content**
 - `docs/CONTENT_GUIDE.md` — **content standards** (read before writing seed files)
 - `docs/DESIGN_PRINCIPLES.md` — UI/UX design principles
 - `docs/PRD.md` — full product requirements and curriculum
