@@ -240,10 +240,10 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 2 | Math Awards & Accolades | 15 | ✅ | |
 | 3 | Famous Theorems & Problems | 12 | ✅ | |
 | 4 | Key Mathematical Constants | 7 | ✅ | |
-| 5 | Geometry Formulas & Shapes | 15 | ❌ | TS has "Geometry Formulas." Area, volume, Pythagorean theorem, etc. |
-| 6 | Number Theory & Famous Numbers | 12 | ❌ | Perfect numbers, primes, Fibonacci, golden ratio applications. |
+| 5 | Geometry Formulas & Shapes | 15 | ✅ | TS has "Geometry Formulas." Area, volume, Pythagorean theorem, etc. |
+| 6 | Number Theory & Famous Numbers | 12 | ✅ | Perfect numbers, primes, Fibonacci, golden ratio applications. |
 
-**Coverage**: 4/6 done. Small category in LL, already well covered.
+**Coverage**: 6/6 done. Complete.
 
 ---
 
@@ -375,14 +375,14 @@ Inspired by TrivialStudies' unique study tools:
 | Language | 1 | 5 | 20% |
 | Lifestyle | 1 | 7 | 14% |
 | Literature | 16 | 16 | 100% |
-| Math | 4 | 6 | 67% |
+| Math | 6 | 6 | 100% |
 | Pop Music | 2 | 10 | 20% |
 | Science | 13 | 20 | 65% |
 | Television | 1 | 10 | 10% |
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **83** | **177** | **47%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -403,4 +403,4 @@ Inspired by TrivialStudies' unique study tools:
 15. **World History** — 5/10 (50%). Needs monarchs/exploration.
 16. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.
 17. **Science** — 13/20 (65%). Well covered, needs fun trivia.
-18. **Math** — 4/6 (67%). Niche LL category, already solid.
+18. **Math** — 6/6 (100%). Complete.

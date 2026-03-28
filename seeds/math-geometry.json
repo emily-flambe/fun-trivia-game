@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "math/geometry", "parentId": "math", "name": "Geometry", "description": "Geometric formulas, shapes, and spatial concepts" }
+  ],
+  "exercises": [
+    {
+      "id": "math/geometry/formulas-and-shapes",
+      "nodeId": "math/geometry",
+      "name": "Geometry Formulas & Shapes",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "area-of-circle",
+          "prompt": "What measurement of a circle does the formula \u03c0r\u00b2 give?",
+          "answer": "Area of a circle",
+          "alternates": ["area of circle"],
+          "explanation": "Archimedes proved it c. 250 BCE using the method of exhaustion\nDerives from integral calculus (\u222b\u2080\u02b3 2\u03c0r dr)\nDoubling the radius quadruples the area\nBasis for computing areas of ellipses (\u03c0ab)\nAppears on virtually every standardized math test",
+          "cardFront": "\u03c0r\u00b2",
+          "cardBack": "Area of a circle"
+        },
+        {
+          "id": "volume-of-sphere",
+          "prompt": "What measurement does the formula 4/3 \u03c0r\u00b3 give?",
+          "answer": "Volume of a sphere",
+          "alternates": ["volume of sphere", "volume of a ball"],
+          "explanation": "Archimedes discovered it and considered it his greatest achievement\nSphere volume = 2/3 of the circumscribed cylinder\nHis tombstone reportedly bore a sphere inscribed in a cylinder\nCavalieri's principle provides an elegant proof\nRelated to integration: rotating a semicircle around its diameter",
+          "cardFront": "4/3 \u03c0r\u00b3",
+          "cardBack": "Volume of a sphere"
+        },
+        {
+          "id": "circumference",
+          "prompt": "What is the name for the perimeter of a circle, given by 2\u03c0r or \u03c0d?",
+          "answer": "Circumference",
+          "alternates": ["circumference of a circle"],
+          "explanation": "From Latin circumferre (\"to carry around\")\nRatio of circumference to diameter defines \u03c0\nEratosthenes used Earth's circumference shadow measurements c. 240 BCE, getting remarkably close to the true value\nThe wheel's odometer principle measures distance by counting circumference rotations\nAny circle's circumference divided by its diameter yields the same constant (\u03c0)",
+          "cardFront": "C = 2\u03c0r = \u03c0d",
+          "cardBack": "Circumference"
+        },
+        {
+          "id": "surface-area-of-sphere",
+          "prompt": "What measurement does the formula 4\u03c0r\u00b2 give?",
+          "answer": "Surface area of a sphere",
+          "alternates": ["surface area of sphere"],
+          "explanation": "Exactly four times the area of a great circle (\u03c0r\u00b2)\nArchimedes proved this too\nUseful for calculating planetary surfaces and balloon expansion\nDoubling the radius quadruples the surface area (same scaling as a circle's area)\nKey formula in physics for radiation, gravity, and electrostatic flux",
+          "cardFront": "4\u03c0r\u00b2",
+          "cardBack": "Surface area of a sphere"
+        },
+        {
+          "id": "platonic-solids",
+          "prompt": "What is the collective name for the five regular convex polyhedra: tetrahedron, cube, octahedron, dodecahedron, and icosahedron?",
+          "answer": "The Platonic solids",
+          "alternates": ["Platonic solids", "regular polyhedra", "regular convex polyhedra"],
+          "explanation": "Tetrahedron (4 triangles), cube (6 squares), octahedron (8 triangles), dodecahedron (12 pentagons), icosahedron (20 triangles)\nNamed after Plato, who associated each with a classical element in *Timaeus* (c. 360 BCE): fire, earth, air, universe, water\nEuclid proved in the *Elements* that exactly five exist\nKepler tried to fit planetary orbits between nested Platonic solids in *Mysterium Cosmographicum* (1596)\nThe proof that only five exist relies on the constraint that face angles meeting at a vertex must sum to less than 360\u00b0",
+          "cardFront": "5 regular convex polyhedra",
+          "cardBack": "The Platonic solids"
+        },
+        {
+          "id": "euler-polyhedron-formula",
+          "prompt": "What formula states that for any convex polyhedron, V \u2212 E + F = 2 (vertices minus edges plus faces equals 2)?",
+          "answer": "Euler's polyhedron formula",
+          "alternates": ["Euler's formula for polyhedra", "Euler characteristic", "Euler formula"],
+          "explanation": "For any convex polyhedron: vertices minus edges plus faces equals 2\nPublished by Euler in 1758\nA cube: 8 \u2212 12 + 6 = 2; a tetrahedron: 4 \u2212 6 + 4 = 2\nFoundation of topology \u2014 generalized to the Euler characteristic \u03c7 for any surface; for a torus, \u03c7 = 0 instead of 2\nDescartes discovered a related result c. 1630 but never published it",
+          "cardFront": "V \u2212 E + F = 2",
+          "cardBack": "Euler's polyhedron formula"
+        },
+        {
+          "id": "parabola",
+          "prompt": "What conic section, described by y = ax\u00b2 + bx + c, is formed by slicing a cone parallel to its slant and has a single focus and directrix?",
+          "answer": "Parabola",
+          "alternates": ["parabolic curve"],
+          "explanation": "Conic section produced when a plane intersects a cone parallel to its side\nEvery point is equidistant from a fixed point (focus) and a fixed line (directrix)\nProjectile trajectories follow parabolic paths (ignoring air resistance) \u2014 Galileo proved this in 1638\nParabolic mirrors focus parallel light rays to a single point (used in satellite dishes, headlights, telescopes)\nNamed by Apollonius of Perga (c. 200 BCE)\nThe reflective property makes parabolic antennas the standard shape for radio telescopes",
+          "cardFront": "y = ax\u00b2 + bx + c",
+          "cardBack": "Parabola"
+        },
+        {
+          "id": "ellipse",
+          "prompt": "What conic section has two foci, where the sum of distances from any point on the curve to both foci is constant?",
+          "answer": "Ellipse",
+          "alternates": ["elliptical curve"],
+          "explanation": "A circle is a special case where both foci coincide\nKepler's first law (1609): planetary orbits are ellipses with the Sun at one focus\nEccentricity (0 to 1) measures how elongated: 0 = circle, close to 1 = very elongated\nEarth's orbit has eccentricity ~0.017 (nearly circular)\nThe \"whispering gallery\" effect in elliptical rooms works because sound from one focus reflects to the other\nApollonius of Perga named it (meaning \"deficiency\" in Greek)",
+          "cardFront": "Two foci, constant distance sum",
+          "cardBack": "Ellipse"
+        },
+        {
+          "id": "hyperbola",
+          "prompt": "What conic section has two branches, where the difference of distances from any point to the two foci is constant?",
+          "answer": "Hyperbola",
+          "alternates": ["hyperbolic curve"],
+          "explanation": "Formed when a plane intersects both halves of a double cone\nHas two asymptotes that the curve approaches but never touches\nThe function y = 1/x is a rectangular hyperbola\nUsed in LORAN navigation: ships determined position from the time difference of radio signals from two stations\nCooling tower shapes are hyperbolic \u2014 the geometry provides structural strength\nNamed by Apollonius of Perga (meaning \"excess\" in Greek)",
+          "cardFront": "Two branches, constant distance difference",
+          "cardBack": "Hyperbola"
+        },
+        {
+          "id": "mobius-strip",
+          "prompt": "What surface has only one side and one edge, created by giving a strip of paper a half-twist and joining the ends?",
+          "answer": "M\u00f6bius strip",
+          "alternates": ["Mobius strip", "Mobius band", "M\u00f6bius band"],
+          "explanation": "Discovered independently by August Ferdinand M\u00f6bius and Johann Benedict Listing in 1858\nDrawing a line down the center returns to the starting point after traversing both \"sides\" \u2014 proving it has only one surface\nCutting one down the middle produces not two M\u00f6bius strips but one longer twisted loop\nThe recycling symbol (\u267b) is a M\u00f6bius strip\nUsed in conveyor belts (even wear on both \"sides\") and continuous-loop recording tapes\nThe simplest non-orientable surface in topology",
+          "cardFront": "Half-twist, one side",
+          "cardBack": "M\u00f6bius strip"
+        },
+        {
+          "id": "tessellation",
+          "prompt": "What is the name for a pattern of shapes that covers a plane with no gaps or overlaps?",
+          "answer": "Tessellation",
+          "alternates": ["tiling", "tessellations"],
+          "explanation": "From Latin tessella (small square tile)\nOnly three regular polygons tessellate alone: equilateral triangles, squares, and regular hexagons\nM.C. Escher made tessellations famous through his art \u2014 interlocking birds, fish, and lizards\nIslamic geometric art extensively uses tessellation patterns since representational art is restricted\nIn 2023, a hobbyist discovered the first \"einstein\" tile (a single shape that tiles aperiodically) \u2014 the \"hat\" shape\nPenrose tilings (1974) use two shapes to tile aperiodically, related to quasicrystals",
+          "cardFront": "Plane tiling, no gaps",
+          "cardBack": "Tessellation"
+        },
+        {
+          "id": "fractal",
+          "prompt": "What type of geometric pattern is self-similar at every scale, meaning the whole has the same structure as its parts?",
+          "answer": "Fractal",
+          "alternates": ["fractals"],
+          "explanation": "Term coined by Beno\u00eet Mandelbrot in 1975 from the Latin fractus (\"broken\")\nThe Mandelbrot set is the most famous example \u2014 infinitely complex at every magnification\nCan have non-integer dimensions: the Koch snowflake has dimension ~1.26\nFound throughout nature: coastlines, fern leaves, blood vessels, Romanesco broccoli\nMandelbrot's \"How Long Is the Coast of Britain?\" (1967) showed coastline length depends on measurement scale\nUsed in computer graphics to generate realistic landscapes, clouds, and textures",
+          "cardFront": "Self-similar at every scale",
+          "cardBack": "Fractal"
+        },
+        {
+          "id": "klein-bottle",
+          "prompt": "What non-orientable surface has no boundary and cannot be embedded in three-dimensional space without self-intersection?",
+          "answer": "Klein bottle",
+          "alternates": ["Klein's bottle"],
+          "explanation": "Named after Felix Klein, who described it in 1882\nLike a M\u00f6bius strip but closed \u2014 no boundary and no distinction between inside and outside\nCannot exist in 3D without passing through itself; needs 4 dimensions to exist without self-intersection\nCan be constructed by gluing two M\u00f6bius strips together along their edges\nThe name may be a mistranslation from German Kleinsche Fl\u00e4che (\"Klein surface\") to Klein bottle\nPhysical glass models are sold as mathematical curiosities and desk ornaments",
+          "cardFront": "No inside or outside, 4D surface",
+          "cardBack": "Klein bottle"
+        },
+        {
+          "id": "golden-rectangle",
+          "prompt": "What rectangle has sides in the ratio 1:\u03c6 (\u22481:1.618) and can be subdivided into a square and a smaller similar rectangle infinitely?",
+          "answer": "Golden rectangle",
+          "alternates": ["golden rectangle"],
+          "explanation": "Side ratio equals the golden ratio \u03c6 \u2248 1.618\nRemove a square from one end and the remaining rectangle is another golden rectangle \u2014 this process repeats infinitely\nConnecting the corners of successive squares creates a golden spiral (approximating a logarithmic spiral)\nClaimed to appear in the Parthenon's facade, though measurements are debated\nThe Fibonacci spiral approximates the golden spiral as Fibonacci numbers increase\nSalvador Dal\u00ed used golden rectangles explicitly in *The Sacrament of the Last Supper* (1955)",
+          "cardFront": "Sides in ratio 1 : 1.618...",
+          "cardBack": "Golden rectangle"
+        },
+        {
+          "id": "non-euclidean-geometry",
+          "prompt": "What family of geometries rejects Euclid's parallel postulate, allowing parallel lines to converge or diverge?",
+          "answer": "Non-Euclidean geometry",
+          "alternates": ["non-Euclidean geometry", "non Euclidean geometry"],
+          "explanation": "Euclidean geometry assumes exactly one line through a point parallel to a given line \u2014 non-Euclidean geometries relax this\nHyperbolic geometry (Lobachevsky, Bolyai, 1830s): infinitely many parallel lines; triangle angles sum to less than 180\u00b0\nSpherical/elliptic geometry (Riemann, 1854): no parallel lines exist; triangle angles sum to more than 180\u00b0\nEinstein's general relativity (1915) models gravity as curved spacetime \u2014 non-Euclidean geometry describes reality at cosmic scales\nGauss reportedly measured angles of a large triangle between mountain peaks to test for curvature (results inconclusive)\nFor 2,000 years, mathematicians tried to prove the parallel postulate from Euclid's other axioms; its independence was the breakthrough",
+          "cardFront": "Parallel postulate rejected",
+          "cardBack": "Non-Euclidean geometry"
+        }
+      ]
+    }
+  ]
+}

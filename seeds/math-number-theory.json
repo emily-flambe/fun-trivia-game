@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "math/number-theory", "parentId": "math", "name": "Number Theory", "description": "Properties of integers, prime numbers, and famous number sequences" }
+  ],
+  "exercises": [
+    {
+      "id": "math/number-theory/famous-numbers",
+      "nodeId": "math/number-theory",
+      "name": "Number Theory & Famous Numbers",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "perfect-numbers",
+          "prompt": "What are numbers called that are equal to the sum of their proper divisors, such as 6, 28, 496, and 8128?",
+          "answer": "Perfect numbers",
+          "alternates": ["perfect number"],
+          "explanation": "6 = 1+2+3, 28 = 1+2+4+7+14, 496, 8128 are the first four\nKnown to the ancient Greeks \u2014 Euclid proved that 2^(p\u22121)(2^p \u2212 1) generates even perfect numbers when 2^p \u2212 1 is prime\nOnly 52 perfect numbers are known (as of 2024); all are even \u2014 whether odd perfect numbers exist is one of the oldest unsolved problems\nNicomachus (c. 100 CE) classified numbers as deficient, perfect, or abundant\nSt. Augustine wrote that God created the world in 6 days because 6 is a perfect number\nEach known perfect number ends in 6 or 8",
+          "cardFront": "6, 28, 496, 8128...",
+          "cardBack": "Perfect numbers"
+        },
+        {
+          "id": "mersenne-primes",
+          "prompt": "What are primes of the form 2^p \u2212 1 called, named after a 17th-century French Minim friar?",
+          "answer": "Mersenne primes",
+          "alternates": ["Mersenne prime", "Mersenne numbers"],
+          "explanation": "Named after Marin Mersenne (1588\u20131648), a Minim friar who studied which values of p yield primes\nFirst few: 3 (p=2), 7 (p=3), 31 (p=5), 127 (p=7)\nAll known even perfect numbers correspond to a Mersenne prime via Euclid's formula\nThe Great Internet Mersenne Prime Search (GIMPS), founded 1996, uses volunteer computers to find new ones\nThe largest known prime is almost always a Mersenne prime \u2014 as of 2024 the record is 2^136,279,841 \u2212 1 (over 41 million digits)\nOnly 52 Mersenne primes are known; whether infinitely many exist is unsolved",
+          "cardFront": "2^p \u2212 1 (when prime)",
+          "cardBack": "Mersenne primes"
+        },
+        {
+          "id": "twin-primes",
+          "prompt": "What are pairs of primes called that differ by exactly 2, such as (3, 5), (5, 7), (11, 13), and (17, 19)?",
+          "answer": "Twin primes",
+          "alternates": ["twin prime", "prime twins", "twin prime pairs"],
+          "explanation": "The twin prime conjecture states there are infinitely many such pairs \u2014 unproven since first proposed\nThe pair (5, 7) is the only case where twin primes overlap (sharing the prime 5 with (3, 5))\nIn 2013, Yitang Zhang proved there are infinitely many prime pairs with gap less than 70 million \u2014 a breakthrough from obscurity\nThe Polymath project then reduced Zhang's bound; James Maynard brought it to 600\nAs of 2024, the bound is 246, but reducing it to 2 (proving the twin prime conjecture) remains open\nLargest known twin primes have over 388,000 digits",
+          "cardFront": "(3,5), (5,7), (11,13), (17,19)...",
+          "cardBack": "Twin primes"
+        },
+        {
+          "id": "amicable-numbers",
+          "prompt": "What are pairs of numbers called where each equals the sum of the other's proper divisors, such as 220 and 284?",
+          "answer": "Amicable numbers",
+          "alternates": ["amicable number", "amicable pairs"],
+          "explanation": "220's proper divisors sum to 284; 284's proper divisors sum to 220\nKnown to the Pythagoreans, who considered them symbols of friendship\nThabit ibn Qurra (9th century) discovered a formula generating amicable pairs \u2014 the first new pair since antiquity\nEuler found over 60 pairs in the 18th century\nThe second-smallest pair (1184, 1210) was missed until 1866 when a 16-year-old Italian student found it\nOver 1.2 billion pairs are now known, but whether infinitely many exist is unproven\nArab mathematicians used them in talismans and love potions",
+          "cardFront": "220 \u2194 284",
+          "cardBack": "Amicable numbers"
+        },
+        {
+          "id": "sieve-of-eratosthenes",
+          "prompt": "What ancient algorithm finds all prime numbers up to a given limit by iteratively marking the multiples of each prime as composite?",
+          "answer": "The Sieve of Eratosthenes",
+          "alternates": ["Sieve of Eratosthenes", "Eratosthenes sieve"],
+          "explanation": "Created by Eratosthenes of Cyrene (c. 276\u2013194 BCE) \u2014 the same scholar who calculated Earth's circumference\nStart with 2; cross out all multiples of 2, then 3, then 5, etc. \u2014 the surviving numbers are prime\nOnly need to check up to \u221an \u2014 for primes up to 100, sieving through 2, 3, 5, 7 suffices\nStill used as a benchmark in computer science; modern variants (Sieve of Atkin, segmented sieves) are faster\nThe simplest correct algorithm for generating a list of primes\nRemains one of the most famous algorithms from antiquity alongside Euclid's algorithm for GCD",
+          "cardFront": "Cross out multiples to find primes",
+          "cardBack": "Sieve of Eratosthenes"
+        },
+        {
+          "id": "grahams-number",
+          "prompt": "What number, arising from a Ramsey theory problem about hypercube colorings, was once the largest ever used in a mathematical proof?",
+          "answer": "Graham's number",
+          "alternates": ["Graham number"],
+          "explanation": "Arose from a problem by Ronald Graham and Bruce Rothschild (1971) in Ramsey theory about coloring edges of hypercubes\nSo large that ordinary notation (exponents, towers of exponents) cannot express it \u2014 requires Knuth's up-arrow notation\nEven the number of digits is itself incomprehensibly large\nThe observable universe couldn't contain a decimal representation \u2014 there aren't enough particles\nHeld the Guinness World Record for the largest number ever used in a mathematical proof (since surpassed)\nIts last 500 digits are known (ends in ...2464195387) even though the full number is unknowable",
+          "cardFront": "Largest number in a proof (1971)",
+          "cardBack": "Graham's number"
+        },
+        {
+          "id": "taxicab-1729",
+          "prompt": "What number is the smallest expressible as the sum of two cubes in two different ways (1\u00b3+12\u00b3 and 9\u00b3+10\u00b3), famously identified by Ramanujan from a taxi cab number?",
+          "answer": "1729",
+          "alternates": ["Hardy-Ramanujan number", "taxicab number", "the Hardy-Ramanujan number"],
+          "explanation": "1\u00b3 + 12\u00b3 = 1 + 1728 = 1729, and 9\u00b3 + 10\u00b3 = 729 + 1000 = 1729\nG.H. Hardy visited Ramanujan in hospital and remarked his taxi number, 1729, was \"rather dull\"\nRamanujan instantly replied it was the smallest number expressible as the sum of two cubes in two different ways\nNow called \"taxicab numbers\" \u2014 the nth taxicab number is the smallest expressible as the sum of two positive cubes in n ways\nSrinivasa Ramanujan was self-taught from India; Hardy called their collaboration \"the one romantic incident in my life\"\nRamanujan died in 1920 at age 32, leaving notebooks that mathematicians are still mining for results",
+          "cardFront": "1\u00b3+12\u00b3 = 9\u00b3+10\u00b3",
+          "cardBack": "1729"
+        },
+        {
+          "id": "transcendental-numbers",
+          "prompt": "What class of numbers, including \u03c0 and e, are not roots of any polynomial equation with integer coefficients?",
+          "answer": "Transcendental numbers",
+          "alternates": ["transcendental number"],
+          "explanation": "Defined as numbers that are not algebraic \u2014 they satisfy no polynomial equation with integer coefficients\n\u03c0 was proved transcendental by Ferdinand von Lindemann in 1882, settling the ancient problem of \"squaring the circle\" as impossible\ne was proved transcendental by Charles Hermite in 1873\nAlmost all real numbers are transcendental \u2014 algebraic numbers are countable, but transcendentals are uncountable\nDespite being \"almost all\" numbers, proving a specific number is transcendental is extremely difficult\nWhether \u03c0 + e or \u03c0e is transcendental remains unknown",
+          "cardFront": "Not a root of any integer polynomial",
+          "cardBack": "Transcendental numbers"
+        },
+        {
+          "id": "prime-number-theorem",
+          "prompt": "What theorem describes how prime numbers thin out among larger integers, approximating their count up to n as n/ln(n)?",
+          "answer": "The prime number theorem",
+          "alternates": ["prime number theorem", "PNT"],
+          "explanation": "The number of primes up to n is approximately n/ln(n) \u2014 primes thin out but never stop\nConjectured by Gauss (age 15!) and Legendre in the 1790s based on prime tables\nProved independently by Jacques Hadamard and Charles-Jean de la Vall\u00e9e Poussin in 1896\nThe proof used complex analysis \u2014 surprising since primes are integers and the proof involves imaginary numbers\nA sharper estimate uses the logarithmic integral Li(n) instead of n/ln(n)\nErd\u0151s and Selberg found an \"elementary\" proof in 1949 (no complex analysis), leading to a famous priority dispute",
+          "cardFront": "\u03c0(n) \u2248 n/ln(n)",
+          "cardBack": "The prime number theorem"
+        },
+        {
+          "id": "kaprekars-constant",
+          "prompt": "What four-digit number is the fixed point reached when you repeatedly sort a number's digits in descending and ascending order and subtract?",
+          "answer": "Kaprekar's constant",
+          "alternates": ["Kaprekar constant", "6174"],
+          "explanation": "Take any four-digit number (not all digits the same): arrange digits descending, subtract ascending, repeat \u2014 always reaches 6174 in at most 7 steps\nExample: 3524 \u2192 5432\u22122345 = 3087 \u2192 8730\u22120378 = 8352 \u2192 8532\u22122358 = 6174\nDiscovered by Indian mathematician D.R. Kaprekar in 1949\n6174 is a fixed point: 7641\u22121467 = 6174\nFor three-digit numbers, the analogous constant is 495\nKaprekar was a schoolteacher who worked in recreational mathematics \u2014 initially dismissed by professionals",
+          "cardFront": "6174",
+          "cardBack": "Kaprekar's constant"
+        },
+        {
+          "id": "irrational-numbers-sqrt2",
+          "prompt": "What fundamental discovery, attributed to the Pythagoreans around 500 BCE, showed that the square root of 2 cannot be expressed as a fraction?",
+          "answer": "The irrationality of \u221a2",
+          "alternates": ["irrationality of the square root of 2", "sqrt 2 is irrational", "irrational numbers", "irrationality of \u221a2"],
+          "explanation": "The diagonal of a unit square has length \u221a2, which cannot be written as a ratio of integers\nLegend says Hippasus of Metapontum discovered this c. 500 BCE and was drowned by fellow Pythagoreans for revealing it\nThe proof by contradiction (assume \u221a2 = p/q in lowest terms, derive both must be even \u2014 contradiction) is one of the most elegant in mathematics\nShattered the Pythagorean belief that all quantities are ratios of whole numbers\nLed to the concept of irrational numbers \u2014 now known to include \u221a3, \u221a5, and all non-perfect-square roots\nThe crisis it caused is sometimes called the \"first foundational crisis\" in mathematics",
+          "cardFront": "\u221a2 \u2260 p/q",
+          "cardBack": "Irrationality of \u221a2"
+        },
+        {
+          "id": "collatz-conjecture",
+          "prompt": "What unsolved conjecture states that repeatedly applying \"if even divide by 2, if odd multiply by 3 and add 1\" to any positive integer always eventually reaches 1?",
+          "answer": "The Collatz conjecture",
+          "alternates": ["Collatz conjecture", "3n+1 problem", "3n + 1 problem", "Collatz problem"],
+          "explanation": "Also called the 3n+1 problem, the Syracuse problem, and Ulam's conjecture\nExample: 7\u219222\u219211\u219234\u219217\u219252\u219226\u219213\u219240\u219220\u219210\u21925\u219216\u21928\u21924\u21922\u21921\nPosed by Lothar Collatz in 1937; remains unsolved despite its simplicity\nPaul Erd\u0151s said \"Mathematics is not yet ready for such problems\"\nVerified by computer for all starting values up to at least 2.36 \u00d7 10\u00b2\u00b9\nTerence Tao proved in 2019 that \"almost all\" Collatz sequences reach values close to 1, the strongest result so far\nThe sequence for 27 takes 111 steps and reaches a peak of 9232 before descending to 1",
+          "cardFront": "n \u2192 n/2 or 3n+1, always reaches 1?",
+          "cardBack": "The Collatz conjecture"
+        }
+      ]
+    }
+  ]
+}
