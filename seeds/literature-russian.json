@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "literature/russian-literature", "parentId": "literature", "name": "Russian Literature", "description": "Major works of Russian literature and their authors" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/russian-literature/works-and-authors",
+      "nodeId": "literature/russian-literature",
+      "name": "Russian Literature — Works & Authors",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "crime-and-punishment",
+          "prompt": "Who wrote *Crime and Punishment* (1866), following the student Raskolnikov who murders a pawnbroker to test his theory of the 'extraordinary man'?",
+          "answer": "Fyodor Dostoevsky",
+          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+          "explanation": "Published serially in *Russky Vestnik*, 1866; written under crushing debt, sometimes dictated to a stenographer\nRaskolnikov's name derives from the Russian word for 'schism' — his split conscience is the novel's engine\nDostoevsky was sentenced to death by firing squad in 1849 for political activities; reprieved at the last moment and sent to Siberian labor camp\nAlso wrote *The Brothers Karamazov* (1880), *The Idiot* (1869), and *Notes from Underground* (1864)\nHis epilepsy and gambling addiction informed much of his fiction's psychological intensity",
+          "cardFront": "*Crime and Punishment*",
+          "cardBack": "Fyodor Dostoevsky"
+        },
+        {
+          "id": "war-and-peace",
+          "prompt": "Who wrote *War and Peace* (1869), the epic novel of five aristocratic families set against Napoleon's 1812 invasion of Russia?",
+          "answer": "Leo Tolstoy",
+          "alternates": ["Tolstoy", "Lev Tolstoy", "Lev Nikolayevich Tolstoy"],
+          "explanation": "Published serially 1865–1869; over 580,000 words with 580+ named characters\nTolstoy considered it an 'epic poem,' not a novel; he also wrote *Anna Karenina* (1878) and *The Death of Ivan Ilyich* (1886)\nA Russian count who renounced his wealth and title late in life, embracing ascetic Christian anarchism\nInfluenced Gandhi and Martin Luther King Jr. with his philosophy of nonviolent resistance\nDied in 1910 at a remote train station, having fled his estate at age 82 after a domestic crisis",
+          "cardFront": "*War and Peace*",
+          "cardBack": "Leo Tolstoy"
+        },
+        {
+          "id": "anna-karenina",
+          "prompt": "Who wrote *Anna Karenina* (1878), the novel of a Russian aristocrat who abandons her husband for Count Vronsky, opening with 'All happy families are alike'?",
+          "answer": "Leo Tolstoy",
+          "alternates": ["Tolstoy", "Lev Tolstoy"],
+          "explanation": "Published serially 1875–1878; Tolstoy considered it his first true novel (unlike *War and Peace*)\nOpening line is one of the most quoted in world literature — the 'Anna Karenina principle' used in evolutionary biology\nAnna's death under a train is foreshadowed from the novel's opening scene at a railway station\nParallel plot follows Konstantin Levin, widely read as Tolstoy's autobiographical stand-in, seeking spiritual meaning\nTolstoy later renounced his masterpieces, calling fiction a moral waste compared to religious writing",
+          "cardFront": "*Anna Karenina*",
+          "cardBack": "Leo Tolstoy"
+        },
+        {
+          "id": "the-brothers-karamazov",
+          "prompt": "Who wrote *The Brothers Karamazov* (1880), exploring faith, doubt, and parricide through Dmitri, Ivan, and Alyosha Karamazov?",
+          "answer": "Fyodor Dostoevsky",
+          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+          "explanation": "Published 1880; Dostoevsky's final novel — he died in January 1881, months after completing it\nIvan's 'Grand Inquisitor' chapter is among the most influential philosophical passages in all fiction — a debate about free will, religion, and suffering\nFreud wrote 'Dostoevsky and Parricide' (1928) using the novel as a psychoanalytic case study\nAddresses theodicy: Ivan challenges God's existence with the suffering of innocent children\nDostoevsky himself was a devout Christian who had faced a mock execution — his faith was hard-won",
+          "cardFront": "*The Brothers Karamazov*",
+          "cardBack": "Fyodor Dostoevsky"
+        },
+        {
+          "id": "dead-souls",
+          "prompt": "Who wrote *Dead Souls* (1842), in which the schemer Chichikov travels rural Russia buying 'dead souls' — deceased serfs still on census rolls — as an insurance fraud?",
+          "answer": "Nikolai Gogol",
+          "alternates": ["Gogol", "Nikolay Gogol"],
+          "explanation": "Published 1842; Gogol originally planned it as a three-part work modeled on Dante's *Divine Comedy* — only Part 1 was completed\nChichikov's scheme exploits the gap between census records (updated every few years) and actual deaths\nSatirizes Russian provincial life, bureaucracy, and serfdom with grotesque comedy\nGogol burned the manuscript of Part 2 shortly before his death in 1852, in a religious crisis\nAlso wrote the short story 'The Overcoat' (1842), whose influence Dostoevsky acknowledged: 'We all came out from under Gogol's overcoat'",
+          "cardFront": "*Dead Souls*",
+          "cardBack": "Nikolai Gogol"
+        },
+        {
+          "id": "the-cherry-orchard",
+          "prompt": "Who wrote *The Cherry Orchard* (1904), the play in which an aristocratic family loses their estate — and its beloved cherry orchard — to a self-made merchant?",
+          "answer": "Anton Chekhov",
+          "alternates": ["Chekhov", "Anton Pavlovich Chekhov"],
+          "explanation": "Premiered at the Moscow Art Theatre on January 17, 1904 — Chekhov's 44th birthday; he died six months later\nChekhov considered it a comedy; director Stanislavski staged it as a tragedy — a dispute that has continued ever since\nThe orchard represents the passing of the old Russian aristocratic order, replaced by the newly rich bourgeoisie\nChekhov revolutionized drama: no villain, no hero, no climax — just the texture of lives lived under pressure\nAlso wrote *The Seagull* (1895), *Uncle Vanya* (1897), and *Three Sisters* (1901)",
+          "cardFront": "*The Cherry Orchard*",
+          "cardBack": "Anton Chekhov"
+        },
+        {
+          "id": "notes-from-underground",
+          "prompt": "Who wrote *Notes from Underground* (1864), the novella narrated by a bitter, self-contradicting 'underground man' who rails against rationalism and determinism?",
+          "answer": "Fyodor Dostoevsky",
+          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+          "explanation": "Published 1864; widely considered the first existentialist novel and a precursor to modern psychology\nThe Underground Man is the first anti-hero in Russian fiction — petty, contradictory, and searingly self-aware\nA direct attack on Nikolai Chernyshevsky's rational utopia *What Is to Be Done?* (1863)\nPart I is the philosophical rant; Part II is a humiliating encounter with Liza, a prostitute, that collapses his posturing\nInfluenced Nietzsche, Sartre, Kafka, and virtually all 20th-century existentialist writers",
+          "cardFront": "*Notes from Underground*",
+          "cardBack": "Fyodor Dostoevsky"
+        },
+        {
+          "id": "the-master-and-margarita",
+          "prompt": "Who wrote *The Master and Margarita*, the satirical novel in which the Devil visits Soviet Moscow, written in the 1930s but not published until 1966–1967?",
+          "answer": "Mikhail Bulgakov",
+          "alternates": ["Bulgakov", "Mikhail Afanasyevich Bulgakov"],
+          "explanation": "Written 1930s; Bulgakov died in 1940 without seeing it published; his wife preserved the manuscript\nPublished in censored form in the journal *Moskva* in 1966–1967; full text not published in the USSR until 1973\nWoland (the Devil) and his retinue expose Soviet bureaucratic corruption through supernatural mayhem\nParallel plot follows Pontius Pilate and Yeshua Ha-Nozri in Jerusalem — a novel within the novel\nThe Rolling Stones song 'Sympathy for the Devil' (1968) was inspired by the novel; Jagger read it in 1968",
+          "cardFront": "*The Master and Margarita*",
+          "cardBack": "Mikhail Bulgakov"
+        },
+        {
+          "id": "the-idiot",
+          "prompt": "Who wrote *The Idiot* (1869), in which the epileptic, saintly Prince Myshkin returns to Russia and is destroyed by the society he tries to help?",
+          "answer": "Fyodor Dostoevsky",
+          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+          "explanation": "Published serially 1868–1869; Dostoevsky set out to portray a 'perfectly beautiful man' — and showed how goodness fares in the real world\nPrince Myshkin is an epileptic who has lived in a Swiss sanatorium; like Dostoevsky himself, who was epileptic\nNastasya Filipovna — one of Russian literature's most complex female characters — is torn between Myshkin and the passionate Rogozhin\nThe novel ends in catastrophe: Nastasya is murdered, Myshkin relapses into idiocy, Rogozhin is imprisoned\nThe title's irony: the 'idiot' is the only moral, honest person in the novel",
+          "cardFront": "*The Idiot*",
+          "cardBack": "Fyodor Dostoevsky"
+        },
+        {
+          "id": "a-hero-of-our-time",
+          "prompt": "Who wrote *A Hero of Our Time* (1840), Russia's first major prose novel, following the cynical, self-destructive officer Pechorin through five linked stories?",
+          "answer": "Mikhail Lermontov",
+          "alternates": ["Lermontov", "Mikhail Yuryevich Lermontov"],
+          "explanation": "Published 1840; Russia's first psychological novel and a foundational work of Russian prose\nPechorin is the archetypal 'superfluous man' — brilliant, bored, destructive, unable to find purpose\nThe five novellas are told out of chronological order — a deliberate narrative technique to defamiliarize the hero\nLermontov was killed in a duel in 1841 at age 26 — the same fate as his great predecessor Pushkin (1837)\nThe preface explicitly challenges readers who identify Pechorin as autobiographical: 'the hero of our time is... a portrait composed of all our generation's vices'",
+          "cardFront": "*A Hero of Our Time*",
+          "cardBack": "Mikhail Lermontov"
+        },
+        {
+          "id": "the-overcoat",
+          "prompt": "Who wrote 'The Overcoat' (1842), the short story about the lowly civil servant Akaky Akakievich, whose new overcoat is stolen and who returns as a ghost?",
+          "answer": "Nikolai Gogol",
+          "alternates": ["Gogol", "Nikolay Gogol"],
+          "explanation": "Published 1842 in *Arabesques*; one of the most influential short stories in world literature\nAkaky Akakievich is a copyist so lowly his colleagues mock him; the overcoat becomes his identity and his ruin\nDostoevsky's famous claim: 'We all came out from under Gogol's overcoat' — acknowledging the story's founding role\nGogol pioneered the 'little man' (malen'ky chelovek) as a subject of serious literary sympathy\nAlso wrote *Dead Souls* (1842), *The Government Inspector* (1836 play), and 'The Nose' (1836)",
+          "cardFront": "'The Overcoat'",
+          "cardBack": "Nikolai Gogol"
+        },
+        {
+          "id": "first-love",
+          "prompt": "Who wrote *First Love* (1860), the novella in which 16-year-old Vladimir falls for the capricious Zinaida, only to discover she is his father's mistress?",
+          "answer": "Ivan Turgenev",
+          "alternates": ["Turgenev", "Ivan Sergeyevich Turgenev"],
+          "explanation": "Published 1860; partly autobiographical — Turgenev's own father had a similar affair with a younger woman\nThe novella is notable for its psychological precision and refusal of melodrama\nTurgenev also wrote *Fathers and Sons* (1862), which introduced the word 'nihilist' into Russian literary vocabulary\nLived much of his adult life in Europe, particularly with the singer Pauline Viardot's household\nFirst major Russian author to gain a wide readership in Western Europe; championed by Henry James",
+          "cardFront": "*First Love*",
+          "cardBack": "Ivan Turgenev"
+        },
+        {
+          "id": "doctor-zhivago",
+          "prompt": "Who wrote *Doctor Zhivago*, the novel of a physician-poet caught between love and revolution in early 20th-century Russia, banned in the USSR and published in Italy in 1957?",
+          "answer": "Boris Pasternak",
+          "alternates": ["Pasternak", "Boris Leonidovich Pasternak"],
+          "explanation": "Published in Italian by Feltrinelli in 1957 after the Soviet government suppressed it; not published in the USSR until 1988\nPasternak was awarded the Nobel Prize in Literature in 1958; Soviet authorities forced him to decline it\nZhivago's poems — Pasternak's own — appear as an appendix and are the novel's emotional core\nThe 1965 David Lean film with Omar Sharif and Julie Christie became one of the highest-grossing films of all time\nPasternak died in 1960, two years after the Nobel scandal; his funeral drew thousands despite state pressure",
+          "cardFront": "*Doctor Zhivago*",
+          "cardBack": "Boris Pasternak"
+        },
+        {
+          "id": "we",
+          "prompt": "Who wrote *We* (1924), the dystopian novel set in a glass-walled future state whose citizens have numbers instead of names — the direct precursor to *1984* and *Brave New World*?",
+          "answer": "Yevgeny Zamyatin",
+          "alternates": ["Zamyatin", "Yevgeny Ivanovich Zamyatin", "Evgeny Zamyatin"],
+          "explanation": "Written 1920–1921; published first in English (1924) and Czech — never published in the Soviet Union in Zamyatin's lifetime\nD-503, a rocket engineer, lives in the glass-walled One State ruled by the Benefactor; all privacy abolished\nOrwell read *We* in 1945 and acknowledged its influence on *1984* in an essay\nHuxley denied reading *We* before writing *Brave New World*, though similarities are extensive\nZamyatin was allowed to emigrate to Paris in 1931 after Maxim Gorky appealed to Stalin on his behalf; died there in 1937",
+          "cardFront": "*We*",
+          "cardBack": "Yevgeny Zamyatin"
+        },
+        {
+          "id": "the-seagull",
+          "prompt": "Who wrote *The Seagull* (1895), the play in which the young writer Treplev loves Nina, who loves the famous author Trigorin, who loves himself — Chekhov's meditation on art, ambition, and unrequited desire?",
+          "answer": "Anton Chekhov",
+          "alternates": ["Chekhov", "Anton Pavlovich Chekhov"],
+          "explanation": "Premiered 1895; the initial St. Petersburg production was a catastrophic failure — Chekhov fled the theater\nRevived in 1898 by the Moscow Art Theatre under Stanislavski — a triumph that launched both the play and the theatre\nThe seagull shot by Treplev becomes a symbol of Nina's ruined life — and of Chekhov's technique of symbolic understatement\nThe Moscow Art Theatre adopted a seagull as its logo in honor of the play's revival\nAlso wrote *Uncle Vanya* (1898), *Three Sisters* (1901), and *The Cherry Orchard* (1904)",
+          "cardFront": "*The Seagull*",
+          "cardBack": "Anton Chekhov"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    { "id": "literature/childrens", "parentId": "literature", "name": "Children's & YA Literature", "description": "Classic children's and young adult books and their authors" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/childrens/works-and-authors",
+      "nodeId": "literature/childrens",
+      "name": "Children's & Young Adult Literature — Works & Authors",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "the-very-hungry-caterpillar",
+          "prompt": "Who wrote and illustrated *The Very Hungry Caterpillar* (1969), the picture book about a caterpillar who eats through a variety of foods before becoming a butterfly?",
+          "answer": "Eric Carle",
+          "alternates": ["Carle"],
+          "explanation": "Published 1969; has sold over 55 million copies worldwide and been translated into 70+ languages\nCarle's distinctive collage technique uses hand-painted tissue paper cut and layered to create texture\nOriginal title was *A Week with Willi Worm*; editor Bill Martin Jr. suggested a caterpillar and the new title\nThe book has a different number of pages for each day of the week — a subtle counting lesson built into the narrative\nCarle also wrote *The Very Quiet Cricket*, *The Very Lonely Firefly*, and *The Grouchy Ladybug*",
+          "cardFront": "*The Very Hungry Caterpillar*",
+          "cardBack": "Eric Carle"
+        },
+        {
+          "id": "charlottes-web",
+          "prompt": "Who wrote *Charlotte's Web* (1952), the story of a pig named Wilbur and his friendship with the spider Charlotte who saves him from slaughter?",
+          "answer": "E.B. White",
+          "alternates": ["EB White", "E. B. White", "Elwyn Brooks White"],
+          "explanation": "Published 1952; the best-selling children's paperback book of all time in the United States\nWhite was also a longtime staff writer for *The New Yorker* and co-author of *The Elements of Style* (with William Strunk Jr.)\nAlso wrote *Stuart Little* (1945) and *The Trumpet of the Swan* (1970)\nGarth Williams illustrated both *Charlotte's Web* and *Stuart Little*\nThe novel's themes of friendship, death, and legacy made it unusual for children's literature of its era",
+          "cardFront": "*Charlotte's Web*",
+          "cardBack": "E.B. White"
+        },
+        {
+          "id": "where-the-wild-things-are",
+          "prompt": "Who wrote and illustrated *Where the Wild Things Are* (1963), the picture book in which Max is sent to his room and sails to a land of monsters?",
+          "answer": "Maurice Sendak",
+          "alternates": ["Sendak"],
+          "explanation": "Won the Caldecott Medal in 1964; originally controversial — librarians feared it would frighten children\nSendak's Wild Things were inspired partly by his own relatives whom he found monstrous as a child\nSpike Jonze directed a live-action film adaptation in 2009\nSendak's most commercially successful book by far; he wrote over 50 books but none approached its cultural impact\nSendak also illustrated many books for others, including *Little Bear* by Else Holmelund Minarik",
+          "cardFront": "*Where the Wild Things Are*",
+          "cardBack": "Maurice Sendak"
+        },
+        {
+          "id": "the-phantom-tollbooth",
+          "prompt": "Who wrote *The Phantom Tollbooth* (1961), in which bored Milo drives through a magic tollbooth to the Lands Beyond and rescues Rhyme and Reason?",
+          "answer": "Norton Juster",
+          "alternates": ["Juster"],
+          "explanation": "Published 1961; illustrated by Jules Feiffer, then a cartoonist for *The Village Voice*\nJuster wrote the book while under a Ford Foundation grant to write about urban perception — the book was his procrastination\nWordplay is central: the Doldrums (a place of boredom), Dictionopolis, Digitopolis, and the Whether Man\nThe novel is an extended allegory for the value of learning and curiosity\nChuck Jones directed the 1970 animated film adaptation; a new animated film was in development as of the early 2020s",
+          "cardFront": "*The Phantom Tollbooth*",
+          "cardBack": "Norton Juster"
+        },
+        {
+          "id": "james-and-the-giant-peach",
+          "prompt": "Who wrote *James and the Giant Peach* (1961), in which lonely James escapes his horrible aunts by growing a magical giant peach full of friendly insects?",
+          "answer": "Roald Dahl",
+          "alternates": ["Dahl"],
+          "explanation": "Published 1961; one of Dahl's most popular children's novels alongside *Charlie and the Chocolate Factory* (1964)\nDahl served as a WWII RAF pilot and crashed in the Western Desert; the crash injuries ended his flying career\nDahl's own difficult childhood — including abuse at boarding school — informed the fearless dark humor of his children's fiction\nHenry Selick directed a stop-motion film adaptation in 1996, produced by Tim Burton\nAlso wrote *The BFG* (1982), *Matilda* (1988), and *Fantastic Mr. Fox* (1970)",
+          "cardFront": "*James and the Giant Peach*",
+          "cardBack": "Roald Dahl"
+        },
+        {
+          "id": "charlie-and-the-chocolate-factory",
+          "prompt": "Who wrote *Charlie and the Chocolate Factory* (1964), in which poor Charlie Bucket wins a golden ticket to tour Willy Wonka's magical candy factory?",
+          "answer": "Roald Dahl",
+          "alternates": ["Dahl"],
+          "explanation": "Published 1964; one of the best-selling children's books of all time\nOriginally illustrated by Joseph Schindelman; later editions featured Quentin Blake's iconic illustrations\nAdapted twice for film: *Willy Wonka & the Chocolate Factory* (1971, starring Gene Wilder) and *Charlie and the Chocolate Factory* (2005, Johnny Depp)\nDahl's inspiration partly came from Cadbury and Rowntree sending chocolate prototypes to schoolboys for tasting in the 1930s\nThe Oompa-Loompas were originally described as African pygmies — changed to fictional beings in 1973 after criticism",
+          "cardFront": "*Charlie and the Chocolate Factory*",
+          "cardBack": "Roald Dahl"
+        },
+        {
+          "id": "the-lion-the-witch-and-the-wardrobe",
+          "prompt": "Who wrote *The Lion, the Witch and the Wardrobe* (1950), in which four children enter the land of Narnia through a wardrobe and help the lion Aslan defeat the White Witch?",
+          "answer": "C.S. Lewis",
+          "alternates": ["CS Lewis", "C. S. Lewis", "Clive Staples Lewis"],
+          "explanation": "Published 1950; first of the seven-volume *Chronicles of Narnia*\nAslan is widely read as a Christ figure — Lewis was an Oxford and Cambridge professor and prominent Christian apologist\nLewis and J.R.R. Tolkien were close friends and fellow Inklings; Tolkien disapproved of the Narnia books as too allegorical\nOriginally inspired by a recurring mental image of a faun carrying parcels through a snowy forest\nDied November 22, 1963 — the same day as JFK's assassination and Aldous Huxley's death, which overshadowed all three",
+          "cardFront": "*The Lion, the Witch and the Wardrobe*",
+          "cardBack": "C.S. Lewis"
+        },
+        {
+          "id": "a-wrinkle-in-time",
+          "prompt": "Who wrote *A Wrinkle in Time* (1962), in which Meg Murry and her brother Charles Wallace travel by tesseract to rescue their father from the evil IT on the planet Camazotz?",
+          "answer": "Madeleine L'Engle",
+          "alternates": ["L'Engle", "Madeleine L'Engle"],
+          "explanation": "Won the Newbery Medal in 1963; rejected by 26 publishers before acceptance — including major houses\nThe tesseract as a 'wrinkle in time' draws on the real mathematical concept of a 4-dimensional hypercube\nFrequently challenged in school libraries for alleged occult content and mixing Jesus with other 'good' historical figures\nFirst of the Time Quintet; sequels include *A Wind in the Door* and *A Swiftly Tilting Planet*\nDiana Nyad's 2021 memoir and the 2018 Disney film both renewed popular interest in the novel",
+          "cardFront": "*A Wrinkle in Time*",
+          "cardBack": "Madeleine L'Engle"
+        },
+        {
+          "id": "harry-potter-and-the-philosophers-stone",
+          "prompt": "Who wrote *Harry Potter and the Philosopher's Stone* (1997), introducing the orphaned wizard Harry Potter and his first year at Hogwarts?",
+          "answer": "J.K. Rowling",
+          "alternates": ["JK Rowling", "Rowling", "Joanne Rowling"],
+          "explanation": "Published in the UK as *Philosopher's Stone*; the U.S. edition was retitled *Sorcerer's Stone* at the publisher's request\nRowling conceived the idea in 1990 on a delayed train from Manchester to London; she wrote notes on scraps of paper\nRejected by 12 publishers before Bloomsbury accepted it; the editor's 8-year-old daughter demanded to read the rest\nThe 7-book series has sold over 600 million copies — the best-selling book series in history\nDaniel Radcliffe played Harry in all 8 films (2001–2011)",
+          "cardFront": "*Harry Potter and the Philosopher's Stone*",
+          "cardBack": "J.K. Rowling"
+        },
+        {
+          "id": "the-outsiders",
+          "prompt": "Who wrote *The Outsiders* (1967), the novel about class conflict between the working-class Greasers and the wealthy Socs in 1960s Tulsa, written when the author was 15?",
+          "answer": "S.E. Hinton",
+          "alternates": ["SE Hinton", "Susan Eloise Hinton"],
+          "explanation": "Published 1967; Hinton was 15 when she began writing it and 17 when it was published — one of the youngest novelists to be published\nInitials were used on the cover because the publisher feared boys wouldn't read a novel by a woman\nStayed on the *New York Times* bestseller list for 6+ months; never out of print since publication\nFrancis Ford Coppola directed the 1983 film with a cast including Tom Cruise, Patrick Swayze, Matt Dillon, Rob Lowe, and Emilio Estevez\n'Stay gold' — the phrase from Robert Frost's poem that Ponyboy recites to Johnny — became an iconic phrase",
+          "cardFront": "*The Outsiders*",
+          "cardBack": "S.E. Hinton"
+        },
+        {
+          "id": "the-giver",
+          "prompt": "Who wrote *The Giver* (1993), the dystopian novel in which 12-year-old Jonas discovers that his seemingly perfect 'Sameness' society has eliminated color, emotion, and memory?",
+          "answer": "Lois Lowry",
+          "alternates": ["Lowry"],
+          "explanation": "Won the Newbery Medal in 1994; one of the most frequently challenged books in American school libraries\nJonas is selected to be the next 'Receiver of Memory' — the keeper of all the community's suppressed history\nThe black-and-white world Jonas inhabits begins to show color as he receives memories — a literal awakening\nFirst of the Giver Quartet; sequels *Gathering Blue*, *Messenger*, and *Son* expand the world\nJeff Bridges starred in the 2014 film adaptation",
+          "cardFront": "*The Giver*",
+          "cardBack": "Lois Lowry"
+        },
+        {
+          "id": "harriet-the-spy",
+          "prompt": "Who wrote *Harriet the Spy* (1964), the novel about 11-year-old Harriet who secretly records her observations about neighbors and friends in a notebook, with consequences when it is discovered?",
+          "answer": "Louise Fitzhugh",
+          "alternates": ["Fitzhugh"],
+          "explanation": "Published 1964; one of the first realistic children's novels portraying an imperfect, socially struggling child\nHarriet is not conventionally nice — she's ambitious, judgmental, and determined to become a writer\nControversial on publication for depicting an unhappy child from a wealthy but emotionally neglectful family\nThe spy notebook as a tool for observation and developing a writer's eye became iconic in children's literature\nA 1996 film adaptation starred Michelle Trachtenberg as Harriet; a 2021 Netflix remake featured Beanie Feldstein",
+          "cardFront": "*Harriet the Spy*",
+          "cardBack": "Louise Fitzhugh"
+        }
+      ]
+    }
+  ]
+}

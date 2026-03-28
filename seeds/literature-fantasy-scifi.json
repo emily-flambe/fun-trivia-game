@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "literature/fantasy-scifi", "parentId": "literature", "name": "Fantasy & Science Fiction", "description": "Landmark works of fantasy and science fiction literature" }
+  ],
+  "exercises": [
+    {
+      "id": "literature/fantasy-scifi/works-and-authors",
+      "nodeId": "literature/fantasy-scifi",
+      "name": "Fantasy & Science Fiction — Works & Authors",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "the-lord-of-the-rings",
+          "prompt": "Who wrote *The Lord of the Rings* (1954–1955), the epic fantasy trilogy following hobbit Frodo Baggins and the Fellowship on a quest to destroy the One Ring?",
+          "answer": "J.R.R. Tolkien",
+          "alternates": ["Tolkien", "John Ronald Reuel Tolkien"],
+          "explanation": "Published in three volumes: *The Fellowship of the Ring*, *The Two Towers*, *The Return of the King* (1954–1955)\nTolkien was an Oxford professor of Anglo-Saxon who invented the Elvish languages before writing the stories\nPreceded by *The Hobbit* (1937); together they established the modern fantasy genre's conventions\nTolkien and C.S. Lewis were close friends and members of the Inklings literary group at Oxford\nPeter Jackson's film trilogy (2001–2003) won 17 Academy Awards total, including Best Picture for *Return of the King*",
+          "cardFront": "*The Lord of the Rings*",
+          "cardBack": "J.R.R. Tolkien"
+        },
+        {
+          "id": "dune",
+          "prompt": "Who wrote *Dune* (1965), the science fiction novel set on the desert planet Arrakis, source of the spice melange, following young Paul Atreides?",
+          "answer": "Frank Herbert",
+          "alternates": ["Herbert"],
+          "explanation": "Published 1965 after being rejected by more than 20 publishers; won the Hugo and Nebula Awards\nArrakis's spice melange — the most valuable substance in the universe — was partly inspired by oil politics in the Middle East\nHerbert wrote five sequels; his son Brian co-wrote many more novels expanding the universe after Herbert's death in 1986\nInfluenced *Star Wars* (desert planet Tatooine, messiah narrative) and virtually all subsequent space opera\nDenis Villeneuve's two-part film adaptation (2021, 2024) revived popular interest in the series",
+          "cardFront": "*Dune*",
+          "cardBack": "Frank Herbert"
+        },
+        {
+          "id": "foundation",
+          "prompt": "Who wrote *Foundation* (1951), the science fiction novel about mathematician Hari Seldon who uses 'psychohistory' to shorten a coming dark age of galactic civilization?",
+          "answer": "Isaac Asimov",
+          "alternates": ["Asimov"],
+          "explanation": "Published as a novel in 1951, expanded from stories in *Astounding Science Fiction* (1942–1950)\nPsychohistory: a fictional mathematical discipline predicting the behavior of large populations\nPart of a trilogy (*Foundation*, *Foundation and Empire*, *Second Foundation*) later expanded to seven novels\nAsimov also created the Three Laws of Robotics (in 'Runaround,' 1942), which defined robot fiction for decades\nWon the Hugo Award for 'Best All-Time Series' in 1966 — the only time that award was given",
+          "cardFront": "*Foundation*",
+          "cardBack": "Isaac Asimov"
+        },
+        {
+          "id": "the-left-hand-of-darkness",
+          "prompt": "Who wrote *The Left Hand of Darkness* (1969), the science fiction novel set on a planet of ambisexual humans, exploring gender, politics, and loyalty?",
+          "answer": "Ursula K. Le Guin",
+          "alternates": ["Le Guin", "Ursula Le Guin"],
+          "explanation": "Won both the Hugo and Nebula Awards in 1970; one of the first major SF works to explore gender as a constructed category\nThe Gethenians are ambisexual — they have no fixed gender and enter 'kemmer' (sexual receptivity) periodically\nA lone Terran envoy, Genly Ai, struggles to understand a world without gender — and his own biases\nPart of Le Guin's 'Hainish Cycle,' a loosely connected universe spanning a dozen novels\nLe Guin also wrote *The Dispossessed* (1974) and the *Earthsea* fantasy series (1968 onward)",
+          "cardFront": "*The Left Hand of Darkness*",
+          "cardBack": "Ursula K. Le Guin"
+        },
+        {
+          "id": "brave-new-world",
+          "prompt": "Who wrote *Brave New World* (1932), depicting a dystopia of engineered humans, soma drugs, and mandatory hedonism where conditioning replaces freedom?",
+          "answer": "Aldous Huxley",
+          "alternates": ["Huxley"],
+          "explanation": "Published 1932; often paired with Orwell's *1984* — Huxley warned of control through pleasure, Orwell through pain\nThe World State's citizens are decanted from bottles and conditioned from birth into fixed social castes: Alpha, Beta, Gamma, Delta, Epsilon\nHuxley was nearly blind from age 16; read with a magnifying glass\nExperimented with psychedelics; his 1954 *The Doors of Perception* (on mescaline) inspired the band name The Doors\nDied November 22, 1963 — the same day as C.S. Lewis and JFK's assassination",
+          "cardFront": "*Brave New World*",
+          "cardBack": "Aldous Huxley"
+        },
+        {
+          "id": "fahrenheit-451",
+          "prompt": "Who wrote *Fahrenheit 451* (1953), the dystopian novel in which 'fireman' Guy Montag burns books in a society that has banned reading?",
+          "answer": "Ray Bradbury",
+          "alternates": ["Bradbury"],
+          "explanation": "Published 1953; 451°F is the temperature at which paper allegedly ignites\nBradbury wrote the first draft in the UCLA Powell Library on a coin-operated typewriter in nine days\nThe title is technically incorrect — paper ignites at approximately 480°F, not 451°F; Bradbury was told the wrong figure\nPresciently depicts wall-sized TV screens, earbuds ('seashells'), and a society destroyed by entertainment and distraction\nBradbury also wrote *The Martian Chronicles* (1950) and *Something Wicked This Way Comes* (1962)",
+          "cardFront": "*Fahrenheit 451*",
+          "cardBack": "Ray Bradbury"
+        },
+        {
+          "id": "neuromancer",
+          "prompt": "Who wrote *Neuromancer* (1984), the cyberpunk novel introducing the concept of 'cyberspace' and the hacker Case hired to pull off an impossible heist?",
+          "answer": "William Gibson",
+          "alternates": ["Gibson"],
+          "explanation": "Won the Hugo, Nebula, and Philip K. Dick Awards — the only novel to win all three\nGibson coined 'cyberspace': 'a consensual hallucination experienced daily by billions of legitimate operators'\nFounded the cyberpunk subgenre and anticipated the internet, virtual reality, and corporate dystopia\nCase, a washed-up hacker, is hired by a mysterious employer to penetrate the AI Wintermute\nAlso wrote *Count Zero* (1986) and *Mona Lisa Overdrive* (1988), completing the Sprawl Trilogy",
+          "cardFront": "*Neuromancer*",
+          "cardBack": "William Gibson"
+        },
+        {
+          "id": "the-handmaids-tale",
+          "prompt": "Who wrote *The Handmaid's Tale* (1985), the dystopian novel set in the theocratic Republic of Gilead, where fertile women are forced to bear children for the ruling class?",
+          "answer": "Margaret Atwood",
+          "alternates": ["Atwood"],
+          "explanation": "Published 1985; Atwood insisted every element in the novel had a historical precedent\nOffred (narrator) is a Handmaid — a fertile woman assigned to a Commander for reproductive purposes\nAtwood won the Booker Prize for *The Blind Assassin* (2000) and the inaugural Booker International (2017)\nHulu TV adaptation premiered in 2017; starred Elisabeth Moss and won 8 Emmy Awards including Outstanding Drama\nSequel *The Testaments* (2019) won the Booker Prize — Atwood's second",
+          "cardFront": "*The Handmaid's Tale*",
+          "cardBack": "Margaret Atwood"
+        },
+        {
+          "id": "a-wrinkle-in-time",
+          "prompt": "Who wrote *A Wrinkle in Time* (1962), the children's fantasy novel in which Meg Murry travels through a 'tesseract' to rescue her father from the planet Camazotz?",
+          "answer": "Madeleine L'Engle",
+          "alternates": ["L'Engle", "Madeleine L'Engle"],
+          "explanation": "Won the Newbery Medal in 1963; rejected by 26 publishers before acceptance\nThe tesseract is a 'wrinkle in time' — L'Engle's intuitive use of a real mathematical concept (a 4-dimensional hypercube)\nThe antagonist IT is a disembodied brain that imposes conformity and sameness on Camazotz — a Cold War allegory\nFrequently banned from school libraries for perceived occult content and references to Jesus alongside other historical figures\nFirst book of the Time Quintet; L'Engle also wrote *A Wind in the Door* and *A Swiftly Tilting Planet*",
+          "cardFront": "*A Wrinkle in Time*",
+          "cardBack": "Madeleine L'Engle"
+        },
+        {
+          "id": "the-hitchhikers-guide-to-the-galaxy",
+          "prompt": "Who wrote *The Hitchhiker's Guide to the Galaxy* (1979), the comic science fiction novel in which Arthur Dent narrowly escapes Earth's demolition and discovers the answer to life, the universe, and everything is 42?",
+          "answer": "Douglas Adams",
+          "alternates": ["Adams"],
+          "explanation": "Originated as a 1978 BBC Radio 4 comedy series; adapted as a novel in 1979\nThe number 42 as the Answer to the Ultimate Question became a widespread internet meme and cultural touchstone\nThe series spans five novels: Adams called them 'a trilogy in five parts'\nAdams died suddenly of a heart attack in 2001 at age 49, having written only one chapter of a sixth book\nThe 2005 film adaptation starred Martin Freeman; Adams wrote an early screenplay draft before his death",
+          "cardFront": "*The Hitchhiker's Guide to the Galaxy*",
+          "cardBack": "Douglas Adams"
+        },
+        {
+          "id": "slaughterhouse-five",
+          "prompt": "Who wrote *Slaughterhouse-Five* (1969), the anti-war novel in which Billy Pilgrim is 'unstuck in time' and relives both the 1945 Dresden firebombing and an alien abduction?",
+          "answer": "Kurt Vonnegut",
+          "alternates": ["Vonnegut"],
+          "explanation": "Published 1969; Vonnegut himself survived the February 1945 Dresden firebombing as a POW, sheltered in an underground meat locker\nThe phrase 'So it goes' appears 106 times, always following a death — Vonnegut's fatalistic refrain\nTralfamadorians experience all time simultaneously — they see death as just one moment in an otherwise continuous existence\nBanned in several U.S. school districts; Vonnegut responded with characteristically sardonic humor\nAlso wrote *Cat's Cradle* (1963) and *Breakfast of Champions* (1973)",
+          "cardFront": "*Slaughterhouse-Five*",
+          "cardBack": "Kurt Vonnegut"
+        },
+        {
+          "id": "do-androids-dream-of-electric-sheep",
+          "prompt": "Who wrote *Do Androids Dream of Electric Sheep?* (1968), the science fiction novel set in post-nuclear San Francisco where bounty hunter Rick Deckard hunts rogue androids?",
+          "answer": "Philip K. Dick",
+          "alternates": ["Philip K Dick", "PKD", "Dick"],
+          "explanation": "Published 1968; set in a future where most real animals are extinct and owning one is a status symbol\nRick Deckard must distinguish androids from humans using the Voigt-Kampff empathy test\nBasis for Ridley Scott's *Blade Runner* (1982) — though the film changed many elements; Dick died in 1982 before seeing it\nDick was extraordinarily prolific despite chronic mental illness and poverty; wrote 44 novels and 121 short stories\nAlso wrote *The Man in the High Castle* (1962) and *Ubik* (1969); three of his works became Minority Report, Total Recall, and *A Scanner Darkly*",
+          "cardFront": "*Do Androids Dream of Electric Sheep?*",
+          "cardBack": "Philip K. Dick"
+        },
+        {
+          "id": "i-robot",
+          "prompt": "Who wrote *I, Robot* (1950), the story collection introducing the Three Laws of Robotics and featuring robot psychologist Susan Calvin?",
+          "answer": "Isaac Asimov",
+          "alternates": ["Asimov"],
+          "explanation": "Published 1950; nine stories previously published in *Astounding Science Fiction* (1940–1950), framed as Susan Calvin's memoirs\nThe Three Laws: (1) A robot may not injure a human being; (2) A robot must obey human orders (unless it violates Law 1); (3) A robot must protect itself (unless it violates Laws 1 or 2)\nAsimov coined the word 'robotics' — it first appeared in his 1941 story 'Liar!'\nMost stories explore logical contradictions and loopholes in the Three Laws\nThe 2004 film starring Will Smith takes only the title and Laws from Asimov; the plot is original",
+          "cardFront": "*I, Robot*",
+          "cardBack": "Isaac Asimov"
+        },
+        {
+          "id": "the-dispossessed",
+          "prompt": "Who wrote *The Dispossessed* (1974), the science fiction novel contrasting an anarchist moon colony with a capitalist planet, following physicist Shevek's attempt to bridge the two worlds?",
+          "answer": "Ursula K. Le Guin",
+          "alternates": ["Le Guin", "Ursula Le Guin"],
+          "explanation": "Won the Hugo, Nebula, and Locus Awards in 1975; subtitled 'An Ambiguous Utopia'\nShevek develops the ansible — a device for instantaneous communication across space — which appears in several of Le Guin's other novels\nThe narrative alternates between Shevek's present journey to Urras and flashbacks to his life on the anarchist moon Anarres\nA serious engagement with anarchist political philosophy, drawing on Kropotkin and Bakunin\nLe Guin also wrote *The Left Hand of Darkness* (1969) and the *Earthsea* series",
+          "cardFront": "*The Dispossessed*",
+          "cardBack": "Ursula K. Le Guin"
+        },
+        {
+          "id": "1984",
+          "prompt": "Who wrote *1984* (1949), the dystopian novel introducing Big Brother, Newspeak, and doublethink, in which Winston Smith tries to resist the totalitarian Party in Oceania?",
+          "answer": "George Orwell",
+          "alternates": ["Orwell", "Eric Arthur Blair", "Eric Blair"],
+          "explanation": "Published 1949; Orwell's real name was Eric Arthur Blair\nIntroduced 'Big Brother,' 'doublethink,' 'Newspeak,' and 'thoughtcrime' into the English language\nWritten on the Scottish island of Jura while Orwell was dying of tuberculosis; he died in January 1950\nSales spike every time a government surveillance scandal breaks — topped bestseller lists after the Snowden leaks (2013)\nAlso wrote *Animal Farm* (1945), the anti-Stalinist allegory ('All animals are equal, but some animals are more equal than others')",
+          "cardFront": "*1984*",
+          "cardBack": "George Orwell"
+        }
+      ]
+    }
+  ]
+}
