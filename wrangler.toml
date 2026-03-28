@@ -8,6 +8,10 @@ routes = [
   { pattern = "trivia.emilycogsdill.com", custom_domain = true }
 ]
 
+[vars]
+CF_ACCESS_TEAM_DOMAIN = "https://emilycogsdill.cloudflareaccess.com"
+CF_ACCESS_AUD = "77c6b019856fd2f0fbffbd3499772a5019c6dc5f9260fc57e09bd0837e006acf"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "trivia-trainer"

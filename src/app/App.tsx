@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getRandomExerciseId } from './lib/api';
+import { getRandomExerciseId, getAuthMe, type AuthState } from './lib/api';
 import { Dashboard } from './components/Dashboard';
 import { NodeView } from './components/NodeView';
 import { ExerciseView } from './components/ExerciseView';
@@ -28,11 +28,16 @@ function parseHash(): Route {
 
 export function App() {
 	const [route, setRoute] = useState<Route>(parseHash);
+	const [auth, setAuth] = useState<AuthState>({ authenticated: false });
 
 	useEffect(() => {
 		const onHash = () => setRoute(parseHash());
 		window.addEventListener('hashchange', onHash);
 		return () => window.removeEventListener('hashchange', onHash);
+	}, []);
+
+	useEffect(() => {
+		getAuthMe().then(setAuth).catch(() => {});
 	}, []);
 
 	return (
@@ -41,14 +46,34 @@ export function App() {
 				<a href="#/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
 					Trivia Trainer
 				</a>
-				<button
-					onClick={() => getRandomExerciseId().then((id) => {
-						if (id) window.location.hash = `/exercise/${id}?mode=quiz`;
-					}).catch(() => {})}
-					className="text-sm font-medium text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
-				>
-					Random
-				</button>
+				<div className="flex items-center gap-1">
+					<button
+						onClick={() => getRandomExerciseId().then((id) => {
+							if (id) window.location.hash = `/exercise/${id}?mode=quiz`;
+						}).catch(() => {})}
+						className="text-sm font-medium text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+					>
+						Random
+					</button>
+					{auth.authenticated ? (
+						<>
+							<span className="text-sm text-text-secondary px-2 hidden sm:inline">{auth.email}</span>
+							<a
+								href={auth.logoutUrl || '/cdn-cgi/access/logout'}
+								className="text-sm font-medium text-text-tertiary hover:text-incorrect transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+							>
+								Sign Out
+							</a>
+						</>
+					) : auth.loginUrl ? (
+						<a
+							href={auth.loginUrl}
+							className="text-sm font-medium text-action hover:text-action-hover transition-colors px-3 py-2 rounded-lg hover:bg-action-bg"
+						>
+							Sign In
+						</a>
+					) : null}
+				</div>
 			</nav>
 			<main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
 				{route.page === 'dashboard' && <Dashboard />}

@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "american-history/amendments",
+      "parentId": "american-history",
+      "name": "Constitutional Amendments",
+      "description": "The 27 amendments to the U.S. Constitution"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/amendments/constitutional-amendments",
+      "nodeId": "american-history/amendments",
+      "name": "All 27 Constitutional Amendments",
+      "format": "fill-blanks",
+      "config": {
+        "ordered": true,
+        "prompt": "Name what each of the 27 Constitutional Amendments covers, in order"
+      },
+      "items": [
+        {
+          "id": "amendment-1",
+          "answer": "Freedom of religion, speech, press, assembly, and petition",
+          "alternates": ["free speech", "freedom of speech", "freedom of religion", "freedom of the press", "RAPPS"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nProtects five freedoms: religion, speech, press, assembly, and petition\nApplies only to government action — private entities are not bound by the First Amendment\nBasis for landmark cases including New York Times v. Sullivan (1964) and Brandenburg v. Ohio (1969)",
+          "cardFront": "1st Amendment (1791)",
+          "cardBack": "Freedom of religion, speech, press, assembly, and petition"
+        },
+        {
+          "id": "amendment-2",
+          "answer": "Right to keep and bear arms",
+          "alternates": ["bear arms", "right to bear arms", "gun rights"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nReferences 'well regulated Militia' — courts long debated individual vs. collective right\nD.C. v. Heller (2008): Supreme Court confirmed an individual right to possess firearms at home\nMcDonald v. Chicago (2010) extended Heller to state and local governments",
+          "cardFront": "2nd Amendment (1791)",
+          "cardBack": "Right to keep and bear arms"
+        },
+        {
+          "id": "amendment-3",
+          "answer": "No quartering of soldiers in private homes without consent",
+          "alternates": ["quartering of troops", "quartering soldiers", "no quartering"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nA direct response to British Quartering Acts of 1765 and 1774 that forced colonists to house soldiers\nLeast litigated of all constitutional amendments — almost never invoked in modern courts",
+          "cardFront": "3rd Amendment (1791)",
+          "cardBack": "No quartering of soldiers in private homes without consent"
+        },
+        {
+          "id": "amendment-4",
+          "answer": "Protection against unreasonable search and seizure",
+          "alternates": ["search and seizure", "unreasonable search and seizure", "warrant requirement"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nRequires warrants based on probable cause, describing the place to be searched and items to be seized\nExclusionary rule: evidence obtained illegally may not be used in court (Mapp v. Ohio, 1961)\nCarpenter v. United States (2018) extended 4th Amendment protections to cell phone location data",
+          "cardFront": "4th Amendment (1791)",
+          "cardBack": "Protection against unreasonable search and seizure"
+        },
+        {
+          "id": "amendment-5",
+          "answer": "No self-incrimination, double jeopardy; due process and just compensation",
+          "alternates": ["pleading the fifth", "self-incrimination", "double jeopardy", "due process", "fifth amendment rights"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\n'Pleading the Fifth' = invoking the right against self-incrimination\nDouble jeopardy: cannot be tried twice for the same crime after acquittal\nTakings clause: government must pay 'just compensation' when seizing private property\nGrand jury requirement for serious federal crimes also established here",
+          "cardFront": "5th Amendment (1791)",
+          "cardBack": "No self-incrimination, double jeopardy; due process and just compensation"
+        },
+        {
+          "id": "amendment-6",
+          "answer": "Right to speedy public trial, impartial jury, and counsel",
+          "alternates": ["speedy trial", "right to counsel", "right to a lawyer", "fair trial"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nGuarantees speedy and public trial, impartial jury, right to confront witnesses, and right to an attorney\nGideon v. Wainwright (1963) required states to provide attorneys to defendants who cannot afford one\nApplies to all criminal prosecutions, both federal and state",
+          "cardFront": "6th Amendment (1791)",
+          "cardBack": "Right to speedy public trial, impartial jury, and counsel"
+        },
+        {
+          "id": "amendment-7",
+          "answer": "Right to jury trial in civil cases over $20",
+          "alternates": ["civil jury trial", "jury trial in civil cases"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nPreserves the right to a jury trial in federal civil cases where the value exceeds $20\nThe $20 threshold has never been updated despite inflation\nRarely litigated compared to other Bill of Rights amendments",
+          "cardFront": "7th Amendment (1791)",
+          "cardBack": "Right to jury trial in civil cases over $20"
+        },
+        {
+          "id": "amendment-8",
+          "answer": "No cruel and unusual punishment or excessive bail",
+          "alternates": ["cruel and unusual punishment", "excessive bail", "no cruel or unusual punishment"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nProhibits excessive bail, excessive fines, and cruel and unusual punishment\nCentral to debates over capital punishment and prison conditions\nFurman v. Georgia (1972) temporarily halted all executions as cruel and unusual",
+          "cardFront": "8th Amendment (1791)",
+          "cardBack": "No cruel and unusual punishment or excessive bail"
+        },
+        {
+          "id": "amendment-9",
+          "answer": "Rights not listed in the Constitution are retained by the people",
+          "alternates": ["unenumerated rights", "rights retained by the people", "unlisted rights"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nPrevents the argument that rights not explicitly listed in the Constitution do not exist\nBasis for the implied 'right to privacy' invoked in Griswold v. Connecticut (1965)\nOften paired with the 10th Amendment in federalism debates",
+          "cardFront": "9th Amendment (1791)",
+          "cardBack": "Rights not listed in the Constitution are retained by the people"
+        },
+        {
+          "id": "amendment-10",
+          "answer": "Powers not delegated to the federal government are reserved to the states",
+          "alternates": ["states' rights", "reserved powers", "state sovereignty", "powers reserved to states"],
+          "explanation": "Ratified 1791 as part of the Bill of Rights\nReserves to states (or the people) all powers not explicitly granted to the federal government\nFoundation of federalism — the basis for most 'states' rights' arguments\nFrequently cited in challenges to federal regulations and mandates",
+          "cardFront": "10th Amendment (1791)",
+          "cardBack": "Powers not delegated to the federal government are reserved to the states"
+        },
+        {
+          "id": "amendment-11",
+          "answer": "Federal courts cannot hear suits against states by citizens of other states",
+          "alternates": ["state sovereign immunity", "suits against states", "limits on federal court jurisdiction"],
+          "explanation": "Ratified 1795\nFirst amendment to reverse a Supreme Court decision — overruled Chisholm v. Georgia (1793)\nEstablished the doctrine of state sovereign immunity from lawsuits in federal courts\nLimits but does not eliminate states' legal accountability",
+          "cardFront": "11th Amendment (1795)",
+          "cardBack": "Federal courts cannot hear suits against states by citizens of other states"
+        },
+        {
+          "id": "amendment-12",
+          "answer": "Separate Electoral College ballots for President and Vice President",
+          "alternates": ["electoral college reform", "separate ballots for president and VP", "presidential election reform"],
+          "explanation": "Ratified 1804\nRequired after the 1800 election disaster — Jefferson and Burr tied in electoral votes for President\nPreviously, the runner-up became Vice President (leading to the Jefferson/Burr crisis)\nCreated the modern ticket-based presidential election system",
+          "cardFront": "12th Amendment (1804)",
+          "cardBack": "Separate Electoral College ballots for President and Vice President"
+        },
+        {
+          "id": "amendment-13",
+          "answer": "Abolition of slavery",
+          "alternates": ["slavery abolished", "end of slavery", "slavery banned", "emancipation"],
+          "explanation": "Ratified December 6, 1865 — eight months after the Civil War ended\nAbolished slavery and involuntary servitude except as punishment for a crime\nLincoln's Emancipation Proclamation (1863) freed slaves in rebel states only — the 13th ended it nationally\nMissouri was the last Union state to ratify it; required ratification by former Confederate states as a condition of readmission",
+          "cardFront": "13th Amendment (1865)",
+          "cardBack": "Abolition of slavery"
+        },
+        {
+          "id": "amendment-14",
+          "answer": "Citizenship, equal protection, and due process against state action",
+          "alternates": ["equal protection", "citizenship rights", "due process", "equal protection clause"],
+          "explanation": "Ratified 1868 during Reconstruction\nGranted citizenship to all persons born or naturalized in the U.S., including formerly enslaved people\nOverturned Dred Scott v. Sandford (1857) which denied Black Americans citizenship\nMost litigated amendment — basis for Brown v. Board, Roe v. Wade, Obergefell, and hundreds of landmark cases\nFour sections: citizenship, due process, equal protection, and penalties for denying voting rights",
+          "cardFront": "14th Amendment (1868)",
+          "cardBack": "Citizenship, equal protection, and due process against state action"
+        },
+        {
+          "id": "amendment-15",
+          "answer": "Voting rights cannot be denied based on race",
+          "alternates": ["Black suffrage", "racial voting rights", "race-based voting restrictions banned", "right to vote regardless of race"],
+          "explanation": "Ratified 1870 during Reconstruction\nProhibited denying voting rights based on race, color, or previous condition of servitude\nEffectively nullified in the South by Jim Crow laws (poll taxes, literacy tests) until the Voting Rights Act (1965)\nFirst federal guarantee of Black men's right to vote — Black women gained the vote with the 19th Amendment (1920)",
+          "cardFront": "15th Amendment (1870)",
+          "cardBack": "Voting rights cannot be denied based on race"
+        },
+        {
+          "id": "amendment-16",
+          "answer": "Federal income tax authorized",
+          "alternates": ["income tax", "federal income tax"],
+          "explanation": "Ratified 1913\nAuthorized Congress to levy a federal income tax without apportioning it among states by population\nPassed after the Supreme Court struck down an income tax in Pollock v. Farmers' Loan (1895)\nEnacted the same year as the 17th Amendment — both were major Progressive Era reforms",
+          "cardFront": "16th Amendment (1913)",
+          "cardBack": "Federal income tax authorized"
+        },
+        {
+          "id": "amendment-17",
+          "answer": "Direct popular election of U.S. senators",
+          "alternates": ["popular election of senators", "senators elected by voters", "direct election of senators"],
+          "explanation": "Ratified 1913\nProvided for direct election of U.S. senators by popular vote; previously chosen by state legislatures\nProgressives pushed it to reduce corruption (state legislatures were often bribed to elect senators)\nRatified same year as 16th Amendment — paired Progressive Era reforms",
+          "cardFront": "17th Amendment (1913)",
+          "cardBack": "Direct popular election of U.S. senators"
+        },
+        {
+          "id": "amendment-18",
+          "answer": "Prohibition of alcohol",
+          "alternates": ["Prohibition", "alcohol banned", "ban on alcohol", "prohibition of liquor"],
+          "explanation": "Ratified 1919; took effect January 1920\nProhibited the manufacture, sale, and transportation of intoxicating liquors\nGave rise to bootlegging, speakeasies, and organized crime (the Al Capone era)\nLasted 13 years until the 21st Amendment repealed it in 1933\nOnly amendment ever to be fully repealed",
+          "cardFront": "18th Amendment (1919)",
+          "cardBack": "Prohibition of alcohol"
+        },
+        {
+          "id": "amendment-19",
+          "answer": "Women's right to vote",
+          "alternates": ["women's suffrage", "female voting rights", "women vote", "women's voting rights"],
+          "explanation": "Ratified August 18, 1920\nProhibited denying the right to vote on account of sex\nSuffrage movement victory after 70+ years of activism — Seneca Falls Convention was 1848\nTennessee became the decisive 36th state to ratify; the margin was one vote in the state legislature",
+          "cardFront": "19th Amendment (1920)",
+          "cardBack": "Women's right to vote"
+        },
+        {
+          "id": "amendment-20",
+          "answer": "Presidential inauguration moved to January 20; reduced lame duck period",
+          "alternates": ["lame duck amendment", "inauguration date moved to January", "January 20 inauguration"],
+          "explanation": "Ratified 1933\nMoved presidential inauguration from March 4 to January 20; congressional terms now begin January 3\nReduced the 'lame duck' period from 4 months to 11 weeks\nKnown as the 'Lame Duck Amendment'",
+          "cardFront": "20th Amendment (1933)",
+          "cardBack": "Presidential inauguration moved to January 20; reduced lame duck period"
+        },
+        {
+          "id": "amendment-21",
+          "answer": "Repeal of Prohibition",
+          "alternates": ["Prohibition repealed", "end of Prohibition", "alcohol legalized"],
+          "explanation": "Ratified December 5, 1933\nRepealed the 18th Amendment — the only time one amendment has fully repealed another\nFranklin Roosevelt championed repeal; ratified by state conventions, not state legislatures (only amendment ratified this way)\nEnded 13 years of Prohibition",
+          "cardFront": "21st Amendment (1933)",
+          "cardBack": "Repeal of Prohibition"
+        },
+        {
+          "id": "amendment-22",
+          "answer": "Presidents limited to two terms in office",
+          "alternates": ["presidential term limits", "two-term limit", "two terms for president"],
+          "explanation": "Ratified 1951\nLimits presidents to two elected terms (or 10 years total if they served part of a prior term)\nPassed in reaction to FDR's four terms (1933–1945) — previously only a tradition set by Washington\nNine presidents have served exactly two terms; Eisenhower was the first subject to this amendment",
+          "cardFront": "22nd Amendment (1951)",
+          "cardBack": "Presidents limited to two terms in office"
+        },
+        {
+          "id": "amendment-23",
+          "answer": "Washington D.C. receives Electoral College votes",
+          "alternates": ["D.C. electoral votes", "DC electoral votes", "electoral votes for DC"],
+          "explanation": "Ratified 1961\nGrants the District of Columbia three electoral votes for presidential elections\nD.C. residents had no presidential vote before this amendment despite living in the nation's capital\nD.C. still has no voting representation in Congress (no senators, one non-voting House delegate)",
+          "cardFront": "23rd Amendment (1961)",
+          "cardBack": "Washington D.C. receives Electoral College votes"
+        },
+        {
+          "id": "amendment-24",
+          "answer": "Poll tax abolished for federal elections",
+          "alternates": ["poll tax banned", "poll tax eliminated", "no poll tax"],
+          "explanation": "Ratified 1964\nAbolished poll taxes as a requirement to vote in federal elections\nPoll taxes were used in Southern states since Reconstruction to disenfranchise Black and poor voters\nHarper v. Virginia (1966) extended the ban to state elections under the 14th Amendment",
+          "cardFront": "24th Amendment (1964)",
+          "cardBack": "Poll tax abolished for federal elections"
+        },
+        {
+          "id": "amendment-25",
+          "answer": "Presidential succession and disability procedures",
+          "alternates": ["presidential succession", "presidential disability", "VP vacancy procedures"],
+          "explanation": "Ratified 1967\nEstablishes procedures for: VP vacancy (Section 2), president's voluntary disability (Section 3), and involuntary removal for disability (Section 4)\nInvoked when Nixon resigned (Ford nominated VP under Section 2), Reagan's surgery (Section 3)\nSection 4 — requiring Cabinet to declare a president unable to discharge duties — was discussed but never invoked regarding Trump",
+          "cardFront": "25th Amendment (1967)",
+          "cardBack": "Presidential succession and disability procedures"
+        },
+        {
+          "id": "amendment-26",
+          "answer": "Voting age lowered to 18",
+          "alternates": ["18-year-old vote", "voting age 18", "18 to vote"],
+          "explanation": "Ratified 1971\nLowered the voting age from 21 to 18 in all elections\nPassed during the Vietnam War — the argument that those old enough to be drafted should be able to vote\nLargest single expansion of voting rights since the 19th Amendment (1920)\nRatified in just 100 days — second fastest ratification of any amendment",
+          "cardFront": "26th Amendment (1971)",
+          "cardBack": "Voting age lowered to 18"
+        },
+        {
+          "id": "amendment-27",
+          "answer": "Congressional pay raises cannot take effect until after the next election",
+          "alternates": ["congressional pay delay", "pay raise delay", "congressional salaries"],
+          "explanation": "Ratified 1992\nPrevents any law varying congressional pay from taking effect until after the next House election\nOriginally proposed by James Madison in 1789 as part of the Bill of Rights — ratified 203 years later\nLongest gap between proposal and ratification of any constitutional amendment\nA University of Texas student, Gregory Watson, researched its unratified status and campaigned for its passage",
+          "cardFront": "27th Amendment (1992)",
+          "cardBack": "Congressional pay raises cannot take effect until after the next election"
+        }
+      ]
+    }
+  ]
+}
