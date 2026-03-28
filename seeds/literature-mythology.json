@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "literature/mythology",
+      "parentId": "literature",
+      "name": "Greek & Roman Mythology",
+      "description": "Greek and Roman gods, heroes, and myths"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "literature/mythology/greek-roman",
+      "nodeId": "literature/mythology",
+      "name": "Greek & Roman Mythology",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "zeus",
+          "prompt": "In Greek mythology, who is the king of the Olympian gods, ruler of Mount Olympus, and god of the sky, thunder, and lightning?",
+          "answer": "Zeus",
+          "alternates": ["Jupiter", "Jove"],
+          "explanation": "King of the Olympian gods in Greek mythology; Roman equivalent is Jupiter (or Jove)\nSon of the Titans Cronus and Rhea; led his siblings to overthrow the Titans in the Titanomachy\nWields the thunderbolt as his primary weapon; the eagle and the oak are sacred to him\nFamous for his many affairs with mortals and goddesses: fathered Heracles, Perseus, Apollo, Artemis, Athena, and dozens more\nThe Olympic Games were held in his honor at Olympia every four years\nThe great statue of Zeus at Olympia (by Pheidias, c. 430 BC) was one of the Seven Wonders of the Ancient World",
+          "cardFront": "King of Olympian gods; sky, thunder, lightning",
+          "cardBack": "Zeus (Roman: Jupiter)"
+        },
+        {
+          "id": "poseidon",
+          "prompt": "In Greek mythology, who is the god of the sea, earthquakes, and horses, who carries a trident and is brother to Zeus and Hades?",
+          "answer": "Poseidon",
+          "alternates": ["Neptune"],
+          "explanation": "God of the sea, earthquakes, and horses in Greek mythology; Roman equivalent is Neptune\nOne of three brothers who divided the world after overthrowing Cronus: Zeus got the sky, Poseidon the sea, Hades the underworld\nHis trident can shake the earth; he is called 'Earth-Shaker' in Homer\nCreated the horse as a gift to humans (or in a contest with Athena for Athens's patronage)\nLost the contest for patronage of Athens to Athena: he struck the ground and produced salt water; she grew an olive tree\nBlind Polyphemus, the Cyclops blinded by Odysseus, is his son; Poseidon's wrath drives much of the *Odyssey*'s plot",
+          "cardFront": "God of sea, earthquakes, horses; trident",
+          "cardBack": "Poseidon (Roman: Neptune)"
+        },
+        {
+          "id": "hades",
+          "prompt": "In Greek mythology, who is the god of the underworld and the dead, whose realm shares his name and whose wife is Persephone?",
+          "answer": "Hades",
+          "alternates": ["Pluto", "Dis"],
+          "explanation": "God and ruler of the underworld in Greek mythology; Roman equivalents are Pluto and Dis\nOne of three sons of Cronus; received the underworld as his domain after the Titanomachy\nHis name means 'the unseen one'; he possessed a helmet of invisibility\nKidnapped Persephone (daughter of Demeter) to be his queen; her annual return causes spring\nThe underworld contains the rivers Styx, Lethe, and Acheron; the dead drink from Lethe to forget their lives\nNot a god of death per se (that is Thanatos); Hades simply rules the realm where all dead souls go",
+          "cardFront": "Ruler of the underworld; Persephone's husband",
+          "cardBack": "Hades (Roman: Pluto)"
+        },
+        {
+          "id": "athena",
+          "prompt": "In Greek mythology, who is the goddess of wisdom, warfare strategy, and crafts, said to have sprung fully-grown and armored from the forehead of Zeus?",
+          "answer": "Athena",
+          "alternates": ["Pallas Athena", "Minerva"],
+          "explanation": "Goddess of wisdom, strategic warfare, and crafts in Greek mythology; Roman equivalent is Minerva\nBorn fully armed from Zeus's forehead after he swallowed her pregnant mother Metis\nPatron goddess of Athens; competed with Poseidon for the city's patronage and won by gifting the olive tree\nDepicted with helmet, spear, and the aegis (a shield bearing the Gorgon's head); her bird is the owl\nVirgin goddess; never took a lover or consort among gods or mortals\nThe Parthenon (temple of Athena Parthenos, 'the Virgin') on the Athenian Acropolis was dedicated to her",
+          "cardFront": "Goddess of wisdom, strategy, crafts; born from Zeus's forehead",
+          "cardBack": "Athena (Roman: Minerva)"
+        },
+        {
+          "id": "dionysus",
+          "prompt": "In Greek mythology, who is the god of wine, theater, festivity, and ritual ecstasy, associated with satyrs, maenads, and the theatrical mask?",
+          "answer": "Dionysus",
+          "alternates": ["Bacchus", "Dionysos"],
+          "explanation": "God of wine, theater, and ecstatic ritual in Greek mythology; Roman equivalent is Bacchus\nTwice-born: first from his mortal mother Semele (killed by Zeus's glory), then from Zeus's thigh where Zeus sewed the fetus to gestate\nHis retinue includes satyrs (half-man, half-goat) and maenads ('raving women') who engage in frenzied ritual\nAthenian theater (tragedy and comedy) developed from his festivals; the theatrical mask is his symbol\nAssociated with the concept of destroying normal boundaries and social order through ecstasy and intoxication\nThe cult of Dionysus was among the most emotionally intense in ancient Greece; his mysteries were celebrated at night",
+          "cardFront": "God of wine, theater, ecstasy; satyrs and maenads",
+          "cardBack": "Dionysus (Roman: Bacchus)"
+        },
+        {
+          "id": "hephaestus",
+          "prompt": "In Greek mythology, who is the god of fire and the forge, the divine blacksmith of the gods, and the only Olympian with a physical disability?",
+          "answer": "Hephaestus",
+          "alternates": ["Hephaistos", "Vulcan"],
+          "explanation": "God of fire, metalworking, and craftsmanship in Greek mythology; Roman equivalent is Vulcan\nLame from birth (or thrown from Olympus and disabled in the fall, depending on the version)\nForged the weapons and palaces of the gods: Achilles's armor, Hermes's winged sandals, Zeus's thunderbolts\nMarried to Aphrodite, who was famously unfaithful with Ares; Hephaestus trapped them in a golden net\nHis workshop is associated with volcanoes; the word 'volcano' comes from the Roman name Vulcan\nDespite his ugliness, he was the most skilled craftsman in the universe; a symbol of skill triumphing over appearance",
+          "cardFront": "Divine blacksmith; god of fire and forge; lame Olympian",
+          "cardBack": "Hephaestus (Roman: Vulcan)"
+        },
+        {
+          "id": "hermes",
+          "prompt": "In Greek mythology, who is the messenger of the gods, conductor of souls to the underworld, and god of trade, thieves, and travelers, depicted with winged sandals and a caduceus?",
+          "answer": "Hermes",
+          "alternates": ["Mercury"],
+          "explanation": "Messenger of the gods and psychopomp (guide of souls to the underworld) in Greek mythology; Roman equivalent is Mercury\nSon of Zeus and the nymph Maia; born in a cave on Mount Cyllene and stole Apollo's cattle on the very day of his birth\nWears winged sandals (talaria) and winged helmet; carries the caduceus (a staff entwined with two serpents)\nGod of boundaries, travel, commerce, thieves, and eloquence; patron of merchants and messengers\nThe caduceus (Hermes's staff) is often mistakenly used as a symbol of medicine; the correct medical symbol is the Rod of Asclepius (one serpent)\nAlso the inventor of the lyre, which he traded to Apollo in exchange for the cattle he had stolen",
+          "cardFront": "Messenger god; caduceus; winged sandals; guide of souls",
+          "cardBack": "Hermes (Roman: Mercury)"
+        },
+        {
+          "id": "ares-mars",
+          "prompt": "What is the Roman name for the Greek god of war, Ares?",
+          "answer": "Mars",
+          "alternates": [],
+          "explanation": "Ares (Greek) = Mars (Roman); god of war, bloodshed, and violence\nSon of Zeus and Hera; the most warlike but least liked of the Olympians \u2014 even his father Zeus called him hateful\nHad an affair with Aphrodite (Venus), goddess of love; they were caught in Hephaestus's golden net\nAres was worshipped more in Sparta than Athens; considered brutal and impulsive vs. Athena's strategic warfare\nThe planet Mars is named after him; the month of March (Martius) also derives from Mars\nMars was considerably more important in Roman religion than Ares was in Greek \u2014 as father of Romulus, he was the divine ancestor of Rome",
+          "cardFront": "Ares \u2014 god of war (Greek name)",
+          "cardBack": "Mars (Roman)"
+        },
+        {
+          "id": "aphrodite-venus",
+          "prompt": "What is the Roman name for the Greek goddess of love and beauty, Aphrodite?",
+          "answer": "Venus",
+          "alternates": [],
+          "explanation": "Aphrodite (Greek) = Venus (Roman); goddess of love, beauty, pleasure, and procreation\nBorn from the sea foam where the severed genitals of the god Uranus fell; emerged fully-grown near Cyprus\nMarried to Hephaestus but famous for her affair with Ares; also loved the mortal Adonis\nMother of Eros (Cupid in Roman mythology), the god of love who shoots golden arrows\nThe Trojan War was triggered in part by Aphrodite: she promised Paris the most beautiful woman (Helen) as a bribe in the Judgment of Paris\n*The Birth of Venus* (c. 1484\u20131486) by Sandro Botticelli is among the most famous paintings in Western art",
+          "cardFront": "Aphrodite \u2014 goddess of love and beauty (Greek name)",
+          "cardBack": "Venus (Roman)"
+        },
+        {
+          "id": "artemis-diana",
+          "prompt": "What is the Roman name for the Greek goddess of the hunt, wilderness, and the moon, Artemis, the twin sister of Apollo?",
+          "answer": "Diana",
+          "alternates": [],
+          "explanation": "Artemis (Greek) = Diana (Roman); goddess of the hunt, wilderness, and the moon\nTwin sister of Apollo; both children of Zeus and Leto\nVirgin goddess who swore never to marry; punished those who violated her chastity or hunting grounds with extreme harshness\nActaeon the hunter accidentally saw her bathing; she transformed him into a stag and his own hounds tore him apart\nDepicted with a bow and arrows, accompanied by a deer or a hunting dog\nWorshipped in the great Temple of Artemis at Ephesus \u2014 one of the Seven Wonders of the Ancient World",
+          "cardFront": "Artemis \u2014 goddess of the hunt, moon; Apollo's twin (Greek name)",
+          "cardBack": "Diana (Roman)"
+        },
+        {
+          "id": "apollo",
+          "prompt": "Which Olympian god, the same in both Greek and Roman mythology, is the god of the sun, music, poetry, prophecy, and healing, associated with the Oracle at Delphi?",
+          "answer": "Apollo",
+          "alternates": [],
+          "explanation": "One of the few Olympian gods with the same name in both Greek and Roman mythology (no Latin equivalent name)\nGod of the sun, light, music, poetry, truth, prophecy, and healing; twin brother of Artemis\nThe Oracle at Delphi (the Pythia) spoke Apollo's prophecies; her utterances shaped Greek politics for centuries\nKilled the serpent Python at Delphi; the Pythian Games were held in his honor\nHis lyre was given to him by Hermes (who invented it using a tortoise shell)\nDepicted as eternally youthful and beautiful; the 'ideal' of male beauty in Greek sculpture; associated with reason and order as a counterpart to Dionysus's chaos",
+          "cardFront": "God of sun, music, prophecy; Oracle at Delphi (same Greek/Roman name)",
+          "cardBack": "Apollo"
+        },
+        {
+          "id": "demeter-ceres",
+          "prompt": "What is the Roman name for the Greek goddess of the harvest and agriculture, Demeter, whose daughter's abduction by Hades causes the seasons?",
+          "answer": "Ceres",
+          "alternates": [],
+          "explanation": "Demeter (Greek) = Ceres (Roman); goddess of the harvest, grain, and agriculture\nHer daughter Persephone was abducted by Hades; Demeter's grief caused all crops to die (winter)\nZeus negotiated Persephone's partial return: she spends 2/3 of the year with Demeter (spring/summer) and 1/3 with Hades (autumn/winter)\nThe Eleusinian Mysteries \u2014 secret initiatory rites held annually near Athens \u2014 celebrated Demeter and Persephone\nThe word 'cereal' derives from Ceres; she held the grain sheaf as her symbol\nIn Roman religion, Ceres was particularly associated with the plebeian class, whose temple stood on the Aventine Hill",
+          "cardFront": "Demeter \u2014 goddess of harvest; Persephone's mother (Greek name)",
+          "cardBack": "Ceres (Roman)"
+        },
+        {
+          "id": "theseus",
+          "prompt": "Which Greek hero sailed to Crete, killed the Minotaur in the Labyrinth using Ariadne's thread to find his way out, and later founded or reformed the city of Athens?",
+          "answer": "Theseus",
+          "alternates": [],
+          "explanation": "Athenian hero-king; son of Aegeus (king of Athens) and, by some accounts, also of Poseidon\nThe Minotaur (half-man, half-bull) lived in a labyrinth built by Daedalus; Athens sent tribute of seven youths and seven maidens to be devoured annually\nAriadne, daughter of King Minos of Crete, fell in love with Theseus and gave him a thread to follow back out; he killed the Minotaur and escaped\nAbandoned Ariadne on the island of Naxos; forgot to change his ship's sails from black to white \u2014 his father Aegeus, seeing black sails, threw himself into the sea (the Aegean Sea)\nLater united the city-states of Attica into a single Athens; credited with founding Athenian democracy\nParallel hero to Heracles (Hercules) in the canon of Greek mythology",
+          "cardFront": "Killed the Minotaur; Ariadne's thread; founded Athens",
+          "cardBack": "Theseus"
+        },
+        {
+          "id": "heracles",
+          "prompt": "Which Greek hero, son of Zeus and the mortal Alcmene, completed twelve labors including killing the Nemean Lion, the Lernaean Hydra, and capturing Cerberus?",
+          "answer": "Heracles",
+          "alternates": ["Hercules", "Herakles"],
+          "explanation": "Greatest of the Greek heroes; son of Zeus and the mortal Alcmene; known as Hercules in Roman mythology\nThe Twelve Labors were imposed by King Eurystheus as penance for killing his own family in a fit of madness sent by Hera (who hated him as Zeus's illegitimate son)\nLabors include: slaying the Nemean Lion (wore its pelt thereafter), killing the Lernaean Hydra, cleaning the Augean stables, capturing Cerberus (the three-headed dog)\nPossessed superhuman strength; his club and lion-skin are his iconic attributes\nDied from a poisoned shirt sent by his wife Deianira, who had been tricked into thinking it would ensure his fidelity\nApotheosized (became a god) after death; the only mortal to achieve full Olympian status",
+          "cardFront": "Twelve Labors; superhuman strength; son of Zeus",
+          "cardBack": "Heracles (Roman: Hercules)"
+        },
+        {
+          "id": "odysseus",
+          "prompt": "Which Greek hero, known for his cunning rather than strength, is the protagonist of Homer's *Odyssey* and spent ten years trying to return home to Ithaca after the Trojan War?",
+          "answer": "Odysseus",
+          "alternates": ["Ulysses"],
+          "explanation": "Hero of Homer's *Odyssey* (c. 8th century BC); called Ulysses in Latin/Roman tradition\nKing of Ithaca; husband of Penelope; father of Telemachus\nTrapped by Calypso on her island, blinded the Cyclops Polyphemus (son of Poseidon), navigated Scylla and Charybdis, resisted the Sirens\nDevised the Trojan Horse \u2014 the stratagem that ended the Trojan War after ten years of siege\nPenelope, waiting for his return, unraveled her weaving each night to stall her suitors' demands for marriage\nReturned home in disguise and, with Telemachus, killed all 108 suitors in the great hall\nHis name ('he who causes pain' or 'he who is hated') is fitting \u2014 Poseidon prolonged his journey as revenge for blinding Polyphemus",
+          "cardFront": "Ten-year voyage home from Troy; cunning hero; Trojan Horse",
+          "cardBack": "Odysseus (Roman: Ulysses)"
+        },
+        {
+          "id": "achilles",
+          "prompt": "Which Greek hero of the Trojan War was the greatest warrior, but was invulnerable everywhere except his heel, where his mother Thetis held him when dipping him in the River Styx?",
+          "answer": "Achilles",
+          "alternates": [],
+          "explanation": "Central hero of Homer's *Iliad* (c. 8th century BC); son of the Nereid Thetis and the mortal Peleus\nHis rage at Agamemnon and subsequent withdrawal from battle \u2014 then his grief-driven return after Patroclus is killed \u2014 are the *Iliad*'s central arc\nKilled Hector (Troy's greatest warrior) to avenge Patroclus; then was killed himself by an arrow in his heel shot by Paris (guided by Apollo)\nThetis dipped him in the Styx to make him invulnerable; the one spot she held \u2014 his heel \u2014 remained mortal\nThe 'Achilles tendon' is named after him; an 'Achilles heel' means a hidden fatal weakness\nChose a short glorious life over a long obscure one; told Odysseus in the underworld he would rather be a living serf than king of the dead",
+          "cardFront": "Greatest Trojan War warrior; invulnerable except his heel",
+          "cardBack": "Achilles"
+        },
+        {
+          "id": "perseus",
+          "prompt": "Which Greek hero slew the Gorgon Medusa by using a mirrored shield to avoid her petrifying gaze, then rescued the princess Andromeda from a sea monster?",
+          "answer": "Perseus",
+          "alternates": [],
+          "explanation": "Son of Zeus and the mortal Danaë; raised on the island of Seriphos\nEquipped by the gods: Athena gave him a mirrored shield, Hermes gave winged sandals and the adamantine sickle, the Graeae (three sisters sharing one eye) were tricked into giving him Medusa's location\nMediate's head turned onlookers to stone \u2014 Perseus used the reflection in his shield; decapitated her while looking away\nFrom Medusa's neck sprang the winged horse Pegasus and the giant Chrysaor\nRescued Andromeda from the sea monster Cetus (sent by Poseidon at Cassiopeia's boast that Andromeda was more beautiful than the Nereids)\nMarried Andromeda; founded the city of Mycenae; was the great-grandfather of Heracles",
+          "cardFront": "Slew Medusa with mirrored shield; rescued Andromeda",
+          "cardBack": "Perseus"
+        },
+        {
+          "id": "daedalus",
+          "prompt": "Which master craftsman built the Labyrinth of Crete, then fashioned wings of feathers and wax for himself and his son Icarus to escape from the island?",
+          "answer": "Daedalus",
+          "alternates": [],
+          "explanation": "The greatest mortal craftsman in Greek mythology; Athenian, but exiled for killing a nephew out of jealousy of his talent\nBuilt the Labyrinth at the command of King Minos to house the Minotaur; then Minos imprisoned him (and Icarus) to prevent the secret from spreading\nHe fashioned wings from feathers and beeswax; warned Icarus not to fly too low (sea spray) or too high (sun)\nIcarus flew too high; the wax melted and he plunged into the sea \u2014 the Icarian Sea (near the island Ikaria) is named for him\nDaedalus reached Sicily safely; Minos pursued him and was killed by the daughters of King Cocalus who poured boiling water on him\nHis name is the origin of the English word 'dedal' (intricate, skillful) and the adjective 'Daedalian'",
+          "cardFront": "Master craftsman; built the Labyrinth; father of Icarus",
+          "cardBack": "Daedalus"
+        },
+        {
+          "id": "prometheus",
+          "prompt": "Which Titan was punished by Zeus for stealing fire from the gods and giving it to humanity \u2014 chained to a rock while an eagle ate his liver daily, only for it to regrow each night?",
+          "answer": "Prometheus",
+          "alternates": [],
+          "explanation": "A Titan (pre-Olympian god) in Greek mythology; name means 'forethought'\nCreated humanity from clay in some versions; in all versions is humanity's great benefactor and champion against the gods\nZeus had withheld fire from humans; Prometheus stole it from Hephaestus's forge (or from Zeus's chariot) and gave it to mortals\nZeus chained him to Mount Caucasus; an eagle (or vulture) ate his regenerating liver every day\nFinally freed by Heracles, who killed the eagle\nMary Shelley subtitled *Frankenstein* (1818) 'The Modern Prometheus'; Percy Shelley wrote *Prometheus Unbound* (1820)\nA symbol of revolutionary defiance against oppressive authority and the gift of knowledge to ordinary people",
+          "cardFront": "Stole fire from gods; tortured by eagle; eternal rebel",
+          "cardBack": "Prometheus"
+        },
+        {
+          "id": "midas",
+          "prompt": "Which legendary king of Phrygia was granted the power to turn everything he touched into gold by the god Dionysus, only to discover the gift was a curse?",
+          "answer": "Midas",
+          "alternates": ["King Midas"],
+          "explanation": "King of Phrygia in Asia Minor; a historical Phrygian king named Midas existed c. 738\u2013696 BC, though the myth is legendary\nGranted his wish by Dionysus as a reward for returning the satyr Silenus; turned food, drink, and his beloved daughter to gold\nDionysus told him to wash in the Pactolus River to undo the curse; the river's sands became rich in gold\nA second famous Midas myth: given donkey's ears by Apollo for judging Pan's music superior; his barber whispered the secret into a hole in the ground, from which reeds grew and the wind carried the secret\n'The Midas touch' = an ability to make money from everything; the 'golden touch' is a universal metaphor",
+          "cardFront": "King of Phrygia; everything he touched turned to gold",
+          "cardBack": "Midas"
+        }
+      ]
+    }
+  ]
+}

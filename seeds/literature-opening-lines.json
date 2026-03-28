@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "literature/opening-lines",
+      "parentId": "literature",
+      "name": "Opening Lines",
+      "description": "Famous first lines of novels and works of literature"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "literature/opening-lines/identify-the-work",
+      "nodeId": "literature/opening-lines",
+      "name": "Famous Opening Lines \u2014 Identify the Work",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "call-me-ishmael",
+          "prompt": "Which novel begins with the sentence 'Call me Ishmael'?",
+          "answer": "Moby-Dick",
+          "alternates": ["Moby Dick", "Moby-Dick; or, The Whale"],
+          "explanation": "Opening line of Herman Melville's *Moby-Dick* (1851); the most famous opening in American literature\nIshmael is the narrator; the name is biblical (son of Abraham, outcast) and signals the theme of alienation\nThe actual first sentence technically in some editions is longer, but 'Call me Ishmael' stands alone as the canonical opener\nMelville published the novel to commercial failure; it was rediscovered in the 1920s\nThe novel's last line is equally famous: '...and the great shroud of the sea rolled on as it rolled five thousand years ago'",
+          "cardFront": "'Call me Ishmael.'",
+          "cardBack": "Moby-Dick"
+        },
+        {
+          "id": "best-of-times",
+          "prompt": "Which Dickens novel begins 'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness'?",
+          "answer": "A Tale of Two Cities",
+          "alternates": ["Tale of Two Cities"],
+          "explanation": "Opening of Charles Dickens's *A Tale of Two Cities* (1859); set during the French Revolution in London and Paris\nThe sentence continues for six more balanced contrasts ('it was the epoch of belief, it was the epoch of incredulity...') and ends: 'in short, the period was so far like the present period'\nOne of the best-selling novels of all time with an estimated 200 million copies sold\nContains Sydney Carton's famous last words: 'It is a far, far better thing that I do, than I have ever done'\nPublished as a serial in Dickens's own journal *All the Year Round* (1859)",
+          "cardFront": "'It was the best of times, it was the worst of times...'",
+          "cardBack": "A Tale of Two Cities"
+        },
+        {
+          "id": "happy-families",
+          "prompt": "Which Tolstoy novel begins 'Happy families are all alike; every unhappy family is unhappy in its own way'?",
+          "answer": "Anna Karenina",
+          "alternates": [],
+          "explanation": "Opening of Leo Tolstoy's *Anna Karenina* (1878); published serially 1875\u20131877\nThe novel follows the doomed affair of the married Anna Karenina and the cavalry officer Count Vronsky\nAnna throws herself under a train at the end \u2014 one of literature's most famous tragic endings\nThe opening line (known as the 'Tolstoy principle' in social science) has generated significant academic debate about whether it's actually true\nTolstoy considered *Anna Karenina* his first true novel; he dismissed *War and Peace* as 'not a novel'",
+          "cardFront": "'Happy families are all alike; every unhappy family is unhappy in its own way.'",
+          "cardBack": "Anna Karenina"
+        },
+        {
+          "id": "truth-universally-acknowledged",
+          "prompt": "Which Austen novel begins 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife'?",
+          "answer": "Pride and Prejudice",
+          "alternates": [],
+          "explanation": "Opening of Jane Austen's *Pride and Prejudice* (1813); one of the most quoted sentences in English literature\nThe irony is immediate: the 'truth' is clearly held by Mrs. Bennet, not the universe; the sentence mocks her obsession with marrying off her daughters\nFollows Elizabeth Bennet and Mr. Darcy in the prototypical enemies-to-lovers romance\nOriginal working title was *First Impressions*, submitted to a publisher in 1797 and rejected unread\nAusten published all six novels anonymously, credited only to 'A Lady'",
+          "cardFront": "'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.'",
+          "cardBack": "Pride and Prejudice"
+        },
+        {
+          "id": "clocks-striking-thirteen",
+          "prompt": "Which novel begins 'It was a bright cold day in April, and the clocks were striking thirteen'?",
+          "answer": "1984",
+          "alternates": ["Nineteen Eighty-Four"],
+          "explanation": "Opening of George Orwell's *1984* (1949); 'striking thirteen' immediately signals a world where normal reality has been distorted\nOrwell's real name was Eric Arthur Blair; written on the Scottish island of Jura while dying of tuberculosis\nIntroduced 'Big Brother,' 'doublethink,' 'Newspeak,' and 'Room 101' into the English language\nSales spiked after the Snowden leaks in 2013 and again in 2017 after the 'alternative facts' controversy\nThe title comes from reversing the last two digits of 1948, the year Orwell completed the manuscript",
+          "cardFront": "'It was a bright cold day in April, and the clocks were striking thirteen.'",
+          "cardBack": "1984"
+        },
+        {
+          "id": "manderley",
+          "prompt": "Which gothic novel begins 'Last night I dreamt I went to Manderley again'?",
+          "answer": "Rebecca",
+          "alternates": [],
+          "explanation": "Opening of Daphne du Maurier's *Rebecca* (1938); the narrator is the unnamed second wife of widower Maxim de Winter\nManderley is the imposing Cornwall estate haunted by the memory of the first wife, Rebecca\nThe narrator is never named in the entire novel \u2014 a deliberate technique to show how thoroughly she is overshadowed\nAlfred Hitchcock's 1940 film adaptation won the Academy Award for Best Picture\nSold over 3 million copies in its first decade; still in print continuously since publication",
+          "cardFront": "'Last night I dreamt I went to Manderley again.'",
+          "cardBack": "Rebecca"
+        },
+        {
+          "id": "gregor-samsa",
+          "prompt": "Which novella begins 'As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect'?",
+          "answer": "The Metamorphosis",
+          "alternates": ["Die Verwandlung", "Metamorphosis"],
+          "explanation": "Opening of Franz Kafka's *The Metamorphosis* (*Die Verwandlung*, 1915); published in German\nKafka never specifies the insect; the German 'Ungeziefer' means 'vermin' \u2014 the word 'insect' is a translator's interpretation\nGregor continues thinking about work even after his transformation; the horror is his family's cold rejection more than the transformation itself\nKafka asked his friend Max Brod to burn all his manuscripts after his death; Brod published them instead\nKafka died of tuberculosis in 1924 at age 40, never knowing his posthumous fame\nThe word 'Kafkaesque' (denoting absurd, nightmarish bureaucracy) entered English as a direct result of this and related works",
+          "cardFront": "'...he found himself transformed in his bed into a gigantic insect.'",
+          "cardBack": "The Metamorphosis"
+        },
+        {
+          "id": "firing-squad",
+          "prompt": "Which novel begins 'Many years later, as he faced the firing squad, General Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice'?",
+          "answer": "One Hundred Years of Solitude",
+          "alternates": ["Cien años de soledad", "100 Years of Solitude"],
+          "explanation": "Opening of Gabriel Garc\u00eda M\u00e1rquez's *One Hundred Years of Solitude* (1967); the defining sentence of magical realism\nThe ice is an astonishing novelty in the tropical village of Macondo; the juxtaposition of firing squad and wonder sets the novel's entire tone\nGarc\u00eda M\u00e1rquez reportedly said the entire novel came to him fully formed when he heard this first sentence in his head; he turned his car around and wrote for 18 months\nSold 30+ million copies in 35+ languages; first Latin American novel to win the Booker International Prize\nGarc\u00eda M\u00e1rquez won the Nobel Prize in Literature in 1982",
+          "cardFront": "'...as he faced the firing squad, General Aureliano Buend\u00eda was to remember that distant afternoon when his father took him to discover ice.'",
+          "cardBack": "One Hundred Years of Solitude"
+        },
+        {
+          "id": "lolita",
+          "prompt": "Which Nabokov novel begins 'Lolita, light of my life, fire of my loins. Lo-lee-ta'?",
+          "answer": "Lolita",
+          "alternates": [],
+          "explanation": "Opening of Vladimir Nabokov's *Lolita* (1955); the alliterative triple is among the most famous openings in 20th-century fiction\nThe narrator Humbert Humbert is a pedophile whose ornate prose style is designed to seduce the reader as well as his victim\nNabokov deliberately makes Humbert charming and Lolita's perspective invisible \u2014 the reader must work to recognize the abuse\nRefused by four American publishers; first published by the Olympia Press in Paris (which specialized in erotica); eventually published by Putnam in the U.S. in 1958 to enormous sales\nNabokov was a lepidopterist (butterfly expert) and composed the novel in English, his third language after Russian and French",
+          "cardFront": "'Lolita, light of my life, fire of my loins.'",
+          "cardBack": "Lolita"
+        },
+        {
+          "id": "all-this-happened",
+          "prompt": "Which Vonnegut novel begins 'All this happened, more or less'?",
+          "answer": "Slaughterhouse-Five",
+          "alternates": ["Slaughterhouse Five", "Slaughterhouse-5"],
+          "explanation": "Opening of Kurt Vonnegut's *Slaughterhouse-Five* (1969); the casual qualifier 'more or less' immediately signals the novel's relationship with fact and fiction\nSubtitled *The Children's Crusade: A Duty-Dance with Death*; based on Vonnegut's own survival of the firebombing of Dresden as a POW\nFeaturing time-traveler Billy Pilgrim and the phrase 'So it goes' after every mention of death \u2014 used 106 times\nThe novel ends with the direct statement 'I was there' \u2014 Vonnegut himself appears as a character\nBanned from many U.S. school districts; one school board burned copies in 1973 (an action Vonnegut wrote about mordantly)",
+          "cardFront": "'All this happened, more or less.'",
+          "cardBack": "Slaughterhouse-Five"
+        },
+        {
+          "id": "stately-plump-buck-mulligan",
+          "prompt": "Which Joyce novel begins 'Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed'?",
+          "answer": "Ulysses",
+          "alternates": [],
+          "explanation": "Opening of James Joyce's *Ulysses* (1922); the novel is set entirely on a single day, June 16, 1904\nBuck Mulligan is based on Oliver St John Gogarty, with whom Joyce shared a Martello tower in Sandycove \u2014 the setting of this opening\nJune 16 is celebrated annually as 'Bloomsday' in Dublin; fans re-enact Leopold Bloom's journey through the city\nBanned in the U.S. for obscenity until the 1933 landmark court ruling *United States v. One Book Called Ulysses*\nRanked #1 on the Modern Library's list of the 100 Best English-Language Novels of the 20th Century",
+          "cardFront": "'Stately, plump Buck Mulligan came from the stairhead...'",
+          "cardBack": "Ulysses"
+        },
+        {
+          "id": "124-was-spiteful",
+          "prompt": "Which Toni Morrison novel begins '124 was spiteful. Full of a baby's venom'?",
+          "answer": "Beloved",
+          "alternates": [],
+          "explanation": "Opening of Toni Morrison's *Beloved* (1987); '124' is the address of the haunted house where the novel begins\nThe number 124 appears as each chapter opens, changing from 'spiteful' to 'loud' to 'quiet' as the haunting evolves\nBased on the true story of Margaret Garner, an enslaved woman who killed her daughter rather than let her be returned to slavery\nWon the Pulitzer Prize for Fiction in 1988; Morrison won the Nobel Prize in Literature in 1993\nIn a 2006 *New York Times* survey, named the best American novel of the past 25 years",
+          "cardFront": "'124 was spiteful. Full of a baby's venom.'",
+          "cardBack": "Beloved"
+        },
+        {
+          "id": "color-of-television",
+          "prompt": "Which William Gibson novel begins 'The sky above the port was the color of television, tuned to a dead channel'?",
+          "answer": "Neuromancer",
+          "alternates": [],
+          "explanation": "Opening of William Gibson's *Neuromancer* (1984); the definitive opening line of cyberpunk fiction\nCoined the term 'cyberspace' and introduced the concept of 'the matrix' (a virtual reality network) years before the internet was widely used\nFirst novel to win the Hugo, Nebula, and Philip K. Dick Awards \u2014 the triple crown of science fiction\nThe grey static of a dead TV channel stood for alienation and information overload in 1984; a generation raised on screens now may read it as simply 'grey'\nGibson has said the line came to him as a precise observation; he was living in Vancouver and working on a manual typewriter",
+          "cardFront": "'The sky above the port was the color of television, tuned to a dead channel.'",
+          "cardBack": "Neuromancer"
+        },
+        {
+          "id": "adventures-of-tom-sawyer",
+          "prompt": "Which Twain novel begins 'You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter'?",
+          "answer": "Adventures of Huckleberry Finn",
+          "alternates": ["Huckleberry Finn", "The Adventures of Huckleberry Finn"],
+          "explanation": "Opening of Mark Twain's *Adventures of Huckleberry Finn* (1884); the narrator Huck directly addresses the reader in his own vernacular voice\nThe opening immediately establishes Huck's authentic dialect and self-awareness \u2014 he is not a reliable educated narrator\nErnest Hemingway wrote: 'All modern American literature comes from one book by Mark Twain called *Huckleberry Finn*'\nFrequently banned in American schools, both in the 19th century for being 'low' and in the 20th for its racial language\nCovers Huck and Jim's journey down the Mississippi River; a sustained critique of slavery and Southern society",
+          "cardFront": "'You don't know about me without you have read a book by the name of *The Adventures of Tom Sawyer*...'",
+          "cardBack": "Adventures of Huckleberry Finn"
+        },
+        {
+          "id": "younger-and-more-vulnerable",
+          "prompt": "Which Fitzgerald novel begins 'In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since'?",
+          "answer": "The Great Gatsby",
+          "alternates": ["Great Gatsby"],
+          "explanation": "Opening of F. Scott Fitzgerald's *The Great Gatsby* (1925); narrated by Nick Carraway, who recalls Gatsby's story years later\nNick's father tells him to remember that 'a sense of the fundamental decencies is parcelled out unequally at birth' \u2014 a loaded observation for a novel about class\nPublished to mixed reviews and modest sales; became a canonical American novel only after WWII when Armed Services editions circulated widely\nThe green light at the end of Daisy's dock \u2014 symbol of Gatsby's longing \u2014 is one of literature's most analyzed images\nFitzgerald coined the term 'Jazz Age'; he died in 1940 at 44, believing himself a failure",
+          "cardFront": "'In my younger and more vulnerable years my father gave me some advice...'",
+          "cardBack": "The Great Gatsby"
+        }
+      ]
+    }
+  ]
+}

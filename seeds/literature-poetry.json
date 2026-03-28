@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "literature/poetry",
+      "parentId": "literature",
+      "name": "Poetry",
+      "description": "Famous poems and their poets"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "literature/poetry/poem-to-poet",
+      "nodeId": "literature/poetry",
+      "name": "Famous Poems \u2014 Poet Matching",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "road-not-taken",
+          "prompt": "Who wrote 'The Road Not Taken' (1916), which contains the lines 'Two roads diverged in a yellow wood' and 'I took the one less traveled by'?",
+          "answer": "Robert Frost",
+          "alternates": ["Frost"],
+          "explanation": "Published 1916 in *Mountain Interval*; Frost's most famous poem, though widely misread\nMost readers take it as a celebration of nonconformity; Frost intended it as gentle mockery of a friend (Edward Thomas) who always second-guessed his choices\nFour-time Pulitzer Prize winner (1924, 1931, 1937, 1943) \u2014 more than any other American poet\nRead a poem at John F. Kennedy's 1961 inauguration \u2014 the first poet to participate in a U.S. presidential inauguration\nDied 1963 at age 88; born in San Francisco but associated entirely with rural New England\nAlso wrote 'Stopping by Woods on a Snowy Evening,' 'Mending Wall,' 'Fire and Ice,' and 'Birches'",
+          "cardFront": "'The Road Not Taken' (1916)",
+          "cardBack": "Robert Frost"
+        },
+        {
+          "id": "the-waste-land",
+          "prompt": "Who wrote 'The Waste Land' (1922), the landmark Modernist poem that opens 'April is the cruellest month'?",
+          "answer": "T.S. Eliot",
+          "alternates": ["Eliot", "Thomas Stearns Eliot", "T. S. Eliot"],
+          "explanation": "Published October 1922 in *The Criterion*; widely considered the most important English-language poem of the 20th century\nFive-part, 434-line poem dense with allusions to Dante, the Bible, Shakespeare, Sanskrit, and dozens more\nEzra Pound heavily edited the manuscript, cutting it roughly in half; Eliot dedicated it to Pound as 'il miglior fabbro' ('the better craftsman')\n'April is the cruellest month' deliberately inverts Chaucer's opening to *The Canterbury Tales* ('Whan that Aprill with his shoures soote')\nWon the Nobel Prize in Literature in 1948; born in St. Louis but became a British citizen\n*Old Possum's Book of Practical Cats* (1939) became Andrew Lloyd Webber's musical *Cats* (1981)",
+          "cardFront": "'The Waste Land' (1922)",
+          "cardBack": "T.S. Eliot"
+        },
+        {
+          "id": "howl",
+          "prompt": "Who wrote 'Howl' (1956), the Beat Generation poem that begins 'I saw the best minds of my generation destroyed by madness, starving hysterical naked'?",
+          "answer": "Allen Ginsberg",
+          "alternates": ["Ginsberg"],
+          "explanation": "Published 1956 in *Howl and Other Poems* by City Lights Bookshop; defining text of the Beat Generation\nPublisher Lawrence Ferlinghetti was arrested for obscenity in 1957; his acquittal was a landmark First Amendment victory\nDedicated to Carl Solomon, whom Ginsberg met in a psychiatric hospital \u2014 the poem chronicles the destruction of talented people by conformist society\nFirst read publicly at the Six Gallery reading in San Francisco, 1955, alongside Philip Whalen, Gary Snyder, and Michael McClure\nFounding figure of the Beat movement alongside Jack Kerouac and William S. Burroughs\nAlso wrote 'Kaddish' (1961), an elegy for his mother Naomi, and 'America' (1956)",
+          "cardFront": "'Howl' (1956)",
+          "cardBack": "Allen Ginsberg"
+        },
+        {
+          "id": "the-raven",
+          "prompt": "Who wrote 'The Raven' (1845), the narrative poem with the refrain 'Quoth the Raven, Nevermore'?",
+          "answer": "Edgar Allan Poe",
+          "alternates": ["Poe", "E.A. Poe"],
+          "explanation": "Published January 1845 in the *New York Evening Mirror*; made Poe immediately famous across the United States\nA grieving man is visited by a raven that only says 'Nevermore'; the refrain drives him to madness thinking of his lost love Lenore\nPoe described his compositional method in 'The Philosophy of Composition' (1846): every decision was calculated for psychological effect\nPoe also invented the detective story with 'The Murders in the Rue Morgue' (1841) and pioneered American horror fiction\nDied in Baltimore in 1849 at age 40 under mysterious circumstances \u2014 possibly rabies, election 'cooping,' or alcohol\nAlso wrote 'Annabel Lee,' 'The Bells,' 'Eldorado,' and the story 'The Fall of the House of Usher'",
+          "cardFront": "'The Raven' (1845)",
+          "cardBack": "Edgar Allan Poe"
+        },
+        {
+          "id": "do-not-go-gentle",
+          "prompt": "Who wrote 'Do Not Go Gentle into That Good Night' (published 1951), the villanelle with the refrain 'Rage, rage against the dying of the light'?",
+          "answer": "Dylan Thomas",
+          "alternates": ["Thomas"],
+          "explanation": "Written c. 1947, published 1951 in *In Country Sleep and Other Poems*; Thomas's most celebrated poem\nA villanelle \u2014 a strict 19-line form with two refrains \u2014 addressed to his dying father, David John Thomas\nUrges his father to resist death with full intensity rather than accepting it peacefully\nUsed in films including Christopher Nolan's *Interstellar* (2014), where Michael Caine's character recites it\nWelsh poet known for rich musical language; also wrote *Under Milk Wood* (1954), a radio play set in a Welsh coastal village\nDied in New York, November 1953, aged 39, following a drinking session at the White Horse Tavern\nBob Dylan took his stage name from Dylan Thomas",
+          "cardFront": "'Do Not Go Gentle into That Good Night' (1951)",
+          "cardBack": "Dylan Thomas"
+        },
+        {
+          "id": "ozymandias",
+          "prompt": "Who wrote 'Ozymandias' (1818), the sonnet about a shattered desert statue with the inscription 'Look on my Works, ye Mighty, and despair!'?",
+          "answer": "Percy Bysshe Shelley",
+          "alternates": ["Shelley", "P.B. Shelley", "PBS"],
+          "explanation": "Published January 1818 in *The Examiner*; written as a friendly competition with Horace Smith, who wrote a rival sonnet on the same theme\nOzymandias is the Greek name for the Egyptian Pharaoh Ramesses II; inspired by a fragment of a colossal statue arriving at the British Museum\nThe contrast between the boastful inscription and the surrounding ruins became iconic for the futility of worldly power\nA Second Generation Romantic poet alongside Keats and Byron; expelled from Oxford for co-authoring *The Necessity of Atheism* (1811)\nDrowned 1822 at age 29 in a sailing accident in the Gulf of Spezia, Italy; Byron and Leigh Hunt cremated his body on the beach\nAlso wrote 'Ode to the West Wind' (1819), 'To a Skylark' (1820), and *Prometheus Unbound* (1820)",
+          "cardFront": "'Ozymandias' (1818)",
+          "cardBack": "Percy Bysshe Shelley"
+        },
+        {
+          "id": "ode-on-a-grecian-urn",
+          "prompt": "Who wrote 'Ode on a Grecian Urn' (1819), which ends with the lines 'Beauty is truth, truth beauty, \u2014 that is all / Ye know on earth, and all ye need to know'?",
+          "answer": "John Keats",
+          "alternates": ["Keats"],
+          "explanation": "Published January 1820 in *Annals of the Fine Arts*; one of Keats's five great odes written in 1819 \u2014 his most productive year\nThe urn depicts frozen scenes of pursuit and ceremony; Keats meditates on how art preserves beauty that life cannot sustain\n'Thou still unravish'd bride of quietness' \u2014 the opening line addressing the urn\nTrained as a surgeon but abandoned medicine for poetry; dismissed by some critics as a 'Cockney poet'\nDied of tuberculosis in Rome in February 1821 at age 25 \u2014 one of the shortest-lived major English poets\nFriend Percy Bysshe Shelley elegized him in *Adonais* (1821); Keats is buried in the Protestant Cemetery in Rome\nAlso wrote 'Ode to a Nightingale,' 'La Belle Dame sans Merci,' and 'To Autumn,' all from 1819",
+          "cardFront": "'Ode on a Grecian Urn' (1819)",
+          "cardBack": "John Keats"
+        },
+        {
+          "id": "because-i-could-not-stop-for-death",
+          "prompt": "Who wrote 'Because I could not stop for Death \u2013' (c. 1863), which personifies Death as a courtly carriage driver escorting the speaker to the grave?",
+          "answer": "Emily Dickinson",
+          "alternates": ["Dickinson"],
+          "explanation": "Written c. 1863; first published 1890 in *Poems*, a posthumous collection edited by Mabel Loomis Todd\nDeath is personified as a gentleman coachman riding with the speaker and 'Immortality' past schools, fields, and finally the grave\nDickinson wrote nearly 1,800 poems; only ~10 were published in her lifetime, most anonymously\nKnown for unconventional use of dashes, slant rhyme, and compressed imagery; stylistically unlike any 19th-century contemporary\nAlmost never left her Amherst, Massachusetts home as an adult; wore only white; maintained an extensive correspondence\nAlso wrote 'I heard a Fly buzz \u2013 when I died \u2013', 'Tell all the truth but tell it slant \u2013', and 'Hope is the thing with feathers'\nRanked alongside Walt Whitman as one of the two foundational figures of American poetry",
+          "cardFront": "'Because I could not stop for Death \u2013' (c. 1863)",
+          "cardBack": "Emily Dickinson"
+        },
+        {
+          "id": "song-of-myself",
+          "prompt": "Who wrote 'Song of Myself,' the long free-verse poem published in *Leaves of Grass* (1855), containing the line 'I am large, I contain multitudes'?",
+          "answer": "Walt Whitman",
+          "alternates": ["Whitman"],
+          "explanation": "Published 1855 in the first edition of *Leaves of Grass*; Whitman revised it through his lifetime, producing a final 'deathbed edition' in 1891\u20131892\n'I celebrate myself, and sing myself' \u2014 opening line; the poem is a sprawling celebration of the self, democracy, and America\nRalph Waldo Emerson called the first edition 'the most extraordinary piece of wit and wisdom that America has yet contributed'\nServed as a volunteer nurse during the Civil War, visiting Washington D.C. hospitals; documented in *Drum-Taps* (1865)\nAlso wrote 'O Captain! My Captain!' (1865, elegy for Lincoln) and 'When Lilacs Last in the Dooryard Bloom'd' (1865)\nConsidered the father of free verse in American poetry; his influence extends to virtually every subsequent American poet",
+          "cardFront": "'Song of Myself' (1855, in *Leaves of Grass*)",
+          "cardBack": "Walt Whitman"
+        },
+        {
+          "id": "prufrock",
+          "prompt": "Who wrote 'The Love Song of J. Alfred Prufrock' (1915), which begins 'Let us go then, you and I, / When the evening is spread out against the sky'?",
+          "answer": "T.S. Eliot",
+          "alternates": ["Eliot", "Thomas Stearns Eliot", "T. S. Eliot"],
+          "explanation": "Published 1915 in *Poetry* magazine; Eliot's first major published poem, written in his early twenties\nFollows the neurotic Prufrock as he deliberates about attending a social gathering; he never actually arrives\n'Do I dare to eat a peach?' and 'I have measured out my life with coffee spoons' \u2014 defining lines of Modernist alienation\n'I have heard the mermaids singing, each to each. / I do not think that they will sing to me' \u2014 concluding image of romantic defeat\nEzra Pound helped get it published after editor Harriet Monroe was reluctant about its unconventional form\nThe epigraph is from Dante's *Inferno* \u2014 Guido da Montefeltro speaks only because he believes the listener cannot escape hell to repeat it\nProposed the prototype of the modern anti-hero: paralyzed by self-consciousness and dread of social judgment",
+          "cardFront": "'The Love Song of J. Alfred Prufrock' (1915)",
+          "cardBack": "T.S. Eliot"
+        },
+        {
+          "id": "if",
+          "prompt": "Who wrote 'If\u2014' (1910), the poem of fatherly advice ending 'you'll be a Man, my son!'?",
+          "answer": "Rudyard Kipling",
+          "alternates": ["Kipling"],
+          "explanation": "Published 1910 in *Rewards and Fairies*; voted the UK's favorite poem in a 1995 BBC poll\nWritten as advice from a father to his son; models the qualities of the ideal English gentleman \u2014 stoicism, integrity, resilience\nEach stanza begins 'If you can...' followed by a virtue tested under difficult circumstances\nInspired in part by Dr. Leander Starr Jameson, leader of the failed Jameson Raid (1895) against the Boer South African Republic\nKipling was the first English-language writer to win the Nobel Prize in Literature (1907); also wrote *The Jungle Book* (1894)\nAlso wrote 'Gunga Din,' 'Mandalay,' and *Kim* (1901); long associated with British imperialism, his reputation has been reassessed\nFamous lines: 'If you can meet with Triumph and Disaster / And treat those two impostors just the same'",
+          "cardFront": "'If\u2014' (1910)",
+          "cardBack": "Rudyard Kipling"
+        },
+        {
+          "id": "the-second-coming",
+          "prompt": "Who wrote 'The Second Coming' (1919), which contains the lines 'Things fall apart; the centre cannot hold' and 'What rough beast, its hour come round at last, / Slouches towards Bethlehem to be born'?",
+          "answer": "W.B. Yeats",
+          "alternates": ["Yeats", "William Butler Yeats", "W. B. Yeats"],
+          "explanation": "Published 1919 in *The Dial* and collected in *Michael Robartes and the Dancer* (1921); written in the wake of WWI and the Russian Revolution\nDraws on Yeats's occult system of 'gyres' \u2014 spiraling historical cycles; 2,000 years of Christian civilization ending, a new 'rough beast' arriving\n'The best lack all conviction, while the worst / Are full of passionate intensity' \u2014 the most quoted lines from 20th-century poetry\nThe phrase 'Things fall apart' became the title of Chinua Achebe's 1958 novel\nWon the Nobel Prize in Literature in 1923; the only Irish poet to win it\nA leading figure of the Irish Literary Revival; also a senator of the Irish Free State and co-founder of the Abbey Theatre\nAlso wrote 'The Lake Isle of Innisfree,' 'Easter, 1916,' and 'Sailing to Byzantium'",
+          "cardFront": "'The Second Coming' (1919)",
+          "cardBack": "W.B. Yeats"
+        },
+        {
+          "id": "sonnet-18",
+          "prompt": "Who wrote Sonnet 18, which begins 'Shall I compare thee to a summer's day? / Thou art more lovely and more temperate'?",
+          "answer": "William Shakespeare",
+          "alternates": ["Shakespeare"],
+          "explanation": "One of 154 sonnets published in *Shakespeare's Sonnets* (1609)\nPromises the subject immortality through verse: 'So long as men can breathe, or eyes can see, / So long lives this, and this gives life to thee'\nPart of the 'Fair Youth' sequence (Sonnets 1\u2013126), addressed to an unnamed young man\nShakespeare's sonnets were likely written in the 1590s, circulated in manuscript, and published without his authorization\nSonnet 18 is among the most frequently recited and parodied poems in English\nAlso notable: Sonnet 130 ('My mistress' eyes are nothing like the sun') deliberately subverts the conventional praise sonnet",
+          "cardFront": "Sonnet 18 ('Shall I compare thee to a summer's day?')",
+          "cardBack": "William Shakespeare"
+        },
+        {
+          "id": "dulce-et-decorum-est",
+          "prompt": "Who wrote 'Dulce et Decorum Est' (published posthumously 1920), the WWI poem describing a gas attack and condemning the 'old Lie' that it is sweet and fitting to die for one's country?",
+          "answer": "Wilfred Owen",
+          "alternates": ["Owen"],
+          "explanation": "Written 1917\u20131918; published posthumously in *Poems* (1920) after Owen's death\n'Dulce et decorum est pro patria mori' (Latin: 'It is sweet and fitting to die for one's country') \u2014 from Horace; Owen calls this 'the old Lie'\nDescribes a chlorine or mustard gas attack during WWI, followed by a vivid image of a dying soldier\nOwen was killed in action on November 4, 1918, one week before the Armistice; he was 25 years old\nWrote most of his war poetry while recovering at Craiglockhart War Hospital, Edinburgh, where he met Siegfried Sassoon\nSassoon edited Owen's posthumous poems; the two are the defining British poets of WWI\nAlso wrote 'Anthem for Doomed Youth': 'What passing-bells for these who die as cattle?'",
+          "cardFront": "'Dulce et Decorum Est' (1920, posthumous)",
+          "cardBack": "Wilfred Owen"
+        },
+        {
+          "id": "the-tyger",
+          "prompt": "Who wrote 'The Tyger' (1794), the poem asking 'Tyger Tyger, burning bright, / In the forests of the night; / What immortal hand or eye, / Could frame thy fearful symmetry'?",
+          "answer": "William Blake",
+          "alternates": ["Blake"],
+          "explanation": "Published 1794 in *Songs of Experience*; companion piece to 'The Lamb' in *Songs of Innocence* (1789)\nThe tiger symbolizes the dark, ferocious forces of the universe; the poem asks whether the same God who made the innocent lamb could make this fearsome predator\nBlake was a visionary Romantic poet, painter, and printmaker who self-published his illuminated poetry books using an engraving process he developed\nAlmost entirely unrecognized in his lifetime; his reputation was largely posthumous\nAlso wrote 'Jerusalem' ('And did those feet in ancient time'), 'London,' and the long prophetic poems *Milton* and *Jerusalem*\nHis marriage was childless; he reportedly showed his wife Catherine visions he claimed to see; she learned to engrave to assist his printing\nRanked by many critics as the first and most original of the English Romantic poets",
+          "cardFront": "'The Tyger' (1794, *Songs of Experience*)",
+          "cardBack": "William Blake"
+        },
+        {
+          "id": "still-i-rise",
+          "prompt": "Who wrote 'Still I Rise' (1978), the defiant poem with the repeated affirmation 'I rise' asserting Black dignity against historical oppression?",
+          "answer": "Maya Angelou",
+          "alternates": ["Angelou"],
+          "explanation": "Published 1978 in *And Still I Rise*; became one of the defining poems of African American literature\nThe refrain 'Still I rise' / 'I rise' answers each stanza's description of oppression with triumph and resilience\nRead aloud by Michelle Obama at the 2021 U.S. Presidential Inauguration of Joe Biden\nAngelou was also a memoirist, most famous for *I Know Why the Caged Bird Sings* (1969)\nRead 'On the Pulse of Morning' at Bill Clinton's first inauguration (1993) \u2014 the first woman and first African American to write and deliver an inaugural poem\nNamed the Reynolds Professor of American Studies at Wake Forest University; held that position until her death in 2014 at age 86\nAlso wrote 'Phenomenal Woman' and 'Caged Bird'",
+          "cardFront": "'Still I Rise' (1978)",
+          "cardBack": "Maya Angelou"
+        },
+        {
+          "id": "charge-of-the-light-brigade",
+          "prompt": "Who wrote 'The Charge of the Light Brigade' (1854), commemorating the disastrous cavalry charge at the Battle of Balaclava with the line 'Into the valley of Death / Rode the six hundred'?",
+          "answer": "Alfred, Lord Tennyson",
+          "alternates": ["Tennyson", "Alfred Lord Tennyson", "Alfred Tennyson"],
+          "explanation": "Published December 9, 1854 in *The Examiner*; written within days of reading a newspaper report of the charge\nThe Light Brigade charged the wrong Russian artillery battery at Balaclava (October 25, 1854) due to confused orders; ~600 men rode into withering fire\n'Theirs not to reason why, / Theirs but to do and die' \u2014 the most quoted lines from the poem\nTennyson was Poet Laureate of the UK from 1850 until his death in 1892 \u2014 the longest tenure in the role\nAlso wrote 'In Memoriam A.H.H.' (1850, elegy for his friend Arthur Hallam), 'Ulysses,' and 'The Lady of Shalott'\nHis poem 'Crossing the Bar' (1889), written when he feared death was imminent, was played at his state funeral\n'Tis better to have loved and lost / Than never to have loved at all' is from *In Memoriam*",
+          "cardFront": "'The Charge of the Light Brigade' (1854)",
+          "cardBack": "Alfred, Lord Tennyson"
+        },
+        {
+          "id": "kubla-khan",
+          "prompt": "Who wrote 'Kubla Khan' (published 1816), the unfinished dream-vision poem said to have been composed during an opium-induced reverie, featuring 'Xanadu' and 'a stately pleasure-dome'?",
+          "answer": "Samuel Taylor Coleridge",
+          "alternates": ["Coleridge", "S.T. Coleridge"],
+          "explanation": "Allegedly written in 1797 during an opium trance; published 1816 at the urging of Lord Byron\nColeridge claimed he was composing 200\u2013300 lines mentally when interrupted by 'a person from Porlock'; only 54 lines survived\nThe 'person from Porlock' has become a byword for unwanted interruption of creative flow\nOpens with 'In Xanadu did Kubla Khan / A stately pleasure-dome decree' \u2014 among the most recognized opening lines in poetry\nKubla Khan was the real Mongol Emperor (grandson of Genghis Khan) who ruled China (1260\u20131294)\nColeridge also wrote 'The Rime of the Ancient Mariner' (1798) \u2014 source of 'Water, water, every where, / Nor any drop to drink'\nA founding figure of English Romanticism alongside William Wordsworth; their co-authored *Lyrical Ballads* (1798) launched the movement",
+          "cardFront": "'Kubla Khan' (published 1816)",
+          "cardBack": "Samuel Taylor Coleridge"
+        },
+        {
+          "id": "this-be-the-verse",
+          "prompt": "Who wrote 'This Be the Verse' (1971), the darkly comic poem that famously begins 'They fuck you up, your mum and dad'?",
+          "answer": "Philip Larkin",
+          "alternates": ["Larkin"],
+          "explanation": "Published 1971 in *New Humanist*; collected in *High Windows* (1974); Larkin's most-quoted poem\nDescribes a cycle of parental damage passed down through generations, ending with the advice not to have children\n'Man hands on misery to man. / It deepens like a coastal shelf.' \u2014 the closing argument\nLarkin was a librarian at the University of Hull for over 30 years; declined the Poet Laureateship in 1984\nAlso wrote 'Aubade,' 'The Whitsun Weddings,' and 'Annus Mirabilis' ('Sexual intercourse began / In nineteen sixty-three')\nCharacterized by precise observation of English provincial life, bleak wit, and unsparing honesty about mortality\nSelected by the Times as the greatest British poet since WWII in a 2008 poll",
+          "cardFront": "'This Be the Verse' (1971)",
+          "cardBack": "Philip Larkin"
+        },
+        {
+          "id": "in-flanders-fields",
+          "prompt": "Who wrote 'In Flanders Fields' (1915), the WWI poem in which fallen soldiers urge the living to 'Take up our quarrel with the foe' and pass on the torch?",
+          "answer": "John McCrae",
+          "alternates": ["McCrae", "John McRae"],
+          "explanation": "Published December 8, 1915 in *Punch* magazine; one of the most widely read poems to emerge from World War I\nOpens: 'In Flanders fields the poppies blow / Between the crosses, row on row'\nThe poem's imagery of red poppies growing over soldiers' graves directly inspired the adoption of the poppy as a symbol of remembrance\nMcCrae was a Canadian physician and artillery officer; wrote the poem at the Second Battle of Ypres after the death of his friend Lt. Alexis Helmer\nDied of pneumonia and meningitis in January 1918 at a Canadian military hospital in Boulogne-sur-Mer, France \u2014 never knowing the war's outcome\nCanada's Remembrance Day (November 11) traditions are closely tied to McCrae's poem\nThe poem was used in Allied recruitment campaigns; McCrae himself was ambivalent about this use",
+          "cardFront": "'In Flanders Fields' (1915)",
+          "cardBack": "John McCrae"
+        }
+      ]
+    }
+  ]
+}

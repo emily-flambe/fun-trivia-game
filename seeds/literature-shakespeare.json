@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "literature/shakespeare",
+      "parentId": "literature",
+      "name": "Shakespeare",
+      "description": "Shakespeare's plays: tragedies, comedies, histories, and romances"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "literature/shakespeare/plays",
+      "nodeId": "literature/shakespeare",
+      "name": "Shakespeare's Plays",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "hamlet",
+          "prompt": "Which Shakespeare tragedy features a Danish prince who discovers his uncle murdered his father and married his mother?",
+          "answer": "Hamlet",
+          "alternates": ["The Tragedy of Hamlet", "Hamlet, Prince of Denmark"],
+          "explanation": "Tragedy, written c. 1600\u20131601; set in the Kingdom of Denmark\nCharacters include Hamlet, the ghost of his father, Claudius, Gertrude, Ophelia, Polonius, Laertes, and Horatio\n'To be or not to be, that is the question' \u2014 the most famous line in English drama\nLongest of Shakespeare's plays at ~30,000 words; Horatio alone survives the final bloodbath\n'Alas, poor Yorick!' \u2014 Hamlet addresses a skull exhumed from a graveyard\nOphelia's madness and drowning is one of literature's most imitated female deaths\nMore productions, adaptations, and critical essays have been written about Hamlet than any other Shakespeare play",
+          "cardFront": "Tragedy; Denmark; 'To be or not to be'; Ophelia, Yorick",
+          "cardBack": "Hamlet"
+        },
+        {
+          "id": "macbeth",
+          "prompt": "Which Shakespeare tragedy features a Scottish general who murders King Duncan after hearing prophecies from three witches?",
+          "answer": "Macbeth",
+          "alternates": ["The Tragedy of Macbeth", "The Scottish Play"],
+          "explanation": "Tragedy, written c. 1606; the shortest of Shakespeare's four great tragedies; set in Scotland\nCharacters: Macbeth, Lady Macbeth, the three Witches, Banquo, Duncan, and Macduff\nActors call it 'The Scottish Play' to avoid the curse tradition around saying its name backstage\n'Out, damned spot!' \u2014 Lady Macbeth sleepwalks, obsessively washing imaginary blood from her hands\nMacbeth is killed by Macduff, who was 'not of woman born' \u2014 delivered by Caesarean section\nWritten to flatter James I, who was Scottish and fascinated by witchcraft; James sponsored Shakespeare's company\n'Double, double toil and trouble; / Fire burn and cauldron bubble' \u2014 the witches' chant",
+          "cardFront": "Tragedy; Scotland; three witches; Lady Macbeth, Banquo",
+          "cardBack": "Macbeth"
+        },
+        {
+          "id": "romeo-and-juliet",
+          "prompt": "Which Shakespeare tragedy follows two young lovers from the rival Montague and Capulet families in Verona?",
+          "answer": "Romeo and Juliet",
+          "alternates": [],
+          "explanation": "Tragedy, written c. 1594\u20131596; one of Shakespeare's most frequently performed plays\nCharacters: Romeo Montague, Juliet Capulet, Mercutio, Tybalt, Friar Lawrence, the Nurse, and Paris\n'What's in a name? That which we call a rose / By any other name would smell as sweet' \u2014 Juliet on the balcony\nBoth protagonists die within minutes of each other after a failed communication involving a sleeping potion\nMercutio's dying curse \u2014 'A plague on both your houses!' \u2014 is one of the most quoted lines\nAdapted as *West Side Story* (1957), transplanting the feud to New York street gangs\nShakespeare drew the plot from Arthur Brooke's narrative poem *The Tragicall Historye of Romeus and Juliet* (1562)",
+          "cardFront": "Tragedy; Verona; Montagues vs. Capulets; Mercutio, Tybalt, Friar Lawrence",
+          "cardBack": "Romeo and Juliet"
+        },
+        {
+          "id": "othello",
+          "prompt": "Which Shakespeare tragedy features a Moorish general whose scheming ensign Iago convinces him his wife Desdemona is unfaithful?",
+          "answer": "Othello",
+          "alternates": ["The Tragedy of Othello, the Moor of Venice", "Othello, the Moor of Venice"],
+          "explanation": "Tragedy, written c. 1603; set in Venice and Cyprus\nCharacters: Othello, Iago (one of Shakespeare's great villains), Desdemona, Cassio, Emilia, and Roderigo\nIago is widely considered the most purely malevolent villain in Shakespeare \u2014 he manipulates everyone for personal resentment\n'The green-eyed monster' \u2014 coined the phrase for jealousy that is still in everyday use\nOthello smothers Desdemona with a pillow after being deceived by Iago's planted handkerchief\nOthello kills himself on learning the truth: 'I have done the state some service, and they know't'\nThe play is Shakespeare's most psychologically intimate: all destruction flows from Iago's manipulation, not fate or war",
+          "cardFront": "Tragedy; Venice/Cyprus; Iago manipulates Othello; Desdemona, Cassio",
+          "cardBack": "Othello"
+        },
+        {
+          "id": "king-lear",
+          "prompt": "Which Shakespeare tragedy features an aging king who divides his kingdom among his three daughters, then is betrayed by two of them?",
+          "answer": "King Lear",
+          "alternates": ["The Tragedy of King Lear"],
+          "explanation": "Tragedy, written c. 1605\u20131606; based on the legendary pre-Roman British king Leir\nCharacters: Lear, daughters Goneril, Regan, and Cordelia; the Fool; Gloucester; and his sons Edgar and Edmund\nCordelia refuses to flatter Lear and is disinherited; the loving daughter cast aside for honest words\nLear descends into madness on the heath during a storm; the Fool is his only honest companion\nCordelia is hanged on Edmund's orders; Lear dies of grief holding her body \u2014 one of the most devastating endings in literature\nFor 150 years after Shakespeare, a 'happy ending' version by Nahum Tate was the only version performed\nGloucester is blinded onstage in the most disturbing single scene in Shakespeare",
+          "cardFront": "Tragedy; aged king; three daughters: Goneril, Regan, Cordelia; the Fool",
+          "cardBack": "King Lear"
+        },
+        {
+          "id": "midsummer-nights-dream",
+          "prompt": "Which Shakespeare comedy features the fairy king Oberon, queen Titania, and the mischievous sprite Puck in an enchanted forest near Athens?",
+          "answer": "A Midsummer Night's Dream",
+          "alternates": ["Midsummer Night's Dream"],
+          "explanation": "Comedy, written c. 1595\u20131596; among the most frequently performed Shakespeare plays\nCharacters: Oberon and Titania (fairy monarchs), Puck (Robin Goodfellow), four lovers (Hermia, Helena, Lysander, Demetrius), and Bottom's troupe of 'mechanicals'\nBottom is transformed with a donkey's head by Puck and becomes Titania's enchanted love object\n'Lord, what fools these mortals be!' \u2014 Puck; 'The course of true love never did run smooth' \u2014 Lysander\nThe play-within-the-play 'Pyramus and Thisbe' parodies Romeo and Juliet (written around the same time)\nBenjamin Britten's opera adaptation (1960) and Felix Mendelssohn's incidental music (1842) are landmark settings\nPuck's closing monologue addresses the audience directly: 'If we shadows have offended...'",
+          "cardFront": "Comedy; fairy forest; Oberon, Titania, Puck; Bottom with donkey's head",
+          "cardBack": "A Midsummer Night's Dream"
+        },
+        {
+          "id": "merchant-of-venice",
+          "prompt": "Which Shakespeare play features the Jewish moneylender Shylock demanding a 'pound of flesh' from the merchant Antonio as collateral for a loan?",
+          "answer": "The Merchant of Venice",
+          "alternates": ["Merchant of Venice"],
+          "explanation": "Comedy (often classified as a 'problem play'), written c. 1596\u20131598; set in Venice and Belmont\nCharacters: Shylock, Antonio, Bassanio, Portia, Gratiano, Jessica (Shylock's daughter), and Nerissa\nPortia disguises herself as the lawyer Balthasar and defeats Shylock: the bond permits flesh but not blood\n'The quality of mercy is not strained' \u2014 Portia's speech is among Shakespeare's most quoted\n'Hath not a Jew eyes?' \u2014 Shylock's plea for common humanity is a landmark in literary treatment of antisemitism\nThe casket test (gold, silver, lead) develops the theme of appearances versus reality\nModern productions typically play Shylock as a sympathetic or tragic figure; 19th-century actor Edmund Kean established this reading",
+          "cardFront": "Comedy/problem play; Venice; Shylock's 'pound of flesh'; Portia in disguise as lawyer",
+          "cardBack": "The Merchant of Venice"
+        },
+        {
+          "id": "much-ado-about-nothing",
+          "prompt": "Which Shakespeare comedy features the razor-tongued sparring between Beatrice and Benedick, who both deny they are in love?",
+          "answer": "Much Ado About Nothing",
+          "alternates": [],
+          "explanation": "Comedy, written c. 1598\u20131599; set in Messina, Sicily\nCharacters: Beatrice, Benedick, Hero, Claudio, Don Pedro, the villain Don John, and the constable Dogberry\nBeatrice and Benedick are each tricked by friends into believing the other is in love with them \u2014 the enemies-to-lovers trope\nHero is falsely accused of infidelity by the villainous Don John; she faints at the altar and is reported dead\nDogberry's malapropisms ('You are to be presented to the Prince's watch' for 'represent') are a running comedy\nThe phrase 'noting' (eavesdropping) was a pun on 'nothing' in Elizabethan English \u2014 the whole plot turns on overheard conversations\nKenneth Branagh's 1993 film adaptation starring Emma Thompson as Beatrice is the defining modern production",
+          "cardFront": "Comedy; Messina; Beatrice and Benedick; Don John, Hero and Claudio",
+          "cardBack": "Much Ado About Nothing"
+        },
+        {
+          "id": "twelfth-night",
+          "prompt": "Which Shakespeare comedy features Viola, who disguises herself as the male servant Cesario and serves Duke Orsino, who courts the noblewoman Olivia?",
+          "answer": "Twelfth Night",
+          "alternates": ["Twelfth Night, or What You Will"],
+          "explanation": "Comedy, written c. 1601\u20131602; set in the fictional duchy of Illyria\nCharacters: Viola (as Cesario), Orsino, Olivia, Sebastian (Viola's twin), Malvolio, Feste the Fool, Sir Toby Belch, and Sir Andrew Aguecheek\nMalvolio is tricked into believing Olivia loves him; he appears in yellow cross-gartered stockings and behaves absurdly\n'If music be the food of love, play on' \u2014 opening line, one of Shakespeare's most quoted\nFeste's songs include 'O Mistress Mine' and 'When that I was and a little tiny boy'\nMalvolio's humiliation borders on cruelty; some critics read him as the play's tragic victim\nThe title refers to the Feast of Epiphany (January 6), associated with festivity, misrule, and the end of Christmas",
+          "cardFront": "Comedy; Illyria; Viola as Cesario; Malvolio, Feste, Sir Toby Belch",
+          "cardBack": "Twelfth Night"
+        },
+        {
+          "id": "as-you-like-it",
+          "prompt": "Which Shakespeare comedy features the famous 'All the world's a stage' speech and is largely set in the pastoral Forest of Arden?",
+          "answer": "As You Like It",
+          "alternates": [],
+          "explanation": "Comedy, written c. 1599\u20131600; set in a court and the pastoral Forest of Arden\nCharacters: Rosalind (disguised as Ganymede), Orlando, the melancholy Jaques, Celia, Touchstone the clown, and Duke Senior\n'All the world's a stage, / And all the men and women merely players' \u2014 Jaques's 'Seven Ages of Man' speech\nRosalind, disguised as a man, teaches Orlando how to woo; considered Shakespeare's greatest comic heroine\n'Sweet are the uses of adversity' and 'The fool doth think he is wise, but the wise man knows himself to be a fool'\nDraws on Thomas Lodge's prose romance *Rosalynde* (1590) as its primary source\nUnlike most Shakespeare comedies, it ends with four simultaneous weddings and the god Hymen presiding",
+          "cardFront": "Comedy; Forest of Arden; Rosalind as Ganymede; Jaques's Seven Ages speech",
+          "cardBack": "As You Like It"
+        },
+        {
+          "id": "taming-of-the-shrew",
+          "prompt": "Which Shakespeare comedy features Petruchio's aggressive courtship of the sharp-tongued Katherine Minola of Padua?",
+          "answer": "The Taming of the Shrew",
+          "alternates": ["Taming of the Shrew"],
+          "explanation": "Comedy, written c. 1590\u20131592; one of Shakespeare's earliest plays; set in Padua, Italy\nCharacters: Petruchio, Katherine ('Kate'), her compliant sister Bianca, their father Baptista, and Lucentio\nPetruchio 'tames' Kate through sleep deprivation, denying food, and contradicting her perceptions of reality\nKate's final speech urging wifely submission is Shakespeare's most debated: sincere, ironic, or strategic survival?\nAdapted as the musical *Kiss Me, Kate* (1948) and the 1999 film *10 Things I Hate About You*\nFramed by a unique 'induction' scene with Christopher Sly, a tinker tricked into thinking he's a lord \u2014 the only such structural device in Shakespeare\nBianca's subplot involves multiple suitors disguising themselves as tutors to gain access to her",
+          "cardFront": "Comedy; Padua; Petruchio woos Katherine; Bianca subplot",
+          "cardBack": "The Taming of the Shrew"
+        },
+        {
+          "id": "julius-caesar",
+          "prompt": "Which Shakespeare tragedy features the assassination of a Roman dictator by a conspiracy of senators, including his friend Brutus, with the line 'Et tu, Bruté?'",
+          "answer": "Julius Caesar",
+          "alternates": ["The Tragedy of Julius Caesar"],
+          "explanation": "Tragedy, written c. 1599; one of the first plays performed at the newly-built Globe Theatre\nCharacters: Julius Caesar, Brutus, Cassius, Mark Antony, Portia, and Calphurnia\n'Et tu, Bruté?' \u2014 Caesar's dying words to his friend Brutus; unverified historically but famous theatrically\n'Friends, Romans, countrymen, lend me ears' \u2014 Antony's funeral oration is a masterclass in manipulative rhetoric\n'The fault, dear Brutus, is not in our stars, but in ourselves' \u2014 Cassius; inspired the title *The Fault in Our Stars*\nBrutus is the tragic hero: a noble man undone by misplaced idealism ('the noblest Roman of them all' \u2014 Antony)\nCaesar appears in fewer than half the scenes despite the title; Brutus is the actual protagonist",
+          "cardFront": "Tragedy; Rome; Caesar assassinated; Brutus, Cassius, Mark Antony",
+          "cardBack": "Julius Caesar"
+        },
+        {
+          "id": "the-tempest",
+          "prompt": "Which Shakespeare play \u2014 widely considered his final solo work \u2014 features the sorcerer Prospero stranded on a magical island with his daughter Miranda?",
+          "answer": "The Tempest",
+          "alternates": [],
+          "explanation": "Romance, written c. 1610\u20131611; considered Shakespeare's farewell to the stage\nCharacters: Prospero, Miranda, Ariel (spirit servant), Caliban (enslaved creature), Ferdinand, and Gonzalo\n'We are such stuff as dreams are made on, and our little life is rounded with a sleep' \u2014 Prospero's central speech\nProspero is widely read as Shakespeare's self-portrait \u2014 a master of theatrical illusion who finally breaks his staff\nCaliban has become a postcolonial symbol; 'Caliban' is an anagram of 'cannibal'\nAriel's song 'Full Fathom Five' is among the most beautiful verse in English\nThe island's setting was partly inspired by William Strachey's account of a 1609 shipwreck in Bermuda",
+          "cardFront": "Romance (final play); magical island; Prospero, Miranda, Ariel, Caliban",
+          "cardBack": "The Tempest"
+        },
+        {
+          "id": "henry-v",
+          "prompt": "Which Shakespeare history play features the outnumbered English victory at the Battle of Agincourt and the famous St. Crispin's Day speech?",
+          "answer": "Henry V",
+          "alternates": [],
+          "explanation": "History, written c. 1599; concludes Shakespeare's second historical tetralogy\nCharacters: Henry V (formerly Prince Hal), Chorus, Fluellen, Princess Katherine of France, and the traitors Scroop, Cambridge, and Grey\n'We few, we happy few, we band of brothers' \u2014 the St. Crispin's Day speech is one of the great rallying speeches in English\nThe real Battle of Agincourt (1415): ~8,000 English defeated an estimated 20,000\u201330,000 French; English longbowmen were decisive\n'Once more unto the breach, dear friends, once more' \u2014 from the siege of Harfleur\nKenneth Branagh's 1989 film made the St. Crispin's Day speech its definitive modern rendering\nHenry courts Princess Katherine in halting French \u2014 a comedy scene showing the human side of the warrior king",
+          "cardFront": "History; Agincourt (1415); 'band of brothers'; Fluellen",
+          "cardBack": "Henry V"
+        },
+        {
+          "id": "richard-iii",
+          "prompt": "Which Shakespeare history opens with 'Now is the winter of our discontent' and follows the scheming Duke of Gloucester who murders his way to the English throne?",
+          "answer": "Richard III",
+          "alternates": ["The Tragedy of King Richard the Third"],
+          "explanation": "History and tragedy, written c. 1592\u20131593; covers 1471\u20131485, ending at the Battle of Bosworth Field\nCharacters: Richard (Duke of Gloucester / Richard III), Lady Anne, Buckingham, the young princes, and Queen Margaret\n'Now is the winter of our discontent / Made glorious summer by this sun of York' \u2014 Richard's opening soliloquy\nRichard orders the murder of the 'Princes in the Tower' \u2014 a historical controversy still debated by scholars\n'A horse! A horse! My kingdom for a horse!' \u2014 Richard's desperate cry at Bosworth where he is unhorsed and killed (1485)\nLaurence Olivier's 1955 film and Ian McKellen's 1995 fascist-era adaptation are landmark productions\nShakespeare's Richard is heavily shaped by Tudor propaganda; the real Richard III is viewed more sympathetically by modern historians",
+          "cardFront": "History/Tragedy; 'winter of our discontent'; villainous Richard; Bosworth Field",
+          "cardBack": "Richard III"
+        },
+        {
+          "id": "antony-and-cleopatra",
+          "prompt": "Which Shakespeare tragedy depicts the love affair between the Roman general Mark Antony and the Egyptian queen, ending in their mutual suicides?",
+          "answer": "Antony and Cleopatra",
+          "alternates": [],
+          "explanation": "Tragedy, written c. 1606\u20131607; a sequel to *Julius Caesar* (Antony appears in both)\nCharacters: Mark Antony, Cleopatra, Octavius Caesar, Enobarbus, Octavia, Iras, and Charmian\n'Age cannot wither her, nor custom stale / Her infinite variety' \u2014 Enobarbus's description of Cleopatra\nAntony's infatuation with Cleopatra leads to defeat at the Battle of Actium (31 BC) against Octavius\nCleopatra kills herself by applying an asp (snake) to her breast after Antony's suicide, to avoid being paraded in Rome\nCovers the vast canvas of Rome and Egypt in the final struggle between Antony and Octavius (who becomes Augustus)\nJudi Dench, Helen Mirren, and Janet Suzman are among those who have played Cleopatra in landmark stage productions",
+          "cardFront": "Tragedy; Rome vs. Egypt; Mark Antony and Cleopatra; Battle of Actium",
+          "cardBack": "Antony and Cleopatra"
+        },
+        {
+          "id": "the-winters-tale",
+          "prompt": "Which Shakespeare romance contains the notorious stage direction 'Exit, pursued by a bear' and a sixteen-year gap between its two halves?",
+          "answer": "The Winter's Tale",
+          "alternates": ["Winter's Tale"],
+          "explanation": "Romance, written c. 1610\u20131611; one of four 'late romances' along with Pericles, Cymbeline, and The Tempest\nCharacters: Leontes (King of Sicilia), Hermione (his wife), Perdita, Polixenes, Florizel, and the rogue Autolycus\nLeontes is overcome by sudden irrational jealousy, falsely accusing his wife Hermione of adultery\nHermione apparently dies but is revealed alive in the extraordinary final statue scene\n'Exit, pursued by a bear' (Act III, scene 3) \u2014 the most famous stage direction in all of Shakespeare; Antigonus is killed offstage\n'A sad tale's best for winter' \u2014 young Mamillius gives the play its title\nThe play pivots sharply from tragedy to pastoral comedy at the halfway point \u2014 a structural experiment unique in Shakespeare",
+          "cardFront": "Romance; Sicilia/Bohemia; jealous Leontes; 'Exit, pursued by a bear'",
+          "cardBack": "The Winter's Tale"
+        },
+        {
+          "id": "measure-for-measure",
+          "prompt": "Which Shakespeare 'problem play' features Duke Vincentio disguising himself to observe his corrupt deputy Angelo, who proposes a deal to the novice nun Isabella?",
+          "answer": "Measure for Measure",
+          "alternates": [],
+          "explanation": "Problem play (or dark comedy), written c. 1603\u20131604; set in Vienna\nCharacters: Duke Vincentio, Angelo (the corrupt deputy), Isabella (a novice nun), Claudio, Mariana, and Lucio\nAngelo offers to spare Isabella's condemned brother if she sleeps with him \u2014 the play's central moral dilemma\nThe title comes from Matthew 7:2: 'With what measure ye mete, it shall be measured to you again'\n'Some rise by sin, and some by virtue fall' \u2014 captures the play's bitter irony about justice and hypocrisy\nClassified as a comedy but its tone is relentlessly dark; the 'happy' ending satisfies almost no one\nConsidered a 'problem play' because its themes of sexual coercion and institutional corruption resist comic resolution",
+          "cardFront": "Problem play; Vienna; Angelo vs. Isabella; Duke in disguise",
+          "cardBack": "Measure for Measure"
+        },
+        {
+          "id": "coriolanus",
+          "prompt": "Which Shakespeare tragedy features the Roman general Caius Martius, who earns the name Coriolanus at the siege of Corioli, then is exiled by the Roman people?",
+          "answer": "Coriolanus",
+          "alternates": ["The Tragedy of Coriolanus"],
+          "explanation": "Tragedy, written c. 1607\u20131608; Shakespeare's most overtly political play; set in early Republican Rome\nCharacters: Coriolanus, his mother Volumnia, Menenius, the tribunes Sicinius and Brutus, and the Volscian general Aufidius\nCoriolanus's contempt for the common people ('the many-headed multitude') leads to his banishment from Rome\nHe joins the Volsci and leads an attack on Rome, stopped only when his mother Volumnia pleads with him\n'There is a world elsewhere' \u2014 his defiant line upon exile\nVolunia shaped her son into a weapon for Rome's glory; she is one of the most powerful mother figures in all of Shakespeare\nRalph Fiennes directed and starred in a modern-dress film adaptation (2011) set in a contemporary Balkan conflict",
+          "cardFront": "Tragedy; Rome; Coriolanus exiled; mother Volumnia, Aufidius",
+          "cardBack": "Coriolanus"
+        },
+        {
+          "id": "merry-wives-of-windsor",
+          "prompt": "Which Shakespeare comedy features the portly knight Sir John Falstaff attempting to seduce two married women who conspire to humiliate him?",
+          "answer": "The Merry Wives of Windsor",
+          "alternates": ["Merry Wives of Windsor"],
+          "explanation": "Comedy, written c. 1597\u20131598; the only Shakespeare play set entirely in contemporary Elizabethan England (Windsor)\nCharacters: Falstaff, Mistress Ford, Mistress Page, Ford (the jealous husband), and the young lovers Anne Page and Fenton\nFalstaff sends identical love letters to both women; they conspire to humiliate him twice \u2014 once hidden in a laundry basket dumped in the Thames, once disguised as a witch and beaten\nThe only play where Falstaff (the great comedy figure from *Henry IV*) is the romantic lead and primary butt of the joke\nTradition holds Queen Elizabeth I demanded Shakespeare write a play showing Falstaff in love, though this is unverified\nGiuseppe Verdi's opera *Falstaff* (1893) is based on this play \u2014 his final opera, composed at age 79\nFalstaff appears in *Henry IV* Parts 1 and 2 and is mentioned in *Henry V*; this is his only standalone vehicle",
+          "cardFront": "Comedy; Windsor; Falstaff humiliated by Mistress Ford and Mistress Page",
+          "cardBack": "The Merry Wives of Windsor"
+        }
+      ]
+    }
+  ]
+}
