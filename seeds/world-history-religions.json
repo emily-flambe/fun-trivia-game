@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "world-history/religions", "parentId": "world-history", "name": "World Religions & Religious History", "description": "Major world religions, founders, schisms, and sacred sites" }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/religions/world-religions",
+      "nodeId": "world-history/religions",
+      "name": "World Religions & Religious History",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "christianity",
+          "prompt": "Which religion, with approximately 2.6 billion adherents worldwide, is centered on the teachings of a 1st-century figure from Nazareth and uses the Bible as its sacred text?",
+          "answer": "Christianity",
+          "alternates": ["Christian"],
+          "explanation": "World's largest religion with ~2.6 billion adherents (~31% of global population)\nFounded on the teachings of Jesus of Nazareth, believed by followers to be the Son of God and the Messiah\nSacred text is the Bible (Old Testament + New Testament); central event is the crucifixion and resurrection of Jesus\nThree major branches: Roman Catholicism (~1.26 billion), Protestantism, and Eastern Orthodoxy\nOriginated in 1st-century Roman Palestine; became the Roman Empire's state religion under Theodosius I in 380 CE\nCentral sacraments include baptism and the Eucharist (Communion)\nThe cross is its primary symbol; Christmas and Easter are its most widely observed holidays",
+          "cardFront": "Largest world religion, ~2.6 billion, Bible, Jesus of Nazareth",
+          "cardBack": "Christianity"
+        },
+        {
+          "id": "islam",
+          "prompt": "Which religion, founded in 7th-century Arabia, requires its followers to observe five core duties including daily prayer, fasting during Ramadan, and pilgrimage to a holy city?",
+          "answer": "Islam",
+          "alternates": ["Muslim"],
+          "explanation": "World's second-largest religion with ~2 billion adherents (~24% of global population)\nFounded by the Prophet Muhammad in 7th-century Mecca and Medina, modern-day Saudi Arabia\nSacred text is the Quran, believed to be the word of God revealed to Muhammad through the angel Gabriel\nFive Pillars: Shahada (declaration of faith), Salah (prayer 5x daily), Zakat (almsgiving), Sawm (fasting during Ramadan), Hajj (pilgrimage to Mecca)\nTwo major branches: Sunni (~85%) and Shia (~15%), split over succession after Muhammad's death in 632 CE\nFastest-growing major religion worldwide by population growth rate\n~62% of adherents live in the Asia-Pacific region, from Turkey to Indonesia",
+          "cardFront": "Second-largest religion, ~2 billion, Quran, Five Pillars",
+          "cardBack": "Islam"
+        },
+        {
+          "id": "hinduism",
+          "prompt": "Which religion, the oldest of the major world faiths with roots extending over 4,000 years, has no single founder and reveres texts called the Vedas and Upanishads?",
+          "answer": "Hinduism",
+          "alternates": ["Hindu"],
+          "explanation": "World's third-largest religion with ~1.2 billion adherents (~15% of global population)\nOldest major living religion, with roots in the Indus Valley civilization dating back over 4,000 years\nNo single founder, no single scripture, and no single set of teachings \u2014 evolved organically over millennia\nSacred texts include the Vedas (oldest, c. 1500 BCE), Upanishads, Bhagavad Gita, and the epics Mahabharata and Ramayana\nCore concepts: dharma (duty), karma (action and consequence), samsara (cycle of rebirth), and moksha (liberation)\nMajor deities include Brahma (creator), Vishnu (preserver), and Shiva (destroyer) \u2014 the Trimurti\nThe vast majority of adherents live in India and Nepal",
+          "cardFront": "Oldest major religion, ~1.2 billion, Vedas, no single founder",
+          "cardBack": "Hinduism"
+        },
+        {
+          "id": "buddhism",
+          "prompt": "Which religion, founded by a prince-turned-ascetic in 5th-century BCE India, teaches the Four Noble Truths and the Eightfold Path as the way to end suffering?",
+          "answer": "Buddhism",
+          "alternates": ["Buddhist"],
+          "explanation": "Founded by Siddhartha Gautama (the Buddha) in northeastern India, c. 5th century BCE\nCore teaching: the Four Noble Truths \u2014 life involves suffering (dukkha), caused by desire, which can be ended by following the Eightfold Path\nEightfold Path: right view, thought, speech, action, livelihood, effort, mindfulness, and concentration\nTwo major branches: Theravada (dominant in Southeast Asia) and Mahayana (dominant in East Asia); Vajrayana (Tibetan) is a subset of Mahayana\nSiddhartha was a prince who renounced luxury after witnessing old age, sickness, and death \u2014 attained enlightenment under the Bodhi Tree at age 35\nOnly major world religion whose global population declined between 2010 and 2020, per Pew Research\nApproximately 324 million adherents worldwide as of 2020",
+          "cardFront": "Founded by Siddhartha Gautama, Four Noble Truths, Eightfold Path",
+          "cardBack": "Buddhism"
+        },
+        {
+          "id": "judaism",
+          "prompt": "Which religion, the oldest of the Abrahamic faiths with roots stretching back over 3,500 years, uses the Torah as its most sacred text and traces its origin to a covenant between God and Abraham?",
+          "answer": "Judaism",
+          "alternates": ["Jewish", "Jewish religion"],
+          "explanation": "Oldest Abrahamic religion, with origins dating back over 3,500 years\nApproximately 15 million adherents worldwide, primarily in Israel and the United States\nSacred texts: the Torah (first five books of the Hebrew Bible), the Tanakh, and the Talmud (rabbinic commentary)\nCentral to its theology: one God, the covenant with Abraham, the Exodus from Egypt under Moses, and the giving of the Law at Mount Sinai\nThree major branches: Orthodox, Conservative, and Reform\nThe Sabbath (Shabbat) runs from Friday evening to Saturday evening; major holidays include Passover, Yom Kippur, and Rosh Hashanah\nGave rise to both Christianity and Islam \u2014 all three are called Abrahamic religions because they trace spiritual lineage to Abraham",
+          "cardFront": "Oldest Abrahamic faith, ~15 million, Torah, covenant with Abraham",
+          "cardBack": "Judaism"
+        },
+        {
+          "id": "great-schism",
+          "prompt": "What was the 1054 event in which Cardinal Humbert excommunicated the Patriarch of Constantinople at Hagia Sophia, permanently splitting the Church into Western and Eastern branches?",
+          "answer": "The Great Schism",
+          "alternates": ["Great Schism", "East-West Schism", "Schism of 1054", "The East-West Schism"],
+          "explanation": "Formal split in 1054 between the Roman Catholic Church (West) and Eastern Orthodox Church (East)\nTriggered when Cardinal Humbert placed a bull of excommunication on the altar of Hagia Sophia in Constantinople on July 16, 1054\nPatriarch Michael Cerularius responded by excommunicating the papal legates a week later\nKey disputes: the Filioque clause (whether the Holy Spirit proceeds from the Father alone or Father and Son), use of leavened vs. unleavened bread in the Eucharist, and papal authority over Eastern churches\nCenturies of political and theological tensions preceded the formal break, including the coronation of Charlemagne in 800 CE\nMutual excommunications were not lifted until 1965, when Pope Paul VI and Patriarch Athenagoras I nullified the 1054 anathemas\nThe schism remains unhealed \u2014 Roman Catholicism and Eastern Orthodoxy are still separate communions",
+          "cardFront": "1054, Catholic vs. Orthodox, Hagia Sophia excommunication",
+          "cardBack": "The Great Schism"
+        },
+        {
+          "id": "protestant-reformation",
+          "prompt": "Which 16th-century religious movement began when an Augustinian monk posted 95 propositions on a church door in Wittenberg, challenging the sale of indulgences and papal authority?",
+          "answer": "The Protestant Reformation",
+          "alternates": ["Protestant Reformation", "Reformation", "The Reformation"],
+          "explanation": "Launched on October 31, 1517, when Martin Luther posted his 95 Theses on the door of the Castle Church (Schlosskirche) in Wittenberg, Germany\nLuther's central objection: the sale of indulgences (payments to reduce punishment for sins), particularly by Johann Tetzel on behalf of Pope Leo X\nCore theological principle: salvation by faith alone (sola fide), not by works or purchased indulgences\nLuther was excommunicated by Pope Leo X in 1521 and declared an outlaw at the Diet of Worms\nLed to the founding of Lutheranism, Calvinism, Anglicanism, and other Protestant denominations\nThe printing press enabled rapid spread of Luther's ideas \u2014 the 95 Theses were reprinted across Germany within weeks\nTriggered over a century of religious wars in Europe, including the Thirty Years' War (1618\u20131648)",
+          "cardFront": "1517, Martin Luther, 95 Theses, Wittenberg",
+          "cardBack": "The Protestant Reformation"
+        },
+        {
+          "id": "council-of-nicaea",
+          "prompt": "Which 325 CE gathering, convened by Emperor Constantine I in modern-day Turkey, was the first ecumenical council and produced a foundational creed affirming the divinity of Jesus?",
+          "answer": "Council of Nicaea",
+          "alternates": ["First Council of Nicaea", "Nicaea", "Council of Nicea", "First Council of Nicea"],
+          "explanation": "First ecumenical council of the Christian Church, held in Nicaea (modern \u0130znik, Turkey) in 325 CE\nConvened by Roman Emperor Constantine I to resolve the Arian controversy \u2014 whether Christ was divine or a created being\nAttended by approximately 318 bishops from across the Roman Empire\nProduced the Nicene Creed, affirming Christ as homoousios (of one substance) with God the Father \u2014 rejecting Arianism as heresy\nAlso established a uniform date for Easter and issued early canon law\nNicaea was chosen for its proximity to the imperial capital of Nicomedia and its accessibility\nThe Nicene Creed remains the most widely accepted statement of faith across Catholic, Orthodox, and most Protestant churches",
+          "cardFront": "325 CE, Emperor Constantine, first ecumenical council, creed",
+          "cardBack": "Council of Nicaea"
+        },
+        {
+          "id": "crusades",
+          "prompt": "Which series of religiously motivated military campaigns, launched by Pope Urban II in 1095 and lasting nearly two centuries, sought to recapture the Holy Land from Muslim control?",
+          "answer": "The Crusades",
+          "alternates": ["Crusades"],
+          "explanation": "Series of religious wars between Christians and Muslims, 1096\u20131291, primarily over control of the Holy Land\nInitiated at the Council of Clermont in 1095 when Pope Urban II called for an armed pilgrimage to recapture Jerusalem\nFirst Crusade (1096\u20131099) was the most successful \u2014 captured Jerusalem and established four Crusader states\nEight major Crusades total; the Fourth Crusade (1202\u20131204) infamously sacked Constantinople instead of reaching the Holy Land\nSaladin (Salah ad-Din) recaptured Jerusalem in 1187, prompting the Third Crusade led by Richard the Lionheart, Philip II, and Frederick Barbarossa\nEnded with the fall of Acre in 1291 \u2014 the last major Crusader stronghold in the Levant\nLasting effects: deepened Christian-Muslim hostility, introduced Europeans to Eastern goods and ideas, strengthened papal authority temporarily",
+          "cardFront": "1096\u20131291, Pope Urban II, Holy Land, religious wars",
+          "cardBack": "The Crusades"
+        },
+        {
+          "id": "mecca",
+          "prompt": "Which city in western Saudi Arabia, birthplace of the Prophet Muhammad, contains the Masjid al-Haram and draws millions of pilgrims annually for the hajj?",
+          "answer": "Mecca",
+          "alternates": ["Makkah", "Makkah al-Mukarramah"],
+          "explanation": "Holiest city in Islam, located in the Hejaz region of western Saudi Arabia\nBirthplace of the Prophet Muhammad (c. 570 CE) and the site of his first revelations\nHome to the Masjid al-Haram (Grand Mosque), the largest mosque in the world and the most expensive building ever constructed\nContains the Kaaba, a cube-shaped stone structure that Muslims face during prayer (qibla) \u2014 believed to have been built by Abraham and Ishmael\nDestination of the Hajj, one of the Five Pillars of Islam \u2014 every able Muslim must visit at least once in their lifetime\nOver 5 million pilgrims perform the Hajj annually; the Kaaba is circled counterclockwise seven times (tawaf)\nNon-Muslims are prohibited from entering the city",
+          "cardFront": "Holiest city in Islam, Kaaba, Grand Mosque, Hajj destination",
+          "cardBack": "Mecca"
+        },
+        {
+          "id": "vatican-city",
+          "prompt": "Which 109-acre city-state, the world's smallest independent country by both area and population, serves as the headquarters of the Roman Catholic Church and the residence of the Pope?",
+          "answer": "Vatican City",
+          "alternates": ["The Vatican", "Vatican", "Holy See", "Vatican City State"],
+          "explanation": "World's smallest independent state at ~109 acres (44 hectares) with ~1,000 citizens\nEnclave within Rome, Italy; established as a sovereign state by the Lateran Treaty of 1929 between Pope Pius XI and Mussolini's Italy\nSeat of the Holy See \u2014 the central governing body of the Roman Catholic Church worldwide\nHome to St. Peter's Basilica, the largest church in the world by interior measure, built over the traditional burial site of St. Peter the Apostle\nContains the Sistine Chapel, with Michelangelo's ceiling (completed 1512) and The Last Judgment (completed 1541)\nProtected by the Swiss Guard since 1506 \u2014 the world's smallest and oldest standing army\nHas its own post office, radio station, banking system, and railway station; Latin is one of its official languages",
+          "cardFront": "Smallest country, Pope's residence, St. Peter's Basilica",
+          "cardBack": "Vatican City"
+        },
+        {
+          "id": "bodh-gaya",
+          "prompt": "At which site in Bihar, India, did a wandering ascetic attain enlightenment under a sacred fig tree around the 5th century BCE, marking the founding moment of a major world religion?",
+          "answer": "Bodh Gaya",
+          "alternates": ["Bodhgaya", "Bodh Gaya, India", "Mahabodhi Temple"],
+          "explanation": "Located in Bihar, India, on the banks of the Phalgu River \u2014 the site where Siddhartha Gautama attained enlightenment\nSiddhartha meditated under a peepul tree (Ficus religiosa), which became known as the Bodhi Tree \u2014 a descendant still grows on the site\nHome to the Mahabodhi Temple, one of the earliest brick Buddhist temples still standing in India, dating to the 5th\u20136th century CE\nThe first temple at the site was built by Emperor Ashoka in the 3rd century BCE\nDesignated a UNESCO World Heritage Site in 2002\nOne of the four holiest sites in Buddhism, along with Lumbini (birthplace), Sarnath (first sermon), and Kushinagar (death)\nPilgrims and monks from around the world visit to meditate under the Bodhi Tree and at the Mahabodhi Temple",
+          "cardFront": "Bihar, India; Bodhi Tree; Mahabodhi Temple; enlightenment site",
+          "cardBack": "Bodh Gaya"
+        },
+        {
+          "id": "western-wall",
+          "prompt": "Which ancient limestone wall in Jerusalem's Old City, a remnant of the Second Temple complex built by Herod the Great, is the holiest site where Jews are permitted to pray?",
+          "answer": "Western Wall",
+          "alternates": ["Wailing Wall", "The Western Wall", "Kotel", "The Kotel", "The Wailing Wall"],
+          "explanation": "Located in the Old City of Jerusalem \u2014 holiest place where Jews are permitted to pray\nNot part of the Temple itself but a retaining wall built by Herod the Great (r. 37\u20134 BCE) to support the expansion of the Second Temple platform\nThe Second Temple was destroyed by the Romans in 70 CE; the wall is the closest accessible point to where the Holy of Holies once stood\nCalled the 'Wailing Wall' by Christians because of the mourning prayers Jews offered there, especially after being barred from Jerusalem during Byzantine rule\nIsrael gained control of the site during the Six-Day War on June 10, 1967, after it had been under Jordanian control since 1948\nVisitors place written prayers into the cracks between the stones \u2014 a tradition dating to the 19th century\nThe Hebrew name 'Kotel' simply means 'wall'",
+          "cardFront": "Jerusalem, Herod's retaining wall, holiest Jewish prayer site",
+          "cardBack": "Western Wall"
+        },
+        {
+          "id": "varanasi",
+          "prompt": "Which city on the banks of the Ganges, one of the world's oldest continuously inhabited cities, is considered the spiritual capital of its faith and the holiest of its seven sacred cities?",
+          "answer": "Varanasi",
+          "alternates": ["Benares", "Banaras", "Kashi"],
+          "explanation": "Holiest of the seven sacred cities in Hinduism, located on the western bank of the Ganges in Uttar Pradesh, India\nOne of the world's oldest continuously inhabited cities, with settlement dating to the 2nd millennium BCE\nRegarded as the abode of Lord Shiva, the Hindu god of destruction and rebirth\nHindus believe dying in Varanasi grants moksha (liberation from the cycle of rebirth); cremation at Manikarnika Ghat is considered an instant pathway to liberation\nApproximately 80 ghats (stone stairways) line the riverbank, used for ritual bathing, prayer, and cremation ceremonies\nHistorically also important for Buddhism \u2014 the Buddha delivered his first sermon at nearby Sarnath\nAlso known by its ancient names Kashi ('city of light') and Benares (anglicized from Banaras)",
+          "cardFront": "Holiest Hindu city, Ganges, ghats, abode of Shiva",
+          "cardBack": "Varanasi"
+        },
+        {
+          "id": "lhasa",
+          "prompt": "Which city at 11,975 feet elevation in the Himalayas served as the traditional seat of the Dalai Lama and houses the Potala Palace, a UNESCO World Heritage Site?",
+          "answer": "Lhasa",
+          "alternates": ["Lhasa, Tibet"],
+          "explanation": "Capital of the Tibet Autonomous Region, China, at ~12,000 feet elevation \u2014 one of the highest cities in the world\nTraditional seat of the Dalai Lama, the spiritual leader of Tibetan Buddhism\nHome to the Potala Palace, built beginning in 1645 by the Fifth Dalai Lama \u2014 served as the winter residence and seat of government until 1959\nThe Potala Palace is the highest palace in the world and became a UNESCO World Heritage Site in 1994\nContains the White Palace (Potrang Karpo, government seat) and the Red Palace (Potrang Marpo, chapels and tombs of eight Dalai Lamas)\nThe Jokhang Temple, also in Lhasa, is considered the holiest temple in Tibetan Buddhism\nThe 14th Dalai Lama, Tenzin Gyatso, fled Lhasa in 1959 during the Tibetan uprising against Chinese rule and has lived in exile in Dharamsala, India, since",
+          "cardFront": "Tibet, Potala Palace, Dalai Lama's seat, ~12,000 ft elevation",
+          "cardBack": "Lhasa"
+        }
+      ]
+    }
+  ]
+}

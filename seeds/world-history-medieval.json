@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "world-history/medieval-history",
+      "parentId": "world-history",
+      "name": "Medieval History",
+      "description": "Crusades, feudalism, Magna Carta, Black Death, and medieval Europe"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/medieval-history/medieval-history",
+      "nodeId": "world-history/medieval-history",
+      "name": "Medieval History",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "charlemagne",
+          "prompt": "Which Frankish king was crowned emperor by Pope Leo III on Christmas Day 800 CE and is known as the 'Father of Europe'?",
+          "answer": "Charlemagne",
+          "alternates": [
+            "Charles the Great",
+            "Carolus Magnus",
+            "Karl der Grosse",
+            "Charles I"
+          ],
+          "explanation": "King of the Franks (768–814), King of the Lombards (774–814), Emperor (800–814)\nCrowned by Pope Leo III at St. Peter’s Basilica on Christmas Day 800 CE\nUnited most of Western and Central Europe — modern France, Germany, northern Italy, and Catalonia\nGiven the epithet Pater Europae (‘Father of Europe’) in his own lifetime\nLaunched the Carolingian Renaissance — promoted literacy, standardized script (Carolingian minuscule), and preserved classical texts\nForerunner to the line of Holy Roman Emperors, which persisted until 1806\nDied 28 January 814; buried at Aachen Cathedral in modern-day Germany",
+          "cardFront": "Crowned 800 CE, Pater Europae, Carolingian Renaissance",
+          "cardBack": "Charlemagne"
+        },
+        {
+          "id": "feudalism",
+          "prompt": "What medieval social and economic system structured society around relationships of land tenure, military service, and hierarchies of lords, vassals, and serfs?",
+          "answer": "Feudalism",
+          "alternates": [
+            "The Feudal System",
+            "Feudal System",
+            "Manorialism"
+          ],
+          "explanation": "Dominated European social organization from roughly the 9th–15th centuries\nKing granted large estates (fiefs) to nobles in exchange for loyalty and military service\nVassals pledged homage to lords and provided armed knights; lords owed protection in return\nSerfs were peasants legally bound to the manor — worked the land and surrendered a portion of harvest to the lord\nDeclined as commerce and coinage grew in the 13th century, allowing lords to pay money instead of military service\nWilliam the Conqueror imposed a particularly structured version on England after 1066",
+          "cardFront": "Lords, vassals, serfs; land for military service",
+          "cardBack": "Feudalism"
+        },
+        {
+          "id": "battle-of-hastings",
+          "prompt": "Which 1066 battle saw a Norman duke defeat Anglo-Saxon King Harold Godwinson, ending Anglo-Saxon rule in England and later inspiring a famous 70-metre embroidered tapestry?",
+          "answer": "Battle of Hastings",
+          "alternates": [
+            "Hastings"
+          ],
+          "explanation": "Fought 14 October 1066 between William, Duke of Normandy, and Anglo-Saxon King Harold Godwinson\nDecisive Norman victory — Harold was killed (traditionally depicted with an arrow in his eye)\nWilliam crowned King of England on Christmas Day 1066 at Westminster Abbey\nBayeux Tapestry (c. 1067–1079), nearly 70 metres long, depicts the events in 58 scenes with 626 figures\nTriggered by succession crisis after the death of childless King Edward the Confessor in January 1066\nWilliam crossed the English Channel with ~8,000 men and 5,000 horses, landing at Pevensey on 28 September",
+          "cardFront": "1066, Norman vs. Anglo-Saxon, Bayeux Tapestry",
+          "cardBack": "Battle of Hastings"
+        },
+        {
+          "id": "the-crusades",
+          "prompt": "What series of religious wars launched by the papacy between 1096 and 1291 aimed to recover the Holy Land from Muslim control?",
+          "answer": "The Crusades",
+          "alternates": [
+            "Crusades"
+          ],
+          "explanation": "Series of military campaigns (1096–1291) proclaimed by the papacy to recapture Jerusalem and the Holy Land\nFirst called by Pope Urban II at the Council of Clermont in November 1095\nFirst expedition (1096–1099) captured Jerusalem and established four Crusader states in the Levant\nKey leaders of the First included Godfrey of Bouillon, Bohemond of Taranto, and Raymond of Toulouse\nSaladin recaptured Jerusalem in 1187, prompting the Third led by Richard the Lionheart\nEnded with the fall of Acre in 1291, the last major Crusader stronghold on the mainland\nAt least nine major expeditions over nearly two centuries; Children’s expedition (1212) never reached the Holy Land",
+          "cardFront": "1096–1291, Holy Land, Pope Urban II",
+          "cardBack": "The Crusades"
+        },
+        {
+          "id": "magna-carta",
+          "prompt": "Which 1215 document, sealed at Runnymede under pressure from rebellious barons, established that the English king was not above the law?",
+          "answer": "Magna Carta",
+          "alternates": [
+            "The Magna Carta",
+            "Great Charter"
+          ],
+          "explanation": "Sealed by King John at Runnymede on 15 June 1215 — a meadow between Windsor Castle and the rebel base at Staines\nForced on John by rebellious barons; mediated by Archbishop Stephen Langton\nEstablished principle that the sovereign is subject to the rule of law\nPromised protection of church rights, limits on feudal payments, access to swift justice, and a council of 25 barons\nAnnulled by Pope Innocent III within months, triggering the First Barons’ War\nRevised and reissued multiple times; became a foundational document of English constitutional liberty\nInfluenced the U.S. Bill of Rights and the Universal Declaration of Human Rights",
+          "cardFront": "1215, Runnymede, King John, foundation of English liberty",
+          "cardBack": "Magna Carta"
+        },
+        {
+          "id": "black-death",
+          "prompt": "Which 14th-century pandemic, caused by the bacterium Yersinia pestis, killed an estimated 30–60% of Europe’s population between 1347 and 1351?",
+          "answer": "The Black Death",
+          "alternates": [
+            "Black Death",
+            "Black Plague",
+            "Bubonic Plague",
+            "The Plague"
+          ],
+          "explanation": "Arrived in Europe in 1347 via Genoese traders fleeing Kaffa in Crimea; spread by fleas on black rats\nKilled an estimated 25–50 million Europeans — roughly 30–60% of the population\nCaused by the bacterium Yersinia pestis; manifested as bubonic, pneumonic, and septicemic plague\nFlorence’s population fell from ~120,000 to 50,000; half of Paris’s 100,000 inhabitants died\nLabor shortages after the plague weakened serfdom and shifted economic power toward surviving peasants\nSecond great natural disaster of the Late Middle Ages, after the Great Famine of 1315–1317",
+          "cardFront": "1347–1351, Yersinia pestis, killed ~1/3 of Europe",
+          "cardBack": "The Black Death"
+        },
+        {
+          "id": "hundred-years-war",
+          "prompt": "Which intermittent conflict between England and France, lasting from 1337 to 1453, featured the battles of Crécy, Poitiers, and Agincourt?",
+          "answer": "The Hundred Years' War",
+          "alternates": [
+            "Hundred Years War",
+            "Hundred Years' War",
+            "The Hundred Years War"
+          ],
+          "explanation": "Fought 1337–1453 (116 years) between England and France over feudal rights and the French crown\nTriggered by Edward III of England’s claim to the French throne through his mother Isabella\nThree phases: Edwardian War (1337–1360), Caroline War (1369–1389), Lancastrian War (1415–1453)\nKey English victories: Crécy (1346), Poitiers (1356, Black Prince captured French King John II), Agincourt (1415)\nTurning point: Joan of Arc lifted the siege of Orléans in 1429, reviving French fortunes\nFrance ultimately won; England lost all continental possessions except Calais (held until 1558)\nInterrupted by the Black Death and punctuated by long truces",
+          "cardFront": "1337–1453, England vs. France, Crécy/Agincourt",
+          "cardBack": "The Hundred Years' War"
+        },
+        {
+          "id": "joan-of-arc",
+          "prompt": "Which teenage peasant girl claimed divine visions, led the French army to lift the siege of Orléans in 1429, was burned for heresy at 19, and was canonized in 1920?",
+          "answer": "Joan of Arc",
+          "alternates": [
+            "Jeanne d'Arc",
+            "Saint Joan of Arc",
+            "The Maid of Orleans",
+            "La Pucelle"
+          ],
+          "explanation": "Born c. 1412 in Domrémy, France; claimed visions from Saints Michael, Catherine, and Margaret\nLed the French army to break the English siege of Orléans in May 1429 — a turning point in the Hundred Years’ War\nCaptured by Burgundians in 1430 and sold to the English\nTried for heresy by Bishop Pierre Cauchon; charges included wearing men’s clothing and acting on demonic visions\nBurned at the stake in Rouen on 30 May 1431, aged about 19\nVerdict overturned in 1456; beatified 1909 by Pius X; canonized 16 May 1920 by Benedict XV\nOnly person burned at the stake for heresy who later became a Catholic saint",
+          "cardFront": "Siege of Orléans 1429, burned 1431, canonized 1920",
+          "cardBack": "Joan of Arc"
+        },
+        {
+          "id": "holy-roman-empire",
+          "prompt": "Which loose confederation of Central European territories, famously described by Voltaire as 'neither holy, nor Roman, nor an empire,' lasted from 962 to 1806?",
+          "answer": "The Holy Roman Empire",
+          "alternates": [
+            "Holy Roman Empire",
+            "HRE"
+          ],
+          "explanation": "Founded in 962 when Otto the Great was crowned emperor; dissolved in 1806 by Napoleon\nHeartland in Germany; at various times included modern Germany, Austria, Czech Republic, Netherlands, and northern Italy\nVoltaire’s quip from Essay on Universal History (1756): ‘neither holy, nor Roman, nor an empire’\nPower fragmented among hundreds of principalities, especially after the Thirty Years’ War (1618–1648)\nEmperor elected by seven (later more) prince-electors — not a hereditary monarchy\nCharlemagne’s Carolingian Empire (crowned 800) was the spiritual predecessor\nHabsburg dynasty held the title almost continuously from 1438 until dissolution",
+          "cardFront": "962–1806, Voltaire’s quip, German principalities",
+          "cardBack": "The Holy Roman Empire"
+        },
+        {
+          "id": "byzantine-empire",
+          "prompt": "Which empire, the eastern continuation of Rome with its capital at Constantinople, endured for nearly 1,000 years after the Western Roman Empire fell and was finally conquered by the Ottomans in 1453?",
+          "answer": "The Byzantine Empire",
+          "alternates": [
+            "Byzantine Empire",
+            "Byzantium",
+            "Eastern Roman Empire"
+          ],
+          "explanation": "Eastern continuation of the Roman Empire; capital at Constantinople (modern Istanbul)\nSurvived the fall of the Western Roman Empire (476 CE) by nearly 1,000 years\nFell on 29 May 1453 when Sultan Mehmed II (‘the Conqueror’), age 21, breached the walls with massive cannons\nLast emperor Constantine XI Palaiologos died defending the walls; defenders numbered only ~7,000 against ~120,000 Ottomans\nPreserved Greco-Roman law, literature, and learning; Justinian’s Code (529–534) codified Roman law\nHagia Sophia (537 CE) was the world’s largest cathedral for nearly 1,000 years\nFall triggered an exodus of Greek scholars to Italy, fueling the Italian Renaissance",
+          "cardFront": "Constantinople, fell 1453, Eastern Roman Empire",
+          "cardBack": "The Byzantine Empire"
+        },
+        {
+          "id": "the-vikings",
+          "prompt": "Which Norse seafaring people from Scandinavia raided, traded, and settled across Europe from 793 to 1066, with their age traditionally beginning at the sack of Lindisfarne?",
+          "answer": "The Vikings",
+          "alternates": [
+            "Vikings",
+            "Norse",
+            "Norsemen"
+          ],
+          "explanation": "Viking Age conventionally dated 793–1066 — from the raid on Lindisfarne monastery to the Norman Conquest\nLindisfarne (8 June 793): monks killed or enslaved, monastery plundered — shocked Christendom\nOriginated from Denmark, Norway, and Sweden; used advanced longships for speed and shallow-water navigation\nLeif Erikson (c. 1000 CE) reached North America (‘Vinland’) — roughly 500 years before Columbus\nEstablished the Danelaw in England, founded Normandy (Rollo, 911), and the Kievan Rus’ in Eastern Europe\nBoth William the Conqueror and Harald Hardrada who invaded England in 1066 had Viking ancestry\nTraded from Baghdad to Newfoundland; served as Varangian Guard to the Byzantine emperor",
+          "cardFront": "793–1066, Lindisfarne, longships, Leif Erikson",
+          "cardBack": "The Vikings"
+        },
+        {
+          "id": "mongol-empire",
+          "prompt": "Which empire, founded by Temujin in 1206, became the largest contiguous land empire in history, stretching from the Pacific to Eastern Europe?",
+          "answer": "The Mongol Empire",
+          "alternates": [
+            "Mongol Empire",
+            "Mongols"
+          ],
+          "explanation": "Founded in 1206 when Temujin was proclaimed Genghis Khan (‘universal ruler’) by a council of Mongol tribes\nLargest contiguous land empire in history — ~24 million km², roughly 17% of Earth’s landmass at its peak\nGenghis Khan (c. 1162–1227) conquered from the Pacific to the Caspian Sea in his lifetime\nEnforced the Pax Mongolica — stabilized Silk Road trade routes, enabling exchange between Europe and China\nDestroyed Baghdad in 1258, ending the Abbasid Caliphate; killed an estimated 40 million people total\nSplit into four khanates after succession disputes: Golden Horde, Chagatai, Ilkhanate, and Yuan (China)\nGenghis Khan’s burial site remains unknown; a 2003 study estimated ~0.5% of the world’s male population carries a Y-chromosome lineage attributed to him, though recent genomic studies have questioned this link",
+          "cardFront": "Genghis Khan, 1206, largest contiguous land empire",
+          "cardBack": "The Mongol Empire"
+        },
+        {
+          "id": "the-inquisition",
+          "prompt": "What institution, established by Pope Gregory IX in 1231 to combat heresy, later evolved into a notorious Spanish version authorized in 1478 under Ferdinand and Isabella?",
+          "answer": "The Inquisition",
+          "alternates": [
+            "Inquisition",
+            "Medieval Inquisition",
+            "Spanish Inquisition"
+          ],
+          "explanation": "Medieval version established 1231 by Pope Gregory IX; assigned Dominican friars to try heretics in southern France and Italy\nPope Innocent IV authorized the use of torture against heretics in 1252 (bull Ad extirpanda)\nSpanish version authorized 1478 by Pope Sixtus IV at the request of Ferdinand and Isabella\nTomás de Torquemada became first Inquisitor-General of Spain in 1483 — burned ~2,000 heretics at the stake\nSpanish version initially targeted conversos (Jewish converts) suspected of secretly practicing Judaism\nSpanish version not abolished until 1834 — lasted over 350 years\nRoman Inquisition (1542) later tried Galileo for heliocentrism in 1633",
+          "cardFront": "1231 (Papal), 1478 (Spanish), heresy trials",
+          "cardBack": "The Inquisition"
+        },
+        {
+          "id": "hanseatic-league",
+          "prompt": "Which medieval commercial and defensive alliance of merchant guilds, centered on Lübeck, dominated trade across Northern Europe from the 13th to 17th centuries?",
+          "answer": "The Hanseatic League",
+          "alternates": [
+            "Hanseatic League",
+            "The Hansa",
+            "Hansa",
+            "Hanse"
+          ],
+          "explanation": "Commercial and defensive network of merchant guilds and market towns in Central and Northern Europe\nGrew from Lübeck (‘Queen of the Hansa’) in the late 12th century; peaked 13th–15th centuries\nEncompassed nearly 200 settlements across eight modern countries, from Estonia to the Netherlands\nFour major trading posts (kontors): Novgorod, London, Bruges, and Bergen\nTraded furs, timber, wax, and grain from the east for cloth and manufactured goods from the west\nControlled trade routes from the Baltic to the North Sea for over 400 years\nDeclined in the 17th century as nation-states consolidated power and new Atlantic trade routes emerged",
+          "cardFront": "Lübeck, ~200 cities, Baltic/North Sea trade",
+          "cardBack": "The Hanseatic League"
+        },
+        {
+          "id": "great-famine",
+          "prompt": "Which catastrophic agricultural crisis of 1315–1317, caused by extreme rainfall and crop failure, killed an estimated 10–25% of Northern Europe’s population and preceded an even deadlier pandemic?",
+          "answer": "The Great Famine",
+          "alternates": [
+            "Great Famine",
+            "Great Famine of 1315"
+          ],
+          "explanation": "Struck Northern Europe 1315–1317; affected the British Isles, France, Low Countries, Scandinavia, Germany, and western Poland\nCaused by unusually heavy rain beginning spring 1315 — crops could not ripen, leading to widespread failure\nEstimated 10–25% of the urban population died; Europe did not fully recover until 1322\nGreat Bovine Pestilence killed up to 80% of sheep and cattle, compounding food shortages\nPeriod marked by extreme crime, disease, and reports of cannibalism and infanticide\nFirst great natural disaster of the Late Middle Ages — preceded the Black Death (1347–1351) by 30 years",
+          "cardFront": "1315–1317, crop failure, preceded the Black Death",
+          "cardBack": "The Great Famine"
+        }
+      ]
+    }
+  ]
+}

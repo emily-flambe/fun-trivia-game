@@ -79,10 +79,10 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Current World Leaders (2025) | 15 | ✅ | |
-| 2 | International Organizations | 15 | ❌ | UN, EU, NATO, WHO, WTO, IMF, OPEC, etc. Headquarters, leaders, founding dates. |
+| 2 | International Organizations | 16 | ✅ EMI-406 | UN, EU, NATO, WHO, WTO, IMF, OPEC, etc. Headquarters, leaders, founding dates. |
 | 3 | TIME Person of the Year | 20 | ❌ | TS has this under History. Notable honorees by year. |
 
-**Coverage**: 1/3 done. Inherently time-sensitive category; static content is limited.
+**Coverage**: 2/3 done. Inherently time-sensitive category; static content is limited.
 
 ---
 
@@ -199,11 +199,11 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 2 | Fashion Designers | 15 | ❌ | TS has "Fashion: Designers." Chanel, Dior, Versace, etc. |
 | 3 | Zodiac Signs | 12 | ❌ | TS has "Zodiac" + "Chinese Zodiac." Western zodiac dates/symbols + Chinese zodiac animals/years. |
 | 4 | Birthstones & Anniversary Gifts | 12 | ❌ | TS has both. January→garnet, 25th→silver, etc. |
-| 5 | World Religions | 12 | ❌ | Major religions, founders, sacred texts, key beliefs. LL tests this. |
+| 5 | World Religions | 15 | ✅ EMI-406 | Major religions, founders, sacred texts, key beliefs. LL tests this. |
 | 6 | Board Games & Card Games | 12 | ❌ | TS has "Board Games" + "Monopoly." Rules, origins, famous games. |
 | 7 | University Locations | 15 | ❌ | TS has this. Harvard→Cambridge MA, Oxford→Oxfordshire, etc. |
 
-**Coverage**: 1/7 done. Currently the weakest category relative to LL testing frequency.
+**Coverage**: 2/7 done. Currently the weakest category relative to LL testing frequency.
 
 ---
 
@@ -337,13 +337,13 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 3 | Historical Empires | 21 | ✅ | |
 | 4 | Major Revolutions | 12 | ✅ | |
 | 5 | Major Wars & Conflicts | 25 | ✅ | |
-| 6 | British Monarchs | 20 | ❌ | TS has this. Key monarchs from William I to present. LL staple. |
-| 7 | International Organizations | 15 | ❌ | UN, EU, NATO origins & purpose. (Also fits Current Events.) |
-| 8 | World Religions & Religious History | 15 | ❌ | Major religions, founders, schisms, sacred sites. |
-| 9 | Medieval History | 15 | ❌ | Crusades, feudalism, Magna Carta, Black Death. |
-| 10 | Exploration & Discovery | 15 | ❌ | Columbus, Magellan, Cook, Amundsen, etc. Routes, dates, sponsors. |
+| 6 | British Monarchs | 20 | ✅ EMI-406 | TS has this. Key monarchs from William I to present. LL staple. |
+| 7 | International Organizations | 16 | ✅ EMI-406 | UN, EU, NATO origins & purpose. (Also fits Current Events.) |
+| 8 | World Religions & Religious History | 15 | ✅ EMI-406 | Major religions, founders, schisms, sacred sites. |
+| 9 | Medieval History | 15 | ✅ EMI-406 | Crusades, feudalism, Magna Carta, Black Death. |
+| 10 | Exploration & Discovery | 16 | ✅ EMI-406 | Columbus, Magellan, Cook, Amundsen, etc. Routes, dates, sponsors. |
 
-**Coverage**: 5/10 done. Good war/empire coverage, needs monarchs and exploration.
+**Coverage**: 10/10 done. Complete.
 
 ---
 
@@ -367,22 +367,22 @@ Inspired by TrivialStudies' unique study tools:
 | Art | 2 | 5 | 40% |
 | Business/Economics | 1 | 8 | 13% |
 | Classical Music | 1 | 4 | 25% |
-| Current Events | 1 | 3 | 33% |
+| Current Events | 2 | 3 | 67% |
 | Film | 10 | 10 | 100% |
 | Food/Drink | 5 | 10 | 50% |
 | Games/Sport | 2 | 15 | 13% |
 | Geography | 10 | 20 | 50% |
 | Language | 1 | 5 | 20% |
-| Lifestyle | 1 | 7 | 14% |
+| Lifestyle | 2 | 7 | 29% |
 | Literature | 16 | 16 | 100% |
 | Math | 4 | 6 | 67% |
 | Pop Music | 2 | 10 | 20% |
 | Science | 13 | 20 | 65% |
 | Television | 1 | 10 | 10% |
 | Theatre | 1 | 5 | 20% |
-| World History | 5 | 10 | 50% |
+| World History | 10 | 10 | 100% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **86** | **177** | **49%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -390,7 +390,7 @@ Inspired by TrivialStudies' unique study tools:
 2. **Television** — 1/10 (10%). Frequently tested, almost empty.
 3. **Business/Economics** — 1/8 (13%). Regular LL category, barely started.
 4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
-5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
+5. **Lifestyle** — 2/7 (29%). Miscellaneous LL questions land here.
 6. **Theatre** — 1/5 (20%). Small but tested category.
 7. **Language** — 1/5 (20%). Small but distinctive LL category.
 8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
@@ -400,7 +400,7 @@ Inspired by TrivialStudies' unique study tools:
 12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
 14. **Geography** — 10/20 (50%). Most exercises but missing continents.
-15. **World History** — 5/10 (50%). Needs monarchs/exploration.
-16. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.
+15. **World History** — 10/10 (100%). Complete.
+16. **Current Events** — 2/3 (67%). Time-sensitive, limited scope.
 17. **Science** — 13/20 (65%). Well covered, needs fun trivia.
 18. **Math** — 4/6 (67%). Niche LL category, already solid.

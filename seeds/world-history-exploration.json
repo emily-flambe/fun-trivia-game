@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "world-history/exploration",
+      "parentId": "world-history",
+      "name": "Exploration & Discovery",
+      "description": "Great explorers, their routes, dates, sponsors, and achievements"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/exploration/exploration-and-discovery",
+      "nodeId": "world-history/exploration",
+      "name": "Exploration & Discovery",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "marco-polo",
+          "prompt": "Which Venetian merchant traveled overland to China in 1271, served at the court of Kublai Khan for 17 years, and later dictated a famous account of his travels known as Il Milione?",
+          "answer": "Marco Polo",
+          "alternates": [
+            "Polo"
+          ],
+          "explanation": "Venetian merchant and explorer (1254–1324) who traveled the Silk Road to China\nDeparted Venice in 1271 with his father Niccolò and uncle Maffeo; reached China c. 1275\nServed Kublai Khan at the Mongol court for 17 years before returning to Venice in 1295\nDictated Il Milione (The Travels of Marco Polo) to romance writer Rustichello da Pisa while imprisoned in Genoa\nThe book gave Europeans their first comprehensive account of China, Persia, India, and Japan\nSkeptics nicknamed the book Il Milione (“The Million Lies”); on his deathbed he reportedly said “I did not tell half of what I saw”\nThe journey covered roughly 15,000 miles (24,000 km) over 24 years",
+          "cardFront": "Venetian, Silk Road to China 1271–1295, Kublai Khan, Il Milione",
+          "cardBack": "Marco Polo"
+        },
+        {
+          "id": "zheng-he",
+          "prompt": "Which Chinese Muslim admiral commanded seven massive treasure fleet voyages across the Indian Ocean between 1405 and 1433, with fleets of over 300 ships and 27,000 men?",
+          "answer": "Zheng He",
+          "alternates": [
+            "Cheng Ho"
+          ],
+          "explanation": "Chinese admiral and court eunuch (1371–1433) who led seven voyages for the Ming dynasty\nBorn Ma He into a Muslim Hui family in Yunnan province; captured and castrated by Ming armies as a boy\nRose to prominence serving Zhu Di, the Prince of Yan, who became the Yongle Emperor\nFirst voyage (1405) deployed 317 ships and ~27,800 men — the largest naval fleet the world had ever seen\nVoyages reached Southeast Asia, India, the Persian Gulf, the Arabian Peninsula, and East Africa\nTreasure ships (baochuan) were among the largest wooden vessels ever built\nAfter his death (c. 1433), the Ming court turned inward and destroyed records of the voyages",
+          "cardFront": "Chinese admiral, seven treasure fleet voyages 1405–1433, Ming dynasty",
+          "cardBack": "Zheng He"
+        },
+        {
+          "id": "columbus",
+          "prompt": "Which Genoese navigator, sailing for Spain in 1492, reached the Caribbean islands while searching for a western route to Asia, initiating sustained European contact with the Americas?",
+          "answer": "Christopher Columbus",
+          "alternates": [
+            "Columbus",
+            "Cristobal Colon",
+            "Cristóbal Colón"
+          ],
+          "explanation": "Genoese explorer (1451–1506) who made four voyages to the Americas for Spain (1492–1504)\nSponsored by Queen Isabella I and King Ferdinand II of Spain after years of lobbying\nFirst voyage departed August 3, 1492, with three ships: Niña, Pinta, and Santa María\nLanded on an island in the Bahamas on October 12, 1492, which he named San Salvador\nBelieved until his death that he had reached Asia; never set foot on the North American mainland\nThe Columbian Exchange — transfer of plants, animals, diseases, and cultures — reshaped the world\nDied in Valladolid, Spain, on May 20, 1506, largely forgotten and stripped of most of his titles",
+          "cardFront": "Genoese for Spain, 1492, Caribbean, Niña/Pinta/Santa María",
+          "cardBack": "Christopher Columbus"
+        },
+        {
+          "id": "vasco-da-gama",
+          "prompt": "Which Portuguese navigator became the first European to reach India by sea in 1498, sailing around the Cape of Good Hope to arrive at Calicut on the Malabar Coast?",
+          "answer": "Vasco da Gama",
+          "alternates": [
+            "da Gama",
+            "Gama"
+          ],
+          "explanation": "Portuguese explorer (c. 1460–1524) who pioneered the sea route from Europe to India\nDeparted Lisbon in July 1497, rounded the Cape of Good Hope, and reached Calicut (Kozhikode) on May 20, 1498\nA Gujarati pilot at Malindi used knowledge of monsoon winds to guide the fleet across the Indian Ocean\nOpened the spice trade to Portugal, breaking the Venetian–Ottoman monopoly on Eastern goods\nMade three voyages to India (1497–1499, 1502–1503, 1524)\nAppointed Viceroy of India on his third voyage; died in Cochin, India, on December 24, 1524\nBuilt on earlier Portuguese exploration by Bartolomeu Dias, who first rounded the Cape of Good Hope in 1488",
+          "cardFront": "Portuguese, first sea route to India 1498, Cape of Good Hope, Calicut",
+          "cardBack": "Vasco da Gama"
+        },
+        {
+          "id": "vespucci",
+          "prompt": "Which Florentine navigator’s letters describing the lands across the Atlantic as a “New World” led cartographer Martin Waldseemüller to name the continents after him in 1507?",
+          "answer": "Amerigo Vespucci",
+          "alternates": [
+            "Vespucci",
+            "Amerigo"
+          ],
+          "explanation": "Florentine explorer and navigator (1454–1512) after whom the Americas are named\nMade at least two voyages to the New World: for Spain (1499–1500) and Portugal (1501–1502)\nRecognized that South America was a separate continent, not part of Asia — calling it Mundus Novus (New World)\nIn 1507, cartographer Martin Waldseemüller named the new continents “America” after the Latin form of his first name\nWaldseemüller’s map was produced in Saint-Dié, France, with scholar Matthias Ringmann\nAppointed piloto mayor (chief navigator) of Spain in 1508, responsible for training pilots and updating maps\nHis published letters (Mundus Novus, 1503; Soderini letter, 1505) circulated widely across Europe",
+          "cardFront": "Florentine, “New World” letters, Americas named after him (1507)",
+          "cardBack": "Amerigo Vespucci"
+        },
+        {
+          "id": "magellan",
+          "prompt": "Which Portuguese navigator, sailing for Spain, led the first expedition to circumnavigate the globe starting in 1519, though he was killed in the Philippines before the voyage was completed?",
+          "answer": "Ferdinand Magellan",
+          "alternates": [
+            "Magellan",
+            "Fernão de Magalhães",
+            "Fernando de Magallanes"
+          ],
+          "explanation": "Portuguese explorer (c. 1480–1521) who led the first circumnavigation of the Earth for Spain\nDeparted Spain on September 20, 1519, with five ships and about 270 men\nKilled in the Battle of Mactan in the Philippines on April 27, 1521\nJuan Sebastián Elcano completed the voyage, arriving in Spain on September 6, 1522, with one ship (Victoria) and 18 survivors\nThe expedition covered 60,440 km (37,560 mi) and proved ships could sail around the world westward\nDiscovered the Strait of Magellan at the southern tip of South America and named the Pacific Ocean\nThe voyage took nearly three years and was the first European crossing of the Pacific",
+          "cardFront": "Portuguese for Spain, first circumnavigation 1519–1522, killed in Philippines",
+          "cardBack": "Ferdinand Magellan"
+        },
+        {
+          "id": "cortes",
+          "prompt": "Which Spanish conquistador landed in Mexico in 1519, allied with the Tlaxcalans, and conquered the Aztec capital of Tenochtitlán by August 1521?",
+          "answer": "Hernán Cortés",
+          "alternates": [
+            "Cortes",
+            "Hernan Cortes",
+            "Hernando Cortes",
+            "Cortés"
+          ],
+          "explanation": "Spanish conquistador (1485–1547) who overthrew the Aztec Empire in Mexico\nLanded on the Yucatán coast in February 1519 with 508 soldiers, 100 sailors, and 16 horses\nFormed crucial alliances with indigenous peoples, especially the Tlaxcalans, who resented Aztec rule\nEntered Tenochtitlán peacefully on November 8, 1519, and was received by Emperor Moctezuma II\nBesieged the city for 93 days (May–August 1521); smallpox devastated the Aztec defenders\nTenochtitlán fell on August 13, 1521; Mexico City was built on its ruins\nAllegedly scuttled his own ships at Veracruz to prevent his men from retreating",
+          "cardFront": "Spanish conquistador, conquered Aztec Empire 1519–1521, Tenochtitlán",
+          "cardBack": "Hernán Cortés"
+        },
+        {
+          "id": "pizarro",
+          "prompt": "Which Spanish conquistador captured the Inca emperor Atahualpa at Cajamarca in 1532, collected a room full of gold as ransom, and then executed him anyway?",
+          "answer": "Francisco Pizarro",
+          "alternates": [
+            "Pizarro"
+          ],
+          "explanation": "Spanish conquistador (c. 1478–1541) who conquered the Inca Empire in Peru\nArrived at Cajamarca on November 15, 1532, with only about 180 men and 37 horses\nAmbushed and captured Emperor Atahualpa on November 16, 1532, killing thousands of unarmed attendants\nAtahualpa offered a room filled with gold and silver as ransom — estimated at 13,000 pounds of gold\nDespite payment, Pizarro held a mock trial and executed Atahualpa on July 26, 1533\nEntered the Inca capital Cuzco on November 15, 1533, completing the conquest\nAssassinated in Lima on June 26, 1541, by supporters of his rival Diego de Almagro’s son",
+          "cardFront": "Spanish conquistador, conquered Inca Empire 1532, Atahualpa’s ransom",
+          "cardBack": "Francisco Pizarro"
+        },
+        {
+          "id": "drake",
+          "prompt": "Which English privateer completed the second circumnavigation of the globe (1577–1580), raided Spanish treasure ships, and later served as vice admiral against the Spanish Armada in 1588?",
+          "answer": "Sir Francis Drake",
+          "alternates": [
+            "Francis Drake",
+            "Drake"
+          ],
+          "explanation": "English sea captain and privateer (c. 1540–1596), second to circumnavigate the globe\nCircumnavigation lasted from December 13, 1577, to September 26, 1580, aboard the Golden Hind\nSecretly commissioned by Queen Elizabeth I to raid Spanish colonies and treasure ships on the Pacific coast\nCaptured the Spanish galleon Nuestra Señora de la Concepción, laden with gold and silver\nThe Spanish called him El Draque (“The Dragon”) and considered him a pirate\nServed as vice admiral of the English fleet that defeated the Spanish Armada in 1588\nKnighted by Elizabeth I aboard the Golden Hind at Deptford in April 1581",
+          "cardFront": "English privateer, second circumnavigation 1577–1580, Spanish Armada 1588",
+          "cardBack": "Sir Francis Drake"
+        },
+        {
+          "id": "henry-hudson",
+          "prompt": "Which English explorer, sailing for the Dutch East India Company in 1609, navigated the river that bears his name in present-day New York, and later disappeared after a mutiny in a Canadian bay also named for him?",
+          "answer": "Henry Hudson",
+          "alternates": [
+            "Hudson"
+          ],
+          "explanation": "English navigator and explorer (c. 1565–disappeared 1611) who searched for a Northeast and Northwest Passage\nMade four voyages: three for England (1607, 1608, 1610–11) and one for the Dutch East India Company (1609)\nIn 1609, sailed up the river now named after him in present-day New York, laying groundwork for Dutch colonization\nHis exploration led to the founding of New Amsterdam (later New York City) by the Dutch\nOn his final voyage (1610–11), explored Hudson Bay in northern Canada seeking the Northwest Passage\nHis crew mutinied on June 22, 1611; Hudson, his son John, and seven others were set adrift in a small boat\nNever seen again — three major waterways bear his name: Hudson River, Hudson Bay, and Hudson Strait",
+          "cardFront": "English/Dutch, Hudson River 1609, Hudson Bay, disappeared after mutiny 1611",
+          "cardBack": "Henry Hudson"
+        },
+        {
+          "id": "james-cook",
+          "prompt": "Which British naval captain led three Pacific voyages (1768–1779), mapped coastlines from New Zealand to Hawaii, and was killed in a confrontation with native Hawaiians in Kealakekua Bay?",
+          "answer": "James Cook",
+          "alternates": [
+            "Captain Cook",
+            "Captain James Cook",
+            "Cook"
+          ],
+          "explanation": "British explorer and cartographer (1728–1779) who led three groundbreaking Pacific voyages\nFirst voyage (1768–71): observed the transit of Venus in Tahiti and mapped New Zealand and eastern Australia\nSecond voyage (1772–75): first to cross the Antarctic Circle; disproved the existence of a large southern continent\nThird voyage (1776–79): searched for the Northwest Passage; became first known European to reach Hawaii (1778)\nKilled on February 14, 1779, in Kealakekua Bay, Hawaii, during a dispute over a stolen cutter\nMapped more of the world’s coastline than any other explorer of his era, without losing a single ship\nIntroduced sauerkraut and citrus to combat scurvy, dramatically reducing crew deaths on long voyages",
+          "cardFront": "British, three Pacific voyages 1768–1779, mapped New Zealand/Australia/Hawaii",
+          "cardBack": "James Cook"
+        },
+        {
+          "id": "lewis-and-clark",
+          "prompt": "Which two American military officers led an expedition (1804–1806) across the western United States to the Pacific Ocean, commissioned by President Thomas Jefferson after the Louisiana Purchase?",
+          "answer": "Lewis and Clark",
+          "alternates": [
+            "Meriwether Lewis and William Clark",
+            "Lewis & Clark"
+          ],
+          "explanation": "Meriwether Lewis (1774–1809) and William Clark (1770–1838) co-led the Corps of Discovery\nCommissioned by President Jefferson to explore the Louisiana Purchase territory and find a route to the Pacific\nDeparted St. Louis on May 14, 1804, and returned on September 23, 1806 — covering nearly 8,000 miles\nSacagawea, a Shoshone woman, served as interpreter and guide; her presence signaled peaceful intent to tribes\nDocumented 178 plants and 122 animals new to Western science, including grizzly bears and prairie dogs\nReached the Pacific Ocean at the mouth of the Columbia River in November 1805\nOnly one expedition member died (Sergeant Charles Floyd, likely from appendicitis), a remarkable survival rate",
+          "cardFront": "American, Corps of Discovery 1804–1806, Louisiana Purchase, Sacagawea",
+          "cardBack": "Lewis and Clark"
+        },
+        {
+          "id": "amundsen",
+          "prompt": "Which Norwegian explorer led the first expedition to reach the geographic South Pole, arriving on December 14, 1911, and was also the first to navigate the Northwest Passage?",
+          "answer": "Roald Amundsen",
+          "alternates": [
+            "Amundsen"
+          ],
+          "explanation": "Norwegian explorer (1872–1928) who achieved multiple polar firsts\nFirst to reach the South Pole on December 14, 1911, with four companions and dog sleds\nBeat Robert Falcon Scott’s British team by 34 days; Scott’s party perished on the return journey\nFirst to navigate the Northwest Passage (1903–06) in the small sloop Gjøa with a crew of six\nFirst confirmed to fly over the North Pole in the airship Norge (1926) with Lincoln Ellsworth and Umberto Nobile\nThese three firsts make him the preeminent polar explorer in history\nDisappeared in June 1928 while flying a rescue mission for Nobile’s crashed airship Italia in the Arctic",
+          "cardFront": "Norwegian, first to South Pole (1911), Northwest Passage, North Pole flyover",
+          "cardBack": "Roald Amundsen"
+        },
+        {
+          "id": "shackleton",
+          "prompt": "Which British explorer led the Imperial Trans-Antarctic Expedition (1914–1916), and after his ship was crushed by ice, sailed 800 miles in a lifeboat to South Georgia to rescue his entire crew?",
+          "answer": "Ernest Shackleton",
+          "alternates": [
+            "Shackleton",
+            "Sir Ernest Shackleton"
+          ],
+          "explanation": "Anglo-Irish Antarctic explorer (1874–1922) famed for leadership under extreme adversity\nLed the Imperial Trans-Antarctic Expedition (1914–16), aiming to cross Antarctica on foot\nHis ship Endurance became trapped in Weddell Sea pack ice on January 18, 1915, and was crushed by October\n28 men drifted on ice floes for five months, then escaped by lifeboat to Elephant Island\nSailed 800 nautical miles in the 22.5-foot James Caird from Elephant Island to South Georgia with five men\nCrossed the uncharted mountains of South Georgia on foot to reach a whaling station at Stromness\nAll 28 crew members survived — not a single life was lost under his command\nDied of a heart attack on January 5, 1922, at age 47, aboard the Quest at South Georgia on his fourth expedition",
+          "cardFront": "British, Endurance expedition 1914–1916, Antarctic survival, all crew survived",
+          "cardBack": "Ernest Shackleton"
+        },
+        {
+          "id": "hillary-and-tenzing",
+          "prompt": "Which New Zealand beekeeper and Sherpa mountaineer became the first confirmed pair to reach the summit of Mount Everest on May 29, 1953?",
+          "answer": "Edmund Hillary and Tenzing Norgay",
+          "alternates": [
+            "Hillary and Tenzing",
+            "Hillary and Norgay",
+            "Edmund Hillary",
+            "Tenzing Norgay",
+            "Hillary & Tenzing"
+          ],
+          "explanation": "Edmund Hillary (1919–2008), New Zealand beekeeper, and Tenzing Norgay (1914–1986), Nepali Sherpa\nSummited Everest (29,035 ft / 8,849 m) at 11:30 a.m. on May 29, 1953, via the South Col route\nPart of the 1953 British expedition led by Colonel John Hunt; spent only 15 minutes at the summit\nNews reached London in time for Queen Elizabeth II’s coronation on June 2, 1953\nHillary was knighted (KBE) in 1953; Tenzing received the George Medal and the Star of Nepal\nHillary later led the New Zealand section of the 1958 Commonwealth Trans-Antarctic Expedition, reaching the South Pole overland\nThe rock face below the summit they climbed became known as the Hillary Step\nTenzing had attempted Everest six times before; neither man would say who stepped on top first",
+          "cardFront": "New Zealander and Sherpa, first confirmed Everest summit, May 29, 1953",
+          "cardBack": "Edmund Hillary and Tenzing Norgay"
+        }
+      ]
+    }
+  ]
+}

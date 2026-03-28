@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    { "id": "world-history/british-monarchs", "parentId": "world-history", "name": "British Monarchs", "description": "Key British monarchs from William the Conqueror to present" }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/british-monarchs/british-monarchs",
+      "nodeId": "world-history/british-monarchs",
+      "name": "British Monarchs",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "william-i",
+          "prompt": "Which Duke of Normandy defeated Harold Godwinson at the Battle of Hastings on October 14, 1066, becoming the first Norman king of England?",
+          "answer": "William I",
+          "alternates": ["William the Conqueror", "William I the Conqueror", "William"],
+          "explanation": "First Norman king of England (1066\u20131087), crowned Christmas Day 1066 at Westminster Abbey\nDefeated Anglo-Saxon King Harold Godwinson at the Battle of Hastings on October 14, 1066 \u2014 the last successful invasion of England\nCommissioned the Domesday Book (1086), a comprehensive survey of English landholdings used for taxation \u2014 the most detailed census in Europe until the 19th century\nBuilt the Tower of London (the White Tower) as a symbol of Norman power and control\nIntroduced feudalism to England, redistributing nearly all Anglo-Saxon land to Norman lords\nSpoke only Norman French; the English language absorbed thousands of French words as a result of the conquest\nDied in Rouen, France, in 1087 after his horse stumbled on burning embers during the sack of Mantes",
+          "cardFront": "1066\u20131087, House of Normandy",
+          "cardBack": "William I"
+        },
+        {
+          "id": "richard-i",
+          "prompt": "Which 12th-century English king, famed as a warrior-crusader, spent only about six months of his ten-year reign in England and died from a crossbow wound at a French siege?",
+          "answer": "Richard I",
+          "alternates": ["Richard the Lionheart", "Richard I the Lionheart", "Richard Lionheart", "Richard the Lionhearted", "Richard"],
+          "explanation": "King of England (1189\u20131199), House of Plantagenet (Angevin)\nLed the Third Crusade (1189\u20131192) alongside Philip II of France and Frederick Barbarossa; won key victories at Acre and Arsuf against Saladin\nSpent only about six months of his entire reign in England \u2014 spent most of his time campaigning in France and the Holy Land\nCaptured by Duke Leopold V of Austria on his return from the Crusade; held for ransom by Holy Roman Emperor Henry VI\nEngland paid a staggering 150,000 marks (roughly 35 tons of silver) to ransom him \u2014 nearly bankrupting the kingdom\nKilled by a crossbow bolt at the siege of Ch\u00e2lus-Chabrol in France on April 6, 1199, at age 41\nForgave the crossbowman who shot him on his deathbed, though the man was reportedly flayed alive afterward",
+          "cardFront": "1189\u20131199, Plantagenet, Crusader King",
+          "cardBack": "Richard I"
+        },
+        {
+          "id": "john",
+          "prompt": "Which English king was forced by rebellious barons to seal the Magna Carta at Runnymede in June 1215, establishing limits on royal authority?",
+          "answer": "King John",
+          "alternates": ["John", "John Lackland", "King John Lackland"],
+          "explanation": "King of England (1199\u20131216), House of Plantagenet (Angevin); youngest son of Henry II and Eleanor of Aquitaine\nSealed the Magna Carta at Runnymede on June 15, 1215 \u2014 a foundational document for constitutional law and the principle that the king is subject to law\nLost Normandy and most English holdings in France to Philip II, earning the nickname 'Lackland' (also 'Softsword')\nTraditional villain in the Robin Hood legends, portrayed as the villainous usurper while his brother was away on Crusade\nExcommunicated by Pope Innocent III in 1209 over a dispute about the appointment of the Archbishop of Canterbury\nFirst English king to lose a civil war to his own barons (the First Barons' War, 1215\u20131217)\nDied of dysentery in October 1216 while campaigning against rebel barons; allegedly lost the Crown Jewels in the Wash",
+          "cardFront": "1199\u20131216, Plantagenet, Magna Carta",
+          "cardBack": "King John"
+        },
+        {
+          "id": "edward-i",
+          "prompt": "Which tall English king, nicknamed 'Longshanks,' conquered Wales in the 1280s and earned the Latin title Malleus Scotorum for his brutal campaigns against Scotland?",
+          "answer": "Edward I",
+          "alternates": ["Edward Longshanks", "Edward I Longshanks", "Edward"],
+          "explanation": "King of England (1272\u20131307), House of Plantagenet; nicknamed 'Longshanks' for his imposing height (~6'2\")\nConquered Wales (1282\u20131283) and built a ring of massive castles \u2014 including Caernarfon, Conwy, and Harlech \u2014 to enforce English rule\nEarned the epithet 'Hammer of the Scots' (Malleus Scotorum) for his relentless military campaigns against Scotland\nSeized the Stone of Scone (Stone of Destiny) from Scotland in 1296 and brought it to Westminster Abbey\nEstablished the Model Parliament (1295), considered a precursor to modern parliamentary government\nExpelled all Jews from England in 1290 \u2014 they were not formally readmitted until 1656 under Oliver Cromwell\nDied in 1307 at Burgh by Sands while marching north for yet another campaign against Scotland",
+          "cardFront": "1272\u20131307, Plantagenet, Hammer of the Scots",
+          "cardBack": "Edward I"
+        },
+        {
+          "id": "edward-iii",
+          "prompt": "Which 14th-century English king started the Hundred Years' War by claiming the French throne and founded the Order of the Garter, England's highest order of chivalry?",
+          "answer": "Edward III",
+          "alternates": ["Edward"],
+          "explanation": "King of England (1327\u20131377), House of Plantagenet; reigned 50 years, one of the longest in medieval English history\nClaimed the French throne through his mother Isabella (daughter of Philip IV of France), igniting the Hundred Years' War in 1337\nPresided over the great English victories at Cr\u00e9cy (1346) and Poitiers (1356, won by his son the Black Prince)\nFounded the Order of the Garter in 1348 \u2014 the oldest and most senior British order of chivalry, still awarded today\nHis reign saw the Black Death (1348\u20131349), which killed roughly one-third to one-half of England's population\nFather of Edward the Black Prince, who predeceased him, leading to the succession of his grandson Richard II\nTreaty of Br\u00e9tigny (1360) gave England huge territorial gains in France, including Aquitaine and Calais",
+          "cardFront": "1327\u20131377, Plantagenet, Hundred Years' War",
+          "cardBack": "Edward III"
+        },
+        {
+          "id": "henry-v",
+          "prompt": "Which House of Lancaster king won a legendary victory against a much larger French army at Agincourt in 1415, despite being heavily outnumbered?",
+          "answer": "Henry V",
+          "alternates": ["Henry"],
+          "explanation": "King of England (1413\u20131422), House of Lancaster\nWon the Battle of Agincourt on October 25, 1415, defeating a much larger French force \u2014 English longbowmen decimated the French cavalry\nTreaty of Troyes (1420) recognized him as regent and heir to the French throne, disinheriting the Dauphin\nMarried Catherine of Valois, daughter of the French King Charles VI, as part of the Treaty of Troyes settlement\nDied of dysentery on August 31, 1422, at Bois de Vincennes near Paris, aged just 35 \u2014 two months before Charles VI, meaning he never inherited the French crown\nShakespeare immortalized him in *Henry V* with the St. Crispin's Day speech: 'We few, we happy few, we band of brothers'\nAs a young prince, reportedly wild and dissolute (Shakespeare's 'Prince Hal' in the *Henry IV* plays)",
+          "cardFront": "1413\u20131422, House of Lancaster, Agincourt",
+          "cardBack": "Henry V"
+        },
+        {
+          "id": "richard-iii",
+          "prompt": "Which king, the last of his dynasty, was killed at the Battle of Bosworth Field in 1485, and whose remains were discovered beneath a Leicester car park in 2012?",
+          "answer": "Richard III",
+          "alternates": ["Richard"],
+          "explanation": "King of England (1483\u20131485), last king of the House of York and the last Plantagenet monarch\nKilled at the Battle of Bosworth Field on August 22, 1485 \u2014 the last English king to die in battle\nShakespeare portrayed him as a scheming hunchback in *Richard III* ('A horse! A horse! My kingdom for a horse!')\nAccused of ordering the murder of his nephews, the 'Princes in the Tower' (Edward V and Richard of York) \u2014 still debated by historians\nRemains discovered under a Leicester car park in 2012 by University of Leicester archaeologists; confirmed by DNA analysis\nReburied with full honors at Leicester Cathedral on March 26, 2015 \u2014 over 530 years after his death\nSkeletal analysis confirmed severe scoliosis (curvature of the spine), partially vindicating Shakespeare's physical description",
+          "cardFront": "1483\u20131485, House of York, last Plantagenet",
+          "cardBack": "Richard III"
+        },
+        {
+          "id": "henry-vii",
+          "prompt": "Which Welsh-born claimant defeated Richard III at Bosworth Field and founded a new royal dynasty that would rule England for over a century?",
+          "answer": "Henry VII",
+          "alternates": ["Henry Tudor", "Henry"],
+          "explanation": "King of England (1485\u20131509), founder of the House of Tudor \u2014 the first Tudor monarch\nWon the Battle of Bosworth Field on August 22, 1485, defeating Richard III and ending the Wars of the Roses\nMarried Elizabeth of York (1486), uniting the rival Lancastrian and Yorkist claims; the Tudor rose (red and white combined) symbolizes this union\nHad a tenuous claim to the throne through his mother Margaret Beaufort, a Lancastrian descendant of John of Gaunt\nSpent 14 years in exile in Brittany and France before invading England with a small army\nEstablished financial stability through efficient (some said ruthless) taxation; left a full treasury to his son Henry VIII\nDied of tuberculosis at Richmond Palace in 1509; buried in the Lady Chapel at Westminster Abbey, which he commissioned",
+          "cardFront": "1485\u20131509, first Tudor monarch",
+          "cardBack": "Henry VII"
+        },
+        {
+          "id": "henry-viii",
+          "prompt": "Which Tudor king married six wives, broke with the Roman Catholic Church, and declared himself Supreme Head of the Church of England in 1534?",
+          "answer": "Henry VIII",
+          "alternates": ["Henry"],
+          "explanation": "King of England (1509\u20131547), House of Tudor; one of the most famous monarchs in English history\nMarried six wives: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard, Catherine Parr (mnemonic: divorced, beheaded, died, divorced, beheaded, survived)\nBroke with Rome over the Pope's refusal to annul his marriage to Catherine of Aragon; Act of Supremacy (1534) made him Supreme Head of the Church of England\nDissolved the monasteries (1536\u20131541), seizing vast church lands and wealth for the Crown\nFather of three monarchs: Edward VI (by Jane Seymour), Mary I (by Catherine of Aragon), and Elizabeth I (by Anne Boleyn)\nCommissioned the building of Hampton Court Palace and expanded the Royal Navy, laying foundations for English sea power\nWeighed an estimated 400 lbs by the end of his life; died January 28, 1547, at age 55",
+          "cardFront": "1509\u20131547, House of Tudor, six wives",
+          "cardBack": "Henry VIII"
+        },
+        {
+          "id": "edward-vi",
+          "prompt": "Which nine-year-old son of a Tudor king became England's youngest monarch and pushed through sweeping Protestant reforms before dying at age 15?",
+          "answer": "Edward VI",
+          "alternates": ["Edward"],
+          "explanation": "King of England (1547\u20131553), House of Tudor; son of Henry VIII and Jane Seymour\nBecame king at age 9 \u2014 governed by regents: first Edward Seymour (Duke of Somerset), then John Dudley (Duke of Northumberland)\nArchbishop Thomas Cranmer introduced the Book of Common Prayer (1549, revised 1552), establishing Protestant liturgy in English\nReign transformed the Church of England from essentially Catholic (minus the Pope) to institutionally Protestant\nTried to exclude his Catholic half-sister Mary from the succession by naming Lady Jane Grey as his heir\nLady Jane Grey reigned only nine days before Mary I seized the throne \u2014 the shortest reign in English history\nDied July 6, 1553, likely of tuberculosis, at age 15; the last male Tudor monarch",
+          "cardFront": "1547\u20131553, House of Tudor, boy king",
+          "cardBack": "Edward VI"
+        },
+        {
+          "id": "mary-i",
+          "prompt": "Which Tudor queen, daughter of Catherine of Aragon, earned a grim nickname after burning over 280 Protestants at the stake to restore Catholicism in England?",
+          "answer": "Mary I",
+          "alternates": ["Bloody Mary", "Mary Tudor", "Mary"],
+          "explanation": "Queen of England (1553\u20131558), House of Tudor; first queen regnant of England (ruling in her own right)\nEarned the nickname 'Bloody Mary' for burning over 280 religious dissenters at the stake during the Marian persecutions\nRestored Roman Catholicism as the state religion, reversing the Protestant reforms of her father Henry VIII and brother Edward VI\nMarried Philip II of Spain in 1554 \u2014 an unpopular match that provoked Wyatt's Rebellion\nLost Calais to France in January 1558 \u2014 England's last continental territory, held since 1347\nDaughter of Henry VIII and his first wife Catherine of Aragon; declared illegitimate when her parents' marriage was annulled\nDied childless on November 17, 1558; reportedly said 'When I am dead, you shall find Calais written on my heart'",
+          "cardFront": "1553\u20131558, House of Tudor, Bloody Mary",
+          "cardBack": "Mary I"
+        },
+        {
+          "id": "elizabeth-i",
+          "prompt": "Which unmarried Tudor queen presided over the defeat of the Spanish Armada in 1588 and a golden age of English literature that included Shakespeare?",
+          "answer": "Elizabeth I",
+          "alternates": ["Elizabeth", "The Virgin Queen"],
+          "explanation": "Queen of England (1558\u20131603), House of Tudor; last Tudor monarch\nKnown as the 'Virgin Queen' \u2014 never married, using the prospect of marriage as a diplomatic tool throughout her reign\nDefeated the Spanish Armada in 1588, securing England's naval dominance and Protestant independence from Catholic Spain\nHer reign (the Elizabethan era) saw a flowering of English drama: Shakespeare, Marlowe, Spenser, and the construction of the Globe Theatre\nDaughter of Henry VIII and Anne Boleyn; declared illegitimate after her mother's execution, then restored to the succession\nSurvived multiple Catholic assassination plots, including the Babington Plot (1586), which led to the execution of her cousin Mary, Queen of Scots\n44-year reign brought relative stability after decades of religious turmoil; the Elizabethan Religious Settlement (1559) established a moderate Protestantism",
+          "cardFront": "1558\u20131603, last Tudor, Virgin Queen",
+          "cardBack": "Elizabeth I"
+        },
+        {
+          "id": "james-i",
+          "prompt": "Which Scottish king unified the English and Scottish crowns in 1603, authorized a famous Bible translation, and narrowly survived the Gunpowder Plot?",
+          "answer": "James I",
+          "alternates": ["James VI", "James I and VI", "James VI and I", "James"],
+          "explanation": "King of England (1603\u20131625) and King of Scotland as James VI (from 1567); House of Stuart; first monarch to rule both kingdoms\nSon of Mary, Queen of Scots; became King of Scotland at 13 months old after his mother's forced abdication\nSurvived the Gunpowder Plot (November 5, 1605): Catholic conspirators led by Guy Fawkes attempted to blow up Parliament; foiled the night before\nCommissioned the King James Bible (1611), one of the most influential works of English prose in history\nAuthorized the founding of Jamestown, Virginia (1607) \u2014 the first permanent English settlement in the Americas\nWrote *Daemonologie* (1597), a treatise on witchcraft, and believed strongly in the divine right of kings\nGuy Fawkes Night (November 5) is still celebrated annually in Britain with bonfires and fireworks",
+          "cardFront": "1603\u20131625, first Stuart king of England",
+          "cardBack": "James I"
+        },
+        {
+          "id": "charles-i",
+          "prompt": "Which Stuart king's conflict with Parliament led to the English Civil War, his trial for high treason, and his public beheading outside the Banqueting House in 1649?",
+          "answer": "Charles I",
+          "alternates": ["Charles"],
+          "explanation": "King of England (1625\u20131649), House of Stuart; second son of James I\nBelieved in the divine right of kings and ruled without Parliament for 11 years (the 'Personal Rule,' 1629\u20131640)\nThe English Civil War (1642\u20131651) pitted Royalists ('Cavaliers') against Parliamentarians ('Roundheads') led by Oliver Cromwell\nDefeated by the New Model Army; tried for high treason by a specially convened court \u2014 the first time a reigning monarch was formally tried and executed\nBeheaded on January 30, 1649, outside the Banqueting House in Whitehall; reportedly wore two shirts to avoid shivering in the cold being mistaken for fear\nHis execution led to the abolition of the monarchy and the establishment of the Commonwealth under Oliver Cromwell (1649\u20131660)\nConsidered a martyr by Anglican royalists; January 30 was observed as a day of fasting and humiliation until 1859",
+          "cardFront": "1625\u20131649, House of Stuart, executed",
+          "cardBack": "Charles I"
+        },
+        {
+          "id": "charles-ii",
+          "prompt": "Which Stuart king returned from exile in 1660 to restore the monarchy, oversaw the Great Fire of London, and was known as the 'Merry Monarch'?",
+          "answer": "Charles II",
+          "alternates": ["Charles"],
+          "explanation": "King of England (1660\u20131685), House of Stuart; restored to the throne in 1660 after the collapse of Cromwell's Commonwealth\nKnown as the 'Merry Monarch' for his hedonistic court and numerous mistresses\nHis reign saw both the Great Plague (1665, killing ~100,000 Londoners) and the Great Fire of London (1666, destroying 13,200 houses and 87 churches including Old St Paul's)\nPersonally joined firefighting efforts during the Great Fire alongside his brother James\nFathered at least 12 acknowledged illegitimate children but no legitimate heir, creating a succession crisis\nFounded the Royal Observatory at Greenwich (1675) and granted a charter to the Hudson's Bay Company (1670)\nConverted to Catholicism on his deathbed; succeeded by his openly Catholic brother James II, sparking the crisis that led to the Glorious Revolution",
+          "cardFront": "1660\u20131685, Stuart Restoration, Merry Monarch",
+          "cardBack": "Charles II"
+        },
+        {
+          "id": "william-iii-mary-ii",
+          "prompt": "Which Dutch stadtholder and his English wife were invited to invade England in 1688 and became its only joint monarchs after Parliament passed the Bill of Rights?",
+          "answer": "William III & Mary II",
+          "alternates": ["William and Mary", "William III and Mary II", "William III", "William of Orange"],
+          "explanation": "Joint monarchs of England (William: 1689\u20131702, Mary: 1689\u20131694), the only co-regents in English history\nThe Glorious Revolution (1688): Protestant nobles invited William of Orange (Dutch stadtholder) to depose his father-in-law, the Catholic James II\nParliament passed the Bill of Rights (1689), limiting royal power and establishing parliamentary sovereignty \u2014 a cornerstone of constitutional monarchy\nMary II was the eldest daughter of James II; William III was both her husband and her first cousin\nJames II fled to France without a fight; Parliament declared he had 'abdicated' by fleeing\nWilliam continued to rule alone after Mary died of smallpox in 1694\nBattle of the Boyne (1690): William defeated James II in Ireland \u2014 still commemorated in Northern Irish Protestant culture",
+          "cardFront": "1689\u20131702, Glorious Revolution, Bill of Rights",
+          "cardBack": "William III & Mary II"
+        },
+        {
+          "id": "anne",
+          "prompt": "Which queen, the last of the Stuart dynasty, presided over the 1707 Acts of Union that merged England and Scotland into the Kingdom of Great Britain?",
+          "answer": "Queen Anne",
+          "alternates": ["Anne"],
+          "explanation": "Queen of England, Scotland, and Ireland (1702\u20131707), then Queen of Great Britain and Ireland (1707\u20131714); last Stuart monarch\nThe Acts of Union (1707) merged the English and Scottish parliaments into a single Parliament of Great Britain \u2014 creating the political entity that still exists\nDespite 17 pregnancies, none of her children survived to adulthood \u2014 her longest-surviving child, William Duke of Gloucester, died at age 11\nHer reign saw the War of the Spanish Succession and the Duke of Marlborough's great victories, including Blenheim (1704)\nSucceeded by George I of Hanover (her second cousin) under the Act of Settlement (1701), which excluded Catholics from the throne\nHer close friendship with Sarah Churchill, Duchess of Marlborough, and its breakdown was dramatized in the 2018 film *The Favourite*\nThe last monarch to veto an act of Parliament (the Scottish Militia Bill, 1708) \u2014 no monarch has used the veto since",
+          "cardFront": "1702\u20131714, last Stuart, Acts of Union 1707",
+          "cardBack": "Queen Anne"
+        },
+        {
+          "id": "george-iii",
+          "prompt": "Which Hanoverian king reigned for 59 years, lost the American colonies in the Revolutionary War, and suffered recurrent bouts of mental illness that led to a regency?",
+          "answer": "George III",
+          "alternates": ["George"],
+          "explanation": "King of Great Britain and Ireland (1760\u20131820), House of Hanover; longest-reigning British king (59 years)\nLost the 13 American colonies in the American Revolutionary War (1775\u20131783); the Declaration of Independence lists 27 grievances against him\nSuffered recurrent episodes of severe mental illness (historically attributed to porphyria, now debated); became permanently incapacitated in 1810\nHis son George (later George IV) served as Prince Regent from 1811, giving the Regency era its name\nFirst Hanoverian monarch born in England and to speak English as his native language\nPresided over the Napoleonic Wars, including Nelson's victory at Trafalgar (1805) and Wellington's at Waterloo (1815)\nDied blind, deaf, and mentally incapacitated at Windsor Castle in 1820 at age 81",
+          "cardFront": "1760\u20131820, House of Hanover, lost American colonies",
+          "cardBack": "George III"
+        },
+        {
+          "id": "victoria",
+          "prompt": "Which 19th-century queen reigned for over 63 years, became Empress of India, and gave her name to an era defined by industrial revolution and imperial expansion?",
+          "answer": "Queen Victoria",
+          "alternates": ["Victoria"],
+          "explanation": "Queen of the United Kingdom (1837\u20131901), House of Hanover; reigned 63 years and 216 days \u2014 the longest-reigning queen in world history until surpassed by Elizabeth II in 2015\nBecame Empress of India in 1876 at Prime Minister Disraeli's urging; the British Empire at its peak covered one-fifth of the Earth's land surface\nMarried Prince Albert of Saxe-Coburg and Gotha in 1840; his death in 1861 left her in mourning for the rest of her life (she wore black for 40 years)\nNine children married into royal families across Europe, earning her the nickname 'Grandmother of Europe'\nCarrier of the haemophilia gene, which spread to the Spanish, German, and Russian royal families through her descendants\nThe Victorian era saw the Great Exhibition (1851), the expansion of railways, and the height of British industrial power\nDied January 22, 1901, at Osborne House on the Isle of Wight; her death ended the Hanoverian dynasty (succeeded by Edward VII, House of Saxe-Coburg and Gotha)",
+          "cardFront": "1837\u20131901, Empress of India, Victorian era",
+          "cardBack": "Queen Victoria"
+        },
+        {
+          "id": "elizabeth-ii",
+          "prompt": "Which monarch acceded to the throne in 1952 at age 25, had her coronation broadcast on television, and reigned for over 70 years until her death in 2022?",
+          "answer": "Elizabeth II",
+          "alternates": ["Queen Elizabeth II", "Queen Elizabeth", "Elizabeth"],
+          "explanation": "Queen of the United Kingdom (1952\u20132022), House of Windsor; longest-reigning British monarch at 70 years and 214 days\nAcceded to the throne on February 6, 1952, upon the death of her father George VI; crowned June 2, 1953, in the first televised coronation\nReigned through the decolonization of Africa and Asia, the Troubles in Northern Ireland, the UK's entry into and exit from the European Union\nServed during World War II as a driver and mechanic in the Women's Auxiliary Territorial Service \u2014 the only female member of the royal family to serve in the armed forces\nSurpassed Queen Victoria's record on September 9, 2015, to become the longest-reigning British monarch\nCelebrated her Platinum Jubilee (70 years) in June 2022, just months before her death\nDied on September 8, 2022, at Balmoral Castle in Scotland at age 96; succeeded by her son Charles III",
+          "cardFront": "1952\u20132022, House of Windsor, longest reign",
+          "cardBack": "Elizabeth II"
+        }
+      ]
+    }
+  ]
+}

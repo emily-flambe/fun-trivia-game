@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    { "id": "world-history/international-organizations", "parentId": "world-history", "name": "International Organizations", "description": "Major international organizations \u2014 founding, purpose, headquarters" }
+  ],
+  "exercises": [
+    {
+      "id": "world-history/international-organizations/international-organizations",
+      "nodeId": "world-history/international-organizations",
+      "name": "International Organizations",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "red-cross",
+          "prompt": "Which humanitarian organization, founded in Geneva in 1863 after its founder witnessed the carnage at the Battle of Solferino, uses an emblem that is the inverse of the Swiss flag?",
+          "answer": "Red Cross",
+          "alternates": ["International Red Cross", "ICRC", "International Committee of the Red Cross", "The Red Cross"],
+          "explanation": "Founded 17 February 1863 in Geneva by Henry Dunant and four others; the world\u2019s oldest humanitarian organization\nDunant witnessed 40,000 casualties at the Battle of Solferino (1859) and wrote *A Memory of Solferino* (1862) proposing neutral relief societies\nFive-person founding committee: Dunant, Gustave Moynier, General Henri Dufour, Dr. Louis Appia, Dr. Theodore Maunoir\nEmblem is a red cross on white background \u2014 the inverse of the Swiss flag \u2014 chosen at the 1863 Geneva conference\nFirst Geneva Convention signed 22 August 1864 by 12 states, establishing rules for treatment of wounded soldiers\nDunant won the first Nobel Peace Prize in 1901 (shared with Frederic Passy), despite being nearly destitute at the time\nThree components today: ICRC (conflict zones), International Federation of Red Cross and Red Crescent Societies (disasters), and national societies in 191 countries",
+          "cardFront": "1863, Geneva, Henry Dunant, inverse Swiss flag emblem",
+          "cardBack": "Red Cross"
+        },
+        {
+          "id": "ioc",
+          "prompt": "Which organization, founded in Paris in 1894 by Pierre de Coubertin and headquartered in Lausanne since 1915, governs the Summer, Winter, and Youth editions of a major global sporting event?",
+          "answer": "International Olympic Committee",
+          "alternates": ["IOC", "The IOC", "The International Olympic Committee"],
+          "explanation": "Founded 23 June 1894 at the first Olympic Congress in Paris by Pierre de Coubertin; Demetrios Vikelas of Greece was the first president\nMoved headquarters from Paris to Lausanne, Switzerland in 1915, where it remains today on the shores of Lake Geneva\nCoubertin revived the ancient Greek Olympic Games; the first modern Olympics were held in Athens in 1896 with 241 athletes from 14 nations\nKirsty Coventry (Zimbabwe) elected 10th president in March 2025 \u2014 the first woman and first African to lead the organization\nCoventry won seven Olympic swimming medals, including back-to-back golds in the 200m backstroke (Athens 2004, Beijing 2008) — the most decorated Olympic swimmer from Africa\nThe Olympic Charter grants the committee sole authority over the Games, including selection of host cities and sports on the program\nNot-for-profit organization; generates revenue primarily through broadcasting rights and sponsorship deals",
+          "cardFront": "1894, Lausanne, Pierre de Coubertin, governs the Olympics",
+          "cardBack": "International Olympic Committee"
+        },
+        {
+          "id": "league-of-nations",
+          "prompt": "Which international body, established on 10 January 1920 and headquartered in Geneva, was the first intergovernmental organization dedicated to maintaining world peace but dissolved in 1946 after failing to prevent a second global war?",
+          "answer": "League of Nations",
+          "alternates": ["The League of Nations", "LoN"],
+          "explanation": "Founded 10 January 1920 at the Paris Peace Conference; headquartered in Geneva, Switzerland\nBrainchild of U.S. President Woodrow Wilson, included in his Fourteen Points (1918) \u2014 yet the U.S. Senate rejected membership, fatally weakening it\nWilson won the 1919 Nobel Peace Prize for his role as the League\u2019s leading architect\nPeaked at 58 member states (September 1934\u2013February 1935); lacked its own military force and relied on collective diplomacy\nMajor failures: could not stop Japan\u2019s invasion of Manchuria (1931), Italy\u2019s conquest of Ethiopia (1935), or the outbreak of World War II\nDissolved 18 April 1946; transferred assets, archives, and the Palais des Nations in Geneva to the newly formed United Nations\nFirst worldwide intergovernmental organization \u2014 established precedents for international courts, health agencies, and labor standards that the UN inherited",
+          "cardFront": "1920, Geneva, Woodrow Wilson\u2019s idea, dissolved 1946",
+          "cardBack": "League of Nations"
+        },
+        {
+          "id": "interpol",
+          "prompt": "Which international law enforcement body, originally established in Vienna in 1923 and now headquartered in Lyon, France, facilitates police cooperation across 196 member countries and is known for its color-coded alert notices?",
+          "answer": "Interpol",
+          "alternates": ["INTERPOL", "ICPO", "International Criminal Police Organization", "ICPO-INTERPOL"],
+          "explanation": "Founded 7 September 1923 in Vienna as the International Criminal Police Commission (ICPC) at a five-day International Police Congress\nDr. Johannes Schober, President of the Vienna Police, served as its first president (1923\u20131932)\nSeized by the Nazis in 1938 after the Anschluss; revived in 1946 by Belgium, France, Scandinavia, the US, and the UK\nRenamed International Criminal Police Organization (ICPO) in 1946; adopted the telegraphic name \u2018Interpol\u2019 in 1956\nHeadquarters moved from Vienna to Paris (1946), then Saint-Cloud (1966), then Lyon, France (1989), where it remains today\nIssues color-coded notices: Red (wanted persons), Blue (identity information), Yellow (missing persons), Black (unidentified bodies)\n196 member countries \u2014 the world\u2019s largest international police organization; does not make arrests itself but coordinates between national police forces",
+          "cardFront": "1923, Lyon, international police cooperation, color-coded notices",
+          "cardBack": "Interpol"
+        },
+        {
+          "id": "world-bank",
+          "prompt": "Which international financial institution, conceived at the 1944 Bretton Woods Conference alongside the IMF and headquartered in Washington, D.C., was originally created to finance post-war European reconstruction and now focuses on development loans to reduce global poverty?",
+          "answer": "World Bank",
+          "alternates": ["The World Bank", "IBRD", "International Bank for Reconstruction and Development", "World Bank Group"],
+          "explanation": "Conceived at the Bretton Woods Conference (July 1944) in New Hampshire; Articles of Agreement ratified 27 December 1945 by 21 countries\nFormally the International Bank for Reconstruction and Development (IBRD); began operations June 1946\nOriginal mission: finance reconstruction of war-devastated Europe; first loan was $250 million to France in 1947\nHeadquartered in Washington, D.C. \u2014 Treasury Secretary Fred Vinson overruled plans for New York, fearing the \u2018taint of international finance\u2019\nNow has 189 member countries; provides low-interest loans, grants, and technical assistance to developing nations\nBy convention, the World Bank president is always an American, while the IMF managing director is always a European\nWorld Bank Group comprises five institutions: IBRD, IDA (poorest countries), IFC (private sector), MIGA (investment guarantees), ICSID (disputes)",
+          "cardFront": "1944, Washington D.C., Bretton Woods, development loans",
+          "cardBack": "World Bank"
+        },
+        {
+          "id": "un",
+          "prompt": "Which international organization, founded on 24 October 1945 and headquartered in New York City, replaced a failed predecessor, has 193 member states, and features a Security Council with five veto-wielding permanent members?",
+          "answer": "United Nations",
+          "alternates": ["UN", "The United Nations", "The UN", "U.N."],
+          "explanation": "Charter signed 26 June 1945 in San Francisco by 51 original member states; entered into force 24 October 1945 (now observed as UN Day)\nReplaced the League of Nations (1920\u20131946), which had failed to prevent World War II\nFive permanent Security Council members (P5) with veto power: USA, UK, France, Russia (originally USSR), China\nSecurity Council has 15 total members \u2014 5 permanent and 10 non-permanent elected for two-year terms\nUniversal Declaration of Human Rights adopted 10 December 1948, primarily drafted by Eleanor Roosevelt\nCurrently 193 member states \u2014 effectively every recognized sovereign state; most recent member was South Sudan (2011)\nKey specialized agencies: WHO (health), UNESCO (education/culture), UNICEF (children), UNHCR (refugees); headquarters on international territory in Manhattan",
+          "cardFront": "24 October 1945, New York, 193 members, P5 veto",
+          "cardBack": "United Nations"
+        },
+        {
+          "id": "imf",
+          "prompt": "Which Bretton Woods institution, formally established in December 1945 and headquartered in Washington, D.C., serves as the global lender of last resort and monitors exchange rates and balance-of-payments stability for its 191 member countries?",
+          "answer": "International Monetary Fund",
+          "alternates": ["IMF", "The IMF", "The International Monetary Fund"],
+          "explanation": "Conceived at the Bretton Woods Conference (July 1944) based on ideas of John Maynard Keynes and Harry Dexter White\nFormally established 27 December 1945 when 29 countries ratified its Articles of Agreement; headquartered in Washington, D.C.\n191 member countries; mission is to foster global monetary cooperation, financial stability, and sustainable economic growth\nActs as a lender of last resort \u2014 provides emergency loans to countries facing balance-of-payments crises, often with strict conditions (structural adjustment)\nBy convention, the IMF managing director is always a European, while the World Bank president is always an American\nSpecial Drawing Rights (SDRs): the IMF\u2019s own reserve currency unit, created in 1969, based on a basket of five currencies (USD, EUR, GBP, JPY, CNY)\nControversial for \u2018conditionality\u2019 \u2014 loans often require austerity measures, privatization, and market liberalization that critics say harm developing nations",
+          "cardFront": "1945, Washington D.C., Bretton Woods, lender of last resort",
+          "cardBack": "International Monetary Fund"
+        },
+        {
+          "id": "who",
+          "prompt": "Which specialized agency of the UN, established on 7 April 1948 and headquartered in Geneva, coordinates international public health efforts and led the successful campaign to eradicate smallpox in 1980?",
+          "answer": "World Health Organization",
+          "alternates": ["WHO", "The WHO", "The World Health Organization"],
+          "explanation": "Constitution signed 22 July 1946 by 61 countries; entered into force 7 April 1948 (now observed as World Health Day)\nHeadquartered in Geneva, Switzerland; six regional offices worldwide; 194 member states\nLed the global smallpox eradication campaign \u2014 declared successful 8 May 1980, the only human disease ever fully eradicated\nG. Brock Chisholm (Canada) was the first Director-General; Andrija Stampar was the first World Health Assembly president\nFirst priorities in 1948: malaria, tuberculosis, sexually transmitted infections, maternal and child health\nCoordinated the global response to major epidemics: SARS (2003), Ebola (2014\u20132016), COVID-19 (declared pandemic 11 March 2020)\nPreamble to its constitution contains the famous definition: \u2018Health is a state of complete physical, mental and social well-being and not merely the absence of disease\u2019",
+          "cardFront": "7 April 1948, Geneva, UN public health agency, eradicated smallpox",
+          "cardBack": "World Health Organization"
+        },
+        {
+          "id": "nato",
+          "prompt": "Which military alliance, formed on 4 April 1949 by 12 founding nations including the US, UK, Canada, and France, is headquartered in Brussels and invokes Article 5 for collective defense \u2014 an attack on one is an attack on all?",
+          "answer": "NATO",
+          "alternates": ["North Atlantic Treaty Organization", "The North Atlantic Treaty Organization"],
+          "explanation": "Founded 4 April 1949 with the signing of the North Atlantic Treaty (Washington Treaty) by 12 nations\n12 founding members: USA, UK, Canada, France, Belgium, Netherlands, Luxembourg, Norway, Denmark, Iceland, Italy, Portugal\nArticle 5 (collective defense): an armed attack against one member is considered an attack against all \u2014 invoked only once, after the 9/11 attacks (2001)\nHeadquartered in Brussels, Belgium; military headquarters (SHAPE) near Mons, Belgium\nCreated to counter the Soviet threat during the Cold War; the Soviets responded by forming the Warsaw Pact in 1955\nCurrently 32 member states \u2014 Finland joined in 2023, Sweden in 2024; expanded significantly after the Cold War into Eastern Europe\nFrance withdrew from the integrated military command in 1966 under de Gaulle but remained a member; fully rejoined in 2009",
+          "cardFront": "4 April 1949, Brussels, Article 5, collective defense",
+          "cardBack": "NATO"
+        },
+        {
+          "id": "opec",
+          "prompt": "Which intergovernmental organization, founded in Baghdad in 1960 by five oil-producing nations and now headquartered in Vienna, coordinates petroleum production policies and triggered the 1973 oil crisis with an embargo?",
+          "answer": "OPEC",
+          "alternates": ["Organization of the Petroleum Exporting Countries", "Organisation of the Petroleum Exporting Countries", "The Organization of the Petroleum Exporting Countries"],
+          "explanation": "Founded 14 September 1960 in Baghdad by five countries: Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela\nHeadquarters initially in Geneva; moved to Vienna, Austria on 1 September 1965 after Switzerland declined to extend diplomatic privileges\n1973 oil embargo: Arab members imposed an embargo against the US and others supporting Israel in the Yom Kippur War \u2014 oil prices quadrupled\n1973 crisis transformed global energy politics; led to fuel rationing, speed limits, and a lasting shift toward energy independence in Western nations\nCurrently 12 member countries; members collectively produce about 38% of the world\u2019s crude oil\nOPEC+ (formed 2016) includes non-member allies like Russia to coordinate production; expanded the cartel\u2019s market influence\nSaudi Arabia is the de facto leader and largest producer within the group; Venezuela (a founder) has the world\u2019s largest proven oil reserves",
+          "cardFront": "1960, Vienna, five founding oil nations, 1973 embargo",
+          "cardBack": "OPEC"
+        },
+        {
+          "id": "amnesty-international",
+          "prompt": "Which human rights organization, launched in 1961 after its British founder read about two Portuguese students jailed for toasting to liberty, campaigns for \u2018prisoners of conscience\u2019 worldwide and won the Nobel Peace Prize in 1977?",
+          "answer": "Amnesty International",
+          "alternates": ["Amnesty", "AI"],
+          "explanation": "Founded in London, July 1961, by British lawyer Peter Benenson after reading about two Portuguese students sentenced to seven years under Salazar\u2019s dictatorship\nBenenson\u2019s article \u2018The Forgotten Prisoners\u2019 published in The Observer on 28 May 1961 launched the \u2018Appeal for Amnesty\u2019 campaign\nCoined the term \u2018prisoners of conscience\u2019 \u2014 people imprisoned solely for their beliefs, ethnicity, or identity who have not used or advocated violence\nResponse was overwhelming; letter-writing groups formed in over a dozen countries within a year; formally named Amnesty International on 30 September 1962\nWon the Nobel Peace Prize in 1977 for \u2018contributing to securing the ground for freedom, for justice, and thereby also for peace in the world\u2019\nHeadquartered in London; now has over 10 million supporters in more than 150 countries\nLogo is a candle wrapped in barbed wire \u2014 symbolizing hope amid repression; designed in 1961 and based on the proverb \u2018better to light a candle than curse the darkness\u2019",
+          "cardFront": "1961, London, Peter Benenson, prisoners of conscience",
+          "cardBack": "Amnesty International"
+        },
+        {
+          "id": "asean",
+          "prompt": "Which regional bloc, established on 8 August 1967 in Bangkok by five Southeast Asian nations and headquartered in Jakarta, now has 11 member states including its newest member Timor-Leste (2025)?",
+          "answer": "ASEAN",
+          "alternates": ["Association of Southeast Asian Nations", "The Association of Southeast Asian Nations"],
+          "explanation": "Founded 8 August 1967 in Bangkok with the signing of the ASEAN Declaration (Bangkok Declaration)\nFive founding members: Indonesia, Malaysia, Philippines, Singapore, Thailand\nHeadquartered in Jakarta, Indonesia; formal Secretariat established at the 1976 Bali summit\n11 member states: the five founders plus Brunei (1984), Vietnam (1995), Laos (1997), Myanmar (1997), Cambodia (1999), Timor-Leste (October 2025)\nCombined population of ~680 million; would be the third-largest economy in Asia and fifth-largest in the world if counted as a single entity\nOperates by consensus and non-interference in domestic affairs \u2014 the \u2018ASEAN Way\u2019 \u2014 which critics say limits its ability to address human rights abuses\nASEAN Regional Forum (ARF) is the key Asia-Pacific security dialogue; includes the US, China, Russia, Japan, and other outside partners",
+          "cardFront": "8 August 1967, Jakarta, five founding Southeast Asian nations",
+          "cardBack": "ASEAN"
+        },
+        {
+          "id": "eu",
+          "prompt": "Which 27-member political and economic union, formally created by the Maastricht Treaty in 1993, evolved from a six-nation coal-and-steel community founded in the 1950s and introduced a common currency used by most of its members?",
+          "answer": "European Union",
+          "alternates": ["EU", "The European Union", "The EU", "E.U."],
+          "explanation": "Maastricht Treaty signed 7 February 1992, entered into force 1 November 1993 \u2014 formally created the EU from the earlier European Communities\nRoots in the European Coal and Steel Community (1951) and the European Economic Community (EEC), founded by the Treaty of Rome (25 March 1957)\nOriginal six EEC members: France, West Germany, Italy, Belgium, Netherlands, Luxembourg \u2014 the \u2018Inner Six\u2019\nEuro currency launched 1 January 1999 (electronic) and 1 January 2002 (banknotes and coins); used by 20 of 27 member states in the eurozone\n27 member states after Brexit \u2014 the UK left on 31 January 2020, the first and only country to withdraw from the EU\nHeadquartered in Brussels; key institutions include the European Commission (Berlaymont), European Council (Europa building), and European Parliament (Brussels and Strasbourg)\nSchengen Area allows passport-free travel across 29 European countries (includes some non-EU states like Norway and Switzerland)",
+          "cardFront": "Maastricht 1993, 27 members, euro currency, evolved from EEC",
+          "cardBack": "European Union"
+        },
+        {
+          "id": "wto",
+          "prompt": "Which Geneva-based organization, established on 1 January 1995 through the Marrakesh Agreement, succeeded a 1947 trade framework and now governs rules for international commerce in goods, services, and intellectual property?",
+          "answer": "World Trade Organization",
+          "alternates": ["WTO", "The WTO", "The World Trade Organization"],
+          "explanation": "Established 1 January 1995 pursuant to the Marrakesh Agreement, signed 15 April 1994 by 123 nations\nSucceeded the General Agreement on Tariffs and Trade (GATT), which had governed world trade from 1 January 1948\nHeadquartered in Geneva, Switzerland, in the Centre William Rappard building on the shore of Lake Geneva\nKey expansion over GATT: covers not just goods but also services (GATS) and intellectual property (TRIPS)\nDispute settlement mechanism is the \u2018crown jewel\u2019 \u2014 binding rulings that member states must comply with, unlike the toothless GATT system\nDoha Development Round (launched 2001) stalled for over two decades \u2014 agriculture subsidies and developing-nation interests remain contentious\nChina\u2019s accession on 11 December 2001 was a watershed moment; transformed global trade patterns and supply chains",
+          "cardFront": "1 January 1995, Geneva, succeeded GATT, trade rules",
+          "cardBack": "World Trade Organization"
+        },
+        {
+          "id": "african-union",
+          "prompt": "Which 55-member continental organization, launched in Durban on 9 July 2002 as the successor to a 1963 pan-African body focused on decolonization, is headquartered in Addis Ababa and aims to accelerate African political and economic integration?",
+          "answer": "African Union",
+          "alternates": ["AU", "The African Union", "The AU"],
+          "explanation": "Launched 9 July 2002 in Durban, South Africa; successor to the Organisation of African Unity (OAU), founded 25 May 1963 in Addis Ababa\nOAU was created by 32 signatory states focused on ending colonialism and apartheid; the AU shifted focus to economic integration and governance\nTransition announced in the Sirte Declaration (9 September 1999) in Libya, championed by Muammar Gaddafi who envisioned a \u2018United States of Africa\u2019\nHeadquartered in Addis Ababa, Ethiopia; the African Union Commission building was controversially funded and built by China (opened 2012)\n55 member states \u2014 every internationally recognized African country; 25 May is observed as Africa Day (anniversary of the OAU\u2019s founding)\nAfrican Continental Free Trade Area (AfCFTA), launched 2021, aims to create the world\u2019s largest free trade area by number of countries\nUnlike its predecessor, the AU can intervene in member states during war crimes, genocide, and crimes against humanity \u2014 a significant departure from the OAU\u2019s non-interference doctrine",
+          "cardFront": "9 July 2002, Addis Ababa, successor to OAU, 55 members",
+          "cardBack": "African Union"
+        }
+      ]
+    }
+  ]
+}
