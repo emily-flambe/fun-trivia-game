@@ -33,6 +33,14 @@ Update these when the information changes. Create new keys for new topics.
 | Seed local D1 | `node scripts/seed.mjs --local` |
 | Seed remote D1 | `node scripts/seed.mjs --remote` |
 
+## Finding Quiz Content
+
+**The D1 database is the source of truth, NOT the seed files.** Many exercises in the deployed DB do not have corresponding seed files in `seeds/`. When looking for content to update or verify, always check the deployed API first:
+```bash
+curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
+```
+Do NOT assume "not in seed files" means "doesn't exist." Check the API.
+
 ## Adding Quiz Content
 
 **Read `docs/CONTENT_GUIDE.md` before writing or modifying seed files.** It defines explanation standards, format selection, card design, and all content conventions.
