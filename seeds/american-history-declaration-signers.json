@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "american-history/declaration-signers",
+      "parentId": "american-history",
+      "name": "Declaration of Independence Signers",
+      "description": "Key signers of the Declaration of Independence"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/declaration-signers/key-signers",
+      "nodeId": "american-history/declaration-signers",
+      "name": "Key Signers of the Declaration",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "john-hancock",
+          "prompt": "This president of the Continental Congress signed first and most famously, with a signature so large it became synonymous with signing one's name. He represented Massachusetts. Who was he?",
+          "answer": "John Hancock",
+          "alternates": ["Hancock"],
+          "explanation": "President of the Second Continental Congress and first to sign the Declaration (August 2, 1776)\nHis oversized signature became so iconic that 'John Hancock' is American slang for any signature\nRepresented Massachusetts — one of the wealthiest men in the colonies, largely from inherited shipping fortune\nSmuggling charges against his sloop Liberty (1768) inflamed colonial resistance; John Adams defended him in court\nServed as first governor of Massachusetts (1780–1785, 1787–1793)\nDied in office as governor in 1793 at age 56",
+          "cardFront": "Massachusetts (President of Congress)",
+          "cardBack": "John Hancock"
+        },
+        {
+          "id": "benjamin-franklin",
+          "prompt": "At age 70, this Pennsylvania delegate was the oldest signer. A polymath, inventor, and diplomat, he later helped negotiate the Treaty of Paris and attended the Constitutional Convention. Who was he?",
+          "answer": "Benjamin Franklin",
+          "alternates": ["Franklin", "Ben Franklin"],
+          "explanation": "Oldest signer at 70 — one of only six people to sign both the Declaration and the Constitution\nPennsylvania delegate; the most internationally famous American of the 18th century\nInvented the lightning rod, bifocal glasses, and the Franklin stove; proved lightning was electrical (1752 kite experiment)\nServed as U.S. Ambassador to France (1778–1785) and helped negotiate the Treaty of Paris ending the Revolutionary War\nFamous quip at the signing: 'We must, indeed, all hang together, or most assuredly we shall all hang separately'\nFace on the $100 bill — the highest-denomination bill in general circulation; never served as president",
+          "cardFront": "Pennsylvania (oldest signer, age 70)",
+          "cardBack": "Benjamin Franklin"
+        },
+        {
+          "id": "john-adams",
+          "prompt": "This Massachusetts delegate was a driving force behind independence, serving on the committee that drafted the document and later becoming the 2nd President. Who was he?",
+          "answer": "John Adams",
+          "alternates": ["Adams", "J. Adams"],
+          "explanation": "Massachusetts delegate and the 'Atlas of Independence' — the strongest advocate for declaring independence in Congress\nServed on the five-member Committee of Five that drafted the Declaration; yielded the pen to Jefferson\nBecame the 1st Vice President (1789–1797) and 2nd President (1797–1801)\nDefended British soldiers after the Boston Massacre (1770) — believed in rule of law even for adversaries\nDied July 4, 1826, hours after Jefferson — exactly 50 years after the Declaration was adopted\nHis last words are traditionally reported as 'Thomas Jefferson survives' — not knowing Jefferson had died earlier that day",
+          "cardFront": "Massachusetts",
+          "cardBack": "John Adams"
+        },
+        {
+          "id": "samuel-adams",
+          "prompt": "This Massachusetts delegate and cousin of a future president was a master propagandist and organizer of colonial resistance, helping orchestrate the Boston Tea Party. Who was he?",
+          "answer": "Samuel Adams",
+          "alternates": ["Sam Adams", "S. Adams"],
+          "explanation": "Massachusetts delegate — organized the Sons of Liberty and the Committees of Correspondence, two key engines of colonial resistance\nOrganized the Sons of Liberty and helped plan the Boston Tea Party (December 1773)\nCousin of John Adams — both signed the Declaration; Sam was 13 years older\nMaster of revolutionary propaganda — used the Boston Massacre (1770) to inflame anti-British sentiment\nServed as Governor of Massachusetts (1794–1797)\nSamuel Adams beer brand, founded in 1984, is named after him — though his actual brewing career was a failure",
+          "cardFront": "Massachusetts",
+          "cardBack": "Samuel Adams"
+        },
+        {
+          "id": "thomas-jefferson",
+          "prompt": "This Virginia delegate was chosen by the Committee of Five to draft the document at age 33. He later served as Secretary of State, Vice President, and 3rd President. Who was he?",
+          "answer": "Thomas Jefferson",
+          "alternates": ["Jefferson"],
+          "explanation": "Principal author of the Declaration of Independence, drafted at age 33 in a rented room in Philadelphia\nVirginia delegate; served as Governor of Virginia (1779–1781), Secretary of State (1790–1793), VP (1797–1801), and 3rd President (1801–1809)\nOriginal draft included a passage condemning the slave trade, which was removed to secure Southern support\nCompleted the Louisiana Purchase (1803), doubling U.S. territory for about 3 cents per acre\nFounded the University of Virginia (1819) and designed its Neoclassical campus in Charlottesville\nDied July 4, 1826 — same day as John Adams — on the 50th anniversary of the Declaration's adoption",
+          "cardFront": "Virginia (principal author)",
+          "cardBack": "Thomas Jefferson"
+        },
+        {
+          "id": "roger-sherman",
+          "prompt": "This Connecticut delegate was the only person to sign all four great state papers: the Continental Association, the Declaration, the Articles of Confederation, and the Constitution. At the Constitutional Convention, he proposed the Great Compromise. Who was he?",
+          "answer": "Roger Sherman",
+          "alternates": ["Sherman"],
+          "explanation": "Connecticut delegate — the only person to sign all four foundational American documents (Continental Association, Declaration, Articles of Confederation, Constitution)\nProposed the Connecticut Compromise (Great Compromise) at the Constitutional Convention: bicameral legislature with proportional House and equal Senate\nSelf-educated cobbler and surveyor who became a lawyer, judge, and politician\nServed in both the Continental Congress and the first U.S. Congress (House and Senate)\nMember of the Committee of Five that drafted the Declaration, along with Jefferson, Adams, Franklin, and Livingston\nDied in 1793 at age 72 while still serving in the U.S. Senate",
+          "cardFront": "Connecticut",
+          "cardBack": "Roger Sherman"
+        },
+        {
+          "id": "robert-livingston",
+          "prompt": "This New York delegate served on the Committee of Five that drafted the Declaration but was recalled by his state before he could sign it. He later administered the presidential oath to George Washington. Who was he?",
+          "answer": "Robert Livingston",
+          "alternates": ["Robert R. Livingston", "Livingston"],
+          "explanation": "New York delegate and member of the Committee of Five — but never signed the Declaration because he was recalled to New York before the vote\nAdministered the oath of office to George Washington at the first inauguration (April 30, 1789) in New York City\nAs Minister to France (1801–1804), negotiated the Louisiana Purchase with Napoleon alongside James Monroe\nKnown as 'the Chancellor' for his long service as Chancellor of New York (1777–1801)\nHelped Robert Fulton develop the first commercially successful steamboat, the Clermont (1807), which sailed the Hudson\nOne of the most prominent members of the powerful Livingston family of New York",
+          "cardFront": "New York (Committee of Five — did not sign)",
+          "cardBack": "Robert Livingston"
+        },
+        {
+          "id": "benjamin-rush",
+          "prompt": "This Pennsylvania delegate was a physician who later became known as the 'Father of American Psychiatry.' He served as Surgeon General of the Continental Army and helped reconcile the Adams-Jefferson friendship. Who was he?",
+          "answer": "Benjamin Rush",
+          "alternates": ["Rush"],
+          "explanation": "Pennsylvania delegate — the only signer with a medical degree; signed the Declaration on August 2, 1776\nKnown as the 'Father of American Psychiatry' — his 1812 book Medical Inquiries and Observations upon the Diseases of the Mind was the first American psychiatry textbook\nServed as Surgeon General of the Middle Department of the Continental Army (1777)\nBrokered the reconciliation between John Adams and Thomas Jefferson in 1812, leading to their famous late-life correspondence\nTreasurer of the U.S. Mint (1797–1813) under three presidents\nAdvocated for public education, abolition of slavery, and abolition of capital punishment — progressive for his era",
+          "cardFront": "Pennsylvania (physician)",
+          "cardBack": "Benjamin Rush"
+        },
+        {
+          "id": "john-witherspoon",
+          "prompt": "This New Jersey delegate was the only active clergyman to sign. A Scottish-born Presbyterian minister, he served as president of the College of New Jersey (now Princeton University). Who was he?",
+          "answer": "John Witherspoon",
+          "alternates": ["Witherspoon"],
+          "explanation": "New Jersey delegate — the only active clergyman among the 56 signers\nScottish-born Presbyterian minister who emigrated to America in 1768 to lead the College of New Jersey (now Princeton University)\nAs Princeton's president (1768–1794), he taught many future leaders including James Madison, Aaron Burr, and 12 members of the Continental Congress\nServed in the Continental Congress from 1776 to 1782 — one of the most active delegates\nHis son was killed at the Battle of Germantown (1777)\nAncestor of actress Reese Witherspoon (distant relation through his son David)",
+          "cardFront": "New Jersey (clergyman)",
+          "cardBack": "John Witherspoon"
+        },
+        {
+          "id": "charles-carroll",
+          "prompt": "This Maryland delegate was the only Roman Catholic signer and the wealthiest, with vast landholdings. He added 'of Carrollton' to his signature to distinguish himself from relatives with the same name. He was the last surviving signer, dying in 1832 at age 95. Who was he?",
+          "answer": "Charles Carroll",
+          "alternates": ["Charles Carroll of Carrollton", "Carroll"],
+          "explanation": "Maryland delegate — the only Roman Catholic among the 56 signers\nSigned as 'Charles Carroll of Carrollton' to distinguish himself from his father and cousin, both also named Charles Carroll\nWealthiest signer — his Maryland estate was worth roughly $2 million in 1776 (equivalent to billions today)\nLast surviving signer of the Declaration — died November 14, 1832, at age 95\nCousin of John Carroll, who became the first Roman Catholic bishop (and later archbishop) in the United States\nHelped lay the cornerstone of the Baltimore and Ohio Railroad (1828) at age 90 — one of his last public acts",
+          "cardFront": "Maryland (only Catholic signer)",
+          "cardBack": "Charles Carroll"
+        },
+        {
+          "id": "edward-rutledge",
+          "prompt": "This South Carolina delegate was the youngest signer at just 26 years old. He later served as Governor of South Carolina and was captured by the British during the war. Who was he?",
+          "answer": "Edward Rutledge",
+          "alternates": ["Rutledge"],
+          "explanation": "South Carolina delegate — the youngest signer at 26 years old (born November 23, 1749)\nStudied law at the Middle Temple in London before returning to practice in Charleston\nCaptured by the British at the Siege of Charleston (1780) and held prisoner for over a year at St. Augustine, Florida\nServed as Governor of South Carolina (1798–1800) but died in office on January 23, 1800\nBrother of John Rutledge, who served as the second Chief Justice of the United States\nInitially opposed independence but ultimately voted for and signed the Declaration",
+          "cardFront": "South Carolina (youngest signer, age 26)",
+          "cardBack": "Edward Rutledge"
+        },
+        {
+          "id": "button-gwinnett",
+          "prompt": "This Georgia delegate signed the Declaration but died less than a year later in a duel. His signature is the rarest and most valuable of all signers — a single autograph has sold for over $700,000. Who was he?",
+          "answer": "Button Gwinnett",
+          "alternates": ["Gwinnett"],
+          "explanation": "Georgia delegate — English-born merchant who emigrated to the colonies in the 1760s\nKilled in a duel with Lachlan McIntosh on May 19, 1777, less than a year after signing the Declaration\nHis signature is the rarest of all 56 signers — only 51 authenticated examples exist\nA single Gwinnett autograph sold at auction for $722,500 in 2010; consistently the most valuable American autograph\nServed briefly as acting president of Georgia (1777) after the death of Governor Archibald Bulloch\nGwinnett County, Georgia (northeast of Atlanta, pop. ~950,000) is named after him",
+          "cardFront": "Georgia",
+          "cardBack": "Button Gwinnett"
+        },
+        {
+          "id": "robert-morris",
+          "prompt": "This Pennsylvania delegate was known as the 'Financier of the Revolution' for raising the money that funded the Continental Army. One of only two people to sign the Declaration, Articles of Confederation, and the Constitution, he later went bankrupt. Who was he?",
+          "answer": "Robert Morris",
+          "alternates": ["Morris"],
+          "explanation": "Pennsylvania delegate — signed the Declaration, Articles of Confederation, and Constitution (one of only two to sign all three, with Roger Sherman signing all four major documents)\nKnown as the 'Financier of the Revolution' — personally pledged his own credit to fund Washington's army when the Continental Congress could not\nServed as Superintendent of Finance (1781–1784), effectively the nation's first finance minister\nOffered the position of first Secretary of the Treasury but declined; recommended Alexander Hamilton instead\nOverextended in land speculation and spent three years in debtors' prison (1798–1801)\nDied in poverty in 1806 — a dramatic reversal for the man who had financed American independence",
+          "cardFront": "Pennsylvania (financier)",
+          "cardBack": "Robert Morris"
+        },
+        {
+          "id": "richard-henry-lee",
+          "prompt": "This Virginia delegate introduced the resolution on June 7, 1776, that 'these United Colonies are, and of right ought to be, free and independent States' — the formal motion that led to the Declaration. Who was he?",
+          "answer": "Richard Henry Lee",
+          "alternates": ["R.H. Lee", "Lee"],
+          "explanation": "Virginia delegate who introduced the Lee Resolution (June 7, 1776) — the formal proposal for independence that Congress voted on July 2, 1776\nThe resolution's passage on July 2 was the actual vote for independence; July 4 was when the Declaration's text was approved\nMember of the prominent Lee family of Virginia — his brother Francis Lightfoot Lee also signed the Declaration\nServed as president of the Continental Congress (1784–1785) and as one of Virginia's first U.S. Senators (1789–1792)\nOpposed the Constitution initially as an Anti-Federalist; pushed for the Bill of Rights as a condition of ratification\nDistant relative of Robert E. Lee, the Confederate general",
+          "cardFront": "Virginia (introduced independence resolution)",
+          "cardBack": "Richard Henry Lee"
+        },
+        {
+          "id": "george-wythe",
+          "prompt": "This Virginia delegate was America's first law professor, teaching at the College of William & Mary. His students included Thomas Jefferson, John Marshall, and Henry Clay. He was murdered by poisoning in 1806. Who was he?",
+          "answer": "George Wythe",
+          "alternates": ["Wythe"],
+          "explanation": "Virginia delegate — first American law professor, holding the Chair of Law at the College of William & Mary (1779–1790)\nMentor and teacher to Thomas Jefferson, John Marshall (future Chief Justice), and Henry Clay\nServed as a judge of the Virginia High Court of Chancery and was one of the foremost legal minds of the founding era\nMurdered by arsenic poisoning in 1806 at age 80, almost certainly by his grandnephew George Wythe Sweeney, who sought his inheritance\nSweeney was acquitted because Virginia law barred testimony from Black witnesses — the key witness was a formerly enslaved woman\nWythe County, Virginia, is named after him; pronounced 'with' (one syllable)",
+          "cardFront": "Virginia (first law professor)",
+          "cardBack": "George Wythe"
+        }
+      ]
+    }
+  ]
+}

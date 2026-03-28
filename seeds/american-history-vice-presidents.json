@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "american-history/vice-presidents",
+      "parentId": "american-history",
+      "name": "Vice Presidents",
+      "description": "Notable U.S. Vice Presidents and their legacies"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "american-history/vice-presidents/notable-vps",
+      "nodeId": "american-history/vice-presidents",
+      "name": "Notable Vice Presidents",
+      "format": "text-entry",
+      "displayType": "cards",
+      "items": [
+        {
+          "id": "john-adams",
+          "prompt": "The first person to hold this office served under George Washington for two terms (1789–1797) and later became the 2nd President. Who was this VP?",
+          "answer": "John Adams",
+          "alternates": ["Adams"],
+          "explanation": "1st Vice President (1789–1797) under George Washington; 2nd President (1797–1801)\nFirst person ever to hold the vice presidency — famously called it 'the most insignificant office that ever the invention of man contrived'\nKey negotiator of the Treaty of Paris (1783) ending the Revolutionary War\nFirst president to live in the White House (moved in November 1, 1800)\nDied July 4, 1826 — the same day as Thomas Jefferson, exactly 50 years after the Declaration of Independence\nFather of John Quincy Adams (6th President) — one of only two father-son presidential pairs",
+          "cardFront": "1st VP — under Washington (1789–1797)",
+          "cardBack": "John Adams"
+        },
+        {
+          "id": "thomas-jefferson",
+          "prompt": "This VP served under John Adams (1797–1801) despite being his political rival, having finished second in the Electoral College. He authored the Declaration of Independence and became the 3rd President. Who was he?",
+          "answer": "Thomas Jefferson",
+          "alternates": ["Jefferson"],
+          "explanation": "2nd Vice President (1797–1801) under John Adams; 3rd President (1801–1809)\nBecame VP as Adams's runner-up — before the 12th Amendment, the second-place finisher became VP\nPrincipal author of the Declaration of Independence (1776) at age 33\nCompleted the Louisiana Purchase (1803), doubling the size of the United States for ~$15 million\nFounded the University of Virginia (1819) and designed its campus\nDied July 4, 1826 — hours before John Adams — on the 50th anniversary of the Declaration",
+          "cardFront": "2nd VP — under J. Adams (1797–1801)",
+          "cardBack": "Thomas Jefferson"
+        },
+        {
+          "id": "aaron-burr",
+          "prompt": "This VP (1801–1805) killed Alexander Hamilton in a duel at Weehawken, New Jersey, in 1804 while still in office. He was later tried for treason over an alleged plot to create a separate nation in the West. Who was he?",
+          "answer": "Aaron Burr",
+          "alternates": ["Burr"],
+          "explanation": "3rd Vice President (1801–1805) under Thomas Jefferson\nShot and killed Alexander Hamilton in a duel at Weehawken, NJ on July 11, 1804 — Hamilton died the next day\nTied with Jefferson in the 1800 Electoral College; the House chose Jefferson as president after 36 ballots\nCharged with murder in New York and New Jersey but never tried; finished his VP term while under indictment\nArrested in 1807 for allegedly plotting to carve a new nation from western territories; acquitted of treason\nSubject of Lin-Manuel Miranda's musical Hamilton — portrayed as the narrator and antagonist",
+          "cardFront": "3rd VP — under Jefferson (1801–1805)",
+          "cardBack": "Aaron Burr"
+        },
+        {
+          "id": "john-c-calhoun",
+          "prompt": "This VP served under two different presidents — John Quincy Adams and Andrew Jackson — and became the first to resign from office in 1832. A fierce defender of slavery and states' rights, he championed the doctrine of nullification. Who was he?",
+          "answer": "John C. Calhoun",
+          "alternates": ["Calhoun", "John Calhoun"],
+          "explanation": "7th Vice President, serving under two presidents: John Quincy Adams (1825–1829) and Andrew Jackson (1829–1832)\nFirst VP to resign from office (December 28, 1832) to take a U.S. Senate seat from South Carolina\nChampioned nullification — the theory that states could void federal laws — leading to the Nullification Crisis of 1832\nFormed the 'Great Triumvirate' of Senate orators with Henry Clay and Daniel Webster\nFierce defender of slavery, calling it a 'positive good' rather than a necessary evil\nHis ideas laid intellectual groundwork for Southern secession and the Civil War",
+          "cardFront": "7th VP — under J.Q. Adams & Jackson (1825–1832)",
+          "cardBack": "John C. Calhoun"
+        },
+        {
+          "id": "andrew-johnson",
+          "prompt": "This VP became the 17th President when Lincoln was assassinated in 1865. A War Democrat from Tennessee, he clashed with Congress over Reconstruction and became the first president to be impeached. Who was he?",
+          "answer": "Andrew Johnson",
+          "alternates": ["Johnson", "A. Johnson"],
+          "explanation": "16th Vice President (1865) under Abraham Lincoln; 17th President (1865–1869)\nBecame president after Lincoln's assassination on April 14, 1865 — sworn in the next morning\nOnly Southern senator to remain loyal to the Union during the Civil War, which earned him the VP nomination\nFirst president impeached by the House (1868) over violating the Tenure of Office Act; acquitted by one vote\nSelf-educated — his wife taught him to read and write; he never attended school\nHis lenient Reconstruction policies allowed former Confederates back into power and delayed civil rights for decades",
+          "cardFront": "16th VP — under Lincoln (1865)",
+          "cardBack": "Andrew Johnson"
+        },
+        {
+          "id": "chester-arthur",
+          "prompt": "This VP became the 21st President when James Garfield was assassinated in 1881. A former New York machine politician, he surprised everyone by championing civil service reform and signing the Pendleton Act. Who was he?",
+          "answer": "Chester Arthur",
+          "alternates": ["Chester A. Arthur", "Arthur", "Chester Alan Arthur"],
+          "explanation": "20th Vice President (1881) under James Garfield; 21st President (1881–1885)\nBecame president after Garfield's assassination (shot July 2, 1881; died September 19, 1881)\nPreviously a New York Customs House official and Roscoe Conkling's political protege — the epitome of spoils-system politics\nStunned allies by championing civil service reform and signing the Pendleton Civil Service Reform Act (1883)\nMark Twain said he was 'a better president than anyone had reason to expect'\nConcealed a diagnosis of Bright's disease (kidney failure) during his presidency; died in 1886 at age 57",
+          "cardFront": "20th VP — under Garfield (1881)",
+          "cardBack": "Chester Arthur"
+        },
+        {
+          "id": "theodore-roosevelt",
+          "prompt": "This VP served only six months before becoming the youngest president in history at age 42 after McKinley's assassination in 1901. A Rough Rider and trust-buster, he later won the Nobel Peace Prize. Who was he?",
+          "answer": "Theodore Roosevelt",
+          "alternates": ["Teddy Roosevelt", "TR", "T. Roosevelt", "Roosevelt"],
+          "explanation": "25th Vice President (March–September 1901) under William McKinley; 26th President (1901–1909)\nBecame president at 42 after McKinley was shot at the Pan-American Exposition in Buffalo (September 6, 1901) — youngest ever to hold the office\nLed the Rough Riders at San Juan Hill in the Spanish-American War (1898), which launched his political career\nWon the Nobel Peace Prize (1906) for mediating the end of the Russo-Japanese War — first American Nobel laureate\nBusted 44 antitrust suits and established the national parks system; created 150 national forests\nRan as a third-party Bull Moose candidate in 1912; was shot during a campaign speech but finished it with the bullet in his chest",
+          "cardFront": "25th VP — under McKinley (1901)",
+          "cardBack": "Theodore Roosevelt"
+        },
+        {
+          "id": "calvin-coolidge",
+          "prompt": "This VP became the 30th President when Warren Harding died in 1923. His father, a Vermont notary public, administered the oath of office by kerosene lamp at 2:47 AM. Known as 'Silent Cal,' he presided over the Roaring Twenties. Who was he?",
+          "answer": "Calvin Coolidge",
+          "alternates": ["Coolidge"],
+          "explanation": "29th Vice President (1921–1923) under Warren Harding; 30th President (1923–1929)\nSworn in by his father, a notary public, at 2:47 AM by kerosene lamp in Plymouth Notch, Vermont after Harding's death\nNicknamed 'Silent Cal' for his extreme taciturnity — Dorothy Parker, told he had died, asked 'How can they tell?'\nPresided over the booming economy of the Roaring Twenties; his laissez-faire policies are debated as a factor in the 1929 crash\nWon the 1924 election in a landslide but declined to run in 1928, saying 'I do not choose to run'\nAs Massachusetts governor, gained national fame by breaking the Boston Police Strike of 1919",
+          "cardFront": "29th VP — under Harding (1921–1923)",
+          "cardBack": "Calvin Coolidge"
+        },
+        {
+          "id": "harry-truman",
+          "prompt": "This VP served only 82 days before FDR's death made him the 33rd President in 1945. He authorized the atomic bombs on Hiroshima and Nagasaki, desegregated the military, and launched the Marshall Plan. Who was he?",
+          "answer": "Harry Truman",
+          "alternates": ["Truman", "Harry S. Truman", "Harry S Truman"],
+          "explanation": "34th Vice President (January–April 1945) under FDR; 33rd President (1945–1953)\nBecame president 82 days into his VP term when FDR died April 12, 1945 — was not briefed on the atomic bomb until after taking office\nAuthorized atomic bombs on Hiroshima (August 6) and Nagasaki (August 9, 1945), ending World War II\nDesegregated the U.S. armed forces by executive order in 1948\nLaunched the Marshall Plan ($13 billion to rebuild Europe) and the Truman Doctrine to contain Soviet expansion\nWon the 1948 election in a famous upset over Thomas Dewey — 'Dewey Defeats Truman' headline is an iconic journalistic blunder",
+          "cardFront": "34th VP — under FDR (1945)",
+          "cardBack": "Harry Truman"
+        },
+        {
+          "id": "richard-nixon",
+          "prompt": "This VP served under Eisenhower (1953–1961), lost the 1960 presidential race to JFK, then won in 1968. He opened relations with China and resigned over Watergate — the only president to do so. Who was he?",
+          "answer": "Richard Nixon",
+          "alternates": ["Nixon"],
+          "explanation": "36th Vice President (1953–1961) under Dwight Eisenhower; 37th President (1969–1974)\nLost to JFK in 1960 in one of the closest elections in history, then declared 'you won't have Nixon to kick around anymore' after losing the 1962 California governor's race\nOpened diplomatic relations with China (1972) and negotiated detente with the Soviet Union\nOnly president to resign from office (August 9, 1974) due to the Watergate scandal\nParticipated in the first televised presidential debates (1960) — his poor appearance against JFK is credited with costing him votes\nPardoned by Gerald Ford one month after resignation, preventing any criminal prosecution",
+          "cardFront": "36th VP — under Eisenhower (1953–1961)",
+          "cardBack": "Richard Nixon"
+        },
+        {
+          "id": "lyndon-johnson",
+          "prompt": "This VP was sworn in as the 36th President aboard Air Force One just hours after JFK's assassination in Dallas on November 22, 1963. He passed the Civil Rights Act and Great Society programs but was consumed by the Vietnam War. Who was he?",
+          "answer": "Lyndon Johnson",
+          "alternates": ["LBJ", "Lyndon B. Johnson", "Johnson"],
+          "explanation": "37th Vice President (1961–1963) under JFK; 36th President (1963–1969)\nSworn in aboard Air Force One at Love Field, Dallas, with Jackie Kennedy standing beside him — one of the most iconic presidential photographs\nPassed the Civil Rights Act (1964), Voting Rights Act (1965), and Medicare/Medicaid as part of his 'Great Society'\nWon the 1964 election by the widest popular vote margin in the 20th century (61.1%)\nEscalation of the Vietnam War destroyed his presidency; he announced he would not seek reelection (March 1968)\nMaster of legislative arm-twisting — 'The Johnson Treatment' (physical intimidation and persuasion) was legendary in the Senate",
+          "cardFront": "37th VP — under JFK (1961–1963)",
+          "cardBack": "Lyndon Johnson"
+        },
+        {
+          "id": "hubert-humphrey",
+          "prompt": "This VP under LBJ (1965–1969) lost the 1968 presidential election to Nixon amid chaos over Vietnam and the violent Democratic convention in Chicago. A champion of civil rights, he gave a landmark speech at the 1948 convention. Who was he?",
+          "answer": "Hubert Humphrey",
+          "alternates": ["Humphrey", "Hubert H. Humphrey"],
+          "explanation": "38th Vice President (1965–1969) under Lyndon Johnson\nGave a galvanizing civil rights speech at the 1948 Democratic Convention: 'the time has arrived for the Democratic Party to walk out of the shadow of states' rights'\nLost the 1968 presidential election to Nixon after the tumultuous Democratic convention in Chicago, marred by violent clashes between police and anti-war protesters\nServed as U.S. Senator from Minnesota (1949–1964, 1971–1978) — one of the most influential liberal senators of the 20th century\nKey architect of the Peace Corps and the Nuclear Test Ban Treaty\nKnown as 'The Happy Warrior' for his relentless optimism; died of bladder cancer in 1978 at age 66",
+          "cardFront": "38th VP — under LBJ (1965–1969)",
+          "cardBack": "Hubert Humphrey"
+        },
+        {
+          "id": "spiro-agnew",
+          "prompt": "This VP under Nixon (1969–1973) resigned after pleading no contest to tax evasion charges stemming from bribes taken as Governor of Maryland — the second VP ever to resign. Who was he?",
+          "answer": "Spiro Agnew",
+          "alternates": ["Agnew", "Spiro T. Agnew"],
+          "explanation": "39th Vice President (1969–1973) under Richard Nixon\nResigned October 10, 1973 — the second VP to resign (after John C. Calhoun in 1832) and the only one forced out by criminal charges\nPleaded nolo contendere to a single count of tax evasion; the underlying conduct was accepting bribes as Baltimore County executive and Maryland governor\nServed as Nixon's attack dog against the media and anti-war protesters — coined phrases like 'nattering nabobs of negativism' (written by speechwriter William Safire)\nHis resignation triggered the 25th Amendment for the first time, allowing Nixon to appoint Gerald Ford as VP\nSon of Greek immigrants; his father's original surname was Anagnostopoulos",
+          "cardFront": "39th VP — under Nixon (1969–1973)",
+          "cardBack": "Spiro Agnew"
+        },
+        {
+          "id": "gerald-ford",
+          "prompt": "This VP was the first appointed under the 25th Amendment after Agnew's resignation in 1973. He became the 38th President when Nixon resigned — making him the only person to serve as both VP and President without being elected to either office. Who was he?",
+          "answer": "Gerald Ford",
+          "alternates": ["Ford"],
+          "explanation": "40th Vice President (1973–1974) under Richard Nixon; 38th President (1974–1977)\nOnly person to serve as both VP and President without being elected to either office\nFirst VP appointed under the 25th Amendment after Agnew's resignation (confirmed December 6, 1973)\nPardoned Richard Nixon on September 8, 1974 — a deeply controversial decision that likely cost him the 1976 election\nSurvived two assassination attempts in September 1975, both in California, both by women (Lynette 'Squeaky' Fromme and Sara Jane Moore)\nPlayed center for the University of Michigan football team; turned down offers from the Green Bay Packers and Detroit Lions",
+          "cardFront": "40th VP — under Nixon (1973–1974)",
+          "cardBack": "Gerald Ford"
+        },
+        {
+          "id": "george-hw-bush",
+          "prompt": "This VP served under Reagan for two terms (1981–1989), then won the presidency in 1988. A former CIA Director and WWII Navy pilot, he led the Gulf War coalition but lost reelection to Bill Clinton. Who was he?",
+          "answer": "George H.W. Bush",
+          "alternates": ["George Bush", "Bush", "George Herbert Walker Bush", "Bush Sr."],
+          "explanation": "43rd Vice President (1981–1989) under Ronald Reagan; 41st President (1989–1993)\nYoungest Navy pilot in WWII when he earned his wings at 18; shot down over the Pacific and rescued by a submarine\nServed as Director of Central Intelligence (CIA) in 1976–1977 and U.S. Ambassador to the United Nations\nLed a 34-nation coalition to victory in the Gulf War (1991) with a 90% approval rating — then lost reelection to Clinton\nBroke his famous 'Read my lips: no new taxes' pledge, which became a defining issue in the 1992 campaign\nFather of George W. Bush (43rd President) — second father-son presidential pair after the Adams family",
+          "cardFront": "43rd VP — under Reagan (1981–1989)",
+          "cardBack": "George H.W. Bush"
+        },
+        {
+          "id": "al-gore",
+          "prompt": "This VP served under Clinton (1993–2001) and won the popular vote in the 2000 presidential election but lost to George W. Bush after a controversial Supreme Court decision halted a Florida recount. He later won the Nobel Peace Prize for climate activism. Who was he?",
+          "answer": "Al Gore",
+          "alternates": ["Gore", "Albert Gore", "Albert Gore Jr."],
+          "explanation": "45th Vice President (1993–2001) under Bill Clinton\nWon the 2000 popular vote by ~540,000 but lost the Electoral College 271–266 after the Supreme Court stopped the Florida recount (Bush v. Gore) — the margin in Florida was 537 votes\nAn Inconvenient Truth (2006), his climate change documentary, won the Academy Award for Best Documentary\nAwarded the Nobel Peace Prize in 2007 (shared with the IPCC) for climate change advocacy\nServed as U.S. Senator from Tennessee (1985–1993) and was an early advocate for the internet — the 'invented the internet' misquote became a lasting punchline\nSon of Al Gore Sr., also a U.S. Senator from Tennessee",
+          "cardFront": "45th VP — under Clinton (1993–2001)",
+          "cardBack": "Al Gore"
+        },
+        {
+          "id": "dick-cheney",
+          "prompt": "This VP under George W. Bush (2001–2009) exerted unprecedented influence over foreign and domestic policy. He championed the Iraq War, ran Halliburton before taking office, and accidentally shot a hunting companion in 2006. Who was he?",
+          "answer": "Dick Cheney",
+          "alternates": ["Cheney", "Richard Cheney", "Richard B. Cheney"],
+          "explanation": "46th Vice President (2001–2009) under George W. Bush\nWidely considered the most powerful VP in U.S. history — led the push for the Iraq War and expanded executive authority after 9/11\nServed as Secretary of Defense under George H.W. Bush (1989–1993) during the Gulf War\nCEO of Halliburton (1995–2000) before becoming VP — the company's government contracts during the Iraq War drew controversy\nAccidentally shot hunting companion Harry Whittington in the face in 2006; Whittington apologized to Cheney for the distress\nHad five heart attacks beginning at age 37; received a heart transplant in 2012 at age 71",
+          "cardFront": "46th VP — under G.W. Bush (2001–2009)",
+          "cardBack": "Dick Cheney"
+        },
+        {
+          "id": "joe-biden",
+          "prompt": "This VP served under Obama (2009–2017) and became the 46th President in 2021 at age 78, then the oldest sitting president in history. He previously served 36 years as a U.S. Senator from Delaware. Who was he?",
+          "answer": "Joe Biden",
+          "alternates": ["Biden", "Joseph Biden", "Joseph R. Biden"],
+          "explanation": "47th Vice President (2009–2017) under Barack Obama; 46th President (2021–2025)\nElected to the Senate from Delaware in 1972 at age 29 — one of the youngest senators ever; served 36 years (1973–2009)\nHis first wife and infant daughter were killed in a car accident weeks after his 1972 Senate election; he commuted daily from Delaware on Amtrak for decades\nOldest person to complete a presidential term — left office at age 82 in January 2025\nDropped out of the 2024 reelection race in July 2024, endorsing Kamala Harris — the first sitting president to withdraw since LBJ in 1968\nKnown for verbal gaffes and for his stutter, which he has spoken openly about overcoming",
+          "cardFront": "47th VP — under Obama (2009–2017)",
+          "cardBack": "Joe Biden"
+        },
+        {
+          "id": "kamala-harris",
+          "prompt": "This VP (2021–2025) was the first woman, first Black person, and first person of South Asian descent to hold the office. She previously served as California's Attorney General and a U.S. Senator. Who was she?",
+          "answer": "Kamala Harris",
+          "alternates": ["Harris"],
+          "explanation": "49th Vice President (2021–2025) under Joe Biden\nFirst woman, first African American, and first Asian American to serve as VP — also the highest-ranking female official in U.S. history\nServed as Attorney General of California (2011–2017) and U.S. Senator from California (2017–2021)\nCast 33 tie-breaking votes in the Senate — more than any other VP in history\nWon the 2024 Democratic presidential nomination after Biden withdrew but lost the general election to Trump\nDaughter of Jamaican and Indian immigrants; graduated from Howard University (HBCU) and UC Hastings College of the Law",
+          "cardFront": "49th VP — under Biden (2021–2025)",
+          "cardBack": "Kamala Harris"
+        },
+        {
+          "id": "jd-vance",
+          "prompt": "This VP took office in January 2025 as the 50th person to hold the position, serving under Donald Trump's second term. The youngest VP since Dan Quayle and a first-generation college graduate, he previously wrote a bestselling memoir about Appalachian poverty. Who is he?",
+          "answer": "JD Vance",
+          "alternates": ["Vance", "J.D. Vance", "James David Vance"],
+          "explanation": "50th Vice President (2025–present) under Donald Trump\nAuthor of Hillbilly Elegy (2016), a bestselling memoir about growing up in poverty in Appalachian Ohio — adapted into a 2020 Netflix film directed by Ron Howard\nFirst Millennial to serve as VP and the youngest VP since Dan Quayle; third-youngest VP in U.S. history\nServed as U.S. Senator from Ohio (2023–2025) before becoming VP — only two years in the Senate\nMarine Corps veteran who served in Iraq during Operation Iraqi Freedom\nRaised by his grandmother ('Mamaw') in Middletown, Ohio; first in his family to attend college (Ohio State, then Yale Law School)",
+          "cardFront": "50th VP — under Trump (2025–present)",
+          "cardBack": "JD Vance"
+        }
+      ]
+    }
+  ]
+}

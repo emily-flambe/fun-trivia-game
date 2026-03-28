@@ -20,13 +20,13 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 3 | Landmark Supreme Court Cases | 15 | ✅ | |
 | 4 | Major U.S. Wars | 12 | ✅ | |
 | 5 | U.S. State Capitals | 50 | ✅ | |
-| 6 | Vice Presidents | 20 | ❌ | TS has "U.S. VP Order." Key VPs, who they served under. |
-| 7 | Declaration of Independence Signers | 15 | ❌ | TS has this. Key signers, their states, notable facts. |
-| 8 | Historic Landmarks & Monuments | 15 | ❌ | TS has "Historic Landmarks." National monuments, memorials, historic sites. |
-| 9 | Native American History | 15 | ❌ | TS has "Native Americans." Major nations, leaders, events (Trail of Tears, Wounded Knee). |
-| 10 | Presidential Firsts & Records | 15 | ❌ | TS has births/homes. Youngest, oldest, assassinated, impeached, etc. |
+| 6 | Vice Presidents | 20 | ✅ | 📋 EMI-402. Key VPs, who they served under. |
+| 7 | Declaration of Independence Signers | 15 | ✅ | 📋 EMI-402. Key signers, their states, notable facts. |
+| 8 | Historic Landmarks & Monuments | 15 | ✅ | 📋 EMI-402. National monuments, memorials, historic sites. |
+| 9 | Native American History | 15 | ✅ | 📋 EMI-402. Major nations, leaders, events (Trail of Tears, Wounded Knee). |
+| 10 | Presidential Firsts & Records | 15 | ✅ | 📋 EMI-402. Youngest, oldest, assassinated, impeached, etc. |
 
-**Coverage**: 5/10 done. Strong foundation, needs breadth.
+**Coverage**: 10/10 done. Complete.
 
 ---
 
@@ -363,7 +363,7 @@ Inspired by TrivialStudies' unique study tools:
 
 | Category | Have | Target | % Done |
 |----------|------|--------|--------|
-| American History | 5 | 10 | 50% |
+| American History | 10 | 10 | 100% |
 | Art | 2 | 5 | 40% |
 | Business/Economics | 1 | 8 | 13% |
 | Classical Music | 1 | 4 | 25% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **81** | **177** | **46%** |
+| **TOTAL** | **86** | **177** | **49%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -397,7 +397,7 @@ Inspired by TrivialStudies' unique study tools:
 9. **Art** — 2/5 (40%). Needs the actual artworks.
 10. **Literature** — 16/16 (100%). Complete.
 11. **Film** — 10/10 (100%). Complete.
-12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
+12. **American History** — 10/10 (100%). Complete.
 13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
 14. **Geography** — 10/20 (50%). Most exercises but missing continents.
 15. **World History** — 5/10 (50%). Needs monarchs/exploration.
