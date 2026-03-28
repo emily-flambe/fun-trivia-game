@@ -123,6 +123,14 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 
 	try {
 		// Quiz results routes (require auth)
+		if (path === '/api/quiz-results/stats/by-category' && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const userRepo = new UserRepository(env.DB);
+			const categories = await userRepo.getCategoryStats(user.id);
+			return json({ categories });
+		}
+
 		if (path === '/api/quiz-results/stats' && request.method === 'GET') {
 			const user = await getRequestUser(request, env);
 			if (!user) return json({ error: 'Authentication required' }, 401);

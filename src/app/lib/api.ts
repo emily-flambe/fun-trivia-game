@@ -163,6 +163,19 @@ export async function getUserStats(): Promise<UserStats> {
 	return res.json() as Promise<UserStats>;
 }
 
+export interface CategoryStat {
+	category: string;
+	correct: number;
+	attempted: number;
+}
+
+export async function getCategoryStats(): Promise<CategoryStat[]> {
+	const res = await fetch(`${BASE}/quiz-results/stats/by-category`);
+	if (!res.ok) throw new Error('Failed to fetch category stats');
+	const data = await res.json() as { categories: CategoryStat[] };
+	return data.categories;
+}
+
 export async function checkAnswer(
 	exercisePath: string,
 	body: { itemId?: string; answer: string }

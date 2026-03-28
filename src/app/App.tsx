@@ -11,7 +11,7 @@ type Route =
 	| { page: 'dashboard' }
 	| { page: 'node'; path: string }
 	| { page: 'exercise'; path: string; mode: string }
-	| { page: 'profile' };
+	| { page: 'profile'; tab: string };
 
 function parseHash(): Route {
 	const hash = window.location.hash.slice(1) || '/';
@@ -27,8 +27,9 @@ function parseHash(): Route {
 		const params = new URLSearchParams(query || '');
 		return { page: 'exercise', path: exercisePath, mode: params.get('mode') || 'quiz' };
 	}
-	if (path === 'profile') {
-		return { page: 'profile' };
+	if (path === 'profile' || path.startsWith('profile/')) {
+		const tab = path.slice('profile'.length).replace(/^\//, '') || 'summary';
+		return { page: 'profile', tab };
 	}
 	return { page: 'dashboard' };
 }
@@ -120,7 +121,7 @@ export function App() {
 						{route.page === 'dashboard' && <Dashboard />}
 						{route.page === 'node' && <NodeView path={route.path} />}
 						{route.page === 'exercise' && <ExerciseView path={route.path} mode={route.mode} />}
-						{route.page === 'profile' && <ProfilePage />}
+						{route.page === 'profile' && <ProfilePage tab={route.tab} />}
 					</div>
 				</main>
 			</div>

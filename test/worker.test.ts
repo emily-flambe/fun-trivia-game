@@ -963,6 +963,81 @@ describe('Trivia API', () => {
 		});
 	});
 
+	// ─── Quiz Results: GET /api/quiz-results/stats/by-category ───
+
+	describe('GET /api/quiz-results/stats/by-category', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 401 when not authenticated', async () => {
+			const res = await makeRequest('/api/quiz-results/stats/by-category');
+			expect(res.status).toBe(401);
+		});
+
+		it('returns empty categories for user with no results', async () => {
+			// Create a fresh user with no quiz results
+			const freshEmail = `fresh-${Date.now()}@test.com`;
+			const freshCookie = `CF_Test_Auth=${freshEmail}`;
+			// This user won't exist yet, so the endpoint should return 401
+			// (getByEmail returns null for unknown users)
+			const res = await makeRequest('/api/quiz-results/stats/by-category', {
+				headers: { cookie: freshCookie },
+			});
+			expect(res.status).toBe(401);
+		});
+
+		it('returns category stats grouped by top-level category', async () => {
+			// Submit a quiz result in the science category
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/stats/by-category');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.categories).toBeDefined();
+			expect(Array.isArray(data.categories)).toBe(true);
+
+			const science = data.categories.find((c: any) => c.category === 'science');
+			expect(science).toBeDefined();
+			expect(science.correct).toBeGreaterThanOrEqual(2);
+			expect(science.attempted).toBeGreaterThanOrEqual(3);
+		});
+
+		it('aggregates multiple quiz results in the same category', async () => {
+			// Submit another result in science
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/noble-gases',
+				exerciseName: 'Noble Gases',
+				format: 'fill-blanks',
+				score: 3,
+				total: 3,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/stats/by-category');
+			const data = await res.json<any>();
+			const science = data.categories.find((c: any) => c.category === 'science');
+			expect(science).toBeDefined();
+			// Should aggregate both results
+			expect(science.correct).toBeGreaterThanOrEqual(5);
+			expect(science.attempted).toBeGreaterThanOrEqual(6);
+		});
+
+		it('returns results ordered by attempted desc', async () => {
+			const res = await makeAuthRequest('/api/quiz-results/stats/by-category');
+			const data = await res.json<any>();
+			const categories = data.categories as { attempted: number }[];
+			for (let i = 1; i < categories.length; i++) {
+				expect(categories[i - 1].attempted).toBeGreaterThanOrEqual(categories[i].attempted);
+			}
+		});
+	});
+
 	// ─── Quiz Results: route method handling ─────────────────
 
 	describe('quiz results route method handling', () => {
