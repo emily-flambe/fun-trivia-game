@@ -192,6 +192,32 @@ export async function getCategoryStats(): Promise<CategoryStat[]> {
 	return data.categories;
 }
 
+export interface QuizResultDetailItem {
+	itemId: string;
+	prompt: string;
+	correctAnswer: string;
+	userAnswer: string;
+	correct: boolean;
+	fuzzyMatch: boolean;
+}
+
+export interface QuizResultDetail {
+	id: string;
+	exerciseId: string;
+	exerciseName: string;
+	score: number;
+	totalQuestions: number;
+	format: string;
+	completedAt: string;
+	items: QuizResultDetailItem[];
+}
+
+export async function getQuizResultDetail(resultId: string): Promise<QuizResultDetail> {
+	const res = await fetch(`${BASE}/quiz-results/${resultId}`);
+	if (!res.ok) throw new Error('Failed to fetch quiz result detail');
+	return res.json() as Promise<QuizResultDetail>;
+}
+
 export async function checkAnswer(
 	exercisePath: string,
 	body: { itemId?: string; answer: string }

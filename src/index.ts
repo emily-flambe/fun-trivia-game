@@ -181,6 +181,74 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return json(data);
 		}
 
+		const quizResultDetailMatch = path.match(/^\/api\/quiz-results\/([^/]+)$/);
+		if (quizResultDetailMatch && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const resultId = quizResultDetailMatch[1];
+			const row = await env.DB
+				.prepare(`SELECT * FROM quiz_results WHERE id = ? AND user_id = ?`)
+				.bind(resultId, user.id)
+				.first<{
+					id: string;
+					user_id: string;
+					exercise_id: string;
+					exercise_name: string;
+					format: string;
+					score: number;
+					total: number;
+					items_detail: string;
+					completed_at: string;
+				}>();
+			if (!row) return json({ error: 'Not found' }, 404);
+
+			const itemsDetail: QuizItemResult[] = JSON.parse(row.items_detail || '[]');
+
+			// Enrich each item with prompt and answer from the items table
+			const enriched = await Promise.all(
+				itemsDetail.map(async (detail) => {
+					const itemRow = await env.DB
+						.prepare(
+							`SELECT answer, data FROM items WHERE id = ? AND exercise_id = ?`
+						)
+						.bind(detail.itemId, row.exercise_id)
+						.first<{ answer: string; data: string }>();
+
+					let prompt = detail.itemId;
+					let correctAnswer = 'unknown';
+					if (itemRow) {
+						correctAnswer = itemRow.answer;
+						try {
+							const data = JSON.parse(itemRow.data || '{}');
+							prompt = data.prompt ?? detail.itemId;
+						} catch {
+							prompt = detail.itemId;
+						}
+					}
+
+					return {
+						itemId: detail.itemId,
+						prompt,
+						correctAnswer,
+						userAnswer: detail.userAnswer,
+						correct: detail.correct,
+						fuzzyMatch: detail.fuzzyMatch,
+					};
+				})
+			);
+
+			return json({
+				id: row.id,
+				exerciseId: row.exercise_id,
+				exerciseName: row.exercise_name,
+				score: row.score,
+				totalQuestions: row.total,
+				format: row.format,
+				completedAt: row.completed_at,
+				items: enriched,
+			});
+		}
+
 		if (path === '/api/health') {
 			return json({ status: 'ok', version: '0.0.1' });
 		}
