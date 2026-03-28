@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { checkAnswer, submitQuizResult, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
 import { QuizSummary } from './QuizSummary';
+import { WikiLinks } from './WikiLinks';
 
 interface AnswerRecord {
 	itemId: string;
@@ -199,6 +200,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 									<li key={i}>{line}</li>
 								))}
 							</ul>
+							<WikiLinks links={item.data?.links} />
 						</div>
 						<button ref={nextButtonRef} onClick={handleNext} className="bg-action hover:bg-action-hover text-white px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 							{current + 1 >= quizItems.length ? 'See Results' : 'Next'}

@@ -46,10 +46,12 @@ export interface TextEntryData {
   prompt: string;
   cardFront?: string;
   cardBack?: string;
+  links?: { text: string; url: string }[];
 }
 
 export interface FillBlanksData {
   label?: string;
+  links?: { text: string; url: string }[];
 }
 
 // === Answer checking ===
