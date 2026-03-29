@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="72" fill="#1a1a2e"/>
+  <!-- Question mark - hand-drawn path -->
+  <g fill="#f0a500">
+    <!-- ? curve -->
+    <path d="M148 148 C148 88, 212 56, 256 56 C312 56, 356 88, 356 140 C356 192, 312 212, 280 236 C264 248, 256 264, 256 288 L256 320 L216 320 L216 288 C216 252, 228 228, 256 204 C284 180, 316 168, 316 140 C316 108, 292 92, 256 92 C220 92, 192 112, 188 148 Z"/>
+    <!-- ? dot -->
+    <circle cx="236" cy="380" r="28"/>
+    <!-- ! stroke -->
+    <rect x="308" y="56" width="44" height="264" rx="8"/>
+    <!-- ! dot -->
+    <circle cx="330" cy="380" r="28"/>
+  </g>
+</svg>
