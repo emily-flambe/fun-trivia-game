@@ -43,6 +43,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 	const nextButtonRef = useRef<HTMLButtonElement>(null);
 	const startTimeRef = useRef<number>(Date.now());
 	const submittedRef = useRef(false);
+	const [lastResultId, setLastResultId] = useState<string | null>(null);
+	const [retryContext, setRetryContext] = useState<{ isRetry: boolean; parentResultId: string | null }>({ isRetry: false, parentResultId: null });
 
 	useEffect(() => {
 		let prepared = shuffleArray(items);
@@ -55,6 +57,8 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 		setStatus(prepared.length > 0 ? 'in-progress' : 'complete');
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
+		setLastResultId(null);
+		setRetryContext({ isRetry: false, parentResultId: null });
 	}, [items, mode]);
 
 	useEffect(() => {
@@ -82,7 +86,9 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 					userAnswer: a.userAnswer,
 					fuzzyMatch: a.result.fuzzyMatch,
 				})),
-			}).catch(() => {});
+				isRetry: retryContext.isRetry,
+				parentResultId: retryContext.parentResultId || undefined,
+			}).then((result) => setLastResultId(result.id)).catch(() => {});
 		}
 	}, [status, auth.authenticated]);
 
@@ -138,6 +144,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 	}
 
 	function handleRepeat() {
+		const parentId = lastResultId;
 		let prepared = shuffleArray(items);
 		if (mode === 'random-10') prepared = prepared.slice(0, 10);
 		setQuizItems(prepared);
@@ -148,9 +155,11 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 		setStatus(prepared.length > 0 ? 'in-progress' : 'complete');
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
+		setRetryContext({ isRetry: true, parentResultId: parentId });
 	}
 
 	function handleRetryFailed() {
+		const parentId = lastResultId;
 		const failedIds = new Set(answers.filter((a) => !a.correct).map((a) => a.itemId));
 		const failedItems = shuffleArray(items.filter((i) => failedIds.has(i.id)));
 		setQuizItems(failedItems);
@@ -161,6 +170,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 		setStatus(failedItems.length > 0 ? 'in-progress' : 'complete');
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
+		setRetryContext({ isRetry: true, parentResultId: parentId });
 	}
 
 	return (

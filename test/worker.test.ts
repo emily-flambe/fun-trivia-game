@@ -11,7 +11,7 @@ async function seedTestData(db: D1Database) {
 
 	// User & quiz result tables
 	await db.exec(`CREATE TABLE IF NOT EXISTS users (id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, display_name TEXT DEFAULT '', preferences TEXT DEFAULT '{}', created_at TEXT NOT NULL, last_seen_at TEXT NOT NULL);`);
-	await db.exec(`CREATE TABLE IF NOT EXISTS quiz_results (id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, exercise_id TEXT NOT NULL, exercise_name TEXT NOT NULL, format TEXT NOT NULL, score INTEGER NOT NULL, total INTEGER NOT NULL, duration_seconds INTEGER, items_detail TEXT DEFAULT '[]', completed_at TEXT NOT NULL);`);
+	await db.exec(`CREATE TABLE IF NOT EXISTS quiz_results (id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE, exercise_id TEXT NOT NULL, exercise_name TEXT NOT NULL, format TEXT NOT NULL, score INTEGER NOT NULL, total INTEGER NOT NULL, duration_seconds INTEGER, items_detail TEXT DEFAULT '[]', completed_at TEXT NOT NULL, is_retry INTEGER NOT NULL DEFAULT 0, parent_result_id TEXT);`);
 	await db.exec(`CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);`);
 	await db.exec(`CREATE INDEX IF NOT EXISTS idx_quiz_results_user ON quiz_results(user_id);`);
 	await db.exec(`CREATE INDEX IF NOT EXISTS idx_quiz_results_completed ON quiz_results(completed_at);`);
@@ -1279,6 +1279,508 @@ describe('Trivia API', () => {
 			// When the item row is missing, itemId is used as prompt fallback
 			expect(data.items[0].prompt).toBe('deleted-item');
 			expect(data.items[0].correctAnswer).toBe('unknown');
+		});
+	});
+
+	// ─── Retry Tracking: POST retry fields ──────────────────
+
+	describe('POST /api/quiz-results retry fields', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('accepts isRetry: true and parentResultId and returns them', async () => {
+			// First create a parent result
+			const parentRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+			});
+			expect(parentRes.status).toBe(201);
+			const parent = await parentRes.json<any>();
+
+			// Now create a retry referencing the parent
+			const retryRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 3,
+				total: 3,
+				isRetry: true,
+				parentResultId: parent.id,
+			});
+			expect(retryRes.status).toBe(201);
+			const retry = await retryRes.json<any>();
+			expect(retry.isRetry).toBe(true);
+			expect(retry.parentResultId).toBe(parent.id);
+		});
+
+		it('returns isRetry: false when isRetry is explicitly false', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+				isRetry: false,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.isRetry).toBe(false);
+			expect(data.parentResultId).toBeNull();
+		});
+
+		it('defaults isRetry to false and parentResultId to null when omitted', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.isRetry).toBe(false);
+			expect(data.parentResultId).toBeNull();
+		});
+
+		it('stores isRetry in DB and reads it back correctly via GET detail', async () => {
+			// First create a real parent to satisfy FK constraint
+			const parentRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+			});
+			expect(parentRes.status).toBe(201);
+			const parent = await parentRes.json<any>();
+
+			const postRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 3,
+				total: 3,
+				isRetry: true,
+				parentResultId: parent.id,
+			});
+			expect(postRes.status).toBe(201);
+			const posted = await postRes.json<any>();
+
+			// Verify DB storage by reading back the row directly
+			const db = (env as any).DB as D1Database;
+			const row = await db
+				.prepare(`SELECT is_retry, parent_result_id FROM quiz_results WHERE id = ?`)
+				.bind(posted.id)
+				.first<{ is_retry: number; parent_result_id: string | null }>();
+			expect(row).toBeDefined();
+			expect(row!.is_retry).toBe(1);
+			expect(row!.parent_result_id).toBe(parent.id);
+		});
+	});
+
+	// ─── Retry Tracking: GET hides retries ──────────────────
+
+	describe('GET /api/quiz-results hides retries', () => {
+		// Use a unique exercise ID so we can count precisely
+		const retryTestExercise = 'retry-test/hiding/' + Date.now();
+
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+
+			// Clear all prior quiz results to get a clean slate
+			const db = (env as any).DB as D1Database;
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			await db.prepare(`DELETE FROM quiz_results WHERE user_id = ?`).bind(meData.userId).run();
+
+			// Submit a first-attempt result
+			const firstRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: retryTestExercise,
+				exerciseName: 'Retry Hide Test',
+				format: 'text-entry',
+				score: 5,
+				total: 10,
+			});
+			expect(firstRes.status).toBe(201);
+			const first = await firstRes.json<any>();
+
+			// Submit a retry result
+			const retryRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: retryTestExercise,
+				exerciseName: 'Retry Hide Test',
+				format: 'text-entry',
+				score: 8,
+				total: 10,
+				isRetry: true,
+				parentResultId: first.id,
+			});
+			expect(retryRes.status).toBe(201);
+		});
+
+		it('GET /api/quiz-results returns only first attempts, not retries', async () => {
+			const res = await makeAuthRequest('/api/quiz-results?limit=100');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+
+			// Should have exactly 1 result (the first attempt), not the retry
+			expect(data.results).toHaveLength(1);
+			expect(data.results[0].score).toBe(5);
+			expect(data.results[0].isRetry).toBe(false);
+		});
+
+		it('total count excludes retries', async () => {
+			const res = await makeAuthRequest('/api/quiz-results');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+
+			// Total should be 1 (only first attempts)
+			expect(data.total).toBe(1);
+		});
+	});
+
+	// ─── Retry Tracking: stats exclude retries ──────────────
+
+	describe('stats exclude retries', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+
+			// Clear all prior quiz results
+			const db = (env as any).DB as D1Database;
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			await db.prepare(`DELETE FROM quiz_results WHERE user_id = ?`).bind(meData.userId).run();
+
+			// Submit first attempt: score 5/10
+			const firstRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 5,
+				total: 10,
+			});
+			expect(firstRes.status).toBe(201);
+			const first = await firstRes.json<any>();
+
+			// Submit retry: score 8/10 (should be excluded from stats)
+			const retryRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 8,
+				total: 10,
+				isRetry: true,
+				parentResultId: first.id,
+			});
+			expect(retryRes.status).toBe(201);
+		});
+
+		it('GET /api/quiz-results/stats excludes retries from totals', async () => {
+			const res = await makeAuthRequest('/api/quiz-results/stats');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+
+			expect(data.totalQuizzes).toBe(1);
+			expect(data.totalCorrect).toBe(5);
+			expect(data.totalAttempted).toBe(10);
+			expect(data.exercisesCovered).toBe(1);
+		});
+
+		it('GET /api/quiz-results/stats/by-category excludes retries', async () => {
+			const res = await makeAuthRequest('/api/quiz-results/stats/by-category');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+
+			const science = data.categories.find((c: any) => c.category === 'science');
+			expect(science).toBeDefined();
+			// Only the first attempt (5/10) should count, not the retry (8/10)
+			expect(science.correct).toBe(5);
+			expect(science.attempted).toBe(10);
+		});
+	});
+
+	// ─── GET /api/quiz-results/by-exercise ──────────────────
+
+	describe('GET /api/quiz-results/by-exercise', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+
+			// Clear all prior quiz results
+			const db = (env as any).DB as D1Database;
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			await db.prepare(`DELETE FROM quiz_results WHERE user_id = ?`).bind(meData.userId).run();
+		});
+
+		it('returns 401 without authentication', async () => {
+			const res = await makeRequest('/api/quiz-results/by-exercise');
+			expect(res.status).toBe(401);
+			const data = await res.json<any>();
+			expect(data.error).toBeDefined();
+		});
+
+		it('returns empty exercises array when user has no results', async () => {
+			const res = await makeAuthRequest('/api/quiz-results/by-exercise');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercises).toBeDefined();
+			expect(Array.isArray(data.exercises)).toBe(true);
+			expect(data.exercises).toHaveLength(0);
+		});
+
+		it('returns correct shape for a single exercise with one attempt', async () => {
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 7,
+				total: 10,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/by-exercise');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercises).toHaveLength(1);
+
+			const ex = data.exercises[0];
+			expect(ex.exerciseId).toBe('science/chemistry/element-symbols');
+			expect(ex.exerciseName).toBe('Element Symbols');
+			expect(ex.category).toBe('science');
+			expect(ex.timesTaken).toBe(1);
+			expect(ex.lastTaken).toBeDefined();
+			expect(ex.mostRecentScore).toBe(7);
+			expect(ex.mostRecentTotal).toBe(10);
+			expect(ex.bestScore).toBe(7);
+			expect(ex.bestTotal).toBe(10);
+		});
+
+		it('aggregates multiple first-attempts for the same exercise', async () => {
+			// Second attempt (better score)
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 9,
+				total: 10,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/by-exercise');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercises).toHaveLength(1);
+
+			const ex = data.exercises[0];
+			expect(ex.timesTaken).toBe(2);
+			// Most recent is the second attempt (9/10)
+			expect(ex.mostRecentScore).toBe(9);
+			expect(ex.mostRecentTotal).toBe(10);
+			// Best score is also the second attempt (9/10 > 7/10)
+			expect(ex.bestScore).toBe(9);
+			expect(ex.bestTotal).toBe(10);
+		});
+
+		it('separates different exercises into distinct entries', async () => {
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/noble-gases',
+				exerciseName: 'Noble Gases',
+				format: 'fill-blanks',
+				score: 3,
+				total: 6,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/by-exercise');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercises).toHaveLength(2);
+
+			const exerciseIds = data.exercises.map((e: any) => e.exerciseId);
+			expect(exerciseIds).toContain('science/chemistry/element-symbols');
+			expect(exerciseIds).toContain('science/chemistry/noble-gases');
+		});
+
+		it('excludes retries from aggregation', async () => {
+			// Submit a retry for element-symbols (should NOT change timesTaken or bestScore)
+			const res1 = await makeAuthRequest('/api/quiz-results/by-exercise');
+			const before = await res1.json<any>();
+			const symbolsBefore = before.exercises.find(
+				(e: any) => e.exerciseId === 'science/chemistry/element-symbols'
+			);
+
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 10,
+				total: 10,
+				isRetry: true,
+				parentResultId: 'some-parent-id',
+			});
+
+			const res2 = await makeAuthRequest('/api/quiz-results/by-exercise');
+			const after = await res2.json<any>();
+			const symbolsAfter = after.exercises.find(
+				(e: any) => e.exerciseId === 'science/chemistry/element-symbols'
+			);
+
+			// timesTaken should be unchanged (retry excluded)
+			expect(symbolsAfter.timesTaken).toBe(symbolsBefore.timesTaken);
+			// bestScore should NOT reflect the retry's 10/10
+			expect(symbolsAfter.bestScore).toBe(symbolsBefore.bestScore);
+			expect(symbolsAfter.mostRecentScore).toBe(symbolsBefore.mostRecentScore);
+		});
+
+		it('bestScore picks highest ratio, not highest raw score', async () => {
+			// Clear and set up a scenario where best ratio != highest raw score
+			const db = (env as any).DB as D1Database;
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			await db.prepare(`DELETE FROM quiz_results WHERE user_id = ?`).bind(meData.userId).run();
+
+			// Attempt 1: 8/10 = 80%
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 8,
+				total: 10,
+			});
+			// Attempt 2: 5/5 = 100% (lower raw score but higher ratio)
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 5,
+				total: 5,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/by-exercise');
+			const data = await res.json<any>();
+			const ex = data.exercises[0];
+			// bestScore should be from the 5/5 attempt (100% > 80%)
+			expect(ex.bestScore).toBe(5);
+			expect(ex.bestTotal).toBe(5);
+		});
+
+		it('extracts category from first segment of exercise ID', async () => {
+			const db = (env as any).DB as D1Database;
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			await db.prepare(`DELETE FROM quiz_results WHERE user_id = ?`).bind(meData.userId).run();
+
+			await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'history/american/presidents',
+				exerciseName: 'Presidents',
+				format: 'text-entry',
+				score: 5,
+				total: 10,
+			});
+
+			const res = await makeAuthRequest('/api/quiz-results/by-exercise');
+			const data = await res.json<any>();
+			expect(data.exercises[0].category).toBe('history');
+		});
+	});
+
+	// ─── Retry Tracking: edge cases ─────────────────────────
+
+	describe('retry tracking edge cases', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('parentResultId referencing a non-existent result succeeds (no FK constraint)', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 3,
+				total: 3,
+				isRetry: true,
+				parentResultId: 'nonexistent-parent-id-12345',
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			expect(data.parentResultId).toBe('nonexistent-parent-id-12345');
+		});
+
+		it('chained retries: A -> B (retry of A) -> C (retry of B)', async () => {
+			// Original attempt A
+			const aRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/noble-gases',
+				exerciseName: 'Noble Gases',
+				format: 'fill-blanks',
+				score: 1,
+				total: 6,
+			});
+			expect(aRes.status).toBe(201);
+			const a = await aRes.json<any>();
+			expect(a.isRetry).toBe(false);
+
+			// Retry B of A
+			const bRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/noble-gases',
+				exerciseName: 'Noble Gases',
+				format: 'fill-blanks',
+				score: 3,
+				total: 6,
+				isRetry: true,
+				parentResultId: a.id,
+			});
+			expect(bRes.status).toBe(201);
+			const b = await bRes.json<any>();
+			expect(b.isRetry).toBe(true);
+			expect(b.parentResultId).toBe(a.id);
+
+			// Retry C of B
+			const cRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/noble-gases',
+				exerciseName: 'Noble Gases',
+				format: 'fill-blanks',
+				score: 5,
+				total: 6,
+				isRetry: true,
+				parentResultId: b.id,
+			});
+			expect(cRes.status).toBe(201);
+			const c = await cRes.json<any>();
+			expect(c.isRetry).toBe(true);
+			expect(c.parentResultId).toBe(b.id);
+		});
+
+		it('isRetry with truthy non-boolean values gets coerced to boolean', async () => {
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+				isRetry: 1 as any,
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			// !! coerces truthy values to true
+			expect(data.isRetry).toBe(true);
+		});
+
+		it('BUG PROBE: parentResultId as empty string becomes null', async () => {
+			// The handler does: parentResultId: body.parentResultId || undefined
+			// Empty string is falsy, so "" || undefined = undefined
+			// Then recordQuizResult does params.parentResultId ?? null, so undefined -> null
+			const res = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 1,
+				total: 3,
+				parentResultId: '',
+			});
+			expect(res.status).toBe(201);
+			const data = await res.json<any>();
+			// Empty string is coerced to null via the || undefined -> ?? null chain
+			expect(data.parentResultId).toBeNull();
 		});
 	});
 });
