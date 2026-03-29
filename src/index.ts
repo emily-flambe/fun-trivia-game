@@ -1,4 +1,5 @@
 import { NodeRepository } from './data/repository';
+import { AdminRepository, NotFoundError } from './data/admin-repository';
 import { UserRepository } from './data/user-repository';
 import { checkTextEntry, checkFillBlanks } from './lib/answer-checker';
 import type { User, ExerciseFormat, QuizItemResult } from './data/types';
@@ -8,6 +9,7 @@ interface Env {
 	CF_ACCESS_TEAM_DOMAIN: string;
 	CF_ACCESS_AUD: string;
 	CF_ACCESS_TEST_EMAIL?: string; // Set in .dev.vars only — enables local auth bypass
+	CF_ADMIN_EMAILS?: string; // Comma-separated list of admin emails
 }
 
 export default {
@@ -70,6 +72,14 @@ async function getRequestUser(request: Request, env: Env): Promise<User | null> 
 	return userRepo.getByEmail(email);
 }
 
+async function isAdmin(request: Request, env: Env): Promise<string | null> {
+	const email = await getAuthEmail(request, env);
+	if (!email) return null;
+	const adminEmails = (env.CF_ADMIN_EMAILS || 'emily@emilycogsdill.com').split(',').map(e => e.trim().toLowerCase());
+	if (!adminEmails.includes(email.toLowerCase())) return null;
+	return email;
+}
+
 async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Response> {
 	// Local dev bypass: if CF_ACCESS_TEST_EMAIL is set and request has the test cookie, trust it
 	if (env.CF_ACCESS_TEST_EMAIL) {
@@ -117,6 +127,14 @@ async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Respo
 async function handleApi(path: string, url: URL, request: Request, env: Env): Promise<Response> {
 	if (path === '/api/auth/me') {
 		return handleAuthMe(request, url, env);
+	}
+
+	// Admin API routes (require admin auth)
+	if (path.startsWith('/api/admin/')) {
+		const adminEmail = await isAdmin(request, env);
+		if (!adminEmail) return json({ error: 'Admin access required' }, 403);
+
+		return handleAdminApi(path, request, env);
 	}
 
 	const repo = new NodeRepository(env.DB);
@@ -317,6 +335,107 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 
 		return json({ error: 'Not found' }, 404);
 	} catch (err) {
+		const message = err instanceof Error ? err.message : 'Internal server error';
+		return json({ error: message }, 500);
+	}
+}
+
+async function handleAdminApi(path: string, request: Request, env: Env): Promise<Response> {
+	const db = env.DB;
+
+	try {
+		// Single item operations: /api/admin/exercises/:exerciseId/items/:itemId
+		const singleItemMatch = path.match(/^\/api\/admin\/exercises\/(.+)\/items\/([^/]+)$/);
+		if (singleItemMatch) {
+			const exerciseId = decodeURIComponent(singleItemMatch[1]);
+			const itemId = decodeURIComponent(singleItemMatch[2]);
+
+			if (request.method === 'PUT') {
+				const body = await request.json<any>();
+				const item = await AdminRepository.updateItem(db, exerciseId, itemId, body);
+				return json(item);
+			}
+			if (request.method === 'DELETE') {
+				await AdminRepository.deleteItem(db, exerciseId, itemId);
+				return json({ deleted: true });
+			}
+			return json({ error: 'Method not allowed' }, 405);
+		}
+
+		// Bulk item operations: /api/admin/exercises/:exerciseId/items
+		const bulkItemsMatch = path.match(/^\/api\/admin\/exercises\/(.+)\/items$/);
+		if (bulkItemsMatch) {
+			const exerciseId = decodeURIComponent(bulkItemsMatch[1]);
+			if (request.method === 'POST') {
+				const body = await request.json<any>();
+				if (!Array.isArray(body.items)) {
+					return json({ error: 'Missing required field: items (array)' }, 400);
+				}
+				const items = await AdminRepository.bulkUpsertItems(db, exerciseId, body.items);
+				return json({ items }, 201);
+			}
+			return json({ error: 'Method not allowed' }, 405);
+		}
+
+		// Exercise CRUD: /api/admin/exercises or /api/admin/exercises/:id
+		if (path === '/api/admin/exercises' && request.method === 'POST') {
+			const body = await request.json<any>();
+			if (!body.id || !body.nodeId || !body.name || !body.format) {
+				return json({ error: 'Missing required fields: id, nodeId, name, format' }, 400);
+			}
+			const exercise = await AdminRepository.createExercise(db, body);
+			return json(exercise, 201);
+		}
+
+		const exerciseMatch = path.match(/^\/api\/admin\/exercises\/(.+)$/);
+		if (exerciseMatch) {
+			const exerciseId = decodeURIComponent(exerciseMatch[1]);
+			if (request.method === 'PUT') {
+				const body = await request.json<any>();
+				const exercise = await AdminRepository.updateExercise(db, exerciseId, body);
+				return json(exercise);
+			}
+			if (request.method === 'DELETE') {
+				await AdminRepository.deleteExercise(db, exerciseId);
+				return json({ deleted: true });
+			}
+			return json({ error: 'Method not allowed' }, 405);
+		}
+
+		// Node upsert
+		if (path === '/api/admin/nodes' && request.method === 'POST') {
+			const body = await request.json<any>();
+			if (!body.id || !body.name) {
+				return json({ error: 'Missing required fields: id, name' }, 400);
+			}
+			const node = await AdminRepository.upsertNode(db, body);
+			return json(node, 201);
+		}
+
+		// Export single exercise
+		const exportExerciseMatch = path.match(/^\/api\/admin\/export\/(.+)$/);
+		if (exportExerciseMatch && request.method === 'GET') {
+			const data = await AdminRepository.exportExercise(db, decodeURIComponent(exportExerciseMatch[1]));
+			return json(data);
+		}
+
+		// Export all
+		if (path === '/api/admin/export' && request.method === 'GET') {
+			const data = await AdminRepository.exportAll(db);
+			return json(data);
+		}
+
+		// Content health
+		if (path === '/api/admin/content-health' && request.method === 'GET') {
+			const report = await AdminRepository.getContentHealth(db);
+			return json(report);
+		}
+
+		return json({ error: 'Not found' }, 404);
+	} catch (err) {
+		if (err instanceof NotFoundError) {
+			return json({ error: err.message }, 404);
+		}
 		const message = err instanceof Error ? err.message : 'Internal server error';
 		return json({ error: message }, 500);
 	}
