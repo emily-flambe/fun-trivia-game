@@ -177,7 +177,7 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 
 			<div className="bg-surface-raised rounded-2xl p-5 sm:p-8">
 				{item.data?.imageUrl && (
-					<div className="flex justify-center mb-4">
+					<div key={item.id} className="flex justify-center mb-4">
 						<ItemImage imageUrl={item.data.imageUrl} alt={item.data?.prompt || item.id} size="lg" />
 					</div>
 				)}

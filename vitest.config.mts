@@ -8,6 +8,7 @@ export default defineConfig({
 			miniflare: {
 				bindings: {
 					CF_ACCESS_TEST_EMAIL: 'test@trivia.emilycogsdill.com',
+					CF_ADMIN_EMAILS: 'test@trivia.emilycogsdill.com',
 				},
 			},
 		}),

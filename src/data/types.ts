@@ -126,6 +126,80 @@ export interface QuizResultDetail {
   items: QuizResultDetailItem[];
 }
 
+// === Admin input types ===
+
+export interface CreateExerciseInput {
+  id: string;
+  nodeId: string;
+  name: string;
+  description?: string;
+  format: ExerciseFormat;
+  displayType?: DisplayType;
+  config?: FillBlanksConfig;
+  sortOrder?: number;
+  items?: CreateItemInput[];
+}
+
+export interface UpdateExerciseInput {
+  name?: string;
+  description?: string;
+  format?: ExerciseFormat;
+  displayType?: DisplayType;
+  config?: FillBlanksConfig | null;
+  sortOrder?: number;
+}
+
+export interface CreateItemInput {
+  id: string;
+  answer: string;
+  alternates?: string[];
+  explanation?: string;
+  data?: Record<string, unknown>;
+  sortOrder?: number;
+}
+
+export interface UpdateItemInput {
+  answer?: string;
+  alternates?: string[];
+  explanation?: string;
+  data?: Record<string, unknown>;
+  sortOrder?: number;
+}
+
+export interface CreateNodeInput {
+  id: string;
+  parentId?: string | null;
+  name: string;
+  description?: string;
+  sortOrder?: number;
+}
+
+// === Admin export types ===
+
+export interface SeedExport {
+  nodes: Array<{
+    id: string;
+    parentId: string | null;
+    name: string;
+    description: string;
+  }>;
+  exercises: Array<Record<string, unknown>>;
+}
+
+export interface ContentHealthReport {
+  totalNodes: number;
+  totalExercises: number;
+  totalItems: number;
+  issues: ContentHealthIssue[];
+}
+
+export interface ContentHealthIssue {
+  type: 'empty-exercise' | 'orphan-exercise' | 'missing-links' | 'empty-explanation' | 'missing-prompt';
+  exerciseId: string;
+  itemId?: string;
+  message: string;
+}
+
 // === Learned League categories ===
 
 export interface LLCategory {

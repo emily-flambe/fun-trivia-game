@@ -2,7 +2,7 @@ import type { Node, Exercise, ExerciseFormat, DisplayType, FillBlanksConfig, Ite
 
 // === DB row interfaces ===
 
-interface NodeRow {
+export interface NodeRow {
 	id: string;
 	parent_id: string | null;
 	name: string;
@@ -12,7 +12,7 @@ interface NodeRow {
 	exercise_count?: number;
 }
 
-interface ExerciseRow {
+export interface ExerciseRow {
 	id: string;
 	node_id: string;
 	name: string;
@@ -24,7 +24,7 @@ interface ExerciseRow {
 	item_count?: number;
 }
 
-interface ItemRow {
+export interface ItemRow {
 	id: string;
 	exercise_id: string;
 	answer: string;
@@ -36,7 +36,7 @@ interface ItemRow {
 
 // === Row-to-type mappers ===
 
-function mapNode(row: NodeRow): Node {
+export function mapNode(row: NodeRow): Node {
 	const node: Node = {
 		id: row.id,
 		parentId: row.parent_id,
@@ -53,7 +53,7 @@ function mapNode(row: NodeRow): Node {
 	return node;
 }
 
-function mapExercise(row: ExerciseRow): Exercise {
+export function mapExercise(row: ExerciseRow): Exercise {
 	const exercise: Exercise = {
 		id: row.id,
 		nodeId: row.node_id,
@@ -74,7 +74,7 @@ function mapExercise(row: ExerciseRow): Exercise {
 	return exercise;
 }
 
-function mapItem(row: ItemRow): Item {
+export function mapItem(row: ItemRow): Item {
 	return {
 		id: row.id,
 		exerciseId: row.exercise_id,
