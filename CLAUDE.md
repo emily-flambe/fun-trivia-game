@@ -63,9 +63,19 @@ curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
 ```
 Do NOT assume "not in seed files" means "doesn't exist." Check the API.
 
-## Linear Labels for Content Tickets
+## Linear Tickets (MANDATORY)
 
-All trivia content creation tickets MUST have the `agent:trivia-content` label. This label identifies tickets that the trivia content agent (Orca) can pick up autonomously. When creating or updating Linear tickets for seed file work, quiz content, or exercise creation, always include `agent:trivia-content` in the labels array.
+**All Linear issues for this project MUST be created in the Trivia Trainer project.** Every ticket must have one of these labels:
+
+| Ticket type | Label | Examples |
+|-------------|-------|----------|
+| Trivia content | `agent:trivia-content` | Seed files, quiz content, exercises, fact corrections |
+| Everything else | `agent:coding-team` | Features, bug fixes, refactors, infra, UI, API, tests, migrations |
+
+- **`agent:trivia-content`** — identifies tickets the trivia content agent (Orca) can pick up autonomously.
+- **`agent:coding-team`** — identifies tickets for coding/engineering work. **If a ticket is NOT about trivia content, it MUST have this label.**
+
+When in doubt: if the work involves writing or editing seed file JSON / quiz items / explanations, use `agent:trivia-content`. For literally everything else (even content-adjacent work like changing how content renders), use `agent:coding-team`.
 
 ## Adding Quiz Content
 
