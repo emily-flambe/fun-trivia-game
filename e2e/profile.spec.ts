@@ -74,7 +74,7 @@ test.describe('Profile Page', () => {
 			// Should show Science with accuracy in the tabpanel
 			const panel = page.getByRole('tabpanel');
 			await expect(panel.getByText('Science')).toBeVisible();
-			await expect(panel.getByText('%')).toBeVisible();
+			await expect(panel.getByText('%').first()).toBeVisible();
 
 			// Progress bar should exist
 			await expect(page.locator('.h-2.bg-surface-bright').first()).toBeVisible();
