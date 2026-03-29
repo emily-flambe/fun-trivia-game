@@ -5,6 +5,7 @@ const varFlag = testEmail ? ` --var CF_ACCESS_TEST_EMAIL:${testEmail}` : '';
 
 export default defineConfig({
 	testDir: './e2e',
+	globalTimeout: 120000,
 	timeout: 30000,
 	retries: 1,
 	use: {

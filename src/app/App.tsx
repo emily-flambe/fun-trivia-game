@@ -74,7 +74,8 @@ export function App() {
 						<path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
 					</svg>
 				</button>
-				<a href="#/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
+				<a href="#/" className="flex items-center gap-2 text-xl font-bold text-accent hover:text-accent-hover transition-colors tracking-tight">
+					<img src="/logo.jpg" alt="" className="w-7 h-7 rounded" />
 					Trivia Trainer
 				</a>
 				<div className="flex items-center gap-1 ml-auto">
