@@ -355,29 +355,42 @@ function ActivityTab() {
 }
 
 function ActivityDetail({ detail }: { detail: QuizResultDetail }) {
+	const [expanded, setExpanded] = useState<Set<string>>(() => new Set());
+
+	const toggleExpanded = (id: string) => {
+		setExpanded((prev) => {
+			const next = new Set(prev);
+			next.has(id) ? next.delete(id) : next.add(id);
+			return next;
+		});
+	};
+
 	return (
 		<div className="space-y-1">
 			{detail.items.map((item) => {
 				const missed = detail.format === 'fill-blanks' && !item.userAnswer;
+				const isExpanded = expanded.has(item.itemId);
 				return (
 					<div
 						key={item.itemId}
-						className="grid grid-cols-[1fr_auto] gap-x-3 gap-y-0.5 py-2 border-b border-border-subtle last:border-0"
+						onClick={() => toggleExpanded(item.itemId)}
+						className="grid grid-cols-[1fr_auto] gap-x-3 gap-y-0.5 py-2 border-b border-border-subtle last:border-0 cursor-pointer hover:bg-surface-hover"
 					>
 						<div className="min-w-0">
-							<p className="text-sm font-medium truncate">{item.prompt}</p>
-							<p className="text-xs text-text-tertiary truncate">
+							<p className={`text-sm font-medium ${isExpanded ? '' : 'truncate'}`}>{item.prompt}</p>
+							<p className={`text-xs text-text-tertiary ${isExpanded ? '' : 'truncate'}`}>
 								<span className="text-text-secondary">Answer:</span> {item.correctAnswer}
 							</p>
 							{missed ? (
 								<p className="text-xs text-text-tertiary italic">Not answered</p>
 							) : (
-								<p className="text-xs text-text-tertiary truncate">
+								<p className={`text-xs text-text-tertiary ${isExpanded ? '' : 'truncate'}`}>
 									<span className="text-text-secondary">You said:</span> {item.userAnswer || <span className="italic">blank</span>}
 								</p>
 							)}
 						</div>
-						<div className="flex items-center">
+						<div className="flex items-center gap-2">
+							<span className="text-xs text-text-tertiary">{isExpanded ? '▼' : '▶'}</span>
 							{missed ? (
 								<span className="text-base font-bold text-red-400">&#x2715;</span>
 							) : item.correct ? (
