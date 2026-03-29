@@ -175,17 +175,38 @@ Don't include wrong answers as alternates. "Holland" is not an alternate for "Ne
 
 ---
 
-## Seed File Conventions
+## Content Authoring
 
-### File naming
+### Primary workflow: Admin API and MCP tools
 
-`{category-slug}-{topic-slug}.json` — e.g., `geography-world-capitals.json`, `film-best-picture.json`
+Content is authored via the admin API or MCP tools, landing directly in D1. The database is the source of truth — not seed files.
 
-One file per topic. A file can contain multiple exercises under the same node if the topic warrants it (e.g., element symbols + noble gases both under chemistry).
+### Admin API endpoints
 
-### Node declarations
+All admin endpoints require a Cloudflare Access JWT from an admin email.
 
-Include the node in your seed file even if it might already exist. The seed script uses `INSERT OR IGNORE` for nodes, so duplicates are harmless. This prevents FK errors from file ordering.
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/admin/exercises` | Create exercise with items |
+| `PUT` | `/api/admin/exercises/:id` | Update exercise metadata |
+| `DELETE` | `/api/admin/exercises/:id` | Delete exercise |
+| `POST` | `/api/admin/exercises/:id/items` | Bulk upsert items |
+| `PUT` | `/api/admin/exercises/:exerciseId/items/:itemId` | Update single item |
+| `DELETE` | `/api/admin/exercises/:exerciseId/items/:itemId` | Delete item |
+| `POST` | `/api/admin/nodes` | Upsert node |
+| `GET` | `/api/admin/export/:exerciseId` | Export single exercise as seed JSON |
+| `GET` | `/api/admin/export` | Export entire DB as seed JSON |
+| `GET` | `/api/admin/content-health` | Content health report |
+
+### MCP tools
+
+The same operations are available as MCP tools for agent-driven content authoring:
+
+`create_exercise`, `update_exercise`, `delete_exercise`, `upsert_items`, `update_item`, `delete_item`, `upsert_node`, `export_exercise`, `export_all`, `content_health`
+
+### Seed files (optional)
+
+Seed files in `seeds/` are still available for bulk import via `node scripts/seed.mjs --local` or `node scripts/seed.mjs --remote`, but they are no longer the source of truth. They serve as optional snapshots for bootstrapping or backup. The D1 database is canonical.
 
 ### Item IDs
 
@@ -198,15 +219,15 @@ Must be unique within the exercise.
 
 ### Newlines in explanations
 
-Use literal `\n` in JSON strings to separate bullet points. In the raw JSON file this appears as `\\n`. The UI splits on this and renders as a bulleted list.
+Use literal `\n` in JSON strings to separate bullet points. The UI splits on this and renders as a bulleted list.
 
 ```json
-"explanation": "First fact about the thing\\nSecond fact\\nThird fact"
+"explanation": "First fact about the thing\nSecond fact\nThird fact"
 ```
 
 ### Wikipedia Links
 
-Every item MUST include a `links` array in the seed data with at least one Wikipedia link. Links appear below explanations as "Read more:" hyperlinks.
+Every item MUST include a `links` array with at least one Wikipedia link. Links appear below explanations as "Read more:" hyperlinks.
 
 **Required:** The main subject of the item (person, place, event, concept).
 **Recommended:** 1-2 additional related topics mentioned in the explanation.
@@ -222,10 +243,10 @@ Every item MUST include a `links` array in the seed data with at least one Wikip
 **URLs** follow Wikipedia's format: `https://en.wikipedia.org/wiki/Article_Title` with underscores for spaces.
 **Verify URLs** resolve to the correct article. Check for disambiguation pages.
 
-A validation test (`test/unit/seed-links.test.ts`) enforces that every item in every seed file has at least one Wikipedia link.
+Link validation is done via the `GET /api/admin/content-health` endpoint, which reports items missing Wikipedia links across the entire database.
 
 ### Sort order
 
-Items appear in the order listed in the JSON array. For fill-blanks ordered exercises, this order IS the sequence. For text-entry and unordered fill-blanks, the quiz shuffles them but Learn mode preserves the authored order.
+Items appear in the order listed in the seed array or the order they are upserted via the API. For fill-blanks ordered exercises, this order IS the sequence. For text-entry and unordered fill-blanks, the quiz shuffles them but Learn mode preserves the authored order.
 
 Put items in the most natural study order: chronological for historical sequences, alphabetical for reference sets, or "most important first" for curated lists.
