@@ -157,6 +157,14 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			return json(stats);
 		}
 
+		if (path === '/api/quiz-results/by-exercise' && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const userRepo = new UserRepository(env.DB);
+			const exercises = await userRepo.getQuizResultsByExercise(user.id);
+			return json({ exercises });
+		}
+
 		if (path === '/api/quiz-results' && request.method === 'POST') {
 			const user = await getRequestUser(request, env);
 			if (!user) return json({ error: 'Authentication required' }, 401);
@@ -187,8 +195,8 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				total: body.total,
 				durationSeconds: body.durationSeconds ?? null,
 				itemsDetail: body.itemsDetail ?? [],
-				isRetry: !!body.isRetry,
-				parentResultId: body.parentResultId || undefined,
+				isRetry: body.isRetry,
+				parentResultId: body.parentResultId,
 			});
 			return json(result, 201);
 		}
@@ -201,14 +209,6 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			const userRepo = new UserRepository(env.DB);
 			const data = await userRepo.getQuizResults(user.id, limit, offset);
 			return json(data);
-		}
-
-		if (path === '/api/quiz-results/by-exercise' && request.method === 'GET') {
-			const user = await getRequestUser(request, env);
-			if (!user) return json({ error: 'Authentication required' }, 401);
-			const userRepo = new UserRepository(env.DB);
-			const summaries = await userRepo.getQuizResultsByExercise(user.id);
-			return json({ exercises: summaries });
 		}
 
 		const quizResultDetailMatch = path.match(/^\/api\/quiz-results\/([^/]+)$/);
@@ -267,6 +267,10 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				})
 			);
 
+			// Fetch retries for this result
+			const userRepo = new UserRepository(env.DB);
+			const retries = await userRepo.getRetries(resultId, user.id);
+
 			return json({
 				id: row.id,
 				exerciseId: row.exercise_id,
@@ -276,6 +280,7 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				format: row.format,
 				completedAt: row.completed_at,
 				items: enriched,
+				retries,
 			});
 		}
 

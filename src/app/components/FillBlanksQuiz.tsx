@@ -28,8 +28,8 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 	const inputRef = useRef<HTMLInputElement>(null);
 	const startTimeRef = useRef<number>(Date.now());
 	const submittedRef = useRef(false);
-	const [lastResultId, setLastResultId] = useState<string | null>(null);
-	const [retryContext, setRetryContext] = useState<{ isRetry: boolean; parentResultId: string | null }>({ isRetry: false, parentResultId: null });
+	const lastResultIdRef = useRef<string | null>(null);
+	const [retryContext, setRetryContext] = useState<{ isRetry: boolean; parentResultId: string } | null>(null);
 	const [activeItems, setActiveItems] = useState(items);
 
 	const nodeId = exercise.nodeId;
@@ -50,7 +50,7 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 		if (isComplete && auth.authenticated && !submittedRef.current) {
 			submittedRef.current = true;
 			const durationSeconds = Math.round((Date.now() - startTimeRef.current) / 1000);
-			const currentFoundIds = new Set(found.map((f) => f.itemId));
+			const foundIds = new Set(found.map((f) => f.itemId));
 			submitQuizResult({
 				exerciseId: exercisePath,
 				exerciseName: exercise.name,
@@ -58,18 +58,20 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 				score: found.length,
 				total: totalItems,
 				durationSeconds,
+				...(retryContext ? { isRetry: retryContext.isRetry, parentResultId: retryContext.parentResultId } : {}),
 				itemsDetail: activeItems.map((item) => {
 					const f = found.find((fi) => fi.itemId === item.id);
 					return {
 						itemId: item.id,
-						correct: currentFoundIds.has(item.id),
+						correct: foundIds.has(item.id),
 						userAnswer: f?.userAnswer ?? '',
 						fuzzyMatch: f?.fuzzyMatch ?? false,
 					};
 				}),
-				isRetry: retryContext.isRetry,
-				parentResultId: retryContext.parentResultId || undefined,
-			}).then((result) => setLastResultId(result.id)).catch(() => {});
+			}).then((result) => {
+				lastResultIdRef.current = result.id;
+				setRetryContext(null);
+			}).catch(() => {});
 		}
 	}, [isComplete, auth.authenticated]);
 
@@ -105,7 +107,9 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 	}
 
 	function handleRepeat() {
-		const parentId = lastResultId;
+		if (lastResultIdRef.current) {
+			setRetryContext({ isRetry: true, parentResultId: lastResultIdRef.current });
+		}
 		setActiveItems(items);
 		setFound([]);
 		setInput('');
@@ -114,11 +118,12 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 		setLastResult(null);
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
-		setRetryContext({ isRetry: true, parentResultId: parentId });
 	}
 
 	function handleRetryFailed() {
-		const parentId = lastResultId;
+		if (lastResultIdRef.current) {
+			setRetryContext({ isRetry: true, parentResultId: lastResultIdRef.current });
+		}
 		const foundItemIds = new Set(found.map((f) => f.itemId));
 		const missed = items.filter((i) => !foundItemIds.has(i.id));
 		setActiveItems(missed);
@@ -129,7 +134,6 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 		setLastResult(null);
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
-		setRetryContext({ isRetry: true, parentResultId: parentId });
 	}
 
 	// Build a map of revealed answers by item id

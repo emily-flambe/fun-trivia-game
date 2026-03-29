@@ -10,7 +10,7 @@ import {
 	type QuizResultResponse,
 	type CategoryStat,
 	type QuizResultDetail,
-	type QuizExerciseSummary,
+	type ExerciseLogEntry,
 } from '../lib/api';
 import { LL_CATEGORIES } from '../../data/types';
 
@@ -414,20 +414,20 @@ function ActivityDetail({ detail }: { detail: QuizResultDetail }) {
 
 function QuizLogTab() {
 	const auth = useAuth();
-	const [exercises, setExercises] = useState<QuizExerciseSummary[]>([]);
+	const [entries, setEntries] = useState<ExerciseLogEntry[]>([]);
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
 		if (!auth.authenticated) return;
 		getQuizResultsByExercise()
-			.then((data) => setExercises(data.exercises))
+			.then(setEntries)
 			.catch(() => {})
 			.finally(() => setLoading(false));
 	}, [auth.authenticated]);
 
 	if (loading) return <TabLoading />;
 
-	if (exercises.length === 0) {
+	if (entries.length === 0) {
 		return (
 			<div className="animate-in bg-surface-raised rounded-2xl p-8 text-center">
 				<p className="text-text-secondary mb-2">No quiz results yet.</p>
@@ -436,87 +436,47 @@ function QuizLogTab() {
 		);
 	}
 
-	return (
-		<div className="animate-in space-y-3">
-			{/* Desktop table */}
-			<div className="hidden sm:block">
-				<div className="bg-surface-raised rounded-xl overflow-hidden">
-					<table className="w-full text-sm">
-						<thead>
-							<tr className="border-b border-border-subtle text-text-tertiary text-left">
-								<th className="px-4 py-3 font-medium">Exercise</th>
-								<th className="px-4 py-3 font-medium">Category</th>
-								<th className="px-4 py-3 font-medium text-right">Last Score</th>
-								<th className="px-4 py-3 font-medium text-right">Best Score</th>
-								<th className="px-4 py-3 font-medium text-right">Taken</th>
-								<th className="px-4 py-3 font-medium text-right">Last Taken</th>
-							</tr>
-						</thead>
-						<tbody>
-							{exercises.map((ex) => {
-								const lastPct = ex.mostRecentTotal > 0
-									? Math.round((ex.mostRecentScore / ex.mostRecentTotal) * 100)
-									: 0;
-								const bestPct = ex.bestTotal > 0
-									? Math.round((ex.bestScore / ex.bestTotal) * 100)
-									: 0;
-								const category = ex.category.charAt(0).toUpperCase() + ex.category.slice(1).replace(/-/g, ' ');
-								return (
-									<tr key={ex.exerciseId} className="border-b border-border-subtle last:border-0 hover:bg-surface-hover transition-colors">
-										<td className="px-4 py-3">
-											<a href={`#/exercise/${ex.exerciseId}?mode=quiz`} className="font-medium hover:text-accent transition-colors">
-												{ex.exerciseName}
-											</a>
-										</td>
-										<td className="px-4 py-3 text-text-tertiary">{category}</td>
-										<td className="px-4 py-3 text-right">
-											<span className="font-semibold">{ex.mostRecentScore}/{ex.mostRecentTotal}</span>
-											<span className="text-text-tertiary ml-1">({lastPct}%)</span>
-										</td>
-										<td className="px-4 py-3 text-right">
-											<span className="font-semibold">{ex.bestScore}/{ex.bestTotal}</span>
-											<span className="text-text-tertiary ml-1">({bestPct}%)</span>
-										</td>
-										<td className="px-4 py-3 text-right text-text-secondary">{ex.timesTaken}</td>
-										<td className="px-4 py-3 text-right text-text-tertiary">{formatDate(ex.lastTaken)}</td>
-									</tr>
-								);
-							})}
-						</tbody>
-					</table>
-				</div>
-			</div>
+	function formatScore(score: number, total: number): string {
+		const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+		return `${score}/${total} (${pct}%)`;
+	}
 
-			{/* Mobile cards */}
-			<div className="sm:hidden space-y-3">
-				{exercises.map((ex) => {
-					const lastPct = ex.mostRecentTotal > 0
-						? Math.round((ex.mostRecentScore / ex.mostRecentTotal) * 100)
-						: 0;
-					const bestPct = ex.bestTotal > 0
-						? Math.round((ex.bestScore / ex.bestTotal) * 100)
-						: 0;
-					const category = ex.category.charAt(0).toUpperCase() + ex.category.slice(1).replace(/-/g, ' ');
-					return (
-						<a
-							key={ex.exerciseId}
-							href={`#/exercise/${ex.exerciseId}?mode=quiz`}
-							className="block bg-surface-raised rounded-xl p-4 hover:bg-surface-hover transition-all duration-200"
-						>
-							<div className="flex items-center justify-between mb-2">
-								<span className="font-medium truncate">{ex.exerciseName}</span>
-								<span className="text-sm font-semibold text-accent shrink-0 ml-2">
-									{ex.mostRecentScore}/{ex.mostRecentTotal}
-								</span>
-							</div>
-							<div className="grid grid-cols-3 gap-2 text-xs text-text-tertiary">
-								<span>{category}</span>
-								<span className="text-center">Best: {bestPct}%</span>
-								<span className="text-right">{ex.timesTaken}x · {formatDate(ex.lastTaken)}</span>
-							</div>
-						</a>
-					);
-				})}
+	function extractCategory(exerciseId: string): string {
+		const first = exerciseId.split('/')[0] ?? '';
+		return first.charAt(0).toUpperCase() + first.slice(1);
+	}
+
+	return (
+		<div className="animate-in">
+			<div className="overflow-x-auto">
+				<table className="w-full text-left">
+					<thead>
+						<tr className="border-b border-border-subtle text-xs font-semibold uppercase tracking-widest text-text-tertiary">
+							<th className="pb-3 pr-4">Exercise</th>
+							<th className="pb-3 pr-4">Category</th>
+							<th className="pb-3 pr-4">Most Recent</th>
+							<th className="pb-3 pr-4">Best</th>
+							<th className="pb-3 pr-4 text-center">Times Taken</th>
+							<th className="pb-3">Last Taken</th>
+						</tr>
+					</thead>
+					<tbody>
+						{entries.map((entry) => (
+							<tr key={entry.exerciseId} className="border-b border-border-subtle last:border-0 hover:bg-surface-hover transition-colors">
+								<td className="py-3 pr-4">
+									<a href={`#/exercise/${entry.exerciseId}?mode=quiz`} className="font-medium text-text-primary hover:text-accent transition-colors">
+										{entry.exerciseName}
+									</a>
+								</td>
+								<td className="py-3 pr-4 text-sm text-text-secondary">{extractCategory(entry.exerciseId)}</td>
+								<td className="py-3 pr-4 text-sm text-text-secondary">{formatScore(entry.mostRecentScore, entry.mostRecentTotal)}</td>
+								<td className="py-3 pr-4 text-sm font-medium text-accent">{formatScore(entry.bestScore, entry.bestTotal)}</td>
+								<td className="py-3 pr-4 text-sm text-text-secondary text-center">{entry.timesTaken}</td>
+								<td className="py-3 text-sm text-text-tertiary">{formatDate(entry.lastTaken)}</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
 			</div>
 		</div>
 	);

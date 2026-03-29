@@ -1,4 +1,4 @@
-import type { User, QuizResult, QuizItemResult, QuizExerciseSummary, ExerciseFormat } from './types';
+import type { User, QuizResult, QuizItemResult, ExerciseFormat } from './types';
 
 // === DB row interfaces ===
 
@@ -51,8 +51,8 @@ function mapQuizResult(row: QuizResultRow): QuizResult {
 		durationSeconds: row.duration_seconds,
 		itemsDetail: JSON.parse(row.items_detail || '[]') as QuizItemResult[],
 		completedAt: row.completed_at,
-		isRetry: row.is_retry === 1,
-		parentResultId: row.parent_result_id,
+		isRetry: row.is_retry ?? 0,
+		parentResultId: row.parent_result_id ?? null,
 	};
 }
 
@@ -105,6 +105,9 @@ export class UserRepository {
 	}): Promise<QuizResult> {
 		const id = crypto.randomUUID();
 		const now = new Date().toISOString();
+		const parentResultId = params.parentResultId ?? null;
+		// Auto-set isRetry when parentResultId is provided
+		const isRetry = (params.isRetry || parentResultId) ? 1 : 0;
 
 		await this.db
 			.prepare(
@@ -122,8 +125,8 @@ export class UserRepository {
 				params.durationSeconds,
 				JSON.stringify(params.itemsDetail),
 				now,
-				params.isRetry ? 1 : 0,
-				params.parentResultId ?? null,
+				isRetry,
+				parentResultId,
 			)
 			.run();
 
@@ -138,8 +141,8 @@ export class UserRepository {
 			durationSeconds: params.durationSeconds,
 			itemsDetail: params.itemsDetail,
 			completedAt: now,
-			isRetry: !!params.isRetry,
-			parentResultId: params.parentResultId ?? null,
+			isRetry,
+			parentResultId,
 		};
 	}
 
@@ -222,62 +225,82 @@ export class UserRepository {
 		};
 	}
 
-	async getQuizResultsByExercise(userId: string): Promise<QuizExerciseSummary[]> {
-		const { results } = await this.db.prepare(`
-			SELECT exercise_id, exercise_name, score, total, completed_at
-			FROM quiz_results
-			WHERE user_id = ? AND is_retry = 0
-			ORDER BY completed_at DESC
-		`).bind(userId).all<{
-			exercise_id: string;
-			exercise_name: string;
-			score: number;
-			total: number;
-			completed_at: string;
-		}>();
-
-		const exerciseMap = new Map<string, {
+	async getQuizResultsByExercise(userId: string): Promise<
+		{
 			exerciseId: string;
 			exerciseName: string;
-			scores: { score: number; total: number; completedAt: string }[];
-		}>();
+			timesTaken: number;
+			lastTaken: string;
+			mostRecentScore: number;
+			mostRecentTotal: number;
+			bestScore: number;
+			bestTotal: number;
+		}[]
+	> {
+		const rows = await this.db
+			.prepare(
+				`SELECT
+					exercise_id,
+					exercise_name,
+					COUNT(*) as times_taken,
+					MAX(completed_at) as last_taken,
+					-- Most recent score: use the result with the latest completed_at
+					(SELECT score FROM quiz_results r2
+					 WHERE r2.exercise_id = quiz_results.exercise_id
+					   AND r2.user_id = ? AND r2.is_retry = 0
+					 ORDER BY r2.completed_at DESC LIMIT 1) as most_recent_score,
+					(SELECT total FROM quiz_results r3
+					 WHERE r3.exercise_id = quiz_results.exercise_id
+					   AND r3.user_id = ? AND r3.is_retry = 0
+					 ORDER BY r3.completed_at DESC LIMIT 1) as most_recent_total,
+					-- Best score: highest score/total ratio
+					(SELECT score FROM quiz_results r4
+					 WHERE r4.exercise_id = quiz_results.exercise_id
+					   AND r4.user_id = ? AND r4.is_retry = 0
+					 ORDER BY CAST(r4.score AS REAL) / MAX(r4.total, 1) DESC, r4.completed_at DESC LIMIT 1) as best_score,
+					(SELECT total FROM quiz_results r5
+					 WHERE r5.exercise_id = quiz_results.exercise_id
+					   AND r5.user_id = ? AND r5.is_retry = 0
+					 ORDER BY CAST(r5.score AS REAL) / MAX(r5.total, 1) DESC, r5.completed_at DESC LIMIT 1) as best_total
+				 FROM quiz_results
+				 WHERE user_id = ? AND is_retry = 0
+				 GROUP BY exercise_id
+				 ORDER BY last_taken DESC`
+			)
+			.bind(userId, userId, userId, userId, userId)
+			.all<{
+				exercise_id: string;
+				exercise_name: string;
+				times_taken: number;
+				last_taken: string;
+				most_recent_score: number;
+				most_recent_total: number;
+				best_score: number;
+				best_total: number;
+			}>();
 
-		for (const row of results) {
-			const key = row.exercise_id;
-			if (!exerciseMap.has(key)) {
-				exerciseMap.set(key, {
-					exerciseId: key,
-					exerciseName: row.exercise_name,
-					scores: [],
-				});
-			}
-			exerciseMap.get(key)!.scores.push({
-				score: row.score,
-				total: row.total,
-				completedAt: row.completed_at,
-			});
-		}
+		return rows.results.map((row) => ({
+			exerciseId: row.exercise_id,
+			exerciseName: row.exercise_name,
+			timesTaken: row.times_taken,
+			lastTaken: row.last_taken,
+			mostRecentScore: row.most_recent_score,
+			mostRecentTotal: row.most_recent_total,
+			bestScore: row.best_score,
+			bestTotal: row.best_total,
+		}));
+	}
 
-		return Array.from(exerciseMap.values()).map(entry => {
-			const latest = entry.scores[0]; // already sorted DESC by completed_at
-			const bestRatio = Math.max(
-				...entry.scores.map(s => s.total === 0 ? 0 : s.score / s.total)
-			);
-			const bestEntry = entry.scores.find(
-				s => s.total > 0 && s.score / s.total === bestRatio
-			) || latest;
+	async getRetries(parentResultId: string, userId: string): Promise<QuizResult[]> {
+		const rows = await this.db
+			.prepare(
+				`SELECT * FROM quiz_results
+				 WHERE parent_result_id = ? AND user_id = ?
+				 ORDER BY completed_at ASC`
+			)
+			.bind(parentResultId, userId)
+			.all<QuizResultRow>();
 
-			return {
-				exerciseId: entry.exerciseId,
-				exerciseName: entry.exerciseName,
-				category: entry.exerciseId.split('/')[0],
-				timesTaken: entry.scores.length,
-				lastTaken: latest.completedAt,
-				mostRecentScore: latest.score,
-				mostRecentTotal: latest.total,
-				bestScore: bestEntry.score,
-				bestTotal: bestEntry.total,
-			};
-		});
+		return rows.results.map(mapQuizResult);
 	}
 }

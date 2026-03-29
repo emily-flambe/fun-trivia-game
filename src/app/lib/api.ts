@@ -138,9 +138,9 @@ export interface QuizResultPayload {
 	score: number;
 	total: number;
 	durationSeconds?: number;
-	itemsDetail: { itemId: string; correct: boolean; userAnswer: string; fuzzyMatch: boolean }[];
 	isRetry?: boolean;
 	parentResultId?: string;
+	itemsDetail: { itemId: string; correct: boolean; userAnswer: string; fuzzyMatch: boolean }[];
 }
 
 export interface QuizResultResponse {
@@ -152,7 +152,7 @@ export interface QuizResultResponse {
 	total: number;
 	durationSeconds: number | null;
 	completedAt: string;
-	isRetry: boolean;
+	isRetry: number;
 	parentResultId: string | null;
 }
 
@@ -163,13 +163,23 @@ export interface UserStats {
 	exercisesCovered: number;
 }
 
+export interface ExerciseLogEntry {
+	exerciseId: string;
+	exerciseName: string;
+	timesTaken: number;
+	lastTaken: string;
+	mostRecentScore: number;
+	mostRecentTotal: number;
+	bestScore: number;
+	bestTotal: number;
+}
+
 export async function submitQuizResult(payload: QuizResultPayload): Promise<QuizResultResponse> {
 	const res = await fetch(`${BASE}/quiz-results`, {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(payload),
 	});
-	if (!res.ok) throw new Error('Failed to submit quiz result');
 	return res.json() as Promise<QuizResultResponse>;
 }
 
@@ -216,6 +226,7 @@ export interface QuizResultDetail {
 	format: string;
 	completedAt: string;
 	items: QuizResultDetailItem[];
+	retries: QuizResultResponse[];
 }
 
 export async function getQuizResultDetail(resultId: string): Promise<QuizResultDetail> {
@@ -224,22 +235,11 @@ export async function getQuizResultDetail(resultId: string): Promise<QuizResultD
 	return res.json() as Promise<QuizResultDetail>;
 }
 
-export interface QuizExerciseSummary {
-	exerciseId: string;
-	exerciseName: string;
-	category: string;
-	timesTaken: number;
-	lastTaken: string;
-	mostRecentScore: number;
-	mostRecentTotal: number;
-	bestScore: number;
-	bestTotal: number;
-}
-
-export async function getQuizResultsByExercise(): Promise<{ exercises: QuizExerciseSummary[] }> {
+export async function getQuizResultsByExercise(): Promise<ExerciseLogEntry[]> {
 	const res = await fetch(`${BASE}/quiz-results/by-exercise`);
-	if (!res.ok) throw new Error('Failed to fetch exercise summaries');
-	return res.json() as Promise<{ exercises: QuizExerciseSummary[] }>;
+	if (!res.ok) throw new Error('Failed to fetch quiz results by exercise');
+	const data = await res.json() as { exercises: ExerciseLogEntry[] };
+	return data.exercises;
 }
 
 export async function checkAnswer(
