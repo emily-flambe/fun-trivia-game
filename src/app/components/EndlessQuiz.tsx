@@ -215,7 +215,7 @@ export function EndlessQuiz() {
 					{item.exerciseName} &middot; {categoryId.replace(/-/g, ' ')}
 				</div>
 				{item.data?.imageUrl && (
-					<div className="flex justify-center mb-4">
+					<div key={item.id} className="flex justify-center mb-4">
 						<ItemImage imageUrl={item.data.imageUrl} alt={item.data?.prompt || item.id} size="lg" />
 					</div>
 				)}
