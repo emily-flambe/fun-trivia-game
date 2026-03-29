@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { checkAnswer, submitQuizResult, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
+import { ItemImage } from './ItemImage';
 import { QuizSummary } from './QuizSummary';
 import { WikiLinks } from './WikiLinks';
 
@@ -175,6 +176,11 @@ export function TextEntryQuiz({ exercise, items, exercisePath, mode, nextExercis
 			</div>
 
 			<div className="bg-surface-raised rounded-2xl p-5 sm:p-8">
+				{item.data?.imageUrl && (
+					<div className="flex justify-center mb-4">
+						<ItemImage imageUrl={item.data.imageUrl} alt={item.data?.prompt || item.id} size="lg" />
+					</div>
+				)}
 				<div className="text-lg mb-6">{item.data?.prompt || `What is ${item.id}?`}</div>
 
 				{status === 'showing-result' && currentResult ? (
