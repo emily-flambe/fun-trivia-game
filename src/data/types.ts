@@ -95,6 +95,20 @@ export interface QuizResult {
   durationSeconds: number | null;
   itemsDetail: QuizItemResult[];
   completedAt: string;
+  isRetry: boolean;
+  parentResultId: string | null;
+}
+
+export interface QuizExerciseSummary {
+  exerciseId: string;
+  exerciseName: string;
+  category: string;
+  timesTaken: number;
+  lastTaken: string;
+  mostRecentScore: number;
+  mostRecentTotal: number;
+  bestScore: number;
+  bestTotal: number;
 }
 
 export interface QuizItemResult {
