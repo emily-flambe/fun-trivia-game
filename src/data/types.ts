@@ -46,6 +46,7 @@ export interface TextEntryData {
   prompt: string;
   cardFront?: string;
   cardBack?: string;
+  imageUrl?: string;
   links?: { text: string; url: string }[];
 }
 

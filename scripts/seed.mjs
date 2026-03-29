@@ -38,6 +38,7 @@ function buildItemData(exercise, item) {
 	// cardFront/cardBack are format-agnostic (any exercise can have Learn mode cards)
 	if (item.cardFront) data.cardFront = item.cardFront;
 	if (item.cardBack) data.cardBack = item.cardBack;
+	if (item.imageUrl) data.imageUrl = item.imageUrl;
 	if (item.links) data.links = item.links;
 	if (exercise.format === 'text-entry') {
 		if (item.prompt) data.prompt = item.prompt;

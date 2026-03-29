@@ -32,7 +32,8 @@
               "text": "Black double-headed eagle on red",
               "url": "https://en.wikipedia.org/wiki/Black_double-headed_eagle_on_red"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/al.png"
         },
         {
           "id": "australia",
@@ -51,7 +52,8 @@
               "text": "Union Jack + Southern Cross + Commonwealth Star",
               "url": "https://en.wikipedia.org/wiki/Union_Jack_+_Southern_Cross_+_Commonwealth_Star"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/au.png"
         },
         {
           "id": "bhutan",
@@ -70,7 +72,8 @@
               "text": "Dragonon diagonal yellow-orange bicolor",
               "url": "https://en.wikipedia.org/wiki/Dragonon_diagonal_yellow-orange_bicolor"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/bt.png"
         },
         {
           "id": "brazil",
@@ -89,7 +92,8 @@
               "text": "Celestial globe with stars and 'Ordem e Progresso' motto",
               "url": "https://en.wikipedia.org/wiki/Celestial_globe_with_stars_and_'Ordem_e_Progresso'_motto"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/br.png"
         },
         {
           "id": "cambodia",
@@ -108,7 +112,8 @@
               "text": "Angkor Wat temple silhouette in center",
               "url": "https://en.wikipedia.org/wiki/Angkor_Wat_temple_silhouette_in_center"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/kh.png"
         },
         {
           "id": "canada",
@@ -127,7 +132,8 @@
               "text": "Single red maple leaf on white, flanked by red bands",
               "url": "https://en.wikipedia.org/wiki/Single_red_maple_leaf_on_white,_flanked_by_red_bands"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/ca.png"
         },
         {
           "id": "cyprus",
@@ -146,7 +152,8 @@
               "text": "Map of the island in copper-orange on white",
               "url": "https://en.wikipedia.org/wiki/Map_of_the_island_in_copper-orange_on_white"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/cy.png"
         },
         {
           "id": "jamaica",
@@ -165,7 +172,8 @@
               "text": "No red, white, or blue — black, gold, and green saltire",
               "url": "https://en.wikipedia.org/wiki/No_red,_white,_or_blue_—_black,_gold,_and_green_saltire"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/jm.png"
         },
         {
           "id": "japan",
@@ -184,7 +192,8 @@
               "text": "Red circleon plain white field",
               "url": "https://en.wikipedia.org/wiki/Red_circleon_plain_white_field"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/jp.png"
         },
         {
           "id": "lebanon",
@@ -203,7 +212,8 @@
               "text": "Green cedar tree on white center band",
               "url": "https://en.wikipedia.org/wiki/Green_cedar_tree_on_white_center_band"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/lb.png"
         },
         {
           "id": "libya",
@@ -222,7 +232,8 @@
               "text": "Black-red-green tricolor with white crescent and star",
               "url": "https://en.wikipedia.org/wiki/Black-red-green_tricolor_with_white_crescent_and_star"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/ly.png"
         },
         {
           "id": "mozambique",
@@ -241,7 +252,8 @@
               "text": "AK-47 assault rifle",
               "url": "https://en.wikipedia.org/wiki/AK-47_assault_rifle"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/mz.png"
         },
         {
           "id": "nepal",
@@ -260,7 +272,8 @@
               "text": "Only non-rectangular national flag",
               "url": "https://en.wikipedia.org/wiki/Only_non-rectangular_national_flag"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/np.png"
         },
         {
           "id": "saudi-arabia",
@@ -279,7 +292,8 @@
               "text": "Islamic Shahada text + sword on green field",
               "url": "https://en.wikipedia.org/wiki/Islamic_Shahada_text_+_sword_on_green_field"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/sa.png"
         },
         {
           "id": "south-africa",
@@ -298,7 +312,8 @@
               "text": "Six-color flag with distinctive green Y-shape",
               "url": "https://en.wikipedia.org/wiki/Six-color_flag_with_distinctive_green_Y-shape"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/za.png"
         },
         {
           "id": "switzerland",
@@ -317,7 +332,8 @@
               "text": "Square flag — white cross on red",
               "url": "https://en.wikipedia.org/wiki/Square_flag_—_white_cross_on_red"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/ch.png"
         },
         {
           "id": "trinidad-tobago",
@@ -339,7 +355,8 @@
               "text": "Black diagonal stripe with white borders on red field",
               "url": "https://en.wikipedia.org/wiki/Black_diagonal_stripe_with_white_borders_on_red_field"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/tt.png"
         },
         {
           "id": "usa",
@@ -359,7 +376,8 @@
               "text": "United States",
               "url": "https://en.wikipedia.org/wiki/United_States"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/us.png"
         },
         {
           "id": "vatican",
@@ -381,7 +399,8 @@
               "text": "Square flag — gold and white halves with papal coat of arms",
               "url": "https://en.wikipedia.org/wiki/Square_flag_—_gold_and_white_halves_with_papal_coat_of_arms"
             }
-          ]
+          ],
+          "imageUrl": "https://flagcdn.com/w320/va.png"
         }
       ]
     }
