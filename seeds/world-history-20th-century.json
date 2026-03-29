@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "world-history/20th-century", "parentId": "world-history", "name": "20th Century Events", "description": "Major world events of the 20th century" }
+    {
+      "id": "world-history/20th-century",
+      "parentId": "world-history",
+      "name": "20th Century Events",
+      "description": "Major world events of the 20th century"
+    }
   ],
   "exercises": [
     {
@@ -14,235 +19,544 @@
           "id": "armenian-genocide",
           "prompt": "Which systematic extermination of the Armenian population in the Ottoman Empire (1915–1916) killed an estimated 600,000–1.5 million people?",
           "answer": "Armenian Genocide",
-          "alternates": ["Armenian Holocaust", "Armenian massacre"],
+          "alternates": [
+            "Armenian Holocaust",
+            "Armenian massacre"
+          ],
           "explanation": "1915–1916; Ottoman government under the Committee of Union and Progress ('Young Turks') targeted Armenian Christian minority\nEstimated 600,000–1.5 million Armenians killed through mass shootings, death marches, and starvation in the Syrian desert\nDeportation death marches to the Syrian desert were a central method; survivors forced to walk hundreds of miles without food or water\nHenry Morgenthau Sr., U.S. Ambassador to the Ottoman Empire, documented the atrocities in dispatches — described 'race extermination'\nTurkey has never officially recognized the genocide and disputes the death toll — a major diplomatic flashpoint\nThe Holocaust: Nazi Germany studied the Armenian Genocide; Hitler allegedly said in 1939 'Who today remembers the extermination of the Armenians?'\nUnited States formally recognized it as a genocide in April 2021 under President Biden",
           "cardFront": "1915–1916, Ottoman Empire, Armenians, 600,000–1.5 million killed",
-          "cardBack": "Armenian Genocide"
+          "cardBack": "Armenian Genocide",
+          "links": [
+            {
+              "text": "Armenian Genocide",
+              "url": "https://en.wikipedia.org/wiki/Armenian_Genocide"
+            }
+          ]
         },
         {
           "id": "russian-civil-war",
           "prompt": "Which conflict (1917–1922) between the Bolshevik Red Army and the anti-communist White Army consolidated Soviet power and led to the formation of the USSR?",
           "answer": "Russian Civil War",
-          "alternates": ["Bolshevik Civil War"],
+          "alternates": [
+            "Bolshevik Civil War"
+          ],
           "explanation": "1917–1922; Red Army (Bolsheviks) vs. White Army (monarchists, liberals, foreign interveners including USA, UK, France, Japan)\n14 foreign nations sent troops to support the Whites; all withdrew by 1922 without decisive effect\nLeon Trotsky built the Red Army from scratch — considered the military genius of the Bolshevik victory\nFamine of 1921–1922 killed an estimated 5 million; total war-related deaths estimated at 7–12 million including disease and famine\nTsar Nicholas II and his family were executed by Bolsheviks at Yekaterinburg, July 17, 1918, to prevent their rescue\nBolsheviks won control of the former Russian Empire's core; Ukraine, Georgia, Armenia, and others were absorbed into the Soviet state\nUSSR (Union of Soviet Socialist Republics) formally established December 30, 1922",
           "cardFront": "1917–1922, Red Army vs. White Army, USSR founded 1922",
-          "cardBack": "Russian Civil War"
+          "cardBack": "Russian Civil War",
+          "links": [
+            {
+              "text": "Russian Civil War",
+              "url": "https://en.wikipedia.org/wiki/Russian_Civil_War"
+            }
+          ]
         },
         {
           "id": "great-depression",
           "prompt": "Which economic catastrophe, triggered by the U.S. stock market crash of October 1929, spread globally to cause 25% unemployment in the USA, democratic backsliding across Europe, and is considered a contributing cause of World War II?",
           "answer": "Great Depression",
-          "alternates": ["The Great Depression"],
+          "alternates": [
+            "The Great Depression"
+          ],
           "explanation": "1929–1939; the worst economic downturn of the 20th century\nBlack Tuesday (October 29, 1929): U.S. stock market crashed, erasing billions in paper wealth\nU.S. unemployment reached 25% by 1933; GDP fell ~30%; 9,000 banks failed; millions of families lost homes and farms\nSmoot-Hawley Tariff (1930): U.S. raised import tariffs; other nations retaliated; global trade collapsed by ~65%\nFDR's New Deal (1933–1939): relief, recovery, and reform programs; created Social Security, the SEC, and the FDIC\nHitler exploited German economic desperation (unemployment ~30%) to rise to power — the Depression helped produce WWII",
           "cardFront": "1929–1939, stock market crash, 25% unemployment, FDR's New Deal",
-          "cardBack": "Great Depression"
+          "cardBack": "Great Depression",
+          "links": [
+            {
+              "text": "Great Depression",
+              "url": "https://en.wikipedia.org/wiki/Great_Depression"
+            }
+          ]
         },
         {
           "id": "holocaust",
           "prompt": "What name is given to Nazi Germany's systematic genocide (1941–1945) that murdered approximately 6 million Jews and millions of others?",
           "answer": "The Holocaust",
-          "alternates": ["Holocaust", "Shoah", "The Shoah"],
+          "alternates": [
+            "Holocaust",
+            "Shoah",
+            "The Shoah"
+          ],
           "explanation": "Systematic, state-sponsored genocide by Nazi Germany under Adolf Hitler; industrial killing peaked 1941–1945\nApproximately 6 million Jews murdered — about two-thirds of European Jewry — plus ~6 million others: Roma, disabled people, Soviet POWs, political prisoners, and others\nWannsee Conference (January 20, 1942): 15 senior Nazi officials coordinated the 'Final Solution to the Jewish Question' — systematic murder via death camps\nAuschwitz-Birkenau (occupied Poland): the largest death camp; approximately 1.1 million people murdered there, mostly Jews\nEinsatzgruppen: mobile killing units murdered ~1.5 million Jews in mass shootings in Eastern Europe before the death camps were established\nNuremberg Trials (1945–1946): 24 Nazi leaders tried for crimes against humanity — established the international legal framework still in use today",
           "cardFront": "Nazi genocide, 1941–1945, 6 million Jews",
-          "cardBack": "The Holocaust"
+          "cardBack": "The Holocaust",
+          "links": [
+            {
+              "text": "The Holocaust",
+              "url": "https://en.wikipedia.org/wiki/The_Holocaust"
+            },
+            {
+              "text": "Nazi genocide, 1941–1945, 6 million Jews",
+              "url": "https://en.wikipedia.org/wiki/Nazi_genocide,_1941–1945,_6_million_Jews"
+            }
+          ]
         },
         {
           "id": "nuremberg-trials",
           "prompt": "Which international military tribunal held in Nuremberg from 1945 to 1946 prosecuted 24 major Nazi war criminals for 'crimes against humanity,' establishing precedents that shaped international law for decades?",
           "answer": "Nuremberg Trials",
-          "alternates": ["Nuremberg Trial", "Nuremberg Tribunal", "International Military Tribunal"],
+          "alternates": [
+            "Nuremberg Trial",
+            "Nuremberg Tribunal",
+            "International Military Tribunal"
+          ],
           "explanation": "International Military Tribunal conducted by US, UK, France, and USSR in Nuremberg, Germany (November 1945 – October 1946)\n24 major Nazi defendants tried; 12 sentenced to death including Hermann Goring (who committed suicide hours before execution)\nEstablished the legal concepts of 'crimes against humanity' and 'crimes against peace' — now foundational in international law\nHermann Goring, Joachim von Ribbentrop, Wilhelm Keitel, and others hanged October 16, 1946\nAlbert Speer (armaments minister) sentenced to 20 years; Rudolf Hess to life imprisonment\nNuremberg Principles became part of international law; established the precedent for the International Criminal Court (ICC, 2002)",
           "cardFront": "1945–1946, Nuremberg, Nazi war crimes, 'crimes against humanity'",
-          "cardBack": "Nuremberg Trials"
+          "cardBack": "Nuremberg Trials",
+          "links": [
+            {
+              "text": "Nuremberg Trials",
+              "url": "https://en.wikipedia.org/wiki/Nuremberg_Trials"
+            }
+          ]
         },
         {
           "id": "united-nations",
           "prompt": "Which international organization, founded on October 24, 1945 after World War II to prevent future wars, replaced the failed League of Nations and now has 193 member states?",
           "answer": "United Nations",
-          "alternates": ["UN", "The United Nations", "The UN"],
+          "alternates": [
+            "UN",
+            "The United Nations",
+            "The UN"
+          ],
           "explanation": "Founded October 24, 1945 (observed as UN Day); charter signed by 51 original member states in San Francisco on June 26, 1945\nReplaced the League of Nations (1920–1946), which had failed to prevent World War II\nFive permanent Security Council members with veto power (P5): USA, UK, France, Russia (originally USSR), and China\nUniversal Declaration of Human Rights adopted December 10, 1948 — primarily drafted by Eleanor Roosevelt\nCurrently has 193 member states — essentially every recognized sovereign nation on Earth\nKey specialized agencies: WHO (health), UNESCO (education/culture), UNICEF (children's welfare), IMF and World Bank (economics)",
           "cardFront": "October 1945, 193 members, Security Council",
-          "cardBack": "United Nations"
+          "cardBack": "United Nations",
+          "links": [
+            {
+              "text": "United Nations",
+              "url": "https://en.wikipedia.org/wiki/United_Nations"
+            },
+            {
+              "text": "October 1945, 193 members, Security Council",
+              "url": "https://en.wikipedia.org/wiki/October_1945,_193_members,_Security_Council"
+            }
+          ]
         },
         {
           "id": "marshall-plan",
           "prompt": "Which 1948–1952 US economic program provided ~$13 billion to rebuild Western European economies devastated by World War II, while also containing Soviet expansion?",
           "answer": "Marshall Plan",
-          "alternates": ["The Marshall Plan", "European Recovery Program"],
+          "alternates": [
+            "The Marshall Plan",
+            "European Recovery Program"
+          ],
           "explanation": "Formally the European Recovery Program; proposed by Secretary of State George C. Marshall in a Harvard commencement speech on June 5, 1947\nProvided ~$13 billion (equivalent to ~$150 billion today) to 17 Western European nations, 1948–1952\nUS motivation: both humanitarian and strategic — prevent economic collapse from driving Western Europe toward communism\nSoviet Union refused to participate and pressured Eastern Bloc countries not to participate either\nWest Germany received $1.4 billion; within a decade became Europe's strongest economy (the Wirtschaftswunder, 'economic miracle')\nGeorge Marshall won the Nobel Peace Prize in 1953 for the plan — the only US Army general ever to win the Peace Prize",
           "cardFront": "1948–1952, US aid to rebuild post-war Europe",
-          "cardBack": "Marshall Plan"
+          "cardBack": "Marshall Plan",
+          "links": [
+            {
+              "text": "Marshall Plan",
+              "url": "https://en.wikipedia.org/wiki/Marshall_Plan"
+            }
+          ]
         },
         {
           "id": "indian-independence",
           "prompt": "Which August 1947 event — ending nearly 200 years of British colonial rule — created the independent nations of India and Pakistan and was accompanied by the Partition's massive communal violence?",
           "answer": "Indian Independence",
-          "alternates": ["Indian Independence and Partition", "Partition of India", "Indian Partition", "India independence"],
+          "alternates": [
+            "Indian Independence and Partition",
+            "Partition of India",
+            "Indian Partition",
+            "India independence"
+          ],
           "explanation": "India became independent August 15, 1947; Pakistan on August 14, 1947 — ending British rule dating to the East India Company's dominance from 1757\nPartition divided British India into Hindu-majority India and Muslim-majority Pakistan (including East Pakistan, now Bangladesh)\nPartition's violence: 10–20 million people displaced in one of history's largest mass migrations; 200,000–2 million killed in communal violence\nMahatma Gandhi's nonviolent civil disobedience movement (satyagraha) was the primary force for independence\nGandhi was assassinated by Hindu nationalist Nathuram Godse on January 30, 1948, just six months after independence\nJawaharlal Nehru became India's first Prime Minister; Muhammad Ali Jinnah became Pakistan's first Governor-General",
           "cardFront": "August 1947, Gandhi, India-Pakistan partition",
-          "cardBack": "Indian Independence"
+          "cardBack": "Indian Independence",
+          "links": [
+            {
+              "text": "Indian Independence",
+              "url": "https://en.wikipedia.org/wiki/Indian_Independence"
+            },
+            {
+              "text": "August 1947, Gandhi, India-Pakistan partition",
+              "url": "https://en.wikipedia.org/wiki/August_1947,_Gandhi,_India-Pakistan_partition"
+            }
+          ]
         },
         {
           "id": "israel-founding",
           "prompt": "Which state was established on May 14, 1948 when David Ben-Gurion read its Declaration of Independence, prompting the USA to extend recognition within 11 minutes and five Arab armies to invade the next day?",
           "answer": "Israel",
-          "alternates": ["State of Israel", "Israeli Declaration of Independence"],
+          "alternates": [
+            "State of Israel",
+            "Israeli Declaration of Independence"
+          ],
           "explanation": "David Ben-Gurion proclaimed the State of Israel in Tel Aviv on May 14, 1948 as the British Mandate for Palestine expired\nPresident Truman extended U.S. de facto recognition within 11 minutes of the declaration\nFive Arab armies (Egypt, Jordan, Syria, Iraq, Lebanon) invaded the next day; 1948 Arab-Israeli War ('Israeli War of Independence')\nIsrael survived and in armistice agreements (1949) held more territory than the 1947 UN partition plan had allocated\nPalestinian refugee crisis: ~700,000 Palestinian Arabs fled or were expelled — called the Nakba ('catastrophe')\nZionist movement founded by Theodor Herzl in 1897; the Holocaust gave the cause international momentum",
           "cardFront": "David Ben-Gurion, May 14, 1948, declared in Palestine",
-          "cardBack": "Israel"
+          "cardBack": "Israel",
+          "links": [
+            {
+              "text": "Israel",
+              "url": "https://en.wikipedia.org/wiki/Israel"
+            },
+            {
+              "text": "David Ben-Gurion, May 14, 1948, declared in Palestine",
+              "url": "https://en.wikipedia.org/wiki/David_Ben-Gurion,_May_14,_1948,_declared_in_Palestine"
+            }
+          ]
         },
         {
           "id": "nato-founding",
           "prompt": "Which military alliance, founded in April 1949 by 12 Western nations, was designed to provide collective defense against Soviet expansion and remains the world's largest military alliance?",
           "answer": "NATO",
-          "alternates": ["North Atlantic Treaty Organization", "The North Atlantic Treaty Organization"],
+          "alternates": [
+            "North Atlantic Treaty Organization",
+            "The North Atlantic Treaty Organization"
+          ],
           "explanation": "Founded April 4, 1949; 12 original members: USA, UK, France, Belgium, Netherlands, Luxembourg, Canada, Denmark, Iceland, Italy, Norway, Portugal\nArticle 5: 'an attack on one is an attack on all' — collective defense principle; invoked only once, after the September 11, 2001 attacks\nSoviet Union countered with the Warsaw Pact (1955), a competing alliance of Eastern Bloc nations\nCold War's end led to NATO expansion eastward; former Warsaw Pact nations Poland, Hungary, and Czech Republic joined in 1999\nAs of early 2024, has 32 members following Sweden's accession in March 2024\nNATO's relevance was debated after the Cold War but surged after Russia's invasion of Ukraine (2022)",
           "cardFront": "April 4, 1949, 12 founding members, collective defense",
-          "cardBack": "NATO"
+          "cardBack": "NATO",
+          "links": [
+            {
+              "text": "NATO",
+              "url": "https://en.wikipedia.org/wiki/NATO"
+            },
+            {
+              "text": "April 4, 1949, 12 founding members, collective defense",
+              "url": "https://en.wikipedia.org/wiki/April_4,_1949,_12_founding_members,_collective_defense"
+            }
+          ]
         },
         {
           "id": "cold-war",
           "prompt": "Which geopolitical rivalry (1947–1991) between the United States and Soviet Union — marked by proxy wars, nuclear arms race, and ideological competition — ended with the Soviet Union's collapse?",
           "answer": "Cold War",
-          "alternates": ["The Cold War"],
+          "alternates": [
+            "The Cold War"
+          ],
           "explanation": "Political and military standoff between the US (NATO) and USSR (Warsaw Pact) from approximately 1947 to 1991\nNamed 'Cold' because the two superpowers never directly fought each other — open war would have risked nuclear annihilation (MAD: Mutually Assured Destruction)\nBerlin was the iconic Cold War battleground: Berlin Airlift (1948–1949), Berlin Wall built (1961), Wall fell (1989)\nNuclear arms race: both sides built thousands of warheads; the US had ~31,000 and the USSR ~40,000 at their peaks\nProxy wars: Korea, Vietnam, Angola, Nicaragua, Afghanistan — superpower rivalry fought through surrogates worldwide\nEnded December 25, 1991 when Gorbachev resigned and the Soviet flag was lowered over the Kremlin",
           "cardFront": "1947–1991, US vs. USSR, nuclear arms race",
-          "cardBack": "Cold War"
+          "cardBack": "Cold War",
+          "links": [
+            {
+              "text": "Cold War",
+              "url": "https://en.wikipedia.org/wiki/Cold_War"
+            }
+          ]
         },
         {
           "id": "suez-crisis",
           "prompt": "Which 1956 crisis erupted when Egypt's Nasser nationalized the Suez Canal, prompting a secret Anglo-French-Israeli invasion that the US and USSR jointly forced to reverse — signaling the end of British and French global dominance?",
           "answer": "Suez Crisis",
-          "alternates": ["Suez Canal Crisis", "The Suez Crisis"],
+          "alternates": [
+            "Suez Canal Crisis",
+            "The Suez Crisis"
+          ],
           "explanation": "Egypt's Gamal Abdel Nasser nationalized the Suez Canal (July 26, 1956), ending British-French control and financing the Aswan Dam\nBritain, France, and Israel secretly planned Operation Musketeer: Israel invaded Sinai; Britain and France used it as pretext to occupy the canal zone\nUS President Eisenhower — furious at being kept in the dark — threatened economic sanctions against Britain and sterling crisis\nUSSR threatened missile attacks on Paris and London; combined US-USSR pressure forced Britain, France, and Israel to withdraw in humiliation\nMark of the definitive end of British and French status as independent global superpowers; Egypt retained the canal\nNasser emerged as a pan-Arab hero; Eisenhower Doctrine asserted US as the dominant Western power in the Middle East",
           "cardFront": "1956, Nasser nationalizes Suez Canal, Britain+France+Israel humiliated",
-          "cardBack": "Suez Crisis"
+          "cardBack": "Suez Crisis",
+          "links": [
+            {
+              "text": "Suez Crisis",
+              "url": "https://en.wikipedia.org/wiki/Suez_Crisis"
+            }
+          ]
         },
         {
           "id": "decolonization-africa",
           "prompt": "Which process — primarily occurring between 1957 and 1975 — saw most of Africa's nations gain independence from European colonial powers, transforming the continent's political map?",
           "answer": "African decolonization",
-          "alternates": ["Decolonization of Africa", "African independence", "Decolonisation of Africa"],
+          "alternates": [
+            "Decolonization of Africa",
+            "African independence",
+            "Decolonisation of Africa"
+          ],
           "explanation": "Most African colonies gained independence 1957–1975; the 'Year of Africa' (1960) saw 17 nations become independent in a single year\nGhana (March 6, 1957), led by Kwame Nkrumah, was the first sub-Saharan African colony to gain independence from Britain — a landmark moment\n14 French colonies gained independence simultaneously in 1960 as de Gaulle negotiated managed decolonization\nAlgerian War of Independence (1954–1962): brutal eight-year conflict; an estimated 300,000–1,000,000 Algerians died fighting French colonial rule\nMany newly independent states inherited arbitrary colonial borders that cut across ethnic and linguistic lines — a root cause of ongoing conflicts\nSouth Africa's end of apartheid (1994) is considered the final act of Africa's decolonization",
           "cardFront": "1957–1975, Africa, colonial independence movements",
-          "cardBack": "African decolonization"
+          "cardBack": "African decolonization",
+          "links": [
+            {
+              "text": "African decolonization",
+              "url": "https://en.wikipedia.org/wiki/African_decolonization"
+            }
+          ]
         },
         {
           "id": "cuban-missile-crisis",
           "prompt": "Which thirteen-day October 1962 confrontation — after US spy planes discovered Soviet nuclear missiles in Cuba — brought the world to the brink of nuclear war?",
           "answer": "Cuban Missile Crisis",
-          "alternates": ["The Cuban Missile Crisis", "October Crisis"],
+          "alternates": [
+            "The Cuban Missile Crisis",
+            "October Crisis"
+          ],
           "explanation": "October 16–28, 1962: the closest the Cold War came to becoming a nuclear war\nUS U-2 spy plane photographed Soviet ballistic missile sites under construction in Cuba on October 14, 1962\nPresident Kennedy imposed a naval 'quarantine' (blockade) of Cuba; Soviet ships carrying missiles turned back after tense standoff\nKhrushchev agreed to remove Soviet missiles in exchange for: US pledge not to invade Cuba, and secret removal of US Jupiter missiles from Turkey\nVasili Arkhipov, a Soviet submarine officer on B-59, refused to authorize a nuclear torpedo launch on October 27 — possibly preventing nuclear war\nDirectly produced the Moscow-Washington hotline ('red phone') and the Partial Nuclear Test Ban Treaty (1963)",
           "cardFront": "October 1962, Soviet missiles in Cuba, nuclear brinkmanship",
-          "cardBack": "Cuban Missile Crisis"
+          "cardBack": "Cuban Missile Crisis",
+          "links": [
+            {
+              "text": "Cuban Missile Crisis",
+              "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+            },
+            {
+              "text": "October 1962, Soviet missiles in Cuba, nuclear brinkmanship",
+              "url": "https://en.wikipedia.org/wiki/October_1962,_Soviet_missiles_in_Cuba,_nuclear_brinkmanship"
+            }
+          ]
         },
         {
           "id": "cultural-revolution",
           "prompt": "Which political campaign (1966–1976) launched by Mao Zedong mobilized Red Guards to purge 'counter-revolutionary' elements in China, closing universities, destroying cultural heritage, and killing hundreds of thousands?",
           "answer": "Cultural Revolution",
-          "alternates": ["The Cultural Revolution", "Chinese Cultural Revolution", "Great Proletarian Cultural Revolution"],
+          "alternates": [
+            "The Cultural Revolution",
+            "Chinese Cultural Revolution",
+            "Great Proletarian Cultural Revolution"
+          ],
           "explanation": "1966–1976; officially the 'Great Proletarian Cultural Revolution'; launched by Mao Zedong to reassert his authority within the Communist Party\nMao mobilized millions of young 'Red Guards' to attack the 'Four Olds': old customs, culture, habits, and ideas\nIntellectuals, teachers, artists, and party officials were publicly humiliated, imprisoned, tortured, or killed; universities closed for years\nDeng Xiaoping (future paramount leader) was purged twice; Lin Biao (Mao's chosen successor) died fleeing to the USSR after a failed coup attempt in 1971\nHistorical sites, temples, books, and artworks destroyed across China\nEnded with Mao's death (September 9, 1976) and the arrest of the 'Gang of Four'; estimated 500,000–2 million deaths",
           "cardFront": "1966–1976, Mao Zedong, Red Guards, destroyed Chinese cultural heritage",
-          "cardBack": "Cultural Revolution"
+          "cardBack": "Cultural Revolution",
+          "links": [
+            {
+              "text": "Cultural Revolution",
+              "url": "https://en.wikipedia.org/wiki/Cultural_Revolution"
+            }
+          ]
         },
         {
           "id": "moon-landing",
           "prompt": "What historic event occurred on July 20, 1969 when Apollo 11 astronauts Neil Armstrong and Buzz Aldrin became the first humans to walk on the Moon, with Armstrong declaring it 'one small step for man'?",
           "answer": "Moon landing",
-          "alternates": ["Apollo 11", "The Moon landing", "Moon Landing", "First Moon landing"],
+          "alternates": [
+            "Apollo 11",
+            "The Moon landing",
+            "Moon Landing",
+            "First Moon landing"
+          ],
           "explanation": "July 20, 1969; Apollo 11 mission; lunar module Eagle landed in the Sea of Tranquility\nNeil Armstrong: first human to walk on the Moon; said 'That's one small step for man, one giant leap for mankind' (he later stated he intended 'for a man')\nBuzz Aldrin joined Armstrong on the surface; Michael Collins orbited in the command module Columbia\nFulfilled JFK's 1961 challenge to land on the Moon 'before this decade is out,' announced less than three weeks after Yuri Gagarin's first human spaceflight\nSoviet Luna program had been racing to get there first; the USSR never landed humans on the Moon\nSix Apollo missions successfully landed on the Moon (11, 12, 14, 15, 16, 17); last crewed mission was Apollo 17 (December 1972)",
           "cardFront": "July 20, 1969, Neil Armstrong, Apollo 11, Sea of Tranquility",
-          "cardBack": "Moon landing"
+          "cardBack": "Moon landing",
+          "links": [
+            {
+              "text": "Moon landing",
+              "url": "https://en.wikipedia.org/wiki/Moon_landing"
+            },
+            {
+              "text": "July 20, 1969, Neil Armstrong, Apollo 11, Sea of Tranquility",
+              "url": "https://en.wikipedia.org/wiki/July_20,_1969,_Neil_Armstrong,_Apollo_11,_Sea_of_Tranquility"
+            }
+          ]
         },
         {
           "id": "nixon-china-visit",
           "prompt": "Which February 1972 visit by President Nixon to China — the first by a sitting US president — reopened relations after 23 years of hostility and shifted Cold War dynamics by splitting the Sino-Soviet bloc?",
           "answer": "Nixon's Visit to China",
-          "alternates": ["Nixon visit to China", "Nixon goes to China", "Nixon in China"],
+          "alternates": [
+            "Nixon visit to China",
+            "Nixon goes to China",
+            "Nixon in China"
+          ],
           "explanation": "President Nixon visited China February 21–28, 1972 — first visit by a sitting US president since the 1949 Communist Revolution\nFacilitated by secret preparatory visit by National Security Advisor Henry Kissinger to Beijing in July 1971\nNixon met Chairman Mao Zedong and Premier Zhou Enlai; Shanghai Communique acknowledged Taiwan as part of China ('one China' policy)\n'Only Nixon could go to China' — his strong anti-communist record gave him political cover for the diplomatic opening\nSplit the Sino-Soviet alliance; China and USSR had already clashed militarily at the Ussuri River border (1969)\nUS and China formally normalized diplomatic relations under President Carter in 1979",
           "cardFront": "February 1972, Nixon meets Mao, 'only Nixon could go to China'",
-          "cardBack": "Nixon's Visit to China"
+          "cardBack": "Nixon's Visit to China",
+          "links": [
+            {
+              "text": "Nixon's Visit to China",
+              "url": "https://en.wikipedia.org/wiki/Nixon's_Visit_to_China"
+            },
+            {
+              "text": "February 1972, Nixon meets Mao, 'only Nixon could go to China'",
+              "url": "https://en.wikipedia.org/wiki/February_1972,_Nixon_meets_Mao,_'only_Nixon_could_go_to_China'"
+            }
+          ]
         },
         {
           "id": "watergate",
           "prompt": "Which political scandal (1972–1974) involving a break-in at the Democratic National Committee headquarters and subsequent cover-up led to the only resignation of a U.S. president?",
           "answer": "Watergate",
-          "alternates": ["Watergate scandal", "The Watergate scandal"],
+          "alternates": [
+            "Watergate scandal",
+            "The Watergate scandal"
+          ],
           "explanation": "June 1972 – August 1974; break-in at the Watergate complex in Washington D.C. by operatives connected to Nixon's re-election campaign\nNixon won re-election in a landslide in November 1972; Watergate initially seemed minor\nSenate Watergate Committee hearings (1973) revealed Nixon taped all White House conversations\nSaturday Night Massacre (October 20, 1973): Nixon ordered the firing of special prosecutor Archibald Cox; Attorney General and Deputy AG resigned in protest\n'Smoking gun' tape (June 23, 1972 recording) proved Nixon ordered the CIA to obstruct FBI investigation — directly implicating him\nNixon resigned August 9, 1974 — the only U.S. president to resign; Gerald Ford succeeded him and controversially pardoned Nixon\nWashington Post reporters Bob Woodward and Carl Bernstein broke much of the story, guided by anonymous source 'Deep Throat' (later revealed as FBI Deputy Director Mark Felt)",
           "cardFront": "1972–1974, Nixon, Watergate break-in, cover-up, only presidential resignation",
-          "cardBack": "Watergate"
+          "cardBack": "Watergate",
+          "links": [
+            {
+              "text": "Watergate",
+              "url": "https://en.wikipedia.org/wiki/Watergate"
+            }
+          ]
         },
         {
           "id": "opec-oil-embargo",
           "prompt": "Which 1973 action by Arab OPEC members, triggered by US support for Israel in the Yom Kippur War, quadrupled oil prices overnight, caused gasoline rationing, and permanently transformed Western energy policy?",
           "answer": "OPEC Oil Embargo",
-          "alternates": ["1973 oil crisis", "Arab oil embargo", "Oil embargo", "OPEC embargo"],
+          "alternates": [
+            "1973 oil crisis",
+            "Arab oil embargo",
+            "Oil embargo",
+            "OPEC embargo"
+          ],
           "explanation": "Arab members of OPEC embargoed oil exports to the US and other countries supporting Israel in the Yom Kippur War (October 1973)\nOil prices quadrupled from ~$3 to ~$12 per barrel within months\nUS gas stations ran dry; long lines for gasoline; odd/even license plate rationing systems imposed in many states\nNational speed limit reduced to 55 mph to conserve fuel; daylight saving time extended year-round\nRevealed deep Western dependence on Middle Eastern oil; led to strategic petroleum reserves, fuel efficiency standards, and energy policy overhaul\nEmbargo ended March 1974; permanently elevated OPEC as a geopolitical force and accelerated alternative energy research",
           "cardFront": "1973, Arab OPEC, Yom Kippur retaliation, oil prices quadrupled",
-          "cardBack": "OPEC Oil Embargo"
+          "cardBack": "OPEC Oil Embargo",
+          "links": [
+            {
+              "text": "OPEC Oil Embargo",
+              "url": "https://en.wikipedia.org/wiki/OPEC_Oil_Embargo"
+            }
+          ]
         },
         {
           "id": "chernobyl",
           "prompt": "Which April 26, 1986 nuclear reactor explosion in Soviet Ukraine — the worst nuclear disaster in history — contaminated much of Europe and contributed to the Soviet Union's collapse?",
           "answer": "Chernobyl disaster",
-          "alternates": ["Chernobyl", "Chernobyl accident", "Chernobyl nuclear disaster"],
+          "alternates": [
+            "Chernobyl",
+            "Chernobyl accident",
+            "Chernobyl nuclear disaster"
+          ],
           "explanation": "Occurred April 26, 1986 at Reactor No. 4 of the Chernobyl Nuclear Power Plant in Pripyat, Ukrainian SSR\nExploded during a poorly managed safety test: a power surge destroyed the reactor and ignited graphite fires that burned for 10 days\n31 people died directly; WHO estimates ~4,000 eventual radiation-related cancer deaths; other studies project higher figures\nPripyat (population 50,000) evacuated 36 hours after the explosion; remains uninhabited today inside the Exclusion Zone\nA concrete 'sarcophagus' entombed the reactor in 1986; replaced by the New Safe Confinement arch in 2016\nGorbachev credited Chernobyl with accelerating glasnost — the disaster's scale could not be hidden and destroyed trust in Soviet institutions, helping accelerate the USSR's collapse",
           "cardFront": "April 26, 1986, Ukraine, worst nuclear disaster",
-          "cardBack": "Chernobyl disaster"
+          "cardBack": "Chernobyl disaster",
+          "links": [
+            {
+              "text": "Chernobyl disaster",
+              "url": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+            },
+            {
+              "text": "April 26, 1986, Ukraine, worst nuclear disaster",
+              "url": "https://en.wikipedia.org/wiki/April_26,_1986,_Ukraine,_worst_nuclear_disaster"
+            }
+          ]
         },
         {
           "id": "tiananmen-square",
           "prompt": "Which June 1989 pro-democracy massacre in Beijing — symbolized by the 'Tank Man' photograph — ended weeks of student-led protests with hundreds to thousands killed by Chinese military forces?",
           "answer": "Tiananmen Square massacre",
-          "alternates": ["Tiananmen Square", "Tiananmen", "June Fourth Incident", "Tiananmen Square protests"],
+          "alternates": [
+            "Tiananmen Square",
+            "Tiananmen",
+            "June Fourth Incident",
+            "Tiananmen Square protests"
+          ],
           "explanation": "Protests began April 15, 1989 after the death of reformist leader Hu Yaobang; grew to over 1 million participants in Beijing\nStudent-led pro-democracy movement occupied Tiananmen Square for weeks; similar protests erupted in over 400 other Chinese cities\nMartial law declared May 20, 1989; military crackdown ordered by Deng Xiaoping began the night of June 3–4\nDeath toll officially ~200–300; estimates from declassified documents and witnesses range from hundreds to over 10,000; Chinese government has never disclosed official figures\n'Tank Man': an unknown protester blocking a column of Type 59 tanks on June 5, 1989 — one of the most iconic photographs of the 20th century\nStill heavily censored in China; the anniversary ('June Fourth') is scrubbed from Chinese social media annually",
           "cardFront": "Beijing, June 4, 1989, Tank Man, pro-democracy massacre",
-          "cardBack": "Tiananmen Square massacre"
+          "cardBack": "Tiananmen Square massacre",
+          "links": [
+            {
+              "text": "Tiananmen Square massacre",
+              "url": "https://en.wikipedia.org/wiki/Tiananmen_Square_massacre"
+            },
+            {
+              "text": "Beijing, June 4, 1989, Tank Man, pro-democracy massacre",
+              "url": "https://en.wikipedia.org/wiki/Beijing,_June_4,_1989,_Tank_Man,_pro-democracy_massacre"
+            }
+          ]
         },
         {
           "id": "berlin-wall-fall",
           "prompt": "Which barrier — built overnight on August 13, 1961 to prevent East Germans from fleeing to the West — fell on November 9, 1989, symbolizing the end of the Cold War?",
           "answer": "Berlin Wall",
-          "alternates": ["Fall of the Berlin Wall", "The Berlin Wall", "Berliner Mauer"],
+          "alternates": [
+            "Fall of the Berlin Wall",
+            "The Berlin Wall",
+            "Berliner Mauer"
+          ],
           "explanation": "Built overnight August 12–13, 1961 by East Germany (GDR) to stop the exodus of 2.5 million East Germans who had fled to the West since 1949\nEvolved from barbed wire into a concrete wall 155 km long, with 302 watchtowers, searchlights, and an inner 'death strip' with tripwires and dogs\nAt least 140 people confirmed killed trying to cross; the actual number may be higher\nPresident Kennedy's 'Ich bin ein Berliner' speech (June 26, 1963) expressed solidarity with West Berliners\nPresident Reagan's 'Mr. Gorbachev, tear down this wall!' speech at the Brandenburg Gate (June 12, 1987)\nFell November 9, 1989 after an East German official mistakenly announced at a press conference that citizens could cross freely immediately; jubilant crowds dismantled it with hammers",
           "cardFront": "1961–1989, divided Berlin, Cold War symbol",
-          "cardBack": "Berlin Wall"
+          "cardBack": "Berlin Wall",
+          "links": [
+            {
+              "text": "Berlin Wall",
+              "url": "https://en.wikipedia.org/wiki/Berlin_Wall"
+            }
+          ]
         },
         {
           "id": "soviet-dissolution",
           "prompt": "Which December 25, 1991 event — Gorbachev's resignation and the lowering of the Soviet flag over the Kremlin — formally ended the USSR and created 15 independent successor states?",
           "answer": "Dissolution of the Soviet Union",
-          "alternates": ["Fall of the Soviet Union", "Collapse of the Soviet Union", "End of the USSR", "Soviet collapse"],
+          "alternates": [
+            "Fall of the Soviet Union",
+            "Collapse of the Soviet Union",
+            "End of the USSR",
+            "Soviet collapse"
+          ],
           "explanation": "Soviet Union (USSR) formally dissolved December 25, 1991, when Gorbachev resigned as president and the Soviet flag was replaced by Russia's tricolor\nGorbachev's reforms — glasnost (openness) and perestroika (restructuring) — had loosened central control and unleashed nationalist movements\nMost decisive single event: the failed August 1991 coup attempt by hardliners against Gorbachev; Boris Yeltsin's defiant stand on a tank outside the Russian parliament building rallied public opposition\nBaltic states (Estonia, Latvia, Lithuania) declared independence and were recognized internationally in 1991; other republics followed\nCreated 15 independent states including Russia, Ukraine, Kazakhstan, Belarus, and the Central Asian republics\nRussia inherited the USSR's UN Security Council seat, nuclear arsenal, and international legal obligations; Boris Yeltsin became Russia's first president",
           "cardFront": "December 25, 1991, Gorbachev resigned, 15 successor states",
-          "cardBack": "Dissolution of the Soviet Union"
+          "cardBack": "Dissolution of the Soviet Union",
+          "links": [
+            {
+              "text": "Dissolution of the Soviet Union",
+              "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+            },
+            {
+              "text": "December 25, 1991, Gorbachev resigned, 15 successor states",
+              "url": "https://en.wikipedia.org/wiki/December_25,_1991,_Gorbachev_resigned,_15_successor_states"
+            }
+          ]
         },
         {
           "id": "apartheid",
           "prompt": "Which system of institutionalized racial segregation — enforced in South Africa from 1948 to 1994 — was dismantled when Nelson Mandela became the country's first democratically elected president?",
           "answer": "Apartheid",
-          "alternates": ["End of Apartheid", "South African Apartheid"],
+          "alternates": [
+            "End of Apartheid",
+            "South African Apartheid"
+          ],
           "explanation": "Afrikaans for 'separateness'; enforced by the National Party government from 1948, codifying and intensifying earlier racial segregation\nLaws classified people as White, Coloured, Indian, or Black (Bantu) and restricted movement, residence, employment, and education by race\nNelson Mandela, leader of the African National Congress (ANC), imprisoned for 27 years (1964–1990) on Robben Island, where he became a global symbol of resistance\nInternational sanctions (sports boycotts, economic embargoes) combined with internal resistance pressured the government\nPresident F.W. de Klerk released Mandela in February 1990 and negotiated the end of apartheid\nMandela won the Nobel Peace Prize (jointly with de Klerk) in 1993; elected President of South Africa on April 27, 1994 — the country's first democratic election",
           "cardFront": "South Africa, 1948–1994, racial segregation, Mandela",
-          "cardBack": "Apartheid"
+          "cardBack": "Apartheid",
+          "links": [
+            {
+              "text": "Apartheid",
+              "url": "https://en.wikipedia.org/wiki/Apartheid"
+            },
+            {
+              "text": "South Africa, 1948–1994, racial segregation, Mandela",
+              "url": "https://en.wikipedia.org/wiki/South_Africa,_1948–1994,_racial_segregation,_Mandela"
+            }
+          ]
         },
         {
           "id": "rwandan-genocide",
           "prompt": "Which 1994 mass killing in Rwanda — in which approximately 800,000 Tutsi and moderate Hutu were murdered in 100 days — was one of the fastest and most concentrated genocides in history?",
           "answer": "Rwandan Genocide",
-          "alternates": ["Rwanda Genocide", "Rwandan genocide", "Genocide in Rwanda"],
+          "alternates": [
+            "Rwanda Genocide",
+            "Rwandan genocide",
+            "Genocide in Rwanda"
+          ],
           "explanation": "April 7–July 15, 1994; Hutu extremists (Interahamwe militia) systematically murdered Tutsi and moderate Hutu civilians\nApproximately 800,000 killed in 100 days — roughly 8,000 per day; about 70–75% of Rwanda's Tutsi population was murdered\nTriggered by the assassination of President Juvenal Habyarimana on April 6, 1994, when his plane was shot down over Kigali\nRadio Milles Collines broadcast Tutsi-dehumanizing propaganda, calling Tutsi 'inyenzi' (cockroaches) and urging killers to 'cut down the tall trees'\nUN peacekeeping commander Romeo Dallaire requested permission to intervene; denied; the US, France, and Belgium evacuated only their own citizens\nPaul Kagame's Rwandan Patriotic Front ended the genocide by military force; ~2 million Hutu fled to Congo fearing retribution",
           "cardFront": "Rwanda, 1994, 800,000 killed in 100 days",
-          "cardBack": "Rwandan Genocide"
+          "cardBack": "Rwandan Genocide",
+          "links": [
+            {
+              "text": "Rwandan Genocide",
+              "url": "https://en.wikipedia.org/wiki/Rwandan_Genocide"
+            },
+            {
+              "text": "Rwanda, 1994, 800,000 killed in 100 days",
+              "url": "https://en.wikipedia.org/wiki/Rwanda,_1994,_800,000_killed_in_100_days"
+            }
+          ]
         },
         {
           "id": "september-11",
           "prompt": "Which terrorist attacks on September 11, 2001, carried out by 19 al-Qaeda hijackers who crashed planes into the World Trade Center and the Pentagon, killed nearly 3,000 people and launched the U.S. 'War on Terror'?",
           "answer": "September 11 attacks",
-          "alternates": ["9/11", "September 11", "9/11 attacks", "Sept 11", "9-11"],
+          "alternates": [
+            "9/11",
+            "September 11",
+            "9/11 attacks",
+            "Sept 11",
+            "9-11"
+          ],
           "explanation": "September 11, 2001; 19 al-Qaeda operatives hijacked four commercial aircraft\nTwo planes struck the World Trade Center in New York; both 110-story towers collapsed within 2 hours; ~2,600 killed\nOne plane hit the Pentagon in Arlington, Virginia; 184 killed\nUnited 93 crashed in Shanksville, Pennsylvania after passengers revolted; 40 killed; intended target believed to be the Capitol or White House\nOsama bin Laden of al-Qaeda claimed responsibility; killed by U.S. Navy SEALs in Abbottabad, Pakistan on May 2, 2011\nLed directly to the invasion of Afghanistan (October 2001), the Iraq War (2003), the Department of Homeland Security, and the USA PATRIOT Act",
           "cardFront": "September 11, 2001, al-Qaeda, hijacked 4 planes, ~3,000 deaths",
-          "cardBack": "September 11 attacks"
+          "cardBack": "September 11 attacks",
+          "links": [
+            {
+              "text": "September 11 attacks",
+              "url": "https://en.wikipedia.org/wiki/September_11_attacks"
+            },
+            {
+              "text": "September 11, 2001, al-Qaeda, hijacked 4 planes, ~3,000 deaths",
+              "url": "https://en.wikipedia.org/wiki/September_11,_2001,_al-Qaeda,_hijacked_4_planes,_~3,000_deaths"
+            }
+          ]
         }
       ]
     }

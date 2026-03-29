@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "math/mathematicians", "parentId": "math", "name": "Famous Mathematicians", "description": "Key mathematicians and their groundbreaking contributions" }
+    {
+      "id": "math/mathematicians",
+      "parentId": "math",
+      "name": "Famous Mathematicians",
+      "description": "Key mathematicians and their groundbreaking contributions"
+    }
   ],
   "exercises": [
     {
@@ -13,136 +18,323 @@
           "id": "fields-medal",
           "prompt": "What is the most prestigious international award in mathematics, often called the 'Nobel Prize of math,' awarded every four years to up to four mathematicians under the age of 40?",
           "answer": "The Fields Medal",
-          "alternates": ["Fields Medal"],
+          "alternates": [
+            "Fields Medal"
+          ],
           "explanation": "Awarded every four years at the International Congress of Mathematicians (ICM) since 1936\nNamed after Canadian mathematician John Charles Fields; carries a cash prize of just 15,000 Canadian dollars\nThe age limit of 40 is strict — Andrew Wiles was ineligible despite proving Fermat's Last Theorem\nFrequently called the 'Nobel Prize of mathematics,' though mathematicians debate the comparison\n64 people have won through 2022; the next ceremony is 2026\nThe medal features Archimedes on the front and a Latin inscription meaning 'to transcend one's spirit and take hold of the world'",
           "cardFront": "'Nobel of math,' under 40",
-          "cardBack": "The Fields Medal"
+          "cardBack": "The Fields Medal",
+          "links": [
+            {
+              "text": "The Fields Medal",
+              "url": "https://en.wikipedia.org/wiki/The_Fields_Medal"
+            },
+            {
+              "text": "'Nobel of math,' under 40",
+              "url": "https://en.wikipedia.org/wiki/'Nobel_of_math,'_under_40"
+            }
+          ]
         },
         {
           "id": "abel-prize",
           "prompt": "What annual prize in mathematics, established by Norway in 2003 and named after a 19th-century Norwegian who died at 26, is awarded for lifetime achievement with no age restriction?",
           "answer": "The Abel Prize",
-          "alternates": ["Abel Prize"],
-          "explanation": "Awarded annually by the Norwegian Academy of Science and Letters since 2003\nNamed after Niels Henrik Abel (1802\u20131829), who proved the impossibility of solving the general quintic equation\nWorth approximately 7.5 million Norwegian kroner (~$700,000)\nCreated partly to fill the gap left by the absence of a Nobel Prize in mathematics\nJean-Pierre Serre was the inaugural laureate in 2003\nMasaki Kashiwara won in 2025, becoming the first Japanese recipient",
+          "alternates": [
+            "Abel Prize"
+          ],
+          "explanation": "Awarded annually by the Norwegian Academy of Science and Letters since 2003\nNamed after Niels Henrik Abel (1802–1829), who proved the impossibility of solving the general quintic equation\nWorth approximately 7.5 million Norwegian kroner (~$700,000)\nCreated partly to fill the gap left by the absence of a Nobel Prize in mathematics\nJean-Pierre Serre was the inaugural laureate in 2003\nMasaki Kashiwara won in 2025, becoming the first Japanese recipient",
           "cardFront": "Norwegian, annual, no age limit",
-          "cardBack": "The Abel Prize"
+          "cardBack": "The Abel Prize",
+          "links": [
+            {
+              "text": "The Abel Prize",
+              "url": "https://en.wikipedia.org/wiki/The_Abel_Prize"
+            },
+            {
+              "text": "Norwegian, annual, no age limit",
+              "url": "https://en.wikipedia.org/wiki/Norwegian,_annual,_no_age_limit"
+            }
+          ]
         },
         {
           "id": "no-nobel-in-math",
           "prompt": "What academic discipline is famously absent from the Nobel Prize categories, a gap that led to the creation of the Fields Medal and Abel Prize as its highest honors?",
           "answer": "Mathematics",
-          "alternates": ["Math", "Maths"],
-          "explanation": "Alfred Nobel's will (1895) established prizes in Physics, Chemistry, Medicine, Literature, and Peace; Economics was added in 1968\nThe popular legend that Nobel excluded math because a mathematician stole his wife is almost certainly false \u2014 Nobel never married\nMore likely Nobel simply didn't consider pure mathematics a 'practical' benefit to humanity, which his prizes were meant to reward\nSome mathematicians have won the Nobel in other fields: John Nash (Economics, 1994), Bertrand Russell (Literature, 1950)\nThe Fields Medal (1936) and Abel Prize (2003) were both created partly to address this gap\nThe Wolf Prize in Mathematics (1978) and Breakthrough Prize in Mathematics (2013) also serve as major honors",
+          "alternates": [
+            "Math",
+            "Maths"
+          ],
+          "explanation": "Alfred Nobel's will (1895) established prizes in Physics, Chemistry, Medicine, Literature, and Peace; Economics was added in 1968\nThe popular legend that Nobel excluded math because a mathematician stole his wife is almost certainly false — Nobel never married\nMore likely Nobel simply didn't consider pure mathematics a 'practical' benefit to humanity, which his prizes were meant to reward\nSome mathematicians have won the Nobel in other fields: John Nash (Economics, 1994), Bertrand Russell (Literature, 1950)\nThe Fields Medal (1936) and Abel Prize (2003) were both created partly to address this gap\nThe Wolf Prize in Mathematics (1978) and Breakthrough Prize in Mathematics (2013) also serve as major honors",
           "cardFront": "Missing from Nobel categories",
-          "cardBack": "Mathematics"
+          "cardBack": "Mathematics",
+          "links": [
+            {
+              "text": "Mathematics",
+              "url": "https://en.wikipedia.org/wiki/Mathematics"
+            },
+            {
+              "text": "Missing from Nobel categories",
+              "url": "https://en.wikipedia.org/wiki/Missing_from_Nobel_categories"
+            }
+          ]
         },
         {
           "id": "perelman",
-          "prompt": "Which reclusive Russian mathematician proved the Poincar\u00e9 conjecture in 2003, then refused both the Fields Medal in 2006 and the $1 million Clay Millennium Prize in 2010?",
+          "prompt": "Which reclusive Russian mathematician proved the Poincaré conjecture in 2003, then refused both the Fields Medal in 2006 and the $1 million Clay Millennium Prize in 2010?",
           "answer": "Grigori Perelman",
-          "alternates": ["Perelman", "Grisha Perelman"],
-          "explanation": "Born 1966 in Leningrad (now St. Petersburg), Russia\nProved the Poincar\u00e9 conjecture by proving Thurston's geometrization conjecture using Ricci flow with surgery\nPosted his proof on arXiv in three papers (2002\u20132003) rather than submitting to a peer-reviewed journal\nDeclined the Fields Medal in 2006: 'I'm not interested in money or fame. I don't want to be on display like an animal in a zoo.'\nDeclined the $1 million Millennium Prize in 2010 \u2014 the only person to refuse either award\nLives with his mother in St. Petersburg; reportedly quit mathematics entirely after the proof\nHis proof of the Poincar\u00e9 conjecture remains the only Millennium Prize Problem solved to date",
-          "cardFront": "Poincar\u00e9 conjecture, refused all prizes",
-          "cardBack": "Grigori Perelman"
+          "alternates": [
+            "Perelman",
+            "Grisha Perelman"
+          ],
+          "explanation": "Born 1966 in Leningrad (now St. Petersburg), Russia\nProved the Poincaré conjecture by proving Thurston's geometrization conjecture using Ricci flow with surgery\nPosted his proof on arXiv in three papers (2002–2003) rather than submitting to a peer-reviewed journal\nDeclined the Fields Medal in 2006: 'I'm not interested in money or fame. I don't want to be on display like an animal in a zoo.'\nDeclined the $1 million Millennium Prize in 2010 — the only person to refuse either award\nLives with his mother in St. Petersburg; reportedly quit mathematics entirely after the proof\nHis proof of the Poincaré conjecture remains the only Millennium Prize Problem solved to date",
+          "cardFront": "Poincaré conjecture, refused all prizes",
+          "cardBack": "Grigori Perelman",
+          "links": [
+            {
+              "text": "Grigori Perelman",
+              "url": "https://en.wikipedia.org/wiki/Grigori_Perelman"
+            },
+            {
+              "text": "Poincaré conjecture, refused all prizes",
+              "url": "https://en.wikipedia.org/wiki/Poincaré_conjecture,_refused_all_prizes"
+            }
+          ]
         },
         {
           "id": "mirzakhani",
           "prompt": "Which Iranian mathematician became the first woman to win the Fields Medal in 2014 for her work on the dynamics and geometry of Riemann surfaces, before dying of breast cancer at age 40?",
           "answer": "Maryam Mirzakhani",
-          "alternates": ["Mirzakhani"],
-          "explanation": "Born 1977 in Tehran, Iran; died 2017 at Stanford, California, of breast cancer at age 40\nFirst and (as of 2025) only woman to win the Fields Medal, awarded in 2014\nWorked on Riemann surfaces, hyperbolic geometry, and Teichm\u00fcller theory at Stanford University\nWon gold medals at the International Mathematical Olympiad in 1994 and 1995, achieving a perfect score in 1995\nKnown for working on large sheets of paper spread on the floor, which her daughter called 'painting'\nIran's president Hassan Rouhani broke protocol to publish her photo without a hijab after her death\nMay 12 (her birthday) is now celebrated as International Women in Mathematics Day",
+          "alternates": [
+            "Mirzakhani"
+          ],
+          "explanation": "Born 1977 in Tehran, Iran; died 2017 at Stanford, California, of breast cancer at age 40\nFirst and (as of 2025) only woman to win the Fields Medal, awarded in 2014\nWorked on Riemann surfaces, hyperbolic geometry, and Teichmüller theory at Stanford University\nWon gold medals at the International Mathematical Olympiad in 1994 and 1995, achieving a perfect score in 1995\nKnown for working on large sheets of paper spread on the floor, which her daughter called 'painting'\nIran's president Hassan Rouhani broke protocol to publish her photo without a hijab after her death\nMay 12 (her birthday) is now celebrated as International Women in Mathematics Day",
           "cardFront": "First woman Fields Medalist, 2014",
-          "cardBack": "Maryam Mirzakhani"
+          "cardBack": "Maryam Mirzakhani",
+          "links": [
+            {
+              "text": "Maryam Mirzakhani",
+              "url": "https://en.wikipedia.org/wiki/Maryam_Mirzakhani"
+            },
+            {
+              "text": "First woman Fields Medalist, 2014",
+              "url": "https://en.wikipedia.org/wiki/First_woman_Fields_Medalist,_2014"
+            }
+          ]
         },
         {
           "id": "tao",
           "prompt": "Which Australian-American mathematician, who won a gold medal at the International Mathematical Olympiad at age 13 and received the Fields Medal in 2006, is often called the 'Mozart of Math'?",
           "answer": "Terence Tao",
-          "alternates": ["Tao", "Terry Tao"],
-          "explanation": "Born 1975 in Adelaide, Australia, to Chinese immigrant parents\nYoungest person to win an IMO gold medal \u2014 at age 13 in 1988; also holds records for youngest bronze (age 10) and silver (age 11)\nAwarded the Fields Medal in 2006 for contributions to partial differential equations, combinatorics, harmonic analysis, and number theory\nProfessor at UCLA since age 24; has published over 350 research papers across dozens of fields\nOften called the 'Mozart of Math' for the breadth and fluency of his work\nAlso won the Breakthrough Prize in Mathematics (2014, $3 million) and the MacArthur Fellowship (2006)\nCo-proved the Green\u2013Tao theorem: the primes contain arbitrarily long arithmetic progressions",
+          "alternates": [
+            "Tao",
+            "Terry Tao"
+          ],
+          "explanation": "Born 1975 in Adelaide, Australia, to Chinese immigrant parents\nYoungest person to win an IMO gold medal — at age 13 in 1988; also holds records for youngest bronze (age 10) and silver (age 11)\nAwarded the Fields Medal in 2006 for contributions to partial differential equations, combinatorics, harmonic analysis, and number theory\nProfessor at UCLA since age 24; has published over 350 research papers across dozens of fields\nOften called the 'Mozart of Math' for the breadth and fluency of his work\nAlso won the Breakthrough Prize in Mathematics (2014, $3 million) and the MacArthur Fellowship (2006)\nCo-proved the Green–Tao theorem: the primes contain arbitrarily long arithmetic progressions",
           "cardFront": "IMO gold at 13, 'Mozart of Math'",
-          "cardBack": "Terence Tao"
+          "cardBack": "Terence Tao",
+          "links": [
+            {
+              "text": "Terence Tao",
+              "url": "https://en.wikipedia.org/wiki/Terence_Tao"
+            },
+            {
+              "text": "IMO gold at 13, 'Mozart of Math'",
+              "url": "https://en.wikipedia.org/wiki/IMO_gold_at_13,_'Mozart_of_Math'"
+            }
+          ]
         },
         {
           "id": "grothendieck",
           "prompt": "Which German-born French mathematician, who won the Fields Medal in 1966 for revolutionizing algebraic geometry, later became a recluse and lived in seclusion in a Pyrenean village until his death in 2014?",
           "answer": "Alexander Grothendieck",
-          "alternates": ["Grothendieck"],
-          "explanation": "Born 1928 in Berlin; died 2014 in Lasserre, Ari\u00e8ge, France, at age 86\nRevolutionized algebraic geometry with schemes, topoi, and \u00e9tale cohomology; awarded the Fields Medal in 1966\nStateless for much of his life \u2014 his father was a Russian-Jewish anarchist murdered at Auschwitz\nAbruptly left the mathematical establishment in 1970 after discovering his institute received military funding\nMoved to the village of Lasserre in the Pyrenees in 1991 and lived as a recluse for 23 years\nWrote a 929-page autobiographical manuscript, *R\u00e9coltes et Semailles* (Harvests and Sowings), unpublished in his lifetime\nWidely considered the most influential mathematician of the second half of the 20th century",
+          "alternates": [
+            "Grothendieck"
+          ],
+          "explanation": "Born 1928 in Berlin; died 2014 in Lasserre, Ariège, France, at age 86\nRevolutionized algebraic geometry with schemes, topoi, and étale cohomology; awarded the Fields Medal in 1966\nStateless for much of his life — his father was a Russian-Jewish anarchist murdered at Auschwitz\nAbruptly left the mathematical establishment in 1970 after discovering his institute received military funding\nMoved to the village of Lasserre in the Pyrenees in 1991 and lived as a recluse for 23 years\nWrote a 929-page autobiographical manuscript, *Récoltes et Semailles* (Harvests and Sowings), unpublished in his lifetime\nWidely considered the most influential mathematician of the second half of the 20th century",
           "cardFront": "Algebraic geometry, Pyrenean recluse",
-          "cardBack": "Alexander Grothendieck"
+          "cardBack": "Alexander Grothendieck",
+          "links": [
+            {
+              "text": "Alexander Grothendieck",
+              "url": "https://en.wikipedia.org/wiki/Alexander_Grothendieck"
+            },
+            {
+              "text": "Algebraic geometry, Pyrenean recluse",
+              "url": "https://en.wikipedia.org/wiki/Algebraic_geometry,_Pyrenean_recluse"
+            }
+          ]
         },
         {
           "id": "serre",
           "prompt": "Which French mathematician became the youngest-ever Fields Medal winner at age 27 in 1954 and later won the inaugural Abel Prize in 2003, making him one of the most decorated mathematicians alive?",
           "answer": "Jean-Pierre Serre",
-          "alternates": ["Serre", "J.-P. Serre"],
-          "explanation": "Born 1926 in B\u00e2ges, France\nYoungest person ever to win the Fields Medal \u2014 age 27 in 1954, for work on homotopy theory and algebraic topology\nFirst recipient of the Abel Prize in 2003\nAlso won the Wolf Prize (2000), Balzan Prize (1985), and Steele Prize (1995) \u2014 virtually every major math award\nMade foundational contributions to algebraic geometry, algebraic number theory, and group theory\nKnown for exceptionally clear mathematical writing; his books are considered models of exposition\nStill active in his late 90s; was reportedly still making Wikipedia edits and posting arXiv preprints into 2024",
+          "alternates": [
+            "Serre",
+            "J.-P. Serre"
+          ],
+          "explanation": "Born 1926 in Bâges, France\nYoungest person ever to win the Fields Medal — age 27 in 1954, for work on homotopy theory and algebraic topology\nFirst recipient of the Abel Prize in 2003\nAlso won the Wolf Prize (2000), Balzan Prize (1985), and Steele Prize (1995) — virtually every major math award\nMade foundational contributions to algebraic geometry, algebraic number theory, and group theory\nKnown for exceptionally clear mathematical writing; his books are considered models of exposition\nStill active in his late 90s; was reportedly still making Wikipedia edits and posting arXiv preprints into 2024",
           "cardFront": "Youngest Fields Medal (27), first Abel Prize",
-          "cardBack": "Jean-Pierre Serre"
+          "cardBack": "Jean-Pierre Serre",
+          "links": [
+            {
+              "text": "Jean-Pierre Serre",
+              "url": "https://en.wikipedia.org/wiki/Jean-Pierre_Serre"
+            },
+            {
+              "text": "Youngest Fields Medal, first Abel Prize",
+              "url": "https://en.wikipedia.org/wiki/Youngest_Fields_Medal,_first_Abel_Prize"
+            }
+          ]
         },
         {
           "id": "villani",
-          "prompt": "Which French mathematician, instantly recognizable for his trademark spider brooches and lavalli\u00e8re ties, won the Fields Medal in 2010 and later became a member of the French National Assembly?",
-          "answer": "C\u00e9dric Villani",
-          "alternates": ["Villani", "Cedric Villani"],
-          "explanation": "Born 1973 in Brive-la-Gaillarde, France\nAwarded the Fields Medal in 2010 for work on optimal transport theory and Landau damping\nKnown for his flamboyant style: always wears spider brooches (he owns dozens), lavalli\u00e8re neckties, and three-piece suits\nElected to the French National Assembly in 2017 as a member of Macron's La R\u00e9publique En Marche! party\nDirector of the Institut Henri Poincar\u00e9 in Paris (2009\u20132017)\nWrote the popular math book *Birth of a Theorem* (2012), describing the creative process of mathematical research\nOften called the 'Lady Gaga of mathematics' for his public visibility and eccentric appearance",
+          "prompt": "Which French mathematician, instantly recognizable for his trademark spider brooches and lavallière ties, won the Fields Medal in 2010 and later became a member of the French National Assembly?",
+          "answer": "Cédric Villani",
+          "alternates": [
+            "Villani",
+            "Cedric Villani"
+          ],
+          "explanation": "Born 1973 in Brive-la-Gaillarde, France\nAwarded the Fields Medal in 2010 for work on optimal transport theory and Landau damping\nKnown for his flamboyant style: always wears spider brooches (he owns dozens), lavallière neckties, and three-piece suits\nElected to the French National Assembly in 2017 as a member of Macron's La République En Marche! party\nDirector of the Institut Henri Poincaré in Paris (2009–2017)\nWrote the popular math book *Birth of a Theorem* (2012), describing the creative process of mathematical research\nOften called the 'Lady Gaga of mathematics' for his public visibility and eccentric appearance",
           "cardFront": "Spider brooches, Fields Medal 2010, politician",
-          "cardBack": "C\u00e9dric Villani"
+          "cardBack": "Cédric Villani",
+          "links": [
+            {
+              "text": "Cédric Villani",
+              "url": "https://en.wikipedia.org/wiki/Cédric_Villani"
+            },
+            {
+              "text": "Spider brooches, Fields Medal 2010, politician",
+              "url": "https://en.wikipedia.org/wiki/Spider_brooches,_Fields_Medal_2010,_politician"
+            }
+          ]
         },
         {
           "id": "huh",
           "prompt": "Which Korean-American mathematician, who dropped out of college and only discovered mathematics in his mid-twenties through a chance encounter with a Fields Medalist's lectures, himself won the Fields Medal in 2022?",
           "answer": "June Huh",
-          "alternates": ["Huh"],
-          "explanation": "Born 1983 in Stanford, California; raised in South Korea\nOriginally aspired to be a science journalist; discovered mathematics only after attending Heisuke Hironaka's lectures at Seoul National University\nAwarded the Fields Medal in 2022 for bringing ideas from Hodge theory to combinatorics\nHad a rocky academic start \u2014 dropped out of Seoul National University, poor early grades, rejected by most PhD programs\nAdmitted to the University of Michigan's PhD program largely on Hironaka's recommendation alone\nNow a professor at Princeton University\nHis unconventional path is often cited as proof that mathematical talent can emerge at any age",
+          "alternates": [
+            "Huh"
+          ],
+          "explanation": "Born 1983 in Stanford, California; raised in South Korea\nOriginally aspired to be a science journalist; discovered mathematics only after attending Heisuke Hironaka's lectures at Seoul National University\nAwarded the Fields Medal in 2022 for bringing ideas from Hodge theory to combinatorics\nHad a rocky academic start — dropped out of Seoul National University, poor early grades, rejected by most PhD programs\nAdmitted to the University of Michigan's PhD program largely on Hironaka's recommendation alone\nNow a professor at Princeton University\nHis unconventional path is often cited as proof that mathematical talent can emerge at any age",
           "cardFront": "Former journalist, Fields Medal 2022",
-          "cardBack": "June Huh"
+          "cardBack": "June Huh",
+          "links": [
+            {
+              "text": "June Huh",
+              "url": "https://en.wikipedia.org/wiki/June_Huh"
+            },
+            {
+              "text": "Former journalist, Fields Medal 2022",
+              "url": "https://en.wikipedia.org/wiki/Former_journalist,_Fields_Medal_2022"
+            }
+          ]
         },
         {
           "id": "viazovska",
-          "prompt": "Which Ukrainian mathematician won the Fields Medal in 2022 for proving that the E\u2088 lattice provides the densest packing of identical spheres in eight dimensions, becoming only the second woman to win the prize?",
+          "prompt": "Which Ukrainian mathematician won the Fields Medal in 2022 for proving that the E₈ lattice provides the densest packing of identical spheres in eight dimensions, becoming only the second woman to win the prize?",
           "answer": "Maryna Viazovska",
-          "alternates": ["Viazovska"],
-          "explanation": "Born 1984 in Kyiv, Ukraine\nSecond woman to win the Fields Medal, after Maryam Mirzakhani (2014)\nProved in 2016 that the E\u2088 lattice is the densest sphere packing in 8 dimensions \u2014 a problem open for decades\nExtended the result to 24 dimensions (Leech lattice) within a week, with collaborators\nThe proof was remarkably short and elegant, described by colleagues as 'magical'\nProfessor at the \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL) in Switzerland\nHer Fields Medal in 2022 came during Russia's invasion of Ukraine, adding symbolic weight to the award",
-          "cardFront": "E\u2088 sphere packing, second woman Fields Medalist",
-          "cardBack": "Maryna Viazovska"
+          "alternates": [
+            "Viazovska"
+          ],
+          "explanation": "Born 1984 in Kyiv, Ukraine\nSecond woman to win the Fields Medal, after Maryam Mirzakhani (2014)\nProved in 2016 that the E₈ lattice is the densest sphere packing in 8 dimensions — a problem open for decades\nExtended the result to 24 dimensions (Leech lattice) within a week, with collaborators\nThe proof was remarkably short and elegant, described by colleagues as 'magical'\nProfessor at the École Polytechnique Fédérale de Lausanne (EPFL) in Switzerland\nHer Fields Medal in 2022 came during Russia's invasion of Ukraine, adding symbolic weight to the award",
+          "cardFront": "E₈ sphere packing, second woman Fields Medalist",
+          "cardBack": "Maryna Viazovska",
+          "links": [
+            {
+              "text": "Maryna Viazovska",
+              "url": "https://en.wikipedia.org/wiki/Maryna_Viazovska"
+            },
+            {
+              "text": "E₈ sphere packing, second woman Fields Medalist",
+              "url": "https://en.wikipedia.org/wiki/E₈_sphere_packing,_second_woman_Fields_Medalist"
+            }
+          ]
         },
         {
           "id": "erdos",
           "prompt": "Which prolific Hungarian mathematician, who published over 1,500 papers with more than 500 collaborators and lived as an itinerant scholar with no permanent home, inspired the concept of a collaborative-distance 'number' named after him?",
-          "answer": "Paul Erd\u0151s",
-          "alternates": ["Erdos", "Erd\u00f6s", "Paul Erdos"],
-          "explanation": "Born 1913 in Budapest; died 1996 in Warsaw during a math conference at age 83\nPublished approximately 1,525 papers \u2014 more than any mathematician except Euler\nThe 'Erd\u0151s number' measures collaborative distance: co-authors have Erd\u0151s number 1, their co-authors have 2, etc.\nOwned almost nothing; lived out of a suitcase, traveling between collaborators' homes and conferences\nFamous for calling children 'epsilons' (small quantities), saying God keeps the best proofs in 'The Book,' and offering cash prizes for solving problems\nConsumed prodigious amounts of coffee and amphetamines; once won a bet by abstaining from amphetamines for a month, then said 'You've set mathematics back by a month'\nSubject of the documentary *N Is a Number* (1993) and the book *The Man Who Loved Only Numbers* (1998)",
-          "cardFront": "Erd\u0151s number, 1,500+ papers",
-          "cardBack": "Paul Erd\u0151s"
+          "answer": "Paul Erdős",
+          "alternates": [
+            "Erdos",
+            "Erdös",
+            "Paul Erdos"
+          ],
+          "explanation": "Born 1913 in Budapest; died 1996 in Warsaw during a math conference at age 83\nPublished approximately 1,525 papers — more than any mathematician except Euler\nThe 'Erdős number' measures collaborative distance: co-authors have Erdős number 1, their co-authors have 2, etc.\nOwned almost nothing; lived out of a suitcase, traveling between collaborators' homes and conferences\nFamous for calling children 'epsilons' (small quantities), saying God keeps the best proofs in 'The Book,' and offering cash prizes for solving problems\nConsumed prodigious amounts of coffee and amphetamines; once won a bet by abstaining from amphetamines for a month, then said 'You've set mathematics back by a month'\nSubject of the documentary *N Is a Number* (1993) and the book *The Man Who Loved Only Numbers* (1998)",
+          "cardFront": "Erdős number, 1,500+ papers",
+          "cardBack": "Paul Erdős",
+          "links": [
+            {
+              "text": "Paul Erdős",
+              "url": "https://en.wikipedia.org/wiki/Paul_Erdős"
+            },
+            {
+              "text": "Erdős number, 1,500+ papers",
+              "url": "https://en.wikipedia.org/wiki/Erdős_number,_1,500+_papers"
+            }
+          ]
         },
         {
           "id": "poincare-conjecture",
           "prompt": "What is the only one of the seven Clay Millennium Prize Problems to have been solved, proved by a Russian mathematician in 2003, concerning whether every simply connected closed 3-manifold is homeomorphic to the 3-sphere?",
-          "answer": "The Poincar\u00e9 conjecture",
-          "alternates": ["Poincar\u00e9 conjecture", "Poincare conjecture"],
-          "explanation": "Posed by Henri Poincar\u00e9 in 1904: is every simply connected, closed 3-dimensional manifold a 3-sphere?\nProved by Grigori Perelman in 2002\u20132003 using Richard Hamilton's Ricci flow technique\nThe only Millennium Prize Problem solved to date \u2014 six remain open as of 2026\nPerelman declined the $1 million prize, saying 'I know how to control the universe. Why would I run to collect a million dollars?'\nHigher-dimensional versions were proved earlier: dimension \u22655 by Stephen Smale (1961), dimension 4 by Michael Freedman (1982)\nThe conjecture in 3 dimensions was the hardest case and the last to fall\nPoincar\u00e9 himself only stated it as a question, not a conjecture \u2014 'Is it possible that...'",
+          "answer": "The Poincaré conjecture",
+          "alternates": [
+            "Poincaré conjecture",
+            "Poincare conjecture"
+          ],
+          "explanation": "Posed by Henri Poincaré in 1904: is every simply connected, closed 3-dimensional manifold a 3-sphere?\nProved by Grigori Perelman in 2002–2003 using Richard Hamilton's Ricci flow technique\nThe only Millennium Prize Problem solved to date — six remain open as of 2026\nPerelman declined the $1 million prize, saying 'I know how to control the universe. Why would I run to collect a million dollars?'\nHigher-dimensional versions were proved earlier: dimension ≥5 by Stephen Smale (1961), dimension 4 by Michael Freedman (1982)\nThe conjecture in 3 dimensions was the hardest case and the last to fall\nPoincaré himself only stated it as a question, not a conjecture — 'Is it possible that...'",
           "cardFront": "Only solved Millennium Prize Problem",
-          "cardBack": "The Poincar\u00e9 conjecture"
+          "cardBack": "The Poincaré conjecture",
+          "links": [
+            {
+              "text": "The Poincaré conjecture",
+              "url": "https://en.wikipedia.org/wiki/The_Poincaré_conjecture"
+            },
+            {
+              "text": "Only solved Millennium Prize Problem",
+              "url": "https://en.wikipedia.org/wiki/Only_solved_Millennium_Prize_Problem"
+            }
+          ]
         },
         {
           "id": "hilberts-problems",
           "prompt": "What famous list of 23 unsolved problems, presented by a German mathematician at the International Congress of Mathematicians in Paris in 1900, set the agenda for much of 20th-century mathematics?",
           "answer": "Hilbert's problems",
-          "alternates": ["Hilbert problems", "Hilbert's 23 problems"],
-          "explanation": "Presented by David Hilbert at the ICM in Paris on August 8, 1900\nOf the 23 problems, about 10 have been fully solved, several partially solved, and some remain open\nProblem 1 (continuum hypothesis) was shown to be independent of standard axioms by G\u00f6del (1940) and Cohen (1963)\nProblem 2 (consistency of arithmetic) was effectively answered 'no' by G\u00f6del's incompleteness theorems (1931)\nProblem 10 (Diophantine equations algorithm) was proved unsolvable by Yuri Matiyasevich in 1970\nThe Riemann hypothesis (Problem 8) remains unsolved and is also a Millennium Prize Problem\nHilbert's address is considered the most influential speech in the history of mathematics",
+          "alternates": [
+            "Hilbert problems",
+            "Hilbert's 23 problems"
+          ],
+          "explanation": "Presented by David Hilbert at the ICM in Paris on August 8, 1900\nOf the 23 problems, about 10 have been fully solved, several partially solved, and some remain open\nProblem 1 (continuum hypothesis) was shown to be independent of standard axioms by Gödel (1940) and Cohen (1963)\nProblem 2 (consistency of arithmetic) was effectively answered 'no' by Gödel's incompleteness theorems (1931)\nProblem 10 (Diophantine equations algorithm) was proved unsolvable by Yuri Matiyasevich in 1970\nThe Riemann hypothesis (Problem 8) remains unsolved and is also a Millennium Prize Problem\nHilbert's address is considered the most influential speech in the history of mathematics",
           "cardFront": "23 problems, Paris 1900",
-          "cardBack": "Hilbert's problems"
+          "cardBack": "Hilbert's problems",
+          "links": [
+            {
+              "text": "Hilbert's problems",
+              "url": "https://en.wikipedia.org/wiki/Hilbert's_problems"
+            }
+          ]
         },
         {
           "id": "imo",
           "prompt": "What annual international mathematics competition for pre-college students, first held in Romania in 1959 with seven participating countries, is the oldest and most prestigious of the international science olympiads?",
           "answer": "The International Mathematical Olympiad",
-          "alternates": ["International Mathematical Olympiad", "IMO", "Math Olympiad"],
-          "explanation": "First held in 1959 in Bucharest, Romania, with seven Eastern Bloc countries; now draws 100+ countries\nEach country sends a team of up to six students; contestants must be under 20 and not enrolled in university\nThe competition consists of six problems over two days (4.5 hours per day), each worth 7 points (max 42)\nGold, silver, and bronze medals awarded to roughly the top half; a perfect score is exceptionally rare\nTerence Tao won gold at age 13 (1988) \u2014 the youngest gold medalist in history\nMaryam Mirzakhani scored a perfect 42/42 in 1995\nMany Fields Medalists are IMO alumni, but high IMO scores don't always predict research success, and vice versa",
+          "alternates": [
+            "International Mathematical Olympiad",
+            "IMO",
+            "Math Olympiad"
+          ],
+          "explanation": "First held in 1959 in Bucharest, Romania, with seven Eastern Bloc countries; now draws 100+ countries\nEach country sends a team of up to six students; contestants must be under 20 and not enrolled in university\nThe competition consists of six problems over two days (4.5 hours per day), each worth 7 points (max 42)\nGold, silver, and bronze medals awarded to roughly the top half; a perfect score is exceptionally rare\nTerence Tao won gold at age 13 (1988) — the youngest gold medalist in history\nMaryam Mirzakhani scored a perfect 42/42 in 1995\nMany Fields Medalists are IMO alumni, but high IMO scores don't always predict research success, and vice versa",
           "cardFront": "Annual, pre-college, since 1959",
-          "cardBack": "The International Mathematical Olympiad"
+          "cardBack": "The International Mathematical Olympiad",
+          "links": [
+            {
+              "text": "The International Mathematical Olympiad",
+              "url": "https://en.wikipedia.org/wiki/The_International_Mathematical_Olympiad"
+            },
+            {
+              "text": "Annual, pre-college, since 1959",
+              "url": "https://en.wikipedia.org/wiki/Annual,_pre-college,_since_1959"
+            }
+          ]
         }
       ]
     }

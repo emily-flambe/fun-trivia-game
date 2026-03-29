@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "games-sport/athletes", "parentId": "games-sport", "name": "Famous Athletes", "description": "Legendary athletes across major sports" }
+    {
+      "id": "games-sport/athletes",
+      "parentId": "games-sport",
+      "name": "Famous Athletes",
+      "description": "Legendary athletes across major sports"
+    }
   ],
   "exercises": [
     {
@@ -13,163 +18,401 @@
           "id": "ali",
           "prompt": "Which heavyweight boxing champion, born Cassius Clay, refused induction into the U.S. military during the Vietnam War and famously declared he could 'float like a butterfly, sting like a bee'?",
           "answer": "Muhammad Ali",
-          "alternates": ["Ali", "Cassius Clay"],
-          "explanation": "Heavyweight boxer, American (1942\u20132016), born Cassius Marcellus Clay Jr.\nWon the heavyweight championship three times (1964, 1974, 1978)\u2014first fighter to do so\nWon Olympic light-heavyweight gold at the 1960 Rome Games as an 18-year-old\nRefused Vietnam War draft in 1967, citing religious beliefs; stripped of his title and banned from boxing for three years\nDefeated George Foreman in the \"Rumble in the Jungle\" (Kinshasa, 1974) using the rope-a-dope strategy\nLit the Olympic cauldron at the 1996 Atlanta Games, visibly trembling from Parkinson's disease\nChanged his name after converting to Islam and joining the Nation of Islam in 1964",
+          "alternates": [
+            "Ali",
+            "Cassius Clay"
+          ],
+          "explanation": "Heavyweight boxer, American (1942–2016), born Cassius Marcellus Clay Jr.\nWon the heavyweight championship three times (1964, 1974, 1978)—first fighter to do so\nWon Olympic light-heavyweight gold at the 1960 Rome Games as an 18-year-old\nRefused Vietnam War draft in 1967, citing religious beliefs; stripped of his title and banned from boxing for three years\nDefeated George Foreman in the \"Rumble in the Jungle\" (Kinshasa, 1974) using the rope-a-dope strategy\nLit the Olympic cauldron at the 1996 Atlanta Games, visibly trembling from Parkinson's disease\nChanged his name after converting to Islam and joining the Nation of Islam in 1964",
           "cardFront": "Boxing, 3x heavyweight champion, 'float like a butterfly'",
-          "cardBack": "Muhammad Ali"
+          "cardBack": "Muhammad Ali",
+          "links": [
+            {
+              "text": "Muhammad Ali",
+              "url": "https://en.wikipedia.org/wiki/Muhammad_Ali"
+            },
+            {
+              "text": "Boxing, 3x heavyweight champion, 'float like a butterfly'",
+              "url": "https://en.wikipedia.org/wiki/Boxing,_3x_heavyweight_champion,_'float_like_a_butterfly'"
+            }
+          ]
         },
         {
           "id": "jordan",
           "prompt": "Which basketball player won six NBA championships with the Chicago Bulls, earned five MVP awards, and became synonymous with a Nike sneaker brand bearing his name?",
           "answer": "Michael Jordan",
-          "alternates": ["Jordan", "MJ", "Air Jordan"],
-          "explanation": "Basketball, American (b. 1963), played for the Chicago Bulls and Washington Wizards\nWon six NBA championships (1991\u20131993, 1996\u20131998) and six Finals MVP awards with the Bulls\nFive-time NBA regular-season MVP; 14-time All-Star; 10-time scoring champion\nCut from his high school varsity basketball team as a sophomore\u2014used it as lifelong motivation\nNike's Air Jordan brand became a multi-billion-dollar empire; debuted with the banned Air Jordan 1 in 1985\nStarred in *Space Jam* (1996); ESPN's *The Last Dance* (2020) documented his final Bulls season\nBriefly retired to play minor-league baseball (1993\u20131995) before returning with the two-word fax: \"I'm back\"",
+          "alternates": [
+            "Jordan",
+            "MJ",
+            "Air Jordan"
+          ],
+          "explanation": "Basketball, American (b. 1963), played for the Chicago Bulls and Washington Wizards\nWon six NBA championships (1991–1993, 1996–1998) and six Finals MVP awards with the Bulls\nFive-time NBA regular-season MVP; 14-time All-Star; 10-time scoring champion\nCut from his high school varsity basketball team as a sophomore—used it as lifelong motivation\nNike's Air Jordan brand became a multi-billion-dollar empire; debuted with the banned Air Jordan 1 in 1985\nStarred in *Space Jam* (1996); ESPN's *The Last Dance* (2020) documented his final Bulls season\nBriefly retired to play minor-league baseball (1993–1995) before returning with the two-word fax: \"I'm back\"",
           "cardFront": "Basketball, 6 NBA titles with Chicago Bulls, Nike brand",
-          "cardBack": "Michael Jordan"
+          "cardBack": "Michael Jordan",
+          "links": [
+            {
+              "text": "Michael Jordan",
+              "url": "https://en.wikipedia.org/wiki/Michael_Jordan"
+            },
+            {
+              "text": "Basketball, 6 NBA titles with Chicago Bulls, Nike brand",
+              "url": "https://en.wikipedia.org/wiki/Basketball,_6_NBA_titles_with_Chicago_Bulls,_Nike_brand"
+            }
+          ]
         },
         {
           "id": "serena-williams",
-          "prompt": "Which tennis player won 23 Grand Slam singles titles\u2014the most in the Open Era\u2014after learning the sport from her father on public courts in Compton, California?",
+          "prompt": "Which tennis player won 23 Grand Slam singles titles—the most in the Open Era—after learning the sport from her father on public courts in Compton, California?",
           "answer": "Serena Williams",
-          "alternates": ["Serena", "Williams"],
-          "explanation": "Tennis, American (b. 1981)\n23 Grand Slam singles titles\u2014most in the Open Era, one short of Margaret Court's all-time record of 24\nTrained by father Richard Williams on public courts in Compton, California alongside sister Venus\nWon four consecutive Grand Slam titles across 2002\u20132003, nicknamed the \"Serena Slam\"\nHeld the world #1 ranking for 319 weeks total; won her 23rd major at the 2017 Australian Open while pregnant\nSister Venus also won seven Grand Slam singles titles; the pair won 14 Grand Slam doubles titles together\nRetired from professional tennis in September 2022 after the U.S. Open",
+          "alternates": [
+            "Serena",
+            "Williams"
+          ],
+          "explanation": "Tennis, American (b. 1981)\n23 Grand Slam singles titles—most in the Open Era, one short of Margaret Court's all-time record of 24\nTrained by father Richard Williams on public courts in Compton, California alongside sister Venus\nWon four consecutive Grand Slam titles across 2002–2003, nicknamed the \"Serena Slam\"\nHeld the world #1 ranking for 319 weeks total; won her 23rd major at the 2017 Australian Open while pregnant\nSister Venus also won seven Grand Slam singles titles; the pair won 14 Grand Slam doubles titles together\nRetired from professional tennis in September 2022 after the U.S. Open",
           "cardFront": "Tennis, 23 Grand Slam singles titles (Open Era record)",
-          "cardBack": "Serena Williams"
+          "cardBack": "Serena Williams",
+          "links": [
+            {
+              "text": "Serena Williams",
+              "url": "https://en.wikipedia.org/wiki/Serena_Williams"
+            },
+            {
+              "text": "Tennis, 23 Grand Slam singles titles",
+              "url": "https://en.wikipedia.org/wiki/Tennis,_23_Grand_Slam_singles_titles"
+            }
+          ]
         },
         {
           "id": "bolt",
           "prompt": "Which Jamaican sprinter won eight Olympic gold medals and holds the world records in both the 100 meters (9.58s) and 200 meters (19.19s)?",
           "answer": "Usain Bolt",
-          "alternates": ["Bolt", "Lightning Bolt"],
-          "explanation": "Sprinting, Jamaican (b. 1986), nicknamed \"Lightning Bolt\"\nHolds world records in the 100m (9.58s, Berlin 2009) and 200m (19.19s, Berlin 2009)\nWon eight Olympic gold medals across three Games: 100m, 200m, and 4\u00d7100m at each of Beijing 2008, London 2012, and Rio 2016\nCompleted an unprecedented \"triple triple\"\u2014three consecutive golds in the same three events\nAt 6\u20195\u2033, considered unusually tall for a sprinter; his long stride was a biomechanical advantage\nCelebrated wins with the signature \"Lightning Bolt\" pose (left arm extended skyward)\nRetired after the 2017 World Championships in London; briefly pursued a professional soccer career",
+          "alternates": [
+            "Bolt",
+            "Lightning Bolt"
+          ],
+          "explanation": "Sprinting, Jamaican (b. 1986), nicknamed \"Lightning Bolt\"\nHolds world records in the 100m (9.58s, Berlin 2009) and 200m (19.19s, Berlin 2009)\nWon eight Olympic gold medals across three Games: 100m, 200m, and 4×100m at each of Beijing 2008, London 2012, and Rio 2016\nCompleted an unprecedented \"triple triple\"—three consecutive golds in the same three events\nAt 6’5″, considered unusually tall for a sprinter; his long stride was a biomechanical advantage\nCelebrated wins with the signature \"Lightning Bolt\" pose (left arm extended skyward)\nRetired after the 2017 World Championships in London; briefly pursued a professional soccer career",
           "cardFront": "Sprinting, 100m record 9.58s, 200m record 19.19s",
-          "cardBack": "Usain Bolt"
+          "cardBack": "Usain Bolt",
+          "links": [
+            {
+              "text": "Usain Bolt",
+              "url": "https://en.wikipedia.org/wiki/Usain_Bolt"
+            },
+            {
+              "text": "Sprinting, 100m record 9.58s, 200m record 19.19s",
+              "url": "https://en.wikipedia.org/wiki/Sprinting,_100m_record_9.58s,_200m_record_19.19s"
+            }
+          ]
         },
         {
           "id": "pele",
-          "prompt": "Which Brazilian soccer player won three FIFA World Cups (1958, 1962, and 1970)\u2014the only player ever to achieve that feat\u2014and scored roughly 1,200 career goals across official and unofficial matches?",
-          "answer": "Pel\u00e9",
-          "alternates": ["Pele", "Edson Arantes do Nascimento"],
-          "explanation": "Soccer/football, Brazilian (1940\u20132022), born Edson Arantes do Nascimento\nOnly player to win three FIFA World Cup titles: 1958 (age 17), 1962, and 1970 with Brazil\nScored 77 goals in 92 international appearances for Brazil\nCareer goal total disputed: ~1,281 per FIFA (including friendlies), ~767 in official matches\nPlayed for Santos FC (1956\u20131974) and finished his career with the New York Cosmos (1975\u20131977)\nScored his 1,000th career goal on November 19, 1969 (a penalty vs. Vasco da Gama at the Maracan\u00e3)\nDeclared a national treasure by Brazil's government, which blocked his transfer to European clubs",
+          "prompt": "Which Brazilian soccer player won three FIFA World Cups (1958, 1962, and 1970)—the only player ever to achieve that feat—and scored roughly 1,200 career goals across official and unofficial matches?",
+          "answer": "Pelé",
+          "alternates": [
+            "Pele",
+            "Edson Arantes do Nascimento"
+          ],
+          "explanation": "Soccer/football, Brazilian (1940–2022), born Edson Arantes do Nascimento\nOnly player to win three FIFA World Cup titles: 1958 (age 17), 1962, and 1970 with Brazil\nScored 77 goals in 92 international appearances for Brazil\nCareer goal total disputed: ~1,281 per FIFA (including friendlies), ~767 in official matches\nPlayed for Santos FC (1956–1974) and finished his career with the New York Cosmos (1975–1977)\nScored his 1,000th career goal on November 19, 1969 (a penalty vs. Vasco da Gama at the Maracanã)\nDeclared a national treasure by Brazil's government, which blocked his transfer to European clubs",
           "cardFront": "Soccer, 3 World Cups with Brazil, disputed ~1,200 goals",
-          "cardBack": "Pel\u00e9"
+          "cardBack": "Pelé",
+          "links": [
+            {
+              "text": "Pelé",
+              "url": "https://en.wikipedia.org/wiki/Pelé"
+            },
+            {
+              "text": "Soccer, 3 World Cups with Brazil, disputed ~1,200 goals",
+              "url": "https://en.wikipedia.org/wiki/Soccer,_3_World_Cups_with_Brazil,_disputed_~1,200_goals"
+            }
+          ]
         },
         {
           "id": "ruth",
           "prompt": "Which baseball player hit 714 career home runs, was sold from the Red Sox to the Yankees in a deal that supposedly cursed Boston for 86 years, and allegedly 'called his shot' in the 1932 World Series?",
           "answer": "Babe Ruth",
-          "alternates": ["Ruth", "George Herman Ruth", "The Bambino", "The Sultan of Swat"],
-          "explanation": "Baseball, American (1895\u20131948), born George Herman Ruth Jr.\n714 career home runs\u2014a record that stood until Hank Aaron broke it in 1974\nSold from the Boston Red Sox to the New York Yankees in 1920 for $100,000; the Red Sox didn't win a World Series again until 2004 (the \"Curse of the Bambino\")\nHit 60 home runs in 1927, a single-season record that stood until Roger Maris hit 61 in 1961\nAllegedly pointed to center field before homering in Game 3 of the 1932 World Series (the \"called shot\")\nBegan his career as a dominant left-handed pitcher for the Red Sox before converting to outfield\nOne of the first five inductees into the Baseball Hall of Fame (1936)",
+          "alternates": [
+            "Ruth",
+            "George Herman Ruth",
+            "The Bambino",
+            "The Sultan of Swat"
+          ],
+          "explanation": "Baseball, American (1895–1948), born George Herman Ruth Jr.\n714 career home runs—a record that stood until Hank Aaron broke it in 1974\nSold from the Boston Red Sox to the New York Yankees in 1920 for $100,000; the Red Sox didn't win a World Series again until 2004 (the \"Curse of the Bambino\")\nHit 60 home runs in 1927, a single-season record that stood until Roger Maris hit 61 in 1961\nAllegedly pointed to center field before homering in Game 3 of the 1932 World Series (the \"called shot\")\nBegan his career as a dominant left-handed pitcher for the Red Sox before converting to outfield\nOne of the first five inductees into the Baseball Hall of Fame (1936)",
           "cardFront": "Baseball, 714 home runs, 'Curse of the Bambino'",
-          "cardBack": "Babe Ruth"
+          "cardBack": "Babe Ruth",
+          "links": [
+            {
+              "text": "Babe Ruth",
+              "url": "https://en.wikipedia.org/wiki/Babe_Ruth"
+            },
+            {
+              "text": "Baseball, 714 home runs, 'Curse of the Bambino'",
+              "url": "https://en.wikipedia.org/wiki/Baseball,_714_home_runs,_'Curse_of_the_Bambino'"
+            }
+          ]
         },
         {
           "id": "gretzky",
           "prompt": "Which ice hockey player, nicknamed 'The Great One,' held 61 NHL records at retirement, scored 2,857 career points, and had his #99 jersey retired across the entire league?",
           "answer": "Wayne Gretzky",
-          "alternates": ["Gretzky", "The Great One"],
-          "explanation": "Ice hockey, Canadian (b. 1961), nicknamed \"The Great One\"\nHeld 61 NHL records at retirement (1999); still holds over 50, including 2,857 career points and 1,963 assists\nCareer goals record of 894 stood for 26 years until Alexander Ovechkin surpassed it in 2025\nHis assists alone (1,963) would make him the all-time points leader over any other player\n#99 retired league-wide by the NHL in 1999\u2014the only number so honored\nScored 50 goals in just 39 games during the 1981\u201382 season (the standard benchmark is 50 in 50)\nWon four Stanley Cups with the Edmonton Oilers (1984\u20131988); his 1988 trade to the Los Angeles Kings is called \"The Trade\" in Canada",
+          "alternates": [
+            "Gretzky",
+            "The Great One"
+          ],
+          "explanation": "Ice hockey, Canadian (b. 1961), nicknamed \"The Great One\"\nHeld 61 NHL records at retirement (1999); still holds over 50, including 2,857 career points and 1,963 assists\nCareer goals record of 894 stood for 26 years until Alexander Ovechkin surpassed it in 2025\nHis assists alone (1,963) would make him the all-time points leader over any other player\n#99 retired league-wide by the NHL in 1999—the only number so honored\nScored 50 goals in just 39 games during the 1981–82 season (the standard benchmark is 50 in 50)\nWon four Stanley Cups with the Edmonton Oilers (1984–1988); his 1988 trade to the Los Angeles Kings is called \"The Trade\" in Canada",
           "cardFront": "Ice hockey, 2,857 career points, #99 retired league-wide",
-          "cardBack": "Wayne Gretzky"
+          "cardBack": "Wayne Gretzky",
+          "links": [
+            {
+              "text": "Wayne Gretzky",
+              "url": "https://en.wikipedia.org/wiki/Wayne_Gretzky"
+            },
+            {
+              "text": "Ice hockey, 2,857 career points, #99 retired league-wide",
+              "url": "https://en.wikipedia.org/wiki/Ice_hockey,_2,857_career_points,_#99_retired_league-wide"
+            }
+          ]
         },
         {
           "id": "owens",
           "prompt": "Which American track and field athlete won four gold medals at the 1936 Berlin Olympics, undermining Nazi claims of Aryan racial superiority, and set or tied four world records in 45 minutes at a 1935 college meet?",
           "answer": "Jesse Owens",
-          "alternates": ["Owens", "James Cleveland Owens", "J.C. Owens"],
-          "explanation": "Track and field, American (1913\u20131980), born James Cleveland Owens\nWon four gold medals at the 1936 Berlin Olympics (100m, 200m, long jump, 4\u00d7100m relay)\u2014rebuking Nazi racial ideology\nAt the 1935 Big Ten Championships in Ann Arbor, tied one world record and set three more in approximately 45 minutes despite a back injury\nHis long jump record of 8.13m (set in 1935) stood for 25 years\nDespite Olympic fame, returned to a segregated America; President Roosevelt never invited him to the White House\nWorked as a gas station attendant and ran against horses in exhibitions to earn money after the Olympics\nAwarded the Presidential Medal of Freedom posthumously by President Ford in 1976",
+          "alternates": [
+            "Owens",
+            "James Cleveland Owens",
+            "J.C. Owens"
+          ],
+          "explanation": "Track and field, American (1913–1980), born James Cleveland Owens\nWon four gold medals at the 1936 Berlin Olympics (100m, 200m, long jump, 4×100m relay)—rebuking Nazi racial ideology\nAt the 1935 Big Ten Championships in Ann Arbor, tied one world record and set three more in approximately 45 minutes despite a back injury\nHis long jump record of 8.13m (set in 1935) stood for 25 years\nDespite Olympic fame, returned to a segregated America; President Roosevelt never invited him to the White House\nWorked as a gas station attendant and ran against horses in exhibitions to earn money after the Olympics\nAwarded the Presidential Medal of Freedom posthumously by President Ford in 1976",
           "cardFront": "Track and field, 4 golds at 1936 Berlin Olympics",
-          "cardBack": "Jesse Owens"
+          "cardBack": "Jesse Owens",
+          "links": [
+            {
+              "text": "Jesse Owens",
+              "url": "https://en.wikipedia.org/wiki/Jesse_Owens"
+            },
+            {
+              "text": "Track and field, 4 golds at 1936 Berlin Olympics",
+              "url": "https://en.wikipedia.org/wiki/Track_and_field,_4_golds_at_1936_Berlin_Olympics"
+            }
+          ]
         },
         {
           "id": "phelps",
           "prompt": "Which swimmer holds the all-time records for both Olympic gold medals (23) and total Olympic medals (28), including an unprecedented eight golds at a single Games in 2008?",
           "answer": "Michael Phelps",
-          "alternates": ["Phelps"],
-          "explanation": "Swimming, American (b. 1985)\n23 Olympic gold medals and 28 total Olympic medals\u2014both all-time records for any athlete in any sport\nWon eight gold medals at the 2008 Beijing Olympics, surpassing Mark Spitz's record of seven at a single Games\nCompeted in five consecutive Olympics (2000\u20132016), debuting at age 15 in Sydney\nSet 39 world records over his career across butterfly, individual medley, and freestyle events\nDiagnosed with ADHD as a child; his coach Bob Bowman channeled his energy into swimming starting at age 11\nHas spoken publicly about depression and suicidal thoughts after retirement, becoming a mental health advocate",
+          "alternates": [
+            "Phelps"
+          ],
+          "explanation": "Swimming, American (b. 1985)\n23 Olympic gold medals and 28 total Olympic medals—both all-time records for any athlete in any sport\nWon eight gold medals at the 2008 Beijing Olympics, surpassing Mark Spitz's record of seven at a single Games\nCompeted in five consecutive Olympics (2000–2016), debuting at age 15 in Sydney\nSet 39 world records over his career across butterfly, individual medley, and freestyle events\nDiagnosed with ADHD as a child; his coach Bob Bowman channeled his energy into swimming starting at age 11\nHas spoken publicly about depression and suicidal thoughts after retirement, becoming a mental health advocate",
           "cardFront": "Swimming, 23 Olympic golds, 28 total Olympic medals",
-          "cardBack": "Michael Phelps"
+          "cardBack": "Michael Phelps",
+          "links": [
+            {
+              "text": "Michael Phelps",
+              "url": "https://en.wikipedia.org/wiki/Michael_Phelps"
+            },
+            {
+              "text": "Swimming, 23 Olympic golds, 28 total Olympic medals",
+              "url": "https://en.wikipedia.org/wiki/Swimming,_23_Olympic_golds,_28_total_Olympic_medals"
+            }
+          ]
         },
         {
           "id": "brady",
-          "prompt": "Which NFL quarterback won seven Super Bowls\u2014the most by any player in history\u2014after being selected 199th overall in the sixth round of the 2000 NFL Draft?",
+          "prompt": "Which NFL quarterback won seven Super Bowls—the most by any player in history—after being selected 199th overall in the sixth round of the 2000 NFL Draft?",
           "answer": "Tom Brady",
-          "alternates": ["Brady", "Thomas Edward Brady"],
-          "explanation": "NFL quarterback, American (b. 1977)\nSeven Super Bowl victories\u2014six with the New England Patriots, one with the Tampa Bay Buccaneers\u2014more than any player in NFL history\nPicked 199th overall in the 6th round of the 2000 draft; six quarterbacks were selected before him\nFive-time Super Bowl MVP and three-time regular-season MVP\nPlayed until age 45, retiring after the 2022 season as the NFL's all-time leader in passing yards (89,214) and touchdown passes (649)\nBriefly retired in February 2022, then un-retired 40 days later before finally retiring for good in 2023\nWon his seventh Super Bowl with the Buccaneers in 2021 at age 43, defeating Patrick Mahomes's Chiefs",
+          "alternates": [
+            "Brady",
+            "Thomas Edward Brady"
+          ],
+          "explanation": "NFL quarterback, American (b. 1977)\nSeven Super Bowl victories—six with the New England Patriots, one with the Tampa Bay Buccaneers—more than any player in NFL history\nPicked 199th overall in the 6th round of the 2000 draft; six quarterbacks were selected before him\nFive-time Super Bowl MVP and three-time regular-season MVP\nPlayed until age 45, retiring after the 2022 season as the NFL's all-time leader in passing yards (89,214) and touchdown passes (649)\nBriefly retired in February 2022, then un-retired 40 days later before finally retiring for good in 2023\nWon his seventh Super Bowl with the Buccaneers in 2021 at age 43, defeating Patrick Mahomes's Chiefs",
           "cardFront": "NFL, 7 Super Bowl wins, 199th draft pick",
-          "cardBack": "Tom Brady"
+          "cardBack": "Tom Brady",
+          "links": [
+            {
+              "text": "Tom Brady",
+              "url": "https://en.wikipedia.org/wiki/Tom_Brady"
+            },
+            {
+              "text": "NFL, 7 Super Bowl wins, 199th draft pick",
+              "url": "https://en.wikipedia.org/wiki/NFL,_7_Super_Bowl_wins,_199th_draft_pick"
+            }
+          ]
         },
         {
           "id": "biles",
           "prompt": "Which gymnast, the most decorated in history with 30+ world and Olympic medals combined, withdrew from events at the 2020 Tokyo Olympics citing 'the twisties' before returning triumphantly at the 2024 Paris Games?",
           "answer": "Simone Biles",
-          "alternates": ["Biles"],
-          "explanation": "Gymnastics, American (b. 1997)\nMost decorated gymnast in history: 11 Olympic medals (7 gold) and 30 World Championship medals (23 gold)\nWon four golds and a bronze at the 2016 Rio Olympics in her Olympic debut\nWithdrew from five of six events at the 2020 Tokyo Olympics citing \"the twisties\"\u2014a mental block causing loss of spatial awareness mid-air\nReturned at the 2024 Paris Olympics, winning three golds (team, all-around, vault) and a silver (floor)\nHas four gymnastics skills named after her, including the Yurchenko double pike vault\nSpent time in foster care as a child before being raised by her maternal grandparents in Houston",
+          "alternates": [
+            "Biles"
+          ],
+          "explanation": "Gymnastics, American (b. 1997)\nMost decorated gymnast in history: 11 Olympic medals (7 gold) and 30 World Championship medals (23 gold)\nWon four golds and a bronze at the 2016 Rio Olympics in her Olympic debut\nWithdrew from five of six events at the 2020 Tokyo Olympics citing \"the twisties\"—a mental block causing loss of spatial awareness mid-air\nReturned at the 2024 Paris Olympics, winning three golds (team, all-around, vault) and a silver (floor)\nHas four gymnastics skills named after her, including the Yurchenko double pike vault\nSpent time in foster care as a child before being raised by her maternal grandparents in Houston",
           "cardFront": "Gymnastics, most decorated ever, 'the twisties' at Tokyo",
-          "cardBack": "Simone Biles"
+          "cardBack": "Simone Biles",
+          "links": [
+            {
+              "text": "Simone Biles",
+              "url": "https://en.wikipedia.org/wiki/Simone_Biles"
+            },
+            {
+              "text": "Gymnastics, most decorated ever, 'the twisties' at Tokyo",
+              "url": "https://en.wikipedia.org/wiki/Gymnastics,_most_decorated_ever,_'the_twisties'_at_Tokyo"
+            }
+          ]
         },
         {
           "id": "robinson",
           "prompt": "Which baseball player broke Major League Baseball's color barrier in 1947 when he debuted for the Brooklyn Dodgers, and whose #42 was later retired across all MLB teams?",
           "answer": "Jackie Robinson",
-          "alternates": ["Robinson", "Jack Roosevelt Robinson"],
-          "explanation": "Baseball, American (1919\u20131972), born Jack Roosevelt Robinson\nBroke MLB's color barrier on April 15, 1947 with the Brooklyn Dodgers, ending six decades of segregation in the major leagues\nRecruited by Dodgers general manager Branch Rickey, who required Robinson to endure racial abuse without retaliation for two years\nWon Rookie of the Year in 1947 and NL MVP in 1949; six-time All-Star\n#42 retired across all of MLB in 1997\u2014the only number universally retired; April 15 is Jackie Robinson Day\nBefore baseball, was the first UCLA athlete to letter in four sports (baseball, basketball, football, track)\nInducted into the Baseball Hall of Fame in 1962",
+          "alternates": [
+            "Robinson",
+            "Jack Roosevelt Robinson"
+          ],
+          "explanation": "Baseball, American (1919–1972), born Jack Roosevelt Robinson\nBroke MLB's color barrier on April 15, 1947 with the Brooklyn Dodgers, ending six decades of segregation in the major leagues\nRecruited by Dodgers general manager Branch Rickey, who required Robinson to endure racial abuse without retaliation for two years\nWon Rookie of the Year in 1947 and NL MVP in 1949; six-time All-Star\n#42 retired across all of MLB in 1997—the only number universally retired; April 15 is Jackie Robinson Day\nBefore baseball, was the first UCLA athlete to letter in four sports (baseball, basketball, football, track)\nInducted into the Baseball Hall of Fame in 1962",
           "cardFront": "Baseball, broke MLB color barrier 1947, #42 retired league-wide",
-          "cardBack": "Jackie Robinson"
+          "cardBack": "Jackie Robinson",
+          "links": [
+            {
+              "text": "Jackie Robinson",
+              "url": "https://en.wikipedia.org/wiki/Jackie_Robinson"
+            },
+            {
+              "text": "Baseball, broke MLB color barrier 1947, #42 retired league-wide",
+              "url": "https://en.wikipedia.org/wiki/Baseball,_broke_MLB_color_barrier_1947,_#42_retired_league-wide"
+            }
+          ]
         },
         {
           "id": "federer",
           "prompt": "Which Swiss tennis player won 20 Grand Slam singles titles, held the world #1 ranking for a record 237 consecutive weeks, and was widely admired for his elegant, fluid playing style?",
           "answer": "Roger Federer",
-          "alternates": ["Federer"],
-          "explanation": "Tennis, Swiss (b. 1981), retired 2022\n20 Grand Slam singles titles, including a record eight Wimbledon titles\nHeld the ATP #1 ranking for 237 consecutive weeks (2004\u20132008)\u2014a record in any era of professional tennis\nKnown for an exceptionally fluid, graceful style; mastered every surface but was dominant on grass\nRivaled Rafael Nadal and Novak Djokovic in one of sport's greatest three-way rivalries\nWon at least one Grand Slam title in each year from 2003 to 2010\nRetired at the 2022 Laver Cup in London, playing his final match as a doubles partner with rival Nadal\nEstimated career prize money exceeded $130 million; off-court earnings far surpassed that",
+          "alternates": [
+            "Federer"
+          ],
+          "explanation": "Tennis, Swiss (b. 1981), retired 2022\n20 Grand Slam singles titles, including a record eight Wimbledon titles\nHeld the ATP #1 ranking for 237 consecutive weeks (2004–2008)—a record in any era of professional tennis\nKnown for an exceptionally fluid, graceful style; mastered every surface but was dominant on grass\nRivaled Rafael Nadal and Novak Djokovic in one of sport's greatest three-way rivalries\nWon at least one Grand Slam title in each year from 2003 to 2010\nRetired at the 2022 Laver Cup in London, playing his final match as a doubles partner with rival Nadal\nEstimated career prize money exceeded $130 million; off-court earnings far surpassed that",
           "cardFront": "Tennis, 20 Grand Slams, 237 consecutive weeks at #1",
-          "cardBack": "Roger Federer"
+          "cardBack": "Roger Federer",
+          "links": [
+            {
+              "text": "Roger Federer",
+              "url": "https://en.wikipedia.org/wiki/Roger_Federer"
+            },
+            {
+              "text": "Tennis, 20 Grand Slams, 237 consecutive weeks at #1",
+              "url": "https://en.wikipedia.org/wiki/Tennis,_20_Grand_Slams,_237_consecutive_weeks_at_#1"
+            }
+          ]
         },
         {
           "id": "comaneci",
           "prompt": "Which gymnast became the first in Olympic history to score a perfect 10.0, at the 1976 Montreal Games at age 14, when the scoreboard famously displayed 1.00 because it could not show her actual score?",
-          "answer": "Nadia Com\u0103neci",
-          "alternates": ["Comaneci", "Nadia Comaneci"],
-          "explanation": "Gymnastics, Romanian (b. 1961)\nFirst gymnast to score a perfect 10.0 in Olympic competition, on the uneven bars at the 1976 Montreal Games\nThe Omega scoreboard could only display three digits and showed 1.00 instead of 10.00\nEarned seven perfect 10s at the 1976 Olympics, winning three golds (all-around, uneven bars, balance beam)\nWon two more golds at the 1980 Moscow Olympics (balance beam, floor exercise)\nDefected from Communist Romania in 1989, weeks before the fall of Ceau\u0219escu's regime, by walking across the border into Hungary\nMarried American gymnast Bart Conner in 1996; lives in Norman, Oklahoma",
+          "answer": "Nadia Comăneci",
+          "alternates": [
+            "Comaneci",
+            "Nadia Comaneci"
+          ],
+          "explanation": "Gymnastics, Romanian (b. 1961)\nFirst gymnast to score a perfect 10.0 in Olympic competition, on the uneven bars at the 1976 Montreal Games\nThe Omega scoreboard could only display three digits and showed 1.00 instead of 10.00\nEarned seven perfect 10s at the 1976 Olympics, winning three golds (all-around, uneven bars, balance beam)\nWon two more golds at the 1980 Moscow Olympics (balance beam, floor exercise)\nDefected from Communist Romania in 1989, weeks before the fall of Ceaușescu's regime, by walking across the border into Hungary\nMarried American gymnast Bart Conner in 1996; lives in Norman, Oklahoma",
           "cardFront": "Gymnastics, first perfect 10.0 (1976 Montreal, age 14)",
-          "cardBack": "Nadia Com\u0103neci"
+          "cardBack": "Nadia Comăneci",
+          "links": [
+            {
+              "text": "Nadia Comăneci",
+              "url": "https://en.wikipedia.org/wiki/Nadia_Comăneci"
+            },
+            {
+              "text": "Gymnastics, first perfect 10.0",
+              "url": "https://en.wikipedia.org/wiki/Gymnastics,_first_perfect_10.0"
+            }
+          ]
         },
         {
           "id": "thorpe",
           "prompt": "Which athlete won both the decathlon and pentathlon at the 1912 Olympics, had his medals stripped for having been paid to play semi-pro baseball, and was also a standout in professional football and baseball?",
           "answer": "Jim Thorpe",
-          "alternates": ["Thorpe", "James Francis Thorpe", "Wa-Tho-Huk"],
-          "explanation": "Multi-sport athlete, American (1887\u20131953), of the Sac and Fox Nation (Native American name Wa-Tho-Huk, \"Bright Path\")\nWon gold in both the decathlon and pentathlon at the 1912 Stockholm Olympics\nStripped of his medals in 1913 after it emerged he had been paid to play semi-pro baseball; medals restored as co-champion in 1983, then as sole winner in 2022\nAlso played six seasons of Major League Baseball and was the first president of what became the NFL\nKing Gustav V of Sweden told him: \"You, sir, are the greatest athlete in the world\"\nNamed the greatest athlete of the first half of the 20th century by the Associated Press in 1950\nDied in poverty in 1953; AP later named him the greatest athlete of the entire 20th century in 1999",
+          "alternates": [
+            "Thorpe",
+            "James Francis Thorpe",
+            "Wa-Tho-Huk"
+          ],
+          "explanation": "Multi-sport athlete, American (1887–1953), of the Sac and Fox Nation (Native American name Wa-Tho-Huk, \"Bright Path\")\nWon gold in both the decathlon and pentathlon at the 1912 Stockholm Olympics\nStripped of his medals in 1913 after it emerged he had been paid to play semi-pro baseball; medals restored as co-champion in 1983, then as sole winner in 2022\nAlso played six seasons of Major League Baseball and was the first president of what became the NFL\nKing Gustav V of Sweden told him: \"You, sir, are the greatest athlete in the world\"\nNamed the greatest athlete of the first half of the 20th century by the Associated Press in 1950\nDied in poverty in 1953; AP later named him the greatest athlete of the entire 20th century in 1999",
           "cardFront": "Decathlon/pentathlon gold 1912, medals stripped then restored",
-          "cardBack": "Jim Thorpe"
+          "cardBack": "Jim Thorpe",
+          "links": [
+            {
+              "text": "Jim Thorpe",
+              "url": "https://en.wikipedia.org/wiki/Jim_Thorpe"
+            },
+            {
+              "text": "Decathlon/pentathlon gold 1912, medals stripped then restored",
+              "url": "https://en.wikipedia.org/wiki/Decathlon/pentathlon_gold_1912,_medals_stripped_then_restored"
+            }
+          ]
         },
         {
           "id": "king",
           "prompt": "Which tennis player defeated Bobby Riggs in the nationally televised 1973 'Battle of the Sexes' match watched by an estimated 90 million viewers, and won 12 Grand Slam singles titles while pioneering women's sports equality?",
           "answer": "Billie Jean King",
-          "alternates": ["King", "Billie Jean", "BJK"],
-          "explanation": "Tennis, American (b. 1943)\nDefeated Bobby Riggs 6\u20134, 6\u20133, 6\u20133 in the \"Battle of the Sexes\" at the Houston Astrodome on September 20, 1973\nThe match drew ~90 million TV viewers worldwide and 30,472 in-person spectators\n12 Grand Slam singles titles, including six Wimbledon singles championships\nFounded the Women's Tennis Association (WTA) in 1973 and fought for equal prize money\nCo-founded the Women's Sports Foundation and *womenSports* magazine\nThe USTA National Tennis Center (home of the U.S. Open) was renamed the Billie Jean King National Tennis Center in 2006\nAwarded the Presidential Medal of Freedom by President Obama in 2009",
+          "alternates": [
+            "King",
+            "Billie Jean",
+            "BJK"
+          ],
+          "explanation": "Tennis, American (b. 1943)\nDefeated Bobby Riggs 6–4, 6–3, 6–3 in the \"Battle of the Sexes\" at the Houston Astrodome on September 20, 1973\nThe match drew ~90 million TV viewers worldwide and 30,472 in-person spectators\n12 Grand Slam singles titles, including six Wimbledon singles championships\nFounded the Women's Tennis Association (WTA) in 1973 and fought for equal prize money\nCo-founded the Women's Sports Foundation and *womenSports* magazine\nThe USTA National Tennis Center (home of the U.S. Open) was renamed the Billie Jean King National Tennis Center in 2006\nAwarded the Presidential Medal of Freedom by President Obama in 2009",
           "cardFront": "Tennis, 'Battle of the Sexes' vs Riggs 1973",
-          "cardBack": "Billie Jean King"
+          "cardBack": "Billie Jean King",
+          "links": [
+            {
+              "text": "Billie Jean King",
+              "url": "https://en.wikipedia.org/wiki/Billie_Jean_King"
+            },
+            {
+              "text": "Tennis, 'Battle of the Sexes' vs Riggs 1973",
+              "url": "https://en.wikipedia.org/wiki/Tennis,_'Battle_of_the_Sexes'_vs_Riggs_1973"
+            }
+          ]
         },
         {
           "id": "maradona",
           "prompt": "Which Argentine soccer player scored both the 'Hand of God' goal and the 'Goal of the Century' in the same 1986 World Cup quarterfinal match against England, leading Argentina to that year's World Cup title?",
           "answer": "Diego Maradona",
-          "alternates": ["Maradona"],
-          "explanation": "Soccer/football, Argentine (1960\u20132020)\nScored both the \"Hand of God\" (a handball the referee missed) and the \"Goal of the Century\" (a 60-yard solo dribble past five England players) in the same 1986 World Cup quarterfinal\nCaptained Argentina to the 1986 World Cup title in Mexico, winning the Golden Ball as the tournament's best player\nSpent seven seasons at Napoli (1984\u20131991), leading the club to its only two Serie A titles (1987, 1990)\nBanned from football for 15 months in 1991 after testing positive for cocaine; battled addiction throughout his life\nBanned again during the 1994 World Cup for ephedrine; his wide-eyed celebration after scoring vs. Greece became an infamous image\nDied of cardiac arrest at age 60; three days of national mourning declared in Argentina",
+          "alternates": [
+            "Maradona"
+          ],
+          "explanation": "Soccer/football, Argentine (1960–2020)\nScored both the \"Hand of God\" (a handball the referee missed) and the \"Goal of the Century\" (a 60-yard solo dribble past five England players) in the same 1986 World Cup quarterfinal\nCaptained Argentina to the 1986 World Cup title in Mexico, winning the Golden Ball as the tournament's best player\nSpent seven seasons at Napoli (1984–1991), leading the club to its only two Serie A titles (1987, 1990)\nBanned from football for 15 months in 1991 after testing positive for cocaine; battled addiction throughout his life\nBanned again during the 1994 World Cup for ephedrine; his wide-eyed celebration after scoring vs. Greece became an infamous image\nDied of cardiac arrest at age 60; three days of national mourning declared in Argentina",
           "cardFront": "Soccer, 'Hand of God' and 'Goal of the Century' (1986)",
-          "cardBack": "Diego Maradona"
+          "cardBack": "Diego Maradona",
+          "links": [
+            {
+              "text": "Diego Maradona",
+              "url": "https://en.wikipedia.org/wiki/Diego_Maradona"
+            },
+            {
+              "text": "Soccer, 'Hand of God' and 'Goal of the Century'",
+              "url": "https://en.wikipedia.org/wiki/Soccer,_'Hand_of_God'_and_'Goal_of_the_Century'"
+            }
+          ]
         },
         {
           "id": "chamberlain",
-          "prompt": "Which 7\u20191\u2033 basketball player scored 100 points in a single NBA game on March 2, 1962\u2014a record that still stands\u2014and averaged 50.4 points per game for the entire 1961\u201362 season?",
+          "prompt": "Which 7’1″ basketball player scored 100 points in a single NBA game on March 2, 1962—a record that still stands—and averaged 50.4 points per game for the entire 1961–62 season?",
           "answer": "Wilt Chamberlain",
-          "alternates": ["Chamberlain", "Wilt", "Wilt the Stilt", "The Big Dipper"],
-          "explanation": "Basketball, American (1936\u20131999), stood 7\u20191\u2033\nScored 100 points for the Philadelphia Warriors vs. the New York Knicks on March 2, 1962 at Hershey, Pennsylvania\u2014still the NBA single-game record\nAveraged 50.4 points per game in the 1961\u201362 season\u2014no other player has averaged even 45\nWon two NBA championships (1967 Philadelphia 76ers, 1972 Los Angeles Lakers)\nLed the league in scoring seven consecutive seasons and in rebounding 11 times\nThe only player to score 4,000 points in a single season (4,029 in 1961\u201362)\nClaimed in his autobiography to have slept with 20,000 women\u2014a figure widely cited but impossible to verify\nPreferred the nickname \"The Big Dipper\" but was more commonly called \"Wilt the Stilt,\" which he disliked",
+          "alternates": [
+            "Chamberlain",
+            "Wilt",
+            "Wilt the Stilt",
+            "The Big Dipper"
+          ],
+          "explanation": "Basketball, American (1936–1999), stood 7’1″\nScored 100 points for the Philadelphia Warriors vs. the New York Knicks on March 2, 1962 at Hershey, Pennsylvania—still the NBA single-game record\nAveraged 50.4 points per game in the 1961–62 season—no other player has averaged even 45\nWon two NBA championships (1967 Philadelphia 76ers, 1972 Los Angeles Lakers)\nLed the league in scoring seven consecutive seasons and in rebounding 11 times\nThe only player to score 4,000 points in a single season (4,029 in 1961–62)\nClaimed in his autobiography to have slept with 20,000 women—a figure widely cited but impossible to verify\nPreferred the nickname \"The Big Dipper\" but was more commonly called \"Wilt the Stilt,\" which he disliked",
           "cardFront": "Basketball, 100 points in one game (1962), 50.4 ppg season",
-          "cardBack": "Wilt Chamberlain"
+          "cardBack": "Wilt Chamberlain",
+          "links": [
+            {
+              "text": "Wilt Chamberlain",
+              "url": "https://en.wikipedia.org/wiki/Wilt_Chamberlain"
+            },
+            {
+              "text": "Basketball, 100 points in one game, 50.4 ppg season",
+              "url": "https://en.wikipedia.org/wiki/Basketball,_100_points_in_one_game,_50.4_ppg_season"
+            }
+          ]
         }
       ]
     }

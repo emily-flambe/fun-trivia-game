@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "literature/pulitzer", "parentId": "literature", "name": "Pulitzer Prize Fiction", "description": "Notable Pulitzer Prize for Fiction winners" }
+    {
+      "id": "literature/pulitzer",
+      "parentId": "literature",
+      "name": "Pulitzer Prize Fiction",
+      "description": "Notable Pulitzer Prize for Fiction winners"
+    }
   ],
   "exercises": [
     {
@@ -14,55 +19,129 @@
           "id": "grapes-of-wrath",
           "prompt": "This 1939 Steinbeck novel about the Joad family's Dust Bowl migration to California won the Pulitzer in 1940.",
           "answer": "The Grapes of Wrath",
-          "alternates": ["Grapes of Wrath"],
+          "alternates": [
+            "Grapes of Wrath"
+          ],
           "explanation": "John Steinbeck, Pulitzer 1940; Steinbeck cited it in his 1962 Nobel Prize acceptance speech\nBased on Steinbeck's 1936 San Francisco News articles on migrant farm workers\nBanned and burned in several California counties as 'communist propaganda'\nTitle from 'The Battle Hymn of the Republic': 'the vintage where the grapes of wrath are stored'\nJohn Ford directed the acclaimed 1940 film adaptation with Henry Fonda",
           "cardFront": "*The Grapes of Wrath*",
-          "cardBack": "1940 — John Steinbeck"
+          "cardBack": "1940 — John Steinbeck",
+          "links": [
+            {
+              "text": "The Grapes of Wrath",
+              "url": "https://en.wikipedia.org/wiki/The_Grapes_of_Wrath"
+            },
+            {
+              "text": "*The Grapes of Wrath*",
+              "url": "https://en.wikipedia.org/wiki/*The_Grapes_of_Wrath*"
+            }
+          ]
         },
         {
           "id": "all-the-kings-men",
           "prompt": "This 1946 Robert Penn Warren novel follows the rise and fall of Willie Stark, a fictional Southern populist governor modeled on Huey Long. Won the Pulitzer in 1947.",
           "answer": "All the King's Men",
-          "alternates": ["All the Kings Men"],
+          "alternates": [
+            "All the Kings Men"
+          ],
           "explanation": "Robert Penn Warren, Pulitzer 1947; Warren is the only person to win Pulitzers for both fiction and poetry\nWillie Stark is widely read as a roman à clef for Louisiana Governor Huey Long, assassinated in 1935\nNarrated by Jack Burden, a political aide whose own moral compromise mirrors Stark's rise\nTitle alludes to the nursery rhyme 'Humpty Dumpty' — all the king's men cannot put him back together\nAdapted for film in 1949 (Best Picture Oscar) and again in 2006",
           "cardFront": "*All the King's Men*",
-          "cardBack": "1947 — Robert Penn Warren"
+          "cardBack": "1947 — Robert Penn Warren",
+          "links": [
+            {
+              "text": "All the King's Men",
+              "url": "https://en.wikipedia.org/wiki/All_the_King's_Men"
+            },
+            {
+              "text": "*All the King's Men*",
+              "url": "https://en.wikipedia.org/wiki/*All_the_King's_Men*"
+            }
+          ]
         },
         {
           "id": "to-kill-a-mockingbird",
           "prompt": "This 1960 Harper Lee novel set in Depression-era Alabama, narrated by Scout Finch, won the Pulitzer in 1961.",
           "answer": "To Kill a Mockingbird",
-          "alternates": ["Mockingbird", "TKAM"],
+          "alternates": [
+            "Mockingbird",
+            "TKAM"
+          ],
           "explanation": "Harper Lee, Pulitzer 1961; has sold over 40 million copies and is a staple of American high school curricula\nAtticus Finch modeled partly on Lee's father; childhood neighbor Truman Capote appears as Dill\nLee published no other novel for 55 years until *Go Set a Watchman* (2015)\nAwarded the Presidential Medal of Freedom in 2007\nGregory Peck won the Academy Award for Best Actor for the 1962 film adaptation",
           "cardFront": "*To Kill a Mockingbird*",
-          "cardBack": "1961 — Harper Lee"
+          "cardBack": "1961 — Harper Lee",
+          "links": [
+            {
+              "text": "To Kill a Mockingbird",
+              "url": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
+            },
+            {
+              "text": "*To Kill a Mockingbird*",
+              "url": "https://en.wikipedia.org/wiki/*To_Kill_a_Mockingbird*"
+            }
+          ]
         },
         {
           "id": "the-executioners-song",
           "prompt": "This 1979 Norman Mailer 'true life novel' about the execution of murderer Gary Gilmore won the Pulitzer in 1980.",
           "answer": "The Executioner's Song",
-          "alternates": ["Executioners Song", "Executioner's Song"],
+          "alternates": [
+            "Executioners Song",
+            "Executioner's Song"
+          ],
           "explanation": "Norman Mailer, Pulitzer 1980; based on the real case of Gary Gilmore, executed by firing squad in Utah in 1977\nGilmore was the first person executed in the U.S. after the Supreme Court reinstated the death penalty in 1976\nNearly 1,100 pages; Mailer called it a 'true life novel' blending journalism and fiction\nWon the Pulitzer for Fiction despite extensive use of real events, documents, and interviews\nTommy Lee Jones played Gilmore in the 1982 TV film adaptation; won an Emmy",
           "cardFront": "*The Executioner's Song*",
-          "cardBack": "1980 — Norman Mailer"
+          "cardBack": "1980 — Norman Mailer",
+          "links": [
+            {
+              "text": "The Executioner's Song",
+              "url": "https://en.wikipedia.org/wiki/The_Executioner's_Song"
+            },
+            {
+              "text": "*The Executioner's Song*",
+              "url": "https://en.wikipedia.org/wiki/*The_Executioner's_Song*"
+            }
+          ]
         },
         {
           "id": "confederacy-of-dunces",
           "prompt": "This posthumously published novel about the pompous New Orleans medievalist Ignatius J. Reilly won the Pulitzer in 1981.",
           "answer": "A Confederacy of Dunces",
-          "alternates": ["Confederacy of Dunces"],
+          "alternates": [
+            "Confederacy of Dunces"
+          ],
           "explanation": "John Kennedy Toole, Pulitzer 1981; Toole died by suicide in 1969 at age 31 before it was published\nHis mother Thelma Toole spent 11 years finding a publisher; Louisiana State University Press finally accepted it\nOne of only two Pulitzer winners published posthumously (the other: *Andersonville*, 1955)\nTitle from Jonathan Swift: 'When a true genius appears, you may know him by this sign: all the dunces are in confederacy against him'\nWidely considered the funniest American novel",
           "cardFront": "*A Confederacy of Dunces*",
-          "cardBack": "1981 — John Kennedy Toole"
+          "cardBack": "1981 — John Kennedy Toole",
+          "links": [
+            {
+              "text": "A Confederacy of Dunces",
+              "url": "https://en.wikipedia.org/wiki/A_Confederacy_of_Dunces"
+            },
+            {
+              "text": "*A Confederacy of Dunces*",
+              "url": "https://en.wikipedia.org/wiki/*A_Confederacy_of_Dunces*"
+            }
+          ]
         },
         {
           "id": "the-color-purple",
           "prompt": "This 1982 Alice Walker epistolary novel about a Black woman named Celie in the rural South won the Pulitzer in 1983.",
           "answer": "The Color Purple",
-          "alternates": ["Color Purple"],
+          "alternates": [
+            "Color Purple"
+          ],
           "explanation": "Alice Walker, Pulitzer 1983 and National Book Award 1983; Walker was the first Black woman to win the Pulitzer for Fiction\nTold entirely through letters — to God, then to Celie's sister Nettie in Africa\nSpielberg's 1985 film adaptation starred Whoopi Goldberg as Celie and was nominated for 11 Academy Awards, winning none\nWalker was also a central figure in the rediscovery of Zora Neale Hurston's work\nAdapted as a Broadway musical in 2005; revised revival won Best Musical Revival Tony in 2016",
           "cardFront": "*The Color Purple*",
-          "cardBack": "1983 — Alice Walker"
+          "cardBack": "1983 — Alice Walker",
+          "links": [
+            {
+              "text": "The Color Purple",
+              "url": "https://en.wikipedia.org/wiki/The_Color_Purple"
+            },
+            {
+              "text": "*The Color Purple*",
+              "url": "https://en.wikipedia.org/wiki/*The_Color_Purple*"
+            }
+          ]
         },
         {
           "id": "beloved",
@@ -71,7 +150,17 @@
           "alternates": [],
           "explanation": "Toni Morrison, Pulitzer 1988; Morrison won the Nobel Prize in Literature in 1993 — first African American woman to do so\nInspired by the true case of Margaret Garner, who killed her daughter rather than allow recapture into slavery\nIn a 2006 *New York Times* survey, named the best American novel of the past 25 years\nDedicated to 'Sixty Million and more' — those who died in the Middle Passage\nOprah Winfrey produced and starred in the 1998 film adaptation",
           "cardFront": "*Beloved*",
-          "cardBack": "1988 — Toni Morrison"
+          "cardBack": "1988 — Toni Morrison",
+          "links": [
+            {
+              "text": "Beloved",
+              "url": "https://en.wikipedia.org/wiki/Beloved"
+            },
+            {
+              "text": "*Beloved*",
+              "url": "https://en.wikipedia.org/wiki/*Beloved*"
+            }
+          ]
         },
         {
           "id": "lonesome-dove",
@@ -80,16 +169,38 @@
           "alternates": [],
           "explanation": "Larry McMurtry, Pulitzer 1986; a 843-page Western epic that revitalized the genre as serious literature\nFollows retired Texas Rangers Gus McCrae and Woodrow Call on a cattle drive from the Rio Grande to Montana\nAdapted as a four-part CBS miniseries in 1989 starring Robert Duvall and Tommy Lee Jones — won 7 Emmy Awards\nMcMurtry wrote three sequels and two prequels set in the same world\nMcMurtry later won the Academy Award for Best Adapted Screenplay for *Brokeback Mountain* (2006)",
           "cardFront": "*Lonesome Dove*",
-          "cardBack": "1986 — Larry McMurtry"
+          "cardBack": "1986 — Larry McMurtry",
+          "links": [
+            {
+              "text": "Lonesome Dove",
+              "url": "https://en.wikipedia.org/wiki/Lonesome_Dove"
+            },
+            {
+              "text": "*Lonesome Dove*",
+              "url": "https://en.wikipedia.org/wiki/*Lonesome_Dove*"
+            }
+          ]
         },
         {
           "id": "the-shipping-news",
           "prompt": "This 1993 Annie Proulx novel about a hapless journalist who moves to Newfoundland won the Pulitzer in 1994.",
           "answer": "The Shipping News",
-          "alternates": ["Shipping News"],
+          "alternates": [
+            "Shipping News"
+          ],
           "explanation": "Annie Proulx, Pulitzer 1994 and National Book Award 1993; Proulx was 57 when it was published\nFollows Quoyle, a failure as a journalist and father, who rebuilds his life in a bleak Newfoundland fishing community\nEach chapter opens with a knot type from an old seamanship manual — a structural motif throughout\nProulx also wrote the short story 'Brokeback Mountain' (1997), adapted into the Oscar-winning 2005 film\nThe 2001 film adaptation starred Kevin Spacey, Cate Blanchett, and Judi Dench",
           "cardFront": "*The Shipping News*",
-          "cardBack": "1994 — Annie Proulx"
+          "cardBack": "1994 — Annie Proulx",
+          "links": [
+            {
+              "text": "The Shipping News",
+              "url": "https://en.wikipedia.org/wiki/The_Shipping_News"
+            },
+            {
+              "text": "*The Shipping News*",
+              "url": "https://en.wikipedia.org/wiki/*The_Shipping_News*"
+            }
+          ]
         },
         {
           "id": "american-pastoral",
@@ -98,25 +209,62 @@
           "alternates": [],
           "explanation": "Philip Roth, Pulitzer 1998; the first of Roth's 'American Trilogy' alongside *I Married a Communist* and *The Human Stain*\nHero Seymour 'Swede' Levov watches the American Dream collapse when his daughter Merry bombs a post office\nNarrated by recurring Roth character Nathan Zuckerman, who reconstructs Swede's life from fragments\nRoth won the National Book Award, PEN/Faulkner Award, and Man Booker International Prize during his career\nRetired from fiction writing in 2010, explicitly, calling it 'enough'",
           "cardFront": "*American Pastoral*",
-          "cardBack": "1998 — Philip Roth"
+          "cardBack": "1998 — Philip Roth",
+          "links": [
+            {
+              "text": "American Pastoral",
+              "url": "https://en.wikipedia.org/wiki/American_Pastoral"
+            },
+            {
+              "text": "*American Pastoral*",
+              "url": "https://en.wikipedia.org/wiki/*American_Pastoral*"
+            }
+          ]
         },
         {
           "id": "amazing-adventures-of-kavalier-and-clay",
           "prompt": "This 2000 Michael Chabon novel about two cousins who create a comic book superhero during WWII won the Pulitzer in 2001.",
           "answer": "The Amazing Adventures of Kavalier & Clay",
-          "alternates": ["Kavalier and Clay", "Kavalier & Clay", "Amazing Adventures of Kavalier and Clay"],
+          "alternates": [
+            "Kavalier and Clay",
+            "Kavalier & Clay",
+            "Amazing Adventures of Kavalier and Clay"
+          ],
           "explanation": "Michael Chabon, Pulitzer 2001; draws heavily on the real history of early comic book creators, many of them Jewish immigrants\nJoe Kavalier flees Nazi Prague; his cousin Sam Clay is in Brooklyn; together they create 'The Escapist'\nHoudini-inspired escape artistry runs throughout — physical escape as metaphor for Jewish survival in Europe\nCharacters inspired partly by Jack Kirby and Joe Simon, creators of Captain America\nChabon also wrote *The Adventures of Kavalier & Clay* companion piece *The Escapist* comics",
           "cardFront": "*The Amazing Adventures of Kavalier & Clay*",
-          "cardBack": "2001 — Michael Chabon"
+          "cardBack": "2001 — Michael Chabon",
+          "links": [
+            {
+              "text": "The Amazing Adventures of Kavalier & Clay",
+              "url": "https://en.wikipedia.org/wiki/The_Amazing_Adventures_of_Kavalier_&_Clay"
+            },
+            {
+              "text": "*The Amazing Adventures of Kavalier & Clay*",
+              "url": "https://en.wikipedia.org/wiki/*The_Amazing_Adventures_of_Kavalier_&_Clay*"
+            }
+          ]
         },
         {
           "id": "brief-wondrous-life-of-oscar-wao",
           "prompt": "This 2007 Junot Díaz novel about a nerdy Dominican-American and the 'fukú' curse on his family won the Pulitzer in 2008.",
           "answer": "The Brief Wondrous Life of Oscar Wao",
-          "alternates": ["Oscar Wao", "Brief Wondrous Life of Oscar Wao"],
+          "alternates": [
+            "Oscar Wao",
+            "Brief Wondrous Life of Oscar Wao"
+          ],
           "explanation": "Junot Díaz, Pulitzer 2008 and National Book Critics Circle Award; Díaz's debut novel after the story collection *Drown* (1996)\nBlends Spanish slang, Spanglish, footnotes, and sci-fi/fantasy references throughout the narrative\n'Fukú americanus' — the Dominican curse tied to Columbus and the Trujillo dictatorship — drives the novel's structure\nOscar is a 'ghetto nerd' obsessed with Tolkien and superhero comics; the novel celebrates outsider passion\nRafael Trujillo's 31-year dictatorship (1930–1961) is the historical horror beneath the family saga",
           "cardFront": "*The Brief Wondrous Life of Oscar Wao*",
-          "cardBack": "2008 — Junot Díaz"
+          "cardBack": "2008 — Junot Díaz",
+          "links": [
+            {
+              "text": "The Brief Wondrous Life of Oscar Wao",
+              "url": "https://en.wikipedia.org/wiki/The_Brief_Wondrous_Life_of_Oscar_Wao"
+            },
+            {
+              "text": "*The Brief Wondrous Life of Oscar Wao*",
+              "url": "https://en.wikipedia.org/wiki/*The_Brief_Wondrous_Life_of_Oscar_Wao*"
+            }
+          ]
         },
         {
           "id": "olive-kitteridge",
@@ -125,7 +273,17 @@
           "alternates": [],
           "explanation": "Elizabeth Strout, Pulitzer 2009; technically a linked story collection structured to read as a novel\nOlive Kitteridge is a retired math teacher in the fictional Maine town of Crosby — difficult, perceptive, unsentimental\nEach story centers on a different Crosby resident; Olive appears in each, sometimes peripherally, sometimes centrally\nAdapted as an HBO miniseries in 2014 starring Frances McDormand; won 8 Emmy Awards including Outstanding Limited Series\nStrout published a sequel, *Olive, Again*, in 2019",
           "cardFront": "*Olive Kitteridge*",
-          "cardBack": "2009 — Elizabeth Strout"
+          "cardBack": "2009 — Elizabeth Strout",
+          "links": [
+            {
+              "text": "Olive Kitteridge",
+              "url": "https://en.wikipedia.org/wiki/Olive_Kitteridge"
+            },
+            {
+              "text": "*Olive Kitteridge*",
+              "url": "https://en.wikipedia.org/wiki/*Olive_Kitteridge*"
+            }
+          ]
         },
         {
           "id": "the-road",
@@ -134,16 +292,38 @@
           "alternates": [],
           "explanation": "Cormac McCarthy, Pulitzer 2007; also an Oprah's Book Club selection — unusual for McCarthy, whose fiction is notoriously bleak\nThe nameless father and son are never named; their relationship is the entire emotional universe of the novel\nProse stripped of quotation marks and most punctuation — McCarthy's signature austere style pushed to its extreme\nAdapted as a 2009 film starring Viggo Mortensen\nMcCarthy also wrote *Blood Meridian* (1985), *No Country for Old Men* (2005), and *All the Pretty Horses* (1992)",
           "cardFront": "*The Road*",
-          "cardBack": "2007 — Cormac McCarthy"
+          "cardBack": "2007 — Cormac McCarthy",
+          "links": [
+            {
+              "text": "The Road",
+              "url": "https://en.wikipedia.org/wiki/The_Road"
+            },
+            {
+              "text": "*The Road*",
+              "url": "https://en.wikipedia.org/wiki/*The_Road*"
+            }
+          ]
         },
         {
           "id": "the-goldfinch",
           "prompt": "This 2013 Donna Tartt novel about a boy who survives a museum bombing and steals a Dutch Golden Age painting won the Pulitzer in 2014.",
           "answer": "The Goldfinch",
-          "alternates": ["Goldfinch"],
+          "alternates": [
+            "Goldfinch"
+          ],
           "explanation": "Donna Tartt, Pulitzer 2014; Tartt's third novel after *The Secret History* (1992) and *The Little Friend* (2002)\nCentral to the plot is Carel Fabritius's 1654 painting *The Goldfinch*, a tiny masterpiece at the Mauritshuis in The Hague\nTheo Decker steals the painting after a bombing kills his mother; the painting becomes his secret talisman for 13 years\nTartt takes approximately 10 years per novel — *The Goldfinch* appeared 11 years after *The Little Friend*\nThe 2019 film adaptation with Ansel Elgort received poor reviews despite the novel's acclaim",
           "cardFront": "*The Goldfinch*",
-          "cardBack": "2014 — Donna Tartt"
+          "cardBack": "2014 — Donna Tartt",
+          "links": [
+            {
+              "text": "The Goldfinch",
+              "url": "https://en.wikipedia.org/wiki/The_Goldfinch"
+            },
+            {
+              "text": "*The Goldfinch*",
+              "url": "https://en.wikipedia.org/wiki/*The_Goldfinch*"
+            }
+          ]
         }
       ]
     }

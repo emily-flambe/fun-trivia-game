@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "food-drink/cooking-terms", "parentId": "food-drink", "name": "Cooking Terms & Techniques", "description": "French and international culinary terminology and techniques" }
+    {
+      "id": "food-drink/cooking-terms",
+      "parentId": "food-drink",
+      "name": "Cooking Terms & Techniques",
+      "description": "French and international culinary terminology and techniques"
+    }
   ],
   "exercises": [
     {
@@ -14,10 +19,18 @@
           "id": "mise-en-place",
           "prompt": "What French culinary phrase, literally meaning 'everything in its place,' describes the practice of preparing and organizing all ingredients and equipment before cooking begins?",
           "answer": "Mise en place",
-          "alternates": ["mise-en-place"],
+          "alternates": [
+            "mise-en-place"
+          ],
           "explanation": "French: 'mise' (putting/placing) + 'en place' (in place) — the foundational discipline of professional kitchens\nRefers to measuring, chopping, portioning, and organizing all ingredients before the heat goes on\nAllows cooks to work cleanly and quickly during service without stopping to prep mid-cook\nInstitutionalized in classical French brigade kitchens under Escoffier in the late 19th century\nConsidered a mental discipline as much as a physical one — the organized cook is the calm cook\nProfessional chefs often use the term to describe a broader philosophy of preparedness and organization in life\nNew cooks skipping mise en place is the most common cause of burning, mistiming, or forgetting ingredients during service",
           "cardFront": "Mise en place",
-          "cardBack": "Everything in its place (prep before cooking)"
+          "cardBack": "Everything in its place (prep before cooking)",
+          "links": [
+            {
+              "text": "Mise en place",
+              "url": "https://en.wikipedia.org/wiki/Mise_en_place"
+            }
+          ]
         },
         {
           "id": "julienne",
@@ -26,16 +39,31 @@
           "alternates": [],
           "explanation": "Classic French knife cut: 1/8 inch × 1/8 inch × 2–3 inch strips, resembling wooden matchsticks\nAchieved by cutting the vegetable into planks, then stacking planks and slicing into strips\nBrunoise is made from julienned strips cut crosswise into 1/8-inch cubes\nFine julienne (chiffonade of firm vegetables) can be 1/16 inch thick\nCommon vegetables for julienne: carrots, zucchini, leek, bell peppers, daikon, cucumber\nThe word may derive from the French name 'Julien' or 'Jules' — origin uncertain; used in French culinary texts since at least the 18th century\nA mandoline speeds up julienning; many have a julienne blade attachment",
           "cardFront": "Julienne",
-          "cardBack": "Thin matchstick strips (1/8 × 1/8 × 2–3 in.)"
+          "cardBack": "Thin matchstick strips (1/8 × 1/8 × 2–3 in.)",
+          "links": [
+            {
+              "text": "Julienne",
+              "url": "https://en.wikipedia.org/wiki/Julienne"
+            }
+          ]
         },
         {
           "id": "bain-marie",
           "prompt": "What French cooking technique uses a container of water to provide gentle, indirect heat for delicate preparations like custards, sauces, and melted chocolate, and takes its name from a 1st–3rd century CE Alexandrian alchemist?",
           "answer": "Bain-marie",
-          "alternates": ["bain marie", "water bath"],
+          "alternates": [
+            "bain marie",
+            "water bath"
+          ],
           "explanation": "French: 'Mary's bath' — from medieval Latin balneum Mariae, named for Mary the Jewess, an early alchemist credited with inventing the double boiler-like apparatus\nMary the Jewess (1st–3rd century CE, Alexandria) is considered the first Western alchemist; Zosimos of Panopolis (300 CE) credits her with the invention\nIn cooking: a bowl or pan set over simmering water (double boiler) or a baking dish placed in a roasting pan of hot water in the oven\nMaximum temperature achieved is ~100°C (212°F), the boiling point of water — prevents overheating and curdling\nUsed for: chocolate tempering, hollandaise, crème brûlée, cheesecakes, terrines, custards\nIn food service: a bain-marie also refers to a hot water bath used to keep prepared foods warm on a buffet line\nThe name jumped from alchemy to culinary literature as chemistry and cooking shared vocabulary in the early modern period",
           "cardFront": "Bain-marie",
-          "cardBack": "Water bath / indirect gentle heat"
+          "cardBack": "Water bath / indirect gentle heat",
+          "links": [
+            {
+              "text": "Bain-marie",
+              "url": "https://en.wikipedia.org/wiki/Bain-marie"
+            }
+          ]
         },
         {
           "id": "roux",
@@ -44,7 +72,13 @@
           "alternates": [],
           "explanation": "Fat (butter, oil, or lard) cooked with flour to form a paste that thickens liquids when a liquid is whisked in\nThree stages by color: white roux (1–2 minutes, béchamel base), blonde roux (5–6 minutes, velouté base), brown/dark roux (10–30+ minutes, espagnole base, or Cajun/Creole gumbo)\nThe longer the roux cooks, the more flavor it develops — but the less thickening power it retains (starches break down)\nCajun and Creole cooking use dark, oil-based roux cooked 30–45 minutes until 'chocolate colored' for gumbo\nLumps form when cold roux meets cold liquid or hot roux meets hot liquid too fast; one should be warm, the other cool\nThe ratio of fat:flour:liquid determines sauce thickness; classic ratio is 1:1 fat to flour by weight\nEscoffier's five French mother sauces (béchamel, velouté, espagnole, hollandaise, and sauce tomat) include three roux-based sauces",
           "cardFront": "Roux",
-          "cardBack": "Fat + flour cooked together (base for mother sauces)"
+          "cardBack": "Fat + flour cooked together (base for mother sauces)",
+          "links": [
+            {
+              "text": "Roux",
+              "url": "https://en.wikipedia.org/wiki/Roux"
+            }
+          ]
         },
         {
           "id": "mirepoix",
@@ -53,7 +87,13 @@
           "alternates": [],
           "explanation": "Classic French aromatic base: 2 parts onion, 1 part carrot, 1 part celery by weight\nNamed after Charles de Lévis, Duke of Mirepoix (18th century); the technique was already established — the name is an honorific\nDiced size varies by intended cooking time: large dice for long braises/stocks, small dice (brunoise) for quick sauces\nCooking in fat releases fat-soluble flavor compounds; sweating (no browning) or caramelizing changes the flavor profile\nWhite mirepoix (mirepox blanc): replaces carrots with parsnip and leek to avoid color in light stocks and sauces\nThe Holy Trinity of Cajun/Creole cooking (onion, bell pepper, celery) is the American equivalent\nSoffritto (Italian): onion, carrot, celery sautéed in olive oil; Sofrito (Spanish/Latin): tomato, peppers, onion, garlic",
           "cardFront": "Mirepoix",
-          "cardBack": "Onion + carrot + celery aromatic base (2:1:1)"
+          "cardBack": "Onion + carrot + celery aromatic base (2:1:1)",
+          "links": [
+            {
+              "text": "Mirepoix",
+              "url": "https://en.wikipedia.org/wiki/Mirepoix"
+            }
+          ]
         },
         {
           "id": "brunoise",
@@ -62,16 +102,30 @@
           "alternates": [],
           "explanation": "Fine dice: 1/8 inch × 1/8 inch × 1/8 inch cubes; derived from julienned strips cut crosswise\nFine brunoise: 1/16 inch × 1/16 inch × 1/16 inch — requires exceptional knife skill\nUsed where visual precision and uniform cooking are critical: consommé garnish, sauce finishes, canapé toppings\nName is French; etymology uncertain — possibly from 'brunir' (to brown) or a regional term\nThe smaller the cut, the faster the vegetable cooks and the more surface area is exposed\nStandard dice sizes: brunoise (1/8 in.), small dice (1/4 in.), medium dice (1/2 in.), large dice (3/4 in.)\nProfessional culinary knife skills tests often include a timed brunoise to assess precision and speed",
           "cardFront": "Brunoise",
-          "cardBack": "Fine 1/8-inch dice (from julienned strips)"
+          "cardBack": "Fine 1/8-inch dice (from julienned strips)",
+          "links": [
+            {
+              "text": "Brunoise",
+              "url": "https://en.wikipedia.org/wiki/Brunoise"
+            }
+          ]
         },
         {
           "id": "saute",
           "prompt": "What French cooking method, whose name literally means 'to jump,' involves cooking food quickly in a small amount of fat over high heat while keeping it in motion?",
           "answer": "Sauté",
-          "alternates": ["Saute"],
+          "alternates": [
+            "Saute"
+          ],
           "explanation": "French: 'sauter' = to jump; refers to tossing or stirring food in a hot pan to prevent burning and ensure even browning\nHigh heat + small amount of fat + constant motion = rapid cooking that develops a Maillard reaction crust\nFoods must be dry before sautéing; moisture causes steaming instead of browning\nA sauté pan (straight-sided) differs from a sauteuse (sloped sides for flipping) — both are used for this technique\nDistinct from stir-fry (Chinese wok, very high heat, constant stirring) and pan-fry (more oil, less movement)\nMaillard reaction: browning of amino acids and sugars at ~140°C+, creating hundreds of new flavor compounds\nSautéed food should be in a single layer with space between pieces — crowding causes steaming and prevents browning",
           "cardFront": "Sauté",
-          "cardBack": "Quick cooking in fat over high heat ('to jump')"
+          "cardBack": "Quick cooking in fat over high heat ('to jump')",
+          "links": [
+            {
+              "text": "Sauté",
+              "url": "https://en.wikipedia.org/wiki/Sauté"
+            }
+          ]
         },
         {
           "id": "blanching",
@@ -80,7 +134,13 @@
           "alternates": [],
           "explanation": "Stage 1: brief boiling water submersion (30 seconds to several minutes depending on the food)\nStage 2: immediate transfer to an ice water bath (shocking) to halt carryover cooking and preserve color\nSets chlorophyll in green vegetables, keeping them vibrant; without shocking, green vegetables turn drab olive\nAlso used to: remove skin from tomatoes and stone fruits, reduce bitterness in bitter greens, loosen almond skins\nRequired before freezing most vegetables to inactivate enzymes that cause deterioration in the freezer\nDifference from parboiling: parboiling is partial cooking without the ice bath; blanching always includes the shock step\nThe term comes from French 'blanchir' (to whiten) — originally referred to blanching white meats in boiling water",
           "cardFront": "Blanching",
-          "cardBack": "Brief boiling then ice bath (sets color, stops cooking)"
+          "cardBack": "Brief boiling then ice bath (sets color, stops cooking)",
+          "links": [
+            {
+              "text": "Blanching",
+              "url": "https://en.wikipedia.org/wiki/Blanching"
+            }
+          ]
         },
         {
           "id": "chiffonade",
@@ -89,34 +149,66 @@
           "alternates": [],
           "explanation": "French: 'chiffon' (rag/ribbon) + '-ade' (made of) — resulting in very thin, ribbon-like strips\nProcess: stack leaves, roll tightly into a cigar shape, slice crosswise into thin strips\nUsed primarily on delicate leaves: basil, mint, sorrel, spinach, sage, radicchio, cabbage for coleslaw\nBasil chiffonade should never be refrigerated after cutting — the cold blackens (oxidizes) the cut edges\nWidth varies by use: very thin for garnish, slightly wider for salad incorporation\nFor firmer leaves (kale, cabbage), remove the stem first; for delicate leaves (basil), keep stems intact during rolling then discard\nA chiffonade of basil is the classic garnish for Caprese salad, margherita pizza, and tomato sauces",
           "cardFront": "Chiffonade",
-          "cardBack": "Thin ribbon strips of leafy herbs or greens"
+          "cardBack": "Thin ribbon strips of leafy herbs or greens",
+          "links": [
+            {
+              "text": "Chiffonade",
+              "url": "https://en.wikipedia.org/wiki/Chiffonade"
+            }
+          ]
         },
         {
           "id": "deglaze",
           "prompt": "What technique adds liquid (wine, stock, or water) to a hot pan after searing, loosening the caramelized browned bits (called fond) stuck to the bottom to build a flavorful pan sauce?",
           "answer": "Deglazing",
-          "alternates": ["Deglaze"],
+          "alternates": [
+            "Deglaze"
+          ],
           "explanation": "The browned bits are called fond (from French for 'bottom' or 'base', rooted in Latin fundus) — concentrated Maillard reaction flavors from searing\nThe liquid sizzles and steams on contact, releasing the fond from the pan through moisture and physical stirring\nCommon deglazing liquids: red or white wine, stock (chicken, beef, veal), brandy, beer, fruit juice, or water\nAlcohol deglazed over high heat can briefly catch flame (flambé) if splashed on an open burner flame\nAfter deglazing, the liquid is reduced to concentrate flavors; butter or cream can be swirled in to finish the sauce\nPan sauces built this way are called 'jus lié' or simply 'pan drippings sauce'\nDeglazing is central to French technique: Beef Bourguignon, Coq au Vin, and most braises start with a deglaze step",
           "cardFront": "Deglazing",
-          "cardBack": "Liquid added to hot pan to loosen fond (browned bits)"
+          "cardBack": "Liquid added to hot pan to loosen fond (browned bits)",
+          "links": [
+            {
+              "text": "Deglazing",
+              "url": "https://en.wikipedia.org/wiki/Deglazing"
+            }
+          ]
         },
         {
           "id": "emulsification",
           "prompt": "What process binds two normally immiscible liquids (fat and water) into a stable mixture using an emulsifier, explaining how sauces like hollandaise, mayonnaise, and vinaigrette hold together?",
           "answer": "Emulsification",
-          "alternates": ["Emulsify", "Emulsion"],
+          "alternates": [
+            "Emulsify",
+            "Emulsion"
+          ],
           "explanation": "Immiscible: liquids that naturally separate (oil and water); emulsification forces them into stable suspension\nEmulsifiers have hydrophilic (water-loving) and hydrophobic (fat-loving) ends that coat fat droplets and keep them dispersed\nEgg yolk is the key emulsifier in hollandaise and mayonnaise — lecithin in yolk stabilizes fat-in-water emulsions\nMayonnaise: oil whisked into egg yolk + acid (lemon/vinegar) to create a stable oil-in-water emulsion\nHollandaise: egg yolks whisked with clarified butter over a bain-marie; broken hollandaise can be rescued by whisking a broken sauce into a fresh yolk\nA temporary emulsion (vinaigrette) separates on standing; a permanent emulsion (mayonnaise) stays stable indefinitely\nMustard acts as an additional emulsifier in many vinaigrettes and sauces",
           "cardFront": "Emulsification",
-          "cardBack": "Binding oil and water with an emulsifier (hollandaise, mayo)"
+          "cardBack": "Binding oil and water with an emulsifier (hollandaise, mayo)",
+          "links": [
+            {
+              "text": "Emulsification",
+              "url": "https://en.wikipedia.org/wiki/Emulsification"
+            }
+          ]
         },
         {
           "id": "en-papillote",
           "prompt": "What French cooking technique seals food (often fish or vegetables) in a folded parchment paper parcel that puffs and steams during cooking, presented at the table for a dramatic tableside opening?",
           "answer": "En papillote",
-          "alternates": ["en papillote", "papillote"],
+          "alternates": [
+            "en papillote",
+            "papillote"
+          ],
           "explanation": "French: 'en papillote' means 'in parchment' or 'in a paper case'; 'papillon' means butterfly\nFood is placed on half of a parchment sheet with aromatics, herbs, butter, and a splash of liquid; the other half is folded over and crimped to seal\nThe sealed parcel traps steam, creating a gentle self-basting environment inside — preserving moisture and infusing flavor\nThe parcel puffs dramatically in the oven; presenting it at the table and cutting it open releases a burst of fragrant steam\nFish and shellfish are ideal (delicate, quick-cooking); chicken breast and vegetables also work well\nAl cartoccio is the Italian equivalent; occasionally foil is used instead of parchment for durability\nThe technique dates at least to medieval Arab cuisine; popularized in French fine dining by the 19th century",
           "cardFront": "En papillote",
-          "cardBack": "Cooking in sealed parchment parcel (steaming in paper)"
+          "cardBack": "Cooking in sealed parchment parcel (steaming in paper)",
+          "links": [
+            {
+              "text": "En papillote",
+              "url": "https://en.wikipedia.org/wiki/En_papillote"
+            }
+          ]
         },
         {
           "id": "umami",
@@ -125,16 +217,30 @@
           "alternates": [],
           "explanation": "Coined by Kikunae Ikeda of Tokyo Imperial University in 1908 after isolating glutamic acid from kombu (kelp) dashi\nJapanese: 'umai' (delicious) + 'mi' (taste) — often translated as 'savory' or 'pleasant savoriness'\nPrimary compound: monosodium glutamate (MSG), which Ikeda commercialized as Aji-no-moto (essence of taste) after patenting the production method\nGlutamate-rich foods: aged Parmesan, soy sauce, miso, tomatoes (especially cooked), anchovies, mushrooms, fish sauce, kombu\nTook nearly a century to gain broad scientific acceptance; umami receptors on the tongue were confirmed in 2002\nFifth taste joins sweet, salty, sour, and bitter — some researchers propose a sixth taste for fat (oleogustus)\nUmami is not just MSG: free glutamates in slow-cooked foods develop naturally through protein breakdown",
           "cardFront": "Umami",
-          "cardBack": "Fifth taste / savory (glutamate, named 1908 by Ikeda)"
+          "cardBack": "Fifth taste / savory (glutamate, named 1908 by Ikeda)",
+          "links": [
+            {
+              "text": "Umami",
+              "url": "https://en.wikipedia.org/wiki/Umami"
+            }
+          ]
         },
         {
           "id": "al-dente",
           "prompt": "What Italian phrase, literally meaning 'to the tooth,' describes pasta or rice cooked just until it offers slight resistance when bitten, rather than being fully soft all the way through?",
           "answer": "Al dente",
-          "alternates": ["al dente"],
+          "alternates": [
+            "al dente"
+          ],
           "explanation": "Italian: 'al dente' = 'to the tooth'; describes the texture of pasta that is cooked but retains a slight firmness at its center\nThe center should show a tiny white dot when a strand is cut — just barely undercooked at the core\nSignificance: pasta continues cooking from residual heat and when finished in sauce; finishing in the pan al dente produces perfectly cooked final texture\nOvercooked pasta loses structure because starch granules absorb too much water and swell excessively\nThe term applies beyond pasta: rice (especially in risotto), vegetables, and legumes are also described as al dente\nRisotto should have al dente rice grains in a creamy, starchy sauce — overcooking produces a mushy porridge\nPackaged pasta cooking times are generally 1–2 minutes longer than optimal for al dente; test by tasting, not the clock",
           "cardFront": "Al dente",
-          "cardBack": "'To the tooth' (slight resistance when bitten)"
+          "cardBack": "'To the tooth' (slight resistance when bitten)",
+          "links": [
+            {
+              "text": "Al dente",
+              "url": "https://en.wikipedia.org/wiki/Al_dente"
+            }
+          ]
         },
         {
           "id": "tempering",
@@ -143,7 +249,13 @@
           "alternates": [],
           "explanation": "In chocolate: controlled heating and cooling sequence to crystallize cocoa butter in its Form V (beta-prime) crystal structure — gives properly tempered chocolate its snap, gloss, and smooth melt\nTempered chocolate process: melt to ~45°C, cool to ~27°C (seeding with crystals), rewarm to ~31°C for use; technique varies by type (dark, milk, white)\nUntempered chocolate blooms (gray-white streaks) as cocoa butter re-crystallizes in an unstable form\nIn egg cookery: tempering means gradually whisking hot liquid into egg yolks before adding yolks to the pan — prevents scrambling (curdling) by slowly raising the egg temperature\nApplied to custards (crème anglaise, pastry cream), carbonara, and hollandaise\nThe word 'temper' comes from Latin temperare (to moderate, restrain) — controlling conditions to achieve a specific result\nImproperly tempered chocolate (e.g., seized chocolate from water contact) becomes a grainy, unusable paste",
           "cardFront": "Tempering",
-          "cardBack": "Controlled heating/cooling (chocolate crystals or egg cookery)"
+          "cardBack": "Controlled heating/cooling (chocolate crystals or egg cookery)",
+          "links": [
+            {
+              "text": "Tempering",
+              "url": "https://en.wikipedia.org/wiki/Tempering"
+            }
+          ]
         }
       ]
     }

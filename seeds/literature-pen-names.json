@@ -19,136 +19,329 @@
           "id": "mark-twain",
           "prompt": "What was the real name of the American humorist who wrote *Adventures of Huckleberry Finn* under the pen name Mark Twain?",
           "answer": "Samuel Langhorne Clemens",
-          "alternates": ["Samuel Clemens", "Sam Clemens"],
+          "alternates": [
+            "Samuel Clemens",
+            "Sam Clemens"
+          ],
           "explanation": "American author (1835–1910); born in Florida, Missouri, grew up in Hannibal on the Mississippi River\nAdopted 'Mark Twain' in 1863 — Mississippi River pilot slang for two fathoms (12 feet) of safe water depth\nAlso wrote *The Adventures of Tom Sawyer* (1876) and *A Connecticut Yankee in King Arthur's Court* (1889)\nFirst American author to write a novel on a typewriter (*Tom Sawyer*, submitted to publisher 1875)\nBorn the year Halley's Comet appeared; predicted he would die when it returned — and did (April 21, 1910)\nFriendship with Nikola Tesla; financial ruin from bad investments, including a failed typesetting machine",
           "cardFront": "Mark Twain",
-          "cardBack": "Samuel Langhorne Clemens"
+          "cardBack": "Samuel Langhorne Clemens",
+          "links": [
+            {
+              "text": "Samuel Langhorne Clemens",
+              "url": "https://en.wikipedia.org/wiki/Samuel_Langhorne_Clemens"
+            },
+            {
+              "text": "Mark Twain",
+              "url": "https://en.wikipedia.org/wiki/Mark_Twain"
+            }
+          ]
         },
         {
           "id": "george-eliot",
           "prompt": "What was the real name of the Victorian novelist who wrote *Middlemarch* and *The Mill on the Floss* under the pen name George Eliot?",
           "answer": "Mary Ann Evans",
-          "alternates": ["Mary Anne Evans", "Marian Evans"],
+          "alternates": [
+            "Mary Anne Evans",
+            "Marian Evans"
+          ],
           "explanation": "English novelist (1819–1880); born in Warwickshire, later known socially as 'Marian'\nChose a male pen name to ensure her work was taken seriously and not dismissed as 'light' women's fiction\n*Middlemarch* (1871–72) is frequently ranked the greatest novel in the English language by critics\nAlso wrote *Silas Marner* (1861), *Daniel Deronda* (1876), and the poem *O May I Join the Choir Invisible*\nLived for 24 years with philosopher George Henry Lewes (who was married but separated) — the relationship was socially scandalous\nMarried her much younger friend John Cross just seven months before her death at 61",
           "cardFront": "George Eliot",
-          "cardBack": "Mary Ann Evans"
+          "cardBack": "Mary Ann Evans",
+          "links": [
+            {
+              "text": "Mary Ann Evans",
+              "url": "https://en.wikipedia.org/wiki/Mary_Ann_Evans"
+            },
+            {
+              "text": "George Eliot",
+              "url": "https://en.wikipedia.org/wiki/George_Eliot"
+            }
+          ]
         },
         {
           "id": "george-orwell",
           "prompt": "What was the real name of the British author who wrote *1984* and *Animal Farm* under the pen name George Orwell?",
           "answer": "Eric Arthur Blair",
-          "alternates": ["Eric Blair"],
+          "alternates": [
+            "Eric Blair"
+          ],
           "explanation": "British author (1903–1950); born in Motihari, Bengal, India, to a colonial civil servant\nAdopted 'George Orwell' in 1933 for *Down and Out in Paris and London* — chosen partly to spare his family embarrassment\n*Animal Farm* (1945) was rejected by multiple publishers, including Victor Gollancz, for its anti-Soviet content during WWII\n*1984* (1949) introduced 'Big Brother,' 'doublethink,' 'Newspeak,' and 'Room 101' into the English language\nFought in the Spanish Civil War (1937) with the POUM militia; shot through the throat by a sniper\nDied of tuberculosis in January 1950, six months after *1984* was published, aged 46",
           "cardFront": "George Orwell",
-          "cardBack": "Eric Arthur Blair"
+          "cardBack": "Eric Arthur Blair",
+          "links": [
+            {
+              "text": "Eric Arthur Blair",
+              "url": "https://en.wikipedia.org/wiki/Eric_Arthur_Blair"
+            },
+            {
+              "text": "George Orwell",
+              "url": "https://en.wikipedia.org/wiki/George_Orwell"
+            }
+          ]
         },
         {
           "id": "lewis-carroll",
           "prompt": "What was the real name of the English author who wrote *Alice's Adventures in Wonderland* under the pen name Lewis Carroll?",
           "answer": "Charles Lutwidge Dodgson",
-          "alternates": ["Charles Dodgson"],
+          "alternates": [
+            "Charles Dodgson"
+          ],
           "explanation": "English author and mathematician (1832–1898); lecturer in mathematics at Christ Church, Oxford\nPen name derived by Latinizing his first two names: Charles Lutwidge → Carolus Ludovicus → Lewis Carroll\nFirst told the Alice story in 1862 during a boat trip with the Liddell family; Alice Liddell inspired the protagonist\n*Through the Looking-Glass* (1871) introduced Tweedledee and Tweedledum, Humpty Dumpty, and the poem 'Jabberwocky'\nInvented the word 'chortle' (a portmanteau of 'chuckle' and 'snort') in 'Jabberwocky'\nAlso a pioneering portrait photographer and the inventor of the word ladder puzzle",
           "cardFront": "Lewis Carroll",
-          "cardBack": "Charles Lutwidge Dodgson"
+          "cardBack": "Charles Lutwidge Dodgson",
+          "links": [
+            {
+              "text": "Charles Lutwidge Dodgson",
+              "url": "https://en.wikipedia.org/wiki/Charles_Lutwidge_Dodgson"
+            },
+            {
+              "text": "Lewis Carroll",
+              "url": "https://en.wikipedia.org/wiki/Lewis_Carroll"
+            }
+          ]
         },
         {
           "id": "voltaire",
           "prompt": "What was the real name of the French Enlightenment writer who published *Candide* under the pen name Voltaire?",
           "answer": "François-Marie Arouet",
-          "alternates": ["Francois-Marie Arouet", "Francois Marie Arouet"],
+          "alternates": [
+            "Francois-Marie Arouet",
+            "Francois Marie Arouet"
+          ],
           "explanation": "French Enlightenment writer and philosopher (1694–1778); born in Paris\nAdopted 'Voltaire' around 1718 — likely an anagram of 'AROVET LI' (Latinized name with 'le jeune')\n*Candide* (1759) satirizes Leibnizian optimism ('best of all possible worlds') in response to the Lisbon earthquake (1755)\nImprisoned twice in the Bastille; exiled to England (1726–1729), where he absorbed Locke and Newton\nProlific correspondent — over 20,000 letters survive; also wrote the *Dictionnaire philosophique* (1764)\nDied in Paris at 83 after returning from 28 years of exile; the Catholic Church refused him a church burial",
           "cardFront": "Voltaire",
-          "cardBack": "François-Marie Arouet"
+          "cardBack": "François-Marie Arouet",
+          "links": [
+            {
+              "text": "François-Marie Arouet",
+              "url": "https://en.wikipedia.org/wiki/François-Marie_Arouet"
+            },
+            {
+              "text": "Voltaire",
+              "url": "https://en.wikipedia.org/wiki/Voltaire"
+            }
+          ]
         },
         {
           "id": "moliere",
           "prompt": "What was the real name of the French playwright who wrote *Tartuffe* and *The Misanthrope* under the pen name Molière?",
           "answer": "Jean-Baptiste Poquelin",
-          "alternates": ["Jean Baptiste Poquelin"],
+          "alternates": [
+            "Jean Baptiste Poquelin"
+          ],
           "explanation": "French playwright and actor (1622–1673); born in Paris to an upholsterer who served the royal court\nAdopted 'Molière' around 1644 — possibly to spare his family's bourgeois reputation from his theatrical career\nPatron was Louis XIV, who personally intervened to allow *Tartuffe* (1664) to be performed after church objections\n*The Misanthrope* (1666) is considered his most philosophically serious work alongside the comic masterpiece\nDied on stage — or shortly after — during the fourth performance of his play *Le Malade Imaginaire* (February 17, 1673)\nBurned at least two early plays; most of the surviving canon was written in a 13-year burst (1659–1673)",
           "cardFront": "Molière",
-          "cardBack": "Jean-Baptiste Poquelin"
+          "cardBack": "Jean-Baptiste Poquelin",
+          "links": [
+            {
+              "text": "Jean-Baptiste Poquelin",
+              "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Poquelin"
+            },
+            {
+              "text": "Molière",
+              "url": "https://en.wikipedia.org/wiki/Molière"
+            }
+          ]
         },
         {
           "id": "stendhal",
           "prompt": "What was the real name of the French Realist novelist who wrote *The Red and the Black* under the pen name Stendhal?",
           "answer": "Marie-Henri Beyle",
-          "alternates": ["Henri Beyle", "Marie Henri Beyle"],
+          "alternates": [
+            "Henri Beyle",
+            "Marie Henri Beyle"
+          ],
           "explanation": "French novelist (1783–1842); born in Grenoble; used over 100 pen names but 'Stendhal' became permanent\n'Stendhal' taken from the Prussian town of Stendal, birthplace of art historian Johann Winckelmann\n*The Red and the Black* (1830) follows Julien Sorel's social climbing in Restoration France; 'red' = military, 'black' = clergy\n*The Charterhouse of Parma* (1839) was written in 52 days; Balzac praised it as a masterpiece\nServed in Napoleon's army; witnessed the burning of Moscow (1812) during the retreat from Russia\n'Stendhal syndrome' — the psychosomatic response to overwhelming art — is named after his account of dizziness in Florence (1817)",
           "cardFront": "Stendhal",
-          "cardBack": "Marie-Henri Beyle"
+          "cardBack": "Marie-Henri Beyle",
+          "links": [
+            {
+              "text": "Marie-Henri Beyle",
+              "url": "https://en.wikipedia.org/wiki/Marie-Henri_Beyle"
+            },
+            {
+              "text": "Stendhal",
+              "url": "https://en.wikipedia.org/wiki/Stendhal"
+            }
+          ]
         },
         {
           "id": "george-sand",
           "prompt": "What was the real name of the French Romantic novelist who published under the pen name George Sand?",
           "answer": "Amantine-Lucile-Aurore Dupin",
-          "alternates": ["Aurore Dupin", "Amantine Dupin", "Aurore Dudevant", "Amantine Lucile Aurore Dupin"],
+          "alternates": [
+            "Aurore Dupin",
+            "Amantine Dupin",
+            "Aurore Dudevant",
+            "Amantine Lucile Aurore Dupin"
+          ],
           "explanation": "French Romantic novelist (1804–1876); prolific author of over 70 novels including *Indiana* (1832) and *Consuelo* (1842)\nChose a male pen name to publish freely in a literary world that dismissed women writers\nAlso wore men's clothing in public — which was legally restricted in Paris — and smoked cigars openly\nNine-year relationship with composer Frédéric Chopin (1838–1847); nursed him through illness in Majorca\nFriendships spanned Balzac, Flaubert, Turgenev, Delacroix, and Liszt — a central figure of 19th-century Paris\nDied at her estate Nohant; the estate is now a museum and she is buried in its garden",
           "cardFront": "George Sand",
-          "cardBack": "Amantine-Lucile-Aurore Dupin"
+          "cardBack": "Amantine-Lucile-Aurore Dupin",
+          "links": [
+            {
+              "text": "Amantine-Lucile-Aurore Dupin",
+              "url": "https://en.wikipedia.org/wiki/Amantine-Lucile-Aurore_Dupin"
+            },
+            {
+              "text": "George Sand",
+              "url": "https://en.wikipedia.org/wiki/George_Sand"
+            }
+          ]
         },
         {
           "id": "isak-dinesen",
           "prompt": "What was the real name of the Danish author who wrote *Out of Africa* under the pen name Isak Dinesen?",
           "answer": "Karen Blixen",
-          "alternates": ["Karen Christence Blixen", "Karen Christence Dinesen"],
+          "alternates": [
+            "Karen Christence Blixen",
+            "Karen Christence Dinesen"
+          ],
           "explanation": "Danish author (1885–1962); born Karen Christence Dinesen near Rungsted, Denmark\nUsed 'Isak Dinesen' (her father's surname) for English publications; also published as 'Pierre Andrézel' in Danish\n*Out of Africa* (1937) recounts 17 years managing a coffee farm in British East Africa (Kenya) after her marriage ended\n*Babette's Feast* (1958) was adapted into an Academy Award–winning Danish film (1987) — only Danish film to win Best Foreign Language Film\nNominated for the Nobel Prize in Literature multiple times; Ernest Hemingway reportedly said she deserved it over him (1954)\nSuffered lifelong ill health from syphilis contracted from her husband Baron Bror Blixen early in their marriage",
           "cardFront": "Isak Dinesen",
-          "cardBack": "Karen Blixen"
+          "cardBack": "Karen Blixen",
+          "links": [
+            {
+              "text": "Karen Blixen",
+              "url": "https://en.wikipedia.org/wiki/Karen_Blixen"
+            },
+            {
+              "text": "Isak Dinesen",
+              "url": "https://en.wikipedia.org/wiki/Isak_Dinesen"
+            }
+          ]
         },
         {
           "id": "o-henry",
           "prompt": "What was the real name of the American short story writer who published *The Gift of the Magi* under the pen name O. Henry?",
           "answer": "William Sydney Porter",
-          "alternates": ["William S. Porter", "W. S. Porter"],
+          "alternates": [
+            "William S. Porter",
+            "W. S. Porter"
+          ],
           "explanation": "American short story writer (1862–1910); born in Greensboro, North Carolina\nAdopted 'O. Henry' while serving a prison sentence (1898–1901) for embezzlement from a Texas bank — the circumstances remain disputed\nWrote most of his ~600 stories in the last decade of his life, many for the New York World Sunday supplement\n*The Gift of the Magi* (1905) is the archetypal O. Henry story — famous for its ironic twist ending\nThe O. Henry Award for short fiction, given annually since 1919, is named in his honor\nDied of cirrhosis at 47; his last words reportedly included 'Turn up the lights — I don't want to go home in the dark'",
           "cardFront": "O. Henry",
-          "cardBack": "William Sydney Porter"
+          "cardBack": "William Sydney Porter",
+          "links": [
+            {
+              "text": "William Sydney Porter",
+              "url": "https://en.wikipedia.org/wiki/William_Sydney_Porter"
+            },
+            {
+              "text": "O. Henry",
+              "url": "https://en.wikipedia.org/wiki/O._Henry"
+            }
+          ]
         },
         {
           "id": "saki",
           "prompt": "What was the real name of the British Edwardian short story writer known for dark wit who published under the pen name Saki?",
           "answer": "Hector Hugh Munro",
-          "alternates": ["H. H. Munro", "H.H. Munro"],
+          "alternates": [
+            "H. H. Munro",
+            "H.H. Munro"
+          ],
           "explanation": "British author (1870–1916); born in Akyab, Burma, to a British army officer; raised by strict aunts in Devon\nPen name 'Saki' likely taken from the cupbearer in the *Rubáiyát of Omar Khayyám*\nKnown for macabre, witty short stories such as 'The Open Window,' 'Sredni Vashtar,' and 'The Interlopers'\nMany stories feature revenge of children or animals against cruel or pompous adults — drawn from his joyless childhood\nEnlisted as a private in WWI at age 43 (above draft age) despite being eligible for officer rank\nKilled by a German sniper's bullet on November 14, 1916, at the Battle of the Ancre; his last words were reportedly 'Put that bloody cigarette out'",
           "cardFront": "Saki",
-          "cardBack": "Hector Hugh Munro"
+          "cardBack": "Hector Hugh Munro",
+          "links": [
+            {
+              "text": "Hector Hugh Munro",
+              "url": "https://en.wikipedia.org/wiki/Hector_Hugh_Munro"
+            },
+            {
+              "text": "Saki",
+              "url": "https://en.wikipedia.org/wiki/Saki"
+            }
+          ]
         },
         {
           "id": "ayn-rand",
           "prompt": "What was the real name of the Russian-American novelist who wrote *Atlas Shrugged* and *The Fountainhead* under the pen name Ayn Rand?",
           "answer": "Alisa Zinovyevna Rosenbaum",
-          "alternates": ["Alisa Rosenbaum"],
+          "alternates": [
+            "Alisa Rosenbaum"
+          ],
           "explanation": "Russian-American novelist and philosopher (1905–1982); born in Saint Petersburg\nAdopted 'Ayn Rand' while emigrating — 'Ayn' possibly from a Finnish author's name; 'Rand' from her Remington Rand typewriter\n*The Fountainhead* (1943) was rejected by 12 publishers before becoming a bestseller; *Atlas Shrugged* (1957) is her magnum opus\nDeveloped Objectivism, a philosophy advocating rational self-interest, laissez-faire capitalism, and rejection of altruism\nFled Soviet Russia in 1926; her family's pharmacy had been seized by the Bolsheviks after the revolution\nDied in New York in 1982; *Atlas Shrugged* consistently ranks among the most influential books in the United States",
           "cardFront": "Ayn Rand",
-          "cardBack": "Alisa Zinovyevna Rosenbaum"
+          "cardBack": "Alisa Zinovyevna Rosenbaum",
+          "links": [
+            {
+              "text": "Alisa Zinovyevna Rosenbaum",
+              "url": "https://en.wikipedia.org/wiki/Alisa_Zinovyevna_Rosenbaum"
+            },
+            {
+              "text": "Ayn Rand",
+              "url": "https://en.wikipedia.org/wiki/Ayn_Rand"
+            }
+          ]
         },
         {
           "id": "joseph-conrad",
           "prompt": "What was the real name of the Polish-British novelist who wrote *Heart of Darkness* and *Lord Jim* under the pen name Joseph Conrad?",
           "answer": "Józef Teodor Konrad Korzeniowski",
-          "alternates": ["Jozef Teodor Konrad Korzeniowski", "Jozef Korzeniowski"],
+          "alternates": [
+            "Jozef Teodor Konrad Korzeniowski",
+            "Jozef Korzeniowski"
+          ],
           "explanation": "Polish-British novelist (1857–1924); born in Berdychiv, Ukraine (then Russian-controlled Poland)\nAnglicized his third given name 'Konrad' to 'Conrad' for publication; English was his third language after Polish and French\n*Heart of Darkness* (1899) draws on his 1890 journey up the Congo River as a steamboat captain for a Belgian trading company\nBecame a British subject in 1886 after a career as a merchant mariner; didn't publish his first novel until age 38\n*Lord Jim* (1900), *Nostromo* (1904), and *The Secret Agent* (1907) cement his place in the English literary canon\nFrancis Ford Coppola's *Apocalypse Now* (1979) is an adaptation of *Heart of Darkness* set during the Vietnam War",
           "cardFront": "Joseph Conrad",
-          "cardBack": "Józef Teodor Konrad Korzeniowski"
+          "cardBack": "Józef Teodor Konrad Korzeniowski",
+          "links": [
+            {
+              "text": "Józef Teodor Konrad Korzeniowski",
+              "url": "https://en.wikipedia.org/wiki/Józef_Teodor_Konrad_Korzeniowski"
+            },
+            {
+              "text": "Joseph Conrad",
+              "url": "https://en.wikipedia.org/wiki/Joseph_Conrad"
+            }
+          ]
         },
         {
           "id": "pablo-neruda",
           "prompt": "What was the real name of the Chilean poet who won the 1971 Nobel Prize in Literature under the pen name Pablo Neruda?",
           "answer": "Ricardo Eliecer Neftalí Reyes Basoalto",
-          "alternates": ["Neftali Reyes", "Ricardo Reyes", "Neftalí Reyes Basoalto"],
+          "alternates": [
+            "Neftali Reyes",
+            "Ricardo Reyes",
+            "Neftalí Reyes Basoalto"
+          ],
           "explanation": "Chilean poet and diplomat (1904–1973); born in Parral, Chile\nAdopted 'Pablo Neruda' as a teenager — taken from Czech poet Jan Neruda — to hide his writing from his disapproving father\nBest known for *Veinte poemas de amor y una canción desesperada* (1924) and *Canto General* (1950)\nAwarded the Nobel Prize in Literature in 1971; Gabriel García Márquez called him 'the greatest poet of the 20th century in any language'\nServed as a Communist senator and Chilean consul in various countries; forced into exile after a 1948 government crackdown\nDied September 23, 1973, twelve days after Pinochet's coup; circumstances of death (officially prostate cancer) remain disputed",
           "cardFront": "Pablo Neruda",
-          "cardBack": "Ricardo Eliecer Neftalí Reyes Basoalto"
+          "cardBack": "Ricardo Eliecer Neftalí Reyes Basoalto",
+          "links": [
+            {
+              "text": "Ricardo Eliecer Neftalí Reyes Basoalto",
+              "url": "https://en.wikipedia.org/wiki/Ricardo_Eliecer_Neftalí_Reyes_Basoalto"
+            },
+            {
+              "text": "Pablo Neruda",
+              "url": "https://en.wikipedia.org/wiki/Pablo_Neruda"
+            }
+          ]
         },
         {
           "id": "currer-bell",
           "prompt": "What was the real name of the author who published *Jane Eyre* (1847) under the male pen name Currer Bell?",
           "answer": "Charlotte Brontë",
-          "alternates": ["Charlotte Bronte"],
+          "alternates": [
+            "Charlotte Bronte"
+          ],
           "explanation": "English novelist (1816–1855); eldest of the three writing Brontë sisters; born in Thornton, Yorkshire\nAll three sisters — Charlotte, Emily, and Anne — initially published under male pen names: Currer, Ellis, and Acton Bell\nChosen to avoid the 'condescension' shown to female authors; 'Bell' preserved their real initials (C.B., E.B., A.B.)\n*Jane Eyre* (1847) was an immediate bestseller; the mystery of 'Currer Bell's' identity was a London literary sensation\nAlso wrote *Shirley* (1849), *Villette* (1853), and *The Professor* (posthumous, 1857)\nDied in 1855, aged 38, during early pregnancy; three of her four siblings died between 1848 and 1849",
           "cardFront": "Currer Bell",
-          "cardBack": "Charlotte Brontë"
+          "cardBack": "Charlotte Brontë",
+          "links": [
+            {
+              "text": "Charlotte Brontë",
+              "url": "https://en.wikipedia.org/wiki/Charlotte_Brontë"
+            },
+            {
+              "text": "Currer Bell",
+              "url": "https://en.wikipedia.org/wiki/Currer_Bell"
+            }
+          ]
         }
       ]
     }

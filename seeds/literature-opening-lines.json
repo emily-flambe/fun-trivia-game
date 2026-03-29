@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "literature/opening-lines", "parentId": "literature", "name": "Opening Lines", "description": "Famous first lines of novels and their books" }
+    {
+      "id": "literature/opening-lines",
+      "parentId": "literature",
+      "name": "Opening Lines",
+      "description": "Famous first lines of novels and their books"
+    }
   ],
   "exercises": [
     {
@@ -14,28 +19,66 @@
           "id": "call-me-ishmael",
           "prompt": "Which novel begins with the line \"Call me Ishmael\"?",
           "answer": "Moby-Dick",
-          "alternates": ["Moby Dick", "Moby-Dick; or, The Whale"],
+          "alternates": [
+            "Moby Dick",
+            "Moby-Dick; or, The Whale"
+          ],
           "explanation": "Herman Melville, published 1851; Ishmael is the sole survivor of the voyage and the novel's narrator\nThree words that establish the narrator's ambiguity — we never learn if 'Ishmael' is actually his name\nMelville based the story partly on the real sinking of the whaleship Essex (1820) by a sperm whale\nThe novel flopped on publication and was out of print when Melville died in 1891; rediscovered in the 1920s 'Melville Revival'\nDedicated to Nathaniel Hawthorne, Melville's friend and neighbor in the Berkshires\nRanked among the greatest American novels by Modern Library, Time, and countless critics",
           "cardFront": "\"Call me Ishmael.\"",
-          "cardBack": "*Moby-Dick* — Herman Melville"
+          "cardBack": "*Moby-Dick* — Herman Melville",
+          "links": [
+            {
+              "text": "Moby-Dick",
+              "url": "https://en.wikipedia.org/wiki/Moby-Dick"
+            },
+            {
+              "text": "\"Call me Ishmael.\"",
+              "url": "https://en.wikipedia.org/wiki/\"Call_me_Ishmael.\""
+            }
+          ]
         },
         {
           "id": "best-of-times",
           "prompt": "Which novel begins with the line \"It was the best of times, it was the worst of times\"?",
           "answer": "A Tale of Two Cities",
-          "alternates": ["Tale of Two Cities"],
+          "alternates": [
+            "Tale of Two Cities"
+          ],
           "explanation": "Charles Dickens, published 1859; set in London and Paris during the French Revolution\nThe opening paragraph's six paired oppositions ('the age of wisdom / foolishness,' 'epoch of belief / incredulity') run for over 100 words\nThe two cities are London and Paris; the tale contrasts English stability with revolutionary French violence\nEnds with Sydney Carton's famous sacrifice: 'It is a far, far better thing that I do, than I have ever done'\nThe best-selling novel of all time by some estimates; has never been out of print\nDickens researched the Revolution using Thomas Carlyle's *The French Revolution*; Carlyle reportedly lent him his entire library",
           "cardFront": "\"It was the best of times, it was the worst of times\"",
-          "cardBack": "*A Tale of Two Cities* — Charles Dickens"
+          "cardBack": "*A Tale of Two Cities* — Charles Dickens",
+          "links": [
+            {
+              "text": "A Tale of Two Cities",
+              "url": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities"
+            },
+            {
+              "text": "\"It was the best of times, it was the worst of times\"",
+              "url": "https://en.wikipedia.org/wiki/\"It_was_the_best_of_times,_it_was_the_worst_of_times\""
+            }
+          ]
         },
         {
           "id": "clocks-striking-thirteen",
           "prompt": "Which novel begins with the line \"It was a bright cold day in April, and the clocks were striking thirteen\"?",
           "answer": "1984",
-          "alternates": ["Nineteen Eighty-Four", "Nineteen Eighty Four"],
+          "alternates": [
+            "Nineteen Eighty-Four",
+            "Nineteen Eighty Four"
+          ],
           "explanation": "George Orwell, published 1949; the 'thirteen' signals instantly that this is a society where reality has been altered\nWritten on the Scottish island of Jura while Orwell was dying of tuberculosis; he died in January 1950\nIntroduced 'Big Brother,' 'doublethink,' 'Newspeak,' 'thoughtcrime,' and 'Room 101' into English\nThe title was arrived at by inverting the last two digits of the year Orwell finished it: 1948\nSales spike with every government surveillance scandal; topped bestseller lists after the Snowden leaks (2013)\nOrwell's real name was Eric Arthur Blair",
           "cardFront": "\"It was a bright cold day in April, and the clocks were striking thirteen.\"",
-          "cardBack": "*1984* — George Orwell"
+          "cardBack": "*1984* — George Orwell",
+          "links": [
+            {
+              "text": "1984",
+              "url": "https://en.wikipedia.org/wiki/1984"
+            },
+            {
+              "text": "\"It was a bright cold day in April, and the clocks were striking thirteen.\"",
+              "url": "https://en.wikipedia.org/wiki/\"It_was_a_bright_cold_day_in_April,_and_the_clocks_were_striking_thirteen.\""
+            }
+          ]
         },
         {
           "id": "happy-families",
@@ -44,16 +87,38 @@
           "alternates": [],
           "explanation": "Leo Tolstoy, published 1878; the opening applies to both plot strands — Anna's catastrophic affair and Levin's hopeful domestic life\nThe Russian opening ('Vse schastlivye sem'i pokhozhi drug na druga') is equally famous in Russian literature\nAnna's tragedy is foreshadowed from the first pages: a man is killed by a train before Anna and Vronsky even meet\nThe parallel Levin plot — a landowner seeking meaning through farming and faith — ends with contentment rather than tragedy\nTolstoy reportedly felt Anna 'ran away' from his original intentions, taking the novel in directions he didn't plan\n'Vengeance is mine; I will repay' (Romans 12:19) is the epigraph — whose vengeance the novel leaves ambiguous",
           "cardFront": "\"All happy families are alike; each unhappy family is unhappy in its own way.\"",
-          "cardBack": "*Anna Karenina* — Leo Tolstoy"
+          "cardBack": "*Anna Karenina* — Leo Tolstoy",
+          "links": [
+            {
+              "text": "Anna Karenina",
+              "url": "https://en.wikipedia.org/wiki/Anna_Karenina"
+            },
+            {
+              "text": "\"All happy families are alike; each unhappy family is unhappy in its own way.\"",
+              "url": "https://en.wikipedia.org/wiki/\"All_happy_families_are_alike;_each_unhappy_family_is_unhappy_in_its_own_way.\""
+            }
+          ]
         },
         {
           "id": "truth-universally-acknowledged",
           "prompt": "Which novel begins with the line \"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife\"?",
           "answer": "Pride and Prejudice",
-          "alternates": ["Pride & Prejudice"],
+          "alternates": [
+            "Pride & Prejudice"
+          ],
           "explanation": "Jane Austen, published 1813; the opening line is ironic — it describes the neighborhood's assumptions, not universal truth\nOriginally titled 'First Impressions' when drafted in 1796–1797; rejected by publisher Thomas Cadell sight unseen\nAusten published all six novels anonymously, credited to 'A Lady'\nFollows the five Bennet daughters; Elizabeth and Darcy's enemies-to-lovers arc is the prototypical Regency romance\nColin Firth's 1995 BBC portrayal of Darcy, including the famous wet-shirt scene, created a cultural phenomenon\nAusten's face appeared on the British ten-pound note from 2017; she died at 41 in 1817",
           "cardFront": "\"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\"",
-          "cardBack": "*Pride and Prejudice* — Jane Austen"
+          "cardBack": "*Pride and Prejudice* — Jane Austen",
+          "links": [
+            {
+              "text": "Pride and Prejudice",
+              "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice"
+            },
+            {
+              "text": "\"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\"",
+              "url": "https://en.wikipedia.org/wiki/\"It_is_a_truth_universally_acknowledged,_that_a_single_man_in_possession_of_a_good_fortune,_must_be_in_want_of_a_wife.\""
+            }
+          ]
         },
         {
           "id": "lolita-light-of-my-life",
@@ -62,34 +127,84 @@
           "alternates": [],
           "explanation": "Vladimir Nabokov, published 1955; the opening line's alliteration is a key to Humbert's seductive, manipulative prose style\nNabokov wrote it in English (not his first or second language) — one of the most celebrated feats of literary style in any language\nRejected by four American publishers as obscene; first published in Paris by Olympia Press, which specialized in erotica\nThe name 'Lolita' has entered English as a word for a sexually precocious girl — a use Nabokov rejected as a misreading\nHumbert confesses to murdering Quilty in the opening paragraphs — the plot is framed as a legal document\nNabokov also wrote *Pale Fire* (1962) and *Ada* (1969); he was an expert entomologist and classified several butterfly species",
           "cardFront": "\"Lolita, light of my life, fire of my loins.\"",
-          "cardBack": "*Lolita* — Vladimir Nabokov"
+          "cardBack": "*Lolita* — Vladimir Nabokov",
+          "links": [
+            {
+              "text": "Lolita",
+              "url": "https://en.wikipedia.org/wiki/Lolita"
+            },
+            {
+              "text": "\"Lolita, light of my life, fire of my loins.\"",
+              "url": "https://en.wikipedia.org/wiki/\"Lolita,_light_of_my_life,_fire_of_my_loins.\""
+            }
+          ]
         },
         {
           "id": "slandered-josef-k",
           "prompt": "Which novel begins with the line \"Someone must have slandered Josef K., for one morning, without having done anything wrong, he was arrested\"?",
           "answer": "The Trial",
-          "alternates": ["Der Process", "Der Proceß"],
+          "alternates": [
+            "Der Process",
+            "Der Proceß"
+          ],
           "explanation": "Franz Kafka, written c. 1914–1915, published posthumously 1925; Kafka instructed Max Brod to burn the manuscript — Brod refused\nJosef K. is arrested but never told the charge — the crime is never named and the court never explained\n'Kafkaesque' (describing oppressive, senseless bureaucracy) derives from this novel and *The Metamorphosis*\nOrson Welles adapted it as a film in 1962 with Anthony Perkins as K.; Welles called it his best film\nKafka wrote in German; he worked as an insurance clerk in Prague for most of his adult life\nDied of tuberculosis in 1924 at age 40; his three unfinished novels (*The Trial*, *The Castle*, *Amerika*) were all published after his death",
           "cardFront": "\"Someone must have slandered Josef K., for one morning, without having done anything wrong, he was arrested.\"",
-          "cardBack": "*The Trial* — Franz Kafka"
+          "cardBack": "*The Trial* — Franz Kafka",
+          "links": [
+            {
+              "text": "The Trial",
+              "url": "https://en.wikipedia.org/wiki/The_Trial"
+            },
+            {
+              "text": "\"Someone must have slandered Josef K., for one morning, without having done anything wrong, he was arrested.\"",
+              "url": "https://en.wikipedia.org/wiki/\"Someone_must_have_slandered_Josef_K.,_for_one_morning,_without_having_done_anything_wrong,_he_was_arrested.\""
+            }
+          ]
         },
         {
           "id": "huck-finn-without-you-have-read",
           "prompt": "Which novel begins with the line \"You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer\"?",
           "answer": "Adventures of Huckleberry Finn",
-          "alternates": ["Huckleberry Finn", "Huck Finn", "The Adventures of Huckleberry Finn"],
+          "alternates": [
+            "Huckleberry Finn",
+            "Huck Finn",
+            "The Adventures of Huckleberry Finn"
+          ],
           "explanation": "Mark Twain, published 1884–1885; the opening immediately establishes Huck's vernacular voice and self-awareness as a character\nHuck's reference to Twain's previous novel (*Tom Sawyer*, 1876) is one of literature's earliest meta-fictional nods\nHemingway declared: 'All modern American literature comes from one book by Mark Twain called *Huckleberry Finn*'\nHuck's decision to 'go to hell' rather than betray Jim is one of American literature's pivotal moral moments\nFamously challenged in libraries almost immediately after publication; still one of the most frequently banned American novels\nTwain's real name was Samuel Langhorne Clemens; 'Mark Twain' was a Mississippi River depth-sounding call (two fathoms, safe water)",
           "cardFront": "\"You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer\"",
-          "cardBack": "*Adventures of Huckleberry Finn* — Mark Twain"
+          "cardBack": "*Adventures of Huckleberry Finn* — Mark Twain",
+          "links": [
+            {
+              "text": "Adventures of Huckleberry Finn",
+              "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn"
+            },
+            {
+              "text": "\"You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer\"",
+              "url": "https://en.wikipedia.org/wiki/\"You_don't_know_about_me_without_you_have_read_a_book_by_the_name_of_The_Adventures_of_Tom_Sawyer\""
+            }
+          ]
         },
         {
           "id": "facing-the-firing-squad",
           "prompt": "Which novel begins with the line \"Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice\"?",
           "answer": "One Hundred Years of Solitude",
-          "alternates": ["Cien años de soledad", "100 Years of Solitude"],
+          "alternates": [
+            "Cien años de soledad",
+            "100 Years of Solitude"
+          ],
           "explanation": "Gabriel García Márquez, published 1967 in Spanish; the opening plants three time frames simultaneously — a firing squad (future), discovery of ice (past), and an unnamed 'now'\nThe technique of beginning with a future event and flashing back became García Márquez's signature\nThe defining novel of magical realism — the fantastical is presented as matter-of-factly as any other event\nHas sold over 50 million copies in 46 languages; García Márquez won the Nobel Prize in Literature in 1982\nGarcía Márquez sold his car to support his family while writing it; the advance from his publisher paid off the resulting debt\nA Netflix adaptation was released in 2024, the first authorized screen version after decades of García Márquez blocking it",
           "cardFront": "\"Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.\"",
-          "cardBack": "*One Hundred Years of Solitude* — Gabriel García Márquez"
+          "cardBack": "*One Hundred Years of Solitude* — Gabriel García Márquez",
+          "links": [
+            {
+              "text": "One Hundred Years of Solitude",
+              "url": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude"
+            },
+            {
+              "text": "\"Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.\"",
+              "url": "https://en.wikipedia.org/wiki/\"Many_years_later,_as_he_faced_the_firing_squad,_Colonel_Aureliano_Buendía_was_to_remember_that_distant_afternoon_when_his_father_took_him_to_discover_ice.\""
+            }
+          ]
         },
         {
           "id": "dark-and-stormy-night",
@@ -98,16 +213,38 @@
           "alternates": [],
           "explanation": "Edward Bulwer-Lytton, published 1830; the full opening sentence runs on for nearly 60 words with multiple semicolons\nBulwer-Lytton was a popular Victorian novelist; 'Paul Clifford' was well-received at the time despite the opening\n'The pen is mightier than the sword' (from his 1839 play *Richelieu*) and 'the great unwashed' are both Bulwer-Lytton coinages\nThe annual Bulwer-Lytton Fiction Contest (est. 1982, San Jose State University) awards the worst possible opening sentence to a novel\nCharles Schulz immortalized the line by having Snoopy type it repeatedly as the beginning of his unfinished novel in *Peanuts*\nBulwer-Lytton also coined the phrase 'pursuit of the almighty dollar'",
           "cardFront": "\"It was a dark and stormy night\"",
-          "cardBack": "*Paul Clifford* — Edward Bulwer-Lytton"
+          "cardBack": "*Paul Clifford* — Edward Bulwer-Lytton",
+          "links": [
+            {
+              "text": "Paul Clifford",
+              "url": "https://en.wikipedia.org/wiki/Paul_Clifford"
+            },
+            {
+              "text": "\"It was a dark and stormy night\"",
+              "url": "https://en.wikipedia.org/wiki/\"It_was_a_dark_and_stormy_night\""
+            }
+          ]
         },
         {
           "id": "stately-plump-buck-mulligan",
           "prompt": "Which novel begins with the line \"Stately, plump Buck Mulligan came from the stairhead\"?",
           "answer": "Ulysses",
-          "alternates": ["Ulysses by James Joyce"],
+          "alternates": [
+            "Ulysses by James Joyce"
+          ],
           "explanation": "James Joyce, published 1922; set entirely on June 16, 1904 in Dublin — now celebrated annually as 'Bloomsday'\nBuck Mulligan (based on real-life Oliver St. John Gogarty) provides the opening scene before Leopold Bloom appears in Chapter 4\nBanned in the U.S. for obscenity until the landmark 1933 *United States v. One Book Called Ulysses* ruling\nRanked #1 on the Modern Library's 100 Best English-Language Novels of the 20th Century\nJoyce's stream-of-consciousness style — interior monologue following a character's unfiltered thoughts — revolutionized the novel form\nThe novel's final chapter (Molly Bloom's monologue) runs 46 pages as a single sentence with no punctuation except two final periods",
           "cardFront": "\"Stately, plump Buck Mulligan came from the stairhead\"",
-          "cardBack": "*Ulysses* — James Joyce"
+          "cardBack": "*Ulysses* — James Joyce",
+          "links": [
+            {
+              "text": "Ulysses",
+              "url": "https://en.wikipedia.org/wiki/Ulysses"
+            },
+            {
+              "text": "\"Stately, plump Buck Mulligan came from the stairhead\"",
+              "url": "https://en.wikipedia.org/wiki/\"Stately,_plump_Buck_Mulligan_came_from_the_stairhead\""
+            }
+          ]
         },
         {
           "id": "manderley-again",
@@ -116,25 +253,60 @@
           "alternates": [],
           "explanation": "Daphne du Maurier, published 1938; Manderley is the fictional Cornish estate haunted by the memory of the first Mrs. de Winter\nThe unnamed narrator-protagonist is one of literature's rare major characters without a given name\n'Rebecca' never appears as a living character — she exerts power from beyond her death throughout the entire novel\nAlfred Hitchcock's 1940 film adaptation won the Academy Award for Best Picture — Hitchcock's only Best Picture winner\nThe novel sold 3 million copies in the U.S. alone during WWII, one of the great wartime bestsellers\nDu Maurier based Manderley on Menabilly, a Cornish house she rented from 1943 onward; the novel was written before she lived there",
           "cardFront": "\"Last night I dreamt I went to Manderley again.\"",
-          "cardBack": "*Rebecca* — Daphne du Maurier"
+          "cardBack": "*Rebecca* — Daphne du Maurier",
+          "links": [
+            {
+              "text": "Rebecca",
+              "url": "https://en.wikipedia.org/wiki/Rebecca"
+            },
+            {
+              "text": "\"Last night I dreamt I went to Manderley again.\"",
+              "url": "https://en.wikipedia.org/wiki/\"Last_night_I_dreamt_I_went_to_Manderley_again.\""
+            }
+          ]
         },
         {
           "id": "invisible-man",
           "prompt": "Which novel begins with the line \"I am an invisible man\"?",
           "answer": "Invisible Man",
-          "alternates": ["Invisible Man by Ralph Ellison"],
+          "alternates": [
+            "Invisible Man by Ralph Ellison"
+          ],
           "explanation": "Ralph Ellison, published 1952; the narrator's invisibility is metaphorical — white America refuses to see him as an individual\nWon the National Book Award in 1953 — Ellison was the first African American to receive it\nEllison began the novel in a barn in Vermont in 1945 while on leave from the Merchant Marine\nEllison's only published novel in his lifetime; he worked on a second for 40+ years without completing it\nNot to be confused with H.G. Wells's *The Invisible Man* (1897), which concerns literal physical invisibility\nThe novel's final line — 'Who knows but that, on the lower frequencies, I speak for you?' — is one of the most celebrated in American fiction",
           "cardFront": "\"I am an invisible man.\"",
-          "cardBack": "*Invisible Man* — Ralph Ellison"
+          "cardBack": "*Invisible Man* — Ralph Ellison",
+          "links": [
+            {
+              "text": "Invisible Man",
+              "url": "https://en.wikipedia.org/wiki/Invisible_Man"
+            },
+            {
+              "text": "\"I am an invisible man.\"",
+              "url": "https://en.wikipedia.org/wiki/\"I_am_an_invisible_man.\""
+            }
+          ]
         },
         {
           "id": "gregor-samsa-transformed",
           "prompt": "Which novel begins with the line \"As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a monstrous vermin\"?",
           "answer": "The Metamorphosis",
-          "alternates": ["Metamorphosis", "Die Verwandlung"],
+          "alternates": [
+            "Metamorphosis",
+            "Die Verwandlung"
+          ],
           "explanation": "Franz Kafka, published 1915; the transformation is stated as flat fact in the opening clause — no buildup or explanation\nKafka's German 'ungeheueres Ungeziefer' means approximately 'monstrous vermin' — he deliberately refused to specify the creature\nKafka explicitly forbade any illustration of an insect on the cover of the first edition\nGregor's family initially cares for him, then treats him with growing disgust until his death brings them relief\nKafka died of tuberculosis in 1924; this novella and *The Trial* are the works most central to his reputation\nThe novella is Kafka's own experience of alienation and family burden — he worked a hated office job while writing fiction at night",
           "cardFront": "\"As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a monstrous vermin.\"",
-          "cardBack": "*The Metamorphosis* — Franz Kafka"
+          "cardBack": "*The Metamorphosis* — Franz Kafka",
+          "links": [
+            {
+              "text": "The Metamorphosis",
+              "url": "https://en.wikipedia.org/wiki/The_Metamorphosis"
+            },
+            {
+              "text": "\"As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a monstrous vermin.\"",
+              "url": "https://en.wikipedia.org/wiki/\"As_Gregor_Samsa_awoke_one_morning_from_uneasy_dreams_he_found_himself_transformed_in_his_bed_into_a_monstrous_vermin.\""
+            }
+          ]
         },
         {
           "id": "color-of-television",
@@ -143,7 +315,17 @@
           "alternates": [],
           "explanation": "William Gibson, published 1984; the opening line defined the aesthetic of cyberpunk — gritty, technological, urban\nThe first novel to win the Hugo Award, the Nebula Award, and the Philip K. Dick Award — the triple crown of science fiction\nCoined the term 'cyberspace': 'A consensual hallucination experienced daily by billions of legitimate operators'\nGibson wrote the novel on a manual typewriter, deliberately avoiding computers, which he found intimidating\nSet in a sprawling future megalopolis called 'the Sprawl'; protagonist Case is a washed-up data thief hired for one last job\nThe novel's visual aesthetic directly influenced *The Matrix* (1999) and most subsequent cyberpunk cinema",
           "cardFront": "\"The sky above the port was the color of television, tuned to a dead channel.\"",
-          "cardBack": "*Neuromancer* — William Gibson"
+          "cardBack": "*Neuromancer* — William Gibson",
+          "links": [
+            {
+              "text": "Neuromancer",
+              "url": "https://en.wikipedia.org/wiki/Neuromancer"
+            },
+            {
+              "text": "\"The sky above the port was the color of television, tuned to a dead channel.\"",
+              "url": "https://en.wikipedia.org/wiki/\"The_sky_above_the_port_was_the_color_of_television,_tuned_to_a_dead_channel.\""
+            }
+          ]
         }
       ]
     }
