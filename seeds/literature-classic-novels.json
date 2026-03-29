@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "literature/classic-novels", "parentId": "literature", "name": "Classic Novels", "description": "Foundational novels of world literature and their authors" }
+    {
+      "id": "literature/classic-novels",
+      "parentId": "literature",
+      "name": "Classic Novels",
+      "description": "Foundational novels of world literature and their authors"
+    }
   ],
   "exercises": [
     {
@@ -14,316 +19,761 @@
           "id": "moby-dick",
           "prompt": "Who wrote *Moby-Dick*?",
           "answer": "Herman Melville",
-          "alternates": ["Melville"],
+          "alternates": [
+            "Melville"
+          ],
           "explanation": "Published 1851; flopped commercially and was out of print when Melville died in 1891\nRediscovered in the 1920s 'Melville Revival' and now considered a masterpiece of American literature\nOpening line 'Call me Ishmael' is one of the most famous in English\nBased partly on the real sinking of the whaleship Essex (1820) by a sperm whale\nMelville dedicated the novel to Nathaniel Hawthorne, his friend and neighbor in the Berkshires\nMelville spent his final 19 years as a customs inspector in New York, largely forgotten",
           "cardFront": "*Moby-Dick*",
-          "cardBack": "Herman Melville"
+          "cardBack": "Herman Melville",
+          "links": [
+            {
+              "text": "Herman Melville",
+              "url": "https://en.wikipedia.org/wiki/Herman_Melville"
+            },
+            {
+              "text": "*Moby-Dick*",
+              "url": "https://en.wikipedia.org/wiki/*Moby-Dick*"
+            }
+          ]
         },
         {
           "id": "great-gatsby",
           "prompt": "Who wrote *The Great Gatsby*?",
           "answer": "F. Scott Fitzgerald",
-          "alternates": ["Fitzgerald", "Scott Fitzgerald", "Francis Scott Fitzgerald"],
+          "alternates": [
+            "Fitzgerald",
+            "Scott Fitzgerald",
+            "Francis Scott Fitzgerald"
+          ],
           "explanation": "Published 1925; sold poorly in Fitzgerald's lifetime — fewer than 25,000 copies before his death\nBecame canonical after WWII when the U.S. Armed Services distributed free copies to soldiers\nSet in the Jazz Age on Long Island; explores the American Dream's corruption through Jay Gatsby\nFitzgerald coined the term 'Jazz Age' and epitomized it with wife Zelda in 1920s Paris and New York\nDied in 1940 at age 44 of a heart attack, believing himself a failure\nThe green light at the end of Daisy's dock is one of literature's most analyzed symbols",
           "cardFront": "*The Great Gatsby*",
-          "cardBack": "F. Scott Fitzgerald"
+          "cardBack": "F. Scott Fitzgerald",
+          "links": [
+            {
+              "text": "F. Scott Fitzgerald",
+              "url": "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald"
+            },
+            {
+              "text": "*The Great Gatsby*",
+              "url": "https://en.wikipedia.org/wiki/*The_Great_Gatsby*"
+            }
+          ]
         },
         {
           "id": "pride-and-prejudice",
           "prompt": "Who wrote *Pride and Prejudice*?",
           "answer": "Jane Austen",
-          "alternates": ["Austen"],
+          "alternates": [
+            "Austen"
+          ],
           "explanation": "Published 1813; originally titled 'First Impressions' when drafted in 1796–1797\nAll six of Austen's novels were published anonymously, credited only to 'A Lady'\nOpening line: 'It is a truth universally acknowledged...' — among the most quoted in English literature\nAusten never married; died at 41 in 1817, possibly of Addison's disease\nThe novel follows Elizabeth Bennet and Mr. Darcy — the prototypical enemies-to-lovers romance\nAusten's face has appeared on the British ten-pound note since 2017",
           "cardFront": "*Pride and Prejudice*",
-          "cardBack": "Jane Austen"
+          "cardBack": "Jane Austen",
+          "links": [
+            {
+              "text": "Jane Austen",
+              "url": "https://en.wikipedia.org/wiki/Jane_Austen"
+            },
+            {
+              "text": "*Pride and Prejudice*",
+              "url": "https://en.wikipedia.org/wiki/*Pride_and_Prejudice*"
+            }
+          ]
         },
         {
           "id": "1984",
           "prompt": "Who wrote *1984*?",
           "answer": "George Orwell",
-          "alternates": ["Orwell", "Eric Arthur Blair", "Eric Blair"],
+          "alternates": [
+            "Orwell",
+            "Eric Arthur Blair",
+            "Eric Blair"
+          ],
           "explanation": "Published 1949; Orwell's real name was Eric Arthur Blair\nIntroduced 'Big Brother,' 'doublethink,' 'Newspeak,' and 'thoughtcrime' into the English language\nWritten on the Scottish island of Jura while Orwell was dying of tuberculosis; he died in January 1950\nSales spike every time a government surveillance scandal breaks — topped bestseller lists after Snowden leaks (2013)\nAlso wrote *Animal Farm* (1945), the anti-Stalinist allegory ('All animals are equal...')\nFought in the Spanish Civil War (1937) and was shot through the throat by a sniper; survived",
           "cardFront": "*1984*",
-          "cardBack": "George Orwell"
+          "cardBack": "George Orwell",
+          "links": [
+            {
+              "text": "George Orwell",
+              "url": "https://en.wikipedia.org/wiki/George_Orwell"
+            },
+            {
+              "text": "*1984*",
+              "url": "https://en.wikipedia.org/wiki/*1984*"
+            }
+          ]
         },
         {
           "id": "to-kill-a-mockingbird",
           "prompt": "Who wrote *To Kill a Mockingbird*?",
           "answer": "Harper Lee",
-          "alternates": ["Lee", "Nelle Harper Lee"],
+          "alternates": [
+            "Lee",
+            "Nelle Harper Lee"
+          ],
           "explanation": "Published 1960; won the Pulitzer Prize for Fiction in 1961\nBased partly on Lee's childhood in Monroeville, Alabama; Atticus Finch modeled on her father\nHer childhood neighbor and friend was Truman Capote, the model for Dill in the novel\nLee published no other novel for 55 years until *Go Set a Watchman* (2015), written before Mockingbird\nThe novel has sold over 40 million copies and is a staple of American high school curricula\nLee was awarded the Presidential Medal of Freedom in 2007",
           "cardFront": "*To Kill a Mockingbird*",
-          "cardBack": "Harper Lee"
+          "cardBack": "Harper Lee",
+          "links": [
+            {
+              "text": "Harper Lee",
+              "url": "https://en.wikipedia.org/wiki/Harper_Lee"
+            },
+            {
+              "text": "*To Kill a Mockingbird*",
+              "url": "https://en.wikipedia.org/wiki/*To_Kill_a_Mockingbird*"
+            }
+          ]
         },
         {
           "id": "crime-and-punishment",
           "prompt": "Who wrote *Crime and Punishment*?",
           "answer": "Fyodor Dostoevsky",
-          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky", "Dostoievsky"],
+          "alternates": [
+            "Dostoevsky",
+            "Dostoyevsky",
+            "Fyodor Dostoyevsky",
+            "Dostoievsky"
+          ],
           "explanation": "Published 1866 as a serial in a Russian literary journal\nFollows Raskolnikov, a destitute student who murders a pawnbroker to test his theory of the 'extraordinary man'\nDostoevsky wrote it under crushing debt and a brutal deadline, sometimes dictating to a stenographer\nAlso wrote *The Brothers Karamazov* (1880), *The Idiot* (1869), and *Notes from Underground* (1864)\nSentenced to death by firing squad in 1849 for political activities; reprieved at the last moment\nHis epilepsy and gambling addiction informed much of his fiction's psychological intensity",
           "cardFront": "*Crime and Punishment*",
-          "cardBack": "Fyodor Dostoevsky"
+          "cardBack": "Fyodor Dostoevsky",
+          "links": [
+            {
+              "text": "Fyodor Dostoevsky",
+              "url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+            },
+            {
+              "text": "*Crime and Punishment*",
+              "url": "https://en.wikipedia.org/wiki/*Crime_and_Punishment*"
+            }
+          ]
         },
         {
           "id": "don-quixote",
           "prompt": "Who wrote *Don Quixote*?",
           "answer": "Miguel de Cervantes",
-          "alternates": ["Cervantes", "Miguel de Cervantes Saavedra"],
+          "alternates": [
+            "Cervantes",
+            "Miguel de Cervantes Saavedra"
+          ],
           "explanation": "Published in two parts (1605 and 1615); often called the first modern novel\nFull title: *El Ingenioso Hidalgo Don Quixote de la Mancha*\nCervantes lost the use of his left hand at the Battle of Lepanto (1571) against the Ottoman fleet\nSpent five years as a prisoner of war in Algiers before being ransomed\nThe novel satirizes chivalric romances through a delusional knight and his squire Sancho Panza\nCervantes died on April 22, 1616 — one day before Shakespeare's death (though different calendars)",
           "cardFront": "*Don Quixote*",
-          "cardBack": "Miguel de Cervantes"
+          "cardBack": "Miguel de Cervantes",
+          "links": [
+            {
+              "text": "Miguel de Cervantes",
+              "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+            },
+            {
+              "text": "*Don Quixote*",
+              "url": "https://en.wikipedia.org/wiki/*Don_Quixote*"
+            }
+          ]
         },
         {
           "id": "war-and-peace",
           "prompt": "Who wrote *War and Peace*?",
           "answer": "Leo Tolstoy",
-          "alternates": ["Tolstoy", "Lev Tolstoy"],
+          "alternates": [
+            "Tolstoy",
+            "Lev Tolstoy"
+          ],
           "explanation": "Published 1865–1869; set during Napoleon's invasion of Russia (1812)\nOver 580,000 words with 580+ characters — a byword for length ('it's not exactly War and Peace')\nTolstoy also wrote *Anna Karenina* (1878), which opens: 'All happy families are alike...'\nA Russian count who renounced his wealth and title late in life, embracing ascetic Christian anarchism\nInfluenced Gandhi and Martin Luther King Jr. with his philosophy of nonviolent resistance\nDied in 1910 at a remote train station, having fled his estate at age 82 after a domestic crisis",
           "cardFront": "*War and Peace*",
-          "cardBack": "Leo Tolstoy"
+          "cardBack": "Leo Tolstoy",
+          "links": [
+            {
+              "text": "Leo Tolstoy",
+              "url": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+            },
+            {
+              "text": "*War and Peace*",
+              "url": "https://en.wikipedia.org/wiki/*War_and_Peace*"
+            }
+          ]
         },
         {
           "id": "jane-eyre",
           "prompt": "Who wrote *Jane Eyre*?",
           "answer": "Charlotte Bronte",
-          "alternates": ["Charlotte Brontë", "Bronte", "Brontë"],
+          "alternates": [
+            "Charlotte Brontë",
+            "Bronte",
+            "Brontë"
+          ],
           "explanation": "Published 1847 under the male pseudonym 'Currer Bell'\nOne of three literary Brontë sisters: Charlotte, Emily (*Wuthering Heights*), and Anne (*The Tenant of Wildfell Hall*)\nThe novel's 'Reader, I married him' is one of the most famous lines in English fiction\nFeatures the 'madwoman in the attic' — Bertha Mason — a trope analyzed extensively in feminist criticism\nCharlotte married in 1854 but died in 1855, likely from complications of pregnancy, at age 38\nAll three Brontë sisters died before age 40; their brother Branwell also died young, of tuberculosis and addiction",
           "cardFront": "*Jane Eyre*",
-          "cardBack": "Charlotte Bronte"
+          "cardBack": "Charlotte Bronte",
+          "links": [
+            {
+              "text": "Charlotte Bronte",
+              "url": "https://en.wikipedia.org/wiki/Charlotte_Bronte"
+            },
+            {
+              "text": "*Jane Eyre*",
+              "url": "https://en.wikipedia.org/wiki/*Jane_Eyre*"
+            }
+          ]
         },
         {
           "id": "wuthering-heights",
           "prompt": "Who wrote *Wuthering Heights*?",
           "answer": "Emily Bronte",
-          "alternates": ["Emily Brontë", "Bronte", "Brontë"],
+          "alternates": [
+            "Emily Brontë",
+            "Bronte",
+            "Brontë"
+          ],
           "explanation": "Published 1847 under the pseudonym 'Ellis Bell' — Emily's only novel\nShocked Victorian readers with its raw depiction of obsessive love between Heathcliff and Catherine\nEmily died of tuberculosis in 1848 at age 30, just one year after publication\nKate Bush's 1978 debut single 'Wuthering Heights' hit #1 in the UK\nThe novel was poorly received initially — critics called it 'wild,' 'confused,' and 'disagreeable'\nEmily was the most reclusive Brontë sister; she rarely left the family home at Haworth Parsonage",
           "cardFront": "*Wuthering Heights*",
-          "cardBack": "Emily Bronte"
+          "cardBack": "Emily Bronte",
+          "links": [
+            {
+              "text": "Emily Bronte",
+              "url": "https://en.wikipedia.org/wiki/Emily_Bronte"
+            },
+            {
+              "text": "*Wuthering Heights*",
+              "url": "https://en.wikipedia.org/wiki/*Wuthering_Heights*"
+            }
+          ]
         },
         {
           "id": "great-expectations",
           "prompt": "Who wrote *Great Expectations*?",
           "answer": "Charles Dickens",
-          "alternates": ["Dickens"],
+          "alternates": [
+            "Dickens"
+          ],
           "explanation": "Published 1860–1861 as a weekly serial in Dickens's own magazine, *All the Year Round*\nFollows orphan Pip from the Kent marshes to London; features Miss Havisham in her decayed wedding dress\nDickens also created Scrooge (*A Christmas Carol*), Oliver Twist, and David Copperfield\nThe most popular English novelist of the Victorian era, famous for public readings that drew thousands\nHad 10 children; left his wife Catherine in 1858 for actress Ellen Ternan, causing a public scandal\nDied mid-novel in 1870 (writing *The Mystery of Edwin Drood*); buried in Westminster Abbey",
           "cardFront": "*Great Expectations*",
-          "cardBack": "Charles Dickens"
+          "cardBack": "Charles Dickens",
+          "links": [
+            {
+              "text": "Charles Dickens",
+              "url": "https://en.wikipedia.org/wiki/Charles_Dickens"
+            },
+            {
+              "text": "*Great Expectations*",
+              "url": "https://en.wikipedia.org/wiki/*Great_Expectations*"
+            }
+          ]
         },
         {
           "id": "catch-22",
           "prompt": "Who wrote *Catch-22*?",
           "answer": "Joseph Heller",
-          "alternates": ["Heller"],
+          "alternates": [
+            "Heller"
+          ],
           "explanation": "Published 1961; originally titled *Catch-18* but changed to avoid confusion with Leon Uris's *Mila 18*\n'Catch-22' entered the English language as a term for an inescapable paradoxical dilemma\nSet among U.S. Army Air Forces bombardiers in WWII Italy; Heller himself flew 60 combat missions as a bombardier\nSlow initial sales but became a cult classic during the Vietnam War as an anti-war satire\nHeller's famous quip when told he'd never written anything as good: 'Who has?'\nTook Heller eight years to write; he worked on it nights while holding an advertising job at Time magazine",
           "cardFront": "*Catch-22*",
-          "cardBack": "Joseph Heller"
+          "cardBack": "Joseph Heller",
+          "links": [
+            {
+              "text": "Joseph Heller",
+              "url": "https://en.wikipedia.org/wiki/Joseph_Heller"
+            },
+            {
+              "text": "*Catch-22*",
+              "url": "https://en.wikipedia.org/wiki/*Catch-22*"
+            }
+          ]
         },
         {
           "id": "brave-new-world",
           "prompt": "Who wrote *Brave New World*?",
           "answer": "Aldous Huxley",
-          "alternates": ["Huxley"],
+          "alternates": [
+            "Huxley"
+          ],
           "explanation": "Published 1932; depicts a dystopia of engineered humans, soma drugs, and mandatory hedonism\nOften paired with Orwell's *1984* — Huxley warned of control through pleasure, Orwell through pain\nHuxley was nearly blind from age 16 after a childhood eye infection; read with a magnifying glass\nGrandson of T.H. Huxley, the biologist known as 'Darwin's Bulldog'\nExperimented with psychedelics; his 1954 book *The Doors of Perception* (on mescaline) inspired the band name The Doors\nDied November 22, 1963 — the same day as C.S. Lewis and JFK's assassination, overshadowing both literary deaths",
           "cardFront": "*Brave New World*",
-          "cardBack": "Aldous Huxley"
+          "cardBack": "Aldous Huxley",
+          "links": [
+            {
+              "text": "Aldous Huxley",
+              "url": "https://en.wikipedia.org/wiki/Aldous_Huxley"
+            },
+            {
+              "text": "*Brave New World*",
+              "url": "https://en.wikipedia.org/wiki/*Brave_New_World*"
+            }
+          ]
         },
         {
           "id": "catcher-in-the-rye",
           "prompt": "Who wrote *The Catcher in the Rye*?",
           "answer": "J.D. Salinger",
-          "alternates": ["Salinger", "Jerome David Salinger"],
+          "alternates": [
+            "Salinger",
+            "Jerome David Salinger"
+          ],
           "explanation": "Published 1951; narrated by Holden Caulfield, the archetypal disaffected teenager\nStill sells ~250,000 copies per year despite (or because of) frequent banning attempts\nSalinger became a famous recluse after its success, moving to Cornish, New Hampshire, and refusing interviews\nPublished almost nothing after 1965; didn't publish a new book after *Raise High the Roof Beam, Carpenters* (1963)\nFound on Mark David Chapman when he assassinated John Lennon in 1980; also carried by John Hinckley Jr.\nSalinger served in WWII, landing at Utah Beach on D-Day and fighting through the Battle of the Bulge",
           "cardFront": "*The Catcher in the Rye*",
-          "cardBack": "J.D. Salinger"
+          "cardBack": "J.D. Salinger",
+          "links": [
+            {
+              "text": "J.D. Salinger",
+              "url": "https://en.wikipedia.org/wiki/J.D._Salinger"
+            },
+            {
+              "text": "*The Catcher in the Rye*",
+              "url": "https://en.wikipedia.org/wiki/*The_Catcher_in_the_Rye*"
+            }
+          ]
         },
         {
           "id": "one-hundred-years-of-solitude",
           "prompt": "Who wrote *One Hundred Years of Solitude*?",
           "answer": "Gabriel Garcia Marquez",
-          "alternates": ["Garcia Marquez", "Gabriel García Márquez", "García Márquez", "Marquez", "Gabo"],
+          "alternates": [
+            "Garcia Marquez",
+            "Gabriel García Márquez",
+            "García Márquez",
+            "Marquez",
+            "Gabo"
+          ],
           "explanation": "Published 1967 in Spanish; has sold over 30 million copies worldwide\nFollows seven generations of the Buendía family in the fictional town of Macondo, Colombia\nThe defining work of magical realism — blends the fantastical and the mundane seamlessly\nGarcía Márquez won the Nobel Prize in Literature in 1982 — first Colombian Nobel laureate\nHe was a close friend of Fidel Castro, which drew criticism from other Latin American intellectuals\nWorked as a journalist before fiction; reportedly sold his car to support his family while writing the novel",
           "cardFront": "*One Hundred Years of Solitude*",
-          "cardBack": "Gabriel Garcia Marquez"
+          "cardBack": "Gabriel Garcia Marquez",
+          "links": [
+            {
+              "text": "Gabriel Garcia Marquez",
+              "url": "https://en.wikipedia.org/wiki/Gabriel_Garcia_Marquez"
+            },
+            {
+              "text": "*One Hundred Years of Solitude*",
+              "url": "https://en.wikipedia.org/wiki/*One_Hundred_Years_of_Solitude*"
+            }
+          ]
         },
         {
           "id": "beloved",
           "prompt": "Who wrote *Beloved*?",
           "answer": "Toni Morrison",
-          "alternates": ["Morrison"],
+          "alternates": [
+            "Morrison"
+          ],
           "explanation": "Published 1987; won the Pulitzer Prize for Fiction in 1988\nInspired by the true story of Margaret Garner, an enslaved woman who killed her daughter to prevent recapture\nMorrison won the Nobel Prize in Literature in 1993 — first African American woman to receive the honor\nBorn Chloe Ardelia Woffard in Lorain, Ohio; 'Toni' was a college nickname from her baptismal name Anthony\nWorked as an editor at Random House before her writing career, championing Black authors\nIn a 2006 *New York Times* survey of writers and critics, *Beloved* was named the best American novel of the past 25 years",
           "cardFront": "*Beloved*",
-          "cardBack": "Toni Morrison"
+          "cardBack": "Toni Morrison",
+          "links": [
+            {
+              "text": "Toni Morrison",
+              "url": "https://en.wikipedia.org/wiki/Toni_Morrison"
+            },
+            {
+              "text": "*Beloved*",
+              "url": "https://en.wikipedia.org/wiki/*Beloved*"
+            }
+          ]
         },
         {
           "id": "invisible-man",
           "prompt": "Who wrote *Invisible Man* (1952), about a nameless Black man navigating American society?",
           "answer": "Ralph Ellison",
-          "alternates": ["Ellison"],
+          "alternates": [
+            "Ellison"
+          ],
           "explanation": "Published 1952; won the National Book Award in 1953 — Ellison was the first African American to win it\nThe unnamed narrator's invisibility is metaphorical — society refuses to see him as an individual\nEllison's only novel published in his lifetime; he worked on a second novel for 40+ years without finishing\nBegan writing it in a barn in Vermont in 1945 while on leave from the Merchant Marine\nRanked #19 on the Modern Library's 100 Best English-Language Novels of the 20th Century\nNot to be confused with H.G. Wells's *The Invisible Man* (1897), a science fiction novel about literal invisibility",
           "cardFront": "*Invisible Man* (1952)",
-          "cardBack": "Ralph Ellison"
+          "cardBack": "Ralph Ellison",
+          "links": [
+            {
+              "text": "Ralph Ellison",
+              "url": "https://en.wikipedia.org/wiki/Ralph_Ellison"
+            },
+            {
+              "text": "*Invisible Man*",
+              "url": "https://en.wikipedia.org/wiki/*Invisible_Man*"
+            }
+          ]
         },
         {
           "id": "the-sun-also-rises",
           "prompt": "Who wrote *The Sun Also Rises*?",
           "answer": "Ernest Hemingway",
-          "alternates": ["Hemingway"],
+          "alternates": [
+            "Hemingway"
+          ],
           "explanation": "Published 1926; Hemingway's first major novel, set among expatriates in 1920s Paris and Pamplona, Spain\nDefined the 'Lost Generation' — a term coined by Gertrude Stein that Hemingway used as the book's epigraph\nHemingway's spare, declarative prose style influenced virtually all 20th-century American fiction\nWon the Nobel Prize in Literature in 1954; also won the Pulitzer for *The Old Man and the Sea* (1953)\nWas an ambulance driver in WWI, war correspondent in WWII, survived two plane crashes in Africa\nDied by suicide in Ketchum, Idaho, in 1961, following a family history of depression",
           "cardFront": "*The Sun Also Rises*",
-          "cardBack": "Ernest Hemingway"
+          "cardBack": "Ernest Hemingway",
+          "links": [
+            {
+              "text": "Ernest Hemingway",
+              "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+            },
+            {
+              "text": "*The Sun Also Rises*",
+              "url": "https://en.wikipedia.org/wiki/*The_Sun_Also_Rises*"
+            }
+          ]
         },
         {
           "id": "ulysses",
           "prompt": "Who wrote *Ulysses*?",
           "answer": "James Joyce",
-          "alternates": ["Joyce"],
+          "alternates": [
+            "Joyce"
+          ],
           "explanation": "Published 1922 in Paris by Sylvia Beach's Shakespeare and Company bookshop\nSet entirely on June 16, 1904, in Dublin — now celebrated annually as 'Bloomsday' after protagonist Leopold Bloom\nBanned in the U.S. for obscenity until the landmark 1933 *United States v. One Book Called Ulysses* ruling\nRanked #1 on the Modern Library's 100 Best English-Language Novels of the 20th Century\nJoyce also wrote *Dubliners* (1914), *A Portrait of the Artist as a Young Man* (1916), and *Finnegans Wake* (1939)\nLived most of his adult life in self-imposed exile from Ireland — in Trieste, Zurich, and Paris",
           "cardFront": "*Ulysses*",
-          "cardBack": "James Joyce"
+          "cardBack": "James Joyce",
+          "links": [
+            {
+              "text": "James Joyce",
+              "url": "https://en.wikipedia.org/wiki/James_Joyce"
+            },
+            {
+              "text": "*Ulysses*",
+              "url": "https://en.wikipedia.org/wiki/*Ulysses*"
+            }
+          ]
         },
         {
           "id": "frankenstein",
           "prompt": "Who wrote *Frankenstein*?",
           "answer": "Mary Shelley",
-          "alternates": ["Shelley", "Mary Wollstonecraft Shelley"],
+          "alternates": [
+            "Shelley",
+            "Mary Wollstonecraft Shelley"
+          ],
           "explanation": "Published 1818; subtitled 'The Modern Prometheus' — Shelley was only 18 when she began writing it\nConceived during a ghost story contest at Lord Byron's villa on Lake Geneva in 1816\nConsidered the first science fiction novel — the creature is animated by galvanism, not magic\nPublished anonymously; many assumed her husband Percy Bysshe Shelley wrote it\nHer mother was Mary Wollstonecraft, author of *A Vindication of the Rights of Woman* (1792), a foundational feminist text\nShelley kept her dead husband's calcified heart wrapped in silk until her death in 1851",
           "cardFront": "*Frankenstein*",
-          "cardBack": "Mary Shelley"
+          "cardBack": "Mary Shelley",
+          "links": [
+            {
+              "text": "Mary Shelley",
+              "url": "https://en.wikipedia.org/wiki/Mary_Shelley"
+            },
+            {
+              "text": "*Frankenstein*",
+              "url": "https://en.wikipedia.org/wiki/*Frankenstein*"
+            }
+          ]
         },
         {
           "id": "madame-bovary",
           "prompt": "Who wrote *Madame Bovary* (1857), the novel about a doctor's wife in rural Normandy who has adulterous affairs and accumulates debt pursuing romantic fantasies?",
           "answer": "Gustave Flaubert",
-          "alternates": ["Flaubert"],
+          "alternates": [
+            "Flaubert"
+          ],
           "explanation": "Published 1857; Flaubert was prosecuted for 'offense against public morals and religion' — acquitted\nEmma Bovary, trapped in a dull provincial marriage, seeks escape through adulterous affairs and shopping\nFlaubert's obsessive pursuit of 'le mot juste' (the right word) set the standard for prose style in the novel\n'Bovaryism' — romanticizing one's life beyond reality — entered psychological and cultural vocabulary\nWritten over four years (1851–1856); Flaubert once reportedly spent a week on a single page\nConsidered the first great realist novel; influenced Tolstoy, Henry James, and nearly every subsequent novelist",
           "cardFront": "*Madame Bovary*",
-          "cardBack": "Gustave Flaubert"
+          "cardBack": "Gustave Flaubert",
+          "links": [
+            {
+              "text": "Gustave Flaubert",
+              "url": "https://en.wikipedia.org/wiki/Gustave_Flaubert"
+            },
+            {
+              "text": "*Madame Bovary*",
+              "url": "https://en.wikipedia.org/wiki/*Madame_Bovary*"
+            }
+          ]
         },
         {
           "id": "the-trial",
           "prompt": "Who wrote *The Trial* (published posthumously 1925), in which Josef K. is arrested without explanation and navigates a nightmarish, incomprehensible legal system?",
           "answer": "Franz Kafka",
-          "alternates": ["Kafka"],
+          "alternates": [
+            "Kafka"
+          ],
           "explanation": "Published 1925, the year after Kafka died of tuberculosis; he asked friend Max Brod to destroy all manuscripts\nMax Brod ignored the request and published *The Trial*, *The Castle*, and other works — an act that saved world literature\n'Kafkaesque' entered English as an adjective for absurd, dehumanizing bureaucratic logic\nKafka was a Czech-speaking Jew from Prague who worked in insurance and wrote only at night\nAlso wrote *The Metamorphosis* (1915) — Gregor Samsa wakes transformed into a giant insect — and *The Castle* (1926)\nNever married; had a fraught relationship with his domineering father, documented in the 100-page 'Letter to His Father'",
           "cardFront": "*The Trial*",
-          "cardBack": "Franz Kafka"
+          "cardBack": "Franz Kafka",
+          "links": [
+            {
+              "text": "Franz Kafka",
+              "url": "https://en.wikipedia.org/wiki/Franz_Kafka"
+            },
+            {
+              "text": "*The Trial*",
+              "url": "https://en.wikipedia.org/wiki/*The_Trial*"
+            }
+          ]
         },
         {
           "id": "swanns-way",
           "prompt": "Who wrote *In Search of Lost Time* (also known by its first volume, *Swann's Way*), a seven-volume novel famous for its passage on involuntary memory triggered by a madeleine dipped in tea?",
           "answer": "Marcel Proust",
-          "alternates": ["Proust"],
+          "alternates": [
+            "Proust"
+          ],
           "explanation": "Published 1913–1927; Proust died in 1922 before completing the final three volumes, which were edited posthumously\nApproximately 1.5 million words — one of the longest novels in Western literature\nThe 'madeleine moment': a bite of a tea-soaked madeleine triggers a flood of childhood memories — the defining passage\nProust's concept of 'involuntary memory' (mémoire involontaire) vs. deliberate recollection\nIn his final years, Proust was a near-recluse in a cork-lined Paris apartment, blocking noise and allergens\nThe title in French is *À la recherche du temps perdu*; an earlier English translation was titled *Remembrance of Things Past*",
           "cardFront": "*Swann's Way* / *In Search of Lost Time*",
-          "cardBack": "Marcel Proust"
+          "cardBack": "Marcel Proust",
+          "links": [
+            {
+              "text": "Marcel Proust",
+              "url": "https://en.wikipedia.org/wiki/Marcel_Proust"
+            },
+            {
+              "text": "*Swann's Way* / *In Search of Lost Time*",
+              "url": "https://en.wikipedia.org/wiki/*Swann's_Way*_/_*In_Search_of_Lost_Time*"
+            }
+          ]
         },
         {
           "id": "anna-karenina",
           "prompt": "Who wrote *Anna Karenina* (1878), the novel following an aristocrat who leaves her husband for Count Vronsky, which opens with the line 'All happy families are alike; each unhappy family is unhappy in its own way'?",
           "answer": "Leo Tolstoy",
-          "alternates": ["Tolstoy", "Lev Tolstoy"],
+          "alternates": [
+            "Tolstoy",
+            "Lev Tolstoy"
+          ],
           "explanation": "Published serially 1875–1878; Tolstoy considered it his first true novel (regarding *War and Peace* as an 'epic poem')\nOpening line is one of the most quoted in world literature — the 'Anna Karenina principle' is used in evolutionary biology\nAnna's fate is foreshadowed early: she witnesses a railway worker killed by a train; she dies under a train\nParallel plot follows Konstantin Levin, widely read as Tolstoy's autobiographical stand-in, seeking spiritual meaning\nTolstoy, a Russian count, later renounced his novels, wealth, and title, embracing Christian anarchism\nAlso wrote *War and Peace* (1869) and *The Death of Ivan Ilyich* (1886)",
           "cardFront": "*Anna Karenina*",
-          "cardBack": "Leo Tolstoy"
+          "cardBack": "Leo Tolstoy",
+          "links": [
+            {
+              "text": "Leo Tolstoy",
+              "url": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+            },
+            {
+              "text": "*Anna Karenina*",
+              "url": "https://en.wikipedia.org/wiki/*Anna_Karenina*"
+            }
+          ]
         },
         {
           "id": "brothers-karamazov",
           "prompt": "Who wrote *The Brothers Karamazov* (1880), his final novel, exploring faith, doubt, and parricide through three brothers — Dmitri, Ivan, and Alyosha?",
           "answer": "Fyodor Dostoevsky",
-          "alternates": ["Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+          "alternates": [
+            "Dostoevsky",
+            "Dostoyevsky",
+            "Fyodor Dostoyevsky"
+          ],
           "explanation": "Published 1880; Dostoevsky's final novel — he died in January 1881, months after completing it\nIvan's 'Grand Inquisitor' chapter is among the most influential philosophical passages in all fiction — a debate about free will, religion, and suffering\nAddresses theodicy: Ivan challenges Alyosha with the suffering of innocent children as proof against God\nFreud wrote 'Dostoevsky and Parricide' (1928) using the novel as a psychoanalytic case study\nAlso wrote *Crime and Punishment* (1866) and *The Idiot* (1869)\nDostoevsky was sentenced to death by firing squad in 1849; reprieved at the last moment and sent to Siberian labor camp",
           "cardFront": "*The Brothers Karamazov*",
-          "cardBack": "Fyodor Dostoevsky"
+          "cardBack": "Fyodor Dostoevsky",
+          "links": [
+            {
+              "text": "Fyodor Dostoevsky",
+              "url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+            },
+            {
+              "text": "*The Brothers Karamazov*",
+              "url": "https://en.wikipedia.org/wiki/*The_Brothers_Karamazov*"
+            }
+          ]
         },
         {
           "id": "lolita",
           "prompt": "Who wrote *Lolita* (1955), the controversial novel narrated by Humbert Humbert, a European scholar obsessed with 12-year-old Dolores Haze?",
           "answer": "Vladimir Nabokov",
-          "alternates": ["Nabokov"],
+          "alternates": [
+            "Nabokov"
+          ],
           "explanation": "First published by Olympia Press in Paris (1955) — U.S. publishers refused; American edition appeared in 1958 and became a bestseller\nNabokov was Russian-born and wrote *Lolita* in English, his third language after Russian and French\nThe name 'Lolita' entered the language as a label for a precociously seductive girl, though the novel depicts predatory abuse\nNabokov was also a world-renowned lepidopterist (butterfly expert) who worked at Harvard's Museum of Comparative Zoology\nAlso wrote *Pale Fire* (1962) and *Speak, Memory* (1951), a celebrated autobiography\nAdapted twice for film: by Stanley Kubrick (1962) and Adrian Lyne (1997)",
           "cardFront": "*Lolita*",
-          "cardBack": "Vladimir Nabokov"
+          "cardBack": "Vladimir Nabokov",
+          "links": [
+            {
+              "text": "Vladimir Nabokov",
+              "url": "https://en.wikipedia.org/wiki/Vladimir_Nabokov"
+            },
+            {
+              "text": "*Lolita*",
+              "url": "https://en.wikipedia.org/wiki/*Lolita*"
+            }
+          ]
         },
         {
           "id": "the-stranger",
           "prompt": "Who wrote *The Stranger* (*L'Étranger*, 1942), the existentialist novel in which Meursault, emotionally detached, shoots an Arab man on a beach and is condemned as much for his indifference as the crime?",
           "answer": "Albert Camus",
-          "alternates": ["Camus"],
+          "alternates": [
+            "Camus"
+          ],
           "explanation": "Published 1942 in French as *L'Étranger*; Camus also published *The Myth of Sisyphus* the same year\nFamous opening line: 'Mother died today. Or maybe yesterday, I don't know.'\nMeursault's indifference to his mother's death becomes as damning in court as the killing itself\nCentral to Camus's philosophy of absurdism: humans seek meaning in an indifferent universe; one must imagine Sisyphus happy\nCamus won the Nobel Prize in Literature in 1957 — second-youngest laureate at the time\nDied in a car crash in January 1960 at age 46; an unused train ticket was found in his coat pocket",
           "cardFront": "*The Stranger* (*L'Étranger*)",
-          "cardBack": "Albert Camus"
+          "cardBack": "Albert Camus",
+          "links": [
+            {
+              "text": "Albert Camus",
+              "url": "https://en.wikipedia.org/wiki/Albert_Camus"
+            },
+            {
+              "text": "*The Stranger*",
+              "url": "https://en.wikipedia.org/wiki/*The_Stranger*"
+            }
+          ]
         },
         {
           "id": "mrs-dalloway",
           "prompt": "Who wrote *Mrs Dalloway* (1925), a pioneering stream-of-consciousness novel following Clarissa Dalloway preparing for a party over a single day in post-WWI London?",
           "answer": "Virginia Woolf",
-          "alternates": ["Woolf"],
+          "alternates": [
+            "Woolf"
+          ],
           "explanation": "Published 1925; set on a single June day in 1923, unfolding through multiple characters' interwoven thoughts\nRuns parallel to the story of Septimus Smith, a WWI veteran with shell shock — he and Clarissa never meet but mirror each other\nAmong the first novels to take shell shock (PTSD) seriously as a subject\nOpening line: 'Mrs Dalloway said she would buy the flowers herself'\nWoolf co-founded the Hogarth Press (1917) and published the first English editions of Freud's works\nDied by suicide in March 1941, weighting her pockets with stones and walking into the River Ouse; left a note to her husband Leonard",
           "cardFront": "*Mrs Dalloway*",
-          "cardBack": "Virginia Woolf"
+          "cardBack": "Virginia Woolf",
+          "links": [
+            {
+              "text": "Virginia Woolf",
+              "url": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+            },
+            {
+              "text": "*Mrs Dalloway*",
+              "url": "https://en.wikipedia.org/wiki/*Mrs_Dalloway*"
+            }
+          ]
         },
         {
           "id": "on-the-road",
           "prompt": "Who wrote *On the Road* (1957), the Beat Generation novel of cross-country road trips based on the author's real journeys with Neal Cassady?",
           "answer": "Jack Kerouac",
-          "alternates": ["Kerouac"],
+          "alternates": [
+            "Kerouac"
+          ],
           "explanation": "Published 1957 after six years of rejection; became the defining manifesto of the Beat Generation\nKerouac reportedly typed the first draft in 1951 in three weeks on a single 120-foot scroll of paper\nThe scroll was sold at auction in 2001 for $2.43 million\nNeal Cassady (Dean Moriarty in the novel) was also the driver of Ken Kesey's Merry Pranksters' bus in the 1960s\nAlso wrote *The Dharma Bums* (1958) and *Big Sur* (1962)\nDied in 1969 at age 47 from an abdominal hemorrhage related to alcoholism",
           "cardFront": "*On the Road*",
-          "cardBack": "Jack Kerouac"
+          "cardBack": "Jack Kerouac",
+          "links": [
+            {
+              "text": "Jack Kerouac",
+              "url": "https://en.wikipedia.org/wiki/Jack_Kerouac"
+            },
+            {
+              "text": "*On the Road*",
+              "url": "https://en.wikipedia.org/wiki/*On_the_Road*"
+            }
+          ]
         },
         {
           "id": "sound-and-the-fury",
           "prompt": "Who wrote *The Sound and the Fury* (1929), the modernist novel following the decline of the Compson family told through four narrators including the intellectually disabled Benjy?",
           "answer": "William Faulkner",
-          "alternates": ["Faulkner"],
+          "alternates": [
+            "Faulkner"
+          ],
           "explanation": "Published 1929; the first section, narrated by Benjy Compson, is one of the most demanding passages in American literature\nThe title is from Macbeth: 'full of sound and fury, signifying nothing'\nSet in Faulkner's fictional Yoknapatawpha County, a detailed fictional world based on Lafayette County, Mississippi\nWon the Nobel Prize in Literature in 1949; also wrote *As I Lay Dying* (1930) and *Absalom, Absalom!* (1936)\nInfluenced Gabriel García Márquez and Toni Morrison, both future Nobel laureates\nWorked as a screenwriter in Hollywood; received credit on *To Have and Have Not* (1944) and *The Big Sleep* (1946)",
           "cardFront": "*The Sound and the Fury*",
-          "cardBack": "William Faulkner"
+          "cardBack": "William Faulkner",
+          "links": [
+            {
+              "text": "William Faulkner",
+              "url": "https://en.wikipedia.org/wiki/William_Faulkner"
+            },
+            {
+              "text": "*The Sound and the Fury*",
+              "url": "https://en.wikipedia.org/wiki/*The_Sound_and_the_Fury*"
+            }
+          ]
         },
         {
           "id": "their-eyes-were-watching-god",
           "prompt": "Who wrote *Their Eyes Were Watching God* (1937), the novel following Janie Crawford through three marriages in the early 20th-century American South, a cornerstone of African American literature?",
           "answer": "Zora Neale Hurston",
-          "alternates": ["Hurston"],
+          "alternates": [
+            "Hurston"
+          ],
           "explanation": "Published 1937; written in seven weeks while Hurston was on a Guggenheim Fellowship in Haiti\nInitially dismissed by critics including Richard Wright as insufficiently political about racism; rediscovered in the 1970s\nAlice Walker's 1975 essay 'In Search of Zora Neale Hurston' rescued Hurston's reputation; Walker had a headstone placed on her unmarked grave\nHurston was a central figure of the Harlem Renaissance alongside Langston Hughes and Countee Cullen\nTrained as an anthropologist under Franz Boas at Barnard College; collected Black folklore throughout the South\nDied in poverty in 1960, buried in an unmarked grave in Fort Pierce, Florida",
           "cardFront": "*Their Eyes Were Watching God*",
-          "cardBack": "Zora Neale Hurston"
+          "cardBack": "Zora Neale Hurston",
+          "links": [
+            {
+              "text": "Zora Neale Hurston",
+              "url": "https://en.wikipedia.org/wiki/Zora_Neale_Hurston"
+            },
+            {
+              "text": "*Their Eyes Were Watching God*",
+              "url": "https://en.wikipedia.org/wiki/*Their_Eyes_Were_Watching_God*"
+            }
+          ]
         },
         {
           "id": "middlemarch",
           "prompt": "Who wrote *Middlemarch* (1871–1872), the novel set in a fictional English Midlands town, often cited as the greatest novel in the English language, written under a male pseudonym?",
           "answer": "George Eliot",
-          "alternates": ["Mary Ann Evans", "Mary Anne Evans", "Marian Evans"],
+          "alternates": [
+            "Mary Ann Evans",
+            "Mary Anne Evans",
+            "Marian Evans"
+          ],
           "explanation": "Published serially 1871–1872; Virginia Woolf called it 'one of the few English novels written for grown-up people'\n'George Eliot' was the pen name of Mary Ann Evans — she adopted a male pseudonym to ensure her work was taken seriously\nCentral characters: idealistic Dorothea Brooke, who makes a catastrophically misguided marriage, and ambitious doctor Tertius Lydgate\nEliot lived unmarried for 24 years with philosopher George Henry Lewes (married to another woman) in a scandalous arrangement\nIn 1880, seven months before her death, she married John Walter Cross — a man 20 years her junior\nAlso wrote *The Mill on the Floss* (1860) and *Silas Marner* (1861)",
           "cardFront": "*Middlemarch*",
-          "cardBack": "George Eliot"
+          "cardBack": "George Eliot",
+          "links": [
+            {
+              "text": "George Eliot",
+              "url": "https://en.wikipedia.org/wiki/George_Eliot"
+            },
+            {
+              "text": "*Middlemarch*",
+              "url": "https://en.wikipedia.org/wiki/*Middlemarch*"
+            }
+          ]
         },
         {
           "id": "grapes-of-wrath",
           "prompt": "Who wrote *The Grapes of Wrath* (1939), the Pulitzer Prize-winning novel following the Joad family's migration from the Oklahoma Dust Bowl to California during the Great Depression?",
           "answer": "John Steinbeck",
-          "alternates": ["Steinbeck"],
+          "alternates": [
+            "Steinbeck"
+          ],
           "explanation": "Published 1939; won the Pulitzer Prize for Fiction in 1940; Steinbeck cited it in his 1962 Nobel Prize acceptance speech\nBased partly on a series of articles Steinbeck wrote for the San Francisco News in 1936 on migrant farm workers\nBanned and burned in several California counties as 'communist propaganda' and 'immoral'\nTitle is from 'The Battle Hymn of the Republic': 'He is trampling out the vintage where the grapes of wrath are stored'\nJohn Ford directed the 1940 film adaptation starring Henry Fonda — considered a masterpiece of American cinema\nAlso wrote *Of Mice and Men* (1937) and *East of Eden* (1952)",
           "cardFront": "*The Grapes of Wrath*",
-          "cardBack": "John Steinbeck"
+          "cardBack": "John Steinbeck",
+          "links": [
+            {
+              "text": "John Steinbeck",
+              "url": "https://en.wikipedia.org/wiki/John_Steinbeck"
+            },
+            {
+              "text": "*The Grapes of Wrath*",
+              "url": "https://en.wikipedia.org/wiki/*The_Grapes_of_Wrath*"
+            }
+          ]
         },
         {
           "id": "slaughterhouse-five",
           "prompt": "Who wrote *Slaughterhouse-Five* (1969), the anti-war novel in which Billy Pilgrim, 'unstuck in time,' relives his experience as a POW during the 1945 firebombing of Dresden?",
           "answer": "Kurt Vonnegut",
-          "alternates": ["Vonnegut"],
+          "alternates": [
+            "Vonnegut"
+          ],
           "explanation": "Published 1969, at the height of the Vietnam War; Vonnegut himself survived the February 1945 Dresden firebombing as a POW\nVonnegut and fellow prisoners were sheltered in an underground meat locker — Schlachthof Fünf (Slaughterhouse Five)\nThe phrase 'So it goes' appears 106 times in the novel, always following a death — Vonnegut's fatalistic refrain\nIntroduces the Tralfamadorians, aliens who experience all time simultaneously and see death as just one moment\nAlso wrote *Cat's Cradle* (1963) and *Breakfast of Champions* (1973)\nThe novel was banned in several U.S. school districts; Vonnegut responded with characteristically sardonic humor",
           "cardFront": "*Slaughterhouse-Five*",
-          "cardBack": "Kurt Vonnegut"
+          "cardBack": "Kurt Vonnegut",
+          "links": [
+            {
+              "text": "Kurt Vonnegut",
+              "url": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+            },
+            {
+              "text": "*Slaughterhouse-Five*",
+              "url": "https://en.wikipedia.org/wiki/*Slaughterhouse-Five*"
+            }
+          ]
         },
         {
           "id": "things-fall-apart",
           "prompt": "Who wrote *Things Fall Apart* (1958), the novel following Igbo warrior Okonkwo as British colonialism dismantles his Nigerian village's traditional way of life?",
           "answer": "Chinua Achebe",
-          "alternates": ["Achebe"],
+          "alternates": [
+            "Achebe"
+          ],
           "explanation": "Published 1958; the most widely read and taught novel in modern African literature\nTitle is from W.B. Yeats's poem 'The Second Coming': 'Things fall apart; the centre cannot hold'\nAchebe wrote it partly as a response to European novels like *Heart of Darkness* and *Mister Johnson* that depicted Africa through a colonial lens\nHas sold over 20 million copies and been translated into 57+ languages — the most translated African novel ever\nAchebe is widely called the 'father of modern African literature' and won numerous prizes including the Man Booker International Prize (2007)\nLost the use of his legs in a 1990 car crash in Nigeria; spent his final decades at Bard College in New York",
           "cardFront": "*Things Fall Apart*",
-          "cardBack": "Chinua Achebe"
+          "cardBack": "Chinua Achebe",
+          "links": [
+            {
+              "text": "Chinua Achebe",
+              "url": "https://en.wikipedia.org/wiki/Chinua_Achebe"
+            },
+            {
+              "text": "*Things Fall Apart*",
+              "url": "https://en.wikipedia.org/wiki/*Things_Fall_Apart*"
+            }
+          ]
         }
       ]
     }

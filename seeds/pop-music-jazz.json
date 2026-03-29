@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "pop-music/jazz", "parentId": "pop-music", "name": "Jazz", "description": "Pioneering jazz musicians and their landmark recordings" }
+    {
+      "id": "pop-music/jazz",
+      "parentId": "pop-music",
+      "name": "Jazz",
+      "description": "Pioneering jazz musicians and their landmark recordings"
+    }
   ],
   "exercises": [
     {
@@ -13,109 +18,267 @@
           "id": "louis-armstrong",
           "prompt": "Which trumpeter and singer, nicknamed 'Satchmo,' recorded 'What a Wonderful World' and helped define jazz improvisation?",
           "answer": "Louis Armstrong",
-          "alternates": ["Armstrong", "Satchmo", "Pops"],
-          "explanation": "Trumpeter, vocalist (1901\u20131971), from New Orleans, Louisiana\nPioneered jazz improvisation with his Hot Five and Hot Seven recordings (1925\u20131928), shifting jazz from ensemble music to soloist-driven art\n'What a Wonderful World' (1967) became his signature song, though it initially flopped in the U.S.\nNicknamed 'Satchmo' (short for 'Satchel Mouth') and 'Pops'\nFirst African American to host a nationally broadcast radio show (1937)\nHis gravelly singing voice was as influential as his trumpet playing \u2014 he popularized scat singing\nPlayed for over five decades; his 1964 recording of 'Hello, Dolly!' knocked the Beatles off #1",
+          "alternates": [
+            "Armstrong",
+            "Satchmo",
+            "Pops"
+          ],
+          "explanation": "Trumpeter, vocalist (1901–1971), from New Orleans, Louisiana\nPioneered jazz improvisation with his Hot Five and Hot Seven recordings (1925–1928), shifting jazz from ensemble music to soloist-driven art\n'What a Wonderful World' (1967) became his signature song, though it initially flopped in the U.S.\nNicknamed 'Satchmo' (short for 'Satchel Mouth') and 'Pops'\nFirst African American to host a nationally broadcast radio show (1937)\nHis gravelly singing voice was as influential as his trumpet playing — he popularized scat singing\nPlayed for over five decades; his 1964 recording of 'Hello, Dolly!' knocked the Beatles off #1",
           "cardFront": "'What a Wonderful World' / 'Satchmo'",
-          "cardBack": "Louis Armstrong"
+          "cardBack": "Louis Armstrong",
+          "links": [
+            {
+              "text": "Louis Armstrong",
+              "url": "https://en.wikipedia.org/wiki/Louis_Armstrong"
+            },
+            {
+              "text": "'What a Wonderful World' / 'Satchmo'",
+              "url": "https://en.wikipedia.org/wiki/'What_a_Wonderful_World'_/_'Satchmo'"
+            }
+          ]
         },
         {
           "id": "duke-ellington",
           "prompt": "Which bandleader and pianist held a residency at the Cotton Club and composed 'Take the A Train' and 'Mood Indigo'?",
           "answer": "Duke Ellington",
-          "alternates": ["Ellington", "Edward Kennedy Ellington"],
-          "explanation": "Composer, bandleader, pianist (1899\u20131974), born in Washington, D.C.\nLed his orchestra for over 50 years; composed or co-composed over 1,000 pieces\nThe Cotton Club residency in Harlem (1927\u20131931) made him nationally famous via radio broadcasts\n'Take the A Train' (1941), written by Billy Strayhorn, became the orchestra's signature theme\nComposed extended suites like *Black, Brown and Beige* (1943) that expanded jazz beyond the three-minute single\nReceived the Presidential Medal of Freedom from Nixon in 1969\nNominated for a Pulitzer Prize in 1965; the board overruled the committee, awarding no prize \u2014 he remarked, 'Fate is being kind to me'",
+          "alternates": [
+            "Ellington",
+            "Edward Kennedy Ellington"
+          ],
+          "explanation": "Composer, bandleader, pianist (1899–1974), born in Washington, D.C.\nLed his orchestra for over 50 years; composed or co-composed over 1,000 pieces\nThe Cotton Club residency in Harlem (1927–1931) made him nationally famous via radio broadcasts\n'Take the A Train' (1941), written by Billy Strayhorn, became the orchestra's signature theme\nComposed extended suites like *Black, Brown and Beige* (1943) that expanded jazz beyond the three-minute single\nReceived the Presidential Medal of Freedom from Nixon in 1969\nNominated for a Pulitzer Prize in 1965; the board overruled the committee, awarding no prize — he remarked, 'Fate is being kind to me'",
           "cardFront": "Cotton Club / 'Take the A Train'",
-          "cardBack": "Duke Ellington"
+          "cardBack": "Duke Ellington",
+          "links": [
+            {
+              "text": "Duke Ellington",
+              "url": "https://en.wikipedia.org/wiki/Duke_Ellington"
+            },
+            {
+              "text": "Cotton Club / 'Take the A Train'",
+              "url": "https://en.wikipedia.org/wiki/Cotton_Club_/_'Take_the_A_Train'"
+            }
+          ]
         },
         {
           "id": "miles-davis",
           "prompt": "Which trumpeter recorded *Kind of Blue* (1959), the best-selling jazz album of all time?",
           "answer": "Miles Davis",
-          "alternates": ["Davis", "Miles"],
-          "explanation": "Trumpeter, bandleader, composer (1926\u20131991), from Alton, Illinois\n*Kind of Blue* (1959) is the best-selling jazz album of all time with 5+ million copies sold in the U.S. alone\nReinvented himself across multiple eras: cool jazz (*Birth of the Cool*, 1957), modal jazz (*Kind of Blue*), fusion (*Bitches Brew*, 1970)\nHis first great quintet featured John Coltrane and Red Garland; his second featured Wayne Shorter and Herbie Hancock\n*Bitches Brew* (1970) fused jazz with rock and funk, launching the jazz-fusion movement\nNotorious for playing with his back to the audience and his spare, lyrical trumpet tone\nInducted into the Rock & Roll Hall of Fame in 2006 for his influence on rock and funk",
+          "alternates": [
+            "Davis",
+            "Miles"
+          ],
+          "explanation": "Trumpeter, bandleader, composer (1926–1991), from Alton, Illinois\n*Kind of Blue* (1959) is the best-selling jazz album of all time with 5+ million copies sold in the U.S. alone\nReinvented himself across multiple eras: cool jazz (*Birth of the Cool*, 1957), modal jazz (*Kind of Blue*), fusion (*Bitches Brew*, 1970)\nHis first great quintet featured John Coltrane and Red Garland; his second featured Wayne Shorter and Herbie Hancock\n*Bitches Brew* (1970) fused jazz with rock and funk, launching the jazz-fusion movement\nNotorious for playing with his back to the audience and his spare, lyrical trumpet tone\nInducted into the Rock & Roll Hall of Fame in 2006 for his influence on rock and funk",
           "cardFront": "*Kind of Blue* (1959)",
-          "cardBack": "Miles Davis"
+          "cardBack": "Miles Davis",
+          "links": [
+            {
+              "text": "Miles Davis",
+              "url": "https://en.wikipedia.org/wiki/Miles_Davis"
+            },
+            {
+              "text": "*Kind of Blue*",
+              "url": "https://en.wikipedia.org/wiki/*Kind_of_Blue*"
+            }
+          ]
         },
         {
           "id": "john-coltrane",
           "prompt": "Which saxophonist recorded *A Love Supreme* in 1965 and was a member of Miles Davis's first great quintet?",
           "answer": "John Coltrane",
-          "alternates": ["Coltrane", "Trane"],
-          "explanation": "Tenor and soprano saxophonist (1926\u20131967), from Hamlet, North Carolina\n*A Love Supreme* (1965) is a four-part spiritual suite; it sold over 500,000 copies, extraordinary for avant-garde jazz\nDeveloped the 'sheets of sound' technique \u2014 rapid, densely packed arpeggios that redefined saxophone playing\nPlayed in Miles Davis's first great quintet and Thelonious Monk's quartet before leading his own groups\n*Giant Steps* (1960) introduced chord changes so complex ('Coltrane changes') they remain a test for jazz musicians\nDied of liver cancer at age 40; some scholars link it to his earlier heroin addiction\nCanonized as a saint by the African Orthodox Church in San Francisco",
+          "alternates": [
+            "Coltrane",
+            "Trane"
+          ],
+          "explanation": "Tenor and soprano saxophonist (1926–1967), from Hamlet, North Carolina\n*A Love Supreme* (1965) is a four-part spiritual suite; it sold over 500,000 copies, extraordinary for avant-garde jazz\nDeveloped the 'sheets of sound' technique — rapid, densely packed arpeggios that redefined saxophone playing\nPlayed in Miles Davis's first great quintet and Thelonious Monk's quartet before leading his own groups\n*Giant Steps* (1960) introduced chord changes so complex ('Coltrane changes') they remain a test for jazz musicians\nDied of liver cancer at age 40; some scholars link it to his earlier heroin addiction\nCanonized as a saint by the African Orthodox Church in San Francisco",
           "cardFront": "*A Love Supreme* / 'sheets of sound'",
-          "cardBack": "John Coltrane"
+          "cardBack": "John Coltrane",
+          "links": [
+            {
+              "text": "John Coltrane",
+              "url": "https://en.wikipedia.org/wiki/John_Coltrane"
+            },
+            {
+              "text": "*A Love Supreme* / 'sheets of sound'",
+              "url": "https://en.wikipedia.org/wiki/*A_Love_Supreme*_/_'sheets_of_sound'"
+            }
+          ]
         },
         {
           "id": "charlie-parker",
           "prompt": "Which alto saxophonist, nicknamed 'Bird,' co-invented bebop jazz in the 1940s?",
           "answer": "Charlie Parker",
-          "alternates": ["Parker", "Bird", "Yardbird"],
-          "explanation": "Alto saxophonist, composer (1920\u20131955), from Kansas City, Kansas\nCo-invented bebop with Dizzy Gillespie in the mid-1940s, revolutionizing jazz with fast tempos and complex harmonies\nNicknamed 'Bird' (short for 'Yardbird'); New York's premier jazz club Birdland was named after him\nHis improvisations on songs like 'Ko-Ko' (1945) and 'Ornithology' (1946) set new standards for virtuosity and creativity\nRecorded with the legendary 'Savoy Sessions' and 'Dial Sessions' between 1944 and 1948\nDied at age 34 from a heart attack complicated by cirrhosis, ulcers, and pneumonia; the coroner estimated his age at 53\nGraffiti reading 'Bird Lives!' appeared across New York City immediately after his death",
+          "alternates": [
+            "Parker",
+            "Bird",
+            "Yardbird"
+          ],
+          "explanation": "Alto saxophonist, composer (1920–1955), from Kansas City, Kansas\nCo-invented bebop with Dizzy Gillespie in the mid-1940s, revolutionizing jazz with fast tempos and complex harmonies\nNicknamed 'Bird' (short for 'Yardbird'); New York's premier jazz club Birdland was named after him\nHis improvisations on songs like 'Ko-Ko' (1945) and 'Ornithology' (1946) set new standards for virtuosity and creativity\nRecorded with the legendary 'Savoy Sessions' and 'Dial Sessions' between 1944 and 1948\nDied at age 34 from a heart attack complicated by cirrhosis, ulcers, and pneumonia; the coroner estimated his age at 53\nGraffiti reading 'Bird Lives!' appeared across New York City immediately after his death",
           "cardFront": "Bebop inventor / 'Bird'",
-          "cardBack": "Charlie Parker"
+          "cardBack": "Charlie Parker",
+          "links": [
+            {
+              "text": "Charlie Parker",
+              "url": "https://en.wikipedia.org/wiki/Charlie_Parker"
+            },
+            {
+              "text": "Bebop inventor / 'Bird'",
+              "url": "https://en.wikipedia.org/wiki/Bebop_inventor_/_'Bird'"
+            }
+          ]
         },
         {
           "id": "thelonious-monk",
           "prompt": "Which pianist and composer wrote 'Round Midnight' and was known for his angular, percussive playing style?",
           "answer": "Thelonious Monk",
-          "alternates": ["Monk", "Thelonious Sphere Monk"],
-          "explanation": "Pianist, composer (1917\u20131982), from Rocky Mount, North Carolina; raised in New York City\n'Round Midnight' (1944) is the most-recorded jazz composition of all time\nHis angular, dissonant piano style and use of silence were initially dismissed as amateurish, later recognized as visionary\nSecond-most-recorded jazz composer after Ellington; wrote 70+ original compositions\nWas featured on the cover of *Time* magazine in 1964 \u2014 only the third jazz musician so honored (after Armstrong and Brubeck)\nLost his cabaret card (NYC performance license) for six years (1951\u20131957) after a narcotics arrest; could not play NYC clubs\nSpent his final six years in seclusion at the home of patron Baroness Nica de Koenigswarter, barely speaking or playing",
+          "alternates": [
+            "Monk",
+            "Thelonious Sphere Monk"
+          ],
+          "explanation": "Pianist, composer (1917–1982), from Rocky Mount, North Carolina; raised in New York City\n'Round Midnight' (1944) is the most-recorded jazz composition of all time\nHis angular, dissonant piano style and use of silence were initially dismissed as amateurish, later recognized as visionary\nSecond-most-recorded jazz composer after Ellington; wrote 70+ original compositions\nWas featured on the cover of *Time* magazine in 1964 — only the third jazz musician so honored (after Armstrong and Brubeck)\nLost his cabaret card (NYC performance license) for six years (1951–1957) after a narcotics arrest; could not play NYC clubs\nSpent his final six years in seclusion at the home of patron Baroness Nica de Koenigswarter, barely speaking or playing",
           "cardFront": "'Round Midnight' / angular piano style",
-          "cardBack": "Thelonious Monk"
+          "cardBack": "Thelonious Monk",
+          "links": [
+            {
+              "text": "Thelonious Monk",
+              "url": "https://en.wikipedia.org/wiki/Thelonious_Monk"
+            },
+            {
+              "text": "'Round Midnight' / angular piano style",
+              "url": "https://en.wikipedia.org/wiki/'Round_Midnight'_/_angular_piano_style"
+            }
+          ]
         },
         {
           "id": "ella-fitzgerald",
           "prompt": "Which vocalist, known as the 'First Lady of Song,' recorded the definitive *Songbook* series interpreting the Great American Songbook?",
           "answer": "Ella Fitzgerald",
-          "alternates": ["Ella", "Fitzgerald"],
-          "explanation": "Vocalist (1917\u20131996), from Newport News, Virginia\nRecorded the eight-volume *Songbook* series (1956\u20131964), definitive interpretations of Cole Porter, Gershwin, Ellington, and others\nWon 13 Grammys \u2014 the first African American woman to win a Grammy (Best Individual Jazz Vocal, 1958)\nKnown for flawless intonation, three-octave range, and virtuosic scat singing\nDiscovered at age 17 at an amateur night at the Apollo Theater in Harlem (1934)\nNorman Granz, her manager, fought segregation by refusing to let her play venues that discriminated\nReceived the National Medal of Arts (1987) and the Presidential Medal of Freedom (1992)",
+          "alternates": [
+            "Ella",
+            "Fitzgerald"
+          ],
+          "explanation": "Vocalist (1917–1996), from Newport News, Virginia\nRecorded the eight-volume *Songbook* series (1956–1964), definitive interpretations of Cole Porter, Gershwin, Ellington, and others\nWon 13 Grammys — the first African American woman to win a Grammy (Best Individual Jazz Vocal, 1958)\nKnown for flawless intonation, three-octave range, and virtuosic scat singing\nDiscovered at age 17 at an amateur night at the Apollo Theater in Harlem (1934)\nNorman Granz, her manager, fought segregation by refusing to let her play venues that discriminated\nReceived the National Medal of Arts (1987) and the Presidential Medal of Freedom (1992)",
           "cardFront": "*Songbook* series / 'First Lady of Song'",
-          "cardBack": "Ella Fitzgerald"
+          "cardBack": "Ella Fitzgerald",
+          "links": [
+            {
+              "text": "Ella Fitzgerald",
+              "url": "https://en.wikipedia.org/wiki/Ella_Fitzgerald"
+            },
+            {
+              "text": "*Songbook* series / 'First Lady of Song'",
+              "url": "https://en.wikipedia.org/wiki/*Songbook*_series_/_'First_Lady_of_Song'"
+            }
+          ]
         },
         {
           "id": "billie-holiday",
           "prompt": "Which vocalist recorded 'Strange Fruit' in 1939, a song protesting the lynching of African Americans?",
           "answer": "Billie Holiday",
-          "alternates": ["Holiday", "Lady Day", "Eleanora Fagan"],
-          "explanation": "Vocalist (1915\u20131959), from Philadelphia, raised in Baltimore\n'Strange Fruit' (1939) protested lynching with metaphorical lyrics comparing victims to fruit hanging from trees; *Time* named it the song of the 20th century\nNicknamed 'Lady Day' by saxophonist Lester Young, whom she nicknamed 'Prez' in return\nHer emotional, behind-the-beat phrasing influenced virtually every jazz and pop vocalist who followed\nPersecuted by federal narcotics agents partly for refusing to stop performing 'Strange Fruit'\nDied at age 44 in a New York hospital; police arrested her on her deathbed for heroin possession\nHer autobiography *Lady Sings the Blues* (1956) was adapted into a 1972 Diana Ross film",
+          "alternates": [
+            "Holiday",
+            "Lady Day",
+            "Eleanora Fagan"
+          ],
+          "explanation": "Vocalist (1915–1959), from Philadelphia, raised in Baltimore\n'Strange Fruit' (1939) protested lynching with metaphorical lyrics comparing victims to fruit hanging from trees; *Time* named it the song of the 20th century\nNicknamed 'Lady Day' by saxophonist Lester Young, whom she nicknamed 'Prez' in return\nHer emotional, behind-the-beat phrasing influenced virtually every jazz and pop vocalist who followed\nPersecuted by federal narcotics agents partly for refusing to stop performing 'Strange Fruit'\nDied at age 44 in a New York hospital; police arrested her on her deathbed for heroin possession\nHer autobiography *Lady Sings the Blues* (1956) was adapted into a 1972 Diana Ross film",
           "cardFront": "'Strange Fruit' (1939) / 'Lady Day'",
-          "cardBack": "Billie Holiday"
+          "cardBack": "Billie Holiday",
+          "links": [
+            {
+              "text": "Billie Holiday",
+              "url": "https://en.wikipedia.org/wiki/Billie_Holiday"
+            },
+            {
+              "text": "'Strange Fruit'/ 'Lady Day'",
+              "url": "https://en.wikipedia.org/wiki/'Strange_Fruit'/_'Lady_Day'"
+            }
+          ]
         },
         {
           "id": "dizzy-gillespie",
           "prompt": "Which trumpeter co-invented bebop with Charlie Parker and was known for his bent trumpet and puffed cheeks?",
           "answer": "Dizzy Gillespie",
-          "alternates": ["Gillespie", "Dizzy", "John Birks Gillespie"],
-          "explanation": "Trumpeter, bandleader, composer, singer (1917\u20131993), from Cheraw, South Carolina\nCo-invented bebop with Charlie Parker; their 1945 recordings ('Salt Peanuts,' 'Groovin' High') defined the genre\nTrademark bent trumpet (bell angled 45\u00b0 upward) originated when someone accidentally sat on it; he liked the sound\nPioneered Afro-Cuban jazz by hiring Cuban percussionist Chano Pozo for his big band in 1947\nRan for President of the United States in 1964 as a write-in candidate, promising to rename the White House the 'Blues House'\nHis puffed-out cheeks (from a condition called laryngocele) became visually iconic\nReceived the National Medal of Arts and a Grammy Lifetime Achievement Award",
+          "alternates": [
+            "Gillespie",
+            "Dizzy",
+            "John Birks Gillespie"
+          ],
+          "explanation": "Trumpeter, bandleader, composer, singer (1917–1993), from Cheraw, South Carolina\nCo-invented bebop with Charlie Parker; their 1945 recordings ('Salt Peanuts,' 'Groovin' High') defined the genre\nTrademark bent trumpet (bell angled 45° upward) originated when someone accidentally sat on it; he liked the sound\nPioneered Afro-Cuban jazz by hiring Cuban percussionist Chano Pozo for his big band in 1947\nRan for President of the United States in 1964 as a write-in candidate, promising to rename the White House the 'Blues House'\nHis puffed-out cheeks (from a condition called laryngocele) became visually iconic\nReceived the National Medal of Arts and a Grammy Lifetime Achievement Award",
           "cardFront": "Bebop co-inventor / bent trumpet",
-          "cardBack": "Dizzy Gillespie"
+          "cardBack": "Dizzy Gillespie",
+          "links": [
+            {
+              "text": "Dizzy Gillespie",
+              "url": "https://en.wikipedia.org/wiki/Dizzy_Gillespie"
+            },
+            {
+              "text": "Bebop co-inventor / bent trumpet",
+              "url": "https://en.wikipedia.org/wiki/Bebop_co-inventor_/_bent_trumpet"
+            }
+          ]
         },
         {
           "id": "dave-brubeck",
           "prompt": "Which pianist led the quartet that recorded the album *Time Out* (1959), featuring the hit 'Take Five' in 5/4 time?",
           "answer": "Dave Brubeck",
-          "alternates": ["Brubeck", "David Brubeck"],
-          "explanation": "Pianist, composer (1920\u20132012), from Concord, California\n*Time Out* (1959) was the first jazz album to sell one million copies; its single 'Take Five' was the first jazz single to do so\n'Take Five' was actually composed by alto saxophonist Paul Desmond, not Brubeck; it's written in 5/4 time\nPioneered the use of unusual time signatures in jazz (5/4, 9/8, 7/4) \u2014 *Time Out* was built around this concept\nFeatured on the cover of *Time* magazine in 1954, only the second jazz musician after Louis Armstrong\nRefused to perform at segregated venues, canceling 23 of 25 dates on one southern tour\nDied one day before his 92nd birthday; *Time Out* was inducted into the Grammy Hall of Fame (2009) and the National Recording Registry (2005)",
+          "alternates": [
+            "Brubeck",
+            "David Brubeck"
+          ],
+          "explanation": "Pianist, composer (1920–2012), from Concord, California\n*Time Out* (1959) was the first jazz album to sell one million copies; its single 'Take Five' was the first jazz single to do so\n'Take Five' was actually composed by alto saxophonist Paul Desmond, not Brubeck; it's written in 5/4 time\nPioneered the use of unusual time signatures in jazz (5/4, 9/8, 7/4) — *Time Out* was built around this concept\nFeatured on the cover of *Time* magazine in 1954, only the second jazz musician after Louis Armstrong\nRefused to perform at segregated venues, canceling 23 of 25 dates on one southern tour\nDied one day before his 92nd birthday; *Time Out* was inducted into the Grammy Hall of Fame (2009) and the National Recording Registry (2005)",
           "cardFront": "*Time Out* / 'Take Five' (5/4 time)",
-          "cardBack": "Dave Brubeck"
+          "cardBack": "Dave Brubeck",
+          "links": [
+            {
+              "text": "Dave Brubeck",
+              "url": "https://en.wikipedia.org/wiki/Dave_Brubeck"
+            },
+            {
+              "text": "*Time Out* / 'Take Five'",
+              "url": "https://en.wikipedia.org/wiki/*Time_Out*_/_'Take_Five'"
+            }
+          ]
         },
         {
           "id": "charles-mingus",
           "prompt": "Which bassist and composer recorded *Mingus Ah Um* (1959) and wrote the protest piece 'Fables of Faubus'?",
           "answer": "Charles Mingus",
-          "alternates": ["Mingus"],
-          "explanation": "Bassist, composer, bandleader (1922\u20131979), from Nogales, Arizona; raised in Watts, Los Angeles\n*Mingus Ah Um* (1959) is his most acclaimed album; it was added to the National Recording Registry in 2003\n'Fables of Faubus' (1959) directly protested Arkansas governor Orval Faubus's resistance to school integration\nKnown for volcanic temper: once punched trombonist Jimmy Knepper in the mouth, breaking a tooth\nComposed over 300 works blending jazz, gospel, classical, and Mexican folk music\n'Goodbye Pork Pie Hat' (1959) was a tribute to saxophonist Lester Young, named for his trademark hat\nDied of ALS at age 56; his ashes were scattered in the Ganges River in India per his wishes",
+          "alternates": [
+            "Mingus"
+          ],
+          "explanation": "Bassist, composer, bandleader (1922–1979), from Nogales, Arizona; raised in Watts, Los Angeles\n*Mingus Ah Um* (1959) is his most acclaimed album; it was added to the National Recording Registry in 2003\n'Fables of Faubus' (1959) directly protested Arkansas governor Orval Faubus's resistance to school integration\nKnown for volcanic temper: once punched trombonist Jimmy Knepper in the mouth, breaking a tooth\nComposed over 300 works blending jazz, gospel, classical, and Mexican folk music\n'Goodbye Pork Pie Hat' (1959) was a tribute to saxophonist Lester Young, named for his trademark hat\nDied of ALS at age 56; his ashes were scattered in the Ganges River in India per his wishes",
           "cardFront": "*Mingus Ah Um* / 'Fables of Faubus'",
-          "cardBack": "Charles Mingus"
+          "cardBack": "Charles Mingus",
+          "links": [
+            {
+              "text": "Charles Mingus",
+              "url": "https://en.wikipedia.org/wiki/Charles_Mingus"
+            },
+            {
+              "text": "*Mingus Ah Um* / 'Fables of Faubus'",
+              "url": "https://en.wikipedia.org/wiki/*Mingus_Ah_Um*_/_'Fables_of_Faubus'"
+            }
+          ]
         },
         {
           "id": "herbie-hancock",
           "prompt": "Which pianist recorded *Head Hunters* (1973), the first jazz album to be certified platinum, and later won Album of the Year for *River: The Joni Letters*?",
           "answer": "Herbie Hancock",
-          "alternates": ["Hancock"],
-          "explanation": "Pianist, keyboardist, composer (b. 1940), from Chicago, Illinois\n*Head Hunters* (1973) fused jazz with funk; it became the first jazz album to sell one million copies (later surpassed by *Kind of Blue*)\nMember of Miles Davis's second great quintet (1963\u20131968), pioneering post-bop and modal jazz\n'Rockit' (1983) was a groundbreaking early hip-hop/electro track, winning a Grammy for Best R&B Instrumental\nWon Album of the Year at the 2008 Grammys for *River: The Joni Letters* \u2014 only the second jazz album to win (after Stan Getz's *Getz/Gilberto* in 1965)\nPerformed as a piano prodigy with the Chicago Symphony Orchestra at age 11\nDevout practitioner of Nichiren Buddhism since 1972; credits it as a major creative influence",
+          "alternates": [
+            "Hancock"
+          ],
+          "explanation": "Pianist, keyboardist, composer (b. 1940), from Chicago, Illinois\n*Head Hunters* (1973) fused jazz with funk; it became the first jazz album to sell one million copies (later surpassed by *Kind of Blue*)\nMember of Miles Davis's second great quintet (1963–1968), pioneering post-bop and modal jazz\n'Rockit' (1983) was a groundbreaking early hip-hop/electro track, winning a Grammy for Best R&B Instrumental\nWon Album of the Year at the 2008 Grammys for *River: The Joni Letters* — only the second jazz album to win (after Stan Getz's *Getz/Gilberto* in 1965)\nPerformed as a piano prodigy with the Chicago Symphony Orchestra at age 11\nDevout practitioner of Nichiren Buddhism since 1972; credits it as a major creative influence",
           "cardFront": "*Head Hunters* (1973) / Miles Davis quintet",
-          "cardBack": "Herbie Hancock"
+          "cardBack": "Herbie Hancock",
+          "links": [
+            {
+              "text": "Herbie Hancock",
+              "url": "https://en.wikipedia.org/wiki/Herbie_Hancock"
+            },
+            {
+              "text": "*Head Hunters*/ Miles Davis quintet",
+              "url": "https://en.wikipedia.org/wiki/*Head_Hunters*/_Miles_Davis_quintet"
+            }
+          ]
         }
       ]
     }

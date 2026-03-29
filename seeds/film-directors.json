@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "film/directors", "parentId": "film", "name": "Directors", "description": "Legendary filmmakers and their signature works" }
+    {
+      "id": "film/directors",
+      "parentId": "film",
+      "name": "Directors",
+      "description": "Legendary filmmakers and their signature works"
+    }
   ],
   "exercises": [
     {
@@ -14,181 +19,425 @@
           "id": "alfred-hitchcock",
           "prompt": "Which British-American director, known as the 'Master of Suspense,' created *Psycho*, *Rear Window*, and *North by Northwest*, and made cameo appearances in nearly all of his films?",
           "answer": "Alfred Hitchcock",
-          "alternates": ["Hitchcock"],
+          "alternates": [
+            "Hitchcock"
+          ],
           "explanation": "British, 1899–1980; worked in Hollywood from 1939 onward\nMaster of psychological suspense; pioneered techniques like the 'MacGuffin' plot device\nKey films: *Psycho* (1960), *Vertigo* (1958), *Rear Window* (1954), *North by Northwest* (1959), *The Birds* (1963)\nNever won a competitive Oscar for directing despite five nominations\nMade a cameo appearance in nearly all of his 53 feature films\nAnthony Perkins as Norman Bates in *Psycho* set the template for the modern serial-killer character",
           "cardFront": "*Vertigo*",
-          "cardBack": "Alfred Hitchcock"
+          "cardBack": "Alfred Hitchcock",
+          "links": [
+            {
+              "text": "Alfred Hitchcock",
+              "url": "https://en.wikipedia.org/wiki/Alfred_Hitchcock"
+            },
+            {
+              "text": "*Vertigo*",
+              "url": "https://en.wikipedia.org/wiki/*Vertigo*"
+            }
+          ]
         },
         {
           "id": "stanley-kubrick",
           "prompt": "Which American director's meticulously controlled filmography includes *Dr. Strangelove*, *The Shining*, *A Clockwork Orange*, and *Full Metal Jacket*, and who moved to England in 1961 and never returned to the US?",
           "answer": "Stanley Kubrick",
-          "alternates": ["Kubrick"],
+          "alternates": [
+            "Kubrick"
+          ],
           "explanation": "American, 1928–1999; lived in England from 1961 until his death\nKnown for obsessive perfectionism – actors endured dozens to hundreds of takes\nKey films: *2001: A Space Odyssey* (1968), *Dr. Strangelove* (1964), *The Shining* (1980), *A Clockwork Orange* (1971), *Full Metal Jacket* (1987)\nNever won a competitive Oscar for directing despite four nominations\nDestroyed most of the models from *2001: A Space Odyssey* after filming to prevent knock-offs\nHAL 9000 in *2001* is routinely cited as cinema's most iconic artificial intelligence",
           "cardFront": "*2001: A Space Odyssey*",
-          "cardBack": "Stanley Kubrick"
+          "cardBack": "Stanley Kubrick",
+          "links": [
+            {
+              "text": "Stanley Kubrick",
+              "url": "https://en.wikipedia.org/wiki/Stanley_Kubrick"
+            },
+            {
+              "text": "*2001: A Space Odyssey*",
+              "url": "https://en.wikipedia.org/wiki/*2001:_A_Space_Odyssey*"
+            }
+          ]
         },
         {
           "id": "steven-spielberg",
           "prompt": "Which American director transformed Hollywood with *Jaws* (the first blockbuster), then crafted *E.T.*, *Raiders of the Lost Ark*, and *Saving Private Ryan*, winning Best Director twice?",
           "answer": "Steven Spielberg",
-          "alternates": ["Spielberg"],
+          "alternates": [
+            "Spielberg"
+          ],
           "explanation": "American, born 1946; the highest-grossing director in history\n*Jaws* (1975) is widely credited as the first summer blockbuster, reshaping the studio system\nKey films: *Jaws*, *E.T. the Extra-Terrestrial* (1982), *Raiders of the Lost Ark* (1981), *Schindler's List* (1993), *Saving Private Ryan* (1998)\nWon Best Director twice: *Schindler's List* (1994) and *Saving Private Ryan* (1999); *Saving Private Ryan* lost Best Picture to *Shakespeare in Love* despite Spielberg winning Best Director\nCo-founded DreamWorks SKG with Jeffrey Katzenberg and David Geffen in 1994\nEstablished the USC Shoah Foundation to preserve Holocaust survivor testimonies",
           "cardFront": "*Schindler's List*",
-          "cardBack": "Steven Spielberg"
+          "cardBack": "Steven Spielberg",
+          "links": [
+            {
+              "text": "Steven Spielberg",
+              "url": "https://en.wikipedia.org/wiki/Steven_Spielberg"
+            },
+            {
+              "text": "*Schindler's List*",
+              "url": "https://en.wikipedia.org/wiki/*Schindler's_List*"
+            }
+          ]
         },
         {
           "id": "martin-scorsese",
           "prompt": "Which New York director defined American crime cinema with *Taxi Driver*, *Raging Bull*, *Goodfellas*, and *The Departed*, winning Best Director for *The Departed* (2006)?",
           "answer": "Martin Scorsese",
-          "alternates": ["Scorsese"],
+          "alternates": [
+            "Scorsese"
+          ],
           "explanation": "American, born 1942 in Queens, New York; raised in Little Italy, Manhattan\nSignature style: long tracking shots, freeze frames, period rock soundtracks, Catholic guilt themes\nKey films: *Taxi Driver* (1976), *Raging Bull* (1980), *Goodfellas* (1990), *The Departed* (2006), *Killers of the Flower Moon* (2023)\nWon Best Director for *The Departed* at his sixth nomination – widely seen as a career-achievement recognition\nDeep cinephile; founded the Film Foundation in 1990 to preserve classic cinema\nFrequent collaborator with Robert De Niro (9 films) and later Leonardo DiCaprio (7 films)",
           "cardFront": "*Goodfellas*",
-          "cardBack": "Martin Scorsese"
+          "cardBack": "Martin Scorsese",
+          "links": [
+            {
+              "text": "Martin Scorsese",
+              "url": "https://en.wikipedia.org/wiki/Martin_Scorsese"
+            },
+            {
+              "text": "*Goodfellas*",
+              "url": "https://en.wikipedia.org/wiki/*Goodfellas*"
+            }
+          ]
         },
         {
           "id": "akira-kurosawa",
           "prompt": "Which Japanese director's *Rashomon*, *Seven Samurai*, and *Ran* revolutionized world cinema and directly inspired *The Magnificent Seven*, *A Fistful of Dollars*, and *Star Wars*?",
           "answer": "Akira Kurosawa",
-          "alternates": ["Kurosawa"],
+          "alternates": [
+            "Kurosawa"
+          ],
           "explanation": "Japanese, 1910–1998; called 'The Emperor' by Japanese film industry\n*Rashomon* (1950) won the Golden Lion at Venice and introduced Japanese cinema to Western audiences\nKey films: *Rashomon* (1950), *Seven Samurai* (1954), *Ikiru* (1952), *Yojimbo* (1961), *Ran* (1985)\n*Seven Samurai* was directly remade as *The Magnificent Seven* (1960); *Yojimbo* inspired Leone's *A Fistful of Dollars*\nGeorge Lucas credited Kurosawa as a major influence on *Star Wars*, particularly *The Hidden Fortress* (1958)\nReceived an Honorary Oscar in 1990; called himself 'the last samurai' when accepting",
           "cardFront": "*Seven Samurai*",
-          "cardBack": "Akira Kurosawa"
+          "cardBack": "Akira Kurosawa",
+          "links": [
+            {
+              "text": "Akira Kurosawa",
+              "url": "https://en.wikipedia.org/wiki/Akira_Kurosawa"
+            },
+            {
+              "text": "*Seven Samurai*",
+              "url": "https://en.wikipedia.org/wiki/*Seven_Samurai*"
+            }
+          ]
         },
         {
           "id": "orson-welles",
           "prompt": "Which American filmmaker made *Citizen Kane* at age 25, widely regarded as the greatest film ever made, and also panicked the nation with a 1938 radio broadcast of *The War of the Worlds*?",
           "answer": "Orson Welles",
-          "alternates": ["Welles"],
+          "alternates": [
+            "Welles"
+          ],
           "explanation": "American, 1915–1985; child prodigy on stage and radio before film\n*Citizen Kane* (1941) written, directed, produced, and starring Welles at 25 – his feature debut\nKey films: *Citizen Kane* (1941), *The Magnificent Ambersons* (1942), *Touch of Evil* (1958)\nWon only one Oscar: Best Original Screenplay for *Citizen Kane* (with Herman J. Mankiewicz)\nHis 1938 CBS radio broadcast of *War of the Worlds* was reported to have caused widespread panic\nHearst attempted to suppress *Citizen Kane*; RKO gave Welles unprecedented creative control never seen before or since for a debut director",
           "cardFront": "*Citizen Kane*",
-          "cardBack": "Orson Welles"
+          "cardBack": "Orson Welles",
+          "links": [
+            {
+              "text": "Orson Welles",
+              "url": "https://en.wikipedia.org/wiki/Orson_Welles"
+            },
+            {
+              "text": "*Citizen Kane*",
+              "url": "https://en.wikipedia.org/wiki/*Citizen_Kane*"
+            }
+          ]
         },
         {
           "id": "billy-wilder",
           "prompt": "Which Austrian-American director behind *Double Indemnity*, *Sunset Boulevard*, and *Some Like It Hot* wrote the screenplay for most of his films and is among the most Oscar-honored writer-directors in history?",
           "answer": "Billy Wilder",
-          "alternates": ["Wilder"],
+          "alternates": [
+            "Wilder"
+          ],
           "explanation": "Austrian-born, 1906–2002; fled Nazi Germany in 1933, settled in Hollywood\nMaster of both film noir and screwball comedy – rare facility across genres\nKey films: *Double Indemnity* (1944), *Sunset Boulevard* (1950), *Stalag 17* (1953), *Some Like It Hot* (1959), *The Apartment* (1960)\nWon six Oscars across directing and writing categories\n*Some Like It Hot* (1959) consistently tops 'greatest comedy' polls; *The Apartment* won Best Picture in 1960\nFrequent writing collaborator was I.A.L. Diamond; together they wrote 13 films",
           "cardFront": "*Sunset Boulevard*",
-          "cardBack": "Billy Wilder"
+          "cardBack": "Billy Wilder",
+          "links": [
+            {
+              "text": "Billy Wilder",
+              "url": "https://en.wikipedia.org/wiki/Billy_Wilder"
+            },
+            {
+              "text": "*Sunset Boulevard*",
+              "url": "https://en.wikipedia.org/wiki/*Sunset_Boulevard*"
+            }
+          ]
         },
         {
           "id": "francis-ford-coppola",
           "prompt": "Which American director created *The Godfather* trilogy and *Apocalypse Now*, winning Best Director for *The Godfather Part II*, but nearly bankrupted himself financing personal projects like *One from the Heart*?",
           "answer": "Francis Ford Coppola",
-          "alternates": ["Coppola", "Francis Coppola"],
+          "alternates": [
+            "Coppola",
+            "Francis Coppola"
+          ],
           "explanation": "American, born 1939; studied at UCLA Film School\nWon Best Director for *The Godfather Part II* (1975); *The Godfather* (1972) lost Best Director to Bob Fosse's *Cabaret*\nKey films: *The Godfather* (1972), *The Godfather Part II* (1974), *The Conversation* (1974), *Apocalypse Now* (1979)\nFounded American Zoetrope studio in 1969 with George Lucas\n*Apocalypse Now* production was notoriously chaotic – typhoons, Brando's improvisation, Sheen's heart attack – documented in *Hearts of Darkness* (1991)\nMortgaged his home and winery to finance *Apocalypse Now* and later *One from the Heart* (1982)",
           "cardFront": "*The Godfather*",
-          "cardBack": "Francis Ford Coppola"
+          "cardBack": "Francis Ford Coppola",
+          "links": [
+            {
+              "text": "Francis Ford Coppola",
+              "url": "https://en.wikipedia.org/wiki/Francis_Ford_Coppola"
+            },
+            {
+              "text": "*The Godfather*",
+              "url": "https://en.wikipedia.org/wiki/*The_Godfather*"
+            }
+          ]
         },
         {
           "id": "jean-luc-godard",
           "prompt": "Which French-Swiss director's debut *Breathless* (1960) launched the French New Wave, and who later became increasingly experimental and political, making films until age 91?",
           "answer": "Jean-Luc Godard",
-          "alternates": ["Godard"],
+          "alternates": [
+            "Godard"
+          ],
           "explanation": "French-Swiss, 1930–2022; died by assisted suicide in Switzerland at 91\nCo-founded the French New Wave alongside Truffaut, Chabrol, Rohmer, and Rivette\nKey films: *Breathless* (À bout de souffle, 1960), *Band of Outsiders* (1964), *Pierrot le Fou* (1965), *Weekend* (1967)\nSignature style: jump cuts, direct address to camera, intertitles, political digression\n*Breathless* was shot handheld on the streets of Paris with available light – broke virtually every classical Hollywood rule\nQuentin Tarantino named his production company 'A Band Apart' after Godard's *Band of Outsiders*",
           "cardFront": "*Breathless*",
-          "cardBack": "Jean-Luc Godard"
+          "cardBack": "Jean-Luc Godard",
+          "links": [
+            {
+              "text": "Jean-Luc Godard",
+              "url": "https://en.wikipedia.org/wiki/Jean-Luc_Godard"
+            },
+            {
+              "text": "*Breathless*",
+              "url": "https://en.wikipedia.org/wiki/*Breathless*"
+            }
+          ]
         },
         {
           "id": "federico-fellini",
           "prompt": "Which Italian director's surrealist autobiographical style in *La Dolce Vita* and *8½* coined the adjective 'Felliniesque' and earned him four Best Foreign Language Film Oscars?",
           "answer": "Federico Fellini",
-          "alternates": ["Fellini"],
+          "alternates": [
+            "Fellini"
+          ],
           "explanation": "Italian, 1920–1993; born in Rimini; worked extensively in Rome\nWon four Best Foreign Language Film Oscars – a record\nKey films: *La Strada* (1954), *La Dolce Vita* (1960), *8½* (1963), *Amarcord* (1973)\n*La Dolce Vita* coined the term 'paparazzi' (the photographer character Paparazzo gave his name to the profession)\n*8½* is named for the number of films Fellini had directed at that point (6 features + 3 co-directed segments = 8½)\nWorked frequently with composer Nino Rota, who also scored *The Godfather*",
           "cardFront": "*8½*",
-          "cardBack": "Federico Fellini"
+          "cardBack": "Federico Fellini",
+          "links": [
+            {
+              "text": "Federico Fellini",
+              "url": "https://en.wikipedia.org/wiki/Federico_Fellini"
+            },
+            {
+              "text": "*8½*",
+              "url": "https://en.wikipedia.org/wiki/*8½*"
+            }
+          ]
         },
         {
           "id": "ingmar-bergman",
           "prompt": "Which Swedish director's *The Seventh Seal*, *Wild Strawberries*, and *Persona* established him as the preeminent voice in European art cinema, exploring death, faith, and identity?",
           "answer": "Ingmar Bergman",
-          "alternates": ["Bergman"],
+          "alternates": [
+            "Bergman"
+          ],
           "explanation": "Swedish, 1918–2007; worked at the Royal Dramatic Theatre as well as in film\nKey films: *The Seventh Seal* (1957), *Wild Strawberries* (1957), *Persona* (1966), *Cries and Whispers* (1972), *Fanny and Alexander* (1982)\nWon three Best Foreign Language Film Oscars: *The Virgin Spring*, *Through a Glass Darkly*, *Fanny and Alexander*\nThe chess match between a knight and Death in *The Seventh Seal* is among cinema's most iconic images\nWorked almost exclusively with Swedish cinematographer Sven Nykvist from 1960 onward\nWoody Allen called him 'probably the greatest film artist since the invention of the cinema'",
           "cardFront": "*The Seventh Seal*",
-          "cardBack": "Ingmar Bergman"
+          "cardBack": "Ingmar Bergman",
+          "links": [
+            {
+              "text": "Ingmar Bergman",
+              "url": "https://en.wikipedia.org/wiki/Ingmar_Bergman"
+            },
+            {
+              "text": "*The Seventh Seal*",
+              "url": "https://en.wikipedia.org/wiki/*The_Seventh_Seal*"
+            }
+          ]
         },
         {
           "id": "david-lean",
           "prompt": "Which British director behind *Brief Encounter*, *The Bridge on the River Kwai*, and *Lawrence of Arabia* was the master of the prestige epic, winning Best Director twice?",
           "answer": "David Lean",
-          "alternates": ["Lean"],
+          "alternates": [
+            "Lean"
+          ],
           "explanation": "British, 1908–1991; began career as a film editor before directing\nWon Best Director for *The Bridge on the River Kwai* (1957) and *Lawrence of Arabia* (1962)\nKey films: *Brief Encounter* (1945), *Great Expectations* (1946), *The Bridge on the River Kwai* (1957), *Lawrence of Arabia* (1962), *Doctor Zhivago* (1965)\n*Lawrence of Arabia* stars Peter O'Toole; shot on location in Jordan and Spain; runs 228 minutes\nCinematographer Freddie Young shot both *Lawrence* and *Doctor Zhivago* – won Oscars for each\n*Lawrence of Arabia* is consistently ranked among the greatest films ever made by critics polls",
           "cardFront": "*Lawrence of Arabia*",
-          "cardBack": "David Lean"
+          "cardBack": "David Lean",
+          "links": [
+            {
+              "text": "David Lean",
+              "url": "https://en.wikipedia.org/wiki/David_Lean"
+            },
+            {
+              "text": "*Lawrence of Arabia*",
+              "url": "https://en.wikipedia.org/wiki/*Lawrence_of_Arabia*"
+            }
+          ]
         },
         {
           "id": "john-ford",
           "prompt": "Which Irish-American director won Best Director a record four times, for *The Informer*, *The Grapes of Wrath*, *How Green Was My Valley*, and *The Quiet Man*, and defined the Hollywood Western?",
           "answer": "John Ford",
-          "alternates": ["Ford"],
+          "alternates": [
+            "Ford"
+          ],
           "explanation": "American (Irish descent), 1894–1973; shot many Westerns in Monument Valley, Utah\nHolds the record for most Best Director Oscar wins: four\nKey films: *Stagecoach* (1939), *The Grapes of Wrath* (1940), *How Green Was My Valley* (1941), *The Searchers* (1956), *The Quiet Man* (1952)\n*How Green Was My Valley* notoriously beat *Citizen Kane* for Best Picture in 1941\n*The Searchers* (1956), starring John Wayne, is widely regarded as his masterpiece and influenced Spielberg, Scorsese, and Lucas\nLong-time collaborator with John Wayne, who appeared in 24 of his films",
           "cardFront": "*The Searchers*",
-          "cardBack": "John Ford"
+          "cardBack": "John Ford",
+          "links": [
+            {
+              "text": "John Ford",
+              "url": "https://en.wikipedia.org/wiki/John_Ford"
+            },
+            {
+              "text": "*The Searchers*",
+              "url": "https://en.wikipedia.org/wiki/*The_Searchers*"
+            }
+          ]
         },
         {
           "id": "quentin-tarantino",
           "prompt": "Which American director emerged from video store clerking to write and direct *Reservoir Dogs*, *Pulp Fiction*, and *Inglourious Basterds*, known for nonlinear narratives, cinephile dialogue, and stylized violence?",
           "answer": "Quentin Tarantino",
-          "alternates": ["Tarantino"],
+          "alternates": [
+            "Tarantino"
+          ],
           "explanation": "American, born 1963; worked at Video Archives in Manhattan Beach, CA before filmmaking\nWon two Best Original Screenplay Oscars: *Pulp Fiction* (1994) and *Django Unchained* (2012)\nKey films: *Reservoir Dogs* (1992), *Pulp Fiction* (1994), *Kill Bill Vol. 1 & 2* (2003–2004), *Inglourious Basterds* (2009), *Django Unchained* (2012)\nHas announced plans to retire after his tenth film, citing a desire to go out on top\nFrequently cast actor Samuel L. Jackson, Harvey Keitel, Michael Madsen, and Uma Thurman\n*Pulp Fiction* revived John Travolta's career after years in Hollywood purgatory",
           "cardFront": "*Pulp Fiction*",
-          "cardBack": "Quentin Tarantino"
+          "cardBack": "Quentin Tarantino",
+          "links": [
+            {
+              "text": "Quentin Tarantino",
+              "url": "https://en.wikipedia.org/wiki/Quentin_Tarantino"
+            },
+            {
+              "text": "*Pulp Fiction*",
+              "url": "https://en.wikipedia.org/wiki/*Pulp_Fiction*"
+            }
+          ]
         },
         {
           "id": "ridley-scott",
           "prompt": "Which British director created two of sci-fi's foundational texts – *Alien* (1979) and *Blade Runner* (1982) – before moving into historical epics with *Gladiator* and *Kingdom of Heaven*?",
           "answer": "Ridley Scott",
-          "alternates": ["Scott"],
+          "alternates": [
+            "Scott"
+          ],
           "explanation": "British, born 1937; came from a television commercial directing background\nKnown for meticulous visual world-building and atmospheric production design\nKey films: *Alien* (1979), *Blade Runner* (1982), *Thelma & Louise* (1991), *Gladiator* (2000), *The Martian* (2015)\n*Blade Runner* flopped on release but became one of cinema's most influential films through home video\nWon Best Picture for *Gladiator* (2000); *Gladiator II* released 2024\nBrother of director Tony Scott (*Top Gun*, *Enemy of the State*)",
           "cardFront": "*Blade Runner*",
-          "cardBack": "Ridley Scott"
+          "cardBack": "Ridley Scott",
+          "links": [
+            {
+              "text": "Ridley Scott",
+              "url": "https://en.wikipedia.org/wiki/Ridley_Scott"
+            },
+            {
+              "text": "*Blade Runner*",
+              "url": "https://en.wikipedia.org/wiki/*Blade_Runner*"
+            }
+          ]
         },
         {
           "id": "christopher-nolan",
           "prompt": "Which British-American director brought intellectual and formal ambition to blockbusters with *Memento*, *The Dark Knight*, *Inception*, and *Interstellar*, finally winning Best Director for *Oppenheimer*?",
           "answer": "Christopher Nolan",
-          "alternates": ["Nolan"],
+          "alternates": [
+            "Nolan"
+          ],
           "explanation": "British-American, born 1970; studied at Cambridge; first feature *Following* made for £6,000\nKey films: *Memento* (2000), *The Dark Knight* (2008), *Inception* (2010), *Interstellar* (2014), *Dunkirk* (2017), *Oppenheimer* (2023)\nWon Best Director and Best Picture for *Oppenheimer* (2024 ceremony) – his first directing win\n*The Dark Knight* (2008) is widely regarded as the first superhero film to be treated as serious dramatic art\nCommitted advocate for shooting on film rather than digital; uses practical effects over CGI where possible\n*Oppenheimer* shot portions on black-and-white IMAX film stock for the first time in history",
           "cardFront": "*The Dark Knight*",
-          "cardBack": "Christopher Nolan"
+          "cardBack": "Christopher Nolan",
+          "links": [
+            {
+              "text": "Christopher Nolan",
+              "url": "https://en.wikipedia.org/wiki/Christopher_Nolan"
+            },
+            {
+              "text": "*The Dark Knight*",
+              "url": "https://en.wikipedia.org/wiki/*The_Dark_Knight*"
+            }
+          ]
         },
         {
           "id": "jean-renoir",
           "prompt": "Which French director, son of painter Pierre-Auguste Renoir, made *Grand Illusion* and *The Rules of the Game*, two of the most celebrated European films of the prewar era?",
           "answer": "Jean Renoir",
-          "alternates": ["Renoir"],
+          "alternates": [
+            "Renoir"
+          ],
           "explanation": "French, 1894–1979; son of Impressionist painter Pierre-Auguste Renoir\nKey films: *La Chienne* (1931), *Grand Illusion* (1937), *The Rules of the Game* (1939), *The River* (1951)\n*Grand Illusion* was the first foreign-language film nominated for Best Picture at the Academy Awards\n*The Rules of the Game* was initially a commercial and critical failure; it was cut and partly banned; now considered a masterpiece\nOrson Welles called *The Rules of the Game* the greatest film ever made\nFled to America during WWII; later returned to France and Europe",
           "cardFront": "*The Rules of the Game*",
-          "cardBack": "Jean Renoir"
+          "cardBack": "Jean Renoir",
+          "links": [
+            {
+              "text": "Jean Renoir",
+              "url": "https://en.wikipedia.org/wiki/Jean_Renoir"
+            },
+            {
+              "text": "*The Rules of the Game*",
+              "url": "https://en.wikipedia.org/wiki/*The_Rules_of_the_Game*"
+            }
+          ]
         },
         {
           "id": "francois-truffaut",
           "prompt": "Which French critic-turned-director's semi-autobiographical debut *The 400 Blows* launched the French New Wave, and who later explored childhood, love, and filmmaking itself in *Jules and Jim* and *Day for Night*?",
           "answer": "François Truffaut",
-          "alternates": ["Truffaut", "Francois Truffaut"],
+          "alternates": [
+            "Truffaut",
+            "Francois Truffaut"
+          ],
           "explanation": "French, 1932–1984; wrote criticism for Cahiers du Cinéma before directing\nCo-founded the French New Wave alongside Godard, Chabrol, Rohmer, and Rivette\nKey films: *The 400 Blows* (1959), *Shoot the Piano Player* (1960), *Jules and Jim* (1962), *Day for Night* (1973)\n*The 400 Blows* drew heavily on his own troubled childhood; protagonist Antoine Doinel became his on-screen alter ego across five films\n*Day for Night* (1973) won Best Foreign Language Film Oscar – a film about the making of a film\nActed in front of the camera in Spielberg's *Close Encounters of the Third Kind* (1977)",
           "cardFront": "*The 400 Blows*",
-          "cardBack": "François Truffaut"
+          "cardBack": "François Truffaut",
+          "links": [
+            {
+              "text": "François Truffaut",
+              "url": "https://en.wikipedia.org/wiki/François_Truffaut"
+            },
+            {
+              "text": "*The 400 Blows*",
+              "url": "https://en.wikipedia.org/wiki/*The_400_Blows*"
+            }
+          ]
         },
         {
           "id": "luis-bunuel",
           "prompt": "Which Spanish-Mexican director, who co-wrote the surrealist short *Un Chien Andalou* with Salvador Dalí, spent decades satirizing the bourgeoisie in films like *Belle de Jour* and *The Discreet Charm of the Bourgeoisie*?",
           "answer": "Luis Buñuel",
-          "alternates": ["Buñuel", "Bunuel", "Luis Bunuel"],
+          "alternates": [
+            "Buñuel",
+            "Bunuel",
+            "Luis Bunuel"
+          ],
           "explanation": "Spanish, 1900–1983; exiled from Spain under Franco; worked in Mexico and France\nKey films: *Un Chien Andalou* (1929, with Dalí), *Los Olvidados* (1950), *Viridiana* (1961), *Belle de Jour* (1967), *The Discreet Charm of the Bourgeoisie* (1972)\n*Un Chien Andalou* (1929) opens with a close-up of an eyeball being sliced – one of cinema's most shocking images\n*The Discreet Charm of the Bourgeoisie* won the 1972 Best Foreign Language Film Oscar\nWon the Palme d'Or at Cannes for *Viridiana* (1961), which was banned in Spain under Franco\nObsessions: Catholicism, bourgeois hypocrisy, surrealism, fetishism, and the irrational",
           "cardFront": "*The Discreet Charm of the Bourgeoisie*",
-          "cardBack": "Luis Buñuel"
+          "cardBack": "Luis Buñuel",
+          "links": [
+            {
+              "text": "Luis Buñuel",
+              "url": "https://en.wikipedia.org/wiki/Luis_Buñuel"
+            },
+            {
+              "text": "*The Discreet Charm of the Bourgeoisie*",
+              "url": "https://en.wikipedia.org/wiki/*The_Discreet_Charm_of_the_Bourgeoisie*"
+            }
+          ]
         },
         {
           "id": "andrei-tarkovsky",
           "prompt": "Which Soviet director made slow, spiritually dense films including *Andrei Rublev*, *Solaris*, *Stalker*, and *The Mirror*, and is widely considered the greatest filmmaker of the Soviet era?",
           "answer": "Andrei Tarkovsky",
-          "alternates": ["Tarkovsky"],
+          "alternates": [
+            "Tarkovsky"
+          ],
           "explanation": "Soviet Russian, 1932–1986; died of lung cancer in Paris at 54\nKey films: *Ivan's Childhood* (1962), *Andrei Rublev* (1966), *Solaris* (1972), *The Mirror* (1975), *Stalker* (1979)\nSignature style: extremely long takes, water and fire imagery, dreams and memory, spiritual yearning\n*Solaris* is frequently compared to Kubrick's *2001* as a meditative sci-fi masterpiece\nFaced constant censorship battles with Soviet authorities; *Andrei Rublev* was shelved for five years\nDefected to the West in 1984; made *The Sacrifice* (1986) in Sweden before dying",
           "cardFront": "*Stalker*",
-          "cardBack": "Andrei Tarkovsky"
+          "cardBack": "Andrei Tarkovsky",
+          "links": [
+            {
+              "text": "Andrei Tarkovsky",
+              "url": "https://en.wikipedia.org/wiki/Andrei_Tarkovsky"
+            },
+            {
+              "text": "*Stalker*",
+              "url": "https://en.wikipedia.org/wiki/*Stalker*"
+            }
+          ]
         }
       ]
     }

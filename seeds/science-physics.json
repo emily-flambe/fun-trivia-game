@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "science/physics", "parentId": "science", "name": "Physics", "description": "Laws, forces, and the fundamental nature of matter and energy" }
+    {
+      "id": "science/physics",
+      "parentId": "science",
+      "name": "Physics",
+      "description": "Laws, forces, and the fundamental nature of matter and energy"
+    }
   ],
   "exercises": [
     {
@@ -14,136 +19,343 @@
           "id": "speed-of-light",
           "prompt": "What is the approximate speed of light in a vacuum, in kilometers per second?",
           "answer": "300,000 km/s",
-          "alternates": ["~300,000 km/s", "299,792 km/s", "299,792,458 m/s", "3\u00d710\u2078 m/s", "186,000 miles per second", "approximately 300,000 km/s"],
-          "explanation": "Exactly 299,792,458 m/s \u2014 the metre is now defined so that c is this exact value\nDenoted c (from Latin celeritas, 'speed'); a fundamental constant of the universe\nSpecial relativity (Einstein, 1905): nothing with mass can reach or exceed c\nLight from the Sun takes ~8 minutes 20 seconds to reach Earth; from the Moon, ~1.3 seconds\nA light-year is ~9.46 \u00d7 10\u00b9\u2075 m; the nearest star (Proxima Centauri) is ~4.2 light-years away",
+          "alternates": [
+            "~300,000 km/s",
+            "299,792 km/s",
+            "299,792,458 m/s",
+            "3×10⁸ m/s",
+            "186,000 miles per second",
+            "approximately 300,000 km/s"
+          ],
+          "explanation": "Exactly 299,792,458 m/s — the metre is now defined so that c is this exact value\nDenoted c (from Latin celeritas, 'speed'); a fundamental constant of the universe\nSpecial relativity (Einstein, 1905): nothing with mass can reach or exceed c\nLight from the Sun takes ~8 minutes 20 seconds to reach Earth; from the Moon, ~1.3 seconds\nA light-year is ~9.46 × 10¹⁵ m; the nearest star (Proxima Centauri) is ~4.2 light-years away",
           "cardFront": "Speed of light (c)",
-          "cardBack": "~300,000 km/s"
+          "cardBack": "~300,000 km/s",
+          "links": [
+            {
+              "text": "300,000 km/s",
+              "url": "https://en.wikipedia.org/wiki/300,000_km/s"
+            },
+            {
+              "text": "Speed of light",
+              "url": "https://en.wikipedia.org/wiki/Speed_of_light"
+            }
+          ]
         },
         {
           "id": "newtons-first-law",
           "prompt": "What is Newton's First Law of Motion, also known by what common name?",
           "answer": "Law of Inertia",
-          "alternates": ["Newton's first law", "inertia", "objects at rest stay at rest and objects in motion stay in motion unless acted on by a net force"],
-          "explanation": "Formulated by Newton in *Principia Mathematica* (1687), building on earlier work by Galileo\nInertia: the tendency of an object to resist changes to its state of motion; proportional to its mass\nExplains why passengers lurch forward when a car brakes \u2014 their bodies tend to continue moving\nExplains why planets keep orbiting: no friction in space means no force to slow them down\nAristotle incorrectly believed a constant force was needed to maintain motion; Galileo overturned this",
+          "alternates": [
+            "Newton's first law",
+            "inertia",
+            "objects at rest stay at rest and objects in motion stay in motion unless acted on by a net force"
+          ],
+          "explanation": "Formulated by Newton in *Principia Mathematica* (1687), building on earlier work by Galileo\nInertia: the tendency of an object to resist changes to its state of motion; proportional to its mass\nExplains why passengers lurch forward when a car brakes — their bodies tend to continue moving\nExplains why planets keep orbiting: no friction in space means no force to slow them down\nAristotle incorrectly believed a constant force was needed to maintain motion; Galileo overturned this",
           "cardFront": "Newton's First Law",
-          "cardBack": "Law of Inertia"
+          "cardBack": "Law of Inertia",
+          "links": [
+            {
+              "text": "Law of Inertia",
+              "url": "https://en.wikipedia.org/wiki/Law_of_Inertia"
+            },
+            {
+              "text": "Newton's First Law",
+              "url": "https://en.wikipedia.org/wiki/Newton's_First_Law"
+            }
+          ]
         },
         {
           "id": "newtons-second-law",
           "prompt": "What is Newton's Second Law of Motion, expressing the relationship between force, mass, and acceleration as an equation?",
           "answer": "F = ma",
-          "alternates": ["F=ma", "force equals mass times acceleration"],
-          "explanation": "Net force equals mass times acceleration: F = ma\nDoubling the force on an object doubles its acceleration; doubling the mass halves the acceleration\nExplains why heavy and light objects fall at the same rate in a vacuum: gravity exerts more force on heavier objects in exact proportion to their greater inertia\nIn SI units: force is measured in Newtons (N); 1 N = 1 kg\u00b7m/s\u00b2\nAlso written as F = \u0394p/\u0394t (rate of change of momentum), which is how Newton originally stated it",
+          "alternates": [
+            "F=ma",
+            "force equals mass times acceleration"
+          ],
+          "explanation": "Net force equals mass times acceleration: F = ma\nDoubling the force on an object doubles its acceleration; doubling the mass halves the acceleration\nExplains why heavy and light objects fall at the same rate in a vacuum: gravity exerts more force on heavier objects in exact proportion to their greater inertia\nIn SI units: force is measured in Newtons (N); 1 N = 1 kg·m/s²\nAlso written as F = Δp/Δt (rate of change of momentum), which is how Newton originally stated it",
           "cardFront": "Newton's Second Law",
-          "cardBack": "F = ma"
+          "cardBack": "F = ma",
+          "links": [
+            {
+              "text": "F = ma",
+              "url": "https://en.wikipedia.org/wiki/F_=_ma"
+            },
+            {
+              "text": "Newton's Second Law",
+              "url": "https://en.wikipedia.org/wiki/Newton's_Second_Law"
+            }
+          ]
         },
         {
           "id": "newtons-third-law",
           "prompt": "What is Newton's Third Law of Motion, governing action-reaction force pairs?",
           "answer": "For every action there is an equal and opposite reaction",
-          "alternates": ["Newton's third law", "equal and opposite reaction", "action-reaction"],
-          "explanation": "When object A exerts a force on object B, B exerts an equal and opposite force on A\nThe two forces act on different objects \u2014 they are never the same force and do not cancel each other\nExplains rocket propulsion: exhaust gases pushed backward propel the rocket forward\nExplains walking: you push backward on the ground; the ground pushes you forward\nExplains why firing a gun causes recoil: the bullet is pushed forward; the gun is pushed backward",
+          "alternates": [
+            "Newton's third law",
+            "equal and opposite reaction",
+            "action-reaction"
+          ],
+          "explanation": "When object A exerts a force on object B, B exerts an equal and opposite force on A\nThe two forces act on different objects — they are never the same force and do not cancel each other\nExplains rocket propulsion: exhaust gases pushed backward propel the rocket forward\nExplains walking: you push backward on the ground; the ground pushes you forward\nExplains why firing a gun causes recoil: the bullet is pushed forward; the gun is pushed backward",
           "cardFront": "Newton's Third Law",
-          "cardBack": "Equal & opposite reaction"
+          "cardBack": "Equal & opposite reaction",
+          "links": [
+            {
+              "text": "For every action there is an equal and opposite reaction",
+              "url": "https://en.wikipedia.org/wiki/For_every_action_there_is_an_equal_and_opposite_reaction"
+            },
+            {
+              "text": "Newton's Third Law",
+              "url": "https://en.wikipedia.org/wiki/Newton's_Third_Law"
+            }
+          ]
         },
         {
           "id": "e-mc2",
           "prompt": "What equation, published by Einstein in 1905, expresses the equivalence of mass and energy?",
-          "answer": "E = mc\u00b2",
-          "alternates": ["E=mc2", "E = mc squared", "mass-energy equivalence"],
-          "explanation": "E = mc\u00b2: energy equals mass times the speed of light squared\nPublished in Einstein's 1905 paper 'Does the Inertia of a Body Depend Upon Its Energy Content?'\nSmall amounts of mass contain enormous energy: 1 kg \u2248 9\u00d710\u00b9\u2076 joules (~21 megatons of TNT)\nBasis of nuclear energy: the mass defect in fission and fusion is the source of the released energy\nThe Sun converts ~4 million tons of mass to energy per second via nuclear fusion",
+          "answer": "E = mc²",
+          "alternates": [
+            "E=mc2",
+            "E = mc squared",
+            "mass-energy equivalence"
+          ],
+          "explanation": "E = mc²: energy equals mass times the speed of light squared\nPublished in Einstein's 1905 paper 'Does the Inertia of a Body Depend Upon Its Energy Content?'\nSmall amounts of mass contain enormous energy: 1 kg ≈ 9×10¹⁶ joules (~21 megatons of TNT)\nBasis of nuclear energy: the mass defect in fission and fusion is the source of the released energy\nThe Sun converts ~4 million tons of mass to energy per second via nuclear fusion",
           "cardFront": "Mass-energy equivalence",
-          "cardBack": "E = mc\u00b2"
+          "cardBack": "E = mc²",
+          "links": [
+            {
+              "text": "E = mc²",
+              "url": "https://en.wikipedia.org/wiki/E_=_mc²"
+            },
+            {
+              "text": "Mass-energy equivalence",
+              "url": "https://en.wikipedia.org/wiki/Mass-energy_equivalence"
+            }
+          ]
         },
         {
           "id": "ohms-law",
           "prompt": "What law, named for a German physicist, states that current through a conductor is directly proportional to voltage and inversely proportional to resistance?",
           "answer": "Ohm's Law",
-          "alternates": ["Ohm's law", "V=IR", "V = IR"],
-          "explanation": "V = IR: voltage (V) = current (I) \u00d7 resistance (R)\nFormulated by Georg Simon Ohm in 1827; published in *Die galvanische Kette, mathematisch bearbeitet*\nThe ohm (\u03a9) is the SI unit of electrical resistance, named after him\nOhm's Law holds for 'ohmic' (resistive) materials; it breaks down for semiconductors, diodes, and plasma\nFundamental to all electrical circuit design: doubling voltage doubles current if resistance is constant",
+          "alternates": [
+            "Ohm's law",
+            "V=IR",
+            "V = IR"
+          ],
+          "explanation": "V = IR: voltage (V) = current (I) × resistance (R)\nFormulated by Georg Simon Ohm in 1827; published in *Die galvanische Kette, mathematisch bearbeitet*\nThe ohm (Ω) is the SI unit of electrical resistance, named after him\nOhm's Law holds for 'ohmic' (resistive) materials; it breaks down for semiconductors, diodes, and plasma\nFundamental to all electrical circuit design: doubling voltage doubles current if resistance is constant",
           "cardFront": "V = IR",
-          "cardBack": "Ohm's Law"
+          "cardBack": "Ohm's Law",
+          "links": [
+            {
+              "text": "Ohm's Law",
+              "url": "https://en.wikipedia.org/wiki/Ohm's_Law"
+            },
+            {
+              "text": "V = IR",
+              "url": "https://en.wikipedia.org/wiki/V_=_IR"
+            }
+          ]
         },
         {
           "id": "archimedes-principle",
           "prompt": "What principle, attributed to the ancient Greek mathematician of Syracuse, states that the buoyant force on a submerged object equals the weight of the fluid it displaces?",
           "answer": "Archimedes' Principle",
-          "alternates": ["Archimedes principle", "Archimedes' principle"],
-          "explanation": "Formulated by Archimedes of Syracuse (~287\u2013212 BC) in his treatise *On Floating Bodies*\nLegend: Archimedes discovered it while stepping into a bath and seeing water overflow, then ran through Syracuse shouting 'Eureka!'\nExplains why steel ships float: the hull displaces water weighing more than the ship itself\nExplains why it's easier to float in the Dead Sea: dense saltwater exerts more buoyant force per unit volume\nHe also used it to detect fraud: showed a king's crown was not pure gold by comparing its weight in air vs. submerged in water",
+          "alternates": [
+            "Archimedes principle",
+            "Archimedes' principle"
+          ],
+          "explanation": "Formulated by Archimedes of Syracuse (~287–212 BC) in his treatise *On Floating Bodies*\nLegend: Archimedes discovered it while stepping into a bath and seeing water overflow, then ran through Syracuse shouting 'Eureka!'\nExplains why steel ships float: the hull displaces water weighing more than the ship itself\nExplains why it's easier to float in the Dead Sea: dense saltwater exerts more buoyant force per unit volume\nHe also used it to detect fraud: showed a king's crown was not pure gold by comparing its weight in air vs. submerged in water",
           "cardFront": "Buoyant force = weight of fluid displaced",
-          "cardBack": "Archimedes' Principle"
+          "cardBack": "Archimedes' Principle",
+          "links": [
+            {
+              "text": "Archimedes' Principle",
+              "url": "https://en.wikipedia.org/wiki/Archimedes'_Principle"
+            },
+            {
+              "text": "Buoyant force = weight of fluid displaced",
+              "url": "https://en.wikipedia.org/wiki/Buoyant_force_=_weight_of_fluid_displaced"
+            }
+          ]
         },
         {
           "id": "first-law-thermodynamics",
-          "prompt": "What law of thermodynamics states that energy cannot be created or destroyed, only converted between forms \u2014 also called the law of conservation of energy?",
+          "prompt": "What law of thermodynamics states that energy cannot be created or destroyed, only converted between forms — also called the law of conservation of energy?",
           "answer": "First Law of Thermodynamics",
-          "alternates": ["1st Law of Thermodynamics", "law of conservation of energy", "conservation of energy"],
-          "explanation": "\u0394U = Q \u2212 W: change in internal energy equals heat added minus work done by the system\nEnergy can be converted between kinetic, potential, thermal, chemical, and nuclear forms, but total energy is constant\nFormulated independently by Julius Robert von Mayer, James Prescott Joule, and Hermann von Helmholtz in the 1840s\nExplains why a perpetual motion machine of the first kind (creates energy from nothing) is impossible\nThe calorie and joule are units of energy; James Joule demonstrated the mechanical equivalent of heat",
+          "alternates": [
+            "1st Law of Thermodynamics",
+            "law of conservation of energy",
+            "conservation of energy"
+          ],
+          "explanation": "ΔU = Q − W: change in internal energy equals heat added minus work done by the system\nEnergy can be converted between kinetic, potential, thermal, chemical, and nuclear forms, but total energy is constant\nFormulated independently by Julius Robert von Mayer, James Prescott Joule, and Hermann von Helmholtz in the 1840s\nExplains why a perpetual motion machine of the first kind (creates energy from nothing) is impossible\nThe calorie and joule are units of energy; James Joule demonstrated the mechanical equivalent of heat",
           "cardFront": "Energy cannot be created or destroyed",
-          "cardBack": "First Law of Thermodynamics"
+          "cardBack": "First Law of Thermodynamics",
+          "links": [
+            {
+              "text": "First Law of Thermodynamics",
+              "url": "https://en.wikipedia.org/wiki/First_Law_of_Thermodynamics"
+            },
+            {
+              "text": "Energy cannot be created or destroyed",
+              "url": "https://en.wikipedia.org/wiki/Energy_cannot_be_created_or_destroyed"
+            }
+          ]
         },
         {
           "id": "second-law-thermodynamics",
           "prompt": "What law of thermodynamics states that the entropy of an isolated system always increases over time, and that heat flows spontaneously only from hot to cold?",
           "answer": "Second Law of Thermodynamics",
-          "alternates": ["2nd Law of Thermodynamics", "law of entropy", "entropy law"],
-          "explanation": "Entropy (S): a measure of disorder, or the number of possible microstates of a system\nThe universe always moves toward greater entropy (disorder) over time \u2014 you can't unscramble an egg\nRudolf Clausius (1850) and Lord Kelvin formulated early versions; Boltzmann gave the statistical interpretation (S = k ln W)\nExplains the 'arrow of time': physical laws are symmetric in time, but entropy's increase gives time its direction\nA perpetual motion machine of the second kind (converts all heat to work) is impossible under this law",
+          "alternates": [
+            "2nd Law of Thermodynamics",
+            "law of entropy",
+            "entropy law"
+          ],
+          "explanation": "Entropy (S): a measure of disorder, or the number of possible microstates of a system\nThe universe always moves toward greater entropy (disorder) over time — you can't unscramble an egg\nRudolf Clausius (1850) and Lord Kelvin formulated early versions; Boltzmann gave the statistical interpretation (S = k ln W)\nExplains the 'arrow of time': physical laws are symmetric in time, but entropy's increase gives time its direction\nA perpetual motion machine of the second kind (converts all heat to work) is impossible under this law",
           "cardFront": "Entropy increases in isolated systems",
-          "cardBack": "Second Law of Thermodynamics"
+          "cardBack": "Second Law of Thermodynamics",
+          "links": [
+            {
+              "text": "Second Law of Thermodynamics",
+              "url": "https://en.wikipedia.org/wiki/Second_Law_of_Thermodynamics"
+            },
+            {
+              "text": "Entropy increases in isolated systems",
+              "url": "https://en.wikipedia.org/wiki/Entropy_increases_in_isolated_systems"
+            }
+          ]
         },
         {
           "id": "heisenberg-uncertainty",
           "prompt": "What principle in quantum mechanics, formulated in 1927, states that the more precisely a particle's position is known, the less precisely its momentum can be known, and vice versa?",
           "answer": "Heisenberg Uncertainty Principle",
-          "alternates": ["Uncertainty principle", "Heisenberg's uncertainty principle", "uncertainty principle"],
-          "explanation": "Formulated by Werner Heisenberg in 1927: \u0394x\u0394p \u2265 \u0127/2\nNot a limitation of measurement technology \u2014 a fundamental property of quantum systems\nArises from wave-particle duality: waves cannot have both a precise position and a precise frequency simultaneously\nAlso applies to energy and time: \u0394E\u0394t \u2265 \u0127/2 (explains the natural linewidth of atomic spectral lines)\nExplains why electrons don't spiral into the nucleus: they can't have both zero momentum and zero distance from the nucleus",
+          "alternates": [
+            "Uncertainty principle",
+            "Heisenberg's uncertainty principle",
+            "uncertainty principle"
+          ],
+          "explanation": "Formulated by Werner Heisenberg in 1927: ΔxΔp ≥ ħ/2\nNot a limitation of measurement technology — a fundamental property of quantum systems\nArises from wave-particle duality: waves cannot have both a precise position and a precise frequency simultaneously\nAlso applies to energy and time: ΔEΔt ≥ ħ/2 (explains the natural linewidth of atomic spectral lines)\nExplains why electrons don't spiral into the nucleus: they can't have both zero momentum and zero distance from the nucleus",
           "cardFront": "Position and momentum cannot both be precisely known",
-          "cardBack": "Heisenberg Uncertainty Principle"
+          "cardBack": "Heisenberg Uncertainty Principle",
+          "links": [
+            {
+              "text": "Heisenberg Uncertainty Principle",
+              "url": "https://en.wikipedia.org/wiki/Heisenberg_Uncertainty_Principle"
+            },
+            {
+              "text": "Position and momentum cannot both be precisely known",
+              "url": "https://en.wikipedia.org/wiki/Position_and_momentum_cannot_both_be_precisely_known"
+            }
+          ]
         },
         {
           "id": "boyles-law",
           "prompt": "What gas law, published in 1662, states that the pressure of a fixed amount of gas at constant temperature is inversely proportional to its volume?",
           "answer": "Boyle's Law",
-          "alternates": ["Boyle's law"],
-          "explanation": "P\u2081V\u2081 = P\u2082V\u2082 at constant temperature and constant amount of gas\nPublished by Robert Boyle in 1662; one of the earliest quantitative laws in science\nExplains why gas in a syringe compresses when you push the plunger: pressure increases as volume decreases\nA component of the ideal gas law (PV = nRT), combined with Charles's Law and Avogadro's Law\nPractical application: scuba diving \u2014 dissolved nitrogen expands dangerously on ascent if pressure decreases too fast, causing decompression sickness ('the bends')",
-          "cardFront": "P\u2081V\u2081 = P\u2082V\u2082 (constant T)",
-          "cardBack": "Boyle's Law"
+          "alternates": [
+            "Boyle's law"
+          ],
+          "explanation": "P₁V₁ = P₂V₂ at constant temperature and constant amount of gas\nPublished by Robert Boyle in 1662; one of the earliest quantitative laws in science\nExplains why gas in a syringe compresses when you push the plunger: pressure increases as volume decreases\nA component of the ideal gas law (PV = nRT), combined with Charles's Law and Avogadro's Law\nPractical application: scuba diving — dissolved nitrogen expands dangerously on ascent if pressure decreases too fast, causing decompression sickness ('the bends')",
+          "cardFront": "P₁V₁ = P₂V₂ (constant T)",
+          "cardBack": "Boyle's Law",
+          "links": [
+            {
+              "text": "Boyle's Law",
+              "url": "https://en.wikipedia.org/wiki/Boyle's_Law"
+            },
+            {
+              "text": "P₁V₁ = P₂V₂",
+              "url": "https://en.wikipedia.org/wiki/P₁V₁_=_P₂V₂"
+            }
+          ]
         },
         {
           "id": "doppler-effect",
           "prompt": "What effect, named for an Austrian physicist, describes the apparent change in frequency of a wave as its source and an observer move relative to each other?",
           "answer": "Doppler Effect",
-          "alternates": ["Doppler effect", "Doppler shift"],
-          "explanation": "Proposed by Christian Doppler in 1842; confirmed experimentally for sound waves and later for light\nMoving toward source: waves compressed \u2192 higher frequency (higher pitch; blue-shifted light)\nMoving away from source: waves stretched \u2192 lower frequency (lower pitch; red-shifted light)\nClassic example: ambulance siren pitch drops as it passes\nEdwin Hubble used redshift (Doppler shift of light from galaxies) to establish that the universe is expanding\nPolice radar guns, weather radar, and medical Doppler ultrasound all use this effect",
+          "alternates": [
+            "Doppler effect",
+            "Doppler shift"
+          ],
+          "explanation": "Proposed by Christian Doppler in 1842; confirmed experimentally for sound waves and later for light\nMoving toward source: waves compressed → higher frequency (higher pitch; blue-shifted light)\nMoving away from source: waves stretched → lower frequency (lower pitch; red-shifted light)\nClassic example: ambulance siren pitch drops as it passes\nEdwin Hubble used redshift (Doppler shift of light from galaxies) to establish that the universe is expanding\nPolice radar guns, weather radar, and medical Doppler ultrasound all use this effect",
           "cardFront": "Frequency change due to relative motion",
-          "cardBack": "Doppler Effect"
+          "cardBack": "Doppler Effect",
+          "links": [
+            {
+              "text": "Doppler Effect",
+              "url": "https://en.wikipedia.org/wiki/Doppler_Effect"
+            },
+            {
+              "text": "Frequency change due to relative motion",
+              "url": "https://en.wikipedia.org/wiki/Frequency_change_due_to_relative_motion"
+            }
+          ]
         },
         {
           "id": "schrodingers-cat",
           "prompt": "What 1935 thought experiment, devised by an Austrian physicist, places a cat in a sealed box with a radioactive trigger to illustrate the paradox of quantum superposition?",
-          "answer": "Schr\u00f6dinger's Cat",
-          "alternates": ["Schrodinger's cat", "Schroedinger's cat", "Schr\u00f6dinger's cat thought experiment"],
-          "explanation": "Devised by Erwin Schr\u00f6dinger in 1935 as a critique of the Copenhagen interpretation of quantum mechanics\nSetup: cat in sealed box with radioactive atom, detector, and poison vial \u2014 the cat is 'simultaneously alive and dead' until observed\nDesigned to expose the absurdity of applying quantum superposition to macroscopic objects\nThe 'measurement problem': at what scale does quantum superposition give way to classical reality?\nThe many-worlds interpretation avoids the collapse: both outcomes occur in separate branches of reality\nBecame a cultural icon for 'existing in two states at once'",
+          "answer": "Schrödinger's Cat",
+          "alternates": [
+            "Schrodinger's cat",
+            "Schroedinger's cat",
+            "Schrödinger's cat thought experiment"
+          ],
+          "explanation": "Devised by Erwin Schrödinger in 1935 as a critique of the Copenhagen interpretation of quantum mechanics\nSetup: cat in sealed box with radioactive atom, detector, and poison vial — the cat is 'simultaneously alive and dead' until observed\nDesigned to expose the absurdity of applying quantum superposition to macroscopic objects\nThe 'measurement problem': at what scale does quantum superposition give way to classical reality?\nThe many-worlds interpretation avoids the collapse: both outcomes occur in separate branches of reality\nBecame a cultural icon for 'existing in two states at once'",
           "cardFront": "Cat in a box; quantum superposition paradox",
-          "cardBack": "Schr\u00f6dinger's Cat"
+          "cardBack": "Schrödinger's Cat",
+          "links": [
+            {
+              "text": "Schrödinger's Cat",
+              "url": "https://en.wikipedia.org/wiki/Schrödinger's_Cat"
+            },
+            {
+              "text": "Cat in a box; quantum superposition paradox",
+              "url": "https://en.wikipedia.org/wiki/Cat_in_a_box;_quantum_superposition_paradox"
+            }
+          ]
         },
         {
           "id": "pauli-exclusion-principle",
           "prompt": "What principle, formulated by Wolfgang Pauli in 1925, states that no two identical fermions in a quantum system can occupy the same quantum state simultaneously?",
           "answer": "Pauli Exclusion Principle",
-          "alternates": ["Pauli exclusion principle", "exclusion principle"],
-          "explanation": "Formulated by Wolfgang Pauli in 1925; he received the Nobel Prize in Physics in 1945\nApplies to fermions (particles with half-integer spin: electrons, protons, neutrons)\nExplains atomic structure: each electron in an atom must have a unique combination of quantum numbers\nExplains why matter is solid: electrons in atoms resist occupying the same states, preventing atoms from passing through each other\nNeutron stars are supported against gravitational collapse by neutron degeneracy pressure \u2014 a direct consequence of this principle",
+          "alternates": [
+            "Pauli exclusion principle",
+            "exclusion principle"
+          ],
+          "explanation": "Formulated by Wolfgang Pauli in 1925; he received the Nobel Prize in Physics in 1945\nApplies to fermions (particles with half-integer spin: electrons, protons, neutrons)\nExplains atomic structure: each electron in an atom must have a unique combination of quantum numbers\nExplains why matter is solid: electrons in atoms resist occupying the same states, preventing atoms from passing through each other\nNeutron stars are supported against gravitational collapse by neutron degeneracy pressure — a direct consequence of this principle",
           "cardFront": "No two identical fermions share a quantum state",
-          "cardBack": "Pauli Exclusion Principle"
+          "cardBack": "Pauli Exclusion Principle",
+          "links": [
+            {
+              "text": "Pauli Exclusion Principle",
+              "url": "https://en.wikipedia.org/wiki/Pauli_Exclusion_Principle"
+            },
+            {
+              "text": "No two identical fermions share a quantum state",
+              "url": "https://en.wikipedia.org/wiki/No_two_identical_fermions_share_a_quantum_state"
+            }
+          ]
         },
         {
           "id": "hubbles-law",
-          "prompt": "What observation, formulated by Edwin Hubble in 1929, showed that galaxies are receding from us at velocities proportional to their distance \u2014 evidence the universe is expanding?",
+          "prompt": "What observation, formulated by Edwin Hubble in 1929, showed that galaxies are receding from us at velocities proportional to their distance — evidence the universe is expanding?",
           "answer": "Hubble's Law",
-          "alternates": ["Hubble's law", "Hubble-Lema\u00eetre Law", "Hubble-Lemaitre law"],
-          "explanation": "v = H\u2080d: recession velocity of a galaxy equals the Hubble constant times its distance\nHubble measured galactic distances with Cepheid variable stars and recession speeds via redshift\nThe current best estimate of H\u2080 is ~70 km/s per megaparsec (with ongoing debate between measurement methods)\nImplies the universe had a beginning: extrapolating backward leads to the Big Bang ~13.8 billion years ago\nFormally renamed the 'Hubble\u2013Lema\u00eetre Law' in 2018 to credit Belgian priest Georges Lema\u00eetre, who derived it theoretically in 1927",
+          "alternates": [
+            "Hubble's law",
+            "Hubble-Lemaître Law",
+            "Hubble-Lemaitre law"
+          ],
+          "explanation": "v = H₀d: recession velocity of a galaxy equals the Hubble constant times its distance\nHubble measured galactic distances with Cepheid variable stars and recession speeds via redshift\nThe current best estimate of H₀ is ~70 km/s per megaparsec (with ongoing debate between measurement methods)\nImplies the universe had a beginning: extrapolating backward leads to the Big Bang ~13.8 billion years ago\nFormally renamed the 'Hubble–Lemaître Law' in 2018 to credit Belgian priest Georges Lemaître, who derived it theoretically in 1927",
           "cardFront": "Galaxies recede proportionally to distance",
-          "cardBack": "Hubble's Law"
+          "cardBack": "Hubble's Law",
+          "links": [
+            {
+              "text": "Hubble's Law",
+              "url": "https://en.wikipedia.org/wiki/Hubble's_Law"
+            },
+            {
+              "text": "Galaxies recede proportionally to distance",
+              "url": "https://en.wikipedia.org/wiki/Galaxies_recede_proportionally_to_distance"
+            }
+          ]
         }
       ]
     }

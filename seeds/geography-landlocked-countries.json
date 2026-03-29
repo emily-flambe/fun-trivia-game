@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+    {
+      "id": "geography/countries",
+      "parentId": "geography",
+      "name": "Countries of the World",
+      "description": "Country sets by region and category"
+    }
   ],
   "exercises": [
     {
@@ -8,271 +13,551 @@
       "nodeId": "geography/countries",
       "name": "Landlocked Countries",
       "format": "fill-blanks",
-      "config": { "ordered": false, "prompt": "Name all landlocked countries of the world (no ocean coastline)" },
+      "config": {
+        "ordered": false,
+        "prompt": "Name all landlocked countries of the world (no ocean coastline)"
+      },
       "items": [
         {
           "id": "afghanistan",
           "answer": "Afghanistan",
           "alternates": [],
-          "explanation": "Central Asia; capital Kabul\nBordered by Pakistan, Iran, Turkmenistan, Uzbekistan, Tajikistan, and China\nOne of the most landlocked countries in Asia — nearest ocean access is ~500 km away\nHistorically called the 'graveyard of empires' for resisting conquest by British, Soviet, and U.S. forces"
+          "explanation": "Central Asia; capital Kabul\nBordered by Pakistan, Iran, Turkmenistan, Uzbekistan, Tajikistan, and China\nOne of the most landlocked countries in Asia — nearest ocean access is ~500 km away\nHistorically called the 'graveyard of empires' for resisting conquest by British, Soviet, and U.S. forces",
+          "links": [
+            {
+              "text": "Afghanistan",
+              "url": "https://en.wikipedia.org/wiki/Afghanistan"
+            }
+          ]
         },
         {
           "id": "andorra",
           "answer": "Andorra",
           "alternates": [],
-          "explanation": "Micro-state in the eastern Pyrenees; capital Andorra la Vella\nBordered only by France and Spain; area of just 468 km²\nAndorra la Vella is the highest-elevation capital city in Europe at ~1,023 m\nNo army, no airport; relies heavily on tax-free shopping and ski tourism"
+          "explanation": "Micro-state in the eastern Pyrenees; capital Andorra la Vella\nBordered only by France and Spain; area of just 468 km²\nAndorra la Vella is the highest-elevation capital city in Europe at ~1,023 m\nNo army, no airport; relies heavily on tax-free shopping and ski tourism",
+          "links": [
+            {
+              "text": "Andorra",
+              "url": "https://en.wikipedia.org/wiki/Andorra"
+            }
+          ]
         },
         {
           "id": "armenia",
           "answer": "Armenia",
           "alternates": [],
-          "explanation": "South Caucasus; capital Yerevan\nBordered by Turkey, Georgia, Azerbaijan, and Iran; formerly had Black Sea access via Georgia\nFirst country in the world to adopt Christianity as its state religion (301 CE)\nMount Ararat, the national symbol, is visible from Yerevan but lies inside Turkey"
+          "explanation": "South Caucasus; capital Yerevan\nBordered by Turkey, Georgia, Azerbaijan, and Iran; formerly had Black Sea access via Georgia\nFirst country in the world to adopt Christianity as its state religion (301 CE)\nMount Ararat, the national symbol, is visible from Yerevan but lies inside Turkey",
+          "links": [
+            {
+              "text": "Armenia",
+              "url": "https://en.wikipedia.org/wiki/Armenia"
+            }
+          ]
         },
         {
           "id": "austria",
           "answer": "Austria",
           "alternates": [],
-          "explanation": "Central Europe; capital Vienna\nBordered by Germany, Czech Republic, Slovakia, Hungary, Slovenia, Italy, Switzerland, and Liechtenstein\nOnce the center of the Habsburg Empire, which dominated Central Europe for 600 years\nVienna was the most populous German-speaking city in the world until the 20th century"
+          "explanation": "Central Europe; capital Vienna\nBordered by Germany, Czech Republic, Slovakia, Hungary, Slovenia, Italy, Switzerland, and Liechtenstein\nOnce the center of the Habsburg Empire, which dominated Central Europe for 600 years\nVienna was the most populous German-speaking city in the world until the 20th century",
+          "links": [
+            {
+              "text": "Austria",
+              "url": "https://en.wikipedia.org/wiki/Austria"
+            }
+          ]
         },
         {
           "id": "azerbaijan",
           "answer": "Azerbaijan",
           "alternates": [],
-          "explanation": "South Caucasus; capital Baku\nBorders the Caspian Sea, but the Caspian is a sea/lake — no ocean coastline\nBordered by Russia, Georgia, Armenia, Iran, and the Caspian Sea\nBaku sits below sea level (−28 m) and is the lowest-elevation national capital in the world\nMajor oil producer; oil rigs visible offshore in the Caspian"
+          "explanation": "South Caucasus; capital Baku\nBorders the Caspian Sea, but the Caspian is a sea/lake — no ocean coastline\nBordered by Russia, Georgia, Armenia, Iran, and the Caspian Sea\nBaku sits below sea level (−28 m) and is the lowest-elevation national capital in the world\nMajor oil producer; oil rigs visible offshore in the Caspian",
+          "links": [
+            {
+              "text": "Azerbaijan",
+              "url": "https://en.wikipedia.org/wiki/Azerbaijan"
+            }
+          ]
         },
         {
           "id": "belarus",
           "answer": "Belarus",
           "alternates": [],
-          "explanation": "Eastern Europe; capital Minsk\nBordered by Russia, Ukraine, Poland, Lithuania, and Latvia\nOne of the last European dictatorships; Alexander Lukashenko has ruled since 1994\nHeavily dependent on Russia for energy and trade"
+          "explanation": "Eastern Europe; capital Minsk\nBordered by Russia, Ukraine, Poland, Lithuania, and Latvia\nOne of the last European dictatorships; Alexander Lukashenko has ruled since 1994\nHeavily dependent on Russia for energy and trade",
+          "links": [
+            {
+              "text": "Belarus",
+              "url": "https://en.wikipedia.org/wiki/Belarus"
+            }
+          ]
         },
         {
           "id": "bhutan",
           "answer": "Bhutan",
           "alternates": [],
-          "explanation": "South Asia, eastern Himalayas; capital Thimphu\nBordered by China and India; strictly limited tourism to protect culture and environment\nMeasures 'Gross National Happiness' as an official government policy metric\nOne of the few countries to have never been colonized"
+          "explanation": "South Asia, eastern Himalayas; capital Thimphu\nBordered by China and India; strictly limited tourism to protect culture and environment\nMeasures 'Gross National Happiness' as an official government policy metric\nOne of the few countries to have never been colonized",
+          "links": [
+            {
+              "text": "Bhutan",
+              "url": "https://en.wikipedia.org/wiki/Bhutan"
+            }
+          ]
         },
         {
           "id": "bolivia",
           "answer": "Bolivia",
           "alternates": [],
-          "explanation": "South America; constitutional capital Sucre, seat of government La Paz\nLost its Pacific coastline to Chile in the War of the Pacific (1879–1884)\nDespite being landlocked, Bolivia maintains a navy — the 'Sea Day' holiday (March 23) commemorates the loss\nLake Titicaca (shared with Peru) is the world's highest navigable lake at 3,812 m above sea level"
+          "explanation": "South America; constitutional capital Sucre, seat of government La Paz\nLost its Pacific coastline to Chile in the War of the Pacific (1879–1884)\nDespite being landlocked, Bolivia maintains a navy — the 'Sea Day' holiday (March 23) commemorates the loss\nLake Titicaca (shared with Peru) is the world's highest navigable lake at 3,812 m above sea level",
+          "links": [
+            {
+              "text": "Bolivia",
+              "url": "https://en.wikipedia.org/wiki/Bolivia"
+            }
+          ]
         },
         {
           "id": "botswana",
           "answer": "Botswana",
           "alternates": [],
-          "explanation": "Southern Africa; capital Gaborone\nOne of the world's largest diamond producers — Debswana (De Beers + Botswana govt) is the primary mine\nAt independence (1966) was one of Africa's poorest nations; now among the wealthiest per capita on the continent\nThe Okavango Delta, a UNESCO World Heritage Site, is the world's largest inland delta"
+          "explanation": "Southern Africa; capital Gaborone\nOne of the world's largest diamond producers — Debswana (De Beers + Botswana govt) is the primary mine\nAt independence (1966) was one of Africa's poorest nations; now among the wealthiest per capita on the continent\nThe Okavango Delta, a UNESCO World Heritage Site, is the world's largest inland delta",
+          "links": [
+            {
+              "text": "Botswana",
+              "url": "https://en.wikipedia.org/wiki/Botswana"
+            }
+          ]
         },
         {
           "id": "burkina-faso",
           "answer": "Burkina Faso",
           "alternates": [],
-          "explanation": "West Africa; capital Ouagadougou\nFormerly called Upper Volta; renamed Burkina Faso ('Land of Upright People') in 1984 by revolutionary president Thomas Sankara\nSankara was assassinated in 1987 in a coup led by Blaise Compaoré\nOne of the poorest countries in the world; heavily affected by Sahel droughts and jihadist insurgency since 2015"
+          "explanation": "West Africa; capital Ouagadougou\nFormerly called Upper Volta; renamed Burkina Faso ('Land of Upright People') in 1984 by revolutionary president Thomas Sankara\nSankara was assassinated in 1987 in a coup led by Blaise Compaoré\nOne of the poorest countries in the world; heavily affected by Sahel droughts and jihadist insurgency since 2015",
+          "links": [
+            {
+              "text": "Burkina Faso",
+              "url": "https://en.wikipedia.org/wiki/Burkina_Faso"
+            }
+          ]
         },
         {
           "id": "burundi",
           "answer": "Burundi",
           "alternates": [],
-          "explanation": "Central/East Africa; capital Gitega (formerly Bujumbura)\nOne of the world's most densely populated countries and among the poorest\nEthnic tensions between Hutu and Tutsi populations led to civil war (1993–2005)\nCapital moved from Bujumbura to Gitega in 2019"
+          "explanation": "Central/East Africa; capital Gitega (formerly Bujumbura)\nOne of the world's most densely populated countries and among the poorest\nEthnic tensions between Hutu and Tutsi populations led to civil war (1993–2005)\nCapital moved from Bujumbura to Gitega in 2019",
+          "links": [
+            {
+              "text": "Burundi",
+              "url": "https://en.wikipedia.org/wiki/Burundi"
+            }
+          ]
         },
         {
           "id": "central-african-republic",
           "answer": "Central African Republic",
-          "alternates": ["CAR"],
-          "explanation": "Central Africa; capital Bangui\nConsistently ranked among the lowest on the UN Human Development Index\nRich in diamonds, gold, uranium, and timber despite extreme poverty\nHas endured multiple coups and prolonged civil war since 2012"
+          "alternates": [
+            "CAR"
+          ],
+          "explanation": "Central Africa; capital Bangui\nConsistently ranked among the lowest on the UN Human Development Index\nRich in diamonds, gold, uranium, and timber despite extreme poverty\nHas endured multiple coups and prolonged civil war since 2012",
+          "links": [
+            {
+              "text": "Central African Republic",
+              "url": "https://en.wikipedia.org/wiki/Central_African_Republic"
+            }
+          ]
         },
         {
           "id": "chad",
           "answer": "Chad",
           "alternates": [],
-          "explanation": "Central Africa; capital N'Djamena\nLake Chad, once one of Africa's largest lakes, has shrunk by ~90% since the 1960s due to climate change and irrigation\nBordered by Libya, Sudan, Central African Republic, Cameroon, Nigeria, and Niger\nOne of the hottest countries on Earth — parts of the Sahara reach 50 °C"
+          "explanation": "Central Africa; capital N'Djamena\nLake Chad, once one of Africa's largest lakes, has shrunk by ~90% since the 1960s due to climate change and irrigation\nBordered by Libya, Sudan, Central African Republic, Cameroon, Nigeria, and Niger\nOne of the hottest countries on Earth — parts of the Sahara reach 50 °C",
+          "links": [
+            {
+              "text": "Chad",
+              "url": "https://en.wikipedia.org/wiki/Chad"
+            }
+          ]
         },
         {
           "id": "czech-republic",
           "answer": "Czech Republic",
-          "alternates": ["Czechia"],
-          "explanation": "Central Europe; capital Prague\nFormed in 1993 when Czechoslovakia peacefully split into Czech Republic and Slovakia ('Velvet Divorce')\nPrague's historic center is a UNESCO World Heritage Site; the city was largely undamaged in WWII\nHighest beer consumption per capita in the world"
+          "alternates": [
+            "Czechia"
+          ],
+          "explanation": "Central Europe; capital Prague\nFormed in 1993 when Czechoslovakia peacefully split into Czech Republic and Slovakia ('Velvet Divorce')\nPrague's historic center is a UNESCO World Heritage Site; the city was largely undamaged in WWII\nHighest beer consumption per capita in the world",
+          "links": [
+            {
+              "text": "Czech Republic",
+              "url": "https://en.wikipedia.org/wiki/Czech_Republic"
+            }
+          ]
         },
         {
           "id": "eswatini",
           "answer": "Eswatini",
-          "alternates": ["Swaziland"],
-          "explanation": "Southern Africa; capital Mbabane (administrative), Lobamba (royal/legislative)\nCompletely enclosed within South Africa, with a small border with Mozambique\nRenamed from Swaziland to Eswatini ('Land of the Swazis') in 2018 by King Mswati III\nOne of the world's last absolute monarchies"
+          "alternates": [
+            "Swaziland"
+          ],
+          "explanation": "Southern Africa; capital Mbabane (administrative), Lobamba (royal/legislative)\nCompletely enclosed within South Africa, with a small border with Mozambique\nRenamed from Swaziland to Eswatini ('Land of the Swazis') in 2018 by King Mswati III\nOne of the world's last absolute monarchies",
+          "links": [
+            {
+              "text": "Eswatini",
+              "url": "https://en.wikipedia.org/wiki/Eswatini"
+            }
+          ]
         },
         {
           "id": "ethiopia",
           "answer": "Ethiopia",
           "alternates": [],
-          "explanation": "East Africa; capital Addis Ababa\nWorld's most populous landlocked country — over 120 million people\nLost sea access when Eritrea gained independence in 1993 after a 30-year war\nAddis Ababa hosts the African Union headquarters; often called the 'diplomatic capital of Africa'\nOne of two African countries never colonized (alongside Liberia)"
+          "explanation": "East Africa; capital Addis Ababa\nWorld's most populous landlocked country — over 120 million people\nLost sea access when Eritrea gained independence in 1993 after a 30-year war\nAddis Ababa hosts the African Union headquarters; often called the 'diplomatic capital of Africa'\nOne of two African countries never colonized (alongside Liberia)",
+          "links": [
+            {
+              "text": "Ethiopia",
+              "url": "https://en.wikipedia.org/wiki/Ethiopia"
+            }
+          ]
         },
         {
           "id": "hungary",
           "answer": "Hungary",
           "alternates": [],
-          "explanation": "Central Europe; capital Budapest\nBordered by Austria, Slovakia, Ukraine, Romania, Serbia, Croatia, and Slovenia\nThe Danube splits Budapest — Buda on the west bank, Pest on the east — unified as one city in 1873\nPart of the Austro-Hungarian Empire until its dissolution after WWI (1918)"
+          "explanation": "Central Europe; capital Budapest\nBordered by Austria, Slovakia, Ukraine, Romania, Serbia, Croatia, and Slovenia\nThe Danube splits Budapest — Buda on the west bank, Pest on the east — unified as one city in 1873\nPart of the Austro-Hungarian Empire until its dissolution after WWI (1918)",
+          "links": [
+            {
+              "text": "Hungary",
+              "url": "https://en.wikipedia.org/wiki/Hungary"
+            }
+          ]
         },
         {
           "id": "kazakhstan",
           "answer": "Kazakhstan",
           "alternates": [],
-          "explanation": "Central Asia; capital Astana (formerly Nur-Sultan, formerly Astana)\nWorld's largest landlocked country by area at ~2.7 million km² — larger than Western Europe\nBorders Russia, China, Kyrgyzstan, Uzbekistan, Turkmenistan, and the Caspian Sea\nHome to the Baikonur Cosmodrome, the world's first and largest operational space launch facility\nNinth-largest country in the world overall"
+          "explanation": "Central Asia; capital Astana (formerly Nur-Sultan, formerly Astana)\nWorld's largest landlocked country by area at ~2.7 million km² — larger than Western Europe\nBorders Russia, China, Kyrgyzstan, Uzbekistan, Turkmenistan, and the Caspian Sea\nHome to the Baikonur Cosmodrome, the world's first and largest operational space launch facility\nNinth-largest country in the world overall",
+          "links": [
+            {
+              "text": "Kazakhstan",
+              "url": "https://en.wikipedia.org/wiki/Kazakhstan"
+            }
+          ]
         },
         {
           "id": "kyrgyzstan",
           "answer": "Kyrgyzstan",
-          "alternates": ["Kyrgyz Republic"],
-          "explanation": "Central Asia; capital Bishkek\nBordered by Kazakhstan, China, Tajikistan, and Uzbekistan\nFarthest landlocked country from any ocean — over 2,500 km from the nearest sea\nLake Issyk-Kul is the second-largest alpine lake in the world and never freezes despite high altitude"
+          "alternates": [
+            "Kyrgyz Republic"
+          ],
+          "explanation": "Central Asia; capital Bishkek\nBordered by Kazakhstan, China, Tajikistan, and Uzbekistan\nFarthest landlocked country from any ocean — over 2,500 km from the nearest sea\nLake Issyk-Kul is the second-largest alpine lake in the world and never freezes despite high altitude",
+          "links": [
+            {
+              "text": "Kyrgyzstan",
+              "url": "https://en.wikipedia.org/wiki/Kyrgyzstan"
+            }
+          ]
         },
         {
           "id": "laos",
           "answer": "Laos",
           "alternates": [],
-          "explanation": "Southeast Asia; capital Vientiane\nOnly landlocked country in Southeast Asia\nBordered by China, Vietnam, Cambodia, Thailand, and Myanmar\nMost heavily bombed country per capita in history — the U.S. dropped more ordnance on Laos during the Vietnam War era than on Germany in WWII\nVientiane is the least-visited capital city in Southeast Asia"
+          "explanation": "Southeast Asia; capital Vientiane\nOnly landlocked country in Southeast Asia\nBordered by China, Vietnam, Cambodia, Thailand, and Myanmar\nMost heavily bombed country per capita in history — the U.S. dropped more ordnance on Laos during the Vietnam War era than on Germany in WWII\nVientiane is the least-visited capital city in Southeast Asia",
+          "links": [
+            {
+              "text": "Laos",
+              "url": "https://en.wikipedia.org/wiki/Laos"
+            }
+          ]
         },
         {
           "id": "lesotho",
           "answer": "Lesotho",
           "alternates": [],
-          "explanation": "Southern Africa; capital Maseru\nCompletely surrounded by South Africa — one of only three countries in the world entirely enclosed within another country (with Vatican City and San Marino)\nEntire country lies above 1,000 m elevation; nicknamed 'Kingdom in the Sky'\nKing Letsie III is the reigning monarch"
+          "explanation": "Southern Africa; capital Maseru\nCompletely surrounded by South Africa — one of only three countries in the world entirely enclosed within another country (with Vatican City and San Marino)\nEntire country lies above 1,000 m elevation; nicknamed 'Kingdom in the Sky'\nKing Letsie III is the reigning monarch",
+          "links": [
+            {
+              "text": "Lesotho",
+              "url": "https://en.wikipedia.org/wiki/Lesotho"
+            }
+          ]
         },
         {
           "id": "liechtenstein",
           "answer": "Liechtenstein",
           "alternates": [],
-          "explanation": "Western Europe; capital Vaduz\nOne of only two doubly landlocked countries in the world (the other is Uzbekistan) — surrounded entirely by landlocked Austria and Switzerland\nSecond-smallest German-speaking country after Andorra; area of just 160 km²\nDespite tiny size, has one of the world's highest GDP per capita — major financial center\nHas no airport; nearest airports are in Zürich and Vienna"
+          "explanation": "Western Europe; capital Vaduz\nOne of only two doubly landlocked countries in the world (the other is Uzbekistan) — surrounded entirely by landlocked Austria and Switzerland\nSecond-smallest German-speaking country after Andorra; area of just 160 km²\nDespite tiny size, has one of the world's highest GDP per capita — major financial center\nHas no airport; nearest airports are in Zürich and Vienna",
+          "links": [
+            {
+              "text": "Liechtenstein",
+              "url": "https://en.wikipedia.org/wiki/Liechtenstein"
+            }
+          ]
         },
         {
           "id": "luxembourg",
           "answer": "Luxembourg",
           "alternates": [],
-          "explanation": "Western Europe; capital Luxembourg City\nBordered by Belgium, France, and Germany\nOne of the world's wealthiest countries per capita — major European financial and EU administrative center\nLuxembourg City's old fortifications are a UNESCO World Heritage Site\nEU founding member; home to the European Court of Justice and Court of Auditors"
+          "explanation": "Western Europe; capital Luxembourg City\nBordered by Belgium, France, and Germany\nOne of the world's wealthiest countries per capita — major European financial and EU administrative center\nLuxembourg City's old fortifications are a UNESCO World Heritage Site\nEU founding member; home to the European Court of Justice and Court of Auditors",
+          "links": [
+            {
+              "text": "Luxembourg",
+              "url": "https://en.wikipedia.org/wiki/Luxembourg"
+            }
+          ]
         },
         {
           "id": "malawi",
           "answer": "Malawi",
           "alternates": [],
-          "explanation": "East Africa; capital Lilongwe\nFormerly called Nyasaland under British colonial rule\nLake Malawi (Lake Nyasa) covers about a third of the country's area and contains more fish species than any other lake on Earth\nOne of the most densely populated countries in sub-Saharan Africa"
+          "explanation": "East Africa; capital Lilongwe\nFormerly called Nyasaland under British colonial rule\nLake Malawi (Lake Nyasa) covers about a third of the country's area and contains more fish species than any other lake on Earth\nOne of the most densely populated countries in sub-Saharan Africa",
+          "links": [
+            {
+              "text": "Malawi",
+              "url": "https://en.wikipedia.org/wiki/Malawi"
+            }
+          ]
         },
         {
           "id": "mali",
           "answer": "Mali",
           "alternates": [],
-          "explanation": "West Africa; capital Bamako\nHome to Timbuktu (Tombouctou), a medieval center of Islamic scholarship and gold trade\nThe ancient Mali Empire (13th–17th century) was one of the wealthiest in the world under Mansa Musa\nExperienced multiple coups; insurgency in the north linked to al-Qaeda and ISIS affiliates since 2012"
+          "explanation": "West Africa; capital Bamako\nHome to Timbuktu (Tombouctou), a medieval center of Islamic scholarship and gold trade\nThe ancient Mali Empire (13th–17th century) was one of the wealthiest in the world under Mansa Musa\nExperienced multiple coups; insurgency in the north linked to al-Qaeda and ISIS affiliates since 2012",
+          "links": [
+            {
+              "text": "Mali",
+              "url": "https://en.wikipedia.org/wiki/Mali"
+            }
+          ]
         },
         {
           "id": "moldova",
           "answer": "Moldova",
           "alternates": [],
-          "explanation": "Eastern Europe; capital Chișinău\nBordered by Romania and Ukraine; was part of the USSR until 1991\nSeparatist region of Transnistria broke away in 1992 and remains de facto independent, backed by Russia\nOne of the least visited and poorest countries in Europe"
+          "explanation": "Eastern Europe; capital Chișinău\nBordered by Romania and Ukraine; was part of the USSR until 1991\nSeparatist region of Transnistria broke away in 1992 and remains de facto independent, backed by Russia\nOne of the least visited and poorest countries in Europe",
+          "links": [
+            {
+              "text": "Moldova",
+              "url": "https://en.wikipedia.org/wiki/Moldova"
+            }
+          ]
         },
         {
           "id": "mongolia",
           "answer": "Mongolia",
           "alternates": [],
-          "explanation": "East Asia; capital Ulaanbaytar\nWorld's second-largest landlocked country by area at ~1.56 million km²\nBordered only by Russia and China\nHome of the Mongol Empire (13th–14th century), the largest contiguous land empire in history under Genghis Khan\nUlaanbaatar is the world's coldest national capital, with average annual temperatures below freezing"
+          "explanation": "East Asia; capital Ulaanbaytar\nWorld's second-largest landlocked country by area at ~1.56 million km²\nBordered only by Russia and China\nHome of the Mongol Empire (13th–14th century), the largest contiguous land empire in history under Genghis Khan\nUlaanbaatar is the world's coldest national capital, with average annual temperatures below freezing",
+          "links": [
+            {
+              "text": "Mongolia",
+              "url": "https://en.wikipedia.org/wiki/Mongolia"
+            }
+          ]
         },
         {
           "id": "nepal",
           "answer": "Nepal",
           "alternates": [],
-          "explanation": "South Asia, central Himalayas; capital Kathmandu\nHome to 8 of the world's 10 highest mountains, including Mount Everest (8,849 m)\nBordered by China and India only\nBecame a republic in 2008 after 240 years of monarchy\nSir Edmund Hillary and Tenzing Norgay made the first confirmed Everest summit on May 29, 1953"
+          "explanation": "South Asia, central Himalayas; capital Kathmandu\nHome to 8 of the world's 10 highest mountains, including Mount Everest (8,849 m)\nBordered by China and India only\nBecame a republic in 2008 after 240 years of monarchy\nSir Edmund Hillary and Tenzing Norgay made the first confirmed Everest summit on May 29, 1953",
+          "links": [
+            {
+              "text": "Nepal",
+              "url": "https://en.wikipedia.org/wiki/Nepal"
+            }
+          ]
         },
         {
           "id": "niger",
           "answer": "Niger",
           "alternates": [],
-          "explanation": "West Africa; capital Niamey\nLargest country in West Africa by area; ~80% is Sahara desert\nBordered by Algeria, Libya, Chad, Nigeria, Benin, Burkina Faso, and Mali\nOne of the lowest-ranked countries on the Human Development Index\nMilitary coup in July 2023 ousted President Mohamed Bazoum"
+          "explanation": "West Africa; capital Niamey\nLargest country in West Africa by area; ~80% is Sahara desert\nBordered by Algeria, Libya, Chad, Nigeria, Benin, Burkina Faso, and Mali\nOne of the lowest-ranked countries on the Human Development Index\nMilitary coup in July 2023 ousted President Mohamed Bazoum",
+          "links": [
+            {
+              "text": "Niger",
+              "url": "https://en.wikipedia.org/wiki/Niger"
+            }
+          ]
         },
         {
           "id": "north-macedonia",
           "answer": "North Macedonia",
-          "alternates": ["Macedonia"],
-          "explanation": "Southeast Europe (Balkans); capital Skopje\nRenamed from 'Macedonia' to 'North Macedonia' in 2019 under the Prespa Agreement with Greece, which had objected to the name\nBordered by Serbia, Kosovo, Bulgaria, Greece, and Albania\nJoined NATO in 2020 shortly after the name change"
+          "alternates": [
+            "Macedonia"
+          ],
+          "explanation": "Southeast Europe (Balkans); capital Skopje\nRenamed from 'Macedonia' to 'North Macedonia' in 2019 under the Prespa Agreement with Greece, which had objected to the name\nBordered by Serbia, Kosovo, Bulgaria, Greece, and Albania\nJoined NATO in 2020 shortly after the name change",
+          "links": [
+            {
+              "text": "North Macedonia",
+              "url": "https://en.wikipedia.org/wiki/North_Macedonia"
+            }
+          ]
         },
         {
           "id": "paraguay",
           "answer": "Paraguay",
           "alternates": [],
-          "explanation": "South America; capital Asunción\nOne of only two landlocked countries in South America (along with Bolivia)\nBordered by Argentina, Bolivia, and Brazil\nThe Itaipu Dam on the Paraná River (shared with Brazil) was the world's largest hydroelectric plant by output for most of 1984–2016\nGuaraní is co-official with Spanish — one of few countries where an indigenous language is widely spoken by the general population"
+          "explanation": "South America; capital Asunción\nOne of only two landlocked countries in South America (along with Bolivia)\nBordered by Argentina, Bolivia, and Brazil\nThe Itaipu Dam on the Paraná River (shared with Brazil) was the world's largest hydroelectric plant by output for most of 1984–2016\nGuaraní is co-official with Spanish — one of few countries where an indigenous language is widely spoken by the general population",
+          "links": [
+            {
+              "text": "Paraguay",
+              "url": "https://en.wikipedia.org/wiki/Paraguay"
+            }
+          ]
         },
         {
           "id": "rwanda",
           "answer": "Rwanda",
           "alternates": [],
-          "explanation": "Central/East Africa; capital Kigali\nIn 1994, the Rwandan genocide killed an estimated 500,000–800,000 Tutsi and moderate Hutu in roughly 100 days\nNow one of Africa's fastest-growing economies and considered one of its cleanest, safest cities\nHighest proportion of women in parliament of any country in the world"
+          "explanation": "Central/East Africa; capital Kigali\nIn 1994, the Rwandan genocide killed an estimated 500,000–800,000 Tutsi and moderate Hutu in roughly 100 days\nNow one of Africa's fastest-growing economies and considered one of its cleanest, safest cities\nHighest proportion of women in parliament of any country in the world",
+          "links": [
+            {
+              "text": "Rwanda",
+              "url": "https://en.wikipedia.org/wiki/Rwanda"
+            }
+          ]
         },
         {
           "id": "san-marino",
           "answer": "San Marino",
           "alternates": [],
-          "explanation": "Southern Europe; capital San Marino (City of San Marino)\nCompletely surrounded by Italy — one of three countries entirely enclosed within another country\nClaims to be the world's oldest republic, founded in 301 CE\nSmallest population of any member of the Council of Europe; area of just 61 km²"
+          "explanation": "Southern Europe; capital San Marino (City of San Marino)\nCompletely surrounded by Italy — one of three countries entirely enclosed within another country\nClaims to be the world's oldest republic, founded in 301 CE\nSmallest population of any member of the Council of Europe; area of just 61 km²",
+          "links": [
+            {
+              "text": "San Marino",
+              "url": "https://en.wikipedia.org/wiki/San_Marino"
+            }
+          ]
         },
         {
           "id": "serbia",
           "answer": "Serbia",
           "alternates": [],
-          "explanation": "Southeast Europe (Balkans); capital Belgrade\nBecame landlocked in 2006 when Montenegro declared independence (Serbia lost its Adriatic coastline)\nBordered by Hungary, Romania, Bulgaria, North Macedonia, Kosovo, Bosnia-Herzegovina, Croatia, and Montenegro\nBelgrade sits at the confluence of the Sava and Danube rivers and is one of the oldest continuously inhabited cities in Europe"
+          "explanation": "Southeast Europe (Balkans); capital Belgrade\nBecame landlocked in 2006 when Montenegro declared independence (Serbia lost its Adriatic coastline)\nBordered by Hungary, Romania, Bulgaria, North Macedonia, Kosovo, Bosnia-Herzegovina, Croatia, and Montenegro\nBelgrade sits at the confluence of the Sava and Danube rivers and is one of the oldest continuously inhabited cities in Europe",
+          "links": [
+            {
+              "text": "Serbia",
+              "url": "https://en.wikipedia.org/wiki/Serbia"
+            }
+          ]
         },
         {
           "id": "slovakia",
           "answer": "Slovakia",
           "alternates": [],
-          "explanation": "Central Europe; capital Bratislava\nFormed in 1993 when Czechoslovakia split into Slovakia and Czech Republic ('Velvet Divorce')\nBratislava is the only national capital that borders two different countries (Austria and Hungary)\nBordered by Czech Republic, Poland, Ukraine, Hungary, and Austria"
+          "explanation": "Central Europe; capital Bratislava\nFormed in 1993 when Czechoslovakia split into Slovakia and Czech Republic ('Velvet Divorce')\nBratislava is the only national capital that borders two different countries (Austria and Hungary)\nBordered by Czech Republic, Poland, Ukraine, Hungary, and Austria",
+          "links": [
+            {
+              "text": "Slovakia",
+              "url": "https://en.wikipedia.org/wiki/Slovakia"
+            }
+          ]
         },
         {
           "id": "south-sudan",
           "answer": "South Sudan",
           "alternates": [],
-          "explanation": "East/Central Africa; capital Juba\nWorld's newest country — gained independence from Sudan on July 9, 2011\nAlmost immediately descended into civil war (2013–2020) along ethnic lines\nDespite significant oil reserves, one of the poorest and least developed countries in the world\nBordered by Sudan, Ethiopia, Kenya, Uganda, DRC, and Central African Republic"
+          "explanation": "East/Central Africa; capital Juba\nWorld's newest country — gained independence from Sudan on July 9, 2011\nAlmost immediately descended into civil war (2013–2020) along ethnic lines\nDespite significant oil reserves, one of the poorest and least developed countries in the world\nBordered by Sudan, Ethiopia, Kenya, Uganda, DRC, and Central African Republic",
+          "links": [
+            {
+              "text": "South Sudan",
+              "url": "https://en.wikipedia.org/wiki/South_Sudan"
+            }
+          ]
         },
         {
           "id": "switzerland",
           "answer": "Switzerland",
           "alternates": [],
-          "explanation": "Central/Western Europe; capital Bern (federal city)\nBordered by Germany, Austria, Liechtenstein, Italy, and France\nNeutrality maintained since 1815 — not a member of the EU; joined the UN only in 2002\nHome to the International Red Cross (founded Geneva, 1863) and numerous international organizations\nGeneva and Zurich are consistently ranked among the world's top cities for quality of life"
+          "explanation": "Central/Western Europe; capital Bern (federal city)\nBordered by Germany, Austria, Liechtenstein, Italy, and France\nNeutrality maintained since 1815 — not a member of the EU; joined the UN only in 2002\nHome to the International Red Cross (founded Geneva, 1863) and numerous international organizations\nGeneva and Zurich are consistently ranked among the world's top cities for quality of life",
+          "links": [
+            {
+              "text": "Switzerland",
+              "url": "https://en.wikipedia.org/wiki/Switzerland"
+            }
+          ]
         },
         {
           "id": "tajikistan",
           "answer": "Tajikistan",
           "alternates": [],
-          "explanation": "Central Asia; capital Dushanbe\nBordered by Afghanistan, China, Kyrgyzstan, and Uzbekistan\nHighest mountain passes in Central Asia; over 90% of the country is mountainous\nSuffered a brutal civil war from 1992 to 1997 after independence from the USSR\nPoor in natural resources compared to other Central Asian states"
+          "explanation": "Central Asia; capital Dushanbe\nBordered by Afghanistan, China, Kyrgyzstan, and Uzbekistan\nHighest mountain passes in Central Asia; over 90% of the country is mountainous\nSuffered a brutal civil war from 1992 to 1997 after independence from the USSR\nPoor in natural resources compared to other Central Asian states",
+          "links": [
+            {
+              "text": "Tajikistan",
+              "url": "https://en.wikipedia.org/wiki/Tajikistan"
+            }
+          ]
         },
         {
           "id": "turkmenistan",
           "answer": "Turkmenistan",
           "alternates": [],
-          "explanation": "Central Asia; capital Ashgabat\nBorders the Caspian Sea but has no ocean access — the Caspian is classified as a lake/sea\nHome to the 'Door to Hell' (Darvaza gas crater), a burning natural gas crater lit since 1971\nAmong the world's most isolated and authoritarian states; has among the world's largest natural gas reserves\nPrizes white marble buildings — Ashgabat holds the record for most white marble-clad buildings in a city"
+          "explanation": "Central Asia; capital Ashgabat\nBorders the Caspian Sea but has no ocean access — the Caspian is classified as a lake/sea\nHome to the 'Door to Hell' (Darvaza gas crater), a burning natural gas crater lit since 1971\nAmong the world's most isolated and authoritarian states; has among the world's largest natural gas reserves\nPrizes white marble buildings — Ashgabat holds the record for most white marble-clad buildings in a city",
+          "links": [
+            {
+              "text": "Turkmenistan",
+              "url": "https://en.wikipedia.org/wiki/Turkmenistan"
+            }
+          ]
         },
         {
           "id": "uganda",
           "answer": "Uganda",
           "alternates": [],
-          "explanation": "East Africa; capital Kampala\nBordered by Sudan, Kenya, Tanzania, Rwanda, and DRC; contains much of Lake Victoria, the world's largest tropical lake\nSource of the White Nile is at Jinja, where the river flows out of Lake Victoria\nRuled brutally by Idi Amin from 1971–1979; an estimated 100,000–500,000 people were killed"
+          "explanation": "East Africa; capital Kampala\nBordered by Sudan, Kenya, Tanzania, Rwanda, and DRC; contains much of Lake Victoria, the world's largest tropical lake\nSource of the White Nile is at Jinja, where the river flows out of Lake Victoria\nRuled brutally by Idi Amin from 1971–1979; an estimated 100,000–500,000 people were killed",
+          "links": [
+            {
+              "text": "Uganda",
+              "url": "https://en.wikipedia.org/wiki/Uganda"
+            }
+          ]
         },
         {
           "id": "uzbekistan",
           "answer": "Uzbekistan",
           "alternates": [],
-          "explanation": "Central Asia; capital Tashkent\nOne of only two doubly landlocked countries in the world (the other is Liechtenstein) — surrounded entirely by other landlocked countries: Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan\nSamarkand and Bukhara were major centers of the Silk Road\nHome to the Aral Sea, once the world's fourth-largest lake — shrunken by ~90% due to Soviet-era irrigation diversions\nTashkent is Central Asia's largest city"
+          "explanation": "Central Asia; capital Tashkent\nOne of only two doubly landlocked countries in the world (the other is Liechtenstein) — surrounded entirely by other landlocked countries: Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan\nSamarkand and Bukhara were major centers of the Silk Road\nHome to the Aral Sea, once the world's fourth-largest lake — shrunken by ~90% due to Soviet-era irrigation diversions\nTashkent is Central Asia's largest city",
+          "links": [
+            {
+              "text": "Uzbekistan",
+              "url": "https://en.wikipedia.org/wiki/Uzbekistan"
+            }
+          ]
         },
         {
           "id": "vatican-city",
           "answer": "Vatican City",
-          "alternates": ["Holy See", "Vatican"],
-          "explanation": "Southern Europe; capital is Vatican City itself\nCompletely surrounded by Rome, Italy — world's smallest sovereign state at 0.44 km²\nSeat of the Roman Catholic Church; home of the Pope\nSt. Peter's Basilica and the Sistine Chapel (ceiling painted by Michelangelo, 1508–1512) are within its walls\nEstablished as an independent state by the Lateran Treaty with Italy in 1929"
+          "alternates": [
+            "Holy See",
+            "Vatican"
+          ],
+          "explanation": "Southern Europe; capital is Vatican City itself\nCompletely surrounded by Rome, Italy — world's smallest sovereign state at 0.44 km²\nSeat of the Roman Catholic Church; home of the Pope\nSt. Peter's Basilica and the Sistine Chapel (ceiling painted by Michelangelo, 1508–1512) are within its walls\nEstablished as an independent state by the Lateran Treaty with Italy in 1929",
+          "links": [
+            {
+              "text": "Vatican City",
+              "url": "https://en.wikipedia.org/wiki/Vatican_City"
+            }
+          ]
         },
         {
           "id": "zambia",
           "answer": "Zambia",
           "alternates": [],
-          "explanation": "Southern Africa; capital Lusaka\nFormerly Northern Rhodesia; gained independence from Britain in 1964\nVictoria Falls ('Mosi-oa-Tunya'), one of the world's largest waterfalls, sits on the Zambia–Zimbabwe border\nOne of the world's top copper producers"
+          "explanation": "Southern Africa; capital Lusaka\nFormerly Northern Rhodesia; gained independence from Britain in 1964\nVictoria Falls ('Mosi-oa-Tunya'), one of the world's largest waterfalls, sits on the Zambia–Zimbabwe border\nOne of the world's top copper producers",
+          "links": [
+            {
+              "text": "Zambia",
+              "url": "https://en.wikipedia.org/wiki/Zambia"
+            }
+          ]
         },
         {
           "id": "zimbabwe",
           "answer": "Zimbabwe",
           "alternates": [],
-          "explanation": "Southern Africa; capital Harare\nFormerly Rhodesia; achieved majority rule and renamed Zimbabwe in 1980 under Robert Mugabe\nOnce called the 'breadbasket of Africa'; hyperinflation under Mugabe (peak: 89.7 sextillion percent in 2008) destroyed the economy\nVictoria Falls sits on its border with Zambia\nMugabe ruled until a military coup forced his resignation in 2017"
+          "explanation": "Southern Africa; capital Harare\nFormerly Rhodesia; achieved majority rule and renamed Zimbabwe in 1980 under Robert Mugabe\nOnce called the 'breadbasket of Africa'; hyperinflation under Mugabe (peak: 89.7 sextillion percent in 2008) destroyed the economy\nVictoria Falls sits on its border with Zambia\nMugabe ruled until a military coup forced his resignation in 2017",
+          "links": [
+            {
+              "text": "Zimbabwe",
+              "url": "https://en.wikipedia.org/wiki/Zimbabwe"
+            }
+          ]
         }
       ]
     }

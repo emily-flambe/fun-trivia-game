@@ -22,7 +22,13 @@
           "alternates": [],
           "explanation": "Atomic number 1, the lightest and most abundant element in the universe\nName means 'water-former' from Greek hydro + genes\nHydrogen fusion powers main-sequence stars including the Sun\nMakes up ~75% of all baryonic mass; key component of water (H₂O)",
           "cardFront": "H",
-          "cardBack": "Hydrogen"
+          "cardBack": "Hydrogen",
+          "links": [
+            {
+              "text": "Hydrogen",
+              "url": "https://en.wikipedia.org/wiki/Hydrogen"
+            }
+          ]
         },
         {
           "id": "helium",
@@ -31,7 +37,13 @@
           "alternates": [],
           "explanation": "Atomic number 2, second lightest element and second most abundant in the observable universe\nFirst discovered in the solar spectrum during an 1868 eclipse before being found on Earth — named for Helios, Greek sun god\nOnly element first identified extraterrestrially\nA noble gas that becomes superfluid near absolute zero; the only element that cannot be solidified at standard pressure",
           "cardFront": "He",
-          "cardBack": "Helium"
+          "cardBack": "Helium",
+          "links": [
+            {
+              "text": "Helium",
+              "url": "https://en.wikipedia.org/wiki/Helium"
+            }
+          ]
         },
         {
           "id": "lithium",
@@ -40,7 +52,13 @@
           "alternates": [],
           "explanation": "Atomic number 3, the lightest metal and lightest solid element\nName from Greek lithos ('stone'), discovered in the mineral petalite in 1817\nWidely used in rechargeable batteries and as a mood stabilizer for bipolar disorder\nOne of three elements produced in Big Bang nucleosynthesis (along with hydrogen and helium)",
           "cardFront": "Li",
-          "cardBack": "Lithium"
+          "cardBack": "Lithium",
+          "links": [
+            {
+              "text": "Lithium",
+              "url": "https://en.wikipedia.org/wiki/Lithium"
+            }
+          ]
         },
         {
           "id": "beryllium",
@@ -49,7 +67,13 @@
           "alternates": [],
           "explanation": "Atomic number 4, a rare alkaline earth metal\nNamed after the mineral beryl; emeralds and aquamarines are beryl gemstones colored by trace impurities\nExceptionally transparent to X-rays, used in X-ray tube windows\nHighly toxic — inhalation causes chronic beryllium disease (berylliosis)",
           "cardFront": "Be",
-          "cardBack": "Beryllium"
+          "cardBack": "Beryllium",
+          "links": [
+            {
+              "text": "Beryllium",
+              "url": "https://en.wikipedia.org/wiki/Beryllium"
+            }
+          ]
         },
         {
           "id": "boron",
@@ -58,7 +82,13 @@
           "alternates": [],
           "explanation": "Atomic number 5, a metalloid essential to plant cell walls\nName from Arabic buraq and Persian burah, referring to borax, known since ancient times as a flux\nBorosilicate glass (Pyrex) resists thermal shock due to boron content\nThe only non-metal in Group 13; never found free in nature",
           "cardFront": "B",
-          "cardBack": "Boron"
+          "cardBack": "Boron",
+          "links": [
+            {
+              "text": "Boron",
+              "url": "https://en.wikipedia.org/wiki/Boron"
+            }
+          ]
         },
         {
           "id": "carbon",
@@ -67,7 +97,13 @@
           "alternates": [],
           "explanation": "Atomic number 6, the basis of all known life and organic chemistry\nName from Latin carbo ('coal' or 'charcoal')\nForms more compounds than any other element — over 10 million known\nAllotropes include diamond, graphite, graphene, buckminsterfullerene (C₆₀), and carbon nanotubes\nCarbon-14 dating (half-life ~5,730 years) is used to date organic materials up to ~50,000 years old",
           "cardFront": "C",
-          "cardBack": "Carbon"
+          "cardBack": "Carbon",
+          "links": [
+            {
+              "text": "Carbon",
+              "url": "https://en.wikipedia.org/wiki/Carbon"
+            }
+          ]
         },
         {
           "id": "nitrogen",
@@ -76,7 +112,13 @@
           "alternates": [],
           "explanation": "Atomic number 7, makes up 78% of Earth's atmosphere by volume\nName from Greek nitron + genes ('niter-forming'), referring to potassium nitrate (saltpeter)\nThe Haber-Bosch process (1913 Nobel Prize) converts atmospheric N₂ to ammonia, enabling synthetic fertilizer that feeds roughly half the world's population\nTriple bond in N₂ is one of the strongest in chemistry (945 kJ/mol)",
           "cardFront": "N",
-          "cardBack": "Nitrogen"
+          "cardBack": "Nitrogen",
+          "links": [
+            {
+              "text": "Nitrogen",
+              "url": "https://en.wikipedia.org/wiki/Nitrogen"
+            }
+          ]
         },
         {
           "id": "oxygen",
@@ -85,7 +127,13 @@
           "alternates": [],
           "explanation": "Atomic number 8, the most abundant element in Earth's crust by mass (~46%)\nName from Greek oxy + genes ('acid-former') — Lavoisier incorrectly believed all acids contained oxygen\nMakes up 21% of Earth's atmosphere; produced by photosynthesis\nDiscovered independently by Scheele (~1772) and Priestley (1774), but Lavoisier named it",
           "cardFront": "O",
-          "cardBack": "Oxygen"
+          "cardBack": "Oxygen",
+          "links": [
+            {
+              "text": "Oxygen",
+              "url": "https://en.wikipedia.org/wiki/Oxygen"
+            }
+          ]
         },
         {
           "id": "fluorine",
@@ -94,7 +142,13 @@
           "alternates": [],
           "explanation": "Atomic number 9, the most electronegative and most reactive of all elements\nName from Latin fluere ('to flow'), after the mineral fluorite used as a flux in smelting\nIsolation killed or injured multiple chemists — Moissan finally succeeded in 1886 (1906 Nobel Prize)\nUsed in Teflon (PTFE), uranium enrichment (UF₆), and fluoride toothpaste",
           "cardFront": "F",
-          "cardBack": "Fluorine"
+          "cardBack": "Fluorine",
+          "links": [
+            {
+              "text": "Fluorine",
+              "url": "https://en.wikipedia.org/wiki/Fluorine"
+            }
+          ]
         },
         {
           "id": "neon",
@@ -103,7 +157,13 @@
           "alternates": [],
           "explanation": "Atomic number 10, a noble gas that produces a distinctive reddish-orange glow in discharge tubes\nName from Greek neos ('new'); discovered by Ramsay and Travers in 1898\nTrue neon signs glow only red-orange — other colors use different gases or phosphor coatings\nThe least reactive element; no known stable compounds",
           "cardFront": "Ne",
-          "cardBack": "Neon"
+          "cardBack": "Neon",
+          "links": [
+            {
+              "text": "Neon",
+              "url": "https://en.wikipedia.org/wiki/Neon"
+            }
+          ]
         },
         {
           "id": "sodium",
@@ -112,7 +172,13 @@
           "alternates": [],
           "explanation": "Atomic number 11; symbol Na from Latin natrium, itself from Egyptian natron (a natural mineral salt)\nEnglish name from medieval Latin sodanum, a headache remedy\nFirst isolated by Humphry Davy in 1807 via electrolysis of sodium hydroxide\nReacts violently with water; sodium vapor lamps produce the yellow light used in street lighting",
           "cardFront": "Na",
-          "cardBack": "Sodium"
+          "cardBack": "Sodium",
+          "links": [
+            {
+              "text": "Sodium",
+              "url": "https://en.wikipedia.org/wiki/Sodium"
+            }
+          ]
         },
         {
           "id": "magnesium",
@@ -121,7 +187,13 @@
           "alternates": [],
           "explanation": "Atomic number 12, a lightweight alkaline earth metal\nNamed after Magnesia, a district of Thessaly in Greece\nBurns with an intense white light — used in early photographic flash powder and incendiary weapons\nEssential to life: the central atom in chlorophyll and a cofactor in over 300 enzyme systems in humans",
           "cardFront": "Mg",
-          "cardBack": "Magnesium"
+          "cardBack": "Magnesium",
+          "links": [
+            {
+              "text": "Magnesium",
+              "url": "https://en.wikipedia.org/wiki/Magnesium"
+            }
+          ]
         },
         {
           "id": "aluminum",
@@ -132,7 +204,13 @@
           ],
           "explanation": "Atomic number 13, the most abundant metal in Earth's crust\nOnce more precious than gold — Napoleon III served honored guests on aluminum plates while others used gold\nThe Washington Monument (1884) was capped with aluminum as a display of wealth\nThe Hall-Héroult process (1886) made mass production possible, crashing the price",
           "cardFront": "Al",
-          "cardBack": "Aluminum"
+          "cardBack": "Aluminum",
+          "links": [
+            {
+              "text": "Aluminum",
+              "url": "https://en.wikipedia.org/wiki/Aluminum"
+            }
+          ]
         },
         {
           "id": "silicon",
@@ -141,7 +219,13 @@
           "alternates": [],
           "explanation": "Atomic number 14, the second most abundant element in Earth's crust after oxygen\nName from Latin silex ('flint'); a metalloid semiconductor that underpins the electronics industry\nSilicon Valley named for the material in transistors and integrated circuits\nNot to be confused with silicone, a synthetic polymer; makes up most sand as silicon dioxide (SiO₂)",
           "cardFront": "Si",
-          "cardBack": "Silicon"
+          "cardBack": "Silicon",
+          "links": [
+            {
+              "text": "Silicon",
+              "url": "https://en.wikipedia.org/wiki/Silicon"
+            }
+          ]
         },
         {
           "id": "phosphorus",
@@ -150,7 +234,13 @@
           "alternates": [],
           "explanation": "Atomic number 15; name from Greek phosphoros ('light-bearer') because white phosphorus glows in the dark\nDiscovered by Hennig Brand in 1669 from urine — the first element with a known discoverer\nWhite phosphorus is pyrophoric and highly toxic; red phosphorus is used on matchbox striking surfaces\nEssential to life: backbone of DNA/RNA, component of ATP, and ~1% of human body mass",
           "cardFront": "P",
-          "cardBack": "Phosphorus"
+          "cardBack": "Phosphorus",
+          "links": [
+            {
+              "text": "Phosphorus",
+              "url": "https://en.wikipedia.org/wiki/Phosphorus"
+            }
+          ]
         },
         {
           "id": "sulfur",
@@ -161,7 +251,13 @@
           ],
           "explanation": "Atomic number 16, known since antiquity as 'brimstone' in the Bible\nOne of few elements found in pure form in nature, often near volcanic vents and hot springs\nKey to vulcanization of rubber (discovered by Charles Goodyear, 1839) and sulfuric acid — the world's most-produced industrial chemical\nIUPAC standardized the spelling 'sulfur' in 1990; 'sulphur' remains common in British English",
           "cardFront": "S",
-          "cardBack": "Sulfur"
+          "cardBack": "Sulfur",
+          "links": [
+            {
+              "text": "Sulfur",
+              "url": "https://en.wikipedia.org/wiki/Sulfur"
+            }
+          ]
         },
         {
           "id": "chlorine",
@@ -170,7 +266,13 @@
           "alternates": [],
           "explanation": "Atomic number 17, a yellow-green toxic gas with a pungent smell\nName from Greek chloros ('pale green'); first produced by Scheele in 1774\nRevolutionized public health through water chlorination, virtually eliminating waterborne diseases like cholera and typhoid\nUsed as a chemical weapon in World War I (first large-scale use at Ypres, 1915)",
           "cardFront": "Cl",
-          "cardBack": "Chlorine"
+          "cardBack": "Chlorine",
+          "links": [
+            {
+              "text": "Chlorine",
+              "url": "https://en.wikipedia.org/wiki/Chlorine"
+            }
+          ]
         },
         {
           "id": "argon",
@@ -179,7 +281,13 @@
           "alternates": [],
           "explanation": "Atomic number 18, the third most abundant gas in Earth's atmosphere (~0.93%)\nName from Greek argon ('idle' or 'lazy') because it is so unreactive\nDiscovered by Lord Rayleigh and William Ramsay in 1894 after noticing atmospheric nitrogen was denser than chemical nitrogen\nUsed in incandescent and fluorescent light bulbs as an inert fill gas; also in welding to shield the arc",
           "cardFront": "Ar",
-          "cardBack": "Argon"
+          "cardBack": "Argon",
+          "links": [
+            {
+              "text": "Argon",
+              "url": "https://en.wikipedia.org/wiki/Argon"
+            }
+          ]
         },
         {
           "id": "potassium",
@@ -188,7 +296,13 @@
           "alternates": [],
           "explanation": "Atomic number 19; symbol K from Latin kalium, derived from Arabic al-qalyah ('plant ashes')\nEnglish name from 'potash' — ashes of burned plants soaked in a pot\nFirst metal isolated by electrolysis (Humphry Davy, 1807), just days before sodium\nEssential electrolyte; bananas are famously potassium-rich; K-40 isotope makes them slightly radioactive",
           "cardFront": "K",
-          "cardBack": "Potassium"
+          "cardBack": "Potassium",
+          "links": [
+            {
+              "text": "Potassium",
+              "url": "https://en.wikipedia.org/wiki/Potassium"
+            }
+          ]
         },
         {
           "id": "calcium",
@@ -197,7 +311,13 @@
           "alternates": [],
           "explanation": "Atomic number 20, the most abundant metal in the human body\nName from Latin calx ('lime'); isolated by Humphry Davy in 1808 via electrolysis\nFifth most abundant element in Earth's crust; forms limestone, marble, chalk, and coral\nEssential for bones, teeth, muscle contraction, and nerve signaling",
           "cardFront": "Ca",
-          "cardBack": "Calcium"
+          "cardBack": "Calcium",
+          "links": [
+            {
+              "text": "Calcium",
+              "url": "https://en.wikipedia.org/wiki/Calcium"
+            }
+          ]
         },
         {
           "id": "scandium",
@@ -206,7 +326,13 @@
           "alternates": [],
           "explanation": "Atomic number 21, the first transition metal; a rare earth element\nNamed after Scandinavia; discovered by Lars Fredrik Nilson in 1879 in Scandinavian minerals\nPredicted by Mendeleev as 'eka-boron' in 1869 — its discovery confirmed the periodic table's validity\nUsed in aluminum-scandium alloys for aerospace and high-end bicycle frames",
           "cardFront": "Sc",
-          "cardBack": "Scandium"
+          "cardBack": "Scandium",
+          "links": [
+            {
+              "text": "Scandium",
+              "url": "https://en.wikipedia.org/wiki/Scandium"
+            }
+          ]
         },
         {
           "id": "titanium",
@@ -215,7 +341,13 @@
           "alternates": [],
           "explanation": "Atomic number 22, named after the Titans of Greek mythology\nDiscovered by William Gregor in 1791 in Cornwall; independently found by Klaproth in 1795\nExceptional strength-to-weight ratio and corrosion resistance; used in jet engines, spacecraft, and medical implants\nTitanium dioxide (TiO₂) is the world's most widely used white pigment — in paint, sunscreen, and food coloring",
           "cardFront": "Ti",
-          "cardBack": "Titanium"
+          "cardBack": "Titanium",
+          "links": [
+            {
+              "text": "Titanium",
+              "url": "https://en.wikipedia.org/wiki/Titanium"
+            }
+          ]
         },
         {
           "id": "vanadium",
@@ -224,7 +356,13 @@
           "alternates": [],
           "explanation": "Atomic number 23, named after Vanadis, an Old Norse name for the goddess Freyja\nDiscovered twice: first by del Río in 1801 (retracted after doubts), then by Sefström in 1831\nForms compounds in many vivid colors; vanadium steel is exceptionally strong — Henry Ford used it in the Model T\nFound in some sea squirts and certain mushrooms (Amanita muscaria) which concentrate it from the environment",
           "cardFront": "V",
-          "cardBack": "Vanadium"
+          "cardBack": "Vanadium",
+          "links": [
+            {
+              "text": "Vanadium",
+              "url": "https://en.wikipedia.org/wiki/Vanadium"
+            }
+          ]
         },
         {
           "id": "chromium",
@@ -233,7 +371,13 @@
           "alternates": [],
           "explanation": "Atomic number 24, named from Greek chroma ('color') because its compounds are vividly colored\nDiscovered by Louis Nicolas Vauquelin in 1797; the red of rubies and green of emeralds both come from chromium traces\nChrome plating provides a brilliant mirror finish and corrosion resistance\nStainless steel requires at least 10.5% chromium content; hexavalent chromium (Cr VI) is a carcinogen (as in the Erin Brockovich case)",
           "cardFront": "Cr",
-          "cardBack": "Chromium"
+          "cardBack": "Chromium",
+          "links": [
+            {
+              "text": "Chromium",
+              "url": "https://en.wikipedia.org/wiki/Chromium"
+            }
+          ]
         },
         {
           "id": "manganese",
@@ -242,7 +386,13 @@
           "alternates": [],
           "explanation": "Atomic number 25; name from Latin magnes, referring to the Magnesia region (same root as magnesium, but different elements)\nEssential to steelmaking: removes sulfur and oxygen impurities; ~90% of manganese production goes to steel\nManganese dioxide has been used since prehistoric cave paintings (Lascaux) as a black pigment\nThe most abundant metal on the ocean floor, found in polymetallic nodules",
           "cardFront": "Mn",
-          "cardBack": "Manganese"
+          "cardBack": "Manganese",
+          "links": [
+            {
+              "text": "Manganese",
+              "url": "https://en.wikipedia.org/wiki/Manganese"
+            }
+          ]
         },
         {
           "id": "iron",
@@ -251,7 +401,13 @@
           "alternates": [],
           "explanation": "Atomic number 26; symbol Fe from Latin ferrum\nThe most abundant element on Earth by total mass (core is ~85% iron) and the most used metal\nIron Age began ~1200 BCE; wrought iron, cast iron, and steel are all iron alloys\nHemoglobin uses iron to transport oxygen in blood; Earth's liquid iron core generates the magnetic field",
           "cardFront": "Fe",
-          "cardBack": "Iron"
+          "cardBack": "Iron",
+          "links": [
+            {
+              "text": "Iron",
+              "url": "https://en.wikipedia.org/wiki/Iron"
+            }
+          ]
         },
         {
           "id": "cobalt",
@@ -260,7 +416,13 @@
           "alternates": [],
           "explanation": "Atomic number 27; name from German Kobold ('goblin'), because cobalt ores were toxic and troublesome to miners\nCobalt blue pigment has been used since antiquity in Chinese porcelain and Egyptian jewelry\nCobalt-60 is a major gamma ray source used in radiation therapy and food sterilization\nCritical component of lithium-ion batteries; most cobalt is mined in the Democratic Republic of Congo",
           "cardFront": "Co",
-          "cardBack": "Cobalt"
+          "cardBack": "Cobalt",
+          "links": [
+            {
+              "text": "Cobalt",
+              "url": "https://en.wikipedia.org/wiki/Cobalt"
+            }
+          ]
         },
         {
           "id": "nickel",
@@ -269,7 +431,13 @@
           "alternates": [],
           "explanation": "Atomic number 28; name from German Kupfernickel ('copper demon' or 'Old Nick's copper') — miners cursed the ore that looked like copper but yielded none\nThe US five-cent coin is 75% copper, only 25% nickel\nHighly resistant to corrosion; used in stainless steel, superalloys for jet engines, and nickel plating\nNickel is ferromagnetic — one of only four elements magnetic at room temperature (with Fe, Co, Gd)",
           "cardFront": "Ni",
-          "cardBack": "Nickel"
+          "cardBack": "Nickel",
+          "links": [
+            {
+              "text": "Nickel",
+              "url": "https://en.wikipedia.org/wiki/Nickel"
+            }
+          ]
         },
         {
           "id": "copper",
@@ -278,7 +446,13 @@
           "alternates": [],
           "explanation": "Atomic number 29; symbol Cu from Latin cuprum, named after Cyprus where Romans mined it extensively\nOne of few metals with a natural color other than gray/silver — distinctive reddish-orange\nFirst metal to be smelted (~5000 BCE) and first alloyed with tin to make bronze, launching the Bronze Age\nThe Statue of Liberty contains 80 tons of copper; its green patina is copper carbonate formed by oxidation",
           "cardFront": "Cu",
-          "cardBack": "Copper"
+          "cardBack": "Copper",
+          "links": [
+            {
+              "text": "Copper",
+              "url": "https://en.wikipedia.org/wiki/Copper"
+            }
+          ]
         },
         {
           "id": "zinc",
@@ -287,7 +461,13 @@
           "alternates": [],
           "explanation": "Atomic number 30; name possibly from German Zinke ('prong' or 'tooth'), referring to the pointed crystals of zinc ore\nUsed to galvanize steel (zinc coating prevents rust) — accounts for over half of zinc consumption\nAlloyed with copper to make brass, known since antiquity\nEssential trace element for humans; zinc lozenges are widely used as a cold remedy; zinc oxide is the white in calamine lotion and sunblock",
           "cardFront": "Zn",
-          "cardBack": "Zinc"
+          "cardBack": "Zinc",
+          "links": [
+            {
+              "text": "Zinc",
+              "url": "https://en.wikipedia.org/wiki/Zinc"
+            }
+          ]
         },
         {
           "id": "gallium",
@@ -296,7 +476,13 @@
           "alternates": [],
           "explanation": "Atomic number 31, named after Gallia (Latin for France)\nMelts at 29.76°C — will liquefy in your hand\nUsed in semiconductors (GaAs) and LEDs\nPredicted by Mendeleev as \"eka-aluminium\" before its 1875 discovery",
           "cardFront": "Ga",
-          "cardBack": "Gallium"
+          "cardBack": "Gallium",
+          "links": [
+            {
+              "text": "Gallium",
+              "url": "https://en.wikipedia.org/wiki/Gallium"
+            }
+          ]
         },
         {
           "id": "germanium",
@@ -305,7 +491,13 @@
           "alternates": [],
           "explanation": "Atomic number 32, named after Germany\nPredicted by Mendeleev as \"eka-silicon\" — confirmed his periodic law\nUsed in early transistors before silicon took over\nTransparent to infrared light, used in night-vision optics",
           "cardFront": "Ge",
-          "cardBack": "Germanium"
+          "cardBack": "Germanium",
+          "links": [
+            {
+              "text": "Germanium",
+              "url": "https://en.wikipedia.org/wiki/Germanium"
+            }
+          ]
         },
         {
           "id": "arsenic",
@@ -314,7 +506,13 @@
           "alternates": [],
           "explanation": "Atomic number 33, name from Greek arsenikon (potent)\nInfamous as \"inheritance powder\" — the poison of choice in Renaissance Europe\nNapoleon's wallpaper may have contained arsenic-based green pigment\nUsed in GaAs semiconductors and pressure-treated lumber",
           "cardFront": "As",
-          "cardBack": "Arsenic"
+          "cardBack": "Arsenic",
+          "links": [
+            {
+              "text": "Arsenic",
+              "url": "https://en.wikipedia.org/wiki/Arsenic"
+            }
+          ]
         },
         {
           "id": "selenium",
@@ -323,7 +521,13 @@
           "alternates": [],
           "explanation": "Atomic number 34, named after Selene (Greek moon goddess)\nNamed as companion to tellurium (named for Earth)\nEssential trace nutrient but toxic in excess\nUsed in photocopiers due to its photoconductivity",
           "cardFront": "Se",
-          "cardBack": "Selenium"
+          "cardBack": "Selenium",
+          "links": [
+            {
+              "text": "Selenium",
+              "url": "https://en.wikipedia.org/wiki/Selenium"
+            }
+          ]
         },
         {
           "id": "bromine",
@@ -332,7 +536,13 @@
           "alternates": [],
           "explanation": "Atomic number 35, from Greek bromos (stench)\nOne of only two elements liquid at room temperature (with mercury)\nHistorically used in \"bromide\" sedatives — origin of the word meaning a dull remark\nUsed in flame retardants and photographic film (silver bromide)",
           "cardFront": "Br",
-          "cardBack": "Bromine"
+          "cardBack": "Bromine",
+          "links": [
+            {
+              "text": "Bromine",
+              "url": "https://en.wikipedia.org/wiki/Bromine"
+            }
+          ]
         },
         {
           "id": "krypton",
@@ -341,7 +551,13 @@
           "alternates": [],
           "explanation": "Atomic number 36, from Greek kryptos (hidden)\nSuperman's home planet Krypton is named after this element\nIts spectral line once defined the standard meter (1960–1983)\nA noble gas, produces brilliant white light in discharge tubes",
           "cardFront": "Kr",
-          "cardBack": "Krypton"
+          "cardBack": "Krypton",
+          "links": [
+            {
+              "text": "Krypton",
+              "url": "https://en.wikipedia.org/wiki/Krypton"
+            }
+          ]
         },
         {
           "id": "rubidium",
@@ -350,7 +566,13 @@
           "alternates": [],
           "explanation": "Atomic number 37, from Latin rubidus (deep red) for its spectral lines\nOne of the most electropositive elements — ignites spontaneously in air\nRubidium atomic clocks are used in GPS satellites\nDiscovered via spectroscopy by Bunsen and Kirchhoff in 1861",
           "cardFront": "Rb",
-          "cardBack": "Rubidium"
+          "cardBack": "Rubidium",
+          "links": [
+            {
+              "text": "Rubidium",
+              "url": "https://en.wikipedia.org/wiki/Rubidium"
+            }
+          ]
         },
         {
           "id": "strontium",
@@ -359,7 +581,13 @@
           "alternates": [],
           "explanation": "Atomic number 38, named after Strontian, a village in Scotland\nBurns with a brilliant red flame — used in fireworks and road flares\nStrontium-90 is a dangerous nuclear fallout product (mimics calcium in bones)\nUsed in ferrite magnets and CRT television glass",
           "cardFront": "Sr",
-          "cardBack": "Strontium"
+          "cardBack": "Strontium",
+          "links": [
+            {
+              "text": "Strontium",
+              "url": "https://en.wikipedia.org/wiki/Strontium"
+            }
+          ]
         },
         {
           "id": "yttrium",
@@ -368,7 +596,13 @@
           "alternates": [],
           "explanation": "Atomic number 39, named after the village of Ytterby, Sweden\nOne of four elements named after Ytterby (with Tb, Er, Yb)\nUsed in YAG lasers and red phosphors in old color TVs\nOften grouped with the rare earth elements despite being a transition metal",
           "cardFront": "Y",
-          "cardBack": "Yttrium"
+          "cardBack": "Yttrium",
+          "links": [
+            {
+              "text": "Yttrium",
+              "url": "https://en.wikipedia.org/wiki/Yttrium"
+            }
+          ]
         },
         {
           "id": "zirconium",
@@ -377,7 +611,13 @@
           "alternates": [],
           "explanation": "Atomic number 40, from Persian zargun (gold-colored)\nCubic zirconia (ZrO₂) is the well-known diamond simulant\nUsed in nuclear reactor fuel rod cladding due to low neutron absorption\nExtremely corrosion-resistant — used in chemical processing equipment",
           "cardFront": "Zr",
-          "cardBack": "Zirconium"
+          "cardBack": "Zirconium",
+          "links": [
+            {
+              "text": "Zirconium",
+              "url": "https://en.wikipedia.org/wiki/Zirconium"
+            }
+          ]
         },
         {
           "id": "niobium",
@@ -388,7 +628,13 @@
           ],
           "explanation": "Atomic number 41, named after Niobe (daughter of Tantalus in Greek myth)\nFormerly called columbium in America — IUPAC chose niobium in 1949\nSuperconducting magnets in MRI machines and particle accelerators use Nb alloys\nBrazil produces ~90% of the world's niobium",
           "cardFront": "Nb",
-          "cardBack": "Niobium"
+          "cardBack": "Niobium",
+          "links": [
+            {
+              "text": "Niobium",
+              "url": "https://en.wikipedia.org/wiki/Niobium"
+            }
+          ]
         },
         {
           "id": "molybdenum",
@@ -397,7 +643,13 @@
           "alternates": [],
           "explanation": "Atomic number 42, from Greek molybdos (lead) — its ore was confused with lead\nEssential trace element in biology, used by nitrogenase enzymes\nMolybdenum steel alloys are extremely hard and heat-resistant\nThe word is famously difficult to spell and pronounce",
           "cardFront": "Mo",
-          "cardBack": "Molybdenum"
+          "cardBack": "Molybdenum",
+          "links": [
+            {
+              "text": "Molybdenum",
+              "url": "https://en.wikipedia.org/wiki/Molybdenum"
+            }
+          ]
         },
         {
           "id": "technetium",
@@ -406,7 +658,13 @@
           "alternates": [],
           "explanation": "Atomic number 43, from Greek tekhnetos (artificial)\nFirst artificially produced element (1937) — does not occur naturally on Earth\nTc-99m is the most widely used medical radioisotope for diagnostic imaging\nIts absence in nature confirmed a gap Mendeleev had predicted",
           "cardFront": "Tc",
-          "cardBack": "Technetium"
+          "cardBack": "Technetium",
+          "links": [
+            {
+              "text": "Technetium",
+              "url": "https://en.wikipedia.org/wiki/Technetium"
+            }
+          ]
         },
         {
           "id": "ruthenium",
@@ -415,7 +673,13 @@
           "alternates": [],
           "explanation": "Atomic number 44, named after Ruthenia (Latin for Russia)\nOne of the rarest platinum group metals\nUsed in electrical contacts and chip resistors\nAdded to platinum and palladium alloys to increase hardness",
           "cardFront": "Ru",
-          "cardBack": "Ruthenium"
+          "cardBack": "Ruthenium",
+          "links": [
+            {
+              "text": "Ruthenium",
+              "url": "https://en.wikipedia.org/wiki/Ruthenium"
+            }
+          ]
         },
         {
           "id": "rhodium",
@@ -424,7 +688,13 @@
           "alternates": [],
           "explanation": "Atomic number 45, from Greek rhodon (rose) for the color of its salts\nThe most expensive precious metal — frequently exceeds gold's price by 5–10x\nUsed in catalytic converters to reduce NOx emissions\nPlates the reflective coating on high-end mirrors and searchlights",
           "cardFront": "Rh",
-          "cardBack": "Rhodium"
+          "cardBack": "Rhodium",
+          "links": [
+            {
+              "text": "Rhodium",
+              "url": "https://en.wikipedia.org/wiki/Rhodium"
+            }
+          ]
         },
         {
           "id": "palladium",
@@ -433,7 +703,13 @@
           "alternates": [],
           "explanation": "Atomic number 46, named after the asteroid Pallas (itself named for Athena)\nKey component in catalytic converters alongside platinum and rhodium\nAbsorbs up to 900 times its own volume of hydrogen gas\nUsed in dentistry, jewelry (white gold alloys), and hydrogen purification",
           "cardFront": "Pd",
-          "cardBack": "Palladium"
+          "cardBack": "Palladium",
+          "links": [
+            {
+              "text": "Palladium",
+              "url": "https://en.wikipedia.org/wiki/Palladium"
+            }
+          ]
         },
         {
           "id": "silver",
@@ -442,7 +718,13 @@
           "alternates": [],
           "explanation": "Atomic number 47, symbol Ag from Latin argentum (shiny/white)\nHighest electrical and thermal conductivity of any element\nArgentina is named after this element (\"land of silver\")\nUsed in photography (silver halide), electronics, and antimicrobial coatings",
           "cardFront": "Ag",
-          "cardBack": "Silver"
+          "cardBack": "Silver",
+          "links": [
+            {
+              "text": "Silver",
+              "url": "https://en.wikipedia.org/wiki/Silver"
+            }
+          ]
         },
         {
           "id": "cadmium",
@@ -451,7 +733,13 @@
           "alternates": [],
           "explanation": "Atomic number 48, from Latin cadmia (calamine ore)\nCadmium yellow was a favorite pigment of Monet and Van Gogh\nNiCd (nickel-cadmium) rechargeable batteries were ubiquitous before lithium-ion\nHighly toxic — Itai-itai disease in Japan was caused by cadmium pollution",
           "cardFront": "Cd",
-          "cardBack": "Cadmium"
+          "cardBack": "Cadmium",
+          "links": [
+            {
+              "text": "Cadmium",
+              "url": "https://en.wikipedia.org/wiki/Cadmium"
+            }
+          ]
         },
         {
           "id": "indium",
@@ -460,7 +748,13 @@
           "alternates": [],
           "explanation": "Atomic number 49, named for its indigo spectral line\nIndium tin oxide (ITO) coats virtually every touchscreen and LCD display\nSo soft it can be cut with a knife and leaves a mark like a pencil\nProduces a high-pitched \"tin cry\" when bent",
           "cardFront": "In",
-          "cardBack": "Indium"
+          "cardBack": "Indium",
+          "links": [
+            {
+              "text": "Indium",
+              "url": "https://en.wikipedia.org/wiki/Indium"
+            }
+          ]
         },
         {
           "id": "tin",
@@ -469,7 +763,13 @@
           "alternates": [],
           "explanation": "Atomic number 50, symbol Sn from Latin stannum\nOne of the earliest metals used by humans — essential for bronze (copper + tin)\nThe \"tin cry\" is the audible creak when a bar is bent\nTin cans are actually steel coated with a thin layer of tin",
           "cardFront": "Sn",
-          "cardBack": "Tin"
+          "cardBack": "Tin",
+          "links": [
+            {
+              "text": "Tin",
+              "url": "https://en.wikipedia.org/wiki/Tin"
+            }
+          ]
         },
         {
           "id": "antimony",
@@ -478,7 +778,13 @@
           "alternates": [],
           "explanation": "Atomic number 51, symbol Sb from Latin stibium\nAncient Egyptians used stibnite (Sb₂S₃) as kohl eyeliner\nUsed in lead-antimony alloys for bullets and type metal (printing)\nOne of few elements that expands on freezing, like water",
           "cardFront": "Sb",
-          "cardBack": "Antimony"
+          "cardBack": "Antimony",
+          "links": [
+            {
+              "text": "Antimony",
+              "url": "https://en.wikipedia.org/wiki/Antimony"
+            }
+          ]
         },
         {
           "id": "tellurium",
@@ -487,7 +793,13 @@
           "alternates": [],
           "explanation": "Atomic number 52, from Latin tellus (Earth)\nOne of the rarest stable elements in Earth's crust\nIngestion causes garlic-like breath odor that persists for weeks\nUsed in CdTe solar panels and Blu-ray disc rewritable layers",
           "cardFront": "Te",
-          "cardBack": "Tellurium"
+          "cardBack": "Tellurium",
+          "links": [
+            {
+              "text": "Tellurium",
+              "url": "https://en.wikipedia.org/wiki/Tellurium"
+            }
+          ]
         },
         {
           "id": "iodine",
@@ -496,7 +808,13 @@
           "alternates": [],
           "explanation": "Atomic number 53, from Greek ioeides (violet-colored)\nEssential for thyroid hormones — deficiency causes goiter\nIodized salt, introduced in the 1920s, eliminated endemic goiter in many countries\nSublimes directly from solid to a striking violet gas",
           "cardFront": "I",
-          "cardBack": "Iodine"
+          "cardBack": "Iodine",
+          "links": [
+            {
+              "text": "Iodine",
+              "url": "https://en.wikipedia.org/wiki/Iodine"
+            }
+          ]
         },
         {
           "id": "xenon",
@@ -505,7 +823,13 @@
           "alternates": [],
           "explanation": "Atomic number 54, from Greek xenos (stranger/foreign)\nFirst noble gas proven to form chemical compounds (XeF₂, 1962)\nUsed in ion propulsion engines for spacecraft (Dawn, Starlink)\nXenon headlamps produce the distinctive blue-white light in luxury cars",
           "cardFront": "Xe",
-          "cardBack": "Xenon"
+          "cardBack": "Xenon",
+          "links": [
+            {
+              "text": "Xenon",
+              "url": "https://en.wikipedia.org/wiki/Xenon"
+            }
+          ]
         },
         {
           "id": "cesium",
@@ -516,7 +840,13 @@
           ],
           "explanation": "Atomic number 55, from Latin caesius (sky blue) for its spectral lines\nThe SI second is defined by cesium-133 atomic clock transitions (9,192,631,770 Hz)\nMost electropositive naturally occurring element\nMelts at 28.5°C — liquid at slightly above room temperature",
           "cardFront": "Cs",
-          "cardBack": "Cesium"
+          "cardBack": "Cesium",
+          "links": [
+            {
+              "text": "Cesium",
+              "url": "https://en.wikipedia.org/wiki/Cesium"
+            }
+          ]
         },
         {
           "id": "barium",
@@ -525,7 +855,13 @@
           "alternates": [],
           "explanation": "Atomic number 56, from Greek barys (heavy)\nBarium sulfate \"milkshake\" is drunk for X-ray GI tract imaging\nBurns with an apple-green flame — used in green fireworks\nBologna Stone (barium sulfate) was the first known persistent phosphorescent material",
           "cardFront": "Ba",
-          "cardBack": "Barium"
+          "cardBack": "Barium",
+          "links": [
+            {
+              "text": "Barium",
+              "url": "https://en.wikipedia.org/wiki/Barium"
+            }
+          ]
         },
         {
           "id": "lanthanum",
@@ -534,7 +870,13 @@
           "alternates": [],
           "explanation": "Atomic number 57, from Greek lanthanein (to lie hidden)\nFirst element in the lanthanide series, which is named after it\nUsed in high-refractive-index camera and telescope lenses\nMisch metal (La/Ce alloy) is the flint in cigarette lighters",
           "cardFront": "La",
-          "cardBack": "Lanthanum"
+          "cardBack": "Lanthanum",
+          "links": [
+            {
+              "text": "Lanthanum",
+              "url": "https://en.wikipedia.org/wiki/Lanthanum"
+            }
+          ]
         },
         {
           "id": "cerium",
@@ -543,7 +885,13 @@
           "alternates": [],
           "explanation": "Atomic number 58, named after the dwarf planet Ceres\nMost abundant of all rare earth elements\nCerium oxide is the primary compound used to polish glass and mirrors\nSelf-cleaning ovens use CeO₂ catalytic coatings",
           "cardFront": "Ce",
-          "cardBack": "Cerium"
+          "cardBack": "Cerium",
+          "links": [
+            {
+              "text": "Cerium",
+              "url": "https://en.wikipedia.org/wiki/Cerium"
+            }
+          ]
         },
         {
           "id": "praseodymium",
@@ -552,7 +900,13 @@
           "alternates": [],
           "explanation": "Atomic number 59, from Greek prasios didymos (green twin)\nOriginally part of \"didymium\" before being separated from neodymium in 1885\nDidymium glass (Pr + Nd) is used by glassblowers to filter sodium flare\nUsed in high-strength permanent magnets and aircraft engines",
           "cardFront": "Pr",
-          "cardBack": "Praseodymium"
+          "cardBack": "Praseodymium",
+          "links": [
+            {
+              "text": "Praseodymium",
+              "url": "https://en.wikipedia.org/wiki/Praseodymium"
+            }
+          ]
         },
         {
           "id": "neodymium",
@@ -561,7 +915,13 @@
           "alternates": [],
           "explanation": "Atomic number 60, from Greek neos didymos (new twin)\nNdFeB magnets are the strongest permanent magnets commercially available\nUsed in headphones, hard drives, wind turbines, and electric vehicle motors\nNeodymium glass is used in astronomical filters and laser crystals (Nd:YAG)",
           "cardFront": "Nd",
-          "cardBack": "Neodymium"
+          "cardBack": "Neodymium",
+          "links": [
+            {
+              "text": "Neodymium",
+              "url": "https://en.wikipedia.org/wiki/Neodymium"
+            }
+          ]
         },
         {
           "id": "promethium",
@@ -570,7 +930,13 @@
           "alternates": [],
           "explanation": "Atomic number 61; named after Prometheus, the Titan who stole fire from the gods\nOnly radioactive element among the lanthanides; all isotopes are unstable\nLast discovered of the rare earth elements (1945, from uranium fission products)\nFewer than 600 grams exist naturally in Earth's crust at any time",
           "cardFront": "Pm",
-          "cardBack": "Promethium"
+          "cardBack": "Promethium",
+          "links": [
+            {
+              "text": "Promethium",
+              "url": "https://en.wikipedia.org/wiki/Promethium"
+            }
+          ]
         },
         {
           "id": "samarium",
@@ -579,7 +945,13 @@
           "alternates": [],
           "explanation": "Atomic number 62; named after the mineral samarskite\nFirst element named after a person: Colonel Vassili Samarsky-Bykhovets, a Russian mine official\nSamarium-cobalt magnets retain strength at high temperatures, used in military and aerospace applications\nUsed in cancer treatment (samarium-153) for radiation therapy targeting bone metastases",
           "cardFront": "Sm",
-          "cardBack": "Samarium"
+          "cardBack": "Samarium",
+          "links": [
+            {
+              "text": "Samarium",
+              "url": "https://en.wikipedia.org/wiki/Samarium"
+            }
+          ]
         },
         {
           "id": "europium",
@@ -588,7 +960,13 @@
           "alternates": [],
           "explanation": "Atomic number 63; named after the continent of Europe\nMost reactive and softest of the lanthanide elements\nEuropium phosphors produce the red glow in Euro banknotes under UV light as an anti-counterfeiting measure\nAlso responsible for the red color in older CRT television screens",
           "cardFront": "Eu",
-          "cardBack": "Europium"
+          "cardBack": "Europium",
+          "links": [
+            {
+              "text": "Europium",
+              "url": "https://en.wikipedia.org/wiki/Europium"
+            }
+          ]
         },
         {
           "id": "gadolinium",
@@ -597,7 +975,13 @@
           "alternates": [],
           "explanation": "Atomic number 64; named after Johan Gadolin, Finnish chemist who investigated rare earths\nWidely used as a contrast agent in MRI scans due to its strong paramagnetic properties\nHas the highest neutron absorption cross-section of any known element\nOne of only four elements that are ferromagnetic near room temperature (along with Fe, Co, Ni)",
           "cardFront": "Gd",
-          "cardBack": "Gadolinium"
+          "cardBack": "Gadolinium",
+          "links": [
+            {
+              "text": "Gadolinium",
+              "url": "https://en.wikipedia.org/wiki/Gadolinium"
+            }
+          ]
         },
         {
           "id": "terbium",
@@ -606,7 +990,13 @@
           "alternates": [],
           "explanation": "Atomic number 65; one of four elements named after Ytterby, a village in Sweden (with yttrium, erbium, ytterbium)\nUsed in green phosphors for fluorescent lamps and color TV tubes\nDiscovered by Carl Gustaf Mosander in 1843 from cerium oxide\nSoft enough to be cut with a knife",
           "cardFront": "Tb",
-          "cardBack": "Terbium"
+          "cardBack": "Terbium",
+          "links": [
+            {
+              "text": "Terbium",
+              "url": "https://en.wikipedia.org/wiki/Terbium"
+            }
+          ]
         },
         {
           "id": "dysprosium",
@@ -615,7 +1005,13 @@
           "alternates": [],
           "explanation": "Atomic number 66; from Greek dysprositos meaning 'hard to get at'\nNot isolated in pure form until the 1950s, nearly 70 years after its discovery in 1886\nCritical component in permanent magnets for electric vehicle motors and wind turbines\nHas one of the highest magnetic susceptibilities of any element",
           "cardFront": "Dy",
-          "cardBack": "Dysprosium"
+          "cardBack": "Dysprosium",
+          "links": [
+            {
+              "text": "Dysprosium",
+              "url": "https://en.wikipedia.org/wiki/Dysprosium"
+            }
+          ]
         },
         {
           "id": "holmium",
@@ -624,7 +1020,13 @@
           "alternates": [],
           "explanation": "Atomic number 67; named after Holmia, the Latin name for Stockholm\nHas the highest magnetic moment (10.6 muB) of any naturally occurring element\nUsed as a pole piece to create the strongest static magnetic fields\nDiscovered independently by Soret and Delafontaine (1878) and Per Teodor Cleve",
           "cardFront": "Ho",
-          "cardBack": "Holmium"
+          "cardBack": "Holmium",
+          "links": [
+            {
+              "text": "Holmium",
+              "url": "https://en.wikipedia.org/wiki/Holmium"
+            }
+          ]
         },
         {
           "id": "erbium",
@@ -633,7 +1035,13 @@
           "alternates": [],
           "explanation": "Atomic number 68; one of four elements named after Ytterby, a village in Sweden (with yttrium, terbium, ytterbium)\nErbium-doped fiber amplifiers (EDFAs) are essential to modern fiber-optic telecommunications\nProduces a distinctive pink color in glass and ceramics\nDiscovered by Carl Gustaf Mosander in 1843",
           "cardFront": "Er",
-          "cardBack": "Erbium"
+          "cardBack": "Erbium",
+          "links": [
+            {
+              "text": "Erbium",
+              "url": "https://en.wikipedia.org/wiki/Erbium"
+            }
+          ]
         },
         {
           "id": "thulium",
@@ -642,7 +1050,13 @@
           "alternates": [],
           "explanation": "Atomic number 69; named after Thule, the ancient Greek name for Scandinavia or the far north\nRarest of the stable lanthanides (second-rarest overall after radioactive promethium)\nUsed as a radiation source in portable X-ray devices\nDiscovered by Per Teodor Cleve in 1879",
           "cardFront": "Tm",
-          "cardBack": "Thulium"
+          "cardBack": "Thulium",
+          "links": [
+            {
+              "text": "Thulium",
+              "url": "https://en.wikipedia.org/wiki/Thulium"
+            }
+          ]
         },
         {
           "id": "ytterbium",
@@ -651,7 +1065,13 @@
           "alternates": [],
           "explanation": "Atomic number 70; one of four elements named after Ytterby, a village in Sweden (with yttrium, terbium, erbium)\nYtterbium atomic clocks are among the most precise timekeeping devices ever built\nUsed to improve the strength of stainless steel alloys\nDiscovered by Jean Charles Galissard de Marignac in 1878",
           "cardFront": "Yb",
-          "cardBack": "Ytterbium"
+          "cardBack": "Ytterbium",
+          "links": [
+            {
+              "text": "Ytterbium",
+              "url": "https://en.wikipedia.org/wiki/Ytterbium"
+            }
+          ]
         },
         {
           "id": "lutetium",
@@ -662,7 +1082,13 @@
           ],
           "explanation": "Atomic number 71; named after Lutetia, the Latin name for Paris\nHardest, densest, and highest-melting of all the lanthanides\nIndependently discovered in 1907 by Georges Urbain (France), Carl Auer von Welsbach (Austria), and Charles James (USA)\nLutetium-176 is used in radiometric dating of meteorites",
           "cardFront": "Lu",
-          "cardBack": "Lutetium"
+          "cardBack": "Lutetium",
+          "links": [
+            {
+              "text": "Lutetium",
+              "url": "https://en.wikipedia.org/wiki/Lutetium"
+            }
+          ]
         },
         {
           "id": "hafnium",
@@ -671,7 +1097,13 @@
           "alternates": [],
           "explanation": "Atomic number 72; named after Hafnia, the Latin name for Copenhagen\nDiscovered in 1923 by Coster and Hevesy using X-ray spectroscopy at the Niels Bohr Institute\nAlways found alongside zirconium in nature; extremely difficult to separate the two\nUsed in nuclear reactor control rods due to its high neutron absorption",
           "cardFront": "Hf",
-          "cardBack": "Hafnium"
+          "cardBack": "Hafnium",
+          "links": [
+            {
+              "text": "Hafnium",
+              "url": "https://en.wikipedia.org/wiki/Hafnium"
+            }
+          ]
         },
         {
           "id": "tantalum",
@@ -680,7 +1112,13 @@
           "alternates": [],
           "explanation": "Atomic number 73; named after Tantalus from Greek mythology, cursed to stand in water he could never drink\nNamed for its inability to absorb acid, echoing Tantalus's eternal frustration\nEssential in capacitors for smartphones and electronics; classified as a conflict mineral\nHighly biocompatible and used in surgical implants and suture clips",
           "cardFront": "Ta",
-          "cardBack": "Tantalum"
+          "cardBack": "Tantalum",
+          "links": [
+            {
+              "text": "Tantalum",
+              "url": "https://en.wikipedia.org/wiki/Tantalum"
+            }
+          ]
         },
         {
           "id": "tungsten",
@@ -691,7 +1129,13 @@
           ],
           "explanation": "Atomic number 74; symbol W from German 'Wolfram'\nHighest melting point of any element (3,422 C)\nUsed in incandescent light bulb filaments and armor-piercing ammunition\nName means 'heavy stone' in Swedish (tung sten)",
           "cardFront": "W",
-          "cardBack": "Tungsten"
+          "cardBack": "Tungsten",
+          "links": [
+            {
+              "text": "Tungsten",
+              "url": "https://en.wikipedia.org/wiki/Tungsten"
+            }
+          ]
         },
         {
           "id": "rhenium",
@@ -700,7 +1144,13 @@
           "alternates": [],
           "explanation": "Atomic number 75; named after the Rhine river (Latin: Rhenus)\nLast stable, naturally occurring element to be discovered (1925 by Noddack and Tacke)\nOne of the rarest elements in Earth's crust; among the most expensive metals\nUsed in superalloys for jet engine turbine blades that must withstand extreme heat",
           "cardFront": "Re",
-          "cardBack": "Rhenium"
+          "cardBack": "Rhenium",
+          "links": [
+            {
+              "text": "Rhenium",
+              "url": "https://en.wikipedia.org/wiki/Rhenium"
+            }
+          ]
         },
         {
           "id": "osmium",
@@ -709,7 +1159,13 @@
           "alternates": [],
           "explanation": "Atomic number 76; from Greek osme meaning 'smell' due to its pungent oxide\nDensest naturally occurring element (22.59 g/cm3), about twice as dense as lead\nDiscovered alongside iridium in 1803 by Smithson Tennant in platinum ore residues\nUsed in fountain pen nib tips and electrical contacts requiring extreme hardness",
           "cardFront": "Os",
-          "cardBack": "Osmium"
+          "cardBack": "Osmium",
+          "links": [
+            {
+              "text": "Osmium",
+              "url": "https://en.wikipedia.org/wiki/Osmium"
+            }
+          ]
         },
         {
           "id": "iridium",
@@ -718,7 +1174,13 @@
           "alternates": [],
           "explanation": "Atomic number 77; from Greek iris meaning 'rainbow,' for the varied colors of its salts\nAn iridium-rich clay layer worldwide marks the asteroid impact that killed the dinosaurs (66 Mya)\nSecond-densest element after osmium; most corrosion-resistant metal known\nUsed to define the kilogram in the former platinum-iridium standard",
           "cardFront": "Ir",
-          "cardBack": "Iridium"
+          "cardBack": "Iridium",
+          "links": [
+            {
+              "text": "Iridium",
+              "url": "https://en.wikipedia.org/wiki/Iridium"
+            }
+          ]
         },
         {
           "id": "platinum",
@@ -727,7 +1189,13 @@
           "alternates": [],
           "explanation": "Atomic number 78; from Spanish platina meaning 'little silver'\nSpanish conquistadors in Colombia dismissed it as inferior silver and discarded it\nEssential in catalytic converters for automobiles; also a key chemotherapy drug (cisplatin)\nRarer than gold; roughly 30 times less abundant in Earth's crust",
           "cardFront": "Pt",
-          "cardBack": "Platinum"
+          "cardBack": "Platinum",
+          "links": [
+            {
+              "text": "Platinum",
+              "url": "https://en.wikipedia.org/wiki/Platinum"
+            }
+          ]
         },
         {
           "id": "gold",
@@ -736,7 +1204,13 @@
           "alternates": [],
           "explanation": "Atomic number 79; symbol Au from Latin aurum, meaning 'shining dawn'\nOne of the few elements found in pure form in nature; does not tarnish or corrode\nAll the gold ever mined would fit in roughly three Olympic swimming pools\nSo malleable that one ounce can be beaten into a 300-square-foot sheet",
           "cardFront": "Au",
-          "cardBack": "Gold"
+          "cardBack": "Gold",
+          "links": [
+            {
+              "text": "Gold",
+              "url": "https://en.wikipedia.org/wiki/Gold"
+            }
+          ]
         },
         {
           "id": "mercury",
@@ -747,7 +1221,13 @@
           ],
           "explanation": "Atomic number 80; symbol Hg from Latin hydrargyrum meaning 'liquid silver'\nOnly metal that is liquid at standard room temperature and pressure\nNamed after the Roman messenger god Mercury, associated with speed and mobility\nUsed in thermometers for centuries; now largely phased out due to toxicity",
           "cardFront": "Hg",
-          "cardBack": "Mercury"
+          "cardBack": "Mercury",
+          "links": [
+            {
+              "text": "Mercury",
+              "url": "https://en.wikipedia.org/wiki/Mercury"
+            }
+          ]
         },
         {
           "id": "thallium",
@@ -756,7 +1236,13 @@
           "alternates": [],
           "explanation": "Atomic number 81; from Greek thallos meaning 'green shoot,' for its bright green spectral line\nDiscovered in 1861 by William Crookes using the then-new technique of flame spectroscopy\nNotorious as a poison: odorless, tasteless, and once widely used in rat poison (banned 1972)\nThallium poisoning causes distinctive hair loss, aiding forensic detection",
           "cardFront": "Tl",
-          "cardBack": "Thallium"
+          "cardBack": "Thallium",
+          "links": [
+            {
+              "text": "Thallium",
+              "url": "https://en.wikipedia.org/wiki/Thallium"
+            }
+          ]
         },
         {
           "id": "lead",
@@ -765,7 +1251,13 @@
           "alternates": [],
           "explanation": "Atomic number 82; symbol Pb from Latin plumbum, source of the word 'plumbing'\nRomans used lead pipes for water systems; lead poisoning may have contributed to Rome's decline\nFirst smelted around 7000 BC, making it one of the earliest metals used by humans\nOnce added to gasoline and paint; now banned in most countries due to neurotoxicity",
           "cardFront": "Pb",
-          "cardBack": "Lead"
+          "cardBack": "Lead",
+          "links": [
+            {
+              "text": "Lead",
+              "url": "https://en.wikipedia.org/wiki/Lead"
+            }
+          ]
         },
         {
           "id": "bismuth",
@@ -774,7 +1266,13 @@
           "alternates": [],
           "explanation": "Atomic number 83; long considered the heaviest stable element until found to be very slightly radioactive in 2003\nHalf-life of bismuth-209 is 2.01 x 10^19 years, over a billion times the age of the universe\nActive ingredient in Pepto-Bismol (bismuth subsalicylate)\nForms striking iridescent, rainbow-colored hopper crystals when slowly cooled",
           "cardFront": "Bi",
-          "cardBack": "Bismuth"
+          "cardBack": "Bismuth",
+          "links": [
+            {
+              "text": "Bismuth",
+              "url": "https://en.wikipedia.org/wiki/Bismuth"
+            }
+          ]
         },
         {
           "id": "polonium",
@@ -783,7 +1281,13 @@
           "alternates": [],
           "explanation": "Atomic number 84; named by Marie Curie after her native Poland, then under foreign partition\nFirst element discovered solely through its radioactivity (1898)\nUsed to assassinate Russian dissident Alexander Litvinenko in London in 2006\nOver 100 billion times more toxic than hydrogen cyanide by weight",
           "cardFront": "Po",
-          "cardBack": "Polonium"
+          "cardBack": "Polonium",
+          "links": [
+            {
+              "text": "Polonium",
+              "url": "https://en.wikipedia.org/wiki/Polonium"
+            }
+          ]
         },
         {
           "id": "astatine",
@@ -792,7 +1296,13 @@
           "alternates": [],
           "explanation": "Atomic number 85; from Greek astatos meaning 'unstable'\nRarest naturally occurring element: less than one gram exists in Earth's crust at any time\nMost stable isotope (astatine-210) has a half-life of only 8.1 hours\nA halogen like iodine, but the least reactive and most metallic member of that group",
           "cardFront": "At",
-          "cardBack": "Astatine"
+          "cardBack": "Astatine",
+          "links": [
+            {
+              "text": "Astatine",
+              "url": "https://en.wikipedia.org/wiki/Astatine"
+            }
+          ]
         },
         {
           "id": "radon",
@@ -801,7 +1311,13 @@
           "alternates": [],
           "explanation": "Atomic number 86; named after radium, from whose decay it is produced\nOnly naturally radioactive noble gas; colorless and odorless\nLeading cause of lung cancer among nonsmokers in the United States\nOriginally called 'radium emanation'; later briefly named niton (Latin: 'shining')",
           "cardFront": "Rn",
-          "cardBack": "Radon"
+          "cardBack": "Radon",
+          "links": [
+            {
+              "text": "Radon",
+              "url": "https://en.wikipedia.org/wiki/Radon"
+            }
+          ]
         },
         {
           "id": "francium",
@@ -810,7 +1326,13 @@
           "alternates": [],
           "explanation": "Atomic number 87; named after France, where Marguerite Perey discovered it in 1939\nMost unstable naturally occurring element; longest-lived isotope has a half-life of only 22 minutes\nLast element discovered in nature rather than synthesized\nBulk francium has never been observed; at most about 30 grams exist in Earth's crust at once",
           "cardFront": "Fr",
-          "cardBack": "Francium"
+          "cardBack": "Francium",
+          "links": [
+            {
+              "text": "Francium",
+              "url": "https://en.wikipedia.org/wiki/Francium"
+            }
+          ]
         },
         {
           "id": "radium",
@@ -819,7 +1341,13 @@
           "alternates": [],
           "explanation": "Atomic number 88; from Latin radius meaning 'ray'\nDiscovered by Marie and Pierre Curie in 1898 from uranium ore pitchblende\nOnce mixed with zinc sulfide to make glow-in-the-dark watch dials; the 'Radium Girls' who painted them suffered fatal radiation poisoning\nA million times more radioactive than uranium by weight",
           "cardFront": "Ra",
-          "cardBack": "Radium"
+          "cardBack": "Radium",
+          "links": [
+            {
+              "text": "Radium",
+              "url": "https://en.wikipedia.org/wiki/Radium"
+            }
+          ]
         },
         {
           "id": "actinium",
@@ -828,7 +1356,13 @@
           "alternates": [],
           "explanation": "Atomic number 89; from Greek aktis meaning 'ray' or 'beam'\nGives its name to the actinide series of 15 elements (89-103)\nGlows pale blue in the dark from ionizing the surrounding air\nDiscovered by Andre-Louis Debierne in 1899 from pitchblende residues",
           "cardFront": "Ac",
-          "cardBack": "Actinium"
+          "cardBack": "Actinium",
+          "links": [
+            {
+              "text": "Actinium",
+              "url": "https://en.wikipedia.org/wiki/Actinium"
+            }
+          ]
         },
         {
           "id": "thorium",
@@ -837,7 +1371,13 @@
           "alternates": [],
           "explanation": "Atomic number 90; named after Thor, the Norse god of thunder\nThree to four times more abundant than uranium in Earth's crust\nProposed as a safer alternative nuclear fuel; thorium reactors produce far less long-lived waste\nDiscovered by Jons Jacob Berzelius in 1828; radioactivity detected independently by Curie and Schmidt in 1898",
           "cardFront": "Th",
-          "cardBack": "Thorium"
+          "cardBack": "Thorium",
+          "links": [
+            {
+              "text": "Thorium",
+              "url": "https://en.wikipedia.org/wiki/Thorium"
+            }
+          ]
         },
         {
           "id": "protactinium",
@@ -846,7 +1386,13 @@
           "alternates": [],
           "explanation": "Atomic number 91, name means 'parent of actinium' because it decays into actinium\nOne of the rarest and most expensive naturally occurring elements\nCo-discovered independently by Kasimir Fajans and Oswald Helmuth Gohring (1913), then by Frederick Soddy and John Cranston (1917)\nHighly radioactive and toxic, with almost no practical applications",
           "cardFront": "Pa",
-          "cardBack": "Protactinium"
+          "cardBack": "Protactinium",
+          "links": [
+            {
+              "text": "Protactinium",
+              "url": "https://en.wikipedia.org/wiki/Protactinium"
+            }
+          ]
         },
         {
           "id": "uranium",
@@ -855,7 +1401,13 @@
           "alternates": [],
           "explanation": "Atomic number 92, named after the planet Uranus\nKey fuel for nuclear reactors and nuclear weapons (U-235 is the fissile isotope)\nDiscovered by Martin Heinrich Klaproth in 1789\nDepleted uranium used in armor-piercing munitions and radiation shielding",
           "cardFront": "U",
-          "cardBack": "Uranium"
+          "cardBack": "Uranium",
+          "links": [
+            {
+              "text": "Uranium",
+              "url": "https://en.wikipedia.org/wiki/Uranium"
+            }
+          ]
         },
         {
           "id": "neptunium",
@@ -864,7 +1416,13 @@
           "alternates": [],
           "explanation": "Atomic number 93, named after the planet Neptune (next planet after Uranus, as Np follows U in the periodic table)\nFirst synthetic transuranium element, produced by Edwin McMillan and Philip Abelson in 1940 at Berkeley\nFound in trace amounts in uranium ores as a decay product\nUsed in neutron detection equipment",
           "cardFront": "Np",
-          "cardBack": "Neptunium"
+          "cardBack": "Neptunium",
+          "links": [
+            {
+              "text": "Neptunium",
+              "url": "https://en.wikipedia.org/wiki/Neptunium"
+            }
+          ]
         },
         {
           "id": "plutonium",
@@ -873,7 +1431,13 @@
           "alternates": [],
           "explanation": "Atomic number 94, named after the dwarf planet Pluto (continuing the Uranus-Neptune-Pluto planetary naming pattern)\nDiscovered by Glenn Seaborg, Edwin McMillan, and others at Berkeley in 1940-41\nPu-239 was the fissile material in the Fat Man bomb dropped on Nagasaki\nSeaborg initially wanted the symbol 'Pu' as a joke (like 'P.U.') and it stuck",
           "cardFront": "Pu",
-          "cardBack": "Plutonium"
+          "cardBack": "Plutonium",
+          "links": [
+            {
+              "text": "Plutonium",
+              "url": "https://en.wikipedia.org/wiki/Plutonium"
+            }
+          ]
         },
         {
           "id": "americium",
@@ -882,7 +1446,13 @@
           "alternates": [],
           "explanation": "Atomic number 95, named after the Americas, paralleling europium's naming after Europe\nDiscovered by Glenn Seaborg's team at the University of Chicago in 1944 during the Manhattan Project\nMost widely deployed transuranic element: Am-241 is the ionizing source in household smoke detectors\nSeaborg first revealed its existence on a children's radio quiz show in 1945, before formal publication",
           "cardFront": "Am",
-          "cardBack": "Americium"
+          "cardBack": "Americium",
+          "links": [
+            {
+              "text": "Americium",
+              "url": "https://en.wikipedia.org/wiki/Americium"
+            }
+          ]
         },
         {
           "id": "curium",
@@ -891,7 +1461,13 @@
           "alternates": [],
           "explanation": "Atomic number 96, named after Marie and Pierre Curie, pioneers of radioactivity research\nDiscovered by Glenn Seaborg, Ralph James, and Albert Ghiorso in 1944\nUsed as an alpha particle source in X-ray spectrometers on Mars rovers (Spirit, Opportunity, Curiosity)\nSo radioactive it glows in the dark due to its own radiation exciting surrounding air molecules",
           "cardFront": "Cm",
-          "cardBack": "Curium"
+          "cardBack": "Curium",
+          "links": [
+            {
+              "text": "Curium",
+              "url": "https://en.wikipedia.org/wiki/Curium"
+            }
+          ]
         },
         {
           "id": "berkelium",
@@ -900,7 +1476,13 @@
           "alternates": [],
           "explanation": "Atomic number 97, named after Berkeley, California, where it was synthesized at UC Berkeley in 1949\nDiscovered by Glenn Seaborg, Stanley Thompson, and Albert Ghiorso\nOne of the least-used elements; producing even tiny amounts requires months of irradiation in a nuclear reactor\nParallels the naming of its lanthanide analog terbium (named after Ytterby, Sweden)",
           "cardFront": "Bk",
-          "cardBack": "Berkelium"
+          "cardBack": "Berkelium",
+          "links": [
+            {
+              "text": "Berkelium",
+              "url": "https://en.wikipedia.org/wiki/Berkelium"
+            }
+          ]
         },
         {
           "id": "californium",
@@ -909,7 +1491,13 @@
           "alternates": [],
           "explanation": "Atomic number 98, named after California and the University of California, Berkeley\nDiscovered by Glenn Seaborg's team in 1950\nCf-252 is a powerful neutron source used to start nuclear reactors, detect gold and silver ores, and scan luggage for explosives\nOne of the most expensive substances on Earth, costing roughly $27 million per gram",
           "cardFront": "Cf",
-          "cardBack": "Californium"
+          "cardBack": "Californium",
+          "links": [
+            {
+              "text": "Californium",
+              "url": "https://en.wikipedia.org/wiki/Californium"
+            }
+          ]
         },
         {
           "id": "einsteinium",
@@ -918,7 +1506,13 @@
           "alternates": [],
           "explanation": "Atomic number 99, named after Albert Einstein\nDiscovered in the fallout debris of the first hydrogen bomb test (Ivy Mike) in 1952\nIts discovery was initially classified as part of Cold War nuclear weapons secrecy\nHas no practical applications outside of scientific research due to scarcity and rapid decay",
           "cardFront": "Es",
-          "cardBack": "Einsteinium"
+          "cardBack": "Einsteinium",
+          "links": [
+            {
+              "text": "Einsteinium",
+              "url": "https://en.wikipedia.org/wiki/Einsteinium"
+            }
+          ]
         },
         {
           "id": "fermium",
@@ -927,7 +1521,13 @@
           "alternates": [],
           "explanation": "Atomic number 100, named after Enrico Fermi, who built the first nuclear reactor (Chicago Pile-1)\nDiscovered alongside einsteinium in the debris of the 1952 Ivy Mike hydrogen bomb test\nThe heaviest element that can be produced by neutron bombardment of lighter elements\nIts discovery was kept secret until 1955 due to Cold War classification",
           "cardFront": "Fm",
-          "cardBack": "Fermium"
+          "cardBack": "Fermium",
+          "links": [
+            {
+              "text": "Fermium",
+              "url": "https://en.wikipedia.org/wiki/Fermium"
+            }
+          ]
         },
         {
           "id": "mendelevium",
@@ -936,7 +1536,13 @@
           "alternates": [],
           "explanation": "Atomic number 101, named after Dmitri Mendeleev, creator of the periodic table\nDiscovered by Glenn Seaborg, Albert Ghiorso, and others at Berkeley in 1955\nFirst element produced one atom at a time, using a cyclotron to bombard einsteinium\nNaming it after a Russian scientist during the Cold War was considered a bold diplomatic gesture",
           "cardFront": "Md",
-          "cardBack": "Mendelevium"
+          "cardBack": "Mendelevium",
+          "links": [
+            {
+              "text": "Mendelevium",
+              "url": "https://en.wikipedia.org/wiki/Mendelevium"
+            }
+          ]
         },
         {
           "id": "nobelium",
@@ -945,7 +1551,13 @@
           "alternates": [],
           "explanation": "Atomic number 102, named after Alfred Nobel, inventor of dynamite and founder of the Nobel Prize\nIts discovery was contested for decades between Swedish, American, and Soviet teams\nThe Joint Institute for Nuclear Research in Dubna, Russia, is generally credited with the confirmed discovery in 1966\nOne of the few elements whose naming survived despite disputed discovery claims",
           "cardFront": "No",
-          "cardBack": "Nobelium"
+          "cardBack": "Nobelium",
+          "links": [
+            {
+              "text": "Nobelium",
+              "url": "https://en.wikipedia.org/wiki/Nobelium"
+            }
+          ]
         },
         {
           "id": "lawrencium",
@@ -954,7 +1566,13 @@
           "alternates": [],
           "explanation": "Atomic number 103, named after Ernest Lawrence, inventor of the cyclotron particle accelerator\nLast of the actinide series, discovered at Berkeley in 1961\nLawrence's cyclotron was the key tool that enabled discovery of many transuranium elements\nIts symbol was changed from Lw to Lr by IUPAC in 1997",
           "cardFront": "Lr",
-          "cardBack": "Lawrencium"
+          "cardBack": "Lawrencium",
+          "links": [
+            {
+              "text": "Lawrencium",
+              "url": "https://en.wikipedia.org/wiki/Lawrencium"
+            }
+          ]
         },
         {
           "id": "rutherfordium",
@@ -963,7 +1581,13 @@
           "alternates": [],
           "explanation": "Atomic number 104, named after Ernest Rutherford, the father of nuclear physics\nFirst transactinide element; its discovery was disputed between Soviet and American teams during the Cold War (the 'Transfermium Wars')\nRutherford discovered the atomic nucleus and the proton, and first split the atom",
           "cardFront": "Rf",
-          "cardBack": "Rutherfordium"
+          "cardBack": "Rutherfordium",
+          "links": [
+            {
+              "text": "Rutherfordium",
+              "url": "https://en.wikipedia.org/wiki/Rutherfordium"
+            }
+          ]
         },
         {
           "id": "dubnium",
@@ -972,7 +1596,13 @@
           "alternates": [],
           "explanation": "Atomic number 105, named after Dubna, Russia, home of the Joint Institute for Nuclear Research\nAnother element caught up in the Transfermium Wars naming dispute between the US and USSR\nAmericans proposed 'hahnium' (after Otto Hahn), but IUPAC settled on dubnium in 1997",
           "cardFront": "Db",
-          "cardBack": "Dubnium"
+          "cardBack": "Dubnium",
+          "links": [
+            {
+              "text": "Dubnium",
+              "url": "https://en.wikipedia.org/wiki/Dubnium"
+            }
+          ]
         },
         {
           "id": "seaborgium",
@@ -981,7 +1611,13 @@
           "alternates": [],
           "explanation": "Atomic number 106, named after Glenn T. Seaborg, who co-discovered ten transuranium elements\nThe only element ever named after a living person at the time of naming (1997), breaking an old IUPAC tradition\nIUPAC initially objected, but reversed course after widespread scientific support\nSeaborg won the 1951 Nobel Prize in Chemistry and advised ten US presidents on nuclear policy",
           "cardFront": "Sg",
-          "cardBack": "Seaborgium"
+          "cardBack": "Seaborgium",
+          "links": [
+            {
+              "text": "Seaborgium",
+              "url": "https://en.wikipedia.org/wiki/Seaborgium"
+            }
+          ]
         },
         {
           "id": "bohrium",
@@ -990,7 +1626,13 @@
           "alternates": [],
           "explanation": "Atomic number 107, named after Niels Bohr, the Danish physicist who developed the Bohr model of the atom\nFirst reliably synthesized at the GSI Helmholtz Centre in Darmstadt, Germany, in 1981\nBohr won the 1922 Nobel Prize and later helped refugees flee Nazi-occupied Denmark",
           "cardFront": "Bh",
-          "cardBack": "Bohrium"
+          "cardBack": "Bohrium",
+          "links": [
+            {
+              "text": "Bohrium",
+              "url": "https://en.wikipedia.org/wiki/Bohrium"
+            }
+          ]
         },
         {
           "id": "hassium",
@@ -999,7 +1641,13 @@
           "alternates": [],
           "explanation": "Atomic number 108, named after Hesse (Latin: Hassia), the German state where Darmstadt is located\nSynthesized at GSI Darmstadt in 1984 by Peter Armbruster and Gottfried Munzenberg\nThe heaviest element whose chemical properties have been experimentally studied",
           "cardFront": "Hs",
-          "cardBack": "Hassium"
+          "cardBack": "Hassium",
+          "links": [
+            {
+              "text": "Hassium",
+              "url": "https://en.wikipedia.org/wiki/Hassium"
+            }
+          ]
         },
         {
           "id": "meitnerium",
@@ -1008,7 +1656,13 @@
           "alternates": [],
           "explanation": "Atomic number 109, named after Lise Meitner, the Austrian-Swedish physicist who co-discovered nuclear fission\nMeitner was famously overlooked for the 1944 Nobel Prize, which went solely to her collaborator Otto Hahn\nSynthesized at GSI Darmstadt in 1982",
           "cardFront": "Mt",
-          "cardBack": "Meitnerium"
+          "cardBack": "Meitnerium",
+          "links": [
+            {
+              "text": "Meitnerium",
+              "url": "https://en.wikipedia.org/wiki/Meitnerium"
+            }
+          ]
         },
         {
           "id": "darmstadtium",
@@ -1017,7 +1671,13 @@
           "alternates": [],
           "explanation": "Atomic number 110, named after Darmstadt, Germany, where GSI Helmholtz Centre is located\nSynthesized at GSI in 1994 by Peter Armbruster and Gottfried Munzenberg's team\nGSI Darmstadt is responsible for discovering six elements (107-112)",
           "cardFront": "Ds",
-          "cardBack": "Darmstadtium"
+          "cardBack": "Darmstadtium",
+          "links": [
+            {
+              "text": "Darmstadtium",
+              "url": "https://en.wikipedia.org/wiki/Darmstadtium"
+            }
+          ]
         },
         {
           "id": "roentgenium",
@@ -1026,7 +1686,13 @@
           "alternates": [],
           "explanation": "Atomic number 111, named after Wilhelm Rontgen, who discovered X-rays in 1895\nRontgen won the first-ever Nobel Prize in Physics in 1901\nSynthesized at GSI Darmstadt in 1994",
           "cardFront": "Rg",
-          "cardBack": "Roentgenium"
+          "cardBack": "Roentgenium",
+          "links": [
+            {
+              "text": "Roentgenium",
+              "url": "https://en.wikipedia.org/wiki/Roentgenium"
+            }
+          ]
         },
         {
           "id": "copernicium",
@@ -1035,7 +1701,13 @@
           "alternates": [],
           "explanation": "Atomic number 112, named after Nicolaus Copernicus, who proposed the heliocentric model of the solar system\nSynthesized at GSI Darmstadt in 1996\nOfficially named in 2010 on the 537th anniversary of Copernicus's birth",
           "cardFront": "Cn",
-          "cardBack": "Copernicium"
+          "cardBack": "Copernicium",
+          "links": [
+            {
+              "text": "Copernicium",
+              "url": "https://en.wikipedia.org/wiki/Copernicium"
+            }
+          ]
         },
         {
           "id": "nihonium",
@@ -1044,7 +1716,13 @@
           "alternates": [],
           "explanation": "Atomic number 113, named after Nihon, the Japanese word for Japan\nFirst element discovered in Asia, synthesized at RIKEN in Wako, Japan, by Kosuke Morita's team\nOfficially named in 2016 after a decade-long priority dispute with Russian and American teams",
           "cardFront": "Nh",
-          "cardBack": "Nihonium"
+          "cardBack": "Nihonium",
+          "links": [
+            {
+              "text": "Nihonium",
+              "url": "https://en.wikipedia.org/wiki/Nihonium"
+            }
+          ]
         },
         {
           "id": "flerovium",
@@ -1053,7 +1731,13 @@
           "alternates": [],
           "explanation": "Atomic number 114, named after the Flerov Laboratory of Nuclear Reactions and its founder Georgy Flyorov\nFlyorov famously wrote a letter to Stalin in 1942 urging the USSR to develop nuclear weapons\nSynthesized at Dubna, Russia, in 1999 in collaboration with Lawrence Livermore National Laboratory",
           "cardFront": "Fl",
-          "cardBack": "Flerovium"
+          "cardBack": "Flerovium",
+          "links": [
+            {
+              "text": "Flerovium",
+              "url": "https://en.wikipedia.org/wiki/Flerovium"
+            }
+          ]
         },
         {
           "id": "moscovium",
@@ -1062,7 +1746,13 @@
           "alternates": [],
           "explanation": "Atomic number 115, named after Moscow Oblast, where the Joint Institute for Nuclear Research in Dubna is located\nSynthesized in 2003 at Dubna in a Russian-American collaboration\nOfficially named in 2016 as part of the completion of the seventh row of the periodic table",
           "cardFront": "Mc",
-          "cardBack": "Moscovium"
+          "cardBack": "Moscovium",
+          "links": [
+            {
+              "text": "Moscovium",
+              "url": "https://en.wikipedia.org/wiki/Moscovium"
+            }
+          ]
         },
         {
           "id": "livermorium",
@@ -1071,7 +1761,13 @@
           "alternates": [],
           "explanation": "Atomic number 116, named after Lawrence Livermore National Laboratory in Livermore, California\nSynthesized in 2000 at Dubna in a Russian-American collaboration with Livermore\nThe lab was itself named after Ernest Lawrence, inventor of the cyclotron",
           "cardFront": "Lv",
-          "cardBack": "Livermorium"
+          "cardBack": "Livermorium",
+          "links": [
+            {
+              "text": "Livermorium",
+              "url": "https://en.wikipedia.org/wiki/Livermorium"
+            }
+          ]
         },
         {
           "id": "tennessine",
@@ -1080,7 +1776,13 @@
           "alternates": [],
           "explanation": "Atomic number 117, named after Tennessee, home of Oak Ridge National Laboratory\nOak Ridge produced the berkelium-249 target needed for its synthesis at Dubna in 2010\nThe second-heaviest halogen, though as a synthetic superheavy element its chemistry is largely theoretical",
           "cardFront": "Ts",
-          "cardBack": "Tennessine"
+          "cardBack": "Tennessine",
+          "links": [
+            {
+              "text": "Tennessine",
+              "url": "https://en.wikipedia.org/wiki/Tennessine"
+            }
+          ]
         },
         {
           "id": "oganesson",
@@ -1089,7 +1791,13 @@
           "alternates": [],
           "explanation": "Atomic number 118, named after Yuri Oganessian, the Russian-Armenian nuclear physicist who led the discovery of multiple superheavy elements\nThe second person to have an element named after them while still alive (after Seaborg)\nThe heaviest known element and the last in the seventh period of the periodic table\nA noble gas by position, but predicted to be a reactive solid due to relativistic effects on its electrons",
           "cardFront": "Og",
-          "cardBack": "Oganesson"
+          "cardBack": "Oganesson",
+          "links": [
+            {
+              "text": "Oganesson",
+              "url": "https://en.wikipedia.org/wiki/Oganesson"
+            }
+          ]
         }
       ]
     },
@@ -1109,7 +1817,13 @@
           "alternates": [
             "He"
           ],
-          "explanation": "Atomic number 2. The lightest noble gas, used in balloons and cryogenics."
+          "explanation": "Atomic number 2. The lightest noble gas, used in balloons and cryogenics.",
+          "links": [
+            {
+              "text": "Helium",
+              "url": "https://en.wikipedia.org/wiki/Helium"
+            }
+          ]
         },
         {
           "id": "neon",
@@ -1117,7 +1831,13 @@
           "alternates": [
             "Ne"
           ],
-          "explanation": "Atomic number 10. Famous for its reddish-orange glow in neon signs."
+          "explanation": "Atomic number 10. Famous for its reddish-orange glow in neon signs.",
+          "links": [
+            {
+              "text": "Neon",
+              "url": "https://en.wikipedia.org/wiki/Neon"
+            }
+          ]
         },
         {
           "id": "argon",
@@ -1125,7 +1845,13 @@
           "alternates": [
             "Ar"
           ],
-          "explanation": "Atomic number 18. Makes up ~0.93% of Earth's atmosphere, most abundant noble gas."
+          "explanation": "Atomic number 18. Makes up ~0.93% of Earth's atmosphere, most abundant noble gas.",
+          "links": [
+            {
+              "text": "Argon",
+              "url": "https://en.wikipedia.org/wiki/Argon"
+            }
+          ]
         },
         {
           "id": "krypton",
@@ -1133,7 +1859,13 @@
           "alternates": [
             "Kr"
           ],
-          "explanation": "Atomic number 36. Used in high-performance lighting and photography."
+          "explanation": "Atomic number 36. Used in high-performance lighting and photography.",
+          "links": [
+            {
+              "text": "Krypton",
+              "url": "https://en.wikipedia.org/wiki/Krypton"
+            }
+          ]
         },
         {
           "id": "xenon",
@@ -1141,7 +1873,13 @@
           "alternates": [
             "Xe"
           ],
-          "explanation": "Atomic number 54. Used in flash lamps, arc lamps, and ion propulsion."
+          "explanation": "Atomic number 54. Used in flash lamps, arc lamps, and ion propulsion.",
+          "links": [
+            {
+              "text": "Xenon",
+              "url": "https://en.wikipedia.org/wiki/Xenon"
+            }
+          ]
         },
         {
           "id": "radon",
@@ -1149,7 +1887,13 @@
           "alternates": [
             "Rn"
           ],
-          "explanation": "Atomic number 86. Radioactive gas, can accumulate in buildings from soil."
+          "explanation": "Atomic number 86. Radioactive gas, can accumulate in buildings from soil.",
+          "links": [
+            {
+              "text": "Radon",
+              "url": "https://en.wikipedia.org/wiki/Radon"
+            }
+          ]
         }
       ]
     }

@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "lifestyle/philosophy", "parentId": "lifestyle", "name": "Philosophy", "description": "Major philosophers and their ideas" }
+    {
+      "id": "lifestyle/philosophy",
+      "parentId": "lifestyle",
+      "name": "Philosophy",
+      "description": "Major philosophers and their ideas"
+    }
   ],
   "exercises": [
     {
@@ -16,7 +21,17 @@
           "alternates": [],
           "explanation": "Athenian philosopher (c. 470–399 BCE); foundational figure of Western philosophy\nNever wrote anything — known entirely through the writings of his students, especially Plato\nThe 'Socratic method' — teaching through relentless questioning — is still used in law schools\nConvicted of 'corrupting the youth' and 'impiety' by an Athenian jury of 501; sentenced to death\nRefused to escape prison, arguing a citizen must obey the law even when unjust\nDrank hemlock calmly, as described in Plato's *Phaedo* — one of history's most famous deaths",
           "cardFront": "Socratic method, never wrote anything, death by hemlock",
-          "cardBack": "Socrates"
+          "cardBack": "Socrates",
+          "links": [
+            {
+              "text": "Socrates",
+              "url": "https://en.wikipedia.org/wiki/Socrates"
+            },
+            {
+              "text": "Socratic method, never wrote anything, death by hemlock",
+              "url": "https://en.wikipedia.org/wiki/Socratic_method,_never_wrote_anything,_death_by_hemlock"
+            }
+          ]
         },
         {
           "id": "plato",
@@ -25,7 +40,17 @@
           "alternates": [],
           "explanation": "Athenian philosopher (c. 428–348 BCE); student of Socrates, teacher of Aristotle\nFounded the Academy in Athens (c. 387 BCE) — often called the first university in the Western world\n*The Republic* introduces the Allegory of the Cave, Theory of Forms, and the philosopher-king concept\nWrote in dialogues with Socrates as the main character — hard to separate Plato's views from Socrates's\nAlfred North Whitehead said all Western philosophy is 'a series of footnotes to Plato'\n'Plato' was likely a nickname meaning 'broad' — his real name may have been Aristocles",
           "cardFront": "*The Republic*, Academy in Athens, Theory of Forms",
-          "cardBack": "Plato"
+          "cardBack": "Plato",
+          "links": [
+            {
+              "text": "Plato",
+              "url": "https://en.wikipedia.org/wiki/Plato"
+            },
+            {
+              "text": "*The Republic*, Academy in Athens, Theory of Forms",
+              "url": "https://en.wikipedia.org/wiki/*The_Republic*,_Academy_in_Athens,_Theory_of_Forms"
+            }
+          ]
         },
         {
           "id": "aristotle",
@@ -34,115 +59,275 @@
           "alternates": [],
           "explanation": "Greek philosopher (384–322 BCE); student of Plato, tutor to Alexander the Great\nFounded the Lyceum in Athens; his followers were called Peripatetics ('those who walk about')\nInvented formal logic (the syllogism) and classified knowledge into disciplines still used today\n*Nicomachean Ethics* defines virtue as the 'golden mean' between extremes\nWrote on biology, physics, metaphysics, poetry, theater, music, rhetoric, and politics\nHis works dominated European intellectual life for nearly 2,000 years until the Scientific Revolution",
           "cardFront": "Tutored Alexander the Great, formal logic, the Lyceum",
-          "cardBack": "Aristotle"
+          "cardBack": "Aristotle",
+          "links": [
+            {
+              "text": "Aristotle",
+              "url": "https://en.wikipedia.org/wiki/Aristotle"
+            },
+            {
+              "text": "Tutored Alexander the Great, formal logic, the Lyceum",
+              "url": "https://en.wikipedia.org/wiki/Tutored_Alexander_the_Great,_formal_logic,_the_Lyceum"
+            }
+          ]
         },
         {
           "id": "descartes",
           "prompt": "Which philosopher declared 'I think, therefore I am' and is called the father of modern philosophy?",
           "answer": "Rene Descartes",
-          "alternates": ["Descartes", "René Descartes"],
+          "alternates": [
+            "Descartes",
+            "René Descartes"
+          ],
           "explanation": "French philosopher and mathematician (1596–1650)\n'Cogito, ergo sum' ('I think, therefore I am') — the one thing that survives radical doubt\nInvented the Cartesian coordinate system, bridging algebra and geometry\n*Meditations on First Philosophy* (1641) is a cornerstone of epistemology\nMind-body dualism ('Cartesian dualism') separates mental substance from physical — still debated today\nDied in Stockholm in 1650, possibly from pneumonia caught giving 5 AM philosophy lessons to Queen Christina of Sweden",
           "cardFront": "'Cogito, ergo sum,' Cartesian coordinates, mind-body dualism",
-          "cardBack": "Rene Descartes"
+          "cardBack": "Rene Descartes",
+          "links": [
+            {
+              "text": "Rene Descartes",
+              "url": "https://en.wikipedia.org/wiki/Rene_Descartes"
+            },
+            {
+              "text": "'Cogito, ergo sum,' Cartesian coordinates, mind-body dualism",
+              "url": "https://en.wikipedia.org/wiki/'Cogito,_ergo_sum,'_Cartesian_coordinates,_mind-body_dualism"
+            }
+          ]
         },
         {
           "id": "kant",
           "prompt": "Which German philosopher wrote *Critique of Pure Reason* and formulated the categorical imperative?",
           "answer": "Immanuel Kant",
-          "alternates": ["Kant"],
+          "alternates": [
+            "Kant"
+          ],
           "explanation": "German philosopher (1724–1804); central figure of the Enlightenment\n*Critique of Pure Reason* (1781) argues knowledge requires both sensory experience and mental categories\nThe categorical imperative: act only according to rules you could will to be universal laws\nNever traveled more than 10 miles from Königsberg (now Kaliningrad, Russia) his entire life\nNeighbors set their clocks by his daily walk — he was that punctual, except once (reading Rousseau's *Emile*)\nSynthesized rationalism (Descartes, Leibniz) and empiricism (Locke, Hume) into a new framework",
           "cardFront": "*Critique of Pure Reason*, categorical imperative",
-          "cardBack": "Immanuel Kant"
+          "cardBack": "Immanuel Kant",
+          "links": [
+            {
+              "text": "Immanuel Kant",
+              "url": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+            },
+            {
+              "text": "*Critique of Pure Reason*, categorical imperative",
+              "url": "https://en.wikipedia.org/wiki/*Critique_of_Pure_Reason*,_categorical_imperative"
+            }
+          ]
         },
         {
           "id": "nietzsche",
           "prompt": "Which philosopher proclaimed 'God is dead' and introduced the concept of the Übermensch?",
           "answer": "Friedrich Nietzsche",
-          "alternates": ["Nietzsche"],
+          "alternates": [
+            "Nietzsche"
+          ],
           "explanation": "German philosopher (1844–1900); one of the most provocative and misappropriated thinkers in history\n'God is dead' (from *The Gay Science*, 1882) — not a celebration but a warning about the collapse of moral foundations\nThe Übermensch ('overman/superman') concept from *Thus Spoke Zarathustra* (1883–1885)\nNazi appropriation of his work was largely driven by his sister Elisabeth, who edited his writings after his collapse\nSuffered a mental breakdown in 1889 (possibly from syphilis or brain cancer); spent his last 11 years incapacitated\nAlso introduced 'will to power,' 'eternal recurrence,' and 'master-slave morality'",
           "cardFront": "'God is dead,' Übermensch, *Thus Spoke Zarathustra*",
-          "cardBack": "Friedrich Nietzsche"
+          "cardBack": "Friedrich Nietzsche",
+          "links": [
+            {
+              "text": "Friedrich Nietzsche",
+              "url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
+            },
+            {
+              "text": "'God is dead,' Übermensch, *Thus Spoke Zarathustra*",
+              "url": "https://en.wikipedia.org/wiki/'God_is_dead,'_Übermensch,_*Thus_Spoke_Zarathustra*"
+            }
+          ]
         },
         {
           "id": "marx",
           "prompt": "Which philosopher co-wrote *The Communist Manifesto* and authored *Das Kapital*?",
           "answer": "Karl Marx",
-          "alternates": ["Marx"],
+          "alternates": [
+            "Marx"
+          ],
           "explanation": "German philosopher, economist, and revolutionary (1818–1883)\n*The Communist Manifesto* (1848, with Friedrich Engels): 'Workers of the world, unite!'\n*Das Kapital* (Vol. 1, 1867) — his magnum opus analyzing capitalism's internal contradictions\nHistorical materialism: economic forces, not ideas, drive historical change through class struggle\nLived most of his adult life in poverty in London; several of his children died young\nBuried in Highgate Cemetery, London; his grave monument reads 'Workers of all lands unite'",
           "cardFront": "*The Communist Manifesto*, *Das Kapital*, class struggle",
-          "cardBack": "Karl Marx"
+          "cardBack": "Karl Marx",
+          "links": [
+            {
+              "text": "Karl Marx",
+              "url": "https://en.wikipedia.org/wiki/Karl_Marx"
+            },
+            {
+              "text": "*The Communist Manifesto*, *Das Kapital*, class struggle",
+              "url": "https://en.wikipedia.org/wiki/*The_Communist_Manifesto*,_*Das_Kapital*,_class_struggle"
+            }
+          ]
         },
         {
           "id": "hume",
           "prompt": "Which Scottish philosopher argued that all knowledge comes from sense experience and that causation is merely habitual association?",
           "answer": "David Hume",
-          "alternates": ["Hume"],
+          "alternates": [
+            "Hume"
+          ],
           "explanation": "Scottish philosopher (1711–1776); the foremost empiricist of the Enlightenment\n*A Treatise of Human Nature* (1739–1740) — his masterwork, which he said 'fell dead-born from the press'\nThe 'is-ought problem' (Hume's guillotine): you cannot derive moral 'oughts' from factual 'is' statements\nArgued causation is not observable — we only see constant conjunction, not necessary connection\nKant credited Hume with 'awakening him from his dogmatic slumber'\nAlso a historian; his six-volume *History of England* was a bestseller for decades",
           "cardFront": "Empiricism, is-ought problem, 'awakened Kant from dogmatic slumber'",
-          "cardBack": "David Hume"
+          "cardBack": "David Hume",
+          "links": [
+            {
+              "text": "David Hume",
+              "url": "https://en.wikipedia.org/wiki/David_Hume"
+            },
+            {
+              "text": "Empiricism, is-ought problem, 'awakened Kant from dogmatic slumber'",
+              "url": "https://en.wikipedia.org/wiki/Empiricism,_is-ought_problem,_'awakened_Kant_from_dogmatic_slumber'"
+            }
+          ]
         },
         {
           "id": "locke",
           "prompt": "Which philosopher proposed that the mind begins as a 'blank slate' and articulated natural rights to life, liberty, and property?",
           "answer": "John Locke",
-          "alternates": ["Locke"],
+          "alternates": [
+            "Locke"
+          ],
           "explanation": "English philosopher (1632–1704); 'Father of Liberalism'\n*An Essay Concerning Human Understanding* (1689): the mind at birth is a tabula rasa (blank slate)\n*Two Treatises of Government* (1689): government derives authority from the consent of the governed\nArticulated natural rights to 'life, liberty, and property' — Jefferson adapted this for the Declaration of Independence\nInfluenced the U.S. Constitution, the French Revolution, and classical liberal political theory\nTrained as a physician; served as personal doctor and advisor to Lord Shaftesbury",
           "cardFront": "Tabula rasa, natural rights, *Two Treatises of Government*",
-          "cardBack": "John Locke"
+          "cardBack": "John Locke",
+          "links": [
+            {
+              "text": "John Locke",
+              "url": "https://en.wikipedia.org/wiki/John_Locke"
+            },
+            {
+              "text": "Tabula rasa, natural rights, *Two Treatises of Government*",
+              "url": "https://en.wikipedia.org/wiki/Tabula_rasa,_natural_rights,_*Two_Treatises_of_Government*"
+            }
+          ]
         },
         {
           "id": "hobbes",
           "prompt": "Which philosopher described life without government as 'nasty, brutish, and short' in *Leviathan*?",
           "answer": "Thomas Hobbes",
-          "alternates": ["Hobbes"],
+          "alternates": [
+            "Hobbes"
+          ],
           "explanation": "English philosopher (1588–1679); foundational social contract theorist\n*Leviathan* (1651): without a strong sovereign, life is 'solitary, poor, nasty, brutish, and short'\nThe 'state of nature' is a war of 'every man against every man' — people surrender freedom for security\nAdvocated absolute sovereignty, not democracy — the sovereign's power must be undivided\nLived to 91 despite the era; reportedly said his last words were 'I am about to take my last voyage'\nTutored Charles II in mathematics during the English Civil War exile in Paris",
           "cardFront": "*Leviathan*, 'nasty, brutish, and short,' social contract",
-          "cardBack": "Thomas Hobbes"
+          "cardBack": "Thomas Hobbes",
+          "links": [
+            {
+              "text": "Thomas Hobbes",
+              "url": "https://en.wikipedia.org/wiki/Thomas_Hobbes"
+            },
+            {
+              "text": "*Leviathan*, 'nasty, brutish, and short,' social contract",
+              "url": "https://en.wikipedia.org/wiki/*Leviathan*,_'nasty,_brutish,_and_short,'_social_contract"
+            }
+          ]
         },
         {
           "id": "spinoza",
           "prompt": "Which philosopher, excommunicated from the Amsterdam Jewish community, argued that God and Nature are the same substance?",
           "answer": "Baruch Spinoza",
-          "alternates": ["Spinoza", "Benedict Spinoza", "Benedict de Spinoza"],
+          "alternates": [
+            "Spinoza",
+            "Benedict Spinoza",
+            "Benedict de Spinoza"
+          ],
           "explanation": "Dutch philosopher (1632–1677); born into the Portuguese Jewish community in Amsterdam\nExcommunicated (cherem) from the synagogue at age 23 for 'abominable heresies'\n*Ethics* (1677, published posthumously) — constructed in geometric proofs like Euclid\nGod and Nature are identical ('Deus sive Natura') — pantheism that scandalized both Jews and Christians\nMade his living grinding optical lenses; inhaling glass dust likely contributed to his death at 44\nEinstein, when asked if he believed in God, replied: 'I believe in Spinoza's God'",
           "cardFront": "Pantheism, *Ethics*, excommunicated, lens grinder",
-          "cardBack": "Baruch Spinoza"
+          "cardBack": "Baruch Spinoza",
+          "links": [
+            {
+              "text": "Baruch Spinoza",
+              "url": "https://en.wikipedia.org/wiki/Baruch_Spinoza"
+            },
+            {
+              "text": "Pantheism, *Ethics*, excommunicated, lens grinder",
+              "url": "https://en.wikipedia.org/wiki/Pantheism,_*Ethics*,_excommunicated,_lens_grinder"
+            }
+          ]
         },
         {
           "id": "wittgenstein",
           "prompt": "Which philosopher wrote the *Tractatus Logico-Philosophicus* and later the *Philosophical Investigations*, revolutionizing philosophy of language twice?",
           "answer": "Ludwig Wittgenstein",
-          "alternates": ["Wittgenstein"],
+          "alternates": [
+            "Wittgenstein"
+          ],
           "explanation": "Austrian-British philosopher (1889–1951); transformed philosophy of language in two opposing phases\n*Tractatus Logico-Philosophicus* (1921) — the only book published in his lifetime; final line: 'Whereof one cannot speak, thereof one must be silent'\n*Philosophical Investigations* (published posthumously, 1953) repudiated much of the *Tractatus*\nBorn into one of Europe's wealthiest families (Viennese steel); gave away his entire inheritance\nServed in WWI on the Austrian side; finished the *Tractatus* in an Italian prisoner-of-war camp\nThree of his four brothers died by suicide; he struggled with suicidal thoughts himself throughout his life",
           "cardFront": "*Tractatus*, *Philosophical Investigations*, philosophy of language",
-          "cardBack": "Ludwig Wittgenstein"
+          "cardBack": "Ludwig Wittgenstein",
+          "links": [
+            {
+              "text": "Ludwig Wittgenstein",
+              "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+            },
+            {
+              "text": "*Tractatus*, *Philosophical Investigations*, philosophy of language",
+              "url": "https://en.wikipedia.org/wiki/*Tractatus*,_*Philosophical_Investigations*,_philosophy_of_language"
+            }
+          ]
         },
         {
           "id": "sartre",
           "prompt": "Which philosopher wrote *Being and Nothingness* and declared 'existence precedes essence'?",
           "answer": "Jean-Paul Sartre",
-          "alternates": ["Sartre"],
+          "alternates": [
+            "Sartre"
+          ],
           "explanation": "French philosopher, novelist, and playwright (1905–1980); leading existentialist\n'Existence precedes essence' — humans have no predetermined nature; we define ourselves through choices\n*Being and Nothingness* (1943) — his major philosophical work, written during the German occupation of Paris\nDeclined the Nobel Prize in Literature in 1964 — the only person to voluntarily refuse it\nLifelong partner of Simone de Beauvoir; they had an open relationship that scandalized postwar France\nAlso wrote the play *No Exit* (1944), source of the famous line 'Hell is other people'",
           "cardFront": "*Being and Nothingness*, existentialism, 'existence precedes essence'",
-          "cardBack": "Jean-Paul Sartre"
+          "cardBack": "Jean-Paul Sartre",
+          "links": [
+            {
+              "text": "Jean-Paul Sartre",
+              "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+            },
+            {
+              "text": "*Being and Nothingness*, existentialism, 'existence precedes essence'",
+              "url": "https://en.wikipedia.org/wiki/*Being_and_Nothingness*,_existentialism,_'existence_precedes_essence'"
+            }
+          ]
         },
         {
           "id": "beauvoir",
           "prompt": "Which philosopher wrote *The Second Sex* and is considered a founding figure of modern feminism?",
           "answer": "Simone de Beauvoir",
-          "alternates": ["Beauvoir", "de Beauvoir"],
+          "alternates": [
+            "Beauvoir",
+            "de Beauvoir"
+          ],
           "explanation": "French philosopher and writer (1908–1986); existentialist and feminist theorist\n*The Second Sex* (1949): 'One is not born, but rather becomes, a woman' — foundational text of second-wave feminism\nWon the Prix Goncourt for her novel *The Mandarins* (1954)\nLifelong partner of Jean-Paul Sartre; both maintained additional relationships openly\nThe Ethics of Ambiguity (1947) is her major contribution to existentialist ethics\nBuried alongside Sartre in the Montparnasse Cemetery in Paris",
           "cardFront": "*The Second Sex*, 'One is not born, but rather becomes, a woman'",
-          "cardBack": "Simone de Beauvoir"
+          "cardBack": "Simone de Beauvoir",
+          "links": [
+            {
+              "text": "Simone de Beauvoir",
+              "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
+            },
+            {
+              "text": "*The Second Sex*, 'One is not born, but rather becomes, a woman'",
+              "url": "https://en.wikipedia.org/wiki/*The_Second_Sex*,_'One_is_not_born,_but_rather_becomes,_a_woman'"
+            }
+          ]
         },
         {
           "id": "confucius",
           "prompt": "Which ancient Chinese philosopher's teachings on ethics, family, and governance became the foundation of East Asian moral philosophy for over two millennia?",
           "answer": "Confucius",
-          "alternates": ["Kong Qiu", "Kongzi", "Kong Fuzi"],
+          "alternates": [
+            "Kong Qiu",
+            "Kongzi",
+            "Kong Fuzi"
+          ],
           "explanation": "Chinese philosopher (551–479 BCE); Latinized name from Kong Fuzi ('Master Kong')\nThe *Analects* (compiled by disciples) contain his teachings on virtue, propriety, and filial piety\nEmphasized ren (benevolence), li (ritual propriety), and xiao (filial piety) as foundations of a moral society\nConfucianism became China's state philosophy under Emperor Wu of Han (141–87 BCE)\nHeld minor government posts in the state of Lu but spent years wandering, seeking a ruler who'd adopt his ideas\nThe Confucius Temple in Qufu, Shandong Province, has been a site of veneration for over 2,000 years",
           "cardFront": "*Analects*, filial piety, foundation of East Asian ethics",
-          "cardBack": "Confucius"
+          "cardBack": "Confucius",
+          "links": [
+            {
+              "text": "Confucius",
+              "url": "https://en.wikipedia.org/wiki/Confucius"
+            },
+            {
+              "text": "*Analects*, filial piety, foundation of East Asian ethics",
+              "url": "https://en.wikipedia.org/wiki/*Analects*,_filial_piety,_foundation_of_East_Asian_ethics"
+            }
+          ]
         }
       ]
     }

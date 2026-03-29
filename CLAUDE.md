@@ -103,13 +103,18 @@ Seed format:
           "alternates": ["Alt spelling"],
           "explanation": "Memorable explanation.",
           "cardFront": "Optional: flashcard front",
-          "cardBack": "Optional: flashcard back"
+          "cardBack": "Optional: flashcard back",
+          "links": [
+            {"text": "Main topic", "url": "https://en.wikipedia.org/wiki/Main_topic"}
+          ]
         }
       ]
     }
   ]
 }
 ```
+
+Every item must have at least one Wikipedia link in its `links` array. See `docs/CONTENT_GUIDE.md` for details.
 
 For fill-blanks exercises, add `"config": { "ordered": false, "prompt": "Name all X..." }` to the exercise, and items don't need `prompt`.
 

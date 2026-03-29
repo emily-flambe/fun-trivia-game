@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "film/quotes", "parentId": "film", "name": "Movie Quotes", "description": "Famous lines from classic and beloved films" }
+    {
+      "id": "film/quotes",
+      "parentId": "film",
+      "name": "Movie Quotes",
+      "description": "Famous lines from classic and beloved films"
+    }
   ],
   "exercises": [
     {
@@ -17,7 +22,17 @@
           "alternates": [],
           "explanation": "AFI's #5 greatest movie quote\nOften misremembered as 'Here's looking at you, sweetheart' – that line is never spoken in the film\nBogart reportedly taught Bergman poker between takes; the phrase began as a playful aside\nDirected by Michael Curtiz; set in French Morocco; Rick owns Café Americain",
           "cardFront": "\"Here's looking at you, kid\"",
-          "cardBack": "Casablanca"
+          "cardBack": "Casablanca",
+          "links": [
+            {
+              "text": "Casablanca",
+              "url": "https://en.wikipedia.org/wiki/Casablanca"
+            },
+            {
+              "text": "\"Here's looking at you, kid\"",
+              "url": "https://en.wikipedia.org/wiki/\"Here's_looking_at_you,_kid\""
+            }
+          ]
         },
         {
           "id": "you-talkin-to-me",
@@ -26,79 +41,190 @@
           "alternates": [],
           "explanation": "AFI's #10 greatest movie quote\nLargely improvised by De Niro; the screenplay only said 'Travis talks to himself in the mirror'\nJohn Hinckley Jr. was obsessed with this film and shot President Reagan in 1981, claiming he did it to impress Jodie Foster\nDirected by Martin Scorsese; screenplay by Paul Schrader",
           "cardFront": "\"You talkin' to me?\"",
-          "cardBack": "Taxi Driver"
+          "cardBack": "Taxi Driver",
+          "links": [
+            {
+              "text": "Taxi Driver",
+              "url": "https://en.wikipedia.org/wiki/Taxi_Driver"
+            },
+            {
+              "text": "\"You talkin' to me?\"",
+              "url": "https://en.wikipedia.org/wiki/\"You_talkin'_to_me?\""
+            }
+          ]
         },
         {
           "id": "ill-be-back",
           "prompt": "Arnold Schwarzenegger's T-800 Terminator says 'I'll be back' as a threat at a police station in which 1984 James Cameron science fiction film?",
           "answer": "The Terminator",
-          "alternates": ["Terminator"],
+          "alternates": [
+            "Terminator"
+          ],
           "explanation": "AFI's #37 greatest movie quote\nSchwarzenegger reportedly wanted to say 'I will be back' for better diction; Cameron insisted on the contraction\nThe T-800 then drives a car through the police station, fulfilling the threat literally\nJames Cameron's breakthrough directorial feature; budget was approximately $6 million",
           "cardFront": "\"I'll be back\"",
-          "cardBack": "The Terminator"
+          "cardBack": "The Terminator",
+          "links": [
+            {
+              "text": "The Terminator",
+              "url": "https://en.wikipedia.org/wiki/The_Terminator"
+            },
+            {
+              "text": "\"I'll be back\"",
+              "url": "https://en.wikipedia.org/wiki/\"I'll_be_back\""
+            }
+          ]
         },
         {
           "id": "cant-handle-the-truth",
           "prompt": "Jack Nicholson's Col. Jessup delivers 'You can't handle the truth!' during a courtroom confrontation with Tom Cruise's Lt. Kaffee in which 1992 Rob Reiner military courtroom drama?",
           "answer": "A Few Good Men",
-          "alternates": ["Few Good Men"],
+          "alternates": [
+            "Few Good Men"
+          ],
           "explanation": "Often misquoted with a preceding 'You want the truth?' – Nicholson never asks that question; he goes straight to the declaration\nScreenplay by Aaron Sorkin, adapting his own Broadway play\nCo-stars Tom Cruise, Demi Moore, Kevin Bacon, and Kevin Pollak\nNicholson received a Best Supporting Actor nomination",
           "cardFront": "\"You can't handle the truth!\"",
-          "cardBack": "A Few Good Men"
+          "cardBack": "A Few Good Men",
+          "links": [
+            {
+              "text": "A Few Good Men",
+              "url": "https://en.wikipedia.org/wiki/A_Few_Good_Men"
+            },
+            {
+              "text": "\"You can't handle the truth!\"",
+              "url": "https://en.wikipedia.org/wiki/\"You_can't_handle_the_truth!\""
+            }
+          ]
         },
         {
           "id": "bond-james-bond",
           "prompt": "Sean Connery's spy introduces himself with 'Bond. James Bond.' at a baccarat table in which 1962 spy film, the first in the official EON Productions franchise?",
           "answer": "Dr. No",
-          "alternates": ["Dr No", "Doctor No"],
+          "alternates": [
+            "Dr No",
+            "Doctor No"
+          ],
           "explanation": "AFI's #22 greatest movie quote\nFirst line Bond speaks in the official franchise; said while playing chemin de fer against Sylvia Trench\nUsed in every official Bond film since; each actor's delivery is closely watched by fans\nDirected by Terence Young; based on Ian Fleming's 1958 novel; filmed in Jamaica and Pinewood Studios",
           "cardFront": "\"Bond. James Bond.\"",
-          "cardBack": "Dr. No"
+          "cardBack": "Dr. No",
+          "links": [
+            {
+              "text": "Dr. No",
+              "url": "https://en.wikipedia.org/wiki/Dr._No"
+            },
+            {
+              "text": "\"Bond. James Bond.\"",
+              "url": "https://en.wikipedia.org/wiki/\"Bond._James_Bond.\""
+            }
+          ]
         },
         {
           "id": "no-place-like-home",
           "prompt": "Judy Garland's Dorothy clicks her ruby slippers and repeats 'There's no place like home' three times in which 1939 Victor Fleming musical fantasy?",
           "answer": "The Wizard of Oz",
-          "alternates": ["Wizard of Oz"],
+          "alternates": [
+            "Wizard of Oz"
+          ],
           "explanation": "AFI's #23 greatest movie quote\nIn L. Frank Baum's original 1900 novel, the magical shoes are silver, not ruby; they were changed to red to showcase three-strip Technicolor\nDorothy repeats the phrase exactly three times with eyes closed while Glinda's magic sends her home\nJudy Garland was 16 during filming; the role launched her as a major star",
           "cardFront": "\"There's no place like home\"",
-          "cardBack": "The Wizard of Oz"
+          "cardBack": "The Wizard of Oz",
+          "links": [
+            {
+              "text": "The Wizard of Oz",
+              "url": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz"
+            },
+            {
+              "text": "\"There's no place like home\"",
+              "url": "https://en.wikipedia.org/wiki/\"There's_no_place_like_home\""
+            }
+          ]
         },
         {
           "id": "may-the-force",
           "prompt": "'May the Force be with you' is the defining blessing of which 1977 George Lucas space opera, first spoken by General Dodonna before the attack on the Death Star?",
           "answer": "Star Wars",
-          "alternates": ["Star Wars: A New Hope", "Star Wars Episode IV", "A New Hope"],
+          "alternates": [
+            "Star Wars: A New Hope",
+            "Star Wars Episode IV",
+            "A New Hope"
+          ],
           "explanation": "AFI's #8 greatest movie quote\nFirst spoken by General Dodonna during the briefing before the Battle of Yavin; most associated with Obi-Wan and Han Solo\n'May the 4th Be With You' is now celebrated annually as Star Wars Day\nThe phrase has entered general cultural usage as a farewell or encouragement",
           "cardFront": "\"May the Force be with you\"",
-          "cardBack": "Star Wars"
+          "cardBack": "Star Wars",
+          "links": [
+            {
+              "text": "Star Wars",
+              "url": "https://en.wikipedia.org/wiki/Star_Wars"
+            },
+            {
+              "text": "\"May the Force be with you\"",
+              "url": "https://en.wikipedia.org/wiki/\"May_the_Force_be_with_you\""
+            }
+          ]
         },
         {
           "id": "offer-he-cant-refuse",
           "prompt": "Marlon Brando's Vito Corleone explains his negotiating philosophy with 'I'm gonna make him an offer he can't refuse' in which 1972 Francis Ford Coppola crime epic?",
           "answer": "The Godfather",
-          "alternates": ["Godfather"],
+          "alternates": [
+            "Godfather"
+          ],
           "explanation": "AFI's #2 greatest movie quote (behind 'Frankly, my dear, I don't give a damn')\nThe offer in question is placing a severed horse's head in a movie producer's bed to persuade him to cast Johnny Fontane\nBrando improvised much of his performance, including stuffing his cheeks with cotton (later a custom dental appliance) to achieve Vito's distinctive voice\nThe line is repeated later in the film by Michael Corleone, showing his transformation",
           "cardFront": "\"I'm gonna make him an offer he can't refuse\"",
-          "cardBack": "The Godfather"
+          "cardBack": "The Godfather",
+          "links": [
+            {
+              "text": "The Godfather",
+              "url": "https://en.wikipedia.org/wiki/The_Godfather"
+            },
+            {
+              "text": "\"I'm gonna make him an offer he can't refuse\"",
+              "url": "https://en.wikipedia.org/wiki/\"I'm_gonna_make_him_an_offer_he_can't_refuse\""
+            }
+          ]
         },
         {
           "id": "et-phone-home",
           "prompt": "The alien protagonist speaks 'E.T. phone home' while trying to contact his home planet in which 1982 Steven Spielberg science fiction film?",
           "answer": "E.T. the Extra-Terrestrial",
-          "alternates": ["E.T.", "ET", "ET the Extra-Terrestrial"],
+          "alternates": [
+            "E.T.",
+            "ET",
+            "ET the Extra-Terrestrial"
+          ],
           "explanation": "AFI's #15 greatest movie quote\nSpoken by the alien character, not a human – one of cinema's most recognized lines delivered by a non-human voice\nE.T.'s voice was created by a combination of actress Debra Winger's voice and the voices of elderly women\nDirected by Spielberg; screenplay by Melissa Mathison",
           "cardFront": "\"E.T. phone home\"",
-          "cardBack": "E.T. the Extra-Terrestrial"
+          "cardBack": "E.T. the Extra-Terrestrial",
+          "links": [
+            {
+              "text": "E.T. the Extra-Terrestrial",
+              "url": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
+            },
+            {
+              "text": "\"E.T. phone home\"",
+              "url": "https://en.wikipedia.org/wiki/\"E.T._phone_home\""
+            }
+          ]
         },
         {
           "id": "heres-johnny",
           "prompt": "Jack Nicholson's Jack Torrance axes through a bathroom door and leers 'Here's Johnny!' in which 1980 Stanley Kubrick horror film set at the snowbound Overlook Hotel?",
           "answer": "The Shining",
-          "alternates": ["Shining"],
+          "alternates": [
+            "Shining"
+          ],
           "explanation": "AFI's #68 greatest movie quote\nImprovised by Nicholson; references Ed McMahon's nightly introduction of Johnny Carson on *The Tonight Show*\nKubrick insisted on 60+ takes of the door-chopping scene; Nicholson, who had worked as a fireman, kept chopping through the door too quickly\nBased on Stephen King's 1977 novel; King has famously expressed dissatisfaction with Kubrick's adaptation",
           "cardFront": "\"Here's Johnny!\"",
-          "cardBack": "The Shining"
+          "cardBack": "The Shining",
+          "links": [
+            {
+              "text": "The Shining",
+              "url": "https://en.wikipedia.org/wiki/The_Shining"
+            },
+            {
+              "text": "\"Here's Johnny!\"",
+              "url": "https://en.wikipedia.org/wiki/\"Here's_Johnny!\""
+            }
+          ]
         },
         {
           "id": "bigger-boat",
@@ -107,7 +233,17 @@
           "alternates": [],
           "explanation": "AFI's #35 greatest movie quote\nAd-libbed by Roy Scheider on set; not in Peter Benchley's screenplay\nThe mechanical shark ('Bruce') frequently malfunctioned, forcing Spielberg to suggest the shark rather than show it – which made the film far more frightening\nBecame cultural shorthand for being inadequately prepared for a problem",
           "cardFront": "\"You're gonna need a bigger boat\"",
-          "cardBack": "Jaws"
+          "cardBack": "Jaws",
+          "links": [
+            {
+              "text": "Jaws",
+              "url": "https://en.wikipedia.org/wiki/Jaws"
+            },
+            {
+              "text": "\"You're gonna need a bigger boat\"",
+              "url": "https://en.wikipedia.org/wiki/\"You're_gonna_need_a_bigger_boat\""
+            }
+          ]
         },
         {
           "id": "stinking-paws",
@@ -116,16 +252,38 @@
           "alternates": [],
           "explanation": "AFI's #66 greatest movie quote\nDirected by Franklin J. Schaffner, 1968; based on Pierre Boulle's 1963 novel\nThe film's twist ending – Taylor finding a half-buried Statue of Liberty, revealing he never left Earth – is among cinema's most famous reveals\nCharlton Heston stars as Capt. Taylor; Roddy McDowall and Kim Hunter play sympathetic apes",
           "cardFront": "\"Get your stinking paws off me, you damned dirty ape!\"",
-          "cardBack": "Planet of the Apes"
+          "cardBack": "Planet of the Apes",
+          "links": [
+            {
+              "text": "Planet of the Apes",
+              "url": "https://en.wikipedia.org/wiki/Planet_of_the_Apes"
+            },
+            {
+              "text": "\"Get your stinking paws off me, you damned dirty ape!\"",
+              "url": "https://en.wikipedia.org/wiki/\"Get_your_stinking_paws_off_me,_you_damned_dirty_ape!\""
+            }
+          ]
         },
         {
           "id": "i-see-dead-people",
           "prompt": "Eleven-year-old Haley Joel Osment whispers 'I see dead people' to Bruce Willis's child psychologist in which 1999 M. Night Shyamalan supernatural thriller?",
           "answer": "The Sixth Sense",
-          "alternates": ["Sixth Sense"],
+          "alternates": [
+            "Sixth Sense"
+          ],
           "explanation": "Directed by M. Night Shyamalan, 1999; nominated for six Oscars including Best Picture\nHaley Joel Osment was 11 years old; received a Best Supporting Actor nomination\nThe film's twist – that Malcolm Crowe (Willis) is himself one of the dead people Cole sees – is among the most discussed in modern cinema\nGrossed $672 million worldwide on a $40 million budget",
           "cardFront": "\"I see dead people\"",
-          "cardBack": "The Sixth Sense"
+          "cardBack": "The Sixth Sense",
+          "links": [
+            {
+              "text": "The Sixth Sense",
+              "url": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+            },
+            {
+              "text": "\"I see dead people\"",
+              "url": "https://en.wikipedia.org/wiki/\"I_see_dead_people\""
+            }
+          ]
         },
         {
           "id": "to-infinity-and-beyond",
@@ -134,7 +292,17 @@
           "alternates": [],
           "explanation": "Directed by John Lasseter; Pixar's first feature film and the first fully computer-animated feature released theatrically\nBuzz Lightyear was partly inspired by NASA astronaut Buzz Aldrin; the name is a tribute to Aldrin\nTom Hanks voices Woody alongside Tim Allen's Buzz; the voice casting was central to the film's success\nThe phrase became a ubiquitous cultural catchphrase; Buzz Aldrin has embraced it publicly",
           "cardFront": "\"To infinity and beyond!\"",
-          "cardBack": "Toy Story"
+          "cardBack": "Toy Story",
+          "links": [
+            {
+              "text": "Toy Story",
+              "url": "https://en.wikipedia.org/wiki/Toy_Story"
+            },
+            {
+              "text": "\"To infinity and beyond!\"",
+              "url": "https://en.wikipedia.org/wiki/\"To_infinity_and_beyond!\""
+            }
+          ]
         },
         {
           "id": "failure-to-communicate",
@@ -143,7 +311,17 @@
           "alternates": [],
           "explanation": "AFI's #11 greatest movie quote\nDirected by Stuart Rosenberg, 1967; Paul Newman plays Luke Jackson, sentenced to a Florida prison camp\nStrother Martin plays the Captain; the line has become a metaphor for institutional indifference to individual expression\nNewman received a Best Actor nomination; George Kennedy won Best Supporting Actor\nThe film is famous for the hard-boiled egg eating contest: Luke eats 50 eggs in an hour",
           "cardFront": "\"What we've got here is a failure to communicate\"",
-          "cardBack": "Cool Hand Luke"
+          "cardBack": "Cool Hand Luke",
+          "links": [
+            {
+              "text": "Cool Hand Luke",
+              "url": "https://en.wikipedia.org/wiki/Cool_Hand_Luke"
+            },
+            {
+              "text": "\"What we've got here is a failure to communicate\"",
+              "url": "https://en.wikipedia.org/wiki/\"What_we've_got_here_is_a_failure_to_communicate\""
+            }
+          ]
         }
       ]
     }

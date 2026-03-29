@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "math/mathematicians", "parentId": "math", "name": "Famous Mathematicians", "description": "Key mathematicians and their groundbreaking contributions" }
+    {
+      "id": "math/mathematicians",
+      "parentId": "math",
+      "name": "Famous Mathematicians",
+      "description": "Key mathematicians and their groundbreaking contributions"
+    }
   ],
   "exercises": [
     {
@@ -13,199 +18,475 @@
           "id": "euclid",
           "prompt": "Which ancient Greek mathematician, active around 300 BCE in Alexandria, is called the 'Father of Geometry' and wrote *Elements*, the most influential mathematics textbook in history?",
           "answer": "Euclid",
-          "alternates": ["Euclid of Alexandria"],
-          "explanation": "Active c. 300 BCE in Ptolemaic Alexandria, Egypt\n*Elements* was used as a textbook for over 2,000 years \u2014 second only to the Bible in editions printed\nSystematized geometry using axioms and logical deduction, establishing the axiomatic method\nHis fifth postulate (the parallel postulate) spawned centuries of debate and led to non-Euclidean geometry\nAlmost nothing is known about his personal life; even his birth and death dates are uncertain\nAllegedly told Ptolemy I there was 'no royal road to geometry' when asked for a shortcut",
+          "alternates": [
+            "Euclid of Alexandria"
+          ],
+          "explanation": "Active c. 300 BCE in Ptolemaic Alexandria, Egypt\n*Elements* was used as a textbook for over 2,000 years — second only to the Bible in editions printed\nSystematized geometry using axioms and logical deduction, establishing the axiomatic method\nHis fifth postulate (the parallel postulate) spawned centuries of debate and led to non-Euclidean geometry\nAlmost nothing is known about his personal life; even his birth and death dates are uncertain\nAllegedly told Ptolemy I there was 'no royal road to geometry' when asked for a shortcut",
           "cardFront": "*Elements*, Father of Geometry",
-          "cardBack": "Euclid"
+          "cardBack": "Euclid",
+          "links": [
+            {
+              "text": "Euclid",
+              "url": "https://en.wikipedia.org/wiki/Euclid"
+            },
+            {
+              "text": "*Elements*, Father of Geometry",
+              "url": "https://en.wikipedia.org/wiki/*Elements*,_Father_of_Geometry"
+            }
+          ]
         },
         {
           "id": "pythagoras",
           "prompt": "Which ancient Greek philosopher and mathematician, born on the island of Samos around 570 BCE, founded a secretive religious brotherhood and is best known for the theorem relating the sides of a right triangle?",
           "answer": "Pythagoras",
-          "alternates": ["Pythagoras of Samos"],
-          "explanation": "Born c. 570 BCE on Samos; founded a commune-like school in Croton, southern Italy\nThe Pythagorean theorem (a\u00b2 + b\u00b2 = c\u00b2) was known to Babylonians 1,000 years earlier, but his school may have proved it\nThe Pythagorean brotherhood was part math school, part religious cult \u2014 members were sworn to secrecy\nBelieved 'all is number' \u2014 that mathematics was the basis of all reality\nLegend: a follower (Hippasus) was drowned for proving \u221a2 is irrational, contradicting Pythagorean philosophy\nNone of his writings survive; everything attributed to him comes from later followers\nAlso credited with discovering the mathematical ratios underlying musical harmony",
-          "cardFront": "a\u00b2 + b\u00b2 = c\u00b2, Samos",
-          "cardBack": "Pythagoras"
+          "alternates": [
+            "Pythagoras of Samos"
+          ],
+          "explanation": "Born c. 570 BCE on Samos; founded a commune-like school in Croton, southern Italy\nThe Pythagorean theorem (a² + b² = c²) was known to Babylonians 1,000 years earlier, but his school may have proved it\nThe Pythagorean brotherhood was part math school, part religious cult — members were sworn to secrecy\nBelieved 'all is number' — that mathematics was the basis of all reality\nLegend: a follower (Hippasus) was drowned for proving √2 is irrational, contradicting Pythagorean philosophy\nNone of his writings survive; everything attributed to him comes from later followers\nAlso credited with discovering the mathematical ratios underlying musical harmony",
+          "cardFront": "a² + b² = c², Samos",
+          "cardBack": "Pythagoras",
+          "links": [
+            {
+              "text": "Pythagoras",
+              "url": "https://en.wikipedia.org/wiki/Pythagoras"
+            },
+            {
+              "text": "a² + b² = c², Samos",
+              "url": "https://en.wikipedia.org/wiki/a²_+_b²_=_c²,_Samos"
+            }
+          ]
         },
         {
           "id": "archimedes",
           "prompt": "Which ancient Greek mathematician and inventor from Syracuse, killed by a Roman soldier during the siege of 212 BCE, discovered the principle of buoyancy and reportedly shouted 'Eureka!' upon solving a problem in his bath?",
           "answer": "Archimedes",
-          "alternates": ["Archimedes of Syracuse"],
-          "explanation": "Born c. 287 BCE in Syracuse, Sicily \u2014 greatest mathematician of antiquity\nDiscovered the principle of buoyancy (Archimedes' principle) while investigating a golden crown's purity\nCalculated pi to between 3 10/71 and 3 1/7 using inscribed and circumscribed polygons\nInvented the Archimedes' screw for raising water, still used today\n'Give me a lever long enough and a fulcrum on which to place it, and I shall move the world'\nKilled in 212 BCE during the Roman siege of Syracuse; reportedly told the soldier 'Do not disturb my circles'\nAnticipated integral calculus nearly 2,000 years before Newton and Leibniz",
+          "alternates": [
+            "Archimedes of Syracuse"
+          ],
+          "explanation": "Born c. 287 BCE in Syracuse, Sicily — greatest mathematician of antiquity\nDiscovered the principle of buoyancy (Archimedes' principle) while investigating a golden crown's purity\nCalculated pi to between 3 10/71 and 3 1/7 using inscribed and circumscribed polygons\nInvented the Archimedes' screw for raising water, still used today\n'Give me a lever long enough and a fulcrum on which to place it, and I shall move the world'\nKilled in 212 BCE during the Roman siege of Syracuse; reportedly told the soldier 'Do not disturb my circles'\nAnticipated integral calculus nearly 2,000 years before Newton and Leibniz",
           "cardFront": "'Eureka!', Syracuse, buoyancy",
-          "cardBack": "Archimedes"
+          "cardBack": "Archimedes",
+          "links": [
+            {
+              "text": "Archimedes",
+              "url": "https://en.wikipedia.org/wiki/Archimedes"
+            },
+            {
+              "text": "'Eureka!', Syracuse, buoyancy",
+              "url": "https://en.wikipedia.org/wiki/'Eureka!',_Syracuse,_buoyancy"
+            }
+          ]
         },
         {
           "id": "newton",
           "prompt": "Which English mathematician and physicist, born in 1642, co-invented calculus, formulated the laws of motion and universal gravitation, and wrote *Principia Mathematica*?",
           "answer": "Isaac Newton",
-          "alternates": ["Newton", "Sir Isaac Newton"],
-          "explanation": "Born December 25, 1642 (Old Style) in Woolsthorpe, Lincolnshire, England\nCo-invented calculus independently of Leibniz in the mid-1660s; the priority dispute lasted decades\n*Philosophi\u00e6 Naturalis Principia Mathematica* (1687) laid the foundation for classical mechanics\nAlso made foundational contributions to optics, including the reflecting telescope and prism experiments\nLucasian Professor of Mathematics at Cambridge \u2014 the same chair later held by Stephen Hawking\nSpent more time on alchemy and biblical chronology than on mathematics or physics\nWarden and Master of the Royal Mint; oversaw England's great recoinage and prosecuted counterfeiters\nDied in 1727; reportedly a virgin his entire life",
+          "alternates": [
+            "Newton",
+            "Sir Isaac Newton"
+          ],
+          "explanation": "Born December 25, 1642 (Old Style) in Woolsthorpe, Lincolnshire, England\nCo-invented calculus independently of Leibniz in the mid-1660s; the priority dispute lasted decades\n*Philosophiæ Naturalis Principia Mathematica* (1687) laid the foundation for classical mechanics\nAlso made foundational contributions to optics, including the reflecting telescope and prism experiments\nLucasian Professor of Mathematics at Cambridge — the same chair later held by Stephen Hawking\nSpent more time on alchemy and biblical chronology than on mathematics or physics\nWarden and Master of the Royal Mint; oversaw England's great recoinage and prosecuted counterfeiters\nDied in 1727; reportedly a virgin his entire life",
           "cardFront": "Calculus, *Principia*, laws of motion",
-          "cardBack": "Isaac Newton"
+          "cardBack": "Isaac Newton",
+          "links": [
+            {
+              "text": "Isaac Newton",
+              "url": "https://en.wikipedia.org/wiki/Isaac_Newton"
+            },
+            {
+              "text": "Calculus, *Principia*, laws of motion",
+              "url": "https://en.wikipedia.org/wiki/Calculus,_*Principia*,_laws_of_motion"
+            }
+          ]
         },
         {
           "id": "leibniz",
-          "prompt": "Which German polymath independently invented calculus around the same time as Newton, introduced the notation dy/dx and the integral sign \u222b, and is also known for his philosophical concept of monads?",
+          "prompt": "Which German polymath independently invented calculus around the same time as Newton, introduced the notation dy/dx and the integral sign ∫, and is also known for his philosophical concept of monads?",
           "answer": "Gottfried Wilhelm Leibniz",
-          "alternates": ["Leibniz", "Leibnitz"],
-          "explanation": "Born 1646 in Leipzig, Germany; died 1716 in Hanover\nIndependently developed calculus in the 1670s; his notation (dy/dx, \u222b) became standard, not Newton's\nThe Newton\u2013Leibniz priority dispute was one of the most bitter in the history of science\nInvented binary arithmetic (base 2), the foundation of modern computing\nAlso a philosopher: developed the concept of monads and argued this is 'the best of all possible worlds' (satirized by Voltaire in *Candide*)\nDesigned one of the first mechanical calculators (the Stepped Reckoner)\nDied largely forgotten; his funeral was attended only by his personal secretary",
-          "cardFront": "dy/dx notation, \u222b, binary",
-          "cardBack": "Gottfried Wilhelm Leibniz"
+          "alternates": [
+            "Leibniz",
+            "Leibnitz"
+          ],
+          "explanation": "Born 1646 in Leipzig, Germany; died 1716 in Hanover\nIndependently developed calculus in the 1670s; his notation (dy/dx, ∫) became standard, not Newton's\nThe Newton–Leibniz priority dispute was one of the most bitter in the history of science\nInvented binary arithmetic (base 2), the foundation of modern computing\nAlso a philosopher: developed the concept of monads and argued this is 'the best of all possible worlds' (satirized by Voltaire in *Candide*)\nDesigned one of the first mechanical calculators (the Stepped Reckoner)\nDied largely forgotten; his funeral was attended only by his personal secretary",
+          "cardFront": "dy/dx notation, ∫, binary",
+          "cardBack": "Gottfried Wilhelm Leibniz",
+          "links": [
+            {
+              "text": "Gottfried Wilhelm Leibniz",
+              "url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+            },
+            {
+              "text": "dy/dx notation, ∫, binary",
+              "url": "https://en.wikipedia.org/wiki/dy/dx_notation,_∫,_binary"
+            }
+          ]
         },
         {
           "id": "euler",
-          "prompt": "Which Swiss mathematician, the most prolific in history with over 800 papers, introduced the notation e, i, \u03c0, \u03a3, and f(x), and discovered the formula e^(i\u03c0) + 1 = 0?",
+          "prompt": "Which Swiss mathematician, the most prolific in history with over 800 papers, introduced the notation e, i, π, Σ, and f(x), and discovered the formula e^(iπ) + 1 = 0?",
           "answer": "Leonhard Euler",
-          "alternates": ["Euler"],
-          "explanation": "Born 1707 in Basel, Switzerland; died 1783 in St. Petersburg, Russia\nMost prolific mathematician ever \u2014 published over 800 papers and books; output continued even after going blind\nIntroduced or popularized the notation e, i, \u03c0, \u03a3, f(x), and \u0394\nEuler's identity (e^(i\u03c0) + 1 = 0) is called the most beautiful equation in mathematics\nSolved the Seven Bridges of K\u00f6nigsberg problem (1736), founding graph theory\nWorked in virtually every branch of mathematics: calculus, number theory, topology, mechanics, optics\nLost sight in his right eye by age 31, became nearly totally blind by 59, but his output increased\nSupported by the courts of Frederick the Great (Berlin) and Catherine the Great (St. Petersburg)",
-          "cardFront": "Most prolific, e^(i\u03c0)+1=0, Swiss",
-          "cardBack": "Leonhard Euler"
+          "alternates": [
+            "Euler"
+          ],
+          "explanation": "Born 1707 in Basel, Switzerland; died 1783 in St. Petersburg, Russia\nMost prolific mathematician ever — published over 800 papers and books; output continued even after going blind\nIntroduced or popularized the notation e, i, π, Σ, f(x), and Δ\nEuler's identity (e^(iπ) + 1 = 0) is called the most beautiful equation in mathematics\nSolved the Seven Bridges of Königsberg problem (1736), founding graph theory\nWorked in virtually every branch of mathematics: calculus, number theory, topology, mechanics, optics\nLost sight in his right eye by age 31, became nearly totally blind by 59, but his output increased\nSupported by the courts of Frederick the Great (Berlin) and Catherine the Great (St. Petersburg)",
+          "cardFront": "Most prolific, e^(iπ)+1=0, Swiss",
+          "cardBack": "Leonhard Euler",
+          "links": [
+            {
+              "text": "Leonhard Euler",
+              "url": "https://en.wikipedia.org/wiki/Leonhard_Euler"
+            },
+            {
+              "text": "Most prolific, e^+1=0, Swiss",
+              "url": "https://en.wikipedia.org/wiki/Most_prolific,_e^+1=0,_Swiss"
+            }
+          ]
         },
         {
           "id": "gauss",
           "prompt": "Which German mathematician, called the 'Prince of Mathematicians,' made foundational contributions to number theory, statistics, and electromagnetism, and as a child famously summed the integers from 1 to 100 almost instantly?",
           "answer": "Carl Friedrich Gauss",
-          "alternates": ["Gauss", "C.F. Gauss"],
-          "explanation": "Born 1777 in Braunschweig, Germany; died 1855 in G\u00f6ttingen\nCalled 'Princeps mathematicorum' (Prince of Mathematicians) \u2014 one of the greatest of all time\nAs a schoolboy, instantly summed 1+2+...+100 = 5,050 by pairing numbers (1+100, 2+99, etc.)\n*Disquisitiones Arithmeticae* (1801) founded modern number theory; written when he was 21\nThe Gaussian (normal/bell curve) distribution is named for him \u2014 foundational in statistics\nAlso contributed to astronomy: predicted the orbit of the asteroid Ceres from minimal observations\nThe gauss (unit of magnetic flux density) is named after him\nKept many discoveries unpublished; when others published results, he often said 'I had that already'",
+          "alternates": [
+            "Gauss",
+            "C.F. Gauss"
+          ],
+          "explanation": "Born 1777 in Braunschweig, Germany; died 1855 in Göttingen\nCalled 'Princeps mathematicorum' (Prince of Mathematicians) — one of the greatest of all time\nAs a schoolboy, instantly summed 1+2+...+100 = 5,050 by pairing numbers (1+100, 2+99, etc.)\n*Disquisitiones Arithmeticae* (1801) founded modern number theory; written when he was 21\nThe Gaussian (normal/bell curve) distribution is named for him — foundational in statistics\nAlso contributed to astronomy: predicted the orbit of the asteroid Ceres from minimal observations\nThe gauss (unit of magnetic flux density) is named after him\nKept many discoveries unpublished; when others published results, he often said 'I had that already'",
           "cardFront": "'Prince of Mathematicians,' 1+2+...+100",
-          "cardBack": "Carl Friedrich Gauss"
+          "cardBack": "Carl Friedrich Gauss",
+          "links": [
+            {
+              "text": "Carl Friedrich Gauss",
+              "url": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+            },
+            {
+              "text": "'Prince of Mathematicians,' 1+2+...+100",
+              "url": "https://en.wikipedia.org/wiki/'Prince_of_Mathematicians,'_1+2+...+100"
+            }
+          ]
         },
         {
           "id": "fermat",
           "prompt": "Which 17th-century French lawyer and amateur mathematician is best known for a marginal note claiming to have proved that a^n + b^n = c^n has no integer solutions for n > 2, a claim that took 358 years to verify?",
           "answer": "Pierre de Fermat",
-          "alternates": ["Fermat"],
-          "explanation": "Born 1601 in Beaumont-de-Lomagne, France; died 1665 \u2014 a lawyer by profession, mathematician by passion\nFermat's Last Theorem: his margin note said 'I have discovered a truly marvelous proof, which this margin is too narrow to contain'\nThe theorem wasn't proved until 1995 by Andrew Wiles, 358 years later\nCo-founded probability theory with Blaise Pascal through correspondence on gambling problems (1654)\nPioneered analytic geometry independently of Descartes\nFermat's Little Theorem (not the Last Theorem) is fundamental in number theory and modern cryptography\nCalled the 'Prince of Amateurs' \u2014 never held an academic position in mathematics",
+          "alternates": [
+            "Fermat"
+          ],
+          "explanation": "Born 1601 in Beaumont-de-Lomagne, France; died 1665 — a lawyer by profession, mathematician by passion\nFermat's Last Theorem: his margin note said 'I have discovered a truly marvelous proof, which this margin is too narrow to contain'\nThe theorem wasn't proved until 1995 by Andrew Wiles, 358 years later\nCo-founded probability theory with Blaise Pascal through correspondence on gambling problems (1654)\nPioneered analytic geometry independently of Descartes\nFermat's Little Theorem (not the Last Theorem) is fundamental in number theory and modern cryptography\nCalled the 'Prince of Amateurs' — never held an academic position in mathematics",
           "cardFront": "Last Theorem, 'margin too narrow'",
-          "cardBack": "Pierre de Fermat"
+          "cardBack": "Pierre de Fermat",
+          "links": [
+            {
+              "text": "Pierre de Fermat",
+              "url": "https://en.wikipedia.org/wiki/Pierre_de_Fermat"
+            },
+            {
+              "text": "Last Theorem, 'margin too narrow'",
+              "url": "https://en.wikipedia.org/wiki/Last_Theorem,_'margin_too_narrow'"
+            }
+          ]
         },
         {
           "id": "pascal",
           "prompt": "Which French mathematician, physicist, and religious philosopher, who died at age 39, co-founded probability theory, built one of the first mechanical calculators, and has a famous triangular array of numbers named after him?",
           "answer": "Blaise Pascal",
-          "alternates": ["Pascal"],
-          "explanation": "Born 1623 in Clermont-Ferrand, France; died 1662 in Paris at age 39\nPascal's triangle arranges binomial coefficients in a triangle; known in China centuries earlier (Yang Hui's triangle)\nCo-founded probability theory with Fermat through correspondence about gambling (1654)\nBuilt the Pascaline, one of the first mechanical calculators, at age 19 to help his father with tax calculations\nThe pascal (Pa) is the SI unit of pressure, named after his experiments with atmospheric pressure and vacuums\nPascal's wager: argued it's rational to believe in God because the potential payoff is infinite\nAfter a religious experience in 1654, largely abandoned mathematics for theology; wrote *Pens\u00e9es*",
-          "cardFront": "Pascal's triangle, probability, *Pens\u00e9es*",
-          "cardBack": "Blaise Pascal"
+          "alternates": [
+            "Pascal"
+          ],
+          "explanation": "Born 1623 in Clermont-Ferrand, France; died 1662 in Paris at age 39\nPascal's triangle arranges binomial coefficients in a triangle; known in China centuries earlier (Yang Hui's triangle)\nCo-founded probability theory with Fermat through correspondence about gambling (1654)\nBuilt the Pascaline, one of the first mechanical calculators, at age 19 to help his father with tax calculations\nThe pascal (Pa) is the SI unit of pressure, named after his experiments with atmospheric pressure and vacuums\nPascal's wager: argued it's rational to believe in God because the potential payoff is infinite\nAfter a religious experience in 1654, largely abandoned mathematics for theology; wrote *Pensées*",
+          "cardFront": "Pascal's triangle, probability, *Pensées*",
+          "cardBack": "Blaise Pascal",
+          "links": [
+            {
+              "text": "Blaise Pascal",
+              "url": "https://en.wikipedia.org/wiki/Blaise_Pascal"
+            },
+            {
+              "text": "Pascal's triangle, probability, *Pensées*",
+              "url": "https://en.wikipedia.org/wiki/Pascal's_triangle,_probability,_*Pensées*"
+            }
+          ]
         },
         {
           "id": "descartes",
           "prompt": "Which French philosopher and mathematician, famous for the statement 'I think, therefore I am,' invented the coordinate system that uses x and y axes to plot equations on a plane?",
-          "answer": "Ren\u00e9 Descartes",
-          "alternates": ["Descartes"],
-          "explanation": "Born 1596 in La Haye en Touraine, France; died 1650 in Stockholm, Sweden\n'Cogito, ergo sum' ('I think, therefore I am') \u2014 foundation of modern Western philosophy\nInvented the Cartesian coordinate system, bridging algebra and geometry (analytic geometry)\nPublished *La G\u00e9om\u00e9trie* (1637) as an appendix to *Discourse on the Method*\nThe convention of using x, y, z for unknowns and a, b, c for constants comes from Descartes\nMoved to the Dutch Republic for intellectual freedom; spent 20 years there\nDied of pneumonia in Stockholm after Queen Christina of Sweden demanded 5 AM philosophy lessons in a freezing library",
+          "answer": "René Descartes",
+          "alternates": [
+            "Descartes"
+          ],
+          "explanation": "Born 1596 in La Haye en Touraine, France; died 1650 in Stockholm, Sweden\n'Cogito, ergo sum' ('I think, therefore I am') — foundation of modern Western philosophy\nInvented the Cartesian coordinate system, bridging algebra and geometry (analytic geometry)\nPublished *La Géométrie* (1637) as an appendix to *Discourse on the Method*\nThe convention of using x, y, z for unknowns and a, b, c for constants comes from Descartes\nMoved to the Dutch Republic for intellectual freedom; spent 20 years there\nDied of pneumonia in Stockholm after Queen Christina of Sweden demanded 5 AM philosophy lessons in a freezing library",
           "cardFront": "'Cogito ergo sum,' x-y coordinates",
-          "cardBack": "Ren\u00e9 Descartes"
+          "cardBack": "René Descartes",
+          "links": [
+            {
+              "text": "René Descartes",
+              "url": "https://en.wikipedia.org/wiki/René_Descartes"
+            },
+            {
+              "text": "'Cogito ergo sum,' x-y coordinates",
+              "url": "https://en.wikipedia.org/wiki/'Cogito_ergo_sum,'_x-y_coordinates"
+            }
+          ]
         },
         {
           "id": "fibonacci",
           "prompt": "Which medieval Italian mathematician, who studied under Arab mathematicians in North Africa, introduced Hindu-Arabic numerals to Europe and described the sequence 1, 1, 2, 3, 5, 8, 13... in his 1202 book *Liber Abaci*?",
           "answer": "Fibonacci",
-          "alternates": ["Leonardo of Pisa", "Leonardo Pisano", "Leonardo Fibonacci", "Leonardo Bonacci"],
-          "explanation": "Born c. 1170 in Pisa, Italy; died c. 1250\nReal name Leonardo Bonacci; 'Fibonacci' (son of Bonacci) was coined by a 19th-century historian\n*Liber Abaci* (1202) introduced Hindu-Arabic numerals (0\u20139) to Europe, replacing Roman numerals\nThe Fibonacci sequence (1, 1, 2, 3, 5, 8, 13...) appeared as a solution to a rabbit-breeding problem\nConsecutive Fibonacci ratios converge to the golden ratio (\u03c6 \u2248 1.618)\nThe sequence appears in nature: sunflower spirals, pinecone scales, nautilus shells\nMost important mathematician of the Middle Ages; made European commerce and accounting practical",
+          "alternates": [
+            "Leonardo of Pisa",
+            "Leonardo Pisano",
+            "Leonardo Fibonacci",
+            "Leonardo Bonacci"
+          ],
+          "explanation": "Born c. 1170 in Pisa, Italy; died c. 1250\nReal name Leonardo Bonacci; 'Fibonacci' (son of Bonacci) was coined by a 19th-century historian\n*Liber Abaci* (1202) introduced Hindu-Arabic numerals (0–9) to Europe, replacing Roman numerals\nThe Fibonacci sequence (1, 1, 2, 3, 5, 8, 13...) appeared as a solution to a rabbit-breeding problem\nConsecutive Fibonacci ratios converge to the golden ratio (φ ≈ 1.618)\nThe sequence appears in nature: sunflower spirals, pinecone scales, nautilus shells\nMost important mathematician of the Middle Ages; made European commerce and accounting practical",
           "cardFront": "1, 1, 2, 3, 5, 8..., *Liber Abaci*",
-          "cardBack": "Fibonacci"
+          "cardBack": "Fibonacci",
+          "links": [
+            {
+              "text": "Fibonacci",
+              "url": "https://en.wikipedia.org/wiki/Fibonacci"
+            },
+            {
+              "text": "Liber Abaci",
+              "url": "https://en.wikipedia.org/wiki/Liber_Abaci"
+            }
+          ]
         },
         {
           "id": "riemann",
           "prompt": "Which German mathematician, who died of tuberculosis at 39, formulated the hypothesis about the distribution of prime numbers that remains the most important unsolved problem in mathematics, and whose geometry underpins Einstein's general relativity?",
           "answer": "Bernhard Riemann",
-          "alternates": ["Riemann", "Georg Friedrich Bernhard Riemann"],
-          "explanation": "Born 1826 in Breselenz, Germany; died 1866 in Selasca, Italy, of tuberculosis at age 39\nThe Riemann hypothesis (1859) concerns the distribution of prime numbers \u2014 still unsolved, with a $1 million Millennium Prize\nRiemannian geometry describes curved spaces and became the mathematical foundation of Einstein's general relativity\nHis habilitation lecture (1854) on the foundations of geometry revolutionized the field in a single talk\nThe Riemann integral is the standard definition of integration taught in calculus courses\nDespite dying young and publishing only a handful of papers, he transformed multiple branches of mathematics\nSon of a poor Lutheran pastor; initially studied theology before switching to mathematics",
+          "alternates": [
+            "Riemann",
+            "Georg Friedrich Bernhard Riemann"
+          ],
+          "explanation": "Born 1826 in Breselenz, Germany; died 1866 in Selasca, Italy, of tuberculosis at age 39\nThe Riemann hypothesis (1859) concerns the distribution of prime numbers — still unsolved, with a $1 million Millennium Prize\nRiemannian geometry describes curved spaces and became the mathematical foundation of Einstein's general relativity\nHis habilitation lecture (1854) on the foundations of geometry revolutionized the field in a single talk\nThe Riemann integral is the standard definition of integration taught in calculus courses\nDespite dying young and publishing only a handful of papers, he transformed multiple branches of mathematics\nSon of a poor Lutheran pastor; initially studied theology before switching to mathematics",
           "cardFront": "Riemann hypothesis, curved geometry",
-          "cardBack": "Bernhard Riemann"
+          "cardBack": "Bernhard Riemann",
+          "links": [
+            {
+              "text": "Bernhard Riemann",
+              "url": "https://en.wikipedia.org/wiki/Bernhard_Riemann"
+            },
+            {
+              "text": "Riemann hypothesis, curved geometry",
+              "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis,_curved_geometry"
+            }
+          ]
         },
         {
           "id": "cantor",
           "prompt": "Which German mathematician, born in St. Petersburg, founded set theory and proved that there are different sizes of infinity, a concept so controversial it drove conflict with contemporaries and contributed to his mental breakdowns?",
           "answer": "Georg Cantor",
-          "alternates": ["Cantor"],
-          "explanation": "Born 1845 in St. Petersburg, Russia; died 1918 in a sanatorium in Halle, Germany\nFounded set theory and proved that infinities come in different sizes (cardinalities)\nProved the real numbers are 'more infinite' than the natural numbers using his diagonal argument (1891)\nHis continuum hypothesis asks whether there's an infinity between the integers and the reals \u2014 proved independent of standard axioms\nFiercely opposed by Leopold Kronecker, who called him a 'corruptor of youth' and blocked his career\nSuffered repeated mental breakdowns and spent his final years in a sanatorium\nDavid Hilbert defended him: 'No one shall expel us from the paradise that Cantor has created'",
+          "alternates": [
+            "Cantor"
+          ],
+          "explanation": "Born 1845 in St. Petersburg, Russia; died 1918 in a sanatorium in Halle, Germany\nFounded set theory and proved that infinities come in different sizes (cardinalities)\nProved the real numbers are 'more infinite' than the natural numbers using his diagonal argument (1891)\nHis continuum hypothesis asks whether there's an infinity between the integers and the reals — proved independent of standard axioms\nFiercely opposed by Leopold Kronecker, who called him a 'corruptor of youth' and blocked his career\nSuffered repeated mental breakdowns and spent his final years in a sanatorium\nDavid Hilbert defended him: 'No one shall expel us from the paradise that Cantor has created'",
           "cardFront": "Set theory, sizes of infinity",
-          "cardBack": "Georg Cantor"
+          "cardBack": "Georg Cantor",
+          "links": [
+            {
+              "text": "Georg Cantor",
+              "url": "https://en.wikipedia.org/wiki/Georg_Cantor"
+            },
+            {
+              "text": "Set theory, sizes of infinity",
+              "url": "https://en.wikipedia.org/wiki/Set_theory,_sizes_of_infinity"
+            }
+          ]
         },
         {
           "id": "turing",
           "prompt": "Which English mathematician and cryptanalyst, whose work breaking the Enigma code at Bletchley Park helped shorten World War II, formalized the concept of computation with a theoretical machine and is considered the father of computer science?",
           "answer": "Alan Turing",
-          "alternates": ["Turing"],
-          "explanation": "Born 1912 in London; died 1954 in Wilmslow, Cheshire\nThe Turing machine (1936) is the foundational model of computation \u2014 defines what is and isn't computable\nLed the team at Bletchley Park that broke the German Enigma cipher during WWII, estimated to have shortened the war by 2+ years\nProposed the Turing test (1950): a machine is 'intelligent' if a human can't distinguish its responses from a person's\nProsecuted in 1952 for homosexuality (then a crime in the UK); chose chemical castration over prison\nDied of cyanide poisoning in 1954, ruled a suicide \u2014 possibly accidental\nReceived a royal pardon in 2013; his face appears on the Bank of England \u00a350 note since 2021",
+          "alternates": [
+            "Turing"
+          ],
+          "explanation": "Born 1912 in London; died 1954 in Wilmslow, Cheshire\nThe Turing machine (1936) is the foundational model of computation — defines what is and isn't computable\nLed the team at Bletchley Park that broke the German Enigma cipher during WWII, estimated to have shortened the war by 2+ years\nProposed the Turing test (1950): a machine is 'intelligent' if a human can't distinguish its responses from a person's\nProsecuted in 1952 for homosexuality (then a crime in the UK); chose chemical castration over prison\nDied of cyanide poisoning in 1954, ruled a suicide — possibly accidental\nReceived a royal pardon in 2013; his face appears on the Bank of England £50 note since 2021",
           "cardFront": "Turing machine, Enigma, father of CS",
-          "cardBack": "Alan Turing"
+          "cardBack": "Alan Turing",
+          "links": [
+            {
+              "text": "Alan Turing",
+              "url": "https://en.wikipedia.org/wiki/Alan_Turing"
+            },
+            {
+              "text": "Turing machine, Enigma, father of CS",
+              "url": "https://en.wikipedia.org/wiki/Turing_machine,_Enigma,_father_of_CS"
+            }
+          ]
         },
         {
           "id": "lovelace",
           "prompt": "Which English mathematician, the daughter of the poet Lord Byron, is credited with writing the first computer algorithm in her notes on Charles Babbage's Analytical Engine in the 1840s?",
           "answer": "Ada Lovelace",
-          "alternates": ["Ada Byron", "Augusta Ada King", "Countess of Lovelace"],
-          "explanation": "Born 1815 in London; died 1852 of uterine cancer at age 36\nDaughter of the poet Lord Byron, whom she never knew \u2014 Byron left when she was a month old\nWrote extensive notes on Babbage's Analytical Engine (1843), including what is considered the first computer program\nHer 'Note G' described an algorithm for the engine to compute Bernoulli numbers\nRecognized that computers could go beyond pure calculation to create music and art \u2014 a visionary insight for the 1840s\nThe programming language Ada (1980), commissioned by the U.S. Department of Defense, is named after her\nAda Lovelace Day (second Tuesday of October) celebrates women in STEM",
+          "alternates": [
+            "Ada Byron",
+            "Augusta Ada King",
+            "Countess of Lovelace"
+          ],
+          "explanation": "Born 1815 in London; died 1852 of uterine cancer at age 36\nDaughter of the poet Lord Byron, whom she never knew — Byron left when she was a month old\nWrote extensive notes on Babbage's Analytical Engine (1843), including what is considered the first computer program\nHer 'Note G' described an algorithm for the engine to compute Bernoulli numbers\nRecognized that computers could go beyond pure calculation to create music and art — a visionary insight for the 1840s\nThe programming language Ada (1980), commissioned by the U.S. Department of Defense, is named after her\nAda Lovelace Day (second Tuesday of October) celebrates women in STEM",
           "cardFront": "First algorithm, Byron's daughter",
-          "cardBack": "Ada Lovelace"
+          "cardBack": "Ada Lovelace",
+          "links": [
+            {
+              "text": "Ada Lovelace",
+              "url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+            },
+            {
+              "text": "First algorithm, Byron's daughter",
+              "url": "https://en.wikipedia.org/wiki/First_algorithm,_Byron's_daughter"
+            }
+          ]
         },
         {
           "id": "noether",
           "prompt": "Which German mathematician, whom Einstein called 'the most significant creative mathematical genius thus far produced since the higher education of women began,' proved the theorem linking symmetry to conservation laws in physics?",
           "answer": "Emmy Noether",
-          "alternates": ["Noether", "Amalie Emmy Noether"],
-          "explanation": "Born 1882 in Erlangen, Germany; died 1935 in Bryn Mawr, Pennsylvania\nNoether's theorem (1918): every symmetry in physics corresponds to a conservation law \u2014 foundational in theoretical physics\nRevolutionized abstract algebra; founded the theory of rings and ideals as modern structures\nEinstein called her 'the most significant creative mathematical genius thus far produced since the higher education of women began'\nBarred from holding a faculty position at G\u00f6ttingen because she was a woman; Hilbert protested: 'This is a university, not a bathhouse'\nFled Nazi Germany in 1933 (Jewish); took a position at Bryn Mawr College in Pennsylvania\nDied unexpectedly at 53 from complications of surgery for an ovarian cyst",
-          "cardFront": "Symmetry \u2192 conservation, abstract algebra",
-          "cardBack": "Emmy Noether"
+          "alternates": [
+            "Noether",
+            "Amalie Emmy Noether"
+          ],
+          "explanation": "Born 1882 in Erlangen, Germany; died 1935 in Bryn Mawr, Pennsylvania\nNoether's theorem (1918): every symmetry in physics corresponds to a conservation law — foundational in theoretical physics\nRevolutionized abstract algebra; founded the theory of rings and ideals as modern structures\nEinstein called her 'the most significant creative mathematical genius thus far produced since the higher education of women began'\nBarred from holding a faculty position at Göttingen because she was a woman; Hilbert protested: 'This is a university, not a bathhouse'\nFled Nazi Germany in 1933 (Jewish); took a position at Bryn Mawr College in Pennsylvania\nDied unexpectedly at 53 from complications of surgery for an ovarian cyst",
+          "cardFront": "Symmetry → conservation, abstract algebra",
+          "cardBack": "Emmy Noether",
+          "links": [
+            {
+              "text": "Emmy Noether",
+              "url": "https://en.wikipedia.org/wiki/Emmy_Noether"
+            },
+            {
+              "text": "Symmetry → conservation, abstract algebra",
+              "url": "https://en.wikipedia.org/wiki/Symmetry_→_conservation,_abstract_algebra"
+            }
+          ]
         },
         {
           "id": "ramanujan",
           "prompt": "Which self-taught Indian mathematician, who sent unsolicited letters to G.H. Hardy at Cambridge, produced thousands of original results in number theory before dying at 32, and is associated with the 'taxicab number' 1729?",
           "answer": "Srinivasa Ramanujan",
-          "alternates": ["Ramanujan"],
-          "explanation": "Born 1887 in Erode, Tamil Nadu, India; died 1920 in Kumbakonam at age 32\nLargely self-taught; learned advanced mathematics from a single borrowed textbook\nSent unsolicited letters with theorems to G.H. Hardy in 1913; Hardy called them 'the most remarkable I had ever received'\nProduced ~3,900 results, many without proofs \u2014 most have since been proved correct\n1729: when Hardy mentioned arriving in a 'dull' taxi #1729, Ramanujan instantly replied it's the smallest number expressible as the sum of two cubes in two ways (1\u00b3+12\u00b3 = 9\u00b3+10\u00b3)\nDied young, likely of hepatic amoebiasis (not tuberculosis as long believed)\nDev Patel portrayed him in the 2015 biopic *The Man Who Knew Infinity*",
+          "alternates": [
+            "Ramanujan"
+          ],
+          "explanation": "Born 1887 in Erode, Tamil Nadu, India; died 1920 in Kumbakonam at age 32\nLargely self-taught; learned advanced mathematics from a single borrowed textbook\nSent unsolicited letters with theorems to G.H. Hardy in 1913; Hardy called them 'the most remarkable I had ever received'\nProduced ~3,900 results, many without proofs — most have since been proved correct\n1729: when Hardy mentioned arriving in a 'dull' taxi #1729, Ramanujan instantly replied it's the smallest number expressible as the sum of two cubes in two ways (1³+12³ = 9³+10³)\nDied young, likely of hepatic amoebiasis (not tuberculosis as long believed)\nDev Patel portrayed him in the 2015 biopic *The Man Who Knew Infinity*",
           "cardFront": "1729, self-taught, Hardy",
-          "cardBack": "Srinivasa Ramanujan"
+          "cardBack": "Srinivasa Ramanujan",
+          "links": [
+            {
+              "text": "Srinivasa Ramanujan",
+              "url": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+            }
+          ]
         },
         {
           "id": "galois",
           "prompt": "Which French mathematician, killed in a duel at age 20, spent the night before his death frantically writing down mathematical ideas that founded group theory and the branch of algebra named after him?",
-          "answer": "\u00c9variste Galois",
-          "alternates": ["Galois", "Evariste Galois"],
-          "explanation": "Born 1811 in Bourg-la-Reine, France; died 1832 in Paris \u2014 killed in a duel at age 20\nThe night before the duel, he wrote a letter outlining his mathematical ideas, scrawling 'I have not time' in the margins\nFounded group theory and Galois theory, which determines when polynomial equations can be solved by radicals\nProved there is no general formula (like the quadratic formula) for polynomials of degree 5 or higher\nHis work was rejected or lost by the French Academy of Sciences multiple times during his lifetime\nA political radical imprisoned twice during the aftermath of the 1830 French revolution\nHis genius was not recognized until 14 years after his death, when Liouville published his papers in 1846",
+          "answer": "Évariste Galois",
+          "alternates": [
+            "Galois",
+            "Evariste Galois"
+          ],
+          "explanation": "Born 1811 in Bourg-la-Reine, France; died 1832 in Paris — killed in a duel at age 20\nThe night before the duel, he wrote a letter outlining his mathematical ideas, scrawling 'I have not time' in the margins\nFounded group theory and Galois theory, which determines when polynomial equations can be solved by radicals\nProved there is no general formula (like the quadratic formula) for polynomials of degree 5 or higher\nHis work was rejected or lost by the French Academy of Sciences multiple times during his lifetime\nA political radical imprisoned twice during the aftermath of the 1830 French revolution\nHis genius was not recognized until 14 years after his death, when Liouville published his papers in 1846",
           "cardFront": "Group theory, duel at 20",
-          "cardBack": "\u00c9variste Galois"
+          "cardBack": "Évariste Galois",
+          "links": [
+            {
+              "text": "Évariste Galois",
+              "url": "https://en.wikipedia.org/wiki/Évariste_Galois"
+            },
+            {
+              "text": "Group theory, duel at 20",
+              "url": "https://en.wikipedia.org/wiki/Group_theory,_duel_at_20"
+            }
+          ]
         },
         {
           "id": "godel",
           "prompt": "Which Austrian-American logician proved in 1931 that any sufficiently powerful mathematical system contains true statements that cannot be proved within the system, ending the dream of a complete, consistent foundation for all mathematics?",
-          "answer": "Kurt G\u00f6del",
-          "alternates": ["Godel", "Goedel", "Kurt Goedel"],
-          "explanation": "Born 1906 in Br\u00fcnn, Austria-Hungary (now Brno, Czech Republic); died 1978 in Princeton, New Jersey\nG\u00f6del's incompleteness theorems (1931): in any consistent formal system capable of basic arithmetic, there are true statements that cannot be proved\nShattered Hilbert's program to establish complete, consistent foundations for all mathematics\nClose friend of Albert Einstein at Princeton's Institute for Advanced Study; they walked home together daily\nBecame a U.S. citizen in 1948; told the judge he'd found a logical flaw in the Constitution that could allow a dictatorship\nSuffered from extreme paranoia and fear of being poisoned; would only eat food prepared by his wife Adele\nDied of starvation in 1978 after Adele was hospitalized and could no longer cook for him",
+          "answer": "Kurt Gödel",
+          "alternates": [
+            "Godel",
+            "Goedel",
+            "Kurt Goedel"
+          ],
+          "explanation": "Born 1906 in Brünn, Austria-Hungary (now Brno, Czech Republic); died 1978 in Princeton, New Jersey\nGödel's incompleteness theorems (1931): in any consistent formal system capable of basic arithmetic, there are true statements that cannot be proved\nShattered Hilbert's program to establish complete, consistent foundations for all mathematics\nClose friend of Albert Einstein at Princeton's Institute for Advanced Study; they walked home together daily\nBecame a U.S. citizen in 1948; told the judge he'd found a logical flaw in the Constitution that could allow a dictatorship\nSuffered from extreme paranoia and fear of being poisoned; would only eat food prepared by his wife Adele\nDied of starvation in 1978 after Adele was hospitalized and could no longer cook for him",
           "cardFront": "Incompleteness theorems, 1931",
-          "cardBack": "Kurt G\u00f6del"
+          "cardBack": "Kurt Gödel",
+          "links": [
+            {
+              "text": "Kurt Gödel",
+              "url": "https://en.wikipedia.org/wiki/Kurt_Gödel"
+            },
+            {
+              "text": "Incompleteness theorems, 1931",
+              "url": "https://en.wikipedia.org/wiki/Incompleteness_theorems,_1931"
+            }
+          ]
         },
         {
           "id": "nash",
           "prompt": "Which American mathematician, the subject of the 2001 film *A Beautiful Mind*, won the 1994 Nobel Prize in Economics for his foundational work on game theory, including the equilibrium concept that bears his name?",
           "answer": "John Nash",
-          "alternates": ["John Forbes Nash", "John Forbes Nash Jr.", "Nash"],
-          "explanation": "Born 1928 in Bluefield, West Virginia; died 2015 in a taxi crash on the New Jersey Turnpike\nThe Nash equilibrium (1950): a game theory solution where no player benefits from unilaterally changing strategy\nWon the Nobel Memorial Prize in Economics in 1994, shared with Harsanyi and Selten\nDiagnosed with paranoid schizophrenia in 1959; spent years in and out of psychiatric hospitals\nRussell Crowe portrayed him in *A Beautiful Mind* (2001), which won Best Picture\nAwarded the Abel Prize in 2015 \u2014 killed in a taxi crash days later, returning from the ceremony in Norway\nHis wife Alicia was also killed in the same crash; neither was wearing a seatbelt",
+          "alternates": [
+            "John Forbes Nash",
+            "John Forbes Nash Jr.",
+            "Nash"
+          ],
+          "explanation": "Born 1928 in Bluefield, West Virginia; died 2015 in a taxi crash on the New Jersey Turnpike\nThe Nash equilibrium (1950): a game theory solution where no player benefits from unilaterally changing strategy\nWon the Nobel Memorial Prize in Economics in 1994, shared with Harsanyi and Selten\nDiagnosed with paranoid schizophrenia in 1959; spent years in and out of psychiatric hospitals\nRussell Crowe portrayed him in *A Beautiful Mind* (2001), which won Best Picture\nAwarded the Abel Prize in 2015 — killed in a taxi crash days later, returning from the ceremony in Norway\nHis wife Alicia was also killed in the same crash; neither was wearing a seatbelt",
           "cardFront": "Nash equilibrium, *A Beautiful Mind*",
-          "cardBack": "John Nash"
+          "cardBack": "John Nash",
+          "links": [
+            {
+              "text": "John Nash",
+              "url": "https://en.wikipedia.org/wiki/John_Nash"
+            },
+            {
+              "text": "Nash equilibrium, *A Beautiful Mind*",
+              "url": "https://en.wikipedia.org/wiki/Nash_equilibrium,_*A_Beautiful_Mind*"
+            }
+          ]
         },
         {
           "id": "hypatia",
           "prompt": "Which mathematician and philosopher of late antiquity, head of the Neoplatonic school in Alexandria around 400 CE, was murdered by a Christian mob and is considered the first notable female mathematician in recorded history?",
           "answer": "Hypatia",
-          "alternates": ["Hypatia of Alexandria"],
-          "explanation": "Born c. 350\u2013370 CE in Alexandria, Egypt; died 415 CE\nFirst female mathematician whose life is well-documented; taught mathematics, astronomy, and philosophy\nHead of the Neoplatonic school in Alexandria; students traveled from across the Mediterranean to study with her\nMurdered by a mob of Christians in 415 CE, likely for political reasons \u2014 caught between the Roman prefect and Bishop Cyril\nEdited and wrote commentaries on major mathematical works, including Ptolemy's *Almagest*\nRachel Weisz portrayed her in the film *Agora* (2009)\nHer death is sometimes used to mark the end of classical antiquity's intellectual tradition in Alexandria",
+          "alternates": [
+            "Hypatia of Alexandria"
+          ],
+          "explanation": "Born c. 350–370 CE in Alexandria, Egypt; died 415 CE\nFirst female mathematician whose life is well-documented; taught mathematics, astronomy, and philosophy\nHead of the Neoplatonic school in Alexandria; students traveled from across the Mediterranean to study with her\nMurdered by a mob of Christians in 415 CE, likely for political reasons — caught between the Roman prefect and Bishop Cyril\nEdited and wrote commentaries on major mathematical works, including Ptolemy's *Almagest*\nRachel Weisz portrayed her in the film *Agora* (2009)\nHer death is sometimes used to mark the end of classical antiquity's intellectual tradition in Alexandria",
           "cardFront": "Alexandria, first female mathematician",
-          "cardBack": "Hypatia"
+          "cardBack": "Hypatia",
+          "links": [
+            {
+              "text": "Hypatia",
+              "url": "https://en.wikipedia.org/wiki/Hypatia"
+            },
+            {
+              "text": "Alexandria, first female mathematician",
+              "url": "https://en.wikipedia.org/wiki/Alexandria,_first_female_mathematician"
+            }
+          ]
         },
         {
           "id": "wiles",
           "prompt": "Which British mathematician, working in secret for seven years at Princeton, proved Fermat's Last Theorem in 1995, solving a problem that had remained unproven for 358 years?",
           "answer": "Andrew Wiles",
-          "alternates": ["Wiles", "Sir Andrew Wiles"],
-          "explanation": "Born 1953 in Cambridge, England\nProved Fermat's Last Theorem \u2014 first announced the proof on June 23, 1993, at a Cambridge lecture\nA gap was found in September 1993; corrected with Richard Taylor by September 1994, published 1995\nWorked in secret for seven years (1986\u20131993), telling almost no one, including most colleagues\nInspired at age 10 after reading about Fermat's Last Theorem in a library book\nProved the modularity theorem for semistable elliptic curves \u2014 the actual mathematical breakthrough\nAwarded the Abel Prize in 2016; knighted in 2000\nIneligible for the Fields Medal (over 40 at time of proof), but received a special silver plaque from the IMU in 1998",
+          "alternates": [
+            "Wiles",
+            "Sir Andrew Wiles"
+          ],
+          "explanation": "Born 1953 in Cambridge, England\nProved Fermat's Last Theorem — first announced the proof on June 23, 1993, at a Cambridge lecture\nA gap was found in September 1993; corrected with Richard Taylor by September 1994, published 1995\nWorked in secret for seven years (1986–1993), telling almost no one, including most colleagues\nInspired at age 10 after reading about Fermat's Last Theorem in a library book\nProved the modularity theorem for semistable elliptic curves — the actual mathematical breakthrough\nAwarded the Abel Prize in 2016; knighted in 2000\nIneligible for the Fields Medal (over 40 at time of proof), but received a special silver plaque from the IMU in 1998",
           "cardFront": "Fermat's Last Theorem, 1995",
-          "cardBack": "Andrew Wiles"
+          "cardBack": "Andrew Wiles",
+          "links": [
+            {
+              "text": "Andrew Wiles",
+              "url": "https://en.wikipedia.org/wiki/Andrew_Wiles"
+            },
+            {
+              "text": "Fermat's Last Theorem, 1995",
+              "url": "https://en.wikipedia.org/wiki/Fermat's_Last_Theorem,_1995"
+            }
+          ]
         }
       ]
     }
