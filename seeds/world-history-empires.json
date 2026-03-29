@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "world-history/empires", "parentId": "world-history", "name": "Historical Empires", "description": "Major empires throughout world history" }
+    {
+      "id": "world-history/empires",
+      "parentId": "world-history",
+      "name": "Historical Empires",
+      "description": "Major empires throughout world history"
+    }
   ],
   "exercises": [
     {
@@ -12,192 +17,452 @@
       "items": [
         {
           "id": "macedonian-empire",
-          "prompt": "Which empire, created by Alexander the Great between 336\u2013323 BCE, stretched from Greece to northwestern India and spread Hellenistic culture across the known world?",
+          "prompt": "Which empire, created by Alexander the Great between 336–323 BCE, stretched from Greece to northwestern India and spread Hellenistic culture across the known world?",
           "answer": "Macedonian Empire",
-          "alternates": ["Macedonia", "Alexander's Empire", "Empire of Alexander the Great"],
-          "explanation": "Alexander III of Macedon conquered the Persian Empire, Egypt, Central Asia, and parts of India between 334\u2013323 BCE\nAt its peak (323 BCE), covered ~5.2 million km\u00b2 \u2014 the largest empire the Western world had seen at the time\nAlexander won every battle he fought; key victories included Granicus (334), Issus (333), and Gaugamela (331)\nFounded ~20 cities named Alexandria; Alexandria in Egypt became the intellectual capital of the ancient world\nAlexander died suddenly in Babylon in June 323 BCE, aged 32, without naming a clear successor\nEmpire divided among his generals (Diadochi) into the Ptolemaic (Egypt), Seleucid (Persia/Syria), and Antigonid (Macedonia) kingdoms",
-          "cardFront": "336\u2013323 BCE, Alexander the Great",
-          "cardBack": "Macedonian Empire"
+          "alternates": [
+            "Macedonia",
+            "Alexander's Empire",
+            "Empire of Alexander the Great"
+          ],
+          "explanation": "Alexander III of Macedon conquered the Persian Empire, Egypt, Central Asia, and parts of India between 334–323 BCE\nAt its peak (323 BCE), covered ~5.2 million km² — the largest empire the Western world had seen at the time\nAlexander won every battle he fought; key victories included Granicus (334), Issus (333), and Gaugamela (331)\nFounded ~20 cities named Alexandria; Alexandria in Egypt became the intellectual capital of the ancient world\nAlexander died suddenly in Babylon in June 323 BCE, aged 32, without naming a clear successor\nEmpire divided among his generals (Diadochi) into the Ptolemaic (Egypt), Seleucid (Persia/Syria), and Antigonid (Macedonia) kingdoms",
+          "cardFront": "336–323 BCE, Alexander the Great",
+          "cardBack": "Macedonian Empire",
+          "links": [
+            {
+              "text": "Macedonian Empire",
+              "url": "https://en.wikipedia.org/wiki/Macedonian_Empire"
+            }
+          ]
         },
         {
           "id": "byzantine-empire",
-          "prompt": "Which empire \u2014 the eastern continuation of Rome after the West's fall in 476 CE \u2014 survived for over a millennium until Constantinople fell to the Ottoman Turks in 1453?",
+          "prompt": "Which empire — the eastern continuation of Rome after the West's fall in 476 CE — survived for over a millennium until Constantinople fell to the Ottoman Turks in 1453?",
           "answer": "Byzantine Empire",
-          "alternates": ["Byzantium", "Eastern Roman Empire", "Eastern Rome"],
-          "explanation": "Eastern Roman Empire centered in Constantinople (modern Istanbul), 330\u20131453 CE \u2014 over 1,100 years of continuous rule\nFounded when Constantine I moved the imperial capital from Rome to Byzantium in 330 CE and renamed it Constantinople\nPreserved Roman law, Greek culture, and Orthodox Christian theology through the European 'Dark Ages'\nJustinian I (r. 527\u2013565): temporarily reconquered much of the western Mediterranean and codified Roman law in the *Corpus Juris Civilis*, which influenced Western legal systems for centuries\nFell May 29, 1453 when Sultan Mehmed II's cannon fire breached Constantinople's walls \u2014 ending the Roman Empire's 2,200-year run\nConstantinople's fall drove Greek scholars to Italy, helping spark the Italian Renaissance",
-          "cardFront": "Eastern Rome, Constantinople, 330\u20131453",
-          "cardBack": "Byzantine Empire"
+          "alternates": [
+            "Byzantium",
+            "Eastern Roman Empire",
+            "Eastern Rome"
+          ],
+          "explanation": "Eastern Roman Empire centered in Constantinople (modern Istanbul), 330–1453 CE — over 1,100 years of continuous rule\nFounded when Constantine I moved the imperial capital from Rome to Byzantium in 330 CE and renamed it Constantinople\nPreserved Roman law, Greek culture, and Orthodox Christian theology through the European 'Dark Ages'\nJustinian I (r. 527–565): temporarily reconquered much of the western Mediterranean and codified Roman law in the *Corpus Juris Civilis*, which influenced Western legal systems for centuries\nFell May 29, 1453 when Sultan Mehmed II's cannon fire breached Constantinople's walls — ending the Roman Empire's 2,200-year run\nConstantinople's fall drove Greek scholars to Italy, helping spark the Italian Renaissance",
+          "cardFront": "Eastern Rome, Constantinople, 330–1453",
+          "cardBack": "Byzantine Empire",
+          "links": [
+            {
+              "text": "Byzantine Empire",
+              "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+            },
+            {
+              "text": "Eastern Rome, Constantinople, 330–1453",
+              "url": "https://en.wikipedia.org/wiki/Eastern_Rome,_Constantinople,_330–1453"
+            }
+          ]
         },
         {
           "id": "carolingian-empire",
-          "prompt": "Which empire \u2014 founded when Pope Leo III crowned Charlemagne on Christmas Day 800 CE \u2014 briefly united most of Western Europe for the first time since Rome's fall?",
+          "prompt": "Which empire — founded when Pope Leo III crowned Charlemagne on Christmas Day 800 CE — briefly united most of Western Europe for the first time since Rome's fall?",
           "answer": "Carolingian Empire",
-          "alternates": ["Charlemagne's Empire", "Frankish Empire", "Empire of Charlemagne"],
-          "explanation": "Charlemagne (Charles the Great) crowned Holy Roman Emperor by Pope Leo III on December 25, 800 CE in Rome\nAt its peak, controlled modern France, Germany, northern Italy, Benelux, and parts of Spain \u2014 the largest Western European empire since Rome\nCharlemagne standardized coinage, weights, and measures; promoted literacy and scholarship (the Carolingian Renaissance)\nCapital at Aachen (modern Germany); the Palatine Chapel built there still stands\nDivided among Charlemagne's three grandsons by the Treaty of Verdun (843) into the rough ancestors of France, Germany, and the Low Countries\nConsidered the 'Father of Europe'; both France and Germany claim Charlemagne as a founding national figure",
+          "alternates": [
+            "Charlemagne's Empire",
+            "Frankish Empire",
+            "Empire of Charlemagne"
+          ],
+          "explanation": "Charlemagne (Charles the Great) crowned Holy Roman Emperor by Pope Leo III on December 25, 800 CE in Rome\nAt its peak, controlled modern France, Germany, northern Italy, Benelux, and parts of Spain — the largest Western European empire since Rome\nCharlemagne standardized coinage, weights, and measures; promoted literacy and scholarship (the Carolingian Renaissance)\nCapital at Aachen (modern Germany); the Palatine Chapel built there still stands\nDivided among Charlemagne's three grandsons by the Treaty of Verdun (843) into the rough ancestors of France, Germany, and the Low Countries\nConsidered the 'Father of Europe'; both France and Germany claim Charlemagne as a founding national figure",
           "cardFront": "Charlemagne, December 25, 800 CE, unified Western Europe",
-          "cardBack": "Carolingian Empire"
+          "cardBack": "Carolingian Empire",
+          "links": [
+            {
+              "text": "Carolingian Empire",
+              "url": "https://en.wikipedia.org/wiki/Carolingian_Empire"
+            },
+            {
+              "text": "Charlemagne, December 25, 800 CE, unified Western Europe",
+              "url": "https://en.wikipedia.org/wiki/Charlemagne,_December_25,_800_CE,_unified_Western_Europe"
+            }
+          ]
         },
         {
           "id": "umayyad-caliphate",
-          "prompt": "Which caliphate (661\u2013750 CE), Islam's first hereditary dynasty, rapidly expanded from Arabia across North Africa to Spain before being halted at the Battle of Tours by Charles Martel in 732?",
+          "prompt": "Which caliphate (661–750 CE), Islam's first hereditary dynasty, rapidly expanded from Arabia across North Africa to Spain before being halted at the Battle of Tours by Charles Martel in 732?",
           "answer": "Umayyad Caliphate",
-          "alternates": ["Umayyad", "Umayyads", "Umayyad Empire"],
-          "explanation": "Ruled 661\u2013750 CE, headquartered in Damascus; the first caliphate based on hereditary succession rather than election\nRepresented the fastest territorial expansion in world history: from Arabia to Spain and Central Asia within a century of Muhammad's death\nAt its peak covered ~11 million km\u00b2, ruling from the Iberian Peninsula to the borders of Tang China\nBattle of Tours/Poitiers (732): Charles Martel (Frankish leader) defeated an Umayyad army, halting Muslim expansion into Western Europe\nOverthrown in 750 by the Abbasid Revolution; the last Umayyad prince, Abd al-Rahman I, escaped to Spain and founded the Emirate of C\u00f3rdoba\nSpanish branch survived as the Caliphate of C\u00f3rdoba (929\u20131031), one of medieval Europe's most sophisticated cultures",
-          "cardFront": "661\u2013750 CE",
-          "cardBack": "Umayyad Caliphate"
+          "alternates": [
+            "Umayyad",
+            "Umayyads",
+            "Umayyad Empire"
+          ],
+          "explanation": "Ruled 661–750 CE, headquartered in Damascus; the first caliphate based on hereditary succession rather than election\nRepresented the fastest territorial expansion in world history: from Arabia to Spain and Central Asia within a century of Muhammad's death\nAt its peak covered ~11 million km², ruling from the Iberian Peninsula to the borders of Tang China\nBattle of Tours/Poitiers (732): Charles Martel (Frankish leader) defeated an Umayyad army, halting Muslim expansion into Western Europe\nOverthrown in 750 by the Abbasid Revolution; the last Umayyad prince, Abd al-Rahman I, escaped to Spain and founded the Emirate of Córdoba\nSpanish branch survived as the Caliphate of Córdoba (929–1031), one of medieval Europe's most sophisticated cultures",
+          "cardFront": "661–750 CE",
+          "cardBack": "Umayyad Caliphate",
+          "links": [
+            {
+              "text": "Umayyad Caliphate",
+              "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate"
+            }
+          ]
         },
         {
           "id": "abbasid-caliphate",
-          "prompt": "Which caliphate (750\u20131258 CE), headquartered in Baghdad, presided over the Islamic Golden Age of mathematics, astronomy, and medicine before being destroyed by Mongol invaders?",
+          "prompt": "Which caliphate (750–1258 CE), headquartered in Baghdad, presided over the Islamic Golden Age of mathematics, astronomy, and medicine before being destroyed by Mongol invaders?",
           "answer": "Abbasid Caliphate",
-          "alternates": ["Abbasid", "Abbasids", "Abbasid Empire"],
-          "explanation": "Ruled 750\u20131258 CE; replaced the Umayyads and moved the capital from Damascus to the newly founded city of Baghdad (762 CE)\nBaghdad became the world's largest city and intellectual center; the House of Wisdom (Bayt al-Hikma) translated Greek, Persian, and Indian texts\nIslamic Golden Age: al-Khwarizmi invented algebra; Ibn Sina wrote the Canon of Medicine; al-Biruni calculated Earth's radius accurately\nHarun al-Rashid (r. 786\u2013809) corresponds to the era of *One Thousand and One Nights*; exchanged gifts with Charlemagne\nMongol sack of Baghdad (1258): Hulagu Khan executed the last Abbasid Caliph and destroyed the city \u2014 widely seen as ending the Islamic Golden Age\nA branch of the dynasty survived in Cairo as a ceremonial caliphate under Mamluk protection until the Ottoman conquest in 1517",
-          "cardFront": "750\u20131258 CE",
-          "cardBack": "Abbasid Caliphate"
+          "alternates": [
+            "Abbasid",
+            "Abbasids",
+            "Abbasid Empire"
+          ],
+          "explanation": "Ruled 750–1258 CE; replaced the Umayyads and moved the capital from Damascus to the newly founded city of Baghdad (762 CE)\nBaghdad became the world's largest city and intellectual center; the House of Wisdom (Bayt al-Hikma) translated Greek, Persian, and Indian texts\nIslamic Golden Age: al-Khwarizmi invented algebra; Ibn Sina wrote the Canon of Medicine; al-Biruni calculated Earth's radius accurately\nHarun al-Rashid (r. 786–809) corresponds to the era of *One Thousand and One Nights*; exchanged gifts with Charlemagne\nMongol sack of Baghdad (1258): Hulagu Khan executed the last Abbasid Caliph and destroyed the city — widely seen as ending the Islamic Golden Age\nA branch of the dynasty survived in Cairo as a ceremonial caliphate under Mamluk protection until the Ottoman conquest in 1517",
+          "cardFront": "750–1258 CE",
+          "cardBack": "Abbasid Caliphate",
+          "links": [
+            {
+              "text": "Abbasid Caliphate",
+              "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+            }
+          ]
         },
         {
           "id": "tang-dynasty",
-          "prompt": "Which Chinese dynasty (618\u2013907 CE), often called the 'Golden Age of China,' made Chang'an one of the world's largest cities and produced China's two greatest poets?",
+          "prompt": "Which Chinese dynasty (618–907 CE), often called the 'Golden Age of China,' made Chang'an one of the world's largest cities and produced China's two greatest poets?",
           "answer": "Tang Dynasty",
-          "alternates": ["Tang", "Tang China"],
-          "explanation": "Ruled 618\u2013907 CE; founded by the Li family after the collapse of the Sui Dynasty\nChang'an (modern Xi'an) was the world's most populous city (~1 million residents) and a cosmopolitan Silk Road hub\nEmpress Wu Zetian (r. 690\u2013705): the only woman in Chinese history to rule with the title of Empress Regnant in her own right\nLi Bai and Du Fu \u2014 the two most celebrated poets in Chinese literary history \u2014 both flourished during the Tang\nBlock printing significantly developed in this era, enabling mass reproduction of texts\nTang collapse led to the Five Dynasties and Ten Kingdoms period of fragmentation, ending ~907 CE",
-          "cardFront": "China's Golden Age, Chang'an, 618\u2013907",
-          "cardBack": "Tang Dynasty"
+          "alternates": [
+            "Tang",
+            "Tang China"
+          ],
+          "explanation": "Ruled 618–907 CE; founded by the Li family after the collapse of the Sui Dynasty\nChang'an (modern Xi'an) was the world's most populous city (~1 million residents) and a cosmopolitan Silk Road hub\nEmpress Wu Zetian (r. 690–705): the only woman in Chinese history to rule with the title of Empress Regnant in her own right\nLi Bai and Du Fu — the two most celebrated poets in Chinese literary history — both flourished during the Tang\nBlock printing significantly developed in this era, enabling mass reproduction of texts\nTang collapse led to the Five Dynasties and Ten Kingdoms period of fragmentation, ending ~907 CE",
+          "cardFront": "China's Golden Age, Chang'an, 618–907",
+          "cardBack": "Tang Dynasty",
+          "links": [
+            {
+              "text": "Tang Dynasty",
+              "url": "https://en.wikipedia.org/wiki/Tang_Dynasty"
+            },
+            {
+              "text": "China's Golden Age, Chang'an, 618–907",
+              "url": "https://en.wikipedia.org/wiki/China's_Golden_Age,_Chang'an,_618–907"
+            }
+          ]
         },
         {
           "id": "holy-roman-empire",
           "prompt": "Which European political entity, lasting from 962 to 1806, prompted Voltaire's famous quip that it was 'neither holy, nor Roman, nor an empire'?",
           "answer": "Holy Roman Empire",
-          "alternates": ["HRE"],
-          "explanation": "Existed 962\u20131806; nominally Christian Europe's highest secular authority, encompassing what is now Germany, Austria, Czech Republic, and parts of Italy and France\nFounded when Pope John XII crowned Otto I emperor in 962; considered the successor to Charlemagne's Carolingian Empire\nPersistent conflict between emperors and popes (Investiture Controversy) weakened central authority; Germany remained fragmented while France and England consolidated\nElective monarchy: the emperor was chosen by seven Prince-Electors, making the empire a constitutional monarchy of sorts\nVoltaire's quip: 'neither holy, nor Roman, nor an empire' captured its loose, decentralized character\nNapoleon forced the last emperor, Francis II, to dissolve it in 1806 after defeating Austria at Austerlitz",
-          "cardFront": "962\u20131806",
-          "cardBack": "Holy Roman Empire"
+          "alternates": [
+            "HRE"
+          ],
+          "explanation": "Existed 962–1806; nominally Christian Europe's highest secular authority, encompassing what is now Germany, Austria, Czech Republic, and parts of Italy and France\nFounded when Pope John XII crowned Otto I emperor in 962; considered the successor to Charlemagne's Carolingian Empire\nPersistent conflict between emperors and popes (Investiture Controversy) weakened central authority; Germany remained fragmented while France and England consolidated\nElective monarchy: the emperor was chosen by seven Prince-Electors, making the empire a constitutional monarchy of sorts\nVoltaire's quip: 'neither holy, nor Roman, nor an empire' captured its loose, decentralized character\nNapoleon forced the last emperor, Francis II, to dissolve it in 1806 after defeating Austria at Austerlitz",
+          "cardFront": "962–1806",
+          "cardBack": "Holy Roman Empire",
+          "links": [
+            {
+              "text": "Holy Roman Empire",
+              "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+            }
+          ]
         },
         {
           "id": "mongol-empire",
-          "prompt": "Which empire, founded by Genghis Khan in 1206 and peaking at ~24 million km\u00b2, was the largest contiguous land empire in history?",
+          "prompt": "Which empire, founded by Genghis Khan in 1206 and peaking at ~24 million km², was the largest contiguous land empire in history?",
           "answer": "Mongol Empire",
-          "alternates": ["Mongols", "Mongol"],
-          "explanation": "Founded by Genghis Khan (Tem\u00fcjin) in 1206; at its peak under Kublai Khan (1271\u20131294) covered ~24 million km\u00b2\nThe largest contiguous land empire in history \u2014 from the Pacific Ocean to Eastern Europe\nGenghis Khan died in 1227; the empire was divided among his sons and grandsons into four khanates\nKublai Khan founded the Yuan Dynasty in China (1271) and attempted (failed) invasions of Japan in 1274 and 1281 \u2014 storms (kamikaze, 'divine wind') destroyed both fleets\nPax Mongolica: the Mongol Peace allowed unprecedented East-West trade along the Silk Road, transmitting goods, ideas, and diseases (Black Death)\nDeclined rapidly after 1294; the Black Death, overextension, and loss of nomadic cohesion fragmented the empire by the mid-14th century",
-          "cardFront": "1206\u20131368, ~24 million km\u00b2",
-          "cardBack": "Mongol Empire"
+          "alternates": [
+            "Mongols",
+            "Mongol"
+          ],
+          "explanation": "Founded by Genghis Khan (Temüjin) in 1206; at its peak under Kublai Khan (1271–1294) covered ~24 million km²\nThe largest contiguous land empire in history — from the Pacific Ocean to Eastern Europe\nGenghis Khan died in 1227; the empire was divided among his sons and grandsons into four khanates\nKublai Khan founded the Yuan Dynasty in China (1271) and attempted (failed) invasions of Japan in 1274 and 1281 — storms (kamikaze, 'divine wind') destroyed both fleets\nPax Mongolica: the Mongol Peace allowed unprecedented East-West trade along the Silk Road, transmitting goods, ideas, and diseases (Black Death)\nDeclined rapidly after 1294; the Black Death, overextension, and loss of nomadic cohesion fragmented the empire by the mid-14th century",
+          "cardFront": "1206–1368, ~24 million km²",
+          "cardBack": "Mongol Empire",
+          "links": [
+            {
+              "text": "Mongol Empire",
+              "url": "https://en.wikipedia.org/wiki/Mongol_Empire"
+            }
+          ]
         },
         {
           "id": "mali-empire",
-          "prompt": "Which West African empire (c. 1235\u20131600) produced Mansa Musa \u2014 often cited as the wealthiest person in history \u2014 whose 1324 pilgrimage to Mecca distributed so much gold it caused inflation across the Middle East?",
+          "prompt": "Which West African empire (c. 1235–1600) produced Mansa Musa — often cited as the wealthiest person in history — whose 1324 pilgrimage to Mecca distributed so much gold it caused inflation across the Middle East?",
           "answer": "Mali Empire",
-          "alternates": ["Mali", "Empire of Mali"],
-          "explanation": "Flourished c. 1235\u20131600 in West Africa (modern Mali, Senegal, Guinea); founded by Sundiata Keita after defeating the Sosso kingdom\nMansa Musa (r. 1312\u20131337): often cited as the wealthiest person in history; net worth estimated at ~$400 billion in modern equivalents\n1324 hajj to Mecca: his 60,000-person caravan gave away so much gold it caused severe inflation across Egypt and the Middle East for over a decade\nTimbuktu became one of the world's great centers of Islamic scholarship \u2014 Sankore University had up to 25,000 students\nControlled the major trans-Saharan gold-and-salt trade routes, the economic engine of medieval West Africa\nDeclined due to internal succession conflicts and raids by the rising Songhai Empire",
-          "cardFront": "Mansa Musa, Timbuktu, West Africa, c. 1235\u20131600",
-          "cardBack": "Mali Empire"
+          "alternates": [
+            "Mali",
+            "Empire of Mali"
+          ],
+          "explanation": "Flourished c. 1235–1600 in West Africa (modern Mali, Senegal, Guinea); founded by Sundiata Keita after defeating the Sosso kingdom\nMansa Musa (r. 1312–1337): often cited as the wealthiest person in history; net worth estimated at ~$400 billion in modern equivalents\n1324 hajj to Mecca: his 60,000-person caravan gave away so much gold it caused severe inflation across Egypt and the Middle East for over a decade\nTimbuktu became one of the world's great centers of Islamic scholarship — Sankore University had up to 25,000 students\nControlled the major trans-Saharan gold-and-salt trade routes, the economic engine of medieval West Africa\nDeclined due to internal succession conflicts and raids by the rising Songhai Empire",
+          "cardFront": "Mansa Musa, Timbuktu, West Africa, c. 1235–1600",
+          "cardBack": "Mali Empire",
+          "links": [
+            {
+              "text": "Mali Empire",
+              "url": "https://en.wikipedia.org/wiki/Mali_Empire"
+            },
+            {
+              "text": "Mansa Musa, Timbuktu, West Africa, c. 1235–1600",
+              "url": "https://en.wikipedia.org/wiki/Mansa_Musa,_Timbuktu,_West_Africa,_c._1235–1600"
+            }
+          ]
         },
         {
           "id": "ottoman-empire",
           "prompt": "Which empire, founded c. 1299 and lasting until 1922, conquered Constantinople in 1453, controlled much of southeastern Europe, the Middle East, and North Africa at its peak?",
           "answer": "Ottoman Empire",
-          "alternates": ["Ottoman", "Ottomans", "Turkish Empire"],
-          "explanation": "Founded c. 1299 by Osman I in northwestern Anatolia; lasted until 1922 \u2014 the longest-lasting Muslim empire in history\nMehmed II ('the Conqueror') captured Constantinople in 1453, ending the Byzantine Empire and renaming the city Istanbul\nPeak power under Suleiman the Magnificent (r. 1520\u20131566): conquered Belgrade (1521) and Rhodes (1522); besieged Vienna (1529)\nControlled the Balkans, Anatolia, the Middle East, Egypt, and North Africa at its height \u2014 roughly 5.2 million km\u00b2\nMillet system allowed non-Muslim minorities (Christians, Jews) to govern their own communities under Ottoman rule\nDeclined through the 18th\u201319th centuries (the 'Sick Man of Europe'); collapsed after WWI; the Republic of Turkey succeeded it in 1922",
-          "cardFront": "c. 1299\u20131922",
-          "cardBack": "Ottoman Empire"
+          "alternates": [
+            "Ottoman",
+            "Ottomans",
+            "Turkish Empire"
+          ],
+          "explanation": "Founded c. 1299 by Osman I in northwestern Anatolia; lasted until 1922 — the longest-lasting Muslim empire in history\nMehmed II ('the Conqueror') captured Constantinople in 1453, ending the Byzantine Empire and renaming the city Istanbul\nPeak power under Suleiman the Magnificent (r. 1520–1566): conquered Belgrade (1521) and Rhodes (1522); besieged Vienna (1529)\nControlled the Balkans, Anatolia, the Middle East, Egypt, and North Africa at its height — roughly 5.2 million km²\nMillet system allowed non-Muslim minorities (Christians, Jews) to govern their own communities under Ottoman rule\nDeclined through the 18th–19th centuries (the 'Sick Man of Europe'); collapsed after WWI; the Republic of Turkey succeeded it in 1922",
+          "cardFront": "c. 1299–1922",
+          "cardBack": "Ottoman Empire",
+          "links": [
+            {
+              "text": "Ottoman Empire",
+              "url": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+            },
+            {
+              "text": "c. 1299–1922",
+              "url": "https://en.wikipedia.org/wiki/c._1299–1922"
+            }
+          ]
         },
         {
           "id": "safavid-empire",
-          "prompt": "Which Persian empire (1501\u20131736) converted Iran to Twelver Shia Islam, fundamentally shaping modern Iranian identity and creating the Sunni-Shia fault line that still defines Middle Eastern geopolitics?",
+          "prompt": "Which Persian empire (1501–1736) converted Iran to Twelver Shia Islam, fundamentally shaping modern Iranian identity and creating the Sunni-Shia fault line that still defines Middle Eastern geopolitics?",
           "answer": "Safavid Empire",
-          "alternates": ["Safavid", "Safavids", "Safavid Dynasty", "Safavid Persia"],
-          "explanation": "1501\u20131736; founded by Shah Ismail I, who conquered Persia and declared Twelver Shia Islam the state religion\nConversion of Iran to Shia Islam created the Sunni-Shia divide still central to Middle Eastern geopolitics today\nConstant warfare with the Sunni Ottoman Empire (Ottoman\u2013Safavid Wars, 1514\u20131639)\nShah Abbas I (r. 1588\u20131629): height of Safavid power; reformed the military, moved capital to Isfahan\nIsfahan called 'half the world' (nesf-e jahan); its Naqsh-e Jahan Square is a UNESCO World Heritage Site\nFell to Afghan invasion in 1722; formally ended in 1736 when Nader Shah deposed the last Safavid",
-          "cardFront": "Persia, 1501\u20131736, Shia Islam, rival of the Ottomans",
-          "cardBack": "Safavid Empire"
+          "alternates": [
+            "Safavid",
+            "Safavids",
+            "Safavid Dynasty",
+            "Safavid Persia"
+          ],
+          "explanation": "1501–1736; founded by Shah Ismail I, who conquered Persia and declared Twelver Shia Islam the state religion\nConversion of Iran to Shia Islam created the Sunni-Shia divide still central to Middle Eastern geopolitics today\nConstant warfare with the Sunni Ottoman Empire (Ottoman–Safavid Wars, 1514–1639)\nShah Abbas I (r. 1588–1629): height of Safavid power; reformed the military, moved capital to Isfahan\nIsfahan called 'half the world' (nesf-e jahan); its Naqsh-e Jahan Square is a UNESCO World Heritage Site\nFell to Afghan invasion in 1722; formally ended in 1736 when Nader Shah deposed the last Safavid",
+          "cardFront": "Persia, 1501–1736, Shia Islam, rival of the Ottomans",
+          "cardBack": "Safavid Empire",
+          "links": [
+            {
+              "text": "Safavid Empire",
+              "url": "https://en.wikipedia.org/wiki/Safavid_Empire"
+            },
+            {
+              "text": "Persia, 1501–1736, Shia Islam, rival of the Ottomans",
+              "url": "https://en.wikipedia.org/wiki/Persia,_1501–1736,_Shia_Islam,_rival_of_the_Ottomans"
+            }
+          ]
         },
         {
           "id": "portuguese-empire",
           "prompt": "Which empire, beginning with the capture of Ceuta in 1415 and extending to Macau's handover in 1999, was the world's first global maritime empire and the longest-lived colonial empire?",
           "answer": "Portuguese Empire",
-          "alternates": ["Portugal", "Portuguese"],
-          "explanation": "Spanned 1415\u20131999 \u2014 the longest-lived colonial empire in history at ~584 years\nBegan with Prince Henry the Navigator sponsoring exploration of the African coast; Bartholomeu Dias rounded the Cape of Good Hope (1488)\nVasco da Gama reached India by sea in 1498 \u2014 opening the spice trade route that broke Venetian and Arab monopolies\nPedro \u00c1lvares Cabral claimed Brazil for Portugal (1500); the empire eventually spread across Africa, South America, India, Southeast Asia, and East Asia\nTreaty of Tordesillas (1494) divided the New World between Portugal and Spain along a meridian\nPortugal handed Macau to China in 1999 \u2014 the last European colonial possession in Asia",
-          "cardFront": "1415\u20131999",
-          "cardBack": "Portuguese Empire"
+          "alternates": [
+            "Portugal",
+            "Portuguese"
+          ],
+          "explanation": "Spanned 1415–1999 — the longest-lived colonial empire in history at ~584 years\nBegan with Prince Henry the Navigator sponsoring exploration of the African coast; Bartholomeu Dias rounded the Cape of Good Hope (1488)\nVasco da Gama reached India by sea in 1498 — opening the spice trade route that broke Venetian and Arab monopolies\nPedro Álvares Cabral claimed Brazil for Portugal (1500); the empire eventually spread across Africa, South America, India, Southeast Asia, and East Asia\nTreaty of Tordesillas (1494) divided the New World between Portugal and Spain along a meridian\nPortugal handed Macau to China in 1999 — the last European colonial possession in Asia",
+          "cardFront": "1415–1999",
+          "cardBack": "Portuguese Empire",
+          "links": [
+            {
+              "text": "Portuguese Empire",
+              "url": "https://en.wikipedia.org/wiki/Portuguese_Empire"
+            }
+          ]
         },
         {
           "id": "spanish-empire",
           "prompt": "Which empire, beginning with Columbus's 1492 voyage, became the first to span multiple continents and the world's largest in the 16th century, financing itself with New World silver and gold?",
           "answer": "Spanish Empire",
-          "alternates": ["Spain", "Spanish"],
-          "explanation": "Spanned c. 1492\u20131976; at its peak in the 16th century, covered ~13 million km\u00b2 \u2014 the world's first global empire\nColumbus's 1492 voyage (sponsored by Ferdinand and Isabella) opened the Americas to Spanish conquest\nHern\u00e1n Cort\u00e9s conquered the Aztec Empire (1519\u20131521); Francisco Pizarro conquered the Inca Empire (1532\u20131533)\nMassive silver deposits at Potos\u00ed (Bolivia) and gold from the Americas funded Spain's European wars and caused inflation across Europe (Price Revolution)\nSpanish Armada (1588): Philip II's fleet was defeated by England and storms, symbolizing the start of Spanish decline\nSpain lost most of its American colonies in the early 19th century through independence movements; Cuba and the Philippines in 1898",
-          "cardFront": "c. 1492\u20131898 (Americas)",
-          "cardBack": "Spanish Empire"
+          "alternates": [
+            "Spain",
+            "Spanish"
+          ],
+          "explanation": "Spanned c. 1492–1976; at its peak in the 16th century, covered ~13 million km² — the world's first global empire\nColumbus's 1492 voyage (sponsored by Ferdinand and Isabella) opened the Americas to Spanish conquest\nHernán Cortés conquered the Aztec Empire (1519–1521); Francisco Pizarro conquered the Inca Empire (1532–1533)\nMassive silver deposits at Potosí (Bolivia) and gold from the Americas funded Spain's European wars and caused inflation across Europe (Price Revolution)\nSpanish Armada (1588): Philip II's fleet was defeated by England and storms, symbolizing the start of Spanish decline\nSpain lost most of its American colonies in the early 19th century through independence movements; Cuba and the Philippines in 1898",
+          "cardFront": "c. 1492–1898 (Americas)",
+          "cardBack": "Spanish Empire",
+          "links": [
+            {
+              "text": "Spanish Empire",
+              "url": "https://en.wikipedia.org/wiki/Spanish_Empire"
+            },
+            {
+              "text": "c. 1492–1898",
+              "url": "https://en.wikipedia.org/wiki/c._1492–1898"
+            }
+          ]
         },
         {
           "id": "tokugawa-shogunate",
           "prompt": "Which Japanese military government from 1603 to 1868 maintained 250 years of peace and strict foreign isolation (sakoku) before Commodore Perry's 'Black Ships' forced Japan to open to trade?",
           "answer": "Tokugawa Shogunate",
-          "alternates": ["Tokugawa", "Edo Period", "Tokugawa Japan"],
-          "explanation": "Military government (bakufu) founded by Tokugawa Ieyasu after winning the Battle of Sekigahara (1600); capital at Edo (modern Tokyo)\nJapan was largely peaceful for ~250 years \u2014 one of the longest periods of domestic peace in world history\nSakoku policy (1635\u20131853): Japan restricted nearly all foreign contact; only Dutch and Chinese trade allowed at Nagasaki\nCommerce, arts, and urban culture flourished: kabuki theatre, haiku poetry (Matsuo Bash\u014d), woodblock prints (ukiyo-e, Hokusai)\nCommodore Matthew Perry's 'Black Ships' (1853) forced Japan to open trade ports, triggering political crisis\nMeiji Restoration (1868): shogunate overthrown; emperor restored; Japan industrialized rapidly and became a world power within 50 years",
-          "cardFront": "Japan, 1603\u20131868, sakoku isolation, Perry's Black Ships",
-          "cardBack": "Tokugawa Shogunate"
+          "alternates": [
+            "Tokugawa",
+            "Edo Period",
+            "Tokugawa Japan"
+          ],
+          "explanation": "Military government (bakufu) founded by Tokugawa Ieyasu after winning the Battle of Sekigahara (1600); capital at Edo (modern Tokyo)\nJapan was largely peaceful for ~250 years — one of the longest periods of domestic peace in world history\nSakoku policy (1635–1853): Japan restricted nearly all foreign contact; only Dutch and Chinese trade allowed at Nagasaki\nCommerce, arts, and urban culture flourished: kabuki theatre, haiku poetry (Matsuo Bashō), woodblock prints (ukiyo-e, Hokusai)\nCommodore Matthew Perry's 'Black Ships' (1853) forced Japan to open trade ports, triggering political crisis\nMeiji Restoration (1868): shogunate overthrown; emperor restored; Japan industrialized rapidly and became a world power within 50 years",
+          "cardFront": "Japan, 1603–1868, sakoku isolation, Perry's Black Ships",
+          "cardBack": "Tokugawa Shogunate",
+          "links": [
+            {
+              "text": "Tokugawa Shogunate",
+              "url": "https://en.wikipedia.org/wiki/Tokugawa_Shogunate"
+            },
+            {
+              "text": "Japan, 1603–1868, sakoku isolation, Perry's Black Ships",
+              "url": "https://en.wikipedia.org/wiki/Japan,_1603–1868,_sakoku_isolation,_Perry's_Black_Ships"
+            }
+          ]
         },
         {
           "id": "mughal-empire",
-          "prompt": "Which empire (1526\u20131857) \u2014 founded by Babur and reaching its height under Akbar the Great \u2014 ruled most of the Indian subcontinent and built the Taj Mahal?",
+          "prompt": "Which empire (1526–1857) — founded by Babur and reaching its height under Akbar the Great — ruled most of the Indian subcontinent and built the Taj Mahal?",
           "answer": "Mughal Empire",
-          "alternates": ["Mughal", "Mughals", "Moghul Empire"],
-          "explanation": "Founded by Babur (descendant of both Timur and Genghis Khan) in 1526 after defeating the Delhi Sultanate at the First Battle of Panipat\nAkbar the Great (r. 1556\u20131605): greatest Mughal emperor; promoted religious tolerance, abolished the jizya tax on non-Muslims, created a syncretic Din-i-Ilahi philosophy\nShah Jahan (r. 1628\u20131658) built the Taj Mahal (1631\u20131648) as a mausoleum for his wife Mumtaz Mahal, who died in childbirth\nAurangzeb (r. 1658\u20131707): last powerful Mughal; expanded to greatest territorial extent but reversed Akbar's tolerance, reigniting Hindu-Muslim tensions\nThe Indian Rebellion of 1857 (Sepoy Mutiny) ended the empire; last Mughal emperor Bahadur Shah Zafar exiled by Britain\nMughal architecture \u2014 Taj Mahal, Red Fort, Fatehpur Sikri \u2014 represents one of the world's great artistic legacies",
-          "cardFront": "Babur, Taj Mahal, Indian subcontinent, 1526\u20131857",
-          "cardBack": "Mughal Empire"
+          "alternates": [
+            "Mughal",
+            "Mughals",
+            "Moghul Empire"
+          ],
+          "explanation": "Founded by Babur (descendant of both Timur and Genghis Khan) in 1526 after defeating the Delhi Sultanate at the First Battle of Panipat\nAkbar the Great (r. 1556–1605): greatest Mughal emperor; promoted religious tolerance, abolished the jizya tax on non-Muslims, created a syncretic Din-i-Ilahi philosophy\nShah Jahan (r. 1628–1658) built the Taj Mahal (1631–1648) as a mausoleum for his wife Mumtaz Mahal, who died in childbirth\nAurangzeb (r. 1658–1707): last powerful Mughal; expanded to greatest territorial extent but reversed Akbar's tolerance, reigniting Hindu-Muslim tensions\nThe Indian Rebellion of 1857 (Sepoy Mutiny) ended the empire; last Mughal emperor Bahadur Shah Zafar exiled by Britain\nMughal architecture — Taj Mahal, Red Fort, Fatehpur Sikri — represents one of the world's great artistic legacies",
+          "cardFront": "Babur, Taj Mahal, Indian subcontinent, 1526–1857",
+          "cardBack": "Mughal Empire",
+          "links": [
+            {
+              "text": "Mughal Empire",
+              "url": "https://en.wikipedia.org/wiki/Mughal_Empire"
+            },
+            {
+              "text": "Babur, Taj Mahal, Indian subcontinent, 1526–1857",
+              "url": "https://en.wikipedia.org/wiki/Babur,_Taj_Mahal,_Indian_subcontinent,_1526–1857"
+            }
+          ]
         },
         {
           "id": "qing-dynasty",
-          "prompt": "Which dynasty (1644\u20131912) \u2014 China's last imperial dynasty, founded by Manchu conquerors \u2014 was overthrown in the Xinhai Revolution that established the Republic of China?",
+          "prompt": "Which dynasty (1644–1912) — China's last imperial dynasty, founded by Manchu conquerors — was overthrown in the Xinhai Revolution that established the Republic of China?",
           "answer": "Qing Dynasty",
-          "alternates": ["Qing", "Manchu Dynasty", "Ch'ing Dynasty"],
-          "explanation": "Founded by the Manchu Aisin Gioro clan in 1644; China's last imperial dynasty\nManchu rulers required Han Chinese men to wear the queue (braided pigtail) as a symbol of submission; resistance was punishable by death\nEmperor Qianlong (r. 1735\u20131796): ruled 60 years (longest actual reign), presided over the empire's greatest territorial extent\nOpium Wars (1839\u20131842 and 1856\u20131860): Britain forced China to legalize opium and cede Hong Kong \u2014 beginning of the 'Century of Humiliation'\nTaiping Rebellion (1850\u20131864): one of history's deadliest conflicts, killing 20\u201330 million people in southern China\nOverthrown in the Xinhai Revolution; last emperor Puyi (age 6) abdicated February 12, 1912",
-          "cardFront": "Last Chinese dynasty, Manchu, 1644\u20131912",
-          "cardBack": "Qing Dynasty"
+          "alternates": [
+            "Qing",
+            "Manchu Dynasty",
+            "Ch'ing Dynasty"
+          ],
+          "explanation": "Founded by the Manchu Aisin Gioro clan in 1644; China's last imperial dynasty\nManchu rulers required Han Chinese men to wear the queue (braided pigtail) as a symbol of submission; resistance was punishable by death\nEmperor Qianlong (r. 1735–1796): ruled 60 years (longest actual reign), presided over the empire's greatest territorial extent\nOpium Wars (1839–1842 and 1856–1860): Britain forced China to legalize opium and cede Hong Kong — beginning of the 'Century of Humiliation'\nTaiping Rebellion (1850–1864): one of history's deadliest conflicts, killing 20–30 million people in southern China\nOverthrown in the Xinhai Revolution; last emperor Puyi (age 6) abdicated February 12, 1912",
+          "cardFront": "Last Chinese dynasty, Manchu, 1644–1912",
+          "cardBack": "Qing Dynasty",
+          "links": [
+            {
+              "text": "Qing Dynasty",
+              "url": "https://en.wikipedia.org/wiki/Qing_Dynasty"
+            },
+            {
+              "text": "Last Chinese dynasty, Manchu, 1644–1912",
+              "url": "https://en.wikipedia.org/wiki/Last_Chinese_dynasty,_Manchu,_1644–1912"
+            }
+          ]
         },
         {
           "id": "french-empire",
           "prompt": "Which empire, proclaimed when Napoleon Bonaparte crowned himself Emperor of the French in Notre-Dame Cathedral in 1804, controlled most of continental Europe at its peak before defeat at Waterloo in 1815?",
           "answer": "French Empire",
-          "alternates": ["Napoleonic Empire", "Napoleon's Empire", "First French Empire"],
-          "explanation": "Napoleon crowned himself Emperor on December 2, 1804 in Notre-Dame \u2014 deliberately taking the crown from Pope Pius VII to symbolize authority over the Church\nAt its peak (1812), controlled France plus Spain, Italy, German states, Poland, and the Netherlands as vassals\nCode Napol\u00e9on (1804): standardized French law; influenced legal systems in Europe, Latin America, Louisiana, and Quebec\nContinental System: attempted economic blockade of Britain; instead hurt France's European allies and triggered resistance\nDisastrous Russian campaign (1812): ~600,000 troops entered; ~100,000 returned; Moscow burned\nNapoleon defeated at Waterloo (June 18, 1815) by Wellington (Britain) and Bl\u00fccher (Prussia); exiled to Saint Helena, where he died in 1821",
-          "cardFront": "Napoleon, 1804\u20131815, self-crowned emperor, Code Napol\u00e9on",
-          "cardBack": "French Empire"
+          "alternates": [
+            "Napoleonic Empire",
+            "Napoleon's Empire",
+            "First French Empire"
+          ],
+          "explanation": "Napoleon crowned himself Emperor on December 2, 1804 in Notre-Dame — deliberately taking the crown from Pope Pius VII to symbolize authority over the Church\nAt its peak (1812), controlled France plus Spain, Italy, German states, Poland, and the Netherlands as vassals\nCode Napoléon (1804): standardized French law; influenced legal systems in Europe, Latin America, Louisiana, and Quebec\nContinental System: attempted economic blockade of Britain; instead hurt France's European allies and triggered resistance\nDisastrous Russian campaign (1812): ~600,000 troops entered; ~100,000 returned; Moscow burned\nNapoleon defeated at Waterloo (June 18, 1815) by Wellington (Britain) and Blücher (Prussia); exiled to Saint Helena, where he died in 1821",
+          "cardFront": "Napoleon, 1804–1815, self-crowned emperor, Code Napoléon",
+          "cardBack": "French Empire",
+          "links": [
+            {
+              "text": "French Empire",
+              "url": "https://en.wikipedia.org/wiki/French_Empire"
+            },
+            {
+              "text": "Napoleon, 1804–1815, self-crowned emperor, Code Napoléon",
+              "url": "https://en.wikipedia.org/wiki/Napoleon,_1804–1815,_self-crowned_emperor,_Code_Napoléon"
+            }
+          ]
         },
         {
           "id": "russian-empire",
           "prompt": "Which empire, proclaimed by Peter the Great in 1721, grew into the world's largest country and a major European power before collapsing in the Russian Revolution of 1917?",
           "answer": "Russian Empire",
-          "alternates": ["Russia", "Tsarist Russia", "Imperial Russia"],
-          "explanation": "1721\u20131917; proclaimed by Peter the Great after victories in the Great Northern War against Sweden\nAt its peak, the world's largest country by area: 22.8 million km\u00b2 (about 1/6 of Earth's land surface)\nPeter the Great (r. 1682\u20131725): Westernized Russia, founded St. Petersburg as the new capital, built the first Russian navy\nCatherine the Great (r. 1762\u20131796): expanded into Ukraine, Crimea, and Poland; corresponded with Voltaire and Diderot\nAlexander II emancipated the serfs in 1861; was assassinated by revolutionary populists in 1881\nNicholas II abdicated March 2, 1917 after catastrophic WWI losses and the February Revolution; executed by Bolsheviks July 17, 1918",
-          "cardFront": "Peter the Great, 1721\u20131917, world's largest country",
-          "cardBack": "Russian Empire"
+          "alternates": [
+            "Russia",
+            "Tsarist Russia",
+            "Imperial Russia"
+          ],
+          "explanation": "1721–1917; proclaimed by Peter the Great after victories in the Great Northern War against Sweden\nAt its peak, the world's largest country by area: 22.8 million km² (about 1/6 of Earth's land surface)\nPeter the Great (r. 1682–1725): Westernized Russia, founded St. Petersburg as the new capital, built the first Russian navy\nCatherine the Great (r. 1762–1796): expanded into Ukraine, Crimea, and Poland; corresponded with Voltaire and Diderot\nAlexander II emancipated the serfs in 1861; was assassinated by revolutionary populists in 1881\nNicholas II abdicated March 2, 1917 after catastrophic WWI losses and the February Revolution; executed by Bolsheviks July 17, 1918",
+          "cardFront": "Peter the Great, 1721–1917, world's largest country",
+          "cardBack": "Russian Empire",
+          "links": [
+            {
+              "text": "Russian Empire",
+              "url": "https://en.wikipedia.org/wiki/Russian_Empire"
+            },
+            {
+              "text": "Peter the Great, 1721–1917, world's largest country",
+              "url": "https://en.wikipedia.org/wiki/Peter_the_Great,_1721–1917,_world's_largest_country"
+            }
+          ]
         },
         {
           "id": "german-empire",
           "prompt": "Which empire, proclaimed in the Hall of Mirrors at Versailles in 1871 after Prussia's defeat of France, rapidly industrialized to become Europe's most powerful nation before collapsing after World War I?",
           "answer": "German Empire",
-          "alternates": ["Germany", "Kaiserreich", "Second Reich", "Prussian Empire"],
-          "explanation": "1871\u20131918; proclaimed January 18, 1871 in Versailles' Hall of Mirrors \u2014 deliberately staged inside France after its defeat\nUnified under Prussian leadership by Otto von Bismarck, 'the Iron Chancellor'\nRapidly industrialized to surpass Britain in steel production and chemical industry by 1914\nWilhelm II dismissed Bismarck in 1890 and pursued aggressive naval and colonial expansion, stoking European tensions\nTriple Alliance (Germany, Austria-Hungary, Italy) vs. Triple Entente (Britain, France, Russia) \u2014 the alliance structure that made WWI a world war\nKaiser Wilhelm II abdicated November 9, 1918; armistice signed November 11, 1918 (the 11th hour of the 11th day of the 11th month)",
-          "cardFront": "1871\u20131918, Bismarck, unified Prussia, Hall of Mirrors",
-          "cardBack": "German Empire"
+          "alternates": [
+            "Germany",
+            "Kaiserreich",
+            "Second Reich",
+            "Prussian Empire"
+          ],
+          "explanation": "1871–1918; proclaimed January 18, 1871 in Versailles' Hall of Mirrors — deliberately staged inside France after its defeat\nUnified under Prussian leadership by Otto von Bismarck, 'the Iron Chancellor'\nRapidly industrialized to surpass Britain in steel production and chemical industry by 1914\nWilhelm II dismissed Bismarck in 1890 and pursued aggressive naval and colonial expansion, stoking European tensions\nTriple Alliance (Germany, Austria-Hungary, Italy) vs. Triple Entente (Britain, France, Russia) — the alliance structure that made WWI a world war\nKaiser Wilhelm II abdicated November 9, 1918; armistice signed November 11, 1918 (the 11th hour of the 11th day of the 11th month)",
+          "cardFront": "1871–1918, Bismarck, unified Prussia, Hall of Mirrors",
+          "cardBack": "German Empire",
+          "links": [
+            {
+              "text": "German Empire",
+              "url": "https://en.wikipedia.org/wiki/German_Empire"
+            }
+          ]
         },
         {
           "id": "austro-hungarian-empire",
-          "prompt": "Which 'Dual Monarchy' (1867\u20131918) \u2014 a Habsburg union of the Austrian and Hungarian kingdoms \u2014 dissolved after World War I into Austria, Hungary, Czechoslovakia, Yugoslavia, and other successor states?",
+          "prompt": "Which 'Dual Monarchy' (1867–1918) — a Habsburg union of the Austrian and Hungarian kingdoms — dissolved after World War I into Austria, Hungary, Czechoslovakia, Yugoslavia, and other successor states?",
           "answer": "Austro-Hungarian Empire",
-          "alternates": ["Austria-Hungary", "Austro-Hungary", "Habsburg Empire"],
-          "explanation": "Created by the Austro-Hungarian Compromise of 1867 (Ausgleich), transforming the Austrian Empire into a constitutional dual monarchy\nThird largest in Europe by area; 51 million people of 11 major nationalities \u2014 Germans, Hungarians, Czechs, Poles, Croats, Slovenes, Slovaks, Romanians, and others\nThe assassination of Archduke Franz Ferdinand in Sarajevo (June 28, 1914) triggered the July Crisis that started WWI\nEmperor Franz Joseph I (r. 1848\u20131916) ruled for 68 years \u2014 one of the longest reigns in European history\nDissolved November 1918 into Austria, Hungary, Czechoslovakia, Yugoslavia, and parts of Poland, Romania, and Italy\nTurn-of-the-century Vienna was a cultural powerhouse: Freud, Mahler, Klimt, Wittgenstein, the young Adolf Hitler, and Josef Stalin all lived there in the early 1900s",
-          "cardFront": "Habsburg Dual Monarchy, Franz Ferdinand, 1867\u20131918",
-          "cardBack": "Austro-Hungarian Empire"
+          "alternates": [
+            "Austria-Hungary",
+            "Austro-Hungary",
+            "Habsburg Empire"
+          ],
+          "explanation": "Created by the Austro-Hungarian Compromise of 1867 (Ausgleich), transforming the Austrian Empire into a constitutional dual monarchy\nThird largest in Europe by area; 51 million people of 11 major nationalities — Germans, Hungarians, Czechs, Poles, Croats, Slovenes, Slovaks, Romanians, and others\nThe assassination of Archduke Franz Ferdinand in Sarajevo (June 28, 1914) triggered the July Crisis that started WWI\nEmperor Franz Joseph I (r. 1848–1916) ruled for 68 years — one of the longest reigns in European history\nDissolved November 1918 into Austria, Hungary, Czechoslovakia, Yugoslavia, and parts of Poland, Romania, and Italy\nTurn-of-the-century Vienna was a cultural powerhouse: Freud, Mahler, Klimt, Wittgenstein, the young Adolf Hitler, and Josef Stalin all lived there in the early 1900s",
+          "cardFront": "Habsburg Dual Monarchy, Franz Ferdinand, 1867–1918",
+          "cardBack": "Austro-Hungarian Empire",
+          "links": [
+            {
+              "text": "Austro-Hungarian Empire",
+              "url": "https://en.wikipedia.org/wiki/Austro-Hungarian_Empire"
+            },
+            {
+              "text": "Habsburg Dual Monarchy, Franz Ferdinand, 1867–1918",
+              "url": "https://en.wikipedia.org/wiki/Habsburg_Dual_Monarchy,_Franz_Ferdinand,_1867–1918"
+            }
+          ]
         },
         {
           "id": "british-empire",
-          "prompt": "Which empire, at its 1920 peak covering ~36 million km\u00b2 and one-quarter of the world's land surface, was the largest empire in history and gave rise to the phrase 'the sun never sets'?",
+          "prompt": "Which empire, at its 1920 peak covering ~36 million km² and one-quarter of the world's land surface, was the largest empire in history and gave rise to the phrase 'the sun never sets'?",
           "answer": "British Empire",
-          "alternates": ["Britain", "British"],
-          "explanation": "Spanned roughly 1600s\u20131997 (Hong Kong handover); peaked in the 1920s at ~36 million km\u00b2 \u2014 the largest empire in world history\n'The sun never sets on the British Empire' \u2014 territories in every time zone meant it was always daytime somewhere\nIndia was called the 'Jewel in the Crown'; Britain's commercial dominance began with the East India Company (1600)\nAbolished the slave trade in 1807 and slavery throughout the empire in 1833 \u2014 while having profited enormously from it for centuries\nWWII weakened Britain financially; Indian independence (1947) triggered rapid decolonization across Africa and Asia in the 1950s\u20131970s\nThe Commonwealth of Nations (54 member states) is the successor organization to the British Empire",
-          "cardFront": "Peaked 1920, ~36 million km\u00b2",
-          "cardBack": "British Empire"
+          "alternates": [
+            "Britain",
+            "British"
+          ],
+          "explanation": "Spanned roughly 1600s–1997 (Hong Kong handover); peaked in the 1920s at ~36 million km² — the largest empire in world history\n'The sun never sets on the British Empire' — territories in every time zone meant it was always daytime somewhere\nIndia was called the 'Jewel in the Crown'; Britain's commercial dominance began with the East India Company (1600)\nAbolished the slave trade in 1807 and slavery throughout the empire in 1833 — while having profited enormously from it for centuries\nWWII weakened Britain financially; Indian independence (1947) triggered rapid decolonization across Africa and Asia in the 1950s–1970s\nThe Commonwealth of Nations (54 member states) is the successor organization to the British Empire",
+          "cardFront": "Peaked 1920, ~36 million km²",
+          "cardBack": "British Empire",
+          "links": [
+            {
+              "text": "British Empire",
+              "url": "https://en.wikipedia.org/wiki/British_Empire"
+            },
+            {
+              "text": "Peaked 1920, ~36 million km²",
+              "url": "https://en.wikipedia.org/wiki/Peaked_1920,_~36_million_km²"
+            }
+          ]
         }
       ]
     }

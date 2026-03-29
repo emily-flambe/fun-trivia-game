@@ -204,6 +204,26 @@ Use literal `\n` in JSON strings to separate bullet points. In the raw JSON file
 "explanation": "First fact about the thing\\nSecond fact\\nThird fact"
 ```
 
+### Wikipedia Links
+
+Every item MUST include a `links` array in the seed data with at least one Wikipedia link. Links appear below explanations as "Read more:" hyperlinks.
+
+**Required:** The main subject of the item (person, place, event, concept).
+**Recommended:** 1-2 additional related topics mentioned in the explanation.
+
+```json
+"links": [
+  { "text": "Alexander Graham Bell", "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell" },
+  { "text": "Telephone", "url": "https://en.wikipedia.org/wiki/Telephone" }
+]
+```
+
+**Link text** should be the article's display name (e.g., "Alexander Graham Bell", not "the inventor").
+**URLs** follow Wikipedia's format: `https://en.wikipedia.org/wiki/Article_Title` with underscores for spaces.
+**Verify URLs** resolve to the correct article. Check for disambiguation pages.
+
+A validation test (`test/unit/seed-links.test.ts`) enforces that every item in every seed file has at least one Wikipedia link.
+
 ### Sort order
 
 Items appear in the order listed in the JSON array. For fill-blanks ordered exercises, this order IS the sequence. For text-entry and unordered fill-blanks, the quiz shuffles them but Learn mode preserves the authored order.

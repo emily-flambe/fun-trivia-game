@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+    {
+      "id": "geography/countries",
+      "parentId": "geography",
+      "name": "Countries of the World",
+      "description": "Country sets by region and category"
+    }
   ],
   "exercises": [
     {
@@ -8,277 +13,567 @@
       "nodeId": "geography/countries",
       "name": "Countries of Europe",
       "format": "fill-blanks",
-      "config": { "ordered": false, "prompt": "Name all 45 sovereign countries of Europe" },
+      "config": {
+        "ordered": false,
+        "prompt": "Name all 45 sovereign countries of Europe"
+      },
       "items": [
         {
           "id": "albania",
           "answer": "Albania",
           "alternates": [],
-          "explanation": "Located on the western Balkan Peninsula along the Adriatic and Ionian Seas; capital is Tirana\nOne of Europe's most isolated countries during communism (1944–1992) under Enver Hoxha, who banned religion nationwide\nMore than half the population emigrated abroad after the regime fell — one of the largest post-communist diasporas relative to population size"
+          "explanation": "Located on the western Balkan Peninsula along the Adriatic and Ionian Seas; capital is Tirana\nOne of Europe's most isolated countries during communism (1944–1992) under Enver Hoxha, who banned religion nationwide\nMore than half the population emigrated abroad after the regime fell — one of the largest post-communist diasporas relative to population size",
+          "links": [
+            {
+              "text": "Albania",
+              "url": "https://en.wikipedia.org/wiki/Albania"
+            }
+          ]
         },
         {
           "id": "andorra",
           "answer": "Andorra",
           "alternates": [],
-          "explanation": "Microstate in the Pyrenees between France and Spain; capital is Andorra la Vella\nAndorra la Vella is the highest capital city in Europe at ~1,023 m elevation\nOne of the smallest countries in Europe (~468 km²); relies on tourism and duty-free shopping; technically a co-principality ruled jointly by the President of France and the Bishop of Urgell"
+          "explanation": "Microstate in the Pyrenees between France and Spain; capital is Andorra la Vella\nAndorra la Vella is the highest capital city in Europe at ~1,023 m elevation\nOne of the smallest countries in Europe (~468 km²); relies on tourism and duty-free shopping; technically a co-principality ruled jointly by the President of France and the Bishop of Urgell",
+          "links": [
+            {
+              "text": "Andorra",
+              "url": "https://en.wikipedia.org/wiki/Andorra"
+            }
+          ]
         },
         {
           "id": "austria",
           "answer": "Austria",
           "alternates": [],
-          "explanation": "Landlocked country in Central Europe; capital is Vienna (Wien)\nCenter of the Habsburg Empire for centuries; Austria-Hungary was one of the great powers dissolved after WWI\nVienna is famous for its classical music legacy — Haydn, Mozart, Beethoven, Schubert, Brahms, and Mahler all lived and worked there"
+          "explanation": "Landlocked country in Central Europe; capital is Vienna (Wien)\nCenter of the Habsburg Empire for centuries; Austria-Hungary was one of the great powers dissolved after WWI\nVienna is famous for its classical music legacy — Haydn, Mozart, Beethoven, Schubert, Brahms, and Mahler all lived and worked there",
+          "links": [
+            {
+              "text": "Austria",
+              "url": "https://en.wikipedia.org/wiki/Austria"
+            }
+          ]
         },
         {
           "id": "belarus",
           "answer": "Belarus",
           "alternates": [],
-          "explanation": "Landlocked country in Eastern Europe bordering Russia, Ukraine, Poland, Lithuania, and Latvia; capital is Minsk\nOften called 'Europe's last dictatorship' — Alexander Lukashenko has ruled since 1994\nMinsk was almost completely destroyed in WWII and rebuilt as a model Soviet city; it contains one of the largest WWII memorial complexes in the world"
+          "explanation": "Landlocked country in Eastern Europe bordering Russia, Ukraine, Poland, Lithuania, and Latvia; capital is Minsk\nOften called 'Europe's last dictatorship' — Alexander Lukashenko has ruled since 1994\nMinsk was almost completely destroyed in WWII and rebuilt as a model Soviet city; it contains one of the largest WWII memorial complexes in the world",
+          "links": [
+            {
+              "text": "Belarus",
+              "url": "https://en.wikipedia.org/wiki/Belarus"
+            }
+          ]
         },
         {
           "id": "belgium",
           "answer": "Belgium",
           "alternates": [],
-          "explanation": "Small country at the crossroads of Western Europe; capital is Brussels, which also serves as de facto capital of the European Union and NATO headquarters\nDeeply divided between Dutch-speaking Flanders in the north and French-speaking Wallonia in the south; went 541 days without a government in 2010–2011, a world record\nBirthplace of the saxophone (Adolphe Sax, 1814) and famous for waffles, frites, and over 1,500 beer varieties"
+          "explanation": "Small country at the crossroads of Western Europe; capital is Brussels, which also serves as de facto capital of the European Union and NATO headquarters\nDeeply divided between Dutch-speaking Flanders in the north and French-speaking Wallonia in the south; went 541 days without a government in 2010–2011, a world record\nBirthplace of the saxophone (Adolphe Sax, 1814) and famous for waffles, frites, and over 1,500 beer varieties",
+          "links": [
+            {
+              "text": "Belgium",
+              "url": "https://en.wikipedia.org/wiki/Belgium"
+            }
+          ]
         },
         {
           "id": "bosnia-and-herzegovina",
           "answer": "Bosnia and Herzegovina",
-          "alternates": ["Bosnia", "Bosnia-Herzegovina"],
-          "explanation": "Located in the western Balkans; capital is Sarajevo\nThe assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered WWI\nSuffered a devastating war (1992–1995) during the breakup of Yugoslavia; the Siege of Sarajevo lasted nearly 4 years — the longest siege of a capital city in modern warfare"
+          "alternates": [
+            "Bosnia",
+            "Bosnia-Herzegovina"
+          ],
+          "explanation": "Located in the western Balkans; capital is Sarajevo\nThe assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered WWI\nSuffered a devastating war (1992–1995) during the breakup of Yugoslavia; the Siege of Sarajevo lasted nearly 4 years — the longest siege of a capital city in modern warfare",
+          "links": [
+            {
+              "text": "Bosnia and Herzegovina",
+              "url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
+            }
+          ]
         },
         {
           "id": "bulgaria",
           "answer": "Bulgaria",
           "alternates": [],
-          "explanation": "Located in southeastern Europe on the Black Sea; capital is Sofia\nOne of the oldest states in Europe — the First Bulgarian Empire was founded in 681 CE\nThe Cyrillic alphabet was developed in the 9th century by Saints Cyril and Methodius, who were from the region of modern Bulgaria; Bulgaria is known for Cyrillic as part of its cultural legacy"
+          "explanation": "Located in southeastern Europe on the Black Sea; capital is Sofia\nOne of the oldest states in Europe — the First Bulgarian Empire was founded in 681 CE\nThe Cyrillic alphabet was developed in the 9th century by Saints Cyril and Methodius, who were from the region of modern Bulgaria; Bulgaria is known for Cyrillic as part of its cultural legacy",
+          "links": [
+            {
+              "text": "Bulgaria",
+              "url": "https://en.wikipedia.org/wiki/Bulgaria"
+            }
+          ]
         },
         {
           "id": "croatia",
           "answer": "Croatia",
           "explanation": "Located on the Adriatic Sea in the western Balkans; capital is Zagreb\nDeclared independence from Yugoslavia in 1991; the Dalmatian Coast and Dubrovnik are among Europe's most visited destinations\nThe tie (cravat) originates from Croatian soldiers who wore distinctive neck scarves — 'cravat' derives from 'Croat'",
-          "alternates": []
+          "alternates": [],
+          "links": [
+            {
+              "text": "Croatia",
+              "url": "https://en.wikipedia.org/wiki/Croatia"
+            }
+          ]
         },
         {
           "id": "cyprus",
           "answer": "Cyprus",
           "alternates": [],
-          "explanation": "Island nation in the northeastern Mediterranean; capital is Nicosia\nDivided since 1974 when Turkey invaded the north — the island is split between the Republic of Cyprus (Greek Cypriot, EU member) and the Turkish Republic of Northern Cyprus (recognized only by Turkey)\nNicosia is the last divided capital city in the world"
+          "explanation": "Island nation in the northeastern Mediterranean; capital is Nicosia\nDivided since 1974 when Turkey invaded the north — the island is split between the Republic of Cyprus (Greek Cypriot, EU member) and the Turkish Republic of Northern Cyprus (recognized only by Turkey)\nNicosia is the last divided capital city in the world",
+          "links": [
+            {
+              "text": "Cyprus",
+              "url": "https://en.wikipedia.org/wiki/Cyprus"
+            }
+          ]
         },
         {
           "id": "czech-republic",
           "answer": "Czech Republic",
-          "alternates": ["Czechia"],
-          "explanation": "Landlocked country in Central Europe; capital is Prague\nFormed in 1993 when Czechoslovakia peacefully split into the Czech Republic and Slovakia — the 'Velvet Divorce'\nPrague's historic center, including its medieval Old Town and Astronomical Clock (1410), is a UNESCO World Heritage Site"
+          "alternates": [
+            "Czechia"
+          ],
+          "explanation": "Landlocked country in Central Europe; capital is Prague\nFormed in 1993 when Czechoslovakia peacefully split into the Czech Republic and Slovakia — the 'Velvet Divorce'\nPrague's historic center, including its medieval Old Town and Astronomical Clock (1410), is a UNESCO World Heritage Site",
+          "links": [
+            {
+              "text": "Czech Republic",
+              "url": "https://en.wikipedia.org/wiki/Czech_Republic"
+            }
+          ]
         },
         {
           "id": "denmark",
           "answer": "Denmark",
           "alternates": [],
-          "explanation": "Scandinavian country on the Jutland Peninsula and numerous islands; capital is Copenhagen\nThe oldest kingdom in Europe — the Danish monarchy dates back over 1,000 years; it also governs Greenland, the world's largest island\nLEGO was invented in Denmark in 1932; the word comes from the Danish 'leg godt' meaning 'play well'"
+          "explanation": "Scandinavian country on the Jutland Peninsula and numerous islands; capital is Copenhagen\nThe oldest kingdom in Europe — the Danish monarchy dates back over 1,000 years; it also governs Greenland, the world's largest island\nLEGO was invented in Denmark in 1932; the word comes from the Danish 'leg godt' meaning 'play well'",
+          "links": [
+            {
+              "text": "Denmark",
+              "url": "https://en.wikipedia.org/wiki/Denmark"
+            }
+          ]
         },
         {
           "id": "estonia",
           "answer": "Estonia",
           "alternates": [],
-          "explanation": "Smallest of the three Baltic states; capital is Tallinn\nOccupied by the Soviet Union 1940–1991; declared independence during the 1991 coup attempt and was recognized within days\nThe Tallinn Old Town is a UNESCO World Heritage Site; Estonia is one of the most digitally advanced societies in the world — the first country to offer e-residency and conduct binding elections online"
+          "explanation": "Smallest of the three Baltic states; capital is Tallinn\nOccupied by the Soviet Union 1940–1991; declared independence during the 1991 coup attempt and was recognized within days\nThe Tallinn Old Town is a UNESCO World Heritage Site; Estonia is one of the most digitally advanced societies in the world — the first country to offer e-residency and conduct binding elections online",
+          "links": [
+            {
+              "text": "Estonia",
+              "url": "https://en.wikipedia.org/wiki/Estonia"
+            }
+          ]
         },
         {
           "id": "finland",
           "answer": "Finland",
           "alternates": [],
-          "explanation": "Nordic country in Northern Europe bordering Russia, Sweden, and Norway; capital is Helsinki\nDeclared independence from Russia in 1917; fought the Winter War (1939–1940) against the Soviet Union and retained independence despite massive losses\nHas the highest number of heavy metal bands per capita of any country; also famous for sauna culture — there are more saunas than cars in Finland"
+          "explanation": "Nordic country in Northern Europe bordering Russia, Sweden, and Norway; capital is Helsinki\nDeclared independence from Russia in 1917; fought the Winter War (1939–1940) against the Soviet Union and retained independence despite massive losses\nHas the highest number of heavy metal bands per capita of any country; also famous for sauna culture — there are more saunas than cars in Finland",
+          "links": [
+            {
+              "text": "Finland",
+              "url": "https://en.wikipedia.org/wiki/Finland"
+            }
+          ]
         },
         {
           "id": "france",
           "answer": "France",
           "alternates": [],
-          "explanation": "Located in Western Europe; capital is Paris, the largest city in Western Europe\nThe world's most visited country, receiving ~90 million tourists annually; home to the Louvre (world's most visited art museum)\nThe French Revolution (1789) established principles of liberty, equality, and fraternity that shaped modern democratic governance worldwide\nNapoleon Bonaparte built a French empire across most of Europe before his defeat at Waterloo (1815)"
+          "explanation": "Located in Western Europe; capital is Paris, the largest city in Western Europe\nThe world's most visited country, receiving ~90 million tourists annually; home to the Louvre (world's most visited art museum)\nThe French Revolution (1789) established principles of liberty, equality, and fraternity that shaped modern democratic governance worldwide\nNapoleon Bonaparte built a French empire across most of Europe before his defeat at Waterloo (1815)",
+          "links": [
+            {
+              "text": "France",
+              "url": "https://en.wikipedia.org/wiki/France"
+            }
+          ]
         },
         {
           "id": "germany",
           "answer": "Germany",
           "alternates": [],
-          "explanation": "Located in Central Europe; capital is Berlin, the largest city in the EU\nDivided into East and West Germany 1945–1990; the Berlin Wall fell November 9, 1989; reunification followed October 3, 1990\nLargest economy in Europe and the world's third or fourth largest; the Rhine and Ruhr valleys were the industrial core of 20th-century Europe\nBirthplace of the Protestant Reformation (Martin Luther, 1517) and the printing press (Gutenberg, c. 1440)"
+          "explanation": "Located in Central Europe; capital is Berlin, the largest city in the EU\nDivided into East and West Germany 1945–1990; the Berlin Wall fell November 9, 1989; reunification followed October 3, 1990\nLargest economy in Europe and the world's third or fourth largest; the Rhine and Ruhr valleys were the industrial core of 20th-century Europe\nBirthplace of the Protestant Reformation (Martin Luther, 1517) and the printing press (Gutenberg, c. 1440)",
+          "links": [
+            {
+              "text": "Germany",
+              "url": "https://en.wikipedia.org/wiki/Germany"
+            }
+          ]
         },
         {
           "id": "greece",
           "answer": "Greece",
           "alternates": [],
-          "explanation": "Located in southeastern Europe on the Mediterranean; capital is Athens\nBirthplace of democracy, Western philosophy, and the Olympic Games; the Parthenon (447–432 BCE) is the most famous ancient monument in Europe\nComprises thousands of islands including Crete (largest), Rhodes, and Santorini; joined the EU in 1981\nHosted the first modern Olympics (1896) and the 2004 Athens Olympics"
+          "explanation": "Located in southeastern Europe on the Mediterranean; capital is Athens\nBirthplace of democracy, Western philosophy, and the Olympic Games; the Parthenon (447–432 BCE) is the most famous ancient monument in Europe\nComprises thousands of islands including Crete (largest), Rhodes, and Santorini; joined the EU in 1981\nHosted the first modern Olympics (1896) and the 2004 Athens Olympics",
+          "links": [
+            {
+              "text": "Greece",
+              "url": "https://en.wikipedia.org/wiki/Greece"
+            }
+          ]
         },
         {
           "id": "hungary",
           "answer": "Hungary",
           "alternates": [],
-          "explanation": "Landlocked country in Central Europe; capital is Budapest\nBudapest was formed in 1873 by merging Buda, Pest, and Óbuda across the Danube; its Parliament Building is one of the world's largest legislative buildings\nHungarian (Magyar) is unrelated to most European languages — it belongs to the Finno-Ugric family along with Finnish and Estonian; famous for goulash and the Rubik's Cube (invented by Ernő Rubik, 1974)"
+          "explanation": "Landlocked country in Central Europe; capital is Budapest\nBudapest was formed in 1873 by merging Buda, Pest, and Óbuda across the Danube; its Parliament Building is one of the world's largest legislative buildings\nHungarian (Magyar) is unrelated to most European languages — it belongs to the Finno-Ugric family along with Finnish and Estonian; famous for goulash and the Rubik's Cube (invented by Ernő Rubik, 1974)",
+          "links": [
+            {
+              "text": "Hungary",
+              "url": "https://en.wikipedia.org/wiki/Hungary"
+            }
+          ]
         },
         {
           "id": "iceland",
           "answer": "Iceland",
           "alternates": [],
-          "explanation": "Island nation in the North Atlantic near the Arctic Circle; capital is Reykjavik, the world's northernmost capital of a sovereign state\nVolcanically active — sits atop the Mid-Atlantic Ridge where two tectonic plates meet; home to geysers (the word 'geyser' comes from the Icelandic Geysir)\nSettled by Norse Vikings c. 874 CE; the Althing (established 930 CE) is the world's oldest surviving parliament"
+          "explanation": "Island nation in the North Atlantic near the Arctic Circle; capital is Reykjavik, the world's northernmost capital of a sovereign state\nVolcanically active — sits atop the Mid-Atlantic Ridge where two tectonic plates meet; home to geysers (the word 'geyser' comes from the Icelandic Geysir)\nSettled by Norse Vikings c. 874 CE; the Althing (established 930 CE) is the world's oldest surviving parliament",
+          "links": [
+            {
+              "text": "Iceland",
+              "url": "https://en.wikipedia.org/wiki/Iceland"
+            }
+          ]
         },
         {
           "id": "ireland",
           "answer": "Ireland",
           "alternates": [],
-          "explanation": "Island nation in the North Atlantic west of Great Britain; capital is Dublin\nFamine of 1845–1852 reduced the population by ~25% through death and emigration; the Irish diaspora is massive — more people of Irish descent live in the U.S. than in Ireland itself\nJoined the EU in 1973; the Celtic Tiger economic boom (1990s–2008) transformed it from one of Europe's poorest to one of its wealthiest countries per capita"
+          "explanation": "Island nation in the North Atlantic west of Great Britain; capital is Dublin\nFamine of 1845–1852 reduced the population by ~25% through death and emigration; the Irish diaspora is massive — more people of Irish descent live in the U.S. than in Ireland itself\nJoined the EU in 1973; the Celtic Tiger economic boom (1990s–2008) transformed it from one of Europe's poorest to one of its wealthiest countries per capita",
+          "links": [
+            {
+              "text": "Ireland",
+              "url": "https://en.wikipedia.org/wiki/Ireland"
+            }
+          ]
         },
         {
           "id": "italy",
           "answer": "Italy",
           "alternates": [],
-          "explanation": "Boot-shaped peninsula in Southern Europe extending into the Mediterranean; capital is Rome\nContains two independent microstates: Vatican City and San Marino — the only country to have two other countries within its borders\nCenter of the Roman Empire and the Renaissance; has more UNESCO World Heritage Sites than any other country (~58)\nFounded as a unified state in 1861; Mussolini led the fascist government 1922–1943"
+          "explanation": "Boot-shaped peninsula in Southern Europe extending into the Mediterranean; capital is Rome\nContains two independent microstates: Vatican City and San Marino — the only country to have two other countries within its borders\nCenter of the Roman Empire and the Renaissance; has more UNESCO World Heritage Sites than any other country (~58)\nFounded as a unified state in 1861; Mussolini led the fascist government 1922–1943",
+          "links": [
+            {
+              "text": "Italy",
+              "url": "https://en.wikipedia.org/wiki/Italy"
+            }
+          ]
         },
         {
           "id": "latvia",
           "answer": "Latvia",
           "alternates": [],
-          "explanation": "Middle of the three Baltic states; capital is Riga\nRiga's historic center is a UNESCO World Heritage Site known for its Art Nouveau architecture — it has the highest concentration of Art Nouveau buildings of any city in the world\nOccupied by the Soviet Union 1940–1991; regained independence in 1991; joined NATO and the EU in 2004"
+          "explanation": "Middle of the three Baltic states; capital is Riga\nRiga's historic center is a UNESCO World Heritage Site known for its Art Nouveau architecture — it has the highest concentration of Art Nouveau buildings of any city in the world\nOccupied by the Soviet Union 1940–1991; regained independence in 1991; joined NATO and the EU in 2004",
+          "links": [
+            {
+              "text": "Latvia",
+              "url": "https://en.wikipedia.org/wiki/Latvia"
+            }
+          ]
         },
         {
           "id": "liechtenstein",
           "answer": "Liechtenstein",
           "alternates": [],
-          "explanation": "One of only two doubly landlocked countries in the world (the other is Uzbekistan); borders only Switzerland and Austria; capital is Vaduz\nSmallest German-speaking country; sixth-smallest country in the world by area (~160 km²)\nRelies heavily on financial services and low corporate taxes; has one of the highest GDPs per capita in the world"
+          "explanation": "One of only two doubly landlocked countries in the world (the other is Uzbekistan); borders only Switzerland and Austria; capital is Vaduz\nSmallest German-speaking country; sixth-smallest country in the world by area (~160 km²)\nRelies heavily on financial services and low corporate taxes; has one of the highest GDPs per capita in the world",
+          "links": [
+            {
+              "text": "Liechtenstein",
+              "url": "https://en.wikipedia.org/wiki/Liechtenstein"
+            }
+          ]
         },
         {
           "id": "lithuania",
           "answer": "Lithuania",
           "alternates": [],
-          "explanation": "Largest of the three Baltic states; capital is Vilnius\nThe Grand Duchy of Lithuania was once the largest state in Europe (14th–15th century), stretching from the Baltic to the Black Sea\nOccupied by the Soviet Union 1940–1991; the first Soviet republic to declare independence (March 11, 1990), triggering a 16-month standoff before the USSR recognized it"
+          "explanation": "Largest of the three Baltic states; capital is Vilnius\nThe Grand Duchy of Lithuania was once the largest state in Europe (14th–15th century), stretching from the Baltic to the Black Sea\nOccupied by the Soviet Union 1940–1991; the first Soviet republic to declare independence (March 11, 1990), triggering a 16-month standoff before the USSR recognized it",
+          "links": [
+            {
+              "text": "Lithuania",
+              "url": "https://en.wikipedia.org/wiki/Lithuania"
+            }
+          ]
         },
         {
           "id": "luxembourg",
           "answer": "Luxembourg",
           "alternates": [],
-          "explanation": "Small landlocked country bordering Belgium, France, and Germany; capital is Luxembourg City\nOne of the world's wealthiest countries per capita, driven by financial services, steel (historically), and EU institutions — the European Court of Justice and Court of Auditors are based here\nThe only remaining Grand Duchy in the world, ruled by Grand Duke Henri"
+          "explanation": "Small landlocked country bordering Belgium, France, and Germany; capital is Luxembourg City\nOne of the world's wealthiest countries per capita, driven by financial services, steel (historically), and EU institutions — the European Court of Justice and Court of Auditors are based here\nThe only remaining Grand Duchy in the world, ruled by Grand Duke Henri",
+          "links": [
+            {
+              "text": "Luxembourg",
+              "url": "https://en.wikipedia.org/wiki/Luxembourg"
+            }
+          ]
         },
         {
           "id": "malta",
           "answer": "Malta",
           "alternates": [],
-          "explanation": "Archipelago of islands in the central Mediterranean south of Sicily; capital is Valletta, the smallest EU capital\nStrategically vital throughout history — held by the Knights of St. John (1530–1798), then Britain (1800–1964); awarded the George Cross by Britain for its WWII resistance\nThe Maltese Falcon (novel and films) was named for a legendary tribute from Malta to Spain; Maltese is the only Semitic language written in the Latin alphabet"
+          "explanation": "Archipelago of islands in the central Mediterranean south of Sicily; capital is Valletta, the smallest EU capital\nStrategically vital throughout history — held by the Knights of St. John (1530–1798), then Britain (1800–1964); awarded the George Cross by Britain for its WWII resistance\nThe Maltese Falcon (novel and films) was named for a legendary tribute from Malta to Spain; Maltese is the only Semitic language written in the Latin alphabet",
+          "links": [
+            {
+              "text": "Malta",
+              "url": "https://en.wikipedia.org/wiki/Malta"
+            }
+          ]
         },
         {
           "id": "moldova",
           "answer": "Moldova",
-          "alternates": ["Republic of Moldova"],
-          "explanation": "Landlocked country between Romania and Ukraine; capital is Chișinău\nThe poorest country in Europe by GDP per capita; the breakaway region of Transnistria (backed by Russia) has been outside Moldovan control since 1990\nApplied for EU membership in 2022 following Russia's invasion of Ukraine; historically part of Romania until WWII"
+          "alternates": [
+            "Republic of Moldova"
+          ],
+          "explanation": "Landlocked country between Romania and Ukraine; capital is Chișinău\nThe poorest country in Europe by GDP per capita; the breakaway region of Transnistria (backed by Russia) has been outside Moldovan control since 1990\nApplied for EU membership in 2022 following Russia's invasion of Ukraine; historically part of Romania until WWII",
+          "links": [
+            {
+              "text": "Moldova",
+              "url": "https://en.wikipedia.org/wiki/Moldova"
+            }
+          ]
         },
         {
           "id": "monaco",
           "answer": "Monaco",
           "alternates": [],
-          "explanation": "City-state on the French Riviera; the second smallest country in the world by area (~2 km²), after Vatican City\nKnown for its casino (the Monte Carlo Casino), Formula 1 Grand Prix street race, and one of the world's highest densities of millionaires\nA constitutional monarchy ruled by the Grimaldi family since 1297 — one of Europe's oldest royal dynasties"
+          "explanation": "City-state on the French Riviera; the second smallest country in the world by area (~2 km²), after Vatican City\nKnown for its casino (the Monte Carlo Casino), Formula 1 Grand Prix street race, and one of the world's highest densities of millionaires\nA constitutional monarchy ruled by the Grimaldi family since 1297 — one of Europe's oldest royal dynasties",
+          "links": [
+            {
+              "text": "Monaco",
+              "url": "https://en.wikipedia.org/wiki/Monaco"
+            }
+          ]
         },
         {
           "id": "montenegro",
           "answer": "Montenegro",
           "alternates": [],
-          "explanation": "Small country on the Adriatic coast of the western Balkans; capital is Podgorica\nOne of Europe's newest states — declared independence from the State of Serbia and Montenegro in 2006\nThe name means 'Black Mountain' in Italian (from Monte Negro); joined NATO in 2017 and is an EU candidate"
+          "explanation": "Small country on the Adriatic coast of the western Balkans; capital is Podgorica\nOne of Europe's newest states — declared independence from the State of Serbia and Montenegro in 2006\nThe name means 'Black Mountain' in Italian (from Monte Negro); joined NATO in 2017 and is an EU candidate",
+          "links": [
+            {
+              "text": "Montenegro",
+              "url": "https://en.wikipedia.org/wiki/Montenegro"
+            }
+          ]
         },
         {
           "id": "netherlands",
           "answer": "Netherlands",
-          "alternates": ["The Netherlands"],
-          "explanation": "Low-lying country in Northwestern Europe; constitutional capital is Amsterdam, but the government sits in The Hague (Den Haag)\nAbout 26% of the country lies below sea level, reclaimed from the sea via an extensive system of dikes, polders, and pumping stations\nDutch Golden Age (17th century) produced Rembrandt, Vermeer, and a global trading empire via the Dutch East India Company (VOC), the world's first publicly traded company"
+          "alternates": [
+            "The Netherlands"
+          ],
+          "explanation": "Low-lying country in Northwestern Europe; constitutional capital is Amsterdam, but the government sits in The Hague (Den Haag)\nAbout 26% of the country lies below sea level, reclaimed from the sea via an extensive system of dikes, polders, and pumping stations\nDutch Golden Age (17th century) produced Rembrandt, Vermeer, and a global trading empire via the Dutch East India Company (VOC), the world's first publicly traded company",
+          "links": [
+            {
+              "text": "Netherlands",
+              "url": "https://en.wikipedia.org/wiki/Netherlands"
+            }
+          ]
         },
         {
           "id": "north-macedonia",
           "answer": "North Macedonia",
-          "alternates": ["Macedonia"],
-          "explanation": "Landlocked country in the southern Balkans; capital is Skopje\nA 27-year naming dispute with Greece was resolved in 2019 — the country was formerly called FYROM (Former Yugoslav Republic of Macedonia); joined NATO in 2020\nAlexander the Great was born in Pella, in the ancient kingdom of Macedon, which corresponds to modern northern Greece — not North Macedonia itself, a common misconception"
+          "alternates": [
+            "Macedonia"
+          ],
+          "explanation": "Landlocked country in the southern Balkans; capital is Skopje\nA 27-year naming dispute with Greece was resolved in 2019 — the country was formerly called FYROM (Former Yugoslav Republic of Macedonia); joined NATO in 2020\nAlexander the Great was born in Pella, in the ancient kingdom of Macedon, which corresponds to modern northern Greece — not North Macedonia itself, a common misconception",
+          "links": [
+            {
+              "text": "North Macedonia",
+              "url": "https://en.wikipedia.org/wiki/North_Macedonia"
+            }
+          ]
         },
         {
           "id": "norway",
           "answer": "Norway",
           "alternates": [],
-          "explanation": "Located on the Scandinavian Peninsula in Northern Europe; capital is Oslo\nThe Nobel Peace Prize is awarded in Oslo each year (all other Nobel Prizes are awarded in Stockholm)\nOne of the world's wealthiest countries per capita, with the world's largest sovereign wealth fund (~$1.7 trillion), built from North Sea oil revenues\nKnown for fjords — long, deep inlets carved by glaciers; the Sognefjord is the world's deepest at 1,308 m"
+          "explanation": "Located on the Scandinavian Peninsula in Northern Europe; capital is Oslo\nThe Nobel Peace Prize is awarded in Oslo each year (all other Nobel Prizes are awarded in Stockholm)\nOne of the world's wealthiest countries per capita, with the world's largest sovereign wealth fund (~$1.7 trillion), built from North Sea oil revenues\nKnown for fjords — long, deep inlets carved by glaciers; the Sognefjord is the world's deepest at 1,308 m",
+          "links": [
+            {
+              "text": "Norway",
+              "url": "https://en.wikipedia.org/wiki/Norway"
+            }
+          ]
         },
         {
           "id": "poland",
           "answer": "Poland",
           "alternates": [],
-          "explanation": "Located in Central Europe; capital is Warsaw (Warszawa)\nWarsaw was 85% destroyed in WWII; the Old Town was meticulously rebuilt and is a UNESCO World Heritage Site\nThe Solidarity trade union movement (1980), led by Lech Wałęsa, was the first independent trade union in the Soviet bloc and helped bring down communist rule\nBirthplace of Copernicus, Marie Curie, Frédéric Chopin, and Pope John Paul II"
+          "explanation": "Located in Central Europe; capital is Warsaw (Warszawa)\nWarsaw was 85% destroyed in WWII; the Old Town was meticulously rebuilt and is a UNESCO World Heritage Site\nThe Solidarity trade union movement (1980), led by Lech Wałęsa, was the first independent trade union in the Soviet bloc and helped bring down communist rule\nBirthplace of Copernicus, Marie Curie, Frédéric Chopin, and Pope John Paul II",
+          "links": [
+            {
+              "text": "Poland",
+              "url": "https://en.wikipedia.org/wiki/Poland"
+            }
+          ]
         },
         {
           "id": "portugal",
           "answer": "Portugal",
           "alternates": [],
-          "explanation": "Located on the western edge of the Iberian Peninsula; capital is Lisbon\nIn the 15th–16th centuries, Portugal was the first European power to establish a global maritime empire, with Vasco da Gama reaching India (1498) and Pedro Álvares Cabral claiming Brazil (1500)\nPortuguese is the world's sixth most spoken language (~260 million native speakers), largely due to Brazil"
+          "explanation": "Located on the western edge of the Iberian Peninsula; capital is Lisbon\nIn the 15th–16th centuries, Portugal was the first European power to establish a global maritime empire, with Vasco da Gama reaching India (1498) and Pedro Álvares Cabral claiming Brazil (1500)\nPortuguese is the world's sixth most spoken language (~260 million native speakers), largely due to Brazil",
+          "links": [
+            {
+              "text": "Portugal",
+              "url": "https://en.wikipedia.org/wiki/Portugal"
+            }
+          ]
         },
         {
           "id": "romania",
           "answer": "Romania",
           "alternates": [],
-          "explanation": "Located in southeastern Europe on the Black Sea; capital is Bucharest\nHome to Transylvania — historically part of the Austro-Hungarian Empire and the setting of Bram Stoker's Dracula (loosely based on Vlad the Impaler, a 15th-century Wallachian prince)\nNicolas Ceaușescu's communist dictatorship (1965–1989) ended with his public execution on Christmas Day 1989 — one of the most dramatic falls of the Soviet era"
+          "explanation": "Located in southeastern Europe on the Black Sea; capital is Bucharest\nHome to Transylvania — historically part of the Austro-Hungarian Empire and the setting of Bram Stoker's Dracula (loosely based on Vlad the Impaler, a 15th-century Wallachian prince)\nNicolas Ceaușescu's communist dictatorship (1965–1989) ended with his public execution on Christmas Day 1989 — one of the most dramatic falls of the Soviet era",
+          "links": [
+            {
+              "text": "Romania",
+              "url": "https://en.wikipedia.org/wiki/Romania"
+            }
+          ]
         },
         {
           "id": "russia",
           "answer": "Russia",
           "alternates": [],
-          "explanation": "Largest country on Earth by area (~17.1 million km²), spanning 11 time zones; capital is Moscow, the largest city in Europe\nTranscontinental — spans both Europe and Asia; the Ural Mountains mark the traditional boundary between European and Asian Russia\nThe Soviet Union (USSR, 1922–1991) was centered on Russia and was a global superpower rivaling the United States during the Cold War\nHas invaded Ukraine twice since 2014, including a full-scale invasion in February 2022"
+          "explanation": "Largest country on Earth by area (~17.1 million km²), spanning 11 time zones; capital is Moscow, the largest city in Europe\nTranscontinental — spans both Europe and Asia; the Ural Mountains mark the traditional boundary between European and Asian Russia\nThe Soviet Union (USSR, 1922–1991) was centered on Russia and was a global superpower rivaling the United States during the Cold War\nHas invaded Ukraine twice since 2014, including a full-scale invasion in February 2022",
+          "links": [
+            {
+              "text": "Russia",
+              "url": "https://en.wikipedia.org/wiki/Russia"
+            }
+          ]
         },
         {
           "id": "san-marino",
           "answer": "San Marino",
           "alternates": [],
-          "explanation": "Microstate entirely surrounded by Italy; capital is San Marino City, the highest capital in Europe at 749 m\nClaims to be the world's oldest republic, founded in 301 CE by a stonemason named Marinus; its constitution dates to 1600\nOne of only three countries entirely surrounded by a single other country (along with Lesotho and Vatican City)"
+          "explanation": "Microstate entirely surrounded by Italy; capital is San Marino City, the highest capital in Europe at 749 m\nClaims to be the world's oldest republic, founded in 301 CE by a stonemason named Marinus; its constitution dates to 1600\nOne of only three countries entirely surrounded by a single other country (along with Lesotho and Vatican City)",
+          "links": [
+            {
+              "text": "San Marino",
+              "url": "https://en.wikipedia.org/wiki/San_Marino"
+            }
+          ]
         },
         {
           "id": "serbia",
           "answer": "Serbia",
           "alternates": [],
-          "explanation": "Landlocked country in the central Balkans; capital is Belgrade\nThe assassination of Archduke Franz Ferdinand in Sarajevo in 1914 (by Bosnian Serb Gavrilo Princip) triggered WWI\nKosovo declared independence from Serbia in 2008 — recognized by ~100 countries but not Serbia or Russia; Novak Djokovic, the most successful men's tennis player in history, is Serbian"
+          "explanation": "Landlocked country in the central Balkans; capital is Belgrade\nThe assassination of Archduke Franz Ferdinand in Sarajevo in 1914 (by Bosnian Serb Gavrilo Princip) triggered WWI\nKosovo declared independence from Serbia in 2008 — recognized by ~100 countries but not Serbia or Russia; Novak Djokovic, the most successful men's tennis player in history, is Serbian",
+          "links": [
+            {
+              "text": "Serbia",
+              "url": "https://en.wikipedia.org/wiki/Serbia"
+            }
+          ]
         },
         {
           "id": "slovakia",
           "answer": "Slovakia",
           "alternates": [],
-          "explanation": "Landlocked country in Central Europe; capital is Bratislava\nFormed in 1993 when Czechoslovakia peacefully split — the 'Velvet Divorce'; Bratislava is unusual in being a capital city that borders two other countries (Austria and Hungary)\nHome to the highest density of castles in Europe; the Carpathian Mountains run through the country"
+          "explanation": "Landlocked country in Central Europe; capital is Bratislava\nFormed in 1993 when Czechoslovakia peacefully split — the 'Velvet Divorce'; Bratislava is unusual in being a capital city that borders two other countries (Austria and Hungary)\nHome to the highest density of castles in Europe; the Carpathian Mountains run through the country",
+          "links": [
+            {
+              "text": "Slovakia",
+              "url": "https://en.wikipedia.org/wiki/Slovakia"
+            }
+          ]
         },
         {
           "id": "slovenia",
           "answer": "Slovenia",
           "alternates": [],
-          "explanation": "Small country in Central Europe bordering Austria, Italy, Hungary, and Croatia; capital is Ljubljana\nOne of the most prosperous former Yugoslav republics; declared independence in 1991 after a brief 10-day war\nHome to Postojna Cave, one of the largest cave systems in Europe, and Lake Bled with its iconic island church; joined the EU and NATO in 2004"
+          "explanation": "Small country in Central Europe bordering Austria, Italy, Hungary, and Croatia; capital is Ljubljana\nOne of the most prosperous former Yugoslav republics; declared independence in 1991 after a brief 10-day war\nHome to Postojna Cave, one of the largest cave systems in Europe, and Lake Bled with its iconic island church; joined the EU and NATO in 2004",
+          "links": [
+            {
+              "text": "Slovenia",
+              "url": "https://en.wikipedia.org/wiki/Slovenia"
+            }
+          ]
         },
         {
           "id": "spain",
           "answer": "Spain",
           "alternates": [],
-          "explanation": "Located on the Iberian Peninsula in southwestern Europe; capital is Madrid\nSecond largest country in the EU by area; built a vast global empire in the Americas following Columbus's 1492 voyage — Spanish is now the world's second most spoken native language\nAntonío Gaudí's Sagrada Família in Barcelona (begun 1882, still under construction) and the Alhambra palace in Granada are its most visited monuments"
+          "explanation": "Located on the Iberian Peninsula in southwestern Europe; capital is Madrid\nSecond largest country in the EU by area; built a vast global empire in the Americas following Columbus's 1492 voyage — Spanish is now the world's second most spoken native language\nAntonío Gaudí's Sagrada Família in Barcelona (begun 1882, still under construction) and the Alhambra palace in Granada are its most visited monuments",
+          "links": [
+            {
+              "text": "Spain",
+              "url": "https://en.wikipedia.org/wiki/Spain"
+            }
+          ]
         },
         {
           "id": "sweden",
           "answer": "Sweden",
           "alternates": [],
-          "explanation": "Largest of the Scandinavian countries; capital is Stockholm, built on 14 islands\nThe Nobel Prize ceremonies are held in Stockholm each December (the Peace Prize is awarded in Oslo)\nNeutral in both World Wars; home to IKEA, H&M, Spotify, and Volvo; consistently ranks among the world's happiest and most gender-equal countries"
+          "explanation": "Largest of the Scandinavian countries; capital is Stockholm, built on 14 islands\nThe Nobel Prize ceremonies are held in Stockholm each December (the Peace Prize is awarded in Oslo)\nNeutral in both World Wars; home to IKEA, H&M, Spotify, and Volvo; consistently ranks among the world's happiest and most gender-equal countries",
+          "links": [
+            {
+              "text": "Sweden",
+              "url": "https://en.wikipedia.org/wiki/Sweden"
+            }
+          ]
         },
         {
           "id": "switzerland",
           "answer": "Switzerland",
           "alternates": [],
-          "explanation": "Landlocked country in Central Europe; technically has no official capital — Bern is the 'federal city' where the government sits\nPermanently neutral since the Congress of Vienna (1815); Geneva hosts the UN European headquarters, the Red Cross (founded there by Henri Dunant in 1863), and numerous other international organizations\nAlbert Einstein developed his special theory of relativity while working at the patent office in Bern (1905)"
+          "explanation": "Landlocked country in Central Europe; technically has no official capital — Bern is the 'federal city' where the government sits\nPermanently neutral since the Congress of Vienna (1815); Geneva hosts the UN European headquarters, the Red Cross (founded there by Henri Dunant in 1863), and numerous other international organizations\nAlbert Einstein developed his special theory of relativity while working at the patent office in Bern (1905)",
+          "links": [
+            {
+              "text": "Switzerland",
+              "url": "https://en.wikipedia.org/wiki/Switzerland"
+            }
+          ]
         },
         {
           "id": "ukraine",
           "answer": "Ukraine",
           "alternates": [],
-          "explanation": "Largest country entirely within Europe; capital is Kyiv (not 'Kiev' — the Ukrainian spelling became standard internationally after 2018)\nThe Chernobyl nuclear disaster occurred in Ukraine in 1986 while it was part of the Soviet Union\nRussia launched a full-scale invasion in February 2022; the ongoing war has been the largest military conflict in Europe since WWII"
+          "explanation": "Largest country entirely within Europe; capital is Kyiv (not 'Kiev' — the Ukrainian spelling became standard internationally after 2018)\nThe Chernobyl nuclear disaster occurred in Ukraine in 1986 while it was part of the Soviet Union\nRussia launched a full-scale invasion in February 2022; the ongoing war has been the largest military conflict in Europe since WWII",
+          "links": [
+            {
+              "text": "Ukraine",
+              "url": "https://en.wikipedia.org/wiki/Ukraine"
+            }
+          ]
         },
         {
           "id": "united-kingdom",
           "answer": "United Kingdom",
-          "alternates": ["UK", "Great Britain"],
-          "explanation": "Island nation comprising England, Scotland, Wales, and Northern Ireland; capital is London, the largest city in Western Europe\nBuilt the largest empire in history — at its peak (c. 1920), the British Empire covered ~24% of Earth's land surface\nLeft the European Union in 2020 ('Brexit') following a 2016 referendum; the Industrial Revolution began in Britain in the 18th century\nHome to the world's oldest national anthem still in use ('God Save the King/Queen')"
+          "alternates": [
+            "UK",
+            "Great Britain"
+          ],
+          "explanation": "Island nation comprising England, Scotland, Wales, and Northern Ireland; capital is London, the largest city in Western Europe\nBuilt the largest empire in history — at its peak (c. 1920), the British Empire covered ~24% of Earth's land surface\nLeft the European Union in 2020 ('Brexit') following a 2016 referendum; the Industrial Revolution began in Britain in the 18th century\nHome to the world's oldest national anthem still in use ('God Save the King/Queen')",
+          "links": [
+            {
+              "text": "United Kingdom",
+              "url": "https://en.wikipedia.org/wiki/United_Kingdom"
+            }
+          ]
         },
         {
           "id": "vatican-city",
           "answer": "Vatican City",
-          "alternates": ["Holy See", "Vatican"],
-          "explanation": "The smallest country in the world by both area (~0.44 km²) and population (~800); located within Rome\nThe seat of the Roman Catholic Church and residence of the Pope; established as an independent state by the Lateran Treaty with Italy in 1929\nSt. Peter's Basilica and the Sistine Chapel (with Michelangelo's ceiling, painted 1508–1512) are inside its borders"
+          "alternates": [
+            "Holy See",
+            "Vatican"
+          ],
+          "explanation": "The smallest country in the world by both area (~0.44 km²) and population (~800); located within Rome\nThe seat of the Roman Catholic Church and residence of the Pope; established as an independent state by the Lateran Treaty with Italy in 1929\nSt. Peter's Basilica and the Sistine Chapel (with Michelangelo's ceiling, painted 1508–1512) are inside its borders",
+          "links": [
+            {
+              "text": "Vatican City",
+              "url": "https://en.wikipedia.org/wiki/Vatican_City"
+            }
+          ]
         }
       ]
     }

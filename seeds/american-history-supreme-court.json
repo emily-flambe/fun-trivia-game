@@ -19,136 +19,335 @@
           "id": "marbury-v-madison",
           "prompt": "This 1803 decision by Chief Justice John Marshall established the principle of judicial review — the Supreme Court's power to strike down laws that violate the Constitution. Which case?",
           "answer": "Marbury v. Madison",
-          "alternates": ["Marbury v Madison", "Marbury"],
+          "alternates": [
+            "Marbury v Madison",
+            "Marbury"
+          ],
           "explanation": "Decided 1803; Chief Justice John Marshall wrote the unanimous opinion\nWilliam Marbury sued Secretary of State James Madison for his undelivered appointment as justice of the peace\nMarshall ruled against Marbury on the merits but used the case to assert judicial review — the power to void unconstitutional laws\nThe Constitution does not explicitly grant judicial review; Marshall inferred it from Article III\nFoundation of the U.S. system of checks and balances — establishes courts as a co-equal branch\nConsidered Marshall's greatest opinion and one of the most consequential in U.S. history",
           "cardFront": "Judicial review established (1803)",
-          "cardBack": "Marbury v. Madison"
+          "cardBack": "Marbury v. Madison",
+          "links": [
+            {
+              "text": "Marbury v. Madison",
+              "url": "https://en.wikipedia.org/wiki/Marbury_v._Madison"
+            },
+            {
+              "text": "Judicial review established",
+              "url": "https://en.wikipedia.org/wiki/Judicial_review_established"
+            }
+          ]
         },
         {
           "id": "mcculloch-v-maryland",
           "prompt": "This 1819 decision upheld Congress's power to create a national bank and ruled that states cannot tax federal institutions, establishing the broad reach of the Necessary and Proper Clause. Which case?",
           "answer": "McCulloch v. Maryland",
-          "alternates": ["McCulloch v Maryland", "McCulloch"],
+          "alternates": [
+            "McCulloch v Maryland",
+            "McCulloch"
+          ],
           "explanation": "Decided 1819; Chief Justice John Marshall wrote the unanimous opinion\nMaryland attempted to tax the Second Bank of the United States; cashier James McCulloch refused to pay\nMarshall held two principles: (1) Congress has implied powers under the Necessary and Proper Clause; (2) states cannot tax federal institutions\n'The power to tax involves the power to destroy' — famous Marshall quote\nBroadly expanded federal power; central to federalism debates ever since",
           "cardFront": "Federal implied powers and Necessary & Proper Clause (1819)",
-          "cardBack": "McCulloch v. Maryland"
+          "cardBack": "McCulloch v. Maryland",
+          "links": [
+            {
+              "text": "McCulloch v. Maryland",
+              "url": "https://en.wikipedia.org/wiki/McCulloch_v._Maryland"
+            },
+            {
+              "text": "Federal implied powers and Necessary & Proper Clause",
+              "url": "https://en.wikipedia.org/wiki/Federal_implied_powers_and_Necessary_&_Proper_Clause"
+            }
+          ]
         },
         {
           "id": "dred-scott-v-sandford",
           "prompt": "This 1857 decision ruled that African Americans were not citizens, that Congress had no power to ban slavery in the territories, and declared the Missouri Compromise unconstitutional. Which case?",
           "answer": "Dred Scott v. Sandford",
-          "alternates": ["Dred Scott v Sandford", "Dred Scott", "Dred Scott decision"],
+          "alternates": [
+            "Dred Scott v Sandford",
+            "Dred Scott",
+            "Dred Scott decision"
+          ],
           "explanation": "Decided March 6, 1857; Chief Justice Roger Taney wrote the majority opinion\nDred Scott was an enslaved man who sued for freedom after living in free territories with his owner\nCourt ruled 7-2: Black people (free or enslaved) were not citizens and had no right to sue in federal court\nDeclared the Missouri Compromise unconstitutional — Congress could not ban slavery in territories\nWidely considered the worst Supreme Court decision in history; dramatically inflamed sectional tensions\nEffectively overruled by the 13th Amendment (1865) and 14th Amendment (1868)",
           "cardFront": "African Americans not citizens; slavery in territories (1857)",
-          "cardBack": "Dred Scott v. Sandford"
+          "cardBack": "Dred Scott v. Sandford",
+          "links": [
+            {
+              "text": "Dred Scott v. Sandford",
+              "url": "https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford"
+            },
+            {
+              "text": "African Americans not citizens; slavery in territories",
+              "url": "https://en.wikipedia.org/wiki/African_Americans_not_citizens;_slavery_in_territories"
+            }
+          ]
         },
         {
           "id": "plessy-v-ferguson",
           "prompt": "This 1896 decision established the 'separate but equal' doctrine, upholding Louisiana's law requiring separate railroad cars for Black and white passengers. Which case?",
           "answer": "Plessy v. Ferguson",
-          "alternates": ["Plessy v Ferguson", "Plessy"],
+          "alternates": [
+            "Plessy v Ferguson",
+            "Plessy"
+          ],
           "explanation": "Decided May 18, 1896; 7-1 ruling (Justice John Marshall Harlan dissented)\nHomer Plessy was 7/8 white but classified as 'colored' under Louisiana law; he purposely tested the law\nCourt upheld 'separate but equal' — segregation does not violate the Equal Protection Clause if facilities are nominally equal\nJustice Harlan's lone dissent: 'Our constitution is color-blind'\nRemained dominant legal doctrine for 58 years — provided constitutional cover for Jim Crow segregation throughout the South\nOverruled by Brown v. Board of Education (1954)",
           "cardFront": "'Separate but equal' established (1896)",
-          "cardBack": "Plessy v. Ferguson"
+          "cardBack": "Plessy v. Ferguson",
+          "links": [
+            {
+              "text": "Plessy v. Ferguson",
+              "url": "https://en.wikipedia.org/wiki/Plessy_v._Ferguson"
+            },
+            {
+              "text": "'Separate but equal' established",
+              "url": "https://en.wikipedia.org/wiki/'Separate_but_equal'_established"
+            }
+          ]
         },
         {
           "id": "schenck-v-united-states",
           "prompt": "This 1919 case upheld the conviction of a socialist who distributed anti-draft pamphlets during World War I, with Justice Holmes introducing the 'clear and present danger' test for free speech limits. Which case?",
           "answer": "Schenck v. United States",
-          "alternates": ["Schenck v United States", "Schenck"],
+          "alternates": [
+            "Schenck v United States",
+            "Schenck"
+          ],
           "explanation": "Decided 1919; Justice Oliver Wendell Holmes wrote the unanimous opinion\nCharles Schenck convicted under the Espionage Act for distributing pamphlets opposing the WWI draft\nHolmes articulated the 'clear and present danger' test: speech may be restricted when it poses an imminent danger\n'Falsely shouting fire in a crowded theatre' analogy comes from Holmes' opinion\nSchenck standard was later refined and superseded by Brandenburg v. Ohio (1969), which requires imminent lawless action\nKey moment in First Amendment jurisprudence — first major free speech ruling",
           "cardFront": "'Clear and present danger' test (1919)",
-          "cardBack": "Schenck v. United States"
+          "cardBack": "Schenck v. United States",
+          "links": [
+            {
+              "text": "Schenck v. United States",
+              "url": "https://en.wikipedia.org/wiki/Schenck_v._United_States"
+            },
+            {
+              "text": "'Clear and present danger' test",
+              "url": "https://en.wikipedia.org/wiki/'Clear_and_present_danger'_test"
+            }
+          ]
         },
         {
           "id": "brown-v-board",
           "prompt": "This 1954 landmark decision unanimously overturned 'separate but equal', ruling that racially segregated public schools were inherently unequal and violated the Equal Protection Clause of the 14th Amendment. Which case?",
           "answer": "Brown v. Board of Education",
-          "alternates": ["Brown v Board of Education", "Brown v Board", "Brown"],
+          "alternates": [
+            "Brown v Board of Education",
+            "Brown v Board",
+            "Brown"
+          ],
           "explanation": "Decided May 17, 1954; unanimous ruling by Chief Justice Earl Warren\nConsolidated five cases from Kansas, South Carolina, Virginia, Delaware, and Washington D.C.\nThurgood Marshall argued for the NAACP; later became the first Black Supreme Court Justice (1967)\nWarren: 'Separate educational facilities are inherently unequal'\nEisenhower sent federal troops to Little Rock Central High School to enforce desegregation (1957)\nConsidered the most important civil rights legal victory of the 20th century",
           "cardFront": "School segregation unconstitutional (1954)",
-          "cardBack": "Brown v. Board of Education"
+          "cardBack": "Brown v. Board of Education",
+          "links": [
+            {
+              "text": "Brown v. Board of Education",
+              "url": "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education"
+            },
+            {
+              "text": "School segregation unconstitutional",
+              "url": "https://en.wikipedia.org/wiki/School_segregation_unconstitutional"
+            }
+          ]
         },
         {
           "id": "gideon-v-wainwright",
           "prompt": "This 1963 decision ruled that states must provide an attorney to criminal defendants who cannot afford one, establishing the public defender system nationwide. Which case?",
           "answer": "Gideon v. Wainwright",
-          "alternates": ["Gideon v Wainwright", "Gideon"],
+          "alternates": [
+            "Gideon v Wainwright",
+            "Gideon"
+          ],
           "explanation": "Decided March 18, 1963; unanimous ruling by Justice Hugo Black\nClarence Earl Gideon, accused of burglary in Florida, was denied a court-appointed attorney and convicted\nGideon wrote his own handwritten petition to the Supreme Court from prison\nHeld: the 6th Amendment right to counsel applies to states via 14th Amendment incorporation\nForced all 50 states to provide public defenders — created the modern public defender system\nAfter retrial with an attorney, Gideon was acquitted",
           "cardFront": "Right to counsel for defendants who can't afford one (1963)",
-          "cardBack": "Gideon v. Wainwright"
+          "cardBack": "Gideon v. Wainwright",
+          "links": [
+            {
+              "text": "Gideon v. Wainwright",
+              "url": "https://en.wikipedia.org/wiki/Gideon_v._Wainwright"
+            },
+            {
+              "text": "Right to counsel for defendants who can't afford one",
+              "url": "https://en.wikipedia.org/wiki/Right_to_counsel_for_defendants_who_can't_afford_one"
+            }
+          ]
         },
         {
           "id": "miranda-v-arizona",
           "prompt": "This 1966 decision required police to inform suspects of their rights before interrogation, creating the now-familiar warnings about remaining silent and having an attorney. Which case?",
           "answer": "Miranda v. Arizona",
-          "alternates": ["Miranda v Arizona", "Miranda"],
+          "alternates": [
+            "Miranda v Arizona",
+            "Miranda"
+          ],
           "explanation": "Decided June 13, 1966; 5-4 ruling by Chief Justice Warren\nErnesto Miranda confessed to rape and kidnapping after police interrogation without being told his rights\nRequires police to advise suspects: right to remain silent; anything said can be used against them; right to an attorney\nMiranda warnings now standard procedure in all U.S. jurisdictions\nMiranda himself was retried without the confession, convicted again, and stabbed to death in 1976\nRooted in 5th Amendment (self-incrimination) and 6th Amendment (right to counsel)",
           "cardFront": "Police must advise suspects of rights before interrogation (1966)",
-          "cardBack": "Miranda v. Arizona"
+          "cardBack": "Miranda v. Arizona",
+          "links": [
+            {
+              "text": "Miranda v. Arizona",
+              "url": "https://en.wikipedia.org/wiki/Miranda_v._Arizona"
+            },
+            {
+              "text": "Police must advise suspects of rights before interrogation",
+              "url": "https://en.wikipedia.org/wiki/Police_must_advise_suspects_of_rights_before_interrogation"
+            }
+          ]
         },
         {
           "id": "loving-v-virginia",
           "prompt": "This 1967 unanimous decision struck down Virginia's anti-miscegenation law, ruling that laws banning interracial marriage violated the Equal Protection and Due Process Clauses. Which case?",
           "answer": "Loving v. Virginia",
-          "alternates": ["Loving v Virginia", "Loving"],
+          "alternates": [
+            "Loving v Virginia",
+            "Loving"
+          ],
           "explanation": "Decided June 12, 1967; unanimous ruling by Chief Justice Warren\nRichard Loving (white) and Mildred Loving (Black and Native American) were convicted in Virginia for their marriage\nIn a single ruling, struck down anti-miscegenation laws in 16 states\nEstablished the constitutional right to marry the person of one's choice — later cited in Obergefell\nJune 12 is now celebrated as 'Loving Day' by interracial couples nationwide\nThe name 'Loving' was noted by Warren as 'an ideal name for this decision'",
           "cardFront": "Interracial marriage protected (1967)",
-          "cardBack": "Loving v. Virginia"
+          "cardBack": "Loving v. Virginia",
+          "links": [
+            {
+              "text": "Loving v. Virginia",
+              "url": "https://en.wikipedia.org/wiki/Loving_v._Virginia"
+            },
+            {
+              "text": "Interracial marriage protected",
+              "url": "https://en.wikipedia.org/wiki/Interracial_marriage_protected"
+            }
+          ]
         },
         {
           "id": "tinker-v-des-moines",
           "prompt": "This 1969 decision held that public school students do not 'shed their constitutional rights at the schoolhouse gate', protecting students' right to wear black armbands protesting the Vietnam War. Which case?",
           "answer": "Tinker v. Des Moines",
-          "alternates": ["Tinker v Des Moines", "Tinker"],
+          "alternates": [
+            "Tinker v Des Moines",
+            "Tinker"
+          ],
           "explanation": "Decided February 24, 1969; 7-2 ruling by Justice Abe Fortas\nMary Beth Tinker (age 13), her brother John, and Christopher Eckhardt wore black armbands to protest Vietnam War; all were suspended\n'Students do not shed their constitutional rights at the schoolhouse gate'\nTest: student speech is protected unless it 'materially and substantially disrupts' school operations\nLandmark protection of student free speech rights; frequently cited in school free speech cases",
           "cardFront": "Student free speech in public schools (1969)",
-          "cardBack": "Tinker v. Des Moines"
+          "cardBack": "Tinker v. Des Moines",
+          "links": [
+            {
+              "text": "Tinker v. Des Moines",
+              "url": "https://en.wikipedia.org/wiki/Tinker_v._Des_Moines"
+            },
+            {
+              "text": "Student free speech in public schools",
+              "url": "https://en.wikipedia.org/wiki/Student_free_speech_in_public_schools"
+            }
+          ]
         },
         {
           "id": "roe-v-wade",
           "prompt": "This 1973 decision established a constitutional right to abortion based on a right to privacy in the 14th Amendment. It was overturned 49 years later by Dobbs v. Jackson Women's Health Organization (2022). Which case?",
           "answer": "Roe v. Wade",
-          "alternates": ["Roe v Wade", "Roe"],
+          "alternates": [
+            "Roe v Wade",
+            "Roe"
+          ],
           "explanation": "Decided January 22, 1973; 7-2 ruling by Justice Harry Blackmun\n'Jane Roe' was Norma McCorvey; Henry Wade was the Dallas district attorney who enforced the Texas abortion ban\nRecognized abortion as a constitutional right via an implied 'right to privacy' in the 14th Amendment's due process clause\nEstablished a trimester framework: states could regulate abortion after the first trimester\nConstitutional protection stood for 49 years before being overturned by Dobbs v. Jackson (June 24, 2022)\nDobbs returned abortion regulation to individual states — the most consequential reversal in Supreme Court history",
           "cardFront": "Abortion right established, 1973 (overturned 2022)",
-          "cardBack": "Roe v. Wade"
+          "cardBack": "Roe v. Wade",
+          "links": [
+            {
+              "text": "Roe v. Wade",
+              "url": "https://en.wikipedia.org/wiki/Roe_v._Wade"
+            },
+            {
+              "text": "Abortion right established, 1973",
+              "url": "https://en.wikipedia.org/wiki/Abortion_right_established,_1973"
+            }
+          ]
         },
         {
           "id": "us-v-nixon",
           "prompt": "This unanimous 1974 decision ruled that President Nixon had to turn over the White House tape recordings, rejecting his claim of absolute executive privilege and leading directly to his resignation. Which case?",
           "answer": "United States v. Nixon",
-          "alternates": ["United States v Nixon", "US v Nixon", "Nixon tapes case"],
+          "alternates": [
+            "United States v Nixon",
+            "US v Nixon",
+            "Nixon tapes case"
+          ],
           "explanation": "Decided July 24, 1974; unanimous 8-0 (Nixon appointee Rehnquist recused himself)\nNixon claimed absolute executive privilege to withhold Watergate tape recordings from the special prosecutor\nCourt held: executive privilege exists but is not absolute — it must yield to due process in criminal proceedings\n18½-minute gap discovered in the 'smoking gun' tape after Nixon was ordered to hand recordings over\nNixon resigned August 9, 1974 — sixteen days after the ruling\nEstablished the principle that no person, including the president, is above the law",
           "cardFront": "No absolute executive privilege — Watergate tapes (1974)",
-          "cardBack": "United States v. Nixon"
+          "cardBack": "United States v. Nixon",
+          "links": [
+            {
+              "text": "United States v. Nixon",
+              "url": "https://en.wikipedia.org/wiki/United_States_v._Nixon"
+            },
+            {
+              "text": "No absolute executive privilege — Watergate tapes",
+              "url": "https://en.wikipedia.org/wiki/No_absolute_executive_privilege_—_Watergate_tapes"
+            }
+          ]
         },
         {
           "id": "bush-v-gore",
           "prompt": "This 2000 decision stopped the Florida recount in the presidential election on Equal Protection grounds, effectively deciding the election in favor of George W. Bush over Al Gore. Which case?",
           "answer": "Bush v. Gore",
-          "alternates": ["Bush v Gore"],
+          "alternates": [
+            "Bush v Gore"
+          ],
           "explanation": "Decided December 12, 2000; 5-4 to stop the recount\nFlorida's recount was ordered after an extremely close count — Bush was ultimately certified the winner by 537 votes\nCourt ruled: the varying recount standards across Florida counties violated Equal Protection\nPer curiam opinion unusually noted it should not be cited as precedent — limiting its value as a legal precedent\nGore won the national popular vote by ~540,000; Bush won Electoral College 271-266\nFive Republican-appointed justices provided the majority; considered one of the most controversial SCOTUS decisions",
           "cardFront": "Florida recount stopped — 2000 presidential election decided (2000)",
-          "cardBack": "Bush v. Gore"
+          "cardBack": "Bush v. Gore",
+          "links": [
+            {
+              "text": "Bush v. Gore",
+              "url": "https://en.wikipedia.org/wiki/Bush_v._Gore"
+            },
+            {
+              "text": "Florida recount stopped — 2000 presidential election decided",
+              "url": "https://en.wikipedia.org/wiki/Florida_recount_stopped_—_2000_presidential_election_decided"
+            }
+          ]
         },
         {
           "id": "obergefell-v-hodges",
           "prompt": "This 2015 decision held that same-sex couples have a fundamental constitutional right to marry, invalidating same-sex marriage bans in all 50 states. Which case?",
           "answer": "Obergefell v. Hodges",
-          "alternates": ["Obergefell v Hodges", "Obergefell"],
+          "alternates": [
+            "Obergefell v Hodges",
+            "Obergefell"
+          ],
           "explanation": "Decided June 26, 2015; 5-4 decision written by Justice Anthony Kennedy\nJim Obergefell sued Ohio for refusing to list him as surviving spouse on his partner's death certificate\nHeld: the 14th Amendment requires states to license and recognize same-sex marriages\nKennedy's opinion invoked Loving v. Virginia and the right to dignity and equal recognition\nKennedy: 'No union is more profound than marriage'\nCame on the same date as U.S. v. Windsor (2013, struck down DOMA) — June 26 became significant in LGBTQ+ rights history",
           "cardFront": "Same-sex marriage is a constitutional right (2015)",
-          "cardBack": "Obergefell v. Hodges"
+          "cardBack": "Obergefell v. Hodges",
+          "links": [
+            {
+              "text": "Obergefell v. Hodges",
+              "url": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges"
+            },
+            {
+              "text": "Same-sex marriage is a constitutional right",
+              "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_is_a_constitutional_right"
+            }
+          ]
         },
         {
           "id": "dobbs-v-jackson",
           "prompt": "This 2022 decision overturned Roe v. Wade and Planned Parenthood v. Casey, ruling that the Constitution does not protect a right to abortion and returning the issue to individual states. Which case?",
           "answer": "Dobbs v. Jackson Women's Health Organization",
-          "alternates": ["Dobbs v Jackson Women's Health Organization", "Dobbs v Jackson", "Dobbs", "Dobbs decision"],
+          "alternates": [
+            "Dobbs v Jackson Women's Health Organization",
+            "Dobbs v Jackson",
+            "Dobbs",
+            "Dobbs decision"
+          ],
           "explanation": "Decided June 24, 2022; 6-3 majority opinion written by Justice Samuel Alito\nChallenged Mississippi's 15-week abortion ban; Thomas Dobbs was the Mississippi state health officer\nOverturned both Roe v. Wade (1973) and Planned Parenthood v. Casey (1992)\nHeld: the Constitution makes no reference to abortion; the right is not deeply rooted in history\nDraft opinion leaked in May 2022 — an unprecedented breach of Supreme Court confidentiality\nAs of 2025, 21 states have enacted total or near-total abortion bans following the ruling",
           "cardFront": "Roe overturned — abortion returned to states (2022)",
-          "cardBack": "Dobbs v. Jackson Women's Health Organization"
+          "cardBack": "Dobbs v. Jackson Women's Health Organization",
+          "links": [
+            {
+              "text": "Dobbs v. Jackson Women's Health Organization",
+              "url": "https://en.wikipedia.org/wiki/Dobbs_v._Jackson_Women's_Health_Organization"
+            },
+            {
+              "text": "Roe overturned — abortion returned to states",
+              "url": "https://en.wikipedia.org/wiki/Roe_overturned_—_abortion_returned_to_states"
+            }
+          ]
         }
       ]
     }

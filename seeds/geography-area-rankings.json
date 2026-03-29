@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "geography/countries", "parentId": "geography", "name": "Countries of the World", "description": "Country sets by region and category" }
+    {
+      "id": "geography/countries",
+      "parentId": "geography",
+      "name": "Countries of the World",
+      "description": "Country sets by region and category"
+    }
   ],
   "exercises": [
     {
@@ -8,127 +13,263 @@
       "nodeId": "geography/countries",
       "name": "World's Largest Countries by Area",
       "format": "fill-blanks",
-      "config": { "ordered": true, "prompt": "Name the 20 largest countries in the world by total area, in order from largest to smallest" },
+      "config": {
+        "ordered": true,
+        "prompt": "Name the 20 largest countries in the world by total area, in order from largest to smallest"
+      },
       "items": [
         {
           "id": "russia",
           "answer": "Russia",
-          "alternates": ["Russian Federation"],
-          "explanation": "#1 largest country — ~17.1 million km², spanning 11 time zones\nNearly twice the size of #2 Canada; covers about 11% of Earth's total land area\nTranscontinental across Europe and Asia; capital Moscow\nThe only country that borders both Norway and North Korea"
+          "alternates": [
+            "Russian Federation"
+          ],
+          "explanation": "#1 largest country — ~17.1 million km², spanning 11 time zones\nNearly twice the size of #2 Canada; covers about 11% of Earth's total land area\nTranscontinental across Europe and Asia; capital Moscow\nThe only country that borders both Norway and North Korea",
+          "links": [
+            {
+              "text": "Russia",
+              "url": "https://en.wikipedia.org/wiki/Russia"
+            }
+          ]
         },
         {
           "id": "canada",
           "answer": "Canada",
           "alternates": [],
-          "explanation": "#2 largest country — ~10.0 million km²\nHas the world's longest coastline (~202,000 km) despite being only the second-largest country by area\nCapital Ottawa; contains about 20% of the world's fresh surface water\nJust barely larger than #3 United States; the gap is less than 3%"
+          "explanation": "#2 largest country — ~10.0 million km²\nHas the world's longest coastline (~202,000 km) despite being only the second-largest country by area\nCapital Ottawa; contains about 20% of the world's fresh surface water\nJust barely larger than #3 United States; the gap is less than 3%",
+          "links": [
+            {
+              "text": "Canada",
+              "url": "https://en.wikipedia.org/wiki/Canada"
+            }
+          ]
         },
         {
           "id": "united-states",
           "answer": "United States",
-          "alternates": ["USA", "US", "America"],
-          "explanation": "#3 largest country by total area — ~9.8 million km² (including significant inland water bodies like the Great Lakes)\nSlightly larger than #4 China by total area, though China is larger by land area alone\nCapital Washington, D.C.; spans 6 time zones across the contiguous states\nThe Great Lakes account for a substantial portion of the U.S. advantage over China in total area"
+          "alternates": [
+            "USA",
+            "US",
+            "America"
+          ],
+          "explanation": "#3 largest country by total area — ~9.8 million km² (including significant inland water bodies like the Great Lakes)\nSlightly larger than #4 China by total area, though China is larger by land area alone\nCapital Washington, D.C.; spans 6 time zones across the contiguous states\nThe Great Lakes account for a substantial portion of the U.S. advantage over China in total area",
+          "links": [
+            {
+              "text": "United States",
+              "url": "https://en.wikipedia.org/wiki/United_States"
+            }
+          ]
         },
         {
           "id": "china",
           "answer": "China",
-          "alternates": ["People's Republic of China", "PRC"],
-          "explanation": "#4 largest country by total area — ~9.6 million km²\nLarger than the USA by land area alone, but the USA's extensive inland waters push it into third place on total area\nCapital Beijing; world's most populous country until 2023 when India surpassed it\nBorders 14 countries — more than any other country in the world"
+          "alternates": [
+            "People's Republic of China",
+            "PRC"
+          ],
+          "explanation": "#4 largest country by total area — ~9.6 million km²\nLarger than the USA by land area alone, but the USA's extensive inland waters push it into third place on total area\nCapital Beijing; world's most populous country until 2023 when India surpassed it\nBorders 14 countries — more than any other country in the world",
+          "links": [
+            {
+              "text": "China",
+              "url": "https://en.wikipedia.org/wiki/China"
+            }
+          ]
         },
         {
           "id": "brazil",
           "answer": "Brazil",
           "alternates": [],
-          "explanation": "#5 largest country — ~8.5 million km²\nLargest country in South America and in the Southern Hemisphere\nCapital Brasília (purpose-built capital, inaugurated 1960); the Amazon basin covers about 40% of the country\nContains about 60% of the Amazon rainforest, the world's largest tropical rainforest"
+          "explanation": "#5 largest country — ~8.5 million km²\nLargest country in South America and in the Southern Hemisphere\nCapital Brasília (purpose-built capital, inaugurated 1960); the Amazon basin covers about 40% of the country\nContains about 60% of the Amazon rainforest, the world's largest tropical rainforest",
+          "links": [
+            {
+              "text": "Brazil",
+              "url": "https://en.wikipedia.org/wiki/Brazil"
+            }
+          ]
         },
         {
           "id": "australia",
           "answer": "Australia",
           "alternates": [],
-          "explanation": "#6 largest country — ~7.7 million km²\nThe only country that is also an entire continent\nCapital Canberra; population (~26 million) is heavily concentrated in coastal cities despite the vast interior\nThe interior 'Outback' is largely uninhabitable desert; Australia has the world's lowest population density among large countries"
+          "explanation": "#6 largest country — ~7.7 million km²\nThe only country that is also an entire continent\nCapital Canberra; population (~26 million) is heavily concentrated in coastal cities despite the vast interior\nThe interior 'Outback' is largely uninhabitable desert; Australia has the world's lowest population density among large countries",
+          "links": [
+            {
+              "text": "Australia",
+              "url": "https://en.wikipedia.org/wiki/Australia"
+            }
+          ]
         },
         {
           "id": "india",
           "answer": "India",
           "alternates": [],
-          "explanation": "#7 largest country — ~3.3 million km²\nSurpassed China as the world's most populous country in 2023 (~1.4 billion people)\nCapital New Delhi; a major size drop from #6 Australia (~7.7M km²) to India (~3.3M km²)\nThe Indian subcontinent is separated from the rest of Asia by the Himalayas"
+          "explanation": "#7 largest country — ~3.3 million km²\nSurpassed China as the world's most populous country in 2023 (~1.4 billion people)\nCapital New Delhi; a major size drop from #6 Australia (~7.7M km²) to India (~3.3M km²)\nThe Indian subcontinent is separated from the rest of Asia by the Himalayas",
+          "links": [
+            {
+              "text": "India",
+              "url": "https://en.wikipedia.org/wiki/India"
+            }
+          ]
         },
         {
           "id": "argentina",
           "answer": "Argentina",
           "alternates": [],
-          "explanation": "#8 largest country — ~2.8 million km²\nSecond-largest country in South America and in the Southern Hemisphere\nCapital Buenos Aires; stretches from the tropics in the north to near-Antarctica in the south (Tierra del Fuego)\nIncludes a claim to part of Antarctica and the Falkland Islands (disputed with the UK)"
+          "explanation": "#8 largest country — ~2.8 million km²\nSecond-largest country in South America and in the Southern Hemisphere\nCapital Buenos Aires; stretches from the tropics in the north to near-Antarctica in the south (Tierra del Fuego)\nIncludes a claim to part of Antarctica and the Falkland Islands (disputed with the UK)",
+          "links": [
+            {
+              "text": "Argentina",
+              "url": "https://en.wikipedia.org/wiki/Argentina"
+            }
+          ]
         },
         {
           "id": "kazakhstan",
           "answer": "Kazakhstan",
           "alternates": [],
-          "explanation": "#9 largest country — ~2.7 million km²\nWorld's largest landlocked country; larger than all of Western Europe combined\nCapital Astana (renamed multiple times — was Nur-Sultan 2019–2022, Astana before and after)\nHome to the Baikonur Cosmodrome, the world's first and largest operational space launch facility\nFormer Soviet republic; gained independence in 1991"
+          "explanation": "#9 largest country — ~2.7 million km²\nWorld's largest landlocked country; larger than all of Western Europe combined\nCapital Astana (renamed multiple times — was Nur-Sultan 2019–2022, Astana before and after)\nHome to the Baikonur Cosmodrome, the world's first and largest operational space launch facility\nFormer Soviet republic; gained independence in 1991",
+          "links": [
+            {
+              "text": "Kazakhstan",
+              "url": "https://en.wikipedia.org/wiki/Kazakhstan"
+            }
+          ]
         },
         {
           "id": "algeria",
           "answer": "Algeria",
           "alternates": [],
-          "explanation": "#10 largest country — ~2.4 million km²\nLargest country in Africa by area (since Sudan's partition in 2011)\nCapital Algiers; about 90% of the country is covered by the Sahara Desert\nFrench colony from 1830 until 1962; gained independence after a brutal war (1954–1962)"
+          "explanation": "#10 largest country — ~2.4 million km²\nLargest country in Africa by area (since Sudan's partition in 2011)\nCapital Algiers; about 90% of the country is covered by the Sahara Desert\nFrench colony from 1830 until 1962; gained independence after a brutal war (1954–1962)",
+          "links": [
+            {
+              "text": "Algeria",
+              "url": "https://en.wikipedia.org/wiki/Algeria"
+            }
+          ]
         },
         {
           "id": "democratic-republic-of-congo",
           "answer": "Democratic Republic of Congo",
-          "alternates": ["DRC", "DR Congo", "Congo-Kinshasa"],
-          "explanation": "#11 largest country — ~2.3 million km²\nLarger than Saudi Arabia, which surprises many; the DRC's size is often underestimated on standard maps\nCapital Kinshasa; contains the Congo Rainforest, the world's second-largest tropical rainforest\nThe Congo River is the world's deepest river and second-largest by discharge (after the Amazon)\nHas endured decades of conflict; one of the world's most resource-rich yet poorest countries"
+          "alternates": [
+            "DRC",
+            "DR Congo",
+            "Congo-Kinshasa"
+          ],
+          "explanation": "#11 largest country — ~2.3 million km²\nLarger than Saudi Arabia, which surprises many; the DRC's size is often underestimated on standard maps\nCapital Kinshasa; contains the Congo Rainforest, the world's second-largest tropical rainforest\nThe Congo River is the world's deepest river and second-largest by discharge (after the Amazon)\nHas endured decades of conflict; one of the world's most resource-rich yet poorest countries",
+          "links": [
+            {
+              "text": "Democratic Republic of Congo",
+              "url": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Congo"
+            }
+          ]
         },
         {
           "id": "saudi-arabia",
           "answer": "Saudi Arabia",
           "alternates": [],
-          "explanation": "#12 largest country — ~2.15 million km²\nLargest country in the Middle East; about 95% of its land is desert or semi-desert\nCapital Riyadh; home to Islam's two holiest cities: Mecca and Medina\nWorld's second-largest proven oil reserves; ARAMCO is the world's most profitable company\nGreenland is larger (~2.2M km²) but is excluded here as it's an autonomous territory of Denmark, not a sovereign state"
+          "explanation": "#12 largest country — ~2.15 million km²\nLargest country in the Middle East; about 95% of its land is desert or semi-desert\nCapital Riyadh; home to Islam's two holiest cities: Mecca and Medina\nWorld's second-largest proven oil reserves; ARAMCO is the world's most profitable company\nGreenland is larger (~2.2M km²) but is excluded here as it's an autonomous territory of Denmark, not a sovereign state",
+          "links": [
+            {
+              "text": "Saudi Arabia",
+              "url": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+            }
+          ]
         },
         {
           "id": "mexico",
           "answer": "Mexico",
           "alternates": [],
-          "explanation": "#13 largest country — ~2.0 million km²\nCapital Mexico City, one of the world's largest metropolitan areas (~22 million)\nBorders the United States to the north and Guatemala and Belize to the south\nHome to more UNESCO World Heritage Sites than any other country in the Americas\nWorld's largest Spanish-speaking country by population"
+          "explanation": "#13 largest country — ~2.0 million km²\nCapital Mexico City, one of the world's largest metropolitan areas (~22 million)\nBorders the United States to the north and Guatemala and Belize to the south\nHome to more UNESCO World Heritage Sites than any other country in the Americas\nWorld's largest Spanish-speaking country by population",
+          "links": [
+            {
+              "text": "Mexico",
+              "url": "https://en.wikipedia.org/wiki/Mexico"
+            }
+          ]
         },
         {
           "id": "indonesia",
           "answer": "Indonesia",
           "alternates": [],
-          "explanation": "#14 largest country — ~1.9 million km²\nWorld's largest archipelago nation — over 17,000 islands spanning 5,000 km\nCapital Jakarta (government moving to new capital Nusantara on Borneo); world's fourth most populous country\nStraddles the equator across Southeast Asia; home to the world's third-largest tropical rainforest\nHas more active volcanoes than any other country"
+          "explanation": "#14 largest country — ~1.9 million km²\nWorld's largest archipelago nation — over 17,000 islands spanning 5,000 km\nCapital Jakarta (government moving to new capital Nusantara on Borneo); world's fourth most populous country\nStraddles the equator across Southeast Asia; home to the world's third-largest tropical rainforest\nHas more active volcanoes than any other country",
+          "links": [
+            {
+              "text": "Indonesia",
+              "url": "https://en.wikipedia.org/wiki/Indonesia"
+            }
+          ]
         },
         {
           "id": "sudan",
           "answer": "Sudan",
           "alternates": [],
-          "explanation": "#15 largest country — ~1.86 million km²\nWas Africa's largest country until South Sudan gained independence in 2011, which dropped Sudan to third-largest in Africa\nCapital Khartoum, at the confluence of the Blue and White Nile rivers\nCivil war broke out in 2023 between the Sudanese Armed Forces and the paramilitary RSF"
+          "explanation": "#15 largest country — ~1.86 million km²\nWas Africa's largest country until South Sudan gained independence in 2011, which dropped Sudan to third-largest in Africa\nCapital Khartoum, at the confluence of the Blue and White Nile rivers\nCivil war broke out in 2023 between the Sudanese Armed Forces and the paramilitary RSF",
+          "links": [
+            {
+              "text": "Sudan",
+              "url": "https://en.wikipedia.org/wiki/Sudan"
+            }
+          ]
         },
         {
           "id": "libya",
           "answer": "Libya",
           "alternates": [],
-          "explanation": "#16 largest country — ~1.76 million km²\nAbout 90% of the country is covered by the Sahara Desert; population heavily concentrated along the Mediterranean coast\nCapital Tripoli; Italian colony from 1911 until WWII; gained independence in 1951\nDictator Muammar Gaddafi ruled from 1969 until he was killed in the 2011 Arab Spring uprising\nSite of major WWII North Africa campaigns (Tobruk, El Alamein)"
+          "explanation": "#16 largest country — ~1.76 million km²\nAbout 90% of the country is covered by the Sahara Desert; population heavily concentrated along the Mediterranean coast\nCapital Tripoli; Italian colony from 1911 until WWII; gained independence in 1951\nDictator Muammar Gaddafi ruled from 1969 until he was killed in the 2011 Arab Spring uprising\nSite of major WWII North Africa campaigns (Tobruk, El Alamein)",
+          "links": [
+            {
+              "text": "Libya",
+              "url": "https://en.wikipedia.org/wiki/Libya"
+            }
+          ]
         },
         {
           "id": "iran",
           "answer": "Iran",
           "alternates": [],
-          "explanation": "#17 largest country — ~1.65 million km²\nFormerly known as Persia; renamed Iran in 1935\nCapital Tehran; home to one of the world's oldest continuous civilizations\nBorders the Caspian Sea, Persian Gulf, and Gulf of Oman but is not landlocked\nIslamic Republic since the 1979 revolution that overthrew Shah Mohammad Reza Pahlavi"
+          "explanation": "#17 largest country — ~1.65 million km²\nFormerly known as Persia; renamed Iran in 1935\nCapital Tehran; home to one of the world's oldest continuous civilizations\nBorders the Caspian Sea, Persian Gulf, and Gulf of Oman but is not landlocked\nIslamic Republic since the 1979 revolution that overthrew Shah Mohammad Reza Pahlavi",
+          "links": [
+            {
+              "text": "Iran",
+              "url": "https://en.wikipedia.org/wiki/Iran"
+            }
+          ]
         },
         {
           "id": "mongolia",
           "answer": "Mongolia",
           "alternates": [],
-          "explanation": "#18 largest country — ~1.56 million km²\nWorld's most sparsely populated sovereign country at ~2 people per km²\nCapital Ulaanbaatar, the world's coldest national capital\nHome of the Mongol Empire (13th–14th century), the largest contiguous land empire in history\nThe Gobi Desert covers much of the south; the rest is steppe grassland ('the sea of grass')"
+          "explanation": "#18 largest country — ~1.56 million km²\nWorld's most sparsely populated sovereign country at ~2 people per km²\nCapital Ulaanbaatar, the world's coldest national capital\nHome of the Mongol Empire (13th–14th century), the largest contiguous land empire in history\nThe Gobi Desert covers much of the south; the rest is steppe grassland ('the sea of grass')",
+          "links": [
+            {
+              "text": "Mongolia",
+              "url": "https://en.wikipedia.org/wiki/Mongolia"
+            }
+          ]
         },
         {
           "id": "peru",
           "answer": "Peru",
           "alternates": [],
-          "explanation": "#19 largest country — ~1.29 million km²\nCapital Lima; heart of the ancient Inca Empire, the largest empire in pre-Columbian America\nMachu Picchu (built c. 1450) is Peru's most visited site and a UNESCO World Heritage Site\nContains the Amazon headwaters; Lake Titicaca (shared with Bolivia) is the world's highest navigable lake\nJust barely larger than #20 Chad"
+          "explanation": "#19 largest country — ~1.29 million km²\nCapital Lima; heart of the ancient Inca Empire, the largest empire in pre-Columbian America\nMachu Picchu (built c. 1450) is Peru's most visited site and a UNESCO World Heritage Site\nContains the Amazon headwaters; Lake Titicaca (shared with Bolivia) is the world's highest navigable lake\nJust barely larger than #20 Chad",
+          "links": [
+            {
+              "text": "Peru",
+              "url": "https://en.wikipedia.org/wiki/Peru"
+            }
+          ]
         },
         {
           "id": "chad",
           "answer": "Chad",
           "alternates": [],
-          "explanation": "#20 largest country — ~1.28 million km²\nSlightly smaller than #19 Peru; the two are nearly identical in area\nCapital N'Djamena; located in north-central Africa, bordering 6 countries\nLake Chad, once one of Africa's largest lakes, has shrunk ~90% since the 1960s due to climate change and water diversion\nOne of the poorest and least developed countries in the world; mostly desert in the north, savanna in the south"
+          "explanation": "#20 largest country — ~1.28 million km²\nSlightly smaller than #19 Peru; the two are nearly identical in area\nCapital N'Djamena; located in north-central Africa, bordering 6 countries\nLake Chad, once one of Africa's largest lakes, has shrunk ~90% since the 1960s due to climate change and water diversion\nOne of the poorest and least developed countries in the world; mostly desert in the north, savanna in the south",
+          "links": [
+            {
+              "text": "Chad",
+              "url": "https://en.wikipedia.org/wiki/Chad"
+            }
+          ]
         }
       ]
     }

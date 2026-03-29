@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "science/nobel", "parentId": "science", "name": "Nobel Prizes in Science", "description": "Notable Nobel laureates in Physics, Chemistry, and Medicine" }
+    {
+      "id": "science/nobel",
+      "parentId": "science",
+      "name": "Nobel Prizes in Science",
+      "description": "Notable Nobel laureates in Physics, Chemistry, and Medicine"
+    }
   ],
   "exercises": [
     {
@@ -13,173 +18,423 @@
         {
           "id": "rontgen",
           "prompt": "Which German physicist won the very first Nobel Prize in Physics in 1901 for discovering a new penetrating radiation he called 'X' because its nature was unknown?",
-          "answer": "Wilhelm R\u00f6ntgen",
-          "alternates": ["R\u00f6ntgen", "Roentgen", "Wilhelm Roentgen", "Wilhelm Conrad R\u00f6ntgen"],
-          "explanation": "Discovered X-rays on November 8, 1895, in W\u00fcrzburg, Germany; first Nobel Prize in Physics (1901)\nHis first famous image: his wife Anna Bertha's hand showing her bones and wedding ring \u2014 she reportedly said 'I have seen my own death'\nX-rays (called R\u00f6ntgen radiation in German) revolutionized medicine; physicians began using them within weeks of the announcement\nRefused to patent his discovery, insisting it should benefit humanity freely\nDied in poverty in 1923 after post-WWI hyperinflation destroyed his savings",
-          "cardFront": "Physics, 1901 \u2014 X-rays",
-          "cardBack": "Wilhelm R\u00f6ntgen"
+          "answer": "Wilhelm Röntgen",
+          "alternates": [
+            "Röntgen",
+            "Roentgen",
+            "Wilhelm Roentgen",
+            "Wilhelm Conrad Röntgen"
+          ],
+          "explanation": "Discovered X-rays on November 8, 1895, in Würzburg, Germany; first Nobel Prize in Physics (1901)\nHis first famous image: his wife Anna Bertha's hand showing her bones and wedding ring — she reportedly said 'I have seen my own death'\nX-rays (called Röntgen radiation in German) revolutionized medicine; physicians began using them within weeks of the announcement\nRefused to patent his discovery, insisting it should benefit humanity freely\nDied in poverty in 1923 after post-WWI hyperinflation destroyed his savings",
+          "cardFront": "Physics, 1901 — X-rays",
+          "cardBack": "Wilhelm Röntgen",
+          "links": [
+            {
+              "text": "Wilhelm Röntgen",
+              "url": "https://en.wikipedia.org/wiki/Wilhelm_Röntgen"
+            },
+            {
+              "text": "Physics, 1901 — X-rays",
+              "url": "https://en.wikipedia.org/wiki/Physics,_1901_—_X-rays"
+            }
+          ]
         },
         {
           "id": "pavlov",
           "prompt": "Which Russian physiologist won the 1904 Nobel Prize in Medicine for research on digestion, and became more famous for experiments showing dogs could learn to salivate at the sound of a bell?",
           "answer": "Ivan Pavlov",
-          "alternates": ["Pavlov", "Ivan Petrovich Pavlov"],
-          "explanation": "Nobel Prize in Physiology or Medicine 1904 for research on the physiology of digestive glands \u2014 the first Russian to win a Nobel\nFamous dog experiments: dogs salivated at a bell previously associated with food, demonstrating classical (Pavlovian) conditioning\nAn unconditioned reflex (food \u2192 saliva) can become a conditioned reflex (bell \u2192 saliva) through learned association\nContinued research under the Bolshevik government; publicly criticized Stalin despite being protected from arrest\n'Pavlovian' is now a common adjective for any automatic stimulus-response learned behavior",
-          "cardFront": "Medicine, 1904 \u2014 conditioned reflexes",
-          "cardBack": "Ivan Pavlov"
+          "alternates": [
+            "Pavlov",
+            "Ivan Petrovich Pavlov"
+          ],
+          "explanation": "Nobel Prize in Physiology or Medicine 1904 for research on the physiology of digestive glands — the first Russian to win a Nobel\nFamous dog experiments: dogs salivated at a bell previously associated with food, demonstrating classical (Pavlovian) conditioning\nAn unconditioned reflex (food → saliva) can become a conditioned reflex (bell → saliva) through learned association\nContinued research under the Bolshevik government; publicly criticized Stalin despite being protected from arrest\n'Pavlovian' is now a common adjective for any automatic stimulus-response learned behavior",
+          "cardFront": "Medicine, 1904 — conditioned reflexes",
+          "cardBack": "Ivan Pavlov",
+          "links": [
+            {
+              "text": "Ivan Pavlov",
+              "url": "https://en.wikipedia.org/wiki/Ivan_Pavlov"
+            },
+            {
+              "text": "Medicine, 1904 — conditioned reflexes",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_1904_—_conditioned_reflexes"
+            }
+          ]
         },
         {
           "id": "rutherford",
-          "prompt": "Which New Zealand-born physicist won the 1908 Nobel Prize in Chemistry \u2014 not Physics \u2014 for discovering that radioactive decay transmutes elements, and later proposed the nuclear model of the atom?",
+          "prompt": "Which New Zealand-born physicist won the 1908 Nobel Prize in Chemistry — not Physics — for discovering that radioactive decay transmutes elements, and later proposed the nuclear model of the atom?",
           "answer": "Ernest Rutherford",
-          "alternates": ["Rutherford", "Lord Rutherford", "Ernest Rutherford, 1st Baron Rutherford"],
-          "explanation": "Born 1871 in Nelson, New Zealand; died 1937 in Cambridge, England\nNobel Prize in Chemistry 1908 (he quipped being transformed from a physicist to a chemist overnight)\nGold foil experiment (Geiger-Marsden, 1909\u20131911): proved atoms have a tiny, dense, positive nucleus \u2014 overturning Thomson's 'plum pudding' model\nFirst to artificially split the atom (1917): bombarded nitrogen with alpha particles to produce oxygen and hydrogen\nCalled the 'father of nuclear physics'; element 104 (rutherfordium, Rf) is named for him",
-          "cardFront": "Chemistry, 1908 \u2014 nuclear model of the atom",
-          "cardBack": "Ernest Rutherford"
+          "alternates": [
+            "Rutherford",
+            "Lord Rutherford",
+            "Ernest Rutherford, 1st Baron Rutherford"
+          ],
+          "explanation": "Born 1871 in Nelson, New Zealand; died 1937 in Cambridge, England\nNobel Prize in Chemistry 1908 (he quipped being transformed from a physicist to a chemist overnight)\nGold foil experiment (Geiger-Marsden, 1909–1911): proved atoms have a tiny, dense, positive nucleus — overturning Thomson's 'plum pudding' model\nFirst to artificially split the atom (1917): bombarded nitrogen with alpha particles to produce oxygen and hydrogen\nCalled the 'father of nuclear physics'; element 104 (rutherfordium, Rf) is named for him",
+          "cardFront": "Chemistry, 1908 — nuclear model of the atom",
+          "cardBack": "Ernest Rutherford",
+          "links": [
+            {
+              "text": "Ernest Rutherford",
+              "url": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+            },
+            {
+              "text": "Chemistry, 1908 — nuclear model of the atom",
+              "url": "https://en.wikipedia.org/wiki/Chemistry,_1908_—_nuclear_model_of_the_atom"
+            }
+          ]
         },
         {
           "id": "banting",
-          "prompt": "Which Canadian physician won the 1923 Nobel Prize in Physiology or Medicine for discovering insulin as a treatment for diabetes \u2014 and was so outraged by who shared the prize that he split his half with the excluded co-discoverer?",
+          "prompt": "Which Canadian physician won the 1923 Nobel Prize in Physiology or Medicine for discovering insulin as a treatment for diabetes — and was so outraged by who shared the prize that he split his half with the excluded co-discoverer?",
           "answer": "Frederick Banting",
-          "alternates": ["Banting", "Frederick G. Banting", "Sir Frederick Banting"],
-          "explanation": "Nobel Prize in Physiology or Medicine 1923, shared with lab director John Macleod\nDiscovered insulin with medical student Charles Best in 1921 \u2014 Banting was furious Best was excluded; he publicly split his prize money with Best\nFirst insulin injection in a diabetic: 14-year-old Leonard Thompson, January 11, 1922 \u2014 the patient's condition improved dramatically\nMacleod was in Scotland for much of the key experimental work; the prize allocation became one of the most controversial in Nobel history\nKilled in a plane crash over Newfoundland in 1941 at age 49, on a secret WWII scientific mission to Britain",
-          "cardFront": "Medicine, 1923 \u2014 insulin",
-          "cardBack": "Frederick Banting"
+          "alternates": [
+            "Banting",
+            "Frederick G. Banting",
+            "Sir Frederick Banting"
+          ],
+          "explanation": "Nobel Prize in Physiology or Medicine 1923, shared with lab director John Macleod\nDiscovered insulin with medical student Charles Best in 1921 — Banting was furious Best was excluded; he publicly split his prize money with Best\nFirst insulin injection in a diabetic: 14-year-old Leonard Thompson, January 11, 1922 — the patient's condition improved dramatically\nMacleod was in Scotland for much of the key experimental work; the prize allocation became one of the most controversial in Nobel history\nKilled in a plane crash over Newfoundland in 1941 at age 49, on a secret WWII scientific mission to Britain",
+          "cardFront": "Medicine, 1923 — insulin",
+          "cardBack": "Frederick Banting",
+          "links": [
+            {
+              "text": "Frederick Banting",
+              "url": "https://en.wikipedia.org/wiki/Frederick_Banting"
+            },
+            {
+              "text": "Medicine, 1923 — insulin",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_1923_—_insulin"
+            }
+          ]
         },
         {
           "id": "linus-pauling",
-          "prompt": "Which American chemist is the only person to have won two unshared Nobel Prizes in different categories \u2014 Chemistry in 1954 and Peace in 1962?",
+          "prompt": "Which American chemist is the only person to have won two unshared Nobel Prizes in different categories — Chemistry in 1954 and Peace in 1962?",
           "answer": "Linus Pauling",
-          "alternates": ["Pauling"],
+          "alternates": [
+            "Pauling"
+          ],
           "explanation": "Chemistry Nobel 1954 for research on chemical bonding: hybridization, resonance, the electronegativity scale, and protein secondary structure\nPeace Nobel 1962 for circulating a petition against nuclear weapons testing signed by over 11,000 scientists\nOnly person to win two unshared Nobels in different categories; Marie Curie won two in different sciences but the Peace category is different\nNarrowly missed a third Nobel: proposed the alpha helix structure of proteins, but Watson and Crick beat him to the DNA double helix\nChampioned megadose Vitamin C in his later years; the scientific consensus largely rejected his claims",
-          "cardFront": "Chemistry 1954 + Peace 1962 \u2014 two unshared Nobels",
-          "cardBack": "Linus Pauling"
+          "cardFront": "Chemistry 1954 + Peace 1962 — two unshared Nobels",
+          "cardBack": "Linus Pauling",
+          "links": [
+            {
+              "text": "Linus Pauling",
+              "url": "https://en.wikipedia.org/wiki/Linus_Pauling"
+            },
+            {
+              "text": "Chemistry 1954 + Peace 1962 — two unshared Nobels",
+              "url": "https://en.wikipedia.org/wiki/Chemistry_1954_+_Peace_1962_—_two_unshared_Nobels"
+            }
+          ]
         },
         {
           "id": "mcclintock",
-          "prompt": "Which American geneticist won the 1983 Nobel Prize in Physiology or Medicine \u2014 awarded 32 years after her key research \u2014 for discovering that genes can move between chromosomes, a phenomenon she called transposons?",
+          "prompt": "Which American geneticist won the 1983 Nobel Prize in Physiology or Medicine — awarded 32 years after her key research — for discovering that genes can move between chromosomes, a phenomenon she called transposons?",
           "answer": "Barbara McClintock",
-          "alternates": ["McClintock"],
-          "explanation": "Born 1902 in Hartford, CT; died 1992 in Cold Spring Harbor, NY, at age 90\nDiscovered transposable elements ('jumping genes') in maize (corn) in the late 1940s and early 1950s\nHer work was largely dismissed or ignored for decades until the molecular biology revolution of the 1970s proved her correct\nNobel Prize in Physiology or Medicine 1983 \u2014 at 81, one of the oldest first-time laureates; the only woman to win an unshared Nobel in that category\nTransposons now known to make up ~45% of the human genome; central to understanding cancer, evolution, and genome regulation",
-          "cardFront": "Medicine, 1983 \u2014 jumping genes (transposons)",
-          "cardBack": "Barbara McClintock"
+          "alternates": [
+            "McClintock"
+          ],
+          "explanation": "Born 1902 in Hartford, CT; died 1992 in Cold Spring Harbor, NY, at age 90\nDiscovered transposable elements ('jumping genes') in maize (corn) in the late 1940s and early 1950s\nHer work was largely dismissed or ignored for decades until the molecular biology revolution of the 1970s proved her correct\nNobel Prize in Physiology or Medicine 1983 — at 81, one of the oldest first-time laureates; the only woman to win an unshared Nobel in that category\nTransposons now known to make up ~45% of the human genome; central to understanding cancer, evolution, and genome regulation",
+          "cardFront": "Medicine, 1983 — jumping genes (transposons)",
+          "cardBack": "Barbara McClintock",
+          "links": [
+            {
+              "text": "Barbara McClintock",
+              "url": "https://en.wikipedia.org/wiki/Barbara_McClintock"
+            },
+            {
+              "text": "Medicine, 1983 — jumping genes",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_1983_—_jumping_genes"
+            }
+          ]
         },
         {
           "id": "kary-mullis",
           "prompt": "Which American biochemist won the 1993 Nobel Prize in Chemistry for inventing PCR (polymerase chain reaction), a technique for amplifying tiny DNA samples that revolutionized medicine, forensics, and molecular biology?",
           "answer": "Kary Mullis",
-          "alternates": ["Mullis"],
-          "explanation": "Conceived PCR in 1983 while driving along a California highway; colleagues were initially skeptical\nPCR amplifies a tiny DNA sample millions of times in a few hours \u2014 enabling DNA fingerprinting, pathogen detection (including COVID-19 tests), ancient DNA analysis, and cancer diagnosis\nNobel Prize in Chemistry 1993, shared with Michael Smith\nNotoriously unconventional: wrote about personal encounters with extraterrestrials; his memoir *Dancing Naked in the Mind Field* documented his unorthodox views\nDied in August 2019; his invention became globally indispensable just months later during the COVID-19 pandemic",
-          "cardFront": "Chemistry, 1993 \u2014 PCR",
-          "cardBack": "Kary Mullis"
+          "alternates": [
+            "Mullis"
+          ],
+          "explanation": "Conceived PCR in 1983 while driving along a California highway; colleagues were initially skeptical\nPCR amplifies a tiny DNA sample millions of times in a few hours — enabling DNA fingerprinting, pathogen detection (including COVID-19 tests), ancient DNA analysis, and cancer diagnosis\nNobel Prize in Chemistry 1993, shared with Michael Smith\nNotoriously unconventional: wrote about personal encounters with extraterrestrials; his memoir *Dancing Naked in the Mind Field* documented his unorthodox views\nDied in August 2019; his invention became globally indispensable just months later during the COVID-19 pandemic",
+          "cardFront": "Chemistry, 1993 — PCR",
+          "cardBack": "Kary Mullis",
+          "links": [
+            {
+              "text": "Kary Mullis",
+              "url": "https://en.wikipedia.org/wiki/Kary_Mullis"
+            },
+            {
+              "text": "Chemistry, 1993 — PCR",
+              "url": "https://en.wikipedia.org/wiki/Chemistry,_1993_—_PCR"
+            }
+          ]
         },
         {
           "id": "barry-marshall",
-          "prompt": "Which Australian physician won the 2005 Nobel Prize in Medicine for proving that stomach ulcers are caused by bacterial infection \u2014 famously demonstrating his theory by drinking a solution of the bacterium himself?",
+          "prompt": "Which Australian physician won the 2005 Nobel Prize in Medicine for proving that stomach ulcers are caused by bacterial infection — famously demonstrating his theory by drinking a solution of the bacterium himself?",
           "answer": "Barry Marshall",
-          "alternates": ["Marshall", "Barry J. Marshall"],
-          "explanation": "Nobel Prize in Physiology or Medicine 2005, shared with Robin Warren, for discovering *Helicobacter pylori* as the cause of gastric ulcers and gastritis\nThe medical establishment long insisted ulcers were caused by stress and excess acid; Marshall and Warren faced years of rejection\nIn 1984, Marshall drank a Petri dish culture of *H. pylori*, developed gastritis, then cured himself with antibiotics \u2014 one of the most dramatic self-experiments in medical history\nThe discovery overturned decades of treatment: most ulcers are now curable with a 1\u20132 week antibiotic course\n*H. pylori* is also a Class I carcinogen; eradicating it reduces stomach cancer risk",
-          "cardFront": "Medicine, 2005 \u2014 *H. pylori* causes ulcers",
-          "cardBack": "Barry Marshall"
+          "alternates": [
+            "Marshall",
+            "Barry J. Marshall"
+          ],
+          "explanation": "Nobel Prize in Physiology or Medicine 2005, shared with Robin Warren, for discovering *Helicobacter pylori* as the cause of gastric ulcers and gastritis\nThe medical establishment long insisted ulcers were caused by stress and excess acid; Marshall and Warren faced years of rejection\nIn 1984, Marshall drank a Petri dish culture of *H. pylori*, developed gastritis, then cured himself with antibiotics — one of the most dramatic self-experiments in medical history\nThe discovery overturned decades of treatment: most ulcers are now curable with a 1–2 week antibiotic course\n*H. pylori* is also a Class I carcinogen; eradicating it reduces stomach cancer risk",
+          "cardFront": "Medicine, 2005 — *H. pylori* causes ulcers",
+          "cardBack": "Barry Marshall",
+          "links": [
+            {
+              "text": "Barry Marshall",
+              "url": "https://en.wikipedia.org/wiki/Barry_Marshall"
+            },
+            {
+              "text": "Medicine, 2005 — *H. pylori* causes ulcers",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_2005_—_*H._pylori*_causes_ulcers"
+            }
+          ]
         },
         {
           "id": "tu-youyou",
-          "prompt": "Which Chinese pharmacologist won the 2015 Nobel Prize in Medicine for discovering artemisinin as an effective malaria treatment \u2014 the first Chinese woman and first mainland Chinese citizen to win a Nobel Prize in science?",
+          "prompt": "Which Chinese pharmacologist won the 2015 Nobel Prize in Medicine for discovering artemisinin as an effective malaria treatment — the first Chinese woman and first mainland Chinese citizen to win a Nobel Prize in science?",
           "answer": "Tu Youyou",
-          "alternates": ["Youyou Tu"],
+          "alternates": [
+            "Youyou Tu"
+          ],
           "explanation": "Born 1930 in Ningbo, China; the first Chinese woman and first Chinese citizen educated entirely in mainland China to win a Nobel in science\nDiscovered artemisinin (qinghaosu) in 1972 from *Artemisia annua* (sweet wormwood), a plant used in Chinese medicine for ~2,000 years\nArtemisinin-based combination therapies are the WHO's first-line treatment for malaria, saving millions of lives\nFound the lead in ancient Chinese texts (Su Honggjing, 340 CE); her work was initially secret under China's 'Project 523'\nSometimes called 'the professor of three nos': no doctoral degree, no postdoctoral research, and no membership in the Chinese Academy of Sciences when she made the discovery",
-          "cardFront": "Medicine, 2015 \u2014 artemisinin for malaria",
-          "cardBack": "Tu Youyou"
+          "cardFront": "Medicine, 2015 — artemisinin for malaria",
+          "cardBack": "Tu Youyou",
+          "links": [
+            {
+              "text": "Tu Youyou",
+              "url": "https://en.wikipedia.org/wiki/Tu_Youyou"
+            },
+            {
+              "text": "Medicine, 2015 — artemisinin for malaria",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_2015_—_artemisinin_for_malaria"
+            }
+          ]
         },
         {
           "id": "peter-higgs",
-          "prompt": "Which British theoretical physicist won the 2013 Nobel Prize in Physics, along with Fran\u00e7ois Englert, for predicting a fundamental particle that gives other particles their mass, confirmed at CERN in 2012?",
+          "prompt": "Which British theoretical physicist won the 2013 Nobel Prize in Physics, along with François Englert, for predicting a fundamental particle that gives other particles their mass, confirmed at CERN in 2012?",
           "answer": "Peter Higgs",
-          "alternates": ["Higgs"],
-          "explanation": "Nobel Prize in Physics 2013, shared with Fran\u00e7ois Englert (Robert Brout, who co-developed the theory with Englert, died in 2011)\nPredicted the Higgs boson in 1964; confirmed by CERN's Large Hadron Collider on July 4, 2012\nThe Higgs field permeates all space; particles acquire mass by interacting with it; the Higgs boson is the field's carrier particle\nPopularly called the 'God particle' \u2014 a term Higgs himself disliked intensely\nThe discovery validated the Standard Model of particle physics, completing predictions for 17 fundamental particles",
-          "cardFront": "Physics, 2013 \u2014 Higgs boson",
-          "cardBack": "Peter Higgs"
+          "alternates": [
+            "Higgs"
+          ],
+          "explanation": "Nobel Prize in Physics 2013, shared with François Englert (Robert Brout, who co-developed the theory with Englert, died in 2011)\nPredicted the Higgs boson in 1964; confirmed by CERN's Large Hadron Collider on July 4, 2012\nThe Higgs field permeates all space; particles acquire mass by interacting with it; the Higgs boson is the field's carrier particle\nPopularly called the 'God particle' — a term Higgs himself disliked intensely\nThe discovery validated the Standard Model of particle physics, completing predictions for 17 fundamental particles",
+          "cardFront": "Physics, 2013 — Higgs boson",
+          "cardBack": "Peter Higgs",
+          "links": [
+            {
+              "text": "Peter Higgs",
+              "url": "https://en.wikipedia.org/wiki/Peter_Higgs"
+            },
+            {
+              "text": "Physics, 2013 — Higgs boson",
+              "url": "https://en.wikipedia.org/wiki/Physics,_2013_—_Higgs_boson"
+            }
+          ]
         },
         {
           "id": "doudna-charpentier",
           "prompt": "Which two scientists won the 2020 Nobel Prize in Chemistry for developing CRISPR-Cas9, a precise gene-editing tool described as 'genetic scissors' that has transformed biology and medicine?",
           "answer": "Jennifer Doudna & Emmanuelle Charpentier",
-          "alternates": ["Doudna and Charpentier", "Jennifer Doudna and Emmanuelle Charpentier", "Charpentier and Doudna"],
-          "explanation": "Nobel Prize in Chemistry 2020 \u2014 the first time the Chemistry prize was awarded exclusively to two women\nCRISPR (Clustered Regularly Interspaced Short Palindromic Repeats): a bacterial immune defense mechanism repurposed as a programmable DNA editing tool\nTheir landmark *Science* paper (June 2012) showed CRISPR-Cas9 could precisely cut any targeted DNA sequence\nApplications: sickle cell disease treatment (first approved CRISPR therapy, 2023), agricultural biotechnology, and cancer research\nFaced a complex patent dispute with the Broad Institute (Feng Zhang) over rights to CRISPR in human cells",
-          "cardFront": "Chemistry, 2020 \u2014 CRISPR-Cas9 gene editing",
-          "cardBack": "Jennifer Doudna & Emmanuelle Charpentier"
+          "alternates": [
+            "Doudna and Charpentier",
+            "Jennifer Doudna and Emmanuelle Charpentier",
+            "Charpentier and Doudna"
+          ],
+          "explanation": "Nobel Prize in Chemistry 2020 — the first time the Chemistry prize was awarded exclusively to two women\nCRISPR (Clustered Regularly Interspaced Short Palindromic Repeats): a bacterial immune defense mechanism repurposed as a programmable DNA editing tool\nTheir landmark *Science* paper (June 2012) showed CRISPR-Cas9 could precisely cut any targeted DNA sequence\nApplications: sickle cell disease treatment (first approved CRISPR therapy, 2023), agricultural biotechnology, and cancer research\nFaced a complex patent dispute with the Broad Institute (Feng Zhang) over rights to CRISPR in human cells",
+          "cardFront": "Chemistry, 2020 — CRISPR-Cas9 gene editing",
+          "cardBack": "Jennifer Doudna & Emmanuelle Charpentier",
+          "links": [
+            {
+              "text": "Jennifer Doudna & Emmanuelle Charpentier",
+              "url": "https://en.wikipedia.org/wiki/Jennifer_Doudna_&_Emmanuelle_Charpentier"
+            },
+            {
+              "text": "Chemistry, 2020 — CRISPR-Cas9 gene editing",
+              "url": "https://en.wikipedia.org/wiki/Chemistry,_2020_—_CRISPR-Cas9_gene_editing"
+            }
+          ]
         },
         {
           "id": "kariko-weissman",
           "prompt": "Which two scientists won the 2023 Nobel Prize in Physiology or Medicine for discoveries about mRNA nucleoside modifications that enabled the development of COVID-19 mRNA vaccines?",
-          "answer": "Katalin Karik\u00f3 & Drew Weissman",
-          "alternates": ["Karik\u00f3 and Weissman", "Katalin Kariko and Drew Weissman", "Kariko and Weissman", "Weissman and Karik\u00f3"],
-          "explanation": "Nobel Prize in Physiology or Medicine 2023 for showing that modified nucleosides in synthetic mRNA suppress the immune response that would otherwise destroy it \u2014 making mRNA therapeutics viable\nKarik\u00f3 spent decades pursuing mRNA therapy while being repeatedly demoted and losing grants due to lack of institutional support\nTheir key 2005 paper was initially rejected by several journals\nDirectly enabled BioNTech/Pfizer and Moderna COVID-19 vaccines; over 13 billion doses administered globally by 2023\nKarik\u00f3 is only the 13th woman to win the Nobel Prize in Physiology or Medicine",
-          "cardFront": "Medicine, 2023 \u2014 mRNA vaccine technology",
-          "cardBack": "Katalin Karik\u00f3 & Drew Weissman"
+          "answer": "Katalin Karikó & Drew Weissman",
+          "alternates": [
+            "Karikó and Weissman",
+            "Katalin Kariko and Drew Weissman",
+            "Kariko and Weissman",
+            "Weissman and Karikó"
+          ],
+          "explanation": "Nobel Prize in Physiology or Medicine 2023 for showing that modified nucleosides in synthetic mRNA suppress the immune response that would otherwise destroy it — making mRNA therapeutics viable\nKarikó spent decades pursuing mRNA therapy while being repeatedly demoted and losing grants due to lack of institutional support\nTheir key 2005 paper was initially rejected by several journals\nDirectly enabled BioNTech/Pfizer and Moderna COVID-19 vaccines; over 13 billion doses administered globally by 2023\nKarikó is only the 13th woman to win the Nobel Prize in Physiology or Medicine",
+          "cardFront": "Medicine, 2023 — mRNA vaccine technology",
+          "cardBack": "Katalin Karikó & Drew Weissman",
+          "links": [
+            {
+              "text": "Katalin Karikó & Drew Weissman",
+              "url": "https://en.wikipedia.org/wiki/Katalin_Karikó_&_Drew_Weissman"
+            },
+            {
+              "text": "Medicine, 2023 — mRNA vaccine technology",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_2023_—_mRNA_vaccine_technology"
+            }
+          ]
         },
         {
           "id": "john-bardeen",
-          "prompt": "Which American physicist is the only person to have won the Nobel Prize in Physics twice \u2014 in 1956 for co-inventing the transistor and in 1972 for the BCS theory of superconductivity?",
+          "prompt": "Which American physicist is the only person to have won the Nobel Prize in Physics twice — in 1956 for co-inventing the transistor and in 1972 for the BCS theory of superconductivity?",
           "answer": "John Bardeen",
-          "alternates": ["Bardeen"],
+          "alternates": [
+            "Bardeen"
+          ],
           "explanation": "Nobel Prize in Physics 1956 (shared with Walter Brattain and William Shockley) for inventing the transistor at Bell Labs on December 23, 1947\nNobel Prize in Physics 1972 (shared with Leon Cooper and John Robert Schrieffer) for BCS theory explaining superconductivity at the atomic level\nThe only person to win the Nobel Prize in Physics twice\nAfter Shockley excluded Bardeen and Brattain from further transistor research, Bardeen left Bell Labs for the University of Illinois at Urbana-Champaign\nThe transistor underpins all modern electronics; Bardeen's double Nobel uniquely spans both its invention and a second major branch of physics",
           "cardFront": "Only person to win Nobel Physics twice",
-          "cardBack": "John Bardeen"
+          "cardBack": "John Bardeen",
+          "links": [
+            {
+              "text": "John Bardeen",
+              "url": "https://en.wikipedia.org/wiki/John_Bardeen"
+            },
+            {
+              "text": "Only person to win Nobel Physics twice",
+              "url": "https://en.wikipedia.org/wiki/Only_person_to_win_Nobel_Physics_twice"
+            }
+          ]
         },
         {
           "id": "ramon-y-cajal",
-          "prompt": "Which Spanish pathologist, using silver staining to map the nervous system, proved it consists of discrete individual neurons rather than a continuous network \u2014 sharing the Nobel Prize in Medicine in 1906 with his chief opponent?",
-          "answer": "Santiago Ram\u00f3n y Cajal",
-          "alternates": ["Ram\u00f3n y Cajal", "Ramon y Cajal", "Santiago Ramon y Cajal"],
-          "explanation": "Shared Nobel Medicine 1906 with Camillo Golgi \u2014 who used his own Nobel lecture to argue against the neuron doctrine that Cajal had proved\nEstablished the neuron doctrine: the nervous system is composed of discrete individual cells, not a continuous reticulum\nCreated extraordinarily detailed hand drawings of neural structures, still reproduced in neuroscience textbooks today\nUsed Golgi\u2019s own silver-staining technique to refute Golgi\u2019s reticular theory \u2014 one of science\u2019s great ironies\nCalled the \u2018father of modern neuroscience\u2019; born 1852 in Petilla de Arag\u00f3n, Spain; died 1934",
-          "cardFront": "Medicine, 1906 \u2014 neuron doctrine, father of neuroscience",
-          "cardBack": "Santiago Ram\u00f3n y Cajal"
+          "prompt": "Which Spanish pathologist, using silver staining to map the nervous system, proved it consists of discrete individual neurons rather than a continuous network — sharing the Nobel Prize in Medicine in 1906 with his chief opponent?",
+          "answer": "Santiago Ramón y Cajal",
+          "alternates": [
+            "Ramón y Cajal",
+            "Ramon y Cajal",
+            "Santiago Ramon y Cajal"
+          ],
+          "explanation": "Shared Nobel Medicine 1906 with Camillo Golgi — who used his own Nobel lecture to argue against the neuron doctrine that Cajal had proved\nEstablished the neuron doctrine: the nervous system is composed of discrete individual cells, not a continuous reticulum\nCreated extraordinarily detailed hand drawings of neural structures, still reproduced in neuroscience textbooks today\nUsed Golgi’s own silver-staining technique to refute Golgi’s reticular theory — one of science’s great ironies\nCalled the ‘father of modern neuroscience’; born 1852 in Petilla de Aragón, Spain; died 1934",
+          "cardFront": "Medicine, 1906 — neuron doctrine, father of neuroscience",
+          "cardBack": "Santiago Ramón y Cajal",
+          "links": [
+            {
+              "text": "Santiago Ramón y Cajal",
+              "url": "https://en.wikipedia.org/wiki/Santiago_Ramón_y_Cajal"
+            },
+            {
+              "text": "Medicine, 1906 — neuron doctrine, father of neuroscience",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_1906_—_neuron_doctrine,_father_of_neuroscience"
+            }
+          ]
         },
         {
           "id": "robert-koch",
           "prompt": "Which German physician identified the bacteria causing tuberculosis (1882) and cholera (1883), established the four postulates for proving a microorganism causes a disease, and won the Nobel Prize in Medicine in 1905?",
           "answer": "Robert Koch",
-          "alternates": ["Koch"],
-          "explanation": "Nobel Prize in Physiology or Medicine 1905 for tuberculosis research\nIdentified *Mycobacterium tuberculosis* in 1882 \u2014 TB killed roughly 1 in 7 people in Europe at the time\nKoch\u2019s Postulates (1884): four criteria establishing that a specific microbe causes a specific disease; still foundational in infectious disease research\nIdentified the cholera bacillus *Vibrio cholerae* in 1883 during a field investigation in Egypt and India\nRivalry with Louis Pasteur was intense and often nationalistic (Franco-Prussian War era); called the \u2018father of bacteriology\u2019",
-          "cardFront": "Medicine, 1905 \u2014 tuberculosis, Koch\u2019s Postulates",
-          "cardBack": "Robert Koch"
+          "alternates": [
+            "Koch"
+          ],
+          "explanation": "Nobel Prize in Physiology or Medicine 1905 for tuberculosis research\nIdentified *Mycobacterium tuberculosis* in 1882 — TB killed roughly 1 in 7 people in Europe at the time\nKoch’s Postulates (1884): four criteria establishing that a specific microbe causes a specific disease; still foundational in infectious disease research\nIdentified the cholera bacillus *Vibrio cholerae* in 1883 during a field investigation in Egypt and India\nRivalry with Louis Pasteur was intense and often nationalistic (Franco-Prussian War era); called the ‘father of bacteriology’",
+          "cardFront": "Medicine, 1905 — tuberculosis, Koch’s Postulates",
+          "cardBack": "Robert Koch",
+          "links": [
+            {
+              "text": "Robert Koch",
+              "url": "https://en.wikipedia.org/wiki/Robert_Koch"
+            },
+            {
+              "text": "Medicine, 1905 — tuberculosis, Koch’s Postulates",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_1905_—_tuberculosis,_Koch’s_Postulates"
+            }
+          ]
         },
         {
           "id": "frederick-sanger",
-          "prompt": "Which British biochemist is the only person to win the Nobel Prize in Chemistry twice \u2014 in 1958 for sequencing insulin and in 1980 for developing the DNA chain-termination sequencing method?",
+          "prompt": "Which British biochemist is the only person to win the Nobel Prize in Chemistry twice — in 1958 for sequencing insulin and in 1980 for developing the DNA chain-termination sequencing method?",
           "answer": "Frederick Sanger",
-          "alternates": ["Sanger"],
-          "explanation": "Nobel Chemistry 1958: determined the complete amino acid sequence of insulin \u2014 the first protein ever fully sequenced; established that proteins have a definite sequence\nNobel Chemistry 1980 (shared with Walter Gilbert and Paul Berg): developed the Sanger dideoxy chain-termination method for reading DNA sequences\nSanger sequencing became the workhorse of the Human Genome Project (1990\u20132003)\nOnly person to win the Nobel Prize in Chemistry twice (Marie Curie won Chemistry and Peace; John Bardeen won Physics twice)\nDeclined a knighthood, preferring to be called \u2018Fred\u2019; retired at 65 to tend his garden",
+          "alternates": [
+            "Sanger"
+          ],
+          "explanation": "Nobel Chemistry 1958: determined the complete amino acid sequence of insulin — the first protein ever fully sequenced; established that proteins have a definite sequence\nNobel Chemistry 1980 (shared with Walter Gilbert and Paul Berg): developed the Sanger dideoxy chain-termination method for reading DNA sequences\nSanger sequencing became the workhorse of the Human Genome Project (1990–2003)\nOnly person to win the Nobel Prize in Chemistry twice (Marie Curie won Chemistry and Peace; John Bardeen won Physics twice)\nDeclined a knighthood, preferring to be called ‘Fred’; retired at 65 to tend his garden",
           "cardFront": "Chemistry twice: 1958 (insulin) + 1980 (DNA sequencing)",
-          "cardBack": "Frederick Sanger"
+          "cardBack": "Frederick Sanger",
+          "links": [
+            {
+              "text": "Frederick Sanger",
+              "url": "https://en.wikipedia.org/wiki/Frederick_Sanger"
+            },
+            {
+              "text": "Chemistry twice: 1958+ 1980",
+              "url": "https://en.wikipedia.org/wiki/Chemistry_twice:_1958+_1980"
+            }
+          ]
         },
         {
           "id": "svante-paabo",
-          "prompt": "Which Swedish paleogeneticist sequenced the Neanderthal genome (2010) and discovered the Denisovans from a single finger bone \u2014 founding the field of ancient DNA research and winning the Nobel Prize in Medicine in 2022?",
-          "answer": "Svante P\u00e4\u00e4bo",
-          "alternates": ["Paabo", "Svante Paabo", "P\u00e4\u00e4bo"],
-          "explanation": "Nobel Physiology or Medicine 2022, sole laureate; founded the field of paleogenetics\nNeanderthal genome (2010): revealed that non-African modern humans carry 1\u20134% Neanderthal DNA, proving interbreeding occurred\nDenisovans discovered entirely from a 40,000-year-old finger bone from Denisova Cave, Siberia \u2014 an entirely new human species identified through DNA alone\nDirector of the Max Planck Institute for Evolutionary Anthropology in Leipzig\nSon of Nobel laureate Sune Bergstr\u00f6m (Medicine 1982) \u2014 making them the only father-son pair to both win the Nobel Prize in Physiology or Medicine",
-          "cardFront": "Medicine, 2022 \u2014 Neanderthal genome, ancient DNA",
-          "cardBack": "Svante P\u00e4\u00e4bo"
+          "prompt": "Which Swedish paleogeneticist sequenced the Neanderthal genome (2010) and discovered the Denisovans from a single finger bone — founding the field of ancient DNA research and winning the Nobel Prize in Medicine in 2022?",
+          "answer": "Svante Pääbo",
+          "alternates": [
+            "Paabo",
+            "Svante Paabo",
+            "Pääbo"
+          ],
+          "explanation": "Nobel Physiology or Medicine 2022, sole laureate; founded the field of paleogenetics\nNeanderthal genome (2010): revealed that non-African modern humans carry 1–4% Neanderthal DNA, proving interbreeding occurred\nDenisovans discovered entirely from a 40,000-year-old finger bone from Denisova Cave, Siberia — an entirely new human species identified through DNA alone\nDirector of the Max Planck Institute for Evolutionary Anthropology in Leipzig\nSon of Nobel laureate Sune Bergström (Medicine 1982) — making them the only father-son pair to both win the Nobel Prize in Physiology or Medicine",
+          "cardFront": "Medicine, 2022 — Neanderthal genome, ancient DNA",
+          "cardBack": "Svante Pääbo",
+          "links": [
+            {
+              "text": "Svante Pääbo",
+              "url": "https://en.wikipedia.org/wiki/Svante_Pääbo"
+            },
+            {
+              "text": "Medicine, 2022 — Neanderthal genome, ancient DNA",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_2022_—_Neanderthal_genome,_ancient_DNA"
+            }
+          ]
         },
         {
           "id": "hinton-hopfield",
-          "prompt": "Which two scientists won the 2024 Nobel Prize in Physics for foundational work enabling machine learning with artificial neural networks \u2014 surprising many by awarding a Physics prize to computer science research?",
+          "prompt": "Which two scientists won the 2024 Nobel Prize in Physics for foundational work enabling machine learning with artificial neural networks — surprising many by awarding a Physics prize to computer science research?",
           "answer": "Geoffrey Hinton & John Hopfield",
-          "alternates": ["Hinton and Hopfield", "Geoffrey Hinton and John Hopfield", "Hopfield and Hinton"],
+          "alternates": [
+            "Hinton and Hopfield",
+            "Geoffrey Hinton and John Hopfield",
+            "Hopfield and Hinton"
+          ],
           "explanation": "Nobel Prize in Physics 2024, awarded to John J. Hopfield and Geoffrey E. Hinton\nHopfield created the Hopfield network (1982): a recurrent neural network that stores and recalls patterns, inspired by the physics of spin glasses\nHinton developed the Boltzmann machine and backpropagation, enabling practical training of deep neural networks; his 2012 team's AlexNet triggered the deep learning revolution\nHinton left Google in 2023 to speak freely about AI safety risks; called 'the godfather of AI'\nThe Nobel committee justified the award as statistical physics methods applied to neural network systems; many physicists questioned the classification",
-          "cardFront": "Physics, 2024 \u2014 neural networks / machine learning",
-          "cardBack": "Geoffrey Hinton & John Hopfield"
+          "cardFront": "Physics, 2024 — neural networks / machine learning",
+          "cardBack": "Geoffrey Hinton & John Hopfield",
+          "links": [
+            {
+              "text": "Geoffrey Hinton & John Hopfield",
+              "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton_&_John_Hopfield"
+            },
+            {
+              "text": "Physics, 2024 — neural networks / machine learning",
+              "url": "https://en.wikipedia.org/wiki/Physics,_2024_—_neural_networks_/_machine_learning"
+            }
+          ]
         },
         {
           "id": "ambros-ruvkun",
           "prompt": "Which two American biologists won the 2024 Nobel Prize in Physiology or Medicine for discovering microRNA, tiny RNA molecules that regulate gene expression in all multicellular organisms?",
           "answer": "Victor Ambros & Gary Ruvkun",
-          "alternates": ["Ambros and Ruvkun", "Victor Ambros and Gary Ruvkun", "Ruvkun and Ambros"],
-          "explanation": "Nobel Prize in Physiology or Medicine 2024 for discovering microRNA and its role in post-transcriptional gene regulation\nWorking with the nematode *C. elegans*, discovered that small RNA molecules (lin-4, let-7) regulate developmental timing by binding to mRNA and blocking translation\nmicroRNAs are ~22 nucleotides long; humans have over 1,000 types regulating ~60% of protein-coding genes\nDysregulation of microRNAs is linked to cancer, cardiovascular disease, and neurological disorders \u2014 they are active targets for drug therapy\nThe discovery added a major new layer of gene regulation beyond the Central Dogma's DNA \u2192 RNA \u2192 protein framework",
-          "cardFront": "Medicine, 2024 \u2014 microRNA gene regulation",
-          "cardBack": "Victor Ambros & Gary Ruvkun"
+          "alternates": [
+            "Ambros and Ruvkun",
+            "Victor Ambros and Gary Ruvkun",
+            "Ruvkun and Ambros"
+          ],
+          "explanation": "Nobel Prize in Physiology or Medicine 2024 for discovering microRNA and its role in post-transcriptional gene regulation\nWorking with the nematode *C. elegans*, discovered that small RNA molecules (lin-4, let-7) regulate developmental timing by binding to mRNA and blocking translation\nmicroRNAs are ~22 nucleotides long; humans have over 1,000 types regulating ~60% of protein-coding genes\nDysregulation of microRNAs is linked to cancer, cardiovascular disease, and neurological disorders — they are active targets for drug therapy\nThe discovery added a major new layer of gene regulation beyond the Central Dogma's DNA → RNA → protein framework",
+          "cardFront": "Medicine, 2024 — microRNA gene regulation",
+          "cardBack": "Victor Ambros & Gary Ruvkun",
+          "links": [
+            {
+              "text": "Victor Ambros & Gary Ruvkun",
+              "url": "https://en.wikipedia.org/wiki/Victor_Ambros_&_Gary_Ruvkun"
+            },
+            {
+              "text": "Medicine, 2024 — microRNA gene regulation",
+              "url": "https://en.wikipedia.org/wiki/Medicine,_2024_—_microRNA_gene_regulation"
+            }
+          ]
         }
       ]
     }

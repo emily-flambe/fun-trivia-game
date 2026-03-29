@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "television/landmark-shows", "parentId": "television", "name": "Landmark TV Shows", "description": "Shows that defined or transformed the television medium" }
+    {
+      "id": "television/landmark-shows",
+      "parentId": "television",
+      "name": "Landmark TV Shows",
+      "description": "Shows that defined or transformed the television medium"
+    }
   ],
   "exercises": [
     {
@@ -11,138 +16,308 @@
       "items": [
         {
           "id": "i-love-lucy",
-          "prompt": "What CBS sitcom (1951\u20131957) starring Lucille Ball pioneered the three-camera setup and filmed before a live studio audience?",
+          "prompt": "What CBS sitcom (1951–1957) starring Lucille Ball pioneered the three-camera setup and filmed before a live studio audience?",
           "answer": "I Love Lucy",
-          "alternates": ["I Love Lucy!", "Lucy"],
-          "explanation": "CBS, 1951\u20131957, 6 seasons, 180 episodes\nFirst sitcom filmed with three cameras before a live studio audience\u2014now industry standard\nLucille Ball was the first woman to run a major television studio (Desilu Productions)\nThe episode where Lucy gives birth drew 44 million viewers\u2014more than Eisenhower's inauguration the next day\nDesilu Productions later produced Star Trek and Mission: Impossible\nBall and husband Desi Arnaz fought CBS to cast a real-life interracial couple\nRe-aired as the #1 syndicated show for decades; never left the air",
-          "cardFront": "CBS, 1951\u20131957, three-camera pioneer",
-          "cardBack": "I Love Lucy"
+          "alternates": [
+            "I Love Lucy!",
+            "Lucy"
+          ],
+          "explanation": "CBS, 1951–1957, 6 seasons, 180 episodes\nFirst sitcom filmed with three cameras before a live studio audience—now industry standard\nLucille Ball was the first woman to run a major television studio (Desilu Productions)\nThe episode where Lucy gives birth drew 44 million viewers—more than Eisenhower's inauguration the next day\nDesilu Productions later produced Star Trek and Mission: Impossible\nBall and husband Desi Arnaz fought CBS to cast a real-life interracial couple\nRe-aired as the #1 syndicated show for decades; never left the air",
+          "cardFront": "CBS, 1951–1957, three-camera pioneer",
+          "cardBack": "I Love Lucy",
+          "links": [
+            {
+              "text": "I Love Lucy",
+              "url": "https://en.wikipedia.org/wiki/I_Love_Lucy"
+            },
+            {
+              "text": "CBS, 1951–1957, three-camera pioneer",
+              "url": "https://en.wikipedia.org/wiki/CBS,_1951–1957,_three-camera_pioneer"
+            }
+          ]
         },
         {
           "id": "the-twilight-zone",
-          "prompt": "What CBS anthology series (1959\u20131964) created and hosted by Rod Serling explored science fiction, fantasy, and horror with twist endings?",
+          "prompt": "What CBS anthology series (1959–1964) created and hosted by Rod Serling explored science fiction, fantasy, and horror with twist endings?",
           "answer": "The Twilight Zone",
-          "alternates": ["Twilight Zone"],
-          "explanation": "CBS, 1959\u20131964, 5 seasons, 156 episodes\nCreated, hosted, and narrated by Rod Serling, who wrote 92 of 156 episodes\nAnthology format\u2014standalone stories with moral lessons and surprise twist endings\nUsed sci-fi and fantasy to address Cold War anxiety, racism, and conformity\nRevived twice (1985 CBS, 2002 UPN) and again by Jordan Peele (2019 CBS All Access)\nSerling's opening monologue (\"You're traveling through another dimension...\") is iconic in TV history\nInfluenced Black Mirror, The X-Files, and virtually every sci-fi anthology since",
-          "cardFront": "CBS, 1959\u20131964, Rod Serling anthology",
-          "cardBack": "The Twilight Zone"
+          "alternates": [
+            "Twilight Zone"
+          ],
+          "explanation": "CBS, 1959–1964, 5 seasons, 156 episodes\nCreated, hosted, and narrated by Rod Serling, who wrote 92 of 156 episodes\nAnthology format—standalone stories with moral lessons and surprise twist endings\nUsed sci-fi and fantasy to address Cold War anxiety, racism, and conformity\nRevived twice (1985 CBS, 2002 UPN) and again by Jordan Peele (2019 CBS All Access)\nSerling's opening monologue (\"You're traveling through another dimension...\") is iconic in TV history\nInfluenced Black Mirror, The X-Files, and virtually every sci-fi anthology since",
+          "cardFront": "CBS, 1959–1964, Rod Serling anthology",
+          "cardBack": "The Twilight Zone",
+          "links": [
+            {
+              "text": "The Twilight Zone",
+              "url": "https://en.wikipedia.org/wiki/The_Twilight_Zone"
+            },
+            {
+              "text": "CBS, 1959–1964, Rod Serling anthology",
+              "url": "https://en.wikipedia.org/wiki/CBS,_1959–1964,_Rod_Serling_anthology"
+            }
+          ]
         },
         {
           "id": "mash",
-          "prompt": "What CBS comedy-drama (1972\u20131983) set in a Korean War field hospital holds the record for most-watched series finale in U.S. history?",
+          "prompt": "What CBS comedy-drama (1972–1983) set in a Korean War field hospital holds the record for most-watched series finale in U.S. history?",
           "answer": "M*A*S*H",
-          "alternates": ["MASH", "M.A.S.H.", "M*A*S*H*"],
-          "explanation": "CBS, 1972\u20131983, 11 seasons, 251 episodes\nSet during the Korean War but widely understood as commentary on Vietnam\nSeries finale \"Goodbye, Farewell and Amen\" drew ~106 million viewers\u2014still the most-watched scripted episode ever\nBased on Robert Altman's 1970 film of the same name\nRan 8 years longer than the actual Korean War (3 years)\nAlan Alda starred as Hawkeye Pierce and also wrote and directed many episodes\nPioneered the blend of comedy and drama that became the \"dramedy\" genre",
-          "cardFront": "CBS, 1972\u20131983, Korean War field hospital",
-          "cardBack": "M*A*S*H"
+          "alternates": [
+            "MASH",
+            "M.A.S.H.",
+            "M*A*S*H*"
+          ],
+          "explanation": "CBS, 1972–1983, 11 seasons, 251 episodes\nSet during the Korean War but widely understood as commentary on Vietnam\nSeries finale \"Goodbye, Farewell and Amen\" drew ~106 million viewers—still the most-watched scripted episode ever\nBased on Robert Altman's 1970 film of the same name\nRan 8 years longer than the actual Korean War (3 years)\nAlan Alda starred as Hawkeye Pierce and also wrote and directed many episodes\nPioneered the blend of comedy and drama that became the \"dramedy\" genre",
+          "cardFront": "CBS, 1972–1983, Korean War field hospital",
+          "cardBack": "M*A*S*H",
+          "links": [
+            {
+              "text": "M*A*S*H",
+              "url": "https://en.wikipedia.org/wiki/M*A*S*H"
+            },
+            {
+              "text": "CBS, 1972–1983, Korean War field hospital",
+              "url": "https://en.wikipedia.org/wiki/CBS,_1972–1983,_Korean_War_field_hospital"
+            }
+          ]
         },
         {
           "id": "the-simpsons",
           "prompt": "What Fox animated sitcom, premiering in 1989 and created by Matt Groening, is the longest-running American scripted primetime series?",
           "answer": "The Simpsons",
-          "alternates": ["Simpsons"],
-          "explanation": "Fox, 1989\u2013present, 37+ seasons\nCreated by Matt Groening; developed with James L. Brooks and Sam Simon\nLongest-running American animated series, sitcom, and scripted primetime series\nBegan as shorts on The Tracey Ullman Show (1987) before getting its own series\nSpringfield's state is intentionally never revealed\nThe word \"D'oh\" (Homer's catchphrase) was added to the Oxford English Dictionary in 2001\nPredicted numerous real events: Trump presidency, Disney\u2013Fox merger, autocorrect, smartwatches",
-          "cardFront": "Fox, 1989\u2013present, longest-running animated sitcom",
-          "cardBack": "The Simpsons"
+          "alternates": [
+            "Simpsons"
+          ],
+          "explanation": "Fox, 1989–present, 37+ seasons\nCreated by Matt Groening; developed with James L. Brooks and Sam Simon\nLongest-running American animated series, sitcom, and scripted primetime series\nBegan as shorts on The Tracey Ullman Show (1987) before getting its own series\nSpringfield's state is intentionally never revealed\nThe word \"D'oh\" (Homer's catchphrase) was added to the Oxford English Dictionary in 2001\nPredicted numerous real events: Trump presidency, Disney–Fox merger, autocorrect, smartwatches",
+          "cardFront": "Fox, 1989–present, longest-running animated sitcom",
+          "cardBack": "The Simpsons",
+          "links": [
+            {
+              "text": "The Simpsons",
+              "url": "https://en.wikipedia.org/wiki/The_Simpsons"
+            },
+            {
+              "text": "Fox, 1989–present, longest-running animated sitcom",
+              "url": "https://en.wikipedia.org/wiki/Fox,_1989–present,_longest-running_animated_sitcom"
+            }
+          ]
         },
         {
           "id": "seinfeld",
-          "prompt": "What NBC sitcom (1989\u20131998) created by Larry David and Jerry Seinfeld was famously described as 'a show about nothing'?",
+          "prompt": "What NBC sitcom (1989–1998) created by Larry David and Jerry Seinfeld was famously described as 'a show about nothing'?",
           "answer": "Seinfeld",
           "alternates": [],
-          "explanation": "NBC, 1989\u20131998, 9 seasons, 180 episodes\nCreated by Larry David and Jerry Seinfeld; pitched as \"a show about nothing\"\nPilot almost cancelled\u2014NBC ordered only four episodes initially\nLarry David left after season 7, returned to write the divisive series finale\nPopularized phrases like \"yada yada yada,\" \"double-dipping,\" and \"sponge-worthy\"\nFinal episode drew 76 million viewers; reportedly charged $2 million per 30-second ad\nJulia Louis-Dreyfus (Elaine) went on to win more Emmy Awards than any other performer",
-          "cardFront": "NBC, 1989\u20131998, 'a show about nothing'",
-          "cardBack": "Seinfeld"
+          "explanation": "NBC, 1989–1998, 9 seasons, 180 episodes\nCreated by Larry David and Jerry Seinfeld; pitched as \"a show about nothing\"\nPilot almost cancelled—NBC ordered only four episodes initially\nLarry David left after season 7, returned to write the divisive series finale\nPopularized phrases like \"yada yada yada,\" \"double-dipping,\" and \"sponge-worthy\"\nFinal episode drew 76 million viewers; reportedly charged $2 million per 30-second ad\nJulia Louis-Dreyfus (Elaine) went on to win more Emmy Awards than any other performer",
+          "cardFront": "NBC, 1989–1998, 'a show about nothing'",
+          "cardBack": "Seinfeld",
+          "links": [
+            {
+              "text": "Seinfeld",
+              "url": "https://en.wikipedia.org/wiki/Seinfeld"
+            },
+            {
+              "text": "NBC, 1989–1998, 'a show about nothing'",
+              "url": "https://en.wikipedia.org/wiki/NBC,_1989–1998,_'a_show_about_nothing'"
+            }
+          ]
         },
         {
           "id": "friends",
-          "prompt": "What NBC sitcom (1994\u20132004) followed six twenty-somethings living in Manhattan and became a global syndication phenomenon?",
+          "prompt": "What NBC sitcom (1994–2004) followed six twenty-somethings living in Manhattan and became a global syndication phenomenon?",
           "answer": "Friends",
           "alternates": [],
-          "explanation": "NBC, 1994\u20132004, 10 seasons, 236 episodes\nSix core cast members negotiated collectively\u2014each earned $1 million per episode by the final season\nThe Central Perk coffee shop became an iconic TV set\nFinale drew 52.5 million viewers, the most-watched episode of the 2000s at the time\nSyndication and streaming deals worth billions; Netflix paid $100 million/year for rights\nFilmed at Warner Bros. Studios in Burbank, not New York\nThe Reunion special on HBO Max (2021) drew widespread attention 17 years after the finale",
-          "cardFront": "NBC, 1994\u20132004, six friends in Manhattan",
-          "cardBack": "Friends"
+          "explanation": "NBC, 1994–2004, 10 seasons, 236 episodes\nSix core cast members negotiated collectively—each earned $1 million per episode by the final season\nThe Central Perk coffee shop became an iconic TV set\nFinale drew 52.5 million viewers, the most-watched episode of the 2000s at the time\nSyndication and streaming deals worth billions; Netflix paid $100 million/year for rights\nFilmed at Warner Bros. Studios in Burbank, not New York\nThe Reunion special on HBO Max (2021) drew widespread attention 17 years after the finale",
+          "cardFront": "NBC, 1994–2004, six friends in Manhattan",
+          "cardBack": "Friends",
+          "links": [
+            {
+              "text": "Friends",
+              "url": "https://en.wikipedia.org/wiki/Friends"
+            },
+            {
+              "text": "NBC, 1994–2004, six friends in Manhattan",
+              "url": "https://en.wikipedia.org/wiki/NBC,_1994–2004,_six_friends_in_Manhattan"
+            }
+          ]
         },
         {
           "id": "the-sopranos",
-          "prompt": "What HBO series (1999\u20132007) set in New Jersey is widely credited with launching the 'Golden Age of Television'?",
+          "prompt": "What HBO series (1999–2007) set in New Jersey is widely credited with launching the 'Golden Age of Television'?",
           "answer": "The Sopranos",
-          "alternates": ["Sopranos"],
-          "explanation": "HBO, 1999\u20132007, 6 seasons, 86 episodes\nCreated by David Chase; widely credited with launching the \"Golden Age of Television\"\nJames Gandolfini's Tony Soprano\u2014a New Jersey mob boss in therapy\u2014redefined the antihero\nFamous cut-to-black finale sparked debate that continues years later\nFirst cable series to seriously challenge broadcast networks for prestige and viewers\nWon 21 Primetime Emmy Awards including two for Outstanding Drama Series\nProved that long-form, novelistic storytelling could work on television",
-          "cardFront": "HBO, 1999\u20132007, New Jersey mob boss in therapy",
-          "cardBack": "The Sopranos"
+          "alternates": [
+            "Sopranos"
+          ],
+          "explanation": "HBO, 1999–2007, 6 seasons, 86 episodes\nCreated by David Chase; widely credited with launching the \"Golden Age of Television\"\nJames Gandolfini's Tony Soprano—a New Jersey mob boss in therapy—redefined the antihero\nFamous cut-to-black finale sparked debate that continues years later\nFirst cable series to seriously challenge broadcast networks for prestige and viewers\nWon 21 Primetime Emmy Awards including two for Outstanding Drama Series\nProved that long-form, novelistic storytelling could work on television",
+          "cardFront": "HBO, 1999–2007, New Jersey mob boss in therapy",
+          "cardBack": "The Sopranos",
+          "links": [
+            {
+              "text": "The Sopranos",
+              "url": "https://en.wikipedia.org/wiki/The_Sopranos"
+            },
+            {
+              "text": "HBO, 1999–2007, New Jersey mob boss in therapy",
+              "url": "https://en.wikipedia.org/wiki/HBO,_1999–2007,_New_Jersey_mob_boss_in_therapy"
+            }
+          ]
         },
         {
           "id": "the-wire",
-          "prompt": "What HBO series (2002\u20132008) created by David Simon examined Baltimore's institutions\u2014police, drug trade, schools, politics, and media\u2014across five seasons?",
+          "prompt": "What HBO series (2002–2008) created by David Simon examined Baltimore's institutions—police, drug trade, schools, politics, and media—across five seasons?",
           "answer": "The Wire",
-          "alternates": ["Wire"],
-          "explanation": "HBO, 2002\u20132008, 5 seasons, 60 episodes\nCreated by David Simon, a former Baltimore Sun reporter, and Ed Burns, a former detective\nEach season focused on a different Baltimore institution: drugs, port workers, politics, schools, media\nLow ratings during its run but later widely called the greatest TV drama ever made\nCast included many non-actors from Baltimore, including real former drug dealers\nOften compared to a Dickensian novel for its scope and social realism\nBarack Obama called it his favorite TV show",
-          "cardFront": "HBO, 2002\u20132008, Baltimore institutions",
-          "cardBack": "The Wire"
+          "alternates": [
+            "Wire"
+          ],
+          "explanation": "HBO, 2002–2008, 5 seasons, 60 episodes\nCreated by David Simon, a former Baltimore Sun reporter, and Ed Burns, a former detective\nEach season focused on a different Baltimore institution: drugs, port workers, politics, schools, media\nLow ratings during its run but later widely called the greatest TV drama ever made\nCast included many non-actors from Baltimore, including real former drug dealers\nOften compared to a Dickensian novel for its scope and social realism\nBarack Obama called it his favorite TV show",
+          "cardFront": "HBO, 2002–2008, Baltimore institutions",
+          "cardBack": "The Wire",
+          "links": [
+            {
+              "text": "The Wire",
+              "url": "https://en.wikipedia.org/wiki/The_Wire"
+            },
+            {
+              "text": "HBO, 2002–2008, Baltimore institutions",
+              "url": "https://en.wikipedia.org/wiki/HBO,_2002–2008,_Baltimore_institutions"
+            }
+          ]
         },
         {
           "id": "lost",
-          "prompt": "What ABC mystery drama (2004\u20132010) about plane crash survivors on a mysterious island pioneered fan-theory culture and complex serialized storytelling?",
+          "prompt": "What ABC mystery drama (2004–2010) about plane crash survivors on a mysterious island pioneered fan-theory culture and complex serialized storytelling?",
           "answer": "Lost",
           "alternates": [],
-          "explanation": "ABC, 2004\u20132010, 6 seasons, 121 episodes\nCreated by J.J. Abrams, Damon Lindelof, and Jeffrey Lieber\nPilot cost $10\u201314 million\u2014the most expensive TV pilot at the time\nPioneered the \"mystery box\" approach to serialized TV storytelling\nBlended sci-fi, supernatural, and character drama with nonlinear timelines\nSparked massive online fan communities, theories, and podcasts\nDivisive finale split audiences but the show's influence on serialized drama is undeniable\nFilmed entirely on location in Oahu, Hawaii",
-          "cardFront": "ABC, 2004\u20132010, plane crash survivors on a mysterious island",
-          "cardBack": "Lost"
+          "explanation": "ABC, 2004–2010, 6 seasons, 121 episodes\nCreated by J.J. Abrams, Damon Lindelof, and Jeffrey Lieber\nPilot cost $10–14 million—the most expensive TV pilot at the time\nPioneered the \"mystery box\" approach to serialized TV storytelling\nBlended sci-fi, supernatural, and character drama with nonlinear timelines\nSparked massive online fan communities, theories, and podcasts\nDivisive finale split audiences but the show's influence on serialized drama is undeniable\nFilmed entirely on location in Oahu, Hawaii",
+          "cardFront": "ABC, 2004–2010, plane crash survivors on a mysterious island",
+          "cardBack": "Lost",
+          "links": [
+            {
+              "text": "Lost",
+              "url": "https://en.wikipedia.org/wiki/Lost"
+            },
+            {
+              "text": "ABC, 2004–2010, plane crash survivors on a mysterious island",
+              "url": "https://en.wikipedia.org/wiki/ABC,_2004–2010,_plane_crash_survivors_on_a_mysterious_island"
+            }
+          ]
         },
         {
           "id": "mad-men",
-          "prompt": "What AMC period drama (2007\u20132015) set on Madison Avenue in the 1960s won the Emmy for Outstanding Drama Series four consecutive years?",
+          "prompt": "What AMC period drama (2007–2015) set on Madison Avenue in the 1960s won the Emmy for Outstanding Drama Series four consecutive years?",
           "answer": "Mad Men",
           "alternates": [],
-          "explanation": "AMC, 2007\u20132015, 7 seasons, 92 episodes\nCreated by Matthew Weiner, a former Sopranos writer\nSet in the 1960s advertising world on Madison Avenue\u2014\"Mad Men\" was real ad-industry slang\nWon Outstanding Drama Series at the Emmys four years running (2008\u20132011)\nJon Hamm starred as Don Draper, a creative director with a stolen identity\nAMC's first original scripted series\u2014proved cable channels beyond HBO could produce prestige TV\nSparked a 1960s fashion and cocktail revival\nMeticulous period detail: costumes, sets, and social attitudes recreated with obsessive accuracy",
-          "cardFront": "AMC, 2007\u20132015, 1960s Madison Avenue advertising",
-          "cardBack": "Mad Men"
+          "explanation": "AMC, 2007–2015, 7 seasons, 92 episodes\nCreated by Matthew Weiner, a former Sopranos writer\nSet in the 1960s advertising world on Madison Avenue—\"Mad Men\" was real ad-industry slang\nWon Outstanding Drama Series at the Emmys four years running (2008–2011)\nJon Hamm starred as Don Draper, a creative director with a stolen identity\nAMC's first original scripted series—proved cable channels beyond HBO could produce prestige TV\nSparked a 1960s fashion and cocktail revival\nMeticulous period detail: costumes, sets, and social attitudes recreated with obsessive accuracy",
+          "cardFront": "AMC, 2007–2015, 1960s Madison Avenue advertising",
+          "cardBack": "Mad Men",
+          "links": [
+            {
+              "text": "Mad Men",
+              "url": "https://en.wikipedia.org/wiki/Mad_Men"
+            },
+            {
+              "text": "AMC, 2007–2015, 1960s Madison Avenue advertising",
+              "url": "https://en.wikipedia.org/wiki/AMC,_2007–2015,_1960s_Madison_Avenue_advertising"
+            }
+          ]
         },
         {
           "id": "breaking-bad",
-          "prompt": "What AMC drama (2008\u20132013) created by Vince Gilligan followed a high school chemistry teacher who becomes a methamphetamine manufacturer?",
+          "prompt": "What AMC drama (2008–2013) created by Vince Gilligan followed a high school chemistry teacher who becomes a methamphetamine manufacturer?",
           "answer": "Breaking Bad",
           "alternates": [],
-          "explanation": "AMC, 2008\u20132013, 5 seasons, 62 episodes\nCreated by Vince Gilligan; pitched as \"Mr. Chips becomes Scarface\"\nBryan Cranston won Outstanding Lead Actor in a Drama four times for playing Walter White\nSet and filmed in Albuquerque, New Mexico\nFinal season episodes drew 10+ million viewers\u2014rare for cable\nSpawned prequel series Better Call Saul (2015\u20132022) and film El Camino (2019)\nOften cited alongside The Sopranos and The Wire as peak prestige TV\nAaron Paul (Jesse Pinkman) was nearly written off after season 1",
-          "cardFront": "AMC, 2008\u20132013, chemistry teacher turned meth manufacturer",
-          "cardBack": "Breaking Bad"
+          "explanation": "AMC, 2008–2013, 5 seasons, 62 episodes\nCreated by Vince Gilligan; pitched as \"Mr. Chips becomes Scarface\"\nBryan Cranston won Outstanding Lead Actor in a Drama four times for playing Walter White\nSet and filmed in Albuquerque, New Mexico\nFinal season episodes drew 10+ million viewers—rare for cable\nSpawned prequel series Better Call Saul (2015–2022) and film El Camino (2019)\nOften cited alongside The Sopranos and The Wire as peak prestige TV\nAaron Paul (Jesse Pinkman) was nearly written off after season 1",
+          "cardFront": "AMC, 2008–2013, chemistry teacher turned meth manufacturer",
+          "cardBack": "Breaking Bad",
+          "links": [
+            {
+              "text": "Breaking Bad",
+              "url": "https://en.wikipedia.org/wiki/Breaking_Bad"
+            },
+            {
+              "text": "AMC, 2008–2013, chemistry teacher turned meth manufacturer",
+              "url": "https://en.wikipedia.org/wiki/AMC,_2008–2013,_chemistry_teacher_turned_meth_manufacturer"
+            }
+          ]
         },
         {
           "id": "game-of-thrones",
-          "prompt": "What HBO fantasy epic (2011\u20132019) based on George R.R. Martin's novels became the most-watched series in HBO history?",
+          "prompt": "What HBO fantasy epic (2011–2019) based on George R.R. Martin's novels became the most-watched series in HBO history?",
           "answer": "Game of Thrones",
-          "alternates": ["GoT", "Thrones"],
-          "explanation": "HBO, 2011\u20132019, 8 seasons, 73 episodes\nBased on George R.R. Martin's A Song of Ice and Fire novels\nBecame the most Emmy-winning primetime series in history with 59 wins\nFinal season drew 19.3 million viewers per episode\u2014HBO's all-time record\nFamous for killing major characters without warning, starting with Ned Stark in season 1\nControversial final season drew widespread criticism for rushed pacing\nFilmed across multiple countries: Northern Ireland, Croatia, Spain, Iceland, Morocco\nSpawned prequel series House of the Dragon (2022\u2013present)",
-          "cardFront": "HBO, 2011\u20132019, George R.R. Martin fantasy epic",
-          "cardBack": "Game of Thrones"
+          "alternates": [
+            "GoT",
+            "Thrones"
+          ],
+          "explanation": "HBO, 2011–2019, 8 seasons, 73 episodes\nBased on George R.R. Martin's A Song of Ice and Fire novels\nBecame the most Emmy-winning primetime series in history with 59 wins\nFinal season drew 19.3 million viewers per episode—HBO's all-time record\nFamous for killing major characters without warning, starting with Ned Stark in season 1\nControversial final season drew widespread criticism for rushed pacing\nFilmed across multiple countries: Northern Ireland, Croatia, Spain, Iceland, Morocco\nSpawned prequel series House of the Dragon (2022–present)",
+          "cardFront": "HBO, 2011–2019, George R.R. Martin fantasy epic",
+          "cardBack": "Game of Thrones",
+          "links": [
+            {
+              "text": "Game of Thrones",
+              "url": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+            },
+            {
+              "text": "HBO, 2011–2019, George R.R. Martin fantasy epic",
+              "url": "https://en.wikipedia.org/wiki/HBO,_2011–2019,_George_R.R._Martin_fantasy_epic"
+            }
+          ]
         },
         {
           "id": "the-office",
-          "prompt": "What NBC mockumentary sitcom (2005\u20132013) adapted from Ricky Gervais's BBC series became one of the most-streamed shows of the 2010s?",
+          "prompt": "What NBC mockumentary sitcom (2005–2013) adapted from Ricky Gervais's BBC series became one of the most-streamed shows of the 2010s?",
           "answer": "The Office",
-          "alternates": ["Office"],
-          "explanation": "NBC, 2005\u20132013, 9 seasons, 201 episodes\nAdapted by Greg Daniels from Ricky Gervais and Stephen Merchant's BBC series\nSteve Carell's Michael Scott became one of TV's most beloved characters\nMockumentary format influenced Parks and Recreation, Modern Family, and Abbott Elementary\nPilot nearly identical to the British version; diverged sharply from season 2 onward\nBecame the most-streamed show on Netflix before moving to Peacock\nThe Super Bowl lead-in episode \"Stress Relief\" drew 22.9 million viewers\nSpinoff series The Paper set in the same universe premiered on Peacock in 2025",
-          "cardFront": "NBC, 2005\u20132013, Dunder Mifflin mockumentary",
-          "cardBack": "The Office"
+          "alternates": [
+            "Office"
+          ],
+          "explanation": "NBC, 2005–2013, 9 seasons, 201 episodes\nAdapted by Greg Daniels from Ricky Gervais and Stephen Merchant's BBC series\nSteve Carell's Michael Scott became one of TV's most beloved characters\nMockumentary format influenced Parks and Recreation, Modern Family, and Abbott Elementary\nPilot nearly identical to the British version; diverged sharply from season 2 onward\nBecame the most-streamed show on Netflix before moving to Peacock\nThe Super Bowl lead-in episode \"Stress Relief\" drew 22.9 million viewers\nSpinoff series The Paper set in the same universe premiered on Peacock in 2025",
+          "cardFront": "NBC, 2005–2013, Dunder Mifflin mockumentary",
+          "cardBack": "The Office",
+          "links": [
+            {
+              "text": "The Office",
+              "url": "https://en.wikipedia.org/wiki/The_Office"
+            },
+            {
+              "text": "NBC, 2005–2013, Dunder Mifflin mockumentary",
+              "url": "https://en.wikipedia.org/wiki/NBC,_2005–2013,_Dunder_Mifflin_mockumentary"
+            }
+          ]
         },
         {
           "id": "stranger-things",
-          "prompt": "What Netflix sci-fi series (2016\u20132025) set in 1980s Indiana featured a group of kids encountering supernatural forces from an alternate dimension called the Upside Down?",
+          "prompt": "What Netflix sci-fi series (2016–2025) set in 1980s Indiana featured a group of kids encountering supernatural forces from an alternate dimension called the Upside Down?",
           "answer": "Stranger Things",
           "alternates": [],
-          "explanation": "Netflix, 2016\u20132025, 5 seasons, 42 episodes\nCreated by the Duffer Brothers; heavy 1980s nostalgia with nods to Spielberg, Stephen King, and John Carpenter\nSet in fictional Hawkins, Indiana; the parallel dimension is called the Upside Down\nMillie Bobby Brown (Eleven) became one of the youngest Emmy nominees at age 13\nSeason 4 broke Netflix viewing records with over 1.15 billion hours streamed in 28 days\nRevived Kate Bush's \"Running Up That Hill\" (1985), sending it to #1 on charts worldwide in 2022\nOne of Netflix's most important original series for subscriber growth",
-          "cardFront": "Netflix, 2016\u20132025, 1980s kids vs. the Upside Down",
-          "cardBack": "Stranger Things"
+          "explanation": "Netflix, 2016–2025, 5 seasons, 42 episodes\nCreated by the Duffer Brothers; heavy 1980s nostalgia with nods to Spielberg, Stephen King, and John Carpenter\nSet in fictional Hawkins, Indiana; the parallel dimension is called the Upside Down\nMillie Bobby Brown (Eleven) became one of the youngest Emmy nominees at age 13\nSeason 4 broke Netflix viewing records with over 1.15 billion hours streamed in 28 days\nRevived Kate Bush's \"Running Up That Hill\" (1985), sending it to #1 on charts worldwide in 2022\nOne of Netflix's most important original series for subscriber growth",
+          "cardFront": "Netflix, 2016–2025, 1980s kids vs. the Upside Down",
+          "cardBack": "Stranger Things",
+          "links": [
+            {
+              "text": "Stranger Things",
+              "url": "https://en.wikipedia.org/wiki/Stranger_Things"
+            },
+            {
+              "text": "Netflix, 2016–2025, 1980s kids vs. the Upside Down",
+              "url": "https://en.wikipedia.org/wiki/Netflix,_2016–2025,_1980s_kids_vs._the_Upside_Down"
+            }
+          ]
         },
         {
           "id": "succession",
-          "prompt": "What HBO satirical drama (2018\u20132023) about a powerful media family's fight over a global conglomerate won the Emmy for Outstanding Drama Series in its final season?",
+          "prompt": "What HBO satirical drama (2018–2023) about a powerful media family's fight over a global conglomerate won the Emmy for Outstanding Drama Series in its final season?",
           "answer": "Succession",
           "alternates": [],
-          "explanation": "HBO, 2018\u20132023, 4 seasons\nCreated by Jesse Armstrong, a British screenwriter known for Peep Show and The Thick of It\nFollows the Roy family's battle for control of Waystar RoyCo, a global media empire\nBrian Cox and Jeremy Strong starred as patriarch Logan Roy and son Kendall Roy\nWon Outstanding Drama Series at the Emmys in 2020, 2022, and 2023\nWidely seen as a portrait of the Murdoch family, though Armstrong denied a direct parallel\nDialogue style\u2014vicious insults, rapid-fire wit\u2014became culturally iconic\nFinal season aired alongside industry debates about the end of \"peak TV\"",
-          "cardFront": "HBO, 2018\u20132023, media dynasty power struggle",
-          "cardBack": "Succession"
+          "explanation": "HBO, 2018–2023, 4 seasons\nCreated by Jesse Armstrong, a British screenwriter known for Peep Show and The Thick of It\nFollows the Roy family's battle for control of Waystar RoyCo, a global media empire\nBrian Cox and Jeremy Strong starred as patriarch Logan Roy and son Kendall Roy\nWon Outstanding Drama Series at the Emmys in 2020, 2022, and 2023\nWidely seen as a portrait of the Murdoch family, though Armstrong denied a direct parallel\nDialogue style—vicious insults, rapid-fire wit—became culturally iconic\nFinal season aired alongside industry debates about the end of \"peak TV\"",
+          "cardFront": "HBO, 2018–2023, media dynasty power struggle",
+          "cardBack": "Succession",
+          "links": [
+            {
+              "text": "Succession",
+              "url": "https://en.wikipedia.org/wiki/Succession"
+            },
+            {
+              "text": "HBO, 2018–2023, media dynasty power struggle",
+              "url": "https://en.wikipedia.org/wiki/HBO,_2018–2023,_media_dynasty_power_struggle"
+            }
+          ]
         }
       ]
     }

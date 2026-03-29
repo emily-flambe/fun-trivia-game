@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "literature/fictional-detectives", "parentId": "literature", "name": "Fictional Detectives", "description": "Famous fictional detectives and their creators" }
+    {
+      "id": "literature/fictional-detectives",
+      "parentId": "literature",
+      "name": "Fictional Detectives",
+      "description": "Famous fictional detectives and their creators"
+    }
   ],
   "exercises": [
     {
@@ -14,109 +19,255 @@
           "id": "sherlock-holmes",
           "prompt": "Which author created Sherlock Holmes, the brilliant detective of 221B Baker Street who solves cases through observation and deduction?",
           "answer": "Arthur Conan Doyle",
-          "alternates": ["Conan Doyle", "A. Conan Doyle"],
+          "alternates": [
+            "Conan Doyle",
+            "A. Conan Doyle"
+          ],
           "explanation": "Holmes first appeared in *A Study in Scarlet* (1887); Doyle wrote 4 novels and 56 short stories featuring Holmes\nHolmes was partly modeled on Dr. Joseph Bell, a diagnostician whose observational skills Doyle admired as a medical student\nDoyle grew so tired of Holmes that he killed him off at Reichenbach Falls in 1893 — public outcry forced a revival in 1903\n'Elementary, my dear Watson' — Holmes never says this exact phrase in any Doyle story\nHolmes is the most portrayed fictional human character in film and TV history, with over 70 actors in the role",
           "cardFront": "Sherlock Holmes (Baker Street, deduction, Dr. Watson)",
-          "cardBack": "Arthur Conan Doyle"
+          "cardBack": "Arthur Conan Doyle",
+          "links": [
+            {
+              "text": "Arthur Conan Doyle",
+              "url": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+            },
+            {
+              "text": "Sherlock Holmes",
+              "url": "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+            }
+          ]
         },
         {
           "id": "hercule-poirot",
           "prompt": "Which author created Hercule Poirot, the Belgian detective famous for his 'little grey cells' and fastidious mustache?",
           "answer": "Agatha Christie",
-          "alternates": ["Christie"],
+          "alternates": [
+            "Christie"
+          ],
           "explanation": "Poirot appeared in 33 novels and 54 short stories from 1920 (*The Mysterious Affair at Styles*) to 1975 (*Curtain*)\nChristie wrote *Curtain* during WWII as insurance in case she died; it was published only in the year she died\nPoirot's death in *Curtain* was announced on the front page of the *New York Times* — one of few fictional characters so honored\nDavid Suchet played Poirot on television from 1989 to 2013, completing all the stories — a 25-year commitment\nChristie also created Miss Marple; together they make her the best-selling mystery writer of all time",
           "cardFront": "Hercule Poirot (Belgian, 'little grey cells', mustache)",
-          "cardBack": "Agatha Christie"
+          "cardBack": "Agatha Christie",
+          "links": [
+            {
+              "text": "Agatha Christie",
+              "url": "https://en.wikipedia.org/wiki/Agatha_Christie"
+            },
+            {
+              "text": "Hercule Poirot",
+              "url": "https://en.wikipedia.org/wiki/Hercule_Poirot"
+            }
+          ]
         },
         {
           "id": "philip-marlowe",
           "prompt": "Which author created Philip Marlowe, the hard-boiled Los Angeles private eye who appeared in *The Big Sleep* and *Farewell, My Lovely*?",
           "answer": "Raymond Chandler",
-          "alternates": ["Chandler"],
+          "alternates": [
+            "Chandler"
+          ],
           "explanation": "Marlowe appeared in seven novels from *The Big Sleep* (1939) to *Playback* (1958)\nChandler also wrote the original *Double Indemnity* screenplay (1944) with Billy Wilder — one of noir's defining films\nMarlowe's wisecracking, morally upright loner defined the hard-boiled private detective archetype\nHumphrey Bogart's portrayal in the 1946 *The Big Sleep* is definitive; the film's plot is notoriously impossible to follow\nChandler began writing crime fiction at age 44 after losing his job as an oil executive during the Depression",
           "cardFront": "Philip Marlowe (hard-boiled, Los Angeles, *The Big Sleep*)",
-          "cardBack": "Raymond Chandler"
+          "cardBack": "Raymond Chandler",
+          "links": [
+            {
+              "text": "Raymond Chandler",
+              "url": "https://en.wikipedia.org/wiki/Raymond_Chandler"
+            },
+            {
+              "text": "Philip Marlowe",
+              "url": "https://en.wikipedia.org/wiki/Philip_Marlowe"
+            }
+          ]
         },
         {
           "id": "sam-spade",
           "prompt": "Which author created Sam Spade, the San Francisco private detective who investigates the Maltese Falcon?",
           "answer": "Dashiell Hammett",
-          "alternates": ["Hammett"],
+          "alternates": [
+            "Hammett"
+          ],
           "explanation": "Spade appeared only in *The Maltese Falcon* (1930) and three short stories\nHammett worked as a Pinkerton Agency detective before turning to fiction — his crime writing drew on real experience\nHumphrey Bogart played Spade in the 1941 John Huston film — Bogart's breakthrough as a leading man\nHammett also created Nick and Nora Charles (*The Thin Man*, 1934) and the Continental Op\nHammett refused to name names before the House Un-American Activities Committee in 1951; served six months in prison",
           "cardFront": "Sam Spade (San Francisco P.I., *The Maltese Falcon*)",
-          "cardBack": "Dashiell Hammett"
+          "cardBack": "Dashiell Hammett",
+          "links": [
+            {
+              "text": "Dashiell Hammett",
+              "url": "https://en.wikipedia.org/wiki/Dashiell_Hammett"
+            },
+            {
+              "text": "Sam Spade",
+              "url": "https://en.wikipedia.org/wiki/Sam_Spade"
+            }
+          ]
         },
         {
           "id": "miss-marple",
           "prompt": "Which author created Miss Jane Marple, the elderly amateur sleuth from the village of St. Mary Mead who solves murders through her knowledge of human nature?",
           "answer": "Agatha Christie",
-          "alternates": ["Christie"],
+          "alternates": [
+            "Christie"
+          ],
           "explanation": "Miss Marple appeared in 12 novels from *Murder at the Vicarage* (1930) to *Sleeping Murder* (published 1976)\nMarple uses her intimate knowledge of village life — and its vices — to decode human behavior everywhere she goes\nChristie preferred Poirot but felt Marple was closer to the detective tradition of the 'intuitive amateur'\nJoan Hickson played Marple in a BBC series (1984–1992), considered by Christie's estate the definitive version\nChristie is the best-selling mystery writer of all time; her works outsell every author except the Bible and Shakespeare",
           "cardFront": "Miss Marple (elderly amateur, St. Mary Mead, human nature)",
-          "cardBack": "Agatha Christie"
+          "cardBack": "Agatha Christie",
+          "links": [
+            {
+              "text": "Agatha Christie",
+              "url": "https://en.wikipedia.org/wiki/Agatha_Christie"
+            },
+            {
+              "text": "Miss Marple",
+              "url": "https://en.wikipedia.org/wiki/Miss_Marple"
+            }
+          ]
         },
         {
           "id": "nero-wolfe",
           "prompt": "Which author created Nero Wolfe, the obese, orchid-growing New York detective who rarely leaves his brownstone and relies on his legman Archie Goodwin?",
           "answer": "Rex Stout",
-          "alternates": ["Stout"],
+          "alternates": [
+            "Stout"
+          ],
           "explanation": "Wolfe appeared in 33 novels and 39 novellas from *Fer-de-Lance* (1934) to *A Family Affair* (1975)\nWolfe weighs 'one-seventh of a ton,' grows orchids on his penthouse roof, and refuses to leave his West 35th Street brownstone except in extremity\nArchie Goodwin is the first-person narrator — urbane, witty, and a foil to Wolfe's sedentary brilliance\nStout was a founding member of the Authors Guild and a prominent anti-fascist activist during WWII\nTimothy Hutton played Archie Goodwin in the A&E series (2001–2002)",
           "cardFront": "Nero Wolfe (obese, orchids, brownstone, Archie Goodwin)",
-          "cardBack": "Rex Stout"
+          "cardBack": "Rex Stout",
+          "links": [
+            {
+              "text": "Rex Stout",
+              "url": "https://en.wikipedia.org/wiki/Rex_Stout"
+            },
+            {
+              "text": "Nero Wolfe",
+              "url": "https://en.wikipedia.org/wiki/Nero_Wolfe"
+            }
+          ]
         },
         {
           "id": "lord-peter-wimsey",
           "prompt": "Which author created Lord Peter Wimsey, the aristocratic amateur detective and WWI veteran who solves crimes between collecting incunabula and making cricket puns?",
           "answer": "Dorothy L. Sayers",
-          "alternates": ["Sayers", "Dorothy Sayers"],
+          "alternates": [
+            "Sayers",
+            "Dorothy Sayers"
+          ],
           "explanation": "Wimsey appeared in 11 novels from *Whose Body?* (1923) to *Busman's Honeymoon* (1937)\nSayers also wrote important scholarly work on medieval literature, including translations of Dante's *Divine Comedy*\nHarriet Vane, introduced in *Strong Poison* (1930) as a murder suspect, eventually becomes Wimsey's wife\nSayers is credited with elevating the detective novel from puzzle to serious fiction\nWimsey was partly modeled on Sayers's friend Eric Whelpton; she later said she 'fell in love with him' during writing",
           "cardFront": "Lord Peter Wimsey (aristocratic, WWI vet, amateur detective)",
-          "cardBack": "Dorothy L. Sayers"
+          "cardBack": "Dorothy L. Sayers",
+          "links": [
+            {
+              "text": "Dorothy L. Sayers",
+              "url": "https://en.wikipedia.org/wiki/Dorothy_L._Sayers"
+            },
+            {
+              "text": "Lord Peter Wimsey",
+              "url": "https://en.wikipedia.org/wiki/Lord_Peter_Wimsey"
+            }
+          ]
         },
         {
           "id": "inspector-morse",
           "prompt": "Which author created Inspector Morse, the crossword-solving, Wagnerian-opera-loving Oxford detective whose full first name is only revealed in his final novel?",
           "answer": "Colin Dexter",
-          "alternates": ["Dexter"],
+          "alternates": [
+            "Dexter"
+          ],
           "explanation": "Morse appeared in 13 novels from *Last Bus to Woodstock* (1975) to *The Remorseful Day* (1999)\nMorse's first name — Endeavour — is revealed only in *The Wench Is Dead* (1989); Dexter kept it secret for years\nJohn Thaw played Morse in the ITV series (1987–2000); a prequel series *Endeavour* ran 2012–2023\nMorse dies at the end of *The Remorseful Day*, just as Dexter was diagnosed with a serious illness\nDexter himself made Hitchcock-style cameo appearances in many episodes of the TV series",
           "cardFront": "Inspector Morse (crosswords, opera, Oxford)",
-          "cardBack": "Colin Dexter"
+          "cardBack": "Colin Dexter",
+          "links": [
+            {
+              "text": "Colin Dexter",
+              "url": "https://en.wikipedia.org/wiki/Colin_Dexter"
+            },
+            {
+              "text": "Inspector Morse",
+              "url": "https://en.wikipedia.org/wiki/Inspector_Morse"
+            }
+          ]
         },
         {
           "id": "kay-scarpetta",
           "prompt": "Which author created Dr. Kay Scarpetta, the forensic pathologist and Chief Medical Examiner who became the template for crime procedural heroes?",
           "answer": "Patricia Cornwell",
-          "alternates": ["Cornwell"],
+          "alternates": [
+            "Cornwell"
+          ],
           "explanation": "Scarpetta first appeared in *Postmortem* (1990) — the first novel to win the Edgar, Creasey, Anthony, and Macavity Awards\nScarpetta's forensic detail was groundbreaking — Cornwell worked in a real medical examiner's office for research\nHelped launch the 1990s boom in forensic crime fiction that eventually spawned the *CSI* TV franchise\nCornwell has published 25+ Scarpetta novels; Scarpetta is based partly in Virginia, later Miami and New York\nCornwell controversially spent $7 million trying to prove that Walter Sickert was Jack the Ripper (2002)",
           "cardFront": "Kay Scarpetta (forensic pathologist, Chief Medical Examiner)",
-          "cardBack": "Patricia Cornwell"
+          "cardBack": "Patricia Cornwell",
+          "links": [
+            {
+              "text": "Patricia Cornwell",
+              "url": "https://en.wikipedia.org/wiki/Patricia_Cornwell"
+            },
+            {
+              "text": "Kay Scarpetta",
+              "url": "https://en.wikipedia.org/wiki/Kay_Scarpetta"
+            }
+          ]
         },
         {
           "id": "kinsey-millhone",
           "prompt": "Which author created Kinsey Millhone, the twice-divorced Santa Teresa private eye whose cases form the alphabetically titled 'alphabet series' from *A is for Alibi* to *Y is for Yesterday*?",
           "answer": "Sue Grafton",
-          "alternates": ["Grafton"],
+          "alternates": [
+            "Grafton"
+          ],
           "explanation": "Millhone appeared in 25 novels from *A is for Alibi* (1982) to *Y is for Yesterday* (2017); Grafton died before completing *Z*\nGrafton set the series in fictional 'Santa Teresa' (based on Santa Barbara, California) in the 1980s — deliberately avoiding technology\nMillhone lives in a converted garage apartment, drives an old VW Beetle, and eats peanut butter on crackers\nGrafton said the 'A' in 'A is for Alibi' was inspired by anger at her ex-husband during a custody dispute — she imagined killing him 14 ways\nOne of the 'three queens' of American crime fiction alongside Sara Paretsky and Marcia Muller",
           "cardFront": "Kinsey Millhone (Santa Teresa P.I., alphabet series)",
-          "cardBack": "Sue Grafton"
+          "cardBack": "Sue Grafton",
+          "links": [
+            {
+              "text": "Sue Grafton",
+              "url": "https://en.wikipedia.org/wiki/Sue_Grafton"
+            },
+            {
+              "text": "Kinsey Millhone",
+              "url": "https://en.wikipedia.org/wiki/Kinsey_Millhone"
+            }
+          ]
         },
         {
           "id": "vi-warshawski",
           "prompt": "Which author created V.I. Warshawski, the Chicago feminist private detective who helped define the feminist crime novel from *Indemnity Only* onward?",
           "answer": "Sara Paretsky",
-          "alternates": ["Paretsky"],
+          "alternates": [
+            "Paretsky"
+          ],
           "explanation": "V.I. (Victoria Iphigenia) Warshawski appeared in 20+ novels from *Indemnity Only* (1982) onward\nA groundbreaking feminist detective who operates in working-class Chicago, often clashing with corrupt institutions\nParetsky co-founded Sisters in Crime (1986), an organization to promote women crime writers\nKathleen Turner played Warshawski in the 1991 film adaptation\nOne of the 'three queens' alongside Sue Grafton and Marcia Muller; all three debuted feminist P.I. novels in 1982",
           "cardFront": "V.I. Warshawski (Chicago P.I., feminist, *Indemnity Only*)",
-          "cardBack": "Sara Paretsky"
+          "cardBack": "Sara Paretsky",
+          "links": [
+            {
+              "text": "Sara Paretsky",
+              "url": "https://en.wikipedia.org/wiki/Sara_Paretsky"
+            },
+            {
+              "text": "V.I. Warshawski",
+              "url": "https://en.wikipedia.org/wiki/V.I._Warshawski"
+            }
+          ]
         },
         {
           "id": "easy-rawlins",
           "prompt": "Which author created Easy Rawlins, the reluctant Black private eye in post-WWII Los Angeles whose cases are set against real events of African American history?",
           "answer": "Walter Mosley",
-          "alternates": ["Mosley"],
+          "alternates": [
+            "Mosley"
+          ],
           "explanation": "Rawlins first appeared in *Devil in a Blue Dress* (1990); Mosley has written 15 Easy Rawlins novels\nSet in the Watts neighborhood of Los Angeles; each novel covers a specific year from 1948 to the 1960s\nBill Clinton cited *Devil in a Blue Dress* as a favorite novel during his 1992 presidential campaign, boosting Mosley's career\nDenzel Washington played Rawlins in the 1995 Carl Franklin film adaptation\nMosley received the PEN USA's Lifetime Achievement Award and the Grand Master Award from the Mystery Writers of America",
           "cardFront": "Easy Rawlins (Black P.I., postwar Los Angeles, *Devil in a Blue Dress*)",
-          "cardBack": "Walter Mosley"
+          "cardBack": "Walter Mosley",
+          "links": [
+            {
+              "text": "Walter Mosley",
+              "url": "https://en.wikipedia.org/wiki/Walter_Mosley"
+            },
+            {
+              "text": "Easy Rawlins",
+              "url": "https://en.wikipedia.org/wiki/Easy_Rawlins"
+            }
+          ]
         }
       ]
     }

@@ -19,98 +19,182 @@
           "prompt": "Alabama",
           "answer": "Montgomery",
           "alternates": [],
-          "explanation": "Capital since 1846; not the largest city (Birmingham is larger)\nKnown as 'Cradle of the Confederacy' — the first Confederate capital before it moved to Richmond\nRosa Parks refused to give up her bus seat here (December 1, 1955), sparking the Montgomery Bus Boycott"
+          "explanation": "Capital since 1846; not the largest city (Birmingham is larger)\nKnown as 'Cradle of the Confederacy' — the first Confederate capital before it moved to Richmond\nRosa Parks refused to give up her bus seat here (December 1, 1955), sparking the Montgomery Bus Boycott",
+          "links": [
+            {
+              "text": "Montgomery",
+              "url": "https://en.wikipedia.org/wiki/Montgomery"
+            }
+          ]
         },
         {
           "id": "alaska",
           "prompt": "Alaska",
           "answer": "Juneau",
           "alternates": [],
-          "explanation": "Only U.S. state capital not accessible by road — no highway connects it to the rest of Alaska\nBecame capital of Alaska Territory in 1906; retained at statehood (1959)\nAnchorage is ~10 times larger; Juneau's population is about 32,000"
+          "explanation": "Only U.S. state capital not accessible by road — no highway connects it to the rest of Alaska\nBecame capital of Alaska Territory in 1906; retained at statehood (1959)\nAnchorage is ~10 times larger; Juneau's population is about 32,000",
+          "links": [
+            {
+              "text": "Juneau",
+              "url": "https://en.wikipedia.org/wiki/Juneau"
+            }
+          ]
         },
         {
           "id": "arizona",
           "prompt": "Arizona",
           "answer": "Phoenix",
           "alternates": [],
-          "explanation": "Capital since Arizona achieved statehood in 1912; largest state capital by population (~1.6 million)\nOne of the few state capitals that is also the state's largest city and a top-10 U.S. city\nBuilt on ruins of ancient Hohokam settlements; named for the mythological bird rising from ashes"
+          "explanation": "Capital since Arizona achieved statehood in 1912; largest state capital by population (~1.6 million)\nOne of the few state capitals that is also the state's largest city and a top-10 U.S. city\nBuilt on ruins of ancient Hohokam settlements; named for the mythological bird rising from ashes",
+          "links": [
+            {
+              "text": "Phoenix",
+              "url": "https://en.wikipedia.org/wiki/Phoenix"
+            }
+          ]
         },
         {
           "id": "arkansas",
           "prompt": "Arkansas",
           "answer": "Little Rock",
           "alternates": [],
-          "explanation": "Capital since 1821 (territorial capital); Arkansas achieved statehood in 1836\nSite of the 1957 Little Rock Central High School desegregation crisis — Eisenhower sent Army troops to enforce integration\nNamed for a small rocky outcropping (French: 'la petite roche') on the Arkansas River"
+          "explanation": "Capital since 1821 (territorial capital); Arkansas achieved statehood in 1836\nSite of the 1957 Little Rock Central High School desegregation crisis — Eisenhower sent Army troops to enforce integration\nNamed for a small rocky outcropping (French: 'la petite roche') on the Arkansas River",
+          "links": [
+            {
+              "text": "Little Rock",
+              "url": "https://en.wikipedia.org/wiki/Little_Rock"
+            }
+          ]
         },
         {
           "id": "california",
           "prompt": "California",
           "answer": "Sacramento",
           "alternates": [],
-          "explanation": "State capital since 1854; not the largest city (Los Angeles is ~15 times larger)\nGold Rush supply hub; western terminus of the first Transcontinental Railroad (1869)\nSan Jose and San Francisco were both briefly the capital before Sacramento"
+          "explanation": "State capital since 1854; not the largest city (Los Angeles is ~15 times larger)\nGold Rush supply hub; western terminus of the first Transcontinental Railroad (1869)\nSan Jose and San Francisco were both briefly the capital before Sacramento",
+          "links": [
+            {
+              "text": "Sacramento",
+              "url": "https://en.wikipedia.org/wiki/Sacramento"
+            }
+          ]
         },
         {
           "id": "colorado",
           "prompt": "Colorado",
           "answer": "Denver",
           "alternates": [],
-          "explanation": "Capital since Colorado achieved statehood in 1876; the largest city in Colorado\nKnown as the 'Mile High City' — the State Capitol's west steps are exactly 5,280 feet above sea level\nFounded as a supply camp during the Pike's Peak Gold Rush (1858)"
+          "explanation": "Capital since Colorado achieved statehood in 1876; the largest city in Colorado\nKnown as the 'Mile High City' — the State Capitol's west steps are exactly 5,280 feet above sea level\nFounded as a supply camp during the Pike's Peak Gold Rush (1858)",
+          "links": [
+            {
+              "text": "Denver",
+              "url": "https://en.wikipedia.org/wiki/Denver"
+            }
+          ]
         },
         {
           "id": "connecticut",
           "prompt": "Connecticut",
           "answer": "Hartford",
           "alternates": [],
-          "explanation": "Sole capital since 1875 (previously co-capital with New Haven)\nKnown as the 'Insurance Capital of the World' — major insurers have been headquartered here since the 19th century\nMark Twain lived in Hartford for 17 years (1874–1891) and wrote Huckleberry Finn and Tom Sawyer here"
+          "explanation": "Sole capital since 1875 (previously co-capital with New Haven)\nKnown as the 'Insurance Capital of the World' — major insurers have been headquartered here since the 19th century\nMark Twain lived in Hartford for 17 years (1874–1891) and wrote Huckleberry Finn and Tom Sawyer here",
+          "links": [
+            {
+              "text": "Hartford",
+              "url": "https://en.wikipedia.org/wiki/Hartford"
+            }
+          ]
         },
         {
           "id": "delaware",
           "prompt": "Delaware",
           "answer": "Dover",
           "alternates": [],
-          "explanation": "Capital since 1777; moved from New Castle to reduce British access during the Revolutionary War\nNot the largest city (Wilmington is larger)\nDelaware was first to ratify the U.S. Constitution (December 7, 1787), earning the nickname 'The First State'"
+          "explanation": "Capital since 1777; moved from New Castle to reduce British access during the Revolutionary War\nNot the largest city (Wilmington is larger)\nDelaware was first to ratify the U.S. Constitution (December 7, 1787), earning the nickname 'The First State'",
+          "links": [
+            {
+              "text": "Dover",
+              "url": "https://en.wikipedia.org/wiki/Dover"
+            }
+          ]
         },
         {
           "id": "florida",
           "prompt": "Florida",
           "answer": "Tallahassee",
           "alternates": [],
-          "explanation": "Capital since 1824; chosen as a compromise midpoint between Pensacola and St. Augustine\nNot the largest city (Jacksonville has the largest land area of any U.S. city in the contiguous states; Miami metro is larger)\nHome of Florida State University and Florida A&M University"
+          "explanation": "Capital since 1824; chosen as a compromise midpoint between Pensacola and St. Augustine\nNot the largest city (Jacksonville has the largest land area of any U.S. city in the contiguous states; Miami metro is larger)\nHome of Florida State University and Florida A&M University",
+          "links": [
+            {
+              "text": "Tallahassee",
+              "url": "https://en.wikipedia.org/wiki/Tallahassee"
+            }
+          ]
         },
         {
           "id": "georgia",
           "prompt": "Georgia",
           "answer": "Atlanta",
           "alternates": [],
-          "explanation": "Capital since 1868; previously Milledgeville was the capital\nBurned by General Sherman during his March to the Sea (November 1864); rebuilt and became the South's commercial hub\nBirthplace of Martin Luther King Jr. (1929); headquarters of Coca-Cola, CNN, Delta Air Lines, and the CDC"
+          "explanation": "Capital since 1868; previously Milledgeville was the capital\nBurned by General Sherman during his March to the Sea (November 1864); rebuilt and became the South's commercial hub\nBirthplace of Martin Luther King Jr. (1929); headquarters of Coca-Cola, CNN, Delta Air Lines, and the CDC",
+          "links": [
+            {
+              "text": "Atlanta",
+              "url": "https://en.wikipedia.org/wiki/Atlanta"
+            }
+          ]
         },
         {
           "id": "hawaii",
           "prompt": "Hawaii",
           "answer": "Honolulu",
           "alternates": [],
-          "explanation": "Capital of the Kingdom, Territory, and State of Hawaii; Hawaii achieved statehood in 1959\nOnly U.S. state capital located outside North America (geographically in Polynesia, on the island of Oahu)\nSite of Pearl Harbor (attacked December 7, 1941); birthplace of President Barack Obama (1961)"
+          "explanation": "Capital of the Kingdom, Territory, and State of Hawaii; Hawaii achieved statehood in 1959\nOnly U.S. state capital located outside North America (geographically in Polynesia, on the island of Oahu)\nSite of Pearl Harbor (attacked December 7, 1941); birthplace of President Barack Obama (1961)",
+          "links": [
+            {
+              "text": "Honolulu",
+              "url": "https://en.wikipedia.org/wiki/Honolulu"
+            }
+          ]
         },
         {
           "id": "idaho",
           "prompt": "Idaho",
           "answer": "Boise",
           "alternates": [],
-          "explanation": "Capital since Idaho achieved statehood in 1890; the largest city in Idaho\nDerived from French 'boisé' meaning 'wooded' — named by French-Canadian fur trappers for the trees along the Boise River\nOne of the fastest-growing U.S. cities in the 2010s due to tech industry migration"
+          "explanation": "Capital since Idaho achieved statehood in 1890; the largest city in Idaho\nDerived from French 'boisé' meaning 'wooded' — named by French-Canadian fur trappers for the trees along the Boise River\nOne of the fastest-growing U.S. cities in the 2010s due to tech industry migration",
+          "links": [
+            {
+              "text": "Boise",
+              "url": "https://en.wikipedia.org/wiki/Boise"
+            }
+          ]
         },
         {
           "id": "illinois",
           "prompt": "Illinois",
           "answer": "Springfield",
           "alternates": [],
-          "explanation": "Capital since 1837; moved from Vandalia largely due to Abraham Lincoln's political maneuvering in the state legislature\nNot the largest city (Chicago is approximately 50 times larger)\nLincoln's home from 1837 until he left for Washington in 1861; his presidential library and tomb are here"
+          "explanation": "Capital since 1837; moved from Vandalia largely due to Abraham Lincoln's political maneuvering in the state legislature\nNot the largest city (Chicago is approximately 50 times larger)\nLincoln's home from 1837 until he left for Washington in 1861; his presidential library and tomb are here",
+          "links": [
+            {
+              "text": "Springfield",
+              "url": "https://en.wikipedia.org/wiki/Springfield"
+            }
+          ]
         },
         {
           "id": "indiana",
           "prompt": "Indiana",
           "answer": "Indianapolis",
           "alternates": [],
-          "explanation": "Capital since Indiana achieved statehood in 1816; purpose-built as the state capital\nLargest city in Indiana; name combines 'Indiana' + 'polis' (Greek for city)\nHome of the Indianapolis 500, held annually since 1911 at the Indianapolis Motor Speedway"
+          "explanation": "Capital since Indiana achieved statehood in 1816; purpose-built as the state capital\nLargest city in Indiana; name combines 'Indiana' + 'polis' (Greek for city)\nHome of the Indianapolis 500, held annually since 1911 at the Indianapolis Motor Speedway",
+          "links": [
+            {
+              "text": "Indianapolis",
+              "url": "https://en.wikipedia.org/wiki/Indianapolis"
+            }
+          ]
         },
         {
           "id": "iowa",
@@ -119,21 +203,39 @@
           "alternates": [
             "Des Moines"
           ],
-          "explanation": "Capital since Iowa achieved statehood in 1846; the largest city in Iowa\nNational hub for the insurance industry — several major insurers are headquartered here\nIowa holds the first presidential caucuses every four years, giving Des Moines outsized political importance"
+          "explanation": "Capital since Iowa achieved statehood in 1846; the largest city in Iowa\nNational hub for the insurance industry — several major insurers are headquartered here\nIowa holds the first presidential caucuses every four years, giving Des Moines outsized political importance",
+          "links": [
+            {
+              "text": "Des Moines",
+              "url": "https://en.wikipedia.org/wiki/Des_Moines"
+            }
+          ]
         },
         {
           "id": "kansas",
           "prompt": "Kansas",
           "answer": "Topeka",
           "alternates": [],
-          "explanation": "Capital since Kansas achieved statehood in 1861; not the largest city (Wichita is larger)\nBrown v. Board of Education (1954) originated here — the Topeka school district's segregation was the case that reached the Supreme Court\nTerminus of the Santa Fe Trail; a major railroad hub in the 19th century"
+          "explanation": "Capital since Kansas achieved statehood in 1861; not the largest city (Wichita is larger)\nBrown v. Board of Education (1954) originated here — the Topeka school district's segregation was the case that reached the Supreme Court\nTerminus of the Santa Fe Trail; a major railroad hub in the 19th century",
+          "links": [
+            {
+              "text": "Topeka",
+              "url": "https://en.wikipedia.org/wiki/Topeka"
+            }
+          ]
         },
         {
           "id": "kentucky",
           "prompt": "Kentucky",
           "answer": "Frankfort",
           "alternates": [],
-          "explanation": "Capital since Kentucky achieved statehood in 1792; one of the smallest state capitals in the U.S. (~28,000 people)\nNeither the largest (Louisville) nor second-largest (Lexington) city in the state\nLocated in the heart of Kentucky Bourbon Country along the Kentucky River"
+          "explanation": "Capital since Kentucky achieved statehood in 1792; one of the smallest state capitals in the U.S. (~28,000 people)\nNeither the largest (Louisville) nor second-largest (Lexington) city in the state\nLocated in the heart of Kentucky Bourbon Country along the Kentucky River",
+          "links": [
+            {
+              "text": "Frankfort",
+              "url": "https://en.wikipedia.org/wiki/Frankfort"
+            }
+          ]
         },
         {
           "id": "louisiana",
@@ -142,35 +244,65 @@
           "alternates": [
             "Baton Rouge"
           ],
-          "explanation": "Capital since 1880; moved from New Orleans following Reconstruction-era political disputes\nFrench for 'red stick' — named for a red cypress pole that marked tribal territorial boundaries\nLouisiana State University is located here; home of Huey Long, the controversial 1930s governor and senator"
+          "explanation": "Capital since 1880; moved from New Orleans following Reconstruction-era political disputes\nFrench for 'red stick' — named for a red cypress pole that marked tribal territorial boundaries\nLouisiana State University is located here; home of Huey Long, the controversial 1930s governor and senator",
+          "links": [
+            {
+              "text": "Baton Rouge",
+              "url": "https://en.wikipedia.org/wiki/Baton_Rouge"
+            }
+          ]
         },
         {
           "id": "maine",
           "prompt": "Maine",
           "answer": "Augusta",
           "alternates": [],
-          "explanation": "Capital since Maine achieved statehood in 1820 (separated from Massachusetts)\nSmallest state capital east of the Mississippi River by population (~19,000)\nNot the largest city (Portland is larger); Augusta sits on the Kennebec River"
+          "explanation": "Capital since Maine achieved statehood in 1820 (separated from Massachusetts)\nSmallest state capital east of the Mississippi River by population (~19,000)\nNot the largest city (Portland is larger); Augusta sits on the Kennebec River",
+          "links": [
+            {
+              "text": "Augusta",
+              "url": "https://en.wikipedia.org/wiki/Augusta"
+            }
+          ]
         },
         {
           "id": "maryland",
           "prompt": "Maryland",
           "answer": "Annapolis",
           "alternates": [],
-          "explanation": "Capital since 1694 — one of the oldest continuously serving state capitals in the U.S.\nThe U.S. Congress met here 1783–1784; the Treaty of Paris (formally ending the Revolutionary War) was ratified here on January 14, 1784\nNot the largest city (Baltimore is ~10 times larger); home of the U.S. Naval Academy (founded 1845)"
+          "explanation": "Capital since 1694 — one of the oldest continuously serving state capitals in the U.S.\nThe U.S. Congress met here 1783–1784; the Treaty of Paris (formally ending the Revolutionary War) was ratified here on January 14, 1784\nNot the largest city (Baltimore is ~10 times larger); home of the U.S. Naval Academy (founded 1845)",
+          "links": [
+            {
+              "text": "Annapolis",
+              "url": "https://en.wikipedia.org/wiki/Annapolis"
+            }
+          ]
         },
         {
           "id": "massachusetts",
           "prompt": "Massachusetts",
           "answer": "Boston",
           "alternates": [],
-          "explanation": "Capital since the Massachusetts Bay Colony (1630); one of the oldest cities in the U.S.\nSite of the Boston Massacre (1770), Boston Tea Party (1773), and the start of the Revolutionary War at Lexington and Concord\nHome of Harvard University (1636), MIT, and over 50 colleges; one of the few capitals that is also the state's largest city"
+          "explanation": "Capital since the Massachusetts Bay Colony (1630); one of the oldest cities in the U.S.\nSite of the Boston Massacre (1770), Boston Tea Party (1773), and the start of the Revolutionary War at Lexington and Concord\nHome of Harvard University (1636), MIT, and over 50 colleges; one of the few capitals that is also the state's largest city",
+          "links": [
+            {
+              "text": "Boston",
+              "url": "https://en.wikipedia.org/wiki/Boston"
+            }
+          ]
         },
         {
           "id": "michigan",
           "prompt": "Michigan",
           "answer": "Lansing",
           "alternates": [],
-          "explanation": "Capital since 1847; moved from Detroit because its border location made it vulnerable to British or Canadian attack\nNot the largest city (Detroit is ~5 times larger)\nHome of Michigan State University in nearby East Lansing; birthplace of the Oldsmobile (1897)"
+          "explanation": "Capital since 1847; moved from Detroit because its border location made it vulnerable to British or Canadian attack\nNot the largest city (Detroit is ~5 times larger)\nHome of Michigan State University in nearby East Lansing; birthplace of the Oldsmobile (1897)",
+          "links": [
+            {
+              "text": "Lansing",
+              "url": "https://en.wikipedia.org/wiki/Lansing"
+            }
+          ]
         },
         {
           "id": "minnesota",
@@ -180,14 +312,26 @@
             "St. Paul",
             "St Paul"
           ],
-          "explanation": "Capital since Minnesota achieved statehood in 1858\nNot the largest city — Minneapolis (the 'Twin City') is slightly larger\nSaint Paul and Minneapolis form the 'Twin Cities' metropolitan area, one of the most educated metros in the U.S."
+          "explanation": "Capital since Minnesota achieved statehood in 1858\nNot the largest city — Minneapolis (the 'Twin City') is slightly larger\nSaint Paul and Minneapolis form the 'Twin Cities' metropolitan area, one of the most educated metros in the U.S.",
+          "links": [
+            {
+              "text": "Saint Paul",
+              "url": "https://en.wikipedia.org/wiki/Saint_Paul"
+            }
+          ]
         },
         {
           "id": "mississippi",
           "prompt": "Mississippi",
           "answer": "Jackson",
           "alternates": [],
-          "explanation": "Capital since 1822; named after Andrew Jackson\nLargest city in Mississippi\nA major civil rights battleground in the 1960s — site of the Jackson Woolworth's lunch counter sit-in (1963) and the murder of NAACP leader Medgar Evers (1963)"
+          "explanation": "Capital since 1822; named after Andrew Jackson\nLargest city in Mississippi\nA major civil rights battleground in the 1960s — site of the Jackson Woolworth's lunch counter sit-in (1963) and the murder of NAACP leader Medgar Evers (1963)",
+          "links": [
+            {
+              "text": "Jackson",
+              "url": "https://en.wikipedia.org/wiki/Jackson"
+            }
+          ]
         },
         {
           "id": "missouri",
@@ -196,21 +340,39 @@
           "alternates": [
             "Jefferson City"
           ],
-          "explanation": "Capital since Missouri achieved statehood in 1821; named after Thomas Jefferson\nNot the largest city (Kansas City and St. Louis are both much larger); Jefferson City's population is ~43,000\nLocated on the Missouri River; considered a gateway to westward expansion"
+          "explanation": "Capital since Missouri achieved statehood in 1821; named after Thomas Jefferson\nNot the largest city (Kansas City and St. Louis are both much larger); Jefferson City's population is ~43,000\nLocated on the Missouri River; considered a gateway to westward expansion",
+          "links": [
+            {
+              "text": "Jefferson City",
+              "url": "https://en.wikipedia.org/wiki/Jefferson_City"
+            }
+          ]
         },
         {
           "id": "montana",
           "prompt": "Montana",
           "answer": "Helena",
           "alternates": [],
-          "explanation": "Capital since Montana achieved statehood in 1889; not the largest city (Billings is ~4 times larger)\nFounded as 'Last Chance Gulch' during the 1864 gold rush; later renamed Helena after Helena, Minnesota\nProduced more millionaires per capita during the Gold Rush than almost anywhere else in the U.S."
+          "explanation": "Capital since Montana achieved statehood in 1889; not the largest city (Billings is ~4 times larger)\nFounded as 'Last Chance Gulch' during the 1864 gold rush; later renamed Helena after Helena, Minnesota\nProduced more millionaires per capita during the Gold Rush than almost anywhere else in the U.S.",
+          "links": [
+            {
+              "text": "Helena",
+              "url": "https://en.wikipedia.org/wiki/Helena"
+            }
+          ]
         },
         {
           "id": "nebraska",
           "prompt": "Nebraska",
           "answer": "Lincoln",
           "alternates": [],
-          "explanation": "Capital since Nebraska achieved statehood in 1867; named after Abraham Lincoln\nNot the largest city (Omaha is roughly twice as large)\nHome of the University of Nebraska; William Jennings Bryan lived and is buried here"
+          "explanation": "Capital since Nebraska achieved statehood in 1867; named after Abraham Lincoln\nNot the largest city (Omaha is roughly twice as large)\nHome of the University of Nebraska; William Jennings Bryan lived and is buried here",
+          "links": [
+            {
+              "text": "Lincoln",
+              "url": "https://en.wikipedia.org/wiki/Lincoln"
+            }
+          ]
         },
         {
           "id": "nevada",
@@ -219,21 +381,39 @@
           "alternates": [
             "Carson City"
           ],
-          "explanation": "Capital since Nevada achieved statehood in 1864; named after frontiersman Kit Carson\nSmallest state capital in the contiguous U.S. by population (~58,000)\nNot the largest city (Las Vegas is ~30 times larger; Reno is also larger)"
+          "explanation": "Capital since Nevada achieved statehood in 1864; named after frontiersman Kit Carson\nSmallest state capital in the contiguous U.S. by population (~58,000)\nNot the largest city (Las Vegas is ~30 times larger; Reno is also larger)",
+          "links": [
+            {
+              "text": "Carson City",
+              "url": "https://en.wikipedia.org/wiki/Carson_City"
+            }
+          ]
         },
         {
           "id": "new-hampshire",
           "prompt": "New Hampshire",
           "answer": "Concord",
           "alternates": [],
-          "explanation": "Capital since New Hampshire ratified the Constitution in 1788 (the 9th and decisive state)\nNot the largest city (Manchester is larger)\nThe Concord Coach stagecoach — manufactured here — was the dominant overland passenger vehicle in 19th-century America"
+          "explanation": "Capital since New Hampshire ratified the Constitution in 1788 (the 9th and decisive state)\nNot the largest city (Manchester is larger)\nThe Concord Coach stagecoach — manufactured here — was the dominant overland passenger vehicle in 19th-century America",
+          "links": [
+            {
+              "text": "Concord",
+              "url": "https://en.wikipedia.org/wiki/Concord"
+            }
+          ]
         },
         {
           "id": "new-jersey",
           "prompt": "New Jersey",
           "answer": "Trenton",
           "alternates": [],
-          "explanation": "Capital since New Jersey was among the original 13 states; capital since 1790\nNot the largest city (Newark is larger)\nBattle of Trenton (December 26, 1776): Washington crossed the Delaware and defeated Hessian forces — a turning point of the Revolution"
+          "explanation": "Capital since New Jersey was among the original 13 states; capital since 1790\nNot the largest city (Newark is larger)\nBattle of Trenton (December 26, 1776): Washington crossed the Delaware and defeated Hessian forces — a turning point of the Revolution",
+          "links": [
+            {
+              "text": "Trenton",
+              "url": "https://en.wikipedia.org/wiki/Trenton"
+            }
+          ]
         },
         {
           "id": "new-mexico",
@@ -242,35 +422,65 @@
           "alternates": [
             "Santa Fe"
           ],
-          "explanation": "Founded by Spanish colonists in 1610 — the oldest state capital in the U.S.\nNot the largest city (Albuquerque is ~4 times larger)\nAt 7,199 feet elevation, the highest state capital in the U.S.; the Palace of the Governors (built 1610) is the oldest continuously occupied public building in the U.S."
+          "explanation": "Founded by Spanish colonists in 1610 — the oldest state capital in the U.S.\nNot the largest city (Albuquerque is ~4 times larger)\nAt 7,199 feet elevation, the highest state capital in the U.S.; the Palace of the Governors (built 1610) is the oldest continuously occupied public building in the U.S.",
+          "links": [
+            {
+              "text": "Santa Fe",
+              "url": "https://en.wikipedia.org/wiki/Santa_Fe"
+            }
+          ]
         },
         {
           "id": "new-york",
           "prompt": "New York",
           "answer": "Albany",
           "alternates": [],
-          "explanation": "Capital since New York ratified the Constitution (1788); Albany has served as capital since 1797\nNot the largest city (New York City is ~170 times larger)\nEastern terminus of the Erie Canal (completed 1825); a crucial 19th-century commercial and political hub"
+          "explanation": "Capital since New York ratified the Constitution (1788); Albany has served as capital since 1797\nNot the largest city (New York City is ~170 times larger)\nEastern terminus of the Erie Canal (completed 1825); a crucial 19th-century commercial and political hub",
+          "links": [
+            {
+              "text": "Albany",
+              "url": "https://en.wikipedia.org/wiki/Albany"
+            }
+          ]
         },
         {
           "id": "north-carolina",
           "prompt": "North Carolina",
           "answer": "Raleigh",
           "alternates": [],
-          "explanation": "Capital since North Carolina ratified the Constitution in 1789; named after Sir Walter Raleigh\nNot the largest city (Charlotte is larger)\nRaleigh, Durham, and Chapel Hill form the 'Research Triangle' — one of the largest tech and research clusters in the U.S."
+          "explanation": "Capital since North Carolina ratified the Constitution in 1789; named after Sir Walter Raleigh\nNot the largest city (Charlotte is larger)\nRaleigh, Durham, and Chapel Hill form the 'Research Triangle' — one of the largest tech and research clusters in the U.S.",
+          "links": [
+            {
+              "text": "Raleigh",
+              "url": "https://en.wikipedia.org/wiki/Raleigh"
+            }
+          ]
         },
         {
           "id": "north-dakota",
           "prompt": "North Dakota",
           "answer": "Bismarck",
           "alternates": [],
-          "explanation": "Capital since North Dakota achieved statehood in 1889; not the largest city (Fargo is larger)\nNamed after German Chancellor Otto von Bismarck — Northern Pacific Railroad hoped to attract German investment\nSits on the Missouri River near the geographic center of North America"
+          "explanation": "Capital since North Dakota achieved statehood in 1889; not the largest city (Fargo is larger)\nNamed after German Chancellor Otto von Bismarck — Northern Pacific Railroad hoped to attract German investment\nSits on the Missouri River near the geographic center of North America",
+          "links": [
+            {
+              "text": "Bismarck",
+              "url": "https://en.wikipedia.org/wiki/Bismarck"
+            }
+          ]
         },
         {
           "id": "ohio",
           "prompt": "Ohio",
           "answer": "Columbus",
           "alternates": [],
-          "explanation": "Capital since Ohio achieved statehood in 1803; Columbus has been capital since 1816\nLargest city in Ohio — surpassed Cleveland and Cincinnati in the mid-20th century\nHome of Ohio State University, one of the largest universities in the U.S. by enrollment (~60,000 students)"
+          "explanation": "Capital since Ohio achieved statehood in 1803; Columbus has been capital since 1816\nLargest city in Ohio — surpassed Cleveland and Cincinnati in the mid-20th century\nHome of Ohio State University, one of the largest universities in the U.S. by enrollment (~60,000 students)",
+          "links": [
+            {
+              "text": "Columbus",
+              "url": "https://en.wikipedia.org/wiki/Columbus"
+            }
+          ]
         },
         {
           "id": "oklahoma",
@@ -279,56 +489,104 @@
           "alternates": [
             "Oklahoma City"
           ],
-          "explanation": "Capital since 1910; the only U.S. state capital where the city's name contains the state's name\nSite of the Oklahoma City bombing (April 19, 1995) — deadliest domestic terrorist attack in U.S. history before 9/11\nLargest city in Oklahoma; home to the National Cowboy and Western Heritage Museum"
+          "explanation": "Capital since 1910; the only U.S. state capital where the city's name contains the state's name\nSite of the Oklahoma City bombing (April 19, 1995) — deadliest domestic terrorist attack in U.S. history before 9/11\nLargest city in Oklahoma; home to the National Cowboy and Western Heritage Museum",
+          "links": [
+            {
+              "text": "Oklahoma City",
+              "url": "https://en.wikipedia.org/wiki/Oklahoma_City"
+            }
+          ]
         },
         {
           "id": "oregon",
           "prompt": "Oregon",
           "answer": "Salem",
           "alternates": [],
-          "explanation": "Capital since Oregon achieved statehood in 1859; not the largest city (Portland is ~3 times larger)\nEndpoint of the Oregon Trail; Salem was a major agricultural center in the Willamette Valley\nNamed after Salem, Massachusetts; settled by Methodist missionaries in the 1840s"
+          "explanation": "Capital since Oregon achieved statehood in 1859; not the largest city (Portland is ~3 times larger)\nEndpoint of the Oregon Trail; Salem was a major agricultural center in the Willamette Valley\nNamed after Salem, Massachusetts; settled by Methodist missionaries in the 1840s",
+          "links": [
+            {
+              "text": "Salem",
+              "url": "https://en.wikipedia.org/wiki/Salem"
+            }
+          ]
         },
         {
           "id": "pennsylvania",
           "prompt": "Pennsylvania",
           "answer": "Harrisburg",
           "alternates": [],
-          "explanation": "Capital since 1812; moved from Lancaster (briefly from Philadelphia before that)\nNot the largest city (Philadelphia is ~15 times larger; Pittsburgh is also larger)\nThree Mile Island nuclear accident (March 28, 1979) occurred on the Susquehanna River near Harrisburg — worst U.S. commercial nuclear accident"
+          "explanation": "Capital since 1812; moved from Lancaster (briefly from Philadelphia before that)\nNot the largest city (Philadelphia is ~15 times larger; Pittsburgh is also larger)\nThree Mile Island nuclear accident (March 28, 1979) occurred on the Susquehanna River near Harrisburg — worst U.S. commercial nuclear accident",
+          "links": [
+            {
+              "text": "Harrisburg",
+              "url": "https://en.wikipedia.org/wiki/Harrisburg"
+            }
+          ]
         },
         {
           "id": "rhode-island",
           "prompt": "Rhode Island",
           "answer": "Providence",
           "alternates": [],
-          "explanation": "Capital since Rhode Island ratified the Constitution in 1790; co-capital with Newport until 1900\nFounded by Roger Williams in 1636 after he was expelled from Massachusetts Bay Colony for religious dissent\nLargest city in Rhode Island; home to Brown University (Ivy League) and RISD"
+          "explanation": "Capital since Rhode Island ratified the Constitution in 1790; co-capital with Newport until 1900\nFounded by Roger Williams in 1636 after he was expelled from Massachusetts Bay Colony for religious dissent\nLargest city in Rhode Island; home to Brown University (Ivy League) and RISD",
+          "links": [
+            {
+              "text": "Providence",
+              "url": "https://en.wikipedia.org/wiki/Providence"
+            }
+          ]
         },
         {
           "id": "south-carolina",
           "prompt": "South Carolina",
           "answer": "Columbia",
           "alternates": [],
-          "explanation": "Capital since 1786; moved from Charleston to a more central location\nLargest city in South Carolina\nSherman burned Columbia in February 1865 during the final campaigns of the Civil War; the State House still bears marks from Confederate cannon fire"
+          "explanation": "Capital since 1786; moved from Charleston to a more central location\nLargest city in South Carolina\nSherman burned Columbia in February 1865 during the final campaigns of the Civil War; the State House still bears marks from Confederate cannon fire",
+          "links": [
+            {
+              "text": "Columbia",
+              "url": "https://en.wikipedia.org/wiki/Columbia"
+            }
+          ]
         },
         {
           "id": "south-dakota",
           "prompt": "South Dakota",
           "answer": "Pierre",
           "alternates": [],
-          "explanation": "Capital since South Dakota achieved statehood in 1889; second-smallest state capital by population (~14,000)\nNot the largest city (Sioux Falls is ~10 times larger)\nPronounced 'PEER', not 'pee-AIR'; located near the geographic center of South Dakota on the Missouri River"
+          "explanation": "Capital since South Dakota achieved statehood in 1889; second-smallest state capital by population (~14,000)\nNot the largest city (Sioux Falls is ~10 times larger)\nPronounced 'PEER', not 'pee-AIR'; located near the geographic center of South Dakota on the Missouri River",
+          "links": [
+            {
+              "text": "Pierre",
+              "url": "https://en.wikipedia.org/wiki/Pierre"
+            }
+          ]
         },
         {
           "id": "tennessee",
           "prompt": "Tennessee",
           "answer": "Nashville",
           "alternates": [],
-          "explanation": "Capital since Tennessee achieved statehood in 1796; the largest city in Tennessee\nCountry music capital of the world — home of the Grand Ole Opry (founded 1925) and Music Row\nConsolidated city-county government with Davidson County since 1963; home to Vanderbilt University"
+          "explanation": "Capital since Tennessee achieved statehood in 1796; the largest city in Tennessee\nCountry music capital of the world — home of the Grand Ole Opry (founded 1925) and Music Row\nConsolidated city-county government with Davidson County since 1963; home to Vanderbilt University",
+          "links": [
+            {
+              "text": "Nashville",
+              "url": "https://en.wikipedia.org/wiki/Nashville"
+            }
+          ]
         },
         {
           "id": "texas",
           "prompt": "Texas",
           "answer": "Austin",
           "alternates": [],
-          "explanation": "Capital since the Republic of Texas (1839); retained when Texas joined the Union (1845)\nNot the largest city (Houston is ~3 times larger); Austin is the 4th-largest city in Texas\nHome of the University of Texas; major tech hub since the 1990s and one of the fastest-growing U.S. cities"
+          "explanation": "Capital since the Republic of Texas (1839); retained when Texas joined the Union (1845)\nNot the largest city (Houston is ~3 times larger); Austin is the 4th-largest city in Texas\nHome of the University of Texas; major tech hub since the 1990s and one of the fastest-growing U.S. cities",
+          "links": [
+            {
+              "text": "Austin",
+              "url": "https://en.wikipedia.org/wiki/Austin"
+            }
+          ]
         },
         {
           "id": "utah",
@@ -337,49 +595,91 @@
           "alternates": [
             "Salt Lake City"
           ],
-          "explanation": "Capital since Utah Territory (1850); Utah achieved statehood in 1896\nFounded in 1847 by Brigham Young and Mormon (LDS) pioneers who arrived from Illinois and Iowa\nHeadquarters of the Church of Jesus Christ of Latter-day Saints; hosted the 2002 Winter Olympics"
+          "explanation": "Capital since Utah Territory (1850); Utah achieved statehood in 1896\nFounded in 1847 by Brigham Young and Mormon (LDS) pioneers who arrived from Illinois and Iowa\nHeadquarters of the Church of Jesus Christ of Latter-day Saints; hosted the 2002 Winter Olympics",
+          "links": [
+            {
+              "text": "Salt Lake City",
+              "url": "https://en.wikipedia.org/wiki/Salt_Lake_City"
+            }
+          ]
         },
         {
           "id": "vermont",
           "prompt": "Vermont",
           "answer": "Montpelier",
           "alternates": [],
-          "explanation": "Capital since Vermont achieved statehood in 1791 (first state added after the original 13)\nSmallest state capital in the United States by population (~8,000 people)\nSpelled 'Montpelier' (one 'l'), not 'Montpellier' like the French city; the only U.S. state capital without a McDonald's"
+          "explanation": "Capital since Vermont achieved statehood in 1791 (first state added after the original 13)\nSmallest state capital in the United States by population (~8,000 people)\nSpelled 'Montpelier' (one 'l'), not 'Montpellier' like the French city; the only U.S. state capital without a McDonald's",
+          "links": [
+            {
+              "text": "Montpelier",
+              "url": "https://en.wikipedia.org/wiki/Montpelier"
+            }
+          ]
         },
         {
           "id": "virginia",
           "prompt": "Virginia",
           "answer": "Richmond",
           "alternates": [],
-          "explanation": "Capital since 1780; moved from Williamsburg to be less vulnerable to British naval attack\nAlso served as capital of the Confederate States of America (1861–1865)\nFell to Union forces April 3, 1865 — six days before Lee's surrender at Appomattox\nNot the largest city (Virginia Beach is larger by population)"
+          "explanation": "Capital since 1780; moved from Williamsburg to be less vulnerable to British naval attack\nAlso served as capital of the Confederate States of America (1861–1865)\nFell to Union forces April 3, 1865 — six days before Lee's surrender at Appomattox\nNot the largest city (Virginia Beach is larger by population)",
+          "links": [
+            {
+              "text": "Richmond",
+              "url": "https://en.wikipedia.org/wiki/Richmond"
+            }
+          ]
         },
         {
           "id": "washington",
           "prompt": "Washington",
           "answer": "Olympia",
           "alternates": [],
-          "explanation": "Capital since Washington Territory (1853); retained when Washington achieved statehood in 1889\nNot the largest city (Seattle is ~18 times larger)\nNamed for the nearby Olympic Mountains; located at the southern tip of Puget Sound"
+          "explanation": "Capital since Washington Territory (1853); retained when Washington achieved statehood in 1889\nNot the largest city (Seattle is ~18 times larger)\nNamed for the nearby Olympic Mountains; located at the southern tip of Puget Sound",
+          "links": [
+            {
+              "text": "Olympia",
+              "url": "https://en.wikipedia.org/wiki/Olympia"
+            }
+          ]
         },
         {
           "id": "west-virginia",
           "prompt": "West Virginia",
           "answer": "Charleston",
           "alternates": [],
-          "explanation": "Capital since West Virginia separated from Virginia in 1863 during the Civil War; became a state June 20, 1863\nLargest city in West Virginia; not to be confused with Charleston, South Carolina\nWest Virginia was the only state created by seceding from a Confederate state — made possible because the western counties opposed secession"
+          "explanation": "Capital since West Virginia separated from Virginia in 1863 during the Civil War; became a state June 20, 1863\nLargest city in West Virginia; not to be confused with Charleston, South Carolina\nWest Virginia was the only state created by seceding from a Confederate state — made possible because the western counties opposed secession",
+          "links": [
+            {
+              "text": "Charleston",
+              "url": "https://en.wikipedia.org/wiki/Charleston"
+            }
+          ]
         },
         {
           "id": "wisconsin",
           "prompt": "Wisconsin",
           "answer": "Madison",
           "alternates": [],
-          "explanation": "Capital since Wisconsin achieved statehood in 1848; named after President James Madison\nNot the largest city (Milwaukee is larger)\nHome of the University of Wisconsin–Madison and the 'Wisconsin Idea' — that the university's mission is to serve the entire state"
+          "explanation": "Capital since Wisconsin achieved statehood in 1848; named after President James Madison\nNot the largest city (Milwaukee is larger)\nHome of the University of Wisconsin–Madison and the 'Wisconsin Idea' — that the university's mission is to serve the entire state",
+          "links": [
+            {
+              "text": "Madison",
+              "url": "https://en.wikipedia.org/wiki/Madison"
+            }
+          ]
         },
         {
           "id": "wyoming",
           "prompt": "Wyoming",
           "answer": "Cheyenne",
           "alternates": [],
-          "explanation": "Capital since Wyoming Territory (1869); Wyoming achieved statehood in 1890\nLargest city in Wyoming; founded in 1867 as a Union Pacific Railroad town\nWyoming was the first U.S. territory to grant women full voting rights (1869) — 50 years before the 19th Amendment"
+          "explanation": "Capital since Wyoming Territory (1869); Wyoming achieved statehood in 1890\nLargest city in Wyoming; founded in 1867 as a Union Pacific Railroad town\nWyoming was the first U.S. territory to grant women full voting rights (1869) — 50 years before the 19th Amendment",
+          "links": [
+            {
+              "text": "Cheyenne",
+              "url": "https://en.wikipedia.org/wiki/Cheyenne"
+            }
+          ]
         }
       ]
     }

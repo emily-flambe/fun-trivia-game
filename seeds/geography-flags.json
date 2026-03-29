@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "geography/flags", "parentId": "geography", "name": "World Flags", "description": "Distinctive national flag features and symbols" }
+    {
+      "id": "geography/flags",
+      "parentId": "geography",
+      "name": "World Flags",
+      "description": "Distinctive national flag features and symbols"
+    }
   ],
   "exercises": [
     {
@@ -17,7 +22,17 @@
           "alternates": [],
           "explanation": "Red field with a centered black double-headed eagle; one of the most distinctive European flags\nThe double-headed eagle derives from the 15th-century coat of arms of Gjergj Kastrioti (Skanderbeg), who led Albanian resistance against the Ottoman Empire\nAlbania declared independence from the Ottoman Empire in 1912 and has used this design since\nThe two heads of the eagle are interpreted as representing unity between the Gheg and Tosk cultural groups, or Albania's ties to both East and West\nOne of only a few national flags in the world to feature an eagle with two heads",
           "cardFront": "Black double-headed eagle on red",
-          "cardBack": "Albania"
+          "cardBack": "Albania",
+          "links": [
+            {
+              "text": "Albania",
+              "url": "https://en.wikipedia.org/wiki/Albania"
+            },
+            {
+              "text": "Black double-headed eagle on red",
+              "url": "https://en.wikipedia.org/wiki/Black_double-headed_eagle_on_red"
+            }
+          ]
         },
         {
           "id": "australia",
@@ -26,7 +41,17 @@
           "alternates": [],
           "explanation": "Blue ensign with the Union Jack in the upper hoist canton, the Commonwealth Star (7 points) below it, and the Southern Cross on the fly side\nThe Commonwealth Star originally had 6 points for the six federating colonies; a 7th point was added in 1908 for territories\nThe Southern Cross consists of five white stars (four seven-pointed, one smaller five-pointed) visible from the Southern Hemisphere\nFirst flew as the Commonwealth blue ensign on 3 September 1901, following federation\nNew Zealand's flag is similar but has only the Southern Cross (4 red stars with white borders) and no Commonwealth Star",
           "cardFront": "Union Jack + Southern Cross + Commonwealth Star",
-          "cardBack": "Australia"
+          "cardBack": "Australia",
+          "links": [
+            {
+              "text": "Australia",
+              "url": "https://en.wikipedia.org/wiki/Australia"
+            },
+            {
+              "text": "Union Jack + Southern Cross + Commonwealth Star",
+              "url": "https://en.wikipedia.org/wiki/Union_Jack_+_Southern_Cross_+_Commonwealth_Star"
+            }
+          ]
         },
         {
           "id": "bhutan",
@@ -35,7 +60,17 @@
           "alternates": [],
           "explanation": "Divided diagonally: upper triangle yellow, lower triangle orange, with a white Druk (Thunder Dragon) across the center\nThe Druk holds a norbu (jewel) in each claw, representing wealth and protection of the people\nBhutan's name in Dzongkha is Druk Yul, meaning 'Land of the Thunder Dragon'\nYellow symbolizes civil authority; orange represents Buddhist traditions\nOne of the most visually distinctive flags in Asia",
           "cardFront": "Dragon (Druk) on diagonal yellow-orange bicolor",
-          "cardBack": "Bhutan"
+          "cardBack": "Bhutan",
+          "links": [
+            {
+              "text": "Bhutan",
+              "url": "https://en.wikipedia.org/wiki/Bhutan"
+            },
+            {
+              "text": "Dragonon diagonal yellow-orange bicolor",
+              "url": "https://en.wikipedia.org/wiki/Dragonon_diagonal_yellow-orange_bicolor"
+            }
+          ]
         },
         {
           "id": "brazil",
@@ -44,7 +79,17 @@
           "alternates": [],
           "explanation": "Green field, yellow rhombus, blue disc with 27 white stars and a white band inscribed 'Ordem e Progresso' (Order and Progress)\nThe star positions on the globe represent the sky over Rio de Janeiro on 15 November 1889 — the day the republic was proclaimed\nEach star corresponds to a Brazilian federal unit; the flag must be updated when states are created or dissolved\nThe motto is derived from the positivist philosophy of Auguste Comte\nWith 27 stars, Brazil has the second-most stars on any national flag, behind the USA's 50",
           "cardFront": "Celestial globe with stars and 'Ordem e Progresso' motto",
-          "cardBack": "Brazil"
+          "cardBack": "Brazil",
+          "links": [
+            {
+              "text": "Brazil",
+              "url": "https://en.wikipedia.org/wiki/Brazil"
+            },
+            {
+              "text": "Celestial globe with stars and 'Ordem e Progresso' motto",
+              "url": "https://en.wikipedia.org/wiki/Celestial_globe_with_stars_and_'Ordem_e_Progresso'_motto"
+            }
+          ]
         },
         {
           "id": "cambodia",
@@ -53,7 +98,17 @@
           "alternates": [],
           "explanation": "Three horizontal bands of blue, red (wider), and blue, with a white silhouette of Angkor Wat in the center of the red band\nAngkor Wat, built in the 12th century under Khmer King Suryavarman II, is the world's largest religious monument\nThe flag has appeared in some form since the 19th century; the current design was re-adopted in 1993 after the UNTAC period\nSeveral other flags (Portugal, Spain, San Marino) show stylized buildings or fortifications, but none feature an identifiable real religious site as prominently\nAngkor Wat appears on Cambodian currency and is the country's most recognized symbol internationally",
           "cardFront": "Angkor Wat temple silhouette in center",
-          "cardBack": "Cambodia"
+          "cardBack": "Cambodia",
+          "links": [
+            {
+              "text": "Cambodia",
+              "url": "https://en.wikipedia.org/wiki/Cambodia"
+            },
+            {
+              "text": "Angkor Wat temple silhouette in center",
+              "url": "https://en.wikipedia.org/wiki/Angkor_Wat_temple_silhouette_in_center"
+            }
+          ]
         },
         {
           "id": "canada",
@@ -62,7 +117,17 @@
           "alternates": [],
           "explanation": "Vertical triband of red, white, red with an 11-pointed red maple leaf centered on the white field\nAdopted on 15 February 1965, replacing the Canadian Red Ensign (which incorporated the Union Jack)\nThe 11-pointed maple leaf is a stylized design chosen for visual clarity at a distance; real maple leaves have more points\nThe flag design was chosen after a national contest and Parliamentary debate; Prime Minister Lester B. Pearson championed the change\nFebruary 15 is celebrated as National Flag of Canada Day",
           "cardFront": "Single red maple leaf on white, flanked by red bands",
-          "cardBack": "Canada"
+          "cardBack": "Canada",
+          "links": [
+            {
+              "text": "Canada",
+              "url": "https://en.wikipedia.org/wiki/Canada"
+            },
+            {
+              "text": "Single red maple leaf on white, flanked by red bands",
+              "url": "https://en.wikipedia.org/wiki/Single_red_maple_leaf_on_white,_flanked_by_red_bands"
+            }
+          ]
         },
         {
           "id": "cyprus",
@@ -71,7 +136,17 @@
           "alternates": [],
           "explanation": "White field with a copper-orange silhouette of the island above two crossed olive branches\nOne of only two sovereign national flags to feature a map of the country itself — the other is Kosovo\nThe copper-orange color reflects Cyprus's large copper deposits; the ancient Greek name for copper, 'kypros,' is the island's namesake\nThe olive branches symbolize peace between Greek and Turkish Cypriots\nAdopted 16 August 1960 upon independence from Britain; designed by Turkish Cypriot artist İsmet Güney",
           "cardFront": "Map of the island in copper-orange on white",
-          "cardBack": "Cyprus"
+          "cardBack": "Cyprus",
+          "links": [
+            {
+              "text": "Cyprus",
+              "url": "https://en.wikipedia.org/wiki/Cyprus"
+            },
+            {
+              "text": "Map of the island in copper-orange on white",
+              "url": "https://en.wikipedia.org/wiki/Map_of_the_island_in_copper-orange_on_white"
+            }
+          ]
         },
         {
           "id": "jamaica",
@@ -80,7 +155,17 @@
           "alternates": [],
           "explanation": "Gold saltire (diagonal cross) dividing the flag into four sections: two green triangles (top and bottom) and two black triangles (hoist and fly)\nSince Mauritania redesigned its flag in 2017 (adding red stripes), Jamaica's flag is the only sovereign national flag with no red, white, or blue\nColors symbolize: black (strength and creativity of the people), gold (natural wealth and sunshine), green (lush vegetation and hope)\nAdopted 6 August 1962 upon independence from Britain\nThe current color symbolism was officially adopted in 1996, replacing an earlier interpretation that associated black with hardships",
           "cardFront": "No red, white, or blue — black, gold, and green saltire",
-          "cardBack": "Jamaica"
+          "cardBack": "Jamaica",
+          "links": [
+            {
+              "text": "Jamaica",
+              "url": "https://en.wikipedia.org/wiki/Jamaica"
+            },
+            {
+              "text": "No red, white, or blue — black, gold, and green saltire",
+              "url": "https://en.wikipedia.org/wiki/No_red,_white,_or_blue_—_black,_gold,_and_green_saltire"
+            }
+          ]
         },
         {
           "id": "japan",
@@ -89,7 +174,17 @@
           "alternates": [],
           "explanation": "White rectangular field with a red disc (Hinomaru, meaning 'ball/circle of the sun') centered on the flag\nOne of the simplest national flag designs; the red circle represents the sun, reflecting Japan's sobriquet 'Land of the Rising Sun'\nUse of the Hinomaru dates to at least the 12th century; the Minamoto clan used a white flag with a red circle in the Genpei War (1180–1185)\nOfficially adopted as the national flag in 1870 (Meiji era); legally designated by the Act on National Flag and Anthem in 1999\nSometimes confused with the war flag (Rising Sun flag), which has 16 red rays radiating from the disc",
           "cardFront": "Red circle (Hinomaru) on plain white field",
-          "cardBack": "Japan"
+          "cardBack": "Japan",
+          "links": [
+            {
+              "text": "Japan",
+              "url": "https://en.wikipedia.org/wiki/Japan"
+            },
+            {
+              "text": "Red circleon plain white field",
+              "url": "https://en.wikipedia.org/wiki/Red_circleon_plain_white_field"
+            }
+          ]
         },
         {
           "id": "lebanon",
@@ -98,7 +193,17 @@
           "alternates": [],
           "explanation": "Two red horizontal bands flanking a wider white band, with a green Cedar of Lebanon spanning both the white band and touching both red bands\nThe cedar tree has symbolized Lebanon since antiquity; Phoenician cedar was prized throughout the ancient Mediterranean world\nAdopted 7 December 1943 upon independence from France; the cedar's color was standardized to entirely green in 1990 (replacing an earlier version with a brown trunk)\nRed represents blood shed defending the country; white represents peace and the snow on Lebanon's mountains\nThe Cedar of Lebanon (Cedrus libani) appears on Lebanon's currency and other national symbols",
           "cardFront": "Green cedar tree on white center band",
-          "cardBack": "Lebanon"
+          "cardBack": "Lebanon",
+          "links": [
+            {
+              "text": "Lebanon",
+              "url": "https://en.wikipedia.org/wiki/Lebanon"
+            },
+            {
+              "text": "Green cedar tree on white center band",
+              "url": "https://en.wikipedia.org/wiki/Green_cedar_tree_on_white_center_band"
+            }
+          ]
         },
         {
           "id": "libya",
@@ -107,7 +212,17 @@
           "alternates": [],
           "explanation": "Three horizontal bands: red (top), black (center, twice the width of the others), green (bottom); white crescent and star centered on the black band\nReadopted by the National Transitional Council on 3 August 2011 following the fall of Muammar Gaddafi\nThis flag was originally used by the Kingdom of Libya from 1951 until Gaddafi's coup in 1969; Gaddafi replaced it with a plain green flag\nThe crescent and star are traditional symbols of Islam\nGaddafi's all-green flag (1977–2011) was the only solid-color national flag in the world",
           "cardFront": "Black-red-green tricolor with white crescent and star (readopted 2011)",
-          "cardBack": "Libya"
+          "cardBack": "Libya",
+          "links": [
+            {
+              "text": "Libya",
+              "url": "https://en.wikipedia.org/wiki/Libya"
+            },
+            {
+              "text": "Black-red-green tricolor with white crescent and star",
+              "url": "https://en.wikipedia.org/wiki/Black-red-green_tricolor_with_white_crescent_and_star"
+            }
+          ]
         },
         {
           "id": "mozambique",
@@ -116,7 +231,17 @@
           "alternates": [],
           "explanation": "Five horizontal stripes of green, white, black, white, and yellow, with a red triangle at the hoist bearing a yellow star, an open book, and a crossed AK-47 and hoe\nThe only national flag in the world to feature a modern firearm\nAdopted 1 May 1983; the design is based on the flag of FRELIMO, the liberation movement that has governed since independence in 1975\nThe AK-47 symbolizes defense and vigilance; the book represents education; the hoe represents agriculture\nSince democratization in 1990, there have been recurring calls to remove the gun from the flag",
           "cardFront": "AK-47 assault rifle (only national flag with a modern firearm)",
-          "cardBack": "Mozambique"
+          "cardBack": "Mozambique",
+          "links": [
+            {
+              "text": "Mozambique",
+              "url": "https://en.wikipedia.org/wiki/Mozambique"
+            },
+            {
+              "text": "AK-47 assault rifle",
+              "url": "https://en.wikipedia.org/wiki/AK-47_assault_rifle"
+            }
+          ]
         },
         {
           "id": "nepal",
@@ -125,7 +250,17 @@
           "alternates": [],
           "explanation": "A double pennon (two stacked pennants): the upper smaller triangle bears a white stylized moon; the lower larger triangle bears a white sun; the whole is bordered in blue\nThe only non-rectangular national flag of a sovereign state in the world\nThe current form was codified in the 1962 constitution with precise mathematical specifications for the shape\nThe two pennants were originally the personal flags of Nepal's king and prime minister, merged into one national flag\nRed is the color of the rhododendron, Nepal's national flower; blue represents peace",
           "cardFront": "Only non-rectangular national flag (double pennant shape)",
-          "cardBack": "Nepal"
+          "cardBack": "Nepal",
+          "links": [
+            {
+              "text": "Nepal",
+              "url": "https://en.wikipedia.org/wiki/Nepal"
+            },
+            {
+              "text": "Only non-rectangular national flag",
+              "url": "https://en.wikipedia.org/wiki/Only_non-rectangular_national_flag"
+            }
+          ]
         },
         {
           "id": "saudi-arabia",
@@ -134,7 +269,17 @@
           "alternates": [],
           "explanation": "Green field with the Shahada ('There is no deity but God; Muhammad is the Messenger of God') in white Thuluth script above a white horizontal sword\nAmong the very few national flags whose primary design element is a religious text; Iran's flag also features Quranic text along its stripes\nBecause the Shahada is considered holy, the flag is never flown at half-mast and is not used on clothing or other items\nThe sword is oriented with its point facing left on both sides, so the flag has two differently-rendered sides — one of the few national flags designed this way\nThe current design was legally standardized by the Law of the Flag on 15 March 1973",
           "cardFront": "Islamic Shahada text + sword on green field",
-          "cardBack": "Saudi Arabia"
+          "cardBack": "Saudi Arabia",
+          "links": [
+            {
+              "text": "Saudi Arabia",
+              "url": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+            },
+            {
+              "text": "Islamic Shahada text + sword on green field",
+              "url": "https://en.wikipedia.org/wiki/Islamic_Shahada_text_+_sword_on_green_field"
+            }
+          ]
         },
         {
           "id": "south-africa",
@@ -143,7 +288,17 @@
           "alternates": [],
           "explanation": "Six colors: green Y-pall running from the hoist to center, black triangle at the hoist (with gold border), red upper band (with white border), blue lower band (with white border)\nOne of the few national flags in the world with six colors in its primary design, without a seal or emblem\nDesigned by Frederick Brownell; adopted 27 April 1994, the date of South Africa's first post-apartheid election\nThe Y-pall heraldically symbolizes the convergence of diverse paths into a unified future\nThree colors (red, white, blue) derive from the old Dutch/South African Republic flag; three (black, green, gold) from the ANC flag",
           "cardFront": "Six-color flag with distinctive green Y-shape (pall)",
-          "cardBack": "South Africa"
+          "cardBack": "South Africa",
+          "links": [
+            {
+              "text": "South Africa",
+              "url": "https://en.wikipedia.org/wiki/South_Africa"
+            },
+            {
+              "text": "Six-color flag with distinctive green Y-shape",
+              "url": "https://en.wikipedia.org/wiki/Six-color_flag_with_distinctive_green_Y-shape"
+            }
+          ]
         },
         {
           "id": "switzerland",
@@ -152,34 +307,81 @@
           "alternates": [],
           "explanation": "Red square field with a white equilateral cross (arms one-sixth longer than their width); the cross does not extend to the edges\nOne of only two sovereign national flags that are square rather than rectangular — the other is Vatican City\nEvolves from Swiss military cantonal flags; the red and white cross appeared on the Swiss Federal Charter of 1291\nBecause the IOC requires rectangular flags, Switzerland uses a rectangular version at the Olympic Games\nThe Red Cross emblem (inverted colors: white field, red cross) was created in honor of Swiss humanitarian Henry Dunant, co-founder of the ICRC",
           "cardFront": "Square flag — white cross on red",
-          "cardBack": "Switzerland"
+          "cardBack": "Switzerland",
+          "links": [
+            {
+              "text": "Switzerland",
+              "url": "https://en.wikipedia.org/wiki/Switzerland"
+            },
+            {
+              "text": "Square flag — white cross on red",
+              "url": "https://en.wikipedia.org/wiki/Square_flag_—_white_cross_on_red"
+            }
+          ]
         },
         {
           "id": "trinidad-tobago",
           "prompt": "Which Caribbean country's flag features a black diagonal stripe with white borders running from the upper hoist to the lower fly on a red field?",
           "answer": "Trinidad and Tobago",
-          "alternates": ["Trinidad & Tobago", "Trinidad"],
+          "alternates": [
+            "Trinidad & Tobago",
+            "Trinidad"
+          ],
           "explanation": "Red field with a black diagonal band (from upper left to lower right) bordered by two narrow white stripes\nAdopted 31 August 1962 upon independence from Britain; designed by Carlisle Chang\nRed symbolizes the sun and people's courage; black represents dedication and the earth; white represents purity and equality (and the sea)\nThe diagonal band design is relatively unusual among Caribbean national flags\nThe flag's three colors were chosen to represent the natural elements of sun, earth, and sea",
           "cardFront": "Black diagonal stripe with white borders on red field",
-          "cardBack": "Trinidad and Tobago"
+          "cardBack": "Trinidad and Tobago",
+          "links": [
+            {
+              "text": "Trinidad and Tobago",
+              "url": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago"
+            },
+            {
+              "text": "Black diagonal stripe with white borders on red field",
+              "url": "https://en.wikipedia.org/wiki/Black_diagonal_stripe_with_white_borders_on_red_field"
+            }
+          ]
         },
         {
           "id": "usa",
           "prompt": "Which country's flag has the most stars of any national flag, with 50 representing its states?",
           "answer": "United States",
-          "alternates": ["USA", "US", "America", "United States of America"],
+          "alternates": [
+            "USA",
+            "US",
+            "America",
+            "United States of America"
+          ],
           "explanation": "13 horizontal stripes alternating red and white (for the 13 original colonies), with a blue canton bearing 50 white stars in 9 alternating rows\nWith 50 stars, the USA flag has the most stars of any national flag — more than twice as many as the second-place Brazil (27 stars)\nThe current 50-star design was adopted 4 July 1960, after Hawaii became the 50th state in 1959\nThe flag has been updated 27 times; the first official flag (1777) had 13 stars\nAlternate name 'Old Glory' was given by sea captain William Driver in 1831; 'Stars and Stripes' is the other common nickname",
           "cardFront": "50 stars — most on any national flag",
-          "cardBack": "United States"
+          "cardBack": "United States",
+          "links": [
+            {
+              "text": "United States",
+              "url": "https://en.wikipedia.org/wiki/United_States"
+            }
+          ]
         },
         {
           "id": "vatican",
           "prompt": "Which country's flag is square (like Switzerland's), with vertical gold and white halves and the papal coat of arms?",
           "answer": "Vatican City",
-          "alternates": ["Vatican", "Holy See"],
+          "alternates": [
+            "Vatican",
+            "Holy See"
+          ],
           "explanation": "Square flag vertically divided: gold (hoist) and white (fly), with the papal tiara and crossed keys of Saint Peter on the white half\nOne of only two sovereign national flags that are square rather than rectangular — the other is Switzerland\nAdopted 7 June 1929 following the Lateran Treaty, which established Vatican City as an independent state\nThe crossed keys (gold and silver) symbolize the keys to heaven entrusted to Saint Peter\nVatican City, at approximately 44 hectares (110 acres), is the smallest sovereign state in the world",
           "cardFront": "Square flag — gold and white halves with papal coat of arms",
-          "cardBack": "Vatican City"
+          "cardBack": "Vatican City",
+          "links": [
+            {
+              "text": "Vatican City",
+              "url": "https://en.wikipedia.org/wiki/Vatican_City"
+            },
+            {
+              "text": "Square flag — gold and white halves with papal coat of arms",
+              "url": "https://en.wikipedia.org/wiki/Square_flag_—_gold_and_white_halves_with_papal_coat_of_arms"
+            }
+          ]
         }
       ]
     }

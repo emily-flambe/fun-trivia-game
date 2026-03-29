@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "food-drink/spirits-and-cocktails", "parentId": "food-drink", "name": "Spirits & Cocktails", "description": "Distilled spirits, cocktail origins, and key ingredients" }
+    {
+      "id": "food-drink/spirits-and-cocktails",
+      "parentId": "food-drink",
+      "name": "Spirits & Cocktails",
+      "description": "Distilled spirits, cocktail origins, and key ingredients"
+    }
   ],
   "exercises": [
     {
@@ -17,25 +22,48 @@
           "alternates": [],
           "explanation": "Derived from genever (Dutch/Flemish for juniper), a medicinal liquor developed in the Netherlands in the 17th century\nBritish soldiers drank genever during the Thirty Years' War — giving rise to the phrase 'Dutch courage'\nGin Act of 1751 in Britain curtailed a social crisis of cheap gin consumption among the urban poor (the 'Gin Craze')\nLondon Dry gin: redistilled neutral spirit with botanicals including juniper, coriander, angelica root, citrus peel; 'dry' means no post-distillation sugar\nOther styles: Plymouth, Old Tom (sweeter), Sloe Gin (infused with sloe berries), contemporary craft gins\nThe Martini, Negroni, Tom Collins, Gimlet, and Singapore Sling are all gin-based classics\nGin is required by EU law to have a predominant juniper flavor",
           "cardFront": "Gin",
-          "cardBack": "Juniper berry spirit (Dutch genever origin)"
+          "cardBack": "Juniper berry spirit (Dutch genever origin)",
+          "links": [
+            {
+              "text": "Gin",
+              "url": "https://en.wikipedia.org/wiki/Gin"
+            }
+          ]
         },
         {
           "id": "bourbon",
           "prompt": "Which American whiskey, distilled primarily in Kentucky, must by law contain at least 51% corn in the mash and be aged in new charred oak barrels, giving it its characteristic vanilla and caramel notes?",
           "answer": "Bourbon",
-          "alternates": ["Bourbon whiskey"],
+          "alternates": [
+            "Bourbon whiskey"
+          ],
           "explanation": "Named after Bourbon County, Kentucky, though it can legally be made anywhere in the United States\nLegal requirements: ≥51% corn mash, distilled to no more than 160 proof, barreled at no more than 125 proof, no additives other than water, aged in new charred American oak barrels\nNew charred oak barrels are used only once for Bourbon; spent barrels are often sold to Scotch producers\nKentucky accounts for ~95% of the world's Bourbon supply; climate swings in the state accelerate oak interaction\nThe 'Bourbon Belt': Maker's Mark, Jim Beam, Wild Turkey, Four Roses, Buffalo Trace all based in Kentucky\nDefined as a 'distinctive product of the United States' by Congress in 1964\nStraight Bourbon must be aged at least 2 years; 'bottled in bond' means at least 4 years, from one distillery, one season",
           "cardFront": "Bourbon",
-          "cardBack": "American whiskey (Kentucky, ≥51% corn, new charred oak)"
+          "cardBack": "American whiskey (Kentucky, ≥51% corn, new charred oak)",
+          "links": [
+            {
+              "text": "Bourbon",
+              "url": "https://en.wikipedia.org/wiki/Bourbon"
+            }
+          ]
         },
         {
           "id": "scotch",
           "prompt": "Which whisky, produced in Scotland from malted barley (for single malt) or grain, aged at least 3 years in oak casks, and distinguished by regional styles from smoky Islay to floral Speyside?",
           "answer": "Scotch whisky",
-          "alternates": ["Scotch", "Scotch Whisky"],
+          "alternates": [
+            "Scotch",
+            "Scotch Whisky"
+          ],
           "explanation": "Must be produced in Scotland, aged at least 3 years in oak casks, and bottled at a minimum of 40% ABV\nFive protected regions: Highlands, Lowlands, Speyside (most distilleries), Islay (peaty, smoky), Campbeltown\nSingle malt: from a single distillery, 100% malted barley; blended Scotch (e.g., Johnnie Walker, Chivas) mixes malts and grain whiskies\nNote the spelling: Scotch is 'whisky' (no 'e'); American and Irish versions are 'whiskey'\nPeat smoke (from burning peat to dry malted barley) gives Islay whiskies (Laphroaig, Ardbeg, Lagavulin) their medicinal, smoky character\nSpeyside whiskies (Glenfiddich, Macallan, Glenlivet) tend to be lighter, fruitier, and less peated\nSingle malt Scotch exports exceed £5 billion annually; the US is the largest market by value",
           "cardFront": "Scotch whisky",
-          "cardBack": "Scotland (malted barley, 3-year minimum aging)"
+          "cardBack": "Scotland (malted barley, 3-year minimum aging)",
+          "links": [
+            {
+              "text": "Scotch whisky",
+              "url": "https://en.wikipedia.org/wiki/Scotch_whisky"
+            }
+          ]
         },
         {
           "id": "cognac",
@@ -44,7 +72,13 @@
           "alternates": [],
           "explanation": "AOC spirit from the Charente and Charente-Maritime departments of western France\nPrimary grape: Ugni Blanc (Trebbiano), chosen for its high acidity and low alcohol — ideal for distillation, not drinking fresh\nMust be double-distilled in traditional Charentais copper pot stills (alembic)\nAged in French Limousin or Tronçais oak barrels; the portion that evaporates annually is called 'the angel's share'\nAge grades: VS (Very Special, ≥2 years), VSOP (≥4 years), XO (≥10 years since 2018)\nSix sub-appellations: Grande Champagne and Petite Champagne (best soils) are most prized; Grande Champagne has the longest aging potential\nMajor houses: Hennessy, Rémy Martin, Martell, Courvoisier — the 'Big Four' control about 90% of global Cognac sales",
           "cardFront": "Cognac",
-          "cardBack": "France (Charente, double-distilled brandy, VS/VSOP/XO)"
+          "cardBack": "France (Charente, double-distilled brandy, VS/VSOP/XO)",
+          "links": [
+            {
+              "text": "Cognac",
+              "url": "https://en.wikipedia.org/wiki/Cognac"
+            }
+          ]
         },
         {
           "id": "tequila",
@@ -53,7 +87,13 @@
           "alternates": [],
           "explanation": "Named after the city of Tequila in Jalisco, Mexico; Denomination of Origin protection since 1974\nMade from blue Weber agave (Agave tequilana); the piña (heart of the plant) is harvested after 7–12 years of growth\nTypes by aging: Blanco/Plata (unaged), Reposado (2 months–1 year in oak), Añejo (1–3 years), Extra Añejo (3+ years)\n'100% agave' on the label means no added sugars; mixto tequila can use up to 49% non-agave sugars\nMezcal is a broader category; all tequila is mezcal, but not all mezcal is tequila — mezcal uses various agave species\nThe worm ('gusano') is associated with mezcal, not tequila; its presence is a marketing gimmick, not tradition\nTequila's major brands: Jose Cuervo (world's best-selling), Patrón, Don Julio, Herradura",
           "cardFront": "Tequila",
-          "cardBack": "Mexico (blue agave, Jalisco)"
+          "cardBack": "Mexico (blue agave, Jalisco)",
+          "links": [
+            {
+              "text": "Tequila",
+              "url": "https://en.wikipedia.org/wiki/Tequila"
+            }
+          ]
         },
         {
           "id": "rum",
@@ -62,7 +102,13 @@
           "alternates": [],
           "explanation": "First distilled in the Caribbean in the 17th century, most likely in Barbados, from molasses — a byproduct of sugar refining\nThe Triangle Trade: British ships carried rum to West Africa, enslaved people to the Caribbean, and sugar/molasses back to Britain\nLight rum (Puerto Rico, Cuba): column-distilled, neutral, used in Mojitos and Daiquiris; dark rum (Jamaica, Barbados): pot-distilled, heavier, more congeners\nRhum agricole (Martinique, Guadeloupe): distilled from fresh sugarcane juice rather than molasses — earthy, grassy, AOC-protected\nThe British Royal Navy issued daily rum rations to sailors from 1655 until 1970 ('Black Tot Day')\nSpiced rum adds cinnamon, vanilla, and other spices after distillation; popular example: Captain Morgan\nAged rum from Barbados (Mount Gay), Jamaica (Appleton), and Trinidad (Angostura) are considered benchmark producers",
           "cardFront": "Rum",
-          "cardBack": "Caribbean (sugarcane/molasses)"
+          "cardBack": "Caribbean (sugarcane/molasses)",
+          "links": [
+            {
+              "text": "Rum",
+              "url": "https://en.wikipedia.org/wiki/Rum"
+            }
+          ]
         },
         {
           "id": "vodka",
@@ -71,7 +117,13 @@
           "alternates": [],
           "explanation": "Name derives from Slavic 'voda' (water) — 'little water'; earliest records appear in Russia (9th century) and Poland (8th century documents cited by Polish side)\nRussia and Poland have both legally claimed the right to call vodka their national spirit; the EU recognized both in 1992\nCan be made from any fermentable material: grain (wheat, rye), potato, grapes, or sugarcane — base barely affects the final flavor\nMultiple distillations and carbon filtration create a neutral spirit; EU requires minimum 37.5% ABV, US requires 40%\nGrey Goose, Belvedere, Tito's, Smirnoff, and Absolut are major global brands\nVodka Belt countries (Russia, Poland, Belarus, Baltic states) account for the highest per-capita consumption\nBecame popular in the US in the 1950s after Smirnoff's 'It leaves you breathless' campaign",
           "cardFront": "Vodka",
-          "cardBack": "Russia / Poland (neutral spirit, disputed origin)"
+          "cardBack": "Russia / Poland (neutral spirit, disputed origin)",
+          "links": [
+            {
+              "text": "Vodka",
+              "url": "https://en.wikipedia.org/wiki/Vodka"
+            }
+          ]
         },
         {
           "id": "martini",
@@ -80,7 +132,13 @@
           "alternates": [],
           "explanation": "Combines gin and dry vermouth; proportions have shifted over time from near-equal parts to very gin-heavy ('dry' Martini)\nThe garnish signals intent: olive = savory, lemon twist = citrus-bright; a dirty Martini includes olive brine\nJames Bond's preference ('shaken not stirred') appears in Ian Fleming's novels from 1953 onward; shaking actually bruises and dilutes gin faster than stirring\nThe Vesper Martini (Casino Royale, 1953): gin + vodka + Kina Lillet; Bond's personal recipe\nPrecursor: the Martinez cocktail (1880s San Francisco or New York), made with sweet vermouth and Old Tom gin\nFDR's Martini: reportedly 2:1 gin-to-vermouth with a dash of olive brine — shaken, of course\nThe 'Martini glass' (conical coupe) is widely associated with the cocktail though many bartenders now prefer a coupe or rocks glass",
           "cardFront": "Martini",
-          "cardBack": "Gin + dry vermouth (Bond: 'shaken not stirred')"
+          "cardBack": "Gin + dry vermouth (Bond: 'shaken not stirred')",
+          "links": [
+            {
+              "text": "Martini",
+              "url": "https://en.wikipedia.org/wiki/Martini"
+            }
+          ]
         },
         {
           "id": "manhattan",
@@ -89,7 +147,13 @@
           "alternates": [],
           "explanation": "Combines rye or bourbon with sweet (Italian-style) vermouth and Angostura bitters; stirred, strained into a coupe, garnished with a Luxardo maraschino cherry\nFirst documented in print in 1882 in a newspaper in Olean, New York: 'whiskey, vermouth, and bitters'\nThe popular origin story — created at the Manhattan Club in 1874 for a banquet hosted by Lady Randolph Churchill — has been largely debunked (Churchill was in England at the time)\nRye whiskey is the traditional base; Bourbon Manhattans are sweeter and more modern\nA 'Perfect Manhattan' uses half sweet vermouth, half dry vermouth\nThe Rob Roy is a Scotch whisky Manhattan; the Toronto substitutes Fernet-Branca for bitters\nThe Manhattan is considered the first true 'modern' cocktail — it established the template of spirit + vermouth + bitters",
           "cardFront": "Manhattan",
-          "cardBack": "Whiskey + sweet vermouth + bitters (NYC, 1870s)"
+          "cardBack": "Whiskey + sweet vermouth + bitters (NYC, 1870s)",
+          "links": [
+            {
+              "text": "Manhattan",
+              "url": "https://en.wikipedia.org/wiki/Manhattan"
+            }
+          ]
         },
         {
           "id": "old-fashioned",
@@ -98,7 +162,13 @@
           "alternates": [],
           "explanation": "The 'original' cocktail format: spirit + sugar + bitters + water; definition published in 1806 in The Balance and Columbian Repository\nThe name 'Old Fashioned' emerged when drinkers in the 1880s–1890s asked for cocktails 'the old-fashioned way' before muddled fruit and soda water became popular additions\nTraditional preparation: sugar cube muddled with Angostura bitters and a splash of water, then spirit poured over ice\nBourbon is the modern standard; Rye is more traditional; Wisconsin-style adds muddled fruit (orange, cherry) — controversial among purists\nPopularized by Don Draper's on-screen preference in Mad Men (2007–2015), causing a surge in craft cocktail interest\nThe Sazerac (rye + Peychaud's bitters + absinthe rinse) from New Orleans is a close cousin and may be older\nPros debate whether to muddle the fruit or use only the peel as garnish",
           "cardFront": "Old Fashioned",
-          "cardBack": "Spirit + sugar + bitters + water (oldest cocktail format)"
+          "cardBack": "Spirit + sugar + bitters + water (oldest cocktail format)",
+          "links": [
+            {
+              "text": "Old Fashioned",
+              "url": "https://en.wikipedia.org/wiki/Old_Fashioned"
+            }
+          ]
         },
         {
           "id": "negroni",
@@ -107,7 +177,13 @@
           "alternates": [],
           "explanation": "Equal parts gin, Campari, and sweet vermouth; stirred, served over ice, garnished with an orange peel\nMost widely accepted origin: Caffè Casoni (now Caffè Giacosa), Florence, Italy, around 1919 — Count Camillo Negroni asked bartender Fosco Scarselli to replace the soda water in his Americano with gin\nThe Americano (Campari + sweet vermouth + soda) is the Negroni's predecessor; the Sbagliato replaces gin with Prosecco\nCampari's distinctive red color originally came from carmine (cochineal insects); the formula changed in 2006\nNegroni Sbagliato ('mistaken Negroni') went viral in 2022 after actress Emma D'Arcy (House of the Dragon) named it their drink of choice in an HBO interview\nThe Boulevardier substitutes Bourbon for gin — essentially a Whiskey Negroni\nNegroni Week (annual charity event started by Imbibe magazine in 2013) raises millions for charitable causes",
           "cardFront": "Negroni",
-          "cardBack": "Gin + Campari + sweet vermouth (Florence, 1919)"
+          "cardBack": "Gin + Campari + sweet vermouth (Florence, 1919)",
+          "links": [
+            {
+              "text": "Negroni",
+              "url": "https://en.wikipedia.org/wiki/Negroni"
+            }
+          ]
         },
         {
           "id": "mojito",
@@ -116,7 +192,13 @@
           "alternates": [],
           "explanation": "Cuban origin; name may derive from 'mojito' (a diminutive of mojo, meaning 'little spell' or from African word 'mojo' used for magic)\nCore ingredients: white rum, fresh lime juice, cane sugar (or simple syrup), fresh mint leaves, and sparkling soda water\nHemingway reportedly frequented La Bodeguita del Medio in Havana — legend says he inscribed 'My mojito in La Bodeguita' on the wall, though historians dispute this\nThe mojito predates Hemingway: a 16th-century predecessor called El Draque used aguardiente, lime, sugar, and mint\nMuddling the mint: pressing lightly releases essential oils; over-muddling produces a bitter, broken-leaf drink\nCuba Libre (rum + cola + lime) is a simpler Cuban rum drink; the Daiquiri (rum + lime + sugar) is its shaken counterpart\nThe Mojito is among the five most popular cocktails globally by bar orders",
           "cardFront": "Mojito",
-          "cardBack": "Cuba (rum + lime + mint + soda)"
+          "cardBack": "Cuba (rum + lime + mint + soda)",
+          "links": [
+            {
+              "text": "Mojito",
+              "url": "https://en.wikipedia.org/wiki/Mojito"
+            }
+          ]
         },
         {
           "id": "margarita",
@@ -125,7 +207,13 @@
           "alternates": [],
           "explanation": "Consists of tequila, fresh lime juice, and triple sec (Cointreau or Combier); shaken or blended, served in a glass with a salted rim\nThe salted rim balances the sweetness of the orange liqueur and the tartness of lime\nDisputed origin: multiple bartenders in Mexico and Texas in the 1930s–1940s each claim to have invented it; no single account is verified\nThe blended (frozen) Margarita machine was invented by Dallas restaurateur Mariano Martinez in 1971\nMost popular cocktail in the United States by volume; May 5 (Cinco de Mayo) is the highest Margarita sales day\nSkinny Margarita omits triple sec in favor of agave nectar; Tommy's Margarita replaces triple sec with agave and no salt\nThe Cadillac Margarita uses Grand Marnier (a premium Cognac-based orange liqueur) instead of standard triple sec",
           "cardFront": "Margarita",
-          "cardBack": "Tequila + lime + triple sec (most popular US cocktail)"
+          "cardBack": "Tequila + lime + triple sec (most popular US cocktail)",
+          "links": [
+            {
+              "text": "Margarita",
+              "url": "https://en.wikipedia.org/wiki/Margarita"
+            }
+          ]
         },
         {
           "id": "whiskey-sour",
@@ -134,7 +222,13 @@
           "alternates": [],
           "explanation": "One of the oldest documented cocktail categories; 'sour' format (spirit + citrus + sweetener) appears in Jerry Thomas's 1862 bartending guide\nStandard recipe: 2 oz whiskey (Bourbon or Rye), 3/4 oz fresh lemon juice, 3/4 oz simple syrup; shaken and strained\nBoston Sour adds one egg white before shaking ('dry shake' first, then shake with ice) — creates silky foam layer\nServed on the rocks or straight up in a coupe; garnished with an orange slice and Luxardo cherry\nRye whiskey was the original base; Bourbon Whiskey Sours are more common today\nThe sour template applies across spirits: Amaretto Sour, Pisco Sour (Peru's national cocktail), New York Sour adds a red wine float\nPisco Sour (pisco + lime + egg white + Angostura) is Peru's official national cocktail with protected IP",
           "cardFront": "Whiskey Sour",
-          "cardBack": "Whiskey + lemon + sugar (egg white = Boston Sour)"
+          "cardBack": "Whiskey + lemon + sugar (egg white = Boston Sour)",
+          "links": [
+            {
+              "text": "Whiskey Sour",
+              "url": "https://en.wikipedia.org/wiki/Whiskey_Sour"
+            }
+          ]
         },
         {
           "id": "absinthe",
@@ -143,7 +237,13 @@
           "alternates": [],
           "explanation": "Distilled from green anise, fennel, and wormwood; typically 45–74% ABV — one of the strongest commercially produced spirits\nThe 'louche' effect: pouring cold water over absinthe turns it milky white as anethole comes out of solution\nTraditionally prepared with a slotted spoon and sugar cube over which water is dripped — the absinthe ritual\nUS ban: 1912 (via the Food and Drugs Act); France and much of Europe followed in 1915; moral panic over thujone (compound in wormwood) allegedly causing hallucinations was scientifically exaggerated\nRe-legalized in the US in 2007 by TTB ruling: allowed if thujone content is below 10 ppm\nFavored by 19th-century artists and writers: Toulouse-Lautrec, Edgar Degas, Édouard Manet, Arthur Rimbaud, Oscar Wilde, Ernest Hemingway\nModern absinthe contains levels of thujone well below those needed for any psychoactive effect beyond alcohol",
           "cardFront": "Absinthe",
-          "cardBack": "Green Fairy (wormwood, banned 1912, legal again 2007)"
+          "cardBack": "Green Fairy (wormwood, banned 1912, legal again 2007)",
+          "links": [
+            {
+              "text": "Absinthe",
+              "url": "https://en.wikipedia.org/wiki/Absinthe"
+            }
+          ]
         }
       ]
     }

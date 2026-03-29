@@ -1,6 +1,11 @@
 {
   "nodes": [
-    { "id": "film/adaptations", "parentId": "film", "name": "Book Adaptations", "description": "Famous films based on novels and other literary works" }
+    {
+      "id": "film/adaptations",
+      "parentId": "film",
+      "name": "Book Adaptations",
+      "description": "Famous films based on novels and other literary works"
+    }
   ],
   "exercises": [
     {
@@ -14,10 +19,23 @@
           "id": "shawshank-redemption",
           "prompt": "Which 1994 prison drama, directed by Frank Darabont and starring Tim Robbins and Morgan Freeman, was adapted from a Stephen King novella in the *Different Seasons* collection?",
           "answer": "The Shawshank Redemption",
-          "alternates": ["Shawshank Redemption", "Shawshank"],
+          "alternates": [
+            "Shawshank Redemption",
+            "Shawshank"
+          ],
           "explanation": "King's novella appeared in the collection *Different Seasons* alongside the source material for *Stand by Me* and *Apt Pupil*\nDarabont paid King $5,000 for the film rights; King never cashed the check and later framed it\nEarned only $16 million in its initial domestic run but became a massive hit through video rentals and cable TV (total gross reached $73 million with re-releases)\nConsistently ranked #1 on IMDb's user-rated top 250 films\nStars Tim Robbins as Andy Dufresne and Morgan Freeman as Red; nominated for seven Oscars but won none",
-          "cardFront": "Stephen King \u2014 *Rita Hayworth and Shawshank Redemption*",
-          "cardBack": "The Shawshank Redemption"
+          "cardFront": "Stephen King — *Rita Hayworth and Shawshank Redemption*",
+          "cardBack": "The Shawshank Redemption",
+          "links": [
+            {
+              "text": "The Shawshank Redemption",
+              "url": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"
+            },
+            {
+              "text": "Stephen King — *Rita Hayworth and Shawshank Redemption*",
+              "url": "https://en.wikipedia.org/wiki/Stephen_King_—_*Rita_Hayworth_and_Shawshank_Redemption*"
+            }
+          ]
         },
         {
           "id": "jaws",
@@ -25,125 +43,292 @@
           "answer": "Jaws",
           "alternates": [],
           "explanation": "Benchley co-wrote the screenplay; the novel spent 44 weeks on the New York Times bestseller list before the film's release\nSpielberg was 27 when he directed it; mechanical shark problems forced him to suggest the shark through music and camera angles rather than show it\nJohn Williams's two-note shark theme is one of the most recognizable pieces of film music ever\nGrossed $470 million worldwide and is widely credited with inventing the summer blockbuster release strategy\nBenchley later became a shark conservationist and regretted the novel's contribution to anti-shark sentiment",
-          "cardFront": "Peter Benchley \u2014 *Jaws* (1974 novel)",
-          "cardBack": "Jaws"
+          "cardFront": "Peter Benchley — *Jaws* (1974 novel)",
+          "cardBack": "Jaws",
+          "links": [
+            {
+              "text": "Jaws",
+              "url": "https://en.wikipedia.org/wiki/Jaws"
+            },
+            {
+              "text": "Peter Benchley — *Jaws*",
+              "url": "https://en.wikipedia.org/wiki/Peter_Benchley_—_*Jaws*"
+            }
+          ]
         },
         {
           "id": "lord-of-the-rings",
-          "prompt": "J.R.R. Tolkien's fantasy epic about hobbits, a magic ring, and the battle for Middle-earth was adapted into which Peter Jackson film trilogy (2001\u20132003)?",
+          "prompt": "J.R.R. Tolkien's fantasy epic about hobbits, a magic ring, and the battle for Middle-earth was adapted into which Peter Jackson film trilogy (2001–2003)?",
           "answer": "The Lord of the Rings",
-          "alternates": ["Lord of the Rings", "LOTR", "The Lord of the Rings trilogy"],
-          "explanation": "Tolkien published the three volumes in 1954\u20131955: *The Fellowship of the Ring*, *The Two Towers*, *The Return of the King*\nPeter Jackson filmed all three movies simultaneously in New Zealand over 438 consecutive days of principal photography\n*The Return of the King* (2003) won all 11 Oscars it was nominated for \u2014 the only film to go 11-for-11, tying the record for most wins in a single year\nThe trilogy grossed $2.99 billion worldwide; New Zealand's tourism industry boomed as a result\nTolkien sold the film rights in 1969 for just \u00a3104,000, skeptical that his work could ever be faithfully adapted",
-          "cardFront": "J.R.R. Tolkien \u2014 *The Lord of the Rings* (1954\u20131955)",
-          "cardBack": "The Lord of the Rings"
+          "alternates": [
+            "Lord of the Rings",
+            "LOTR",
+            "The Lord of the Rings trilogy"
+          ],
+          "explanation": "Tolkien published the three volumes in 1954–1955: *The Fellowship of the Ring*, *The Two Towers*, *The Return of the King*\nPeter Jackson filmed all three movies simultaneously in New Zealand over 438 consecutive days of principal photography\n*The Return of the King* (2003) won all 11 Oscars it was nominated for — the only film to go 11-for-11, tying the record for most wins in a single year\nThe trilogy grossed $2.99 billion worldwide; New Zealand's tourism industry boomed as a result\nTolkien sold the film rights in 1969 for just £104,000, skeptical that his work could ever be faithfully adapted",
+          "cardFront": "J.R.R. Tolkien — *The Lord of the Rings* (1954–1955)",
+          "cardBack": "The Lord of the Rings",
+          "links": [
+            {
+              "text": "The Lord of the Rings",
+              "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+            },
+            {
+              "text": "J.R.R. Tolkien — *The Lord of the Rings*",
+              "url": "https://en.wikipedia.org/wiki/J.R.R._Tolkien_—_*The_Lord_of_the_Rings*"
+            }
+          ]
         },
         {
           "id": "jurassic-park",
           "prompt": "Michael Crichton's 1990 techno-thriller about a theme park where cloned dinosaurs escape containment was adapted into which 1993 Steven Spielberg blockbuster?",
           "answer": "Jurassic Park",
           "alternates": [],
-          "explanation": "Crichton both wrote the novel and co-wrote the screenplay with David Koepp\nSpielberg acquired the film rights before the novel was even published, beating competing bids from other studios\nRevolutionized visual effects by combining CGI from Industrial Light & Magic with Stan Winston's full-scale animatronic dinosaurs\nGrossed $914 million worldwide in its original run, the highest-grossing film of all time for four years until *Titanic* (1997)\nThe film's DNA-from-amber premise is scientifically implausible \u2014 DNA degrades completely within about 7 million years",
-          "cardFront": "Michael Crichton \u2014 *Jurassic Park* (1990 novel)",
-          "cardBack": "Jurassic Park"
+          "explanation": "Crichton both wrote the novel and co-wrote the screenplay with David Koepp\nSpielberg acquired the film rights before the novel was even published, beating competing bids from other studios\nRevolutionized visual effects by combining CGI from Industrial Light & Magic with Stan Winston's full-scale animatronic dinosaurs\nGrossed $914 million worldwide in its original run, the highest-grossing film of all time for four years until *Titanic* (1997)\nThe film's DNA-from-amber premise is scientifically implausible — DNA degrades completely within about 7 million years",
+          "cardFront": "Michael Crichton — *Jurassic Park* (1990 novel)",
+          "cardBack": "Jurassic Park",
+          "links": [
+            {
+              "text": "Jurassic Park",
+              "url": "https://en.wikipedia.org/wiki/Jurassic_Park"
+            },
+            {
+              "text": "Michael Crichton — *Jurassic Park*",
+              "url": "https://en.wikipedia.org/wiki/Michael_Crichton_—_*Jurassic_Park*"
+            }
+          ]
         },
         {
           "id": "the-godfather",
           "prompt": "Mario Puzo's 1969 novel about the Corleone crime family was adapted into which 1972 Francis Ford Coppola film, widely regarded as one of the greatest ever made?",
           "answer": "The Godfather",
-          "alternates": ["Godfather"],
-          "explanation": "Puzo's novel spent 67 weeks on the New York Times bestseller list; he co-wrote the screenplay with Coppola\nParamount initially wanted a cheaper, contemporary-set film; Coppola fought for the period setting, long runtime, and Brando's casting\nBrando refused his Best Actor Oscar; sent Sacheen Littlefeather to the podium in protest\n\"I'm gonna make him an offer he can't refuse\" \u2014 AFI's #2 greatest movie quote\n*The Godfather Part II* (1974) also won Best Picture, making the Corleone saga unique in having two Best Picture winners",
-          "cardFront": "Mario Puzo \u2014 *The Godfather* (1969 novel)",
-          "cardBack": "The Godfather"
+          "alternates": [
+            "Godfather"
+          ],
+          "explanation": "Puzo's novel spent 67 weeks on the New York Times bestseller list; he co-wrote the screenplay with Coppola\nParamount initially wanted a cheaper, contemporary-set film; Coppola fought for the period setting, long runtime, and Brando's casting\nBrando refused his Best Actor Oscar; sent Sacheen Littlefeather to the podium in protest\n\"I'm gonna make him an offer he can't refuse\" — AFI's #2 greatest movie quote\n*The Godfather Part II* (1974) also won Best Picture, making the Corleone saga unique in having two Best Picture winners",
+          "cardFront": "Mario Puzo — *The Godfather* (1969 novel)",
+          "cardBack": "The Godfather",
+          "links": [
+            {
+              "text": "The Godfather",
+              "url": "https://en.wikipedia.org/wiki/The_Godfather"
+            },
+            {
+              "text": "Mario Puzo — *The Godfather*",
+              "url": "https://en.wikipedia.org/wiki/Mario_Puzo_—_*The_Godfather*"
+            }
+          ]
         },
         {
           "id": "one-flew-over-the-cuckoos-nest",
           "prompt": "Ken Kesey's 1962 novel about a rebellious patient who challenges the authoritarian Nurse Ratched in a psychiatric hospital was adapted into which 1975 Milos Forman film?",
           "answer": "One Flew Over the Cuckoo's Nest",
-          "alternates": ["One Flew Over the Cuckoos Nest", "Cuckoo's Nest"],
+          "alternates": [
+            "One Flew Over the Cuckoos Nest",
+            "Cuckoo's Nest"
+          ],
           "explanation": "Kesey wrote the novel partly based on his experiences working as a night aide at a VA hospital and his participation in CIA-funded LSD experiments (Project MKUltra)\nThe novel is narrated by Chief Bromden; the film shifts focus to McMurphy (Jack Nicholson)\nSecond film to sweep the Big Five Oscars: Picture, Director, Actor, Actress, Screenplay\nKirk Douglas originated the McMurphy role on Broadway in 1963; his son Michael Douglas produced the film\nFilmed at Oregon State Hospital, using real patients as extras; Kesey refused to see the finished film, objecting to changes from his novel",
-          "cardFront": "Ken Kesey \u2014 *One Flew Over the Cuckoo's Nest* (1962 novel)",
-          "cardBack": "One Flew Over the Cuckoo's Nest"
+          "cardFront": "Ken Kesey — *One Flew Over the Cuckoo's Nest* (1962 novel)",
+          "cardBack": "One Flew Over the Cuckoo's Nest",
+          "links": [
+            {
+              "text": "One Flew Over the Cuckoo's Nest",
+              "url": "https://en.wikipedia.org/wiki/One_Flew_Over_the_Cuckoo's_Nest"
+            },
+            {
+              "text": "Ken Kesey — *One Flew Over the Cuckoo's Nest*",
+              "url": "https://en.wikipedia.org/wiki/Ken_Kesey_—_*One_Flew_Over_the_Cuckoo's_Nest*"
+            }
+          ]
         },
         {
           "id": "a-clockwork-orange",
           "prompt": "Anthony Burgess's 1962 dystopian novel about ultraviolent teenager Alex and his forced rehabilitation through aversion therapy was adapted into which 1971 Stanley Kubrick film?",
           "answer": "A Clockwork Orange",
-          "alternates": ["Clockwork Orange"],
+          "alternates": [
+            "Clockwork Orange"
+          ],
           "explanation": "Burgess invented the Nadsat slang used by Alex and his droogs, blending Russian, Cockney rhyming slang, and baby talk\nKubrick withdrew the film from distribution in the UK in 1973 after it was blamed for copycat violence and the family received threats; it was not legally shown there until after his death in 1999\nMalcolm McDowell starred as Alex; the \"Singin' in the Rain\" scene was improvised by McDowell\nRated X on original U.S. release; Kubrick made trims for an R rating in 1973\nBurgess later regretted writing the novel, feeling it overshadowed his other 30+ works of fiction",
-          "cardFront": "Anthony Burgess \u2014 *A Clockwork Orange* (1962 novel)",
-          "cardBack": "A Clockwork Orange"
+          "cardFront": "Anthony Burgess — *A Clockwork Orange* (1962 novel)",
+          "cardBack": "A Clockwork Orange",
+          "links": [
+            {
+              "text": "A Clockwork Orange",
+              "url": "https://en.wikipedia.org/wiki/A_Clockwork_Orange"
+            },
+            {
+              "text": "Anthony Burgess — *A Clockwork Orange*",
+              "url": "https://en.wikipedia.org/wiki/Anthony_Burgess_—_*A_Clockwork_Orange*"
+            }
+          ]
         },
         {
           "id": "the-shining",
           "prompt": "Stephen King's 1977 horror novel about a writer who goes mad while caretaking a remote mountain hotel was adapted into which 1980 Stanley Kubrick film starring Jack Nicholson?",
           "answer": "The Shining",
-          "alternates": ["Shining"],
+          "alternates": [
+            "Shining"
+          ],
           "explanation": "King has famously expressed dissatisfaction with Kubrick's adaptation, saying Kubrick couldn't understand the horror genre\nKubrick insisted on 60+ takes for many scenes; Shelley Duvall's distress during filming was largely genuine\nNicholson improvised \"Here's Johnny!\" while axing through the door, referencing Ed McMahon's *Tonight Show* introduction\nThe Overlook Hotel was inspired by the Stanley Hotel in Estes Park, Colorado, where King stayed in 1974\nKing later produced a more faithful TV miniseries adaptation in 1997; a sequel film, *Doctor Sleep* (2019), reconciled King's and Kubrick's versions",
-          "cardFront": "Stephen King \u2014 *The Shining* (1977 novel)",
-          "cardBack": "The Shining"
+          "cardFront": "Stephen King — *The Shining* (1977 novel)",
+          "cardBack": "The Shining",
+          "links": [
+            {
+              "text": "The Shining",
+              "url": "https://en.wikipedia.org/wiki/The_Shining"
+            },
+            {
+              "text": "Stephen King — *The Shining*",
+              "url": "https://en.wikipedia.org/wiki/Stephen_King_—_*The_Shining*"
+            }
+          ]
         },
         {
           "id": "psycho",
           "prompt": "Robert Bloch's 1959 novel, inspired by real-life serial killer Ed Gein, was adapted into which 1960 Alfred Hitchcock thriller featuring the Bates Motel?",
           "answer": "Psycho",
           "alternates": [],
-          "explanation": "Bloch's novel was inspired by Ed Gein, a Wisconsin killer who kept his mother's room preserved; Norman Bates mirrors this behavior\nHitchcock bought the film rights anonymously for $9,500 and bought up as many copies of the novel as he could to keep the twist secret\nThe shower scene used 78 camera setups and 52 cuts in 45 seconds; the \"blood\" was chocolate syrup (the film is in black and white)\nAnthony Perkins as Norman Bates set the template for the modern serial-killer character\nHitchcock demanded theaters not admit patrons after the film had started \u2014 a revolutionary policy that changed cinema exhibition forever",
-          "cardFront": "Robert Bloch \u2014 *Psycho* (1959 novel)",
-          "cardBack": "Psycho"
+          "explanation": "Bloch's novel was inspired by Ed Gein, a Wisconsin killer who kept his mother's room preserved; Norman Bates mirrors this behavior\nHitchcock bought the film rights anonymously for $9,500 and bought up as many copies of the novel as he could to keep the twist secret\nThe shower scene used 78 camera setups and 52 cuts in 45 seconds; the \"blood\" was chocolate syrup (the film is in black and white)\nAnthony Perkins as Norman Bates set the template for the modern serial-killer character\nHitchcock demanded theaters not admit patrons after the film had started — a revolutionary policy that changed cinema exhibition forever",
+          "cardFront": "Robert Bloch — *Psycho* (1959 novel)",
+          "cardBack": "Psycho",
+          "links": [
+            {
+              "text": "Psycho",
+              "url": "https://en.wikipedia.org/wiki/Psycho"
+            },
+            {
+              "text": "Robert Bloch — *Psycho*",
+              "url": "https://en.wikipedia.org/wiki/Robert_Bloch_—_*Psycho*"
+            }
+          ]
         },
         {
           "id": "to-kill-a-mockingbird",
           "prompt": "Harper Lee's 1960 Pulitzer-winning novel about racial injustice in Depression-era Alabama was adapted into which 1962 film starring Gregory Peck as Atticus Finch?",
           "answer": "To Kill a Mockingbird",
-          "alternates": ["To Kill a Mocking Bird"],
+          "alternates": [
+            "To Kill a Mocking Bird"
+          ],
           "explanation": "Peck won the Best Actor Oscar; AFI later named Atticus Finch the #1 greatest hero in American film history\nHarper Lee's only published novel for 55 years until *Go Set a Watchman* (2015), a draft she wrote before *Mockingbird*\nFilmed in Hollywood but set in the fictional town of Maycomb, Alabama, based on Lee's hometown of Monroeville\nPeck and Lee became lifelong friends; she gave him her father's pocket watch, which he wore at the ceremony\nThe film earned three Oscars: Best Actor, Best Adapted Screenplay (Horton Foote), and Best Art Direction",
-          "cardFront": "Harper Lee \u2014 *To Kill a Mockingbird* (1960 novel)",
-          "cardBack": "To Kill a Mockingbird"
+          "cardFront": "Harper Lee — *To Kill a Mockingbird* (1960 novel)",
+          "cardBack": "To Kill a Mockingbird",
+          "links": [
+            {
+              "text": "To Kill a Mockingbird",
+              "url": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
+            },
+            {
+              "text": "Harper Lee — *To Kill a Mockingbird*",
+              "url": "https://en.wikipedia.org/wiki/Harper_Lee_—_*To_Kill_a_Mockingbird*"
+            }
+          ]
         },
         {
           "id": "gone-with-the-wind",
           "prompt": "Margaret Mitchell's 1936 Pulitzer-winning novel about Scarlett O'Hara and the Civil War South was adapted into which 1939 film that won eight competitive Oscars?",
           "answer": "Gone with the Wind",
-          "alternates": ["Gone With the Wind", "GWTW"],
+          "alternates": [
+            "Gone With the Wind",
+            "GWTW"
+          ],
           "explanation": "Mitchell's only published novel; she won the Pulitzer Prize in 1937\nThe casting search for Scarlett O'Hara lasted two years and auditioned 1,400 women before Vivien Leigh was chosen\nDirected by Victor Fleming (who was simultaneously directing *The Wizard of Oz*); produced by David O. Selznick\nHattie McDaniel became the first African American to win an Oscar (Best Supporting Actress) but was segregated at the ceremony\nAdjusted for inflation, remains the highest-grossing film of all time at approximately $3.7 billion in today's dollars",
-          "cardFront": "Margaret Mitchell \u2014 *Gone with the Wind* (1936 novel)",
-          "cardBack": "Gone with the Wind"
+          "cardFront": "Margaret Mitchell — *Gone with the Wind* (1936 novel)",
+          "cardBack": "Gone with the Wind",
+          "links": [
+            {
+              "text": "Gone with the Wind",
+              "url": "https://en.wikipedia.org/wiki/Gone_with_the_Wind"
+            },
+            {
+              "text": "Margaret Mitchell — *Gone with the Wind*",
+              "url": "https://en.wikipedia.org/wiki/Margaret_Mitchell_—_*Gone_with_the_Wind*"
+            }
+          ]
         },
         {
           "id": "the-exorcist",
           "prompt": "William Peter Blatty's 1971 novel about the demonic possession of a 12-year-old girl in Georgetown was adapted into which 1973 William Friedkin horror film?",
           "answer": "The Exorcist",
-          "alternates": ["Exorcist"],
+          "alternates": [
+            "Exorcist"
+          ],
           "explanation": "Blatty wrote both the novel and the screenplay; he won the Oscar for Best Adapted Screenplay\nThe novel was inspired by the real 1949 exorcism of a boy in Maryland (pseudonym \"Roland Doe\")\nBecame the first horror film nominated for Best Picture; earned 10 nominations total\nAudience reactions in 1973 were extreme: reports of fainting, vomiting, and theaters providing \"barf bags\"\nLinda Blair was 13 during filming; Mercedes McCambridge provided the demon voice uncredited (she later secured proper credit through the Screen Actors Guild)",
-          "cardFront": "William Peter Blatty \u2014 *The Exorcist* (1971 novel)",
-          "cardBack": "The Exorcist"
+          "cardFront": "William Peter Blatty — *The Exorcist* (1971 novel)",
+          "cardBack": "The Exorcist",
+          "links": [
+            {
+              "text": "The Exorcist",
+              "url": "https://en.wikipedia.org/wiki/The_Exorcist"
+            },
+            {
+              "text": "William Peter Blatty — *The Exorcist*",
+              "url": "https://en.wikipedia.org/wiki/William_Peter_Blatty_—_*The_Exorcist*"
+            }
+          ]
         },
         {
           "id": "schindlers-list",
           "prompt": "Thomas Keneally's 1982 Booker Prize-winning novel about a German industrialist who saved over 1,100 Jews during the Holocaust was adapted into which 1993 Steven Spielberg film?",
           "answer": "Schindler's List",
-          "alternates": ["Schindler's List", "Schindlers List"],
+          "alternates": [
+            "Schindler's List",
+            "Schindlers List"
+          ],
           "explanation": "Keneally's novel won the Booker Prize in 1982; published as *Schindler's Ark* in the UK and *Schindler's List* in the U.S.\nKeneally discovered the story by chance when he walked into a luggage shop in Beverly Hills owned by Poldek Pfefferberg, a Schindler survivor\nSpielberg shot almost entirely in black and white; the \"girl in the red coat\" is one of cinema's most memorable uses of selective color\nWon seven Oscars including Best Picture and Spielberg's first Best Director\nSpielberg used profits to establish the USC Shoah Foundation, which has recorded over 55,000 Holocaust survivor testimonies",
-          "cardFront": "Thomas Keneally \u2014 *Schindler's Ark* (1982 novel)",
-          "cardBack": "Schindler's List"
+          "cardFront": "Thomas Keneally — *Schindler's Ark* (1982 novel)",
+          "cardBack": "Schindler's List",
+          "links": [
+            {
+              "text": "Schindler's List",
+              "url": "https://en.wikipedia.org/wiki/Schindler's_List"
+            },
+            {
+              "text": "Thomas Keneally — *Schindler's Ark*",
+              "url": "https://en.wikipedia.org/wiki/Thomas_Keneally_—_*Schindler's_Ark*"
+            }
+          ]
         },
         {
           "id": "no-country-for-old-men",
           "prompt": "Cormac McCarthy's 2005 novel about a drug deal gone wrong in 1980 West Texas and a relentless hitman with a captive-bolt pistol was adapted into which 2007 Coen brothers film?",
           "answer": "No Country for Old Men",
-          "alternates": ["No Country For Old Men"],
-          "explanation": "The Coen brothers' screenplay is exceptionally faithful to McCarthy's novel, often using his dialogue verbatim\nJavier Bardem's Anton Chigurh and his captive-bolt pistol became one of cinema's most menacing villain images\nWon four Oscars: Best Picture, Best Director, Best Supporting Actor (Bardem), Best Adapted Screenplay\nThe Coens shot the film with minimal score \u2014 long stretches have no music, only ambient sound\nMcCarthy's novel title comes from the opening line of W.B. Yeats's poem \"Sailing to Byzantium\"",
-          "cardFront": "Cormac McCarthy \u2014 *No Country for Old Men* (2005 novel)",
-          "cardBack": "No Country for Old Men"
+          "alternates": [
+            "No Country For Old Men"
+          ],
+          "explanation": "The Coen brothers' screenplay is exceptionally faithful to McCarthy's novel, often using his dialogue verbatim\nJavier Bardem's Anton Chigurh and his captive-bolt pistol became one of cinema's most menacing villain images\nWon four Oscars: Best Picture, Best Director, Best Supporting Actor (Bardem), Best Adapted Screenplay\nThe Coens shot the film with minimal score — long stretches have no music, only ambient sound\nMcCarthy's novel title comes from the opening line of W.B. Yeats's poem \"Sailing to Byzantium\"",
+          "cardFront": "Cormac McCarthy — *No Country for Old Men* (2005 novel)",
+          "cardBack": "No Country for Old Men",
+          "links": [
+            {
+              "text": "No Country for Old Men",
+              "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
+            },
+            {
+              "text": "Cormac McCarthy — *No Country for Old Men*",
+              "url": "https://en.wikipedia.org/wiki/Cormac_McCarthy_—_*No_Country_for_Old_Men*"
+            }
+          ]
         },
         {
           "id": "silence-of-the-lambs",
           "prompt": "Thomas Harris's 1988 novel about FBI trainee Clarice Starling consulting imprisoned cannibalistic psychiatrist Hannibal Lecter to catch a serial killer was adapted into which 1991 film?",
           "answer": "The Silence of the Lambs",
-          "alternates": ["Silence of the Lambs"],
-          "explanation": "Third film to sweep the Big Five Oscars: Picture, Director (Jonathan Demme), Actor (Anthony Hopkins), Actress (Jodie Foster), Screenplay (Ted Tally)\nHopkins won Best Actor with approximately 16 minutes of screen time \u2014 one of the shortest lead performances ever honored\nHarris's novel was the sequel to *Red Dragon* (1981), which introduced Lecter; the character was inspired partly by a real Mexican surgeon Harris met in a prison\nThe FBI cooperated with the production; Foster spent time at the FBI Academy in Quantico, Virginia\nHannibal Lecter's \"fava beans and a nice Chianti\" line (actually \"Amarone\" in the novel) became one of the most quoted lines in horror cinema",
-          "cardFront": "Thomas Harris \u2014 *The Silence of the Lambs* (1988 novel)",
-          "cardBack": "The Silence of the Lambs"
+          "alternates": [
+            "Silence of the Lambs"
+          ],
+          "explanation": "Third film to sweep the Big Five Oscars: Picture, Director (Jonathan Demme), Actor (Anthony Hopkins), Actress (Jodie Foster), Screenplay (Ted Tally)\nHopkins won Best Actor with approximately 16 minutes of screen time — one of the shortest lead performances ever honored\nHarris's novel was the sequel to *Red Dragon* (1981), which introduced Lecter; the character was inspired partly by a real Mexican surgeon Harris met in a prison\nThe FBI cooperated with the production; Foster spent time at the FBI Academy in Quantico, Virginia\nHannibal Lecter's \"fava beans and a nice Chianti\" line (actually \"Amarone\" in the novel) became one of the most quoted lines in horror cinema",
+          "cardFront": "Thomas Harris — *The Silence of the Lambs* (1988 novel)",
+          "cardBack": "The Silence of the Lambs",
+          "links": [
+            {
+              "text": "The Silence of the Lambs",
+              "url": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs"
+            },
+            {
+              "text": "Thomas Harris — *The Silence of the Lambs*",
+              "url": "https://en.wikipedia.org/wiki/Thomas_Harris_—_*The_Silence_of_the_Lambs*"
+            }
+          ]
         }
       ]
     }

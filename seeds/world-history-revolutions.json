@@ -19,109 +19,230 @@
           "id": "glorious-revolution",
           "prompt": "This bloodless 1688 English overthrow of Catholic King James II in favor of Protestant William of Orange established constitutional monarchy and the principle that Parliament is supreme over the crown. What is it called?",
           "answer": "Glorious Revolution",
-          "alternates": ["The Glorious Revolution", "Revolution of 1688"],
+          "alternates": [
+            "The Glorious Revolution",
+            "Revolution of 1688"
+          ],
           "explanation": "November 1688: William of Orange invaded England with a Dutch army; James II fled to France without a battle\nCalled 'Glorious' because it was largely bloodless and achieved lasting constitutional change\nEnglish Bill of Rights (1689): established parliamentary sovereignty, regular elections, freedom of speech in Parliament, and the right to bear arms for Protestants\nCatholic monarchs were permanently excluded from the throne — a rule still in effect until 2015\nJohn Locke's *Two Treatises of Government* (1689) theorized the right to revolution against tyranny, directly influencing the American and French revolutions\nEstablished the model of constitutional monarchy that spread to much of Europe in the 19th century",
           "cardFront": "1688",
-          "cardBack": "Glorious Revolution"
+          "cardBack": "Glorious Revolution",
+          "links": [
+            {
+              "text": "Glorious Revolution",
+              "url": "https://en.wikipedia.org/wiki/Glorious_Revolution"
+            }
+          ]
         },
         {
           "id": "industrial-revolution",
           "prompt": "What is the name for the ~1760–1840 transformation, beginning in Britain, that replaced hand production with machine manufacturing, urbanized society, and gave rise to capitalism as an economic system?",
           "answer": "Industrial Revolution",
-          "alternates": ["The Industrial Revolution"],
+          "alternates": [
+            "The Industrial Revolution"
+          ],
           "explanation": "Began in Britain c. 1760; spread to Europe and North America through the 19th century\nKey inventions: James Watt's steam engine (improved 1769), Hargreaves's spinning jenny (1764), Arkwright's water frame (1769)\nTransitioned from an agricultural to a manufacturing economy; urbanization exploded — Manchester grew from 25,000 (1772) to 300,000 (1850)\nSteam-powered railways (Stephenson's Rocket, 1829) transformed transportation and further accelerated industrialization\nCreated the industrial working class (proletariat) living in squalid conditions — directly inspiring Marx's *Communist Manifesto* (1848)\nBy 1850 Britain produced half the world's iron and cotton cloth; its per-capita income roughly doubled in a generation",
           "cardFront": "c. 1760–1840, Britain",
-          "cardBack": "Industrial Revolution"
+          "cardBack": "Industrial Revolution",
+          "links": [
+            {
+              "text": "Industrial Revolution",
+              "url": "https://en.wikipedia.org/wiki/Industrial_Revolution"
+            },
+            {
+              "text": "c. 1760–1840, Britain",
+              "url": "https://en.wikipedia.org/wiki/c._1760–1840,_Britain"
+            }
+          ]
         },
         {
           "id": "french-revolution",
           "prompt": "This 1789–1799 upheaval in France abolished the monarchy, executed King Louis XVI, proclaimed 'Liberty, Equality, Fraternity,' and ended with Napoleon Bonaparte seizing power. What is it called?",
           "answer": "French Revolution",
-          "alternates": ["The French Revolution"],
+          "alternates": [
+            "The French Revolution"
+          ],
           "explanation": "Began May–July 1789 with the Estates-General crisis; the Bastille stormed on July 14, 1789 — now France's national holiday\nDeclaration of the Rights of Man and of the Citizen (August 1789): 17 articles proclaiming liberty, equality, and popular sovereignty\nKing Louis XVI guillotined January 21, 1793; Marie Antoinette on October 16, 1793\nReign of Terror (1793–1794): Robespierre's Committee of Public Safety executed ~16,594 by guillotine and ~25,000 more by other means\nRobespierre himself was guillotined on July 28, 1794 (9 Thermidor) — ending the Terror\nNapoleon Bonaparte seized power in the coup of 18 Brumaire (November 9, 1799), ending the revolutionary period",
           "cardFront": "1789–1799",
-          "cardBack": "French Revolution"
+          "cardBack": "French Revolution",
+          "links": [
+            {
+              "text": "French Revolution",
+              "url": "https://en.wikipedia.org/wiki/French_Revolution"
+            }
+          ]
         },
         {
           "id": "haitian-revolution",
           "prompt": "This 1791–1804 uprising in Saint-Domingue — the only successful slave revolt in history — created Haiti as the world's first Black republic and first Caribbean nation to gain independence. What is it called?",
           "answer": "Haitian Revolution",
-          "alternates": ["Haiti Revolution", "Saint-Domingue Revolution"],
+          "alternates": [
+            "Haiti Revolution",
+            "Saint-Domingue Revolution"
+          ],
           "explanation": "Fought 1791–1804 in the French colony of Saint-Domingue (western Hispaniola, modern Haiti)\nThe only slave revolt in history to successfully overthrow a colonial government and establish an independent nation\nToussaint L'Ouverture, a formerly enslaved man, became the military leader; he was later captured by Napoleon and died in French captivity (1803)\nNapoleon sent a force of ~25,000 soldiers to re-establish slavery; yellow fever and the Haitian army destroyed the French expedition\nJean-Jacques Dessalines declared independence on January 1, 1804 and named the country 'Haiti' (from the indigenous Taíno name)\nFrance demanded reparations of 150 million francs (later 90 million) for the 'loss' of its colony — a debt Haiti did not finish paying until 1947",
           "cardFront": "1791–1804",
-          "cardBack": "Haitian Revolution"
+          "cardBack": "Haitian Revolution",
+          "links": [
+            {
+              "text": "Haitian Revolution",
+              "url": "https://en.wikipedia.org/wiki/Haitian_Revolution"
+            }
+          ]
         },
         {
           "id": "latin-american-independence",
           "prompt": "What is the name for the wave of independence movements (roughly 1808–1826) that liberated most of Latin America from Spain and Portugal, largely led by Simón Bolívar in South America?",
           "answer": "Latin American Independence",
-          "alternates": ["Latin American independence movements", "South American independence"],
+          "alternates": [
+            "Latin American independence movements",
+            "South American independence"
+          ],
           "explanation": "Triggered when Napoleon invaded Spain in 1808 and placed his brother on the Spanish throne — undermining colonial authority\nSimón Bolívar ('El Libertador') liberated Venezuela, Colombia, Ecuador, Peru, and Bolivia (named for him); José de San Martín liberated Argentina and Chile\nMexico declared independence in 1810 (Miguel Hidalgo's Grito de Dolores); achieved independence in 1821\nBrazil gained independence from Portugal peacefully (1822) when Dom Pedro I, the Portuguese prince, declared himself Emperor\nBetween 1810–1826, virtually all of mainland Latin America became independent from European rule\nHaiti (1804) was the first, but the main wave created nations like Colombia, Venezuela, Argentina, Chile, Peru, Bolivia, Mexico, and Brazil",
           "cardFront": "1808–1826",
-          "cardBack": "Latin American Independence"
+          "cardBack": "Latin American Independence",
+          "links": [
+            {
+              "text": "Latin American Independence",
+              "url": "https://en.wikipedia.org/wiki/Latin_American_Independence"
+            }
+          ]
         },
         {
           "id": "meiji-restoration",
           "prompt": "This 1868 event restored imperial rule to Japan under Emperor Meiji, triggering a rapid modernization that transformed Japan from a feudal society into an industrialized world power within a generation. What is it called?",
           "answer": "Meiji Restoration",
-          "alternates": ["Meiji Revolution", "Meiji Reform"],
+          "alternates": [
+            "Meiji Revolution",
+            "Meiji Reform"
+          ],
           "explanation": "January 3, 1868: Emperor Meiji was 'restored' to power, ending 265 years of Tokugawa shogunate rule\nCharter Oath (1868): Japan committed to seeking knowledge from the world and modernizing across all sectors\nJapan abolished feudalism, dismantled the samurai class, built a modern conscript army and navy, and industrialized within decades\nAdopted a Prussian-style constitution (Meiji Constitution, 1889), a French-style legal code, and British-style naval traditions\nSino-Japanese War (1894–1895): Japan defeated China and acquired Taiwan — demonstrating its new military power to the world\nRusso-Japanese War (1904–1905): Japan defeated a European great power — completing its transformation into a major world power in just 37 years",
           "cardFront": "1868, Japan",
-          "cardBack": "Meiji Restoration"
+          "cardBack": "Meiji Restoration",
+          "links": [
+            {
+              "text": "Meiji Restoration",
+              "url": "https://en.wikipedia.org/wiki/Meiji_Restoration"
+            }
+          ]
         },
         {
           "id": "mexican-revolution",
           "prompt": "This 1910–1920 upheaval that overthrew longtime dictator Porfirio Díaz and produced Mexico's 1917 constitution was shaped by figures including Emiliano Zapata, Pancho Villa, and Francisco Madero. What is it called?",
           "answer": "Mexican Revolution",
-          "alternates": ["Mexican Revolution of 1910"],
+          "alternates": [
+            "Mexican Revolution of 1910"
+          ],
           "explanation": "Began November 1910 when Francisco Madero called for revolt against Porfirio Díaz, who had ruled Mexico for 34 years\nEmiliano Zapata led southern peasant forces fighting for land reform under the slogan 'Tierra y Libertad' (Land and Liberty)\nPancho Villa led northern forces; both Zapata and Villa fought against multiple governments during the decade-long conflict\nEstimated 1–2 million dead from fighting, disease, and famine — roughly 10% of Mexico's population\nConstitution of 1917: one of the world's first constitutions to include social rights (land reform, labor rights, limits on the Church) — a model for later Latin American constitutions\nZapata was assassinated in 1919; Villa in 1923; the Institutional Revolutionary Party (PRI) that emerged from the revolution ruled Mexico until 2000",
           "cardFront": "1910–1920, Mexico",
-          "cardBack": "Mexican Revolution"
+          "cardBack": "Mexican Revolution",
+          "links": [
+            {
+              "text": "Mexican Revolution",
+              "url": "https://en.wikipedia.org/wiki/Mexican_Revolution"
+            }
+          ]
         },
         {
           "id": "russian-revolution",
           "prompt": "This 1917 dual revolution in Russia first overthrew Tsar Nicholas II (February) then saw Lenin's Bolsheviks seize power (October), creating the world's first Communist state. What is it called?",
           "answer": "Russian Revolution",
-          "alternates": ["Russian Revolution of 1917", "Bolshevik Revolution"],
+          "alternates": [
+            "Russian Revolution of 1917",
+            "Bolshevik Revolution"
+          ],
           "explanation": "Two revolutions in 1917: the February Revolution (March in new calendar) overthrew Tsar Nicholas II; the October Revolution (November) brought the Bolsheviks to power\nFebruary Revolution: bread riots and military mutinies in Petrograd forced Nicholas II to abdicate on March 15, 1917; a provisional government took power\nVladimir Lenin returned from Swiss exile in the 'sealed train' arranged by Germany and led the Bolshevik seizure of power on November 7, 1917\nOctober Revolution: Bolsheviks seized the Winter Palace in Petrograd with minimal resistance and declared Soviet power\nCivil War (1917–1922): Bolshevik 'Reds' defeated anti-Bolshevik 'Whites' and foreign interventionists; Nicholas II and his family were executed in Yekaterinburg (July 1918)\nCreated the Soviet Union (USSR) in 1922 — the world's first Communist state, lasting until 1991",
           "cardFront": "1917, Russia",
-          "cardBack": "Russian Revolution"
+          "cardBack": "Russian Revolution",
+          "links": [
+            {
+              "text": "Russian Revolution",
+              "url": "https://en.wikipedia.org/wiki/Russian_Revolution"
+            }
+          ]
         },
         {
           "id": "chinese-revolution",
           "prompt": "This 1949 Communist victory in China's civil war, in which Mao Zedong proclaimed the People's Republic of China on October 1, created the world's most populous Communist state. What is it called?",
           "answer": "Chinese Revolution",
-          "alternates": ["Chinese Communist Revolution", "Communist Revolution in China"],
+          "alternates": [
+            "Chinese Communist Revolution",
+            "Communist Revolution in China"
+          ],
           "explanation": "October 1, 1949: Mao Zedong proclaimed the People's Republic of China from Beijing's Tiananmen Gate\nResult of the Chinese Civil War (1927–1949) between the CCP (Communists) and KMT (Nationalists) under Chiang Kai-shek\nCommunists gained rural support through land redistribution programs; Long March (1934–35) mythologized Communist perseverance\nLand reform (1950–1953): redistributed land from landlords to peasants; ~1–2 million landlords and 'class enemies' were executed\nGreat Leap Forward (1958–1962): disastrous forced collectivization and industrialization caused the Great Chinese Famine, killing ~15–45 million\nThe revolution established Communist Party rule that continues to govern China today",
           "cardFront": "October 1, 1949",
-          "cardBack": "Chinese Revolution"
+          "cardBack": "Chinese Revolution",
+          "links": [
+            {
+              "text": "Chinese Revolution",
+              "url": "https://en.wikipedia.org/wiki/Chinese_Revolution"
+            },
+            {
+              "text": "October 1, 1949",
+              "url": "https://en.wikipedia.org/wiki/October_1,_1949"
+            }
+          ]
         },
         {
           "id": "cuban-revolution",
           "prompt": "This revolution, completed on January 1, 1959, brought Fidel Castro and his guerrilla forces to power in Cuba, overthrew U.S.-backed dictator Fulgencio Batista, and created a Communist state 90 miles from Florida. What is it called?",
           "answer": "Cuban Revolution",
-          "alternates": ["Cuba Revolution"],
+          "alternates": [
+            "Cuba Revolution"
+          ],
           "explanation": "Guerrilla campaign 1956–1959; Fidel Castro, his brother Raúl, and Ernesto 'Che' Guevara landed in Cuba from Mexico (December 1956) with 82 fighters\nBatista's regime collapsed; he fled on January 1, 1959 — now Cuba's national holiday\nCastro initially avoided calling the revolution Communist; he declared it Marxist-Leninist in December 1961\nBay of Pigs (April 1961): CIA-trained Cuban exiles attempted an invasion; it failed completely, humiliating the Kennedy administration\nCuban Missile Crisis (October 1962): Soviet nuclear missiles installed in Cuba brought the U.S. and USSR to the brink of nuclear war\nCastro ruled Cuba for 49 years (1959–2008) — the longest tenure of any non-royal head of state in the 20th–21st centuries",
           "cardFront": "January 1, 1959",
-          "cardBack": "Cuban Revolution"
+          "cardBack": "Cuban Revolution",
+          "links": [
+            {
+              "text": "Cuban Revolution",
+              "url": "https://en.wikipedia.org/wiki/Cuban_Revolution"
+            },
+            {
+              "text": "January 1, 1959",
+              "url": "https://en.wikipedia.org/wiki/January_1,_1959"
+            }
+          ]
         },
         {
           "id": "iranian-revolution",
           "prompt": "This 1979 revolution overthrew the U.S.-backed Shah of Iran, replaced the monarchy with an Islamic Republic led by Ayatollah Khomeini, and fundamentally reshaped Middle Eastern geopolitics. What is it called?",
           "answer": "Iranian Revolution",
-          "alternates": ["Islamic Revolution", "Iranian Islamic Revolution", "1979 Iranian Revolution"],
+          "alternates": [
+            "Islamic Revolution",
+            "Iranian Islamic Revolution",
+            "1979 Iranian Revolution"
+          ],
           "explanation": "Mass protests in 1978 forced Shah Mohammad Reza Pahlavi to flee Iran on January 16, 1979\nAyatollah Ruhollah Khomeini returned from exile in Paris on February 1, 1979; the Islamic Republic was declared on April 1, 1979\nEstablished the concept of velayat-e faqih (guardianship of the Islamic jurist) — a Shia Islamic theocratic government\nIran Hostage Crisis (November 1979–January 1981): revolutionary students seized the U.S. Embassy and held 52 Americans hostage for 444 days\nThe revolution transformed Iran from a secular pro-Western monarchy into an anti-Western Islamic theocracy — reshaping the Middle East\nU.S.-Iran relations remain broken today; the revolution directly contributed to the Iran-Iraq War (1980–1988)",
           "cardFront": "1979, Iran",
-          "cardBack": "Iranian Revolution"
+          "cardBack": "Iranian Revolution",
+          "links": [
+            {
+              "text": "Iranian Revolution",
+              "url": "https://en.wikipedia.org/wiki/Iranian_Revolution"
+            }
+          ]
         },
         {
           "id": "velvet-revolution",
           "prompt": "This peaceful November 1989 overthrow of Czechoslovakia's Communist government — named for its smooth, non-violent character — brought dissident playwright Václav Havel to power and was part of a broader wave of Eastern European revolutions. What is it called?",
           "answer": "Velvet Revolution",
-          "alternates": ["Czechoslovak Revolution of 1989", "Gentle Revolution"],
+          "alternates": [
+            "Czechoslovak Revolution of 1989",
+            "Gentle Revolution"
+          ],
           "explanation": "November 17–December 29, 1989: 10 days of mass protests in Czechoslovakia ended 41 years of Communist rule\nTriggered by a police crackdown on student demonstrators on November 17; protests spread rapidly across the country\nCivic Forum (Czech Republic) and Public Against Violence (Slovakia) organized the opposition; crowds of ~500,000 demonstrated in Prague\nCommunist Party leadership resigned on November 28; Václav Havel, a dissident playwright who had served years in prison, was elected president on December 29\nNamed 'Velvet' for its non-violent, smooth character; contrasted with the violent Romanian Revolution occurring simultaneously\nPart of the 1989 wave of democratic revolutions across Eastern Europe that included the fall of the Berlin Wall (November 9) and collapse of Communist governments in Poland, Hungary, East Germany, Bulgaria, and Romania",
           "cardFront": "November–December 1989",
-          "cardBack": "Velvet Revolution"
+          "cardBack": "Velvet Revolution",
+          "links": [
+            {
+              "text": "Velvet Revolution",
+              "url": "https://en.wikipedia.org/wiki/Velvet_Revolution"
+            },
+            {
+              "text": "November–December 1989",
+              "url": "https://en.wikipedia.org/wiki/November–December_1989"
+            }
+          ]
         }
       ]
     }
