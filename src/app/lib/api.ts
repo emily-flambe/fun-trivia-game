@@ -169,6 +169,7 @@ export async function submitQuizResult(payload: QuizResultPayload): Promise<Quiz
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(payload),
 	});
+	if (!res.ok) throw new Error('Failed to submit quiz result');
 	return res.json() as Promise<QuizResultResponse>;
 }
 
