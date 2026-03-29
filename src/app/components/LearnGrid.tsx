@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { ExerciseSummary, PublicItem } from '../lib/api';
+import { ItemImage } from './ItemImage';
 import { WikiLinks } from './WikiLinks';
 
 interface Props {
@@ -98,6 +99,11 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 										: 'bg-surface-bright hover:bg-surface-hover'
 							}`}
 						>
+							{item.data?.imageUrl && (
+								<div className="mb-2">
+									<ItemImage imageUrl={item.data.imageUrl} alt={item.data?.cardBack || item.id} size="sm" />
+								</div>
+							)}
 							<div className={`font-medium ${isFlipped ? 'text-accent' : ''}`}>
 								{cardFace(item, isFlipped)}
 							</div>
@@ -110,6 +116,11 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 			<div className={`mt-4 bg-surface-raised rounded-xl p-5 min-h-[80px] transition-all duration-200 ${selectedItem ? '' : 'opacity-50'}`}>
 				{selectedItem ? (
 					<div>
+						{selectedItem.data?.imageUrl && (
+							<div className="mb-3">
+								<ItemImage imageUrl={selectedItem.data.imageUrl} alt={selectedItem.data?.cardBack || selectedItem.id} size="md" />
+							</div>
+						)}
 						<div className="flex items-baseline gap-2 mb-2">
 							<span className="text-xl font-bold text-accent">
 								{selectedItem.data?.cardBack || selectedItem.data?.prompt || selectedItem.id}

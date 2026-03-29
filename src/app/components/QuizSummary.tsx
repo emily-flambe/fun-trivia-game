@@ -1,4 +1,5 @@
 import type { ExerciseSummary, PublicItem, CheckAnswerResult } from '../lib/api';
+import { ItemImage } from './ItemImage';
 import { WikiLinks } from './WikiLinks';
 
 interface AnswerRecord {
@@ -51,6 +52,11 @@ export function QuizSummary({ exercise, answers, items, exercisePath, onRepeat, 
 							const item = items.find((i) => i.id === a.itemId);
 							return (
 								<div key={a.itemId} className="bg-surface-raised rounded-xl p-5 border-l-4 border-incorrect">
+									{item?.data?.imageUrl && (
+										<div className="mb-2">
+											<ItemImage imageUrl={item.data.imageUrl} alt={item?.data?.prompt || a.itemId} size="sm" />
+										</div>
+									)}
 									<div className="font-medium mb-1">{item?.data?.prompt || a.itemId}</div>
 									<div className="text-sm flex flex-col sm:flex-row sm:gap-2">
 										<span className="text-incorrect">Your answer: {a.userAnswer}</span>

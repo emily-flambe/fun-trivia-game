@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { getRandomItems, checkAnswer, submitQuizResult, type RandomItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
+import { ItemImage } from './ItemImage';
 import { WikiLinks } from './WikiLinks';
 
 interface AnswerRecord {
@@ -213,6 +214,11 @@ export function EndlessQuiz() {
 				<div className="text-xs text-text-tertiary mb-3 uppercase tracking-wider">
 					{item.exerciseName} &middot; {categoryId.replace(/-/g, ' ')}
 				</div>
+				{item.data?.imageUrl && (
+					<div className="flex justify-center mb-4">
+						<ItemImage imageUrl={item.data.imageUrl} alt={item.data?.prompt || item.id} size="lg" />
+					</div>
+				)}
 				<div className="text-lg mb-6">{item.data?.prompt || `What is ${item.id}?`}</div>
 
 				{status === 'showing-result' && currentResult ? (
