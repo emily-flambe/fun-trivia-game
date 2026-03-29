@@ -23,15 +23,16 @@ test.describe('Profile Page', () => {
 			await page.waitForTimeout(1500);
 		});
 
-		test('shows tab bar with all 4 tabs', async ({ page }) => {
+		test('shows tab bar with all 5 tabs', async ({ page }) => {
 			await page.goto('/#/profile');
 			await page.waitForTimeout(1000);
 
 			await expect(page.getByRole('heading', { name: 'Profile' })).toBeVisible();
-			await expect(page.getByRole('tab')).toHaveCount(4);
+			await expect(page.getByRole('tab')).toHaveCount(5);
 			await expect(page.getByRole('tab', { name: 'Summary' })).toBeVisible();
 			await expect(page.getByRole('tab', { name: 'Categories' })).toBeVisible();
 			await expect(page.getByRole('tab', { name: 'Activity' })).toBeVisible();
+			await expect(page.getByRole('tab', { name: 'Quiz Log' })).toBeVisible();
 			await expect(page.getByRole('tab', { name: 'Preferences' })).toBeVisible();
 		});
 

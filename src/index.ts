@@ -168,6 +168,8 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				total: number;
 				durationSeconds?: number;
 				itemsDetail?: QuizItemResult[];
+				isRetry?: boolean;
+				parentResultId?: string;
 			}>();
 			if (!body.exerciseId || !body.exerciseName || !body.format || body.score == null || body.total == null) {
 				return json({ error: 'Missing required fields' }, 400);
@@ -185,6 +187,8 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 				total: body.total,
 				durationSeconds: body.durationSeconds ?? null,
 				itemsDetail: body.itemsDetail ?? [],
+				isRetry: !!body.isRetry,
+				parentResultId: body.parentResultId || undefined,
 			});
 			return json(result, 201);
 		}
@@ -197,6 +201,14 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 			const userRepo = new UserRepository(env.DB);
 			const data = await userRepo.getQuizResults(user.id, limit, offset);
 			return json(data);
+		}
+
+		if (path === '/api/quiz-results/by-exercise' && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const userRepo = new UserRepository(env.DB);
+			const summaries = await userRepo.getQuizResultsByExercise(user.id);
+			return json({ exercises: summaries });
 		}
 
 		const quizResultDetailMatch = path.match(/^\/api\/quiz-results\/([^/]+)$/);
