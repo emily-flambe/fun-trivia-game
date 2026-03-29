@@ -1,4 +1,4 @@
-import type { User, QuizResult, QuizItemResult, ExerciseFormat } from './types';
+import type { User, QuizResult, QuizItemResult, QuizExerciseSummary, ExerciseFormat } from './types';
 
 // === DB row interfaces ===
 
@@ -22,6 +22,8 @@ interface QuizResultRow {
 	duration_seconds: number | null;
 	items_detail: string;
 	completed_at: string;
+	is_retry: number;
+	parent_result_id: string | null;
 }
 
 // === Row-to-type mappers ===
@@ -49,6 +51,8 @@ function mapQuizResult(row: QuizResultRow): QuizResult {
 		durationSeconds: row.duration_seconds,
 		itemsDetail: JSON.parse(row.items_detail || '[]') as QuizItemResult[],
 		completedAt: row.completed_at,
+		isRetry: row.is_retry === 1,
+		parentResultId: row.parent_result_id,
 	};
 }
 
@@ -96,14 +100,16 @@ export class UserRepository {
 		total: number;
 		durationSeconds: number | null;
 		itemsDetail: QuizItemResult[];
+		isRetry?: boolean;
+		parentResultId?: string;
 	}): Promise<QuizResult> {
 		const id = crypto.randomUUID();
 		const now = new Date().toISOString();
 
 		await this.db
 			.prepare(
-				`INSERT INTO quiz_results (id, user_id, exercise_id, exercise_name, format, score, total, duration_seconds, items_detail, completed_at)
-				 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+				`INSERT INTO quiz_results (id, user_id, exercise_id, exercise_name, format, score, total, duration_seconds, items_detail, completed_at, is_retry, parent_result_id)
+				 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 			)
 			.bind(
 				id,
@@ -116,6 +122,8 @@ export class UserRepository {
 				params.durationSeconds,
 				JSON.stringify(params.itemsDetail),
 				now,
+				params.isRetry ? 1 : 0,
+				params.parentResultId ?? null,
 			)
 			.run();
 
@@ -130,6 +138,8 @@ export class UserRepository {
 			durationSeconds: params.durationSeconds,
 			itemsDetail: params.itemsDetail,
 			completedAt: now,
+			isRetry: !!params.isRetry,
+			parentResultId: params.parentResultId ?? null,
 		};
 	}
 
@@ -138,14 +148,14 @@ export class UserRepository {
 			this.db
 				.prepare(
 					`SELECT * FROM quiz_results
-					 WHERE user_id = ?
+					 WHERE user_id = ? AND is_retry = 0
 					 ORDER BY completed_at DESC
 					 LIMIT ? OFFSET ?`
 				)
 				.bind(userId, limit, offset)
 				.all<QuizResultRow>(),
 			this.db
-				.prepare(`SELECT COUNT(*) as count FROM quiz_results WHERE user_id = ?`)
+				.prepare(`SELECT COUNT(*) as count FROM quiz_results WHERE user_id = ? AND is_retry = 0`)
 				.bind(userId)
 				.first<{ count: number }>(),
 		]);
@@ -169,7 +179,7 @@ export class UserRepository {
 					COALESCE(SUM(score), 0) as correct,
 					COALESCE(SUM(total), 0) as attempted
 				 FROM quiz_results
-				 WHERE user_id = ?
+				 WHERE user_id = ? AND is_retry = 0
 				 GROUP BY category
 				 HAVING category != ''
 				 ORDER BY attempted DESC`
@@ -194,7 +204,7 @@ export class UserRepository {
 					COALESCE(SUM(total), 0) as total_attempted,
 					COUNT(DISTINCT exercise_id) as exercises_covered
 				 FROM quiz_results
-				 WHERE user_id = ?`
+				 WHERE user_id = ? AND is_retry = 0`
 			)
 			.bind(userId)
 			.first<{
@@ -210,5 +220,64 @@ export class UserRepository {
 			totalAttempted: row?.total_attempted ?? 0,
 			exercisesCovered: row?.exercises_covered ?? 0,
 		};
+	}
+
+	async getQuizResultsByExercise(userId: string): Promise<QuizExerciseSummary[]> {
+		const { results } = await this.db.prepare(`
+			SELECT exercise_id, exercise_name, score, total, completed_at
+			FROM quiz_results
+			WHERE user_id = ? AND is_retry = 0
+			ORDER BY completed_at DESC
+		`).bind(userId).all<{
+			exercise_id: string;
+			exercise_name: string;
+			score: number;
+			total: number;
+			completed_at: string;
+		}>();
+
+		const exerciseMap = new Map<string, {
+			exerciseId: string;
+			exerciseName: string;
+			scores: { score: number; total: number; completedAt: string }[];
+		}>();
+
+		for (const row of results) {
+			const key = row.exercise_id;
+			if (!exerciseMap.has(key)) {
+				exerciseMap.set(key, {
+					exerciseId: key,
+					exerciseName: row.exercise_name,
+					scores: [],
+				});
+			}
+			exerciseMap.get(key)!.scores.push({
+				score: row.score,
+				total: row.total,
+				completedAt: row.completed_at,
+			});
+		}
+
+		return Array.from(exerciseMap.values()).map(entry => {
+			const latest = entry.scores[0]; // already sorted DESC by completed_at
+			const bestRatio = Math.max(
+				...entry.scores.map(s => s.total === 0 ? 0 : s.score / s.total)
+			);
+			const bestEntry = entry.scores.find(
+				s => s.total > 0 && s.score / s.total === bestRatio
+			) || latest;
+
+			return {
+				exerciseId: entry.exerciseId,
+				exerciseName: entry.exerciseName,
+				category: entry.exerciseId.split('/')[0],
+				timesTaken: entry.scores.length,
+				lastTaken: latest.completedAt,
+				mostRecentScore: latest.score,
+				mostRecentTotal: latest.total,
+				bestScore: bestEntry.score,
+				bestTotal: bestEntry.total,
+			};
+		});
 	}
 }
