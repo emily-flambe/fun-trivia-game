@@ -111,10 +111,10 @@ test.describe('Activity tab — expandable entries', () => {
 		await expect(page.getByText('What element has the symbol Au?')).toBeVisible();
 		await expect(page.getByText('What element has the symbol Ag?')).toBeVisible();
 
-		// Should show correct answers
-		await expect(page.getByText('Iron')).toBeVisible();
-		await expect(page.getByText('Gold')).toBeVisible();
-		await expect(page.getByText('Silver')).toBeVisible();
+		// Should show correct answers (in "Answer: X" rows)
+		await expect(page.locator('p').filter({ hasText: /^Answer:/ }).filter({ hasText: 'Iron' }).first()).toBeVisible();
+		await expect(page.locator('p').filter({ hasText: /^Answer:/ }).filter({ hasText: 'Gold' }).first()).toBeVisible();
+		await expect(page.locator('p').filter({ hasText: /^Answer:/ }).filter({ hasText: 'Silver' }).first()).toBeVisible();
 
 		// Should show what the user answered
 		await expect(page.getByText('Tin')).toBeVisible();
@@ -221,6 +221,6 @@ test.describe('Activity tab — expandable entries', () => {
 
 		// The Activity tab should show a result for Element Symbols
 		const panel = page.getByRole('tabpanel');
-		await expect(panel.getByText('Element Symbols')).toBeVisible();
+		await expect(panel.getByText('Element Symbols').first()).toBeVisible();
 	});
 });
