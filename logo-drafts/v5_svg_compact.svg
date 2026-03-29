@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="80" fill="#1a1a2e"/>
-  <g transform="translate(256, 260)">
-    <!-- Tightly kerned ?! as a single logo mark -->
-    <text x="-10" y="20" font-family="'Palatino Linotype', Palatino, Georgia, serif" font-size="380" font-weight="bold" fill="#f0a500" text-anchor="middle" letter-spacing="-30">?!</text>
-  </g>
-</svg>

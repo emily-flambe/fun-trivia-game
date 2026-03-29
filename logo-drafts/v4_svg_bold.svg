@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="64" fill="#1a1a2e"/>
-  <g transform="translate(256, 256)">
-    <!-- Question mark -->
-    <text x="-40" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="420" font-weight="bold" fill="#f0a500" text-anchor="middle">?</text>
-    <!-- Exclamation mark -->
-    <text x="60" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="420" font-weight="bold" fill="#f0a500" text-anchor="middle">!</text>
-  </g>
-</svg>
