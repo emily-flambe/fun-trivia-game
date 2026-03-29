@@ -76,6 +76,18 @@ function postJsonAuth(path: string, body: unknown) {
 	});
 }
 
+function putJsonAuth(path: string, body: unknown) {
+	return makeAuthRequest(path, {
+		method: 'PUT',
+		headers: { 'Content-Type': 'application/json', 'cookie': AUTH_COOKIE },
+		body: JSON.stringify(body),
+	});
+}
+
+function deleteAuth(path: string) {
+	return makeAuthRequest(path, { method: 'DELETE' });
+}
+
 describe('Trivia API', () => {
 	beforeAll(async () => {
 		await seedTestData((env as any).DB);
@@ -1279,6 +1291,231 @@ describe('Trivia API', () => {
 			// When the item row is missing, itemId is used as prompt fallback
 			expect(data.items[0].prompt).toBe('deleted-item');
 			expect(data.items[0].correctAnswer).toBe('unknown');
+		});
+	});
+
+	describe('Admin API', () => {
+		describe('auth gating', () => {
+			it('returns 403 for unauthenticated requests', async () => {
+				const res = await makeRequest('/api/admin/content-health');
+				expect(res.status).toBe(403);
+			});
+
+			it('returns 403 for authenticated non-admin user', async () => {
+				// Use a different email that's not in the admin list
+				const res = await makeRequest('/api/admin/content-health', {
+					headers: { 'cookie': 'CF_Test_Auth=notadmin@example.com' },
+				});
+				expect(res.status).toBe(403);
+			});
+		});
+
+		describe('POST /api/admin/exercises', () => {
+			it('creates a new exercise', async () => {
+				const res = await postJsonAuth('/api/admin/exercises', {
+					id: 'science/chemistry/test-exercise',
+					nodeId: 'science/chemistry',
+					name: 'Test Exercise',
+					format: 'text-entry',
+				});
+				expect(res.status).toBe(201);
+				const data = await res.json<any>();
+				expect(data.id).toBe('science/chemistry/test-exercise');
+				expect(data.name).toBe('Test Exercise');
+				expect(data.format).toBe('text-entry');
+			});
+
+			it('creates exercise with items', async () => {
+				const res = await postJsonAuth('/api/admin/exercises', {
+					id: 'science/chemistry/with-items',
+					nodeId: 'science/chemistry',
+					name: 'With Items',
+					format: 'text-entry',
+					items: [
+						{ id: 'q1', answer: 'Hydrogen', data: { prompt: 'Element 1?' } },
+						{ id: 'q2', answer: 'Helium', data: { prompt: 'Element 2?' } },
+					],
+				});
+				expect(res.status).toBe(201);
+				const data = await res.json<any>();
+				expect(data.itemCount).toBe(2);
+			});
+
+			it('returns 400 for missing required fields', async () => {
+				const res = await postJsonAuth('/api/admin/exercises', {
+					id: 'test',
+					name: 'Missing nodeId and format',
+				});
+				expect(res.status).toBe(400);
+			});
+		});
+
+		describe('PUT /api/admin/exercises/:id', () => {
+			it('updates exercise metadata', async () => {
+				const res = await putJsonAuth('/api/admin/exercises/science/chemistry/test-exercise', {
+					name: 'Updated Name',
+					description: 'New description',
+				});
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.name).toBe('Updated Name');
+				expect(data.description).toBe('New description');
+			});
+
+			it('returns 404 for non-existent exercise', async () => {
+				const res = await putJsonAuth('/api/admin/exercises/does/not/exist', {
+					name: 'Nope',
+				});
+				expect(res.status).toBe(404);
+			});
+		});
+
+		describe('DELETE /api/admin/exercises/:id', () => {
+			it('deletes an exercise', async () => {
+				// Create one to delete
+				await postJsonAuth('/api/admin/exercises', {
+					id: 'science/chemistry/to-delete',
+					nodeId: 'science/chemistry',
+					name: 'To Delete',
+					format: 'text-entry',
+				});
+				const res = await deleteAuth('/api/admin/exercises/science/chemistry/to-delete');
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.deleted).toBe(true);
+			});
+
+			it('returns 404 for non-existent exercise', async () => {
+				const res = await deleteAuth('/api/admin/exercises/does/not/exist');
+				expect(res.status).toBe(404);
+			});
+		});
+
+		describe('POST /api/admin/exercises/:id/items', () => {
+			it('bulk upserts items', async () => {
+				const res = await postJsonAuth('/api/admin/exercises/science/chemistry/element-symbols/items', {
+					items: [
+						{ id: 'copper', answer: 'Copper', explanation: 'Cu from Latin cuprum.', data: { prompt: 'What element has the symbol Cu?' } },
+					],
+				});
+				expect(res.status).toBe(201);
+				const data = await res.json<any>();
+				expect(data.items.length).toBeGreaterThanOrEqual(4); // 3 original + 1 new
+			});
+
+			it('returns 400 for missing items array', async () => {
+				const res = await postJsonAuth('/api/admin/exercises/science/chemistry/element-symbols/items', {
+					notItems: [],
+				});
+				expect(res.status).toBe(400);
+			});
+
+			it('returns 404 for non-existent exercise', async () => {
+				const res = await postJsonAuth('/api/admin/exercises/does/not/exist/items', {
+					items: [{ id: 'q1', answer: 'A' }],
+				});
+				expect(res.status).toBe(404);
+			});
+		});
+
+		describe('PUT /api/admin/exercises/:exerciseId/items/:itemId', () => {
+			it('updates a single item', async () => {
+				const res = await putJsonAuth('/api/admin/exercises/science/chemistry/element-symbols/items/iron', {
+					explanation: 'Updated explanation for iron.',
+				});
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.explanation).toBe('Updated explanation for iron.');
+				expect(data.id).toBe('iron');
+			});
+
+			it('returns 404 for non-existent item', async () => {
+				const res = await putJsonAuth('/api/admin/exercises/science/chemistry/element-symbols/items/doesnotexist', {
+					explanation: 'Nope',
+				});
+				expect(res.status).toBe(404);
+			});
+		});
+
+		describe('DELETE /api/admin/exercises/:exerciseId/items/:itemId', () => {
+			it('deletes an item', async () => {
+				// First add an item to delete
+				await postJsonAuth('/api/admin/exercises/science/chemistry/element-symbols/items', {
+					items: [{ id: 'to-delete-item', answer: 'Tungsten', data: { prompt: 'W?' } }],
+				});
+				const res = await deleteAuth('/api/admin/exercises/science/chemistry/element-symbols/items/to-delete-item');
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.deleted).toBe(true);
+			});
+
+			it('returns 404 for non-existent item', async () => {
+				const res = await deleteAuth('/api/admin/exercises/science/chemistry/element-symbols/items/doesnotexist');
+				expect(res.status).toBe(404);
+			});
+		});
+
+		describe('POST /api/admin/nodes', () => {
+			it('upserts a new node', async () => {
+				const res = await postJsonAuth('/api/admin/nodes', {
+					id: 'science/physics',
+					parentId: 'science',
+					name: 'Physics',
+					description: 'Study of matter and energy',
+				});
+				expect(res.status).toBe(201);
+				const data = await res.json<any>();
+				expect(data.id).toBe('science/physics');
+				expect(data.name).toBe('Physics');
+			});
+
+			it('returns 400 for missing required fields', async () => {
+				const res = await postJsonAuth('/api/admin/nodes', {
+					id: 'test',
+				});
+				expect(res.status).toBe(400);
+			});
+		});
+
+		describe('GET /api/admin/export/:exerciseId', () => {
+			it('exports a single exercise in seed format', async () => {
+				const res = await makeAuthRequest('/api/admin/export/science/chemistry/element-symbols');
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.nodes).toBeDefined();
+				expect(data.exercises).toBeDefined();
+				expect(data.exercises.length).toBe(1);
+				expect(data.exercises[0].id).toBe('science/chemistry/element-symbols');
+			});
+
+			it('returns 404 for non-existent exercise', async () => {
+				const res = await makeAuthRequest('/api/admin/export/does/not/exist');
+				expect(res.status).toBe(404);
+			});
+		});
+
+		describe('GET /api/admin/export', () => {
+			it('exports all content', async () => {
+				const res = await makeAuthRequest('/api/admin/export');
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.nodes).toBeDefined();
+				expect(data.exercises).toBeDefined();
+				expect(data.nodes.length).toBeGreaterThan(0);
+				expect(data.exercises.length).toBeGreaterThan(0);
+			});
+		});
+
+		describe('GET /api/admin/content-health', () => {
+			it('returns content health report', async () => {
+				const res = await makeAuthRequest('/api/admin/content-health');
+				expect(res.status).toBe(200);
+				const data = await res.json<any>();
+				expect(data.totalNodes).toBeGreaterThan(0);
+				expect(data.totalExercises).toBeGreaterThan(0);
+				expect(data.totalItems).toBeGreaterThan(0);
+				expect(Array.isArray(data.issues)).toBe(true);
+			});
 		});
 	});
 });
