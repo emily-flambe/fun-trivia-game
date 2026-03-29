@@ -1166,4 +1166,119 @@ describe('Trivia API', () => {
 			expect(data.items.length).toBeLessThanOrEqual(3);
 		});
 	});
+
+	// ─── Quiz Results: GET /api/quiz-results/:id ─────────────
+
+	describe('GET /api/quiz-results/:id', () => {
+		beforeAll(async () => {
+			await makeAuthRequest('/api/auth/me');
+		});
+
+		it('returns 401 without auth', async () => {
+			const res = await makeRequest('/api/quiz-results/some-id');
+			expect(res.status).toBe(401);
+		});
+
+		it('returns 404 for a result that does not exist', async () => {
+			const res = await makeAuthRequest('/api/quiz-results/nonexistent-id');
+			expect(res.status).toBe(404);
+			const data = await res.json<any>();
+			expect(data.error).toBeDefined();
+		});
+
+		it('returns full detail with enriched items when called on a valid result', async () => {
+			// Create a quiz result first
+			const postRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 2,
+				total: 3,
+				itemsDetail: [
+					{ itemId: 'iron', correct: true, userAnswer: 'Iron', fuzzyMatch: false },
+					{ itemId: 'gold', correct: true, userAnswer: 'Gold', fuzzyMatch: false },
+					{ itemId: 'silver', correct: false, userAnswer: 'Tin', fuzzyMatch: false },
+				],
+			});
+			expect(postRes.status).toBe(201);
+			const posted = await postRes.json<any>();
+			const resultId = posted.id;
+
+			const res = await makeAuthRequest(`/api/quiz-results/${resultId}`);
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+
+			expect(data.id).toBe(resultId);
+			expect(data.exerciseId).toBe('science/chemistry/element-symbols');
+			expect(data.exerciseName).toBe('Element Symbols');
+			expect(data.format).toBe('text-entry');
+			expect(data.score).toBe(2);
+			expect(data.total).toBe(3);
+			expect(Array.isArray(data.items)).toBe(true);
+			expect(data.items).toHaveLength(3);
+
+			const iron = data.items.find((i: any) => i.itemId === 'iron');
+			expect(iron).toBeDefined();
+			expect(iron.prompt).toBe('What element has the symbol Fe?');
+			expect(iron.correctAnswer).toBe('Iron');
+			expect(iron.userAnswer).toBe('Iron');
+			expect(iron.correct).toBe(true);
+			expect(iron.fuzzyMatch).toBe(false);
+
+			const silver = data.items.find((i: any) => i.itemId === 'silver');
+			expect(silver).toBeDefined();
+			expect(silver.prompt).toBe('What element has the symbol Ag?');
+			expect(silver.correctAnswer).toBe('Silver');
+			expect(silver.userAnswer).toBe('Tin');
+			expect(silver.correct).toBe(false);
+		});
+
+		it('returns items: [] when itemsDetail is empty', async () => {
+			const postRes = await postJsonAuth('/api/quiz-results', {
+				exerciseId: 'science/chemistry/element-symbols',
+				exerciseName: 'Element Symbols',
+				format: 'text-entry',
+				score: 0,
+				total: 0,
+			});
+			expect(postRes.status).toBe(201);
+			const posted = await postRes.json<any>();
+
+			const res = await makeAuthRequest(`/api/quiz-results/${posted.id}`);
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.items).toEqual([]);
+		});
+
+		it('handles missing items gracefully (uses itemId as prompt fallback)', async () => {
+			// Insert a quiz result that references a non-existent item ID.
+			// We need the actual user ID (not the seeded 'test-user-id', since the race
+			// condition test deletes and re-creates the user with a new UUID).
+			const meRes = await makeAuthRequest('/api/auth/me');
+			const meData = await meRes.json<any>();
+			const userId = meData.userId;
+
+			const db = (env as any).DB as D1Database;
+			const fakeId = 'fake-result-' + Date.now();
+			const now = new Date().toISOString();
+			const itemsDetailJson = JSON.stringify([
+				{ itemId: 'deleted-item', correct: false, userAnswer: '', fuzzyMatch: false },
+			]);
+			await db
+				.prepare(
+					`INSERT INTO quiz_results (id, user_id, exercise_id, exercise_name, format, score, total, duration_seconds, items_detail, completed_at)
+					 VALUES (?, ?, 'science/chemistry/element-symbols', 'Element Symbols', 'text-entry', 0, 1, NULL, ?, ?)`
+				)
+				.bind(fakeId, userId, itemsDetailJson, now)
+				.run();
+
+			const res = await makeAuthRequest(`/api/quiz-results/${fakeId}`);
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.items).toHaveLength(1);
+			// When the item row is missing, itemId is used as prompt fallback
+			expect(data.items[0].prompt).toBe('deleted-item');
+			expect(data.items[0].correctAnswer).toBe('unknown');
+		});
+	});
 });

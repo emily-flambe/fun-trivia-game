@@ -103,6 +103,28 @@ export interface QuizItemResult {
   fuzzyMatch: boolean;
 }
 
+// === Quiz result detail ===
+
+export interface QuizResultDetailItem {
+  itemId: string;
+  prompt: string;
+  correctAnswer: string;
+  userAnswer: string;
+  correct: boolean;
+  fuzzyMatch: boolean;
+}
+
+export interface QuizResultDetail {
+  id: string;
+  exerciseId: string;
+  exerciseName: string;
+  score: number;
+  total: number;
+  format: string;
+  completedAt: string;
+  items: QuizResultDetailItem[];
+}
+
 // === Learned League categories ===
 
 export interface LLCategory {

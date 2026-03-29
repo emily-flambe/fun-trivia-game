@@ -4,9 +4,11 @@ import {
 	getUserStats,
 	getQuizResults,
 	getCategoryStats,
+	getQuizResultDetail,
 	type UserStats,
 	type QuizResultResponse,
 	type CategoryStat,
+	type QuizResultDetail,
 } from '../lib/api';
 import { LL_CATEGORIES } from '../../data/types';
 
@@ -250,6 +252,9 @@ function ActivityTab() {
 	const [results, setResults] = useState<QuizResultResponse[]>([]);
 	const [totalResults, setTotalResults] = useState(0);
 	const [loading, setLoading] = useState(true);
+	const [expandedId, setExpandedId] = useState<string | null>(null);
+	const [detailCache, setDetailCache] = useState<Record<string, QuizResultDetail>>({});
+	const [detailLoading, setDetailLoading] = useState<string | null>(null);
 
 	useEffect(() => {
 		if (!auth.authenticated) return;
@@ -270,6 +275,20 @@ function ActivityTab() {
 			.catch(() => {});
 	}
 
+	function handleCardClick(resultId: string) {
+		if (expandedId === resultId) {
+			setExpandedId(null);
+			return;
+		}
+		setExpandedId(resultId);
+		if (detailCache[resultId]) return;
+		setDetailLoading(resultId);
+		getQuizResultDetail(resultId)
+			.then((detail) => setDetailCache((prev) => ({ ...prev, [resultId]: detail })))
+			.catch(() => {})
+			.finally(() => setDetailLoading(null));
+	}
+
 	if (results.length === 0) {
 		return (
 			<div className="animate-in bg-surface-raised rounded-2xl p-8 text-center">
@@ -283,23 +302,44 @@ function ActivityTab() {
 		<div className="animate-in space-y-3">
 			{results.map((r) => {
 				const isEndless = r.exerciseId === 'endless';
-				const href = isEndless ? '#/endless' : `#/exercise/${r.exerciseId}?mode=quiz`;
 				const formatLabel = isEndless ? 'Endless' : r.format === 'fill-blanks' ? 'Fill in the Blanks' : 'Text Entry';
+				const isExpanded = expandedId === r.id;
+				const detail = detailCache[r.id] ?? null;
+				const isLoadingDetail = detailLoading === r.id;
+
 				return (
-					<a
-						key={r.id}
-						href={href}
-						className="block bg-surface-raised rounded-xl p-4 hover:bg-surface-hover transition-all duration-200 group"
-					>
-						<div className="flex items-center justify-between mb-1">
-							<span className="font-medium group-hover:text-accent transition-colors">{r.exerciseName}</span>
-							<span className="text-sm font-semibold text-accent">{r.score}/{r.total}</span>
-						</div>
-						<div className="flex items-center justify-between text-sm text-text-tertiary">
-							<span>{formatLabel}</span>
-							<span>{formatDate(r.completedAt)}</span>
-						</div>
-					</a>
+					<div key={r.id} className="bg-surface-raised rounded-xl overflow-hidden">
+						<button
+							onClick={() => handleCardClick(r.id)}
+							className="w-full text-left p-4 hover:bg-surface-hover transition-all duration-200 group"
+						>
+							<div className="flex items-center justify-between mb-1">
+								<span className="font-medium group-hover:text-accent transition-colors">{r.exerciseName}</span>
+								<div className="flex items-center gap-2 shrink-0 ml-3">
+									<span className="text-sm font-semibold text-accent">{r.score}/{r.total}</span>
+									<span className={`text-text-tertiary transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}>
+										&#8964;
+									</span>
+								</div>
+							</div>
+							<div className="flex items-center justify-between text-sm text-text-tertiary">
+								<span>{formatLabel}</span>
+								<span>{formatDate(r.completedAt)}</span>
+							</div>
+						</button>
+
+						{isExpanded && (
+							<div className="border-t border-border-subtle px-4 pb-4 pt-3">
+								{isLoadingDetail ? (
+									<p className="text-sm text-text-tertiary text-center py-4">Loading...</p>
+								) : detail ? (
+									<ActivityDetail detail={detail} />
+								) : (
+									<p className="text-sm text-text-tertiary text-center py-4">Failed to load details.</p>
+								)}
+							</div>
+						)}
+					</div>
 				);
 			})}
 			{results.length < totalResults && (
@@ -310,6 +350,45 @@ function ActivityTab() {
 					Load more
 				</button>
 			)}
+		</div>
+	);
+}
+
+function ActivityDetail({ detail }: { detail: QuizResultDetail }) {
+	return (
+		<div className="space-y-1">
+			{detail.items.map((item) => {
+				const missed = detail.format === 'fill-blanks' && !item.userAnswer;
+				return (
+					<div
+						key={item.itemId}
+						className="grid grid-cols-[1fr_auto] gap-x-3 gap-y-0.5 py-2 border-b border-border-subtle last:border-0"
+					>
+						<div className="min-w-0">
+							<p className="text-sm font-medium truncate">{item.prompt}</p>
+							<p className="text-xs text-text-tertiary truncate">
+								<span className="text-text-secondary">Answer:</span> {item.correctAnswer}
+							</p>
+							{missed ? (
+								<p className="text-xs text-text-tertiary italic">Not answered</p>
+							) : (
+								<p className="text-xs text-text-tertiary truncate">
+									<span className="text-text-secondary">You said:</span> {item.userAnswer || <span className="italic">blank</span>}
+								</p>
+							)}
+						</div>
+						<div className="flex items-center">
+							{missed ? (
+								<span className="text-base font-bold text-red-400">&#x2715;</span>
+							) : item.correct ? (
+								<span className="text-base font-bold text-green-400">&#x2713;</span>
+							) : (
+								<span className="text-base font-bold text-red-400">&#x2715;</span>
+							)}
+						</div>
+					</div>
+				);
+			})}
 		</div>
 	);
 }
