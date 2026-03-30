@@ -62,6 +62,41 @@ The `data` JSON contains format-specific fields:
 - **fill-blanks items**: `{ "label": "Category label" }` (optional grouping)
 - `cardFront`/`cardBack` are optional on any format — they control the Learn mode flashcard display.
 
+### `users` — Authenticated users
+
+```sql
+CREATE TABLE users (
+  id TEXT PRIMARY KEY,
+  email TEXT NOT NULL,
+  display_name TEXT DEFAULT '',
+  preferences TEXT DEFAULT '{}',  -- JSON user preferences
+  created_at TEXT NOT NULL,
+  last_seen_at TEXT NOT NULL
+);
+CREATE INDEX idx_users_email ON users(email);
+```
+
+### `quiz_results` — Quiz completion log
+
+```sql
+CREATE TABLE quiz_results (
+  id TEXT PRIMARY KEY,
+  user_id TEXT NOT NULL,         -- references users(id)
+  exercise_id TEXT NOT NULL,
+  exercise_name TEXT NOT NULL,
+  format TEXT NOT NULL,          -- 'text-entry' or 'fill-blanks'
+  score INTEGER NOT NULL,
+  total INTEGER NOT NULL,
+  duration_seconds INTEGER,
+  items_detail TEXT DEFAULT '[]', -- JSON array of per-item results
+  completed_at TEXT NOT NULL,
+  is_retry INTEGER NOT NULL DEFAULT 0,
+  parent_result_id TEXT          -- references quiz_results(id) for retries
+);
+CREATE INDEX idx_quiz_results_user ON quiz_results(user_id);
+CREATE INDEX idx_quiz_results_completed ON quiz_results(completed_at);
+```
+
 ## Content Pipeline
 
 ### Authoring (seed files)
