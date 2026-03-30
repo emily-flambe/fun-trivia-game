@@ -166,6 +166,8 @@ Every item must have at least one Wikipedia link in its `links` array. See `docs
 
 For fill-blanks exercises, add `"config": { "ordered": false, "prompt": "Name all X..." }` to the exercise, and items don't need `prompt`.
 
+For text-entry exercises with all items visible at once (paired associations like state/capital), add `"config": { "showAll": true }` to the exercise. Items use the same format — `prompt` is the label shown next to the blank.
+
 Root category nodes are in `seeds/_categories.json` (18 Learned League categories).
 
 ## D1 Database
@@ -222,7 +224,7 @@ Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explana
 ## Architecture Notes
 
 - **Three-table schema**: nodes (navigation tree), exercises (interactive content), items (atomic facts). Questions are now items with format-specific `data` JSON.
-- **Two exercise formats**: `text-entry` (type answer for each item) and `fill-blanks` (guess all items). Format determines quiz behavior; Learn mode is always a viewing mode.
+- **Two exercise formats**: `text-entry` (type answer for each item) and `fill-blanks` (guess all items). Format determines quiz behavior; Learn mode is always a viewing mode. Text-entry supports a `showAll` config mode that shows all items at once with labeled blanks (for paired associations like state/capital).
 - **Hierarchical nodes**: Categories -> subcategories -> exercises. Node IDs are slash-separated paths (e.g., `science/chemistry`). Breadcrumbs derived by splitting on `/`.
 - **Display types are exercise-level**: `displayType` on exercises selects the Learn mode renderer (cards, periodic-table, map, timeline). Not hardcoded by exercise ID.
 - **MCP is lazy-imported** in the worker (`await import('agents/mcp')`) to avoid breaking vitest-pool-workers. Don't change this to a static import.
