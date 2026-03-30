@@ -173,8 +173,24 @@ Root category nodes are in `seeds/_categories.json` (18 Learned League categorie
 - Name: `trivia-trainer`
 - ID: `f647046c-e114-41ca-9231-7942bdfb8b82`
 - Region: WNAM
-- Tables: `nodes`, `exercises`, `items`
-- Schema: `migrations/0001_schema.sql` through `migrations/0004_redesign.sql`
+- Tables: `nodes`, `exercises`, `items`, `users`, `quiz_results`
+- Schema: `migrations/0001_schema.sql` through `migrations/0006_retry_tracking.sql`
+- Full DDLs: `docs/SCHEMA.sql` — consolidated reference of all CREATE TABLE + indexes
+
+### Key gotcha: `items.data` JSON column
+
+The `items` table does NOT have `prompt`, `cardFront`, `cardBack`, or `links` as top-level columns. These live inside the `data` TEXT column as JSON:
+
+```sql
+-- WRONG: SELECT prompt FROM items
+-- RIGHT: SELECT json_extract(data, '$.prompt') as prompt FROM items
+
+-- To update prompt:
+UPDATE items SET data = json_set(data, '$.prompt', 'New question?')
+  WHERE id = 'item-id' AND exercise_id = 'exercise-id'
+```
+
+Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explanation`, `data`, `sort_order`.
 
 ## Cloudflare Access Auth
 
