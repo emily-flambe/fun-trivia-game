@@ -175,7 +175,7 @@ Root category nodes are in `seeds/_categories.json` (18 Learned League categorie
 - Region: WNAM
 - Tables: `nodes`, `exercises`, `items`, `users`, `quiz_results`
 - Schema: `migrations/0001_schema.sql` through `migrations/0006_retry_tracking.sql`
-- Full DDLs: `docs/DATA_ARCHITECTURE.md`
+- Full DDLs: `docs/SCHEMA.sql` — consolidated reference of all CREATE TABLE + indexes
 
 ### Key gotcha: `items.data` JSON column
 
