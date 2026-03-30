@@ -57,11 +57,47 @@ Update these when the information changes. Create new keys for new topics.
 
 ## Finding Quiz Content
 
-**The D1 database is the source of truth, NOT the seed files.** Many exercises in the deployed DB do not have corresponding seed files in `seeds/`. When looking for content to update or verify, always check the deployed API first:
+**The D1 database is the source of truth, NOT the seed files.** Many exercises in the deployed DB do not have corresponding seed files in `seeds/`. When looking for content to update or verify, always check the deployed API or query D1 directly:
 ```bash
+# Check via public API (answers stripped)
 curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
+
+# Query D1 directly (includes answers and alternates)
+npx wrangler d1 execute trivia-trainer --remote --command "SELECT * FROM items WHERE exercise_id = '<exercise-id>'"
 ```
-Do NOT assume "not in seed files" means "doesn't exist." Check the API.
+Do NOT assume "not in seed files" means "doesn't exist." Check the API or D1.
+
+## Content Admin API (EMI-413)
+
+The admin API is the **primary way to manage content**. Seed files are legacy — use them only for bulk-creating new exercises.
+
+### Admin endpoints (all require auth + admin email)
+
+| Method | Path | Purpose |
+|--------|------|---------|
+| `POST` | `/api/admin/nodes` | Upsert a navigation node |
+| `POST` | `/api/admin/exercises` | Create exercise (optionally with items) |
+| `PUT` | `/api/admin/exercises/:id` | Update exercise fields |
+| `DELETE` | `/api/admin/exercises/:id` | Delete exercise (items cascade) |
+| `POST` | `/api/admin/exercises/:exerciseId/items` | Bulk upsert items |
+| `PUT` | `/api/admin/exercises/:exerciseId/items/:itemId` | Update single item |
+| `DELETE` | `/api/admin/exercises/:exerciseId/items/:itemId` | Delete single item |
+| `GET` | `/api/admin/export` | Export all content in seed format |
+| `GET` | `/api/admin/export/:exerciseId` | Export single exercise |
+| `GET` | `/api/admin/content-health` | Content quality report |
+
+Auth: Cloudflare Access + email in `CF_ADMIN_EMAILS` env var. Non-admins get 403.
+
+Key files: `src/index.ts` (routing), `src/data/admin-repository.ts` (DB ops), `src/data/types.ts` (types).
+
+### Updating content
+
+For small fixes (adding alternates, fixing explanations, correcting answers), update D1 directly:
+```bash
+npx wrangler d1 execute trivia-trainer --remote --command "UPDATE items SET alternates = '[\"alt1\",\"alt2\"]' WHERE id = 'item-id' AND exercise_id = 'exercise-id'"
+```
+
+For new exercises, either use `POST /api/admin/exercises` or create a seed file and run the seed script.
 
 ## Linear Tickets (MANDATORY)
 
@@ -69,17 +105,19 @@ Do NOT assume "not in seed files" means "doesn't exist." Check the API.
 
 | Ticket type | Label | Examples |
 |-------------|-------|----------|
-| Trivia content | `agent:trivia-content` | Seed files, quiz content, exercises, fact corrections |
+| Trivia content | `agent:trivia-content` | Quiz content, exercises, fact corrections |
 | Everything else | `agent:coding-team` | Features, bug fixes, refactors, infra, UI, API, tests, migrations |
 
 - **`agent:trivia-content`** — identifies tickets the trivia content agent (Orca) can pick up autonomously.
 - **`agent:coding-team`** — identifies tickets for coding/engineering work. **If a ticket is NOT about trivia content, it MUST have this label.**
 
-When in doubt: if the work involves writing or editing seed file JSON / quiz items / explanations, use `agent:trivia-content`. For literally everything else (even content-adjacent work like changing how content renders), use `agent:coding-team`.
+When in doubt: if the work involves writing or editing quiz items / explanations, use `agent:trivia-content`. For literally everything else (even content-adjacent work like changing how content renders), use `agent:coding-team`.
 
-## Adding Quiz Content
+## Adding Quiz Content (Seed Files — Legacy)
 
-**Read `docs/CONTENT_GUIDE.md` before writing or modifying seed files.** It defines explanation standards, format selection, card design, and all content conventions.
+**Read `docs/CONTENT_GUIDE.md` before writing or modifying content.** It defines explanation standards, format selection, card design, and all content conventions.
+
+Seed files are still useful for **bulk-creating new exercises** but are not the source of truth. For small updates, use the admin API or D1 directly (see above).
 
 1. Create a JSON file in `seeds/` following the format below
 2. Run `node scripts/seed.mjs --local` to test locally
@@ -135,8 +173,24 @@ Root category nodes are in `seeds/_categories.json` (18 Learned League categorie
 - Name: `trivia-trainer`
 - ID: `f647046c-e114-41ca-9231-7942bdfb8b82`
 - Region: WNAM
-- Tables: `nodes`, `exercises`, `items`
-- Schema: `migrations/0001_schema.sql` through `migrations/0004_redesign.sql`
+- Tables: `nodes`, `exercises`, `items`, `users`, `quiz_results`
+- Schema: `migrations/0001_schema.sql` through `migrations/0006_retry_tracking.sql`
+- Full DDLs: `docs/SCHEMA.sql` — consolidated reference of all CREATE TABLE + indexes
+
+### Key gotcha: `items.data` JSON column
+
+The `items` table does NOT have `prompt`, `cardFront`, `cardBack`, or `links` as top-level columns. These live inside the `data` TEXT column as JSON:
+
+```sql
+-- WRONG: SELECT prompt FROM items
+-- RIGHT: SELECT json_extract(data, '$.prompt') as prompt FROM items
+
+-- To update prompt:
+UPDATE items SET data = json_set(data, '$.prompt', 'New question?')
+  WHERE id = 'item-id' AND exercise_id = 'exercise-id'
+```
+
+Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explanation`, `data`, `sort_order`.
 
 ## Cloudflare Access Auth
 

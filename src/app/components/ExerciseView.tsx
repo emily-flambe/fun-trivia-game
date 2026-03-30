@@ -3,6 +3,7 @@ import { getExercise, getNode, type ExerciseDetail, type NodeDetail } from '../l
 import { LearnGrid } from './LearnGrid';
 import { PeriodicTable } from './PeriodicTable';
 import { TextEntryQuiz } from './TextEntryQuiz';
+import { TextEntryGridQuiz } from './TextEntryGridQuiz';
 import { FillBlanksQuiz } from './FillBlanksQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
@@ -71,6 +72,10 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 
 	if (exercise.format === 'fill-blanks') {
 		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
+	}
+
+	if (exercise.config?.showAll) {
+		return <TextEntryGridQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 
 	return <TextEntryQuiz exercise={exercise} items={items} exercisePath={path} mode={mode} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
