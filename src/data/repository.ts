@@ -1,4 +1,4 @@
-import type { Node, Exercise, ExerciseFormat, DisplayType, FillBlanksConfig, Item } from './types';
+import type { Node, Exercise, ExerciseFormat, DisplayType, ExerciseConfig, Item } from './types';
 
 // === DB row interfaces ===
 
@@ -66,7 +66,7 @@ export function mapExercise(row: ExerciseRow): Exercise {
 		exercise.displayType = row.display_type as DisplayType;
 	}
 	if (row.config) {
-		exercise.config = JSON.parse(row.config) as FillBlanksConfig;
+		exercise.config = JSON.parse(row.config) as ExerciseConfig;
 	}
 	if (row.item_count !== undefined) {
 		exercise.itemCount = row.item_count;

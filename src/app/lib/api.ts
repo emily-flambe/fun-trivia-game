@@ -19,7 +19,7 @@ export interface ExerciseSummary {
 	description: string;
 	format: string;
 	displayType?: string;
-	config?: { ordered?: boolean; prompt?: string };
+	config?: { ordered?: boolean; prompt?: string; showAll?: boolean };
 	sortOrder: number;
 	itemCount?: number;
 }

@@ -22,7 +22,7 @@ export interface Exercise {
   description: string;
   format: ExerciseFormat;
   displayType?: DisplayType;
-  config?: FillBlanksConfig;
+  config?: ExerciseConfig;
   sortOrder: number;
   itemCount?: number;
 }
@@ -31,6 +31,12 @@ export interface FillBlanksConfig {
   ordered: boolean;
   prompt: string;
 }
+
+export interface TextEntryConfig {
+  showAll: boolean;
+}
+
+export type ExerciseConfig = FillBlanksConfig | TextEntryConfig;
 
 export interface Item {
   id: string;
@@ -149,7 +155,7 @@ export interface CreateExerciseInput {
   description?: string;
   format: ExerciseFormat;
   displayType?: DisplayType;
-  config?: FillBlanksConfig;
+  config?: ExerciseConfig;
   sortOrder?: number;
   items?: CreateItemInput[];
 }
@@ -159,7 +165,7 @@ export interface UpdateExerciseInput {
   description?: string;
   format?: ExerciseFormat;
   displayType?: DisplayType;
-  config?: FillBlanksConfig | null;
+  config?: ExerciseConfig | null;
   sortOrder?: number;
 }
 
