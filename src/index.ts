@@ -73,6 +73,13 @@ async function getRequestUser(request: Request, env: Env): Promise<User | null> 
 }
 
 async function isAdmin(request: Request, env: Env): Promise<string | null> {
+	// Test bypass (local dev only)
+	if (env.CF_ACCESS_TEST_EMAIL) {
+		const testCookie = getCookie(request, 'CF_Test_Auth');
+		if (testCookie === env.CF_ACCESS_TEST_EMAIL) return env.CF_ACCESS_TEST_EMAIL;
+		return null;
+	}
+
 	if (!env.CF_ACCESS_TEAM_DOMAIN || !env.CF_ACCESS_AUD) return null;
 	const { getAuthUser } = await import('./lib/auth');
 	const user = await getAuthUser(request, env.CF_ACCESS_TEAM_DOMAIN, env.CF_ACCESS_AUD);
