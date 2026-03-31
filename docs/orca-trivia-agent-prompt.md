@@ -58,18 +58,17 @@ Execute these steps in order for every content creation request.
 
 #### Authentication
 
-The admin API requires Cloudflare Access service token headers on every request. Read the service token credentials from the repo's `.dev.vars` file (in the main repo, not the worktree):
+The admin API requires a bearer token. Read the API key from the repo's `.dev.vars` file (in the main repo, not the worktree):
 
 ```bash
-# Read credentials from the main repo
-cat /c/Users/emily/Documents/Github/fun-trivia-game/.dev.vars
+# Read the API key from the main repo
+grep ADMIN_API_KEY /c/Users/emily/Documents/Github/fun-trivia-game/.dev.vars
 ```
 
-Extract `CF_ACCESS_CLIENT_ID` and `CF_ACCESS_CLIENT_SECRET`, then include these headers on every API call:
+Include this header on every API call:
 
 ```
-CF-Access-Client-Id: <client_id>
-CF-Access-Client-Secret: <client_secret>
+Authorization: Bearer <ADMIN_API_KEY value>
 ```
 
 Base URL: `https://trivia.emilycogsdill.com`
@@ -80,7 +79,7 @@ Base URL: `https://trivia.emilycogsdill.com`
 
 2. **Check for duplicates.** Fetch existing content via the export endpoint:
    ```bash
-   curl -s -H "CF-Access-Client-Id: $CLIENT_ID" -H "CF-Access-Client-Secret: $CLIENT_SECRET" \
+   curl -s -H "Authorization: Bearer $ADMIN_API_KEY" \
      https://trivia.emilycogsdill.com/api/admin/export | jq '.exercises[].id'
    ```
    Compare against existing exercise IDs. Check your memory for prior coverage notes. If the topic already exists, either expand it (add items to the existing exercise) or pick an adjacent uncovered topic that matches the spirit of the request.
@@ -98,7 +97,7 @@ Base URL: `https://trivia.emilycogsdill.com`
 8. **Create nodes.** POST each node (category/subcategory) to the admin API. Nodes use INSERT OR IGNORE, so duplicates are harmless:
    ```bash
    curl -s -X POST -H "Content-Type: application/json" \
-     -H "CF-Access-Client-Id: $CLIENT_ID" -H "CF-Access-Client-Secret: $CLIENT_SECRET" \
+     -H "Authorization: Bearer $ADMIN_API_KEY" \
      -d '{"id":"category/subcategory","parentId":"category","name":"Display Name","description":"Short description"}' \
      https://trivia.emilycogsdill.com/api/admin/nodes
    ```
@@ -106,7 +105,7 @@ Base URL: `https://trivia.emilycogsdill.com`
 9. **Create exercise with items.** POST the exercise (optionally including items inline):
    ```bash
    curl -s -X POST -H "Content-Type: application/json" \
-     -H "CF-Access-Client-Id: $CLIENT_ID" -H "CF-Access-Client-Secret: $CLIENT_SECRET" \
+     -H "Authorization: Bearer $ADMIN_API_KEY" \
      -d '{
        "id": "category/subcategory/exercise-slug",
        "nodeId": "category/subcategory",
@@ -132,7 +131,7 @@ Base URL: `https://trivia.emilycogsdill.com`
 
 10. **Verify.** Fetch the created content back and confirm it matches expectations:
     ```bash
-    curl -s -H "CF-Access-Client-Id: $CLIENT_ID" -H "CF-Access-Client-Secret: $CLIENT_SECRET" \
+    curl -s -H "Authorization: Bearer $ADMIN_API_KEY" \
       https://trivia.emilycogsdill.com/api/admin/export/category/subcategory/exercise-slug
     ```
 
@@ -564,8 +563,8 @@ If the admin API returns an error:
 - Check for duplicate item IDs within the exercise
 
 **HTTP 403 (Admin access required):**
-- Re-read `.dev.vars` for the service token credentials
-- Verify `CF-Access-Client-Id` and `CF-Access-Client-Secret` headers are set correctly
+- Re-read `.dev.vars` for the `ADMIN_API_KEY` value
+- Verify the `Authorization: Bearer <key>` header is set correctly
 
 **HTTP 404 (Not found):**
 - When POSTing items, verify the exercise was created first
