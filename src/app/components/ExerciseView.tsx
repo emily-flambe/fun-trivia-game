@@ -57,6 +57,12 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 					</div>
 					<div className="flex items-center gap-2 mb-6 justify-end">
 						<a
+							href={`#/exercise/${path}?mode=grid`}
+							className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+						>
+							Grid Quiz
+						</a>
+						<a
 							href={`#/exercise/${path}?mode=quiz`}
 							className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
 						>
@@ -74,7 +80,7 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 
-	if (exercise.config?.showAll) {
+	if (mode === 'grid') {
 		return <TextEntryGridQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 

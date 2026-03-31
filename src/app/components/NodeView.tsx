@@ -93,6 +93,14 @@ export function NodeView({ path }: { path: string }) {
 									>
 										Quiz
 									</a>
+									{ex.format === 'text-entry' && (
+										<a
+											href={`#/exercise/${ex.id}?mode=grid`}
+											className="text-sm px-3.5 py-1.5 rounded-lg font-medium transition-all duration-200 bg-surface-bright hover:bg-surface-hover text-text-secondary border border-border-subtle"
+										>
+											Grid
+										</a>
+									)}
 								</div>
 							</div>
 						))}
