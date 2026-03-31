@@ -206,7 +206,7 @@ export function Sidebar({ activePath, activeType, activeMode, isOpen, onClose }:
 			items.push(renderModeLink(ex, 'learn', 'Study', modeDepth));
 			items.push(renderModeLink(ex, 'quiz', 'Quiz', modeDepth));
 			if (ex.format === 'text-entry') {
-				items.push(renderModeLink(ex, 'grid', 'Grid', modeDepth));
+				items.push(renderModeLink(ex, 'grid', 'List', modeDepth));
 			}
 			return items;
 		});
@@ -222,10 +222,7 @@ export function Sidebar({ activePath, activeType, activeMode, isOpen, onClose }:
 			</svg>
 		) : mode === 'grid' ? (
 			<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
-				<rect x="2" y="2" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
-				<rect x="9" y="2" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
-				<rect x="2" y="9" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
-				<rect x="9" y="9" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
+				<path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
 			</svg>
 		) : (
 			<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
