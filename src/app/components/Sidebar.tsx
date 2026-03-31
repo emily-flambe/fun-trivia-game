@@ -205,13 +205,33 @@ export function Sidebar({ activePath, activeType, activeMode, isOpen, onClose }:
 
 			items.push(renderModeLink(ex, 'learn', 'Study', modeDepth));
 			items.push(renderModeLink(ex, 'quiz', 'Quiz', modeDepth));
+			if (ex.format === 'text-entry') {
+				items.push(renderModeLink(ex, 'grid', 'Grid', modeDepth));
+			}
 			return items;
 		});
 	}
 
 	function renderModeLink(ex: ExerciseSummary, mode: string, label: string, depth: number) {
 		const isActive = activePath === ex.id && activeType === 'exercise' && activeMode === mode;
-		const isStudy = mode === 'learn';
+
+		const icon = mode === 'learn' ? (
+			<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
+				<path d="M2 3h5l1 1 1-1h5v10h-5l-1 1-1-1H2V3z" stroke="currentColor" strokeWidth="1.2" />
+				<path d="M8 4v10" stroke="currentColor" strokeWidth="1" />
+			</svg>
+		) : mode === 'grid' ? (
+			<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
+				<rect x="2" y="2" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
+				<rect x="9" y="2" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
+				<rect x="2" y="9" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
+				<rect x="9" y="9" width="5" height="5" rx="0.5" stroke="currentColor" strokeWidth="1.2" />
+			</svg>
+		) : (
+			<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
+				<path d="M11.5 2.5l2 2-8 8H3.5v-2l8-8z" stroke="currentColor" strokeWidth="1.2" />
+			</svg>
+		);
 
 		return (
 			<li key={`${ex.id}-${mode}`} role="treeitem">
@@ -225,16 +245,7 @@ export function Sidebar({ activePath, activeType, activeMode, isOpen, onClose }:
 					}`}
 					style={{ paddingLeft: `${depth * 12 + 30}px` }}
 				>
-					{isStudy ? (
-						<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
-							<path d="M2 3h5l1 1 1-1h5v10h-5l-1 1-1-1H2V3z" stroke="currentColor" strokeWidth="1.2" />
-							<path d="M8 4v10" stroke="currentColor" strokeWidth="1" />
-						</svg>
-					) : (
-						<svg className="w-3 h-3 shrink-0 opacity-50" viewBox="0 0 16 16" fill="none">
-							<path d="M11.5 2.5l2 2-8 8H3.5v-2l8-8z" stroke="currentColor" strokeWidth="1.2" />
-						</svg>
-					)}
+					{icon}
 					<span>{label}</span>
 				</a>
 			</li>
