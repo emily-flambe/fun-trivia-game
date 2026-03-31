@@ -270,7 +270,7 @@ export function TextEntryGridQuiz({ exercise, items, exercisePath, nextExerciseP
 													return next;
 												})}
 												className="w-full bg-transparent border-0 border-b-2 border-border-default text-sm sm:text-base text-text-primary placeholder-text-tertiary/40 focus:outline-none focus:border-accent transition-colors py-1 px-0"
-												placeholder="____________"
+												placeholder=""
 												autoComplete="off"
 												disabled={isChecking}
 											/>
