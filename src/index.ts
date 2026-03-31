@@ -73,11 +73,24 @@ async function getRequestUser(request: Request, env: Env): Promise<User | null> 
 }
 
 async function isAdmin(request: Request, env: Env): Promise<string | null> {
-	const email = await getAuthEmail(request, env);
-	if (!email) return null;
+	// Test bypass (local dev only)
+	if (env.CF_ACCESS_TEST_EMAIL) {
+		const testCookie = getCookie(request, 'CF_Test_Auth');
+		if (testCookie === env.CF_ACCESS_TEST_EMAIL) return env.CF_ACCESS_TEST_EMAIL;
+		return null;
+	}
+
+	if (!env.CF_ACCESS_TEAM_DOMAIN || !env.CF_ACCESS_AUD) return null;
+	const { getAuthUser } = await import('./lib/auth');
+	const user = await getAuthUser(request, env.CF_ACCESS_TEAM_DOMAIN, env.CF_ACCESS_AUD);
+	if (!user) return null;
+
+	// Service tokens that pass CF Access policy validation are trusted as admin
+	if (user.isServiceToken) return user.email;
+
 	const adminEmails = (env.CF_ADMIN_EMAILS || 'emily@emilycogsdill.com').split(',').map(e => e.trim().toLowerCase());
-	if (!adminEmails.includes(email.toLowerCase())) return null;
-	return email;
+	if (!adminEmails.includes(user.email.toLowerCase())) return null;
+	return user.email;
 }
 
 async function handleAuthMe(request: Request, url: URL, env: Env): Promise<Response> {
