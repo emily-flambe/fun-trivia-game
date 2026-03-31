@@ -10,6 +10,7 @@ interface Env {
 	CF_ACCESS_AUD: string;
 	CF_ACCESS_TEST_EMAIL?: string; // Set in .dev.vars only — enables local auth bypass
 	CF_ADMIN_EMAILS?: string; // Comma-separated list of admin emails
+	ADMIN_API_KEY?: string; // Shared secret for programmatic admin API access (agents, scripts)
 }
 
 export default {
@@ -78,6 +79,12 @@ async function isAdmin(request: Request, env: Env): Promise<string | null> {
 		const testCookie = getCookie(request, 'CF_Test_Auth');
 		if (testCookie === env.CF_ACCESS_TEST_EMAIL) return env.CF_ACCESS_TEST_EMAIL;
 		return null;
+	}
+
+	// API key bypass for programmatic access (agents, scripts)
+	if (env.ADMIN_API_KEY) {
+		const authHeader = request.headers.get('Authorization');
+		if (authHeader === `Bearer ${env.ADMIN_API_KEY}`) return 'api-key';
 	}
 
 	if (!env.CF_ACCESS_TEAM_DOMAIN || !env.CF_ACCESS_AUD) return null;
