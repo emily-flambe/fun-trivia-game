@@ -166,7 +166,7 @@ Every item must have at least one Wikipedia link in its `links` array. See `docs
 
 For fill-blanks exercises, add `"config": { "ordered": false, "prompt": "Name all X..." }` to the exercise, and items don't need `prompt`.
 
-Text-entry exercises also support a **Grid quiz mode** (`?mode=grid`) that shows all items at once with labeled blanks. Users select this via the "Grid" button in the UI. No config needed — it works on any text-entry exercise.
+Text-entry exercises also support a **List quiz mode** (`?mode=grid`) that shows all items at once with labeled blanks. Users select this via the "List" button in the UI. No config needed — it works on any text-entry exercise.
 
 Root category nodes are in `seeds/_categories.json` (18 Learned League categories).
 
@@ -224,7 +224,7 @@ Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explana
 ## Architecture Notes
 
 - **Three-table schema**: nodes (navigation tree), exercises (interactive content), items (atomic facts). Questions are now items with format-specific `data` JSON.
-- **Two exercise formats**: `text-entry` (type answer for each item) and `fill-blanks` (guess all items). Format determines quiz behavior; Learn mode is always a viewing mode. Text-entry exercises support a Grid quiz mode (`?mode=grid`) that shows all items at once with labeled blanks — available on any text-entry exercise via the UI.
+- **Two exercise formats**: `text-entry` (type answer for each item) and `fill-blanks` (guess all items). Format determines quiz behavior; Learn mode is always a viewing mode. Text-entry exercises support a List quiz mode (`?mode=grid`) that shows all items at once with labeled blanks — available on any text-entry exercise via the UI.
 - **Hierarchical nodes**: Categories -> subcategories -> exercises. Node IDs are slash-separated paths (e.g., `science/chemistry`). Breadcrumbs derived by splitting on `/`.
 - **Display types are exercise-level**: `displayType` on exercises selects the Learn mode renderer (cards, periodic-table, map, timeline). Not hardcoded by exercise ID.
 - **MCP is lazy-imported** in the worker (`await import('agents/mcp')`) to avoid breaking vitest-pool-workers. Don't change this to a static import.
