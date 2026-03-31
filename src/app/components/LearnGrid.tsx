@@ -80,7 +80,7 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 						href={`#/exercise/${exercisePath}?mode=grid`}
 						className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
 					>
-						Grid Quiz
+						List Quiz
 					</a>
 				)}
 				<a

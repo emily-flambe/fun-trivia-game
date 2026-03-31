@@ -60,7 +60,7 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 							href={`#/exercise/${path}?mode=grid`}
 							className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
 						>
-							Grid Quiz
+							List Quiz
 						</a>
 						<a
 							href={`#/exercise/${path}?mode=quiz`}
