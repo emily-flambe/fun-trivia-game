@@ -22,16 +22,16 @@ Learned League players. LL is an invitation-only online trivia league with 18 ca
 | **fill-blanks (unordered)**| "Name all members of a set." Completeness is the challenge. | Name the six noble gases |
 | **fill-blanks (ordered)** | Sequence matters. Position is a testable fact. | Name all U.S. Presidents in order |
 
-**Default to text-entry** unless the exercise is naturally a set or sequence. Text-entry is more flexible: it supports Learn mode, Quiz mode, Grid mode, and Random 10.
+**Default to text-entry** unless the exercise is naturally a set or sequence. Text-entry is more flexible: it supports Learn mode, Quiz mode, List mode, and Random 10.
 
 ### Quiz Modes
 
 All text-entry exercises support two quiz modes, selectable by the user:
 
 - **Quiz** (`?mode=quiz`) — sequential, one item at a time with full feedback after each answer
-- **Grid** (`?mode=grid`) — all items visible at once as labeled blanks. The prompt is the label, the user fills in answers next to each one. Good for paired associations (state/capital, year/president). Submit by pressing Enter in any blank.
+- **List** (`?mode=grid`) — all items visible at once as labeled blanks. The prompt is the label, the user fills in answers next to each one. Good for paired associations (state/capital, year/president). Submit by pressing Enter in any blank.
 
-Grid mode is not a separate format or config — it's a presentation option available on any text-entry exercise. The "Grid" button appears alongside "Quiz" in the exercise listing and Learn mode.
+List mode is not a separate format or config — it's a presentation option available on any text-entry exercise. The "List" button appears alongside "Quiz" in the exercise listing and Learn mode.
 
 **Don't split sequences.** If the content is one ordered list (all presidents, all elements by atomic number, all Super Bowl winners), keep it as ONE exercise. Users should see the complete picture in Learn mode. A 47-item grid is fine. A 118-item grid is fine. The UI handles it.
 
