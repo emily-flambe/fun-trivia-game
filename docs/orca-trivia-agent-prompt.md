@@ -102,32 +102,42 @@ Base URL: `https://trivia.emilycogsdill.com`
      https://trivia.emilycogsdill.com/api/admin/nodes
    ```
 
-9. **Create exercise with items.** POST the exercise (optionally including items inline):
+9. **Create exercise with items.** Use the Write tool to create a temp JSON file, then POST it with `curl -d @file`. This avoids shell escaping issues with large payloads:
    ```bash
+   # Step 1: Use the Write tool to create /tmp/exercise.json with your payload
+   # Step 2: POST it
    curl -s -X POST -H "Content-Type: application/json" \
      -H "Authorization: Bearer $ADMIN_API_KEY" \
-     -d '{
-       "id": "category/subcategory/exercise-slug",
-       "nodeId": "category/subcategory",
-       "name": "Exercise Name",
-       "format": "text-entry",
-       "items": [
-         {
-           "id": "item-slug",
-           "answer": "Answer",
-           "alternates": ["Alt1"],
-           "explanation": "Fact 1\\nFact 2\\nFact 3",
-           "data": {
-             "prompt": "Rich descriptive question?",
-             "cardFront": "Front text",
-             "cardBack": "Back text"
-           }
-         }
-       ]
-     }' \
+     -d @/tmp/exercise.json \
      https://trivia.emilycogsdill.com/api/admin/exercises
    ```
-   Alternatively, create the exercise first, then bulk-upsert items separately via POST to `/api/admin/exercises/:exerciseId/items`.
+
+   **IMPORTANT: Never inline large JSON in curl `-d` arguments.** Exercises with 10+ items will break due to shell quoting. Always write the JSON to a temp file first using the Write tool, then use `curl -d @/tmp/filename.json`.
+
+   The exercise JSON structure:
+   ```json
+   {
+     "id": "category/subcategory/exercise-slug",
+     "nodeId": "category/subcategory",
+     "name": "Exercise Name",
+     "format": "text-entry",
+     "items": [
+       {
+         "id": "item-slug",
+         "answer": "Answer",
+         "alternates": ["Alt1"],
+         "explanation": "Fact 1\\nFact 2\\nFact 3",
+         "data": {
+           "prompt": "Rich descriptive question?",
+           "cardFront": "Front text",
+           "cardBack": "Back text"
+         }
+       }
+     ]
+   }
+   ```
+
+   Alternatively, create the exercise first (without items), then bulk-upsert items separately via POST to `/api/admin/exercises/:exerciseId/items`.
 
 10. **Verify.** Fetch the created content back and confirm it matches expectations:
     ```bash
