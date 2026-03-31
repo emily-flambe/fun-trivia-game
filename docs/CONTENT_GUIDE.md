@@ -19,13 +19,19 @@ Learned League players. LL is an invitation-only online trivia league with 18 ca
 | Format | When to use | Example |
 |---|---|---|
 | **text-entry** | Each item has a distinct question. The prompt matters as much as the answer. | "Who wrote *Moby-Dick*?" → Herman Melville |
-| **text-entry (showAll)** | Paired associations — label on the left, blank on the right. All items visible at once. | State → Capital, Year → President |
-| **fill-blanks (unordered)** | "Name all members of a set." Completeness is the challenge. | Name the six noble gases |
+| **fill-blanks (unordered)**| "Name all members of a set." Completeness is the challenge. | Name the six noble gases |
 | **fill-blanks (ordered)** | Sequence matters. Position is a testable fact. | Name all U.S. Presidents in order |
 
-**Default to text-entry** unless the exercise is naturally a set or sequence. Text-entry is more flexible: it supports Learn mode, Quiz mode, and Random 10.
+**Default to text-entry** unless the exercise is naturally a set or sequence. Text-entry is more flexible: it supports Learn mode, Quiz mode, Grid mode, and Random 10.
 
-**Use text-entry with `showAll`** for paired association exercises where the user sees all labels simultaneously and fills in answers next to each one. Same data model as text-entry — the `prompt` field is the label, `answer` is what goes in the blank. Set `"config": { "showAll": true }` on the exercise.
+### Quiz Modes
+
+All text-entry exercises support two quiz modes, selectable by the user:
+
+- **Quiz** (`?mode=quiz`) — sequential, one item at a time with full feedback after each answer
+- **Grid** (`?mode=grid`) — all items visible at once as labeled blanks. The prompt is the label, the user fills in answers next to each one. Good for paired associations (state/capital, year/president). Submit by pressing Enter in any blank.
+
+Grid mode is not a separate format or config — it's a presentation option available on any text-entry exercise. The "Grid" button appears alongside "Quiz" in the exercise listing and Learn mode.
 
 **Don't split sequences.** If the content is one ordered list (all presidents, all elements by atomic number, all Super Bowl winners), keep it as ONE exercise. Users should see the complete picture in Learn mode. A 47-item grid is fine. A 118-item grid is fine. The UI handles it.
 

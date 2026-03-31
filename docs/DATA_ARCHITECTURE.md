@@ -39,9 +39,7 @@ CREATE TABLE exercises (
 
 - **format** determines quiz behavior: `text-entry` (one item per screen, type answer) or `fill-blanks` (all items at once, guess to fill).
 - **display_type** determines Learn mode renderer. Default is `cards` (flashcards).
-- **config** is format-specific JSON:
-  - `fill-blanks`: `{ "ordered": boolean, "prompt": string }`
-  - `text-entry`: `{ "showAll": true }` — shows all items at once with labeled blanks (for paired associations like state/capital). Omit config for default sequential mode.
+- **config** is used by `fill-blanks` exercises: `{ "ordered": boolean, "prompt": string }`.
 
 ### `items` — Atomic facts/questions
 

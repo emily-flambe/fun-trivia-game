@@ -75,6 +75,14 @@ export function LearnGrid({ exercise, items, exercisePath }: Props) {
 						</button>
 					</>
 				)}
+				{exercise.format === 'text-entry' && (
+					<a
+						href={`#/exercise/${exercisePath}?mode=grid`}
+						className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+					>
+						Grid Quiz
+					</a>
+				)}
 				<a
 					href={`#/exercise/${exercisePath}?mode=quiz`}
 					className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"

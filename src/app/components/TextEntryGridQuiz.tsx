@@ -220,50 +220,45 @@ export function TextEntryGridQuiz({ exercise, items, exercisePath, nextExerciseP
 				<div className="h-1 bg-gradient-to-r from-action to-accent rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }} />
 			</div>
 
-			<div className="space-y-2">
-				{quizItems.map((item) => {
-					const state = itemStates.get(item.id);
-					const isAnswered = state?.status !== 'unanswered';
-					const isCorrect = state?.status === 'correct';
-					const isChecking = checkingId === item.id;
+			<div className="bg-surface-raised rounded-2xl p-5 sm:p-8">
+				<div className="space-y-0 divide-y divide-border-subtle">
+					{quizItems.map((item) => {
+						const state = itemStates.get(item.id);
+						const isAnswered = state?.status !== 'unanswered';
+						const isCorrect = state?.status === 'correct';
+						const isChecking = checkingId === item.id;
 
-					return (
-						<div
-							key={item.id}
-							className={`rounded-xl p-4 border transition-all duration-200 ${
-								isCorrect
-									? 'bg-correct-bg border-correct-border'
-									: state?.status === 'incorrect'
-										? 'bg-incorrect-bg border-incorrect-border'
-										: 'bg-surface-raised border-border-subtle'
-							}`}
-						>
-							<div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-								<div className="font-medium text-text-primary sm:w-1/3 sm:min-w-0 sm:flex-shrink-0">
+						return (
+							<div
+								key={item.id}
+								className={`flex items-center gap-4 py-3 transition-colors duration-200 ${
+									isCorrect ? 'bg-correct-bg/30' : state?.status === 'incorrect' ? 'bg-incorrect-bg/30' : ''
+								}`}
+							>
+								<div className="font-medium text-text-primary w-2/5 sm:w-1/3 shrink-0 text-sm sm:text-base pl-1">
 									{item.data?.prompt || item.id}
 								</div>
-								<div className="flex-1">
+								<div className="flex-1 min-w-0">
 									{isAnswered ? (
-										<div className="flex items-center gap-2">
-											{isCorrect ? (
-												<span className="text-correct font-medium">
-													{state.userAnswer}{state.result?.fuzzyMatch ? ' (close enough)' : ''}
-												</span>
-											) : (
-												<span className="text-sm">
-													<span className="text-incorrect">{state.userAnswer === '(gave up)' ? 'Skipped' : state.userAnswer}</span>
-													<span className="text-text-tertiary mx-1">&rarr;</span>
-													<span className="text-correct font-medium">{state.result?.correctAnswer}</span>
-												</span>
-											)}
-										</div>
+										isCorrect ? (
+											<span className="text-correct font-medium text-sm sm:text-base border-b-2 border-correct pb-0.5">
+												{state.userAnswer}{state.result?.fuzzyMatch ? ' *' : ''}
+											</span>
+										) : (
+											<span className="text-sm sm:text-base">
+												{state.userAnswer !== '(gave up)' && (
+													<><span className="text-incorrect line-through mr-2">{state.userAnswer}</span></>
+												)}
+												<span className="text-correct font-medium border-b-2 border-correct pb-0.5">{state.result?.correctAnswer}</span>
+											</span>
+										)
 									) : (
 										<form
 											onSubmit={(e) => {
 												e.preventDefault();
 												handleSubmitItem(item.id);
 											}}
-											className="flex gap-2"
+											className="flex items-center"
 										>
 											<input
 												ref={(el) => { if (el) inputRefs.current.set(item.id, el); }}
@@ -274,25 +269,18 @@ export function TextEntryGridQuiz({ exercise, items, exercisePath, nextExerciseP
 													next.set(item.id, e.target.value);
 													return next;
 												})}
-												placeholder="Type answer..."
-												className="flex-1 bg-surface-bright border border-border-default rounded-lg px-3 py-2 text-sm text-text-primary placeholder-text-tertiary focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-all"
+												className="w-full bg-transparent border-0 border-b-2 border-border-default text-sm sm:text-base text-text-primary placeholder-text-tertiary/40 focus:outline-none focus:border-accent transition-colors py-1 px-0"
+												placeholder="____________"
 												autoComplete="off"
 												disabled={isChecking}
 											/>
-											<button
-												type="submit"
-												disabled={!inputs.get(item.id)?.trim() || isChecking}
-												className="bg-action hover:bg-action-hover text-white disabled:bg-surface-bright disabled:text-text-tertiary px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200"
-											>
-												{isChecking ? '...' : 'Go'}
-											</button>
 										</form>
 									)}
 								</div>
 							</div>
-						</div>
-					);
-				})}
+						);
+					})}
+				</div>
 			</div>
 
 			<div className="mt-4 flex justify-end">
