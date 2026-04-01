@@ -146,3 +146,4 @@ test.describe('Grid Match quiz format', () => {
 		await page.waitForSelector('table', { timeout: 10000 });
 	});
 });
+
