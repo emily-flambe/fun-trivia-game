@@ -32,7 +32,7 @@ Lessons learned from building this app. These override the PRD when they conflic
 
 ## Architecture
 
-**Modules are the atomic unit.** Each module is a self-contained set of questions on one topic. Adding content = adding a JSON file to seeds/.
+**Modules are the atomic unit.** Each module is a self-contained set of questions on one topic. Adding content = using the admin API or MCP tools.
 
 **Questions are format-agnostic.** Every question stores a canonical text answer. The presentation format (text-entry, multiple-choice, matching) is chosen at quiz time, not baked into the question data.
 

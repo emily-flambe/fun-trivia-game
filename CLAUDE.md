@@ -12,7 +12,7 @@ Existing keys:
 - `trivia-trainer/architecture` — stack, runtime, database, deployment
 - `trivia-trainer/data-model` — format-agnostic question design
 - `trivia-trainer/api-surface` — REST endpoints and MCP tools
-- `trivia-trainer/seed-system` — content authoring and loading
+- `trivia-trainer/seed-system` — content management via admin API (seed files deprecated)
 - `trivia-trainer/build-and-deploy` — scripts and pipeline
 - `trivia-trainer/design-decisions` — key decisions with rationale
 - `trivia-trainer/future-roadmap` — planned work from PRD
@@ -30,8 +30,6 @@ Update these when the information changes. Create new keys for new topics.
 | Unit tests | `npm test` |
 | Worker integration tests | `npm run test:worker` |
 | All tests | `npm run test:all` |
-| Seed local D1 | `node scripts/seed.mjs --local` |
-| Seed remote D1 | `node scripts/seed.mjs --remote` |
 
 ## Testing (MANDATORY)
 
@@ -57,7 +55,7 @@ Update these when the information changes. Create new keys for new topics.
 
 ## Finding Quiz Content
 
-**The D1 database is the source of truth, NOT the seed files.** Many exercises in the deployed DB do not have corresponding seed files in `seeds/`. When looking for content to update or verify, always check the deployed API or query D1 directly:
+**The D1 database is the source of truth.** When looking for content to update or verify, check the deployed API or query D1 directly:
 ```bash
 # Check via public API (answers stripped)
 curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
@@ -65,11 +63,10 @@ curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
 # Query D1 directly (includes answers and alternates)
 npx wrangler d1 execute trivia-trainer --remote --command "SELECT * FROM items WHERE exercise_id = '<exercise-id>'"
 ```
-Do NOT assume "not in seed files" means "doesn't exist." Check the API or D1.
 
 ## Content Admin API (EMI-413)
 
-The admin API is the **primary way to manage content**. Seed files are legacy — use them only for bulk-creating new exercises.
+The admin API is the **only way to manage content**.
 
 ### Admin endpoints (all require auth + admin email)
 
@@ -97,7 +94,7 @@ For small fixes (adding alternates, fixing explanations, correcting answers), up
 npx wrangler d1 execute trivia-trainer --remote --command "UPDATE items SET alternates = '[\"alt1\",\"alt2\"]' WHERE id = 'item-id' AND exercise_id = 'exercise-id'"
 ```
 
-For new exercises, either use `POST /api/admin/exercises` or create a seed file and run the seed script.
+For new exercises, use `POST /api/admin/exercises`.
 
 ## Linear Tickets (MANDATORY)
 
@@ -112,63 +109,6 @@ For new exercises, either use `POST /api/admin/exercises` or create a seed file 
 - **`agent:coding-team`** — identifies tickets for coding/engineering work. **If a ticket is NOT about trivia content, it MUST have this label.**
 
 When in doubt: if the work involves writing or editing quiz items / explanations, use `agent:trivia-content`. For literally everything else (even content-adjacent work like changing how content renders), use `agent:coding-team`.
-
-## Adding Quiz Content (Seed Files — Legacy)
-
-**Read `docs/CONTENT_GUIDE.md` before writing or modifying content.** It defines explanation standards, format selection, card design, and all content conventions.
-
-Seed files are still useful for **bulk-creating new exercises** but are not the source of truth. For small updates, use the admin API or D1 directly (see above).
-
-1. Create a JSON file in `seeds/` following the format below
-2. Run `node scripts/seed.mjs --local` to test locally
-3. Run `node scripts/seed.mjs --remote` to push to production
-4. Run `npm run deploy` to redeploy
-5. Update `trivia-trainer/seed-system` context in Agent-MCP with new counts
-
-Seed format:
-```json
-{
-  "nodes": [
-    {
-      "id": "category/subcategory",
-      "parentId": "category",
-      "name": "Display Name",
-      "description": "Short description"
-    }
-  ],
-  "exercises": [
-    {
-      "id": "category/subcategory/exercise-name",
-      "nodeId": "category/subcategory",
-      "name": "Exercise Name",
-      "format": "text-entry",
-      "displayType": "cards",
-      "items": [
-        {
-          "id": "item-slug",
-          "prompt": "Question text?",
-          "answer": "Canonical answer",
-          "alternates": ["Alt spelling"],
-          "explanation": "Memorable explanation.",
-          "cardFront": "Optional: flashcard front",
-          "cardBack": "Optional: flashcard back",
-          "links": [
-            {"text": "Main topic", "url": "https://en.wikipedia.org/wiki/Main_topic"}
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
-
-Every item must have at least one Wikipedia link in its `links` array. See `docs/CONTENT_GUIDE.md` for details.
-
-For fill-blanks exercises, add `"config": { "ordered": false, "prompt": "Name all X..." }` to the exercise, and items don't need `prompt`.
-
-Text-entry exercises also support a **List quiz mode** (`?mode=grid`) that shows all items at once with labeled blanks. Users select this via the "List" button in the UI. No config needed — it works on any text-entry exercise.
-
-Root category nodes are in `seeds/_categories.json` (18 Learned League categories).
 
 ## D1 Database
 
@@ -296,9 +236,6 @@ rm -rf dist/assets
 
 # 4. Build and deploy
 npm run deploy             # runs: vite build && wrangler deploy
-
-# 5. If seed data changed
-node scripts/seed.mjs --remote
 ```
 
 ### Verifying Deploys (MANDATORY after every deploy)
@@ -317,7 +254,7 @@ For UI changes, also take a Playwright screenshot to visually confirm.
 ## Docs
 
 - `docs/DATA_ARCHITECTURE.md` — **schema, content pipeline, how to find/update content**
-- `docs/CONTENT_GUIDE.md` — **content standards** (read before writing seed files)
+- `docs/CONTENT_GUIDE.md` — **content standards**
 - `docs/DESIGN_PRINCIPLES.md` — UI/UX design principles
 - `docs/PRD.md` — full product requirements and curriculum
 - `docs/TECHNICAL_DESIGN.md` — architecture, API contracts, MCP integration

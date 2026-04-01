@@ -1,6 +1,6 @@
 # Content Guide
 
-Standards for creating trivia exercises. Read this before writing or modifying any seed file.
+Standards for creating trivia exercises. Read this before writing or modifying any trivia content.
 
 ## Audience
 
@@ -188,7 +188,7 @@ Don't include wrong answers as alternates. "Holland" is not an alternate for "Ne
 
 ### Primary workflow: Admin API and MCP tools
 
-Content is authored via the admin API or MCP tools, landing directly in D1. The database is the source of truth — not seed files.
+Content is authored via the admin API or MCP tools, landing directly in D1. The database is the source of truth.
 
 ### Admin API endpoints
 
@@ -203,8 +203,8 @@ All admin endpoints require a Cloudflare Access JWT from an admin email.
 | `PUT` | `/api/admin/exercises/:exerciseId/items/:itemId` | Update single item |
 | `DELETE` | `/api/admin/exercises/:exerciseId/items/:itemId` | Delete item |
 | `POST` | `/api/admin/nodes` | Upsert node |
-| `GET` | `/api/admin/export/:exerciseId` | Export single exercise as seed JSON |
-| `GET` | `/api/admin/export` | Export entire DB as seed JSON |
+| `GET` | `/api/admin/export/:exerciseId` | Export single exercise as JSON |
+| `GET` | `/api/admin/export` | Export entire DB as JSON |
 | `GET` | `/api/admin/content-health` | Content health report |
 
 ### MCP tools
@@ -212,10 +212,6 @@ All admin endpoints require a Cloudflare Access JWT from an admin email.
 The same operations are available as MCP tools for agent-driven content authoring:
 
 `create_exercise`, `update_exercise`, `delete_exercise`, `upsert_items`, `update_item`, `delete_item`, `upsert_node`, `export_exercise`, `export_all`, `content_health`
-
-### Seed files (optional)
-
-Seed files in `seeds/` are still available for bulk import via `node scripts/seed.mjs --local` or `node scripts/seed.mjs --remote`, but they are no longer the source of truth. They serve as optional snapshots for bootstrapping or backup. The D1 database is canonical.
 
 ### Item IDs
 
@@ -256,6 +252,6 @@ Link validation is done via the `GET /api/admin/content-health` endpoint, which 
 
 ### Sort order
 
-Items appear in the order listed in the seed array or the order they are upserted via the API. For fill-blanks ordered exercises, this order IS the sequence. For text-entry and unordered fill-blanks, the quiz shuffles them but Learn mode preserves the authored order.
+Items appear in the order they are upserted via the API. For fill-blanks ordered exercises, this order IS the sequence. For text-entry and unordered fill-blanks, the quiz shuffles them but Learn mode preserves the authored order.
 
 Put items in the most natural study order: chronological for historical sequences, alphabetical for reference sets, or "most important first" for curated lists.
