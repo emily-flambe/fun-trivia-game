@@ -5,6 +5,7 @@ import { PeriodicTable } from './PeriodicTable';
 import { TextEntryQuiz } from './TextEntryQuiz';
 import { TextEntryGridQuiz } from './TextEntryGridQuiz';
 import { FillBlanksQuiz } from './FillBlanksQuiz';
+import { GridMatchQuiz } from './GridMatchQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
@@ -74,6 +75,10 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 			);
 		}
 		return <LearnGrid exercise={exercise} items={items} exercisePath={path} />;
+	}
+
+	if (exercise.format === 'grid-match') {
+		return <GridMatchQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 
 	if (exercise.format === 'fill-blanks') {

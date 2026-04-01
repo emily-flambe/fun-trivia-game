@@ -39,6 +39,13 @@ async function seedTestData(db: D1Database) {
 	await db.exec(`INSERT INTO items VALUES ('neon', 'science/chemistry/noble-gases', 'Neon', '["Ne"]', 'Atomic number 10.', '{}', 1);`);
 	await db.exec(`INSERT INTO items VALUES ('argon', 'science/chemistry/noble-gases', 'Argon', '["Ar"]', 'Atomic number 18.', '{}', 2);`);
 
+	// Grid-match exercise
+	await db.exec(`INSERT INTO exercises VALUES ('history/presidents/grid', 'history', 'Presidents Grid', 'Match presidents to attributes', 'grid-match', NULL, '{"rows":["Washington","Lincoln"],"columns":["Party","Home State"],"prompt":"Fill in each cell"}', 0);`);
+	await db.exec(`INSERT INTO items VALUES ('wash-party', 'history/presidents/grid', 'Federalist', '["Independent"]', 'First president.', '{"row":"Washington","column":"Party"}', 0);`);
+	await db.exec(`INSERT INTO items VALUES ('wash-state', 'history/presidents/grid', 'Virginia', '["VA"]', 'Mount Vernon.', '{"row":"Washington","column":"Home State"}', 1);`);
+	await db.exec(`INSERT INTO items VALUES ('linc-party', 'history/presidents/grid', 'Republican', '["GOP"]', '16th president.', '{"row":"Lincoln","column":"Party"}', 2);`);
+	await db.exec(`INSERT INTO items VALUES ('linc-state', 'history/presidents/grid', 'Illinois', '["IL"]', 'Land of Lincoln.', '{"row":"Lincoln","column":"Home State"}', 3);`);
+
 	// Pre-seed test user so quiz-results tests don't depend on auth/me test ordering
 	await db.exec(`INSERT INTO users VALUES ('test-user-id', 'test@trivia.emilycogsdill.com', '', '{}', '2026-01-01T00:00:00Z', '2026-01-01T00:00:00Z');`);
 }
@@ -129,7 +136,7 @@ describe('Trivia API', () => {
 
 			const history = data.nodes.find((n: any) => n.id === 'history');
 			expect(history.childCount).toBe(0);
-			expect(history.exerciseCount).toBe(0);
+			expect(history.exerciseCount).toBe(1);
 		});
 
 		it('returns nodes ordered by sort_order', async () => {
@@ -506,13 +513,90 @@ describe('Trivia API', () => {
 			expect(data.matchedItemId).toBe('neon');
 		});
 
-		it('node detail for history (leaf root with no children or exercises)', async () => {
+		// ─── Grid-match answer checking ─────────────────────────
+
+	describe('POST /api/exercises/.../check (grid-match)', () => {
+		const checkUrl = '/api/exercises/history/presidents/grid/check';
+
+		it('correct answer for a cell', async () => {
+			const res = await postJson(checkUrl, { itemId: 'wash-party', answer: 'Federalist' });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.correct).toBe(true);
+			expect(data.correctAnswer).toBe('Federalist');
+		});
+
+		it('alternate answer accepted', async () => {
+			const res = await postJson(checkUrl, { itemId: 'wash-state', answer: 'VA' });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.correct).toBe(true);
+		});
+
+		it('wrong answer for a cell', async () => {
+			const res = await postJson(checkUrl, { itemId: 'linc-party', answer: 'Democrat' });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.correct).toBe(false);
+			expect(data.correctAnswer).toBe('Republican');
+		});
+
+		it('requires itemId', async () => {
+			const res = await postJson(checkUrl, { answer: 'Virginia' });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('itemId');
+		});
+
+		it('returns 404 for unknown itemId', async () => {
+			const res = await postJson(checkUrl, { itemId: 'nonexistent', answer: 'test' });
+			expect(res.status).toBe(404);
+		});
+
+		it('fuzzy match works (close spelling)', async () => {
+			const res = await postJson(checkUrl, { itemId: 'linc-state', answer: 'Illinios' });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.correct).toBe(true);
+			expect(data.fuzzyMatch).toBe(true);
+		});
+	});
+
+	// ─── Grid-match exercise detail ─────────────────────────
+
+	describe('GET /api/exercises/history/presidents/grid', () => {
+		it('returns exercise with grid-match format and config', async () => {
+			const res = await makeRequest('/api/exercises/history/presidents/grid');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercise.format).toBe('grid-match');
+			expect(data.exercise.config).toEqual({
+				rows: ['Washington', 'Lincoln'],
+				columns: ['Party', 'Home State'],
+				prompt: 'Fill in each cell',
+			});
+		});
+
+		it('returns items with row/column data (answers stripped)', async () => {
+			const res = await makeRequest('/api/exercises/history/presidents/grid');
+			const data = await res.json<any>();
+			expect(data.items).toHaveLength(4);
+			// Items should have data.row and data.column but no answer
+			const washParty = data.items.find((i: any) => i.id === 'wash-party');
+			expect(washParty.data.row).toBe('Washington');
+			expect(washParty.data.column).toBe('Party');
+			expect(washParty).not.toHaveProperty('answer');
+		});
+	});
+
+	it('node detail for history (root with grid-match exercise)', async () => {
 			const res = await makeRequest('/api/nodes/history');
 			expect(res.status).toBe(200);
 			const data = await res.json<any>();
 			expect(data.node.id).toBe('history');
 			expect(data.children).toHaveLength(0);
-			expect(data.exercises).toHaveLength(0);
+			expect(data.exercises).toHaveLength(1);
+			expect(data.exercises[0].format).toBe('grid-match');
 		});
 
 		it('exercise detail does not leak displayType when null', async () => {

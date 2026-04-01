@@ -1,6 +1,6 @@
 // === Exercise formats and display types ===
 
-export type ExerciseFormat = 'text-entry' | 'fill-blanks';
+export type ExerciseFormat = 'text-entry' | 'fill-blanks' | 'grid-match';
 export type DisplayType = 'cards' | 'periodic-table' | 'map' | 'timeline';
 
 // === Core domain types ===
@@ -36,7 +36,7 @@ export interface TextEntryConfig {
   showAll: boolean;
 }
 
-export type ExerciseConfig = FillBlanksConfig | TextEntryConfig;
+export type ExerciseConfig = FillBlanksConfig | TextEntryConfig | GridMatchConfig;
 
 export interface Item {
   id: string;
@@ -44,7 +44,7 @@ export interface Item {
   answer: string;
   alternates: string[];
   explanation: string;
-  data: TextEntryData | FillBlanksData;
+  data: TextEntryData | FillBlanksData | GridMatchData;
   sortOrder: number;
 }
 
@@ -59,6 +59,18 @@ export interface TextEntryData {
 export interface FillBlanksData {
   label?: string;
   links?: { text: string; url: string }[];
+}
+
+export interface GridMatchData {
+  row: string;
+  column: string;
+  links?: { text: string; url: string }[];
+}
+
+export interface GridMatchConfig {
+  rows: string[];
+  columns: string[];
+  prompt?: string;
 }
 
 // === Answer checking ===

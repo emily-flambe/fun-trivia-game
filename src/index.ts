@@ -488,10 +488,10 @@ async function handleCheckAnswer(exercisePath: string, request: Request, repo: N
 
 	const { exercise, items } = exerciseResult;
 
-	if (exercise.format === 'text-entry') {
-		// Text-entry requires itemId
+	if (exercise.format === 'text-entry' || exercise.format === 'grid-match') {
+		// Text-entry and grid-match require itemId (grid-match checks each cell individually)
 		if (!body.itemId) {
-			return json({ error: 'Missing required field: itemId for text-entry format' }, 400);
+			return json({ error: `Missing required field: itemId for ${exercise.format} format` }, 400);
 		}
 		const item = items.find((i) => i.id === body.itemId);
 		if (!item) {
