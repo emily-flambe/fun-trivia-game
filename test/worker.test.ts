@@ -573,6 +573,45 @@ describe('Trivia API', () => {
 			expect(data.valid).toBe(false);
 			expect(data.duplicateItemIds).toContain('dalton');
 		});
+
+		it('returns 400 when order is a string instead of array', async () => {
+			const res = await postJson(checkUrl, { order: 'dalton' });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('order');
+		});
+
+		it('returns 400 when order is null', async () => {
+			const res = await postJson(checkUrl, { order: null });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('order');
+		});
+
+		it('returns 400 when order is an empty array (missing items)', async () => {
+			const res = await postJson(checkUrl, { order: [] });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(false);
+			expect(data.missingItemIds).toContain('dalton');
+			expect(data.missingItemIds).toContain('electron');
+			expect(data.missingItemIds).toContain('bohr');
+		});
+
+		it('returns 400 when order has more items than expected', async () => {
+			const res = await postJson(checkUrl, { order: ['dalton', 'electron', 'bohr', 'extra'] });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(false);
+			expect(data.extraItemIds).toContain('extra');
+		});
+
+		it('returns 400 when order is a number', async () => {
+			const res = await postJson(checkUrl, { order: 42 });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('order');
+		});
 	});
 
 	describe('POST /api/exercises/.../check (classification-sort)', () => {

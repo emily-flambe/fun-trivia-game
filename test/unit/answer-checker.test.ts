@@ -880,6 +880,259 @@ describe('checkSequenceOrdering', () => {
 		expect(result.extraItemIds).toContain('xyz');
 		expect(result.missingItemIds).toContain('moon');
 	});
+
+	// ─── Edge case: empty inputs ────────────────────────────────────────
+
+	it('handles empty items array with empty userOrder', () => {
+		const result = checkSequenceOrdering([], []);
+		// With zero items, valid:true but correct:true with 0/0 — arguably a bug
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(0);
+		expect(result.total).toBe(0);
+		expect(result.placements).toEqual([]);
+	});
+
+	it('returns validation error for empty userOrder with non-empty items', () => {
+		const result = checkSequenceOrdering(timelineItems, []);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.missingItemIds).toEqual(['ww1', 'ww2', 'moon']);
+		expect(result.extraItemIds).toEqual([]);
+		expect(result.duplicateItemIds).toEqual([]);
+	});
+
+	// ─── Edge case: single item ─────────────────────────────────────────
+
+	it('handles single item correctly ordered', () => {
+		const singleItem: Item[] = [
+			{ id: 'only', exerciseId: 'solo', answer: 'Only', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+		];
+		const result = checkSequenceOrdering(singleItem, ['only']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(1);
+		expect(result.total).toBe(1);
+	});
+
+	// ─── Edge case: all items in reverse order ──────────────────────────
+
+	it('reversed odd-length list: middle element stays in correct position', () => {
+		// With 3 items reversed, the middle one (ww2) stays at index 1
+		const result = checkSequenceOrdering(timelineItems, ['moon', 'ww2', 'ww1']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(1); // ww2 stays at position 2
+		expect(result.total).toBe(3);
+		const ww2 = result.placements.find((p) => p.itemId === 'ww2');
+		expect(ww2?.correct).toBe(true);
+	});
+
+	it('reversed even-length list: zero items in correct position', () => {
+		const fourItems: Item[] = [
+			{ id: 'a', exerciseId: 'ex', answer: 'A', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+			{ id: 'b', exerciseId: 'ex', answer: 'B', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+			{ id: 'c', exerciseId: 'ex', answer: 'C', alternates: [], explanation: '', data: {}, sortOrder: 2 },
+			{ id: 'd', exerciseId: 'ex', answer: 'D', alternates: [], explanation: '', data: {}, sortOrder: 3 },
+		];
+		const result = checkSequenceOrdering(fourItems, ['d', 'c', 'b', 'a']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(0);
+		expect(result.total).toBe(4);
+		expect(result.placements.every((p) => !p.correct)).toBe(true);
+	});
+
+	it('reversed two-item list has zero correct', () => {
+		const twoItems: Item[] = [
+			{ id: 'a', exerciseId: 'ex', answer: 'A', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+			{ id: 'b', exerciseId: 'ex', answer: 'B', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+		];
+		const result = checkSequenceOrdering(twoItems, ['b', 'a']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(0);
+	});
+
+	// ─── Edge case: non-sequential sortOrder values ─────────────────────
+
+	it('correctly orders items with non-sequential sortOrder values', () => {
+		const gappyItems: Item[] = [
+			{ id: 'third', exerciseId: 'ex', answer: 'Third', alternates: [], explanation: '', data: {}, sortOrder: 100 },
+			{ id: 'first', exerciseId: 'ex', answer: 'First', alternates: [], explanation: '', data: {}, sortOrder: 5 },
+			{ id: 'second', exerciseId: 'ex', answer: 'Second', alternates: [], explanation: '', data: {}, sortOrder: 42 },
+		];
+		// Correct order by sortOrder: first(5), second(42), third(100)
+		const result = checkSequenceOrdering(gappyItems, ['first', 'second', 'third']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(3);
+	});
+
+	it('scores partial correctness with non-sequential sortOrder', () => {
+		const gappyItems: Item[] = [
+			{ id: 'third', exerciseId: 'ex', answer: 'Third', alternates: [], explanation: '', data: {}, sortOrder: 100 },
+			{ id: 'first', exerciseId: 'ex', answer: 'First', alternates: [], explanation: '', data: {}, sortOrder: 5 },
+			{ id: 'second', exerciseId: 'ex', answer: 'Second', alternates: [], explanation: '', data: {}, sortOrder: 42 },
+		];
+		// Submit in wrong order: third(100) first, but second(42) and first(5) swapped
+		const result = checkSequenceOrdering(gappyItems, ['second', 'first', 'third']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		// third is at position 3 (correct), first and second are swapped
+		expect(result.correctCount).toBe(1);
+	});
+
+	// ─── Edge case: negative sortOrder values ───────────────────────────
+
+	it('handles negative sortOrder values correctly', () => {
+		const negItems: Item[] = [
+			{ id: 'bce', exerciseId: 'ex', answer: 'BCE', alternates: [], explanation: '', data: {}, sortOrder: -500 },
+			{ id: 'zero', exerciseId: 'ex', answer: 'Year 0', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+			{ id: 'ce', exerciseId: 'ex', answer: 'CE', alternates: [], explanation: '', data: {}, sortOrder: 500 },
+		];
+		const result = checkSequenceOrdering(negItems, ['bce', 'zero', 'ce']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(3);
+	});
+
+	// ─── Edge case: identical sortOrder (unstable sort) ─────────────────
+
+	it('handles items with identical sortOrder values', () => {
+		// When two items have the same sortOrder, sort is unstable.
+		// The checker should still work without crashing, but the "correct"
+		// answer becomes dependent on sort implementation.
+		const tiedItems: Item[] = [
+			{ id: 'alpha', exerciseId: 'ex', answer: 'Alpha', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+			{ id: 'beta', exerciseId: 'ex', answer: 'Beta', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+			{ id: 'gamma', exerciseId: 'ex', answer: 'Gamma', alternates: [], explanation: '', data: {}, sortOrder: 2 },
+		];
+		// We don't know the sort order of alpha/beta (both sortOrder=1),
+		// but we can at least verify the function doesn't crash and returns valid structure
+		const result = checkSequenceOrdering(tiedItems, ['alpha', 'beta', 'gamma']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.total).toBe(3);
+		// gamma at position 3 should always be correct since it has unique sortOrder=2
+		const gamma = result.placements.find((p) => p.itemId === 'gamma');
+		expect(gamma?.correct).toBe(true);
+	});
+
+	// ─── Edge case: placement positions are 1-indexed ───────────────────
+
+	it('placements use 1-indexed positions', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww2', 'moon']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.placements[0].expectedPosition).toBe(1);
+		expect(result.placements[0].userPosition).toBe(1);
+		expect(result.placements[2].expectedPosition).toBe(3);
+		expect(result.placements[2].userPosition).toBe(3);
+	});
+
+	it('placement positions reflect user misplacement correctly', () => {
+		const result = checkSequenceOrdering(timelineItems, ['moon', 'ww1', 'ww2']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		// ww1 expected at position 1, but user put it at position 2
+		const ww1 = result.placements.find((p) => p.itemId === 'ww1');
+		expect(ww1?.expectedPosition).toBe(1);
+		expect(ww1?.userPosition).toBe(2);
+		expect(ww1?.correct).toBe(false);
+		// moon expected at position 3, but user put it at position 1
+		const moon = result.placements.find((p) => p.itemId === 'moon');
+		expect(moon?.expectedPosition).toBe(3);
+		expect(moon?.userPosition).toBe(1);
+		expect(moon?.correct).toBe(false);
+	});
+
+	// ─── Edge case: large number of items ───────────────────────────────
+
+	it('handles large item set (50 items)', () => {
+		const largeItems: Item[] = Array.from({ length: 50 }, (_, i) => ({
+			id: `item-${i}`,
+			exerciseId: 'large',
+			answer: `Item ${i}`,
+			alternates: [],
+			explanation: '',
+			data: {},
+			sortOrder: i,
+		}));
+		const correctOrder = largeItems.map((item) => item.id);
+		const result = checkSequenceOrdering(largeItems, correctOrder);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(50);
+		expect(result.total).toBe(50);
+	});
+
+	it('handles large item set with one swap', () => {
+		const largeItems: Item[] = Array.from({ length: 50 }, (_, i) => ({
+			id: `item-${i}`,
+			exerciseId: 'large',
+			answer: `Item ${i}`,
+			alternates: [],
+			explanation: '',
+			data: {},
+			sortOrder: i,
+		}));
+		const order = largeItems.map((item) => item.id);
+		// Swap first and last
+		[order[0], order[49]] = [order[49], order[0]];
+		const result = checkSequenceOrdering(largeItems, order);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(48);
+		expect(result.total).toBe(50);
+	});
+
+	// ─── Edge case: validation with multiple errors at once ─────────────
+
+	it('reports all error types simultaneously (missing + extra + duplicate)', () => {
+		// Items: ww1, ww2, moon
+		// Submit: ww1, ww1, xyz  (ww1 duplicated, ww2+moon missing, xyz extra)
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww1', 'xyz']);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.duplicateItemIds).toContain('ww1');
+		expect(result.missingItemIds).toContain('ww2');
+		expect(result.missingItemIds).toContain('moon');
+		expect(result.extraItemIds).toContain('xyz');
+	});
+
+	it('validation error for submitting more items than expected', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww2', 'moon', 'extra']);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.extraItemIds).toContain('extra');
+	});
+
+	// ─── Edge case: items array order doesn't matter (sortOrder does) ───
+
+	it('items array order is irrelevant; sortOrder determines expected order', () => {
+		// Same items as timelineItems but passed in reverse array order
+		const shuffledItems: Item[] = [
+			{ id: 'moon', exerciseId: 'timeline', answer: 'Moon Landing', alternates: [], explanation: '', data: {}, sortOrder: 2 },
+			{ id: 'ww1', exerciseId: 'timeline', answer: 'World War I', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+			{ id: 'ww2', exerciseId: 'timeline', answer: 'World War II', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+		];
+		const result = checkSequenceOrdering(shuffledItems, ['ww1', 'ww2', 'moon']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(3);
+	});
 });
 
 describe('checkClassificationSort', () => {
