@@ -2,7 +2,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { z } from 'zod';
 import { NodeRepository } from './data/repository';
 import { AdminRepository, NotFoundError } from './data/admin-repository';
-import { checkTextEntry, checkFillBlanks } from './lib/answer-checker';
+import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort } from './lib/answer-checker';
 import type { CreateExerciseInput, UpdateExerciseInput, UpdateItemInput, CreateNodeInput, CreateItemInput } from './data/types';
 
 /**
@@ -53,12 +53,25 @@ export function createTriviaServer(db: D1Database): McpServer {
 		return { content: [{ type: 'text' as const, text: JSON.stringify(result, null, 2) }] };
 	});
 
-	server.tool('check_answer', 'Check an answer for an exercise. For text-entry, provide itemId. For fill-blanks, omit itemId.', {
+	server.tool('check_answer', 'Check an answer for an exercise. For text-entry/letter-by-letter, provide itemId + answer. For fill-blanks, provide answer. For sequence-ordering, provide order (array of item IDs). For classification-sort, provide assignments (itemId -> category).', {
 		exerciseId: z.string().describe('Exercise ID'),
-		answer: z.string().describe('The answer to check'),
-		itemId: z.string().optional().describe('Item ID (required for text-entry, omit for fill-blanks)'),
-	}, async ({ exerciseId, answer, itemId }) => {
-		if (itemId) {
+		answer: z.string().optional().describe('The answer to check'),
+		order: z.array(z.string()).optional().describe('Ordered item IDs for sequence-ordering format'),
+		assignments: z.record(z.string(), z.string()).optional().describe('Classification assignments (itemId -> category)'),
+		itemId: z.string().optional().describe('Item ID (required for text-entry/letter-by-letter, omit for fill-blanks)'),
+	}, async ({ exerciseId, answer, order, assignments, itemId }) => {
+		const exerciseResult = await repo.getExercise(exerciseId);
+		if (!exerciseResult) {
+			return { content: [{ type: 'text' as const, text: `Exercise "${exerciseId}" not found` }], isError: true };
+		}
+
+		if (exerciseResult.exercise.format === 'text-entry' || exerciseResult.exercise.format === 'letter-by-letter') {
+			if (!itemId) {
+				return { content: [{ type: 'text' as const, text: 'itemId is required for item-based formats' }], isError: true };
+			}
+			if (answer == null) {
+				return { content: [{ type: 'text' as const, text: 'answer is required for item-based formats' }], isError: true };
+			}
 			const item = await repo.getItem(exerciseId, itemId);
 			if (!item) {
 				return { content: [{ type: 'text' as const, text: `Item "${itemId}" not found in exercise "${exerciseId}"` }], isError: true };
@@ -66,12 +79,32 @@ export function createTriviaServer(db: D1Database): McpServer {
 			const result = checkTextEntry(item, answer);
 			return { content: [{ type: 'text' as const, text: JSON.stringify(result, null, 2) }] };
 		}
-		const items = await repo.getExerciseItems(exerciseId);
-		if (items.length === 0) {
-			return { content: [{ type: 'text' as const, text: `Exercise "${exerciseId}" not found or has no items` }], isError: true };
+
+		if (exerciseResult.exercise.format === 'fill-blanks') {
+			if (answer == null) {
+				return { content: [{ type: 'text' as const, text: 'answer is required for fill-blanks format' }], isError: true };
+			}
+			const result = checkFillBlanks(exerciseResult.items, answer);
+			return { content: [{ type: 'text' as const, text: JSON.stringify(result, null, 2) }] };
 		}
-		const result = checkFillBlanks(items, answer);
-		return { content: [{ type: 'text' as const, text: JSON.stringify(result, null, 2) }] };
+
+		if (exerciseResult.exercise.format === 'sequence-ordering') {
+			if (!Array.isArray(order)) {
+				return { content: [{ type: 'text' as const, text: 'order is required for sequence-ordering format' }], isError: true };
+			}
+			const result = checkSequenceOrdering(exerciseResult.items, order);
+			return { content: [{ type: 'text' as const, text: JSON.stringify(result, null, 2) }] };
+		}
+
+		if (exerciseResult.exercise.format === 'classification-sort') {
+			if (!assignments || typeof assignments !== 'object') {
+				return { content: [{ type: 'text' as const, text: 'assignments is required for classification-sort format' }], isError: true };
+			}
+			const result = checkClassificationSort(exerciseResult.items, assignments);
+			return { content: [{ type: 'text' as const, text: JSON.stringify(result, null, 2) }] };
+		}
+
+		return { content: [{ type: 'text' as const, text: `Unsupported format: ${exerciseResult.exercise.format}` }], isError: true };
 	});
 
 	// === Write tools ===
@@ -89,7 +122,7 @@ export function createTriviaServer(db: D1Database): McpServer {
 		id: z.string().describe('Exercise ID (e.g., "science/chemistry/element-symbols")'),
 		nodeId: z.string().describe('Parent node ID (e.g., "science/chemistry")'),
 		name: z.string().describe('Display name'),
-		format: z.enum(['text-entry', 'fill-blanks']).describe('Exercise format'),
+		format: z.enum(['text-entry', 'fill-blanks', 'letter-by-letter', 'sequence-ordering', 'classification-sort']).describe('Exercise format'),
 		description: z.string().optional().describe('Short description'),
 		displayType: z.string().optional().describe('Learn mode renderer (cards, periodic-table, map, timeline)'),
 		config: z.record(z.string(), z.unknown()).optional().describe('Format-specific config (e.g., { ordered: false, prompt: "..." })'),
@@ -111,7 +144,7 @@ export function createTriviaServer(db: D1Database): McpServer {
 		exerciseId: z.string().describe('Exercise ID to update'),
 		name: z.string().optional().describe('New display name'),
 		description: z.string().optional().describe('New description'),
-		format: z.enum(['text-entry', 'fill-blanks']).optional().describe('New format'),
+		format: z.enum(['text-entry', 'fill-blanks', 'letter-by-letter', 'sequence-ordering', 'classification-sort']).optional().describe('New format'),
 		displayType: z.string().optional().describe('New display type'),
 		config: z.record(z.string(), z.unknown()).optional().describe('New format-specific config'),
 		sortOrder: z.number().optional().describe('New display order'),

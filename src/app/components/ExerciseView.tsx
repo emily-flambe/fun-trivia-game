@@ -5,6 +5,9 @@ import { PeriodicTable } from './PeriodicTable';
 import { TextEntryQuiz } from './TextEntryQuiz';
 import { TextEntryGridQuiz } from './TextEntryGridQuiz';
 import { FillBlanksQuiz } from './FillBlanksQuiz';
+import { LetterByLetterQuiz } from './LetterByLetterQuiz';
+import { SequenceOrderingQuiz } from './SequenceOrderingQuiz';
+import { ClassificationSortQuiz } from './ClassificationSortQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
@@ -80,7 +83,19 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 		return <FillBlanksQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 
-	if (mode === 'grid') {
+	if (exercise.format === 'letter-by-letter') {
+		return <LetterByLetterQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
+	}
+
+	if (exercise.format === 'sequence-ordering') {
+		return <SequenceOrderingQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
+	}
+
+	if (exercise.format === 'classification-sort') {
+		return <ClassificationSortQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
+	}
+
+	if (exercise.format === 'text-entry' && mode === 'grid') {
 		return <TextEntryGridQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 

@@ -306,7 +306,15 @@ function ActivityTab() {
 		<div className="animate-in space-y-3">
 			{results.map((r) => {
 				const isEndless = r.exerciseId === 'endless';
-				const formatLabel = isEndless ? 'Endless' : r.format === 'fill-blanks' ? 'Fill in the Blanks' : 'Text Entry';
+				const formatLabel = isEndless
+					? 'Endless'
+					: r.format === 'fill-blanks'
+						? 'Fill in the Blanks'
+						: r.format === 'sequence-ordering'
+							? 'Sequence Ordering'
+						: r.format === 'letter-by-letter'
+							? 'Letter by Letter'
+							: 'Text Entry';
 				const isExpanded = expandedId === r.id;
 				const detail = detailCache[r.id] ?? null;
 				const isLoadingDetail = detailLoading === r.id;
@@ -390,6 +398,11 @@ function ActivityDetail({ detail }: { detail: QuizResultDetail }) {
 							) : (
 								<p className={`text-xs text-text-tertiary ${isExpanded ? '' : 'truncate'}`}>
 									<span className="text-text-secondary">You said:</span> {item.userAnswer || <span className="italic">blank</span>}
+								</p>
+							)}
+							{typeof item.hintsUsed === 'number' && item.hintsUsed > 0 && (
+								<p className="text-xs text-text-tertiary">
+									<span className="text-text-secondary">Hints used:</span> {item.hintsUsed}
 								</p>
 							)}
 						</div>
