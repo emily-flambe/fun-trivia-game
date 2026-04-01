@@ -2,7 +2,7 @@
 
 ## Overview
 
-Trivia Trainer stores quiz content in a three-table schema in Cloudflare D1. Content is authored as JSON seed files and loaded via a seed script, but **the D1 database is the source of truth** — not all exercises in the database have corresponding seed files.
+Trivia Trainer stores quiz content in a three-table schema in Cloudflare D1. Content is managed via the admin API and MCP tools, landing directly in D1. **The D1 database is the source of truth.**
 
 ## Database Schema
 
@@ -99,59 +99,36 @@ CREATE INDEX idx_quiz_results_completed ON quiz_results(completed_at);
 
 ## Content Pipeline
 
-### Authoring (seed files)
+Content is managed via the **admin API** and **MCP tools**. These are the only supported ways to create, update, and delete content.
 
-Content is authored as JSON files in `seeds/`. Each file can define nodes and exercises:
+### Admin API
 
-```json
-{
-  "nodes": [
-    { "id": "category/subcategory", "parentId": "category", "name": "Display Name" }
-  ],
-  "exercises": [
-    {
-      "id": "category/subcategory/exercise-name",
-      "nodeId": "category/subcategory",
-      "name": "Exercise Name",
-      "format": "text-entry",
-      "displayType": "cards",
-      "items": [
-        {
-          "id": "item-slug",
-          "prompt": "Question?",
-          "answer": "Answer",
-          "alternates": ["Alt spelling"],
-          "explanation": "Why this is the answer.",
-          "cardFront": "Flashcard front",
-          "cardBack": "Flashcard back"
-        }
-      ]
-    }
-  ]
-}
-```
+All admin endpoints require a Cloudflare Access JWT from an admin email. See `src/index.ts` for routing and `src/data/admin-repository.ts` for DB operations.
 
-Root category nodes (the 18 Learned League categories) are in `seeds/_categories.json`.
+| Method | Endpoint | Purpose |
+|--------|----------|---------|
+| `POST` | `/api/admin/exercises` | Create exercise (optionally with items) |
+| `PUT` | `/api/admin/exercises/:id` | Update exercise fields |
+| `DELETE` | `/api/admin/exercises/:id` | Delete exercise (items cascade) |
+| `POST` | `/api/admin/exercises/:exerciseId/items` | Bulk upsert items |
+| `PUT` | `/api/admin/exercises/:exerciseId/items/:itemId` | Update single item |
+| `DELETE` | `/api/admin/exercises/:exerciseId/items/:itemId` | Delete single item |
+| `POST` | `/api/admin/nodes` | Upsert a navigation node |
+| `GET` | `/api/admin/export` | Export all content as JSON |
+| `GET` | `/api/admin/export/:exerciseId` | Export single exercise |
+| `GET` | `/api/admin/content-health` | Content quality report |
 
-### Loading
+### Direct D1 queries
+
+For quick fixes (adding alternates, correcting answers), query D1 directly:
 
 ```bash
-node scripts/seed.mjs --local   # seed local D1 (development)
-node scripts/seed.mjs --remote  # seed remote D1 (production)
+# Check what exists
+npx wrangler d1 execute trivia-trainer --remote --command "SELECT DISTINCT exercise_id FROM items ORDER BY exercise_id"
+
+# Update a single item
+npx wrangler d1 execute trivia-trainer --remote --command "UPDATE items SET alternates = '[\"alt1\",\"alt2\"]' WHERE id = 'item-id' AND exercise_id = 'exercise-id'"
 ```
-
-The script reads all `seeds/*.json` files, generates `INSERT OR REPLACE` SQL, and executes via `wrangler d1 execute`. It is **idempotent** — safe to re-run.
-
-### Important: DB vs Seed Files
-
-Not all database content has a corresponding seed file. Some exercises were created via direct SQL or from seed files that were later deleted/renamed. **When looking for content:**
-
-1. **Always check the deployed API first**: `curl https://trivia.emilycogsdill.com/api/exercises/<path>`
-2. **To update existing content without a seed file**: use `wrangler d1 execute` with UPDATE SQL against the remote database.
-3. **To check what exists**: query the database directly:
-   ```bash
-   npx wrangler d1 execute trivia-trainer --remote --command "SELECT DISTINCT exercise_id FROM items ORDER BY exercise_id"
-   ```
 
 ## Current Stats (as of 2026-03-28)
 
@@ -160,7 +137,6 @@ Not all database content has a corresponding seed file. Some exercises were crea
 | Nodes | 75 |
 | Exercises | 78 |
 | Items | 1,385 |
-| Seed files | 39 |
 
 ## API Endpoints for Content
 

@@ -8,7 +8,7 @@ Key deviations from the PRD:
 - **Not a single `.jsx` file.** A multi-file React SPA built with Vite, served by the worker via static assets.
 - **`localStorage` instead of `window.storage`.** `window.storage` is artifact-specific. `localStorage` works in browsers and covers the "no auth, no server-side persistence" v1 requirement.
 - **Quiz data lives in a Cloudflare D1 database**, not in TypeScript modules or inline. With ~60 modules and thousands of questions, D1 provides queryable storage without bundling data into the client, and supports filtering/pagination at the edge.
-- **Seed data authored as JSON files**, loaded into D1 via a seed script. This keeps content portable and reviewable in version control.
+- **Content managed via admin API and MCP tools**, landing directly in D1. The database is the source of truth.
 
 ---
 
@@ -104,11 +104,6 @@ fun-trivia-game/
 │       └── constants.ts       # Category colors, tier definitions
 ├── migrations/                   # D1 schema migrations (SQL files)
 │   └── 0001_initial_schema.sql
-├── seeds/                        # Seed data JSON files (one per module)
-│   ├── geo-world-capitals-major.json
-│   ├── geo-us-state-capitals.json
-│   ├── hist-us-presidents.json
-│   └── ...
 ├── test/
 │   ├── fuzzy-match.test.ts
 │   ├── quiz-engine.test.ts
@@ -254,32 +249,9 @@ Column notes:
 - `answer` is only populated for type-in questions.
 - `pairs` is only populated for matching questions.
 
-### Seed Data Format
+### Content Management
 
-Quiz content is authored as JSON files in the `seeds/` directory, one file per module. A seed script reads these files and inserts them into D1.
-
-```json
-{
-  "id": "geo-us-state-capitals",
-  "category": "geography",
-  "name": "US State Capitals",
-  "tier": "foundation",
-  "description": "All 50 US state capitals",
-  "questionType": "type-in",
-  "questions": [
-    {
-      "id": "q1",
-      "type": "type-in",
-      "question": "What is the capital of California?",
-      "answer": "Sacramento",
-      "alternateAnswers": [],
-      "explanation": "Sacramento became the state capital in 1854, chosen for its central location and access to river transportation."
-    }
-  ]
-}
-```
-
-The seed script (`scripts/seed.ts`) reads each JSON file, validates it against the TypeScript types, and runs INSERT statements against D1. It can be run locally via `wrangler d1 execute` or as part of deployment.
+Quiz content is managed via the **admin API** (`/api/admin/*` endpoints) and **MCP tools**. Content lands directly in D1. See `src/data/admin-repository.ts` for DB operations and `docs/DATA_ARCHITECTURE.md` for the full endpoint reference.
 
 ---
 
@@ -917,10 +889,8 @@ The build order prioritizes contracts and tests before UI:
 - Integration tests for every endpoint using `@cloudflare/vitest-pool-workers`
 - Test error cases (404s, bad requests, edge cases)
 
-### Step 4: Seed Data (Foundation Modules)
-- Author seed JSON files in `seeds/` — 2-3 Foundation modules per category with real question data
-- Write seed script (`scripts/seed.ts`) to load JSON into D1
-- Run seed script locally via `wrangler d1 execute`
+### Step 4: Foundation Content
+- Author Foundation modules via admin API — 2-3 per category with real question data
 - Data validation tests pass (verify inserted data matches expected types)
 
 ### Step 5: MCP Server + Tests
