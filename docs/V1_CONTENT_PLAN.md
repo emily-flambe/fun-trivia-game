@@ -57,7 +57,7 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 7 | Fortune 500 & Corporate History | 15 | ✅ 📋 EMI-417 | TS has "Fortune 500", "Corporate Scandals", "Company CEOs." Omnibus of corporate landmarks. |
 | 8 | Stock Market Basics | 12 | ✅ 📋 EMI-417 | TS has "Stock Symbols." Bull/bear, Dow/NASDAQ/S&P, famous crashes. |
 
-**Coverage**: 5/8 done. Brands, corporate history, and markets covered. Needs currencies/economics (EMI-395).
+**Coverage**: 5/8 done. Remaining 3 exercises ticketed (EMI-395).
 
 ---
 
@@ -196,14 +196,14 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Major Philosophers | 15 | ✅ | |
-| 2 | Fashion Designers | 15 | ❌ | TS has "Fashion: Designers." Chanel, Dior, Versace, etc. |
+| 2 | Fashion Designers | 15 | ✅ 📋 EMI-419 | TS has "Fashion: Designers." Chanel, Dior, Versace, etc. |
 | 3 | Zodiac Signs | 12 | ❌ | TS has "Zodiac" + "Chinese Zodiac." Western zodiac dates/symbols + Chinese zodiac animals/years. |
-| 4 | Birthstones & Anniversary Gifts | 12 | ❌ | TS has both. January→garnet, 25th→silver, etc. |
-| 5 | World Religions | 12 | ❌ | Major religions, founders, sacred texts, key beliefs. LL tests this. |
-| 6 | Board Games & Card Games | 12 | ❌ | TS has "Board Games" + "Monopoly." Rules, origins, famous games. |
-| 7 | University Locations | 15 | ❌ | TS has this. Harvard→Cambridge MA, Oxford→Oxfordshire, etc. |
+| 4 | Birthstones & Anniversary Gifts | 12 | ✅ 📋 EMI-419 | TS has both. January→garnet, 25th→silver, etc. |
+| 5 | World Religions | 12 | ✅ 📋 EMI-419 | Major religions, founders, sacred texts, key beliefs. LL tests this. |
+| 6 | Board Games & Card Games | 12 | ✅ 📋 EMI-419 | TS has "Board Games" + "Monopoly." Rules, origins, famous games. |
+| 7 | University Locations | 15 | ✅ 📋 EMI-419 | TS has this. Harvard→Cambridge MA, Oxford→Oxfordshire, etc. |
 
-**Coverage**: 1/7 done. Currently the weakest category relative to LL testing frequency.
+**Coverage**: 6/7 done.
 
 ---
 
@@ -373,7 +373,7 @@ Inspired by TrivialStudies' unique study tools:
 | Games/Sport | 2 | 15 | 13% |
 | Geography | 12 | 20 | 60% |
 | Language | 2 | 5 | 40% |
-| Lifestyle | 1 | 7 | 14% |
+| Lifestyle | 6 | 7 | 86% |
 | Literature | 16 | 16 | 100% |
 | Math | 4 | 6 | 67% |
 | Pop Music | 2 | 10 | 20% |
@@ -382,25 +382,25 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **91** | **177** | **51%** |
+| **TOTAL** | **96** | **177** | **54%** |
 
 ### Priority Order (by gap size × LL frequency)
 
 1. **Games/Sport** — 2/15 (13%). Sports is huge in LL.
 2. **Television** — 1/10 (10%). Frequently tested, almost empty.
-3. **Business/Economics** — 5/8 (63%). Brands, corporate history, and markets covered. Needs currencies/economics (EMI-395).
-4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
-5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
-6. **Theatre** — 1/5 (20%). Small but tested category.
-7. **Language** — 2/5 (40%). Small but distinctive LL category.
-8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
-9. **Art** — 2/5 (40%). Needs the actual artworks.
-10. **Literature** — 16/16 (100%). Complete.
-11. **Film** — 10/10 (100%). Complete.
-12. **American History** — 5/10 (50%). Solid foundation, needs breadth.
-13. **Food/Drink** — 5/10 (50%). Good start, needs food items.
-14. **Geography** — 12/20 (60%). Most exercises but missing continents.
-15. **World History** — 5/10 (50%). Needs monarchs/exploration.
-16. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.
-17. **Science** — 16/20 (80%). Well covered, needs fun trivia.
-18. **Math** — 4/6 (67%). Niche LL category, already solid.
+3. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
+4. **Theatre** — 1/5 (20%). Small but tested category.
+5. **Classical Music** — 1/4 (25%). Niche but regularly tested.
+6. **Language** — 2/5 (40%). Small but distinctive LL category.
+7. **Art** — 2/5 (40%). Needs the actual artworks.
+8. **American History** — 5/10 (50%). Solid foundation, needs breadth.
+9. **Food/Drink** — 5/10 (50%). Good start, needs food items.
+10. **World History** — 5/10 (50%). Needs monarchs/exploration.
+11. **Current Events** — 1/3 (33%). Time-sensitive, limited scope.
+12. **Business/Economics** — 5/8 (63%). Remaining 3 exercises ticketed (EMI-395).
+13. **Geography** — 12/20 (60%). Most exercises but missing continents.
+14. **Math** — 4/6 (67%). Niche LL category, already solid.
+15. **Science** — 16/20 (80%). Well covered, needs fun trivia.
+16. **Lifestyle** — 6/7 (86%). Nearly complete, only Zodiac Signs remaining.
+17. **Literature** — 16/16 (100%). Complete.
+18. **Film** — 10/10 (100%). Complete.
