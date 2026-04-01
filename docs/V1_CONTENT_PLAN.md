@@ -196,14 +196,14 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | # | Exercise | ~Items | Status | Notes |
 |---|----------|--------|--------|-------|
 | 1 | Major Philosophers | 15 | ✅ | |
-| 2 | Fashion Designers | 15 | ❌ | TS has "Fashion: Designers." Chanel, Dior, Versace, etc. |
+| 2 | Fashion Designers | 15 | ✅ 📋 EMI-419 | TS has "Fashion: Designers." Chanel, Dior, Versace, etc. |
 | 3 | Zodiac Signs | 12 | ❌ | TS has "Zodiac" + "Chinese Zodiac." Western zodiac dates/symbols + Chinese zodiac animals/years. |
-| 4 | Birthstones & Anniversary Gifts | 12 | ❌ | TS has both. January→garnet, 25th→silver, etc. |
-| 5 | World Religions | 12 | ❌ | Major religions, founders, sacred texts, key beliefs. LL tests this. |
-| 6 | Board Games & Card Games | 12 | ❌ | TS has "Board Games" + "Monopoly." Rules, origins, famous games. |
-| 7 | University Locations | 15 | ❌ | TS has this. Harvard→Cambridge MA, Oxford→Oxfordshire, etc. |
+| 4 | Birthstones & Anniversary Gifts | 17 | ✅ 📋 EMI-419 | 12 months + 5 anniversary milestones. |
+| 5 | World Religions | 12 | ✅ 📋 EMI-419 | Major religions, founders, sacred texts, key beliefs. LL tests this. |
+| 6 | Board Games & Card Games | 12 | ✅ 📋 EMI-419 | TS has "Board Games" + "Monopoly." Rules, origins, famous games. |
+| 7 | University Locations | 15 | ✅ 📋 EMI-419 | TS has this. Harvard→Cambridge MA, Oxford→Oxfordshire, etc. |
 
-**Coverage**: 1/7 done. Currently the weakest category relative to LL testing frequency.
+**Coverage**: 6/7 done. Only Zodiac Signs remains.
 
 ---
 
@@ -373,7 +373,7 @@ Inspired by TrivialStudies' unique study tools:
 | Games/Sport | 2 | 15 | 13% |
 | Geography | 12 | 20 | 60% |
 | Language | 2 | 5 | 40% |
-| Lifestyle | 1 | 7 | 14% |
+| Lifestyle | 6 | 7 | 86% |
 | Literature | 16 | 16 | 100% |
 | Math | 4 | 6 | 67% |
 | Pop Music | 2 | 10 | 20% |
@@ -382,7 +382,7 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **87** | **177** | **49%** |
+| **TOTAL** | **92** | **177** | **52%** |
 
 ### Priority Order (by gap size × LL frequency)
 
@@ -390,7 +390,7 @@ Inspired by TrivialStudies' unique study tools:
 2. **Television** — 1/10 (10%). Frequently tested, almost empty.
 3. **Business/Economics** — 1/8 (13%). Regular LL category, barely started.
 4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
-5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
+5. **Lifestyle** — 6/7 (86%). Nearly complete, only Zodiac Signs remains.
 6. **Theatre** — 1/5 (20%). Small but tested category.
 7. **Language** — 2/5 (40%). Small but distinctive LL category.
 8. **Classical Music** — 1/4 (25%). Niche but regularly tested.
