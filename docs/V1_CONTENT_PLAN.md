@@ -52,12 +52,12 @@ Complete content target for V1, organized by Learned League's 18 categories. Inf
 | 2 | World Currencies | 20 | 📋 EMI-395 | TS has "International Currencies" + "Pre-Euro Currencies." Country→currency, symbols. |
 | 3 | Economic Concepts & Terms | 15 | 📋 EMI-395 | GDP, inflation, supply/demand, Keynesian vs monetarist, etc. |
 | 4 | Nobel Prize in Economics | 12 | 📋 EMI-395 | |
-| 5 | Brand Taglines & Slogans | 15 | ❌ | TS has "Brand Taglines." "Just Do It"→Nike, "I'm Lovin' It"→McDonald's. |
-| 6 | Brand Mascots | 12 | ❌ | TS has "Brand Mascots." Tony the Tiger, Michelin Man, Mr. Clean, etc. |
-| 7 | Fortune 500 & Corporate History | 15 | ❌ | TS has "Fortune 500", "Corporate Scandals", "Company CEOs." Omnibus of corporate landmarks. |
-| 8 | Stock Market Basics | 12 | ❌ | TS has "Stock Symbols." Bull/bear, Dow/NASDAQ/S&P, famous crashes. |
+| 5 | Brand Taglines & Slogans | 15 | ✅ 📋 EMI-417 | TS has "Brand Taglines." "Just Do It"→Nike, "I'm Lovin' It"→McDonald's. |
+| 6 | Brand Mascots | 12 | ✅ 📋 EMI-417 | TS has "Brand Mascots." Tony the Tiger, Michelin Man, Mr. Clean, etc. |
+| 7 | Fortune 500 & Corporate History | 15 | ✅ 📋 EMI-417 | TS has "Fortune 500", "Corporate Scandals", "Company CEOs." Omnibus of corporate landmarks. |
+| 8 | Stock Market Basics | 12 | ✅ 📋 EMI-417 | TS has "Stock Symbols." Bull/bear, Dow/NASDAQ/S&P, famous crashes. |
 
-**Coverage**: 1/8 done. Weakest category. TS shows this is a rich LL topic area.
+**Coverage**: 5/8 done. Brands, corporate history, and markets covered. Needs currencies/economics (EMI-395).
 
 ---
 
@@ -365,7 +365,7 @@ Inspired by TrivialStudies' unique study tools:
 |----------|------|--------|--------|
 | American History | 5 | 10 | 50% |
 | Art | 2 | 5 | 40% |
-| Business/Economics | 1 | 8 | 13% |
+| Business/Economics | 5 | 8 | 63% |
 | Classical Music | 1 | 4 | 25% |
 | Current Events | 1 | 3 | 33% |
 | Film | 10 | 10 | 100% |
@@ -382,13 +382,13 @@ Inspired by TrivialStudies' unique study tools:
 | Theatre | 1 | 5 | 20% |
 | World History | 5 | 10 | 50% |
 | **Cross-Category** | 0 | 3 | 0% |
-| **TOTAL** | **87** | **177** | **49%** |
+| **TOTAL** | **91** | **177** | **51%** |
 
 ### Priority Order (by gap size × LL frequency)
 
 1. **Games/Sport** — 2/15 (13%). Sports is huge in LL.
 2. **Television** — 1/10 (10%). Frequently tested, almost empty.
-3. **Business/Economics** — 1/8 (13%). Regular LL category, barely started.
+3. **Business/Economics** — 5/8 (63%). Brands, corporate history, and markets covered. Needs currencies/economics (EMI-395).
 4. **Pop Music** — 2/10 (20%). Deep LL category, needs major expansion.
 5. **Lifestyle** — 1/7 (14%). Miscellaneous LL questions land here.
 6. **Theatre** — 1/5 (20%). Small but tested category.
