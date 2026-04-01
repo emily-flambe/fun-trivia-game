@@ -381,12 +381,12 @@ export class AdminRepository {
 				});
 			}
 
-			if (row.format === 'text-entry' && !data.prompt) {
+			if ((row.format === 'text-entry' || row.format === 'letter-by-letter') && !data.prompt) {
 				issues.push({
 					type: 'missing-prompt',
 					exerciseId: row.exercise_id,
 					itemId: row.id,
-					message: `Item "${row.id}" in "${row.exercise_id}" is text-entry but has no prompt`,
+					message: `Item "${row.id}" in "${row.exercise_id}" is item-based but has no prompt`,
 				});
 			}
 		}

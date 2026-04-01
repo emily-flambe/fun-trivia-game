@@ -29,6 +29,15 @@ async function seedTestData(db: D1Database) {
 	// Fill-blanks exercise
 	await db.exec(`INSERT INTO exercises VALUES ('science/chemistry/noble-gases', 'science/chemistry', 'Noble Gases', 'Name the noble gases', 'fill-blanks', NULL, '{"ordered":false,"prompt":"Name all six noble gases"}', 1);`);
 
+	// Letter-by-letter exercise
+	await db.exec(`INSERT INTO exercises VALUES ('science/chemistry/element-names-letter-by-letter', 'science/chemistry', 'Element Names (Letter by Letter)', 'Reveal letters and guess the element name', 'letter-by-letter', NULL, '{"autoRevealSeconds":0}', 2);`);
+
+	// Sequence-ordering exercise
+	await db.exec(`INSERT INTO exercises VALUES ('science/chemistry/atomic-history-ordering', 'science/chemistry', 'Atomic History Ordering', 'Order key atomic milestones chronologically', 'sequence-ordering', NULL, '{"prompt":"Arrange these events from earliest to latest","timed":true,"timeLimitSeconds":90}', 3);`);
+
+	// Classification-sort exercise
+	await db.exec(`INSERT INTO exercises VALUES ('science/chemistry/elements-by-family', 'science/chemistry', 'Elements by Family', 'Classify elements into chemical families', 'classification-sort', NULL, '{"prompt":"Sort each element into its correct family","categories":["Noble Gas","Alkali Metal"]}', 4);`);
+
 	// Text-entry items
 	await db.exec(`INSERT INTO items VALUES ('iron', 'science/chemistry/element-symbols', 'Iron', '[]', 'Fe from Latin ferrum.', '{"prompt":"What element has the symbol Fe?","cardFront":"Fe","cardBack":"Iron"}', 0);`);
 	await db.exec(`INSERT INTO items VALUES ('gold', 'science/chemistry/element-symbols', 'Gold', '[]', 'Au from Latin aurum.', '{"prompt":"What element has the symbol Au?","cardFront":"Au","cardBack":"Gold"}', 1);`);
@@ -38,6 +47,19 @@ async function seedTestData(db: D1Database) {
 	await db.exec(`INSERT INTO items VALUES ('helium', 'science/chemistry/noble-gases', 'Helium', '["He"]', 'Atomic number 2.', '{}', 0);`);
 	await db.exec(`INSERT INTO items VALUES ('neon', 'science/chemistry/noble-gases', 'Neon', '["Ne"]', 'Atomic number 10.', '{}', 1);`);
 	await db.exec(`INSERT INTO items VALUES ('argon', 'science/chemistry/noble-gases', 'Argon', '["Ar"]', 'Atomic number 18.', '{}', 2);`);
+
+	// Letter-by-letter items
+	await db.exec(`INSERT INTO items VALUES ('sodium', 'science/chemistry/element-names-letter-by-letter', 'Sodium', '["Na"]', 'Symbol Na comes from Latin natrium.', '{"prompt":"Which element has the symbol Na?"}', 0);`);
+
+	// Sequence-ordering items
+	await db.exec(`INSERT INTO items VALUES ('dalton', 'science/chemistry/atomic-history-ordering', 'Dalton atomic theory', '[]', 'John Dalton proposed modern atomic theory in 1803.', '{"label":"Dalton publishes atomic theory"}', 0);`);
+	await db.exec(`INSERT INTO items VALUES ('electron', 'science/chemistry/atomic-history-ordering', 'Electron discovery', '[]', 'J. J. Thomson discovered the electron in 1897.', '{"label":"Thomson discovers the electron"}', 1);`);
+	await db.exec(`INSERT INTO items VALUES ('bohr', 'science/chemistry/atomic-history-ordering', 'Bohr model', '[]', 'Niels Bohr proposed quantized orbits in 1913.', '{"label":"Bohr proposes his atomic model"}', 2);`);
+
+	// Classification-sort items
+	await db.exec(`INSERT INTO items VALUES ('helium-family', 'science/chemistry/elements-by-family', 'Helium', '[]', 'Helium is a noble gas.', '{"label":"Helium","category":"Noble Gas"}', 0);`);
+	await db.exec(`INSERT INTO items VALUES ('neon-family', 'science/chemistry/elements-by-family', 'Neon', '[]', 'Neon is a noble gas.', '{"label":"Neon","category":"Noble Gas"}', 1);`);
+	await db.exec(`INSERT INTO items VALUES ('lithium-family', 'science/chemistry/elements-by-family', 'Lithium', '[]', 'Lithium is an alkali metal.', '{"label":"Lithium","category":"Alkali Metal"}', 2);`);
 
 	// Pre-seed test user so quiz-results tests don't depend on auth/me test ordering
 	await db.exec(`INSERT INTO users VALUES ('test-user-id', 'test@trivia.emilycogsdill.com', '', '{}', '2026-01-01T00:00:00Z', '2026-01-01T00:00:00Z');`);
@@ -171,7 +193,7 @@ describe('Trivia API', () => {
 			const data = await res.json<any>();
 			expect(data.node.id).toBe('science/chemistry');
 			expect(data.children).toHaveLength(0);
-			expect(data.exercises).toHaveLength(2);
+			expect(data.exercises).toHaveLength(5);
 
 			const symbols = data.exercises.find((e: any) => e.id === 'science/chemistry/element-symbols');
 			expect(symbols).toBeDefined();
@@ -180,6 +202,18 @@ describe('Trivia API', () => {
 			const gases = data.exercises.find((e: any) => e.id === 'science/chemistry/noble-gases');
 			expect(gases).toBeDefined();
 			expect(gases.itemCount).toBe(3);
+
+			const letterByLetter = data.exercises.find((e: any) => e.id === 'science/chemistry/element-names-letter-by-letter');
+			expect(letterByLetter).toBeDefined();
+			expect(letterByLetter.itemCount).toBe(1);
+
+			const sequenceOrdering = data.exercises.find((e: any) => e.id === 'science/chemistry/atomic-history-ordering');
+			expect(sequenceOrdering).toBeDefined();
+			expect(sequenceOrdering.itemCount).toBe(3);
+
+			const classificationSort = data.exercises.find((e: any) => e.id === 'science/chemistry/elements-by-family');
+			expect(classificationSort).toBeDefined();
+			expect(classificationSort.itemCount).toBe(3);
 		});
 
 		it('returns exercises in sort_order', async () => {
@@ -187,6 +221,9 @@ describe('Trivia API', () => {
 			const data = await res.json<any>();
 			expect(data.exercises[0].id).toBe('science/chemistry/element-symbols');
 			expect(data.exercises[1].id).toBe('science/chemistry/noble-gases');
+			expect(data.exercises[2].id).toBe('science/chemistry/element-names-letter-by-letter');
+			expect(data.exercises[3].id).toBe('science/chemistry/atomic-history-ordering');
+			expect(data.exercises[4].id).toBe('science/chemistry/elements-by-family');
 		});
 
 		it('returns breadcrumbs ordered root-first for nested node', async () => {
@@ -215,7 +252,7 @@ describe('Trivia API', () => {
 			expect(data.id).toBeDefined();
 			expect(typeof data.id).toBe('string');
 			// Should be one of the seeded exercises
-			expect(['science/chemistry/element-symbols', 'science/chemistry/noble-gases']).toContain(data.id);
+			expect(['science/chemistry/element-symbols', 'science/chemistry/noble-gases', 'science/chemistry/element-names-letter-by-letter', 'science/chemistry/atomic-history-ordering', 'science/chemistry/elements-by-family']).toContain(data.id);
 		});
 	});
 
@@ -271,6 +308,39 @@ describe('Trivia API', () => {
 			expect(data.exercise.config).toEqual({
 				ordered: false,
 				prompt: 'Name all six noble gases',
+			});
+		});
+
+		it('returns letter-by-letter exercise with config', async () => {
+			const res = await makeRequest('/api/exercises/science/chemistry/element-names-letter-by-letter');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercise.format).toBe('letter-by-letter');
+			expect(data.exercise.config).toEqual({
+				autoRevealSeconds: 0,
+			});
+		});
+
+		it('returns sequence-ordering exercise with config', async () => {
+			const res = await makeRequest('/api/exercises/science/chemistry/atomic-history-ordering');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercise.format).toBe('sequence-ordering');
+			expect(data.exercise.config).toEqual({
+				prompt: 'Arrange these events from earliest to latest',
+				timed: true,
+				timeLimitSeconds: 90,
+			});
+		});
+
+		it('returns classification-sort exercise with config', async () => {
+			const res = await makeRequest('/api/exercises/science/chemistry/elements-by-family');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.exercise.format).toBe('classification-sort');
+			expect(data.exercise.config).toEqual({
+				prompt: 'Sort each element into its correct family',
+				categories: ['Noble Gas', 'Alkali Metal'],
 			});
 		});
 
@@ -386,6 +456,26 @@ describe('Trivia API', () => {
 		});
 	});
 
+	describe('POST /api/exercises/.../check (letter-by-letter)', () => {
+		const checkUrl = '/api/exercises/science/chemistry/element-names-letter-by-letter/check';
+
+		it('returns correct for exact match', async () => {
+			const res = await postJson(checkUrl, { itemId: 'sodium', answer: 'Sodium' });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.correct).toBe(true);
+			expect(data.correctAnswer).toBe('Sodium');
+			expect(data.fuzzyMatch).toBe(false);
+		});
+
+		it('requires itemId for letter-by-letter', async () => {
+			const res = await postJson(checkUrl, { answer: 'Sodium' });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toBeDefined();
+		});
+	});
+
 	// ─── Check: fill-blanks ───────────────────────────────────
 
 	describe('POST /api/exercises/.../check (fill-blanks)', () => {
@@ -443,6 +533,88 @@ describe('Trivia API', () => {
 			const res = await postJson(checkUrl, { answer: 'Xenon' });
 			const data = await res.json<any>();
 			expect(data.userAnswer).toBe('Xenon');
+		});
+	});
+
+	describe('POST /api/exercises/.../check (sequence-ordering)', () => {
+		const checkUrl = '/api/exercises/science/chemistry/atomic-history-ordering/check';
+
+		it('returns full score for perfect ordering', async () => {
+			const res = await postJson(checkUrl, { order: ['dalton', 'electron', 'bohr'] });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(true);
+			expect(data.correct).toBe(true);
+			expect(data.correctCount).toBe(3);
+			expect(data.total).toBe(3);
+		});
+
+		it('returns partial score when some positions are wrong', async () => {
+			const res = await postJson(checkUrl, { order: ['electron', 'dalton', 'bohr'] });
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(true);
+			expect(data.correct).toBe(false);
+			expect(data.correctCount).toBe(1);
+			expect(data.total).toBe(3);
+		});
+
+		it('returns 400 when order is missing', async () => {
+			const res = await postJson(checkUrl, {});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('order');
+		});
+
+		it('returns 400 validation error for duplicate item ids', async () => {
+			const res = await postJson(checkUrl, { order: ['dalton', 'dalton', 'bohr'] });
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(false);
+			expect(data.duplicateItemIds).toContain('dalton');
+		});
+	});
+
+	describe('POST /api/exercises/.../check (classification-sort)', () => {
+		const checkUrl = '/api/exercises/science/chemistry/elements-by-family/check';
+
+		it('returns full score for perfect classification', async () => {
+			const res = await postJson(checkUrl, {
+				assignments: {
+					'helium-family': 'Noble Gas',
+					'neon-family': 'Noble Gas',
+					'lithium-family': 'Alkali Metal',
+				},
+			});
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(true);
+			expect(data.correct).toBe(true);
+			expect(data.correctCount).toBe(3);
+			expect(data.total).toBe(3);
+		});
+
+		it('returns partial score when one category is wrong', async () => {
+			const res = await postJson(checkUrl, {
+				assignments: {
+					'helium-family': 'Noble Gas',
+					'neon-family': 'Noble Gas',
+					'lithium-family': 'Noble Gas',
+				},
+			});
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(true);
+			expect(data.correct).toBe(false);
+			expect(data.correctCount).toBe(2);
+			expect(data.total).toBe(3);
+		});
+
+		it('returns 400 when assignments are missing', async () => {
+			const res = await postJson(checkUrl, {});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('assignments');
 		});
 	});
 
@@ -504,6 +676,30 @@ describe('Trivia API', () => {
 			// Should still match neon, ignoring the stale itemId
 			expect(data.matched).toBe(true);
 			expect(data.matchedItemId).toBe('neon');
+		});
+
+		it('sequence-ordering returns 400 for unknown item ids', async () => {
+			const res = await postJson('/api/exercises/science/chemistry/atomic-history-ordering/check', {
+				order: ['dalton', 'electron', 'unknown'],
+			});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(false);
+			expect(data.extraItemIds).toContain('unknown');
+		});
+
+		it('classification-sort returns 400 for unknown item ids', async () => {
+			const res = await postJson('/api/exercises/science/chemistry/elements-by-family/check', {
+				assignments: {
+					'helium-family': 'Noble Gas',
+					'neon-family': 'Noble Gas',
+					unknown: 'Alkali Metal',
+				},
+			});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.valid).toBe(false);
+			expect(data.extraItemIds).toContain('unknown');
 		});
 
 		it('node detail for history (leaf root with no children or exercises)', async () => {

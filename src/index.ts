@@ -1,7 +1,7 @@
 import { NodeRepository } from './data/repository';
 import { AdminRepository, NotFoundError } from './data/admin-repository';
 import { UserRepository } from './data/user-repository';
-import { checkTextEntry, checkFillBlanks } from './lib/answer-checker';
+import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort } from './lib/answer-checker';
 import type { User, ExerciseFormat, QuizItemResult } from './data/types';
 
 interface Env {
@@ -283,6 +283,7 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 						userAnswer: detail.userAnswer,
 						correct: detail.correct,
 						fuzzyMatch: detail.fuzzyMatch,
+						hintsUsed: detail.hintsUsed,
 					};
 				})
 			);
@@ -474,11 +475,7 @@ async function handleAdminApi(path: string, request: Request, env: Env): Promise
 }
 
 async function handleCheckAnswer(exercisePath: string, request: Request, repo: NodeRepository): Promise<Response> {
-	const body = await request.json<{ itemId?: string; answer?: string }>();
-
-	if (body.answer == null) {
-		return json({ error: 'Missing required field: answer' }, 400);
-	}
+	const body = await request.json<{ itemId?: string; answer?: string; order?: string[]; assignments?: Record<string, string> }>();
 
 	// Get the exercise to know its format
 	const exerciseResult = await repo.getExercise(exercisePath);
@@ -488,10 +485,13 @@ async function handleCheckAnswer(exercisePath: string, request: Request, repo: N
 
 	const { exercise, items } = exerciseResult;
 
-	if (exercise.format === 'text-entry') {
+	if (exercise.format === 'text-entry' || exercise.format === 'letter-by-letter') {
+		if (body.answer == null) {
+			return json({ error: 'Missing required field: answer' }, 400);
+		}
 		// Text-entry requires itemId
 		if (!body.itemId) {
-			return json({ error: 'Missing required field: itemId for text-entry format' }, 400);
+			return json({ error: 'Missing required field: itemId for item-based format' }, 400);
 		}
 		const item = items.find((i) => i.id === body.itemId);
 		if (!item) {
@@ -502,8 +502,33 @@ async function handleCheckAnswer(exercisePath: string, request: Request, repo: N
 	}
 
 	if (exercise.format === 'fill-blanks') {
+		if (body.answer == null) {
+			return json({ error: 'Missing required field: answer' }, 400);
+		}
 		// Fill-blanks checks against all items
 		const result = checkFillBlanks(items, body.answer ?? '');
+		return json(result);
+	}
+
+	if (exercise.format === 'sequence-ordering') {
+		if (!Array.isArray(body.order)) {
+			return json({ error: 'Missing required field: order (array of item IDs)' }, 400);
+		}
+		const result = checkSequenceOrdering(items, body.order);
+		if (!result.valid) {
+			return json(result, 400);
+		}
+		return json(result);
+	}
+
+	if (exercise.format === 'classification-sort') {
+		if (!body.assignments || typeof body.assignments !== 'object' || Array.isArray(body.assignments)) {
+			return json({ error: 'Missing required field: assignments (object of itemId -> category)' }, 400);
+		}
+		const result = checkClassificationSort(items, body.assignments);
+		if (!result.valid) {
+			return json(result, 400);
+		}
 		return json(result);
 	}
 

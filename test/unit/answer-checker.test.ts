@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { checkTextEntry, checkFillBlanks } from '../../src/lib/answer-checker';
+import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort } from '../../src/lib/answer-checker';
 import type { Item, CheckAnswerResult, FillBlanksCheckResult } from '../../src/data/types';
 
 // ─── Test fixtures ───────────────────────────────────────────────────
@@ -826,5 +826,153 @@ describe('checkFillBlanks', () => {
 			expect(result).toHaveProperty('userAnswer', 'Helium');
 			expect(result).toHaveProperty('fuzzyMatch', false);
 		});
+	});
+});
+
+describe('checkSequenceOrdering', () => {
+	const timelineItems: Item[] = [
+		{ id: 'ww1', exerciseId: 'timeline', answer: 'World War I', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+		{ id: 'ww2', exerciseId: 'timeline', answer: 'World War II', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+		{ id: 'moon', exerciseId: 'timeline', answer: 'Moon Landing', alternates: [], explanation: '', data: {}, sortOrder: 2 },
+	];
+
+	it('returns full score for perfect ordering', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww2', 'moon']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(3);
+		expect(result.total).toBe(3);
+		expect(result.placements.every((p) => p.correct)).toBe(true);
+	});
+
+	it('returns partial score when some positions are wrong', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww2', 'ww1', 'moon']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(1);
+		expect(result.total).toBe(3);
+		const moon = result.placements.find((p) => p.itemId === 'moon');
+		expect(moon?.correct).toBe(true);
+	});
+
+	it('returns validation error when order is missing an item', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww2']);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.missingItemIds).toContain('moon');
+		expect(result.duplicateItemIds).toEqual([]);
+		expect(result.extraItemIds).toEqual([]);
+	});
+
+	it('returns validation error for duplicate items', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww1', 'moon']);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.duplicateItemIds).toContain('ww1');
+	});
+
+	it('returns validation error for unknown item ids', () => {
+		const result = checkSequenceOrdering(timelineItems, ['ww1', 'ww2', 'xyz']);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.extraItemIds).toContain('xyz');
+		expect(result.missingItemIds).toContain('moon');
+	});
+});
+
+describe('checkClassificationSort', () => {
+	const sortItems: Item[] = [
+		{ id: 'wren', exerciseId: 'birds-mammals', answer: 'Wren', alternates: [], explanation: '', data: { category: 'Bird' }, sortOrder: 0 },
+		{ id: 'otter', exerciseId: 'birds-mammals', answer: 'Otter', alternates: [], explanation: '', data: { category: 'Mammal' }, sortOrder: 1 },
+		{ id: 'falcon', exerciseId: 'birds-mammals', answer: 'Falcon', alternates: [], explanation: '', data: { category: 'Bird' }, sortOrder: 2 },
+	];
+
+	it('returns full score for perfect classification', () => {
+		const result = checkClassificationSort(sortItems, {
+			wren: 'Bird',
+			otter: 'Mammal',
+			falcon: 'Bird',
+		});
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(3);
+		expect(result.total).toBe(3);
+	});
+
+	it('returns partial score for mixed classification', () => {
+		const result = checkClassificationSort(sortItems, {
+			wren: 'Bird',
+			otter: 'Bird',
+			falcon: 'Bird',
+		});
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(2);
+	});
+
+	it('returns validation error when an item is missing', () => {
+		const result = checkClassificationSort(sortItems, {
+			wren: 'Bird',
+			otter: 'Mammal',
+		});
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.missingItemIds).toContain('falcon');
+	});
+
+	it('returns validation error for unknown item ids', () => {
+		const result = checkClassificationSort(sortItems, {
+			wren: 'Bird',
+			otter: 'Mammal',
+			falcon: 'Bird',
+			wolf: 'Mammal',
+		});
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.extraItemIds).toContain('wolf');
+	});
+
+	it('returns validation error when exercise data is missing categories', () => {
+		const brokenItems: Item[] = [
+			...sortItems,
+			{ id: 'eel', exerciseId: 'birds-mammals', answer: 'Eel', alternates: [], explanation: '', data: {}, sortOrder: 3 },
+		];
+		const result = checkClassificationSort(brokenItems, {
+			wren: 'Bird',
+			otter: 'Mammal',
+			falcon: 'Bird',
+			eel: 'Fish',
+		});
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.invalidCategoryItemIds).toContain('eel');
+	});
+
+	it('accepts ambiguous mappings via categories array', () => {
+		const ambiguousItems: Item[] = [
+			...sortItems,
+			{
+				id: 'biochem',
+				exerciseId: 'birds-mammals',
+				answer: 'Biochemistry',
+				alternates: [],
+				explanation: '',
+				data: { categories: ['Biology', 'Chemistry'] },
+				sortOrder: 3,
+			},
+		];
+		const result = checkClassificationSort(ambiguousItems, {
+			wren: 'Bird',
+			otter: 'Mammal',
+			falcon: 'Bird',
+			biochem: 'Chemistry',
+		});
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
 	});
 });

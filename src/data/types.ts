@@ -1,6 +1,6 @@
 // === Exercise formats and display types ===
 
-export type ExerciseFormat = 'text-entry' | 'fill-blanks';
+export type ExerciseFormat = 'text-entry' | 'fill-blanks' | 'letter-by-letter' | 'sequence-ordering' | 'classification-sort';
 export type DisplayType = 'cards' | 'periodic-table' | 'map' | 'timeline';
 
 // === Core domain types ===
@@ -36,7 +36,25 @@ export interface TextEntryConfig {
   showAll: boolean;
 }
 
-export type ExerciseConfig = FillBlanksConfig | TextEntryConfig;
+export interface LetterByLetterConfig {
+  autoRevealSeconds?: number;
+}
+
+export interface SequenceOrderingConfig {
+  prompt?: string;
+  timed?: boolean;
+  timeLimitSeconds?: number;
+}
+
+export interface ClassificationSortConfig {
+  prompt?: string;
+  categories?: string[];
+  feedbackMode?: 'immediate' | 'end';
+  timed?: boolean;
+  timeLimitSeconds?: number;
+}
+
+export type ExerciseConfig = FillBlanksConfig | TextEntryConfig | LetterByLetterConfig | SequenceOrderingConfig | ClassificationSortConfig;
 
 export interface Item {
   id: string;
@@ -77,6 +95,53 @@ export interface FillBlanksCheckResult {
   position?: number;
   userAnswer: string;
   fuzzyMatch: boolean;
+}
+
+export interface SequenceOrderingPlacement {
+  itemId: string;
+  expectedPosition: number;
+  userPosition: number;
+  correct: boolean;
+}
+
+export interface SequenceOrderingCheckResult {
+  valid: true;
+  correct: boolean;
+  correctCount: number;
+  total: number;
+  placements: SequenceOrderingPlacement[];
+}
+
+export interface SequenceOrderingValidationError {
+  valid: false;
+  error: string;
+  missingItemIds: string[];
+  extraItemIds: string[];
+  duplicateItemIds: string[];
+}
+
+export interface ClassificationSortPlacement {
+  itemId: string;
+  expectedCategories: string[];
+  userCategory: string;
+  correct: boolean;
+}
+
+export interface ClassificationSortCheckResult {
+  valid: true;
+  correct: boolean;
+  correctCount: number;
+  total: number;
+  placements: ClassificationSortPlacement[];
+}
+
+export interface ClassificationSortValidationError {
+  valid: false;
+  error: string;
+  missingItemIds: string[];
+  extraItemIds: string[];
+  duplicateItemIds: string[];
+  invalidCategoryItemIds: string[];
 }
 
 // === User types ===
@@ -122,6 +187,7 @@ export interface QuizItemResult {
   correct: boolean;
   userAnswer: string;
   fuzzyMatch: boolean;
+  hintsUsed?: number;
 }
 
 // === Quiz result detail ===
@@ -133,6 +199,7 @@ export interface QuizResultDetailItem {
   userAnswer: string;
   correct: boolean;
   fuzzyMatch: boolean;
+  hintsUsed?: number;
 }
 
 export interface QuizResultDetail {

@@ -19,7 +19,16 @@ export interface ExerciseSummary {
 	description: string;
 	format: string;
 	displayType?: string;
-	config?: { ordered?: boolean; prompt?: string; showAll?: boolean };
+	config?: {
+		ordered?: boolean;
+		prompt?: string;
+		showAll?: boolean;
+		autoRevealSeconds?: number;
+		timed?: boolean;
+		timeLimitSeconds?: number;
+		categories?: string[];
+		feedbackMode?: 'immediate' | 'end';
+	};
 	sortOrder: number;
 	itemCount?: number;
 }
@@ -138,7 +147,7 @@ export interface QuizResultPayload {
 	score: number;
 	total: number;
 	durationSeconds?: number;
-	itemsDetail: { itemId: string; correct: boolean; userAnswer: string; fuzzyMatch: boolean }[];
+	itemsDetail: { itemId: string; correct: boolean; userAnswer: string; fuzzyMatch: boolean; hintsUsed?: number }[];
 	isRetry?: boolean;
 	parentResultId?: string;
 }
@@ -205,6 +214,37 @@ export interface QuizResultDetailItem {
 	userAnswer: string;
 	correct: boolean;
 	fuzzyMatch: boolean;
+	hintsUsed?: number;
+}
+
+export interface SequenceOrderingPlacement {
+	itemId: string;
+	expectedPosition: number;
+	userPosition: number;
+	correct: boolean;
+}
+
+export interface SequenceOrderingCheckResult {
+	valid: true;
+	correct: boolean;
+	correctCount: number;
+	total: number;
+	placements: SequenceOrderingPlacement[];
+}
+
+export interface ClassificationSortPlacement {
+	itemId: string;
+	expectedCategories: string[];
+	userCategory: string;
+	correct: boolean;
+}
+
+export interface ClassificationSortCheckResult {
+	valid: true;
+	correct: boolean;
+	correctCount: number;
+	total: number;
+	placements: ClassificationSortPlacement[];
 }
 
 export interface QuizResultDetail {
@@ -244,12 +284,12 @@ export async function getQuizResultsByExercise(): Promise<{ exercises: QuizExerc
 
 export async function checkAnswer(
 	exercisePath: string,
-	body: { itemId?: string; answer: string }
-): Promise<CheckAnswerResult | FillBlanksCheckResult> {
+	body: { itemId?: string; answer?: string; order?: string[]; assignments?: Record<string, string> }
+): Promise<CheckAnswerResult | FillBlanksCheckResult | SequenceOrderingCheckResult | ClassificationSortCheckResult> {
 	const res = await fetch(`${BASE}/exercises/${exercisePath}/check`, {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(body),
 	});
-	return res.json() as Promise<CheckAnswerResult | FillBlanksCheckResult>;
+	return res.json() as Promise<CheckAnswerResult | FillBlanksCheckResult | SequenceOrderingCheckResult | ClassificationSortCheckResult>;
 }
