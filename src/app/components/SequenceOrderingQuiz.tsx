@@ -51,6 +51,9 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 	const [checking, setChecking] = useState(false);
 	const [result, setResult] = useState<SequenceOrderingCheckResult | null>(null);
 	const [dragItemId, setDragItemId] = useState<string | null>(null);
+	const [touchDragIdx, setTouchDragIdx] = useState<number | null>(null);
+	const [touchTargetIdx, setTouchTargetIdx] = useState<number | null>(null);
+	const listRef = useRef<HTMLDivElement>(null);
 	const startTimeRef = useRef<number>(Date.now());
 	const submittedRef = useRef(false);
 	const [lastResultId, setLastResultId] = useState<string | null>(null);
@@ -142,6 +145,38 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 		}
 	}
 
+	function handleTouchStart(idx: number) {
+		if (result) return;
+		setTouchDragIdx(idx);
+		setTouchTargetIdx(idx);
+	}
+
+	function handleTouchMove(e: React.TouchEvent) {
+		if (touchDragIdx === null || result || !listRef.current) return;
+		e.preventDefault();
+		const touch = e.touches[0];
+		const children = Array.from(listRef.current.children) as HTMLElement[];
+		let target = touchDragIdx;
+		for (let i = 0; i < children.length; i++) {
+			const rect = children[i].getBoundingClientRect();
+			const midY = rect.top + rect.height / 2;
+			if (touch.clientY < midY) {
+				target = i;
+				break;
+			}
+			target = i;
+		}
+		setTouchTargetIdx(target);
+	}
+
+	function handleTouchEnd() {
+		if (touchDragIdx !== null && touchTargetIdx !== null && touchDragIdx !== touchTargetIdx) {
+			moveItem(touchDragIdx, touchTargetIdx);
+		}
+		setTouchDragIdx(null);
+		setTouchTargetIdx(null);
+	}
+
 	async function handleCheck() {
 		if (checking || result) return;
 		setChecking(true);
@@ -184,10 +219,16 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 					)}
 				</div>
 
-				<div className="space-y-2 mb-5">
+				<div
+					ref={listRef}
+					className="space-y-2 mb-5"
+					onTouchMove={handleTouchMove}
+					onTouchEnd={handleTouchEnd}
+				>
 					{order.map((itemId, idx) => {
 						const item = byId.get(itemId);
 						const label = item ? getSequenceLabel(item) : itemId;
+						const isTouchDragged = touchDragIdx === idx;
 						return (
 							<div
 								key={itemId}
@@ -201,7 +242,10 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 									moveItem(fromIdx, idx);
 									setDragItemId(null);
 								}}
-								className="rounded-xl border border-border-subtle bg-surface-bright px-3 py-2 flex items-center gap-2"
+								onTouchStart={() => handleTouchStart(idx)}
+								className={`rounded-xl border border-border-subtle bg-surface-bright px-3 py-2 flex items-center gap-2 transition-all duration-150 ${
+									isTouchDragged ? 'opacity-50 scale-95' : ''
+								}`}
 							>
 								<div
 									tabIndex={result ? -1 : 0}

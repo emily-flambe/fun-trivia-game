@@ -880,6 +880,36 @@ describe('checkSequenceOrdering', () => {
 		expect(result.extraItemIds).toContain('xyz');
 		expect(result.missingItemIds).toContain('moon');
 	});
+
+	it('returns zero score when all items are in completely wrong positions', () => {
+		const result = checkSequenceOrdering(timelineItems, ['moon', 'ww1', 'ww2']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(0);
+		expect(result.total).toBe(3);
+		expect(result.placements.every((p) => !p.correct)).toBe(true);
+	});
+
+	it('returns correct for a single item (always in the right position)', () => {
+		const singleItem: Item[] = [
+			{ id: 'only', exerciseId: 'solo', answer: 'Only Item', alternates: [], explanation: '', data: {} as Item['data'], sortOrder: 0 },
+		];
+		const result = checkSequenceOrdering(singleItem, ['only']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(1);
+		expect(result.total).toBe(1);
+	});
+
+	it('returns validation error for empty order array', () => {
+		const result = checkSequenceOrdering(timelineItems, []);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.missingItemIds).toEqual(['ww1', 'ww2', 'moon']);
+		expect(result.error).toBeTruthy();
+	});
 });
 
 describe('checkClassificationSort', () => {

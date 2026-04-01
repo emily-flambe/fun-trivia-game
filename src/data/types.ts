@@ -62,7 +62,7 @@ export interface Item {
   answer: string;
   alternates: string[];
   explanation: string;
-  data: TextEntryData | FillBlanksData;
+  data: TextEntryData | FillBlanksData | SequenceOrderingData | ClassificationSortData;
   sortOrder: number;
 }
 
@@ -76,6 +76,18 @@ export interface TextEntryData {
 
 export interface FillBlanksData {
   label?: string;
+  links?: { text: string; url: string }[];
+}
+
+export interface SequenceOrderingData {
+  label?: string;
+  links?: { text: string; url: string }[];
+}
+
+export interface ClassificationSortData {
+  label?: string;
+  category?: string;
+  categories?: string[];
   links?: { text: string; url: string }[];
 }
 

@@ -8,6 +8,7 @@ import { FillBlanksQuiz } from './FillBlanksQuiz';
 import { LetterByLetterQuiz } from './LetterByLetterQuiz';
 import { SequenceOrderingQuiz } from './SequenceOrderingQuiz';
 import { ClassificationSortQuiz } from './ClassificationSortQuiz';
+import { SequenceOrderingLearn } from './SequenceOrderingLearn';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
@@ -75,6 +76,9 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 					<PeriodicTable items={items} />
 				</div>
 			);
+		}
+		if (exercise.format === 'sequence-ordering') {
+			return <SequenceOrderingLearn exercise={exercise} items={items} exercisePath={path} />;
 		}
 		return <LearnGrid exercise={exercise} items={items} exercisePath={path} />;
 	}

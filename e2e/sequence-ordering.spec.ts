@@ -228,3 +228,114 @@ test.describe('Sequence ordering quiz', () => {
 		await expect(page.getByText(/Score:|Perfect order!/)).not.toBeVisible();
 	});
 });
+
+test.describe('Sequence ordering learn mode', () => {
+	test.beforeAll(async () => {
+		// Clean up any leftover data from a previous run
+		await adminDelete(`/api/admin/exercises/${EXERCISE_PATH}`);
+
+		// Create parent nodes (idempotent upsert)
+		await adminPost('/api/admin/nodes', { id: 'test-seq', name: 'Test Sequence', parentId: null });
+		await adminPost('/api/admin/nodes', { id: 'test-seq/timelines', name: 'Timelines', parentId: 'test-seq' });
+
+		// Create exercise with items
+		await adminPost('/api/admin/exercises', {
+			id: EXERCISE_PATH,
+			nodeId: 'test-seq/timelines',
+			name: 'Test Ordering',
+			format: 'sequence-ordering',
+			config: { prompt: 'Arrange from earliest to latest' },
+			sortOrder: 0,
+			items: [
+				{ id: 'item-a', answer: 'First', explanation: 'This is first', data: { label: 'Event A (1900)' }, sortOrder: 0 },
+				{ id: 'item-b', answer: 'Second', explanation: 'This is second', data: { label: 'Event B (1950)' }, sortOrder: 1 },
+				{ id: 'item-c', answer: 'Third', explanation: 'This is third', data: { label: 'Event C (2000)' }, sortOrder: 2 },
+			],
+		});
+	});
+
+	test.afterAll(async () => {
+		await adminDelete(`/api/admin/exercises/${EXERCISE_PATH}`);
+	});
+
+	test('learn mode shows items in correct order sorted by sortOrder', async ({ page }) => {
+		await page.goto(`/#/exercise/${EXERCISE_PATH}?mode=learn`);
+
+		// Exercise name is visible
+		await expect(page.getByText('Test Ordering')).toBeVisible({ timeout: 10000 });
+
+		// Items should appear in sortOrder: A, B, C
+		const items = page.locator('button.w-full.text-left.rounded-xl');
+		await expect(items).toHaveCount(3);
+
+		// Verify correct order by checking labels
+		await expect(items.nth(0).locator('.font-medium')).toHaveText('Event A (1900)');
+		await expect(items.nth(1).locator('.font-medium')).toHaveText('Event B (1950)');
+		await expect(items.nth(2).locator('.font-medium')).toHaveText('Event C (2000)');
+	});
+
+	test('learn mode shows numbered positions', async ({ page }) => {
+		await page.goto(`/#/exercise/${EXERCISE_PATH}?mode=learn`);
+		await expect(page.getByText('Test Ordering')).toBeVisible({ timeout: 10000 });
+
+		const items = page.locator('button.w-full.text-left.rounded-xl');
+		await expect(items).toHaveCount(3);
+
+		// Each item should show a 1-based position number
+		await expect(items.nth(0).locator('.text-accent')).toHaveText('1');
+		await expect(items.nth(1).locator('.text-accent')).toHaveText('2');
+		await expect(items.nth(2).locator('.text-accent')).toHaveText('3');
+	});
+
+	test('items are expandable to show explanation', async ({ page }) => {
+		await page.goto(`/#/exercise/${EXERCISE_PATH}?mode=learn`);
+		await expect(page.getByText('Test Ordering')).toBeVisible({ timeout: 10000 });
+
+		const items = page.locator('button.w-full.text-left.rounded-xl');
+		await expect(items).toHaveCount(3);
+
+		// Explanation should not be visible initially
+		await expect(page.getByText('This is first')).not.toBeVisible();
+
+		// Click first item to expand
+		await items.nth(0).click();
+		await expect(page.getByText('This is first')).toBeVisible();
+
+		// Click again to collapse
+		await items.nth(0).click();
+		await expect(page.getByText('This is first')).not.toBeVisible();
+
+		// Click second item — only its explanation should show
+		await items.nth(1).click();
+		await expect(page.getByText('This is second')).toBeVisible();
+		await expect(page.getByText('This is first')).not.toBeVisible();
+	});
+
+	test('Quiz Me button navigates to quiz mode', async ({ page }) => {
+		await page.goto(`/#/exercise/${EXERCISE_PATH}?mode=learn`);
+		await expect(page.getByText('Test Ordering')).toBeVisible({ timeout: 10000 });
+
+		// Click "Quiz Me"
+		await page.getByRole('link', { name: 'Quiz Me' }).click();
+
+		// Should navigate to quiz mode — Check Order button should appear
+		await expect(page.getByRole('button', { name: 'Check Order' })).toBeVisible({ timeout: 10000 });
+	});
+
+	test('back arrow navigates to parent node', async ({ page }) => {
+		await page.goto(`/#/exercise/${EXERCISE_PATH}?mode=learn`);
+		await expect(page.getByText('Test Ordering')).toBeVisible({ timeout: 10000 });
+
+		// The back arrow links to the parent node
+		const backLink = page.locator('a').filter({ hasText: '\u2190' });
+		await expect(backLink).toBeVisible();
+
+		// Verify the href points to the parent node
+		const href = await backLink.getAttribute('href');
+		expect(href).toBe('#/node/test-seq/timelines');
+
+		// Click it and verify navigation
+		await backLink.click();
+		await expect(page.getByText('Timelines')).toBeVisible({ timeout: 10000 });
+	});
+});
