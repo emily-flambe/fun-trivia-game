@@ -113,6 +113,9 @@ npx wrangler d1 execute trivia-trainer --remote --command "UPDATE items SET alte
 
 For new exercises, use `POST /api/admin/exercises`.
 
+For D1-driven content tickets, prefer inline commands (`--command`) over temporary SQL files.
+Do not leave ad-hoc content SQL files in the repo/worktree (for example `emi-*-content.sql` or `.tmp-*.sql`).
+
 ## Seed Files Policy (MANDATORY)
 
 **DO NOT USE seed files for content work.**
