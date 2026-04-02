@@ -588,7 +588,8 @@ async function getCategoryWeightsForRequest(
 	const userRepo = new UserRepository(env.DB);
 	const preferences = await userRepo.getPreferences(user.id);
 	const parsed = parseStoredCategoryWeights(preferences.categoryWeights);
-	return parsed ?? undefined;
+	if (!parsed || Object.keys(parsed).length === 0) return undefined;
+	return parsed;
 }
 
 function parseStoredCategoryWeights(raw: unknown): Record<string, number> | null {

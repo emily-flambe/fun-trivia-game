@@ -53,17 +53,32 @@ test.describe('Profile Page', () => {
 		});
 
 		test('Categories tab shows accuracy after submitting quiz result', async ({ page }) => {
+			const cookie = (await page.context().cookies()).find((c) => c.name === 'CF_Test_Auth');
+			expect(cookie?.value).toBeTruthy();
+			const postRes = await page.request.post('/api/quiz-results', {
+				headers: {
+					'Content-Type': 'application/json',
+					cookie: `CF_Test_Auth=${cookie!.value}`,
+				},
+				data: {
+					exerciseId: 'science/chemistry/element-symbols',
+					exerciseName: 'Element Symbols',
+					format: 'text-entry',
+					score: 2,
+					total: 3,
+					itemsDetail: [],
+				},
+			});
+			const postBody = await postRes.text();
+			expect(postRes.status(), `quiz-results response: ${postBody}`).toBe(201);
+
 			await page.goto('/#/profile/categories');
 			await page.waitForTimeout(1500);
 
 			const panel = page.getByRole('tabpanel');
-			const scienceVisible = await panel.getByText('Science').isVisible().catch(() => false);
-			if (scienceVisible) {
-				await expect(panel.getByText('%').first()).toBeVisible();
-				await expect(page.locator('.h-2.bg-surface-bright').first()).toBeVisible();
-			} else {
-				await expect(panel.getByText('No quiz results yet.')).toBeVisible();
-			}
+			await expect(panel.getByText('Science')).toBeVisible();
+			await expect(panel.getByText('%').first()).toBeVisible();
+			await expect(page.locator('.h-2.bg-surface-bright').first()).toBeVisible();
 		});
 
 		test('Preferences tab allows editing and saving category weights', async ({ page }) => {

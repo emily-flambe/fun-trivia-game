@@ -217,7 +217,7 @@ export class NodeRepository {
 			.all<{ id: string; node_id: string }>();
 
 		if (rows.results.length === 0) return null;
-		if (!categoryWeights) {
+		if (!categoryWeights || Object.keys(categoryWeights).length === 0) {
 			const randomIndex = Math.floor(Math.random() * rows.results.length);
 			return rows.results[randomIndex]?.id ?? null;
 		}
@@ -288,7 +288,8 @@ export class NodeRepository {
 		count: number,
 		categoryWeights?: Record<string, number>,
 	): Promise<Array<Item & { exerciseName: string; nodeId: string }>> {
-		const rows = categoryWeights
+		const hasCategoryWeights = !!categoryWeights && Object.keys(categoryWeights).length > 0;
+		const rows = hasCategoryWeights
 			? await this.db
 				.prepare(
 					`SELECT i.*, e.name as exercise_name, e.node_id as ex_node_id
@@ -315,7 +316,7 @@ export class NodeRepository {
 			nodeId: row.ex_node_id,
 		}));
 
-		if (!categoryWeights || mapped.length <= 1) {
+		if (!hasCategoryWeights || mapped.length <= 1) {
 			return mapped;
 		}
 
