@@ -266,7 +266,7 @@ describe('Trivia API', () => {
 				await putJsonAuth('/api/user/preferences', {
 					categoryWeights: {
 						science: 0,
-						history: 100,
+						history: 10,
 					},
 				});
 				const res = await makeAuthRequest('/api/exercises/random');
@@ -286,7 +286,7 @@ describe('Trivia API', () => {
 					categoryWeights: {
 						science: 0,
 						history: 0,
-						math: 999,
+						math: 10,
 					},
 				});
 				const res = await makeAuthRequest('/api/exercises/random');
@@ -835,6 +835,18 @@ describe('Trivia API', () => {
 			const res = await putJsonAuth('/api/user/preferences', {
 				categoryWeights: {
 					science: -1,
+				},
+			});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('Invalid weight');
+		});
+
+		it('PUT /api/user/preferences rejects categoryWeights above 10', async () => {
+			await makeAuthRequest('/api/auth/me');
+			const res = await putJsonAuth('/api/user/preferences', {
+				categoryWeights: {
+					science: 11,
 				},
 			});
 			expect(res.status).toBe(400);
@@ -1486,7 +1498,7 @@ describe('Trivia API', () => {
 				await putJsonAuth('/api/user/preferences', {
 					categoryWeights: {
 						science: 0,
-						history: 100,
+						history: 10,
 					},
 				});
 				const res = await makeAuthRequest('/api/items/random?count=1');
