@@ -64,6 +64,22 @@ curl -s "https://trivia.emilycogsdill.com/api/exercises/<exercise-path>"
 npx wrangler d1 execute trivia-trainer --remote --command "SELECT * FROM items WHERE exercise_id = '<exercise-id>'"
 ```
 
+### Non-interactive Cloudflare auth (MANDATORY for agents)
+
+Wrangler remote commands require a Cloudflare API token in non-interactive shells.
+
+```bash
+# Bash/zsh (current shell)
+export CLOUDFLARE_API_TOKEN="<token>"
+```
+
+```powershell
+# PowerShell (current shell)
+$env:CLOUDFLARE_API_TOKEN="<token>"
+```
+
+If `CLOUDFLARE_API_TOKEN` is missing/invalid, remote D1 commands will fail.
+
 ## Content Admin API (EMI-413)
 
 The admin API is the **only way to manage content**.
@@ -84,6 +100,7 @@ The admin API is the **only way to manage content**.
 | `GET` | `/api/admin/content-health` | Content quality report |
 
 Auth: Cloudflare Access + email in `CF_ADMIN_EMAILS` env var. Non-admins get 403.
+For programmatic agent access, use `Authorization: Bearer <ADMIN_API_KEY>` (from `.dev.vars` locally, from env vars in deployed environments).
 
 Key files: `src/index.ts` (routing), `src/data/admin-repository.ts` (DB ops), `src/data/types.ts` (types).
 
@@ -95,6 +112,15 @@ npx wrangler d1 execute trivia-trainer --remote --command "UPDATE items SET alte
 ```
 
 For new exercises, use `POST /api/admin/exercises`.
+
+## Seed Files Policy (MANDATORY)
+
+**DO NOT USE seed files for content work.**
+
+- Never create, edit, or rely on `seeds/*.json` for trivia-content tickets.
+- Never use `scripts/seed.mjs` to publish or update production content.
+- For content changes, use `/api/admin/*` endpoints (preferred) or targeted D1 SQL when appropriate.
+- `GET /api/admin/export` is for export/backup only, not as a source-of-truth editing workflow.
 
 ## Linear Tickets (MANDATORY)
 
@@ -175,6 +201,7 @@ Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explana
 ## Git Workflow (MANDATORY)
 
 **ALL changes to this project MUST go through pull requests.** Direct pushes to `main` are blocked, including for admins. Force pushes are disabled.
+**All agent work MUST be done in a dedicated git worktree checkout.** Do not implement changes from the primary repo checkout.
 
 ### Working on a feature or fix:
 
@@ -206,7 +233,7 @@ git worktree remove ../fun-trivia-game-my-feature
 **Do NOT:**
 - Push directly to `main` (it will be rejected)
 - Force push to `main`
-- Skip the worktree and work on `main` directly
+- Skip the worktree and work on the primary checkout directly
 - Merge PRs with failing CI checks
 
 ### Branch protection rules on `main`:
