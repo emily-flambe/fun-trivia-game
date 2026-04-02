@@ -184,6 +184,16 @@ Don't include wrong answers as alternates. "Holland" is not an alternate for "Ne
 
 ---
 
+## Current Events Governance
+
+Current-events content should be treated as a rolling study lane, not a static category.
+
+- Follow [CURRENT_EVENTS_POLICY.md](./CURRENT_EVENTS_POLICY.md) for scope, freshness metadata, review cadence, and promotion/archive rules.
+- Use absolute dates in prompts and explanations for time-sensitive facts.
+- Include `currentEvent` metadata in `items.data` for every current-events item: `eventDate`, `lastReviewedAt`, `reviewAfter`, and optional `stalenessNote`.
+
+---
+
 ## Content Authoring
 
 ### Primary workflow: Admin API and MCP tools
