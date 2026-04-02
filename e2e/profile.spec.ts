@@ -71,7 +71,7 @@ test.describe('Profile Page', () => {
 			await page.waitForTimeout(1200);
 
 			await expect(page.getByRole('tab', { name: 'Preferences' })).toHaveAttribute('aria-selected', 'true');
-			await expect(page.getByText('Set how likely each category is to appear in Random Quiz and Endless mode.')).toBeVisible();
+			await expect(page.getByText('Choose relative weights for Random Quiz and Endless mode: 0 = never, 1 = normal, 2 = about twice as likely.')).toBeVisible();
 
 			const scienceInput = page.locator('label:has-text("Science") input[type="number"]').first();
 			const currentScienceWeight = Number(await scienceInput.inputValue());
