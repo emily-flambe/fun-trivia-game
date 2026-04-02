@@ -71,17 +71,19 @@ test.describe('Profile Page', () => {
 			await page.waitForTimeout(1200);
 
 			await expect(page.getByRole('tab', { name: 'Preferences' })).toHaveAttribute('aria-selected', 'true');
-			await expect(page.getByText('Choose relative weights for Random Quiz and Endless mode: 0 = never, 1 = normal, 2 = about twice as likely.')).toBeVisible();
+			await expect(page.getByText('Set how likely each category is to appear in Random Quiz and Endless mode.')).toBeVisible();
+			await expect(page.getByText('Use 0 to disable a category. Higher values (up to 10) make it appear more often.')).toBeVisible();
 
-			const scienceInput = page.locator('label:has-text("Science") input[type="number"]').first();
+			const scienceInput = page.locator('label:has-text("Science") input[type="range"]').first();
 			const currentScienceWeight = Number(await scienceInput.inputValue());
-			await scienceInput.fill(String(currentScienceWeight + 1));
+			const nextScienceWeight = currentScienceWeight === 10 ? 9 : 10;
+			await scienceInput.fill(String(nextScienceWeight));
 			await page.getByRole('button', { name: 'Save preferences' }).click();
 			await expect(page.getByText('Saved.')).toBeVisible();
 
 			await page.reload();
 			await page.waitForTimeout(1200);
-			await expect(page.locator('label:has-text("Science") input[type="number"]').first()).toHaveValue(String(currentScienceWeight + 1));
+			await expect(page.locator('label:has-text("Science") input[type="range"]').first()).toHaveValue(String(nextScienceWeight));
 		});
 
 		test('clicking tabs changes URL and active state', async ({ page }) => {
