@@ -187,7 +187,16 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 
 				{/* Slots grid */}
 				<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-6">
-					{slots.map((slot, i) => (
+					{slots.map((slot, i) => {
+						const defaultHint = ordered ? `#${i + 1}` : '?';
+						const slotLabel = slot.label?.trim() || defaultHint;
+						const slotValue = slot.found
+							? `${slot.found.userAnswer}${slot.found.fuzzyMatch ? ' *' : ''}`
+							: gaveUp && slot.revealedAnswer
+								? slot.revealedAnswer
+								: defaultHint;
+
+						return (
 						<div
 							key={i}
 							className={`rounded-xl p-3 min-h-[60px] flex items-center justify-center text-sm border transition-all duration-200 ${
@@ -198,15 +207,13 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 										: 'bg-surface-bright border-border-subtle text-text-tertiary'
 							}`}
 						>
-							{slot.found ? (
-								<span>{slot.found.userAnswer}{slot.found.fuzzyMatch ? ' *' : ''}</span>
-							) : gaveUp && slot.revealedAnswer ? (
-								<span>{slot.revealedAnswer}</span>
-							) : (
-								<span>{ordered ? `#${i + 1}` : '?'}</span>
-							)}
+							<div className="w-full text-center leading-tight">
+								<div className="text-[11px] uppercase tracking-wide opacity-70 mb-1">{slotLabel}</div>
+								<div>{slotValue}</div>
+							</div>
 						</div>
-					))}
+						);
+					})}
 				</div>
 
 				{/* Input or completion */}

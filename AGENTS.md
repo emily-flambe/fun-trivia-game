@@ -19,6 +19,14 @@ If there is a conflict, follow the stricter rule.
 - Use admin API endpoints (`/api/admin/*`) for content creation/updates.
 - Use remote D1 queries for verification and targeted fixes.
 
+### Quiz Structure (MANDATORY)
+
+- In `text-entry`, answers must be short/canonical and easy to type.
+- Prompts must cue a single expected answer; do not require users to type long definitions.
+- For foreign phrase exercises, use meaning/context in prompt and phrase as answer.
+- Add alternates for punctuation/diacritic variants when relevant.
+- In `fill-blanks`, include `data.label` when slots need explicit cues (for example NATO letters).
+
 ### Required Auth In Non-Interactive Shells
 
 Wrangler remote D1 commands require `CLOUDFLARE_API_TOKEN`.
