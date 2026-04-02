@@ -205,6 +205,8 @@ Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explana
 
 **ALL changes to this project MUST go through pull requests.** Direct pushes to `main` are blocked, including for admins. Force pushes are disabled.
 **All agent work MUST be done in a dedicated git worktree checkout.** Do not implement changes from the primary repo checkout.
+**Auto-merge MUST be enabled on PRs** (`gh pr merge --squash --auto`) once the PR is opened.
+**Work is NOT done until the PR is merged to `main` and the merged commit is deployed.**
 
 ### Working on a feature or fix:
 

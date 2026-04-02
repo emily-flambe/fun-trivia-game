@@ -11,6 +11,8 @@ If there is a conflict, follow the stricter rule.
 - Run `npm run test:all` before finalizing changes.
 - Use non-destructive git commands only (no force push, no hard reset, no destructive checkout).
 - All changes must go through a pull request; do not push directly to `main`.
+- Enable auto-merge on PRs (`gh pr merge --squash --auto`) after opening them.
+- Work is not done until the PR is merged to `main` and that merged commit is deployed.
 - For trivia content tasks, the live D1/admin API is the source of truth; do not use seed files.
 
 ## Content Operations (MANDATORY)
