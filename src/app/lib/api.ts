@@ -138,6 +138,34 @@ export async function getAuthMe(): Promise<AuthState> {
 	return res.json() as Promise<AuthState>;
 }
 
+export interface UserPreferences {
+	categoryWeights: Record<string, number>;
+}
+
+export async function getUserPreferences(): Promise<UserPreferences> {
+	const res = await fetch(`${BASE}/user/preferences`);
+	if (!res.ok) throw new Error('Failed to fetch user preferences');
+	const data = await res.json() as { preferences?: { categoryWeights?: Record<string, number> } };
+	return {
+		categoryWeights: data.preferences?.categoryWeights ?? {},
+	};
+}
+
+export async function updateUserPreferences(preferences: UserPreferences): Promise<UserPreferences> {
+	const res = await fetch(`${BASE}/user/preferences`, {
+		method: 'PUT',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({
+			categoryWeights: preferences.categoryWeights,
+		}),
+	});
+	if (!res.ok) throw new Error('Failed to update user preferences');
+	const data = await res.json() as { preferences?: { categoryWeights?: Record<string, number> } };
+	return {
+		categoryWeights: data.preferences?.categoryWeights ?? {},
+	};
+}
+
 // === Quiz Results ===
 
 export interface QuizResultPayload {

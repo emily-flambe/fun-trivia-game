@@ -91,6 +91,28 @@ export class UserRepository {
 		return row ? mapUser(row) : null;
 	}
 
+	async getPreferences(userId: string): Promise<Record<string, unknown>> {
+		const row = await this.db
+			.prepare(`SELECT preferences FROM users WHERE id = ?`)
+			.bind(userId)
+			.first<{ preferences: string }>();
+
+		if (!row) return {};
+		try {
+			return JSON.parse(row.preferences || '{}') as Record<string, unknown>;
+		} catch {
+			return {};
+		}
+	}
+
+	async updatePreferences(userId: string, preferences: Record<string, unknown>): Promise<Record<string, unknown>> {
+		await this.db
+			.prepare(`UPDATE users SET preferences = ? WHERE id = ?`)
+			.bind(JSON.stringify(preferences), userId)
+			.run();
+		return preferences;
+	}
+
 	async recordQuizResult(params: {
 		userId: string;
 		exerciseId: string;

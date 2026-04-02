@@ -160,6 +160,32 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 	const repo = new NodeRepository(env.DB);
 
 	try {
+		if (path === '/api/user/preferences' && request.method === 'GET') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const userRepo = new UserRepository(env.DB);
+			const preferences = await userRepo.getPreferences(user.id);
+			return json({ preferences });
+		}
+
+		if (path === '/api/user/preferences' && request.method === 'PUT') {
+			const user = await getRequestUser(request, env);
+			if (!user) return json({ error: 'Authentication required' }, 401);
+			const body = await request.json<{ categoryWeights?: unknown }>();
+			const validatedCategoryWeights = validateCategoryWeights(body?.categoryWeights);
+			if (!validatedCategoryWeights.valid) {
+				return json({ error: validatedCategoryWeights.error }, 400);
+			}
+			const userRepo = new UserRepository(env.DB);
+			const existing = await userRepo.getPreferences(user.id);
+			const preferences = {
+				...existing,
+				categoryWeights: validatedCategoryWeights.value,
+			};
+			await userRepo.updatePreferences(user.id, preferences);
+			return json({ preferences });
+		}
+
 		// Quiz results routes (require auth)
 		if (path === '/api/quiz-results/stats/by-category' && request.method === 'GET') {
 			const user = await getRequestUser(request, env);
@@ -318,14 +344,16 @@ async function handleApi(path: string, url: URL, request: Request, env: Env): Pr
 		}
 
 		if (path === '/api/exercises/random') {
-			const id = await repo.getRandomExerciseId();
+			const categoryWeights = await getCategoryWeightsForRequest(request, env);
+			const id = await repo.getRandomExerciseId(categoryWeights);
 			if (!id) return json({ error: 'No exercises found' }, 404);
 			return json({ id });
 		}
 
 		if (path === '/api/items/random') {
 			const count = Math.min(50, Math.max(1, parseInt(url.searchParams.get('count') || '20', 10) || 20));
-			const items = await repo.getRandomItems(count);
+			const categoryWeights = await getCategoryWeightsForRequest(request, env);
+			const items = await repo.getRandomItems(count, categoryWeights);
 			return json({
 				items: items.map(({ answer, alternates, ...safe }) => safe),
 			});
@@ -549,6 +577,46 @@ function getCookie(request: Request, name: string): string | null {
 
 function json(data: any, status = 200): Response {
 	return Response.json(data, { status });
+}
+
+async function getCategoryWeightsForRequest(
+	request: Request,
+	env: Env,
+): Promise<Record<string, number> | undefined> {
+	const user = await getRequestUser(request, env);
+	if (!user) return undefined;
+	const userRepo = new UserRepository(env.DB);
+	const preferences = await userRepo.getPreferences(user.id);
+	const parsed = parseStoredCategoryWeights(preferences.categoryWeights);
+	return parsed ?? undefined;
+}
+
+function parseStoredCategoryWeights(raw: unknown): Record<string, number> | null {
+	if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+	const entries = Object.entries(raw as Record<string, unknown>);
+	const parsed: Record<string, number> = {};
+	for (const [categoryId, value] of entries) {
+		if (typeof value !== 'number' || !Number.isFinite(value) || value < 0) continue;
+		parsed[categoryId] = value;
+	}
+	return parsed;
+}
+
+function validateCategoryWeights(raw: unknown):
+	| { valid: true; value: Record<string, number> }
+	| { valid: false; error: string } {
+	if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+		return { valid: false, error: 'categoryWeights must be an object map of categoryId -> non-negative number' };
+	}
+
+	const parsed: Record<string, number> = {};
+	for (const [categoryId, value] of Object.entries(raw as Record<string, unknown>)) {
+		if (typeof value !== 'number' || !Number.isFinite(value) || value < 0) {
+			return { valid: false, error: `Invalid weight for category "${categoryId}". Weights must be non-negative numbers.` };
+		}
+		parsed[categoryId] = value;
+	}
+	return { valid: true, value: parsed };
 }
 
 function html(): string {

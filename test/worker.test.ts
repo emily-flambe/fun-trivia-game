@@ -254,6 +254,51 @@ describe('Trivia API', () => {
 			// Should be one of the seeded exercises
 			expect(['science/chemistry/element-symbols', 'science/chemistry/noble-gases', 'science/chemistry/element-names-letter-by-letter', 'science/chemistry/atomic-history-ordering', 'science/chemistry/elements-by-family']).toContain(data.id);
 		});
+
+		it('uses authenticated user category weights when selecting random exercises', async () => {
+			const db = (env as any).DB as D1Database;
+			const historyExerciseId = `history/preferences-random-${Date.now()}`;
+			const user = await (await makeAuthRequest('/api/auth/me')).json<any>();
+			await db.prepare(`INSERT INTO exercises (id, node_id, name, description, format, display_type, config, sort_order) VALUES (?, 'history', 'History Test', '', 'text-entry', NULL, NULL, 99)`)
+				.bind(historyExerciseId)
+				.run();
+			try {
+				await putJsonAuth('/api/user/preferences', {
+					categoryWeights: {
+						science: 0,
+						history: 100,
+					},
+				});
+				const res = await makeAuthRequest('/api/exercises/random');
+				expect(res.status).toBe(200);
+				const data = await res.json<{ id: string }>();
+				expect(data.id).toBe(historyExerciseId);
+			} finally {
+				await db.prepare(`DELETE FROM exercises WHERE id = ?`).bind(historyExerciseId).run();
+				await db.prepare(`UPDATE users SET preferences = '{}' WHERE id = ?`).bind(user.userId).run();
+			}
+		});
+
+		it('falls back gracefully when weighted categories have no available exercises', async () => {
+			const user = await (await makeAuthRequest('/api/auth/me')).json<any>();
+			try {
+				await putJsonAuth('/api/user/preferences', {
+					categoryWeights: {
+						science: 0,
+						history: 0,
+						math: 999,
+					},
+				});
+				const res = await makeAuthRequest('/api/exercises/random');
+				expect(res.status).toBe(200);
+				const data = await res.json<{ id: string }>();
+				expect(typeof data.id).toBe('string');
+				expect(data.id.length).toBeGreaterThan(0);
+			} finally {
+				const db = (env as any).DB as D1Database;
+				await db.prepare(`UPDATE users SET preferences = '{}' WHERE id = ?`).bind(user.userId).run();
+			}
+		});
 	});
 
 	// ─── Exercises: detail ────────────────────────────────────
@@ -767,6 +812,56 @@ describe('Trivia API', () => {
 	});
 
 	// ─── User Auth: Race condition bug ──────────────────────
+	describe('User preferences', () => {
+		it('GET /api/user/preferences returns 401 without auth', async () => {
+			const res = await makeRequest('/api/user/preferences');
+			expect(res.status).toBe(401);
+		});
+
+		it('GET /api/user/preferences returns default empty preferences for new user', async () => {
+			await makeAuthRequest('/api/auth/me');
+			const db = (env as any).DB as D1Database;
+			const me = await (await makeAuthRequest('/api/auth/me')).json<any>();
+			await db.prepare(`UPDATE users SET preferences = '{}' WHERE id = ?`).bind(me.userId).run();
+
+			const res = await makeAuthRequest('/api/user/preferences');
+			expect(res.status).toBe(200);
+			const data = await res.json<any>();
+			expect(data.preferences).toEqual({});
+		});
+
+		it('PUT /api/user/preferences validates categoryWeights values', async () => {
+			await makeAuthRequest('/api/auth/me');
+			const res = await putJsonAuth('/api/user/preferences', {
+				categoryWeights: {
+					science: -1,
+				},
+			});
+			expect(res.status).toBe(400);
+			const data = await res.json<any>();
+			expect(data.error).toContain('Invalid weight');
+		});
+
+		it('PUT /api/user/preferences saves and GET returns persisted category weights', async () => {
+			await makeAuthRequest('/api/auth/me');
+			const updateRes = await putJsonAuth('/api/user/preferences', {
+				categoryWeights: {
+					science: 2,
+					history: 5,
+				},
+			});
+			expect(updateRes.status).toBe(200);
+			const updated = await updateRes.json<any>();
+			expect(updated.preferences.categoryWeights.science).toBe(2);
+			expect(updated.preferences.categoryWeights.history).toBe(5);
+
+			const getRes = await makeAuthRequest('/api/user/preferences');
+			expect(getRes.status).toBe(200);
+			const fetched = await getRes.json<any>();
+			expect(fetched.preferences.categoryWeights.science).toBe(2);
+			expect(fetched.preferences.categoryWeights.history).toBe(5);
+		});
+	});
 
 	describe('getRequestUser race condition', () => {
 		it('BUG: returns 401 when user is authenticated but not yet in DB (race condition)', async () => {
@@ -1372,6 +1467,39 @@ describe('Trivia API', () => {
 			// With only 3 text-entry items in test data, should return at most 3
 			const data = await res.json() as any;
 			expect(data.items.length).toBeLessThanOrEqual(3);
+		});
+
+		it('uses authenticated user category weights when selecting random items', async () => {
+			const db = (env as any).DB as D1Database;
+			const historyExerciseId = `history/preferences-items-${Date.now()}`;
+			const historyItemId = `history-item-${Date.now()}`;
+			const user = await (await makeAuthRequest('/api/auth/me')).json<any>();
+
+			await db.prepare(`INSERT INTO exercises (id, node_id, name, description, format, display_type, config, sort_order) VALUES (?, 'history', 'History Item Test', '', 'text-entry', NULL, NULL, 98)`)
+				.bind(historyExerciseId)
+				.run();
+			await db.prepare(`INSERT INTO items (id, exercise_id, answer, alternates, explanation, data, sort_order) VALUES (?, ?, 'Washington', '[]', 'First US president.', '{\"prompt\":\"Who was the first U.S. president?\"}', 0)`)
+				.bind(historyItemId, historyExerciseId)
+				.run();
+
+			try {
+				await putJsonAuth('/api/user/preferences', {
+					categoryWeights: {
+						science: 0,
+						history: 100,
+					},
+				});
+				const res = await makeAuthRequest('/api/items/random?count=1');
+				expect(res.status).toBe(200);
+				const data = await res.json() as any;
+				expect(data.items).toHaveLength(1);
+				expect(data.items[0].exerciseId).toBe(historyExerciseId);
+				expect(data.items[0].nodeId.split('/')[0]).toBe('history');
+			} finally {
+				await db.prepare(`DELETE FROM items WHERE id = ? AND exercise_id = ?`).bind(historyItemId, historyExerciseId).run();
+				await db.prepare(`DELETE FROM exercises WHERE id = ?`).bind(historyExerciseId).run();
+				await db.prepare(`UPDATE users SET preferences = '{}' WHERE id = ?`).bind(user.userId).run();
+			}
 		});
 	});
 

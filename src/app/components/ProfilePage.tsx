@@ -4,11 +4,14 @@ import {
 	getUserStats,
 	getQuizResults,
 	getCategoryStats,
+	getUserPreferences,
+	updateUserPreferences,
 	getQuizResultDetail,
 	getQuizResultsByExercise,
 	type UserStats,
 	type QuizResultResponse,
 	type CategoryStat,
+	type UserPreferences,
 	type QuizResultDetail,
 	type QuizExerciseSummary,
 } from '../lib/api';
@@ -538,11 +541,125 @@ function QuizLogTab() {
 // === Preferences Tab ===
 
 function PreferencesTab() {
+	const auth = useAuth();
+	const [loading, setLoading] = useState(true);
+	const [saving, setSaving] = useState(false);
+	const [weights, setWeights] = useState<Record<string, number>>({});
+	const [savedWeights, setSavedWeights] = useState<Record<string, number>>({});
+	const [status, setStatus] = useState<string | null>(null);
+
+	useEffect(() => {
+		if (!auth.authenticated) return;
+		getUserPreferences()
+			.then((prefs) => {
+				const merged = mergeWithDefaultWeights(prefs);
+				setWeights(merged);
+				setSavedWeights(merged);
+			})
+			.catch(() => {
+				const defaults = getDefaultWeights();
+				setWeights(defaults);
+				setSavedWeights(defaults);
+			})
+			.finally(() => setLoading(false));
+	}, [auth.authenticated]);
+
+	if (loading) return <TabLoading />;
+
+	const hasChanges = JSON.stringify(weights) !== JSON.stringify(savedWeights);
+
+	function handleWeightChange(categoryId: string, rawValue: string) {
+		const parsed = Number(rawValue);
+		const nextValue = Number.isFinite(parsed) && parsed >= 0 ? parsed : 0;
+		setWeights((prev) => ({ ...prev, [categoryId]: nextValue }));
+		setStatus(null);
+	}
+
+	async function handleSave() {
+		setSaving(true);
+		setStatus(null);
+		try {
+			const payload: UserPreferences = { categoryWeights: weights };
+			const saved = await updateUserPreferences(payload);
+			const merged = mergeWithDefaultWeights(saved);
+			setWeights(merged);
+			setSavedWeights(merged);
+			setStatus('Saved.');
+		} catch {
+			setStatus('Failed to save. Try again.');
+		} finally {
+			setSaving(false);
+		}
+	}
+
+	function handleReset() {
+		const defaults = getDefaultWeights();
+		setWeights(defaults);
+		setStatus(null);
+	}
+
 	return (
-		<div className="animate-in bg-surface-raised rounded-2xl p-8 text-center">
-			<p className="text-text-secondary">Preferences coming soon.</p>
+		<div className="animate-in bg-surface-raised rounded-2xl p-5 sm:p-6">
+			<div className="mb-4">
+				<h3 className="text-lg font-semibold">Category mix</h3>
+				<p className="text-sm text-text-secondary mt-1">
+					Set how likely each category is to appear in Random Quiz and Endless mode.
+				</p>
+			</div>
+
+			<div className="space-y-3">
+				{LL_CATEGORIES.map((cat) => {
+					const value = weights[cat.id] ?? 1;
+					return (
+						<label key={cat.id} className="flex items-center gap-3 bg-surface-bright rounded-xl px-3 py-2.5">
+							<span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: cat.color }} />
+							<span className="flex-1 text-sm sm:text-base">{cat.name}</span>
+							<input
+								type="number"
+								min={0}
+								step={1}
+								value={value}
+								onChange={(e) => handleWeightChange(cat.id, e.target.value)}
+								className="w-20 bg-surface border border-border-default rounded-lg px-2.5 py-1.5 text-right text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30"
+							/>
+						</label>
+					);
+				})}
+			</div>
+
+			<div className="flex flex-wrap gap-3 mt-5">
+				<button
+					onClick={handleSave}
+					disabled={!hasChanges || saving}
+					className="bg-action hover:bg-action-hover disabled:bg-surface-bright disabled:text-text-tertiary text-white px-4 py-2 rounded-xl font-medium transition-all duration-200"
+				>
+					{saving ? 'Saving...' : 'Save preferences'}
+				</button>
+				<button
+					onClick={handleReset}
+					disabled={saving}
+					className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-4 py-2 rounded-xl font-medium transition-all duration-200"
+				>
+					Reset to equal weights
+				</button>
+				{status && <span className="text-sm text-text-tertiary self-center">{status}</span>}
+			</div>
 		</div>
 	);
+}
+
+function getDefaultWeights(): Record<string, number> {
+	return Object.fromEntries(LL_CATEGORIES.map((cat) => [cat.id, 1]));
+}
+
+function mergeWithDefaultWeights(preferences: UserPreferences): Record<string, number> {
+	const defaults = getDefaultWeights();
+	for (const [categoryId, value] of Object.entries(preferences.categoryWeights || {})) {
+		if (typeof value === 'number' && Number.isFinite(value) && value >= 0) {
+			defaults[categoryId] = value;
+		}
+	}
+	return defaults;
 }
 
 // === Shared components ===
