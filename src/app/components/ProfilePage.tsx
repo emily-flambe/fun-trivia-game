@@ -603,7 +603,10 @@ function PreferencesTab() {
 			<div className="mb-4">
 				<h3 className="text-lg font-semibold">Category mix</h3>
 				<p className="text-sm text-text-secondary mt-1">
-					Set how likely each category is to appear in Random Quiz and Endless mode.
+					Choose relative weights for Random Quiz and Endless mode: 0 = never, 1 = normal, 2 = about twice as likely.
+				</p>
+				<p className="text-xs text-text-tertiary mt-1">
+					Example: Science 3 and History 1 means Science appears about 3x as often as History.
 				</p>
 			</div>
 
