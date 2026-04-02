@@ -282,6 +282,7 @@ For UI changes, also take a Playwright screenshot to visually confirm.
 
 - `docs/DATA_ARCHITECTURE.md` — **schema, content pipeline, how to find/update content**
 - `docs/CONTENT_GUIDE.md` — **content standards**
+- `docs/CURRENT_EVENTS_POLICY.md` — **rolling-window governance for current-events content**
 - `docs/DESIGN_PRINCIPLES.md` — UI/UX design principles
 - `docs/PRD.md` — full product requirements and curriculum
 - `docs/TECHNICAL_DESIGN.md` — architecture, API contracts, MCP integration
