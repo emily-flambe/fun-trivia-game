@@ -596,23 +596,23 @@ function parseStoredCategoryWeights(raw: unknown): Record<string, number> | null
 	const entries = Object.entries(raw as Record<string, unknown>);
 	const parsed: Record<string, number> = {};
 	for (const [categoryId, value] of entries) {
-		if (typeof value !== 'number' || !Number.isFinite(value) || value < 0) continue;
+		if (typeof value !== 'number' || !Number.isFinite(value) || value < 0 || value > 10) continue;
 		parsed[categoryId] = value;
 	}
-	return parsed;
+	return Object.keys(parsed).length > 0 ? parsed : null;
 }
 
 function validateCategoryWeights(raw: unknown):
 	| { valid: true; value: Record<string, number> }
 	| { valid: false; error: string } {
 	if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
-		return { valid: false, error: 'categoryWeights must be an object map of categoryId -> non-negative number' };
+		return { valid: false, error: 'categoryWeights must be an object map of categoryId -> number from 0 to 10' };
 	}
 
 	const parsed: Record<string, number> = {};
 	for (const [categoryId, value] of Object.entries(raw as Record<string, unknown>)) {
-		if (typeof value !== 'number' || !Number.isFinite(value) || value < 0) {
-			return { valid: false, error: `Invalid weight for category "${categoryId}". Weights must be non-negative numbers.` };
+		if (typeof value !== 'number' || !Number.isFinite(value) || value < 0 || value > 10) {
+			return { valid: false, error: `Invalid weight for category "${categoryId}". Weights must be numbers from 0 to 10.` };
 		}
 		parsed[categoryId] = value;
 	}

@@ -113,6 +113,9 @@ npx wrangler d1 execute trivia-trainer --remote --command "UPDATE items SET alte
 
 For new exercises, use `POST /api/admin/exercises`.
 
+For D1-driven content tickets, prefer inline commands (`--command`) over temporary SQL files.
+Do not leave ad-hoc content SQL files in the repo/worktree (for example `emi-*-content.sql` or `.tmp-*.sql`).
+
 ## Seed Files Policy (MANDATORY)
 
 **DO NOT USE seed files for content work.**
@@ -244,6 +247,8 @@ Top-level `items` columns: `id`, `exercise_id`, `answer`, `alternates`, `explana
 
 **ALL changes to this project MUST go through pull requests.** Direct pushes to `main` are blocked, including for admins. Force pushes are disabled.
 **All agent work MUST be done in a dedicated git worktree checkout.** Do not implement changes from the primary repo checkout.
+**Auto-merge MUST be enabled on PRs** (`gh pr merge --squash --auto`) once the PR is opened.
+**Work is NOT done until the PR is merged to `main` and the merged commit is deployed.**
 
 ### Working on a feature or fix:
 
@@ -324,6 +329,7 @@ For UI changes, also take a Playwright screenshot to visually confirm.
 
 - `docs/DATA_ARCHITECTURE.md` — **schema, content pipeline, how to find/update content**
 - `docs/CONTENT_GUIDE.md` — **content standards**
+- `docs/CURRENT_EVENTS_POLICY.md` — **rolling-window governance for current-events content**
 - `docs/DESIGN_PRINCIPLES.md` — UI/UX design principles
 - `docs/PRD.md` — full product requirements and curriculum
 - `docs/TECHNICAL_DESIGN.md` — architecture, API contracts, MCP integration

@@ -570,7 +570,7 @@ function PreferencesTab() {
 
 	function handleWeightChange(categoryId: string, rawValue: string) {
 		const parsed = Number(rawValue);
-		const nextValue = Number.isFinite(parsed) && parsed >= 0 ? parsed : 0;
+		const nextValue = Number.isFinite(parsed) ? Math.min(10, Math.max(0, parsed)) : 0;
 		setWeights((prev) => ({ ...prev, [categoryId]: nextValue }));
 		setStatus(null);
 	}
@@ -605,6 +605,9 @@ function PreferencesTab() {
 				<p className="text-sm text-text-secondary mt-1">
 					Set how likely each category is to appear in Random Quiz and Endless mode.
 				</p>
+				<p className="text-xs text-text-tertiary mt-1">
+					Use 0 to disable a category. Higher values (up to 10) make it appear more often.
+				</p>
 			</div>
 
 			<div className="space-y-3">
@@ -615,13 +618,15 @@ function PreferencesTab() {
 							<span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: cat.color }} />
 							<span className="flex-1 text-sm sm:text-base">{cat.name}</span>
 							<input
-								type="number"
+								type="range"
 								min={0}
+								max={10}
 								step={1}
 								value={value}
 								onChange={(e) => handleWeightChange(cat.id, e.target.value)}
-								className="w-20 bg-surface border border-border-default rounded-lg px-2.5 py-1.5 text-right text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30"
+								className="w-32 sm:w-40 accent-accent"
 							/>
+							<span className="w-6 text-right text-sm font-medium text-text-secondary">{value}</span>
 						</label>
 					);
 				})}
@@ -655,7 +660,7 @@ function getDefaultWeights(): Record<string, number> {
 function mergeWithDefaultWeights(preferences: UserPreferences): Record<string, number> {
 	const defaults = getDefaultWeights();
 	for (const [categoryId, value] of Object.entries(preferences.categoryWeights || {})) {
-		if (typeof value === 'number' && Number.isFinite(value) && value >= 0) {
+		if (typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= 10) {
 			defaults[categoryId] = value;
 		}
 	}
