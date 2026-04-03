@@ -17,6 +17,24 @@ interface Props {
 	nextNodePath: string | null;
 }
 
+function getSlotValue(slot: { found: FoundItem | null; revealedAnswer?: string }, gaveUp: boolean, defaultHint: string): string {
+	if (slot.found) return `${slot.found.userAnswer}${slot.found.fuzzyMatch ? ' *' : ''}`;
+	if (gaveUp && slot.revealedAnswer) return slot.revealedAnswer;
+	return defaultHint;
+}
+
+function getSlotClassName(slot: { found: FoundItem | null; revealedAnswer?: string }, gaveUp: boolean): string {
+	if (slot.found) return 'bg-correct-bg border-correct-border text-correct font-medium';
+	if (gaveUp && slot.revealedAnswer) return 'bg-incorrect-bg border-incorrect-border text-incorrect font-medium';
+	return 'bg-surface-bright border-border-subtle text-text-tertiary';
+}
+
+function getNextLink(nextExercisePath: string | null, nextNodePath: string | null): { href: string } | null {
+	if (nextExercisePath !== null) return { href: `#/exercise/${nextExercisePath}?mode=quiz` };
+	if (nextNodePath !== null) return { href: `#/node/${nextNodePath}` };
+	return null;
+}
+
 export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath, nextNodePath }: Props) {
 	const auth = useAuth();
 	const [found, setFound] = useState<FoundItem[]>([]);
@@ -104,9 +122,9 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 		revealAnswers(exercisePath).then(setRevealed).catch(() => {});
 	}
 
-	function handleRepeat() {
+	function resetQuiz(nextItems: PublicItem[]) {
 		const parentId = lastResultId;
-		setActiveItems(items);
+		setActiveItems(nextItems);
 		setFound([]);
 		setInput('');
 		setGaveUp(false);
@@ -117,19 +135,14 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 		setRetryContext({ isRetry: true, parentResultId: parentId });
 	}
 
+	function handleRepeat() {
+		resetQuiz(items);
+	}
+
 	function handleRetryFailed() {
-		const parentId = lastResultId;
 		const foundItemIds = new Set(found.map((f) => f.itemId));
 		const missed = items.filter((i) => !foundItemIds.has(i.id));
-		setActiveItems(missed);
-		setFound([]);
-		setInput('');
-		setGaveUp(false);
-		setRevealed([]);
-		setLastResult(null);
-		startTimeRef.current = Date.now();
-		submittedRef.current = false;
-		setRetryContext({ isRetry: true, parentResultId: parentId });
+		resetQuiz(missed);
 	}
 
 	// Build a map of revealed answers by item id
@@ -190,22 +203,12 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 					{slots.map((slot, i) => {
 						const defaultHint = ordered ? `#${i + 1}` : '?';
 						const slotLabel = slot.label?.trim() || defaultHint;
-						const slotValue = slot.found
-							? `${slot.found.userAnswer}${slot.found.fuzzyMatch ? ' *' : ''}`
-							: gaveUp && slot.revealedAnswer
-								? slot.revealedAnswer
-								: defaultHint;
+						const slotValue = getSlotValue(slot, gaveUp, defaultHint);
 
 						return (
 						<div
 							key={i}
-							className={`rounded-xl p-3 min-h-[60px] flex items-center justify-center text-sm border transition-all duration-200 ${
-								slot.found
-									? 'bg-correct-bg border-correct-border text-correct font-medium'
-									: gaveUp && slot.revealedAnswer
-										? 'bg-incorrect-bg border-incorrect-border text-incorrect font-medium'
-										: 'bg-surface-bright border-border-subtle text-text-tertiary'
-							}`}
+							className={`rounded-xl p-3 min-h-[60px] flex items-center justify-center text-sm border transition-all duration-200 ${getSlotClassName(slot, gaveUp)}`}
 						>
 							<div className="w-full text-center leading-tight">
 								<div className="text-[11px] uppercase tracking-wide opacity-70 mb-1">{slotLabel}</div>
@@ -272,15 +275,14 @@ export function FillBlanksQuiz({ exercise, items, exercisePath, nextExercisePath
 									Retake Failed Only
 								</button>
 							)}
-							{nextExercisePath !== null ? (
-								<a href={`#/exercise/${nextExercisePath}?mode=quiz`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-									Next
-								</a>
-							) : nextNodePath !== null ? (
-								<a href={`#/node/${nextNodePath}`} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
-									Next
-								</a>
-							) : null}
+							{(() => {
+								const next = getNextLink(nextExercisePath, nextNodePath);
+								return next ? (
+									<a href={next.href} className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
+										Next
+									</a>
+								) : null;
+							})()}
 							<a href="#/" className="bg-surface-bright hover:bg-surface-hover text-text-secondary px-5 py-2.5 rounded-xl font-medium transition-all duration-200">
 								Home
 							</a>
