@@ -23,6 +23,14 @@ If there is a conflict, follow the stricter rule.
 - For content tickets, prefer inline D1 commands (`wrangler d1 execute ... --command "..."`) instead of temporary SQL files.
 - Do not leave ad-hoc content SQL files in the repo or worktree (for example `emi-*-content.sql` or `.tmp-*.sql`).
 
+### Quiz Structure (MANDATORY)
+
+- In `text-entry`, answers must be short/canonical and easy to type.
+- Prompts must cue a single expected answer; do not require users to type long definitions.
+- For foreign phrase exercises, use meaning/context in prompt and phrase as answer.
+- Add alternates for punctuation/diacritic variants when relevant.
+- In `fill-blanks`, include `data.label` when slots need explicit cues (for example NATO letters).
+
 ### Required Auth In Non-Interactive Shells
 
 Wrangler remote D1 commands require `CLOUDFLARE_API_TOKEN`.

@@ -125,6 +125,48 @@ Do not leave ad-hoc content SQL files in the repo/worktree (for example `emi-*-c
 - For content changes, use `/api/admin/*` endpoints (preferred) or targeted D1 SQL when appropriate.
 - `GET /api/admin/export` is for export/backup only, not as a source-of-truth editing workflow.
 
+## Quiz Structure Rules (MANDATORY)
+
+These rules define how prompts/answers must be structured so quizzes are answerable in text-entry mode.
+
+### 1) Text-entry exercises: answer must be short and typeable
+
+- Prefer canonical answers that are typically 1-4 words.
+- Prompts should clearly cue one expected answer.
+- Do not make users type long definitions or paragraph-like phrases as the answer.
+
+Bad:
+- Prompt: `What does "deja vu" describe?`
+- Answer: `Feeling of having already experienced something`
+
+Good:
+- Prompt: `Which foreign phrase describes the feeling that you've already experienced the present moment before?`
+- Answer: `deja vu`
+
+### 2) Foreign phrase sets: direction is meaning -> phrase
+
+- For "Foreign Phrases in English" style exercises, prompt with definition/context and answer with the foreign phrase.
+- Add alternates for punctuation/diacritics/hyphenation variants (for example: `deja vu`, `déjà vu`, `deja-vu`).
+
+### 3) Fill-blanks exercises: every slot needs a cue label when applicable
+
+- If the user is matching answers to fixed slots (for example NATO letters), include `data.label` on each item.
+- For ordered fill-blanks, labels should be the slot cue (for example `A`, `B`, `C`).
+- Answers should still be short and canonical.
+
+### 4) Card data should mirror quiz direction
+
+- `data.prompt` must match the quiz question.
+- `data.cardFront` should usually be the clue/cue.
+- `data.cardBack` should usually be the canonical answer.
+
+### 5) Pre-publish validation checklist
+
+- Is the expected answer concise and realistically typeable?
+- Is there a single unambiguous target answer?
+- Are common alternates included?
+- For fill-blanks with fixed slots, are labels present?
+
 ## Linear Tickets (MANDATORY)
 
 **All Linear issues for this project MUST be created in the Trivia Trainer project.** Every ticket must have one of these labels:
