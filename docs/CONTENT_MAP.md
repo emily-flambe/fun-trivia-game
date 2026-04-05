@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-05  
-**Totals:** 18 categories, 174 nodes, 160 exercises, 2797 items
+**Totals:** 18 categories, 178 nodes, 164 exercises, 2861 items
 
 ---
 
@@ -289,13 +289,14 @@ node scripts/content-map.mjs
 
 ---
 
-## Theatre (3 exercises, 50 items)
+## Theatre (4 exercises, 67 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Musical Theatre | Landmark Musicals | text-entry | 16 |
 | Musical Theatre | Musical Theatre Composers and Lyricists | text-entry | 17 |
 | Musical Theatre | Tony Best Musical Winners | text-entry | 17 |
+| Plays | Famous Plays and Playwrights | text-entry | 17 |
 
 ---
 
@@ -336,9 +337,9 @@ node scripts/content-map.mjs
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
 | Science | 13 | 13 | 0 | 21 | 361 |
 | Television | 16 | 8 | 8 | 8 | 119 |
-| Theatre | 1 | 1 | 0 | 3 | 50 |
+| Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **156** | | | **160** | **2797** |
+| **Total** | **160** | | | **164** | **2861** |
 
 ## Exercises with 0 Items
 
