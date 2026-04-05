@@ -22,6 +22,7 @@ If there is a conflict, follow the stricter rule.
 - Use remote D1 queries for verification and targeted fixes.
 - For content tickets, prefer inline D1 commands (`wrangler d1 execute ... --command "..."`) instead of temporary SQL files.
 - Do not leave ad-hoc content SQL files in the repo or worktree (for example `emi-*-content.sql` or `.tmp-*.sql`).
+- After any content change, run `npm run content-map` and commit the updated `docs/CONTENT_MAP.md`.
 
 ### Quiz Structure (MANDATORY)
 
