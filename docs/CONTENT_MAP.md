@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-05  
-**Totals:** 18 categories, 174 nodes, 146 exercises, 2572 items
+**Totals:** 18 categories, 174 nodes, 160 exercises, 2797 items
 
 ---
 
@@ -107,21 +107,25 @@ node scripts/content-map.mjs
 
 ---
 
-## Food/Drink (5 exercises, 72 items)
+## Food/Drink (9 exercises, 126 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
+| Beer & Brewing | Beer Styles & Brewing | text-entry | 14 |
+| Cheese | Cheese Origins | text-entry | 13 |
+| Coffee & Tea | Coffee & Tea | text-entry | 14 |
 | Cooking Terms & Techniques | Cooking Terms & Techniques | text-entry | 15 |
 | Famous Chefs & Restaurants | Famous Chefs & Restaurants | text-entry | 12 |
+| Pasta | Pasta Shapes | text-entry | 13 |
 | Spirits & Cocktails | Spirits & Cocktails | text-entry | 15 |
 | Wines & Wine Regions | Wines & Wine Regions | text-entry | 15 |
 | World Cuisine | World Cuisine — Signature Dishes | text-entry | 15 |
 
-**Empty subcategories (5):** Beer & Brewing, Candy, Chocolate & Sweets, Cheese, Coffee & Tea, Pasta
+**Empty subcategories (1):** Candy, Chocolate & Sweets
 
 ---
 
-## Games/Sport (11 exercises, 170 items)
+## Games/Sport (14 exercises, 230 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -131,13 +135,16 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
+| Football | Super Bowl Winners | text-entry | 20 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
+| Soccer/Football | FIFA World Cup Winners | text-entry | 20 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
+| Tennis | Grand Slam Tennis | text-entry | 20 |
 
-**Empty subcategories (4):** Football, Rules & Terminology, Soccer/Football, Tennis
+**Empty subcategories (1):** Rules & Terminology
 
 ---
 
@@ -265,23 +272,30 @@ node scripts/content-map.mjs
 
 ---
 
-## Television (3 exercises, 42 items)
+## Television (8 exercises, 119 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Awards & Records | TV Awards & Records | text-entry | 12 |
+| Catchphrases & Quotes | Catchphrases & Quotes | text-entry | 15 |
 | Landmark TV Shows | Landmark TV Shows | text-entry | 15 |
 | Saturday Night Live | Saturday Night Live | text-entry | 15 |
+| Sci-Fi & Fantasy TV | Sci-Fi & Fantasy TV | text-entry | 16 |
+| Spinoffs | Spinoffs | text-entry | 16 |
+| Theme Songs | Theme Songs | text-entry | 15 |
+| TV Show Settings | TV Show Settings | text-entry | 15 |
 
-**Empty subcategories (13):** Awards & Records, Catchphrases & Quotes, Children's Television, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Sci-Fi & Fantasy TV, Show Settings, Spinoffs, Theme Songs, TV Show Settings
+**Empty subcategories (8):** Awards & Records, Children's Television, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Show Settings
 
 ---
 
-## Theatre (1 exercise, 16 items)
+## Theatre (3 exercises, 50 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Musical Theatre | Landmark Musicals | text-entry | 16 |
+| Musical Theatre | Musical Theatre Composers and Lyricists | text-entry | 17 |
+| Musical Theatre | Tony Best Musical Winners | text-entry | 17 |
 
 ---
 
@@ -313,18 +327,18 @@ node scripts/content-map.mjs
 | Classical Music | 1 | 1 | 0 | 1 | 15 |
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
-| Food/Drink | 10 | 5 | 5 | 5 | 72 |
-| Games/Sport | 14 | 10 | 4 | 11 | 170 |
+| Food/Drink | 10 | 9 | 1 | 9 | 126 |
+| Games/Sport | 14 | 13 | 1 | 14 | 230 |
 | Geography | 7 | 7 | 0 | 17 | 414 |
 | Lifestyle | 11 | 7 | 4 | 7 | 98 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
 | Science | 13 | 13 | 0 | 21 | 361 |
-| Television | 16 | 3 | 13 | 3 | 42 |
-| Theatre | 1 | 1 | 0 | 1 | 16 |
+| Television | 16 | 8 | 8 | 8 | 119 |
+| Theatre | 1 | 1 | 0 | 3 | 50 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **156** | | | **146** | **2572** |
+| **Total** | **156** | | | **160** | **2797** |
 
 ## Exercises with 0 Items
 
