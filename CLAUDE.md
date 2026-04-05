@@ -116,6 +116,12 @@ For new exercises, use `POST /api/admin/exercises`.
 For D1-driven content tickets, prefer inline commands (`--command`) over temporary SQL files.
 Do not leave ad-hoc content SQL files in the repo/worktree (for example `emi-*-content.sql` or `.tmp-*.sql`).
 
+**After any content change** (new exercises, new items, deleted content, node changes), regenerate the content map:
+```bash
+npm run content-map
+```
+Commit the updated `docs/CONTENT_MAP.md` alongside the content change.
+
 ## Seed Files Policy (MANDATORY)
 
 **DO NOT USE seed files for content work.**
