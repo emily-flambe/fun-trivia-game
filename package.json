@@ -11,7 +11,8 @@
     "test:worker": "vitest run -c vitest.config.mts",
     "test:all": "vitest run -c vitest.unit.config.ts && vitest run -c vitest.config.mts",
     "test:e2e": "npm run build && npx playwright test",
-    "seed": "node scripts/seed.mjs"
+    "seed": "node scripts/seed.mjs",
+    "content-map": "node scripts/content-map.mjs"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.14.1",
