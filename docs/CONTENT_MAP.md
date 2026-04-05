@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-05  
-**Totals:** 18 categories, 174 nodes, 145 exercises, 2549 items
+**Totals:** 18 categories, 174 nodes, 146 exercises, 2572 items
 
 ---
 
@@ -285,19 +285,20 @@ node scripts/content-map.mjs
 
 ---
 
-## World History (7 exercises, 127 items)
+## World History (8 exercises, 150 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | 20th Century Events | 20th Century World Events | text-entry (cards) | 26 |
 | Ancient Civilizations | Ancient Civilizations | text-entry | 12 |
+| British Monarchs | British Monarchs from Henry VIII Onward | fill-blanks | 23 |
 | Historical Empires | Historical Empires | text-entry (cards) | 21 |
 | Revolutions | Major Revolutions | text-entry (cards) | 12 |
 | Wars & Conflicts | Major Wars & Conflicts | text-entry (cards) | 25 |
 | Famous Quotes | Who Said This Quote? | text-entry (cards) | 24 |
 | Timelines | Major 20th-Century Events (Ordering) | sequence-ordering | 7 |
 
-**Empty subcategories (5):** British Monarchs, Exploration & Discovery, International Organizations, Medieval History, Religious History
+**Empty subcategories (4):** Exploration & Discovery, International Organizations, Medieval History, Religious History
 
 ---
 
@@ -322,8 +323,8 @@ node scripts/content-map.mjs
 | Science | 13 | 13 | 0 | 21 | 361 |
 | Television | 16 | 3 | 13 | 3 | 42 |
 | Theatre | 1 | 1 | 0 | 1 | 16 |
-| World History | 12 | 7 | 5 | 7 | 127 |
-| **Total** | **156** | | | **145** | **2549** |
+| World History | 12 | 8 | 4 | 8 | 150 |
+| **Total** | **156** | | | **146** | **2572** |
 
 ## Exercises with 0 Items
 
