@@ -129,6 +129,17 @@ export function MapDisplay({ items, exerciseId }: Props) {
 													strokeWidth: 0.8,
 													outline: 'none',
 												},
+												focused: {
+													fill: isSelected
+														? '#c07830'
+														: isInExercise
+															? '#e8ddd0'
+															: '#d0cbc4',
+													stroke: isInExercise ? '#8a7a6a' : '#b0a898',
+													strokeWidth: isInExercise ? 0.8 : 0.3,
+													outline: 'none',
+													cursor: isInExercise ? 'pointer' : 'default',
+												},
 											}}
 										/>
 									);
