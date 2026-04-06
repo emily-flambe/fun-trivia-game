@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 191 nodes, 175 exercises, 3094 items
+**Totals:** 18 categories, 191 nodes, 173 exercises, 3029 items
 
 ---
 
@@ -140,7 +140,7 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
-| Football | Super Bowl MVPs | text-entry | 20 |
+| Football | Super Bowl Winners & MVPs | text-entry | 20 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
@@ -149,21 +149,18 @@ node scripts/content-map.mjs
 | Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
 | Soccer | FIFA World Cup Winners | fill-blanks | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
-| Tennis | Tennis Records & Milestones | text-entry | 15 |
+| Tennis | Tennis Grand Slams | text-entry | 15 |
 | Track & Field | Olympic Track & Field Legends | text-entry | 20 |
 
 **Empty subcategories (1):** Rules & Terminology
 
 ---
 
-## Geography (18 exercises, 474 items)
+## Geography (15 exercises, 389 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
-| Cities | City Nicknames | text-entry | 15 |
-| Countries | Countries of Asia | fill-blanks | 50 |
-| Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
 | Demographics | Most Populous Countries | text-entry | 20 |
 | Map Quizzes | Countries of Europe | text-entry (map) | 44 |
 | Map Quizzes | Countries of South America | text-entry (map) | 12 |
@@ -179,7 +176,7 @@ node scripts/content-map.mjs
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
 
-**Empty subcategories (3):** Populations, U.S. National Parks, U.S. National Parks
+**Empty subcategories (5):** Cities, Countries, Populations, U.S. National Parks, U.S. National Parks
 
 ---
 
@@ -283,12 +280,13 @@ node scripts/content-map.mjs
 
 ---
 
-## Television (8 exercises, 119 items)
+## Television (9 exercises, 139 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Awards & Records | TV Awards & Records | text-entry | 12 |
 | Catchphrases & Quotes | Catchphrases & Quotes | text-entry | 15 |
+| Emmy Awards | Emmy Award Winners | text-entry | 20 |
 | Landmark TV Shows | Landmark TV Shows | text-entry | 15 |
 | Saturday Night Live | Saturday Night Live | text-entry | 15 |
 | Sci-Fi & Fantasy TV | Sci-Fi & Fantasy TV | text-entry | 16 |
@@ -296,7 +294,7 @@ node scripts/content-map.mjs
 | Theme Songs | Theme Songs | text-entry | 15 |
 | TV Show Settings | TV Show Settings | text-entry | 15 |
 
-**Empty subcategories (8):** Awards & Records, Children's Television, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Show Settings
+**Empty subcategories (7):** Awards & Records, Children's Television, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Show Settings
 
 ---
 
@@ -341,13 +339,13 @@ node scripts/content-map.mjs
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 10 | 0 | 10 | 138 |
 | Games/Sport | 17 | 16 | 1 | 17 | 282 |
-| Geography | 14 | 11 | 3 | 18 | 474 |
+| Geography | 14 | 9 | 5 | 15 | 389 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
 | Science | 13 | 13 | 0 | 21 | 361 |
-| Television | 16 | 8 | 8 | 8 | 119 |
+| Television | 16 | 9 | 7 | 9 | 139 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **173** | | | **175** | **3094** |
+| **Total** | **173** | | | **173** | **3029** |
