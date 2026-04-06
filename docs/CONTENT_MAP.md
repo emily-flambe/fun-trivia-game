@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 178 nodes, 164 exercises, 2861 items
+**Totals:** 18 categories, 187 nodes, 156 exercises, 2633 items
 
 ---
 
@@ -80,6 +80,8 @@ node scripts/content-map.mjs
 |-------------|----------|--------|------:|
 | Great Composers | Great Composers | text-entry | 15 |
 
+**Empty subcategories (3):** Famous Works, Musical Terms, Opera
+
 ---
 
 ## Current Events (1 exercise, 25 items)
@@ -125,7 +127,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Games/Sport (14 exercises, 230 items)
+## Games/Sport (14 exercises, 232 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -140,35 +142,29 @@ node scripts/content-map.mjs
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
-| Soccer/Football | FIFA World Cup Winners | text-entry | 20 |
+| Soccer/Football | FIFA World Cup Winners | text-entry | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
 | Tennis | Grand Slam Tennis | text-entry | 20 |
 
-**Empty subcategories (1):** Rules & Terminology
+**Empty subcategories (2):** Rules & Terminology, Rules & Terminology
 
 ---
 
-## Geography (17 exercises, 414 items)
+## Geography (9 exercises, 184 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
-| Countries of the World | Africa: Map Quiz | text-entry (map) | 0 |
-| Countries of the World | Asia: Map Quiz | text-entry (map) | 0 |
-| Countries of the World | Countries of Africa | fill-blanks | 54 |
-| Countries of the World | Countries of Europe | fill-blanks | 45 |
-| Countries of the World | European Countries: Map Quiz | text-entry (map) | 45 |
-| Countries of the World | Landlocked Countries | fill-blanks | 44 |
-| Countries of the World | North America: Map Quiz | text-entry (map) | 0 |
-| Countries of the World | South America: Map Quiz | text-entry (map) | 12 |
-| Countries of the World | World's Largest Countries by Area | fill-blanks | 20 |
+| Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
+| Demographics | Most Populous Countries | text-entry | 20 |
 | Physical Geography | Major World Rivers | text-entry (cards) | 20 |
 | Physical Geography | Mountain Ranges & Peaks | text-entry (cards) | 15 |
 | Physical Geography | Oceans & Major Seas | text-entry (cards) | 15 |
 | Political Geography | Former Country Names | text-entry | 15 |
-| U.S. States | U.S. State Capitals | text-entry | 50 |
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
+
+**Empty subcategories (5):** Cities, National Parks, Populations, U.S. National Parks, U.S. States
 
 ---
 
@@ -325,12 +321,12 @@ node scripts/content-map.mjs
 | Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 5 | 2 | 3 | 2 | 30 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
-| Classical Music | 1 | 1 | 0 | 1 | 15 |
+| Classical Music | 4 | 1 | 3 | 1 | 15 |
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 9 | 1 | 9 | 126 |
-| Games/Sport | 14 | 13 | 1 | 14 | 230 |
-| Geography | 7 | 7 | 0 | 17 | 414 |
+| Games/Sport | 15 | 13 | 2 | 14 | 232 |
+| Geography | 12 | 7 | 5 | 9 | 184 |
 | Lifestyle | 11 | 7 | 4 | 7 | 98 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
@@ -339,10 +335,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **160** | | | **164** | **2861** |
-
-## Exercises with 0 Items
-
-- `geography/countries/africa-map-quiz` — Africa: Map Quiz (text-entry)
-- `geography/countries/asia-map-quiz` — Asia: Map Quiz (text-entry)
-- `geography/countries/north-america-map-quiz` — North America: Map Quiz (text-entry)
+| **Total** | **169** | | | **156** | **2633** |
