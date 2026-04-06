@@ -6,6 +6,7 @@ import type {
 	SequenceOrderingValidationError,
 	ClassificationSortCheckResult,
 	ClassificationSortValidationError,
+	MinefieldItemCheckResult,
 } from '../data/types';
 import { checkAnswer as fuzzyCheck } from './fuzzy-match';
 
@@ -115,6 +116,18 @@ export function checkSequenceOrdering(
 		correctCount,
 		total: placements.length,
 		placements,
+	};
+}
+
+/**
+ * Check whether a minefield item is valid (safe) or a trap (mine).
+ * Items with answer "valid" (case-insensitive) are safe; everything else is a trap.
+ */
+export function checkMinefieldItem(item: Item): MinefieldItemCheckResult {
+	return {
+		itemId: item.id,
+		isValid: item.answer.trim().toLowerCase() === 'valid',
+		explanation: item.explanation,
 	};
 }
 

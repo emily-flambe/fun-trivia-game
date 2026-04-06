@@ -28,6 +28,7 @@ export interface ExerciseSummary {
 		timeLimitSeconds?: number;
 		categories?: string[];
 		feedbackMode?: 'immediate' | 'end';
+		maxStrikes?: number;
 	};
 	sortOrder: number;
 	itemCount?: number;
@@ -260,6 +261,12 @@ export interface SequenceOrderingCheckResult {
 	placements: SequenceOrderingPlacement[];
 }
 
+export interface MinefieldItemCheckResult {
+	itemId: string;
+	isValid: boolean;
+	explanation: string;
+}
+
 export interface ClassificationSortPlacement {
 	itemId: string;
 	expectedCategories: string[];
@@ -313,11 +320,11 @@ export async function getQuizResultsByExercise(): Promise<{ exercises: QuizExerc
 export async function checkAnswer(
 	exercisePath: string,
 	body: { itemId?: string; answer?: string; order?: string[]; assignments?: Record<string, string> }
-): Promise<CheckAnswerResult | FillBlanksCheckResult | SequenceOrderingCheckResult | ClassificationSortCheckResult> {
+): Promise<CheckAnswerResult | FillBlanksCheckResult | SequenceOrderingCheckResult | ClassificationSortCheckResult | MinefieldItemCheckResult> {
 	const res = await fetch(`${BASE}/exercises/${exercisePath}/check`, {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify(body),
 	});
-	return res.json() as Promise<CheckAnswerResult | FillBlanksCheckResult | SequenceOrderingCheckResult | ClassificationSortCheckResult>;
+	return res.json() as Promise<CheckAnswerResult | FillBlanksCheckResult | SequenceOrderingCheckResult | ClassificationSortCheckResult | MinefieldItemCheckResult>;
 }

@@ -1,7 +1,7 @@
 import { NodeRepository } from './data/repository';
 import { AdminRepository, NotFoundError } from './data/admin-repository';
 import { UserRepository } from './data/user-repository';
-import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort } from './lib/answer-checker';
+import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort, checkMinefieldItem } from './lib/answer-checker';
 import type { User, ExerciseFormat, QuizItemResult } from './data/types';
 
 interface Env {
@@ -557,6 +557,18 @@ async function handleCheckAnswer(exercisePath: string, request: Request, repo: N
 		if (!result.valid) {
 			return json(result, 400);
 		}
+		return json(result);
+	}
+
+	if (exercise.format === 'minefield') {
+		if (!body.itemId) {
+			return json({ error: 'Missing required field: itemId' }, 400);
+		}
+		const item = items.find((i) => i.id === body.itemId);
+		if (!item) {
+			return json({ error: 'Item not found', itemId: body.itemId }, 404);
+		}
+		const result = checkMinefieldItem(item);
 		return json(result);
 	}
 

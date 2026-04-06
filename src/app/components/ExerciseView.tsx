@@ -9,6 +9,7 @@ import { FillBlanksQuiz } from './FillBlanksQuiz';
 import { LetterByLetterQuiz } from './LetterByLetterQuiz';
 import { SequenceOrderingQuiz } from './SequenceOrderingQuiz';
 import { ClassificationSortQuiz } from './ClassificationSortQuiz';
+import { MinefieldQuiz } from './MinefieldQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 	const [data, setData] = useState<ExerciseDetail | null>(null);
@@ -119,6 +120,10 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 
 	if (exercise.format === 'classification-sort') {
 		return <ClassificationSortQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
+	}
+
+	if (exercise.format === 'minefield') {
+		return <MinefieldQuiz exercise={exercise} items={items} exercisePath={path} nextExercisePath={nextExercisePath} nextNodePath={nextNodePath} />;
 	}
 
 	if (exercise.format === 'text-entry' && mode === 'grid') {

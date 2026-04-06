@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort } from '../../src/lib/answer-checker';
-import type { Item, CheckAnswerResult, FillBlanksCheckResult } from '../../src/data/types';
+import { checkTextEntry, checkFillBlanks, checkSequenceOrdering, checkClassificationSort, checkMinefieldItem } from '../../src/lib/answer-checker';
+import type { Item, CheckAnswerResult, FillBlanksCheckResult, MinefieldItemCheckResult } from '../../src/data/types';
 
 // ─── Test fixtures ───────────────────────────────────────────────────
 
@@ -83,6 +83,57 @@ const nobleGasItems: Item[] = [
 	{ id: 'xenon', exerciseId: 'noble-gases', answer: 'Xenon', alternates: ['Xe'], explanation: 'Used in headlights.', data: {}, sortOrder: 4 },
 	{ id: 'radon', exerciseId: 'noble-gases', answer: 'Radon', alternates: ['Rn'], explanation: 'Radioactive noble gas.', data: {}, sortOrder: 5 },
 ];
+
+// ─── Minefield fixtures ─────────────────────────────────────────────
+const validItem: Item = {
+	id: 'paris',
+	exerciseId: 'confused-terms',
+	answer: 'valid',
+	alternates: [],
+	explanation: 'This term is commonly confused.',
+	data: { label: 'affect vs effect' },
+	sortOrder: 0,
+};
+
+const trapItem: Item = {
+	id: 'trap1',
+	exerciseId: 'confused-terms',
+	answer: 'trap',
+	alternates: [],
+	explanation: 'This is a distractor.',
+	data: { label: 'hello vs goodbye' },
+	sortOrder: 1,
+};
+
+const validUpperCase: Item = {
+	id: 'valid-upper',
+	exerciseId: 'confused-terms',
+	answer: 'Valid',
+	alternates: [],
+	explanation: 'Case should not matter.',
+	data: { label: 'their vs there' },
+	sortOrder: 2,
+};
+
+const validMixedCase: Item = {
+	id: 'valid-mixed',
+	exerciseId: 'confused-terms',
+	answer: 'VALID',
+	alternates: [],
+	explanation: 'All caps should still be valid.',
+	data: { label: 'who vs whom' },
+	sortOrder: 3,
+};
+
+const otherAnswerItem: Item = {
+	id: 'other',
+	exerciseId: 'confused-terms',
+	answer: 'something-else',
+	alternates: [],
+	explanation: 'Anything not "valid" is a trap.',
+	data: { label: 'to vs too' },
+	sortOrder: 4,
+};
 
 // ─── checkTextEntry ──────────────────────────────────────────────────
 
@@ -1037,5 +1088,110 @@ describe('checkClassificationSort', () => {
 		expect(result.valid).toBe(true);
 		if (!result.valid) return;
 		expect(result.correct).toBe(true);
+	});
+});
+
+describe('checkMinefieldItem', () => {
+	it('returns isValid=true for answer "valid"', () => {
+		const result = checkMinefieldItem(validItem);
+		expect(result).toEqual({
+			itemId: 'paris',
+			isValid: true,
+			explanation: 'This term is commonly confused.',
+		});
+	});
+
+	it('returns isValid=false for answer "trap"', () => {
+		const result = checkMinefieldItem(trapItem);
+		expect(result).toEqual({
+			itemId: 'trap1',
+			isValid: false,
+			explanation: 'This is a distractor.',
+		});
+	});
+
+	it('is case-insensitive — "Valid" is valid', () => {
+		const result = checkMinefieldItem(validUpperCase);
+		expect(result.isValid).toBe(true);
+	});
+
+	it('is case-insensitive — "VALID" is valid', () => {
+		const result = checkMinefieldItem(validMixedCase);
+		expect(result.isValid).toBe(true);
+	});
+
+	it('treats any non-"valid" answer as a trap', () => {
+		const result = checkMinefieldItem(otherAnswerItem);
+		expect(result.isValid).toBe(false);
+	});
+
+	it('returns the correct itemId', () => {
+		const result = checkMinefieldItem(trapItem);
+		expect(result.itemId).toBe('trap1');
+	});
+
+	it('returns the explanation', () => {
+		const result = checkMinefieldItem(validItem);
+		expect(result.explanation).toBe('This term is commonly confused.');
+	});
+
+	it('handles empty explanation', () => {
+		const item: Item = { ...validItem, id: 'empty-expl', explanation: '' };
+		const result = checkMinefieldItem(item);
+		expect(result.explanation).toBe('');
+		expect(result.isValid).toBe(true);
+	});
+
+	// === Bug-Hunter edge case tests ===
+
+	it('BUG: treats answer with leading/trailing whitespace as trap instead of valid', () => {
+		// If a content author accidentally adds whitespace around "valid",
+		// the item is incorrectly classified as a trap because there is no trim().
+		const spacedValid: Item = {
+			...validItem,
+			id: 'spaced-valid',
+			answer: ' valid ',
+		};
+		const result = checkMinefieldItem(spacedValid);
+		// This SHOULD be valid (whitespace is a content entry mistake, not semantic)
+		expect(result.isValid).toBe(true);
+	});
+
+	it('BUG: treats answer with leading whitespace as trap', () => {
+		const item: Item = { ...validItem, id: 'leading-space', answer: ' valid' };
+		const result = checkMinefieldItem(item);
+		expect(result.isValid).toBe(true);
+	});
+
+	it('BUG: treats answer with trailing whitespace as trap', () => {
+		const item: Item = { ...validItem, id: 'trailing-space', answer: 'valid ' };
+		const result = checkMinefieldItem(item);
+		expect(result.isValid).toBe(true);
+	});
+
+	it('BUG: treats answer with tab characters as trap', () => {
+		const item: Item = { ...validItem, id: 'tab-valid', answer: '\tvalid\t' };
+		const result = checkMinefieldItem(item);
+		expect(result.isValid).toBe(true);
+	});
+
+	it('handles answer with newline characters as trap (not valid)', () => {
+		const item: Item = { ...validItem, id: 'newline-valid', answer: 'valid\n' };
+		const result = checkMinefieldItem(item);
+		// Newline-padded "valid" should still be treated as valid after trimming
+		expect(result.isValid).toBe(true);
+	});
+
+	it('treats empty answer as trap', () => {
+		const item: Item = { ...validItem, id: 'empty-answer', answer: '' };
+		const result = checkMinefieldItem(item);
+		expect(result.isValid).toBe(false);
+	});
+
+	it('treats whitespace-only answer as trap (not valid)', () => {
+		const item: Item = { ...validItem, id: 'ws-only', answer: '   ' };
+		const result = checkMinefieldItem(item);
+		// Whitespace-only should NOT be treated as "valid"
+		expect(result.isValid).toBe(false);
 	});
 });
