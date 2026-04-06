@@ -8,17 +8,18 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 189 nodes, 161 exercises, 2789 items
+**Totals:** 18 categories, 190 nodes, 163 exercises, 2804 items
 
 ---
 
-## American History (9 exercises, 225 items)
+## American History (10 exercises, 240 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Constitutional Amendments | All 27 Constitutional Amendments | text-entry (cards) | 27 |
 | Founding Documents | Declaration of Independence Signers | text-entry | 14 |
 | Landmarks & Monuments | Historic Landmarks & Monuments | text-entry | 15 |
+| Native American History | Native American History | text-entry | 15 |
 | U.S. Presidents | All U.S. Presidents | fill-blanks | 47 |
 | U.S. Presidents | Presidents Grid Match | grid-match | 24 |
 | U.S. States | U.S. State Capitals | fill-blanks | 50 |
@@ -26,7 +27,7 @@ node scripts/content-map.mjs
 | Major U.S. Wars | Major U.S. Wars | text-entry (cards) | 12 |
 | Supreme Court | Landmark Supreme Court Cases | text-entry (cards) | 15 |
 
-**Empty subcategories (3):** Declaration of Independence, Native American History, Presidential Records
+**Empty subcategories (2):** Declaration of Independence, Presidential Records
 
 ---
 
@@ -150,7 +151,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Geography (14 exercises, 329 items)
+## Geography (15 exercises, 329 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -160,6 +161,7 @@ node scripts/content-map.mjs
 | Countries | Countries of Asia | fill-blanks | 50 |
 | Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
 | Demographics | Most Populous Countries | text-entry | 20 |
+| Map Quizzes | Countries of Europe | text-entry (map) | 0 |
 | National Parks | U.S. National Parks | text-entry | 15 |
 | Physical Geography | Major World Rivers | text-entry (cards) | 20 |
 | Physical Geography | Mountain Ranges & Peaks | text-entry (cards) | 15 |
@@ -322,7 +324,7 @@ node scripts/content-map.mjs
 
 | Category | Subcategories | With exercises | Empty | Exercises | Items |
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
-| American History | 11 | 8 | 3 | 9 | 225 |
+| American History | 11 | 9 | 2 | 10 | 240 |
 | Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 5 | 2 | 3 | 2 | 30 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
@@ -331,7 +333,7 @@ node scripts/content-map.mjs
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 9 | 1 | 9 | 126 |
 | Games/Sport | 17 | 12 | 5 | 13 | 210 |
-| Geography | 12 | 10 | 2 | 14 | 329 |
+| Geography | 13 | 11 | 2 | 15 | 329 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
@@ -340,4 +342,8 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **171** | | | **161** | **2789** |
+| **Total** | **172** | | | **163** | **2804** |
+
+## Exercises with 0 Items
+
+- `geography/maps/europe` — Countries of Europe (text-entry)
