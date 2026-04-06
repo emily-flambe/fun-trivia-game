@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
+    "@vnedyalk0v/react19-simple-maps": "^2.0.3",
     "agents": "^0.9.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
