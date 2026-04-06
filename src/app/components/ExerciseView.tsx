@@ -9,6 +9,7 @@ import { FillBlanksQuiz } from './FillBlanksQuiz';
 import { LetterByLetterQuiz } from './LetterByLetterQuiz';
 import { SequenceOrderingQuiz } from './SequenceOrderingQuiz';
 import { ClassificationSortQuiz } from './ClassificationSortQuiz';
+import { shouldRenderMapDisplay } from '../lib/display-mode';
 import { MinefieldQuiz } from './MinefieldQuiz';
 
 export function ExerciseView({ path, mode }: { path: string; mode: string }) {
@@ -78,32 +79,33 @@ export function ExerciseView({ path, mode }: { path: string; mode: string }) {
 				</div>
 			);
 		}
-		if (exercise.displayType === 'map') {
-			return (
-				<div className="animate-in">
-					<div className="flex items-center gap-3 mb-2">
-						<a href={`#/node/${nodeId}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
-						<h2 className="text-lg font-semibold flex-1 tracking-tight">{exercise.name}</h2>
-					</div>
-					<div className="flex items-center gap-2 mb-6 justify-end">
-						<a
-							href={`#/exercise/${path}?mode=grid`}
-							className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
-						>
-							List Quiz
-						</a>
-						<a
-							href={`#/exercise/${path}?mode=quiz`}
-							className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
-						>
-							Quiz Me
-						</a>
-					</div>
-					<MapDisplay items={items} exerciseId={exercise.id} />
-				</div>
-			);
-		}
 		return <LearnGrid exercise={exercise} items={items} exercisePath={path} />;
+	}
+
+	if (shouldRenderMapDisplay(exercise.displayType, mode)) {
+		return (
+			<div className="animate-in">
+				<div className="flex items-center gap-3 mb-2">
+					<a href={`#/node/${nodeId}`} className="text-text-tertiary hover:text-text-primary transition-colors">&larr;</a>
+					<h2 className="text-lg font-semibold flex-1 tracking-tight">{exercise.name}</h2>
+				</div>
+				<div className="flex items-center gap-2 mb-6 justify-end">
+					<a
+						href={`#/exercise/${path}?mode=grid`}
+						className="text-sm text-text-tertiary hover:text-accent transition-colors px-3 py-2 rounded-lg hover:bg-surface-hover"
+					>
+						List Quiz
+					</a>
+					<a
+						href={`#/exercise/${path}?mode=quiz`}
+						className="bg-action hover:bg-action-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
+					>
+						Quiz Me
+					</a>
+				</div>
+				<MapDisplay items={items} exerciseId={exercise.id} />
+			</div>
+		);
 	}
 
 	if (exercise.format === 'fill-blanks') {

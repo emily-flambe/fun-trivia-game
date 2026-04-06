@@ -331,6 +331,20 @@ echo "Local:      $LOCAL"
 
 For UI changes, also take a Playwright screenshot to visually confirm.
 
+### Visual Verification Claims (MANDATORY)
+
+Never claim "visually verified" unless you captured evidence from the exact route and mode that was fixed.
+
+Required evidence before making a visual-verification claim:
+- A screenshot artifact file generated during this task (for example `.tmp-<ticket>-<route>.png`).
+- The exact URL/hash route and mode used for capture (for example `#/exercise/geography/maps/south-america?mode=quiz`).
+- A brief note of what is visibly present in the screenshot that proves the fix.
+
+Failure mode to avoid:
+- Do not treat API checks, code inspection, or assumptions as visual verification.
+- Do not claim visual verification if the screenshot command failed/timed out or no artifact file exists.
+- For map exercises specifically, verify the map renderer itself is visible in the target mode (not just that data loaded).
+
 ## Docs
 
 - `docs/DATA_ARCHITECTURE.md` — **schema, content pipeline, how to find/update content**
