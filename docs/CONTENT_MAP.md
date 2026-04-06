@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 191 nodes, 175 exercises, 3094 items
+**Totals:** 18 categories, 191 nodes, 176 exercises, 3109 items
 
 ---
 
@@ -140,7 +140,7 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
-| Football | Super Bowl MVPs | text-entry | 20 |
+| Football | Super Bowl Winners & MVPs | text-entry | 20 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
@@ -156,11 +156,12 @@ node scripts/content-map.mjs
 
 ---
 
-## Geography (18 exercises, 474 items)
+## Geography (19 exercises, 489 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
+| Cities | Cities by River | text-entry | 15 |
 | Cities | City Nicknames | text-entry | 15 |
 | Countries | Countries of Asia | fill-blanks | 50 |
 | Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
@@ -341,7 +342,7 @@ node scripts/content-map.mjs
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 10 | 0 | 10 | 138 |
 | Games/Sport | 17 | 16 | 1 | 17 | 282 |
-| Geography | 14 | 11 | 3 | 18 | 474 |
+| Geography | 14 | 11 | 3 | 19 | 489 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
@@ -350,4 +351,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **173** | | | **175** | **3094** |
+| **Total** | **173** | | | **176** | **3109** |
