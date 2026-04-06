@@ -7,7 +7,7 @@ Structural inventory of all trivia content. Generated from D1 — do not edit by
 node scripts/content-map.mjs
 ```
 
-**Generated:** 2026-04-05  
+**Generated:** 2026-04-06  
 **Totals:** 18 categories, 178 nodes, 164 exercises, 2861 items
 
 ---
