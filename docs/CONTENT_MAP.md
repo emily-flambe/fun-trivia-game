@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 187 nodes, 161 exercises, 2749 items
+**Totals:** 18 categories, 189 nodes, 161 exercises, 2789 items
 
 ---
 
@@ -128,7 +128,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Games/Sport (14 exercises, 232 items)
+## Games/Sport (13 exercises, 210 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -143,21 +143,21 @@ node scripts/content-map.mjs
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
-| Soccer/Football | FIFA World Cup Winners | text-entry | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
 | Tennis | Grand Slam Tennis | text-entry | 20 |
 
-**Empty subcategories (2):** Rules & Terminology, Rules & Terminology
+**Empty subcategories (5):** Motorsport, Rules & Terminology, Rules & Terminology, Soccer, Track & Field
 
 ---
 
-## Geography (13 exercises, 279 items)
+## Geography (14 exercises, 329 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
 | Cities | Cities by River | text-entry | 15 |
 | Cities | City Nicknames | text-entry | 15 |
+| Countries | Countries of Asia | fill-blanks | 50 |
 | Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
 | Demographics | Most Populous Countries | text-entry | 20 |
 | National Parks | U.S. National Parks | text-entry | 15 |
@@ -173,7 +173,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Lifestyle (7 exercises, 98 items)
+## Lifestyle (7 exercises, 110 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -183,7 +183,7 @@ node scripts/content-map.mjs
 | Games & Recreation | Board Games & Card Games | text-entry (cards) | 12 |
 | Philosophy | Major Philosophers | text-entry | 15 |
 | Religion | World Religions | text-entry (cards) | 12 |
-| Zodiac Signs | Zodiac Signs (Western & Chinese) | text-entry | 12 |
+| Zodiac Signs | Zodiac Signs (Western & Chinese) | text-entry | 24 |
 
 **Empty subcategories (4):** Board Games & Card Games, Traditions & Customs, Universities, World Religions
 
@@ -330,9 +330,9 @@ node scripts/content-map.mjs
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 9 | 1 | 9 | 126 |
-| Games/Sport | 15 | 13 | 2 | 14 | 232 |
-| Geography | 12 | 10 | 2 | 13 | 279 |
-| Lifestyle | 11 | 7 | 4 | 7 | 98 |
+| Games/Sport | 17 | 12 | 5 | 13 | 210 |
+| Geography | 12 | 10 | 2 | 14 | 329 |
+| Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
@@ -340,4 +340,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **169** | | | **161** | **2749** |
+| **Total** | **171** | | | **161** | **2789** |
