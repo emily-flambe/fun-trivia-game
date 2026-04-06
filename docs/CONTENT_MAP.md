@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 19 categories, 213 nodes, 179 exercises, 3224 items
+**Totals:** 19 categories, 214 nodes, 183 exercises, 3290 items
 
 ---
 
@@ -19,16 +19,23 @@ node scripts/content-map.mjs
 | Constitutional Amendments | All 27 Constitutional Amendments | text-entry (cards) | 27 |
 | Founding Documents | Declaration of Independence Signers | text-entry | 14 |
 | Landmarks & Monuments | Historic Landmarks & Monuments | text-entry | 15 |
-| Major U.S. Wars | Major U.S. Wars | text-entry (cards) | 12 |
 | Native American History | Native American History | text-entry | 22 |
-| Supreme Court | Landmark Supreme Court Cases | text-entry (cards) | 15 |
 | U.S. Presidents | All U.S. Presidents | fill-blanks | 47 |
 | U.S. Presidents | Presidential Firsts & Records | text-entry | 15 |
 | U.S. Presidents | Presidents Grid Match | grid-match | 24 |
 | U.S. States | U.S. State Capitals | fill-blanks | 50 |
 | Vice Presidents | Notable Vice Presidents | text-entry | 27 |
+| Major U.S. Wars | Major U.S. Wars | text-entry (cards) | 12 |
+| Supreme Court | Landmark Supreme Court Cases | text-entry (cards) | 15 |
 
 **Empty subcategories (2):** Declaration of Independence, Presidential Records
+
+---
+
+## Cross-Category (0 exercises, 0 items)
+
+
+**Empty subcategories (3):** Celebrity Real Names, Often Confused Pairs, Trivia Pavlovs
 
 ---
 
@@ -51,13 +58,6 @@ node scripts/content-map.mjs
 
 ---
 
-## Cross-Category (0 exercises, 0 items)
-
-
-**Empty subcategories (3):** Celebrity Real Names, Often Confused Pairs, Trivia Pavlovs
-
----
-
 ## Art (4 exercises, 60 items)
 
 | Subcategory | Exercise | Format | Items |
@@ -75,8 +75,8 @@ node scripts/content-map.mjs
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| Brands & Advertising | Brand Taglines & Slogans | text-entry | 15 |
 | Brands & Advertising | Brand Mascots | text-entry | 12 |
+| Brands & Advertising | Brand Taglines & Slogans | text-entry | 15 |
 | Corporate History | Fortune 500 & Corporate History | text-entry | 15 |
 | Currencies | World Currencies | text-entry | 20 |
 | Economics | Economic Concepts & Terms | text-entry | 15 |
@@ -86,23 +86,27 @@ node scripts/content-map.mjs
 
 ---
 
-## Classical Music (1 exercise, 15 items)
+## Classical Music (3 exercises, 46 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Great Composers | Great Composers | text-entry | 15 |
+| Musical Terms | Musical Terms & Notation | text-entry | 16 |
+| Opera | Opera Essentials | text-entry | 15 |
 
-**Empty subcategories (3):** Famous Works, Musical Terms, Opera
+**Empty subcategories (1):** Famous Works
 
 ---
 
-## Current Events (1 exercise, 25 items)
+## Current Events (3 exercises, 60 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
+| International Organizations | Leaders of International Organizations (2026) | text-entry | 15 |
+| TIME Person of the Year | TIME Person of the Year: Notable Honorees | text-entry | 20 |
 | World Leaders | Current World Leaders (2026) | text-entry | 25 |
 
-**Empty subcategories (2):** International Organizations, TIME Person of the Year
+**Empty subcategories (1):** TIME Person of the Year
 
 ---
 
@@ -110,16 +114,16 @@ node scripts/content-map.mjs
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| Academy Awards | Film Awards & Records | text-entry (cards) | 12 |
 | Academy Awards | Best Picture Winners | text-entry | 20 |
+| Academy Awards | Film Awards & Records | text-entry (cards) | 12 |
 | Academy Awards | Oscar Winners — Acting | text-entry (cards) | 20 |
 | AFI Greatest Films | AFI 100 Greatest Films | text-entry (cards) | 20 |
 | Book Adaptations | Films Based on Books | text-entry (cards) | 15 |
 | Directors | Famous Directors | text-entry (cards) | 20 |
-| Iconic Films | Iconic Films | text-entry (cards) | 20 |
 | James Bond | James Bond Films | text-entry (cards) | 15 |
-| Movie Quotes | Famous Movie Quotes | text-entry (cards) | 15 |
 | Movie Taglines | Movie Taglines | text-entry (cards) | 15 |
+| Iconic Films | Iconic Films | text-entry (cards) | 20 |
+| Movie Quotes | Famous Movie Quotes | text-entry (cards) | 15 |
 
 ---
 
@@ -226,8 +230,8 @@ node scripts/content-map.mjs
 | Poetry | Poetry — Poet Matching | text-entry (cards) | 20 |
 | Pulitzer Prize Fiction | Pulitzer Prize for Fiction — Notable Winners | text-entry (cards) | 15 |
 | Russian Literature | Russian Literature — Works & Authors | text-entry (cards) | 15 |
-| Shakespeare | Shakespeare's Quotes — Play Matching | text-entry (cards) | 15 |
 | Shakespeare | Shakespeare's Plays | text-entry (cards) | 21 |
+| Shakespeare | Shakespeare's Quotes — Play Matching | text-entry (cards) | 15 |
 | Works & Key Clues | Opening Lines & Key Clues | letter-by-letter | 10 |
 
 ---
@@ -236,8 +240,8 @@ node scripts/content-map.mjs
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| Famous Mathematicians | Math Awards and Accolades | text-entry | 15 |
 | Famous Mathematicians | Famous Mathematicians | text-entry | 22 |
+| Famous Mathematicians | Math Awards and Accolades | text-entry | 15 |
 | Geometry | Geometry Formulas & Shapes | text-entry (cards) | 15 |
 | Mathematical Constants | Key Mathematical Constants | text-entry | 7 |
 | Number Theory | Number Theory & Famous Numbers | text-entry (cards) | 12 |
@@ -275,7 +279,6 @@ node scripts/content-map.mjs
 | Biology | Vitamins & Nutrition | text-entry | 12 |
 | Chemistry | Element Symbols | text-entry (periodic-table) | 118 |
 | Chemistry | Noble Gases | fill-blanks | 6 |
-| Classification | Field or Subfield Sort | classification-sort | 10 |
 | Earth Science | Layers of the Earth | fill-blanks | 4 |
 | Earth Science | Earth Science Fundamentals | text-entry (cards) | 10 |
 | Famous Scientists | Famous Scientists | text-entry | 20 |
@@ -288,6 +291,7 @@ node scripts/content-map.mjs
 | Scientific Disciplines | Branches of Science | text-entry | 12 |
 | Zoology | Animal Collective Nouns | text-entry | 15 |
 | Zoology | Dog Breeds | text-entry | 15 |
+| Classification | Field or Subfield Sort | classification-sort | 10 |
 
 ---
 
@@ -315,8 +319,8 @@ node scripts/content-map.mjs
 |-------------|----------|--------|------:|
 | Awards | Tony Award Best Play Winners | text-entry | 15 |
 | Musical Theatre | Landmark Musicals | text-entry | 16 |
-| Musical Theatre | Tony Best Musical Winners | text-entry | 16 |
 | Musical Theatre | Musical Theatre Composers and Lyricists | text-entry | 17 |
+| Musical Theatre | Tony Best Musical Winners | text-entry | 16 |
 | Plays | Famous Plays and Playwrights | text-entry | 27 |
 | Plays | Landmark Broadway Plays | text-entry | 15 |
 | Shakespeare | Shakespeare Characters | text-entry | 15 |
@@ -332,14 +336,14 @@ node scripts/content-map.mjs
 | British Monarchs | British Monarchs from Henry VIII Onward | fill-blanks | 23 |
 | British Monarchs | British Monarchs: William I to Henry VII | fill-blanks | 19 |
 | Exploration & Discovery | Exploration & Discovery | text-entry | 20 |
-| Famous Quotes | Who Said This Quote? | text-entry (cards) | 24 |
 | Historical Empires | Historical Empires | text-entry (cards) | 21 |
 | International Organizations | Major International Organizations | text-entry | 22 |
 | Medieval History | Medieval History: Key Events & Figures | text-entry | 20 |
 | Religious History | Religious History Milestones | text-entry | 15 |
 | Revolutions | Major Revolutions | text-entry (cards) | 12 |
-| Timelines | Major 20th-Century Events (Ordering) | sequence-ordering | 7 |
 | Wars & Conflicts | Major Wars & Conflicts | text-entry (cards) | 25 |
+| Famous Quotes | Who Said This Quote? | text-entry (cards) | 24 |
+| Timelines | Major 20th-Century Events (Ordering) | sequence-ordering | 7 |
 
 **Empty subcategories (5):** Cold War, Dynasties & Royal Houses, Famous Battles, Medieval History, Treaties & Agreements
 
@@ -350,12 +354,12 @@ node scripts/content-map.mjs
 | Category | Subcategories | With exercises | Empty | Exercises | Items |
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
 | American History | 11 | 9 | 2 | 11 | 268 |
-| Language | 8 | 5 | 3 | 10 | 160 |
 | Cross-Category | 3 | 0 | 3 | 0 | 0 |
+| Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 9 | 4 | 5 | 4 | 60 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
-| Classical Music | 4 | 1 | 3 | 1 | 15 |
-| Current Events | 3 | 1 | 2 | 1 | 25 |
+| Classical Music | 4 | 3 | 1 | 3 | 46 |
+| Current Events | 4 | 3 | 1 | 3 | 60 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 15 | 10 | 5 | 10 | 148 |
 | Games/Sport | 17 | 16 | 1 | 17 | 289 |
@@ -368,4 +372,4 @@ node scripts/content-map.mjs
 | Television | 16 | 9 | 7 | 9 | 142 |
 | Theatre | 4 | 4 | 0 | 7 | 121 |
 | World History | 17 | 12 | 5 | 13 | 246 |
-| **Total** | **194** | | | **179** | **3224** |
+| **Total** | **195** | | | **183** | **3290** |
