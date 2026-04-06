@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 209 nodes, 182 exercises, 3220 items
+**Totals:** 18 categories, 209 nodes, 182 exercises, 3243 items
 
 ---
 
@@ -135,7 +135,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Games/Sport (17 exercises, 282 items)
+## Games/Sport (17 exercises, 288 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -154,7 +154,7 @@ node scripts/content-map.mjs
 | Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
 | Soccer | FIFA World Cup Winners | fill-blanks | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
-| Tennis | Tennis Grand Slams | text-entry | 15 |
+| Tennis | Tennis Grand Slams | text-entry | 21 |
 | Track & Field | Olympic Track & Field Legends | text-entry | 20 |
 
 **Empty subcategories (1):** Rules & Terminology
@@ -317,7 +317,7 @@ node scripts/content-map.mjs
 
 ---
 
-## World History (13 exercises, 229 items)
+## World History (13 exercises, 246 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -325,10 +325,10 @@ node scripts/content-map.mjs
 | Ancient Civilizations | Ancient Civilizations | text-entry | 12 |
 | British Monarchs | British Monarchs from Henry VIII Onward | fill-blanks | 23 |
 | British Monarchs | British Monarchs: William I to Henry VII | fill-blanks | 19 |
-| Exploration & Discovery | Exploration & Discovery | text-entry | 15 |
+| Exploration & Discovery | Exploration & Discovery | text-entry | 20 |
 | Historical Empires | Historical Empires | text-entry (cards) | 21 |
-| International Organizations | Major International Organizations | text-entry | 15 |
-| Medieval History | Medieval History: Key Events & Figures | text-entry | 15 |
+| International Organizations | Major International Organizations | text-entry | 22 |
+| Medieval History | Medieval History: Key Events & Figures | text-entry | 20 |
 | Religious History | Religious History Milestones | text-entry | 15 |
 | Revolutions | Major Revolutions | text-entry (cards) | 12 |
 | Wars & Conflicts | Major Wars & Conflicts | text-entry (cards) | 25 |
@@ -351,7 +351,7 @@ node scripts/content-map.mjs
 | Current Events | 3 | 1 | 2 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 15 | 10 | 5 | 10 | 148 |
-| Games/Sport | 17 | 16 | 1 | 17 | 282 |
+| Games/Sport | 17 | 16 | 1 | 17 | 288 |
 | Geography | 14 | 11 | 3 | 17 | 453 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
@@ -360,5 +360,5 @@ node scripts/content-map.mjs
 | Science | 13 | 13 | 0 | 20 | 353 |
 | Television | 16 | 8 | 8 | 8 | 105 |
 | Theatre | 4 | 4 | 0 | 7 | 122 |
-| World History | 17 | 12 | 5 | 13 | 229 |
-| **Total** | **191** | | | **182** | **3220** |
+| World History | 17 | 12 | 5 | 13 | 246 |
+| **Total** | **191** | | | **182** | **3243** |
