@@ -1,6 +1,6 @@
 // === Exercise formats and display types ===
 
-export type ExerciseFormat = 'text-entry' | 'fill-blanks' | 'letter-by-letter' | 'sequence-ordering' | 'classification-sort';
+export type ExerciseFormat = 'text-entry' | 'fill-blanks' | 'letter-by-letter' | 'sequence-ordering' | 'classification-sort' | 'minefield';
 export type DisplayType = 'cards' | 'periodic-table' | 'map' | 'timeline';
 
 // === Core domain types ===
@@ -54,7 +54,14 @@ export interface ClassificationSortConfig {
   timeLimitSeconds?: number;
 }
 
-export type ExerciseConfig = FillBlanksConfig | TextEntryConfig | LetterByLetterConfig | SequenceOrderingConfig | ClassificationSortConfig;
+export interface MinefieldConfig {
+  prompt?: string;
+  maxStrikes?: number;  // default 3
+  timed?: boolean;
+  timeLimitSeconds?: number;
+}
+
+export type ExerciseConfig = FillBlanksConfig | TextEntryConfig | LetterByLetterConfig | SequenceOrderingConfig | ClassificationSortConfig | MinefieldConfig;
 
 export interface Item {
   id: string;
@@ -152,6 +159,12 @@ export interface ClassificationSortValidationError {
   extraItemIds: string[];
   duplicateItemIds: string[];
   invalidCategoryItemIds: string[];
+}
+
+export interface MinefieldItemCheckResult {
+  itemId: string;
+  isValid: boolean;
+  explanation: string;
 }
 
 // === User types ===

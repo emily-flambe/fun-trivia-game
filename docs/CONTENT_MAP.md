@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 191 nodes, 176 exercises, 3109 items
+**Totals:** 18 categories, 198 nodes, 178 exercises, 3169 items
 
 ---
 
@@ -51,14 +51,15 @@ node scripts/content-map.mjs
 
 ---
 
-## Art (2 exercises, 30 items)
+## Art (3 exercises, 45 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Art Movements | Art Movements | text-entry | 12 |
 | Famous Artists | Famous Artists | text-entry | 18 |
+| Museums | Art Museums of the World | text-entry | 15 |
 
-**Empty subcategories (3):** Famous Works, Modern & Contemporary Art, Museums
+**Empty subcategories (3):** Famous Works, Modern & Contemporary Art, Photography & Modern Art
 
 ---
 
@@ -94,6 +95,8 @@ node scripts/content-map.mjs
 |-------------|----------|--------|------:|
 | World Leaders | Current World Leaders (2026) | text-entry | 25 |
 
+**Empty subcategories (2):** International Organizations, TIME Person of the Year
+
 ---
 
 ## Film (10 exercises, 172 items)
@@ -113,17 +116,17 @@ node scripts/content-map.mjs
 
 ---
 
-## Food/Drink (10 exercises, 138 items)
+## Food/Drink (10 exercises, 148 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| Beer & Brewing | Beer Styles & Brewing | text-entry | 14 |
-| Candy, Chocolate & Sweets | Candy, Chocolate & Sweets | text-entry | 12 |
-| Cheese | Cheese Origins | text-entry | 13 |
-| Coffee & Tea | Coffee & Tea | text-entry | 14 |
+| Beer & Brewing | Beer Styles & Brewing | text-entry | 15 |
+| Candy, Chocolate & Sweets | Candy, Chocolate & Sweets | text-entry | 15 |
+| Cheese | Cheese Varieties | text-entry | 15 |
+| Coffee & Tea | Coffee & Tea | text-entry | 16 |
 | Cooking Terms & Techniques | Cooking Terms & Techniques | text-entry | 15 |
 | Famous Chefs & Restaurants | Famous Chefs & Restaurants | text-entry | 12 |
-| Pasta | Pasta Shapes | text-entry | 13 |
+| Pasta | Pasta Shapes | text-entry | 15 |
 | Spirits & Cocktails | Spirits & Cocktails | text-entry | 15 |
 | Wines & Wine Regions | Wines & Wine Regions | text-entry | 15 |
 | World Cuisine | World Cuisine — Signature Dishes | text-entry | 15 |
@@ -149,22 +152,20 @@ node scripts/content-map.mjs
 | Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
 | Soccer | FIFA World Cup Winners | fill-blanks | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
-| Tennis | Tennis Records & Milestones | text-entry | 15 |
+| Tennis | Tennis Grand Slams | text-entry | 15 |
 | Track & Field | Olympic Track & Field Legends | text-entry | 20 |
 
 **Empty subcategories (1):** Rules & Terminology
 
 ---
 
-## Geography (19 exercises, 489 items)
+## Geography (17 exercises, 453 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
 | Cities | Cities by River | text-entry | 15 |
-| Cities | City Nicknames | text-entry | 15 |
-| Countries | Countries of Asia | fill-blanks | 50 |
-| Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
+| Countries | Countries of Asia | fill-blanks | 49 |
 | Demographics | Most Populous Countries | text-entry | 20 |
 | Map Quizzes | Countries of Europe | text-entry (map) | 44 |
 | Map Quizzes | Countries of South America | text-entry (map) | 12 |
@@ -256,11 +257,10 @@ node scripts/content-map.mjs
 
 ---
 
-## Science (21 exercises, 361 items)
+## Science (20 exercises, 353 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| Astronomy | Planets of the Solar System | fill-blanks | 8 |
 | Astronomy | Dwarf Planets | fill-blanks | 5 |
 | Astronomy | Stars & Constellations | text-entry | 15 |
 | Biology | Taxonomic Ranks | fill-blanks | 8 |
@@ -284,48 +284,52 @@ node scripts/content-map.mjs
 
 ---
 
-## Television (8 exercises, 119 items)
+## Television (4 exercises, 54 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Awards & Records | TV Awards & Records | text-entry | 12 |
-| Catchphrases & Quotes | Catchphrases & Quotes | text-entry | 15 |
+| Children's Television | Children's Television | text-entry | 12 |
 | Landmark TV Shows | Landmark TV Shows | text-entry | 15 |
-| Saturday Night Live | Saturday Night Live | text-entry | 15 |
-| Sci-Fi & Fantasy TV | Sci-Fi & Fantasy TV | text-entry | 16 |
-| Spinoffs | Spinoffs | text-entry | 16 |
-| Theme Songs | Theme Songs | text-entry | 15 |
 | TV Show Settings | TV Show Settings | text-entry | 15 |
 
-**Empty subcategories (8):** Awards & Records, Children's Television, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Show Settings
+**Empty subcategories (12):** Awards & Records, Catchphrases & Quotes, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Saturday Night Live, Sci-Fi & Fantasy, Show Settings, Spinoffs, Theme Songs
 
 ---
 
-## Theatre (4 exercises, 67 items)
+## Theatre (7 exercises, 122 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
+| Awards | Tony Award Best Play Winners | text-entry | 15 |
 | Musical Theatre | Landmark Musicals | text-entry | 16 |
 | Musical Theatre | Musical Theatre Composers and Lyricists | text-entry | 17 |
 | Musical Theatre | Tony Best Musical Winners | text-entry | 17 |
-| Plays | Famous Plays and Playwrights | text-entry | 17 |
+| Plays | Famous Plays and Playwrights | text-entry | 27 |
+| Plays | Landmark Broadway Plays | text-entry | 15 |
+| Shakespeare | Shakespeare Characters | text-entry | 15 |
 
 ---
 
-## World History (8 exercises, 150 items)
+## World History (13 exercises, 229 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | 20th Century Events | 20th Century World Events | text-entry (cards) | 26 |
 | Ancient Civilizations | Ancient Civilizations | text-entry | 12 |
 | British Monarchs | British Monarchs from Henry VIII Onward | fill-blanks | 23 |
+| British Monarchs | British Monarchs: William I to Henry VII | fill-blanks | 19 |
+| Exploration & Discovery | Exploration & Discovery | text-entry | 15 |
 | Historical Empires | Historical Empires | text-entry (cards) | 21 |
+| International Organizations | Major International Organizations | text-entry | 15 |
+| Medieval History | Medieval History: Key Events & Figures | text-entry | 15 |
+| Religious History | Religious History Milestones | text-entry | 15 |
 | Revolutions | Major Revolutions | text-entry (cards) | 12 |
 | Wars & Conflicts | Major Wars & Conflicts | text-entry (cards) | 25 |
 | Famous Quotes | Who Said This Quote? | text-entry (cards) | 24 |
 | Timelines | Major 20th-Century Events (Ordering) | sequence-ordering | 7 |
 
-**Empty subcategories (4):** Exploration & Discovery, International Organizations, Medieval History, Religious History
+**Empty subcategories (2):** Medieval History, Treaties & Agreements
 
 ---
 
@@ -335,20 +339,20 @@ node scripts/content-map.mjs
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
 | American History | 11 | 9 | 2 | 11 | 255 |
 | Language | 8 | 5 | 3 | 10 | 160 |
-| Art | 5 | 2 | 3 | 2 | 30 |
+| Art | 6 | 3 | 3 | 3 | 45 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
 | Classical Music | 4 | 4 | 0 | 4 | 61 |
-| Current Events | 1 | 1 | 0 | 1 | 25 |
+| Current Events | 3 | 1 | 2 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
-| Food/Drink | 10 | 10 | 0 | 10 | 138 |
+| Food/Drink | 10 | 10 | 0 | 10 | 148 |
 | Games/Sport | 17 | 16 | 1 | 17 | 282 |
-| Geography | 14 | 11 | 3 | 19 | 489 |
+| Geography | 14 | 11 | 3 | 17 | 453 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
-| Science | 13 | 13 | 0 | 21 | 361 |
-| Television | 16 | 8 | 8 | 8 | 119 |
-| Theatre | 2 | 2 | 0 | 4 | 67 |
-| World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **173** | | | **176** | **3109** |
+| Science | 13 | 13 | 0 | 20 | 353 |
+| Television | 16 | 4 | 12 | 4 | 54 |
+| Theatre | 4 | 4 | 0 | 7 | 122 |
+| World History | 14 | 12 | 2 | 13 | 229 |
+| **Total** | **180** | | | **178** | **3169** |
