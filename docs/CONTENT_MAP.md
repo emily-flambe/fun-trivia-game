@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 197 nodes, 184 exercises, 3225 items
+**Totals:** 18 categories, 198 nodes, 178 exercises, 3169 items
 
 ---
 
@@ -159,12 +159,13 @@ node scripts/content-map.mjs
 
 ---
 
-## Geography (16 exercises, 404 items)
+## Geography (17 exercises, 453 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
 | Cities | Cities by River | text-entry | 15 |
+| Countries | Countries of Asia | fill-blanks | 49 |
 | Demographics | Most Populous Countries | text-entry | 20 |
 | Map Quizzes | Countries of Europe | text-entry (map) | 44 |
 | Map Quizzes | Countries of South America | text-entry (map) | 12 |
@@ -180,7 +181,7 @@ node scripts/content-map.mjs
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
 
-**Empty subcategories (4):** Countries, Populations, U.S. National Parks, U.S. National Parks
+**Empty subcategories (3):** Populations, U.S. National Parks, U.S. National Parks
 
 ---
 
@@ -256,11 +257,10 @@ node scripts/content-map.mjs
 
 ---
 
-## Science (21 exercises, 361 items)
+## Science (20 exercises, 353 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| Astronomy | Planets of the Solar System | fill-blanks | 8 |
 | Astronomy | Dwarf Planets | fill-blanks | 5 |
 | Astronomy | Stars & Constellations | text-entry | 15 |
 | Biology | Taxonomic Ranks | fill-blanks | 8 |
@@ -284,22 +284,16 @@ node scripts/content-map.mjs
 
 ---
 
-## Television (10 exercises, 151 items)
+## Television (4 exercises, 54 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Awards & Records | TV Awards & Records | text-entry | 12 |
-| Catchphrases & Quotes | Catchphrases & Quotes | text-entry | 15 |
 | Children's Television | Children's Television | text-entry | 12 |
-| Emmy Awards | Emmy Award Winners | text-entry | 20 |
 | Landmark TV Shows | Landmark TV Shows | text-entry | 15 |
-| Saturday Night Live | Saturday Night Live | text-entry | 15 |
-| Sci-Fi & Fantasy TV | Sci-Fi & Fantasy TV | text-entry | 16 |
-| Spinoffs | Spinoffs | text-entry | 16 |
-| Theme Songs | Theme Songs | text-entry | 15 |
 | TV Show Settings | TV Show Settings | text-entry | 15 |
 
-**Empty subcategories (6):** Awards & Records, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Show Settings
+**Empty subcategories (12):** Awards & Records, Catchphrases & Quotes, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Saturday Night Live, Sci-Fi & Fantasy, Show Settings, Spinoffs, Theme Songs
 
 ---
 
@@ -335,7 +329,7 @@ node scripts/content-map.mjs
 | Famous Quotes | Who Said This Quote? | text-entry (cards) | 24 |
 | Timelines | Major 20th-Century Events (Ordering) | sequence-ordering | 7 |
 
-**Empty subcategories (1):** Medieval History
+**Empty subcategories (2):** Medieval History, Treaties & Agreements
 
 ---
 
@@ -352,13 +346,13 @@ node scripts/content-map.mjs
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 10 | 0 | 10 | 148 |
 | Games/Sport | 17 | 16 | 1 | 17 | 282 |
-| Geography | 14 | 10 | 4 | 16 | 404 |
+| Geography | 14 | 11 | 3 | 17 | 453 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
-| Science | 13 | 13 | 0 | 21 | 361 |
-| Television | 16 | 10 | 6 | 10 | 151 |
+| Science | 13 | 13 | 0 | 20 | 353 |
+| Television | 16 | 4 | 12 | 4 | 54 |
 | Theatre | 4 | 4 | 0 | 7 | 122 |
-| World History | 13 | 12 | 1 | 13 | 229 |
-| **Total** | **179** | | | **184** | **3225** |
+| World History | 14 | 12 | 2 | 13 | 229 |
+| **Total** | **180** | | | **178** | **3169** |
