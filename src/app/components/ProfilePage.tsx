@@ -317,6 +317,8 @@ function ActivityTab() {
 							? 'Sequence Ordering'
 						: r.format === 'letter-by-letter'
 							? 'Letter by Letter'
+						: r.format === 'classification-sort'
+							? 'Classification Sort'
 							: 'Text Entry';
 				const isExpanded = expandedId === r.id;
 				const detail = detailCache[r.id] ?? null;
