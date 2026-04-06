@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 190 nodes, 169 exercises, 2938 items
+**Totals:** 18 categories, 191 nodes, 175 exercises, 3092 items
 
 ---
 
@@ -77,13 +77,14 @@ node scripts/content-map.mjs
 
 ---
 
-## Classical Music (1 exercise, 15 items)
+## Classical Music (4 exercises, 61 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
+| Famous Works | Famous Classical Works — Composer Matching | text-entry | 19 |
 | Great Composers | Great Composers | text-entry | 15 |
-
-**Empty subcategories (3):** Famous Works, Musical Terms, Opera
+| Musical Terms | Musical Terms & Notation | text-entry | 12 |
+| Opera | Opera Essentials | text-entry | 15 |
 
 ---
 
@@ -112,11 +113,12 @@ node scripts/content-map.mjs
 
 ---
 
-## Food/Drink (9 exercises, 126 items)
+## Food/Drink (10 exercises, 138 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Beer & Brewing | Beer Styles & Brewing | text-entry | 14 |
+| Candy, Chocolate & Sweets | Candy, Chocolate & Sweets | text-entry | 12 |
 | Cheese | Cheese Origins | text-entry | 13 |
 | Coffee & Tea | Coffee & Tea | text-entry | 14 |
 | Cooking Terms & Techniques | Cooking Terms & Techniques | text-entry | 15 |
@@ -126,11 +128,9 @@ node scripts/content-map.mjs
 | Wines & Wine Regions | Wines & Wine Regions | text-entry | 15 |
 | World Cuisine | World Cuisine — Signature Dishes | text-entry | 15 |
 
-**Empty subcategories (1):** Candy, Chocolate & Sweets
-
 ---
 
-## Games/Sport (17 exercises, 285 items)
+## Games/Sport (17 exercises, 280 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -140,7 +140,7 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
-| Football | Super Bowl Winners | text-entry | 20 |
+| Football | Super Bowl MVPs | text-entry | 20 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
@@ -149,25 +149,27 @@ node scripts/content-map.mjs
 | Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
 | Soccer | Soccer Legends | text-entry | 20 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
-| Tennis | Grand Slam Tennis | text-entry | 20 |
+| Tennis | Tennis Records & Milestones | text-entry | 15 |
 | Track & Field | Olympic Track & Field Legends | text-entry | 20 |
 
 **Empty subcategories (1):** Rules & Terminology
 
 ---
 
-## Geography (16 exercises, 373 items)
+## Geography (18 exercises, 474 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
-| Cities | Cities by River | text-entry | 15 |
 | Cities | City Nicknames | text-entry | 15 |
 | Countries | Countries of Asia | fill-blanks | 50 |
 | Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
 | Demographics | Most Populous Countries | text-entry | 20 |
 | Map Quizzes | Countries of Europe | text-entry (map) | 44 |
-| Map Quizzes | Countries of South America | text-entry (map) | 0 |
+| Map Quizzes | Countries of South America | text-entry (map) | 12 |
+| Map Quizzes | Countries of Africa | text-entry (map) | 48 |
+| Map Quizzes | Countries of Asia | text-entry (map) | 40 |
+| Map Quizzes | Countries of North America | text-entry (map) | 16 |
 | National Parks | U.S. National Parks | text-entry | 15 |
 | Physical Geography | Major World Rivers | text-entry (cards) | 20 |
 | Physical Geography | Mountain Ranges & Peaks | text-entry (cards) | 15 |
@@ -177,7 +179,7 @@ node scripts/content-map.mjs
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
 
-**Empty subcategories (2):** Populations, U.S. National Parks
+**Empty subcategories (3):** Populations, U.S. National Parks, U.S. National Parks
 
 ---
 
@@ -334,12 +336,12 @@ node scripts/content-map.mjs
 | Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 5 | 2 | 3 | 2 | 30 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
-| Classical Music | 4 | 1 | 3 | 1 | 15 |
+| Classical Music | 4 | 4 | 0 | 4 | 61 |
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
-| Food/Drink | 10 | 9 | 1 | 9 | 126 |
-| Games/Sport | 17 | 16 | 1 | 17 | 285 |
-| Geography | 13 | 11 | 2 | 16 | 373 |
+| Food/Drink | 10 | 10 | 0 | 10 | 138 |
+| Games/Sport | 17 | 16 | 1 | 17 | 280 |
+| Geography | 14 | 11 | 3 | 18 | 474 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
@@ -348,8 +350,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **172** | | | **169** | **2938** |
-
-## Exercises with 0 Items
-
-- `geography/maps/south-america` — Countries of South America (text-entry)
+| **Total** | **173** | | | **175** | **3092** |
