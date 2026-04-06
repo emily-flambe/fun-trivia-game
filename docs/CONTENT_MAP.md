@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 198 nodes, 178 exercises, 3169 items
+**Totals:** 18 categories, 209 nodes, 182 exercises, 3220 items
 
 ---
 
@@ -59,7 +59,7 @@ node scripts/content-map.mjs
 | Famous Artists | Famous Artists | text-entry | 18 |
 | Museums | Art Museums of the World | text-entry | 15 |
 
-**Empty subcategories (3):** Famous Works, Modern & Contemporary Art, Photography & Modern Art
+**Empty subcategories (6):** Art Techniques, Famous Works, Modern & Contemporary Art, Modern & Contemporary Art, Photography, Photography & Modern Art
 
 ---
 
@@ -130,6 +130,8 @@ node scripts/content-map.mjs
 | Spirits & Cocktails | Spirits & Cocktails | text-entry | 15 |
 | Wines & Wine Regions | Wines & Wine Regions | text-entry | 15 |
 | World Cuisine | World Cuisine — Signature Dishes | text-entry | 15 |
+
+**Empty subcategories (5):** Bread of the World, Food History, Fruits & Vegetables, Sauces & Condiments, Spices & Seasonings
 
 ---
 
@@ -284,16 +286,20 @@ node scripts/content-map.mjs
 
 ---
 
-## Television (4 exercises, 54 items)
+## Television (8 exercises, 105 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Awards & Records | TV Awards & Records | text-entry | 12 |
+| Catchphrases & Quotes | TV Catchphrases & Quotes | text-entry | 15 |
 | Children's Television | Children's Television | text-entry | 12 |
 | Landmark TV Shows | Landmark TV Shows | text-entry | 15 |
+| Sci-Fi & Fantasy | Sci-Fi & Fantasy TV | text-entry | 12 |
+| Spinoffs | TV Spinoffs | text-entry | 12 |
+| Theme Songs | TV Theme Songs | text-entry | 12 |
 | TV Show Settings | TV Show Settings | text-entry | 15 |
 
-**Empty subcategories (12):** Awards & Records, Catchphrases & Quotes, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Saturday Night Live, Sci-Fi & Fantasy, Show Settings, Spinoffs, Theme Songs
+**Empty subcategories (8):** Awards & Records, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Saturday Night Live, Show Settings
 
 ---
 
@@ -329,7 +335,7 @@ node scripts/content-map.mjs
 | Famous Quotes | Who Said This Quote? | text-entry (cards) | 24 |
 | Timelines | Major 20th-Century Events (Ordering) | sequence-ordering | 7 |
 
-**Empty subcategories (2):** Medieval History, Treaties & Agreements
+**Empty subcategories (5):** Cold War, Dynasties & Royal Houses, Famous Battles, Medieval History, Treaties & Agreements
 
 ---
 
@@ -339,12 +345,12 @@ node scripts/content-map.mjs
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
 | American History | 11 | 9 | 2 | 11 | 255 |
 | Language | 8 | 5 | 3 | 10 | 160 |
-| Art | 6 | 3 | 3 | 3 | 45 |
+| Art | 9 | 3 | 6 | 3 | 45 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
 | Classical Music | 4 | 4 | 0 | 4 | 61 |
 | Current Events | 3 | 1 | 2 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
-| Food/Drink | 10 | 10 | 0 | 10 | 148 |
+| Food/Drink | 15 | 10 | 5 | 10 | 148 |
 | Games/Sport | 17 | 16 | 1 | 17 | 282 |
 | Geography | 14 | 11 | 3 | 17 | 453 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
@@ -352,7 +358,7 @@ node scripts/content-map.mjs
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
 | Science | 13 | 13 | 0 | 20 | 353 |
-| Television | 16 | 4 | 12 | 4 | 54 |
+| Television | 16 | 8 | 8 | 8 | 105 |
 | Theatre | 4 | 4 | 0 | 7 | 122 |
-| World History | 14 | 12 | 2 | 13 | 229 |
-| **Total** | **180** | | | **178** | **3169** |
+| World History | 17 | 12 | 5 | 13 | 229 |
+| **Total** | **191** | | | **182** | **3220** |
