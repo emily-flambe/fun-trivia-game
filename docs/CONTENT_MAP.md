@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 191 nodes, 173 exercises, 3061 items
+**Totals:** 18 categories, 191 nodes, 175 exercises, 3094 items
 
 ---
 
@@ -77,13 +77,14 @@ node scripts/content-map.mjs
 
 ---
 
-## Classical Music (1 exercise, 15 items)
+## Classical Music (4 exercises, 61 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
+| Famous Works | Famous Classical Works — Composer Matching | text-entry | 19 |
 | Great Composers | Great Composers | text-entry | 15 |
-
-**Empty subcategories (3):** Famous Works, Musical Terms, Opera
+| Musical Terms | Musical Terms & Notation | text-entry | 12 |
+| Opera | Opera Essentials | text-entry | 15 |
 
 ---
 
@@ -129,7 +130,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Games/Sport (17 exercises, 280 items)
+## Games/Sport (17 exercises, 282 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -146,7 +147,7 @@ node scripts/content-map.mjs
 | Motorsport | Formula 1 World Champions | text-entry | 20 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
 | Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
-| Soccer | Soccer Legends | text-entry | 20 |
+| Soccer | FIFA World Cup Winners | fill-blanks | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
 | Tennis | Tennis Records & Milestones | text-entry | 15 |
 | Track & Field | Olympic Track & Field Legends | text-entry | 20 |
@@ -155,7 +156,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Geography (19 exercises, 489 items)
+## Geography (18 exercises, 474 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -174,12 +175,11 @@ node scripts/content-map.mjs
 | Physical Geography | Mountain Ranges & Peaks | text-entry (cards) | 15 |
 | Physical Geography | Oceans & Major Seas | text-entry (cards) | 15 |
 | Political Geography | Former Country Names | text-entry | 15 |
-| U.S. National Parks | U.S. National Parks | text-entry | 15 |
 | U.S. States | U.S. State Nicknames | fill-blanks | 50 |
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
 
-**Empty subcategories (2):** Populations, U.S. National Parks
+**Empty subcategories (3):** Populations, U.S. National Parks, U.S. National Parks
 
 ---
 
@@ -336,12 +336,12 @@ node scripts/content-map.mjs
 | Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 5 | 2 | 3 | 2 | 30 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
-| Classical Music | 4 | 1 | 3 | 1 | 15 |
+| Classical Music | 4 | 4 | 0 | 4 | 61 |
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 10 | 0 | 10 | 138 |
-| Games/Sport | 17 | 16 | 1 | 17 | 280 |
-| Geography | 14 | 12 | 2 | 19 | 489 |
+| Games/Sport | 17 | 16 | 1 | 17 | 282 |
+| Geography | 14 | 11 | 3 | 18 | 474 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
@@ -350,4 +350,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **173** | | | **173** | **3061** |
+| **Total** | **173** | | | **175** | **3094** |
