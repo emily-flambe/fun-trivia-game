@@ -8,27 +8,25 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 191 nodes, 173 exercises, 3061 items
+**Totals:** 18 categories, 187 nodes, 161 exercises, 2749 items
 
 ---
 
-## American History (11 exercises, 255 items)
+## American History (9 exercises, 225 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Constitutional Amendments | All 27 Constitutional Amendments | text-entry (cards) | 27 |
 | Founding Documents | Declaration of Independence Signers | text-entry | 14 |
 | Landmarks & Monuments | Historic Landmarks & Monuments | text-entry | 15 |
-| Native American History | Native American History | text-entry | 15 |
 | U.S. Presidents | All U.S. Presidents | fill-blanks | 47 |
-| U.S. Presidents | Presidential Firsts & Records | text-entry | 15 |
 | U.S. Presidents | Presidents Grid Match | grid-match | 24 |
 | U.S. States | U.S. State Capitals | fill-blanks | 50 |
 | Vice Presidents | Notable Vice Presidents | text-entry | 21 |
 | Major U.S. Wars | Major U.S. Wars | text-entry (cards) | 12 |
 | Supreme Court | Landmark Supreme Court Cases | text-entry (cards) | 15 |
 
-**Empty subcategories (2):** Declaration of Independence, Presidential Records
+**Empty subcategories (3):** Declaration of Independence, Native American History, Presidential Records
 
 ---
 
@@ -112,12 +110,11 @@ node scripts/content-map.mjs
 
 ---
 
-## Food/Drink (10 exercises, 138 items)
+## Food/Drink (9 exercises, 126 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Beer & Brewing | Beer Styles & Brewing | text-entry | 14 |
-| Candy, Chocolate & Sweets | Candy, Chocolate & Sweets | text-entry | 12 |
 | Cheese | Cheese Origins | text-entry | 13 |
 | Coffee & Tea | Coffee & Tea | text-entry | 14 |
 | Cooking Terms & Techniques | Cooking Terms & Techniques | text-entry | 15 |
@@ -127,9 +124,11 @@ node scripts/content-map.mjs
 | Wines & Wine Regions | Wines & Wine Regions | text-entry | 15 |
 | World Cuisine | World Cuisine — Signature Dishes | text-entry | 15 |
 
+**Empty subcategories (1):** Candy, Chocolate & Sweets
+
 ---
 
-## Games/Sport (17 exercises, 280 items)
+## Games/Sport (14 exercises, 232 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -139,42 +138,33 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
-| Football | Super Bowl MVPs | text-entry | 20 |
+| Football | Super Bowl Winners | text-entry | 20 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
-| Motorsport | Formula 1 World Champions | text-entry | 20 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
-| Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
-| Soccer | Soccer Legends | text-entry | 20 |
+| Soccer/Football | FIFA World Cup Winners | text-entry | 22 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
-| Tennis | Tennis Records & Milestones | text-entry | 15 |
-| Track & Field | Olympic Track & Field Legends | text-entry | 20 |
+| Tennis | Grand Slam Tennis | text-entry | 20 |
 
-**Empty subcategories (1):** Rules & Terminology
+**Empty subcategories (2):** Rules & Terminology, Rules & Terminology
 
 ---
 
-## Geography (19 exercises, 489 items)
+## Geography (13 exercises, 279 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
+| Cities | Cities by River | text-entry | 15 |
 | Cities | City Nicknames | text-entry | 15 |
-| Countries | Countries of Asia | fill-blanks | 50 |
 | Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
 | Demographics | Most Populous Countries | text-entry | 20 |
-| Map Quizzes | Countries of Europe | text-entry (map) | 44 |
-| Map Quizzes | Countries of South America | text-entry (map) | 12 |
-| Map Quizzes | Countries of Africa | text-entry (map) | 48 |
-| Map Quizzes | Countries of Asia | text-entry (map) | 40 |
-| Map Quizzes | Countries of North America | text-entry (map) | 16 |
 | National Parks | U.S. National Parks | text-entry | 15 |
 | Physical Geography | Major World Rivers | text-entry (cards) | 20 |
 | Physical Geography | Mountain Ranges & Peaks | text-entry (cards) | 15 |
 | Physical Geography | Oceans & Major Seas | text-entry (cards) | 15 |
 | Political Geography | Former Country Names | text-entry | 15 |
-| U.S. National Parks | U.S. National Parks | text-entry | 15 |
 | U.S. States | U.S. State Nicknames | fill-blanks | 50 |
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
@@ -183,7 +173,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Lifestyle (7 exercises, 110 items)
+## Lifestyle (7 exercises, 98 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -193,7 +183,7 @@ node scripts/content-map.mjs
 | Games & Recreation | Board Games & Card Games | text-entry (cards) | 12 |
 | Philosophy | Major Philosophers | text-entry | 15 |
 | Religion | World Religions | text-entry (cards) | 12 |
-| Zodiac Signs | Zodiac Signs (Western & Chinese) | text-entry | 24 |
+| Zodiac Signs | Zodiac Signs (Western & Chinese) | text-entry | 12 |
 
 **Empty subcategories (4):** Board Games & Card Games, Traditions & Customs, Universities, World Religions
 
@@ -332,17 +322,17 @@ node scripts/content-map.mjs
 
 | Category | Subcategories | With exercises | Empty | Exercises | Items |
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
-| American History | 11 | 9 | 2 | 11 | 255 |
+| American History | 11 | 8 | 3 | 9 | 225 |
 | Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 5 | 2 | 3 | 2 | 30 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
 | Classical Music | 4 | 1 | 3 | 1 | 15 |
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
-| Food/Drink | 10 | 10 | 0 | 10 | 138 |
-| Games/Sport | 17 | 16 | 1 | 17 | 280 |
-| Geography | 14 | 12 | 2 | 19 | 489 |
-| Lifestyle | 11 | 7 | 4 | 7 | 110 |
+| Food/Drink | 10 | 9 | 1 | 9 | 126 |
+| Games/Sport | 15 | 13 | 2 | 14 | 232 |
+| Geography | 12 | 10 | 2 | 13 | 279 |
+| Lifestyle | 11 | 7 | 4 | 7 | 98 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
@@ -350,4 +340,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **173** | | | **173** | **3061** |
+| **Total** | **169** | | | **161** | **2749** |
