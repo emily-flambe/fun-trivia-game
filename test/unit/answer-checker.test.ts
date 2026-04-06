@@ -880,6 +880,69 @@ describe('checkSequenceOrdering', () => {
 		expect(result.extraItemIds).toContain('xyz');
 		expect(result.missingItemIds).toContain('moon');
 	});
+
+	it('returns validation error for empty order', () => {
+		const result = checkSequenceOrdering(timelineItems, []);
+		expect(result.valid).toBe(false);
+		if (result.valid) return;
+		expect(result.missingItemIds).toEqual(['ww1', 'ww2', 'moon']);
+	});
+
+	it('handles single item trivially correct', () => {
+		const single: Item[] = [
+			{ id: 'solo', exerciseId: 'test', answer: 'Solo', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+		];
+		const result = checkSequenceOrdering(single, ['solo']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(1);
+		expect(result.total).toBe(1);
+	});
+
+	it('handles completely reversed order', () => {
+		const result = checkSequenceOrdering(timelineItems, ['moon', 'ww2', 'ww1']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(1); // ww2 stays in position 2
+		expect(result.placements.find((p) => p.itemId === 'ww2')?.correct).toBe(true);
+	});
+
+	it('handles two items with one swap', () => {
+		const pair: Item[] = [
+			{ id: 'a', exerciseId: 'test', answer: 'A', alternates: [], explanation: '', data: {}, sortOrder: 0 },
+			{ id: 'b', exerciseId: 'test', answer: 'B', alternates: [], explanation: '', data: {}, sortOrder: 1 },
+		];
+		const result = checkSequenceOrdering(pair, ['b', 'a']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(false);
+		expect(result.correctCount).toBe(0);
+	});
+
+	it('uses sortOrder not array index to determine correct order', () => {
+		const gapped: Item[] = [
+			{ id: 'x', exerciseId: 'test', answer: 'X', alternates: [], explanation: '', data: {}, sortOrder: 10 },
+			{ id: 'y', exerciseId: 'test', answer: 'Y', alternates: [], explanation: '', data: {}, sortOrder: 20 },
+			{ id: 'z', exerciseId: 'test', answer: 'Z', alternates: [], explanation: '', data: {}, sortOrder: 30 },
+		];
+		const result = checkSequenceOrdering(gapped, ['x', 'y', 'z']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		expect(result.correct).toBe(true);
+		expect(result.correctCount).toBe(3);
+	});
+
+	it('reports correct expectedPosition (1-indexed) in placements', () => {
+		const result = checkSequenceOrdering(timelineItems, ['moon', 'ww1', 'ww2']);
+		expect(result.valid).toBe(true);
+		if (!result.valid) return;
+		const ww1 = result.placements.find((p) => p.itemId === 'ww1');
+		expect(ww1?.expectedPosition).toBe(1);
+		expect(ww1?.userPosition).toBe(2);
+		expect(ww1?.correct).toBe(false);
+	});
 });
 
 describe('checkClassificationSort', () => {

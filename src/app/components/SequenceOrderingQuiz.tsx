@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
 	checkAnswer,
 	submitQuizResult,
@@ -58,6 +58,59 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 	const [secondsLeft, setSecondsLeft] = useState<number | null>(null);
 	const timerDoneRef = useRef(false);
 
+	// Touch drag-and-drop state
+	const listRef = useRef<HTMLDivElement>(null);
+	const touchDragRef = useRef<{ startIdx: number; currentIdx: number; startY: number } | null>(null);
+	const [touchDragIdx, setTouchDragIdx] = useState<number | null>(null);
+	const [touchOverIdx, setTouchOverIdx] = useState<number | null>(null);
+
+	const getItemIndexAtY = useCallback((clientY: number): number | null => {
+		const container = listRef.current;
+		if (!container) return null;
+		const children = Array.from(container.children) as HTMLElement[];
+		for (let i = 0; i < children.length; i++) {
+			const rect = children[i].getBoundingClientRect();
+			if (clientY >= rect.top && clientY <= rect.bottom) return i;
+		}
+		// If above/below all items, clamp to first/last
+		if (children.length > 0) {
+			const firstRect = children[0].getBoundingClientRect();
+			if (clientY < firstRect.top) return 0;
+			const lastRect = children[children.length - 1].getBoundingClientRect();
+			if (clientY > lastRect.bottom) return children.length - 1;
+		}
+		return null;
+	}, []);
+
+	function handleTouchStart(idx: number, e: React.TouchEvent) {
+		if (result || checking) return;
+		const touch = e.touches[0];
+		touchDragRef.current = { startIdx: idx, currentIdx: idx, startY: touch.clientY };
+		setTouchDragIdx(idx);
+		setTouchOverIdx(idx);
+	}
+
+	function handleTouchMove(e: React.TouchEvent) {
+		if (!touchDragRef.current || result) return;
+		e.preventDefault(); // prevent scroll while dragging
+		const touch = e.touches[0];
+		const overIdx = getItemIndexAtY(touch.clientY);
+		if (overIdx !== null) {
+			touchDragRef.current.currentIdx = overIdx;
+			setTouchOverIdx(overIdx);
+		}
+	}
+
+	function handleTouchEnd() {
+		const drag = touchDragRef.current;
+		if (drag && drag.startIdx !== drag.currentIdx && !result) {
+			moveItem(drag.startIdx, drag.currentIdx);
+		}
+		touchDragRef.current = null;
+		setTouchDragIdx(null);
+		setTouchOverIdx(null);
+	}
+
 	const byId = useMemo(() => new Map(items.map((item) => [item.id, item])), [items]);
 	const prompt = exercise.config?.prompt || 'Arrange these items in the correct order.';
 	const timeLimit = typeof exercise.config?.timeLimitSeconds === 'number' && exercise.config.timeLimitSeconds > 0
@@ -70,6 +123,9 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 		setChecking(false);
 		setResult(null);
 		setDragItemId(null);
+		touchDragRef.current = null;
+		setTouchDragIdx(null);
+		setTouchOverIdx(null);
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
 		setLastResultId(null);
@@ -156,6 +212,9 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 		setResult(null);
 		setChecking(false);
 		setDragItemId(null);
+		touchDragRef.current = null;
+		setTouchDragIdx(null);
+		setTouchOverIdx(null);
 		startTimeRef.current = Date.now();
 		submittedRef.current = false;
 		timerDoneRef.current = false;
@@ -184,10 +243,12 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 					)}
 				</div>
 
-				<div className="space-y-2 mb-5">
+				<div ref={listRef} className="space-y-2 mb-5">
 					{order.map((itemId, idx) => {
 						const item = byId.get(itemId);
 						const label = item ? getSequenceLabel(item) : itemId;
+						const isTouchDragged = touchDragIdx === idx;
+						const isTouchOver = touchOverIdx === idx && touchDragIdx !== null && touchDragIdx !== idx;
 						return (
 							<div
 								key={itemId}
@@ -201,7 +262,17 @@ export function SequenceOrderingQuiz({ exercise, items, exercisePath, nextExerci
 									moveItem(fromIdx, idx);
 									setDragItemId(null);
 								}}
-								className="rounded-xl border border-border-subtle bg-surface-bright px-3 py-2 flex items-center gap-2"
+								onTouchStart={(e) => handleTouchStart(idx, e)}
+								onTouchMove={handleTouchMove}
+								onTouchEnd={handleTouchEnd}
+								style={!result ? { touchAction: 'none' } : undefined}
+								className={`rounded-xl border px-3 py-2 flex items-center gap-2 transition-all duration-150 ${
+									isTouchDragged
+										? 'border-accent bg-surface-hover opacity-80 scale-[1.02] shadow-lg z-10 relative'
+										: isTouchOver
+											? 'border-accent/50 bg-surface-raised'
+											: 'border-border-subtle bg-surface-bright'
+								}`}
 							>
 								<div
 									tabIndex={result ? -1 : 0}
