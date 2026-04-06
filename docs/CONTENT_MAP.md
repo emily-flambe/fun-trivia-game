@@ -8,11 +8,11 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 190 nodes, 163 exercises, 2804 items
+**Totals:** 18 categories, 191 nodes, 168 exercises, 2979 items
 
 ---
 
-## American History (10 exercises, 240 items)
+## American History (11 exercises, 255 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -21,6 +21,7 @@ node scripts/content-map.mjs
 | Landmarks & Monuments | Historic Landmarks & Monuments | text-entry | 15 |
 | Native American History | Native American History | text-entry | 15 |
 | U.S. Presidents | All U.S. Presidents | fill-blanks | 47 |
+| U.S. Presidents | Presidential Firsts & Records | text-entry | 15 |
 | U.S. Presidents | Presidents Grid Match | grid-match | 24 |
 | U.S. States | U.S. State Capitals | fill-blanks | 50 |
 | Vice Presidents | Notable Vice Presidents | text-entry | 21 |
@@ -129,7 +130,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Games/Sport (13 exercises, 210 items)
+## Games/Sport (14 exercises, 230 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -139,39 +140,43 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
-| Football | Super Bowl Winners | text-entry | 20 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
+| Motorsport | Formula 1 World Champions | text-entry | 20 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
+| Soccer | Soccer Legends | text-entry | 20 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
-| Tennis | Grand Slam Tennis | text-entry | 20 |
+| Track & Field | Olympic Track & Field Legends | text-entry | 20 |
 
-**Empty subcategories (5):** Motorsport, Rules & Terminology, Rules & Terminology, Soccer, Track & Field
+**Empty subcategories (4):** Football, Rules & Terminology, Rules & Terminology, Tennis
 
 ---
 
-## Geography (15 exercises, 329 items)
+## Geography (18 exercises, 469 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
-| Cities | Cities by River | text-entry | 15 |
 | Cities | City Nicknames | text-entry | 15 |
 | Countries | Countries of Asia | fill-blanks | 50 |
 | Countries | Countries of Central America & Caribbean | fill-blanks | 20 |
-| Demographics | Most Populous Countries | text-entry | 20 |
-| Map Quizzes | Countries of Europe | text-entry (map) | 0 |
+| Map Quizzes | Countries of Europe | text-entry (map) | 44 |
+| Map Quizzes | Countries of South America | text-entry (map) | 12 |
+| Map Quizzes | Countries of Africa | text-entry (map) | 48 |
+| Map Quizzes | Countries of Asia | text-entry (map) | 40 |
+| Map Quizzes | Countries of North America | text-entry (map) | 16 |
 | National Parks | U.S. National Parks | text-entry | 15 |
 | Physical Geography | Major World Rivers | text-entry (cards) | 20 |
 | Physical Geography | Mountain Ranges & Peaks | text-entry (cards) | 15 |
 | Physical Geography | Oceans & Major Seas | text-entry (cards) | 15 |
 | Political Geography | Former Country Names | text-entry | 15 |
+| U.S. National Parks | U.S. National Parks | text-entry | 15 |
 | U.S. States | U.S. State Nicknames | fill-blanks | 50 |
 | World Capitals | World Capitals — Major Countries | text-entry | 40 |
 | World Flags | World Flags: Notable Features | text-entry (cards) | 19 |
 
-**Empty subcategories (2):** Populations, U.S. National Parks
+**Empty subcategories (3):** Demographics, Populations, U.S. National Parks
 
 ---
 
@@ -324,7 +329,7 @@ node scripts/content-map.mjs
 
 | Category | Subcategories | With exercises | Empty | Exercises | Items |
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
-| American History | 11 | 9 | 2 | 10 | 240 |
+| American History | 11 | 9 | 2 | 11 | 255 |
 | Language | 8 | 5 | 3 | 10 | 160 |
 | Art | 5 | 2 | 3 | 2 | 30 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
@@ -332,8 +337,8 @@ node scripts/content-map.mjs
 | Current Events | 1 | 1 | 0 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 10 | 9 | 1 | 9 | 126 |
-| Games/Sport | 17 | 12 | 5 | 13 | 210 |
-| Geography | 13 | 11 | 2 | 15 | 329 |
+| Games/Sport | 17 | 13 | 4 | 14 | 230 |
+| Geography | 14 | 11 | 3 | 18 | 469 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
@@ -342,8 +347,4 @@ node scripts/content-map.mjs
 | Television | 16 | 8 | 8 | 8 | 119 |
 | Theatre | 2 | 2 | 0 | 4 | 67 |
 | World History | 12 | 8 | 4 | 8 | 150 |
-| **Total** | **172** | | | **163** | **2804** |
-
-## Exercises with 0 Items
-
-- `geography/maps/europe` — Countries of Europe (text-entry)
+| **Total** | **173** | | | **168** | **2979** |
