@@ -8,27 +8,34 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 18 categories, 209 nodes, 182 exercises, 3243 items
+**Totals:** 19 categories, 213 nodes, 185 exercises, 3292 items
 
 ---
 
-## American History (11 exercises, 255 items)
+## American History (11 exercises, 268 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Constitutional Amendments | All 27 Constitutional Amendments | text-entry (cards) | 27 |
 | Founding Documents | Declaration of Independence Signers | text-entry | 14 |
 | Landmarks & Monuments | Historic Landmarks & Monuments | text-entry | 15 |
-| Native American History | Native American History | text-entry | 15 |
+| Native American History | Native American History | text-entry | 22 |
 | U.S. Presidents | All U.S. Presidents | fill-blanks | 47 |
 | U.S. Presidents | Presidential Firsts & Records | text-entry | 15 |
 | U.S. Presidents | Presidents Grid Match | grid-match | 24 |
 | U.S. States | U.S. State Capitals | fill-blanks | 50 |
-| Vice Presidents | Notable Vice Presidents | text-entry | 21 |
+| Vice Presidents | Notable Vice Presidents | text-entry | 27 |
 | Major U.S. Wars | Major U.S. Wars | text-entry (cards) | 12 |
 | Supreme Court | Landmark Supreme Court Cases | text-entry (cards) | 15 |
 
 **Empty subcategories (2):** Declaration of Independence, Presidential Records
+
+---
+
+## Cross-Category (0 exercises, 0 items)
+
+
+**Empty subcategories (3):** Celebrity Real Names, Often Confused Pairs, Trivia Pavlovs
 
 ---
 
@@ -51,15 +58,16 @@ node scripts/content-map.mjs
 
 ---
 
-## Art (3 exercises, 45 items)
+## Art (4 exercises, 60 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Art Movements | Art Movements | text-entry | 12 |
 | Famous Artists | Famous Artists | text-entry | 18 |
 | Museums | Art Museums of the World | text-entry | 15 |
+| Photography | Photography Pioneers & Icons | text-entry | 15 |
 
-**Empty subcategories (6):** Art Techniques, Famous Works, Modern & Contemporary Art, Modern & Contemporary Art, Photography, Photography & Modern Art
+**Empty subcategories (5):** Famous Works, Modern & Contemporary, Modern & Contemporary Art, Photography & Modern Art, Techniques
 
 ---
 
@@ -135,7 +143,7 @@ node scripts/content-map.mjs
 
 ---
 
-## Games/Sport (17 exercises, 288 items)
+## Games/Sport (17 exercises, 289 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
@@ -145,14 +153,14 @@ node scripts/content-map.mjs
 | College Sports | College Sports & Rivalries | text-entry | 15 |
 | College Sports | Heisman Trophy Winners | text-entry | 15 |
 | Famous Athletes | Legendary Athletes | text-entry | 18 |
-| Football | Super Bowl Winners & MVPs | text-entry | 20 |
+| Football | Super Bowl Winners & MVPs | text-entry | 28 |
 | Golf | Golf Majors | text-entry | 12 |
 | Hockey | Stanley Cup Winners | text-entry | 15 |
 | Horse Racing | Horse Racing Triple Crown | text-entry | 12 |
 | Motorsport | Formula 1 World Champions | text-entry | 20 |
 | Olympics | Summer Olympic Host Cities | text-entry | 18 |
 | Rules & Terminology | Sports Rules & Terminology | text-entry | 15 |
-| Soccer | FIFA World Cup Winners | fill-blanks | 22 |
+| Soccer | World Cup Records & Moments | text-entry | 15 |
 | Sports Venues | Sports Venues & Stadiums | text-entry | 15 |
 | Tennis | Tennis Grand Slams | text-entry | 21 |
 | Track & Field | Olympic Track & Field Legends | text-entry | 20 |
@@ -161,13 +169,14 @@ node scripts/content-map.mjs
 
 ---
 
-## Geography (17 exercises, 453 items)
+## Geography (18 exercises, 436 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Airports | Airport Codes (IATA) | text-entry | 20 |
-| Cities | Cities by River | text-entry | 15 |
-| Countries | Countries of Asia | fill-blanks | 49 |
+| Cities | City Nicknames | text-entry | 15 |
+| Countries | Countries of Central America & the Caribbean | fill-blanks | 20 |
+| Countries | Countries of South America | fill-blanks | 12 |
 | Demographics | Most Populous Countries | text-entry | 20 |
 | Map Quizzes | Countries of Europe | text-entry (map) | 44 |
 | Map Quizzes | Countries of South America | text-entry (map) | 12 |
@@ -286,20 +295,21 @@ node scripts/content-map.mjs
 
 ---
 
-## Television (8 exercises, 105 items)
+## Television (9 exercises, 142 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
 | Awards & Records | TV Awards & Records | text-entry | 12 |
-| Catchphrases & Quotes | TV Catchphrases & Quotes | text-entry | 15 |
+| Catchphrases & Quotes | TV Catchphrases & Quotes | text-entry | 20 |
 | Children's Television | Children's Television | text-entry | 12 |
+| Emmy Award Winners | Emmy Award Winners: Drama & Comedy Series | text-entry | 21 |
 | Landmark TV Shows | Landmark TV Shows | text-entry | 15 |
-| Sci-Fi & Fantasy | Sci-Fi & Fantasy TV | text-entry | 12 |
+| Sci-Fi & Fantasy | Sci-Fi & Fantasy TV | text-entry | 15 |
 | Spinoffs | TV Spinoffs | text-entry | 12 |
-| Theme Songs | TV Theme Songs | text-entry | 12 |
-| TV Show Settings | TV Show Settings | text-entry | 15 |
+| Theme Songs | TV Theme Songs | text-entry | 15 |
+| TV Show Settings | TV Show Settings | text-entry | 20 |
 
-**Empty subcategories (8):** Awards & Records, Children's Television, Children's Television, Emmy Award Winners, Emmy Awards, Emmy Awards, Saturday Night Live, Show Settings
+**Empty subcategories (7):** Awards & Records, Children's Television, Children's Television, Emmy Awards, Emmy Awards, Saturday Night Live, Show Settings
 
 ---
 
@@ -343,22 +353,23 @@ node scripts/content-map.mjs
 
 | Category | Subcategories | With exercises | Empty | Exercises | Items |
 |----------|:------------:|:--------------:|:-----:|:---------:|------:|
-| American History | 11 | 9 | 2 | 11 | 255 |
+| American History | 11 | 9 | 2 | 11 | 268 |
+| Cross-Category | 3 | 0 | 3 | 0 | 0 |
 | Language | 8 | 5 | 3 | 10 | 160 |
-| Art | 9 | 3 | 6 | 3 | 45 |
+| Art | 9 | 4 | 5 | 4 | 60 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
 | Classical Music | 4 | 4 | 0 | 4 | 61 |
 | Current Events | 3 | 1 | 2 | 1 | 25 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 15 | 10 | 5 | 10 | 148 |
-| Games/Sport | 17 | 16 | 1 | 17 | 288 |
-| Geography | 14 | 11 | 3 | 17 | 453 |
+| Games/Sport | 17 | 16 | 1 | 17 | 289 |
+| Geography | 14 | 11 | 3 | 18 | 436 |
 | Lifestyle | 11 | 7 | 4 | 7 | 110 |
 | Literature | 15 | 15 | 0 | 17 | 288 |
 | Math | 5 | 5 | 0 | 6 | 83 |
 | Pop Music | 11 | 10 | 1 | 10 | 156 |
 | Science | 13 | 13 | 0 | 20 | 353 |
-| Television | 16 | 8 | 8 | 8 | 105 |
+| Television | 16 | 9 | 7 | 9 | 142 |
 | Theatre | 4 | 4 | 0 | 7 | 122 |
 | World History | 17 | 12 | 5 | 13 | 246 |
-| **Total** | **191** | | | **182** | **3243** |
+| **Total** | **194** | | | **185** | **3292** |
