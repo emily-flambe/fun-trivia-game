@@ -8,7 +8,7 @@ node scripts/content-map.mjs
 ```
 
 **Generated:** 2026-04-06  
-**Totals:** 19 categories, 214 nodes, 186 exercises, 3375 items
+**Totals:** 19 categories, 214 nodes, 184 exercises, 3347 items
 
 ---
 
@@ -97,15 +97,15 @@ node scripts/content-map.mjs
 
 ---
 
-## Current Events (5 exercises, 95 items)
+## Current Events (3 exercises, 67 items)
 
 | Subcategory | Exercise | Format | Items |
 |-------------|----------|--------|------:|
-| International Organizations | International Organization Leaders (2026) | text-entry | 15 |
-| International Organizations | Leaders of International Organizations (2026) | text-entry | 15 |
-| TIME Person of the Year | TIME Person of the Year: Notable Honorees | text-entry | 20 |
-| TIME Person of the Year | TIME Person of the Year: Notable Honorees | text-entry | 20 |
+| International Organizations | International Organization Headquarters | text-entry | 15 |
+| TIME Person of the Year | TIME Person of the Year: Notable Honorees | text-entry | 27 |
 | World Leaders | Current World Leaders (2026) | text-entry | 25 |
+
+**Empty subcategories (1):** TIME Person of the Year
 
 ---
 
@@ -358,7 +358,7 @@ node scripts/content-map.mjs
 | Art | 9 | 4 | 5 | 4 | 60 |
 | Business/Economics | 7 | 7 | 0 | 8 | 116 |
 | Classical Music | 4 | 4 | 0 | 4 | 96 |
-| Current Events | 4 | 4 | 0 | 5 | 95 |
+| Current Events | 4 | 3 | 1 | 3 | 67 |
 | Film | 8 | 8 | 0 | 10 | 172 |
 | Food/Drink | 15 | 10 | 5 | 10 | 148 |
 | Games/Sport | 17 | 16 | 1 | 17 | 289 |
@@ -371,4 +371,4 @@ node scripts/content-map.mjs
 | Television | 16 | 9 | 7 | 9 | 142 |
 | Theatre | 4 | 4 | 0 | 7 | 121 |
 | World History | 17 | 12 | 5 | 13 | 246 |
-| **Total** | **195** | | | **186** | **3375** |
+| **Total** | **195** | | | **184** | **3347** |
