@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cloneMapGeographyData, getMapConfig, getMapProjectionKey } from '../../src/app/lib/map-config';
+import { cloneMapGeographyData, getMapConfig, getMapProjectionKey, mapScaleToZoom } from '../../src/app/lib/map-config';
 
 describe('getMapConfig', () => {
 	it('returns europe map settings', () => {
@@ -51,5 +51,15 @@ describe('cloneMapGeographyData', () => {
 		expect(cloned).toEqual(input);
 		expect(cloned).not.toBe(input);
 		expect(cloned.features).not.toBe(input.features);
+	});
+});
+
+describe('mapScaleToZoom', () => {
+	it('converts world scale to 1x zoom', () => {
+		expect(mapScaleToZoom(147)).toBe(1);
+	});
+
+	it('converts continent scales to higher zoom values', () => {
+		expect(mapScaleToZoom(294)).toBe(2);
 	});
 });
