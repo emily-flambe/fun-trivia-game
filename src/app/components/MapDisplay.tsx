@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps';
 import type { PublicItem } from '../lib/api';
-import { cloneMapGeographyData, getMapConfig } from '../lib/map-config';
+import { cloneMapGeographyData, getMapConfig, mapScaleToZoom } from '../lib/map-config';
 import { WikiLinks } from './WikiLinks';
 import geoData from '../../../public/countries-110m.json';
 
@@ -49,6 +49,7 @@ interface Props {
 export function MapDisplay({ items, exerciseId }: Props) {
 	const [selectedId, setSelectedId] = useState<string | null>(null);
 	const config = getMapConfig(exerciseId);
+	const zoom = mapScaleToZoom(config.scale);
 	const geographyData = useMemo(() => cloneMapGeographyData(geoData), [exerciseId]);
 
 	const itemLookup = useMemo(() => buildGeoToItemMap(items), [items]);
@@ -65,12 +66,12 @@ export function MapDisplay({ items, exerciseId }: Props) {
 			<div className="rounded-xl overflow-hidden border border-border-subtle" style={{ background: '#c8dae8' }}>
 				<ComposableMap
 					projection="geoMercator"
-					projectionConfig={{ center: config.center, scale: config.scale }}
+					projectionConfig={{ scale: 147 }}
 					width={800}
 					height={500}
 					style={{ width: '100%', height: 'auto' }}
 				>
-					<ZoomableGroup>
+					<ZoomableGroup center={config.center} zoom={zoom}>
 						<Geographies geography={geographyData}>
 							{({ geographies }: { geographies: any[] }) =>
 								geographies.map((geo) => {

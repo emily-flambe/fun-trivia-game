@@ -3,6 +3,8 @@ export interface MapConfig {
 	scale: number;
 }
 
+const BASE_WORLD_SCALE = 147;
+
 export function getMapConfig(exerciseId: string): MapConfig {
 	if (exerciseId.includes('europe')) return { center: [15, 54], scale: 700 };
 	if (exerciseId.includes('south-america')) return { center: [-58, -18], scale: 450 };
@@ -18,4 +20,8 @@ export function getMapProjectionKey(exerciseId: string): string {
 
 export function cloneMapGeographyData<T>(data: T): T {
 	return structuredClone(data);
+}
+
+export function mapScaleToZoom(scale: number): number {
+	return scale / BASE_WORLD_SCALE;
 }

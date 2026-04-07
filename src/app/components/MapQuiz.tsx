@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps';
 import { checkAnswer, submitQuizResult, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
-import { cloneMapGeographyData, getMapConfig, getMapProjectionKey } from '../lib/map-config';
+import { cloneMapGeographyData, getMapConfig, getMapProjectionKey, mapScaleToZoom } from '../lib/map-config';
 import { QuizSummary } from './QuizSummary';
 import { WikiLinks } from './WikiLinks';
 import geoData from '../../../public/countries-110m.json';
@@ -102,6 +102,7 @@ export function MapQuiz({ exercise, items, exercisePath, nextExercisePath, nextN
 	const [retryContext, setRetryContext] = useState<{ isRetry: boolean; parentResultId: string | null }>({ isRetry: false, parentResultId: null });
 
 	const config = getMapConfig(exercise.id);
+	const zoom = mapScaleToZoom(config.scale);
 	const exerciseGeoNames = useMemo(() => buildGeoNameSet(items), [items]);
 	const geographyData = useMemo(() => cloneMapGeographyData(geoData), [exercise.id]);
 
@@ -247,12 +248,12 @@ export function MapQuiz({ exercise, items, exercisePath, nextExercisePath, nextN
 				<ComposableMap
 					key={getMapProjectionKey(exercise.id)}
 					projection="geoMercator"
-					projectionConfig={{ center: config.center, scale: config.scale }}
+					projectionConfig={{ scale: 147 }}
 					width={800}
 					height={500}
 					style={{ width: '100%', height: 'auto' }}
 				>
-					<ZoomableGroup>
+					<ZoomableGroup center={config.center} zoom={zoom}>
 						<Geographies geography={geographyData}>
 							{({ geographies }: { geographies: any[] }) =>
 								geographies.map((geo) => {
