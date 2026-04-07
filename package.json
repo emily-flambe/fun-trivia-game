@@ -11,6 +11,7 @@
     "test:worker": "vitest run -c vitest.config.mts",
     "test:all": "vitest run -c vitest.unit.config.ts && vitest run -c vitest.config.mts",
     "test:e2e": "npm run build && npx playwright test",
+    "verify:maps:prod": "node scripts/verify-map-quiz-prod.mjs",
     "seed": "node scripts/seed.mjs",
     "content-map": "node scripts/content-map.mjs"
   },
