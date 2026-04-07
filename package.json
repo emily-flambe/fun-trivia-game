@@ -12,6 +12,7 @@
     "test:all": "vitest run -c vitest.unit.config.ts && vitest run -c vitest.config.mts",
     "test:e2e": "npm run build && npx playwright test",
     "verify:maps:prod": "node scripts/verify-map-quiz-prod.mjs",
+    "deploy:verify:maps": "node scripts/post-deploy-checklist.mjs",
     "seed": "node scripts/seed.mjs",
     "content-map": "node scripts/content-map.mjs"
   },
