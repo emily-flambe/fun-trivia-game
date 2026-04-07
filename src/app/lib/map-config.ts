@@ -15,3 +15,7 @@ export function getMapConfig(exerciseId: string): MapConfig {
 export function getMapProjectionKey(exerciseId: string): string {
 	return `map-projection:${exerciseId}`;
 }
+
+export function cloneMapGeographyData<T>(data: T): T {
+	return structuredClone(data);
+}

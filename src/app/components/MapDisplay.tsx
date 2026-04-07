@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps';
 import type { PublicItem } from '../lib/api';
-import { getMapConfig } from '../lib/map-config';
+import { cloneMapGeographyData, getMapConfig } from '../lib/map-config';
 import { WikiLinks } from './WikiLinks';
 import geoData from '../../../public/countries-110m.json';
 
@@ -49,6 +49,7 @@ interface Props {
 export function MapDisplay({ items, exerciseId }: Props) {
 	const [selectedId, setSelectedId] = useState<string | null>(null);
 	const config = getMapConfig(exerciseId);
+	const geographyData = useMemo(() => cloneMapGeographyData(geoData), [exerciseId]);
 
 	const itemLookup = useMemo(() => buildGeoToItemMap(items), [items]);
 
@@ -70,7 +71,7 @@ export function MapDisplay({ items, exerciseId }: Props) {
 					style={{ width: '100%', height: 'auto' }}
 				>
 					<ZoomableGroup>
-						<Geographies geography={geoData}>
+						<Geographies geography={geographyData}>
 							{({ geographies }: { geographies: any[] }) =>
 								geographies.map((geo) => {
 									const geoName = geo.properties?.name || '';
