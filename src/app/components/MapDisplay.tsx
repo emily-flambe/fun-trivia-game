@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps';
 import type { PublicItem } from '../lib/api';
+import { getMapConfig } from '../lib/map-config';
 import { WikiLinks } from './WikiLinks';
 import geoData from '../../../public/countries-110m.json';
 
@@ -38,22 +39,6 @@ function buildGeoToItemMap(items: PublicItem[]): Map<string, PublicItem> {
 		}
 	}
 	return byName;
-}
-
-interface MapConfig {
-	center: [number, number];
-	scale: number;
-}
-
-// Determine map config based on exercise ID
-function getMapConfig(exerciseId: string): MapConfig {
-	if (exerciseId.includes('europe')) return { center: [15, 54], scale: 700 };
-	if (exerciseId.includes('south-america')) return { center: [-58, -18], scale: 450 };
-	if (exerciseId.includes('africa')) return { center: [20, 2], scale: 350 };
-	if (exerciseId.includes('asia')) return { center: [85, 35], scale: 300 };
-	if (exerciseId.includes('north-america')) return { center: [-95, 45], scale: 350 };
-	// Fallback: world view
-	return { center: [0, 20], scale: 147 };
 }
 
 interface Props {

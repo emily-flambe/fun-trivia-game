@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps';
 import { checkAnswer, submitQuizResult, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
+import { getMapConfig, getMapProjectionKey } from '../lib/map-config';
 import { QuizSummary } from './QuizSummary';
 import { WikiLinks } from './WikiLinks';
 import geoData from '../../../public/countries-110m.json';
@@ -40,20 +41,6 @@ const NAME_ALIASES: Record<string, string[]> = {
 	'United States': ['United States of America'],
 	'Trinidad and Tobago': ['Trinidad and Tobago'],
 };
-
-interface MapConfig {
-	center: [number, number];
-	scale: number;
-}
-
-function getMapConfig(exerciseId: string): MapConfig {
-	if (exerciseId.includes('europe')) return { center: [15, 54], scale: 700 };
-	if (exerciseId.includes('south-america')) return { center: [-58, -18], scale: 450 };
-	if (exerciseId.includes('africa')) return { center: [20, 2], scale: 350 };
-	if (exerciseId.includes('asia')) return { center: [85, 35], scale: 300 };
-	if (exerciseId.includes('north-america')) return { center: [-95, 45], scale: 350 };
-	return { center: [0, 20], scale: 147 };
-}
 
 // Build a lookup from geo name (lowercased) to the set of all matching item cardBack values
 function buildGeoNameSet(items: PublicItem[]): Set<string> {
@@ -257,6 +244,7 @@ export function MapQuiz({ exercise, items, exercisePath, nextExercisePath, nextN
 			{/* Map with highlighted country */}
 			<div className="rounded-xl overflow-hidden border border-border-subtle mb-4" style={{ background: '#c8dae8' }}>
 				<ComposableMap
+					key={getMapProjectionKey(exercise.id)}
 					projection="geoMercator"
 					projectionConfig={{ center: config.center, scale: config.scale }}
 					width={800}
