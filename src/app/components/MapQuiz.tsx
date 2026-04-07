@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps';
 import { checkAnswer, submitQuizResult, type ExerciseSummary, type PublicItem, type CheckAnswerResult } from '../lib/api';
 import { useAuth } from '../lib/auth-context';
-import { getMapConfig, getMapProjectionKey } from '../lib/map-config';
+import { cloneMapGeographyData, getMapConfig, getMapProjectionKey } from '../lib/map-config';
 import { QuizSummary } from './QuizSummary';
 import { WikiLinks } from './WikiLinks';
 import geoData from '../../../public/countries-110m.json';
@@ -103,6 +103,7 @@ export function MapQuiz({ exercise, items, exercisePath, nextExercisePath, nextN
 
 	const config = getMapConfig(exercise.id);
 	const exerciseGeoNames = useMemo(() => buildGeoNameSet(items), [items]);
+	const geographyData = useMemo(() => cloneMapGeographyData(geoData), [exercise.id]);
 
 	useEffect(() => {
 		const prepared = shuffleArray(items);
@@ -252,7 +253,7 @@ export function MapQuiz({ exercise, items, exercisePath, nextExercisePath, nextN
 					style={{ width: '100%', height: 'auto' }}
 				>
 					<ZoomableGroup>
-						<Geographies geography={geoData}>
+						<Geographies geography={geographyData}>
 							{({ geographies }: { geographies: any[] }) =>
 								geographies.map((geo) => {
 									const geoName = geo.properties?.name || '';

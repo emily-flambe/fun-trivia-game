@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getMapConfig, getMapProjectionKey } from '../../src/app/lib/map-config';
+import { cloneMapGeographyData, getMapConfig, getMapProjectionKey } from '../../src/app/lib/map-config';
 
 describe('getMapConfig', () => {
 	it('returns europe map settings', () => {
@@ -38,5 +38,18 @@ describe('getMapProjectionKey', () => {
 		const first = getMapProjectionKey('geography/maps/europe');
 		const second = getMapProjectionKey('geography/maps/europe');
 		expect(first).toBe(second);
+	});
+});
+
+describe('cloneMapGeographyData', () => {
+	it('returns a deep clone so map libs cannot mutate shared source data', () => {
+		const input = {
+			type: 'FeatureCollection',
+			features: [{ type: 'Feature', properties: { name: 'Testland' } }],
+		};
+		const cloned = cloneMapGeographyData(input);
+		expect(cloned).toEqual(input);
+		expect(cloned).not.toBe(input);
+		expect(cloned.features).not.toBe(input.features);
 	});
 });
