@@ -17,15 +17,15 @@
     "content-map": "node scripts/content-map.mjs"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.14.3",
-    "@cloudflare/workers-types": "^4.20260411.1",
+    "@cloudflare/vitest-pool-workers": "^0.14.7",
+    "@cloudflare/workers-types": "^4.20260418.1",
     "@playwright/test": "^1.59.1",
     "@tailwindcss/vite": "^4.2.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "tailwindcss": "^4.2.2",
-    "typescript": "^6.0.2",
+    "typescript": "^6.0.3",
     "vite": "^8.0.8",
     "vitest": "^4.1.4",
     "wrangler": "^4.78.0"
@@ -33,7 +33,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@vnedyalk0v/react19-simple-maps": "^2.0.7",
-    "agents": "^0.10.1",
+    "agents": "^0.11.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "zod": "^4.3.6"
